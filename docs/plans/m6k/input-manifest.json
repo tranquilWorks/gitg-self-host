@@ -1,0 +1,22 @@
+{
+  "schema_version": "GG-M6K-INPUT-SNAPSHOT-1.0",
+  "claim": "Previously authored source inputs, not quality-accepted or integration-verified. Preserve bytes before revision.",
+  "reference_base_commit": "c3491a4ff4c0ba77c7d8f2244bae7218ae568880",
+  "planning_main_commit": "bd6785e5caf783c2e924192d335207e2e193aaf3",
+  "archive": {
+    "filename": "GITG_M6J_Unpublished_Inputs.zip",
+    "sha256": "c22e69229a8836b8e21dbf74228ac014205f3bef9e2a68b2d50dae9ddfe82597",
+    "bytes": 610670,
+    "library_path": "/Grounded Growth/M6K Content Quality/GITG_M6J_Unpublished_Inputs.zip",
+    "file_id": "file_00000000f24882309d2528a503104a3c",
+    "library_file_id": "libfile_e05b39fd37fc819189b9fe19f90cba1b"
+  },
+  "archive_internal_manifest": "INPUT_MANIFEST.json contains exact per-file hashes; verify it after verifying the outer archive.",
+  "expected_files": {
+    "completion_domain_yaml_count": 19,
+    "domains": ["08","09","10","11","12","14","15","16","17","18","19","20","21","22","23","24","25","26","27"],
+    "source_ledger": "overlay/docs/authoring/sources.yaml",
+    "supporting": ["GITG_Competency_Content_Quality_Audit.md","GITG_M6J06_Attention_Discipline_Batch.zip"]
+  },
+  "important_limit": "The complete later compiler/integration patch is not present. Recover the original source bytes, then explicitly reconcile missing plumbing; never apply this archive as a verified overlay to main."
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "GG-M6K-QUALITY-PROGRAM-1.0",
+  "id": "M6K",
+  "title": "Competency quality remediation and acceptance",
+  "status": "planned_not_executed",
+  "repository": "tranquilWorks/gitg-self-host",
+  "branch": "codex/m6k-content-quality-roadmap",
+  "epic_issue": 57,
+  "planning_main_commit": "bd6785e5caf783c2e924192d335207e2e193aaf3",
+  "reference_authoring_base": "c3491a4ff4c0ba77c7d8f2244bae7218ae568880",
+  "canonical_path": "data/curriculum/ideal_person_curriculum_v2_pluralist_full_scope.yaml",
+  "canonical_sha256": "0b397894deca28855c04a13d59d2b8af8aec3b43210f8aecbe2519f4200bc560",
+  "target_competencies": 383,
+  "target_actions_preserved": 1151,
+  "source_bundle": "input-manifest.json",
+  "audit": "AUDIT.md",
+  "initial_quality_state": "pending",
+  "frozen_legacy_ids": ["08.02", "11.10", "16.03", "17.03", "26.01"],
+  "retained_typed_ids": ["08.06", "09.12", "10.02", "13.02"],
+  "milestones": [
+    {"id": "M6K-00", "issue": 58, "title": "Recover and baseline"},
+    {"id": "M6K-01", "issue": 59, "title": "Contract checks and workflow"},
+    {"id": "M6K-02", "issue": 60, "title": "Five demonstrated repairs"},
+    {"id": "M6K-03", "issue": 61, "title": "Scope and level"},
+    {"id": "M6K-04", "issue": 62, "title": "Instructional and professional"},
+    {"id": "M6K-05", "issue": 63, "title": "Independent cold-start"},
+    {"id": "M6K-06", "issue": 64, "title": "Integration and catalog verification"},
+    {"id": "M6K-07", "issue": 65, "title": "Genuine review and bounded closeout"}
+  ],
+  "cohort_policy": {
+    "default_competencies_per_action": 1,
+    "max_competencies_per_pr_without_explicit_reason": 3,
+    "gate_by_same_competency_not_global_pass": true,
+    "do_not_grandfather_earlier_batches": true,
+    "content_change_invalidates_affected_review": true
+  },
+  "invariants": [
+    "383 protocol IDs and 1151 scored action IDs",
+    "Canonical parent mappings and curriculum definitions",
+    "Assessment model activation and scoring mathematics",
+    "Explicit human closeout and credit semantics",
+    "Immutable historical evidence and active/paused import protection",
+    "Frozen runtime and retained typed-evidence contracts",
+    "No participant-data telemetry deployment or fabricated validation"
+  ],
+  "planner_limit": "The read-only navigator checks plan structure and declared dependency state only. Production evidence/hash enforcement is M6K-01-02; workflow dispatch is M6K-01-03. No work has run merely because this plan exists.",
+  "domain_counts": {"01":11,"02":15,"03":13,"04":10,"05":12,"06":14,"07":14,"08":11,"09":17,"10":14,"11":10,"12":16,"13":16,"14":13,"15":14,"16":18,"17":14,"18":14,"19":15,"20":18,"21":19,"22":17,"23":12,"24":14,"25":13,"26":14,"27":15},
+  "stages": {
+    "A": {"milestone":"M6K-03","issue":61,"title":"Scope, level and progression","acceptance":["A1: Every relevant canonical facet has a reasoned teaching/practice/evidence/next-route disposition; alternatives are not treated as simultaneous obligations.","A2: The learner can understand the competency and why the default represents it without the conversation.","A3: Default prerequisites and capability fit are explicit; suitable other routes exist where needed, not a universal trivial task.","A4: Adaptations preserve purpose, role choice, consent, resource realism and safety; an exclusion or referral alone does not cover a missing facet.","A5: Progression and transfer are useful and bounded; no short-task mastery claim, fixed word-count target or compulsory three-level ladder.","A6: Actual content changes and exact facet anchors are supplied; open source/qualified questions remain visible."]},
+    "B": {"milestone":"M6K-04","issue":62,"title":"Instructional completeness and professional editing","acceptance":["B1: Every promised brief dataset example template model and key is present and resolves by ID; nothing essential is delegated to inventing the intervention.","B2: Worked teaching, practice, unassisted prompts and separately revealed checks are distinct; numerical keys are independently recomputed and wrong answers rejected.","B3: Evidence concerns what was actually attempted; plans, rehearsal, self-attestation and live transfer are not conflated.","B4: Learner copy is clear professional and free of maintainer metadata, unsupported jargon, interchangeable substantive templates and excessive generic warnings.","B5: Setup, pacing, decision points, cost/access, meaningful adaptations and next action are usable without padding or loss of depth.","B6: Scope changes reopen A; instruction/material changes invalidate affected C; scoring and retained evidence remain unchanged."]},
+    "C": {"milestone":"M6K-05","issue":63,"title":"Independent cold-start and adversarial review","acceptance":["C1: A separate run first receives only learner-visible content, allowed materials and stated prerequisites, without author rationale or this conversation.","C2: Default work is actually desk-tested where possible; required invention and missing dependencies are recorded, not filled from reviewer knowledge.","C3: The supplied rubric distinguishes a competent, partial and plausible incorrect/adverse result; keys are withheld until checking.","C4: Relevant access/resource/role and capability variations retain the goal; scope and neighboring-task distinctness are audited after the cold-start attempt.","C5: Live physical, relational, clinical and longitudinal actions not performed remain untested; no fictional participant, consent or specialist claim.","C6: Blocking findings return to A/B and require fresh C on changed artifacts; pass is agent editorial review, never human or empirical validation."]}
+  },
+  "pre_tasks": [
+    {"id":"M6K-00-01","title":"Recover and pin the complete draft corpus","depends_on":[],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-00-02","title":"Establish invariant snapshots and honest quality dimensions","depends_on":["M6K-00-01"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-01-01","title":"Add compatible rich instructional material and fair-check support","depends_on":["M6K-00-02"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-01-02","title":"Enforce mechanical quality and revision-bound review evidence","depends_on":["M6K-01-01"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-01-03","title":"Register one-action continuation in the governed portfolio workflow","depends_on":["M6K-01-02"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-02-01","title":"Supply all three craft briefs and matching check keys","depends_on":["M6K-01-02"],"actor_kind":"agent","competency_ids":["21.03"]},
+    {"id":"M6K-02-02","title":"Separate worked learning examples from the delayed test","depends_on":["M6K-01-02"],"actor_kind":"agent","competency_ids":["10.01"]},
+    {"id":"M6K-02-03","title":"Give strength competence a capability-fit progression pathway","depends_on":["M6K-01-02"],"actor_kind":"agent","competency_ids":["12.05"]},
+    {"id":"M6K-02-04","title":"Represent power speed coordination and agility through suitable routes","depends_on":["M6K-01-02"],"actor_kind":"agent","competency_ids":["12.08"]},
+    {"id":"M6K-02-05","title":"Move internal compatibility commentary out of learner instructions","depends_on":["M6K-01-02"],"actor_kind":"agent","competency_ids":["10.02"]}
+  ],
+  "post_tasks": [
+    {"id":"M6K-06-01","title":"Audit semantic originality and cross-catalog coherence","depends_on":["@all-C"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-06-02","title":"Audit actual source support and prepare risk dossiers","depends_on":["@all-C"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-06-03","title":"Run full-catalog deterministic and non-browser verification","depends_on":["@all-domain-integration","M6K-06-01","M6K-06-02"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-06-04","title":"Inspect final runtime and all learner material/reveal journeys","depends_on":["M6K-06-03"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-06-05","title":"Verify upgrade replay Compose and exact-head hosted readiness","depends_on":["M6K-06-04"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-07-01","title":"Prepare the genuine owner learner and expert acceptance handoff","depends_on":["M6K-06-05"],"actor_kind":"agent","competency_ids":[]},
+    {"id":"M6K-07-02","title":"Obtain actual owner learner and required qualified decisions","depends_on":["M6K-07-01"],"actor_kind":"human_gate","competency_ids":[]},
+    {"id":"M6K-07-03","title":"Reconcile final decisions and publish a bounded closeout","depends_on":["M6K-07-02"],"actor_kind":"agent","competency_ids":[]}
+  ],
+  "contracts": "Full milestone action contracts are the linked GitHub issues; README.md and REVIEW_RECORD.md are the local execution and evidence rules."
+}
