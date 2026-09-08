@@ -1,0 +1,116 @@
+schema_version: 1
+batch:
+  id: M6K-01-01.Rd4a35a8f56b5
+  title: Add compatible rich instructional material and fair-check support
+  goal: Execute only M6K-01-01; retain current-revision evidence and explicit unperformed work.
+sources:
+  product: products/gitg-self-host/product.yaml
+  requirements:
+  - docs/plans/m6k/README.md
+  - docs/plans/m6k/REVIEW_RECORD.md
+  - https://github.com/tranquilWorks/gitg-self-host/issues/59
+  milestone: M6K-01
+  baseline_commit: f03e73db4748b192bfe6fae18ac0f540874700cd
+  control_plane_repository: tranquilWorks/portfolio-control
+  control_plane_path: products/gitg-self-host/batches/M6K-01-01.Rd4a35a8f56b5.yaml
+  control_plane_revision: 38a7c91d8c3fe7a663a57d0353a3e60773ded20d
+dependencies:
+- M6K-00-02
+scope:
+  allowed_paths:
+  - MANIFEST.tsv
+  - contracts/active-batch.yaml
+  - contracts/repo-profile.yaml
+  - data/practices/schema/**
+  - docs/authoring/quality/**
+  - docs/authoring/quality/current-report.json
+  - docs/authoring/quality/ledger.json
+  - docs/evidence/M6K-01-01*.md
+  - docs/plans/m6k/**
+  - docs/plans/m6k/program-receipts.json
+  - growth/domain/instructional_content.py
+  - growth/domain/practice_content.py
+  - growth/templatetags/**
+  - growth/urls.py
+  - growth/views_instructional.py
+  - scripts/tailored_practice_authoring.py
+  - templates/growth/partials/instructional_link.html
+  - templates/growth/practice_guide.html
+  - tests/e2e/test_instructional_content.py
+  - tests/test_instructional_content.py
+  - tests/test_m6k_*.py
+  forbidden_paths:
+  - .github/workflows/**
+  - Dockerfile
+  - data/assessment/**
+  - data/curriculum/**
+  - data/model/**
+  - data/practices/protocols/01/*
+  - data/practices/protocols/02/*
+  - data/practices/protocols/03/*
+  - data/practices/protocols/04/*
+  - data/practices/protocols/05/*
+  - data/practices/protocols/06/*
+  - data/practices/protocols/07/*
+  - data/practices/protocols/08/*
+  - data/practices/protocols/09/*
+  - data/practices/protocols/10/*
+  - data/practices/protocols/11/*
+  - data/practices/protocols/12/*
+  - data/practices/protocols/13/*
+  - data/practices/protocols/14/*
+  - data/practices/protocols/15/*
+  - data/practices/protocols/16/*
+  - data/practices/protocols/17/*
+  - data/practices/protocols/18/*
+  - data/practices/protocols/19/*
+  - data/practices/protocols/20/*
+  - data/practices/protocols/21/*
+  - data/practices/protocols/22/*
+  - data/practices/protocols/23/*
+  - data/practices/protocols/24/*
+  - data/practices/protocols/25/*
+  - data/practices/protocols/26/*
+  - data/practices/protocols/27/*
+  - data/practices/registries/activation_ledger.yaml
+  - docker-compose.yml
+  - growth/domain/composite_scoring.py
+  - growth/domain/context_priority.py
+  - growth/domain/evidence.py
+  - growth/domain/typed_evidence.py
+  - growth/migrations/**
+  - growth/models.py
+  - growth/services/canonical_import.py
+  - growth/services/composite_score_state.py
+  - pyproject.toml
+  - requirements*.txt
+acceptance:
+- Add compatible rich instructional material and fair-check support
+- Retain exact artifacts and executed verification; no fabricated human or content acceptance.
+validation:
+  local:
+  - ./scripts/agent-verify.sh full
+  - git diff --check
+  focused_tests_to_add:
+  - Exercise the selected action and its negative cases; preserve neighboring entries and immutable
+    evidence.
+  required_ci:
+  - Pilot readiness gate
+  - Playwright core journeys
+  - Docker Compose deployment drill
+risk:
+  class: high
+  hazards:
+  - Stale reviews or unrelated source edits are accepted.
+  stop_conditions:
+  - Current prerequisite evidence is missing or stale.
+  - Forbidden path or neighboring competency changes.
+  - Required verification fails.
+rollback:
+  strategy: Revert this isolated source batch; preserve historical evidence and restore the verified
+    backup before any runtime import.
+evidence:
+  output:
+  - docs/evidence/M6K-01-01.Rd4a35a8f56b5.md
+  claim_boundary: One action; software/editorial evidence only. No participant, specialist, owner,
+    deployment or mastery acceptance is implied.

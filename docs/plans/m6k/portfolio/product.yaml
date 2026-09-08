@@ -1,0 +1,58 @@
+schema_version: 1
+product:
+  id: gitg-self-host
+  name: Grounded Growth
+  profile: product-data
+  repositories:
+    - tranquilWorks/gitg-self-host
+outcomes:
+  - Convert a pluralist 383-competency curriculum into individually authored, bounded, context-fit Practice Protocols without exposing the ontology as a user checklist.
+  - Provide a concise Personal OS connecting Truth/Autopilot Audit, mission, principles, anti-goals, season, capacity, priority, weekly execution, and proof-based review.
+  - Preserve deterministic, explainable, reversible evidence and scoring boundaries while never scoring dignity, worth, or mere completion.
+  - Keep canonical content, source/risk/review registries, migrations, reports, backup, restore, browser, and deployment behavior recoverable and auditable.
+users:
+  primary:
+    - self-directed private-instance owner
+  secondary:
+    - consented private-pilot participants
+    - future content and specialist reviewers
+non_goals:
+  - clinical diagnosis or treatment
+  - psychometric certification from software fixtures
+  - universal flourishing or worth score
+  - user-facing 383-item checklist
+  - automatic mass score activation
+  - remote telemetry by default
+  - social ranking or coercive engagement mechanics
+constraints:
+  deployment: self-hosted single-service Django and SQLite until evidence justifies change
+  canonical_source: target repository data and reviewed decisions
+  participant_data: local private and minimized
+  content_batch_size: exactly 1 package per full-authoring batch
+  mass_authoring_gate: exact source-only single-competency contract, verified coverage transition, and deterministic CI; consolidated human review is deferred to M6B-GOV after 383/383 packages
+  scoring_activation: explicit activation ledger and separate owner approval only
+quality:
+  required_gates:
+    - canonical data and schema validation
+    - uniqueness completeness and manifest integrity
+    - deterministic generated reports
+    - evidence and score replay
+    - migration and rollback checks
+    - pilot curriculum and competency-evidence readiness
+    - browser journeys and visual artifact review
+    - Docker Compose deployment backup and restore
+    - deterministic originality and source reports retained for final consolidated human review
+  evidence_levels:
+    - static
+    - synthetic fixture
+    - deterministic replay
+    - owner-operated pilot
+    - specialist review
+    - multi-cycle participant pilot
+release:
+  human_approval: required_for_final_content_acceptance_runtime_activation_release_and_deployment
+  rollback_required: true
+  target_pull_requests: automatic_for_exact_head_ci_green_source_only_draft_cohorts
+  control_plane_contracts: may_auto_merge_after_schema_and_ci_pass
+  production_score_activation: manual_cohort_approval_only
+  deployment: manual

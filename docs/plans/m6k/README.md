@@ -23,9 +23,10 @@ The initial inventory contains **383 competencies, 1,149 single-competency revie
 These are small checkpoints, not 1,194 required pull requests. One genuine human gate
 is explicit; the other actions are agent work, subject to actual tools and evidence.
 
-The plan files reached main through PR #66. The GitHub issues are live, but the
-portfolio workflow bridge is still M6K-01-03; this navigator does not install or
-dispatch a background runner.
+The plan files reached main through PR #66. The M6K-01-03 continuation bridge is
+documented in [CONTINUATION.md](CONTINUATION.md). It uses evidence-derived progress
+and the existing Portfolio Control runner through an explicit one-action entry
+point. This navigator remains advisory and installs no background runner.
 
 From a repository checkout after staging the package with its declared Python environment:
 
@@ -42,7 +43,8 @@ until its remaining verification is complete. Without state the first action
 remains M6K-00-01. The navigator only
 reads files and prints tasks. It does not execute work, run in the background, approve
 content, modify the active batch or install itself into portfolio-control. The real
-review-evidence enforcement and workflow bridge are explicit tasks in M6K-01.
+review-evidence enforcement was merged in PR #68; the bridge is a paired target
+and Portfolio Control change. Neither merge alone certifies content acceptance.
 An optional `--state state.json` accepts `reported_completed` and `reported_blocked`
 ID lists for advisory navigation only. It rejects unknown IDs, dependency conflicts
 and attempts to clear the human gate. This state is not an acceptance ledger.

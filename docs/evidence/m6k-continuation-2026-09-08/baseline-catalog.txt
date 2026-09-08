@@ -1,0 +1,19 @@
+.venv/bin/python scripts/author_full_competency_frontier.py --check
+Canonical source is deterministic and current; tailored rewrite 91/383, 292 remain.
+.venv/bin/python -m pytest tests/test_full_competency_frontier.py tests/test_practice_content.py::test_generated_coverage_and_originality_reports_are_current_and_complete
+============================= test session starts ==============================
+platform linux -- Python 3.12.13, pytest-8.4.2, pluggy-1.6.0
+django: version: 6.0.8, settings: grounded_growth.settings_test (from ini)
+rootdir: /workspace/scratch/16fa3a306990/gitg-self-host
+configfile: pyproject.toml
+plugins: django-4.14.0, playwright-0.9.0, base-url-2.1.0
+collected 3 items
+
+tests/test_full_competency_frontier.py ..                                [ 66%]
+tests/test_practice_content.py .                                         [100%]
+
+======================== 3 passed in 542.61s (0:09:02) =========================
+.venv/bin/python scripts/catalog_governance_audit.py --check
+catalog_governance_audit=verified changed=0
+.venv/bin/python scripts/composite_scoring_catalog.py --check
+composite scoring catalog verified: 383 competencies, 1151 actions, no missing dispositions

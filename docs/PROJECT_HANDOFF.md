@@ -1,5 +1,16 @@
 # Grounded Growth — Project Handoff
 
+## M6K governed continuation — 2026-09-08
+
+PR #68 merged the mechanical/revision-bound review validator. The next workflow
+slice adds `docs/plans/m6k/continuation.py` and a paired Portfolio Control entry
+point. See `docs/plans/m6k/CONTINUATION.md` and
+`docs/evidence/M6K-CONTINUATION-2026-09-08.md` for scope, validation and rollout.
+The first unresolved action remains M6K-01-01 browser/release verification; do not
+infer completion from the presence or merge of software. The new program records
+accept only the two retained recovery actions. All seven per-competency quality
+dimensions remain pending; runtime stays 91 tailored / 292 pending.
+
 ## M6K recovery continuation — 2026-09-08
 
 The owner-supplied execution ZIP restored all 383 original draft sources. See

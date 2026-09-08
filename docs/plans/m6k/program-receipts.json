@@ -1,0 +1,138 @@
+{
+  "schema_version": "GG-M6K-PROGRAM-RECEIPTS-1.0",
+  "records": [
+    {
+      "task_id": "M6K-00-01",
+      "task_hash": "60c848072000247a829f5df0f56fd94f487521b9c56642174918a133144146b3",
+      "state": "pass",
+      "actor_kind": "agent",
+      "execution": "executed",
+      "decision_reference": null,
+      "reason": "Retained recovery evidence from merged PR #67, reverified in PR #68; no content acceptance.",
+      "dependencies": {},
+      "bindings": [
+        {
+          "path": "docs/plans/m6k/recovery/source-inventory.json",
+          "pointer": "",
+          "sha256": "5b6b2cc215a4ae9e994cfd037d00d0215edd8c8c2117c1e78742043fb16d35f8"
+        },
+        {
+          "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+          "pointer": "",
+          "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "sources",
+          "verdict": "pass",
+          "reason": "All 383 original entries resolve to exact hashes.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/recovery/source-inventory.json",
+              "pointer": "",
+              "sha256": "5b6b2cc215a4ae9e994cfd037d00d0215edd8c8c2117c1e78742043fb16d35f8"
+            },
+            {
+              "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+              "pointer": "",
+              "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+            }
+          ]
+        },
+        {
+          "id": "provenance",
+          "verdict": "pass",
+          "reason": "The recovered archive and source inventory retain their original origins.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/recovery/source-inventory.json",
+              "pointer": "",
+              "sha256": "5b6b2cc215a4ae9e994cfd037d00d0215edd8c8c2117c1e78742043fb16d35f8"
+            },
+            {
+              "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+              "pointer": "",
+              "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "M6K-00-02",
+      "task_hash": "83918dbc4e9dfedc36b49b8c10df2192ce5bc508df2fd3d00b9e043f1ee3e933",
+      "state": "pass",
+      "actor_kind": "agent",
+      "execution": "executed",
+      "decision_reference": null,
+      "reason": "Retained recovery evidence from merged PR #67, reverified in PR #68; no content acceptance.",
+      "dependencies": {
+        "M6K-00-01": "77ff034d34c051f2f200914dbd4106f89bfa7bed5bc42cba7fdc4af1b7518f3c"
+      },
+      "bindings": [
+        {
+          "path": "docs/plans/m6k/recovery/runtime-invariants.json",
+          "pointer": "",
+          "sha256": "9c78fe91d542021dba919473bddaffbdcb882e079f12b04043a6b6e806fdf6fe"
+        },
+        {
+          "path": "docs/plans/m6k/recovery/initial-quality-ledger.json",
+          "pointer": "",
+          "sha256": "0188cf64b2a2a0813c03e146148fcb5a8ce5c2fc9011ebcbcf89fdee1cf5f136"
+        },
+        {
+          "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+          "pointer": "",
+          "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "invariants",
+          "verdict": "pass",
+          "reason": "The preserved snapshot lists 383 protocols and 1151 action identities.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/recovery/runtime-invariants.json",
+              "pointer": "",
+              "sha256": "9c78fe91d542021dba919473bddaffbdcb882e079f12b04043a6b6e806fdf6fe"
+            },
+            {
+              "path": "docs/plans/m6k/recovery/initial-quality-ledger.json",
+              "pointer": "",
+              "sha256": "0188cf64b2a2a0813c03e146148fcb5a8ce5c2fc9011ebcbcf89fdee1cf5f136"
+            },
+            {
+              "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+              "pointer": "",
+              "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+            }
+          ]
+        },
+        {
+          "id": "pending_dimensions",
+          "verdict": "pass",
+          "reason": "The original ledger retains seven pending dimensions for every entry.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/recovery/runtime-invariants.json",
+              "pointer": "",
+              "sha256": "9c78fe91d542021dba919473bddaffbdcb882e079f12b04043a6b6e806fdf6fe"
+            },
+            {
+              "path": "docs/plans/m6k/recovery/initial-quality-ledger.json",
+              "pointer": "",
+              "sha256": "0188cf64b2a2a0813c03e146148fcb5a8ce5c2fc9011ebcbcf89fdee1cf5f136"
+            },
+            {
+              "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+              "pointer": "",
+              "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
