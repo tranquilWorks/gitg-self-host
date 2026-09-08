@@ -1,5 +1,19 @@
 # Grounded Growth — Project Handoff
 
+## M6K QA-01 craft repair — 2026-09-08
+
+PRs #69 and Portfolio #371 are merged. Actual hosted browser artifacts now support
+the instructional prerequisite; see `docs/evidence/M6K-QA01-CRAFT-REPAIR.md` for the
+review and remaining release gates. The software prerequisite records bind actual
+executed checks rather than merely the merges.
+
+21.03 now has a supplied work record, concrete access inspections and a separately
+checked wrong-date notice alongside the three complete briefs. Its full source
+exercise and five-case desk run are retained under `docs/authoring/quality/21.03/`.
+Only the specific QA-01 source defect is addressed: formal A/B/C, integration and
+human dimensions remain pending. Runtime remains 91 tailored / 292 pending. The
+next action is M6K-02-02 (10.01 delayed-test repair); global release gates remain open.
+
 ## M6K governed continuation — 2026-09-08
 
 PR #68 merged the mechanical/revision-bound review validator. The next workflow

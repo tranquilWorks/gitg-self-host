@@ -1,13 +1,19 @@
 # M6K — Competency quality remediation and acceptance
 
-**State: source recovery complete; instructional support and three repair drafts
-reconstructed, with final browser/release verification pending.**
+**State: source recovery and instructional software verification complete; QA-01
+source repair checked. Broader release gates and formal competency reviews remain open.**
+
+The current evidence-backed continuation selects M6K-02-02 (10.01). See
+`docs/evidence/M6K-QA01-CRAFT-REPAIR.md` for the actual hosted screenshot review,
+software prerequisite receipts and the 21.03 dry-run. The advisory navigator state
+below is retained historical navigation; use `continuation.py preview` for evidence.
 
 The owner-supplied archive was recovered in PR #67. All 383 original drafts are
 pinned under `recovery/`; current runtime remains 91 tailored and 292 pending.
 See `docs/evidence/M6K-RECOVERY-2026-09-08.md` and ADR 0019. Formal A/B/C and
-human/qualified acceptance remain pending. The three prepared repairs are not
-selected for runtime compilation and do not clear their M6K-01-02 dependency.
+human/qualified acceptance remain pending. The three prepared repairs remain
+unselected for runtime compilation. Software prerequisites now have separate
+executed evidence; source content alone never clears those dependencies.
 
 Owner requirement: each competency must be individually developed, sufficiently deep,
 professionally written, self-contained and representative of its canonical goal.

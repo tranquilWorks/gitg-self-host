@@ -1,0 +1,42 @@
+{
+  "execution": "executed_synthetic_author_desk_run",
+  "cases": [
+    {
+      "case": "complete",
+      "brief": "seed-swap",
+      "notice": "Neighborhood Seed Swap\nDate: 16 May 2027\nTime: 10:00–11:30\nLocation: Willow Community Room, 18 Meadow Lane\nContact: seed-swap@events.example",
+      "failures": []
+    },
+    {
+      "case": "complete",
+      "brief": "repair-cafe",
+      "notice": "Repair Café Taster\nDate: 4 June 2027\nTime: 18:15–19:30\nLocation: Workshop B, Cedar Learning Centre, 42 Pine Street\nContact: repair@events.example",
+      "failures": []
+    },
+    {
+      "case": "complete",
+      "brief": "sketch-walk",
+      "notice": "Evening Sketch Walk\nDate: 12 July 2027\nTime: 19:00–20:15\nLocation: Eastgate, Brook Park, 7 River Road\nContact: sketch@events.example",
+      "failures": []
+    },
+    {
+      "case": "partial",
+      "brief": "repair-cafe",
+      "notice": "Repair Café Taster\nDate: 4 June 2027\nTime: 18:15–19:30\nLocation: Workshop B, Cedar Learning Centre, 42 Pine Street\nContact: ",
+      "failures": [
+        "contact"
+      ]
+    },
+    {
+      "case": "plausible_incorrect",
+      "brief": "seed-swap",
+      "notice": "Neighborhood Seed Swap\nDate: 17 May 2027\nTime: 10:00–11:30\nLocation: Willow Community Room, 18 Meadow Lane\nContact: seed-swap@events.example",
+      "failures": [
+        "date"
+      ]
+    }
+  ],
+  "accuracy_cases_verified": 5,
+  "usability": "U1 supplied text order inspected; U2 live audience/access testing unperformed.",
+  "formal_abc_or_human_acceptance": false
+}

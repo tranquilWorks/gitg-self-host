@@ -246,6 +246,48 @@ exercises:
           access for a digital notice, or the selected large-print/speech method. Record that specific
           condition. A text comparison alone cannot certify every device, reader or print condition. Do
           not invent a fee, booking rule or access claim that the brief does not supply.'
+      - id: work-record
+        kind: material
+        title: Keep the first attempt and its check
+        body: |
+          Copy this record once for each notice. Keep the notice itself alongside it.
+
+          Brief and first-output filename/page:
+          Tool, format and supports used:
+          F1 event name: [met / not met / uninspected] — location or discrepancy:
+          F2 date: [met / not met / uninspected] — location or discrepancy:
+          F3 start and end times: [met / not met / uninspected] — location or discrepancy:
+          F4 full venue and address: [met / not met / uninspected] — location or discrepancy:
+          F5 contact route: [met / not met / uninspected] — location or discrepancy:
+          U1 reading order: [met / not met / uninspected] — how inspected:
+          U2 access condition: [met / not met / uninspected] — condition and result:
+          Reviewer: [self / freely willing reader] — help used:
+          Correction and separate revised-output filename/page:
+
+          Do not turn seven boxes into an average score. One incorrect factual value means
+          the first output was inaccurate. An uninspected criterion is unknown. Record the
+          corrected result separately so a successful edit does not erase the original error.
+      - id: access-check
+        kind: material
+        title: Inspect the format you actually used
+        body: |
+          For digital text, read or listen from the event heading through the contact line.
+          Check that every fact occurs once in a sensible sequence. Enlarge the text to
+          200 percent using your usual application controls and inspect every line for clipping
+          or overlap. If a text-reading route matters for your use, inspect the reading order
+          with that route too; visually positioned boxes may be read in an unexpected order.
+          An image-only notice needs a matching text version. Record the application, enlargement
+          and reading route actually checked; another device or assistive tool remains untested.
+
+          For paper, use the intended print size, lighting and reading distance. Read all five
+          facts without guessing at cramped or faint characters. Enlarge or simplify the notice
+          if that fails, preserve the earlier version, and inspect the revision. A screen preview
+          does not establish that the printed copy is usable.
+
+          For speech, state the labeled facts in order and allow a replay. Have a freely willing
+          listener repeat back the date, both times, full place and contact if one is available.
+          Otherwise record a self-check and leave another listener's usability untested. Necessary
+          supports are legitimate conditions; these checks are not an accessibility certification.
       - id: capability-fit
         kind: pathway
         title: Use an appropriately demanding component
@@ -278,6 +320,8 @@ exercises:
         references:
         - seed-swap-brief
         - standard
+        - work-record
+        - access-check
         check_id: seed-swap-key
         attempt_mode: practice
       - id: repair-cafe-brief
@@ -301,6 +345,8 @@ exercises:
         references:
         - repair-cafe-brief
         - standard
+        - work-record
+        - access-check
         check_id: repair-cafe-key
         attempt_mode: practice
       - id: sketch-walk-brief
@@ -324,6 +370,8 @@ exercises:
         references:
         - sketch-walk-brief
         - standard
+        - work-record
+        - access-check
         check_id: sketch-walk-key
         attempt_mode: practice
       - id: retest-input
@@ -342,7 +390,30 @@ exercises:
         - seed-swap-brief
         - retest-input
         - standard
+        - work-record
+        - access-check
         check_id: retest-key
+        attempt_mode: practice
+      - id: spot-the-defect
+        kind: prompt
+        title: Check a plausible but inaccurate notice
+        body: |
+          Inspect this practice notice against the Neighborhood Seed Swap brief. Use the
+          same F1–F5 standard before opening the check; do not judge it by its tidy layout.
+
+          Neighborhood Seed Swap
+          Date: 17 May 2027
+          Time: 10:00–11:30
+          Location: Willow Community Room, 18 Meadow Lane
+          Contact: seed-swap@events.example
+
+          Which criterion is not met? Name the authoritative fact, the smallest correction,
+          and the remaining facts you would recheck before calling the revised notice accurate.
+        references:
+        - seed-swap-brief
+        - standard
+        - work-record
+        check_id: defect-key
         attempt_mode: practice
       - id: review-next
         kind: next_step
@@ -354,6 +425,20 @@ exercises:
           three small samples supports only a bounded observation of this component and the conditions
           used; broader craft competence and live audience usability remain untested.'
       checks:
+      - id: defect-key
+        title: Check the inaccurate notice
+        body: |
+          F2 is not met: the source says 16 May 2027, but the notice says 17 May 2027.
+          Replace 17 with 16 and retain the first output as inaccurate. Then recheck the
+          event name, start and end times, full venue/address and complete contact against
+          the same brief. A correct-looking heading or all the other facts cannot cancel
+          the wrong date. This text comparison checks factual accuracy; U1 and U2 still
+          need the relevant reading-order and access inspection on the actual output.
+        criteria:
+        - Identify F2 and the mismatch between 16 and 17 May 2027.
+        - Preserve the original and make the date correction in a separate revision.
+        - Recheck F1, F3, F4 and F5 instead of assuming the edit preserved them.
+        - Keep uninspected reading-order or access conditions explicitly unknown.
       - id: seed-swap-key
         title: Check Neighborhood Seed Swap
         body: 'Neighborhood Seed Swap
