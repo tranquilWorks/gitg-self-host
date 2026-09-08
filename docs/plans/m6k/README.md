@@ -1,6 +1,28 @@
 # M6K — Competency quality remediation and acceptance
 
 
+## Retrieval, decomposition and feedback runtime cohort — 8 September 2026
+
+The post-PR #73 continuation completes **10.06 Memory and recall**, **10.07 Skill
+decomposition and progression**, and **10.08 Feedback and error correction**,
+increasing compiler/runtime coverage to **102 tailored / 281 pending**. The three
+form one retrieval-to-correction learning loop, which is the explicit reason for
+using the maximum three-item batch; every competency retains separate materials,
+prompts, checks, recovery baseline and content record.
+
+The default routes are fully executable with fictional low-stakes materials. 10.06
+separates recognition, unaided recall, cue use, lookup, correction, actual delay and
+version interference. 10.07 connects components through prerequisites and a held-back
+whole-task case. 10.08 ties feedback to a preserved output and fixed standard before
+one targeted correction and comparable retest. See
+`docs/authoring/M6K-LEARNING-LOOP-SCOPE-MAP.md` and the six separate check files.
+
+The compiler preserves 383 protocols and 1,151 actions. Formal scope,
+instructional, cold-start, integration, actual learner, qualified and owner-review
+counts remain zero. These authored practices do not demonstrate broad memory gains,
+expertise, universal feedback benefit or empirical effectiveness.
+
+
 ## Inquiry and reusable-knowledge runtime cohort — 8 September 2026
 
 The continuation after merged PR #72 completes **10.03 Curiosity and question

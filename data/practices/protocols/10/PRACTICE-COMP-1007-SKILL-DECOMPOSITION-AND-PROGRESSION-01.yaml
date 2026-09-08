@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1007-SKILL-DECOMPOSITION-AND-PROGRESSION-01
 slug: c1007-skill-decomposition-and-progression-practice
-name: Bounded Skill decomposition and progression Practice
+name: Break a complex skill into prerequisites and an integration test
 parent_competency_id: '10.07'
 domain_id: '10'
 governance:
@@ -14,10 +14,10 @@ governance:
   scoring_status: active
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
+  - SRC-VAN-MERRIENBOER-4CID-2002
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 10.07
-      (Skill decomposition and progression); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 10.07; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +35,49 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Skill decomposition and progression through a low-stakes skill rehearsal bounded
-    by the canonical scope: Break complex abilities into prerequisites, components, milestones, exercises,
-    and integration challenges.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can design a learning
-    path that exposes dependencies and measurable progression. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Build a small learning path with dependencies, component exercises, measurable milestones and
+    one attempt that reconnects the parts.
+  why_recommended: Build a small learning path with dependencies, component exercises, measurable milestones
+    and one attempt that reconnects the parts.
   claims:
-  - statement: Using the canonical scope and evidence target for Skill decomposition and progression is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Build a small learning path with dependencies, component exercises, measurable milestones
+      and one attempt that reconnects the parts.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  - statement: The 4C/ID instructional-design model organizes complex learning around whole learning tasks,
+      supportive and procedural information, and bounded part-task practice, supporting the need to reconnect
+      components rather than treating isolated completion as the whole skill.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-VAN-MERRIENBOER-4CID-2002
+    limitations: An instructional-design model and synthesis, not evidence that this exact five-folder
+      decomposition is optimal, not a universal component hierarchy and not certification of teaching
+      or skill-design competence.
   applicability_question: Does a voluntary, bounded Skill decomposition and progression practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Skill decomposition and progression as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Skill decomposition
-    and progression context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Skill decomposition
-    and progression; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use written, signed, visual or AAC-supported explanation and an untimed version
+    when timing is not part of the real skill. A willing reviewer is optional, but independent learner
+    success must not be claimed from self-review.
+  opportunity_considerations: 'Default skill: give a clear three-minute explanation of how to organize
+    five labeled paper folders. Components are choosing the audience’s goal, ordering steps, demonstrating
+    one example, checking understanding and staying within time. Materials are five paper labels, a page
+    and an optional timer; speaking can be replaced with an accessible written demonstration.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Skill decomposition and progression.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default skill: give a clear three-minute explanation of how to organize five labeled paper folders.
+    Components are choosing the audience’s goal, ordering steps, demonstrating one example, checking understanding
+    and staying within time. Materials are five paper labels, a page and an optional timer; speaking can
+    be replaced with an accessible written demonstration.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Skill decomposition and progression
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use written, signed, visual or AAC-supported explanation and an untimed version when timing is not
+    part of the real skill. A willing reviewer is optional, but independent learner success must not be
+    claimed from self-review.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -79,21 +89,32 @@ meaning_and_fit:
   - The practice does not require one worldview or treat disagreement about Skill decomposition and progression
     as inferiority; competing reasonable interpretations and conscientious refusal remain visible.
 intervention:
-  protocol_class: PF-SKILL-REHEARSAL
+  protocol_class: PF-ARTIFACT-PLAN
   duration_days: 10
-  cadence: Complete three bounded Skill decomposition and progression actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Skill decomposition and progression; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Skill decomposition
-    and progression. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Skill decomposition and progression actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default skill: give a clear three-minute explanation of how to organize five labeled paper folders.
+    Components are choosing the audience’s goal, ordering steps, demonstrating one example, checking understanding
+    and staying within time. Materials are five paper labels, a page and an optional timer; speaking can
+    be replaced with an accessible written demonstration. Goal: Build a small learning path with dependencies,
+    component exercises, measurable milestones and one attempt that reconnects the parts. Scope: This
+    designs and pilots a path for a harmless beginner skill. It does not establish expertise, authorize
+    regulated work or assume that every component can be learned independently. Time and effort: Thirty
+    minutes to map the skill and two fifteen-minute practice periods. Adaptation: Use written, signed,
+    visual or AAC-supported explanation and an untimed version when timing is not part of the real skill.
+    A willing reviewer is optional, but independent learner success must not be claimed from self-review.
+    Keep personal working notes outside the check-in; record only the listed observations.
+
+
+    Reference support:
+
+    Blueprints for Complex Learning: The 4C/ID-Model: https://doi.org/10.1007/BF02504993'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use written, signed, visual or AAC-supported explanation and an untimed version
+    when timing is not part of the real skill. A willing reviewer is optional, but independent learner
+    success must not be claimed from self-review.
+  expected_burden: Thirty minutes to map the skill and two fifteen-minute practice periods.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Skill decomposition and progression protocol to rank worth, coerce participation, demand
@@ -101,18 +122,25 @@ intervention:
   - Treating a completed Skill decomposition and progression action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Skill decomposition and progression situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use written,
+    signed, visual or AAC-supported explanation and an untimed version when timing is not part of the
+    real skill. A willing reviewer is optional, but independent learner success must not be claimed from
+    self-review.
   actions:
   - stable_id: PRACTICE-COMP-1007-SKILL-DECOMPOSITION-AND-PROGRESSION-01-A1
     sequence: 1
-    title: Define observable criteria for Skill decomposition and progression
-    instructions: 'Select one safe, lawful, low-stakes component of Skill decomposition and progression.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Break complex
-      abilities into prerequisites, components, milestones, exercises, and integration challenges.'
+    title: Map the output and the dependencies that make it possible
+    instructions: 'Define done as a listener or reader being able to file a new labeled slip correctly.
+      Put the five components on cards and connect prerequisites: the filing rule must be clear before
+      a demonstration can illustrate it; a check question must match the taught rule. Mark one component
+      you can already perform and one that needs work. Do not equate familiarity with having demonstrated
+      it.
+
+
+      Observation checks: The final skill has an observable success condition; Prerequisites and dependent
+      components are connected; Current ability is distinguished from untested confidence; One weak component
+      is selected for initial work. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +162,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1007_a1_skill_component_bounded
-        - c1007_a1_observable_rubric_present
-        - c1007_a1_error_or_stop_defined
+        - the_final_skill_has_an_observable_success_condition
+        - prerequisites_and_dependent_components_are_connected
+        - current_ability_is_distinguished_from_untested_confidence
+        - one_weak_component_is_selected_for_initial_work
       - measurement_id: c1007_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +182,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1007-SKILL-DECOMPOSITION-AND-PROGRESSION-01-A2
     sequence: 2
-    title: Rehearse Skill decomposition and progression twice
-    instructions: Perform two bounded attempts of the selected Skill decomposition and progression component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Create a progression with supplied component exercises
+    instructions: 'Use three milestones: write a four-step sequence with no missing object or location;
+      demonstrate it on one slip without skipping a step; then ask a new filing question and correct one
+      confusion. Attempt the first weak milestone now and compare it with the stated criterion. Increase
+      complexity only after the criterion is met, or reduce the component while keeping its purpose when
+      it is not.
+
+
+      Observation checks: Each milestone has an observable criterion; At least one component exercise
+      is attempted; Progression follows demonstrated performance; A failed milestone leads to a smaller
+      or revised exercise. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +209,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1007_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - each_milestone_has_an_observable_criterion
+        - at_least_one_component_exercise_is_attempted
+        - progression_follows_demonstrated_performance
+        - a_failed_milestone_leads_to_a_smaller_or_revised_exercise
       - measurement_id: c1007_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +235,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1007-SKILL-DECOMPOSITION-AND-PROGRESSION-01-A3
     sequence: 3
-    title: Use feedback for one Skill decomposition and progression retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Can design
-      a learning path that exposes dependencies and measurable progression.'
+    title: Run one integration attempt and find the broken handoff
+    instructions: 'Combine the components into a three-minute explanation or equivalent short written
+      guide. Use a willing adult learner when available; otherwise follow the guide literally yourself
+      and label the check self-review. Test a new slip, note where the sequence or explanation failed,
+      and move that weakness back into the learning path. Finishing each component separately is not assumed
+      to prove that they work together.
+
+
+      Observation checks: The components are recombined in an actual attempt; A new example tests more
+      than memorized wording; Learner feedback and self-review are distinguished; An integration failure
+      changes the next practice step. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.
+
+
+      Final review: Which component looked adequate alone but failed when connected to the rest, and what
+      prerequisite did that reveal?
+
+
+      Examples: Supportive: The learner’s new-slip error exposed an ambiguous category rule, so that rule
+      was practiced before repeating the full explanation.
+
+
+      Mixed: All milestones were listed, but the first integration attempt showed that their handoffs
+      had not been tested.
+
+
+      Contradictory: A checklist of component completion was represented as broad competence without an
+      integration attempt.
+
+
+      Inconclusive: A long course list was created without dependencies, measurable milestones or a task
+      that could start immediately.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +288,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1007_a3_feedback_item_selected
-        - c1007_a3_adjustment_traceable
-        - c1007_a3_retry_result_preserved
+        - the_components_are_recombined_in_an_actual_attempt
+        - a_new_example_tests_more_than_memorized_wording
+        - learner_feedback_and_self_review_are_distinguished
+        - an_integration_failure_changes_the_next_practice_step
       - measurement_id: c1007_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +312,17 @@ intervention:
       Skill decomposition and progression; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Skill decomposition and progression; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use written, signed, visual or AAC-supported explanation and an untimed version when timing is not
+      part of the real skill. A willing reviewer is optional, but independent learner success must not
+      be claimed from self-review.
     cultural_context:
     - Adapt the expression of Skill decomposition and progression to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Skill decomposition and progression opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use written, signed, visual or AAC-supported explanation and an untimed version when timing is not
+      part of the real skill. A willing reviewer is optional, but independent learner success must not
+      be claimed from self-review.
   pause_conditions:
   - Pause Skill decomposition and progression when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -287,10 +354,7 @@ evidence_and_scoring:
   - c1007_a3_boundary
   - c1007_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Skill decomposition and progression action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Skill decomposition and progression criterion, depended on
-    coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A checklist of component completion was represented as broad competence without an integration attempt.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Skill decomposition and progression explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +365,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Skill decomposition and progression rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can design a learning path that exposes dependencies and measurable progression.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Skill decomposition and progression requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Map the output and the dependencies that make it possible. Observed checks:
+    The final skill has an observable success condition; Prerequisites and dependent components are connected;
+    Current ability is distinguished from untested confidence; One weak component is selected for initial
+    work. Action 2: Create a progression with supplied component exercises. Observed checks: Each milestone
+    has an observable criterion; At least one component exercise is attempted; Progression follows demonstrated
+    performance; A failed milestone leads to a smaller or revised exercise. Action 3: Run one integration
+    attempt and find the broken handoff. Observed checks: The components are recombined in an actual attempt;
+    A new example tests more than memorized wording; Learner feedback and self-review are distinguished;
+    An integration failure changes the next practice step.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A long course list was created without dependencies,
+    measurable milestones or a task that could start immediately.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Skill
     decomposition and progression contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -317,9 +389,8 @@ evidence_and_scoring:
   - L10
   - L14
   - L15
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Skill decomposition and progression evidence.
@@ -327,11 +398,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for skill decomposition and progression action was attempted or explicitly
-    deferred.
-  - The rehearse skill decomposition and progression twice action was attempted or explicitly deferred.
-  - The use feedback for one skill decomposition and progression retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Map the output and the dependencies that make it possible. Observed checks: The final skill
+    has an observable success condition; Prerequisites and dependent components are connected; Current
+    ability is distinguished from untested confidence; One weak component is selected for initial work.'
+  - 'Action 2: Create a progression with supplied component exercises. Observed checks: Each milestone
+    has an observable criterion; At least one component exercise is attempted; Progression follows demonstrated
+    performance; A failed milestone leads to a smaller or revised exercise.'
+  - 'Action 3: Run one integration attempt and find the broken handoff. Observed checks: The components
+    are recombined in an actual attempt; A new example tests more than memorized wording; Learner feedback
+    and self-review are distinguished; An integration failure changes the next practice step.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,58 +418,180 @@ completion_and_review:
     - c1007_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Skill decomposition and progression only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Skill decomposition and progression across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which component looked adequate alone but failed when connected to the rest, and
+    what prerequisite did that reveal?
+  transfer_limit: This designs and pilots a path for a harmless beginner skill. It does not establish
+    expertise, authorize regulated work or assume that every component can be learned independently.
   reflection:
-    before: What does Skill decomposition and progression require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Skill decomposition and progression criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can design a learning path that exposes dependencies and measurable
-      progression.', what contradiction or missing context matters most, and should this Skill decomposition
-      and progression design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Build a small learning path with dependencies,
+      component exercises, measurable milestones and one attempt that reconnects the parts.'
+    during: Which checks have actually been observed? All milestones were listed, but the first integration
+      attempt showed that their handoffs had not been tested.
+    after: Which component looked adequate alone but failed when connected to the rest, and what prerequisite
+      did that reveal?
   review_guidance:
     repeat: Repeat the same bounded Skill decomposition and progression design only when the context and
       burden remain appropriate.
-    adapt: Change the Skill decomposition and progression medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Use written, signed, visual or AAC-supported explanation and an untimed version when timing
+      is not part of the real skill. A willing reviewer is optional, but independent learner success must
+      not be claimed from self-review.
     stop: Stop Skill decomposition and progression when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Skill decomposition and progression questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Skill decomposition and progression criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Skill decomposition and progression criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Skill decomposition and progression criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Skill decomposition and progression action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The learner’s new-slip error exposed an ambiguous category rule, so that rule was practiced
+      before repeating the full explanation.
+    mixed: All milestones were listed, but the first integration attempt showed that their handoffs had
+      not been tested.
+    contradictory: A checklist of component completion was represented as broad competence without an
+      integration attempt.
+    inconclusive: A long course list was created without dependencies, measurable milestones or a task
+      that could start immediately.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Skill decomposition and progression.
+    context_heading: Break a complex skill into prerequisites and an integration test
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Skill decomposition
       and progression.
   check_in_labels:
-    c1007_a1_primary: The bounded Skill decomposition and progression criterion for action 1 was observed
+    c1007_a1_primary: 'Observed checks: map the output and the dependencies that make it possible'
     c1007_a1_boundary: Action 1 stayed inside its stated Skill decomposition and progression boundary
     c1007_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1007_a2_primary: The bounded Skill decomposition and progression criterion for action 2 was observed
+    c1007_a2_primary: 'Observed checks: create a progression with supplied component exercises'
     c1007_a2_boundary: Action 2 stayed inside its stated Skill decomposition and progression boundary
     c1007_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1007_a3_primary: The bounded Skill decomposition and progression criterion for action 3 was observed
+    c1007_a3_primary: 'Observed checks: run one integration attempt and find the broken handoff'
     c1007_a3_boundary: Action 3 stayed inside its stated Skill decomposition and progression boundary
     c1007_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Skill decomposition
-    and progression practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which component looked adequate alone but failed when connected to the rest, and what
+    prerequisite did that reveal? Completion is not mastery.
+  plain_language_evidence: The learner’s new-slip error exposed an ambiguous category rule, so that rule
+    was practiced before repeating the full explanation.
   display_order: 129
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '10.07'
+  title: Decompose one filing explanation and reconnect it in a new case
+  scored: false
+  sections:
+  - id: decomposition-model
+    kind: concept
+    title: Components need dependencies and a whole-task check
+    body: Decomposition turns a complex performance into observable components without pretending the
+      pieces are independent. A prerequisite must be available before a dependent step can work. A milestone
+      states a visible criterion, not time spent. Part practice isolates one weak component; integration
+      reconnects the pieces and tests their handoffs on a fresh case. Completing every card separately
+      does not establish the whole skill. This bounded design exercise does not certify teaching ability,
+      expertise or permission for regulated work.
+  - id: folder-system
+    kind: material
+    title: Supplied five-folder rule and six slips
+    body: 'Today is Monday. Five folders are labeled TODAY, THIS WEEK, WAITING, REFERENCE and ARCHIVE.
+      Apply the first matching rule: (1) completed or expired → ARCHIVE; (2) explicitly waiting on another
+      person → WAITING; (3) an open action due today → TODAY; (4) an open action due Tuesday through Sunday
+      → THIS WEEK; (5) reusable information with no action → REFERENCE. Supplied slips: A completed receipt;
+      B waiting for Pat’s approval, due today; C submit form, due today; D call supplier, due Thursday;
+      E torque table, no action; F expired coupon. Correct folders are A Archive, B Waiting, C Today,
+      D This Week, E Reference, F Archive. The precedence rule resolves B’s overlap.'
+  - id: worked-path
+    kind: worked_example
+    title: Example decomposition on a different sorting rule
+    body: 'A learner explaining a three-bin book return first defines done: a new card reaches the correct
+      bin and the learner can state the deciding field. They identify prerequisites—read return date before
+      comparing it with today—and practice that comparison alone. Their milestone is four supplied cards
+      classified with the deciding field named. In the whole-task check, an overdue reserved book exposes
+      an untested precedence between “overdue” and “reserved.” The path returns to that handoff rather
+      than claiming that separate card success proved integration.'
+  - id: path-template
+    kind: material
+    title: Learning-path and handoff record
+    body: 'Final performance and observable done condition: __. Components: audience goal | rule order
+      | demonstration | understanding check | time/format boundary. For each component: input __; output
+      __; prerequisite __; criterion __; current evidence [demonstrated/not tested/needs work] __. First
+      weak component: __. Small exercise and stop limit: __. Milestone 1 __; Milestone 2 __; Milestone
+      3 __. Whole-task case held back from part practice: __. Predicted handoff risk: __. Actual result:
+      __. Broken handoff and next smaller practice: __. Reviewer [self/willing learner]: __.'
+  - id: dependency-map
+    kind: prompt
+    title: Build the dependency map before seeing the key
+    body: 'Using the five-folder rule, place these component cards in a defensible dependency order: R
+      read the slip fields; P apply precedence; F choose a folder; D demonstrate and name the deciding
+      rule; Q ask the learner to classify a fresh slip and explain why. Draw at least four directed links
+      and state why each is required. Then classify supplied slip B and identify the exact misconception
+      that would occur if due date were checked before waiting status. Preserve the map before opening
+      the key.'
+    references:
+    - folder-system
+    - path-template
+    check_id: dependency-map-key
+    attempt_mode: practice
+  - id: progression-model
+    kind: concept
+    title: Progress from rule use to demonstration to integration
+    body: 'Milestone 1: classify A–F with the deciding rule and at least 5/6 correct, with B necessarily
+      correct. Milestone 2: explain the precedence rule and demonstrate B and one non-overlap slip without
+      silently correcting yourself. Milestone 3: give the full explanation, then let a fresh slip test
+      the learner’s application. If B fails, practice precedence before presentation polish. If the fresh
+      case fails, locate whether the rule, example, check question or handoff failed. Timing is descriptive
+      unless the real requirement makes it essential.'
+  - id: integration-test
+    kind: prompt
+    title: Reconnect the parts on an unseen overlap case
+    body: 'Hold back this slip until after the map and component attempt: G “Replace filter—waiting for
+      Lee’s measurement—due Friday—open.” Give a three-minute spoken, written or AAC-supported explanation
+      of the five-folder system, then ask a willing adult learner to classify G and name the deciding
+      rule. If no learner is available, follow your own written explanation literally and label the result
+      self-review. Record the chosen folder, stated reason, explanation text used and any prompt or rescue.
+      Do not revise before preserving the first integration result.'
+    references:
+    - folder-system
+    - path-template
+    check_id: integration-test-key
+    attempt_mode: practice
+  - id: access-route
+    kind: pathway
+    title: Adapt representation without changing the rule
+    body: Use large labels, color plus text, tactile folder markers, screen-reader-friendly text, signing,
+      speech or AAC. Remove the timer when speed is not part of the target. A helper may manipulate cards
+      while the learner chooses the rule and folder. Record a self-run as self-review rather than learner
+      evidence. An advanced route may add one documented exception only after the base precedence works;
+      consequential records, regulated filing and private workplace material are outside this default.
+  - id: next-path
+    kind: next_step
+    title: Send the observed failure back to one component
+    body: If G is classified and explained correctly without rescue, test one new non-overlap case before
+      adding complexity. If the folder is right but the reason is wrong, practice naming the deciding
+      rule. If the explanation omits precedence, revise the rule-order component and rerun a new overlap
+      slip. If representation blocked access, change the medium while retaining the decision criterion.
+      Record demonstrated, partial, adverse or inconclusive; do not advance from confidence or component
+      count.
+  checks:
+  - id: dependency-map-key
+    title: Check the minimum dependency structure
+    body: 'A minimal valid chain is R → P → F → D → Q: fields must be read before precedence can be applied;
+      precedence selects the controlling rule; a folder follows that rule; a demonstration must expose
+      the rule used; and a fresh question can then test application. Additional links such as R → D are
+      defensible when explained. Slip B belongs in WAITING because rule 2 is the first match after it
+      is confirmed open; checking due date first would incorrectly send it to TODAY. A list without directed
+      dependency reasons is partial, even if its order happens to match.'
+    criteria:
+    - Inputs outputs and dependencies are distinguished
+    - Four or more justified links connect the components
+    - The precedence misconception is identified
+    - Confidence is not substituted for demonstrated status
+  - id: integration-test-key
+    title: Check the held-back case and evidence label
+    body: G belongs in WAITING. It is open, so rule 1 does not apply; it explicitly waits on Lee, so rule
+      2 controls before the Friday due date can reach rule 4. WAITING with “because it is due Friday”
+      is a correct location for the wrong reason and remains partial. THIS WEEK shows a broken precedence
+      handoff. A helper revealing “waiting” is a rescued attempt, not independent application. A willing
+      learner’s unprompted correct folder and reason supports this one integrated explanation; self-review
+      must remain labeled and neither result establishes general teaching expertise.
+    criteria:
+    - The held-back overlap case has one rule-grounded answer
+    - Correct destination and correct reason are checked separately
+    - Prompts and rescues remain visible
+    - Learner evidence and self-review are not conflated

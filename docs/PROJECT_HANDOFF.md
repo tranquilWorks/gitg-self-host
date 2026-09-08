@@ -1,6 +1,33 @@
 # Grounded Growth — Project Handoff
 
 
+## Retrieval, decomposition and feedback runtime cohort — 8 September 2026
+
+After PR #73 integrated the previously stacked 96/383 work plus the inquiry cohort,
+the next bounded release completes **10.06 Memory and recall**, **10.07 Skill
+decomposition and progression**, and **10.08 Feedback and error correction**.
+Compiler/runtime coverage is now **102 tailored / 281 pending**.
+
+10.06 supplies a complete six-step target, route-level recall record, different
+worked example, actual-delay rule and controlled old/new-version check. 10.07
+supplies a five-folder precedence system, six examples, directed dependency map,
+three observable milestones and a held-back integration case. 10.08 supplies an
+ambiguous instruction packet, fixed intended result, literal-test record, relevance
+rule, targeted Version B and comparable fresh-slip retest. All six answers remain
+separately revealed from their prompts.
+
+Exact pre-projection packages and content hashes live under each competency's
+quality folder. The prospective compiler still preserves 383 protocols, 1,151
+actions, completion, activation, scoring and event replay. See
+`docs/authoring/M6K-LEARNING-LOOP-SCOPE-MAP.md` and
+`docs/evidence/M6K-LEARNING-LOOP-RUNTIME.md`.
+
+This is authored educational content and software verification. It is not evidence
+of general memory improvement, expertise, universal feedback benefit, actual learner
+performance or formal acceptance. Independent cold-start, learner, qualified and
+owner reviews remain pending.
+
+
 ## Inquiry and reusable-knowledge runtime cohort — 8 September 2026
 
 The post-PR #72 continuation completes **10.03 Curiosity and question formation**,
