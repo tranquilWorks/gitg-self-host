@@ -12,6 +12,7 @@ implemented_domains:
 - '04'
 - '05'
 - '06'
+- '12'
 - '13'
 protocol_families:
   '06.01': PF-RELATIONAL-CONVERSATION
@@ -107,7 +108,12 @@ protocol_families:
   '13.16': PF-AUDIT-REDESIGN
   '10.01': PF-KNOWLEDGE-APPLICATION
   '10.02': PF-SKILL-REHEARSAL
+  '10.03': PF-SKILL-REHEARSAL
+  '10.04': PF-KNOWLEDGE-APPLICATION
+  '10.05': PF-KNOWLEDGE-APPLICATION
   '21.03': PF-SKILL-REHEARSAL
+  '12.05': PF-SKILL-REHEARSAL
+  '12.08': PF-SKILL-REHEARSAL
 retained_legacy_competency_ids:
 - '08.02'
 - '11.10'
@@ -195,6 +201,11 @@ implemented_competency_ids:
 - '06.14'
 - '10.01'
 - '10.02'
+- '10.03'
+- '10.04'
+- '10.05'
+- '12.05'
+- '12.08'
 - '13.01'
 - '13.02'
 - '13.03'

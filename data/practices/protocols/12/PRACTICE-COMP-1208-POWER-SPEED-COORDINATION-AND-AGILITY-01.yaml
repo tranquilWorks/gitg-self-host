@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1208-POWER-SPEED-COORDINATION-AND-AGILITY-01
 slug: c1208-power-speed-coordination-and-agility-practice
-name: Bounded Power, speed, coordination, and agility Practice
+name: Separate power, speed, coordination and agility into safe capability-fit learning routes
 parent_competency_id: '12.08'
 domain_id: '12'
 governance:
@@ -14,10 +14,12 @@ governance:
   scoring_status: active
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
+  - SRC-ACSM-2026-RESISTANCE-TRAINING
+  - SRC-ACSM-EP-COMPONENT-PROGRESSION
+  - SRC-NSCA-STRENGTH-CONDITIONING-BASICS
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.08
-      (Power, speed, coordination, and agility); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.08; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +37,78 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Power, speed, coordination, and agility through a qualified-support preparation bounded
-    by the canonical scope: Train rapid force, reaction, movement skill, and coordination where appropriate.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Performs chosen athletic
-    or practical movements with improving control and efficiency. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Classify four distinct movement capacities, select a route whose prerequisites are already
+    met, and compare one bounded practice component without treating a coordination drill as proof of
+    athletic power, speed or agility.
+  why_recommended: Classify four distinct movement capacities, select a route whose prerequisites are
+    already met, and compare one bounded practice component without treating a coordination drill as proof
+    of athletic power, speed or agility.
   claims:
-  - statement: Using the canonical scope and evidence target for Power, speed, coordination, and agility
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Classify four distinct movement capacities, select a route whose prerequisites are already
+      met, and compare one bounded practice component without treating a coordination drill as proof of
+      athletic power, speed or agility.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  - statement: The 2026 ACSM position-stand summary distinguishes strength, hypertrophy, power and physical-function
+      outcomes; emphasizes consistent resistance training over needless complexity; and recommends individualizing
+      training to goals, enjoyment and safety rather than using one rigid prescription.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-ACSM-2026-RESISTANCE-TRAINING
+    limitations: Guidance for resistance training in healthy adults, not medical clearance, rehabilitation
+      direction, a sport-specific program or evidence that this product-authored two-session practice
+      causes strength or power gains. Specific loads and volumes in the source are not adopted as universal
+      learner instructions.
+  - statement: Professional exercise programming treats strength, endurance and power as muscular-fitness
+      components and balance, agility and reaction time as neuromotor components; progression and modification
+      should respond to current health status, goals, conditioning and accessibility, with periodic reevaluation.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-ACSM-EP-COMPONENT-PROGRESSION
+    limitations: A certification task outline defining professional knowledge and skill, not a complete
+      training prescription, participant assessment, medical clearance or validation of the product-authored
+      route matrix and evidence checks.
+  - statement: The NSCA manual separates rapid-force, speed and agility demands, describes agility as
+      high-speed change of direction, and emphasizes suitable strength or force-absorption preparation
+      plus managed rest and volume for demanding speed, agility and plyometric work.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-NSCA-STRENGTH-CONDITIONING-BASICS
+    limitations: An older introductory professional manual, not current medical guidance, an individualized
+      readiness determination or authority for an unqualified learner to begin sprint, jump, loaded-power
+      or change-of-direction training. The product supplies no such program.
   applicability_question: Does a voluntary, bounded Power, speed, coordination, and agility practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Power, speed, coordination, and agility as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Power, speed, coordination,
-    and agility context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Power, speed,
-    coordination, and agility; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use eye gaze, a switch, larger targets, verbal selection, slower cues or an
+    existing therapist-approved movement for the coordination route. Use a seated or equipment-supported
+    route when it preserves the selected component. A support changes conditions but does not reduce dignity.
+    Never simulate disability, catch a falling person, improvise a sprint, jump, loaded explosive movement
+    or rapid direction change. Existing clinical, rehabilitation and sport plans control physical progression.
+  opportunity_considerations: Use the supplied component cards, route matrix, prerequisite screen and
+    session record. The default requires three large labeled cards on a stable table within comfortable
+    reach and an optional willing cue giver. A person with an existing suitable program may instead document
+    one already-prescribed speed, power or agility component without changing its dose. Otherwise prepare
+    the supplied qualified-instruction brief. Accuracy, control, recovery and stop rules take priority
+    over speed or force.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Power, speed, coordination, and
-    agility.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the supplied component cards, route matrix, prerequisite screen and session record. The default
+    requires three large labeled cards on a stable table within comfortable reach and an optional willing
+    cue giver. A person with an existing suitable program may instead document one already-prescribed
+    speed, power or agility component without changing its dose. Otherwise prepare the supplied qualified-instruction
+    brief. Accuracy, control, recovery and stop rules take priority over speed or force.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Power, speed, coordination, and
-    agility instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use eye gaze, a switch, larger targets, verbal selection, slower cues or an existing therapist-approved
+    movement for the coordination route. Use a seated or equipment-supported route when it preserves the
+    selected component. A support changes conditions but does not reduce dignity. Never simulate disability,
+    catch a falling person, improvise a sprint, jump, loaded explosive movement or rapid direction change.
+    Existing clinical, rehabilitation and sport plans control physical progression.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -80,21 +121,47 @@ meaning_and_fit:
     and agility as inferiority; competing reasonable interpretations and conscientious refusal remain
     visible.
 intervention:
-  protocol_class: PF-QUALIFIED-CONSULTATION
+  protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Power, speed, coordination, and agility actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Power, speed, coordination, and agility; copy the canonical scope and
-    evidence target into a private working note; define the action boundary, valid supports, privacy limit,
-    and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Power, speed,
-    coordination, and agility. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Power, speed, coordination, and agility
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the supplied component cards, route matrix, prerequisite screen and session record. The
+    default requires three large labeled cards on a stable table within comfortable reach and an optional
+    willing cue giver. A person with an existing suitable program may instead document one already-prescribed
+    speed, power or agility component without changing its dose. Otherwise prepare the supplied qualified-instruction
+    brief. Accuracy, control, recovery and stop rules take priority over speed or force. Goal: Classify
+    four distinct movement capacities, select a route whose prerequisites are already met, and compare
+    one bounded practice component without treating a coordination drill as proof of athletic power, speed
+    or agility. Scope: The complete default is a low-risk tabletop coordination and reaction exercise.
+    Speed, power and agility routes use only an existing qualified or competently established plan, or
+    instruction-first preparation. No sprint, jump, loaded explosive movement, fall response or rapid
+    direction change is prescribed by this practice. Time and effort: About thirty minutes for classification
+    and route planning plus two five-to-ten-minute bounded sessions on separate suitable days, or one
+    instruction-first consultation. Adaptation: Use eye gaze, a switch, larger targets, verbal selection,
+    slower cues or an existing therapist-approved movement for the coordination route. Use a seated or
+    equipment-supported route when it preserves the selected component. A support changes conditions but
+    does not reduce dignity. Never simulate disability, catch a falling person, improvise a sprint, jump,
+    loaded explosive movement or rapid direction change. Existing clinical, rehabilitation and sport plans
+    control physical progression. Keep personal working notes outside the check-in; record only the listed
+    observations.
+
+
+    Reference support:
+
+    ACSM Unveils Landmark 2026 Resistance Training Guidelines — First Update in 17 Years: https://acsm.org/resistance-training-guidelines-update-2026/
+
+    ACSM Certified Exercise Physiologist Exam Content Outline: https://acsm.org/wp-content/uploads/2024/12/ACSM-Certified-Exercise-Physiologist-Exam-Content-Outline.pdf
+
+    Basics of Strength and Conditioning Manual: https://www.nsca.com/contentassets/48a12160221541acbdc048498d77192d/basics_of_strength_and_conditioning_manual.pdf'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use eye gaze, a switch, larger targets, verbal selection, slower cues or an existing
+    therapist-approved movement for the coordination route. Use a seated or equipment-supported route
+    when it preserves the selected component. A support changes conditions but does not reduce dignity.
+    Never simulate disability, catch a falling person, improvise a sprint, jump, loaded explosive movement
+    or rapid direction change. Existing clinical, rehabilitation and sport plans control physical progression.
+  expected_burden: About thirty minutes for classification and route planning plus two five-to-ten-minute
+    bounded sessions on separate suitable days, or one instruction-first consultation.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Power, speed, coordination, and agility protocol to rank worth, coerce participation, demand
@@ -102,19 +169,30 @@ intervention:
   - Treating a completed Power, speed, coordination, and agility action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Power, speed, coordination, and agility situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use eye gaze,
+    a switch, larger targets, verbal selection, slower cues or an existing therapist-approved movement
+    for the coordination route. Use a seated or equipment-supported route when it preserves the selected
+    component. A support changes conditions but does not reduce dignity. Never simulate disability, catch
+    a falling person, improvise a sprint, jump, loaded explosive movement or rapid direction change. Existing
+    clinical, rehabilitation and sport plans control physical progression.
   actions:
   - stable_id: PRACTICE-COMP-1208-POWER-SPEED-COORDINATION-AND-AGILITY-01-A1
     sequence: 1
-    title: Bound the qualified question for Power, speed, coordination, and agility
-    instructions: 'Turn Power, speed, coordination, and agility into one educational or planning question
-      and identify the qualification and jurisdiction needed to answer it. Use the canonical scope to
-      separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Train rapid force, reaction, movement skill, and coordination
-      where appropriate.'
+    title: Classify the four capacities and select one honest route
+    instructions: 'Open the component cards and classify the supplied cases before revealing the key.
+      Map the chosen real-world goal to coordination, reaction, speed, power or agility without assuming
+      they are interchangeable. Complete the prerequisite screen. Select tabletop coordination, existing-plan
+      speed, existing-plan power, existing-plan agility, or instruction-first. Fix the exact component,
+      materials, environment, support, known dose, accuracy or technique criteria, recovery and stop conditions.
+      The tabletop route cannot be relabeled as athletic testing, and missing prerequisites require instruction
+      or defer.
+
+
+      Observation checks: Power speed coordination reaction and agility are not treated as synonyms; The
+      chosen route has its stated prerequisites and authority; Materials criteria support recovery and
+      stop conditions are fixed before action; A tabletop sequence is never represented as a power speed
+      or agility test. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +214,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1208_a1_question_bounded
-        - c1208_a1_qualification_named
-        - c1208_a1_professional_boundary_explicit
+        - power_speed_coordination_reaction_and_agility_are_not_treated_as_synonyms
+        - the_chosen_route_has_its_stated_prerequisites_and_authority
+        - materials_criteria_support_recovery_and_stop_conditions_are_fixed_before_action
+        - a_tabletop_sequence_is_never_represented_as_a_power_speed_or_agility_test
       - measurement_id: c1208_a1_boundary
         kind: boolean
         role: supporting
@@ -155,12 +234,20 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1208-POWER-SPEED-COORDINATION-AND-AGILITY-01-A2
     sequence: 2
-    title: Prepare minimum information for Power, speed, coordination, and agility
-    instructions: Create a privacy-minimized Power, speed, coordination, and agility consultation note
-      containing only the question, relevant category-level facts, current constraints, and desired decision.
-      Omit diagnoses, allegations, account numbers, credentials, protected work information, intimate
-      detail, and third-party identity unless a qualified professional lawfully requires it through an
-      appropriate channel.
+    title: Practice one component and correct one observed error
+    instructions: 'For the tabletop route, attempt three unhurried left-center-right-center sequences
+      with rest, record exact target or order errors, change one cue, and retry at the same comfortable
+      pace. For an existing-plan route, perform only the already-authorized movement and dose while recording
+      its existing technique and recovery criteria; do not add timing, force, direction changes or volume.
+      For instruction-first, use the prepared questions and record the route disposition instead of performing
+      the movement. Stop for pain, fatigue, loss of control, unsafe surface or equipment, or any existing
+      plan''s stop rule.
+
+
+      Observation checks: A bounded attempt consultation or appropriate stop is recorded; The observed
+      error belongs to the selected component and fixed criteria; Only one cue or plan-authorized variable
+      changes; Accuracy control recovery and stop limits take priority over speed or force. Mark only
+      what you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -182,9 +269,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1208_a2_minimum_information_only
-        - c1208_a2_sensitive_detail_excluded
-        - c1208_a2_decision_need_named
+        - a_bounded_attempt_consultation_or_appropriate_stop_is_recorded
+        - the_observed_error_belongs_to_the_selected_component_and_fixed_criteria
+        - only_one_cue_or_plan_authorized_variable_changes
+        - accuracy_control_recovery_and_stop_limits_take_priority_over_speed_or_force
       - measurement_id: c1208_a2_boundary
         kind: boolean
         role: supporting
@@ -201,12 +289,40 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1208-POWER-SPEED-COORDINATION-AND-AGILITY-01-A3
     sequence: 3
-    title: Record a bounded Power, speed, coordination, and agility disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Performs chosen athletic or practical movements with improving control
-      and efficiency.'
+    title: Compare a second exposure and choose a component-specific next step
+    instructions: 'After suitable recovery, repeat the tabletop sequence with only the label order or
+      an unhurried external cue changed, or repeat the exact existing-plan component only when its plan
+      supports it. Compare component-specific accuracy, technique, cue response, support and recovery.
+      Decide among repeat, regress, plan-authorized progression, instruction or stop. A faster time is
+      not required and cannot compensate for an order, technique or safety error. State which of the other
+      three capacities remain untested and open the comparison check only after preserving the decision.
+
+
+      Observation checks: The second exposure preserves comparison conditions or declares the change;
+      Evidence is interpreted only for the selected component; One next step follows accuracy technique
+      recovery and prerequisite evidence; Every untested capacity remains explicit rather than inferred.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.
+
+
+      Final review: Which capacity was actually practiced, what prerequisite and recovery evidence supports
+      the next step, and which capacities remain untested?
+
+
+      Examples: Supportive: Numbered cards reduced two order errors to none at the same comfortable pace,
+      and the record correctly limited the result to tabletop coordination with an unhurried cue.
+
+
+      Mixed: An athlete repeated one existing change-of-direction component, but the second session changed
+      surface and footwear, so improvement could not be separated from conditions and no progression followed.
+
+
+      Contradictory: A participant improvised maximal jumps without established prerequisites, continued
+      after loss of landing control and called the result evidence of power and agility.
+
+
+      Inconclusive: A fast time was reported without a defined component, fixed accuracy or technique
+      criteria, route authority, or an observed sequence.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,14 +338,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1208_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1208_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - the_second_exposure_preserves_comparison_conditions_or_declares_the_change
+        - evidence_is_interpreted_only_for_the_selected_component
+        - one_next_step_follows_accuracy_technique_recovery_and_prerequisite_evidence
+        - every_untested_capacity_remains_explicit_rather_than_inferred
       - measurement_id: c1208_a3_boundary
         kind: boolean
         role: supporting
@@ -250,17 +368,21 @@ intervention:
       Power, speed, coordination, and agility; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Power, speed, coordination, and agility; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use eye gaze, a switch, larger targets, verbal selection, slower cues or an existing therapist-approved
+      movement for the coordination route. Use a seated or equipment-supported route when it preserves
+      the selected component. A support changes conditions but does not reduce dignity. Never simulate
+      disability, catch a falling person, improvise a sprint, jump, loaded explosive movement or rapid
+      direction change. Existing clinical, rehabilitation and sport plans control physical progression.
     cultural_context:
     - Adapt the expression of Power, speed, coordination, and agility to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Power, speed, coordination, and agility opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use eye gaze, a switch, larger targets, verbal selection, slower cues or an existing therapist-approved
+      movement for the coordination route. Use a seated or equipment-supported route when it preserves
+      the selected component. A support changes conditions but does not reduce dignity. Never simulate
+      disability, catch a falling person, improvise a sprint, jump, loaded explosive movement or rapid
+      direction change. Existing clinical, rehabilitation and sport plans control physical progression.
   pause_conditions:
   - Pause Power, speed, coordination, and agility when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -291,10 +413,8 @@ evidence_and_scoring:
   - c1208_a3_boundary
   - c1208_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Power, speed, coordination, and agility action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Power, speed, coordination, and agility criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A participant improvised maximal jumps without established prerequisites, continued after loss of
+    landing control and called the result evidence of power and agility.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Power, speed, coordination, and agility explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -305,14 +425,24 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Power, speed, coordination, and agility rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Performs chosen athletic or practical movements with improving control and efficiency.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Power, speed, coordination, and agility requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Classify the four capacities and select one honest route. Observed checks:
+    Power speed coordination reaction and agility are not treated as synonyms; The chosen route has its
+    stated prerequisites and authority; Materials criteria support recovery and stop conditions are fixed
+    before action; A tabletop sequence is never represented as a power speed or agility test. Action 2:
+    Practice one component and correct one observed error. Observed checks: A bounded attempt consultation
+    or appropriate stop is recorded; The observed error belongs to the selected component and fixed criteria;
+    Only one cue or plan-authorized variable changes; Accuracy control recovery and stop limits take priority
+    over speed or force. Action 3: Compare a second exposure and choose a component-specific next step.
+    Observed checks: The second exposure preserves comparison conditions or declares the change; Evidence
+    is interpreted only for the selected component; One next step follows accuracy technique recovery
+    and prerequisite evidence; Every untested capacity remains explicit rather than inferred.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A fast time was reported without a defined component,
+    fixed accuracy or technique criteria, route authority, or an observed sequence.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Power,
     speed, coordination, and agility contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -320,9 +450,8 @@ evidence_and_scoring:
   recommendation_target_lever_ids:
   - L17
   - L35
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Power, speed, coordination, and agility evidence.
@@ -330,12 +459,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for power, speed, coordination, and agility action was attempted
-    or explicitly deferred.
-  - The prepare minimum information for power, speed, coordination, and agility action was attempted or
-    explicitly deferred.
-  - The record a bounded power, speed, coordination, and agility disposition action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Classify the four capacities and select one honest route. Observed checks: Power speed
+    coordination reaction and agility are not treated as synonyms; The chosen route has its stated prerequisites
+    and authority; Materials criteria support recovery and stop conditions are fixed before action; A
+    tabletop sequence is never represented as a power speed or agility test.'
+  - 'Action 2: Practice one component and correct one observed error. Observed checks: A bounded attempt
+    consultation or appropriate stop is recorded; The observed error belongs to the selected component
+    and fixed criteria; Only one cue or plan-authorized variable changes; Accuracy control recovery and
+    stop limits take priority over speed or force.'
+  - 'Action 3: Compare a second exposure and choose a component-specific next step. Observed checks: The
+    second exposure preserves comparison conditions or declares the change; Evidence is interpreted only
+    for the selected component; One next step follows accuracy technique recovery and prerequisite evidence;
+    Every untested capacity remains explicit rather than inferred.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -344,58 +482,228 @@ completion_and_review:
     - c1208_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Power, speed, coordination, and agility only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Power, speed, coordination, and agility across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which capacity was actually practiced, what prerequisite and recovery evidence
+    supports the next step, and which capacities remain untested?
+  transfer_limit: The complete default is a low-risk tabletop coordination and reaction exercise. Speed,
+    power and agility routes use only an existing qualified or competently established plan, or instruction-first
+    preparation. No sprint, jump, loaded explosive movement, fall response or rapid direction change is
+    prescribed by this practice.
   reflection:
-    before: What does Power, speed, coordination, and agility require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Power, speed, coordination, and agility criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Performs chosen athletic or practical movements with improving
-      control and efficiency.', what contradiction or missing context matters most, and should this Power,
-      speed, coordination, and agility design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Classify four distinct movement capacities,
+      select a route whose prerequisites are already met, and compare one bounded practice component without
+      treating a coordination drill as proof of athletic power, speed or agility.'
+    during: Which checks have actually been observed? An athlete repeated one existing change-of-direction
+      component, but the second session changed surface and footwear, so improvement could not be separated
+      from conditions and no progression followed.
+    after: Which capacity was actually practiced, what prerequisite and recovery evidence supports the
+      next step, and which capacities remain untested?
   review_guidance:
     repeat: Repeat the same bounded Power, speed, coordination, and agility design only when the context
       and burden remain appropriate.
-    adapt: Change the Power, speed, coordination, and agility medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use eye gaze, a switch, larger targets, verbal selection, slower cues or an existing therapist-approved
+      movement for the coordination route. Use a seated or equipment-supported route when it preserves
+      the selected component. A support changes conditions but does not reduce dignity. Never simulate
+      disability, catch a falling person, improvise a sprint, jump, loaded explosive movement or rapid
+      direction change. Existing clinical, rehabilitation and sport plans control physical progression.
     stop: Stop Power, speed, coordination, and agility when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Power, speed, coordination, and agility
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Power, speed, coordination, and agility criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Power, speed, coordination, and agility criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Power, speed, coordination, and agility criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Power, speed, coordination, and agility action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: Numbered cards reduced two order errors to none at the same comfortable pace, and the
+      record correctly limited the result to tabletop coordination with an unhurried cue.
+    mixed: An athlete repeated one existing change-of-direction component, but the second session changed
+      surface and footwear, so improvement could not be separated from conditions and no progression followed.
+    contradictory: A participant improvised maximal jumps without established prerequisites, continued
+      after loss of landing control and called the result evidence of power and agility.
+    inconclusive: A fast time was reported without a defined component, fixed accuracy or technique criteria,
+      route authority, or an observed sequence.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Power, speed, coordination, and agility.
+    context_heading: Separate power, speed, coordination and agility into safe capability-fit learning
+      routes
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Power, speed,
       coordination, and agility.
   check_in_labels:
-    c1208_a1_primary: The bounded Power, speed, coordination, and agility criterion for action 1 was observed
+    c1208_a1_primary: 'Observed checks: classify the four capacities and select one honest route'
     c1208_a1_boundary: Action 1 stayed inside its stated Power, speed, coordination, and agility boundary
     c1208_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1208_a2_primary: The bounded Power, speed, coordination, and agility criterion for action 2 was observed
+    c1208_a2_primary: 'Observed checks: practice one component and correct one observed error'
     c1208_a2_boundary: Action 2 stayed inside its stated Power, speed, coordination, and agility boundary
     c1208_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1208_a3_primary: The bounded Power, speed, coordination, and agility criterion for action 3 was observed
+    c1208_a3_primary: 'Observed checks: compare a second exposure and choose a component-specific next
+      step'
     c1208_a3_boundary: Action 3 stayed inside its stated Power, speed, coordination, and agility boundary
     c1208_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Power, speed, coordination,
-    and agility practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which capacity was actually practiced, what prerequisite and recovery evidence supports
+    the next step, and which capacities remain untested? Completion is not mastery.
+  plain_language_evidence: Numbered cards reduced two order errors to none at the same comfortable pace,
+    and the record correctly limited the result to tabletop coordination with an unhurried cue.
   display_order: 153
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.08'
+  title: Classify and practice one movement capacity without scope inflation
+  scored: false
+  sections:
+  - id: component-cards
+    kind: concept
+    title: Four capacities and one related cue skill
+    body: Coordination organizes body parts or actions into an accurate, controlled sequence. Reaction
+      is initiating an appropriate response to a cue. Speed is completing a defined movement or distance
+      quickly. Power is producing force rapidly, so force and time both matter. Agility is rapid whole-body
+      movement or change of direction in response to a task or stimulus; a preplanned change-of-direction
+      drill does not capture every reactive-agility demand. These capacities interact, but one result
+      does not stand in for the others. Touching cards can expose order, target and cue-response errors.
+      It does not measure sprint speed, high-force power, landing ability or athletic agility.
+  - id: route-matrix
+    kind: material
+    title: Five route choices
+    body: 'Tabletop coordination and reaction: use the supplied cards, comfortable reach, accuracy criteria
+      and unhurried cues; no athletic claim. Existing-plan speed: use only a movement, surface, dose,
+      recovery and timing method already established for the person; no maximal trial is added. Existing-plan
+      power: use only a qualified or competently established power exercise with its strength, technique,
+      equipment, landing or force-absorption prerequisites already met; this guide supplies no load or
+      jump. Existing-plan agility: use only an established task with known deceleration, surface, footwear,
+      space and cue rules; do not infer reactive agility from a preplanned route. Instruction-first: prepare
+      the supplied brief and obtain a route decision without performing the uncertain movement.'
+  - id: prerequisite-screen
+    kind: material
+    title: Prerequisite and boundary screen
+    body: 'Record yes, no or unknown for: the selected component is defined; the movement and technique
+      are already familiar; the environment, surface and equipment are suitable; required mobility, strength,
+      balance, deceleration or force-absorption prerequisites are established where relevant; the dose
+      and recovery come from an existing plan; ordinary access support remains; and stop conditions are
+      known. A no or important unknown means instruction-first or defer. Stop for pain, faintness, chest
+      discomfort, unusual breathlessness, loss of control, unsafe surface or equipment, collision risk,
+      or the existing plan''s stop rule. This screen is educational and is not medical or sport clearance.'
+  - id: coordination-material
+    kind: material
+    title: Complete tabletop coordination default
+    body: 'Place three large cards labeled L, C and R on a stable table within comfortable reach. Use
+      a finger, pointer, eye gaze, switch or verbal selection. Fix four criteria: correct order; intended
+      target; controlled initiation and stop; comfortable reach without symptom-provoking effort. Attempt
+      L-C-R-C three times at an unhurried pace with rest. Record the exact missed contact or transition.
+      Add one cue, such as numbers 1-2-3-2 or speaking the sequence, and retry without increasing pace.
+      At the second session, change only the label order or use one willing cue giver. Timing is optional
+      and is not a completion criterion.'
+  - id: instruction-brief
+    kind: material
+    title: Speed, power or agility instruction brief
+    body: 'Prepare: the exact goal and component; current training experience; relevant movement and equipment;
+      surface, space and access conditions; existing dose and recovery; known technique; and each unknown
+      prerequisite. Ask: Is the goal actually speed, power, coordination, reaction, change of direction
+      or reactive agility? Which prerequisites and technique criteria should be established first? What
+      starting task and dose fit the current plan? What recovery and stop rules apply? Which single variable
+      could progress, and what evidence would permit it? Record only: appropriate as proposed | modify
+      | prerequisite first | another qualified route | defer. The answer prepares training; it does not
+      prove capacity.'
+  - id: component-record
+    kind: material
+    title: Component-specific comparison record
+    body: 'Goal and selected component: __. Route and source of authority: __. Materials, surface, equipment
+      and support: __. Prerequisite screen unknowns: __. Fixed dose, recovery and stop conditions: __.
+      Four accuracy or technique criteria: __. Exposure 1 observations, exact errors and early stop: __.
+      One cue or authorized change: __. Recovery before exposure 2: __. Exposure 2 conditions and observations:
+      __. Next step [repeat / regress / plan-authorized progression / instruction / stop] and reason:
+      __. Capacities not tested: __. Do not place recordings, identities, private health detail or another
+      person''s comments in the application evidence.'
+  - id: worked-coordination
+    kind: worked_example
+    title: Worked example that keeps the component boundary
+    body: Three unhurried L-C-R-C attempts contain two R-to-C order errors. The learner adds spoken numbers
+      and retries at the same pace with no order errors and controlled contacts. On the second day, a
+      willing partner gives the same four cues in an unhurried order; one target error returns. The evidence
+      supports improved performance with a self-spoken cue and mixed transfer to an external cue. It does
+      not show increased hand speed, rapid force, running speed, deceleration or agility.
+  - id: classify-cases
+    kind: prompt
+    title: Classify five movement cases
+    body: 'Classify the main observed capacity in each case and state one capacity the case does not establish.
+      A: touch L-C-R-C in the correct order at a comfortable pace. B: begin the correct touch after an
+      unpredictable L, C or R cue. C: cover a fixed straight distance in less time under comparable conditions.
+      D: move a known resistance rapidly with established technique. E: change whole-body direction in
+      response to an opponent or unpredictable signal. Explain why a quick tabletop sequence cannot by
+      itself establish D or E. Preserve the answers before opening the check.'
+    check_id: classification-key
+    attempt_mode: unaided
+    references:
+    - component-record
+  - id: select-route
+    kind: prompt
+    title: Select a route and declare its prerequisites
+    body: Choose one current goal and name its component. Complete the prerequisite screen, select one
+      of the five routes, and state the materials, environment, support, source of plan authority, fixed
+      dose, four criteria, recovery and stop conditions. For an instruction-first route, complete the
+      speed, power or agility brief instead of inventing a physical attempt. State which other capacities
+      will remain untested. Preserve the response before opening the check.
+    check_id: route-check
+    attempt_mode: open_explanation
+    references:
+    - route-matrix
+    - prerequisite-screen
+    - instruction-brief
+    - component-record
+  - id: compare-case
+    kind: prompt
+    title: Interpret a changed-condition comparison
+    body: 'Case: An existing-plan change-of-direction task met three of four technique criteria on the
+      first exposure. On the second exposure the athlete changed shoes and surface, received extra cueing,
+      and completed it faster while still missing the same deceleration criterion. Decide whether the
+      evidence supports progression and explain what is comparable, what is confounded and which capacities
+      remain untested. Preserve the answer before opening the check.'
+    check_id: comparison-key
+    attempt_mode: unaided
+    references:
+    - component-record
+  - id: next-component
+    kind: next_step
+    title: Choose the next component from evidence, not ambition
+    body: Repeat when the selected criteria need another comparable exposure. Regress when control, recovery
+      or prerequisites are insufficient. Progress one variable only when the existing plan or qualified
+      instruction permits it. Seek instruction when component choice, technique, dose, surface, equipment
+      or readiness is unknown. Stop when safety or recovery rules require it. Keep coordination, reaction,
+      speed, power and agility findings separate; broader athletic capability requires separately appropriate
+      evidence.
+  checks:
+  - id: classification-key
+    title: Check the component classifications
+    body: A primarily observes coordination. B primarily observes reaction choice while still requiring
+      coordination. C is a speed comparison. D is a power task because resistance is moved rapidly. E
+      is reactive agility because whole-body direction changes in response to an unpredictable signal.
+      Any case can depend on other capacities, but it does not establish them automatically. A quick tabletop
+      sequence has negligible relevance to high-force output, deceleration and whole-body direction change,
+      so it cannot establish D or E.
+    criteria:
+    - Each case has one main capacity and one explicit evidence limit.
+    - Reaction is separated from movement speed and coordination.
+    - Power includes rapid force rather than speed alone.
+    - Agility includes whole-body direction change and task or stimulus response.
+  - id: route-check
+    title: Check the route and prerequisites
+    body: A complete route names one component and uses either the complete low-risk coordination default,
+      an unchanged existing-plan component, or instruction-first. Speed, power and agility attempts require
+      their existing plan, known technique, appropriate environment and relevant prerequisites; this guide
+      supplies none by implication. Materials, support, dose, criteria, recovery and stop conditions are
+      fixed. Missing prerequisites lead to instruction or defer, and every untested capacity is listed.
+    criteria:
+    - The selected route matches the defined component and current authority.
+    - Prerequisite unknowns are not hidden or converted into permission.
+    - Dose and technique are not improvised from the guide.
+    - The evidence boundary excludes the other untested capacities.
+  - id: comparison-key
+    title: Check the changed-condition decision
+    body: Progression is not supported. Shoes, surface and cueing changed, so the faster result is not
+      comparable, and the same deceleration criterion remained unmet. The record can show that the second
+      exposure occurred under changed conditions and that one criterion remained a concern. It cannot
+      establish improvement, cause, power, straight-line speed, coordination across other tasks or safe
+      reactive agility. A defensible next step is to restore comparable conditions, regress, or seek plan-specific
+      instruction before progression.
+    criteria:
+    - Changed surface footwear and cueing are identified as comparison limits.
+    - Faster time does not override the repeated technique defect.
+    - Progression is withheld pending comparable or qualified evidence.
+    - Untested capacities remain explicitly unknown.

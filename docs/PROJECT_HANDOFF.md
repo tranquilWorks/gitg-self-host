@@ -1,6 +1,55 @@
 # Grounded Growth — Project Handoff
 
 
+## Inquiry and reusable-knowledge runtime cohort — 8 September 2026
+
+The post-PR #72 continuation completes **10.03 Curiosity and question formation**,
+**10.04 Research and information gathering**, and **10.05 Knowledge organization
+and notes**, increasing substantive compiler/runtime coverage to **99 tailored /
+284 pending**. The three form one inquiry-to-reuse sequence while retaining separate
+goals, materials, checks and evidence limits.
+
+10.03 supplies a fictional observation packet, descriptive/causal/evaluative question
+model, evidence-match table and durable backlog. 10.04 supplies three complete fictional
+source cards, an authority/provenance matrix, effective-date conflict and claim audit.
+10.05 supplies a source card, atomic-note/revision form, distractor index, retrieval log
+and delayed application. Six checks remain separately revealed from their prompts.
+
+Exact pre-projection packages are retained under each competency's quality folder, and
+the prospective compiler preserves all 383 protocol identities, 1,151 action identities,
+completion, activation, scoring and replay rules. Current professional source support is
+bounded to the ACRL information-literacy framework and Cornell learning-strategy guidance;
+neither validates these original exercises. See
+`docs/authoring/M6K-INQUIRY-NOTES-SCOPE-MAP.md` and
+`docs/evidence/M6K-INQUIRY-NOTES-RUNTIME.md`.
+
+This is authored runtime coverage and software verification, not a formal M6K A/B/C,
+independent learner, qualified, owner or empirical acceptance claim. Those dimensions
+remain pending. Continue with other cohorts of at most three tightly related IDs and
+retain separate evidence for every competency.
+
+
+## Physical-capacity runtime cohort — 8 September 2026
+
+The next bounded cohort completes **12.05** and **12.08**, increasing substantive
+compiler/runtime coverage to **96 tailored / 287 pending**. Strength now has a
+five-pattern map and complete entry, established-plan and instruction-first routes.
+Power, speed, coordination, reaction and agility are separated into routes with
+their own prerequisites, materials, evidence limits and progression boundaries.
+
+Exact pre-projection packages and historical sources are retained in each quality
+folder. The two canonical packages include the full learner guides and separately
+revealed checks; all 383 protocol identities, 1,151 action identities, completion,
+activation, scoring and replay rules remain protected. See
+`docs/authoring/M6K-PHYSICAL-CAPACITY-SCOPE-MAP.md` and
+`docs/evidence/M6K-PHYSICAL-CAPACITY-RUNTIME.md`.
+
+This is authored runtime coverage, not medical clearance, a universal exercise
+program, demonstrated strength gain or athletic certification. Formal independent,
+learner, qualified and owner reviews remain pending. Continue with other small,
+substantive cohorts under the same claim boundary.
+
+
 ## Learning and craft runtime cohort — 8 September 2026
 
 The owner requested substantive runtime progress after merging PR #70. This cohort

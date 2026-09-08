@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1004-RESEARCH-AND-INFORMATION-GATHERING-01
 slug: c1004-research-and-information-gathering-practice
-name: Bounded Research and information gathering Practice
+name: Build and audit one claim-by-claim research answer another reader can trace
 parent_competency_id: '10.04'
 domain_id: '10'
 governance:
@@ -14,10 +14,10 @@ governance:
   scoring_status: active
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
+  - SRC-ACRL-INFORMATION-LITERACY-FRAMEWORK
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 10.04
-      (Research and information gathering); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 10.04; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +35,51 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Research and information gathering through a low-stakes skill rehearsal bounded by
-    the canonical scope: Search broadly, locate primary and expert sources, compare perspectives, and
-    document provenance.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Produces a research
-    summary whose claims can be traced and checked. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Search beyond a first summary, distinguish primary and expert sources, compare conflicting
+    information and attach each conclusion to an identifiable source.
+  why_recommended: Search beyond a first summary, distinguish primary and expert sources, compare conflicting
+    information and attach each conclusion to an identifiable source.
   claims:
-  - statement: Using the canonical scope and evidence target for Research and information gathering is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Search beyond a first summary, distinguish primary and expert sources, compare conflicting
+      information and attach each conclusion to an identifiable source.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  - statement: The ACRL framework treats research as iterative inquiry, searching as strategic exploration,
+      authority as contextual, and source use as an ethical, traceable process; it also calls for refining
+      questions, matching methods to information needs, monitoring gaps, organizing information and synthesizing
+      multiple sources.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-ACRL-INFORMATION-LITERACY-FRAMEWORK
+    limitations: A higher-education information-literacy framework rather than a prescriptive checklist,
+      universal research method, product validation or evidence that these fictional exercises improve
+      curiosity or research ability. ACRL was consulting on a draft revision when inspected; this entry
+      refers to the adopted 2016 framework.
   applicability_question: Does a voluntary, bounded Research and information gathering practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Research and information gathering as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Research and information
-    gathering context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Research
-    and information gathering; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use a librarian, screen reader, printed policy or accessible official phone
+    channel. Keep the same source-to-claim trace when using AI to summarize; generated citations must
+    be checked directly. The offline case is research rehearsal, not advice about an actual service.
+  opportunity_considerations: Use the supplied fictional lending-service question, three complete source
+    cards, research-plan worksheet, claim matrix and audit prompt. No live search is required. An optional
+    live route may use current public documents, but every material claim must retain issuer, title, publication/effective
+    date, locator, access date and a stated authority/fit limit.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Research and information gathering.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the supplied fictional lending-service question, three complete source cards, research-plan worksheet,
+    claim matrix and audit prompt. No live search is required. An optional live route may use current
+    public documents, but every material claim must retain issuer, title, publication/effective date,
+    locator, access date and a stated authority/fit limit.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Research and information gathering
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a librarian, screen reader, printed policy or accessible official phone channel. Keep the same
+    source-to-claim trace when using AI to summarize; generated citations must be checked directly. The
+    offline case is research rehearsal, not advice about an actual service.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -79,21 +91,33 @@ meaning_and_fit:
   - The practice does not require one worldview or treat disagreement about Research and information gathering
     as inferiority; competing reasonable interpretations and conscientious refusal remain visible.
 intervention:
-  protocol_class: PF-SKILL-REHEARSAL
+  protocol_class: PF-KNOWLEDGE-APPLICATION
   duration_days: 10
-  cadence: Complete three bounded Research and information gathering actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Research and information gathering; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Research
-    and information gathering. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Research and information gathering actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the supplied fictional lending-service question, three complete source cards, research-plan
+    worksheet, claim matrix and audit prompt. No live search is required. An optional live route may use
+    current public documents, but every material claim must retain issuer, title, publication/effective
+    date, locator, access date and a stated authority/fit limit. Goal: Search beyond a first summary,
+    distinguish primary and expert sources, compare conflicting information and attach each conclusion
+    to an identifiable source. Scope: This is a bounded research workflow, not expert certification. Absence
+    of a source is an uncertainty, and a polished summary cannot compensate for unverifiable provenance.
+    Time and effort: Forty-five minutes, including a ten-minute provenance check. Adaptation: Use a librarian,
+    screen reader, printed policy or accessible official phone channel. Keep the same source-to-claim
+    trace when using AI to summarize; generated citations must be checked directly. The offline case is
+    research rehearsal, not advice about an actual service. Keep personal working notes outside the check-in;
+    record only the listed observations.
+
+
+    Reference support:
+
+    Framework for Information Literacy for Higher Education: https://www.ala.org/acrl/standards/ilframework'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a librarian, screen reader, printed policy or accessible official phone channel.
+    Keep the same source-to-claim trace when using AI to summarize; generated citations must be checked
+    directly. The offline case is research rehearsal, not advice about an actual service.
+  expected_burden: Forty-five minutes, including a ten-minute provenance check.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Research and information gathering protocol to rank worth, coerce participation, demand
@@ -101,18 +125,25 @@ intervention:
   - Treating a completed Research and information gathering action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Research and information gathering situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a librarian,
+    screen reader, printed policy or accessible official phone channel. Keep the same source-to-claim
+    trace when using AI to summarize; generated citations must be checked directly. The offline case is
+    research rehearsal, not advice about an actual service.
   actions:
   - stable_id: PRACTICE-COMP-1004-RESEARCH-AND-INFORMATION-GATHERING-01-A1
     sequence: 1
-    title: Define observable criteria for Research and information gathering
-    instructions: 'Select one safe, lawful, low-stakes component of Research and information gathering.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Search
-      broadly, locate primary and expert sources, compare perspectives, and document provenance.'
+    title: Plan a search that can find more than the expected answer
+    instructions: 'Open the fictional question and source cards. Split the decision into eligibility,
+      item limit, loan period, effective date and exceptions. For each information need name the source
+      type and authority that would fit it, then record issuer, title, publication date, effective date,
+      locator and access date. Complete the source-role prompt before opening its key; do not infer that
+      a polished or recent document has authority over a rule it does not issue.
+
+
+      Observation checks: The research question is divided into answerable subquestions; A primary source
+      is sought rather than only a summary; At least one alternate perspective or interpretation is considered;
+      Source title issuer date and locator are recorded. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +165,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1004_a1_skill_component_bounded
-        - c1004_a1_observable_rubric_present
-        - c1004_a1_error_or_stop_defined
+        - the_research_question_is_divided_into_answerable_subquestions
+        - a_primary_source_is_sought_rather_than_only_a_summary
+        - at_least_one_alternate_perspective_or_interpretation_is_considered
+        - source_title_issuer_date_and_locator_are_recorded
       - measurement_id: c1004_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +185,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1004-RESEARCH-AND-INFORMATION-GATHERING-01-A2
     sequence: 2
-    title: Rehearse Research and information gathering twice
-    instructions: Perform two bounded attempts of the selected Research and information gathering component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Compare claims and preserve unresolved discrepancies
+    instructions: 'Create one claim-matrix row per subquestion and attach exact source codes. Compare
+      each source’s scope, authority and effective date. In the fictional case, determine which rule P2
+      changes, which P1 rule remains, and why P3 cannot override either official card. Record the missing
+      eligibility and exception information as unknown. Complete the conflict prompt before revealing
+      its key, preserving rejected claims and the reason for rejection rather than silently deleting them.
+
+
+      Observation checks: Each factual claim points to a source code; Publication and effective dates
+      are distinguished; Conflicting information is resolved by relevant authority and context; Unanswered
+      subquestions are not silently filled in. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +212,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1004_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - each_factual_claim_points_to_a_source_code
+        - publication_and_effective_dates_are_distinguished
+        - conflicting_information_is_resolved_by_relevant_authority_and_context
+        - unanswered_subquestions_are_not_silently_filled_in
       - measurement_id: c1004_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +238,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1004-RESEARCH-AND-INFORMATION-GATHERING-01-A3
     sequence: 3
-    title: Use feedback for one Research and information gathering retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Produces
-      a research summary whose claims can be traced and checked.'
+    title: Write and audit a concise answer
+    instructions: 'Write the supplied answer template with confirmed rules, bounded interpretation, unresolved
+      questions and scope/date checked. Place a source code immediately after each material claim. Run
+      the audit by reopening all three cards, checking claim wording, number, date, authority and omission.
+      A claim passes only if its cited source supports that wording. Correct unsupported text while retaining
+      the original audit result and one specific official clarification question.
+
+
+      Observation checks: The summary distinguishes facts interpretation and unknowns; Every material
+      claim survives a source recheck; The answer includes its checking date and scope; One unresolved
+      issue has a concrete clarification route. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Could another reader follow your source trail and discover the same limitation without
+      trusting your confidence or writing style?
+
+
+      Examples: Supportive: The researcher used the official effective date, retained the seven-day rule
+      and explicitly left eligibility unanswered.
+
+
+      Mixed: The answer was broadly right but one claim lacked a source locator or confused publication
+      with effective date.
+
+
+      Contradictory: A community post or fabricated citation was presented as authoritative policy without
+      verification.
+
+
+      Inconclusive: Several links were collected but no claim-by-claim answer or provenance check was
+      produced.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +291,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1004_a3_feedback_item_selected
-        - c1004_a3_adjustment_traceable
-        - c1004_a3_retry_result_preserved
+        - the_summary_distinguishes_facts_interpretation_and_unknowns
+        - every_material_claim_survives_a_source_recheck
+        - the_answer_includes_its_checking_date_and_scope
+        - one_unresolved_issue_has_a_concrete_clarification_route
       - measurement_id: c1004_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +315,17 @@ intervention:
       Research and information gathering; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Research and information gathering; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a librarian, screen reader, printed policy or accessible official phone channel. Keep the same
+      source-to-claim trace when using AI to summarize; generated citations must be checked directly.
+      The offline case is research rehearsal, not advice about an actual service.
     cultural_context:
     - Adapt the expression of Research and information gathering to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Research and information gathering opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use a librarian, screen reader, printed policy or accessible official phone channel. Keep the same
+      source-to-claim trace when using AI to summarize; generated citations must be checked directly.
+      The offline case is research rehearsal, not advice about an actual service.
   pause_conditions:
   - Pause Research and information gathering when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -287,10 +357,7 @@ evidence_and_scoring:
   - c1004_a3_boundary
   - c1004_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Research and information gathering action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Research and information gathering criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A community post or fabricated citation was presented as authoritative policy without verification.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Research and information gathering explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +368,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Research and information gathering rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Produces a research summary whose claims can be traced and checked.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Research and information gathering requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Plan a search that can find more than the expected answer. Observed checks:
+    The research question is divided into answerable subquestions; A primary source is sought rather than
+    only a summary; At least one alternate perspective or interpretation is considered; Source title issuer
+    date and locator are recorded. Action 2: Compare claims and preserve unresolved discrepancies. Observed
+    checks: Each factual claim points to a source code; Publication and effective dates are distinguished;
+    Conflicting information is resolved by relevant authority and context; Unanswered subquestions are
+    not silently filled in. Action 3: Write and audit a concise answer. Observed checks: The summary distinguishes
+    facts interpretation and unknowns; Every material claim survives a source recheck; The answer includes
+    its checking date and scope; One unresolved issue has a concrete clarification route.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Several links were collected but no claim-by-claim
+    answer or provenance check was produced.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Research
     and information gathering contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -317,9 +392,8 @@ evidence_and_scoring:
   - L13
   - L15
   - L19
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Research and information gathering evidence.
@@ -327,11 +401,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for research and information gathering action was attempted or explicitly
-    deferred.
-  - The rehearse research and information gathering twice action was attempted or explicitly deferred.
-  - The use feedback for one research and information gathering retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Plan a search that can find more than the expected answer. Observed checks: The research
+    question is divided into answerable subquestions; A primary source is sought rather than only a summary;
+    At least one alternate perspective or interpretation is considered; Source title issuer date and locator
+    are recorded.'
+  - 'Action 2: Compare claims and preserve unresolved discrepancies. Observed checks: Each factual claim
+    points to a source code; Publication and effective dates are distinguished; Conflicting information
+    is resolved by relevant authority and context; Unanswered subquestions are not silently filled in.'
+  - 'Action 3: Write and audit a concise answer. Observed checks: The summary distinguishes facts interpretation
+    and unknowns; Every material claim survives a source recheck; The answer includes its checking date
+    and scope; One unresolved issue has a concrete clarification route.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,57 +422,191 @@ completion_and_review:
     - c1004_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Research and information gathering only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Research and information gathering across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Could another reader follow your source trail and discover the same limitation
+    without trusting your confidence or writing style?
+  transfer_limit: This is a bounded research workflow, not expert certification. Absence of a source is
+    an uncertainty, and a polished summary cannot compensate for unverifiable provenance.
   reflection:
-    before: What does Research and information gathering require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Research and information gathering criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Produces a research summary whose claims can be traced and
-      checked.', what contradiction or missing context matters most, and should this Research and information
-      gathering design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Search beyond a first summary, distinguish
+      primary and expert sources, compare conflicting information and attach each conclusion to an identifiable
+      source.'
+    during: Which checks have actually been observed? The answer was broadly right but one claim lacked
+      a source locator or confused publication with effective date.
+    after: Could another reader follow your source trail and discover the same limitation without trusting
+      your confidence or writing style?
   review_guidance:
     repeat: Repeat the same bounded Research and information gathering design only when the context and
       burden remain appropriate.
-    adapt: Change the Research and information gathering medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Use a librarian, screen reader, printed policy or accessible official phone channel. Keep the
+      same source-to-claim trace when using AI to summarize; generated citations must be checked directly.
+      The offline case is research rehearsal, not advice about an actual service.
     stop: Stop Research and information gathering when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Research and information gathering questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Research and information gathering criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Research and information gathering criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Research and information gathering criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Research and information gathering action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The researcher used the official effective date, retained the seven-day rule and explicitly
+      left eligibility unanswered.
+    mixed: The answer was broadly right but one claim lacked a source locator or confused publication
+      with effective date.
+    contradictory: A community post or fabricated citation was presented as authoritative policy without
+      verification.
+    inconclusive: Several links were collected but no claim-by-claim answer or provenance check was produced.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Research and information gathering.
+    context_heading: Build and audit one claim-by-claim research answer another reader can trace
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Research
       and information gathering.
   check_in_labels:
-    c1004_a1_primary: The bounded Research and information gathering criterion for action 1 was observed
+    c1004_a1_primary: 'Observed checks: plan a search that can find more than the expected answer'
     c1004_a1_boundary: Action 1 stayed inside its stated Research and information gathering boundary
     c1004_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1004_a2_primary: The bounded Research and information gathering criterion for action 2 was observed
+    c1004_a2_primary: 'Observed checks: compare claims and preserve unresolved discrepancies'
     c1004_a2_boundary: Action 2 stayed inside its stated Research and information gathering boundary
     c1004_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1004_a3_primary: The bounded Research and information gathering criterion for action 3 was observed
+    c1004_a3_primary: 'Observed checks: write and audit a concise answer'
     c1004_a3_boundary: Action 3 stayed inside its stated Research and information gathering boundary
     c1004_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Research and information
-    gathering practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Could another reader follow your source trail and discover the same limitation without
+    trusting your confidence or writing style? Completion is not mastery.
+  plain_language_evidence: The researcher used the official effective date, retained the seven-day rule
+    and explicitly left eligibility unanswered.
   display_order: 126
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '10.04'
+  title: Plan, trace and audit a bounded research answer
+  scored: false
+  sections:
+  - id: research-model
+    kind: concept
+    title: Match the source to the claim and decision
+    body: 'Research is an iterative inquiry, not link collection. Start with the decision and its subquestions.
+      A primary source is closest to issuing the rule, measurement or original record; an expert source
+      interprets within demonstrated relevant expertise; an affected-person or community source can reveal
+      experience and missing perspectives. None is automatically best for every claim. Authority is contextual:
+      a service policy fits the service’s own current borrowing rule, while a user post may identify a
+      practical concern but cannot amend that policy. Currency means the version effective for the decision,
+      not merely the newest timestamp. Preserve uncertainty when authority, scope or evidence is absent.'
+  - id: research-plan
+    kind: material
+    title: Research plan and stopping rule
+    body: 'Decision: __. Subquestions: eligibility | limit | duration | effective date | exceptions. For
+      each write: evidence needed | likely issuing body or expert | search terms or offline card | alternate
+      perspective | consequence if wrong. Stop when every material claim has a fitting inspectable source
+      or is explicitly unknown, the decision can be made within its stated scope, and one additional search
+      is unlikely to change it. Stop earlier for unauthorized access, private data, paid access outside
+      the plan or stakes requiring qualified advice.'
+  - id: source-cards
+    kind: material
+    title: Fictional lending-service source cards
+    body: 'P1 — Northstar Tool Library, “Standard Borrowing Policy,” issued 10 January 2026, effective
+      10 January 2026, locator northstar.example/policy. Text: members may borrow one item at a time for
+      seven calendar days. The card does not define member eligibility or exceptions.
+
+
+      P2 — Northstar Tool Library, “April Limit Update,” issued 15 March 2026, effective 1 April 2026,
+      locator northstar.example/april-update. Text: beginning 1 April, the simultaneous item limit changes
+      from one to two. All other Standard Borrowing Policy terms remain unchanged. The card does not define
+      eligibility or exceptions.
+
+
+      P3 — River District Neighbors forum, post by “HelpfulNeighbor,” issued 20 February 2026, no official
+      effective date, locator forum.example/thread-44. Text: “I think returns are monthly now.” The writer
+      provides no policy link or role. These are fictional records; the locators must not be opened or
+      treated as real rules.'
+  - id: claim-matrix
+    kind: material
+    title: Source and claim matrix
+    body: 'One row per claim: C-ID | exact claim | source code and locator | issuer/author | source role
+      [primary / expert / community] | publication date | effective date | relevant passage in your own
+      words | authority for this claim | conflict or limitation | disposition [supported / qualified /
+      rejected / unknown]. Keep rejected and unknown rows. An answer is traceable only when another reader
+      can locate the same source and see why it does or does not support the exact claim.'
+  - id: answer-template
+    kind: material
+    title: Bounded research answer and audit log
+    body: 'Question and decision context: __. Checked on: __. Confirmed: [claim plus source code]. Interpretation:
+      [reasoning clearly labeled]. Unknown: [missing fact and consequence]. Before acting: [specific clarification
+      route]. Scope limit: __. Audit one row per material claim: wording matches source [yes/no] | number/date
+      matches [yes/no] | source has authority for this claim [yes/no] | current/effective for context
+      [yes/no] | uncertainty retained [yes/no] | correction. A clean citation format cannot rescue a source
+      that does not support the claim.'
+  - id: worked-answer
+    kind: worked_example
+    title: Worked claim trail for the fictional case
+    body: For borrowing on or after 1 April 2026, the simultaneous limit is two items [P2]. The seven-calendar-day
+      period remains because P2 leaves other P1 terms unchanged [P2; P1]. The cards do not state who qualifies
+      as a member or what exceptions exist, so both are unknown. P3’s monthly statement is rejected for
+      the policy claim because it has no issuing authority or supporting policy. Before acting on an exception,
+      ask the service through its official public contact route. This answer applies only to the fictional
+      cards and is not advice about a real library.
+  - id: source-role
+    kind: prompt
+    title: Assign source roles and identify missing evidence
+    body: Classify P1, P2 and P3 by source role for the borrowing-rule question. Which card can change
+      the item limit? Which can support the loan period after 1 April? What can P3 legitimately contribute?
+      List the provenance fields present and the two required subquestions for which no card supplies
+      an answer. Preserve the response before opening the key.
+    check_id: source-role-key
+    attempt_mode: practice
+    references:
+    - source-cards
+    - research-plan
+  - id: conflict-resolution
+    kind: prompt
+    title: Resolve the dates and conflicting claims
+    body: 'A draft says: “The March document immediately allows two items for one month, and everyone
+      may borrow.” Audit each clause against P1-P3. Write the corrected bounded answer for 20 March and
+      for 2 April. State what remains unknown and why the community post does not settle it. Preserve
+      the audit before opening the key.'
+    check_id: conflict-key
+    attempt_mode: practice
+    references:
+    - source-cards
+    - claim-matrix
+    - answer-template
+  - id: live-and-advanced
+    kind: pathway
+    title: Move from the packet to a live or advanced question
+    body: 'Live route: replace each fictional card with an inspectable current public source and retain
+      its provenance. Advanced route: add scholarly or technical claims, searching more than one database
+      or vocabulary and comparing methods, populations and limitations rather than counting sources. Use
+      a librarian or qualified expert when the domain or access path is unfamiliar. AI may suggest search
+      terms or summarize inspected text, but generated citations and quotations are unverified until opened
+      and checked against the original.'
+  - id: next-research
+    kind: next_step
+    title: Progress by increasing decision fit and auditability
+    body: Transfer the same research plan, matrix and audit to a different low-stakes decision. Increase
+      difficulty through a more ambiguous source set, competing expert interpretations or a version history—not
+      through higher consequences. One correct fictional policy summary demonstrates a bounded traceable
+      answer, not expertise in a domain or general immunity to misinformation.
+  checks:
+  - id: source-role-key
+    title: Check source roles and gaps
+    body: P1 and P2 are primary official sources for the fictional service’s own rules. P2 is the only
+      card that changes the item limit; P1 supplies the seven-day period and P2 explicitly retains other
+      terms. P3 is a community claim that may reveal a question worth checking but has no authority to
+      change policy. All cards supply a title or identifier, issuer/author, publication date and locator;
+      P1 and P2 also supply effective dates. No card defines eligibility or exceptions.
+    criteria:
+    - Source role is assigned in relation to the exact borrowing-rule claim.
+    - P2 changes only the item limit from its effective date.
+    - P3 is retained as a perspective or lead but not treated as policy authority.
+    - Eligibility and exceptions remain explicit evidence gaps.
+  - id: conflict-key
+    title: Check the date-sensitive answer
+    body: Every clause in the draft is defective. On 20 March, P2 has been published but is not effective,
+      so P1 permits one item for seven days. On 2 April, P2 permits two simultaneous items and retains
+      the seven-day period from P1. No card supports a one-month period or universal eligibility. P3’s
+      unsupported belief cannot override the official sources. A correct answer labels eligibility and
+      exceptions unknown and gives a specific official clarification route.
+    criteria:
+    - Publication and effective dates are applied separately.
+    - The two-item limit begins on 1 April and the seven-day duration remains.
+    - Unsupported monthly duration and universal eligibility claims are rejected.
+    - The correction retains unknowns, source codes, check date and scope.

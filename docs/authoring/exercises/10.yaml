@@ -495,46 +495,46 @@ exercises:
         - Record worse, unchanged and mixed results as well as improvement.
         - Explain changed supports or conditions before claiming a comparable improvement.
   '10.03':
-    title: Turn a puzzling observation into a question worth answering
+    title: Turn one puzzling observation into a precise, testable question backlog
     goal: Distinguish a vague curiosity from a precise descriptive, causal or evaluative question, investigate
       one and keep a useful backlog of unresolved questions.
     scope_note: This is inquiry practice around a harmless observation. A good question need not have
       an immediate answer, and one observation cannot establish a causal explanation.
     burden: Ten minutes for observation, twenty minutes for one inquiry and ten minutes to refine the
       question backlog.
-    setup: 'Default observation: a shared notice board becomes difficult to read even though old notices
-      are removed weekly. Use a page with observed puzzle, possible questions, evidence needed and next
-      question. A photograph is optional and should contain no names or private notices; a drawn synthetic
-      board is sufficient.'
+    setup: Use the supplied synthetic notice-board brief, question ladder, evidence-match table and backlog
+      template. The board has twelve labeled rectangles, five overlaps, four designated posting zones and
+      no personal content. A live board is optional and may be used only when viewing it is permitted;
+      record counts and layout categories rather than names, messages or photographs.
     actions:
     - title: Describe the puzzle and generate different kinds of question
-      instructions: 'Record what is puzzling without explaining it immediately. Write three questions:
-        descriptive—how many notices overlap; causal—does placement contribute to overlap; evaluative—what
-        makes the board usable for its readers? Replace vague wording such as why is it bad with terms
-        that could be observed. Identify a contradiction between the expectation that removal should help
-        and the continuing difficulty.'
+      instructions: Read the supplied board brief without opening the classification key. Record observation,
+        expectation and contradiction in separate fields. Write at least one descriptive, causal and evaluative
+        question. Replace vague terms such as bad, cluttered or works with a named population, object, measure,
+        comparison or criterion. Complete the classification prompt, preserve the first answer and then use
+        its key to correct any question whose type or observable terms were unclear.
       checks:
       - The observation is separated from an immediate explanation
       - Descriptive causal and evaluative questions are distinguished
       - Vague terms are replaced with observable meanings
       - The surprising expectation or contradiction is stated
     - title: Choose one question and obtain a relevant piece of evidence
-      instructions: Select a question that matters, can be investigated safely and fits twenty minutes.
-        For the default, count overlapping and non-overlapping notices on a synthetic board, or inspect
-        a board you may view without recording personal content. Explain what that observation answers
-        and what it cannot answer; an overlap count does not establish why people choose a location. Ask
-        a willing maintainer only through an appropriate non-intrusive channel.
+      instructions: Use the evidence-match table to rank questions by relevance, answerability, consequence,
+        access and twenty-minute fit. Select one question and predeclare the evidence that could answer it,
+        what result would remain ambiguous and one privacy boundary. For the complete default, count the
+        supplied overlap and zone-placement observations. Explain why those counts can answer a descriptive
+        question but cannot establish motive or causation. Preserve the result and any missing evidence.
       checks:
       - The selected question has a reason for priority
       - The evidence actually bears on that question
       - Observation respects access and privacy
       - A descriptive result is not promoted into an unsupported cause
     - title: Resolve refine or defer rather than filling the gap with a story
-      instructions: Write answered within this scope, partly answered, or unresolved, with the supporting
-        observation. Refine the causal question if needed, such as whether clear posting zones reduce
-        overlap, and name a safe next check. Keep the other two questions in a short backlog with the
-        information that would make them worth revisiting. Do not manufacture an answer merely to close
-        the entry.
+      instructions: Enter every question in the supplied backlog with type, exact wording, status, evidence
+        seen, uncertainty and next check. Mark the investigated question answered within scope, partly answered
+        or unresolved. Refine one causal question into a safe comparison, then complete the resolution prompt
+        before revealing its key. Keep unanswered questions visible with a revisit trigger; do not invent a
+        cause or close an entry merely to make the backlog look complete.
       checks:
       - The question receives an honest resolution status
       - The answer cites the observed evidence
@@ -554,47 +554,126 @@ exercises:
         surveillance.
       inconclusive: A list of interesting topics was made without one precise question, evidence check
         or refinement.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.03'
+      title: Observe, form and refine questions without inventing answers
+      scored: false
+      sections:
+      - id: inquiry-boundary
+        kind: concept
+        title: A question is a tool, not an answer in disguise
+        body: |-
+          Curiosity becomes investigable when observation, interpretation and uncertainty remain separate. An observation reports what the available record shows. An interpretation proposes meaning. A question identifies what is still unknown. Descriptive questions ask what, where, when or how much; causal questions ask what contributes to a change and require a defensible comparison; evaluative questions ask how something performs against explicit criteria for a named user or purpose. A precise question names its object, scope and evidence need. Precision does not require premature certainty, and one count cannot establish motive or cause.
+      - id: question-ladder
+        kind: material
+        title: Question ladder and evidence-match table
+        body: |-
+          For each candidate write: observed fact | expected pattern | contradiction or gap | question type | exact question | evidence needed | evidence available | what that evidence cannot show | privacy or access limit. Test the wording: Can two readers identify the same object and measure? Is the population or setting bounded? Does the proposed evidence match the type? Is the answer useful enough to justify the effort? Rank candidates with high, medium or low for relevance, answerability, consequence, access and time fit. A high-consequence question requires stronger authority and is outside this low-stakes default.
+      - id: board-packet
+        kind: material
+        title: Synthetic notice-board evidence packet
+        body: |-
+          The fictional board is divided into four equal posting zones, Z1 through Z4. Twelve same-size notices are present. N1-N4 are in Z1, N5-N7 in Z2, N8-N10 in Z3 and N11-N12 in Z4. Overlap pairs are N1/N2, N2/N3, N5/N6, N8/N9 and N9/N10: five overlap pairs. Seven notices do not overlap another notice. Ten notices are fully inside a zone and two cross a zone boundary. A weekly log says expired notices were removed on schedule for four weeks. It contains no measure of readability, posting motives, board traffic or results from a board with clearer zones. This packet permits counting and question design; it does not establish why overlap occurs or what readers prefer.
+      - id: backlog-template
+        kind: material
+        title: Private question backlog
+        body: |-
+          Use one row per question: Q-ID | exact wording | descriptive / causal / evaluative | priority reason | status [unexamined / investigated / answered within scope / partly answered / unresolved / deferred] | evidence and date | strongest limitation | next safe check | revisit trigger. Keep unresolved entries rather than converting uncertainty into a confident story. Store no names, message content or other private detail.
+      - id: worked-refinement
+        kind: worked_example
+        title: Worked refinement from vague concern to testable inquiry
+        body: |-
+          “Why is the board bad?” hides both the criterion and the proposed cause. A descriptive refinement is “How many of the twelve notices overlap at least one other notice in the supplied packet?” A causal refinement is “Under comparable posting traffic, does a board with visibly marked zones have fewer overlap pairs than a board without them?” An evaluative refinement is “Can intended readers identify current event date and contact details at the agreed viewing distance?” The packet answers only the supplied overlap count. The causal comparison and actual-reader criterion need new evidence.
+      - id: classify-questions
+        kind: prompt
+        title: Classify and repair four questions
+        body: |-
+          Before opening the key, classify each as descriptive, causal, evaluative or not yet investigable and repair any vague wording. A: How many overlap pairs are in the packet? B: Why are users careless? C: Under comparable posting traffic, do marked zones reduce overlap pairs? D: Is the board usable? For D, name the user, task and criterion needed. State which questions the supplied packet can answer and which require new evidence.
+        check_id: classification-key
+        attempt_mode: practice
+        references:
+        - question-ladder
+        - board-packet
+      - id: resolve-question
+        kind: prompt
+        title: Record an honest resolution and next question
+        body: |-
+          Using only the supplied packet, answer “How many overlap pairs are present?” Then record whether the question is answered within scope, partly answered or unresolved. Explain whether the result establishes why overlap occurs. Refine one causal question into a comparison with an independent variable, outcome and comparable condition. Add the original and refined questions to the backlog with an evidence limitation and revisit trigger. Preserve this attempt before opening the key.
+        check_id: resolution-key
+        attempt_mode: practice
+        references:
+        - board-packet
+        - backlog-template
+      - id: pathway-options
+        kind: pathway
+        title: Choose a fitting inquiry route
+        body: |-
+          Default route: use the complete fictional packet. Live-observation route: inspect only a place you may view and retain category-level counts, not personal content. Advanced route: use a real low-stakes technical or civic question, but predeclare the authority, evidence and stopping boundary before searching. Spoken, signed, audio, tactile and supported responses are equivalent when the question structure remains observable. Curiosity about a person never grants access to that person’s private life.
+      - id: next-inquiry
+        kind: next_step
+        title: Progress by improving evidence fit
+        body: |-
+          Progress is not asking more questions. It is forming a question whose wording, consequence and evidence need are clearer, then revising it when inquiry exposes a gap. Transfer by applying the same observation-question-evidence-status record to a different harmless context. A completed packet shows one bounded inquiry cycle, not a stable trait or broad research competence.
+      checks:
+      - id: classification-key
+        title: Check the question types and repairs
+        body: |-
+          A is descriptive and the packet can answer it. B is an unsupported interpretation of motive, not yet an investigable causal question; a repair would compare a named placement condition with a countable outcome without assigning blame. C is causal and requires a comparable marked-zone condition that the packet does not provide. D is evaluative but incomplete until it names intended readers, a task such as locating date/contact details, and an observable usability criterion. The packet supports the overlap count, not cause, motive or actual-reader usability.
+        criteria:
+        - Each question is classified by the information it asks for, not by its first word alone.
+        - Vague or judgmental wording is replaced with a bounded object and observable criterion.
+        - Evidence availability is distinguished from evidence that would be needed.
+        - Missing causal or user evidence remains unknown rather than inferred.
+      - id: resolution-key
+        title: Check the resolution and refinement
+        body: |-
+          The packet contains five listed overlap pairs, so the descriptive count is five and is answered within the packet’s scope. That result does not establish why posters chose locations or whether zones caused the overlaps. A defensible causal refinement names a condition and outcome, for example comparing overlap-pair counts under similar posting traffic before and after visible zone markings. The backlog should retain the descriptive answer, the causal unknown, the needed comparison and a trigger such as access to a comparable second record.
+        criteria:
+        - The answer is five overlap pairs and cites the supplied list rather than guessing from the total notices.
+        - The resolution is limited to the synthetic packet.
+        - The causal refinement states condition, outcome and comparable context.
+        - The backlog retains uncertainty, next evidence and a revisit trigger.
   '10.04':
-    title: Build a small research answer that another person can trace
+    title: Build and audit one claim-by-claim research answer another reader can trace
     goal: Search beyond a first summary, distinguish primary and expert sources, compare conflicting information
       and attach each conclusion to an identifiable source.
     scope_note: This is a bounded research workflow, not expert certification. Absence of a source is
       an uncertainty, and a polished summary cannot compensate for unverifiable provenance.
     burden: Forty-five minutes, including a ten-minute provenance check.
-    setup: 'Question: what are the rules for borrowing an item from a local lending service? Use current
-      public documents when available. Offline case: policy P1, dated January, allows one item for seven
-      days; official update P2, dated March, allows two items for seven days from April; a community post
-      P3, dated February, says returns are monthly. Treat these as fictional documents, not real service
-      rules.'
+    setup: Use the supplied fictional lending-service question, three complete source cards, research-plan
+      worksheet, claim matrix and audit prompt. No live search is required. An optional live route may use
+      current public documents, but every material claim must retain issuer, title, publication/effective
+      date, locator, access date and a stated authority/fit limit.
     actions:
     - title: Plan a search that can find more than the expected answer
-      instructions: Break the question into eligibility, item limit, loan period and exceptions. Search
-        the service’s own policy or official contact route first, then an appropriate expert explanation
-        and a community perspective if useful. Record title, author or issuing body, date and where the
-        source can be found. In the offline case, identify which of P1, P2 and P3 is primary authority
-        and which is commentary.
+      instructions: Open the fictional question and source cards. Split the decision into eligibility,
+        item limit, loan period, effective date and exceptions. For each information need name the source
+        type and authority that would fit it, then record issuer, title, publication date, effective date,
+        locator and access date. Complete the source-role prompt before opening its key; do not infer that
+        a polished or recent document has authority over a rule it does not issue.
       checks:
       - The research question is divided into answerable subquestions
       - A primary source is sought rather than only a summary
       - At least one alternate perspective or interpretation is considered
       - Source title issuer date and locator are recorded
     - title: Compare claims and preserve unresolved discrepancies
-      instructions: Create one row per subquestion and attach the supporting source code. Compare publication
-        date with effective date; in the default, the March update changes the item limit only from April
-        and leaves the seven-day period unchanged. Do not average conflicting claims or assume the newest
-        social post overrides policy. Mark any missing eligibility or exception information unknown and
-        identify the exact clarification needed.
+      instructions: Create one claim-matrix row per subquestion and attach exact source codes. Compare each
+        source’s scope, authority and effective date. In the fictional case, determine which rule P2 changes,
+        which P1 rule remains, and why P3 cannot override either official card. Record the missing eligibility
+        and exception information as unknown. Complete the conflict prompt before revealing its key, preserving
+        rejected claims and the reason for rejection rather than silently deleting them.
       checks:
       - Each factual claim points to a source code
       - Publication and effective dates are distinguished
       - Conflicting information is resolved by relevant authority and context
       - Unanswered subquestions are not silently filled in
     - title: Write and audit a concise answer
-      instructions: Write a short answer that separates confirmed rules, interpretation and unknowns.
-        For the offline case, say that the two-item limit begins in April while the official seven-day
-        period remains; eligibility is not supplied. Reopen every cited source or recheck the fictional
-        excerpts to ensure the wording is supported. Add the date checked and one question for the service
-        before anyone acts on an unresolved exception.
+      instructions: Write the supplied answer template with confirmed rules, bounded interpretation,
+        unresolved questions and scope/date checked. Place a source code immediately after each material
+        claim. Run the audit by reopening all three cards, checking claim wording, number, date, authority
+        and omission. A claim passes only if its cited source supports that wording. Correct unsupported
+        text while retaining the original audit result and one specific official clarification question.
       checks:
       - The summary distinguishes facts interpretation and unknowns
       - Every material claim survives a source recheck
@@ -614,45 +693,137 @@ exercises:
         verification.
       inconclusive: Several links were collected but no claim-by-claim answer or provenance check was
         produced.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.04'
+      title: Plan, trace and audit a bounded research answer
+      scored: false
+      sections:
+      - id: research-model
+        kind: concept
+        title: Match the source to the claim and decision
+        body: |-
+          Research is an iterative inquiry, not link collection. Start with the decision and its subquestions. A primary source is closest to issuing the rule, measurement or original record; an expert source interprets within demonstrated relevant expertise; an affected-person or community source can reveal experience and missing perspectives. None is automatically best for every claim. Authority is contextual: a service policy fits the service’s own current borrowing rule, while a user post may identify a practical concern but cannot amend that policy. Currency means the version effective for the decision, not merely the newest timestamp. Preserve uncertainty when authority, scope or evidence is absent.
+      - id: research-plan
+        kind: material
+        title: Research plan and stopping rule
+        body: |-
+          Decision: __. Subquestions: eligibility | limit | duration | effective date | exceptions. For each write: evidence needed | likely issuing body or expert | search terms or offline card | alternate perspective | consequence if wrong. Stop when every material claim has a fitting inspectable source or is explicitly unknown, the decision can be made within its stated scope, and one additional search is unlikely to change it. Stop earlier for unauthorized access, private data, paid access outside the plan or stakes requiring qualified advice.
+      - id: source-cards
+        kind: material
+        title: Fictional lending-service source cards
+        body: |-
+          P1 — Northstar Tool Library, “Standard Borrowing Policy,” issued 10 January 2026, effective 10 January 2026, locator northstar.example/policy. Text: members may borrow one item at a time for seven calendar days. The card does not define member eligibility or exceptions.
+
+          P2 — Northstar Tool Library, “April Limit Update,” issued 15 March 2026, effective 1 April 2026, locator northstar.example/april-update. Text: beginning 1 April, the simultaneous item limit changes from one to two. All other Standard Borrowing Policy terms remain unchanged. The card does not define eligibility or exceptions.
+
+          P3 — River District Neighbors forum, post by “HelpfulNeighbor,” issued 20 February 2026, no official effective date, locator forum.example/thread-44. Text: “I think returns are monthly now.” The writer provides no policy link or role. These are fictional records; the locators must not be opened or treated as real rules.
+      - id: claim-matrix
+        kind: material
+        title: Source and claim matrix
+        body: |-
+          One row per claim: C-ID | exact claim | source code and locator | issuer/author | source role [primary / expert / community] | publication date | effective date | relevant passage in your own words | authority for this claim | conflict or limitation | disposition [supported / qualified / rejected / unknown]. Keep rejected and unknown rows. An answer is traceable only when another reader can locate the same source and see why it does or does not support the exact claim.
+      - id: answer-template
+        kind: material
+        title: Bounded research answer and audit log
+        body: |-
+          Question and decision context: __. Checked on: __. Confirmed: [claim plus source code]. Interpretation: [reasoning clearly labeled]. Unknown: [missing fact and consequence]. Before acting: [specific clarification route]. Scope limit: __. Audit one row per material claim: wording matches source [yes/no] | number/date matches [yes/no] | source has authority for this claim [yes/no] | current/effective for context [yes/no] | uncertainty retained [yes/no] | correction. A clean citation format cannot rescue a source that does not support the claim.
+      - id: worked-answer
+        kind: worked_example
+        title: Worked claim trail for the fictional case
+        body: |-
+          For borrowing on or after 1 April 2026, the simultaneous limit is two items [P2]. The seven-calendar-day period remains because P2 leaves other P1 terms unchanged [P2; P1]. The cards do not state who qualifies as a member or what exceptions exist, so both are unknown. P3’s monthly statement is rejected for the policy claim because it has no issuing authority or supporting policy. Before acting on an exception, ask the service through its official public contact route. This answer applies only to the fictional cards and is not advice about a real library.
+      - id: source-role
+        kind: prompt
+        title: Assign source roles and identify missing evidence
+        body: |-
+          Classify P1, P2 and P3 by source role for the borrowing-rule question. Which card can change the item limit? Which can support the loan period after 1 April? What can P3 legitimately contribute? List the provenance fields present and the two required subquestions for which no card supplies an answer. Preserve the response before opening the key.
+        check_id: source-role-key
+        attempt_mode: practice
+        references:
+        - source-cards
+        - research-plan
+      - id: conflict-resolution
+        kind: prompt
+        title: Resolve the dates and conflicting claims
+        body: |-
+          A draft says: “The March document immediately allows two items for one month, and everyone may borrow.” Audit each clause against P1-P3. Write the corrected bounded answer for 20 March and for 2 April. State what remains unknown and why the community post does not settle it. Preserve the audit before opening the key.
+        check_id: conflict-key
+        attempt_mode: practice
+        references:
+        - source-cards
+        - claim-matrix
+        - answer-template
+      - id: live-and-advanced
+        kind: pathway
+        title: Move from the packet to a live or advanced question
+        body: |-
+          Live route: replace each fictional card with an inspectable current public source and retain its provenance. Advanced route: add scholarly or technical claims, searching more than one database or vocabulary and comparing methods, populations and limitations rather than counting sources. Use a librarian or qualified expert when the domain or access path is unfamiliar. AI may suggest search terms or summarize inspected text, but generated citations and quotations are unverified until opened and checked against the original.
+      - id: next-research
+        kind: next_step
+        title: Progress by increasing decision fit and auditability
+        body: |-
+          Transfer the same research plan, matrix and audit to a different low-stakes decision. Increase difficulty through a more ambiguous source set, competing expert interpretations or a version history—not through higher consequences. One correct fictional policy summary demonstrates a bounded traceable answer, not expertise in a domain or general immunity to misinformation.
+      checks:
+      - id: source-role-key
+        title: Check source roles and gaps
+        body: |-
+          P1 and P2 are primary official sources for the fictional service’s own rules. P2 is the only card that changes the item limit; P1 supplies the seven-day period and P2 explicitly retains other terms. P3 is a community claim that may reveal a question worth checking but has no authority to change policy. All cards supply a title or identifier, issuer/author, publication date and locator; P1 and P2 also supply effective dates. No card defines eligibility or exceptions.
+        criteria:
+        - Source role is assigned in relation to the exact borrowing-rule claim.
+        - P2 changes only the item limit from its effective date.
+        - P3 is retained as a perspective or lead but not treated as policy authority.
+        - Eligibility and exceptions remain explicit evidence gaps.
+      - id: conflict-key
+        title: Check the date-sensitive answer
+        body: |-
+          Every clause in the draft is defective. On 20 March, P2 has been published but is not effective, so P1 permits one item for seven days. On 2 April, P2 permits two simultaneous items and retains the seven-day period from P1. No card supports a one-month period or universal eligibility. P3’s unsupported belief cannot override the official sources. A correct answer labels eligibility and exceptions unknown and gives a specific official clarification route.
+        criteria:
+        - Publication and effective dates are applied separately.
+        - The two-item limit begins on 1 April and the seven-day duration remains.
+        - Unsupported monthly duration and universal eligibility claims are rejected.
+        - The correction retains unknowns, source codes, check date and scope.
   '10.05':
-    title: Create a note that can solve a later problem
+    title: Build, retrieve and revise one source-linked note for a later problem
     goal: Capture, compress, connect and retrieve a small piece of knowledge, then revise the note after
       attempting to use it on a new task.
     scope_note: This tests a minimal knowledge system, not a requirement to build a large archive or adopt
       a particular application. Stored volume is not evidence of learning or usefulness.
     burden: Twenty minutes to make one note and fifteen minutes to retrieve and apply it several days
       later.
-    setup: 'Use one paper card or a local note titled Comparing averages. Source material: mean is sum
-      divided by count; median is the middle sorted value; extreme values can separate them. Example 1,
-      2, 9 has mean 4 and median 2. Keep a source label, one worked example, a connection and a retrieval
-      cue.'
+    setup: Use the supplied averages source card, atomic-note template, three-entry index and delayed
+      application. Paper, local text, audio or another accessible private medium is sufficient. Keep the
+      source label, your own compressed explanation, a worked example, one meaningful connection, a retrieval
+      cue and a revision history; no particular note application or large archive is required.
     actions:
     - title: Capture only enough to answer a future question
-      instructions: 'Write the note in your own words with the title, source label, two definitions and
-        worked example. Add a future-use question: Which summary is less pulled by one extreme observation?
-        Keep only information that helps answer it; do not copy a whole article or add a complex tag hierarchy.
-        Make the title understandable without remembering the original learning session.'
+      instructions: Read the supplied source card, then close it and draft one note with a descriptive
+        title, source label, own-words explanation, worked 1-2-9 example, future-use question and retrieval
+        cue. Reopen the card, correct any distorted definition or arithmetic and retain the original correction.
+        Complete the note-quality prompt before revealing its rubric. Do not copy the entire card or replace
+        a missing idea with decorative formatting, links or a large tag hierarchy.
       checks:
       - The note has a findable descriptive title
       - Definitions and example are compressed accurately
       - The source can be identified
       - A concrete future-use question guides what is retained
     - title: Connect the note to one existing task and test retrieval
-      instructions: Link the note to an actual place you would look when comparing durations, such as
-        a small index under planning estimates. Close it and find it again using only the title or index,
-        then explain the example without rereading every sentence. If retrieval requires remembering an
-        obscure filename, rename it or simplify the index rather than adding more organization.
+      instructions: Add the note to the supplied three-entry index under one meaningful work or learning
+        context. Close it and use only the declared cue or index to find it; record found, found with alternate
+        route, not found or support needed, plus the actual route. Explain the example without reading every
+        sentence, then distinguish retrieval of the note from unaided recall of its contents. Repair one
+        barrier such as an ambiguous title, broken locator or unexplained connection and retest once.
       checks:
       - One meaningful task connection is explicit
       - The note is found through its intended retrieval route
       - The connection is not merely an unexplained tag
       - A discovered retrieval barrier is corrected
     - title: Use it on a new problem and revise its weak point
-      instructions: 'Several days later, locate the note and compare 2, 3, 4, 5 and 16: mean is 6 and
-        median is 4. Explain what each summary would communicate in a rough planning context and what
-        additional spread information is missing. Add only the correction or limitation that would have
-        helped, and record the actual retrieval delay. The goal is successful reuse, not preserving the
-        note unchanged.'
+      instructions: After an actual delay when feasible, use the index to find the note before opening the
+        application key. Apply it to 2, 3, 4, 5 and 16; preserve calculations, units, interpretation and any
+        content help. Explain which summary is pulled by the extreme and what neither number says about spread.
+        Open the key, then append one precise correction, limitation or better cue with date and reason.
+        Same-session use is practice but must not be labeled delayed retrieval.
       checks:
       - A delayed retrieval is attempted
       - A new problem is solved using the note
@@ -670,6 +841,86 @@ exercises:
       contradictory: A large copied archive was called knowledge despite no source control, retrieval
         test or use.
       inconclusive: The note was formatted and tagged but never found again or applied to another problem.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.05'
+      title: Make a small knowledge system prove itself through reuse
+      scored: false
+      sections:
+      - id: useful-note-model
+        kind: concept
+        title: Notes are interfaces to sources and future work
+        body: |-
+          Capture records a source and relevant facts. Compression rewrites enough meaning to be useful without copying everything. Connection names where or why the idea matters; a tag with no explained relationship is not a connection. Retrieval uses a cue or index that can be tested. Revision changes the note when use reveals an error, omission or poor route. A sustainable system minimizes maintenance while preserving provenance, findability and use. Finding a note is different from recalling its contents without help, and a large archive is not evidence that either occurred.
+      - id: averages-source
+        kind: material
+        title: Supplied source card — comparing averages
+        body: |-
+          Source S1, “Small-set summary definitions,” Grounded Growth fictional teaching card, revision 1, 8 September 2026. Mean equals the sum of all values divided by their count. Median is the middle value after sorting an odd-sized set; for an even-sized set it is the mean of the two middle values. For 1, 2 and 9 minutes, mean = (1+2+9)/3 = 4 minutes and median = 2 minutes. The high value pulls the mean above the median. Neither summary alone describes the full spread; range or the original values may still matter. This card is supplied instructional material, not an external research source.
+      - id: note-template
+        kind: material
+        title: Atomic note and revision template
+        body: |-
+          Note ID and findable title: __. Source ID, title and revision: __. In my own words: __. Worked example with units: __. Meaningful connection—this helps when __ because __. Future-use question: __. Retrieval cue or index path: __. Known limit: __. Revision log: date | observed problem | exact change | reason. Keep one idea cluster that can stand alone; split the note only when two parts need different sources, cues or revision histories.
+      - id: index-template
+        kind: material
+        title: Three-entry retrieval index and test log
+        body: |-
+          The fictional index begins with: Planning estimates → Comparing averages → Note N1; Shopping quantities → Unit conversion → Note N2; Reading queue → Source triage → Note N3. Replace N1’s title/path with your final choice but leave N2 and N3 as distractors. Retrieval test: cue used | expected note | found / alternate route / not found / support needed | elapsed band [under 1 minute / 1-3 / over 3] | barrier | repair | retest result. Time is diagnostic only, not a score, and accessibility support remains available.
+      - id: worked-note
+        kind: worked_example
+        title: Worked note that is compressed, connected and limited
+        body: |-
+          N1 — “Mean reacts to extremes; median uses sorted position.” Source S1 rev 1. Mean shares the total across all observations; median selects the middle position after sorting. For 1, 2, 9 minutes: mean 4, median 2. Connection: when one planning estimate is unusually high, compare both before presenting a typical duration. Future question: which summary changes more if only the highest value increases? Cue: Planning estimates → Comparing averages. Limit: neither value reports the full spread. This example supports later use without reproducing the entire source card.
+      - id: note-quality
+        kind: prompt
+        title: Diagnose three candidate notes
+        body: |-
+          Evaluate each candidate before opening the rubric. A: “Averages stuff,” no source, pasted full card, tags math/data/useful. B: “Mean reacts to extremes; median uses position,” source S1 rev 1, own-words distinction, correct 1-2-9 example, planning-estimate connection, cue and spread limit. C: descriptive title and source, but says the median of 1, 2, 9 is 4 and has no future-use question. Classify each as usable, partial or adverse and name the specific repair.
+        check_id: note-rubric
+        attempt_mode: practice
+        references:
+        - averages-source
+        - note-template
+      - id: delayed-application
+        kind: prompt
+        title: Apply the retrieved note to a new dataset
+        body: |-
+          After recording the actual delay and retrieval route, use the note to analyze 2, 3, 4, 5 and 16 minutes. Calculate mean and median with units. Explain which is more affected by the high value and what information is still missing if these summaries are used for planning. State whether you found the note, recalled the content without it, used a content hint or looked up the source. Propose one exact revision, then preserve the attempt before opening the key.
+        check_id: application-key
+        attempt_mode: practice
+        references:
+        - note-template
+        - index-template
+      - id: format-pathways
+        kind: pathway
+        title: Keep the function while changing the medium
+        body: |-
+          Use paper, local text, audio, images with alternative text, tactile labels or a supported index. A helper may operate the medium while the learner chooses the title, source, explanation, connection and revision. Advanced users may use a real technical note and test it against a new problem, but confidential or licensed source material must stay in an authorized system. If the default arithmetic is already routine, raise conceptual novelty, not archive size or software complexity.
+      - id: next-note
+        kind: next_step
+        title: Progress through spaced reuse and selective maintenance
+        body: |-
+          Reuse the same note in another genuine task, or create one new note with a different source and retrieval route. Periodically sample whether notes can be found and applied; revise or retire failures instead of reorganizing everything. This exercise observes one note, one route and one application. It does not establish long-term retention, broad knowledge management ability or the superiority of one note-taking method.
+      checks:
+      - id: note-rubric
+        title: Check the candidate notes
+        body: |-
+          B is usable for the supplied future task: it is accurately compressed, source-linked, connected, cued and limited. C is partial but materially wrong; correct the median to 2 and add a future-use question before relying on it. A is adverse for this purpose: copying preserves text but does not provide a findable own-words explanation, source control, meaningful connection or tested cue. Decorative tags do not repair those gaps.
+        criteria:
+        - Accuracy and provenance are required before formatting or apparent completeness receives credit.
+        - Compression retains the mean-median distinction and correct example.
+        - A meaningful connection states where and why the note will be used.
+        - The cue, limitation and repair remain inspectable.
+      - id: application-key
+        title: Check the new application and revision
+        body: |-
+          The sum is 30 across five values, so the mean is 6 minutes. The sorted middle is 4, so the median is 4 minutes. The value 16 pulls the mean upward more than it changes the median’s position. Neither summary states the range, individual values or shape of the set; here the range is 14 minutes. A useful revision could add “inspect spread or original values before treating either summary as a planning guarantee.” The evidence record must preserve the actual delay and distinguish note retrieval, recall, cues and source lookup.
+        criteria:
+        - Mean is 6 minutes and median is 4 minutes with the calculation preserved.
+        - The explanation relates the extreme value to mean and median differently.
+        - Missing spread or distribution information is named.
+        - The revision responds to the observed use problem and the support/delay record is honest.
   '10.06':
     title: Recall a short sequence with cues and a delayed check
     goal: Use manageable chunks, meaningful cues and spaced recall to remember a short sequence while
