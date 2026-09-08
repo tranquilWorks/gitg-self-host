@@ -1,6 +1,13 @@
 # M6K — Competency quality remediation and acceptance
 
-**State: plan uploaded; remediation not performed by creating this plan.**
+**State: source recovery complete; instructional support and three repair drafts
+reconstructed, with final browser/release verification pending.**
+
+The owner-supplied archive was recovered in PR #67. All 383 original drafts are
+pinned under `recovery/`; current runtime remains 91 tailored and 292 pending.
+See `docs/evidence/M6K-RECOVERY-2026-09-08.md` and ADR 0019. Formal A/B/C and
+human/qualified acceptance remain pending. The three prepared repairs are not
+selected for runtime compilation and do not clear their M6K-01-02 dependency.
 
 Owner requirement: each competency must be individually developed, sufficiently deep,
 professionally written, self-contained and representative of its canonical goal.
@@ -16,22 +23,23 @@ The initial inventory contains **383 competencies, 1,149 single-competency revie
 These are small checkpoints, not 1,194 required pull requests. One genuine human gate
 is explicit; the other actions are agent work, subject to actual tools and evidence.
 
-The GitHub issues are live. This file package is preserved separately in Library;
-creating the issues does not install files or a runner into the repository. Run the
-navigator directly from the extracted package using `--root /path/to/gitg-self-host`,
-or stage these files under the documented paths in an isolated worktree and update
-MANIFEST during M6K-00-01. No plan-file PR or main-branch merge is implied.
+The plan files reached main through PR #66. The GitHub issues are live, but the
+portfolio workflow bridge is still M6K-01-03; this navigator does not install or
+dispatch a background runner.
 
 From a repository checkout after staging the package with its declared Python environment:
 
 ```sh
 python docs/plans/m6k/queue.py validate
 python docs/plans/m6k/queue.py next
+python docs/plans/m6k/queue.py next --state docs/plans/m6k/navigation-state.json
 python docs/plans/m6k/queue.py show M6K-A-1205
 python docs/plans/m6k/queue.py export > /tmp/m6k-actions.json
 ```
 
-The first action is **M6K-00-01**, not another blind bulk rewrite. The navigator only
+The supplied advisory state records M6K-00-01/02 and next selects **M6K-01-01**
+until its remaining verification is complete. Without state the first action
+remains M6K-00-01. The navigator only
 reads files and prints tasks. It does not execute work, run in the background, approve
 content, modify the active batch or install itself into portfolio-control. The real
 review-evidence enforcement and workflow bridge are explicit tasks in M6K-01.

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}{{ guide.title }} · Grounded Growth{% endblock %}
+{% block content %}
+  <p class="back-link"><a href="{% url 'growth:practice-recommendation' protocol.slug %}">← {{ protocol.name }}</a></p>
+  <section class="page-heading">
+    <div>
+      <p class="eyebrow">Learning guide · unscored</p>
+      <h1>{{ guide.title }}</h1>
+      <p>Use the teaching and materials to prepare. Opening this guide or a check does not complete a practice action.</p>
+    </div>
+  </section>
+  <nav aria-label="Guide navigation">
+    <p><a href="{% url 'growth:practice-guide' protocol.slug %}">Teaching and materials</a> ·
+      <a href="?{% if selection_query %}{{ selection_query }}&amp;{% endif %}format=txt">Download this view as text</a> ·
+      <a href="?{% if selection_query %}{{ selection_query }}&amp;{% endif %}format=md">Download this view as Markdown</a></p>
+  </nav>
+  {% if guide.check %}
+    <p class="status-note" role="note">The check is now open. Keep an earlier unaided attempt separate from changes made using this key.</p>
+  {% endif %}
+  {% for section in guide.sections %}
+    <section class="panel" id="{{ section.id }}">
+      <h2>{{ section.title }}</h2>
+      <div style="overflow-wrap: anywhere">{{ section.body|linebreaks }}</div>
+      {% if section.kind == "prompt" and not guide.check %}
+        <p>Finish and keep your attempt before opening the check.</p>
+        <p><a class="button button-secondary" href="?check={{ section.check_id }}">Reveal check for {{ section.title }}</a></p>
+      {% endif %}
+    </section>
+  {% endfor %}
+  {% if guide.prompts %}
+    <section class="panel">
+      <h2>Practice and check your understanding</h2>
+      <p>Each prompt opens separately. Its answers stay out of that view until you choose to reveal the check.</p>
+      <ul>{% for prompt in guide.prompts %}<li><a href="?attempt={{ prompt.id }}">Open {{ prompt.title }}</a></li>{% endfor %}</ul>
+    </section>
+  {% endif %}
+  {% if guide.check %}
+    <section class="panel" aria-label="Revealed check">
+      <h2>{{ guide.check.title }}</h2>
+      <div style="overflow-wrap: anywhere">{{ guide.check.body|linebreaks }}</div>
+      <ul>{% for criterion in guide.check.criteria %}<li>{{ criterion }}</li>{% endfor %}</ul>
+    </section>
+  {% endif %}
+{% endblock %}

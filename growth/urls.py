@@ -5,6 +5,7 @@ from . import (
     views_assessment,
     views_data,
     views_evidence,
+    views_instructional,
     views_personal_os,
     views_pilot,
     views_practice,
@@ -57,6 +58,7 @@ urlpatterns = [
         name="assessment-save",
     ),
     path("practices/", views_practice.practice_list, name="practice-list"),
+    path("practices/<slug:slug>/guide/", views_instructional.practice_guide, name="practice-guide"),
     path(
         "personal-os/practices/<slug:slug>/context/",
         views_practice.practice_priority_context,

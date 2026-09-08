@@ -121,11 +121,13 @@ def selected_sources(root: Path, files: dict[str, bytes]) -> tuple[dict, dict]:
     return selected, origins
 
 
-def invariant_snapshot(root: Path) -> dict:
+def invariant_snapshot(root: Path, *, protected_paths: list[str] | None = None) -> dict:
     # Always enumerate the pinned historical tree, never new fixtures added by this work.
-    paths = subprocess.check_output(
-        ["git", "ls-tree", "-r", "--name-only", BASE, "--", *PROTECTED], cwd=root, text=True
-    ).splitlines()
+    paths = protected_paths
+    if paths is None:
+        paths = subprocess.check_output(
+            ["git", "ls-tree", "-r", "--name-only", BASE, "--", *PROTECTED], cwd=root, text=True
+        ).splitlines()
     protected = {path: digest((root / path).read_bytes()) for path in paths}
     rows = {}
     actions = []
@@ -241,6 +243,8 @@ def initialize(root: Path, archive_path: Path, checkpoint: Path) -> None:
 
 def verify(root: Path, checkpoint: Path) -> dict:
     files = verified_archive((checkpoint / "GITG_M6J_Unpublished_Inputs.zip").read_bytes())
+    if (checkpoint / "INPUT_MANIFEST.json").read_bytes() != files["INPUT_MANIFEST.json"]:
+        raise ValueError("Archived input manifest copy changed.")
     origins = json.loads((checkpoint / "reconciliation.json").read_text())["origins"]
     index = json.loads((checkpoint / "source-inventory.json").read_text())
     canonical = curriculum(root)
@@ -249,9 +253,9 @@ def verify(root: Path, checkpoint: Path) -> dict:
         selected = checkpoint / "selected" / path.removeprefix("docs/authoring/")
         raw = selected.read_bytes()
         expected = files.get("overlay/" + path)
-        if expected is None:
-            expected = git_bytes(root, SOURCE_BASE, path)
-        if raw != expected or digest(raw) != origin["sha256"]:
+        # Eight Git-sourced files were verified at initialization. Their pinned
+        # byte hashes permit verification from a shallow CI checkout or source ZIP.
+        if (expected is not None and raw != expected) or digest(raw) != origin["sha256"]:
             raise ValueError(f"Selected source bytes changed: {path}")
         for cid, entry in yaml.safe_load(raw)["exercises"].items():
             if cid in actual or cid not in canonical:
@@ -267,12 +271,27 @@ def verify(root: Path, checkpoint: Path) -> dict:
         "overlay/docs/authoring/sources.yaml"
     ]:
         raise ValueError("Recovered source ledger bytes changed.")
-    if invariant_snapshot(root) != json.loads((checkpoint / "runtime-invariants.json").read_text()):
+    baseline = json.loads((checkpoint / "runtime-invariants.json").read_text())
+    if invariant_snapshot(root, protected_paths=list(baseline["protected_files"])) != baseline:
         raise ValueError("Protected runtime, identity, completion or evidence baseline changed.")
     ledger = json.loads((checkpoint / "initial-quality-ledger.json").read_text())
     pending = {cid: dict.fromkeys(DIMENSIONS, "pending") for cid in canonical}
     if ledger["rows"] != pending:
         raise ValueError("Initial review ledger must retain all 383 independent pending states.")
+    if (
+        ledger["authored_runtime_count"] != 91
+        or ledger["runtime_rewrite_pending"] != 292
+        or ledger["recovered_source_count"] != 383
+        or ledger["open_findings"]
+        != {
+            "QA-01": "21.03",
+            "QA-02": "10.01",
+            "QA-03": "12.05",
+            "QA-04": "12.08",
+            "QA-05": "10.02",
+        }
+    ):
+        raise ValueError("Initial counts and open audit findings must retain the pinned baseline.")
     return {
         "recovered_sources": len(actual),
         "protocols": 383,

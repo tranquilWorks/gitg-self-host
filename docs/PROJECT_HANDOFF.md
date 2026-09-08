@@ -6,8 +6,13 @@ The owner-supplied execution ZIP restored all 383 original draft sources. See
 `docs/plans/m6k/recovery/README.md` and `docs/evidence/M6K-RECOVERY-2026-09-08.md`.
 This reconstructs the lost local work; the former unpublished commit IDs are
 unavailable. Current main has 91 tailored runtime projections and 292 pending.
-All new M6K quality dimensions remain pending. The next implementation action
-is M6K-01-01, followed by mechanical revision-bound evidence enforcement.
+Unscored guide support and three source repairs (21.03, 10.01, 10.02) are now
+reconstructed; 63 focused/regression tests pass. See ADR 0019 and
+`docs/evidence/M6K-INSTRUCTIONAL-2026-09-08.md`. The repair drafts remain
+unselected for runtime compilation; all 383 original protocol packages stay
+exact. All new M6K quality dimensions remain pending. The next action is to
+finish M6K-01-01 browser/release verification, then implement M6K-01-02
+mechanical revision-bound evidence enforcement.
 The M6K plan supersedes the older domain-at-a-time continuation below.
 
 

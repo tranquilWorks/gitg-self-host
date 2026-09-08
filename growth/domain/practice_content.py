@@ -4,6 +4,7 @@ import hashlib
 import json
 from copy import deepcopy
 from dataclasses import dataclass
+from dataclasses import field as dataclass_field
 from functools import cache
 from pathlib import Path
 from typing import Any
@@ -18,6 +19,7 @@ from growth.domain.evidence import (
     EvidenceContractError,
     validate_evidence_rules,
 )
+from growth.domain.instructional_content import validate_instructional_content
 from growth.domain.typed_evidence import (
     TYPED_EVIDENCE_RULES_VERSION,
     TypedEvidenceContractError,
@@ -132,6 +134,7 @@ class PracticeContentBundle:
     expert_reviews: dict[str, dict[str, Any]]
     release_manifest: dict[str, Any]
     content_hash: str
+    instructional_guides: dict[str, dict[str, Any]] = dataclass_field(default_factory=dict)
 
     @property
     def runtime_protocols(self) -> tuple[dict[str, Any], ...]:
@@ -318,6 +321,12 @@ def _validate_protocol_shape(protocol: dict[str, Any], path: Path) -> None:
         raise PracticeContentError(f"{path}: filename must equal its stable ID ({stable_id}.yaml).")
     for field in ("protocol_version", "slug", "name", "parent_competency_id", "domain_id"):
         _require_string(protocol[field], f"{path}.{field}")
+    if "instructional_content" in protocol:
+        if stable_id in FROZEN_LEGACY_PROTOCOL_IDS:
+            raise PracticeContentError("Frozen protocols require separate companion guides.")
+        validate_instructional_content(
+            protocol["instructional_content"], protocol["parent_competency_id"]
+        )
     if path.parent.name != protocol["domain_id"]:
         raise PracticeContentError(
             f"{path}: protocol directory must match domain_id {protocol['domain_id']!r}."
@@ -770,6 +779,8 @@ def _validate_protocol_shape(protocol: dict[str, Any], path: Path) -> None:
         presentation["setup_copy"],
         f"{path}.presentation.setup_copy",
     )
+    if "instructional_content" in setup_copy:
+        raise PracticeContentError("Author instructional_content at protocol root, not setup_copy.")
     legacy_labels = setup_copy.get("check_in_labels")
     if legacy_labels is not None:
         legacy_labels = _require_mapping(
@@ -1432,6 +1443,22 @@ def _load_practice_content_bundle(base_dir: Path) -> PracticeContentBundle:
         _validate_protocol_shape(protocol, path)
         protocols.append(protocol)
 
+    guide_paths = [
+        _manifest_relative_path(root, name, expected_prefix="registries")
+        for name in manifest.get("instructional_guide_files", [])
+    ]
+    guides = {}
+    frozen_competencies = {
+        p["parent_competency_id"] for p in protocols if p["stable_id"] in FROZEN_LEGACY_PROTOCOL_IDS
+    }
+    for path in guide_paths:
+        guide = _read_yaml(path)
+        cid = guide.get("competency_id")
+        if cid not in frozen_competencies or path.stem != cid.replace(".", ""):
+            raise PracticeContentError("Companion guide must match an exact frozen competency.")
+        validate_instructional_content(guide, cid)
+        guides[cid] = guide
+
     source_path = root / "registries" / "source_registry.yaml"
     risk_path = root / "registries" / "risk_taxonomy.yaml"
     scoring_path = root / "registries" / "scoring_policy_registry.yaml"
@@ -1541,6 +1568,8 @@ def _load_practice_content_bundle(base_dir: Path) -> PracticeContentBundle:
         raise PracticeContentError(f"{manifest_path}: content paths must be unique.")
     required_content_paths = {
         *protocol_paths,
+        *guide_paths,
+        root / "schema/instructional_content_v1.schema.json",
         *registry_schemas,
         *registry_schemas.values(),
         protocol_schema_path,
@@ -1591,6 +1620,7 @@ def _load_practice_content_bundle(base_dir: Path) -> PracticeContentBundle:
         expert_reviews=expert_reviews,
         release_manifest=manifest,
         content_hash=content_hash,
+        instructional_guides=guides,
     )
     runtime_protocols = bundle.runtime_protocols
     if len(runtime_protocols) != len(bundle.protocols):
@@ -1685,6 +1715,11 @@ def compile_runtime_protocol(
         "setup_copy": {
             **presentation["setup_copy"],
             "check_in_labels": presentation["check_in_labels"],
+            **(
+                {"instructional_content": deepcopy(protocol["instructional_content"])}
+                if "instructional_content" in protocol
+                else {}
+            ),
         },
         "check_in_fields": evidence["check_in_fields"],
         "score_active": activation["score_active"],
