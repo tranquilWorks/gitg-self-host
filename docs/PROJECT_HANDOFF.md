@@ -1,5 +1,16 @@
 # Grounded Growth — Project Handoff
 
+## M6K recovery continuation — 2026-09-08
+
+The owner-supplied execution ZIP restored all 383 original draft sources. See
+`docs/plans/m6k/recovery/README.md` and `docs/evidence/M6K-RECOVERY-2026-09-08.md`.
+This reconstructs the lost local work; the former unpublished commit IDs are
+unavailable. Current main has 91 tailored runtime projections and 292 pending.
+All new M6K quality dimensions remain pending. The next implementation action
+is M6K-01-01, followed by mechanical revision-bound evidence enforcement.
+The M6K plan supersedes the older domain-at-a-time continuation below.
+
+
 ## Current owner priority — rich competency content, 2026-09-06
 
 The owner reiterated that the task is to make each competency rich,
