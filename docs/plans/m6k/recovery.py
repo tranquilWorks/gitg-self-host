@@ -4,11 +4,13 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import io
 import json
 import shutil
 import subprocess
+import sys
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -19,6 +21,7 @@ SOURCE_BASE = "c3491a4ff4c0ba77c7d8f2244bae7218ae568880"
 ARCHIVE_HASH = "c22e69229a8836b8e21dbf74228ac014205f3bef9e2a68b2d50dae9ddfe82597"
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
+sys.path.insert(0, str(ROOT))
 DIMENSIONS = (
     "scope",
     "instructional",
@@ -272,8 +275,7 @@ def verify(root: Path, checkpoint: Path) -> dict:
     ]:
         raise ValueError("Recovered source ledger bytes changed.")
     baseline = json.loads((checkpoint / "runtime-invariants.json").read_text())
-    if invariant_snapshot(root, protected_paths=list(baseline["protected_files"])) != baseline:
-        raise ValueError("Protected runtime, identity, completion or evidence baseline changed.")
+    runtime_status = verify_runtime(root, baseline)
     ledger = json.loads((checkpoint / "initial-quality-ledger.json").read_text())
     pending = {cid: dict.fromkeys(DIMENSIONS, "pending") for cid in canonical}
     if ledger["rows"] != pending:
@@ -297,8 +299,65 @@ def verify(root: Path, checkpoint: Path) -> dict:
         "protocols": 383,
         "actions": 1151,
         "quality_passes": 0,
-        "protected_baseline": "unchanged",
+        "protected_baseline": runtime_status,
     }
+
+
+def verify_runtime(root: Path, baseline: dict) -> str:
+    """Keep recovery immutable while allowing explicit, exact compiler projections.
+
+    Every revised package retains a byte-pinned original. Only the existing pure
+    authoring compiler and source attachment may transform it. This preserves
+    identity, mappings, completion rules, supporting rules and retained typed rules;
+    generic primary criteria change prospectively as they did in M6J.
+    """
+    from scripts.tailored_practice_authoring import (
+        apply_exercise,
+        attach_sources,
+        load_exercises,
+    )
+
+    actual = invariant_snapshot(root, protected_paths=list(baseline["protected_files"]))
+    if actual == baseline:
+        return "unchanged"
+    declaration = root / "docs/plans/m6k/runtime-projections.json"
+    if not declaration.exists():
+        raise ValueError("Protected runtime baseline changed without a projection declaration.")
+    revised = json.loads(declaration.read_text())["baselines"]
+    exercises = load_exercises(root)
+    if not revised or set(revised) - set(exercises) or set(revised) & FROZEN:
+        raise ValueError("Protected runtime projection includes an unselected or frozen package.")
+    packages = {}
+    paths = {}
+    for path in (root / "data/practices/protocols").rglob("*.yaml"):
+        package = yaml.safe_load(path.read_text())
+        packages[package["parent_competency_id"]] = package
+        paths[package["parent_competency_id"]] = path.relative_to(root).as_posix()
+    projected = copy.deepcopy(packages)
+    expected = copy.deepcopy(baseline)
+    for cid, original_path in revised.items():
+        raw = (root / original_path).read_bytes()
+        if digest(raw) != baseline["protocols"][cid]["sha256"]:
+            raise ValueError(f"Protected runtime original fingerprint changed: {cid}")
+        projected[cid] = apply_exercise(yaml.safe_load(raw), exercises[cid])
+    attach_sources(list(projected.values()), {"sources": []}, root)
+    for cid in revised:
+        if packages[cid] != projected[cid]:
+            raise ValueError(f"Protected runtime differs from its exact compiler projection: {cid}")
+        package = projected[cid]
+        row = expected["protocols"][cid]
+        row["sha256"] = digest((root / paths[cid]).read_bytes())
+        row["completion_sha256"] = fingerprint(package["completion_and_review"])
+        row["evidence_sha256"] = fingerprint(
+            {
+                "evidence": package["evidence_and_scoring"],
+                "rules": [a["evidence_rules"] for a in package["intervention"]["actions"]],
+            }
+        )
+        expected["protected_files"][paths[cid]] = row["sha256"]
+    if actual != expected:
+        raise ValueError("Protected runtime, identity, completion or evidence baseline changed.")
+    return "preserved_with_prospective_content"
 
 
 def main() -> None:

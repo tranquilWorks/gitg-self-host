@@ -1,0 +1,150 @@
+{
+  "title": "Learn six ideas through recall, correction and a delayed transfer test",
+  "goal": "Use retrieval, spacing, mixed practice, explanation and feedback to learn a small set of ideas, then test retention and a new application after a delay.",
+  "scope_note": "This is a learning-method trial, not an intelligence test or proof that one schedule suits every learner. Ordinary sleep and access supports remain protected.",
+  "burden": "Fifteen minutes on day one, ten minutes on day two, and fifteen minutes about a week later.",
+  "setup": "Use the supplied learning guide, paper or an accessible note tool. It contains six definitions, two worked examples, and separate first, second and delayed prompts with matching checks. Study the teaching first; open only the prompt for the current session. Keep your original response before revealing its check. No purchased materials or private information are needed.",
+  "actions": [
+    {
+      "title": "Study an example and retrieve before looking again",
+      "instructions": "Read the six definitions and both worked examples in the learning guide. Explain why the mean uses the count and why the median can differ from it. Close the teaching, open First recall and application, and answer all six ideas plus the application before opening its check. Preserve your original attempt, compare it with the supplied key, and write the corrected reasoning for a specific mistake. Record any cues or lookups honestly.",
+      "checks": [
+        "All six ideas receive an initial recall attempt",
+        "A worked example and a contrasting example are used",
+        "Errors are compared with an available answer source",
+        "Explanation goes beyond copying the definitions"
+      ]
+    },
+    {
+      "title": "Space and mix the second practice instead of repeating recognition",
+      "instructions": "On the next day when feasible, open Second mixed practice before rereading the teaching. Answer the six recall questions and the mixed application questions. Keep your original response, then explicitly reveal that session’s check. Identify an error and use feedback to correct the concept or method. Record the actual separation between sessions and supports used. Stop at the planned time; preserve ordinary sleep, rest and necessary access supports.",
+      "checks": [
+        "The second retrieval is separated by a day when feasible",
+        "Definition and application questions are interleaved",
+        "Feedback corrects specific missed ideas",
+        "The plan preserves sleep rest and access supports"
+      ]
+    },
+    {
+      "title": "Test delayed retention and unfamiliar application",
+      "instructions": "About a week after the first session, open Delayed recall and new application without reopening the teaching or earlier keys. Record the actual delay, answer the six recall questions, and solve the supplied unfamiliar application. Keep the original response before revealing its separate check. Label unaided, cued, looked-up and open-explanation work distinctly. Use a specific retained idea or error to choose the next review; same-day practice does not establish delayed retention.",
+      "checks": [
+        "Delayed recall is attempted before looking up answers",
+        "A new application differs from the worked example",
+        "Unaided cued and looked-up answers are distinguished",
+        "The next review is based on specific retention or transfer errors"
+      ]
+    }
+  ],
+  "adaptation": "Use audio cards, large print, tactile counters or supported recall. Adjust the spacing to available capacity and report the actual delay. A same-day repetition is useful practice but must not be labeled a week-delayed retention test.",
+  "review": "Which idea felt familiar yet could not be recalled or applied, and how will that change the next study session?",
+  "examples": {
+    "supportive": "The learner corrected a mean–median confusion, recalled it after a week and applied both measures to the new uneven dataset.",
+    "mixed": "Definitions were retained but the new application exposed a remaining misunderstanding about units or extreme values.",
+    "contradictory": "Recognition was reported as unaided recall, or sleep and necessary supports were removed to prove discipline.",
+    "inconclusive": "The material was reread repeatedly without a closed-reference attempt, correction or delayed test."
+  },
+  "instructional_content": {
+    "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+    "competency_id": "10.01",
+    "title": "Learn, retrieve, correct and check a new application",
+    "scored": false,
+    "sections": [
+      {
+        "id": "how-to-use",
+        "kind": "concept",
+        "title": "What this practice can show",
+        "body": "This is a small learning-method trial. Reading a solution, retrieving it from memory, explaining it with help, and applying it to unfamiliar material provide different observations. None alone establishes broad learning ability. Use each prompt once before opening its check, keep the first response, then correct a specific error. The intended schedule is day one, the next day, and about a week later; record what actually happened. A gap on a calendar does not prove retention."
+      },
+      {
+        "id": "six-ideas",
+        "kind": "concept",
+        "title": "Six ideas to learn",
+        "body": "Mean: add the values and divide by their count. Median: sort the values; select the middle value for an odd count, or average the two middle values for an even count. Range: subtract the smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole example it counts the chosen equal parts. Denominator: the number below the bar; in that example it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity scale, such as minutes or meters; it gives a measured number meaning.\n\nFor the mean, a fair-share interpretation helps: redistribute the total equally across the recorded items. Sorting changes order, not the values. A median uses position after sorting; the mean uses every value. A range describes the distance between the extremes, not the typical value. These are definitions and a bounded teaching example, not a claim that this exercise is a validated intervention."
+      },
+      {
+        "id": "worked-even",
+        "kind": "worked_example",
+        "title": "Worked example: an even set",
+        "body": "Four waiting times are 2, 4, 6 and 8 minutes. Their sum is 20 minutes and count is 4, so the mean is 20/4 = 5 minutes. The middle values are 4 and 6, so the median is (4+6)/2 = 5 minutes. The range is 8−2 = 6 minutes. In 3/4 of a one-meter strip, 3 is the numerator and 4 is the denominator; the length is three quarters of a meter."
+      },
+      {
+        "id": "worked-skew",
+        "kind": "worked_example",
+        "title": "Worked example: the summaries differ",
+        "body": "For 1, 2 and 9 minutes, the sum is 12 minutes and count is 3: mean 4 minutes. The sorted middle value gives median 2 minutes. Range is 9−1 = 8 minutes. The mean and median answer different questions; an unusually large value affects the mean while it may leave the middle position unchanged. If you obtained median 4, check whether you averaged when the question asked for the sorted middle."
+      },
+      {
+        "id": "first-recall",
+        "kind": "prompt",
+        "title": "First recall and application",
+        "body": "1. Explain mean.\n2. Explain median, including what happens with an even count.\n3. Explain range.\n4. Identify and explain a numerator.\n5. Identify and explain a denominator, including its nonzero condition.\n6. Explain why a unit belongs with a measured number.\n\nApply: for 2, 4 and 6 minutes, find the mean, median and range. Explain your method. Then explain why mean and median need not be equal in every dataset. Keep this response before opening the check.",
+        "check_id": "first-key",
+        "attempt_mode": "unaided"
+      },
+      {
+        "id": "second-mixed",
+        "kind": "prompt",
+        "title": "Second mixed practice",
+        "body": "1. Explain mean.\n2. Explain median, including what happens with an even count.\n3. Explain range.\n4. Identify and explain a numerator.\n5. Identify and explain a denominator, including its nonzero condition.\n6. Explain why a unit belongs with a measured number.\n\nApply: find the range of 3, 5 and 8 minutes; identify the denominator in 3/7; explain why five minutes and five meters cannot be added as one measured quantity. Note the actual interval since your first session and keep your response before checking.",
+        "check_id": "second-key",
+        "attempt_mode": "unaided"
+      },
+      {
+        "id": "delayed-transfer",
+        "kind": "prompt",
+        "title": "Delayed recall and new application",
+        "body": "1. Explain mean.\n2. Explain median, including what happens with an even count.\n3. Explain range.\n4. Identify and explain a numerator.\n5. Identify and explain a denominator, including its nonzero condition.\n6. Explain why a unit belongs with a measured number.\n\nNew application: three waiting times are 2, 5 and 11 minutes. Find the mean, median and range. Now change only the largest time from 11 to 17 minutes. Recalculate all three summaries, state each change in minutes, and explain which summary changes most and why. Record the actual delay and any help. Keep the attempt before opening its check.",
+        "check_id": "delayed-key",
+        "attempt_mode": "unaided"
+      },
+      {
+        "id": "support-paths",
+        "kind": "pathway",
+        "title": "Choose an honest way to attempt",
+        "body": "Audio, large print, accessible input and tactile counters can remain available throughout. Distinguish access support from content assistance. Unaided means the response preceded content cues or answer access; cued means a hint was used; looked-up means the reference supplied information; open explanation means you intentionally reasoned with the reference available. Do not erase supported responses. If recalling math definitions is already easy, use six unfamiliar ideas from a source you can actually inspect, predeclare an equivalent unseen application and a reliable checking method, and preserve those materials; the supplied arithmetic route remains the complete default."
+      },
+      {
+        "id": "next-review",
+        "kind": "next_step",
+        "title": "Choose the next review from the error",
+        "body": "Privately note idea, original response, support, check result, corrected reasoning and next review. A complete answer with a wrong method needs a method correction; a correct definition with a wrong application needs a new example. Missing units need an explicit quantity check. Keep one specific unresolved point for another spaced attempt and record the interval you can actually use. The exercise observes these responses; it does not establish long-term change beyond the sessions performed."
+      }
+    ],
+    "checks": [
+      {
+        "id": "first-key",
+        "title": "Check the first attempt",
+        "body": "Mean: add the values and divide by their count. Median: sort the values; select the middle value for an odd count, or average the two middle values for an even count. Range: subtract the smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole example it counts the chosen equal parts. Denominator: the number below the bar; in that example it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity scale, such as minutes or meters; it gives a measured number meaning.\n\nFor 2, 4 and 6 minutes: sum 12, count 3, mean 4 minutes; median 4 minutes; range 4 minutes. Equality here does not make the definitions interchangeable. A valid explanation distinguishes using all values from using sorted middle position.",
+        "criteria": [
+          "Check the original response before correcting it; do not replace the first attempt with the key.",
+          "Each definition must explain its operation or meaning, not merely name the word.",
+          "Calculations must match the supplied values and use the given units.",
+          "Separate an incorrect response from an unattempted one; record support and actual delay without treating either as a personal score."
+        ]
+      },
+      {
+        "id": "second-key",
+        "title": "Check the second attempt",
+        "body": "Mean: add the values and divide by their count. Median: sort the values; select the middle value for an odd count, or average the two middle values for an even count. Range: subtract the smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole example it counts the chosen equal parts. Denominator: the number below the bar; in that example it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity scale, such as minutes or meters; it gives a measured number meaning.\n\nRange is 8−3 = 5 minutes. The denominator in 3/7 is 7. Minutes measure time and meters measure length, so these cannot be combined by adding their bare numbers into one of those quantities.",
+        "criteria": [
+          "Check the original response before correcting it; do not replace the first attempt with the key.",
+          "Each definition must explain its operation or meaning, not merely name the word.",
+          "Calculations must match the supplied values and use the given units.",
+          "Separate an incorrect response from an unattempted one; record support and actual delay without treating either as a personal score."
+        ]
+      },
+      {
+        "id": "delayed-key",
+        "title": "Check the delayed application",
+        "body": "Mean: add the values and divide by their count. Median: sort the values; select the middle value for an odd count, or average the two middle values for an even count. Range: subtract the smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole example it counts the chosen equal parts. Denominator: the number below the bar; in that example it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity scale, such as minutes or meters; it gives a measured number meaning.\n\nFor 2, 5 and 11 minutes: sum 18 and count 3 give mean 6 minutes; median 5 minutes; range 9 minutes. For 2, 5 and 17: sum 24 gives mean 8 minutes; median 5 minutes; range 15 minutes. Changes are mean +2, median 0, range +6 minutes. The range changes most: its upper endpoint increased by six while its lower endpoint stayed fixed. The mean spreads that six-minute increase across three observations. The sorted middle stays 5. A response giving median 6 confuses the mean with the middle; a response saying all summaries increase by six does not follow the definitions.",
+        "criteria": [
+          "Check the original response before correcting it; do not replace the first attempt with the key.",
+          "Each definition must explain its operation or meaning, not merely name the word.",
+          "Calculations must match the supplied values and use the given units.",
+          "Separate an incorrect response from an unattempted one; record support and actual delay without treating either as a personal score."
+        ]
+      }
+    ]
+  }
+}

@@ -21,7 +21,7 @@ def test_recovered_corpus_and_protected_runtime_are_exact(monkeypatch):
         "protocols": 383,
         "actions": 1151,
         "quality_passes": 0,
-        "protected_baseline": "unchanged",
+        "protected_baseline": "preserved_with_prospective_content",
     }
 
 

@@ -1,5 +1,34 @@
 # M6K — Competency quality remediation and acceptance
 
+
+## Learning and craft runtime cohort — 8 September 2026
+
+The owner requested substantive runtime progress after merging PR #70. This cohort
+finishes and selects **10.01, 10.02 and 21.03**, bringing the actual compiler/runtime
+coverage to **94 tailored / 289 pending**. The three related practices connect
+learning retention, deliberate correction and repeated competent work. See
+`docs/authoring/M6K-LEARNING-CRAFT-SCOPE-MAP.md` and each competency's
+`runtime-learner-reader.md` plus separate `runtime-check-*.md` files.
+
+10.01 supplies a usable session record and genuinely mixed questions; 10.02 now has
+complete baseline/retry materials, fixed criteria, separate checks, a paper route
+and concrete later progression; 21.03 projects the previously completed three-brief
+craft exercise. Scope and software evidence do not substitute for formal independent
+cold-start, learner, qualified or owner review: those states remain pending.
+
+Recovery records below are historical. The original ZIP, source snapshots and
+initial 91/292 ledger stay immutable. `runtime-projections.json` now explicitly
+identifies byte-pinned originals for the three prospective compiler projections;
+`recovery.py` verifies exact compiler output while continuing to reject unrelated
+runtime, frozen-package, retained-rule and protected input drift. It no longer
+mistakes all future authorized content edits for corruption of the recovery archive.
+
+Continue with substantive bounded competency cohorts. Remaining source repair
+priorities include 12.05 and 12.08; the program's formal review queue remains a
+separate status from runtime authored coverage. Do not present either source repair
+or publication alone as another completed runtime rewrite.
+
+
 **State: source recovery and instructional software verification complete; QA-01
 source repair checked. Broader release gates and formal competency reviews remain open.**
 

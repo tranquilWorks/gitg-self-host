@@ -1,0 +1,791 @@
+{
+  "schema_version": "GG-M6K-PROGRAM-RECEIPTS-1.0",
+  "records": [
+    {
+      "task_id": "M6K-00-01",
+      "task_hash": "60c848072000247a829f5df0f56fd94f487521b9c56642174918a133144146b3",
+      "state": "pass",
+      "actor_kind": "agent",
+      "execution": "executed",
+      "decision_reference": null,
+      "reason": "Retained recovery evidence from merged PR #67, reverified in PR #68; no content acceptance.",
+      "dependencies": {},
+      "bindings": [
+        {
+          "path": "docs/plans/m6k/recovery/source-inventory.json",
+          "pointer": "",
+          "sha256": "5b6b2cc215a4ae9e994cfd037d00d0215edd8c8c2117c1e78742043fb16d35f8"
+        },
+        {
+          "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+          "pointer": "",
+          "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "sources",
+          "verdict": "pass",
+          "reason": "All 383 original entries resolve to exact hashes.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/recovery/source-inventory.json",
+              "pointer": "",
+              "sha256": "5b6b2cc215a4ae9e994cfd037d00d0215edd8c8c2117c1e78742043fb16d35f8"
+            },
+            {
+              "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+              "pointer": "",
+              "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+            }
+          ]
+        },
+        {
+          "id": "provenance",
+          "verdict": "pass",
+          "reason": "The recovered archive and source inventory retain their original origins.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/recovery/source-inventory.json",
+              "pointer": "",
+              "sha256": "5b6b2cc215a4ae9e994cfd037d00d0215edd8c8c2117c1e78742043fb16d35f8"
+            },
+            {
+              "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+              "pointer": "",
+              "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "M6K-00-02",
+      "task_hash": "83918dbc4e9dfedc36b49b8c10df2192ce5bc508df2fd3d00b9e043f1ee3e933",
+      "state": "pass",
+      "actor_kind": "agent",
+      "execution": "executed",
+      "decision_reference": null,
+      "reason": "Retained recovery evidence from merged PR #67, reverified in PR #68; no content acceptance.",
+      "dependencies": {
+        "M6K-00-01": "77ff034d34c051f2f200914dbd4106f89bfa7bed5bc42cba7fdc4af1b7518f3c"
+      },
+      "bindings": [
+        {
+          "path": "docs/plans/m6k/recovery/runtime-invariants.json",
+          "pointer": "",
+          "sha256": "9c78fe91d542021dba919473bddaffbdcb882e079f12b04043a6b6e806fdf6fe"
+        },
+        {
+          "path": "docs/plans/m6k/recovery/initial-quality-ledger.json",
+          "pointer": "",
+          "sha256": "0188cf64b2a2a0813c03e146148fcb5a8ce5c2fc9011ebcbcf89fdee1cf5f136"
+        },
+        {
+          "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+          "pointer": "",
+          "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "invariants",
+          "verdict": "pass",
+          "reason": "The preserved snapshot lists 383 protocols and 1151 action identities.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/recovery/runtime-invariants.json",
+              "pointer": "",
+              "sha256": "9c78fe91d542021dba919473bddaffbdcb882e079f12b04043a6b6e806fdf6fe"
+            },
+            {
+              "path": "docs/plans/m6k/recovery/initial-quality-ledger.json",
+              "pointer": "",
+              "sha256": "0188cf64b2a2a0813c03e146148fcb5a8ce5c2fc9011ebcbcf89fdee1cf5f136"
+            },
+            {
+              "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+              "pointer": "",
+              "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+            }
+          ]
+        },
+        {
+          "id": "pending_dimensions",
+          "verdict": "pass",
+          "reason": "The original ledger retains seven pending dimensions for every entry.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/recovery/runtime-invariants.json",
+              "pointer": "",
+              "sha256": "9c78fe91d542021dba919473bddaffbdcb882e079f12b04043a6b6e806fdf6fe"
+            },
+            {
+              "path": "docs/plans/m6k/recovery/initial-quality-ledger.json",
+              "pointer": "",
+              "sha256": "0188cf64b2a2a0813c03e146148fcb5a8ce5c2fc9011ebcbcf89fdee1cf5f136"
+            },
+            {
+              "path": "docs/evidence/m6k-2026-09-08/recovery.txt",
+              "pointer": "",
+              "sha256": "9d4dce7b852c70754054e799afa1c87957d5663649b23c813ebfe862dd0130fe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "M6K-01-01",
+      "task_hash": "96505bed8331819e70de4e3f837cf3436b07d52407aa52086d511fd8a633014a",
+      "state": "pass",
+      "actor_kind": "agent",
+      "execution": "executed",
+      "decision_reference": null,
+      "reason": "Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
+      "dependencies": {
+        "M6K-00-02": "848a2607d695ac739602d15719f955eaf70bd6d3a7585fbf384c6b1fd8e57677"
+      },
+      "bindings": [
+        {
+          "path": "data/practices/schema/instructional_content_v1.schema.json",
+          "pointer": "",
+          "sha256": "35464a8a3de3302eceb4efb6e04c22309c657bd1f6efac98d766be2c81ab6eec"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/browser-provenance.json",
+          "pointer": "",
+          "sha256": "ef2bf195a0af58250ef84c2ad3b629e046272df8d2da4fcf325b08a5cd5c0086"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/browser-review.md",
+          "pointer": "",
+          "sha256": "b57a8c60900bc4a1cfeb142401bb7f10b895b3b52d406b27851ebd9dbc486432"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/hosted-browser.txt",
+          "pointer": "",
+          "sha256": "0fe80d3862ea8ec0ca991eabd19716dc8006ae1620acf91a8e956214ebfd3508"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/m6k-guide-check-zoom-1280.png",
+          "pointer": "",
+          "sha256": "0737aadcea557add7d0fdfa8bac843ed23c4d439045e221e37cc2371a38e4427"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/m6k-guide-check-zoom-390.png",
+          "pointer": "",
+          "sha256": "feb8ebb6c13e24309c29c0304205fd2a0504778c9e4659877d8f020f4a331510"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/m6k-guide-prompt-1280.png",
+          "pointer": "",
+          "sha256": "5c53781c32df6a56699bd9450e08a19ca396153bafe45146720ab5e04f27b392"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/m6k-guide-prompt-390.png",
+          "pointer": "",
+          "sha256": "b8e8778e5f055a9c4dd4185ba805b47d55ee49c0fe55a6894f287cdc64795c6d"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/tests.txt",
+          "pointer": "",
+          "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+        },
+        {
+          "path": "growth/views_instructional.py",
+          "pointer": "",
+          "sha256": "e54991111a582b4443e177b87ce037cc6c79ed283194cc291d68021b2d1eccac"
+        },
+        {
+          "path": "tests/test_instructional_content.py",
+          "pointer": "",
+          "sha256": "e02f5343b80f52b1f53913ac7b9319492d0652e5263e3069a351dfe10f1a0bfe"
+        },
+        {
+          "path": "growth/domain/instructional_content.py",
+          "pointer": "",
+          "sha256": "3a1c09a62f4ae864d2a168e6681253ffdb18f13a99434d5e700446b78d5fe1cf"
+        },
+        {
+          "path": "growth/static/growth/app.css",
+          "pointer": "",
+          "sha256": "d65284b99649f6a4f916b40292d0a5ac62b3ba67ac0dea56ba007f700a938b5a"
+        },
+        {
+          "path": "templates/growth/practice_guide.html",
+          "pointer": "",
+          "sha256": "8edcce545ba2f930195c1925cac8c34567a83d78061ca263cc516fdd38a6f8bc"
+        },
+        {
+          "path": "templates/growth/partials/instructional_link.html",
+          "pointer": "",
+          "sha256": "ab9bb5dc2e837f275606b796ce9ff4dff357e677cd965c199da4623e8e69b167"
+        },
+        {
+          "path": "growth/templatetags/instructional.py",
+          "pointer": "",
+          "sha256": "bd51387c7ab62c4de710ce017b3e58209599ed37eded078b9d8beb75ebe47568"
+        },
+        {
+          "path": "tests/e2e/test_instructional_content.py",
+          "pointer": "",
+          "sha256": "7e9d36427933caa3f213151b5db68b0abe7f6e48ea6500c99c1c90ae7cd64812"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "schema",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "data/practices/schema/instructional_content_v1.schema.json",
+              "pointer": "",
+              "sha256": "35464a8a3de3302eceb4efb6e04c22309c657bd1f6efac98d766be2c81ab6eec"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "roundtrip",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "tests/test_instructional_content.py",
+              "pointer": "",
+              "sha256": "e02f5343b80f52b1f53913ac7b9319492d0652e5263e3069a351dfe10f1a0bfe"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "retention",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "tests/test_instructional_content.py",
+              "pointer": "",
+              "sha256": "e02f5343b80f52b1f53913ac7b9319492d0652e5263e3069a351dfe10f1a0bfe"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "exports",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "growth/views_instructional.py",
+              "pointer": "",
+              "sha256": "e54991111a582b4443e177b87ce037cc6c79ed283194cc291d68021b2d1eccac"
+            },
+            {
+              "path": "tests/test_instructional_content.py",
+              "pointer": "",
+              "sha256": "e02f5343b80f52b1f53913ac7b9319492d0652e5263e3069a351dfe10f1a0bfe"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "browser",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/evidence/m6k-qa01/browser-review.md",
+              "pointer": "",
+              "sha256": "b57a8c60900bc4a1cfeb142401bb7f10b895b3b52d406b27851ebd9dbc486432"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/browser-provenance.json",
+              "pointer": "",
+              "sha256": "ef2bf195a0af58250ef84c2ad3b629e046272df8d2da4fcf325b08a5cd5c0086"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/hosted-browser.txt",
+              "pointer": "",
+              "sha256": "0fe80d3862ea8ec0ca991eabd19716dc8006ae1620acf91a8e956214ebfd3508"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/m6k-guide-check-zoom-1280.png",
+              "pointer": "",
+              "sha256": "0737aadcea557add7d0fdfa8bac843ed23c4d439045e221e37cc2371a38e4427"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/m6k-guide-check-zoom-390.png",
+              "pointer": "",
+              "sha256": "feb8ebb6c13e24309c29c0304205fd2a0504778c9e4659877d8f020f4a331510"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/m6k-guide-prompt-1280.png",
+              "pointer": "",
+              "sha256": "5c53781c32df6a56699bd9450e08a19ca396153bafe45146720ab5e04f27b392"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/m6k-guide-prompt-390.png",
+              "pointer": "",
+              "sha256": "b8e8778e5f055a9c4dd4185ba805b47d55ee49c0fe55a6894f287cdc64795c6d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "M6K-01-02",
+      "task_hash": "a61db3ff5f7a855a1be83f6ba2cc6507bd4168b2cb52ff57882cd8b88cb23f4a",
+      "state": "pass",
+      "actor_kind": "agent",
+      "execution": "executed",
+      "decision_reference": null,
+      "reason": "Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
+      "dependencies": {
+        "M6K-01-01": "1cd2d63cbad615011136e6c3b8f55e69292b40547cb6723e46ea4a551bc8549f"
+      },
+      "bindings": [
+        {
+          "path": "docs/evidence/m6k-qa01/tests.txt",
+          "pointer": "",
+          "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+        },
+        {
+          "path": "docs/plans/m6k/reviews.py",
+          "pointer": "",
+          "sha256": "374411bb1f248870ac9cfcdbc9940856a33bbd7c483616aa7690687929cf1991"
+        },
+        {
+          "path": "tests/test_m6k_review_evidence.py",
+          "pointer": "",
+          "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "mechanical",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/reviews.py",
+              "pointer": "",
+              "sha256": "374411bb1f248870ac9cfcdbc9940856a33bbd7c483616aa7690687929cf1991"
+            },
+            {
+              "path": "tests/test_m6k_review_evidence.py",
+              "pointer": "",
+              "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "receipts",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/reviews.py",
+              "pointer": "",
+              "sha256": "374411bb1f248870ac9cfcdbc9940856a33bbd7c483616aa7690687929cf1991"
+            },
+            {
+              "path": "tests/test_m6k_review_evidence.py",
+              "pointer": "",
+              "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "negative_fixtures",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/reviews.py",
+              "pointer": "",
+              "sha256": "374411bb1f248870ac9cfcdbc9940856a33bbd7c483616aa7690687929cf1991"
+            },
+            {
+              "path": "tests/test_m6k_review_evidence.py",
+              "pointer": "",
+              "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "invariants",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/reviews.py",
+              "pointer": "",
+              "sha256": "374411bb1f248870ac9cfcdbc9940856a33bbd7c483616aa7690687929cf1991"
+            },
+            {
+              "path": "tests/test_m6k_review_evidence.py",
+              "pointer": "",
+              "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "M6K-01-03",
+      "task_hash": "7e8fe43ea09280401f8e3cf54f77c02540008d298b9c61ba62b50b6ee442faf0",
+      "state": "pass",
+      "actor_kind": "agent",
+      "execution": "executed",
+      "decision_reference": null,
+      "reason": "Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
+      "dependencies": {
+        "M6K-01-02": "f875dfb74ecf53dc35c631927c2ec4e0c3948472c4db669e64817d19b6559b14"
+      },
+      "bindings": [
+        {
+          "path": "docs/evidence/m6k-continuation-2026-09-08/portfolio-tests.txt",
+          "pointer": "",
+          "sha256": "0925e4dc78cb4d13ea3bc11103b4d5eaa03eda51d8dd16312b0bbcff4f7f8768"
+        },
+        {
+          "path": "docs/evidence/m6k-continuation-2026-09-08/source-hashes.json",
+          "pointer": "",
+          "sha256": "ee2e89d27dce4f913651d07877cdc1e6cb4f0631f3cb828eed4f1b9596a37644"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/tests.txt",
+          "pointer": "",
+          "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+        },
+        {
+          "path": "docs/plans/m6k/continuation.py",
+          "pointer": "",
+          "sha256": "668af7775779ad755e1d4dcb08f8834b4e73a2beb487a3d9f646cd802415a3a0"
+        },
+        {
+          "path": "tests/test_m6k_continuation.py",
+          "pointer": "",
+          "sha256": "f02848fcdd6a32b28cd2c601ba1df0e8fd4b8e23b0c34baa50b22a8987842de6"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "selection",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/continuation.py",
+              "pointer": "",
+              "sha256": "668af7775779ad755e1d4dcb08f8834b4e73a2beb487a3d9f646cd802415a3a0"
+            },
+            {
+              "path": "tests/test_m6k_continuation.py",
+              "pointer": "",
+              "sha256": "f02848fcdd6a32b28cd2c601ba1df0e8fd4b8e23b0c34baa50b22a8987842de6"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/portfolio-tests.txt",
+              "pointer": "",
+              "sha256": "0925e4dc78cb4d13ea3bc11103b4d5eaa03eda51d8dd16312b0bbcff4f7f8768"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/source-hashes.json",
+              "pointer": "",
+              "sha256": "ee2e89d27dce4f913651d07877cdc1e6cb4f0631f3cb828eed4f1b9596a37644"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "schema",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/continuation.py",
+              "pointer": "",
+              "sha256": "668af7775779ad755e1d4dcb08f8834b4e73a2beb487a3d9f646cd802415a3a0"
+            },
+            {
+              "path": "tests/test_m6k_continuation.py",
+              "pointer": "",
+              "sha256": "f02848fcdd6a32b28cd2c601ba1df0e8fd4b8e23b0c34baa50b22a8987842de6"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/portfolio-tests.txt",
+              "pointer": "",
+              "sha256": "0925e4dc78cb4d13ea3bc11103b4d5eaa03eda51d8dd16312b0bbcff4f7f8768"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/source-hashes.json",
+              "pointer": "",
+              "sha256": "ee2e89d27dce4f913651d07877cdc1e6cb4f0631f3cb828eed4f1b9596a37644"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "leases",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/continuation.py",
+              "pointer": "",
+              "sha256": "668af7775779ad755e1d4dcb08f8834b4e73a2beb487a3d9f646cd802415a3a0"
+            },
+            {
+              "path": "tests/test_m6k_continuation.py",
+              "pointer": "",
+              "sha256": "f02848fcdd6a32b28cd2c601ba1df0e8fd4b8e23b0c34baa50b22a8987842de6"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/portfolio-tests.txt",
+              "pointer": "",
+              "sha256": "0925e4dc78cb4d13ea3bc11103b4d5eaa03eda51d8dd16312b0bbcff4f7f8768"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/source-hashes.json",
+              "pointer": "",
+              "sha256": "ee2e89d27dce4f913651d07877cdc1e6cb4f0631f3cb828eed4f1b9596a37644"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "resume",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/continuation.py",
+              "pointer": "",
+              "sha256": "668af7775779ad755e1d4dcb08f8834b4e73a2beb487a3d9f646cd802415a3a0"
+            },
+            {
+              "path": "tests/test_m6k_continuation.py",
+              "pointer": "",
+              "sha256": "f02848fcdd6a32b28cd2c601ba1df0e8fd4b8e23b0c34baa50b22a8987842de6"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/portfolio-tests.txt",
+              "pointer": "",
+              "sha256": "0925e4dc78cb4d13ea3bc11103b4d5eaa03eda51d8dd16312b0bbcff4f7f8768"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/source-hashes.json",
+              "pointer": "",
+              "sha256": "ee2e89d27dce4f913651d07877cdc1e6cb4f0631f3cb828eed4f1b9596a37644"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "runner",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/plans/m6k/continuation.py",
+              "pointer": "",
+              "sha256": "668af7775779ad755e1d4dcb08f8834b4e73a2beb487a3d9f646cd802415a3a0"
+            },
+            {
+              "path": "tests/test_m6k_continuation.py",
+              "pointer": "",
+              "sha256": "f02848fcdd6a32b28cd2c601ba1df0e8fd4b8e23b0c34baa50b22a8987842de6"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/portfolio-tests.txt",
+              "pointer": "",
+              "sha256": "0925e4dc78cb4d13ea3bc11103b4d5eaa03eda51d8dd16312b0bbcff4f7f8768"
+            },
+            {
+              "path": "docs/evidence/m6k-continuation-2026-09-08/source-hashes.json",
+              "pointer": "",
+              "sha256": "ee2e89d27dce4f913651d07877cdc1e6cb4f0631f3cb828eed4f1b9596a37644"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_id": "M6K-02-01",
+      "task_hash": "b5a1652d211712f5445606b11d768db8be0b19942137d43a2b1d0c22dffe2bf3",
+      "state": "pass",
+      "actor_kind": "agent",
+      "execution": "executed",
+      "decision_reference": null,
+      "reason": "Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
+      "dependencies": {
+        "M6K-01-02": "f875dfb74ecf53dc35c631927c2ec4e0c3948472c4db669e64817d19b6559b14"
+      },
+      "bindings": [
+        {
+          "path": "docs/authoring/quality/21.03/dry-run.json",
+          "pointer": "",
+          "sha256": "e21bca6f466fa41c7b5b6028dcd5c7e312404027e1842d9c58d20f785d8cde70"
+        },
+        {
+          "path": "docs/authoring/quality/21.03/event-briefs.json",
+          "pointer": "",
+          "sha256": "64f21fb431affc141f3b6c9d9699503a73c722cd92d0bb8cff61ce19b0ff3a07"
+        },
+        {
+          "path": "docs/authoring/quality/21.03/learner-exercise.md",
+          "pointer": "",
+          "sha256": "ef25944debd7bd6103733b44497b84daa48596edff08e2e45d844840828dd715"
+        },
+        {
+          "path": "docs/authoring/quality/21.03/repair-review.md",
+          "pointer": "",
+          "sha256": "9a6d6c4eee11d7426410c81576973c80215990fb168907b14094f85f7f00d233"
+        },
+        {
+          "path": "docs/authoring/quality/21.03/repair-source.json",
+          "pointer": "",
+          "sha256": "cd99bb30119a31444cf0aa9f110d3ff77906c54630aafe224454fa2a81ebcbe5"
+        },
+        {
+          "path": "docs/authoring/quality/21.03/verify_repair.py",
+          "pointer": "",
+          "sha256": "73a3f09cb39457160e78523ffb6a92758687da89ddb4fd0b3d4656529532c5e7"
+        },
+        {
+          "path": "docs/evidence/m6k-qa01/tests.txt",
+          "pointer": "",
+          "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+        },
+        {
+          "path": "tests/test_m6k_2103.py",
+          "pointer": "",
+          "sha256": "2c2b448977113465b5581616becb7c652d63563972f282593573b9d5f8a852d2"
+        }
+      ],
+      "criteria": [
+        {
+          "id": "deliverables",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/authoring/quality/21.03/repair-source.json",
+              "pointer": "",
+              "sha256": "cd99bb30119a31444cf0aa9f110d3ff77906c54630aafe224454fa2a81ebcbe5"
+            },
+            {
+              "path": "docs/authoring/quality/21.03/learner-exercise.md",
+              "pointer": "",
+              "sha256": "ef25944debd7bd6103733b44497b84daa48596edff08e2e45d844840828dd715"
+            },
+            {
+              "path": "docs/authoring/quality/21.03/event-briefs.json",
+              "pointer": "",
+              "sha256": "64f21fb431affc141f3b6c9d9699503a73c722cd92d0bb8cff61ce19b0ff3a07"
+            }
+          ]
+        },
+        {
+          "id": "verification",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/authoring/quality/21.03/dry-run.json",
+              "pointer": "",
+              "sha256": "e21bca6f466fa41c7b5b6028dcd5c7e312404027e1842d9c58d20f785d8cde70"
+            },
+            {
+              "path": "docs/authoring/quality/21.03/verify_repair.py",
+              "pointer": "",
+              "sha256": "73a3f09cb39457160e78523ffb6a92758687da89ddb4fd0b3d4656529532c5e7"
+            },
+            {
+              "path": "tests/test_m6k_2103.py",
+              "pointer": "",
+              "sha256": "2c2b448977113465b5581616becb7c652d63563972f282593573b9d5f8a852d2"
+            },
+            {
+              "path": "docs/evidence/m6k-qa01/tests.txt",
+              "pointer": "",
+              "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "verdict": "pass",
+          "reason": "Executed evidence and exact artifacts retained; see M6K-QA01-CRAFT-REPAIR.md for criterion mapping and limits.",
+          "anchors": [
+            {
+              "path": "docs/authoring/quality/21.03/repair-review.md",
+              "pointer": "",
+              "sha256": "9a6d6c4eee11d7426410c81576973c80215990fb168907b14094f85f7f00d233"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
