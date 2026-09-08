@@ -20,25 +20,66 @@
     "presentation"
   ],
   "properties": {
-    "schema_version": {"const": "GG-PRACTICE-CONTENT-1.0"},
-    "protocol_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
-    "stable_id": {"type": "string", "pattern": "^PRACTICE-[A-Z0-9-]+-[0-9]{2}$"},
-    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
-    "name": {"type": "string", "minLength": 1},
-    "parent_competency_id": {"type": "string", "pattern": "^[0-9]{2}\\.[0-9]{2}$"},
-    "domain_id": {"type": "string", "pattern": "^[0-9]{2}$"},
-    "governance": {"$ref": "#/$defs/governance"},
-    "meaning_and_fit": {"$ref": "#/$defs/meaningAndFit"},
-    "intervention": {"$ref": "#/$defs/intervention"},
-    "evidence_and_scoring": {"$ref": "#/$defs/evidenceAndScoring"},
-    "completion_and_review": {"$ref": "#/$defs/completionAndReview"},
-    "presentation": {"$ref": "#/$defs/presentation"}
+    "schema_version": {
+      "const": "GG-PRACTICE-CONTENT-1.0"
+    },
+    "protocol_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "stable_id": {
+      "type": "string",
+      "pattern": "^PRACTICE-[A-Z0-9-]+-[0-9]{2}$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_competency_id": {
+      "type": "string",
+      "pattern": "^[0-9]{2}\\.[0-9]{2}$"
+    },
+    "domain_id": {
+      "type": "string",
+      "pattern": "^[0-9]{2}$"
+    },
+    "governance": {
+      "$ref": "#/$defs/governance"
+    },
+    "meaning_and_fit": {
+      "$ref": "#/$defs/meaningAndFit"
+    },
+    "intervention": {
+      "$ref": "#/$defs/intervention"
+    },
+    "evidence_and_scoring": {
+      "$ref": "#/$defs/evidenceAndScoring"
+    },
+    "completion_and_review": {
+      "$ref": "#/$defs/completionAndReview"
+    },
+    "presentation": {
+      "$ref": "#/$defs/presentation"
+    },
+    "instructional_content": {
+      "type": "object",
+      "description": "Validated against instructional_content_v1.schema.json and same-competency reference rules."
+    }
   },
   "$defs": {
-    "nonEmptyString": {"type": "string", "minLength": 1},
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
     "stringList": {
       "type": "array",
-      "items": {"$ref": "#/$defs/nonEmptyString"},
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
       "uniqueItems": true
     },
     "governance": {
@@ -57,11 +98,35 @@
         "deprecation"
       ],
       "properties": {
-        "availability": {"enum": ["active", "inactive"]},
-        "editorial_status": {"enum": ["projected_legacy", "draft", "expert_review", "release_candidate"]},
-        "runtime_projection": {"enum": ["GG-PRACTICE-RUNTIME-PROJECTION-1.0", "GG-PRACTICE-RUNTIME-PROJECTION-2.0", "none"]},
-        "risk_class_id": {"type": "string", "pattern": "^RISK-(LOW|MODERATE|HIGH)$"},
-        "scoring_policy_id": {"type": "string", "pattern": "^SP-[A-Z0-9-]+$"},
+        "availability": {
+          "enum": [
+            "active",
+            "inactive"
+          ]
+        },
+        "editorial_status": {
+          "enum": [
+            "projected_legacy",
+            "draft",
+            "expert_review",
+            "release_candidate"
+          ]
+        },
+        "runtime_projection": {
+          "enum": [
+            "GG-PRACTICE-RUNTIME-PROJECTION-1.0",
+            "GG-PRACTICE-RUNTIME-PROJECTION-2.0",
+            "none"
+          ]
+        },
+        "risk_class_id": {
+          "type": "string",
+          "pattern": "^RISK-(LOW|MODERATE|HIGH)$"
+        },
+        "scoring_policy_id": {
+          "type": "string",
+          "pattern": "^SP-[A-Z0-9-]+$"
+        },
         "scoring_status": {
           "enum": [
             "eligible_inactive",
@@ -75,7 +140,10 @@
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"}
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-[A-Z0-9-]+$"
+          }
         },
         "authoring": {
           "type": "object",
@@ -93,9 +161,16 @@
             "expert_review_ids"
           ],
           "properties": {
-            "provenance": {"$ref": "#/$defs/nonEmptyString"},
+            "provenance": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
             "content_review_status": {
-              "enum": ["pending", "in_review", "complete", "frozen_runtime_behavior"]
+              "enum": [
+                "pending",
+                "in_review",
+                "complete",
+                "frozen_runtime_behavior"
+              ]
             },
             "research_review_status": {
               "enum": [
@@ -139,16 +214,28 @@
                 "existing_runtime_coverage"
               ]
             },
-            "last_reviewed": {"type": ["string", "null"], "format": "date"},
+            "last_reviewed": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date"
+            },
             "known_gap_ids": {
               "type": "array",
               "uniqueItems": true,
-              "items": {"type": "string", "pattern": "^RG-[A-Z0-9-]+-[0-9]{3}$"}
+              "items": {
+                "type": "string",
+                "pattern": "^RG-[A-Z0-9-]+-[0-9]{3}$"
+              }
             },
             "expert_review_ids": {
               "type": "array",
               "uniqueItems": true,
-              "items": {"type": "string", "pattern": "^ER-[A-Z0-9-]+-[0-9]{3}$"}
+              "items": {
+                "type": "string",
+                "pattern": "^ER-[A-Z0-9-]+-[0-9]{3}$"
+              }
             }
           }
         },
@@ -189,21 +276,35 @@
               "affected_markers": {
                 "type": "array",
                 "uniqueItems": true,
-                "items": {"$ref": "#/$defs/nonEmptyString"}
+                "items": {
+                  "$ref": "#/$defs/nonEmptyString"
+                }
               },
-              "detail": {"$ref": "#/$defs/nonEmptyString"},
-              "resolution_gate": {"$ref": "#/$defs/nonEmptyString"}
+              "detail": {
+                "$ref": "#/$defs/nonEmptyString"
+              },
+              "resolution_gate": {
+                "$ref": "#/$defs/nonEmptyString"
+              }
             }
           }
         },
         "deprecation": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["deprecated", "replaced_by"],
+          "required": [
+            "deprecated",
+            "replaced_by"
+          ],
           "properties": {
-            "deprecated": {"type": "boolean"},
+            "deprecated": {
+              "type": "boolean"
+            },
             "replaced_by": {
-              "type": ["string", "null"],
+              "type": [
+                "string",
+                "null"
+              ],
               "pattern": "^PRACTICE-[A-Z0-9-]+-[0-9]{2}$"
             }
           }
@@ -213,9 +314,16 @@
     "claim": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["statement", "classification", "source_ids", "limitations"],
+      "required": [
+        "statement",
+        "classification",
+        "source_ids",
+        "limitations"
+      ],
       "properties": {
-        "statement": {"$ref": "#/$defs/nonEmptyString"},
+        "statement": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
         "classification": {
           "enum": [
             "empirical_finding",
@@ -230,9 +338,14 @@
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"}
+          "items": {
+            "type": "string",
+            "pattern": "^SRC-[A-Z0-9-]+$"
+          }
         },
-        "limitations": {"$ref": "#/$defs/nonEmptyString"}
+        "limitations": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
       }
     },
     "meaningAndFit": {
@@ -254,131 +367,582 @@
         "worldview_conditions"
       ],
       "properties": {
-        "purpose": {"$ref": "#/$defs/nonEmptyString"},
-        "why_recommended": {"$ref": "#/$defs/nonEmptyString"},
+        "purpose": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "why_recommended": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
         "claims": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/claim"}
+          "items": {
+            "$ref": "#/$defs/claim"
+          }
         },
-        "applicability_question": {"$ref": "#/$defs/nonEmptyString"},
-        "not_applicable_behavior": {"$ref": "#/$defs/nonEmptyString"},
-        "readiness_considerations": {"$ref": "#/$defs/nonEmptyString"},
-        "opportunity_considerations": {"$ref": "#/$defs/nonEmptyString"},
-        "prerequisites": {"$ref": "#/$defs/stringList"},
-        "dependencies": {"$ref": "#/$defs/stringList"},
+        "applicability_question": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "not_applicable_behavior": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "readiness_considerations": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "opportunity_considerations": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "prerequisites": {
+          "$ref": "#/$defs/stringList"
+        },
+        "dependencies": {
+          "$ref": "#/$defs/stringList"
+        },
         "safe_alternatives": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
-        "role_conditions": {"$ref": "#/$defs/stringList"},
+        "role_conditions": {
+          "$ref": "#/$defs/stringList"
+        },
         "pathway_conditions": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
         "worldview_conditions": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         }
       }
     },
     "legacyEvidenceRules": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["schema_version", "primary_markers", "supporting_markers"],
+      "required": [
+        "schema_version",
+        "primary_markers",
+        "supporting_markers"
+      ],
       "properties": {
-        "schema_version": {"const": "practice-observation-v1"},
+        "schema_version": {
+          "const": "practice-observation-v1"
+        },
         "primary_markers": {
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
         "supporting_markers": {
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         }
       }
     },
     "typedMeasurementRule": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["measurement_id", "kind", "role", "weight", "allowed_provenance"],
+      "required": [
+        "measurement_id",
+        "kind",
+        "role",
+        "weight",
+        "allowed_provenance"
+      ],
       "properties": {
-        "measurement_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"},
-        "kind": {"enum": ["boolean", "count", "bounded_frequency", "ordinal", "duration", "artifact", "conceptual", "scenario", "objective", "attestation"]},
-        "role": {"enum": ["primary", "supporting", "adverse", "context"]},
-        "weight": {"type": ["string", "number", "integer"]},
-        "allowed_provenance": {"$ref": "#/$defs/stringList"},
-        "expected": {"type": "boolean"},
-        "direction": {"enum": ["at_least", "at_most"]},
-        "minimum": {"type": ["string", "number", "integer"]},
-        "target": {"type": ["string", "number", "integer"]},
-        "maximum": {"type": ["string", "number", "integer"]},
-        "unit": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"},
+        "measurement_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+        },
+        "kind": {
+          "enum": [
+            "boolean",
+            "count",
+            "bounded_frequency",
+            "ordinal",
+            "duration",
+            "artifact",
+            "conceptual",
+            "scenario",
+            "objective",
+            "attestation"
+          ]
+        },
+        "role": {
+          "enum": [
+            "primary",
+            "supporting",
+            "adverse",
+            "context"
+          ]
+        },
+        "weight": {
+          "type": [
+            "string",
+            "number",
+            "integer"
+          ]
+        },
+        "allowed_provenance": {
+          "$ref": "#/$defs/stringList"
+        },
+        "expected": {
+          "type": "boolean"
+        },
+        "direction": {
+          "enum": [
+            "at_least",
+            "at_most"
+          ]
+        },
+        "minimum": {
+          "type": [
+            "string",
+            "number",
+            "integer"
+          ]
+        },
+        "target": {
+          "type": [
+            "string",
+            "number",
+            "integer"
+          ]
+        },
+        "maximum": {
+          "type": [
+            "string",
+            "number",
+            "integer"
+          ]
+        },
+        "unit": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+        },
         "levels": {
           "type": "array",
           "minItems": 2,
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["level_id", "score"],
+            "required": [
+              "level_id",
+              "score"
+            ],
             "properties": {
-              "level_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"},
-              "score": {"type": ["string", "number", "integer"]}
+              "level_id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+              },
+              "score": {
+                "type": [
+                  "string",
+                  "number",
+                  "integer"
+                ]
+              }
             }
           }
         },
-        "criteria": {"$ref": "#/$defs/stringList"},
-        "allowed_attestation_ids": {"$ref": "#/$defs/stringList"},
-        "consent_required": {"type": "boolean"}
+        "criteria": {
+          "$ref": "#/$defs/stringList"
+        },
+        "allowed_attestation_ids": {
+          "$ref": "#/$defs/stringList"
+        },
+        "consent_required": {
+          "type": "boolean"
+        }
       },
       "allOf": [
         {
-          "if": {"properties": {"kind": {"const": "boolean"}}, "required": ["kind"]},
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "boolean"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
           "then": {
-            "required": ["expected"],
-            "not": {"anyOf": [{"required": ["direction"]}, {"required": ["minimum"]}, {"required": ["target"]}, {"required": ["maximum"]}, {"required": ["unit"]}, {"required": ["levels"]}, {"required": ["criteria"]}, {"required": ["allowed_attestation_ids"]}, {"required": ["consent_required"]}]}
+            "required": [
+              "expected"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "direction"
+                  ]
+                },
+                {
+                  "required": [
+                    "minimum"
+                  ]
+                },
+                {
+                  "required": [
+                    "target"
+                  ]
+                },
+                {
+                  "required": [
+                    "maximum"
+                  ]
+                },
+                {
+                  "required": [
+                    "unit"
+                  ]
+                },
+                {
+                  "required": [
+                    "levels"
+                  ]
+                },
+                {
+                  "required": [
+                    "criteria"
+                  ]
+                },
+                {
+                  "required": [
+                    "allowed_attestation_ids"
+                  ]
+                },
+                {
+                  "required": [
+                    "consent_required"
+                  ]
+                }
+              ]
+            }
           }
         },
         {
-          "if": {"properties": {"kind": {"enum": ["count", "bounded_frequency"]}}, "required": ["kind"]},
+          "if": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "count",
+                  "bounded_frequency"
+                ]
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
           "then": {
-            "required": ["direction", "minimum", "target", "maximum"],
-            "not": {"anyOf": [{"required": ["expected"]}, {"required": ["unit"]}, {"required": ["levels"]}, {"required": ["criteria"]}, {"required": ["allowed_attestation_ids"]}, {"required": ["consent_required"]}]}
+            "required": [
+              "direction",
+              "minimum",
+              "target",
+              "maximum"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "expected"
+                  ]
+                },
+                {
+                  "required": [
+                    "unit"
+                  ]
+                },
+                {
+                  "required": [
+                    "levels"
+                  ]
+                },
+                {
+                  "required": [
+                    "criteria"
+                  ]
+                },
+                {
+                  "required": [
+                    "allowed_attestation_ids"
+                  ]
+                },
+                {
+                  "required": [
+                    "consent_required"
+                  ]
+                }
+              ]
+            }
           }
         },
         {
-          "if": {"properties": {"kind": {"enum": ["duration", "objective"]}}, "required": ["kind"]},
+          "if": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "duration",
+                  "objective"
+                ]
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
           "then": {
-            "required": ["direction", "minimum", "target", "maximum", "unit"],
-            "not": {"anyOf": [{"required": ["expected"]}, {"required": ["levels"]}, {"required": ["criteria"]}, {"required": ["allowed_attestation_ids"]}, {"required": ["consent_required"]}]}
+            "required": [
+              "direction",
+              "minimum",
+              "target",
+              "maximum",
+              "unit"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "expected"
+                  ]
+                },
+                {
+                  "required": [
+                    "levels"
+                  ]
+                },
+                {
+                  "required": [
+                    "criteria"
+                  ]
+                },
+                {
+                  "required": [
+                    "allowed_attestation_ids"
+                  ]
+                },
+                {
+                  "required": [
+                    "consent_required"
+                  ]
+                }
+              ]
+            }
           }
         },
         {
-          "if": {"properties": {"kind": {"const": "ordinal"}}, "required": ["kind"]},
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "ordinal"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
           "then": {
-            "required": ["levels"],
-            "not": {"anyOf": [{"required": ["expected"]}, {"required": ["direction"]}, {"required": ["minimum"]}, {"required": ["target"]}, {"required": ["maximum"]}, {"required": ["unit"]}, {"required": ["criteria"]}, {"required": ["allowed_attestation_ids"]}, {"required": ["consent_required"]}]}
+            "required": [
+              "levels"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "expected"
+                  ]
+                },
+                {
+                  "required": [
+                    "direction"
+                  ]
+                },
+                {
+                  "required": [
+                    "minimum"
+                  ]
+                },
+                {
+                  "required": [
+                    "target"
+                  ]
+                },
+                {
+                  "required": [
+                    "maximum"
+                  ]
+                },
+                {
+                  "required": [
+                    "unit"
+                  ]
+                },
+                {
+                  "required": [
+                    "criteria"
+                  ]
+                },
+                {
+                  "required": [
+                    "allowed_attestation_ids"
+                  ]
+                },
+                {
+                  "required": [
+                    "consent_required"
+                  ]
+                }
+              ]
+            }
           }
         },
         {
-          "if": {"properties": {"kind": {"enum": ["artifact", "conceptual", "scenario"]}}, "required": ["kind"]},
+          "if": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "artifact",
+                  "conceptual",
+                  "scenario"
+                ]
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
           "then": {
-            "required": ["criteria"],
-            "not": {"anyOf": [{"required": ["expected"]}, {"required": ["direction"]}, {"required": ["minimum"]}, {"required": ["target"]}, {"required": ["maximum"]}, {"required": ["unit"]}, {"required": ["levels"]}, {"required": ["allowed_attestation_ids"]}, {"required": ["consent_required"]}]}
+            "required": [
+              "criteria"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "expected"
+                  ]
+                },
+                {
+                  "required": [
+                    "direction"
+                  ]
+                },
+                {
+                  "required": [
+                    "minimum"
+                  ]
+                },
+                {
+                  "required": [
+                    "target"
+                  ]
+                },
+                {
+                  "required": [
+                    "maximum"
+                  ]
+                },
+                {
+                  "required": [
+                    "unit"
+                  ]
+                },
+                {
+                  "required": [
+                    "levels"
+                  ]
+                },
+                {
+                  "required": [
+                    "allowed_attestation_ids"
+                  ]
+                },
+                {
+                  "required": [
+                    "consent_required"
+                  ]
+                }
+              ]
+            }
           }
         },
         {
-          "if": {"properties": {"kind": {"const": "attestation"}}, "required": ["kind"]},
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "attestation"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
           "then": {
-            "required": ["allowed_attestation_ids", "consent_required"],
-            "not": {"anyOf": [{"required": ["expected"]}, {"required": ["direction"]}, {"required": ["minimum"]}, {"required": ["target"]}, {"required": ["maximum"]}, {"required": ["unit"]}, {"required": ["levels"]}, {"required": ["criteria"]}]}
+            "required": [
+              "allowed_attestation_ids",
+              "consent_required"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "expected"
+                  ]
+                },
+                {
+                  "required": [
+                    "direction"
+                  ]
+                },
+                {
+                  "required": [
+                    "minimum"
+                  ]
+                },
+                {
+                  "required": [
+                    "target"
+                  ]
+                },
+                {
+                  "required": [
+                    "maximum"
+                  ]
+                },
+                {
+                  "required": [
+                    "unit"
+                  ]
+                },
+                {
+                  "required": [
+                    "levels"
+                  ]
+                },
+                {
+                  "required": [
+                    "criteria"
+                  ]
+                }
+              ]
+            }
           }
         }
       ]
@@ -386,30 +950,85 @@
     "typedEvidenceRules": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["schema_version", "max_age_days", "measurements", "competency_measurement_ids", "transfer_disposition"],
+      "required": [
+        "schema_version",
+        "max_age_days",
+        "measurements",
+        "competency_measurement_ids",
+        "transfer_disposition"
+      ],
       "properties": {
-        "schema_version": {"const": "typed-evidence-rules-v1"},
-        "max_age_days": {"type": ["integer", "null"], "minimum": 1, "maximum": 3650},
-        "measurements": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/typedMeasurementRule"}},
-        "competency_measurement_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"}},
-        "transfer_disposition": {"enum": ["protocol_only", "context_bound", "cross_context_candidate"]}
+        "schema_version": {
+          "const": "typed-evidence-rules-v1"
+        },
+        "max_age_days": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 3650
+        },
+        "measurements": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/typedMeasurementRule"
+          }
+        },
+        "competency_measurement_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+          }
+        },
+        "transfer_disposition": {
+          "enum": [
+            "protocol_only",
+            "context_bound",
+            "cross_context_candidate"
+          ]
+        }
       }
     },
     "evidenceRules": {
       "oneOf": [
-        {"$ref": "#/$defs/legacyEvidenceRules"},
-        {"$ref": "#/$defs/typedEvidenceRules"}
+        {
+          "$ref": "#/$defs/legacyEvidenceRules"
+        },
+        {
+          "$ref": "#/$defs/typedEvidenceRules"
+        }
       ]
     },
     "typedEvidenceIdentity": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["protocol_stable_id", "action_stable_id", "competency_stable_id", "scoring_policy_id"],
+      "required": [
+        "protocol_stable_id",
+        "action_stable_id",
+        "competency_stable_id",
+        "scoring_policy_id"
+      ],
       "properties": {
-        "protocol_stable_id": {"type": "string", "pattern": "^PRACTICE-[A-Z0-9-]+-[0-9]{2}$"},
-        "action_stable_id": {"type": "string", "pattern": "^PRACTICE-[A-Z0-9-]+-[0-9]{2}-A[0-9]+$"},
-        "competency_stable_id": {"type": "string", "pattern": "^[0-9]{2}\\.[0-9]{2}$"},
-        "scoring_policy_id": {"type": "string", "pattern": "^SP-[A-Z0-9-]+$"}
+        "protocol_stable_id": {
+          "type": "string",
+          "pattern": "^PRACTICE-[A-Z0-9-]+-[0-9]{2}$"
+        },
+        "action_stable_id": {
+          "type": "string",
+          "pattern": "^PRACTICE-[A-Z0-9-]+-[0-9]{2}-A[0-9]+$"
+        },
+        "competency_stable_id": {
+          "type": "string",
+          "pattern": "^[0-9]{2}\\.[0-9]{2}$"
+        },
+        "scoring_policy_id": {
+          "type": "string",
+          "pattern": "^SP-[A-Z0-9-]+$"
+        }
       }
     },
     "action": {
@@ -425,25 +1044,60 @@
         "evidence_rules"
       ],
       "properties": {
-        "stable_id": {"type": "string", "pattern": "^PRACTICE-[A-Z0-9-]+-[0-9]{2}-A[0-9]+$"},
-        "sequence": {"type": "integer", "minimum": 1},
-        "title": {"$ref": "#/$defs/nonEmptyString"},
-        "instructions": {"$ref": "#/$defs/nonEmptyString"},
-        "expected_time": {"$ref": "#/$defs/nonEmptyString"},
-        "due_within_days": {"type": ["integer", "null"], "minimum": 1},
-        "evidence_rules": {"$ref": "#/$defs/evidenceRules"},
-        "typed_evidence_identity": {"$ref": "#/$defs/typedEvidenceIdentity"}
+        "stable_id": {
+          "type": "string",
+          "pattern": "^PRACTICE-[A-Z0-9-]+-[0-9]{2}-A[0-9]+$"
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "instructions": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "expected_time": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "due_within_days": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "evidence_rules": {
+          "$ref": "#/$defs/evidenceRules"
+        },
+        "typed_evidence_identity": {
+          "$ref": "#/$defs/typedEvidenceIdentity"
+        }
       }
     },
     "adaptations": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["low_resource", "accessibility", "cultural_context", "resource_variants"],
+      "required": [
+        "low_resource",
+        "accessibility",
+        "cultural_context",
+        "resource_variants"
+      ],
       "properties": {
-        "low_resource": {"$ref": "#/$defs/stringList"},
-        "accessibility": {"$ref": "#/$defs/stringList"},
-        "cultural_context": {"$ref": "#/$defs/stringList"},
-        "resource_variants": {"$ref": "#/$defs/stringList"}
+        "low_resource": {
+          "$ref": "#/$defs/stringList"
+        },
+        "accessibility": {
+          "$ref": "#/$defs/stringList"
+        },
+        "cultural_context": {
+          "$ref": "#/$defs/stringList"
+        },
+        "resource_variants": {
+          "$ref": "#/$defs/stringList"
+        }
       }
     },
     "intervention": {
@@ -467,47 +1121,86 @@
         "professional_referral_conditions"
       ],
       "properties": {
-        "protocol_class": {"type": "string", "pattern": "^PF-[A-Z0-9-]+$"},
-        "duration_days": {"type": "integer", "minimum": 1, "maximum": 365},
-        "cadence": {"$ref": "#/$defs/nonEmptyString"},
-        "setup": {"$ref": "#/$defs/nonEmptyString"},
-        "privacy_and_boundaries": {"$ref": "#/$defs/nonEmptyString"},
-        "expected_burden": {"$ref": "#/$defs/nonEmptyString"},
+        "protocol_class": {
+          "type": "string",
+          "pattern": "^PF-[A-Z0-9-]+$"
+        },
+        "duration_days": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 365
+        },
+        "cadence": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "setup": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "privacy_and_boundaries": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "expected_burden": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
         "action_count_rationale": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "minLength": 1
         },
         "foreseeable_misuse": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
         "exclusions": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
-        "actions": {"type": "array", "minItems": 1, "maxItems": 12, "items": {"$ref": "#/$defs/action"}},
-        "adaptations": {"$ref": "#/$defs/adaptations"},
+        "actions": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 12,
+          "items": {
+            "$ref": "#/$defs/action"
+          }
+        },
+        "adaptations": {
+          "$ref": "#/$defs/adaptations"
+        },
         "pause_conditions": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
         "stop_conditions": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
         "escalation_conditions": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
         "professional_referral_conditions": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         }
       }
     },
@@ -536,88 +1229,173 @@
         "accepted_evidence_types": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
-        "observation_contract_version": {"enum": ["practice-observation-v1", "typed-evidence-rules-v1"]},
+        "observation_contract_version": {
+          "enum": [
+            "practice-observation-v1",
+            "typed-evidence-rules-v1"
+          ]
+        },
         "check_in_fields": {
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
         "adverse_or_contradictory_indicators": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
-        "independence_rule": {"$ref": "#/$defs/nonEmptyString"},
-        "context_transfer_rule": {"$ref": "#/$defs/nonEmptyString"},
-        "repetition_rule": {"$ref": "#/$defs/nonEmptyString"},
-        "recency_rule": {"$ref": "#/$defs/nonEmptyString"},
-        "performance_rubric": {"$ref": "#/$defs/nonEmptyString"},
-        "evidence_quality_rubric": {"$ref": "#/$defs/nonEmptyString"},
-        "scoring_eligibility": {"$ref": "#/$defs/nonEmptyString"},
-        "competency_contribution": {"$ref": "#/$defs/nonEmptyString"},
-        "canonical_lever_allocation": {"const": "parent_competency_mapping"},
+        "independence_rule": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "context_transfer_rule": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "repetition_rule": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "recency_rule": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "performance_rubric": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "evidence_quality_rubric": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "scoring_eligibility": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "competency_contribution": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "canonical_lever_allocation": {
+          "const": "parent_competency_mapping"
+        },
         "recommendation_target_lever_ids": {
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {"type": "string", "pattern": "^L[0-9]{2}$"}
+          "items": {
+            "type": "string",
+            "pattern": "^L[0-9]{2}$"
+          }
         },
-        "minimum_evidence_before_state_update": {"$ref": "#/$defs/nonEmptyString"},
+        "minimum_evidence_before_state_update": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
         "withholding_conditions": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         }
       }
     },
     "completionRules": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["minimum_completed", "substantive_markers"],
+      "required": [
+        "minimum_completed",
+        "substantive_markers"
+      ],
       "properties": {
-        "minimum_completed": {"type": "integer", "minimum": 1},
+        "minimum_completed": {
+          "type": "integer",
+          "minimum": 1
+        },
         "substantive_markers": {
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
-        "marker_mode": {"enum": ["any", "all"]}
+        "marker_mode": {
+          "enum": [
+            "any",
+            "all"
+          ]
+        }
       }
     },
     "reflection": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["before", "during", "after"],
+      "required": [
+        "before",
+        "during",
+        "after"
+      ],
       "properties": {
-        "before": {"$ref": "#/$defs/nonEmptyString"},
-        "during": {"$ref": "#/$defs/nonEmptyString"},
-        "after": {"$ref": "#/$defs/nonEmptyString"}
+        "before": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "during": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "after": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
       }
     },
     "reviewGuidance": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["repeat", "adapt", "stop", "escalate"],
+      "required": [
+        "repeat",
+        "adapt",
+        "stop",
+        "escalate"
+      ],
       "properties": {
-        "repeat": {"$ref": "#/$defs/nonEmptyString"},
-        "adapt": {"$ref": "#/$defs/nonEmptyString"},
-        "stop": {"$ref": "#/$defs/nonEmptyString"},
-        "escalate": {"$ref": "#/$defs/nonEmptyString"}
+        "repeat": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "adapt": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "stop": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "escalate": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
       }
     },
     "evidenceExamples": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["supportive", "mixed", "contradictory", "inconclusive"],
+      "required": [
+        "supportive",
+        "mixed",
+        "contradictory",
+        "inconclusive"
+      ],
       "properties": {
-        "supportive": {"$ref": "#/$defs/nonEmptyString"},
-        "mixed": {"$ref": "#/$defs/nonEmptyString"},
-        "contradictory": {"$ref": "#/$defs/nonEmptyString"},
-        "inconclusive": {"$ref": "#/$defs/nonEmptyString"}
+        "supportive": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "mixed": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "contradictory": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "inconclusive": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
       }
     },
     "completionAndReview": {
@@ -637,24 +1415,46 @@
         "completion_criteria": {
           "type": "array",
           "minItems": 1,
-          "items": {"$ref": "#/$defs/nonEmptyString"}
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
         },
-        "completion_rules": {"$ref": "#/$defs/completionRules"},
-        "mastery_disclaimer": {"const": "Completing this practice does not establish mastery."},
-        "progression_criteria": {"$ref": "#/$defs/nonEmptyString"},
-        "transfer_limit": {"$ref": "#/$defs/nonEmptyString"},
-        "reflection": {"$ref": "#/$defs/reflection"},
-        "review_guidance": {"$ref": "#/$defs/reviewGuidance"},
-        "evidence_examples": {"$ref": "#/$defs/evidenceExamples"}
+        "completion_rules": {
+          "$ref": "#/$defs/completionRules"
+        },
+        "mastery_disclaimer": {
+          "const": "Completing this practice does not establish mastery."
+        },
+        "progression_criteria": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "transfer_limit": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "reflection": {
+          "$ref": "#/$defs/reflection"
+        },
+        "review_guidance": {
+          "$ref": "#/$defs/reviewGuidance"
+        },
+        "evidence_examples": {
+          "$ref": "#/$defs/evidenceExamples"
+        }
       }
     },
     "setupCopyValue": {
       "oneOf": [
-        {"type": "string", "minLength": 1},
+        {
+          "type": "string",
+          "minLength": 1
+        },
         {
           "type": "object",
           "minProperties": 1,
-          "additionalProperties": {"type": "string", "minLength": 1}
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       ]
     },
@@ -672,16 +1472,28 @@
         "setup_copy": {
           "type": "object",
           "minProperties": 1,
-          "additionalProperties": {"$ref": "#/$defs/setupCopyValue"}
+          "additionalProperties": {
+            "$ref": "#/$defs/setupCopyValue"
+          }
         },
         "check_in_labels": {
           "type": "object",
           "minProperties": 1,
-          "additionalProperties": {"type": "string", "minLength": 1}
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
         },
-        "completion_copy": {"$ref": "#/$defs/nonEmptyString"},
-        "plain_language_evidence": {"$ref": "#/$defs/nonEmptyString"},
-        "display_order": {"type": "integer", "minimum": 1}
+        "completion_copy": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "plain_language_evidence": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "display_order": {
+          "type": "integer",
+          "minimum": 1
+        }
       }
     }
   }

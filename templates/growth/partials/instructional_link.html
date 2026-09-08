@@ -1,0 +1,5 @@
+{% load instructional %}
+{% has_instructional_guide protocol as has_guide %}
+{% if has_guide %}
+  <p><a class="text-link" href="{% url 'growth:practice-guide' protocol.slug %}">Open learning guide, materials and practice checks</a></p>
+{% endif %}

@@ -8,6 +8,7 @@
     <div>
       <p class="eyebrow">{% if is_recommended %}Recommended next{% else %}Practice protocol{% endif %}</p>
       <h1>{{ protocol.name }}</h1>
+      {% include "growth/partials/instructional_link.html" %}
       {% if protocol.duration_days %}
         <p class="lede">{{ protocol.duration_days }} days · {{ protocol.actions.count }} defined actions · compact check-ins</p>
       {% endif %}

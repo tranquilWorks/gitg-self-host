@@ -1,0 +1,1011 @@
+schema_version: GG-TAILORED-PRACTICE-AUTHORING-1.0
+domain_id: '10'
+exercises:
+  '10.01':
+    title: Learn six ideas through recall, correction and a delayed transfer test
+    goal: Use retrieval, spacing, mixed practice, explanation and feedback to learn a small set of ideas,
+      then test retention and a new application after a delay.
+    scope_note: This is a learning-method trial, not an intelligence test or proof that one schedule suits
+      every learner. Ordinary sleep and access supports remain protected.
+    burden: Fifteen minutes on day one, ten minutes on day two, and fifteen minutes about a week later.
+    setup: Use the supplied learning guide, paper or an accessible note tool. It contains six definitions,
+      two worked examples, and separate first, second and delayed prompts with matching checks. Study
+      the teaching first; open only the prompt for the current session. Keep your original response before
+      revealing its check. No purchased materials or private information are needed.
+    actions:
+    - title: Study an example and retrieve before looking again
+      instructions: Read the six definitions and both worked examples in the learning guide. Explain why
+        the mean uses the count and why the median can differ from it. Close the teaching, open First
+        recall and application, and answer all six ideas plus the application before opening its check.
+        Preserve your original attempt, compare it with the supplied key, and write the corrected reasoning
+        for a specific mistake. Record any cues or lookups honestly.
+      checks:
+      - All six ideas receive an initial recall attempt
+      - A worked example and a contrasting example are used
+      - Errors are compared with an available answer source
+      - Explanation goes beyond copying the definitions
+    - title: Space and mix the second practice instead of repeating recognition
+      instructions: On the next day when feasible, open Second mixed practice before rereading the teaching.
+        Answer the six recall questions and the mixed application questions. Keep your original response,
+        then explicitly reveal that session’s check. Identify an error and use feedback to correct the
+        concept or method. Record the actual separation between sessions and supports used. Stop at the
+        planned time; preserve ordinary sleep, rest and necessary access supports.
+      checks:
+      - The second retrieval is separated by a day when feasible
+      - Definition and application questions are interleaved
+      - Feedback corrects specific missed ideas
+      - The plan preserves sleep rest and access supports
+    - title: Test delayed retention and unfamiliar application
+      instructions: About a week after the first session, open Delayed recall and new application without
+        reopening the teaching or earlier keys. Record the actual delay, answer the six recall questions,
+        and solve the supplied unfamiliar application. Keep the original response before revealing its
+        separate check. Label unaided, cued, looked-up and open-explanation work distinctly. Use a specific
+        retained idea or error to choose the next review; same-day practice does not establish delayed
+        retention.
+      checks:
+      - Delayed recall is attempted before looking up answers
+      - A new application differs from the worked example
+      - Unaided cued and looked-up answers are distinguished
+      - The next review is based on specific retention or transfer errors
+    adaptation: Use audio cards, large print, tactile counters or supported recall. Adjust the spacing
+      to available capacity and report the actual delay. A same-day repetition is useful practice but
+      must not be labeled a week-delayed retention test.
+    review: Which idea felt familiar yet could not be recalled or applied, and how will that change the
+      next study session?
+    examples:
+      supportive: The learner corrected a mean–median confusion, recalled it after a week and applied
+        both measures to the new uneven dataset.
+      mixed: Definitions were retained but the new application exposed a remaining misunderstanding about
+        units or extreme values.
+      contradictory: Recognition was reported as unaided recall, or sleep and necessary supports were
+        removed to prove discipline.
+      inconclusive: The material was reread repeatedly without a closed-reference attempt, correction
+        or delayed test.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.01'
+      title: Learn, retrieve, correct and check a new application
+      scored: false
+      sections:
+      - id: how-to-use
+        kind: concept
+        title: What this practice can show
+        body: This is a small learning-method trial. Reading a solution, retrieving it from memory, explaining
+          it with help, and applying it to unfamiliar material provide different observations. None alone
+          establishes broad learning ability. Use each prompt once before opening its check, keep the
+          first response, then correct a specific error. The intended schedule is day one, the next day,
+          and about a week later; record what actually happened. A gap on a calendar does not prove retention.
+      - id: six-ideas
+        kind: concept
+        title: Six ideas to learn
+        body: 'Mean: add the values and divide by their count. Median: sort the values; select the middle
+          value for an odd count, or average the two middle values for an even count. Range: subtract
+          the smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole
+          example it counts the chosen equal parts. Denominator: the number below the bar; in that example
+          it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity
+          scale, such as minutes or meters; it gives a measured number meaning.
+
+
+          For the mean, a fair-share interpretation helps: redistribute the total equally across the recorded
+          items. Sorting changes order, not the values. A median uses position after sorting; the mean
+          uses every value. A range describes the distance between the extremes, not the typical value.
+          These are definitions and a bounded teaching example, not a claim that this exercise is a validated
+          intervention.'
+      - id: worked-even
+        kind: worked_example
+        title: 'Worked example: an even set'
+        body: Four waiting times are 2, 4, 6 and 8 minutes. Their sum is 20 minutes and count is 4, so
+          the mean is 20/4 = 5 minutes. The middle values are 4 and 6, so the median is (4+6)/2 = 5 minutes.
+          The range is 8−2 = 6 minutes. In 3/4 of a one-meter strip, 3 is the numerator and 4 is the denominator;
+          the length is three quarters of a meter.
+      - id: worked-skew
+        kind: worked_example
+        title: 'Worked example: the summaries differ'
+        body: 'For 1, 2 and 9 minutes, the sum is 12 minutes and count is 3: mean 4 minutes. The sorted
+          middle value gives median 2 minutes. Range is 9−1 = 8 minutes. The mean and median answer different
+          questions; an unusually large value affects the mean while it may leave the middle position
+          unchanged. If you obtained median 4, check whether you averaged when the question asked for
+          the sorted middle.'
+      - id: first-recall
+        kind: prompt
+        title: First recall and application
+        body: '1. Explain mean.
+
+          2. Explain median, including what happens with an even count.
+
+          3. Explain range.
+
+          4. Identify and explain a numerator.
+
+          5. Identify and explain a denominator, including its nonzero condition.
+
+          6. Explain why a unit belongs with a measured number.
+
+
+          Apply: for 2, 4 and 6 minutes, find the mean, median and range. Explain your method. Then explain
+          why mean and median need not be equal in every dataset. Keep this response before opening the
+          check.'
+        check_id: first-key
+        attempt_mode: unaided
+      - id: second-mixed
+        kind: prompt
+        title: Second mixed practice
+        body: '1. Explain mean.
+
+          2. Explain median, including what happens with an even count.
+
+          3. Explain range.
+
+          4. Identify and explain a numerator.
+
+          5. Identify and explain a denominator, including its nonzero condition.
+
+          6. Explain why a unit belongs with a measured number.
+
+
+          Apply: find the range of 3, 5 and 8 minutes; identify the denominator in 3/7; explain why five
+          minutes and five meters cannot be added as one measured quantity. Note the actual interval since
+          your first session and keep your response before checking.'
+        check_id: second-key
+        attempt_mode: unaided
+      - id: delayed-transfer
+        kind: prompt
+        title: Delayed recall and new application
+        body: '1. Explain mean.
+
+          2. Explain median, including what happens with an even count.
+
+          3. Explain range.
+
+          4. Identify and explain a numerator.
+
+          5. Identify and explain a denominator, including its nonzero condition.
+
+          6. Explain why a unit belongs with a measured number.
+
+
+          New application: three waiting times are 2, 5 and 11 minutes. Find the mean, median and range.
+          Now change only the largest time from 11 to 17 minutes. Recalculate all three summaries, state
+          each change in minutes, and explain which summary changes most and why. Record the actual delay
+          and any help. Keep the attempt before opening its check.'
+        check_id: delayed-key
+        attempt_mode: unaided
+      - id: support-paths
+        kind: pathway
+        title: Choose an honest way to attempt
+        body: Audio, large print, accessible input and tactile counters can remain available throughout.
+          Distinguish access support from content assistance. Unaided means the response preceded content
+          cues or answer access; cued means a hint was used; looked-up means the reference supplied information;
+          open explanation means you intentionally reasoned with the reference available. Do not erase
+          supported responses. If recalling math definitions is already easy, use six unfamiliar ideas
+          from a source you can actually inspect, predeclare an equivalent unseen application and a reliable
+          checking method, and preserve those materials; the supplied arithmetic route remains the complete
+          default.
+      - id: next-review
+        kind: next_step
+        title: Choose the next review from the error
+        body: Privately note idea, original response, support, check result, corrected reasoning and next
+          review. A complete answer with a wrong method needs a method correction; a correct definition
+          with a wrong application needs a new example. Missing units need an explicit quantity check.
+          Keep one specific unresolved point for another spaced attempt and record the interval you can
+          actually use. The exercise observes these responses; it does not establish long-term change
+          beyond the sessions performed.
+      checks:
+      - id: first-key
+        title: Check the first attempt
+        body: 'Mean: add the values and divide by their count. Median: sort the values; select the middle
+          value for an odd count, or average the two middle values for an even count. Range: subtract
+          the smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole
+          example it counts the chosen equal parts. Denominator: the number below the bar; in that example
+          it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity
+          scale, such as minutes or meters; it gives a measured number meaning.
+
+
+          For 2, 4 and 6 minutes: sum 12, count 3, mean 4 minutes; median 4 minutes; range 4 minutes.
+          Equality here does not make the definitions interchangeable. A valid explanation distinguishes
+          using all values from using sorted middle position.'
+        criteria: &id001
+        - Check the original response before correcting it; do not replace the first attempt with the
+          key.
+        - Each definition must explain its operation or meaning, not merely name the word.
+        - Calculations must match the supplied values and use the given units.
+        - Separate an incorrect response from an unattempted one; record support and actual delay without
+          treating either as a personal score.
+      - id: second-key
+        title: Check the second attempt
+        body: 'Mean: add the values and divide by their count. Median: sort the values; select the middle
+          value for an odd count, or average the two middle values for an even count. Range: subtract
+          the smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole
+          example it counts the chosen equal parts. Denominator: the number below the bar; in that example
+          it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity
+          scale, such as minutes or meters; it gives a measured number meaning.
+
+
+          Range is 8−3 = 5 minutes. The denominator in 3/7 is 7. Minutes measure time and meters measure
+          length, so these cannot be combined by adding their bare numbers into one of those quantities.'
+        criteria: *id001
+      - id: delayed-key
+        title: Check the delayed application
+        body: 'Mean: add the values and divide by their count. Median: sort the values; select the middle
+          value for an odd count, or average the two middle values for an even count. Range: subtract
+          the smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole
+          example it counts the chosen equal parts. Denominator: the number below the bar; in that example
+          it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity
+          scale, such as minutes or meters; it gives a measured number meaning.
+
+
+          For 2, 5 and 11 minutes: sum 18 and count 3 give mean 6 minutes; median 5 minutes; range 9 minutes.
+          For 2, 5 and 17: sum 24 gives mean 8 minutes; median 5 minutes; range 15 minutes. Changes are
+          mean +2, median 0, range +6 minutes. The range changes most: its upper endpoint increased by
+          six while its lower endpoint stayed fixed. The mean spreads that six-minute increase across
+          three observations. The sorted middle stays 5. A response giving median 6 confuses the mean
+          with the middle; a response saying all summaries increase by six does not follow the definitions.'
+        criteria: *id001
+  '10.02':
+    title: Improve one weak component with fixed criteria and one correction
+    goal: Isolate a safe skill component, record a bounded baseline, use criterion-based feedback and
+      retry under comparable conditions without equating time spent with improvement.
+    scope_note: Practice one safely bounded component using a fixed standard, a baseline attempt, specific
+      feedback and a comparable retry. The evidence concerns that component under the recorded conditions;
+      it does not establish mastery of a larger skill. Use the comparison to choose the next correction
+      or a reason to pause.
+    burden: About forty-five to sixty minutes across planning, two five-to-fifteen-minute attempts and
+      one feedback pass within fourteen days.
+    setup: 'Default: enter a sum formula on synthetic values 3, 5, 7 and 9. The four fixed criteria are
+      include all four values, exclude unrelated cells, obtain 24, and update to 25 when 9 changes to
+      10. Use a spreadsheet you already know, or add the four values on paper as an accessible lower-complexity
+      component. No private data is needed.'
+    actions:
+    - title: Define one component and fix its success criteria
+      instructions: Choose the supplied summation component or another equally safe small component. Keep
+        two to four observable criteria, a five-to-fifteen-minute attempt length, a difficulty that permits
+        harmless error, and a private feedback method. Record how the answer will be checked before trying.
+        For the default, use the supplied arithmetic result and inspect the selected range; do not add
+        extra goals such as speed, formatting and charting.
+      checks:
+      - One observable component is selected
+      - Two to four criteria are fixed before the attempt
+      - Difficulty time and feedback method are safely bounded
+      - Synthetic material and a privacy boundary are selected
+    - title: Make a baseline attempt without changing the target
+      instructions: Attempt the component once within the chosen interval. Mark each predeclared criterion
+        observed or not observed and calculate the observed fraction using the number actually defined.
+        Keep the materials, access aids and difficulty visible in a private note. End at the time or safety
+        boundary, retain errors, and use only the application’s existing bounded indicators rather than
+        pasting formula contents or recordings into evidence.
+      checks:
+      - A real bounded baseline attempt occurs
+      - The observed fraction uses the fixed criterion count
+      - The attempt ends at its declared limit
+      - Errors and support conditions remain visible
+    - title: Select exactly one feedback correction
+      instructions: Compare the attempt with the answer or a freely offered review. Identify one unstable
+        criterion, such as accidentally excluding the first value, and one correction, such as checking
+        the first and last selected cell before accepting the formula. Define the retry at comparable
+        or lower difficulty. Feedback must describe the work, not the learner’s worth; no reviewer identity,
+        words or private artifact enters application evidence.
+      checks:
+      - Feedback uses the criteria fixed in advance
+      - One missed component and one adjustment are selected
+      - The retry condition is defined explicitly
+      - Feedback is voluntary private and free of humiliation
+    - title: Retry once and compare performance rather than effort
+      instructions: Repeat the same component with the selected correction and equivalent synthetic values,
+        or the same values when task familiarity is acknowledged. Record the same criterion fraction and
+        the bounded attempt duration. Compare baseline and retry, including unchanged or worse performance.
+        Increase difficulty only as a future choice after control is demonstrated; this protocol’s retry
+        itself stays comparable or easier. Identify the next correction or reason to pause.
+      checks:
+      - A comparable or easier retry is actually attempted
+      - The same criterion denominator is used both times
+      - Unchanged worse and improved results are all permitted
+      - The next progression decision follows the observed performance
+    adaptation: Use paper, slower pacing, an accessible input method, a model or a freely consenting coach.
+      Keep adaptations present in both attempts where possible. Exclude hazardous equipment, driving,
+      clinical rehabilitation, regulated practice and coerced public evaluation.
+    review: Which single correction changed the observed criterion, and what remains untested about transfer
+      to a larger skill?
+    examples:
+      supportive: The learner caught the omitted first value, retried with the same criterion set and
+        improved from two observed criteria to four without increasing difficulty.
+      mixed: The retry improved, but changed support or easier material made the size of the skill change
+        uncertain.
+      contradictory: Difficulty was escalated through pain or humiliation, or extra practice time was
+        represented as proof of competence.
+      inconclusive: A practice plan and feedback opinion were recorded without a baseline and comparable
+        retry.
+  '10.03':
+    title: Turn a puzzling observation into a question worth answering
+    goal: Distinguish a vague curiosity from a precise descriptive, causal or evaluative question, investigate
+      one and keep a useful backlog of unresolved questions.
+    scope_note: This is inquiry practice around a harmless observation. A good question need not have
+      an immediate answer, and one observation cannot establish a causal explanation.
+    burden: Ten minutes for observation, twenty minutes for one inquiry and ten minutes to refine the
+      question backlog.
+    setup: 'Default observation: a shared notice board becomes difficult to read even though old notices
+      are removed weekly. Use a page with observed puzzle, possible questions, evidence needed and next
+      question. A photograph is optional and should contain no names or private notices; a drawn synthetic
+      board is sufficient.'
+    actions:
+    - title: Describe the puzzle and generate different kinds of question
+      instructions: 'Record what is puzzling without explaining it immediately. Write three questions:
+        descriptive—how many notices overlap; causal—does placement contribute to overlap; evaluative—what
+        makes the board usable for its readers? Replace vague wording such as why is it bad with terms
+        that could be observed. Identify a contradiction between the expectation that removal should help
+        and the continuing difficulty.'
+      checks:
+      - The observation is separated from an immediate explanation
+      - Descriptive causal and evaluative questions are distinguished
+      - Vague terms are replaced with observable meanings
+      - The surprising expectation or contradiction is stated
+    - title: Choose one question and obtain a relevant piece of evidence
+      instructions: Select a question that matters, can be investigated safely and fits twenty minutes.
+        For the default, count overlapping and non-overlapping notices on a synthetic board, or inspect
+        a board you may view without recording personal content. Explain what that observation answers
+        and what it cannot answer; an overlap count does not establish why people choose a location. Ask
+        a willing maintainer only through an appropriate non-intrusive channel.
+      checks:
+      - The selected question has a reason for priority
+      - The evidence actually bears on that question
+      - Observation respects access and privacy
+      - A descriptive result is not promoted into an unsupported cause
+    - title: Resolve refine or defer rather than filling the gap with a story
+      instructions: Write answered within this scope, partly answered, or unresolved, with the supporting
+        observation. Refine the causal question if needed, such as whether clear posting zones reduce
+        overlap, and name a safe next check. Keep the other two questions in a short backlog with the
+        information that would make them worth revisiting. Do not manufacture an answer merely to close
+        the entry.
+      checks:
+      - The question receives an honest resolution status
+      - The answer cites the observed evidence
+      - One refined next question has a feasible check
+      - Unanswered questions remain visible without invented closure
+    adaptation: Use spoken questions, sketches or a private synthetic example. Curiosity about people
+      is not permission to investigate their private lives. When no live observation is accessible, the
+      supplied notice-board case supports question formation but not a real-world finding.
+    review: Did the inquiry answer the question you actually asked, or reveal a better question that the
+      original wording hid?
+    examples:
+      supportive: An overlap count answered the descriptive question and led to a narrower placement hypothesis
+        rather than a story about careless users.
+      mixed: The inquiry produced useful observations, but the selected question was still too broad to
+        resolve.
+      contradictory: A person’s motive was invented to fill an evidence gap, or curiosity became intrusive
+        surveillance.
+      inconclusive: A list of interesting topics was made without one precise question, evidence check
+        or refinement.
+  '10.04':
+    title: Build a small research answer that another person can trace
+    goal: Search beyond a first summary, distinguish primary and expert sources, compare conflicting information
+      and attach each conclusion to an identifiable source.
+    scope_note: This is a bounded research workflow, not expert certification. Absence of a source is
+      an uncertainty, and a polished summary cannot compensate for unverifiable provenance.
+    burden: Forty-five minutes, including a ten-minute provenance check.
+    setup: 'Question: what are the rules for borrowing an item from a local lending service? Use current
+      public documents when available. Offline case: policy P1, dated January, allows one item for seven
+      days; official update P2, dated March, allows two items for seven days from April; a community post
+      P3, dated February, says returns are monthly. Treat these as fictional documents, not real service
+      rules.'
+    actions:
+    - title: Plan a search that can find more than the expected answer
+      instructions: Break the question into eligibility, item limit, loan period and exceptions. Search
+        the service’s own policy or official contact route first, then an appropriate expert explanation
+        and a community perspective if useful. Record title, author or issuing body, date and where the
+        source can be found. In the offline case, identify which of P1, P2 and P3 is primary authority
+        and which is commentary.
+      checks:
+      - The research question is divided into answerable subquestions
+      - A primary source is sought rather than only a summary
+      - At least one alternate perspective or interpretation is considered
+      - Source title issuer date and locator are recorded
+    - title: Compare claims and preserve unresolved discrepancies
+      instructions: Create one row per subquestion and attach the supporting source code. Compare publication
+        date with effective date; in the default, the March update changes the item limit only from April
+        and leaves the seven-day period unchanged. Do not average conflicting claims or assume the newest
+        social post overrides policy. Mark any missing eligibility or exception information unknown and
+        identify the exact clarification needed.
+      checks:
+      - Each factual claim points to a source code
+      - Publication and effective dates are distinguished
+      - Conflicting information is resolved by relevant authority and context
+      - Unanswered subquestions are not silently filled in
+    - title: Write and audit a concise answer
+      instructions: Write a short answer that separates confirmed rules, interpretation and unknowns.
+        For the offline case, say that the two-item limit begins in April while the official seven-day
+        period remains; eligibility is not supplied. Reopen every cited source or recheck the fictional
+        excerpts to ensure the wording is supported. Add the date checked and one question for the service
+        before anyone acts on an unresolved exception.
+      checks:
+      - The summary distinguishes facts interpretation and unknowns
+      - Every material claim survives a source recheck
+      - The answer includes its checking date and scope
+      - One unresolved issue has a concrete clarification route
+    adaptation: Use a librarian, screen reader, printed policy or accessible official phone channel. Keep
+      the same source-to-claim trace when using AI to summarize; generated citations must be checked directly.
+      The offline case is research rehearsal, not advice about an actual service.
+    review: Could another reader follow your source trail and discover the same limitation without trusting
+      your confidence or writing style?
+    examples:
+      supportive: The researcher used the official effective date, retained the seven-day rule and explicitly
+        left eligibility unanswered.
+      mixed: The answer was broadly right but one claim lacked a source locator or confused publication
+        with effective date.
+      contradictory: A community post or fabricated citation was presented as authoritative policy without
+        verification.
+      inconclusive: Several links were collected but no claim-by-claim answer or provenance check was
+        produced.
+  '10.05':
+    title: Create a note that can solve a later problem
+    goal: Capture, compress, connect and retrieve a small piece of knowledge, then revise the note after
+      attempting to use it on a new task.
+    scope_note: This tests a minimal knowledge system, not a requirement to build a large archive or adopt
+      a particular application. Stored volume is not evidence of learning or usefulness.
+    burden: Twenty minutes to make one note and fifteen minutes to retrieve and apply it several days
+      later.
+    setup: 'Use one paper card or a local note titled Comparing averages. Source material: mean is sum
+      divided by count; median is the middle sorted value; extreme values can separate them. Example 1,
+      2, 9 has mean 4 and median 2. Keep a source label, one worked example, a connection and a retrieval
+      cue.'
+    actions:
+    - title: Capture only enough to answer a future question
+      instructions: 'Write the note in your own words with the title, source label, two definitions and
+        worked example. Add a future-use question: Which summary is less pulled by one extreme observation?
+        Keep only information that helps answer it; do not copy a whole article or add a complex tag hierarchy.
+        Make the title understandable without remembering the original learning session.'
+      checks:
+      - The note has a findable descriptive title
+      - Definitions and example are compressed accurately
+      - The source can be identified
+      - A concrete future-use question guides what is retained
+    - title: Connect the note to one existing task and test retrieval
+      instructions: Link the note to an actual place you would look when comparing durations, such as
+        a small index under planning estimates. Close it and find it again using only the title or index,
+        then explain the example without rereading every sentence. If retrieval requires remembering an
+        obscure filename, rename it or simplify the index rather than adding more organization.
+      checks:
+      - One meaningful task connection is explicit
+      - The note is found through its intended retrieval route
+      - The connection is not merely an unexplained tag
+      - A discovered retrieval barrier is corrected
+    - title: Use it on a new problem and revise its weak point
+      instructions: 'Several days later, locate the note and compare 2, 3, 4, 5 and 16: mean is 6 and
+        median is 4. Explain what each summary would communicate in a rough planning context and what
+        additional spread information is missing. Add only the correction or limitation that would have
+        helped, and record the actual retrieval delay. The goal is successful reuse, not preserving the
+        note unchanged.'
+      checks:
+      - A delayed retrieval is attempted
+      - A new problem is solved using the note
+      - The note’s limitation is identified during use
+      - A specific revision improves future retrieval or application
+    adaptation: Use an audio note, large print, a tactile index or a single accessible document. External
+      supports are legitimate; distinguish finding a note from unaided recall. Use non-sensitive examples
+      and avoid automatically syncing confidential material.
+    review: What did the later task reveal that your original note captured poorly or made hard to find?
+    examples:
+      supportive: The note was retrieved through a simple planning index, used on a new dataset and amended
+        to include a spread warning.
+      mixed: The information was accurate but buried under an unhelpful title, so retrieval required rebuilding
+        the index.
+      contradictory: A large copied archive was called knowledge despite no source control, retrieval
+        test or use.
+      inconclusive: The note was formatted and tagged but never found again or applied to another problem.
+  '10.06':
+    title: Recall a short sequence with cues and a delayed check
+    goal: Use manageable chunks, meaningful cues and spaced recall to remember a short sequence while
+      distinguishing memory practice from unsupported claims about general working-memory capacity.
+    scope_note: This practices one memory target. It is not cognitive diagnosis, rehabilitation or a promise
+      that training a sequence increases intelligence or general memory ability.
+    burden: Ten minutes to encode, five minutes after a short break, and ten minutes the next day.
+    setup: 'Memorize this fictional visitor sequence: enter at the west door; check in at the desk; collect
+      a purple pass; go to room four; return the pass to the blue box; leave by the same door. Use six
+      cards or one accessible recording. No real security procedure or private information is involved.'
+    actions:
+    - title: Chunk and cue the sequence without overloading it
+      instructions: Group the six steps into arrival, visit and departure, with two actions in each. Make
+        one simple story or mental route linking west door, desk, purple pass, room four and blue box.
+        Read or hear the sequence once, then explain the three chunks. Use an external cue card when needed;
+        the purpose is a workable memory aid, not forcing a fixed span without support.
+      checks:
+      - The six steps are grouped into meaningful chunks
+      - A concrete mnemonic or route connects the items
+      - The original order is checked for accuracy
+      - Support is allowed rather than treated as a failure
+    - title: Retrieve after a break and correct the exact error
+      instructions: After a short unrelated activity, recall the sequence without seeing the complete
+        reference. Mark each step unaided, recalled with a cue or looked up. Check the original and correct
+        an omitted location, color or order using a more distinct cue. Do not restart repeatedly until
+        a lucky perfect run can be presented as the first attempt.
+      checks:
+      - A recall attempt follows a real break
+      - Unaided cued and looked-up items are separated
+      - The error is checked against the original sequence
+      - The cue is revised for a specific omission or order error
+    - title: Review after a day and test a modest variation
+      instructions: The next day, recall the original sequence before looking. Then explain how you would
+        update the aid if the room changed from four to six while every other step stayed the same. Keep
+        old and new versions distinct so an outdated cue is not silently reused. Choose a further review
+        interval based on the actual errors and the importance of remembering, without inferring broad
+        memory improvement.
+      checks:
+      - A next-day recall is recorded with its actual delay
+      - Original and revised sequence versions are distinguished
+      - A changed detail is incorporated without scrambling the order
+      - The next review follows observed errors rather than streak pressure
+    adaptation: Use spoken, visual or tactile cues and fewer items per chunk. Never practice by withholding
+      a necessary real-world safety aid or medication reminder. New or concerning memory changes warrant
+      appropriate evaluation rather than self-testing through this exercise.
+    review: Did the cue help you retrieve the information, or only make it feel familiar when you saw
+      it again?
+    examples:
+      supportive: The learner recalled five steps unaided, used a cue for the return box and revised that
+        cue before the next-day check.
+      mixed: The route was remembered but a changed room number revealed interference from the older version.
+      contradictory: A necessary safety reminder was removed to test memory, or success on the sequence
+        was claimed as a general intelligence gain.
+      inconclusive: The sequence was recognized on the page but never recalled after a delay.
+  '10.07':
+    title: Break a complex skill into prerequisites and an integration test
+    goal: Build a small learning path with dependencies, component exercises, measurable milestones and
+      one attempt that reconnects the parts.
+    scope_note: This designs and pilots a path for a harmless beginner skill. It does not establish expertise,
+      authorize regulated work or assume that every component can be learned independently.
+    burden: Thirty minutes to map the skill and two fifteen-minute practice periods.
+    setup: 'Default skill: give a clear three-minute explanation of how to organize five labeled paper
+      folders. Components are choosing the audience’s goal, ordering steps, demonstrating one example,
+      checking understanding and staying within time. Materials are five paper labels, a page and an optional
+      timer; speaking can be replaced with an accessible written demonstration.'
+    actions:
+    - title: Map the output and the dependencies that make it possible
+      instructions: 'Define done as a listener or reader being able to file a new labeled slip correctly.
+        Put the five components on cards and connect prerequisites: the filing rule must be clear before
+        a demonstration can illustrate it; a check question must match the taught rule. Mark one component
+        you can already perform and one that needs work. Do not equate familiarity with having demonstrated
+        it.'
+      checks:
+      - The final skill has an observable success condition
+      - Prerequisites and dependent components are connected
+      - Current ability is distinguished from untested confidence
+      - One weak component is selected for initial work
+    - title: Create a progression with supplied component exercises
+      instructions: 'Use three milestones: write a four-step sequence with no missing object or location;
+        demonstrate it on one slip without skipping a step; then ask a new filing question and correct
+        one confusion. Attempt the first weak milestone now and compare it with the stated criterion.
+        Increase complexity only after the criterion is met, or reduce the component while keeping its
+        purpose when it is not.'
+      checks:
+      - Each milestone has an observable criterion
+      - At least one component exercise is attempted
+      - Progression follows demonstrated performance
+      - A failed milestone leads to a smaller or revised exercise
+    - title: Run one integration attempt and find the broken handoff
+      instructions: Combine the components into a three-minute explanation or equivalent short written
+        guide. Use a willing adult learner when available; otherwise follow the guide literally yourself
+        and label the check self-review. Test a new slip, note where the sequence or explanation failed,
+        and move that weakness back into the learning path. Finishing each component separately is not
+        assumed to prove that they work together.
+      checks:
+      - The components are recombined in an actual attempt
+      - A new example tests more than memorized wording
+      - Learner feedback and self-review are distinguished
+      - An integration failure changes the next practice step
+    adaptation: Use written, signed, visual or AAC-supported explanation and an untimed version when timing
+      is not part of the real skill. A willing reviewer is optional, but independent learner success must
+      not be claimed from self-review.
+    review: Which component looked adequate alone but failed when connected to the rest, and what prerequisite
+      did that reveal?
+    examples:
+      supportive: The learner’s new-slip error exposed an ambiguous category rule, so that rule was practiced
+        before repeating the full explanation.
+      mixed: All milestones were listed, but the first integration attempt showed that their handoffs
+        had not been tested.
+      contradictory: A checklist of component completion was represented as broad competence without an
+        integration attempt.
+      inconclusive: A long course list was created without dependencies, measurable milestones or a task
+        that could start immediately.
+  '10.08':
+    title: Expose one error early and change the work from the feedback
+    goal: Use a test, model or willing reviewer to reveal a specific weakness, make one targeted correction
+      and verify whether the correction actually helps.
+    scope_note: This tests an error-correction loop, not the learner’s character. Feedback is useful only
+      insofar as it is relevant, understandable and connected to a real standard.
+    burden: Fifteen minutes to prepare a short instruction, ten minutes to test it and fifteen minutes
+      for revision and retest.
+    setup: 'Default instruction to improve: put the blue slip in the correct folder and leave the rest
+      there. Supply three folders labeled Today, Later and Reference, a blue slip labeled due today and
+      two unmarked slips. The intended result is the blue slip in Today and the unmarked slips beside
+      the folders. Use synthetic paper only.'
+    actions:
+    - title: Define the result and invite a test before polishing
+      instructions: Write the intended result separately from the instruction. Give the instruction to
+        a willing adult or follow it literally yourself without filling in hidden assumptions. Observe
+        which object, location or sequence is ambiguous. Ask where did the instruction leave you uncertain,
+        not did you like it. Keep the first version so the feedback can be tied to an actual failure.
+      checks:
+      - The intended result is explicit before the test
+      - The first version is preserved
+      - A literal test or freely consented review occurs
+      - Feedback identifies an object location or sequence problem
+    - title: Turn the feedback into one precise correction
+      instructions: Compare the observed result with the intended one. Select the most consequential error,
+        such as correct folder failing to name Today, and rewrite that sentence to specify the action
+        and destination. Do not change unrelated formatting just to feel productive. If feedback conflicts,
+        ask which interpretation the instructions actually support and choose a testable correction rather
+        than deferring automatically to the most confident reviewer.
+      checks:
+      - The error is linked to a stated standard
+      - One correction targets the identified cause
+      - Unrelated polishing is separated from error correction
+      - Conflicting feedback is resolved with a checkable interpretation
+    - title: Retest with a comparable new example
+      instructions: Use a green slip labeled due today or another equivalent synthetic item. Ask the same
+        literal test of the revised instruction and check whether the intended destination is now unambiguous.
+        Record what improved and what remains unclear, including where the rest should be placed. Decide
+        whether the correction solved the specific failure or simply changed it, and preserve the revision
+        that future users would receive.
+      checks:
+      - A comparable new example is tested
+      - The revised instruction is checked against the original goal
+      - Remaining errors are retained
+      - The final version reflects observed feedback rather than approval alone
+    adaptation: Use pictures, tactile labels, accessible text or a spoken procedure. Self-review is legitimate
+      but should not be described as independent user testing. Keep reviewers free to decline and avoid
+      public criticism or protected workplace material.
+    review: What changed because of the feedback that would not have changed through more time polishing
+      alone?
+    examples:
+      supportive: A literal test exposed the unnamed destination; the revised instruction worked on a
+        new slip and the final guide also clarified where unused slips belonged.
+      mixed: The correction addressed one ambiguity but a different missing location remained in the retest.
+      contradictory: The reviewer was blamed for misunderstanding, or positive feedback was collected
+        without checking the intended result.
+      inconclusive: Feedback was received but no targeted change or retest followed.
+  '10.09':
+    title: Enter an unfamiliar topic and produce a checked first result
+    goal: Build a small independent learning plan, use references and help selectively, and produce an
+      initial artifact that can be checked against a clear standard.
+    scope_note: This is beginner resourcefulness, not a claim of expertise or a reason to avoid appropriate
+      instruction. Safe use of experts and documentation is part of independence.
+    burden: Forty-five minutes for a first attempt and fifteen minutes for a correction or extension.
+    setup: 'Default unfamiliar topic: three-bit binary numbers. Supplied reference: the left, middle and
+      right places are worth 4, 2 and 1; a 1 includes the place value and a 0 omits it. Thus 101 means
+      4 plus 1, or 5. Target artifact: a checked table for decimal 0 through 7. Use paper or a plain text
+      editor.'
+    actions:
+    - title: State the outcome and locate the minimum prerequisites
+      instructions: 'Write what the table must contain and identify the two prerequisites: place value
+        and adding selected weights. Read the supplied reference, attempt 010 and 111, and mark what is
+        unclear before seeking more material. Make a three-step plan: generate the table, verify every
+        row, explain one unfamiliar row. Avoid gathering a long resource list instead of attempting the
+        topic.'
+      checks:
+      - The first artifact has a concrete completion standard
+      - Prerequisites are separated from advanced topics
+      - An initial attempt reveals an actual question
+      - The plan is short enough to execute now
+    - title: Construct the artifact and ask a targeted question when stuck
+      instructions: Build rows from 000 through 111 and calculate each weighted sum. Check that the decimal
+        values are exactly 0, 1, 2, 3, 4, 5, 6 and 7 with no duplicate or missing value. When an error
+        appears, ask a precise question such as why does 011 equal 3 rather than 11. Use the reference
+        or a willing knowledgeable person, then record the explanation that resolves that specific obstacle.
+      checks:
+      - A complete first table is produced
+      - Every row is checked rather than spot-approved
+      - A help request targets a specific obstacle
+      - The answer is used to correct the artifact
+    - title: Explain the result and test a limited extension
+      instructions: Without copying the reference, explain 110 as 4 plus 2. Then predict how a fourth
+        place with value 8 would represent 9, and verify 1001 by adding its included values. State what
+        you now understand and what remains outside the exercise, such as signed values or computer encodings.
+        Choose the next small learning question only after preserving the checked first result.
+      checks:
+      - The learner explains a row in their own words
+      - A new four-place example is attempted and checked
+      - Known and unlearned material are distinguished
+      - The next question follows demonstrated initial work
+    adaptation: Use physical counters, large-print place values or audio explanation. An experienced learner
+      may use the extension as the initial target and explain why 1111 is 15. Do not practice independent
+      learning on hazardous or regulated tasks without required supervision.
+    review: Where did independent effort help, and where did a precise question or reference prevent wasted
+      effort?
+    examples:
+      supportive: The learner built and checked all eight rows, corrected a place-value error and explained
+        1001 without treating that success as knowledge of all computing.
+      mixed: The table was completed, but the extension exposed reliance on memorized patterns rather
+        than place value.
+      contradictory: The learner refused useful help or copied an unchecked answer while claiming independent
+        understanding.
+      inconclusive: Many resources were saved but no first artifact, correction or explanation was produced.
+  '10.10':
+    title: Teach a small idea and let the learner’s application test the explanation
+    goal: Adapt language, examples, sequence and practice to another person’s starting knowledge, then
+      revise the explanation based on what they can actually do.
+    scope_note: A willing learner’s new application is evidence about this explanation, not a judgment
+      of their intelligence. Self-rehearsal is preparation and does not prove teaching success.
+    burden: Ten minutes to prepare, a fifteen-minute willing learning session and ten minutes to revise.
+    setup: 'Default lesson: locate a cell on a three-by-three grid. Label columns A, B, C from left to
+      right and rows 1, 2, 3 from bottom to top. The learner should find B2, then an unmodeled cell such
+      as A3. Use paper, tactile squares or accessible row-and-column descriptions. Invite an adult who
+      is willing to try; do not recruit a dependent person under pressure.'
+    actions:
+    - title: Check starting knowledge and choose a usable representation
+      instructions: Ask whether the learner already uses letter–number coordinates and what format is
+        accessible. State the goal as locating a new cell, not repeating a definition. Prepare one worked
+        example, B2, and one contrasting example, B3, so the row difference is visible. Choose ordinary
+        language for column and row and ask permission to continue before launching into a long explanation.
+      checks:
+      - The learner’s starting knowledge and access needs are asked
+      - The goal is an observable application
+      - A worked and contrasting example are prepared
+      - Participation and pacing remain voluntary
+    - title: Explain briefly and give the learner the next move
+      instructions: Demonstrate B2 by finding column B and then row 2. Ask the learner to locate A3 without
+        pointing to the answer or saying yes before they commit. Invite them to describe the step that
+        felt uncertain. Distinguish a language, layout or prior-knowledge barrier from a failure to understand
+        the coordinate rule; do not infer the cause from one mistake.
+      checks:
+      - The explanation uses a clear ordered demonstration
+      - The learner attempts an unmodeled example
+      - Prompts do not give away the answer
+      - Observed difficulty is explored without labeling the learner
+    - title: Revise the explanation and test another new example
+      instructions: Change the part linked to the confusion, such as explicitly naming the bottom row
+        as 1 or using a tactile reference edge. Have the learner locate C1 and explain how they found
+        it. Record whether the revised instruction helped, what support was used and what remains unclear.
+        With no willing learner, rehearse both versions and mark learner application untested rather than
+        inventing a successful student.
+      checks:
+      - The revision addresses an observed barrier
+      - A second new example tests the revised explanation
+      - Support and remaining confusion are recorded
+      - Rehearsal is not substituted for another person’s application
+    adaptation: Use speech, sign, AAC, tactile grids or enlarged text according to the learner’s preference.
+      Remove unnecessary speed demands while keeping the coordinate task. Protect privacy and never record
+      a learner without clear permission.
+    review: What did the learner’s attempt reveal about your explanation that their polite agreement did
+      not?
+    examples:
+      supportive: A row-origin confusion led to a clearer reference edge, and the learner then located
+        C1 independently using the agreed support.
+      mixed: The learner repeated the example correctly but still needed answer-revealing hints on a new
+        cell.
+      contradictory: Confusion was treated as a character flaw, or consent and access needs were ignored
+        to finish the lesson.
+      inconclusive: The explanation was delivered but no unmodeled application or responsive revision
+        was attempted.
+  '10.11':
+    title: Connect seven fields around one ordinary public-space question
+    goal: Use foundational questions from several disciplines, investigate two connections and mark the
+      boundary between useful breadth and genuine subject expertise.
+    scope_note: The seven-lens map is a product-authored learning device. It is not a complete account
+      of any discipline or permission to make professional claims outside your knowledge.
+    burden: Twenty minutes for the map, thirty minutes for two source checks and ten minutes for synthesis.
+    setup: 'Question: how should a small public waiting area be improved? Use seven lenses: science asks
+      what can be measured; history asks what changed and why; technology asks how a designed system works;
+      economics asks about scarce resources and tradeoffs; humanities asks about meaning and justified
+      values; arts asks how form shapes experience; society asks who participates and who decides. Use
+      a fictional waiting area when no safe public case is available.'
+    actions:
+    - title: Generate one concrete question from each lens
+      instructions: 'Apply the seven supplied definitions to the waiting area: measure shade or noise;
+        trace a past relocation; inspect the information display; compare maintenance tradeoffs; examine
+        dignity and fairness; consider legibility and atmosphere; identify whose access needs are unheard.
+        State what kind of evidence each field would need. Do not use a discipline’s name as a substitute
+        for an actual question.'
+      checks:
+      - All seven fields receive a concrete question
+      - Each question names a relevant kind of evidence
+      - At least one value question is distinguished from a measurement
+      - The map does not claim expertise from terminology alone
+    - title: Investigate two connected questions with traceable evidence
+      instructions: 'Choose two lenses that affect the same decision, such as display technology and access.
+        Consult a public specification, historical record, scholarly introduction or experienced professional
+        appropriate to each. Offline alternative: use these fictional records—display D1 requires reading
+        small print; user test U1 reports that two willing readers could not identify the route number
+        at the intended distance. Explain what the pair supports and what it leaves unknown about other
+        users or designs.'
+      checks:
+      - Two distinct lenses receive actual evidence checks
+      - Sources or fictional records are identified
+      - The connection affects a concrete decision
+      - Small or synthetic evidence is not generalized to a whole population
+    - title: Write a synthesis that keeps disciplinary limits visible
+      instructions: Explain one insight gained by connecting the two fields and one tension that remains,
+        such as a visually attractive display that is difficult to read. Name the five lenses not investigated
+        beyond the initial map and the expert or source needed before a consequential decision. Propose
+        one small next learning step rather than claiming that interdisciplinary vocabulary has solved
+        the waiting area.
+      checks:
+      - The synthesis contains a genuine cross-field connection
+      - A tradeoff or disagreement remains explicit
+      - Uninvestigated lenses are honestly identified
+      - The next step names an appropriate source or expertise
+    adaptation: Use a spoken mind map, cards or the fictional records. A library or accessible introductory
+      resource can replace internet access. Do not photograph or profile public-space users without appropriate
+      consent.
+    review: Which connection improved the question, and where would confidence now exceed the depth of
+      your actual study?
+    examples:
+      supportive: The learner connected display design with readable access, identified a meaningful tradeoff
+        and kept unstudied historical and economic questions open.
+      mixed: Seven lenses were named and two sources read, but the synthesis did not explain how one field
+        changed the other’s question.
+      contradictory: A superficial overview was presented as authority over specialists or affected users.
+      inconclusive: Interesting facts were collected from different fields without a shared question,
+        traceable evidence or limits.
+  '10.12':
+    title: Learn one tacit adjustment from a willing skilled person
+    goal: Observe a safe skill, imitate it, obtain correction on an otherwise hidden judgment and repeat
+      with that correction in view.
+    scope_note: This is a small apprenticeship encounter, not professional qualification. Written steps
+      or a video can prepare observation, but they are not live guided correction or community membership.
+    burden: A voluntary twenty-to-thirty-minute demonstration and practice, followed by ten minutes to
+      record the learned adjustment.
+    setup: 'Default skill: tie and release an ordinary shoelace-style bow in loose cord lying on a table.
+      Use no body, load-bearing line, animal, machinery or safety function. Ask a willing person who already
+      does this comfortably to demonstrate slowly and watch one attempt. When hand movement is inaccessible,
+      use an equally low-risk skill selected with the teacher, such as arranging a simple visual layout.'
+    actions:
+    - title: Observe the judgment that a written sequence leaves out
+      instructions: Agree on the safe task and permission to ask questions. Watch one normal demonstration
+        and one slower pass. Ask what the teacher notices about loop size, tension and when to stop pulling;
+        distinguish those judgments from merely naming the next hand movement. Do not film without permission.
+        Identify one cue that you would have missed from reading a sequence alone.
+      checks:
+      - The task and teacher participation are freely agreed
+      - Both normal and slowed demonstrations are observed
+      - A question elicits a judgment cue rather than only a step
+      - Recording and privacy boundaries are respected
+    - title: Imitate once and invite a specific correction
+      instructions: Attempt the bow with loose cord on the table while the teacher observes. Ask for one
+        correction tied to the agreed cue, such as keeping the loops similar in size before tightening.
+        Repeat the cue back in your own words and ask whether that matches the teacher’s meaning. Stop
+        if the method causes strain or the task moves beyond the safe setup; correction never requires
+        humiliation.
+      checks:
+      - A real imitation attempt occurs
+      - The correction concerns a specific observable cue
+      - The learner checks their understanding of the correction
+      - The teacher’s authority does not override safety or dignity
+    - title: Repeat with the correction and identify the remaining dependence
+      instructions: Make another attempt using the cue, then release the bow to check that it functions
+        for this harmless purpose. Ask what still needs practice and what circumstances would require
+        a different method. Record the cue, one mistake and the improvement in a private learning note
+        with the teacher’s permission. Without a willing teacher, use a lawful recorded demonstration
+        and label guided feedback untested.
+      checks:
+      - The corrected attempt is actually performed
+      - The task’s harmless functional check is completed
+      - Remaining dependence and context limits are named
+      - Recorded observation is not claimed as live guided feedback
+    adaptation: Choose an accessible low-risk skill with the teacher, allow assistive methods and shorten
+      the session. Defer when no willing skilled person or suitable task is available. Never turn this
+      exercise into rope restraint, climbing, rescue or load-bearing knot practice.
+    review: What judgment did the teacher make visible that the written steps did not, and when do you
+      still need their correction?
+    examples:
+      supportive: The learner noticed loop tension through demonstration, corrected it after feedback
+        and could explain the cue while acknowledging further practice was needed.
+      mixed: The imitation improved, but the learner could not yet recognize the cue without the teacher’s
+        prompt.
+      contradictory: Authority was used to shame the learner or a harmless table task was escalated into
+        a safety-critical application.
+      inconclusive: A tutorial was watched and described as apprenticeship despite no imitation or clearly
+        labeled feedback limitation.
+  '10.13':
+    title: Preserve a piece of lived knowledge with its holder’s permission
+    goal: Document or teach one practical story, procedure or tradition through a relationship, verify
+      it with an experienced holder and preserve the agreed limits on sharing.
+    scope_note: This preserves one contribution to communal memory. It does not make the participant the
+      owner of another person’s knowledge or authorize disclosure of sacred, private, restricted or commercially
+      protected material.
+    burden: Ten minutes to agree scope, a twenty-minute demonstration or conversation, and fifteen minutes
+      for a verified revision.
+    setup: 'Default: ask a willing experienced person how a small group welcomes a new member or hands
+      over a shared task. Use a page with purpose, steps, reasons, exceptions, source holder and sharing
+      permission. The holder may choose a different ordinary practice or decline. Do not request family
+      secrets, protected work procedures or cultural knowledge they are not authorized to share.'
+    actions:
+    - title: Agree what may be learned recorded and passed on
+      instructions: Explain that you want to prevent one useful practice from being lost. Ask what may
+        be written, whether attribution is wanted, who may receive it and what should remain unrecorded.
+        Identify the holder’s relationship to the practice without assuming that age or status alone guarantees
+        accuracy. Agree on a small scope, such as the first ten minutes of welcoming a newcomer.
+      checks:
+      - The holder freely chooses the scope
+      - Recording attribution and sharing permissions are explicit
+      - Restricted or private knowledge is excluded
+      - The holder’s experience is described without treating status as infallible
+    - title: Learn through a demonstration or concrete story
+      instructions: Ask the holder to walk through an actual or fictionalized example. Record not just
+        what happens but why a step matters, what changes with context and which mistake a newcomer commonly
+        makes. Participate in a safe demonstration when invited. Distinguish remembered fact, personal
+        interpretation and a version that differs across families or groups; do not flatten variation
+        into a single official tradition.
+      checks:
+      - A concrete example or demonstration is obtained
+      - Reasons exceptions and a common mistake are captured
+      - Observation and interpretation remain distinguishable
+      - Legitimate variation is preserved
+    - title: Return the record for correction and make an agreed handoff
+      instructions: Show or read the concise draft back to the holder. Ask what is inaccurate, missing,
+        too private or overgeneralized, then revise it before sharing. Preserve only the attribution and
+        audience permission they approved. Teach or hand the final version to a willing intended recipient
+        when authorized, or store it where agreed with a review date. An unverified draft is not presented
+        as the holder’s endorsed account.
+      checks:
+      - The holder reviews the draft for accuracy and permission
+      - Corrections are incorporated before any handoff
+      - The final audience and attribution match consent
+      - Unverified material is not represented as endorsed communal knowledge
+    adaptation: Use audio only with permission, a large-print draft, an interpreter or a jointly drawn
+      sequence. A public archive can support source study when no holder is available, but it does not
+      supply personal permission or verification that did not occur.
+    review: What would have been lost in a bare checklist, and what does your permission agreement forbid
+      you from passing on?
+    examples:
+      supportive: A welcoming practice was documented with its reasons, corrected by the experienced holder
+        and shared only with the agreed volunteer team.
+      mixed: The steps were accurate, but a contextual exception or sharing restriction required another
+        revision.
+      contradictory: Private or restricted knowledge was published without permission, or one person’s
+        memory was treated as the only legitimate version.
+      inconclusive: A story was copied without a holder’s scope agreement, verification or permitted destination.
+  '10.14':
+    title: Remove a learning barrier while keeping the real standard
+    goal: Adapt pace, medium, environment or response method to a learner’s stated needs, then check whether
+      the underlying skill is more accessible without changing what the skill means.
+    scope_note: This is an access-focused teaching trial, not diagnosis or proof of a fixed learning style.
+      One person’s preferred adaptation should not be generalized to everyone with a similar label.
+    burden: Ten minutes to agree the goal and barrier, two short attempts and fifteen minutes to compare.
+    setup: 'Default task: follow a three-step route on a paper grid from A1 to A2 to B2. The learning
+      goal is interpreting ordered route instructions, not reading tiny print, speaking quickly or using
+      a particular hand. Invite a willing adult to identify an unnecessary barrier, or examine a barrier
+      you personally encounter. Use large print, tactile markers, audio or a slower presentation as appropriate.'
+    actions:
+    - title: Separate the skill from the barrier around it
+      instructions: 'State the skill criterion: follow the sequence to the correct destination and explain
+        the order. Ask what makes the instruction hard to access—language, visual size, pace, noise, working
+        load or response format. Do not infer a diagnosis. Identify which demand is essential to the skill
+        and which is incidental, such as tiny type or a speed limit that the task does not require.'
+      checks:
+      - The underlying skill has a clear criterion
+      - The learner identifies or confirms the barrier
+      - Essential and incidental demands are separated
+      - No diagnosis or fixed learning-style label is assigned
+    - title: Change one access condition and attempt the same kind of task
+      instructions: Agree on one adaptation, such as presenting each direction as an audio step with a
+        repeat option. Keep route complexity and the success criterion comparable; preserve other established
+        supports. Use a new route of the same length and ask the learner to attempt it without answer-revealing
+        hints. Record whether the change reduced the identified barrier and whether it created a different
+        one.
+      checks:
+      - The adaptation is chosen with the learner
+      - The skill standard and route complexity remain comparable
+      - A real adapted attempt occurs
+      - New barriers and support use are recorded
+    - title: Review access and learning as separate questions
+      instructions: Ask whether the instructions became usable and check the actual route result. A comfortable
+        experience may still reveal a concept error, while a correct result may still impose excessive
+        burden. Revise the teaching or adaptation accordingly and agree whether to keep it. Record the
+        specific learner and task boundary without collecting sensitive identity details or claiming population-wide
+        effectiveness.
+      checks:
+      - Usability and skill performance are reviewed separately
+      - The learner’s feedback informs the next version
+      - The retained adaptation has a specific reason
+      - One trial is not presented as a universal accessibility solution
+    adaptation: Use the learner’s chosen communication method and allow stopping without penalty. A self-test
+      is valid for your own access barrier but not an independent test with another learner. Seek qualified
+      educational or accessibility support for persistent or complex needs.
+    review: Which demand was an unnecessary barrier, and what evidence shows that the real skill—not a
+      lowered or different target—was practiced?
+    examples:
+      supportive: Larger tactile route markers removed a visual barrier while the learner still had to
+        interpret the same-length ordered route.
+      mixed: The material became easier to use, but a remaining sequence misunderstanding required a different
+        explanation.
+      contradictory: The standard was abandoned without acknowledgment, or a learner’s diagnosis was guessed
+        from one difficulty.
+      inconclusive: An adaptation was selected from a stereotype and declared effective without a learner
+        attempt or feedback.

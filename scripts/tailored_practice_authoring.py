@@ -5,14 +5,20 @@ from __future__ import annotations
 import copy
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Any
 
 import yaml
 from jsonschema import Draft202012Validator
 
-VERSION = "GG-TAILORED-PRACTICE-AUTHORING-1.0"
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from growth.domain.instructional_content import validate_instructional_content  # noqa: E402
+
+VERSION = "GG-TAILORED-PRACTICE-AUTHORING-1.0"
 SCHEMA = {
     "type": "object",
     "additionalProperties": False,
@@ -81,6 +87,7 @@ SCHEMA = {
                                 for key in ("supportive", "mixed", "contradictory", "inconclusive")
                             },
                         },
+                        "instructional_content": {"type": "object"},
                     },
                 },
             },
@@ -119,8 +126,9 @@ def load_exercises(root: Path = ROOT) -> dict[str, dict[str, Any]]:
     if set(expected_domains) - set(canonical_domains):
         raise ValueError("Unknown implemented authoring domain.")
     paths = sorted((root / "docs/authoring/exercises").glob("*.yaml"))
-    if {path.stem for path in paths} != set(expected_domains):
-        raise ValueError("Authoring files must exactly match declared implemented domains.")
+    source_domains = contract.get("source_domains", expected_domains)
+    if {path.stem for path in paths} != set(source_domains):
+        raise ValueError("Authoring files must exactly match declared source domains.")
     exercises = {}
     for path in paths:
         document = yaml.load(path.read_text(), Loader=UniqueKeyLoader)
@@ -131,6 +139,15 @@ def load_exercises(root: Path = ROOT) -> dict[str, dict[str, Any]]:
         if set(document["exercises"]) != expected:
             raise ValueError(f"{path.name}: missing or foreign canonical competency.")
         exercises.update(document["exercises"])
+    for cid, exercise in exercises.items():
+        if "instructional_content" in exercise:
+            validate_instructional_content(exercise["instructional_content"], cid)
+    selected = contract.get("implemented_competency_ids", list(exercises))
+    if len(selected) != len(set(selected)) or set(selected) - set(exercises):
+        raise ValueError("Missing or duplicate implemented competency ID.")
+    if set(selected) & set(contract["retained_legacy_competency_ids"]):
+        raise ValueError("Frozen runtime packages cannot be selected for rewrite.")
+    exercises = {cid: exercises[cid] for cid in selected}
     instructions = [
         re.sub(r"\W+", " ", action["instructions"]).lower().strip()
         for exercise in exercises.values()
@@ -158,6 +175,11 @@ def load_exercises(root: Path = ROOT) -> dict[str, dict[str, Any]]:
 def apply_exercise(protocol: dict, exercise: dict) -> dict:
     """Pure content projection. ID allocation and scoring math are never inputs."""
     result = copy.deepcopy(protocol)
+    if "instructional_content" in exercise:
+        validate_instructional_content(
+            exercise["instructional_content"], protocol["parent_competency_id"]
+        )
+        result["instructional_content"] = copy.deepcopy(exercise["instructional_content"])
     intervention = result["intervention"]
     intervention["protocol_class"] = exercise["protocol_family"]
     if len(intervention["actions"]) != len(exercise["actions"]):

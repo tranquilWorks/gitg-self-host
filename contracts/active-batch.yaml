@@ -1,96 +1,97 @@
 schema_version: 1
 batch:
-  id: M6J-04-VULNERABILITY-PRACTICES
-  title: Tailored vulnerability disability access and care practices
-  goal: Individually rewrite all 14 domain 06 practices with explicit canonical scope maps; retain the 77 previously authored practices and an exact inventory of 292 still pending.
+  id: M6K-RECOVERY-INSTRUCTIONAL-FOUNDATION
+  title: Recover the complete draft corpus and rebuild compatible instructional support
+  goal: Complete M6K-00-01/02; implement M6K-01-01 and prepare three related instructional-integrity repair
+    drafts without granting A/B/C acceptance.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
-    - docs/architecture/0018-tailored-competency-practices.md
-    - docs/PRODUCT_DECISIONS.md#decision-053
-    - docs/program/M6_CURRICULUM_EXPANSION.md
-  milestone: owner-directed-M6J-continuation
-  baseline_commit: b8188ab66bc129bb87d2ee8d3e6a617a46139788
+  - docs/plans/m6k/README.md
+  - docs/plans/m6k/MILESTONES.md
+  - docs/plans/m6k/REVIEW_RECORD.md
+  milestone: M6K-00 and M6K-01
+  baseline_commit: 8aaf3a27b2522e09c7796fb3ad256ce481eb7932
 dependencies:
-  - M6J-03-FOUNDATIONAL-PRACTICES
+- M6K-plan-PR-66
 scope:
   allowed_paths:
-    - AGENTS.md
-    - README.md
-    - MANIFEST.tsv
-    - contracts/**
-    - docs/**
-    - data/practices/protocols/06/**
-    - data/practices/registries/source_registry.yaml
-    - data/practices/registries/research_gap_registry.yaml
-    - data/practices/release_manifest.yaml
-    - reports/practice-content/**
-    - tests/**
+  - MANIFEST.tsv
+  - contracts/active-batch.yaml
+  - contracts/tailored-practice-authoring.yaml
+  - docs/**
+  - scripts/tailored_practice_authoring.py
+  - growth/domain/instructional_content.py
+  - growth/domain/practice_content.py
+  - growth/views_instructional.py
+  - growth/urls.py
+  - growth/templatetags/**
+  - templates/growth/**
+  - data/practices/schema/**
+  - data/practices/release_manifest.yaml
+  - reports/practice-content/**
+  - tests/**
   forbidden_paths:
-    - data/assessment/**
-    - data/model/**
-    - data/curriculum/**
-    - growth/models.py
-    - growth/migrations/**
-    - growth/domain/composite_scoring.py
-    - growth/services/composite_score_state.py
-    - growth/domain/context_priority.py
-    - growth/templates/**
-    - requirements*.txt
-    - pyproject.toml
-    - Dockerfile
-    - docker-compose.yml
-    - scripts/**
-    - templates/**
-    - .github/workflows/**
-    - data/practices/registries/activation_ledger.yaml
+  - data/assessment/**
+  - data/model/**
+  - data/curriculum/**
+  - data/practices/protocols/**
+  - data/practices/registries/activation_ledger.yaml
+  - growth/models.py
+  - growth/migrations/**
+  - growth/services/canonical_import.py
+  - growth/domain/composite_scoring.py
+  - growth/services/composite_score_state.py
+  - growth/domain/context_priority.py
+  - requirements*.txt
+  - pyproject.toml
+  - Dockerfile
+  - docker-compose.yml
+  - .github/workflows/**
 acceptance:
-  - All 14 domain 06 competencies have individually authored instructions aligned with canonical scope and an explicit bounded exercise goal.
-  - The other 369 practice packages remain byte-identical; exactly 91 authored and 292 rewrite-pending rows are reported.
-  - Each action supplies observable success criteria and a usable example without requiring the person to design a rubric or exercise.
-  - Prerequisites materials burden meaningful review and accessible equivalents are explicit.
-  - Simulation and preparation do not claim live performance or comprehensive mastery.
-  - Deferral N/A and unattempted actions do not satisfy completion.
-  - Sources support specific factual claims and do not imply validation of the product-authored exercise.
-  - Every canonical scope facet maps to concrete actions or an explicit legitimate pathway choice; a supplied rehearsal never claims live participation.
-  - The trauma literacy access and care-choice journeys show readable instructions setup and observations at desktop and mobile widths; retain all existing browser journeys and overflow assertions.
-  - No trauma exposure diagnosis treatment schedule legal authority assessment or forced independence is introduced; actual support plans preserve qualified care and the affected person's choices.
-  - All 383 protocol IDs 1151 action IDs parent mappings activation records assessment and scoring mathematics remain unchanged.
-  - Existing submitted events replay from their original snapshots and content import refuses to change active or paused practices.
-  - Every canonical competency receives an explicit authored-pending-review or rewrite-pending disposition; 13.02 retains its existing typed evidence fixtures and the five frozen legacy runtime packages remain byte-equivalent.
-  - ER-M6A-003 RG-M6A-002 and all specialist and empirical validation gates remain truthful and open.
+- All 383 original sources are recoverable by exact hashes and per-ID provenance.
+- All 383 protocol packages and 1151 action identities remain byte-identical to the pinned main.
+- Seven new per-ID quality dimensions remain pending until genuine current-revision evidence exists.
+- Instructional support supplies complete teaching/materials and separate explicit answer reveals; teaching
+  is unscored.
+- Active/paused imports and historical/retained/frozen evidence remain protected.
+- Prepared repairs are limited to 21.03, 10.01 and 10.02, grouped because they address missing materials,
+  leaked keys and internal metadata; their formal prerequisites remain pending.
+- Browser and hosted verification gaps remain visible; no unperformed human or qualified acceptance.
 validation:
   local:
-    - make full-frontier-check PYTHON=.venv/bin/python
-    - ./scripts/agent-verify.sh contract
-    - ./scripts/agent-verify.sh quick
-    - make practice-report-check PYTHON=.venv/bin/python
-    - make catalog-governance-audit-check PYTHON=.venv/bin/python
-    - make composite-scoring-catalog-check PYTHON=.venv/bin/python
-    - git diff --check
+  - make full-frontier-check PYTHON=.venv/bin/python
+  - ./scripts/agent-verify.sh contract
+  - ./scripts/agent-verify.sh quick
+  - make practice-report-check PYTHON=.venv/bin/python
+  - make catalog-governance-audit-check PYTHON=.venv/bin/python
+  - make composite-scoring-catalog-check PYTHON=.venv/bin/python
+  - git diff --check
   required_ci:
-    - Ruff Django pytest migration drift and manifest verification
-    - all readiness and canonical report gates
-    - Playwright core journeys
-    - Compose backup restore and recreation
-    - aggregate Pilot readiness gate
+  - Ruff Django pytest migration drift and manifest verification
+  - all readiness and canonical report gates
+  - Playwright core journeys
+  - Compose backup restore and recreation
+  - aggregate Pilot readiness gate
 risk:
   class: high
   hazards:
-    - noun-swapped content is misrepresented as individually authored
-    - revised instructions invalidate an ongoing practice
-    - source support is overstated as specialist or empirical validation
-    - task completion is confused with mastery
+  - noun-swapped content is misrepresented as individually authored
+  - revised instructions invalidate an ongoing practice
+  - source support is overstated as specialist or empirical validation
+  - task completion is confused with mastery
   stop_conditions:
-    - historical event replay changes
-    - assessment or scoring mathematics changes
-    - any missing or generic exercise is hidden by the coverage report
-    - a required CI gate fails
+  - historical event replay changes
+  - assessment or scoring mathematics changes
+  - any missing or generic exercise is hidden by the coverage report
+  - a required CI gate fails
 rollback:
-  strategy: Revert the content release before import or restore the verified pre-upgrade backup; never reinterpret existing event snapshots.
+  strategy: Revert the content release before import or restore the verified pre-upgrade backup; never
+    reinterpret existing event snapshots.
 evidence:
   output:
-    - docs/evidence/M6J-04-VULNERABILITY-PRACTICES-2026-09-06.md
-    - exact per-competency content coverage and residual gaps
-    - exact local and hosted verification results
-  claim_boundary: Authored educational practices and software verification; no automatic human review or empirical validation acceptance.
+  - docs/evidence/M6K-RECOVERY-2026-09-08.md
+  - docs/plans/m6k/recovery/source-inventory.json
+  - docs/plans/m6k/recovery/runtime-invariants.json
+  claim_boundary: Authored educational practices and software verification; no automatic human review
+    or empirical validation acceptance.
