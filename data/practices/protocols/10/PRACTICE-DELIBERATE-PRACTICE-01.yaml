@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 1.0.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-DELIBERATE-PRACTICE-01
 slug: practice-one-weak-skill-component
-name: Practice One Weak Skill Component
+name: Improve one weak component with fixed criteria and one correction
 parent_competency_id: '10.02'
 domain_id: '10'
 governance:
@@ -17,8 +17,8 @@ governance:
   - SRC-M6D-DELIBERATE-PRACTICE
   - SRC-M6D-DELIBERATE-PRACTICE-LIMITS
   authoring:
-    provenance: Individually authored M6D-01 source package for competency 10.02; it is not projected
-      into the runtime.
+    provenance: M6J individually authored exercise for 10.02; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: pending
     safety_review_status: pending_specialist_expansion_review
@@ -37,10 +37,10 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: Isolate one observable weak component of a safe low-stakes skill, make a bounded baseline attempt,
-    apply criterion-based feedback, and retry once under comparable conditions.
-  why_recommended: The selected competency concerns structured work on a weak component through feedback
-    and repetition rather than equating time spent with improvement.
+  purpose: Isolate a safe skill component, record a bounded baseline, use criterion-based feedback and
+    retry under comparable conditions without equating time spent with improvement.
+  why_recommended: Isolate a safe skill component, record a bounded baseline, use criterion-based feedback
+    and retry under comparable conditions without equating time spent with improvement.
   claims:
   - statement: Practice designed around a specific component, informative feedback, and another attempt
       is a reasonable basis for this bounded skill-rehearsal protocol.
@@ -61,18 +61,25 @@ meaning_and_fit:
     coerced feedback?
   not_applicable_behavior: Mark not applicable or defer without penalty when the skill cannot be isolated
     or practiced safely and lawfully; ordinary novice performance and access needs do not imply deficit.
-  readiness_considerations: The participant must choose the skill, component, difficulty, feedback method,
-    and stop point, with enough familiarity to recognize a low-consequence rehearsal.
-  opportunity_considerations: Requires two 5-to-15-minute comparable attempts and one feedback pass within
-    14 days; real-world high-stakes performance is not required.
+  readiness_considerations: Use paper, slower pacing, an accessible input method, a model or a freely
+    consenting coach. Keep adaptations present in both attempts where possible. Exclude hazardous equipment,
+    driving, clinical rehabilitation, regulated practice and coerced public evaluation.
+  opportunity_considerations: Use a blank spreadsheet or the supplied paper route, with synthetic values
+    only. The learning guide supplies exact cell locations, four fixed criteria, a different worked example,
+    a baseline prompt, a comparable retry and separately revealed checks. Copy the private attempt record
+    first. Keep the two timed attempts at the same difficulty and with the same supports. No paid software,
+    coach or private data is needed.
   prerequisites:
-  - One user-chosen safe, lawful, low-stakes skill component with two to four observable criteria.
-  - A private self-review, automated non-sensitive indicator, model comparison, or freely consented reviewer
-    method.
+  - Use a blank spreadsheet or the supplied paper route, with synthetic values only. The learning guide
+    supplies exact cell locations, four fixed criteria, a different worked example, a baseline prompt,
+    a comparable retry and separately revealed checks. Copy the private attempt record first. Keep the
+    two timed attempts at the same difficulty and with the same supports. No paid software, coach or private
+    data is needed.
   dependencies: []
   safe_alternatives:
-  - Use a simulation, synthetic input, slowed rehearsal, smaller component, or self-review checklist.
-  - Defer until an accessible and non-coercive feedback method is available.
+  - Use paper, slower pacing, an accessible input method, a model or a freely consenting coach. Keep adaptations
+    present in both attempts where possible. Exclude hazardous equipment, driving, clinical rehabilitation,
+    regulated practice and coerced public evaluation.
   role_conditions:
   - Employment, licensure, coaching, education, and apprenticeship rules take precedence; this protocol
     must not authorize work beyond competence or supervision.
@@ -85,16 +92,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 14
-  cadence: Define one component, attempt it once, review against fixed criteria, then retry once at comparable
-    or reduced difficulty.
-  setup: Choose a low-stakes component such as one keyboard shortcut sequence, a short pronunciation contrast
-    in a language already being learned, one spreadsheet formula on synthetic data, or one craft motion
-    using safe materials. Define two to four observable criteria before attempting.
-  privacy_and_boundaries: Use synthetic or non-sensitive material. Evidence stores only criterion IDs,
-    bounded indicators, and minimal provenance—not recordings, artifact contents, prose, observer identity,
-    student or client data, or workplace material. Feedback may be self-generated and never requires another
-    person, public posting, humiliation, abusive instruction, or unlicensed practice.
-  expected_burden: About 45–60 minutes across design, two attempts, feedback, and review.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a blank spreadsheet or the supplied paper route, with synthetic values only. The learning
+    guide supplies exact cell locations, four fixed criteria, a different worked example, a baseline prompt,
+    a comparable retry and separately revealed checks. Copy the private attempt record first. Keep the
+    two timed attempts at the same difficulty and with the same supports. No paid software, coach or private
+    data is needed. Goal: Isolate a safe skill component, record a bounded baseline, use criterion-based
+    feedback and retry under comparable conditions without equating time spent with improvement. Scope:
+    Practice one safely bounded component using a fixed standard, a baseline attempt, specific feedback
+    and a comparable retry. The evidence concerns that component under the recorded conditions; it does
+    not establish mastery of a larger skill. Use the comparison to choose the next correction or a reason
+    to pause. Time and effort: About forty-five to sixty minutes across planning, two five-to-fifteen-minute
+    attempts and one feedback pass within fourteen days. Adaptation: Use paper, slower pacing, an accessible
+    input method, a model or a freely consenting coach. Keep adaptations present in both attempts where
+    possible. Exclude hazardous equipment, driving, clinical rehabilitation, regulated practice and coerced
+    public evaluation. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use paper, slower pacing, an accessible input method, a model or a freely consenting
+    coach. Keep adaptations present in both attempts where possible. Exclude hazardous equipment, driving,
+    clinical rehabilitation, regulated practice and coerced public evaluation.
+  expected_burden: About forty-five to sixty minutes across planning, two five-to-fifteen-minute attempts
+    and one feedback pass within fourteen days.
   action_count_rationale: null
   foreseeable_misuse:
   - Escalating difficulty through pain, danger, exhaustion, humiliation, or unauthorized professional
@@ -109,10 +129,20 @@ intervention:
   actions:
   - stable_id: PRACTICE-DELIBERATE-PRACTICE-01-A1
     sequence: 1
-    title: Define the weak component and fixed criteria
-    instructions: Select one observable component and write two to four allowlisted criterion labels for
-      a competent attempt. Choose a safe attempt length and difficulty that permits error without consequence.
-      Record the feedback method and privacy boundary, not skill content or personal narrative.
+    title: Define one component and fix its success criteria
+    instructions: 'Choose the supplied four-cell summation component. Read the guide’s method and contrasting
+      example, then copy criteria C1–C4 and the attempt record before opening Baseline. Choose a five-to-fifteen-minute
+      limit and a spreadsheet or paper route. In a spreadsheet the skill is selecting a live input range,
+      not typing a known total. On paper it is including exactly the intended addends and recalculating
+      after a change; automatic spreadsheet updating remains untested. If the method is already routine,
+      use the supplied harder-route plan for a future cycle instead of inventing errors or claiming this
+      is your weak component.
+
+
+      Observation checks: One observable component is selected; Two to four criteria are fixed before
+      the attempt; Difficulty time and feedback method are safely bounded; Synthetic material and a privacy
+      boundary are selected. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -148,10 +178,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-DELIBERATE-PRACTICE-01-A2
     sequence: 2
-    title: Make one bounded baseline attempt
-    instructions: Attempt only the selected component for the planned interval using synthetic or non-sensitive
-      material. Mark which predeclared criteria were observed and end at the time or safety boundary.
-      Do not increase difficulty mid-attempt or interpret error count as personal worth.
+    title: Make a baseline attempt without changing the target
+    instructions: 'Open Baseline and make one attempt within the chosen interval before revealing its
+      check. Preserve the original formula or written addition and the result before and after the input
+      change. Then check C1–C4 individually and record observed criteria divided by four, including zero
+      if none are observed. Keep the actual duration, aids and errors in the private attempt record. Stop
+      at the declared limit. Use only the application’s existing bounded indicators; do not paste spreadsheet
+      content or recordings into evidence.
+
+
+      Observation checks: A real bounded baseline attempt occurs; The observed fraction uses the fixed
+      criterion count; The attempt ends at its declared limit; Errors and support conditions remain visible.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.'
     expected_time: 10 minutes
     due_within_days: 6
     typed_evidence_identity:
@@ -196,11 +235,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-DELIBERATE-PRACTICE-01-A3
     sequence: 3
-    title: Select one feedback correction
-    instructions: Compare the baseline indicators with the criteria using the chosen private feedback
-      method. Select exactly one missed or unstable criterion and one concrete adjustment for the retry.
-      If another person offers feedback, participation must be voluntary and evidence must omit their
-      identity and words.
+    title: Select exactly one feedback correction
+    instructions: 'Use the Baseline check and diagnostic examples to identify one missed or unstable criterion
+      and one correction. For an omitted endpoint, trace the first and last selected input before accepting
+      the formula; for a typed total, replace it with a reference-based calculation and test an input
+      change. Keep other conditions fixed and record the chosen correction before retrying. If all criteria
+      were met, say so and test a preventive check without inventing weakness. A freely willing reviewer
+      may check the same criteria; keep their identity and comments private.
+
+
+      Observation checks: Feedback uses the criteria fixed in advance; One missed component and one adjustment
+      are selected; The retry condition is defined explicitly; Feedback is voluntary private and free
+      of humiliation. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 10 minutes
     due_within_days: 9
     typed_evidence_identity:
@@ -246,11 +293,44 @@ intervention:
         expected: true
   - stable_id: PRACTICE-DELIBERATE-PRACTICE-01-A4
     sequence: 4
-    title: Retry the component and compare
-    instructions: Repeat the same component once with the selected adjustment at comparable or lower safe
-      difficulty. Mark the same criteria and compare the two bounded attempts as improved, unchanged,
-      mixed, worse, or not comparable. Preserve evidence of no improvement or harm and do not add unplanned
-      repetitions.
+    title: Retry once and compare performance rather than effort
+    instructions: 'Open Comparable retry and use its new four-value dataset with the same criteria, time
+      limit, tool and supports, plus the one chosen correction. Keep the attempt before revealing the
+      retry check; record the observed fraction out of four and actual duration. Compare each criterion
+      with baseline, allowing improved, unchanged, worse, mixed or not comparable. Do not add repetitions
+      or raise difficulty within this retry. Only after reviewing the comparison, choose the guide’s concrete
+      next-cycle progression or a reason to pause. Improvement on this small component does not establish
+      transfer to a larger skill.
+
+
+      Observation checks: A comparable or easier retry is actually attempted; The same criterion denominator
+      is used both times; Unchanged worse and improved results are all permitted; The next progression
+      decision follows the observed performance. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Which criterion changed after the one correction, under what support conditions, and
+      what comparable attempt would help check whether that change lasts? If all four were already met,
+      report maintenance rather than improvement. Choose the next-cycle challenge only when the component
+      is controlled; time spent alone is not evidence of a skill gain.
+
+
+      Examples: Supportive: The baseline formula omitted the first input: C1 and C3 were not met, and
+      its changed-input result also failed C4. After an endpoint check, the comparable retry met all four
+      criteria. The private comparison is 1/4 to 4/4; it supports this small component under these conditions,
+      not general spreadsheet mastery.
+
+
+      Mixed: The retry improved, but changed support or easier material made the size of the skill change
+      uncertain.
+
+
+      Contradictory: Difficulty was escalated through pain or humiliation, or extra practice time was
+      represented as proof of competence.
+
+
+      Inconclusive: A practice plan and feedback opinion were recorded without a baseline and comparable
+      retry.'
     expected_time: 15 minutes
     due_within_days: 14
     typed_evidence_identity:
@@ -306,14 +386,16 @@ intervention:
     - Use a self-review checklist, freely available model, synthetic input, and two short attempts; paid
       coaching or specialized equipment is not required.
     accessibility:
-    - Reduce pace, repetition, sensory load, movement range, or component size; use assistive technology,
-      rest, alternative modalities, and guided support while preserving comparable criteria.
+    - Use paper, slower pacing, an accessible input method, a model or a freely consenting coach. Keep
+      adaptations present in both attempts where possible. Exclude hazardous equipment, driving, clinical
+      rehabilitation, regulated practice and coerced public evaluation.
     cultural_context:
     - Choose a skill and feedback style that respects the participant's community, role, learning tradition,
       consent norms, and authority without presuming competitive individual performance.
     resource_variants:
-    - If comparable feedback is unavailable, complete the plan and baseline as inconclusive and defer
-      the retry rather than inventing feedback.
+    - Use paper, slower pacing, an accessible input method, a model or a freely consenting coach. Keep
+      adaptations present in both attempts where possible. Exclude hazardous equipment, driving, clinical
+      rehabilitation, regulated practice and coerced public evaluation.
   pause_conditions:
   - Pause for pain, distress, fatigue, access barriers, unsafe equipment, unclear authorization, abusive
     instruction, or inability to keep attempts low consequence.
@@ -346,11 +428,8 @@ evidence_and_scoring:
   - retry_comparability
   - retry_harm_or_overpractice
   adverse_or_contradictory_indicators:
-  - Practice involved danger, pain escalation, unauthorized professional work, protected data, coercion,
-    humiliation, or abusive instruction.
-  - The feedback criteria changed after the baseline or the retry used a non-comparable task while claiming
-    improvement.
-  - Practice continued beyond the planned boundary or treated a worse result as a demand for more repetition.
+  - Difficulty was escalated through pain or humiliation, or extra practice time was represented as proof
+    of competence.
   independence_rule: Self-review, planning aids, models, guided instruction, and voluntary feedback are
     recorded as support conditions, not hidden verification or a measure of worth.
   context_transfer_rule: Evidence concerns one component, criterion set, difficulty, and attempt pair;
@@ -359,20 +438,31 @@ evidence_and_scoring:
     multipliers and duplicate origins fail closed.
   recency_rule: Observations older than the explicit 45-day bound are stale; no long-term retention or
     improvement is inferred.
-  performance_rubric: Performance concerns predeclared criteria, a bounded baseline, one criterion-based
-    correction, and one comparable retry—not time spent, effort, talent, or output volume.
-  evidence_quality_rubric: Quality requires fixed criteria, explicit provenance, safe attempt bounds,
-    and comparable conditions; recordings, prose, artifact content, and observer identity are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Define one component and fix its success criteria. Observed checks: One
+    observable component is selected; Two to four criteria are fixed before the attempt; Difficulty time
+    and feedback method are safely bounded; Synthetic material and a privacy boundary are selected. Action
+    2: Make a baseline attempt without changing the target. Observed checks: A real bounded baseline attempt
+    occurs; The observed fraction uses the fixed criterion count; The attempt ends at its declared limit;
+    Errors and support conditions remain visible. Action 3: Select exactly one feedback correction. Observed
+    checks: Feedback uses the criteria fixed in advance; One missed component and one adjustment are selected;
+    The retry condition is defined explicitly; Feedback is voluntary private and free of humiliation.
+    Action 4: Retry once and compare performance rather than effort. Observed checks: A comparable or
+    easier retry is actually attempted; The same criterion denominator is used both times; Unchanged worse
+    and improved results are all permitted; The next progression decision follows the observed performance.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A practice plan and feedback opinion were recorded
+    without a baseline and comparable retry.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated plan, attempt, correction, and retry measurements may form context-bound
     direct competency shadow evidence distinct from protocol performance.
   canonical_lever_allocation: parent_competency_mapping
   recommendation_target_lever_ids:
   - L15
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unsafe, non-comparable, stale, adverse, duplicate, cross-epoch, unattempted, unknown, not-observed,
     not-applicable, deferred, or inconclusive evidence.
@@ -380,10 +470,21 @@ evidence_and_scoring:
     and any result from an excluded domain.
 completion_and_review:
   completion_criteria:
-  - One safe component and fixed criteria were defined.
-  - One bounded baseline and one feedback selection were completed.
-  - One comparable retry was attempted with unchanged criteria; a safe deferral closes the protocol without
-    claiming completion.
+  - 'Action 1: Define one component and fix its success criteria. Observed checks: One observable component
+    is selected; Two to four criteria are fixed before the attempt; Difficulty time and feedback method
+    are safely bounded; Synthetic material and a privacy boundary are selected.'
+  - 'Action 2: Make a baseline attempt without changing the target. Observed checks: A real bounded baseline
+    attempt occurs; The observed fraction uses the fixed criterion count; The attempt ends at its declared
+    limit; Errors and support conditions remain visible.'
+  - 'Action 3: Select exactly one feedback correction. Observed checks: Feedback uses the criteria fixed
+    in advance; One missed component and one adjustment are selected; The retry condition is defined explicitly;
+    Feedback is voluntary private and free of humiliation.'
+  - 'Action 4: Retry once and compare performance rather than effort. Observed checks: A comparable or
+    easier retry is actually attempted; The same criterion denominator is used both times; Unchanged worse
+    and improved results are all permitted; The next progression decision follows the observed performance.'
+  - For minimum completion, finish at least 3 of these 4 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 3
     substantive_markers:
@@ -393,37 +494,50 @@ completion_and_review:
     - retry_component_criteria
     marker_mode: all
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat only when the same safety boundaries hold and the participant can identify
-    a specific next criterion without increasing consequences.
-  transfer_limit: Two attempts cannot establish retained improvement, broad skill, expertise, or performance
-    in a real high-stakes setting.
+  progression_criteria: Which criterion changed after the one correction, under what support conditions,
+    and what comparable attempt would help check whether that change lasts? If all four were already met,
+    report maintenance rather than improvement. Choose the next-cycle challenge only when the component
+    is controlled; time spent alone is not evidence of a skill gain.
+  transfer_limit: Practice one safely bounded component using a fixed standard, a baseline attempt, specific
+    feedback and a comparable retry. The evidence concerns that component under the recorded conditions;
+    it does not establish mastery of a larger skill. Use the comparison to choose the next correction
+    or a reason to pause.
   reflection:
-    before: Which single component and fixed criteria can be practiced safely without private material
-      or real-world consequence?
-    during: Which one criterion was unstable, what feedback method was used, and was participation freely
-      chosen?
-    after: Did the same criterion change on a comparable retry, remain unchanged, worsen, or remain unknown?
+    before: 'What would count as doing this honestly? Goal: Isolate a safe skill component, record a bounded
+      baseline, use criterion-based feedback and retry under comparable conditions without equating time
+      spent with improvement.'
+    during: Which checks have actually been observed? The retry improved, but changed support or easier
+      material made the size of the skill change uncertain.
+    after: Which criterion changed after the one correction, under what support conditions, and what comparable
+      attempt would help check whether that change lasts? If all four were already met, report maintenance
+      rather than improvement. Choose the next-cycle challenge only when the component is controlled;
+      time spent alone is not evidence of a skill gain.
   review_guidance:
     repeat: Repeat the same safe component only when another bounded attempt adds useful evidence.
-    adapt: Lower difficulty, shrink the component, change modality, add access support, or use a private
-      self-review.
+    adapt: Use paper, slower pacing, an accessible input method, a model or a freely consenting coach.
+      Keep adaptations present in both attempts where possible. Exclude hazardous equipment, driving,
+      clinical rehabilitation, regulated practice and coerced public evaluation.
     stop: Stop for danger, pain, coercion, humiliation, protected information, scope drift, or unplanned
       overpractice.
-    escalate: Use qualified instruction or support when domain safety, rehabilitation, licensing, or supervision
-      matters.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: Fixed criteria identified one weak component, one correction was applied, and the comparable
-      retry met more of the same criteria.
-    mixed: The correction improved one criterion while another was unchanged or less stable.
-    contradictory: The retry met fewer fixed criteria, the correction was not applied, or practice exceeded
-      a safe boundary.
-    inconclusive: The attempts differed materially, feedback was unavailable, or the observations were
-      unknown, deferred, or not observed.
+    supportive: 'The baseline formula omitted the first input: C1 and C3 were not met, and its changed-input
+      result also failed C4. After an endpoint check, the comparable retry met all four criteria. The
+      private comparison is 1/4 to 4/4; it supports this small component under these conditions, not general
+      spreadsheet mastery.'
+    mixed: The retry improved, but changed support or easier material made the size of the skill change
+      uncertain.
+    contradictory: Difficulty was escalated through pain or humiliation, or extra practice time was represented
+      as proof of competence.
+    inconclusive: A practice plan and feedback opinion were recorded without a baseline and comparable
+      retry.
 presentation:
   setup_copy:
-    context_heading: Isolate one safe low-stakes skill component.
+    context_heading: Improve one weak component with fixed criteria and one correction
     boundary_heading: Feedback is voluntary; no public artifact or observer identity is required.
-    timing_hint: Plan two short comparable attempts within 14 days.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: One component with two to four observable criteria
   check_in_labels:
     component_plan_criteria: Component plan meets the fixed criteria
@@ -438,8 +552,149 @@ presentation:
     correction_applied: The selected correction was applied
     retry_comparability: Retry comparability criteria present
     retry_harm_or_overpractice: The retry caused harm or exceeded its practice boundary
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record checks whether a weak component, feedback correction,
-    and comparable retry were completed without storing performance contents or identities.
+  completion_copy: Which criterion changed after the one correction, under what support conditions, and
+    what comparable attempt would help check whether that change lasts? If all four were already met,
+    report maintenance rather than improvement. Choose the next-cycle challenge only when the component
+    is controlled; time spent alone is not evidence of a skill gain. Completion is not mastery.
+  plain_language_evidence: 'The baseline formula omitted the first input: C1 and C3 were not met, and
+    its changed-input result also failed C4. After an endpoint check, the comparable retry met all four
+    criteria. The private comparison is 1/4 to 4/4; it supports this small component under these conditions,
+    not general spreadsheet mastery.'
   display_order: 8
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '10.02'
+  title: Repair one summation error and compare a fresh retry
+  scored: false
+  sections:
+  - id: method
+    kind: concept
+    title: Practice a component, not just a duration
+    body: A component is a small operation you can inspect separately. Here it is selecting exactly four
+      input cells for a sum and keeping the result linked when an input changes. First fix success criteria,
+      preserve a baseline, obtain criterion-specific feedback, choose one correction and retry with comparable
+      inputs. Difficulty should permit harmless mistakes while letting you inspect what went wrong. A
+      single improved retry is a useful observation, not proof that practice caused lasting improvement.
+      This original exercise is not a validated training program.
+  - id: worked-example
+    kind: worked_example
+    title: Example on different cells
+    body: For an example, put 2 in B1 and 6 in B2. In B3 enter =SUM(B1:B2); the result is 8. The colon
+      names the inclusive range, from the first endpoint through the last. If B2 changes to 7, the result
+      becomes 9. Typing 8 into B3 produces the original total but will not update; =SUM(B2:B2) omits the
+      first input. On paper, write 2+6=8, cross-reference each addend to its input, then write a separate
+      2+7=9 after the change. Paper tests selection and recalculation, not spreadsheet behavior. Restore
+      any changed input before starting another attempt.
+  - id: criteria
+    kind: material
+    title: Four criteria fixed before the attempt
+    body: 'C1 — The calculation includes every one of the four designated input cells or paper values
+      exactly once.
+
+      C2 — It excludes the unrelated value and the result cell itself.
+
+      C3 — The first result equals the independently checked total for the original input set.
+
+      C4 — After changing only the designated last input, the same spreadsheet formula updates to the
+      correct new total; on paper, preserve the original and make a correct separate recalculation.
+
+
+      Use observed / not observed / uninspected for each criterion. A correct number alone does not establish
+      C1 or C2: inspect the formula or written addends. The recorded fraction is the number observed divided
+      by four, with uninspected criteria excluded from the numerator. Retain uninspected separately from
+      inspected failures; if a comparison depends on an uninspected criterion, mark that comparison inconclusive.
+      This private checklist does not replace the application’s existing evidence fields.'
+  - id: attempt-record
+    kind: material
+    title: A record for each attempt
+    body: 'Route and tool: __. Planned time limit (5–15 minutes): __. Actual duration: __. Access and
+      content supports: __. Original input copy and formula/written addends: __. First result: __. Changed
+      input and resulting calculation: __. C1 [observed / not observed / uninspected], reason: __. C2:
+      __. C3: __. C4: __. Observed fraction: __/4. Original attempt preserved at: __. One correction chosen
+      after the baseline: __. Retry result category and comparability limits: __. Keep this record private;
+      do not overwrite a failed attempt with the answer key.'
+  - id: baseline
+    kind: prompt
+    title: 'Baseline: include the right cells'
+    body: In a blank sheet put 3 in A1, 5 in A2, 7 in A3 and 9 in A4. Put the unrelated value 100 in A5.
+      Use A6 for a formula summing only A1 through A4. On paper label the same five values and write an
+      addition using only A1–A4. Preserve the first result and formula/addends. Change only A4 from 9
+      to 10; record the new result without replacing a formula with a typed total. Stop at the chosen
+      limit, keep the original attempt, then reveal the check. Do not use the worked example’s B cells.
+    references:
+    - criteria
+    - attempt-record
+    check_id: baseline-key
+    attempt_mode: practice
+  - id: diagnosis
+    kind: concept
+    title: Turn a failed criterion into one correction
+    body: If an endpoint is missing, trace the source list from its first through its last intended input.
+      If an unrelated cell is included, compare the selected range with the four permitted inputs. If
+      the formula is correct but the total differs, inspect the entered values before changing the method.
+      If the total stays fixed after the change, inspect whether you entered a number rather than a live
+      formula. Choose exactly one correction supported by the preserved output, not a new goal such as
+      speed or attractive formatting. If all criteria were met, report no demonstrated weakness; a preventive
+      check can test maintenance but cannot establish improvement.
+  - id: retry
+    kind: prompt
+    title: 'Comparable retry: new values, same component'
+    body: Start a fresh sheet or paper copy. Put 4 in A1, 6 in A2, 8 in A3 and 10 in A4; A5 is the unrelated
+      value 100. Use A6 for the sum of A1–A4, or write those addends on paper. Apply your one recorded
+      correction, keeping the original time limit, tool, supports and four criteria. Preserve the first
+      result. Change only A4 from 10 to 11 and record the result. Keep both outputs before revealing the
+      check, then compare C1–C4 with baseline individually.
+    references:
+    - criteria
+    - attempt-record
+    check_id: retry-key
+    attempt_mode: practice
+  - id: access
+    kind: pathway
+    title: Keep the access route honest
+    body: Use zoom, a screen reader, keyboard navigation or speech entry already available to you. Preserve
+      these supports in both attempts. If cell navigation is unfamiliar, use paper for the complete default;
+      learning an unfamiliar interface is a different component. State when a helper supplies the formula
+      rather than only entering your dictated response. Extra help on retry can be useful, but it prevents
+      attributing the difference solely to your correction. Never use consequential financial, medical
+      or work data as practice input.
+  - id: next-cycle
+    kind: next_step
+    title: When and how to raise difficulty
+    body: 'Do not increase difficulty in the scored retry. If C1–C4 are reliably met with comparable supports,
+      plan a separate future cycle that changes only input selection: put 4, 6, 8 and 10 in A1, A3, A5
+      and A7; put unrelated 100s in A2, A4 and A6, and place the result in A8. Keep the same four criterion
+      meanings and change the last intended input from 10 to 11 for C4. Before attempting, fix the same
+      time limit and checking route; inspect each selected reference, then independently add only the
+      four intended values on paper to check both totals. This introduces nonadjacent selection, not larger
+      numbers, speed or more criteria at once. If the original component still fails, repeat a new comparable
+      cycle with the specific correction instead. Stop when tired or frustrated; more elapsed practice
+      is not itself a better result.'
+  checks:
+  - id: baseline-key
+    title: Check the baseline after keeping it
+    body: 'An inclusive reference formula is =SUM(A1:A4). Original total: 24. After A4 changes to 10:
+      25. Inspect the selected inputs for C1 and C2; matching totals alone are insufficient. The paper
+      route must show 3+5+7+9 and then 3+5+7+10 separately. A plausible omission =SUM(A2:A4) gives 21
+      and then 22: C2 is observed, but C1, C3 and C4 are not, giving 1/4. A typed 24 looks right initially
+      but has no input references and remains 24: it cannot pass C1 or C4. A blank calculation is unattempted,
+      not a failed completed attempt. Preserve the actual first result before correcting anything.'
+    criteria:
+    - Inspect all four intended inputs exactly once, not just the result.
+    - Exclude A5 and A6 from the sum.
+    - Check original 24 and changed-input 25 independently.
+    - Keep observed, not observed and uninspected distinct; choose one specific correction.
+  - id: retry-key
+    title: Check and compare the retry
+    body: 'The intended formula is =SUM(A1:A4). Original total: 28. After A4 changes to 11: 29. The paper
+      route shows 4+6+8+10 and then 4+6+8+11. A range including A5 gives 128 and then 129; it includes
+      the intended inputs but fails exclusion and both result checks. A typed 28 does not establish a
+      live range or updating. Compare each of the same four criteria with baseline. A change from 1/4
+      to 4/4 with the endpoint correction is improvement on the supplied tasks. From 4/4 to 4/4 is maintenance.
+      More time or new content help makes the comparison limited even if the result improves. No long-term
+      retention or larger-skill transfer was tested.'
+    criteria:
+    - Apply C1–C4 with the same denominator of four.
+    - Check original 28 and changed-input 29 independently.
+    - Record worse, unchanged and mixed results as well as improvement.
+    - Explain changed supports or conditions before claiming a comparable improvement.

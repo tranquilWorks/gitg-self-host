@@ -1,0 +1,107 @@
+{
+  "validation_level": "synthetic arithmetic and formula-selection desk check",
+  "spreadsheet_application_executed": false,
+  "learner_or_qualified_acceptance": false,
+  "cases": [
+    {
+      "case": "competent_baseline",
+      "formula": "=SUM(A1:A4)",
+      "values": [
+        3,
+        5,
+        7,
+        9,
+        100
+      ],
+      "before": 24,
+      "after": 25,
+      "checks": {
+        "C1": true,
+        "C2": true,
+        "C3": true,
+        "C4": true
+      },
+      "observed_fraction": "4/4"
+    },
+    {
+      "case": "omitted_first_input",
+      "formula": "=SUM(A2:A4)",
+      "values": [
+        3,
+        5,
+        7,
+        9,
+        100
+      ],
+      "before": 21,
+      "after": 22,
+      "checks": {
+        "C1": false,
+        "C2": true,
+        "C3": false,
+        "C4": false
+      },
+      "observed_fraction": "1/4"
+    },
+    {
+      "case": "plausible_typed_total",
+      "formula": "24",
+      "values": [
+        3,
+        5,
+        7,
+        9,
+        100
+      ],
+      "before": 24,
+      "after": 24,
+      "checks": {
+        "C1": false,
+        "C2": true,
+        "C3": true,
+        "C4": false
+      },
+      "observed_fraction": "2/4"
+    },
+    {
+      "case": "unrelated_input_included",
+      "formula": "=SUM(A1:A5)",
+      "values": [
+        4,
+        6,
+        8,
+        10,
+        100
+      ],
+      "before": 128,
+      "after": 129,
+      "checks": {
+        "C1": true,
+        "C2": false,
+        "C3": false,
+        "C4": false
+      },
+      "observed_fraction": "1/4"
+    },
+    {
+      "case": "competent_retry",
+      "formula": "=SUM(A1:A4)",
+      "values": [
+        4,
+        6,
+        8,
+        10,
+        100
+      ],
+      "before": 28,
+      "after": 29,
+      "checks": {
+        "C1": true,
+        "C2": true,
+        "C3": true,
+        "C4": true
+      },
+      "observed_fraction": "4/4"
+    }
+  ]
+}

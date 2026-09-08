@@ -1,9 +1,9 @@
 schema_version: 1
 batch:
-  id: M6K-QA01-CRAFT-REPAIR
-  title: Verify instructional prerequisites and finish the supplied craft exercise
-  goal: Retain actual browser and prerequisite verification; complete and desk-check the 21.03 materials
-    without claiming full A/B/C or human acceptance.
+  id: M6K-LEARNING-CRAFT-RUNTIME
+  title: Finish and project learning, deliberate practice and foundational craft
+  goal: Increase substantive tailored runtime coverage from 91 to 94 with three related learning-to-performance
+    practices; preserve separate pending human and independent review.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
@@ -11,31 +11,41 @@ sources:
   - docs/plans/m6k/REVIEW_RECORD.md
   - docs/plans/m6k/program.json
   - https://github.com/tranquilWorks/gitg-self-host/issues/60
-  milestone: M6K-02-01
-  baseline_commit: 6173b1e15596ac883fd08f9c4c1f4967f3450c6a
+  milestone: M6K-10.01-10.02-21.03
+  baseline_commit: 324e01cd9a7f5cc9a609ee857c0b5c1881e1b3e6
 dependencies:
-- M6K-01-01-evidence-reconciliation
-- M6K-01-02-merged
-- M6K-01-03-merged
+- PR-70-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
-  - docs/plans/m6k/program-receipts.json
-  - docs/plans/m6k/README.md
-  - docs/plans/m6k/CONTINUATION.md
+  - contracts/tailored-practice-authoring.yaml
   - docs/PROJECT_HANDOFF.md
-  - docs/evidence/**
-  - docs/authoring/exercises/21.yaml
+  - docs/plans/m6k/README.md
+  - docs/plans/m6k/recovery.py
+  - docs/plans/m6k/runtime-projections.json
+  - docs/authoring/exercises/10.yaml
+  - docs/authoring/quality/10.01/**
+  - docs/authoring/quality/10.02/**
   - docs/authoring/quality/21.03/**
   - docs/authoring/quality/current-report.json
-  - tests/test_m6k_2103.py
-  - tests/e2e/test_instructional_content.py
+  - docs/authoring/M6K-LEARNING-CRAFT-*.md
+  - docs/evidence/**
+  - data/practices/protocols/10/PRACTICE-COMP-1001-THE-SCIENCE-OF-LEARNING-01.yaml
+  - data/practices/protocols/10/PRACTICE-DELIBERATE-PRACTICE-01.yaml
+  - data/practices/protocols/21/PRACTICE-COMP-2103-FOUNDATIONAL-CRAFT-COMPETENCE-01.yaml
+  - data/practices/release_manifest.yaml
+  - data/practices/registries/sources.yaml
+  - reports/**
+  - tests/test_m6k_recovery.py
+  - tests/test_m6k_repair_drafts.py
+  - tests/test_m6k_review_evidence.py
+  - tests/test_m6k_learning_craft.py
+  - docs/plans/m6k/program-receipts.json
   forbidden_paths:
   - data/assessment/**
   - data/model/**
   - data/curriculum/**
-  - data/practices/protocols/**
   - data/practices/registries/activation_ledger.yaml
   - growth/models.py
   - growth/migrations/**
@@ -48,19 +58,26 @@ scope:
   - Dockerfile
   - docker-compose.yml
   - .github/workflows/**
+  - docs/plans/m6k/recovery/**
+  - docs/authoring/quality/ledger.json
 acceptance:
-- Instructional browser evidence is retained and visually reviewed against the exact tested sources.
-- Only supported software prerequisite criteria and the targeted QA-01 repair receive program dispositions;
-  release and human gates stay explicit.
-- The default supplies three briefs, matching keys, a usable record and observable accuracy/access criteria.
-- A plausible wrong date and missing contact fail the standard; a genuine default dry-run is retained.
-- Only competency 21.03 authoring changes; all runtime packages, scoring, canonical IDs and neighbors
-  remain exact.
+- 'Exactly 10.01, 10.02 and 21.03 become individually authored runtime practices: 94 tailored, 289 pending.'
+- Each has supplied materials, separate practice/check, observable adverse outcomes, accessible paths
+  and scope trace.
+- Preserve 383 protocol IDs, 1151 action IDs, parent mappings, completion rules, activation and frozen/retained
+  rules; prospective generic primary checks use existing compiler and immutable event snapshots.
+- Recovery archive stays byte-exact; prospective content is verified against pinned originals and exact
+  compiler output.
+- Formal independent, learner, qualified and owner acceptance are not inferred.
+- Retain previous program dispositions verbatim as historical evidence; renew only executed software-test
+  evidence and dependent proofs after the count assertion changes.
 validation:
   local:
-  - .venv/bin/python -m pytest tests/test_m6k_2103.py tests/test_m6k_repair_drafts.py tests/test_instructional_content.py
+  - .venv/bin/python -m pytest tests/test_m6k_learning_craft.py tests/test_tailored_practice_authoring.py
+    tests/test_m6k_recovery.py tests/test_m6k_repair_drafts.py tests/test_instructional_content.py tests/test_m6k_review_evidence.py
     -q
   - ./scripts/agent-verify.sh contract
+  - make pilot-check curriculum-check competency-evidence-check
   - git diff --check
   required_ci:
   - Ruff Django pytest migration drift and manifest verification
@@ -69,9 +86,8 @@ validation:
   - Compose backup restore and recreation
   - aggregate Pilot readiness gate
   focused_tests_to_add:
-  - Supplied work record and access procedure
-  - Incorrect output and separate checking
-  - Exact neighbor and runtime preservation
+  - Three actual runtime projections and prospective invariant drift rejection
+  - Deliberate-practice prompt/key separation and discriminating checks
 risk:
   class: high
   hazards:
@@ -89,6 +105,6 @@ rollback:
     reinterpret existing event snapshots.
 evidence:
   output:
-  - docs/evidence/M6K-QA01-CRAFT-REPAIR.md
+  - docs/evidence/M6K-LEARNING-CRAFT-RUNTIME.md
   claim_boundary: Authored educational practices and software verification; no automatic human review
     or empirical validation acceptance.

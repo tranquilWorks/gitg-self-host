@@ -357,7 +357,7 @@
       "actor_kind": "agent",
       "execution": "executed",
       "decision_reference": null,
-      "reason": "Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
+      "reason": "Reverified for the 94-runtime cohort. Previous exact disposition: docs/evidence/m6k-learning-craft/previous-program-receipts.json. Existing product inputs and criteria remain unchanged except the expected coverage assertion (94/289). Regression: 104 passed; three route-name test failures corrected and all three passed separately. Continuation: 30 passed. No new browser, learner or qualified acceptance. Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
       "dependencies": {
         "M6K-01-01": "1cd2d63cbad615011136e6c3b8f55e69292b40547cb6723e46ea4a551bc8549f"
       },
@@ -375,7 +375,22 @@
         {
           "path": "tests/test_m6k_review_evidence.py",
           "pointer": "",
-          "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+          "sha256": "4e816f3035614cc9f5ff9a49fddbd6741e9c60f8fa626084a20f22e90df965fd"
+        },
+        {
+          "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+          "pointer": "",
+          "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+        },
+        {
+          "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+          "pointer": "",
+          "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+        },
+        {
+          "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+          "pointer": "",
+          "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
         }
       ],
       "criteria": [
@@ -392,12 +407,27 @@
             {
               "path": "tests/test_m6k_review_evidence.py",
               "pointer": "",
-              "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+              "sha256": "4e816f3035614cc9f5ff9a49fddbd6741e9c60f8fa626084a20f22e90df965fd"
             },
             {
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         },
@@ -414,12 +444,27 @@
             {
               "path": "tests/test_m6k_review_evidence.py",
               "pointer": "",
-              "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+              "sha256": "4e816f3035614cc9f5ff9a49fddbd6741e9c60f8fa626084a20f22e90df965fd"
             },
             {
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         },
@@ -436,12 +481,27 @@
             {
               "path": "tests/test_m6k_review_evidence.py",
               "pointer": "",
-              "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+              "sha256": "4e816f3035614cc9f5ff9a49fddbd6741e9c60f8fa626084a20f22e90df965fd"
             },
             {
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         },
@@ -458,12 +518,27 @@
             {
               "path": "tests/test_m6k_review_evidence.py",
               "pointer": "",
-              "sha256": "6db7435300039e830589b85ae8f6def1775adac458302d8385312514093a1413"
+              "sha256": "4e816f3035614cc9f5ff9a49fddbd6741e9c60f8fa626084a20f22e90df965fd"
             },
             {
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         }
@@ -476,9 +551,9 @@
       "actor_kind": "agent",
       "execution": "executed",
       "decision_reference": null,
-      "reason": "Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
+      "reason": "Reverified for the 94-runtime cohort. Previous exact disposition: docs/evidence/m6k-learning-craft/previous-program-receipts.json. Existing product inputs and criteria remain unchanged except the expected coverage assertion (94/289). Regression: 104 passed; three route-name test failures corrected and all three passed separately. Continuation: 30 passed. No new browser, learner or qualified acceptance. Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
       "dependencies": {
-        "M6K-01-02": "f875dfb74ecf53dc35c631927c2ec4e0c3948472c4db669e64817d19b6559b14"
+        "M6K-01-02": "4899d0c164a0ffa478eba350485324b2012bddb30a98dbba99444d0cc67219b8"
       },
       "bindings": [
         {
@@ -505,6 +580,21 @@
           "path": "tests/test_m6k_continuation.py",
           "pointer": "",
           "sha256": "f02848fcdd6a32b28cd2c601ba1df0e8fd4b8e23b0c34baa50b22a8987842de6"
+        },
+        {
+          "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+          "pointer": "",
+          "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+        },
+        {
+          "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+          "pointer": "",
+          "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+        },
+        {
+          "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+          "pointer": "",
+          "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
         }
       ],
       "criteria": [
@@ -537,6 +627,21 @@
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         },
@@ -569,6 +674,21 @@
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         },
@@ -601,6 +721,21 @@
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         },
@@ -633,6 +768,21 @@
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         },
@@ -665,6 +815,21 @@
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         }
@@ -677,9 +842,9 @@
       "actor_kind": "agent",
       "execution": "executed",
       "decision_reference": null,
-      "reason": "Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
+      "reason": "Reverified for the 94-runtime cohort. Previous exact disposition: docs/evidence/m6k-learning-craft/previous-program-receipts.json. Existing product inputs and criteria remain unchanged except the expected coverage assertion (94/289). Regression: 104 passed; three route-name test failures corrected and all three passed separately. Continuation: 30 passed. No new browser, learner or qualified acceptance. Executed software criteria or targeted QA-01 author/desk repair only; global release gates and all formal per-competency/human dimensions remain open.",
       "dependencies": {
-        "M6K-01-02": "f875dfb74ecf53dc35c631927c2ec4e0c3948472c4db669e64817d19b6559b14"
+        "M6K-01-02": "4899d0c164a0ffa478eba350485324b2012bddb30a98dbba99444d0cc67219b8"
       },
       "bindings": [
         {
@@ -721,6 +886,21 @@
           "path": "tests/test_m6k_2103.py",
           "pointer": "",
           "sha256": "2c2b448977113465b5581616becb7c652d63563972f282593573b9d5f8a852d2"
+        },
+        {
+          "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+          "pointer": "",
+          "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+        },
+        {
+          "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+          "pointer": "",
+          "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+        },
+        {
+          "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+          "pointer": "",
+          "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
         }
       ],
       "criteria": [
@@ -743,6 +923,21 @@
               "path": "docs/authoring/quality/21.03/event-briefs.json",
               "pointer": "",
               "sha256": "64f21fb431affc141f3b6c9d9699503a73c722cd92d0bb8cff61ce19b0ff3a07"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         },
@@ -770,6 +965,21 @@
               "path": "docs/evidence/m6k-qa01/tests.txt",
               "pointer": "",
               "sha256": "cec9de2adf1ab09bfb28fb956a0280486da8e96fddcf52097f6df6073073f487"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         },
@@ -782,6 +992,21 @@
               "path": "docs/authoring/quality/21.03/repair-review.md",
               "pointer": "",
               "sha256": "9a6d6c4eee11d7426410c81576973c80215990fb168907b14094f85f7f00d233"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/regression-initial.txt",
+              "pointer": "",
+              "sha256": "a50e557e7040c5a9172baab8fb099a86d8cd2942279ee518624f382bb463d7e7"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/runtime-views.txt",
+              "pointer": "",
+              "sha256": "c6d3e86e77700da4a61e11272be03281ecf11a27d720e2260d2fbe717b8ead3a"
+            },
+            {
+              "path": "docs/evidence/m6k-learning-craft/continuation-tests.txt",
+              "pointer": "",
+              "sha256": "5e63f44c65418c2a9f8465e2f6232dc2c3e990df3da8b75522f0d8f682407872"
             }
           ]
         }

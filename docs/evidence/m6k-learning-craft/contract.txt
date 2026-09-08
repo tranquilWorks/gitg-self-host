@@ -1,0 +1,25 @@
+repository=/workspace/scratch/16fa3a306990/gitg-self-host
+mode=contract
+started=2026-09-08T14:49:32+00:00
+head=324e01cd9a7f5cc9a609ee857c0b5c1881e1b3e6
+
+>>> [contract] ./scripts/ensure-agent-env.py
+Development environment ready: /workspace/scratch/16fa3a306990/gitg-self-host/.venv/bin/python
+
+>>> [contract] .venv/bin/python scripts/verify-manifest.py
+MANIFEST.tsv verified: 1101 files
+
+>>> [contract] .venv/bin/python -m ruff format --check .
+340 files already formatted
+
+>>> [contract] .venv/bin/python -m ruff check .
+All checks passed!
+
+>>> [contract] APP_DATA_DIR="$PWD/var/agent-check" DJANGO_SECRET_KEY=agent-check-secret APP_DEBUG=true .venv/bin/python manage.py check
+System check identified no issues (0 silenced).
+
+>>> [contract] APP_DATA_DIR="$PWD/var/agent-check" DJANGO_SECRET_KEY=agent-check-secret APP_DEBUG=true .venv/bin/python manage.py makemigrations --check --dry-run
+No changes detected
+
+completed=2026-09-08T14:49:34+00:00
+log=/workspace/scratch/16fa3a306990/gitg-self-host/docs/evidence/local/verify-contract-20260908T144932Z.log

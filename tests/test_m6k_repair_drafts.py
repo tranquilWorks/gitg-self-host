@@ -7,7 +7,6 @@ import yaml
 
 from docs.plans.m6k.recovery import fingerprint
 from growth.domain.instructional_content import learner_projection, render_text
-from scripts.tailored_practice_authoring import load_exercises
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -18,20 +17,16 @@ def entry(cid):
     ][cid]
 
 
-def test_only_three_repair_entries_changed_and_none_is_runtime_selected():
-    changed = set()
-    for path in (ROOT / "docs/plans/m6k/recovery/selected/exercises").glob("*.yaml"):
-        before = yaml.safe_load(path.read_text())["exercises"]
-        after = yaml.safe_load((ROOT / "docs/authoring/exercises" / path.name).read_text())[
-            "exercises"
-        ]
-        assert set(before) == set(after)
-        changed.update(cid for cid in before if before[cid] != after[cid])
-    assert changed == {"21.03", "10.01", "10.02"}
-    assert not changed & set(load_exercises(ROOT))
-    for cid in changed:
-        record = json.loads((ROOT / f"docs/authoring/quality/{cid}/draft-record.json").read_text())
-        assert record["source_after_sha256"] == fingerprint(entry(cid))
+def test_recovery_draft_receipts_remain_historical_not_current_acceptance():
+    # These are receipts of PR 67/70 source repairs, not a ban on future authoring.
+    for cid in ("10.01", "10.02", "21.03"):
+        folder = ROOT / f"docs/authoring/quality/{cid}"
+        record = json.loads((folder / "draft-record.json").read_text())
+        if cid == "21.03":
+            source = json.loads((folder / "repair-source.json").read_text())
+        else:
+            source = json.loads((folder / "recovered-repair-source.json").read_text())
+        assert record["source_after_sha256"] == fingerprint(source)
         assert record["review_acceptance"] is False
 
 
@@ -81,7 +76,9 @@ def test_three_complete_craft_briefs_and_discriminating_accuracy_check():
 
 def test_deliberate_practice_scope_moves_metadata_without_changing_actions_or_other_fields():
     before = json.loads((ROOT / "docs/authoring/quality/10.02/before.json").read_text())
-    after = copy.deepcopy(entry("10.02"))
+    after = copy.deepcopy(
+        json.loads((ROOT / "docs/authoring/quality/10.02/recovered-repair-source.json").read_text())
+    )
     scope = after.pop("scope_note")
     before.pop("scope_note")
     assert after == before and len(after["actions"]) == 4

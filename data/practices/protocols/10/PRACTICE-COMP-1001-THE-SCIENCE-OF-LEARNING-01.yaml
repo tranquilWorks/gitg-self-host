@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1001-THE-SCIENCE-OF-LEARNING-01
 slug: c1001-the-science-of-learning-practice
-name: Bounded The science of learning Practice
+name: Learn six ideas through recall, correction and a delayed transfer test
 parent_competency_id: '10.01'
 domain_id: '10'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 10.01
-      (The science of learning); canonical scope, evidence target, classification, domain boundary, and
-      parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 10.01; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice The science of learning through a consent-respecting relational practice bounded
-    by the canonical scope: Use retrieval, spacing, interleaving, elaboration, examples, sleep, and feedback
-    rather than passive exposure alone.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Demonstrates retention
-    and transfer after delay. The protocol creates a small opportunity to examine that target without
-    treating completion as broad capability.'
+  purpose: Use retrieval, spacing, mixed practice, explanation and feedback to learn a small set of ideas,
+    then test retention and a new application after a delay.
+  why_recommended: Use retrieval, spacing, mixed practice, explanation and feedback to learn a small set
+    of ideas, then test retention and a new application after a delay.
   claims:
-  - statement: Using the canonical scope and evidence target for The science of learning is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Use retrieval, spacing, mixed practice, explanation and feedback to learn a small set of
+      ideas, then test retention and a new application after a delay.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded The science of learning practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record The science of learning as not applicable, consciously unchosen, or
     deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited The science of learning
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to The science
-    of learning; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use audio cards, large print, tactile counters or supported recall. Adjust
+    the spacing to available capacity and report the actual delay. A same-day repetition is useful practice
+    but must not be labeled a week-delayed retention test.
+  opportunity_considerations: Use the supplied learning guide, paper or an accessible note tool. It contains
+    six definitions, two worked examples, and separate first, second and delayed prompts with matching
+    checks. Study the teaching first; open only the prompt for the current session. Keep your original
+    response before revealing its check. No purchased materials or private information are needed.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of The science of learning.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the supplied learning guide, paper or an accessible note tool. It contains six definitions, two
+    worked examples, and separate first, second and delayed prompts with matching checks. Study the teaching
+    first; open only the prompt for the current session. Keep your original response before revealing
+    its check. No purchased materials or private information are needed.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for The science of learning instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use audio cards, large print, tactile counters or supported recall. Adjust the spacing to available
+    capacity and report the actual delay. A same-day repetition is useful practice but must not be labeled
+    a week-delayed retention test.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -78,21 +78,29 @@ meaning_and_fit:
   - The practice does not require one worldview or treat disagreement about The science of learning as
     inferiority; competing reasonable interpretations and conscientious refusal remain visible.
 intervention:
-  protocol_class: PF-RELATIONAL-CONVERSATION
+  protocol_class: PF-KNOWLEDGE-APPLICATION
   duration_days: 10
-  cadence: Complete three bounded The science of learning actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for The science of learning; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for The science
-    of learning. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three The science of learning actions, and
-    review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the supplied learning guide, paper or an accessible note tool. It contains six definitions,
+    two worked examples, and separate first, second and delayed prompts with matching checks. Study the
+    teaching first; open only the prompt for the current session. Keep your original response before revealing
+    its check. No purchased materials or private information are needed. Goal: Use retrieval, spacing,
+    mixed practice, explanation and feedback to learn a small set of ideas, then test retention and a
+    new application after a delay. Scope: This is a learning-method trial, not an intelligence test or
+    proof that one schedule suits every learner. Ordinary sleep and access supports remain protected.
+    Time and effort: Fifteen minutes on day one, ten minutes on day two, and fifteen minutes about a week
+    later. Adaptation: Use audio cards, large print, tactile counters or supported recall. Adjust the
+    spacing to available capacity and report the actual delay. A same-day repetition is useful practice
+    but must not be labeled a week-delayed retention test. Keep personal working notes outside the check-in;
+    record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use audio cards, large print, tactile counters or supported recall. Adjust the
+    spacing to available capacity and report the actual delay. A same-day repetition is useful practice
+    but must not be labeled a week-delayed retention test.
+  expected_burden: Fifteen minutes on day one, ten minutes on day two, and fifteen minutes about a week
+    later.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the The science of learning protocol to rank worth, coerce participation, demand disclosure,
@@ -100,19 +108,25 @@ intervention:
   - Treating a completed The science of learning action, a polished artifact, agreement, confidence, speed,
     independence, or output as mastery or universal transfer.
   exclusions:
-  - Any The science of learning situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use audio cards,
+    large print, tactile counters or supported recall. Adjust the spacing to available capacity and report
+    the actual delay. A same-day repetition is useful practice but must not be labeled a week-delayed
+    retention test.
   actions:
   - stable_id: PRACTICE-COMP-1001-THE-SCIENCE-OF-LEARNING-01-A1
     sequence: 1
-    title: Prepare a consent-safe The science of learning interaction
-    instructions: 'Choose one welcome, low-stakes relationship context for The science of learning. Translate
-      the canonical scope into one observable communication act, identify power or retaliation concerns,
-      and obtain or preserve the other person''s freedom not to participate: Use retrieval, spacing, interleaving,
-      elaboration, examples, sleep, and feedback rather than passive exposure alone.'
+    title: Study an example and retrieve before looking again
+    instructions: 'Read the six definitions and both worked examples in the learning guide. Explain why
+      the mean uses the count and why the median can differ from it. Close the teaching, open First recall
+      and application, and answer all six ideas plus the application before opening its check. Preserve
+      your original attempt, compare it with the supplied key, and write the corrected reasoning for a
+      specific mistake. Record any cues or lookups honestly.
+
+
+      Observation checks: All six ideas receive an initial recall attempt; A worked example and a contrasting
+      example are used; Errors are compared with an available answer source; Explanation goes beyond copying
+      the definitions. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +148,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1001_a1_communication_act_specific
-        - c1001_a1_consent_boundary_present
-        - c1001_a1_power_checked
+        - all_six_ideas_receive_an_initial_recall_attempt
+        - a_worked_example_and_a_contrasting_example_are_used
+        - errors_are_compared_with_an_available_answer_source
+        - explanation_goes_beyond_copying_the_definitions
       - measurement_id: c1001_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +168,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1001-THE-SCIENCE-OF-LEARNING-01-A2
     sequence: 2
-    title: Practice one The science of learning communication act
-    instructions: Use the prepared The science of learning act once without covert testing, pressure,
-      diagnosis, deception inference, or a demand for disclosure. Ask one direct clarification when appropriate
-      and allow refusal, delay, indirect communication, language access, or another format.
+    title: Space and mix the second practice instead of repeating recognition
+    instructions: 'On the next day when feasible, open Second mixed practice before rereading the teaching.
+      Answer the six mixed questions, switching between recall, calculation and explanation. Keep your
+      original response, then explicitly reveal that session’s check. Identify an error and use feedback
+      to correct the concept or method. Record the actual separation between sessions and supports used.
+      Stop at the planned time; preserve ordinary sleep, rest and necessary access supports.
+
+
+      Observation checks: The second retrieval is separated by a day when feasible; Definition and application
+      questions are interleaved; Feedback corrects specific missed ideas; The plan preserves sleep rest
+      and access supports. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,12 +195,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1001_a2_primary
-        kind: boolean
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        expected: true
+        - reviewed_artifact
+        criteria:
+        - the_second_retrieval_is_separated_by_a_day_when_feasible
+        - definition_and_application_questions_are_interleaved
+        - feedback_corrects_specific_missed_ideas
+        - the_plan_preserves_sleep_rest_and_access_supports
       - measurement_id: c1001_a2_boundary
         kind: boolean
         role: supporting
@@ -194,10 +221,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1001-THE-SCIENCE-OF-LEARNING-01-A3
     sequence: 3
-    title: Review The science of learning without scoring the person
-    instructions: 'Review only the observable interaction and its boundaries. Do not infer motives or
-      store private narrative. Compare what happened with this evidence target and retain disagreement
-      or an inconclusive result: Demonstrates retention and transfer after delay.'
+    title: Test delayed retention and unfamiliar application
+    instructions: 'About a week after the first session, open Delayed recall and new application without
+      reopening the teaching or earlier keys. Record the actual delay, answer the six recall questions,
+      and solve the supplied unfamiliar application. Keep the original response before revealing its separate
+      check. Label unaided, cued, looked-up and open-explanation work distinctly. Use a specific retained
+      idea or error to choose the next review; same-day practice does not establish delayed retention.
+
+
+      Observation checks: Delayed recall is attempted before looking up answers; A new application differs
+      from the worked example; Unaided cued and looked-up answers are distinguished; The next review is
+      based on specific retention or transfer errors. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which idea felt familiar yet could not be recalled or applied, and how will that change
+      the next study session?
+
+
+      Examples: Supportive: The learner corrected a mean–median confusion, recalled it after a week and
+      applied both measures to the new uneven dataset.
+
+
+      Mixed: Definitions were retained but the new application exposed a remaining misunderstanding about
+      units or extreme values.
+
+
+      Contradictory: Recognition was reported as unaided recall, or sleep and necessary supports were
+      removed to prove discipline.
+
+
+      Inconclusive: The material was reread repeatedly without a closed-reference attempt, correction
+      or delayed test.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -219,9 +274,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1001_a3_observable_interaction_reviewed
-        - c1001_a3_private_narrative_excluded
-        - c1001_a3_inconclusive_allowed
+        - delayed_recall_is_attempted_before_looking_up_answers
+        - a_new_application_differs_from_the_worked_example
+        - unaided_cued_and_looked_up_answers_are_distinguished
+        - the_next_review_is_based_on_specific_retention_or_transfer_errors
       - measurement_id: c1001_a3_boundary
         kind: boolean
         role: supporting
@@ -241,16 +297,17 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       The science of learning; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for The science of learning; assistive technology, interpretation, a support person, and a
-      deferred action are valid without penalty.
+    - Use audio cards, large print, tactile counters or supported recall. Adjust the spacing to available
+      capacity and report the actual delay. A same-day repetition is useful practice but must not be labeled
+      a week-delayed retention test.
     cultural_context:
     - Adapt the expression of The science of learning to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real The science of learning opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use audio cards, large print, tactile counters or supported recall. Adjust the spacing to available
+      capacity and report the actual delay. A same-day repetition is useful practice but must not be labeled
+      a week-delayed retention test.
   pause_conditions:
   - Pause The science of learning when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -281,10 +338,8 @@ evidence_and_scoring:
   - c1001_a3_boundary
   - c1001_a3_adverse
   adverse_or_contradictory_indicators:
-  - The The science of learning action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended The science of learning criterion, depended on coercion or
-    hidden private content, or could not distinguish the protocol from contextual change.
+  - Recognition was reported as unaided recall, or sleep and necessary supports were removed to prove
+    discipline.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for The science of learning explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -294,14 +349,22 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated The science of learning rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Demonstrates retention and transfer after delay.—not completion, confidence, conformity, output,
-    independence, or worth.
-  evidence_quality_rubric: Quality for The science of learning requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Study an example and retrieve before looking again. Observed checks:
+    All six ideas receive an initial recall attempt; A worked example and a contrasting example are used;
+    Errors are compared with an available answer source; Explanation goes beyond copying the definitions.
+    Action 2: Space and mix the second practice instead of repeating recognition. Observed checks: The
+    second retrieval is separated by a day when feasible; Definition and application questions are interleaved;
+    Feedback corrects specific missed ideas; The plan preserves sleep rest and access supports. Action
+    3: Test delayed retention and unfamiliar application. Observed checks: Delayed recall is attempted
+    before looking up answers; A new application differs from the worked example; Unaided cued and looked-up
+    answers are distinguished; The next review is based on specific retention or transfer errors.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. The material was reread repeatedly without a closed-reference
+    attempt, correction or delayed test.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct The science
     of learning contribution under typed evaluation; protocol performance remains distinct and is never
     counted twice.
@@ -310,9 +373,8 @@ evidence_and_scoring:
   - L10
   - L13
   - L15
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse The science of learning evidence.
@@ -320,11 +382,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The prepare a consent-safe the science of learning interaction action was attempted or explicitly
-    deferred.
-  - The practice one the science of learning communication act action was attempted or explicitly deferred.
-  - The review the science of learning without scoring the person action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Study an example and retrieve before looking again. Observed checks: All six ideas receive
+    an initial recall attempt; A worked example and a contrasting example are used; Errors are compared
+    with an available answer source; Explanation goes beyond copying the definitions.'
+  - 'Action 2: Space and mix the second practice instead of repeating recognition. Observed checks: The
+    second retrieval is separated by a day when feasible; Definition and application questions are interleaved;
+    Feedback corrects specific missed ideas; The plan preserves sleep rest and access supports.'
+  - 'Action 3: Test delayed retention and unfamiliar application. Observed checks: Delayed recall is attempted
+    before looking up answers; A new application differs from the worked example; Unaided cued and looked-up
+    answers are distinguished; The next review is based on specific retention or transfer errors.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -333,56 +402,260 @@ completion_and_review:
     - c1001_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden The science of learning only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish The science of learning across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which idea felt familiar yet could not be recalled or applied, and how will that
+    change the next study session?
+  transfer_limit: This is a learning-method trial, not an intelligence test or proof that one schedule
+    suits every learner. Ordinary sleep and access supports remain protected.
   reflection:
-    before: What does The science of learning require in this exact context, what remains outside my role
-      or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable The science of learning criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Demonstrates retention and transfer after delay.', what contradiction
-      or missing context matters most, and should this The science of learning design be repeated, adapted,
-      deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Use retrieval, spacing, mixed practice, explanation
+      and feedback to learn a small set of ideas, then test retention and a new application after a delay.'
+    during: Which checks have actually been observed? Definitions were retained but the new application
+      exposed a remaining misunderstanding about units or extreme values.
+    after: Which idea felt familiar yet could not be recalled or applied, and how will that change the
+      next study session?
   review_guidance:
     repeat: Repeat the same bounded The science of learning design only when the context and burden remain
       appropriate.
-    adapt: Change the The science of learning medium, scope, support, timing, criteria, or context while
-      preserving provenance and the narrower evidence claim.
+    adapt: Use audio cards, large print, tactile counters or supported recall. Adjust the spacing to available
+      capacity and report the actual delay. A same-day repetition is useful practice but must not be labeled
+      a week-delayed retention test.
     stop: Stop The science of learning when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for The science of learning questions beyond
-      this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded The science of learning criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some The science of learning criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended The science of learning criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The The science of learning action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: The learner corrected a mean–median confusion, recalled it after a week and applied both
+      measures to the new uneven dataset.
+    mixed: Definitions were retained but the new application exposed a remaining misunderstanding about
+      units or extreme values.
+    contradictory: Recognition was reported as unaided recall, or sleep and necessary supports were removed
+      to prove discipline.
+    inconclusive: The material was reread repeatedly without a closed-reference attempt, correction or
+      delayed test.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for The science of learning.
+    context_heading: Learn six ideas through recall, correction and a delayed transfer test
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for The science
       of learning.
   check_in_labels:
-    c1001_a1_primary: The bounded The science of learning criterion for action 1 was observed
+    c1001_a1_primary: 'Observed checks: study an example and retrieve before looking again'
     c1001_a1_boundary: Action 1 stayed inside its stated The science of learning boundary
     c1001_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1001_a2_primary: The bounded The science of learning criterion for action 2 was observed
+    c1001_a2_primary: 'Observed checks: space and mix the second practice instead of repeating recognition'
     c1001_a2_boundary: Action 2 stayed inside its stated The science of learning boundary
     c1001_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1001_a3_primary: The bounded The science of learning criterion for action 3 was observed
+    c1001_a3_primary: 'Observed checks: test delayed retention and unfamiliar application'
     c1001_a3_boundary: Action 3 stayed inside its stated The science of learning boundary
     c1001_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited The science of learning
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which idea felt familiar yet could not be recalled or applied, and how will that change
+    the next study session? Completion is not mastery.
+  plain_language_evidence: The learner corrected a mean–median confusion, recalled it after a week and
+    applied both measures to the new uneven dataset.
   display_order: 124
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '10.01'
+  title: Learn, retrieve, correct and check a new application
+  scored: false
+  sections:
+  - id: how-to-use
+    kind: concept
+    title: What this practice can show
+    body: This is a small learning-method trial. Reading a solution, retrieving it from memory, explaining
+      it with help, and applying it to unfamiliar material provide different observations. None alone
+      establishes broad learning ability. Use each prompt once before opening its check, keep the first
+      response, then correct a specific error. The intended schedule is day one, the next day, and about
+      a week later; record what actually happened. A gap on a calendar does not prove retention.
+  - id: learning-methods
+    kind: concept
+    title: What each learning method asks you to do
+    body: Retrieval means producing an answer before reopening its explanation; recognizing a familiar
+      sentence is different. Spacing means returning after a recorded interval rather than doing every
+      attempt together. Interleaving means switching between question types so you must choose the method,
+      rather than applying the same operation repeatedly. Elaboration means explaining why a method works
+      and when it would be wrong. Worked and contrasting examples let you compare those choices. Feedback
+      is checking the preserved attempt and correcting a specific error, not replacing the first response
+      with a neat copy. Keep ordinary sleep, rest and necessary access supports; this exercise neither
+      measures sleep nor prescribes a sleep schedule. The sessions below put these methods into a small
+      trial; they cannot determine which method caused any change.
+  - id: six-ideas
+    kind: concept
+    title: Six ideas to learn
+    body: 'Mean: add the values and divide by their count. Median: sort the values; select the middle
+      value for an odd count, or average the two middle values for an even count. Range: subtract the
+      smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole
+      example it counts the chosen equal parts. Denominator: the number below the bar; in that example
+      it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity scale,
+      such as minutes or meters; it gives a measured number meaning.
+
+
+      For the mean, a fair-share interpretation helps: redistribute the total equally across the recorded
+      items. Sorting changes order, not the values. A median uses position after sorting; the mean uses
+      every value. A range describes the distance between the extremes, not the typical value. These are
+      definitions and a bounded teaching example, not a claim that this exercise is a validated intervention.'
+  - id: worked-even
+    kind: worked_example
+    title: 'Worked example: an even set'
+    body: Four waiting times are 2, 4, 6 and 8 minutes. Their sum is 20 minutes and count is 4, so the
+      mean is 20/4 = 5 minutes. The middle values are 4 and 6, so the median is (4+6)/2 = 5 minutes. The
+      range is 8−2 = 6 minutes. In 3/4 of a one-meter strip, 3 is the numerator and 4 is the denominator;
+      the length is three quarters of a meter.
+  - id: session-record
+    kind: material
+    title: Private session record
+    body: 'Use one copy per session. Session: [first / second / delayed]. Actual date and interval since
+      first and previous attempt: __. Intended next session: __. For each of the six ideas record: original
+      explanation | unaided / cued / looked-up / open explanation | correct / partial / incorrect / unattempted
+      | correction with reason. For each application keep calculation, unit and explanation before checking.
+      Access aids used: __. Content help used: __. Specific unresolved error: __. Next question or example
+      to try, and planned interval: __. A blank is unattempted, a wrong answer is an attempt, and a corrected
+      answer does not erase the first result.'
+  - id: worked-skew
+    kind: worked_example
+    title: 'Worked example: the summaries differ'
+    body: 'For 1, 2 and 9 minutes, the sum is 12 minutes and count is 3: mean 4 minutes. The sorted middle
+      value gives median 2 minutes. Range is 9−1 = 8 minutes. The mean and median answer different questions;
+      an unusually large value affects the mean while it may leave the middle position unchanged. If you
+      obtained median 4, check whether you averaged when the question asked for the sorted middle.'
+  - id: first-recall
+    kind: prompt
+    title: First recall and application
+    body: '1. Explain mean.
+
+      2. Explain median, including what happens with an even count.
+
+      3. Explain range.
+
+      4. Identify and explain a numerator.
+
+      5. Identify and explain a denominator, including its nonzero condition.
+
+      6. Explain why a unit belongs with a measured number.
+
+
+      Apply: for 2, 4 and 6 minutes, find the mean, median and range. Explain your method. Then explain
+      why mean and median need not be equal in every dataset. Keep this response before opening the check.'
+    check_id: first-key
+    attempt_mode: unaided
+    references:
+    - session-record
+  - id: second-mixed
+    kind: prompt
+    title: Second mixed practice
+    body: '1. Explain range, then find it for 3, 5 and 8 minutes.
+
+      2. Explain numerator and denominator; identify both in 3/7 and state the denominator restriction.
+
+      3. Explain mean and how its operation differs from range.
+
+      4. Explain why five minutes and five meters cannot be added as one measured quantity.
+
+      5. Explain median, including an even count, and why it can differ from the mean.
+
+      6. Explain why units belong with measured numbers.
+
+
+      Switch between definitions and applications without reopening the teaching. Record the actual interval
+      and keep your original responses before checking.'
+    check_id: second-key
+    attempt_mode: unaided
+    references:
+    - session-record
+  - id: delayed-transfer
+    kind: prompt
+    title: Delayed recall and new application
+    body: '1. Explain mean.
+
+      2. Explain median, including what happens with an even count.
+
+      3. Explain range.
+
+      4. Identify and explain a numerator.
+
+      5. Identify and explain a denominator, including its nonzero condition.
+
+      6. Explain why a unit belongs with a measured number.
+
+
+      New application: three waiting times are 2, 5 and 11 minutes. Find the mean, median and range. Now
+      change only the largest time from 11 to 17 minutes. Recalculate all three summaries, state each
+      change in minutes, and explain which summary changes most and why. Record the actual delay and any
+      help. Keep the attempt before opening its check.'
+    check_id: delayed-key
+    attempt_mode: unaided
+    references:
+    - session-record
+  - id: support-paths
+    kind: pathway
+    title: Choose an honest way to attempt
+    body: Audio, large print, accessible input and tactile counters can remain available throughout. Distinguish
+      access support from content assistance. Unaided means the response preceded content cues or answer
+      access; cued means a hint was used; looked-up means the reference supplied information; open explanation
+      means you intentionally reasoned with the reference available. Do not erase supported responses.
+      If recalling math definitions is already easy, use six unfamiliar ideas from a source you can actually
+      inspect, predeclare an equivalent unseen application and a reliable checking method, and preserve
+      those materials; the supplied arithmetic route remains the complete default.
+  - id: next-review
+    kind: next_step
+    title: Choose the next review from the error
+    body: Privately note idea, original response, support, check result, corrected reasoning and next
+      review. A complete answer with a wrong method needs a method correction; a correct definition with
+      a wrong application needs a new example. Missing units need an explicit quantity check. Keep one
+      specific unresolved point for another spaced attempt and record the interval you can actually use.
+      The exercise observes these responses; it does not establish long-term change beyond the sessions
+      performed.
+  checks:
+  - id: first-key
+    title: Check the first attempt
+    body: 'Mean: add the values and divide by their count. Median: sort the values; select the middle
+      value for an odd count, or average the two middle values for an even count. Range: subtract the
+      smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole
+      example it counts the chosen equal parts. Denominator: the number below the bar; in that example
+      it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity scale,
+      such as minutes or meters; it gives a measured number meaning.
+
+
+      For 2, 4 and 6 minutes: sum 12, count 3, mean 4 minutes; median 4 minutes; range 4 minutes. Equality
+      here does not make the definitions interchangeable. A valid explanation distinguishes using all
+      values from using sorted middle position.'
+    criteria: &id001
+    - Check the original response before correcting it; do not replace the first attempt with the key.
+    - Each definition must explain its operation or meaning, not merely name the word.
+    - Calculations must match the supplied values and use the given units.
+    - Separate an incorrect response from an unattempted one; record support and actual delay without
+      treating either as a personal score.
+  - id: second-key
+    title: Check the second attempt
+    body: 'Mean: add the values and divide by their count. Median: sort the values; select the middle
+      value for an odd count, or average the two middle values for an even count. Range: subtract the
+      smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole
+      example it counts the chosen equal parts. Denominator: the number below the bar; in that example
+      it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity scale,
+      such as minutes or meters; it gives a measured number meaning.
+
+
+      Range is 8−3 = 5 minutes. The denominator in 3/7 is 7. Minutes measure time and meters measure length,
+      so these cannot be combined by adding their bare numbers into one of those quantities. In 3/7, the
+      numerator is 3. The mean uses the total and count, whereas range uses only the smallest and largest
+      values.'
+    criteria: *id001
+  - id: delayed-key
+    title: Check the delayed application
+    body: 'Mean: add the values and divide by their count. Median: sort the values; select the middle
+      value for an odd count, or average the two middle values for an even count. Range: subtract the
+      smallest value from the largest. Numerator: the number above the fraction bar; in a parts-of-a-whole
+      example it counts the chosen equal parts. Denominator: the number below the bar; in that example
+      it states how many equal parts form the whole, and it cannot be zero. Unit: the named quantity scale,
+      such as minutes or meters; it gives a measured number meaning.
+
+
+      For 2, 5 and 11 minutes: sum 18 and count 3 give mean 6 minutes; median 5 minutes; range 9 minutes.
+      For 2, 5 and 17: sum 24 gives mean 8 minutes; median 5 minutes; range 15 minutes. Changes are mean
+      +2, median 0, range +6 minutes. The range changes most: its upper endpoint increased by six while
+      its lower endpoint stayed fixed. The mean spreads that six-minute increase across three observations.
+      The sorted middle stays 5. A response giving median 6 confuses the mean with the middle; a response
+      saying all summaries increase by six does not follow the definitions.'
+    criteria: *id001

@@ -1,0 +1,10 @@
+APP_DATA_DIR="/workspace/scratch/16fa3a306990/gitg-self-host/var" DJANGO_SECRET_KEY=local-development-secret APP_DEBUG=true \
+	.venv/bin/python manage.py generate_practice_reports
+Generated practice-content reports: reports/practice-content/competency_coverage_v1.csv, reports/practice-content/coverage_summary_v1.json, reports/practice-content/risk_register_v1.csv, reports/practice-content/content_originality_v1.json
+APP_DATA_DIR="/workspace/scratch/16fa3a306990/gitg-self-host/var" DJANGO_SECRET_KEY=local-development-secret APP_DEBUG=true \
+	.venv/bin/python manage.py generate_competency_evidence_reports
+Generated competency-evidence reports: reports/practice-content/m6d_01_cohort_readiness_v1.json
+.venv/bin/python scripts/catalog_governance_audit.py
+catalog_governance_audit=generated changed=4
+.venv/bin/python scripts/composite_scoring_catalog.py
+wrote reports/practice-content/composite_scoring_catalog_v1.json (1624ce4dd122c053f07685b6bc3d0fd9e95a55439403e8d30a6f11309682809e)

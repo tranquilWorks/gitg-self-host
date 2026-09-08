@@ -446,7 +446,7 @@ def test_repository_report_is_current_and_does_not_accept_recovered_drafts():
     expected = json.loads((ROOT / reviews.QUALITY / "current-report.json").read_text())
     assert actual == expected
     assert actual["recovered_drafts"] == 383
-    assert actual["tailored_runtime"] == 91 and actual["runtime_rewrites_pending"] == 292
+    assert actual["tailored_runtime"] == 94 and actual["runtime_rewrites_pending"] == 289
     assert all(n == 0 for n in actual["counts"].values())
     assert actual["invalid_current_receipts"] == 0
 
