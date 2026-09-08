@@ -1424,3 +1424,20 @@ eight participant evidence axes remain incomplete and not established with
 psychometric, fairness, accessibility-population, cultural, participant,
 clinical, longitudinal, release, deployment, mastery, and effectiveness gates
 remain open.
+
+# M6K-01-02 review evidence continuation — 2026-09-08
+
+PR #67 merged as `1a5ca67364a5a3025d32d17a0ebffb58688f4875`. The next bounded
+software batch adds `docs/plans/m6k/reviews.py`, strict ledger/receipt/scope-plan
+schemas, per-entry revision fingerprints, current report generation, and
+negative fixtures for mechanical and evidence-claim defects. See
+`docs/plans/m6k/REVIEW_IMPLEMENTATION.md` for recording and pinned-base history
+checks. A draft record is never a review acceptance.
+
+The runtime remains 91 tailored / 292 rewrite-pending with all 383 recovered
+sources available. All seven formal quality dimensions remain at zero passed.
+Instructional support's remaining hosted/browser verification is not silently
+closed; M6K-01-03 and the five demonstrated repairs remain subsequent work.
+This batch changes no curriculum, runtime package, action unit, score or retained
+participant evidence. Draft publication does not authorize auto-merge, deployment
+or human/qualified acceptance.
