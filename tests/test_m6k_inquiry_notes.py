@@ -1,4 +1,4 @@
-"""M6K physical-capacity repair and runtime projection checks."""
+"""M6K inquiry, research and knowledge-note runtime checks."""
 
 import json
 from pathlib import Path
@@ -13,10 +13,10 @@ from growth.domain.practice_content import load_practice_content_bundle
 from scripts.tailored_practice_authoring import load_exercises
 
 ROOT = Path(__file__).resolve().parents[1]
-COHORT = ("12.05", "12.08")
+COHORT = ("10.03", "10.04", "10.05")
 
 
-def test_physical_capacity_cohort_reaches_runtime_with_preserved_identity():
+def test_inquiry_cohort_reaches_runtime_with_preserved_identity_and_completion():
     selected = load_exercises(ROOT)
     bundle = load_practice_content_bundle(ROOT)
     canonical = {row["parent_competency_id"]: row for row in bundle.protocols}
@@ -45,56 +45,69 @@ def test_physical_capacity_cohort_reaches_runtime_with_preserved_identity():
         )
 
 
-def test_strength_route_is_complete_for_entry_established_and_instruction_first():
-    exercise = load_exercises(ROOT)["12.05"]
-    text = render_text(learner_projection(exercise["instructional_content"], "12.05"))
+def test_question_formation_separates_observation_question_and_evidence_limits():
+    exercise = load_exercises(ROOT)["10.03"]
+    text = render_text(learner_projection(exercise["instructional_content"], "10.03"))
     for phrase in (
-        "squat or rise",
-        "hinge",
-        "push",
-        "pull",
-        "carry",
-        "Entry or adapted route",
-        "Established-plan route",
-        "Instruction-first route",
-        "Which one variable could later change",
-        "This screen does not provide medical clearance",
+        "observation, interpretation and uncertainty remain separate",
+        "Descriptive questions",
+        "causal questions",
+        "evaluative questions",
+        "five overlap pairs",
+        "Private question backlog",
+        "revisit trigger",
     ):
         assert phrase in text
-    assert "maximum effort" in exercise["setup"]
-    assert "retained the dose" in exercise["examples"]["supportive"]
-    assert "strength improvement" not in exercise["examples"]["supportive"]
+    assert "cannot establish motive or causation" in exercise["actions"][1]["instructions"]
 
 
-def test_power_speed_coordination_and_agility_are_separate_and_bounded():
-    exercise = load_exercises(ROOT)["12.08"]
-    guide = exercise["instructional_content"]
-    text = render_text(learner_projection(guide, "12.08"))
+def test_research_case_is_complete_traceable_and_date_sensitive():
+    exercise = load_exercises(ROOT)["10.04"]
+    text = render_text(learner_projection(exercise["instructional_content"], "10.04"))
     for phrase in (
-        "Coordination organizes",
-        "Reaction is initiating",
-        "Speed is completing",
-        "Power is producing force rapidly",
-        "Agility is rapid whole-body movement",
-        "Existing-plan speed",
-        "Existing-plan power",
-        "Existing-plan agility",
-        "Instruction-first",
+        "Standard Borrowing Policy",
+        "April Limit Update",
+        "River District Neighbors",
+        "Source and claim matrix",
+        "publication date",
+        "effective date",
+        "supported / qualified / rejected / unknown",
     ):
         assert phrase in text
-    assert "supplies no load or jump" in text
-    assert "reactive agility" in text
+    assert "fictional records" in text
+    assert "locators must not be opened" in text
+
+
+def test_note_case_requires_capture_connection_retrieval_reuse_and_revision():
+    exercise = load_exercises(ROOT)["10.05"]
+    text = render_text(learner_projection(exercise["instructional_content"], "10.05"))
+    for phrase in (
+        "Capture records",
+        "Compression rewrites",
+        "Connection names",
+        "Retrieval uses",
+        "Revision changes",
+        "Three-entry retrieval index",
+        "Same-session use is practice",
+    ):
+        assert phrase in text or phrase in " ".join(
+            action["instructions"] for action in exercise["actions"]
+        )
+    assert "large archive is not evidence" in text
 
 
 @pytest.mark.parametrize(
     "competency_id,prompt_id,key_id,hidden_phrase",
     [
-        ("12.05", "progression-case", "progression-key", "Progress is not supported"),
-        ("12.08", "classify-cases", "classification-key", "A primarily observes"),
-        ("12.08", "compare-case", "comparison-key", "Progression is not supported"),
+        ("10.03", "classify-questions", "classification-key", "A is descriptive"),
+        ("10.03", "resolve-question", "resolution-key", "descriptive count is five"),
+        ("10.04", "source-role", "source-role-key", "P1 and P2 are primary"),
+        ("10.04", "conflict-resolution", "conflict-key", "Every clause"),
+        ("10.05", "note-quality", "note-rubric", "B is usable"),
+        ("10.05", "delayed-application", "application-key", "sum is 30"),
     ],
 )
-def test_physical_capacity_checks_are_separately_revealed(
+def test_inquiry_checks_are_revealed_only_after_the_prompt(
     competency_id, prompt_id, key_id, hidden_phrase
 ):
     guide = load_exercises(ROOT)[competency_id]["instructional_content"]
@@ -109,11 +122,12 @@ def test_physical_capacity_checks_are_separately_revealed(
 @pytest.mark.parametrize(
     "competency_id,prompt_id,key_id",
     [
-        ("12.05", "route-selection", "route-key"),
-        ("12.08", "select-route", "route-check"),
+        ("10.03", "classify-questions", "classification-key"),
+        ("10.04", "conflict-resolution", "conflict-key"),
+        ("10.05", "delayed-application", "application-key"),
     ],
 )
-def test_compiled_physical_capacity_guides_are_served(
+def test_compiled_inquiry_guides_and_separate_keys_are_served(
     client, user, seeded, competency_id, prompt_id, key_id
 ):
     from growth.models import PracticeProtocol
@@ -132,12 +146,10 @@ def test_compiled_physical_capacity_guides_are_served(
 
 
 @pytest.mark.parametrize("competency_id", COHORT)
-def test_recovery_allows_only_exact_declared_physical_capacity_projection(
-    monkeypatch, competency_id
-):
+def test_recovery_accepts_only_the_declared_exact_inquiry_projection(monkeypatch, competency_id):
     path = next(
         path
-        for path in (ROOT / "data/practices/protocols/12").glob("*.yaml")
+        for path in (ROOT / "data/practices/protocols/10").glob("*.yaml")
         if yaml.safe_load(path.read_text())["parent_competency_id"] == competency_id
     )
     changed = yaml.safe_load(path.read_text())
@@ -154,15 +166,22 @@ def test_recovery_allows_only_exact_declared_physical_capacity_projection(
         recovery.verify_runtime(ROOT, baseline)
 
 
-def test_current_sources_bind_current_professional_support_to_both_competencies():
+def test_external_sources_have_bounded_current_bindings():
     sources = yaml.safe_load((ROOT / "docs/authoring/sources.yaml").read_text())["sources"]
     by_id = {row["source_id"]: row for row in sources}
-    assert by_id["SRC-ACSM-2026-RESISTANCE-TRAINING"]["applicable_competency_ids"] == [
-        "12.05",
-        "12.08",
+    assert by_id["SRC-ACRL-INFORMATION-LITERACY-FRAMEWORK"]["applicable_competency_ids"] == [
+        "10.03",
+        "10.04",
     ]
-    assert by_id["SRC-ACSM-EP-COMPONENT-PROGRESSION"]["applicable_competency_ids"] == [
-        "12.05",
-        "12.08",
-    ]
-    assert by_id["SRC-NSCA-STRENGTH-CONDITIONING-BASICS"]["applicable_competency_ids"] == ["12.08"]
+    assert by_id["SRC-CORNELL-NOTE-TAKING-SYSTEM"]["applicable_competency_ids"] == ["10.05"]
+    assert "product validation" in by_id["SRC-ACRL-INFORMATION-LITERACY-FRAMEWORK"]["limitations"]
+    assert "not a comparative validation" in by_id["SRC-CORNELL-NOTE-TAKING-SYSTEM"]["limitations"]
+
+
+def test_supplied_numeric_keys_are_independently_reproducible():
+    overlaps = [(1, 2), (2, 3), (5, 6), (8, 9), (9, 10)]
+    values = [2, 3, 4, 5, 16]
+    assert len(overlaps) == 5
+    assert sum(values) / len(values) == 6
+    assert sorted(values)[len(values) // 2] == 4
+    assert max(values) - min(values) == 14

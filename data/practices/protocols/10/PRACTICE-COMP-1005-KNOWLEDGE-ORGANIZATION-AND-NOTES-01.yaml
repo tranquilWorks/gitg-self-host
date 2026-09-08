@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1005-KNOWLEDGE-ORGANIZATION-AND-NOTES-01
 slug: c1005-knowledge-organization-and-notes-practice
-name: Bounded Knowledge organization and notes Practice
+name: Build, retrieve and revise one source-linked note for a later problem
 parent_competency_id: '10.05'
 domain_id: '10'
 governance:
@@ -14,10 +14,10 @@ governance:
   scoring_status: active
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
+  - SRC-CORNELL-NOTE-TAKING-SYSTEM
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 10.05
-      (Knowledge organization and notes); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 10.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +35,49 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Knowledge organization and notes through a low-stakes skill rehearsal bounded by
-    the canonical scope: Capture, compress, connect, retrieve, and revise information in a sustainable
-    system.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can find and reuse
-    prior knowledge when solving a new problem. The protocol creates a small opportunity to examine that
-    target without treating completion as broad capability.'
+  purpose: Capture, compress, connect and retrieve a small piece of knowledge, then revise the note after
+    attempting to use it on a new task.
+  why_recommended: Capture, compress, connect and retrieve a small piece of knowledge, then revise the
+    note after attempting to use it on a new task.
   claims:
-  - statement: Using the canonical scope and evidence target for Knowledge organization and notes is a
-      traceable product-design basis for a source-only draft protocol.
+  - statement: Capture, compress, connect and retrieve a small piece of knowledge, then revise the note
+      after attempting to use it on a new task.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  - statement: Cornell's learning-strategy guidance presents note-taking as a purpose-driven practice,
+      encourages examining current methods, trying different strategies and assessing which strategy fits
+      the situation rather than imposing one medium or system.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-CORNELL-NOTE-TAKING-SYSTEM
+    limitations: General university learning guidance, not a comparative validation of paper over every
+      accessible digital method and not evidence that the product-authored atomic note, index or delayed
+      application improves retention. The proprietary Canvas module and videos were not reproduced.
   applicability_question: Does a voluntary, bounded Knowledge organization and notes practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Knowledge organization and notes as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Knowledge organization
-    and notes context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Knowledge
-    organization and notes; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use an audio note, large print, a tactile index or a single accessible document.
+    External supports are legitimate; distinguish finding a note from unaided recall. Use non-sensitive
+    examples and avoid automatically syncing confidential material.
+  opportunity_considerations: Use the supplied averages source card, atomic-note template, three-entry
+    index and delayed application. Paper, local text, audio or another accessible private medium is sufficient.
+    Keep the source label, your own compressed explanation, a worked example, one meaningful connection,
+    a retrieval cue and a revision history; no particular note application or large archive is required.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Knowledge organization and notes.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the supplied averages source card, atomic-note template, three-entry index and delayed application.
+    Paper, local text, audio or another accessible private medium is sufficient. Keep the source label,
+    your own compressed explanation, a worked example, one meaningful connection, a retrieval cue and
+    a revision history; no particular note application or large archive is required.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Knowledge organization and notes
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use an audio note, large print, a tactile index or a single accessible document. External supports
+    are legitimate; distinguish finding a note from unaided recall. Use non-sensitive examples and avoid
+    automatically syncing confidential material.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -79,21 +89,34 @@ meaning_and_fit:
   - The practice does not require one worldview or treat disagreement about Knowledge organization and
     notes as inferiority; competing reasonable interpretations and conscientious refusal remain visible.
 intervention:
-  protocol_class: PF-SKILL-REHEARSAL
+  protocol_class: PF-KNOWLEDGE-APPLICATION
   duration_days: 10
-  cadence: Complete three bounded Knowledge organization and notes actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Knowledge organization and notes; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Knowledge
-    organization and notes. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Knowledge organization and notes actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the supplied averages source card, atomic-note template, three-entry index and delayed application.
+    Paper, local text, audio or another accessible private medium is sufficient. Keep the source label,
+    your own compressed explanation, a worked example, one meaningful connection, a retrieval cue and
+    a revision history; no particular note application or large archive is required. Goal: Capture, compress,
+    connect and retrieve a small piece of knowledge, then revise the note after attempting to use it on
+    a new task. Scope: This tests a minimal knowledge system, not a requirement to build a large archive
+    or adopt a particular application. Stored volume is not evidence of learning or usefulness. Time and
+    effort: Twenty minutes to make one note and fifteen minutes to retrieve and apply it several days
+    later. Adaptation: Use an audio note, large print, a tactile index or a single accessible document.
+    External supports are legitimate; distinguish finding a note from unaided recall. Use non-sensitive
+    examples and avoid automatically syncing confidential material. Keep personal working notes outside
+    the check-in; record only the listed observations.
+
+
+    Reference support:
+
+    The Cornell Note Taking System: https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use an audio note, large print, a tactile index or a single accessible document.
+    External supports are legitimate; distinguish finding a note from unaided recall. Use non-sensitive
+    examples and avoid automatically syncing confidential material.
+  expected_burden: Twenty minutes to make one note and fifteen minutes to retrieve and apply it several
+    days later.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Knowledge organization and notes protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +124,25 @@ intervention:
   - Treating a completed Knowledge organization and notes action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Knowledge organization and notes situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use an audio
+    note, large print, a tactile index or a single accessible document. External supports are legitimate;
+    distinguish finding a note from unaided recall. Use non-sensitive examples and avoid automatically
+    syncing confidential material.
   actions:
   - stable_id: PRACTICE-COMP-1005-KNOWLEDGE-ORGANIZATION-AND-NOTES-01-A1
     sequence: 1
-    title: Define observable criteria for Knowledge organization and notes
-    instructions: 'Select one safe, lawful, low-stakes component of Knowledge organization and notes.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Capture,
-      compress, connect, retrieve, and revise information in a sustainable system.'
+    title: Capture only enough to answer a future question
+    instructions: 'Read the supplied source card, then close it and draft one note with a descriptive
+      title, source label, own-words explanation, worked 1-2-9 example, future-use question and retrieval
+      cue. Reopen the card, correct any distorted definition or arithmetic and retain the original correction.
+      Complete the note-quality prompt before revealing its rubric. Do not copy the entire card or replace
+      a missing idea with decorative formatting, links or a large tag hierarchy.
+
+
+      Observation checks: The note has a findable descriptive title; Definitions and example are compressed
+      accurately; The source can be identified; A concrete future-use question guides what is retained.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +164,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1005_a1_skill_component_bounded
-        - c1005_a1_observable_rubric_present
-        - c1005_a1_error_or_stop_defined
+        - the_note_has_a_findable_descriptive_title
+        - definitions_and_example_are_compressed_accurately
+        - the_source_can_be_identified
+        - a_concrete_future_use_question_guides_what_is_retained
       - measurement_id: c1005_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +184,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1005-KNOWLEDGE-ORGANIZATION-AND-NOTES-01-A2
     sequence: 2
-    title: Rehearse Knowledge organization and notes twice
-    instructions: Perform two bounded attempts of the selected Knowledge organization and notes component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Connect the note to one existing task and test retrieval
+    instructions: 'Add the note to the supplied three-entry index under one meaningful work or learning
+      context. Close it and use only the declared cue or index to find it; record found, found with alternate
+      route, not found or support needed, plus the actual route. Explain the example without reading every
+      sentence, then distinguish retrieval of the note from unaided recall of its contents. Repair one
+      barrier such as an ambiguous title, broken locator or unexplained connection and retest once.
+
+
+      Observation checks: One meaningful task connection is explicit; The note is found through its intended
+      retrieval route; The connection is not merely an unexplained tag; A discovered retrieval barrier
+      is corrected. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +211,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1005_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - one_meaningful_task_connection_is_explicit
+        - the_note_is_found_through_its_intended_retrieval_route
+        - the_connection_is_not_merely_an_unexplained_tag
+        - a_discovered_retrieval_barrier_is_corrected
       - measurement_id: c1005_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +237,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1005-KNOWLEDGE-ORGANIZATION-AND-NOTES-01-A3
     sequence: 3
-    title: Use feedback for one Knowledge organization and notes retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Can find
-      and reuse prior knowledge when solving a new problem.'
+    title: Use it on a new problem and revise its weak point
+    instructions: 'After an actual delay when feasible, use the index to find the note before opening
+      the application key. Apply it to 2, 3, 4, 5 and 16; preserve calculations, units, interpretation
+      and any content help. Explain which summary is pulled by the extreme and what neither number says
+      about spread. Open the key, then append one precise correction, limitation or better cue with date
+      and reason. Same-session use is practice but must not be labeled delayed retrieval.
+
+
+      Observation checks: A delayed retrieval is attempted; A new problem is solved using the note; The
+      note’s limitation is identified during use; A specific revision improves future retrieval or application.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.
+
+
+      Final review: What did the later task reveal that your original note captured poorly or made hard
+      to find?
+
+
+      Examples: Supportive: The note was retrieved through a simple planning index, used on a new dataset
+      and amended to include a spread warning.
+
+
+      Mixed: The information was accurate but buried under an unhelpful title, so retrieval required rebuilding
+      the index.
+
+
+      Contradictory: A large copied archive was called knowledge despite no source control, retrieval
+      test or use.
+
+
+      Inconclusive: The note was formatted and tagged but never found again or applied to another problem.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +289,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1005_a3_feedback_item_selected
-        - c1005_a3_adjustment_traceable
-        - c1005_a3_retry_result_preserved
+        - a_delayed_retrieval_is_attempted
+        - a_new_problem_is_solved_using_the_note
+        - the_note_s_limitation_is_identified_during_use
+        - a_specific_revision_improves_future_retrieval_or_application
       - measurement_id: c1005_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +313,17 @@ intervention:
       Knowledge organization and notes; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Knowledge organization and notes; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use an audio note, large print, a tactile index or a single accessible document. External supports
+      are legitimate; distinguish finding a note from unaided recall. Use non-sensitive examples and avoid
+      automatically syncing confidential material.
     cultural_context:
     - Adapt the expression of Knowledge organization and notes to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Knowledge organization and notes opportunity is unavailable or inappropriate, use a
-      fictional, historical, public, simulated, or planning-only equivalent and retain the narrower evidence
-      classification.
+    - Use an audio note, large print, a tactile index or a single accessible document. External supports
+      are legitimate; distinguish finding a note from unaided recall. Use non-sensitive examples and avoid
+      automatically syncing confidential material.
   pause_conditions:
   - Pause Knowledge organization and notes when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -287,10 +355,7 @@ evidence_and_scoring:
   - c1005_a3_boundary
   - c1005_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Knowledge organization and notes action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Knowledge organization and notes criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A large copied archive was called knowledge despite no source control, retrieval test or use.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Knowledge organization and notes explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +366,21 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Knowledge organization and notes rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can find and reuse prior knowledge when solving a new problem.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Knowledge organization and notes requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Capture only enough to answer a future question. Observed checks: The
+    note has a findable descriptive title; Definitions and example are compressed accurately; The source
+    can be identified; A concrete future-use question guides what is retained. Action 2: Connect the note
+    to one existing task and test retrieval. Observed checks: One meaningful task connection is explicit;
+    The note is found through its intended retrieval route; The connection is not merely an unexplained
+    tag; A discovered retrieval barrier is corrected. Action 3: Use it on a new problem and revise its
+    weak point. Observed checks: A delayed retrieval is attempted; A new problem is solved using the note;
+    The note’s limitation is identified during use; A specific revision improves future retrieval or application.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. The note was formatted and tagged but never found again
+    or applied to another problem.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Knowledge
     organization and notes contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -317,9 +389,8 @@ evidence_and_scoring:
   - L10
   - L15
   - L19
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Knowledge organization and notes evidence.
@@ -327,11 +398,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for knowledge organization and notes action was attempted or explicitly
-    deferred.
-  - The rehearse knowledge organization and notes twice action was attempted or explicitly deferred.
-  - The use feedback for one knowledge organization and notes retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Capture only enough to answer a future question. Observed checks: The note has a findable
+    descriptive title; Definitions and example are compressed accurately; The source can be identified;
+    A concrete future-use question guides what is retained.'
+  - 'Action 2: Connect the note to one existing task and test retrieval. Observed checks: One meaningful
+    task connection is explicit; The note is found through its intended retrieval route; The connection
+    is not merely an unexplained tag; A discovered retrieval barrier is corrected.'
+  - 'Action 3: Use it on a new problem and revise its weak point. Observed checks: A delayed retrieval
+    is attempted; A new problem is solved using the note; The note’s limitation is identified during use;
+    A specific revision improves future retrieval or application.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,57 +418,173 @@ completion_and_review:
     - c1005_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Knowledge organization and notes only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Knowledge organization and notes across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What did the later task reveal that your original note captured poorly or made
+    hard to find?
+  transfer_limit: This tests a minimal knowledge system, not a requirement to build a large archive or
+    adopt a particular application. Stored volume is not evidence of learning or usefulness.
   reflection:
-    before: What does Knowledge organization and notes require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Knowledge organization and notes criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can find and reuse prior knowledge when solving a new problem.',
-      what contradiction or missing context matters most, and should this Knowledge organization and notes
-      design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Capture, compress, connect and retrieve a
+      small piece of knowledge, then revise the note after attempting to use it on a new task.'
+    during: Which checks have actually been observed? The information was accurate but buried under an
+      unhelpful title, so retrieval required rebuilding the index.
+    after: What did the later task reveal that your original note captured poorly or made hard to find?
   review_guidance:
     repeat: Repeat the same bounded Knowledge organization and notes design only when the context and
       burden remain appropriate.
-    adapt: Change the Knowledge organization and notes medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use an audio note, large print, a tactile index or a single accessible document. External supports
+      are legitimate; distinguish finding a note from unaided recall. Use non-sensitive examples and avoid
+      automatically syncing confidential material.
     stop: Stop Knowledge organization and notes when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Knowledge organization and notes questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Knowledge organization and notes criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Knowledge organization and notes criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Knowledge organization and notes criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Knowledge organization and notes action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The note was retrieved through a simple planning index, used on a new dataset and amended
+      to include a spread warning.
+    mixed: The information was accurate but buried under an unhelpful title, so retrieval required rebuilding
+      the index.
+    contradictory: A large copied archive was called knowledge despite no source control, retrieval test
+      or use.
+    inconclusive: The note was formatted and tagged but never found again or applied to another problem.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Knowledge organization and notes.
+    context_heading: Build, retrieve and revise one source-linked note for a later problem
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Knowledge
       organization and notes.
   check_in_labels:
-    c1005_a1_primary: The bounded Knowledge organization and notes criterion for action 1 was observed
+    c1005_a1_primary: 'Observed checks: capture only enough to answer a future question'
     c1005_a1_boundary: Action 1 stayed inside its stated Knowledge organization and notes boundary
     c1005_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1005_a2_primary: The bounded Knowledge organization and notes criterion for action 2 was observed
+    c1005_a2_primary: 'Observed checks: connect the note to one existing task and test retrieval'
     c1005_a2_boundary: Action 2 stayed inside its stated Knowledge organization and notes boundary
     c1005_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1005_a3_primary: The bounded Knowledge organization and notes criterion for action 3 was observed
+    c1005_a3_primary: 'Observed checks: use it on a new problem and revise its weak point'
     c1005_a3_boundary: Action 3 stayed inside its stated Knowledge organization and notes boundary
     c1005_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Knowledge organization
-    and notes practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What did the later task reveal that your original note captured poorly or made hard
+    to find? Completion is not mastery.
+  plain_language_evidence: The note was retrieved through a simple planning index, used on a new dataset
+    and amended to include a spread warning.
   display_order: 127
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '10.05'
+  title: Make a small knowledge system prove itself through reuse
+  scored: false
+  sections:
+  - id: useful-note-model
+    kind: concept
+    title: Notes are interfaces to sources and future work
+    body: Capture records a source and relevant facts. Compression rewrites enough meaning to be useful
+      without copying everything. Connection names where or why the idea matters; a tag with no explained
+      relationship is not a connection. Retrieval uses a cue or index that can be tested. Revision changes
+      the note when use reveals an error, omission or poor route. A sustainable system minimizes maintenance
+      while preserving provenance, findability and use. Finding a note is different from recalling its
+      contents without help, and a large archive is not evidence that either occurred.
+  - id: averages-source
+    kind: material
+    title: Supplied source card — comparing averages
+    body: Source S1, “Small-set summary definitions,” Grounded Growth fictional teaching card, revision
+      1, 8 September 2026. Mean equals the sum of all values divided by their count. Median is the middle
+      value after sorting an odd-sized set; for an even-sized set it is the mean of the two middle values.
+      For 1, 2 and 9 minutes, mean = (1+2+9)/3 = 4 minutes and median = 2 minutes. The high value pulls
+      the mean above the median. Neither summary alone describes the full spread; range or the original
+      values may still matter. This card is supplied instructional material, not an external research
+      source.
+  - id: note-template
+    kind: material
+    title: Atomic note and revision template
+    body: 'Note ID and findable title: __. Source ID, title and revision: __. In my own words: __. Worked
+      example with units: __. Meaningful connection—this helps when __ because __. Future-use question:
+      __. Retrieval cue or index path: __. Known limit: __. Revision log: date | observed problem | exact
+      change | reason. Keep one idea cluster that can stand alone; split the note only when two parts
+      need different sources, cues or revision histories.'
+  - id: index-template
+    kind: material
+    title: Three-entry retrieval index and test log
+    body: 'The fictional index begins with: Planning estimates → Comparing averages → Note N1; Shopping
+      quantities → Unit conversion → Note N2; Reading queue → Source triage → Note N3. Replace N1’s title/path
+      with your final choice but leave N2 and N3 as distractors. Retrieval test: cue used | expected note
+      | found / alternate route / not found / support needed | elapsed band [under 1 minute / 1-3 / over
+      3] | barrier | repair | retest result. Time is diagnostic only, not a score, and accessibility support
+      remains available.'
+  - id: worked-note
+    kind: worked_example
+    title: Worked note that is compressed, connected and limited
+    body: 'N1 — “Mean reacts to extremes; median uses sorted position.” Source S1 rev 1. Mean shares the
+      total across all observations; median selects the middle position after sorting. For 1, 2, 9 minutes:
+      mean 4, median 2. Connection: when one planning estimate is unusually high, compare both before
+      presenting a typical duration. Future question: which summary changes more if only the highest value
+      increases? Cue: Planning estimates → Comparing averages. Limit: neither value reports the full spread.
+      This example supports later use without reproducing the entire source card.'
+  - id: note-quality
+    kind: prompt
+    title: Diagnose three candidate notes
+    body: 'Evaluate each candidate before opening the rubric. A: “Averages stuff,” no source, pasted full
+      card, tags math/data/useful. B: “Mean reacts to extremes; median uses position,” source S1 rev 1,
+      own-words distinction, correct 1-2-9 example, planning-estimate connection, cue and spread limit.
+      C: descriptive title and source, but says the median of 1, 2, 9 is 4 and has no future-use question.
+      Classify each as usable, partial or adverse and name the specific repair.'
+    check_id: note-rubric
+    attempt_mode: practice
+    references:
+    - averages-source
+    - note-template
+  - id: delayed-application
+    kind: prompt
+    title: Apply the retrieved note to a new dataset
+    body: After recording the actual delay and retrieval route, use the note to analyze 2, 3, 4, 5 and
+      16 minutes. Calculate mean and median with units. Explain which is more affected by the high value
+      and what information is still missing if these summaries are used for planning. State whether you
+      found the note, recalled the content without it, used a content hint or looked up the source. Propose
+      one exact revision, then preserve the attempt before opening the key.
+    check_id: application-key
+    attempt_mode: practice
+    references:
+    - note-template
+    - index-template
+  - id: format-pathways
+    kind: pathway
+    title: Keep the function while changing the medium
+    body: Use paper, local text, audio, images with alternative text, tactile labels or a supported index.
+      A helper may operate the medium while the learner chooses the title, source, explanation, connection
+      and revision. Advanced users may use a real technical note and test it against a new problem, but
+      confidential or licensed source material must stay in an authorized system. If the default arithmetic
+      is already routine, raise conceptual novelty, not archive size or software complexity.
+  - id: next-note
+    kind: next_step
+    title: Progress through spaced reuse and selective maintenance
+    body: Reuse the same note in another genuine task, or create one new note with a different source
+      and retrieval route. Periodically sample whether notes can be found and applied; revise or retire
+      failures instead of reorganizing everything. This exercise observes one note, one route and one
+      application. It does not establish long-term retention, broad knowledge management ability or the
+      superiority of one note-taking method.
+  checks:
+  - id: note-rubric
+    title: Check the candidate notes
+    body: 'B is usable for the supplied future task: it is accurately compressed, source-linked, connected,
+      cued and limited. C is partial but materially wrong; correct the median to 2 and add a future-use
+      question before relying on it. A is adverse for this purpose: copying preserves text but does not
+      provide a findable own-words explanation, source control, meaningful connection or tested cue. Decorative
+      tags do not repair those gaps.'
+    criteria:
+    - Accuracy and provenance are required before formatting or apparent completeness receives credit.
+    - Compression retains the mean-median distinction and correct example.
+    - A meaningful connection states where and why the note will be used.
+    - The cue, limitation and repair remain inspectable.
+  - id: application-key
+    title: Check the new application and revision
+    body: The sum is 30 across five values, so the mean is 6 minutes. The sorted middle is 4, so the median
+      is 4 minutes. The value 16 pulls the mean upward more than it changes the median’s position. Neither
+      summary states the range, individual values or shape of the set; here the range is 14 minutes. A
+      useful revision could add “inspect spread or original values before treating either summary as a
+      planning guarantee.” The evidence record must preserve the actual delay and distinguish note retrieval,
+      recall, cues and source lookup.
+    criteria:
+    - Mean is 6 minutes and median is 4 minutes with the calculation preserved.
+    - The explanation relates the extreme value to mean and median differently.
+    - Missing spread or distribution information is named.
+    - The revision responds to the observed use problem and the support/delay record is honest.

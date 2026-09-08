@@ -1,6 +1,29 @@
 # M6K — Competency quality remediation and acceptance
 
 
+## Inquiry and reusable-knowledge runtime cohort — 8 September 2026
+
+The continuation after merged PR #72 completes **10.03 Curiosity and question
+formation**, **10.04 Research and information gathering**, and **10.05 Knowledge
+organization and notes**. Compiler/runtime coverage is now **99 tailored / 284
+pending**. These IDs share an inquiry-to-reuse flow, which is the explicit reason for
+combining the maximum three allowed in one batch; each retains its own learner artifact,
+scope trace, checks, evidence and claim boundary.
+
+The complete fictional defaults require no private information or live web access.
+10.03 distinguishes observation from causal inference and keeps unresolved questions in
+an inspectable backlog. 10.04 maps claims to complete source records and applies authority,
+scope and effective dates. 10.05 tests whether one source-linked note can be found, used
+and revised after an honestly recorded delay. See
+`docs/authoring/M6K-INQUIRY-NOTES-SCOPE-MAP.md`, each competency's runtime reader and
+six separately revealed check files.
+
+The compiler preserves 383 protocols and 1,151 actions. Formal scope, instructional,
+cold-start, integration, actual learner, qualified and owner-review counts remain zero;
+authored coverage is not acceptance. Current external sources provide bounded professional
+context and do not validate the original exercises or establish broad transfer.
+
+
 ## Physical-capacity runtime cohort — 8 September 2026
 
 The continuation after the 94-competency learning/craft cohort completes the two

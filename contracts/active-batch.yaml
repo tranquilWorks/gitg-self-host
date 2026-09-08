@@ -1,21 +1,23 @@
 schema_version: 1
 batch:
-  id: M6K-PHYSICAL-CAPACITY-RUNTIME
-  title: Repair strength and movement-capacity pathways
+  id: M6K-INQUIRY-NOTES-RUNTIME
+  title: Turn inquiry into traceable, reusable knowledge
   goal: >-
-    Increase substantive tailored runtime coverage from 94 to 96 with the two remaining
-    demonstrated M6K repairs; preserve separate pending human and independent review.
+    Increase substantive tailored runtime coverage from 96 to 99 through three
+    tightly related but separately evidenced inquiry, research and note practices;
+    preserve separate pending formal and human review.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
     - docs/plans/m6k/README.md
     - docs/plans/m6k/REVIEW_RECORD.md
     - docs/plans/m6k/program.json
-    - https://github.com/tranquilWorks/gitg-self-host/issues/60
-  milestone: M6K-12.05-12.08
-  baseline_commit: 574dc81aae4939b17f80411154a3f3747657914e
+    - https://github.com/tranquilWorks/gitg-self-host/issues/61
+    - https://github.com/tranquilWorks/gitg-self-host/issues/62
+  milestone: M6K-10.03-10.05
+  baseline_commit: 8db9a1ffe7a9c980f0a391f0a4d1cf063e661e46
 dependencies:
-  - PR-71-content-head
+  - PR-72-merged
 scope:
   allowed_paths:
     - MANIFEST.tsv
@@ -24,20 +26,23 @@ scope:
     - docs/PROJECT_HANDOFF.md
     - docs/plans/m6k/README.md
     - docs/plans/m6k/runtime-projections.json
-    - docs/authoring/exercises/12.yaml
+    - docs/authoring/exercises/10.yaml
     - docs/authoring/sources.yaml
-    - docs/authoring/quality/12.05/**
-    - docs/authoring/quality/12.08/**
+    - docs/authoring/quality/10.03/**
+    - docs/authoring/quality/10.04/**
+    - docs/authoring/quality/10.05/**
     - docs/authoring/quality/current-report.json
-    - docs/authoring/M6K-PHYSICAL-CAPACITY-*.md
+    - docs/authoring/M6K-INQUIRY-NOTES-*.md
     - docs/evidence/**
-    - data/practices/protocols/12/PRACTICE-COMP-1205-STRENGTH-AND-MUSCULAR-CAPABILITY-01.yaml
-    - data/practices/protocols/12/PRACTICE-COMP-1208-POWER-SPEED-COORDINATION-AND-AGILITY-01.yaml
+    - data/practices/protocols/10/PRACTICE-COMP-1003-CURIOSITY-AND-QUESTION-FORMATION-01.yaml
+    - data/practices/protocols/10/PRACTICE-COMP-1004-RESEARCH-AND-INFORMATION-GATHERING-01.yaml
+    - data/practices/protocols/10/PRACTICE-COMP-1005-KNOWLEDGE-ORGANIZATION-AND-NOTES-01.yaml
     - data/practices/registries/source_registry.yaml
     - data/practices/release_manifest.yaml
     - reports/**
-    - tests/test_m6k_physical_capacity.py
+    - tests/test_m6k_inquiry_notes.py
     - tests/test_m6k_learning_craft.py
+    - tests/test_m6k_physical_capacity.py
     - tests/test_m6k_review_evidence.py
   forbidden_paths:
     - data/assessment/**
@@ -58,18 +63,21 @@ scope:
     - docs/plans/m6k/recovery/**
     - docs/authoring/quality/ledger.json
 acceptance:
-  - 'Exactly 12.05 and 12.08 become individually authored runtime practices: 96 tailored, 287 pending.'
-  - Strength maps major patterns and supplies entry, established-plan and instruction-first routes with technique, recovery and bounded progression.
-  - Power, speed, coordination, reaction and agility remain distinct, with separate prerequisites, materials, progression and safety limits.
+  - 'Exactly 10.03, 10.04 and 10.05 become individually authored runtime practices: 99 tailored, 284 pending.'
+  - Question formation separates observation, interpretation and uncertainty and retains an actionable backlog without causal overreach.
+  - Research supplies complete source records, contextual authority, claim-level provenance, effective-date conflict resolution and an honest stopping rule.
+  - Knowledge notes visibly capture, compress, connect, retrieve, apply and revise one source-linked note without equating archive size with learning.
+  - Each learner artifact includes complete fictional materials, separately revealed checks, success/partial/adverse/inconclusive examples and a concrete advanced route.
   - Preserve 383 protocol IDs, 1151 action IDs, parent mappings, completion rules, activation, scoring and immutable event replay.
   - Recovery archive stays byte-exact; prospective content is checked against pinned originals and exact compiler output.
-  - Formal independent, learner, qualified and owner acceptance are not inferred.
+  - Formal independent, actual learner, qualified and owner acceptance are not inferred.
 validation:
   local:
     - >-
-      .venv/bin/python -m pytest tests/test_m6k_physical_capacity.py
-      tests/test_m6k_learning_craft.py tests/test_tailored_practice_authoring.py
-      tests/test_m6k_recovery.py tests/test_m6k_review_evidence.py -q
+      .venv/bin/python -m pytest tests/test_m6k_inquiry_notes.py
+      tests/test_m6k_learning_craft.py tests/test_m6k_physical_capacity.py
+      tests/test_tailored_practice_authoring.py tests/test_m6k_recovery.py
+      tests/test_m6k_review_evidence.py -q
     - ./scripts/agent-verify.sh contract
     - make pilot-check curriculum-check competency-evidence-check
     - git diff --check
@@ -80,20 +88,22 @@ validation:
     - Compose backup restore and recreation
     - aggregate Pilot readiness gate
   focused_tests_to_add:
-    - Exact identity and completion preservation for both runtime projections
-    - Distinct component routes and prompt/key reveal boundaries
-    - Prospective invariant drift rejection and current source bindings
+    - Exact identity and completion preservation for all three runtime projections
+    - Prompt/key reveal isolation for six discriminating checks
+    - Current bounded source bindings and fictional-case arithmetic/date decisions
+    - Prospective invariant drift rejection for each selected package
 risk:
-  class: high
+  class: moderate
   hazards:
-    - an introductory chair rise is misrepresented as the whole strength competency
-    - tabletop coordination is misrepresented as power, speed or agility evidence
-    - a generic exercise is interpreted as medical clearance or a universal program
-    - task completion is confused with strength gain or athletic capability
+    - question quantity or confidence is mistaken for inquiry quality
+    - a descriptive count is promoted into an unsupported cause or motive
+    - polished citations obscure a source that lacks authority or does not support the claim
+    - a large or attractive note archive is mistaken for retrieval, application or learning
   stop_conditions:
     - historical event replay changes
-    - assessment or scoring mathematics changes
-    - a required route lacks prerequisites, stop conditions or an evidence boundary
+    - assessment, activation or scoring mathematics changes
+    - a prompt exposes its answer key before an attempt
+    - a promised fictional source, worksheet, index or key is missing
     - a required CI gate fails
 rollback:
   strategy: >-
@@ -101,7 +111,7 @@ rollback:
     never reinterpret existing event snapshots.
 evidence:
   output:
-    - docs/evidence/M6K-PHYSICAL-CAPACITY-RUNTIME.md
+    - docs/evidence/M6K-INQUIRY-NOTES-RUNTIME.md
   claim_boundary: >-
-    Authored educational practices and software verification; no medical clearance,
-    automatic human review or empirical validation acceptance.
+    Authored educational practices and software verification; no automatic formal,
+    independent learner, qualified, owner or empirical validation acceptance.
