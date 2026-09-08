@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1205-STRENGTH-AND-MUSCULAR-CAPABILITY-01
 slug: c1205-strength-and-muscular-capability-practice
-name: Bounded Strength and muscular capability Practice
+name: Build one capability-fit strength pathway with technique, recovery and progression evidence
 parent_competency_id: '12.05'
 domain_id: '12'
 governance:
@@ -14,10 +14,11 @@ governance:
   scoring_status: active
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
+  - SRC-ACSM-2026-RESISTANCE-TRAINING
+  - SRC-ACSM-EP-COMPONENT-PROGRESSION
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.05
-      (Strength and muscular capability); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,38 +36,67 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Strength and muscular capability through a qualified-support preparation bounded
-    by the canonical scope: Train major movement patterns progressively with sound technique and recovery.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Demonstrates measurable
-    strength improvement without avoidable injury. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Map the major strength patterns, choose an entry, established-plan or instruction-first route,
+    and compare two bounded sessions before making one justified progression decision.
+  why_recommended: Map the major strength patterns, choose an entry, established-plan or instruction-first
+    route, and compare two bounded sessions before making one justified progression decision.
   claims:
-  - statement: Using the canonical scope and evidence target for Strength and muscular capability is a
-      traceable product-design basis for a source-only draft protocol.
+  - statement: Map the major strength patterns, choose an entry, established-plan or instruction-first
+      route, and compare two bounded sessions before making one justified progression decision.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  - statement: The 2026 ACSM position-stand summary distinguishes strength, hypertrophy, power and physical-function
+      outcomes; emphasizes consistent resistance training over needless complexity; and recommends individualizing
+      training to goals, enjoyment and safety rather than using one rigid prescription.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-ACSM-2026-RESISTANCE-TRAINING
+    limitations: Guidance for resistance training in healthy adults, not medical clearance, rehabilitation
+      direction, a sport-specific program or evidence that this product-authored two-session practice
+      causes strength or power gains. Specific loads and volumes in the source are not adopted as universal
+      learner instructions.
+  - statement: Professional exercise programming treats strength, endurance and power as muscular-fitness
+      components and balance, agility and reaction time as neuromotor components; progression and modification
+      should respond to current health status, goals, conditioning and accessibility, with periodic reevaluation.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-ACSM-EP-COMPONENT-PROGRESSION
+    limitations: A certification task outline defining professional knowledge and skill, not a complete
+      training prescription, participant assessment, medical clearance or validation of the product-authored
+      route matrix and evidence checks.
   applicability_question: Does a voluntary, bounded Strength and muscular capability practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Strength and muscular capability as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Strength and muscular
-    capability context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Strength
-    and muscular capability; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use seated, assisted, isometric, band, machine, bodyweight or other familiar
+    equivalents already appropriate to the person; support is a legitimate condition, not a failed version.
+    Use the instruction-first route when safety, technique, equipment or progression is uncertain. Preserve
+    a rehabilitation or clinician plan and do not practice through injury, remove fall support, reveal
+    private health information or use exercise as a test of worth.
+  opportunity_considerations: Use the supplied pattern map, capability screen, two-session record and
+    separately revealed decision checks. Select one route. The entry route uses a familiar supported movement
+    such as the stable-chair rise default. The established-plan route uses one movement already present
+    in a qualified or competently established program. The instruction-first route prepares a useful consultation
+    instead of attempting an unfamiliar movement. No maximum effort, forced fatigue, new ballistic exercise
+    or removal of ordinary support is required.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Strength and muscular capability.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the supplied pattern map, capability screen, two-session record and separately revealed decision
+    checks. Select one route. The entry route uses a familiar supported movement such as the stable-chair
+    rise default. The established-plan route uses one movement already present in a qualified or competently
+    established program. The instruction-first route prepares a useful consultation instead of attempting
+    an unfamiliar movement. No maximum effort, forced fatigue, new ballistic exercise or removal of ordinary
+    support is required.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Strength and muscular capability
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use seated, assisted, isometric, band, machine, bodyweight or other familiar equivalents already appropriate
+    to the person; support is a legitimate condition, not a failed version. Use the instruction-first
+    route when safety, technique, equipment or progression is uncertain. Preserve a rehabilitation or
+    clinician plan and do not practice through injury, remove fall support, reveal private health information
+    or use exercise as a test of worth.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -78,21 +108,43 @@ meaning_and_fit:
   - The practice does not require one worldview or treat disagreement about Strength and muscular capability
     as inferiority; competing reasonable interpretations and conscientious refusal remain visible.
 intervention:
-  protocol_class: PF-QUALIFIED-CONSULTATION
+  protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Strength and muscular capability actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Strength and muscular capability; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Strength
-    and muscular capability. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Strength and muscular capability actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the supplied pattern map, capability screen, two-session record and separately revealed
+    decision checks. Select one route. The entry route uses a familiar supported movement such as the
+    stable-chair rise default. The established-plan route uses one movement already present in a qualified
+    or competently established program. The instruction-first route prepares a useful consultation instead
+    of attempting an unfamiliar movement. No maximum effort, forced fatigue, new ballistic exercise or
+    removal of ordinary support is required. Goal: Map the major strength patterns, choose an entry, established-plan
+    or instruction-first route, and compare two bounded sessions before making one justified progression
+    decision. Scope: This practice teaches strength-program reasoning and observes one already-safe movement.
+    It is not medical clearance, rehabilitation, a maximal-strength test or a universal prescription.
+    Two sessions cannot establish measurable strength gain across major patterns. Time and effort: About
+    thirty to forty-five minutes of planning, two short sessions on separate suitable days, and a ten-minute
+    recovery and progression review. Adaptation: Use seated, assisted, isometric, band, machine, bodyweight
+    or other familiar equivalents already appropriate to the person; support is a legitimate condition,
+    not a failed version. Use the instruction-first route when safety, technique, equipment or progression
+    is uncertain. Preserve a rehabilitation or clinician plan and do not practice through injury, remove
+    fall support, reveal private health information or use exercise as a test of worth. Keep personal
+    working notes outside the check-in; record only the listed observations.
+
+
+    Reference support:
+
+    ACSM Unveils Landmark 2026 Resistance Training Guidelines — First Update in 17 Years: https://acsm.org/resistance-training-guidelines-update-2026/
+
+    ACSM Certified Exercise Physiologist Exam Content Outline: https://acsm.org/wp-content/uploads/2024/12/ACSM-Certified-Exercise-Physiologist-Exam-Content-Outline.pdf'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use seated, assisted, isometric, band, machine, bodyweight or other familiar equivalents
+    already appropriate to the person; support is a legitimate condition, not a failed version. Use the
+    instruction-first route when safety, technique, equipment or progression is uncertain. Preserve a
+    rehabilitation or clinician plan and do not practice through injury, remove fall support, reveal private
+    health information or use exercise as a test of worth.
+  expected_burden: About thirty to forty-five minutes of planning, two short sessions on separate suitable
+    days, and a ten-minute recovery and progression review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Strength and muscular capability protocol to rank worth, coerce participation, demand disclosure,
@@ -100,19 +152,29 @@ intervention:
   - Treating a completed Strength and muscular capability action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Strength and muscular capability situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use seated,
+    assisted, isometric, band, machine, bodyweight or other familiar equivalents already appropriate to
+    the person; support is a legitimate condition, not a failed version. Use the instruction-first route
+    when safety, technique, equipment or progression is uncertain. Preserve a rehabilitation or clinician
+    plan and do not practice through injury, remove fall support, reveal private health information or
+    use exercise as a test of worth.
   actions:
   - stable_id: PRACTICE-COMP-1205-STRENGTH-AND-MUSCULAR-CAPABILITY-01-A1
     sequence: 1
-    title: Bound the qualified question for Strength and muscular capability
-    instructions: 'Turn Strength and muscular capability into one educational or planning question and
-      identify the qualification and jurisdiction needed to answer it. Use the canonical scope to separate
-      general learning from diagnosis, treatment, legal advice, financial advice, safeguarding decisions,
-      or other professional judgment: Train major movement patterns progressively with sound technique
-      and recovery.'
+    title: Map the patterns and choose a capability-fit route
+    instructions: 'Open the guide and map squat or rise, hinge, push, pull and carry to a familiar example,
+      accessible equivalent, not-currently-relevant status or instruction-needed status. Complete the
+      capability screen before selecting one pattern. Choose entry, established-plan or instruction-first;
+      do not select by pride or peer comparison. Record the movement, support, planned dose already known
+      to be tolerable, four technique and boundary criteria, recovery interval and stop conditions. If
+      the route is instruction-first, complete the supplied consultation brief and do not improvise a
+      physical test.
+
+
+      Observation checks: All five patterns receive an honest route or status; The selected route matches
+      current experience and support; Dose criteria recovery and stop conditions are fixed before action;
+      Instruction-first produces a complete consultation brief without a physical attempt. Mark only what
+      you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +196,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1205_a1_question_bounded
-        - c1205_a1_qualification_named
-        - c1205_a1_professional_boundary_explicit
+        - all_five_patterns_receive_an_honest_route_or_status
+        - the_selected_route_matches_current_experience_and_support
+        - dose_criteria_recovery_and_stop_conditions_are_fixed_before_action
+        - instruction_first_produces_a_complete_consultation_brief_without_a_physical_attempt
       - measurement_id: c1205_a1_boundary
         kind: boolean
         role: supporting
@@ -153,12 +216,20 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1205-STRENGTH-AND-MUSCULAR-CAPABILITY-01-A2
     sequence: 2
-    title: Prepare minimum information for Strength and muscular capability
-    instructions: Create a privacy-minimized Strength and muscular capability consultation note containing
-      only the question, relevant category-level facts, current constraints, and desired decision. Omit
-      diagnoses, allegations, account numbers, credentials, protected work information, intimate detail,
-      and third-party identity unless a qualified professional lawfully requires it through an appropriate
-      channel.
+    title: Record one controlled session against fixed criteria
+    instructions: 'For an entry or established-plan route, perform only the predeclared familiar dose
+      with the same equipment, range and support. Record completed work, the four selected technique or
+      boundary criteria, perceived effort in ordinary words, and any symptom or equipment change. Stop
+      at the preset boundary or earlier when technique, control or normal tolerance changes; an incomplete
+      session remains valid evidence. For instruction-first, use the guide to ask the prepared questions
+      of an appropriately qualified person and record only the resulting category-level decision, not
+      private health detail or credentials.
+
+
+      Observation checks: The attempt follows the selected route and predeclared boundary; Observations
+      use the same four criteria fixed before the session; Support symptoms and any early stop remain
+      visible; No maximum fatigue challenge or unplanned escalation is added. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -180,9 +251,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1205_a2_minimum_information_only
-        - c1205_a2_sensitive_detail_excluded
-        - c1205_a2_decision_need_named
+        - the_attempt_follows_the_selected_route_and_predeclared_boundary
+        - observations_use_the_same_four_criteria_fixed_before_the_session
+        - support_symptoms_and_any_early_stop_remain_visible
+        - no_maximum_fatigue_challenge_or_unplanned_escalation_is_added
       - measurement_id: c1205_a2_boundary
         kind: boolean
         role: supporting
@@ -199,11 +271,42 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1205-STRENGTH-AND-MUSCULAR-CAPABILITY-01-A3
     sequence: 3
-    title: Record a bounded Strength and muscular capability disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Demonstrates measurable strength improvement without avoidable injury.'
+    title: Recheck recovery and make one progression decision
+    instructions: 'After a suitable recovery interval, record whether ordinary function returned to its
+      prior state and whether delayed symptoms or unusual fatigue appeared. Repeat the same dose only
+      when it remains appropriate under the selected route. Compare technique, effort, support and recovery,
+      not merely repetitions or load. Choose exactly one disposition—repeat unchanged, regress one variable,
+      progress one variable inside the established plan, seek instruction, or stop and use appropriate
+      care. Open the progression check only after recording the reason. Do not label two successful sessions
+      as measurable strength improvement.
+
+
+      Observation checks: Recovery is checked before any repeat or progression; Comparable sessions preserve
+      technique support and dose unless a regression is declared; One disposition follows the observed
+      technique effort and recovery evidence; Progression stays inside established guidance and no strength-gain
+      claim is inferred. Mark only what you observed. Missing, mixed and negative results are valid; a
+      deferred action is not completed.
+
+
+      Final review: Which route and evidence justify repeating, regressing, progressing one variable,
+      seeking instruction or stopping while preserving technique and recovery?
+
+
+      Examples: Supportive: A person mapped all five patterns, used an existing supported row from their
+      established plan, observed the same four criteria twice with ordinary recovery, and retained the
+      dose rather than adding load automatically.
+
+
+      Mixed: The first familiar session met three criteria, but delayed discomfort made the repeat inappropriate;
+      the disposition changed to instruction before progression.
+
+
+      Contradictory: Support was removed, load was added outside the plan and repetitions continued after
+      technique loss so that the record would appear stronger.
+
+
+      Inconclusive: A generic program was copied without selecting a capability-fit route, performing
+      an appropriate attempt or completing an instruction-first consultation.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -219,14 +322,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1205_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1205_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - recovery_is_checked_before_any_repeat_or_progression
+        - comparable_sessions_preserve_technique_support_and_dose_unless_a_regression_is_declared
+        - one_disposition_follows_the_observed_technique_effort_and_recovery_evidence
+        - progression_stays_inside_established_guidance_and_no_strength_gain_claim_is_inferred
       - measurement_id: c1205_a3_boundary
         kind: boolean
         role: supporting
@@ -247,17 +352,21 @@ intervention:
       Strength and muscular capability; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Strength and muscular capability; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use seated, assisted, isometric, band, machine, bodyweight or other familiar equivalents already
+      appropriate to the person; support is a legitimate condition, not a failed version. Use the instruction-first
+      route when safety, technique, equipment or progression is uncertain. Preserve a rehabilitation or
+      clinician plan and do not practice through injury, remove fall support, reveal private health information
+      or use exercise as a test of worth.
     cultural_context:
     - Adapt the expression of Strength and muscular capability to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Strength and muscular capability opportunity is unavailable or inappropriate, use a
-      fictional, historical, public, simulated, or planning-only equivalent and retain the narrower evidence
-      classification.
+    - Use seated, assisted, isometric, band, machine, bodyweight or other familiar equivalents already
+      appropriate to the person; support is a legitimate condition, not a failed version. Use the instruction-first
+      route when safety, technique, equipment or progression is uncertain. Preserve a rehabilitation or
+      clinician plan and do not practice through injury, remove fall support, reveal private health information
+      or use exercise as a test of worth.
   pause_conditions:
   - Pause Strength and muscular capability when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -288,10 +397,8 @@ evidence_and_scoring:
   - c1205_a3_boundary
   - c1205_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Strength and muscular capability action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Strength and muscular capability criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - Support was removed, load was added outside the plan and repetitions continued after technique loss
+    so that the record would appear stronger.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Strength and muscular capability explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -302,14 +409,24 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Strength and muscular capability rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Demonstrates measurable strength improvement without avoidable injury.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Strength and muscular capability requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Map the patterns and choose a capability-fit route. Observed checks:
+    All five patterns receive an honest route or status; The selected route matches current experience
+    and support; Dose criteria recovery and stop conditions are fixed before action; Instruction-first
+    produces a complete consultation brief without a physical attempt. Action 2: Record one controlled
+    session against fixed criteria. Observed checks: The attempt follows the selected route and predeclared
+    boundary; Observations use the same four criteria fixed before the session; Support symptoms and any
+    early stop remain visible; No maximum fatigue challenge or unplanned escalation is added. Action 3:
+    Recheck recovery and make one progression decision. Observed checks: Recovery is checked before any
+    repeat or progression; Comparable sessions preserve technique support and dose unless a regression
+    is declared; One disposition follows the observed technique effort and recovery evidence; Progression
+    stays inside established guidance and no strength-gain claim is inferred.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A generic program was copied without selecting a capability-fit
+    route, performing an appropriate attempt or completing an instruction-first consultation.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Strength
     and muscular capability contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -317,9 +434,8 @@ evidence_and_scoring:
   recommendation_target_lever_ids:
   - L10
   - L17
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Strength and muscular capability evidence.
@@ -327,12 +443,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for strength and muscular capability action was attempted or explicitly
-    deferred.
-  - The prepare minimum information for strength and muscular capability action was attempted or explicitly
-    deferred.
-  - The record a bounded strength and muscular capability disposition action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Map the patterns and choose a capability-fit route. Observed checks: All five patterns
+    receive an honest route or status; The selected route matches current experience and support; Dose
+    criteria recovery and stop conditions are fixed before action; Instruction-first produces a complete
+    consultation brief without a physical attempt.'
+  - 'Action 2: Record one controlled session against fixed criteria. Observed checks: The attempt follows
+    the selected route and predeclared boundary; Observations use the same four criteria fixed before
+    the session; Support symptoms and any early stop remain visible; No maximum fatigue challenge or unplanned
+    escalation is added.'
+  - 'Action 3: Recheck recovery and make one progression decision. Observed checks: Recovery is checked
+    before any repeat or progression; Comparable sessions preserve technique support and dose unless a
+    regression is declared; One disposition follows the observed technique effort and recovery evidence;
+    Progression stays inside established guidance and no strength-gain claim is inferred.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -341,57 +466,208 @@ completion_and_review:
     - c1205_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Strength and muscular capability only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Strength and muscular capability across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which route and evidence justify repeating, regressing, progressing one variable,
+    seeking instruction or stopping while preserving technique and recovery?
+  transfer_limit: This practice teaches strength-program reasoning and observes one already-safe movement.
+    It is not medical clearance, rehabilitation, a maximal-strength test or a universal prescription.
+    Two sessions cannot establish measurable strength gain across major patterns.
   reflection:
-    before: What does Strength and muscular capability require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Strength and muscular capability criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Demonstrates measurable strength improvement without avoidable
-      injury.', what contradiction or missing context matters most, and should this Strength and muscular
-      capability design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Map the major strength patterns, choose an
+      entry, established-plan or instruction-first route, and compare two bounded sessions before making
+      one justified progression decision.'
+    during: Which checks have actually been observed? The first familiar session met three criteria, but
+      delayed discomfort made the repeat inappropriate; the disposition changed to instruction before
+      progression.
+    after: Which route and evidence justify repeating, regressing, progressing one variable, seeking instruction
+      or stopping while preserving technique and recovery?
   review_guidance:
     repeat: Repeat the same bounded Strength and muscular capability design only when the context and
       burden remain appropriate.
-    adapt: Change the Strength and muscular capability medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use seated, assisted, isometric, band, machine, bodyweight or other familiar equivalents already
+      appropriate to the person; support is a legitimate condition, not a failed version. Use the instruction-first
+      route when safety, technique, equipment or progression is uncertain. Preserve a rehabilitation or
+      clinician plan and do not practice through injury, remove fall support, reveal private health information
+      or use exercise as a test of worth.
     stop: Stop Strength and muscular capability when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Strength and muscular capability questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Strength and muscular capability criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Strength and muscular capability criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Strength and muscular capability criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Strength and muscular capability action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A person mapped all five patterns, used an existing supported row from their established
+      plan, observed the same four criteria twice with ordinary recovery, and retained the dose rather
+      than adding load automatically.
+    mixed: The first familiar session met three criteria, but delayed discomfort made the repeat inappropriate;
+      the disposition changed to instruction before progression.
+    contradictory: Support was removed, load was added outside the plan and repetitions continued after
+      technique loss so that the record would appear stronger.
+    inconclusive: A generic program was copied without selecting a capability-fit route, performing an
+      appropriate attempt or completing an instruction-first consultation.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Strength and muscular capability.
+    context_heading: Build one capability-fit strength pathway with technique, recovery and progression
+      evidence
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Strength
       and muscular capability.
   check_in_labels:
-    c1205_a1_primary: The bounded Strength and muscular capability criterion for action 1 was observed
+    c1205_a1_primary: 'Observed checks: map the patterns and choose a capability-fit route'
     c1205_a1_boundary: Action 1 stayed inside its stated Strength and muscular capability boundary
     c1205_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1205_a2_primary: The bounded Strength and muscular capability criterion for action 2 was observed
+    c1205_a2_primary: 'Observed checks: record one controlled session against fixed criteria'
     c1205_a2_boundary: Action 2 stayed inside its stated Strength and muscular capability boundary
     c1205_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1205_a3_primary: The bounded Strength and muscular capability criterion for action 3 was observed
+    c1205_a3_primary: 'Observed checks: recheck recovery and make one progression decision'
     c1205_a3_boundary: Action 3 stayed inside its stated Strength and muscular capability boundary
     c1205_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Strength and muscular
-    capability practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which route and evidence justify repeating, regressing, progressing one variable, seeking
+    instruction or stopping while preserving technique and recovery? Completion is not mastery.
+  plain_language_evidence: A person mapped all five patterns, used an existing supported row from their
+    established plan, observed the same four criteria twice with ordinary recovery, and retained the dose
+    rather than adding load automatically.
   display_order: 150
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.05'
+  title: Choose, observe and progress one strength pattern without guessing a program
+  scored: false
+  sections:
+  - id: strength-concepts
+    kind: concept
+    title: What strength practice is and is not
+    body: Strength is the capacity to produce force against resistance. Muscular endurance concerns sustaining
+      or repeating force, and power concerns producing force rapidly; those outcomes are related but not
+      interchangeable. A useful strength pathway considers the movement being trained, current experience,
+      technique, dose, recovery and progression. A supported chair rise can be an appropriate entry or
+      adapted observation, but it cannot represent every major pattern or prove a strength increase. Current
+      professional guidance supports individualizing resistance training to goals, enjoyment and safety
+      and distinguishes ordinary general participation from sport-specific programming. This guide therefore
+      supplies decision tools rather than a universal load or repetition prescription.
+  - id: pattern-map
+    kind: material
+    title: Five-pattern capability map
+    body: 'Make five rows: squat or rise | hinge | push | pull | carry. For each row record: a familiar
+      current example or accessible equivalent | current route [entry / established plan / instruction
+      first / not currently relevant] | equipment and support | what competent technique would require
+      | what remains unknown. Examples are descriptive only: rising from a stable chair, moving an object
+      from a raised surface with an already learned hinge, a wall or machine push, a band or machine pull,
+      and carrying an ordinary object with a usual aid. Do not attempt an example merely because it appears
+      here. The map is complete when every pattern has an honest status; it is not a requirement to train
+      all five during this practice.'
+  - id: capability-screen
+    kind: material
+    title: Capability and boundary screen
+    body: 'Before physical action record yes, no or unknown: the exact movement is already familiar; the
+      equipment and environment are available and stable; required support can remain; the planned dose
+      has been tolerated or belongs to an existing plan; technique criteria are known; a suitable recovery
+      interval is available; and stop conditions are understood. Any no or important unknown moves the
+      route to instruction-first or defer. Stop the attempt for chest discomfort, faintness, new or increasing
+      pain, unusual breathlessness, loss of control, equipment instability or any existing clinician or
+      rehabilitation stop rule. This screen does not provide medical clearance.'
+  - id: route-card
+    kind: pathway
+    title: Choose one of three complete routes
+    body: 'Entry or adapted route: choose one already-safe, familiar movement and a modest dose known
+      to be tolerable. The supplied default is three controlled rises from a stable chair that cannot
+      slide, using usual hand support, only for someone who already performs that movement safely. Established-plan
+      route: select one familiar movement and dose already present in a qualified or competently established
+      program; record the plan source and do not change load, volume, range, equipment or tempo during
+      the comparison. Instruction-first route: do no new physical test. Prepare the consultation brief,
+      identify who is qualified for the uncertainty, and obtain a route decision. Any route may end in
+      defer or stop without penalty.'
+  - id: consultation-brief
+    kind: material
+    title: Instruction-first consultation brief
+    body: 'Prepare: the function or goal sought; current experience; the exact movement considered; available
+      equipment, support and access needs; existing restrictions or plans stated only as needed; and what
+      is unknown. Ask: Which movement or prerequisite should come first? What technique cues can be observed?
+      What starting dose and recovery fit this person and goal? Which one variable could later change,
+      under what criterion? What warning signs or equipment conditions require stopping or referral? Record
+      only one category-level result: appropriate as proposed | appropriate with modification | different
+      prerequisite first | needs another qualified route | defer. The consultation informs a plan; it
+      is not evidence that strength improved.'
+  - id: session-record
+    kind: material
+    title: Two-session private record
+    body: 'Route and movement: __. Existing plan or instruction source: __. Equipment, range and support:
+      __. Planned dose and recovery interval: __. Four observable technique or boundary criteria: T1 __;
+      T2 __; T3 __; T4 __. Stop conditions: __. Session 1 actual work, T1-T4 [observed / mixed / not observed
+      / unknown], ordinary-word effort, symptoms, support and early stop: __. Recovery before session
+      2: ordinary function returned [yes / no / unknown], delayed symptoms or unusual fatigue: __. Session
+      2 comparable conditions and T1-T4: __. Disposition [repeat / regress one variable / progress one
+      variable inside plan / seek instruction / stop]: __. Evidence-limited reason: __. Keep private details
+      here; the application check-in receives only allowlisted observations.'
+  - id: worked-pathway
+    kind: worked_example
+    title: Worked example with no automatic progression
+    body: A person already uses a supported cable row in an established plan. They map the other four
+      patterns but select only the row. Their criteria are stable seated support, planned range, controlled
+      path and completion before technique loss. Both sessions meet those criteria with ordinary recovery.
+      They repeat the same dose next time because the plan has not yet reached its progression condition.
+      This is supportive evidence for executing that movement under recorded conditions; it is not a measured
+      strength gain. If the second session instead produced unusual delayed symptoms, the proper record
+      would be mixed and the next step would be instruction, not added load.
+  - id: route-selection
+    kind: prompt
+    title: Select and justify the route
+    body: Complete the five-pattern map and capability screen. Select entry, established-plan or instruction-first
+      for one pattern. State the evidence supporting that route, list every no or unknown, and predeclare
+      equipment, support, dose, four criteria, recovery interval and stop conditions. If selecting instruction-first,
+      complete the consultation brief and do not substitute a physical attempt. Preserve the response
+      before opening the check.
+    check_id: route-key
+    attempt_mode: open_explanation
+    references:
+    - pattern-map
+    - capability-screen
+    - consultation-brief
+  - id: progression-case
+    kind: prompt
+    title: Decide what the evidence permits
+    body: 'Case: Session 1 used the planned familiar dose and met T1, T2 and T4, but control criterion
+      T3 was mixed. The person repeated after ordinary recovery under the same conditions; T3 was again
+      mixed. They feel eager to add load. Choose one disposition from repeat unchanged, regress one variable,
+      progress one variable inside the established plan, seek instruction, or stop. Explain what evidence
+      supports the decision and what the two sessions cannot establish. Preserve the answer before opening
+      the check.'
+    check_id: progression-key
+    attempt_mode: unaided
+    references:
+    - session-record
+  - id: next-cycle
+    kind: next_step
+    title: Progress one variable only when the route supports it
+    body: A progression decision follows the established plan or qualified instruction and the observed
+      technique and recovery criteria. Change only the authorized variable, such as load, repetitions,
+      range, support or movement complexity, while retaining the other comparison conditions. If the default
+      is well below present ability, use the established-plan route rather than manufacturing fatigue.
+      If technique, recovery or route authority is uncertain, repeat, regress or seek instruction. A future
+      measurement needs comparable conditions and sufficient time; this practice does not award a strength-gain
+      claim.
+  checks:
+  - id: route-key
+    title: Check the route selection
+    body: A complete response assigns all five patterns an honest status, selects one pattern and one
+      route, and uses the capability screen rather than ability stereotypes or peer comparison. Entry
+      and established-plan routes require an already-familiar tolerable movement, fixed support, dose,
+      criteria, recovery and stop conditions. Instruction-first requires the supplied brief and a qualified
+      route decision, not a guessed exercise. A missing safety unknown cannot be converted to yes merely
+      to permit an attempt.
+    criteria:
+    - Every major pattern has a current route or explicit status.
+    - The selected route is supported by current experience and available support.
+    - Dose, four criteria, recovery and stop conditions are fixed before action.
+    - Unknown safety, technique or progression information leads to instruction or defer.
+  - id: progression-key
+    title: Check the progression decision
+    body: Progress is not supported in this case because the same control criterion remained mixed twice.
+      A defensible disposition is repeat unchanged with a correction only if the established plan supplies
+      one, regress one variable, or seek instruction; the exact choice depends on the recorded cause and
+      plan. Adding load contradicts the evidence. The two sessions cannot establish measurable strength
+      improvement, broad pattern competence, cause, or safety for a different movement.
+    criteria:
+    - The unresolved repeated criterion prevents automatic progression.
+    - The disposition is one of the declared options and cites observed evidence.
+    - Load, repetitions or complexity are not added to prove effort.
+    - The conclusion remains limited to the selected movement and recorded conditions.

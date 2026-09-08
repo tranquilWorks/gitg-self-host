@@ -1,6 +1,27 @@
 # Grounded Growth — Project Handoff
 
 
+## Physical-capacity runtime cohort — 8 September 2026
+
+The next bounded cohort completes **12.05** and **12.08**, increasing substantive
+compiler/runtime coverage to **96 tailored / 287 pending**. Strength now has a
+five-pattern map and complete entry, established-plan and instruction-first routes.
+Power, speed, coordination, reaction and agility are separated into routes with
+their own prerequisites, materials, evidence limits and progression boundaries.
+
+Exact pre-projection packages and historical sources are retained in each quality
+folder. The two canonical packages include the full learner guides and separately
+revealed checks; all 383 protocol identities, 1,151 action identities, completion,
+activation, scoring and replay rules remain protected. See
+`docs/authoring/M6K-PHYSICAL-CAPACITY-SCOPE-MAP.md` and
+`docs/evidence/M6K-PHYSICAL-CAPACITY-RUNTIME.md`.
+
+This is authored runtime coverage, not medical clearance, a universal exercise
+program, demonstrated strength gain or athletic certification. Formal independent,
+learner, qualified and owner reviews remain pending. Continue with other small,
+substantive cohorts under the same claim boundary.
+
+
 ## Learning and craft runtime cohort — 8 September 2026
 
 The owner requested substantive runtime progress after merging PR #70. This cohort

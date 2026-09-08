@@ -1,6 +1,30 @@
 # M6K — Competency quality remediation and acceptance
 
 
+## Physical-capacity runtime cohort — 8 September 2026
+
+The continuation after the 94-competency learning/craft cohort completes the two
+remaining demonstrated repairs: **12.05 Strength and muscular capability** and
+**12.08 Power, speed, coordination and agility**. Compiler/runtime coverage is now
+**96 tailored / 287 pending**. The pair is intentionally small because both require
+exercise-safety boundaries and qualified progression while retaining distinct
+capability claims.
+
+12.05 maps squat/rise, hinge, push, pull and carry, then provides complete entry,
+established-plan and instruction-first routes with technique, recovery and one-variable
+progression decisions. 12.08 separates coordination, reaction, speed, power and
+agility, supplies a complete tabletop coordination default, and restricts higher-demand
+routes to an existing plan or qualified instruction. See
+`docs/authoring/M6K-PHYSICAL-CAPACITY-SCOPE-MAP.md` and each competency's runtime
+reader, separately revealed checks and exact content record.
+
+The software compiler selection does not assert strength improvement, athletic
+capability, medical clearance or training effectiveness. Formal independent
+cold-start, learner, qualified and owner reviews remain pending. Continue with
+other bounded substantive competency cohorts; do not turn a larger runtime count
+into a quality-acceptance claim.
+
+
 ## Learning and craft runtime cohort — 8 September 2026
 
 The owner requested substantive runtime progress after merging PR #70. This cohort
@@ -23,10 +47,10 @@ identifies byte-pinned originals for the three prospective compiler projections;
 runtime, frozen-package, retained-rule and protected input drift. It no longer
 mistakes all future authorized content edits for corruption of the recovery archive.
 
-Continue with substantive bounded competency cohorts. Remaining source repair
-priorities include 12.05 and 12.08; the program's formal review queue remains a
-separate status from runtime authored coverage. Do not present either source repair
-or publication alone as another completed runtime rewrite.
+Continue with substantive bounded competency cohorts. The demonstrated 12.05 and
+12.08 source repairs are completed by the newer cohort above; the program's formal
+review queue remains a separate status from runtime authored coverage. Do not
+present source repair or publication alone as another completed runtime rewrite.
 
 
 **State: source recovery and instructional software verification complete; QA-01
