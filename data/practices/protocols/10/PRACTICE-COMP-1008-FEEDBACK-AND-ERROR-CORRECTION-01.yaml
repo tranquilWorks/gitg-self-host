@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1008-FEEDBACK-AND-ERROR-CORRECTION-01
 slug: c1008-feedback-and-error-correction-practice
-name: Bounded Feedback and error correction Practice
+name: Expose one error early and change the work from the feedback
 parent_competency_id: '10.08'
 domain_id: '10'
 governance:
@@ -14,10 +14,10 @@ governance:
   scoring_status: active
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
+  - SRC-KLUGER-DENISI-FEEDBACK-1996
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 10.08
-      (Feedback and error correction); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 10.08; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +35,49 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Feedback and error correction through a consent-respecting relational practice bounded
-    by the canonical scope: Make errors visible early through testing, critique, rehearsal, instrumentation,
-    and comparison to standards.'
-  why_recommended: 'The parent competency identifies this limited evidence target: A learning process
-    changes because feedback revealed a specific weakness. The protocol creates a small opportunity to
-    examine that target without treating completion as broad capability.'
+  purpose: Use a test, model or willing reviewer to reveal a specific weakness, make one targeted correction
+    and verify whether the correction actually helps.
+  why_recommended: Use a test, model or willing reviewer to reveal a specific weakness, make one targeted
+    correction and verify whether the correction actually helps.
   claims:
-  - statement: Using the canonical scope and evidence target for Feedback and error correction is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Use a test, model or willing reviewer to reveal a specific weakness, make one targeted
+      correction and verify whether the correction actually helps.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  - statement: The reported meta-analysis found substantial variation in feedback-intervention effects,
+      including performance decreases in a meaningful subset, supporting task-grounded checks and caution
+      against treating all feedback as beneficial.
+    classification: empirical_finding
+    source_ids:
+    - SRC-KLUGER-DENISI-FEEDBACK-1996
+    limitations: A broad historical meta-analysis across heterogeneous settings, not a prescription for
+      one feedback script, not authority for coercive or identity-directed criticism and not validation
+      that the product-authored slip exercise improves performance.
   applicability_question: Does a voluntary, bounded Feedback and error correction practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Feedback and error correction as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Feedback and error
-    correction context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Feedback
-    and error correction; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use pictures, tactile labels, accessible text or a spoken procedure. Self-review
+    is legitimate but should not be described as independent user testing. Keep reviewers free to decline
+    and avoid public criticism or protected workplace material.
+  opportunity_considerations: 'Default instruction to improve: put the blue slip in the correct folder
+    and leave the rest there. Supply three folders labeled Today, Later and Reference, a blue slip labeled
+    due today and two unmarked slips. The intended result is the blue slip in Today and the unmarked slips
+    beside the folders. Use synthetic paper only.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Feedback and error correction.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default instruction to improve: put the blue slip in the correct folder and leave the rest there.
+    Supply three folders labeled Today, Later and Reference, a blue slip labeled due today and two unmarked
+    slips. The intended result is the blue slip in Today and the unmarked slips beside the folders. Use
+    synthetic paper only.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Feedback and error correction instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use pictures, tactile labels, accessible text or a spoken procedure. Self-review is legitimate but
+    should not be described as independent user testing. Keep reviewers free to decline and avoid public
+    criticism or protected workplace material.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -79,21 +89,34 @@ meaning_and_fit:
   - The practice does not require one worldview or treat disagreement about Feedback and error correction
     as inferiority; competing reasonable interpretations and conscientious refusal remain visible.
 intervention:
-  protocol_class: PF-RELATIONAL-CONVERSATION
+  protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Feedback and error correction actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Feedback and error correction; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Feedback
-    and error correction. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Feedback and error correction actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default instruction to improve: put the blue slip in the correct folder and leave the rest there.
+    Supply three folders labeled Today, Later and Reference, a blue slip labeled due today and two unmarked
+    slips. The intended result is the blue slip in Today and the unmarked slips beside the folders. Use
+    synthetic paper only. Goal: Use a test, model or willing reviewer to reveal a specific weakness, make
+    one targeted correction and verify whether the correction actually helps. Scope: This tests an error-correction
+    loop, not the learner’s character. Feedback is useful only insofar as it is relevant, understandable
+    and connected to a real standard. Time and effort: Fifteen minutes to prepare a short instruction,
+    ten minutes to test it and fifteen minutes for revision and retest. Adaptation: Use pictures, tactile
+    labels, accessible text or a spoken procedure. Self-review is legitimate but should not be described
+    as independent user testing. Keep reviewers free to decline and avoid public criticism or protected
+    workplace material. Keep personal working notes outside the check-in; record only the listed observations.
+
+
+    Reference support:
+
+    The Effects of Feedback Interventions on Performance: A Historical Review, a Meta-Analysis, and a
+    Preliminary Feedback Intervention Theory: https://doi.org/10.1037/0033-2909.119.2.254'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use pictures, tactile labels, accessible text or a spoken procedure. Self-review
+    is legitimate but should not be described as independent user testing. Keep reviewers free to decline
+    and avoid public criticism or protected workplace material.
+  expected_burden: Fifteen minutes to prepare a short instruction, ten minutes to test it and fifteen
+    minutes for revision and retest.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Feedback and error correction protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +124,24 @@ intervention:
   - Treating a completed Feedback and error correction action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Feedback and error correction situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use pictures,
+    tactile labels, accessible text or a spoken procedure. Self-review is legitimate but should not be
+    described as independent user testing. Keep reviewers free to decline and avoid public criticism or
+    protected workplace material.
   actions:
   - stable_id: PRACTICE-COMP-1008-FEEDBACK-AND-ERROR-CORRECTION-01-A1
     sequence: 1
-    title: Prepare a consent-safe Feedback and error correction interaction
-    instructions: 'Choose one welcome, low-stakes relationship context for Feedback and error correction.
-      Translate the canonical scope into one observable communication act, identify power or retaliation
-      concerns, and obtain or preserve the other person''s freedom not to participate: Make errors visible
-      early through testing, critique, rehearsal, instrumentation, and comparison to standards.'
+    title: Define the result and invite a test before polishing
+    instructions: 'Write the intended result separately from the instruction. Give the instruction to
+      a willing adult or follow it literally yourself without filling in hidden assumptions. Observe which
+      object, location or sequence is ambiguous. Ask where did the instruction leave you uncertain, not
+      did you like it. Keep the first version so the feedback can be tied to an actual failure.
+
+
+      Observation checks: The intended result is explicit before the test; The first version is preserved;
+      A literal test or freely consented review occurs; Feedback identifies an object location or sequence
+      problem. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +163,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1008_a1_communication_act_specific
-        - c1008_a1_consent_boundary_present
-        - c1008_a1_power_checked
+        - the_intended_result_is_explicit_before_the_test
+        - the_first_version_is_preserved
+        - a_literal_test_or_freely_consented_review_occurs
+        - feedback_identifies_an_object_location_or_sequence_problem
       - measurement_id: c1008_a1_boundary
         kind: boolean
         role: supporting
@@ -154,10 +183,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1008-FEEDBACK-AND-ERROR-CORRECTION-01-A2
     sequence: 2
-    title: Practice one Feedback and error correction communication act
-    instructions: Use the prepared Feedback and error correction act once without covert testing, pressure,
-      diagnosis, deception inference, or a demand for disclosure. Ask one direct clarification when appropriate
-      and allow refusal, delay, indirect communication, language access, or another format.
+    title: Turn the feedback into one precise correction
+    instructions: 'Compare the observed result with the intended one. Select the most consequential error,
+      such as correct folder failing to name Today, and rewrite that sentence to specify the action and
+      destination. Do not change unrelated formatting just to feel productive. If feedback conflicts,
+      ask which interpretation the instructions actually support and choose a testable correction rather
+      than deferring automatically to the most confident reviewer.
+
+
+      Observation checks: The error is linked to a stated standard; One correction targets the identified
+      cause; Unrelated polishing is separated from error correction; Conflicting feedback is resolved
+      with a checkable interpretation. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -173,12 +210,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1008_a2_primary
-        kind: boolean
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        expected: true
+        - reviewed_artifact
+        criteria:
+        - the_error_is_linked_to_a_stated_standard
+        - one_correction_targets_the_identified_cause
+        - unrelated_polishing_is_separated_from_error_correction
+        - conflicting_feedback_is_resolved_with_a_checkable_interpretation
       - measurement_id: c1008_a2_boundary
         kind: boolean
         role: supporting
@@ -195,10 +236,36 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1008-FEEDBACK-AND-ERROR-CORRECTION-01-A3
     sequence: 3
-    title: Review Feedback and error correction without scoring the person
-    instructions: 'Review only the observable interaction and its boundaries. Do not infer motives or
-      store private narrative. Compare what happened with this evidence target and retain disagreement
-      or an inconclusive result: A learning process changes because feedback revealed a specific weakness.'
+    title: Retest with a comparable new example
+    instructions: 'Use a green slip labeled due today or another equivalent synthetic item. Ask the same
+      literal test of the revised instruction and check whether the intended destination is now unambiguous.
+      Record what improved and what remains unclear, including where the rest should be placed. Decide
+      whether the correction solved the specific failure or simply changed it, and preserve the revision
+      that future users would receive.
+
+
+      Observation checks: A comparable new example is tested; The revised instruction is checked against
+      the original goal; Remaining errors are retained; The final version reflects observed feedback rather
+      than approval alone. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.
+
+
+      Final review: What changed because of the feedback that would not have changed through more time
+      polishing alone?
+
+
+      Examples: Supportive: A literal test exposed the unnamed destination; the revised instruction worked
+      on a new slip and the final guide also clarified where unused slips belonged.
+
+
+      Mixed: The correction addressed one ambiguity but a different missing location remained in the retest.
+
+
+      Contradictory: The reviewer was blamed for misunderstanding, or positive feedback was collected
+      without checking the intended result.
+
+
+      Inconclusive: Feedback was received but no targeted change or retest followed.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -220,9 +287,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1008_a3_observable_interaction_reviewed
-        - c1008_a3_private_narrative_excluded
-        - c1008_a3_inconclusive_allowed
+        - a_comparable_new_example_is_tested
+        - the_revised_instruction_is_checked_against_the_original_goal
+        - remaining_errors_are_retained
+        - the_final_version_reflects_observed_feedback_rather_than_approval_alone
       - measurement_id: c1008_a3_boundary
         kind: boolean
         role: supporting
@@ -243,16 +311,17 @@ intervention:
       Feedback and error correction; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Feedback and error correction; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use pictures, tactile labels, accessible text or a spoken procedure. Self-review is legitimate but
+      should not be described as independent user testing. Keep reviewers free to decline and avoid public
+      criticism or protected workplace material.
     cultural_context:
     - Adapt the expression of Feedback and error correction to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Feedback and error correction opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use pictures, tactile labels, accessible text or a spoken procedure. Self-review is legitimate but
+      should not be described as independent user testing. Keep reviewers free to decline and avoid public
+      criticism or protected workplace material.
   pause_conditions:
   - Pause Feedback and error correction when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -284,10 +353,8 @@ evidence_and_scoring:
   - c1008_a3_boundary
   - c1008_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Feedback and error correction action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Feedback and error correction criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The reviewer was blamed for misunderstanding, or positive feedback was collected without checking
+    the intended result.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Feedback and error correction explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -298,14 +365,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Feedback and error correction rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—A learning process changes because feedback revealed a specific weakness.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Feedback and error correction requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Define the result and invite a test before polishing. Observed checks:
+    The intended result is explicit before the test; The first version is preserved; A literal test or
+    freely consented review occurs; Feedback identifies an object location or sequence problem. Action
+    2: Turn the feedback into one precise correction. Observed checks: The error is linked to a stated
+    standard; One correction targets the identified cause; Unrelated polishing is separated from error
+    correction; Conflicting feedback is resolved with a checkable interpretation. Action 3: Retest with
+    a comparable new example. Observed checks: A comparable new example is tested; The revised instruction
+    is checked against the original goal; Remaining errors are retained; The final version reflects observed
+    feedback rather than approval alone.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Feedback was received but no targeted change or retest
+    followed.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Feedback
     and error correction contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -315,9 +390,8 @@ evidence_and_scoring:
   - L11
   - L13
   - L15
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Feedback and error correction evidence.
@@ -325,12 +399,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The prepare a consent-safe feedback and error correction interaction action was attempted or explicitly
-    deferred.
-  - The practice one feedback and error correction communication act action was attempted or explicitly
-    deferred.
-  - The review feedback and error correction without scoring the person action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Define the result and invite a test before polishing. Observed checks: The intended result
+    is explicit before the test; The first version is preserved; A literal test or freely consented review
+    occurs; Feedback identifies an object location or sequence problem.'
+  - 'Action 2: Turn the feedback into one precise correction. Observed checks: The error is linked to
+    a stated standard; One correction targets the identified cause; Unrelated polishing is separated from
+    error correction; Conflicting feedback is resolved with a checkable interpretation.'
+  - 'Action 3: Retest with a comparable new example. Observed checks: A comparable new example is tested;
+    The revised instruction is checked against the original goal; Remaining errors are retained; The final
+    version reflects observed feedback rather than approval alone.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -339,56 +419,175 @@ completion_and_review:
     - c1008_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Feedback and error correction only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Feedback and error correction across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: What changed because of the feedback that would not have changed through more
+    time polishing alone?
+  transfer_limit: This tests an error-correction loop, not the learner’s character. Feedback is useful
+    only insofar as it is relevant, understandable and connected to a real standard.
   reflection:
-    before: What does Feedback and error correction require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Feedback and error correction criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'A learning process changes because feedback revealed a specific
-      weakness.', what contradiction or missing context matters most, and should this Feedback and error
-      correction design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Use a test, model or willing reviewer to reveal
+      a specific weakness, make one targeted correction and verify whether the correction actually helps.'
+    during: Which checks have actually been observed? The correction addressed one ambiguity but a different
+      missing location remained in the retest.
+    after: What changed because of the feedback that would not have changed through more time polishing
+      alone?
   review_guidance:
     repeat: Repeat the same bounded Feedback and error correction design only when the context and burden
       remain appropriate.
-    adapt: Change the Feedback and error correction medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use pictures, tactile labels, accessible text or a spoken procedure. Self-review is legitimate
+      but should not be described as independent user testing. Keep reviewers free to decline and avoid
+      public criticism or protected workplace material.
     stop: Stop Feedback and error correction when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Feedback and error correction questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Feedback and error correction criteria were observed with provenance and no
-      adverse boundary signal in the selected context.
-    mixed: Some Feedback and error correction criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Feedback and error correction criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Feedback and error correction action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A literal test exposed the unnamed destination; the revised instruction worked on a new
+      slip and the final guide also clarified where unused slips belonged.
+    mixed: The correction addressed one ambiguity but a different missing location remained in the retest.
+    contradictory: The reviewer was blamed for misunderstanding, or positive feedback was collected without
+      checking the intended result.
+    inconclusive: Feedback was received but no targeted change or retest followed.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Feedback and error correction.
+    context_heading: Expose one error early and change the work from the feedback
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Feedback
       and error correction.
   check_in_labels:
-    c1008_a1_primary: The bounded Feedback and error correction criterion for action 1 was observed
+    c1008_a1_primary: 'Observed checks: define the result and invite a test before polishing'
     c1008_a1_boundary: Action 1 stayed inside its stated Feedback and error correction boundary
     c1008_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1008_a2_primary: The bounded Feedback and error correction criterion for action 2 was observed
+    c1008_a2_primary: 'Observed checks: turn the feedback into one precise correction'
     c1008_a2_boundary: Action 2 stayed inside its stated Feedback and error correction boundary
     c1008_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1008_a3_primary: The bounded Feedback and error correction criterion for action 3 was observed
+    c1008_a3_primary: 'Observed checks: retest with a comparable new example'
     c1008_a3_boundary: Action 3 stayed inside its stated Feedback and error correction boundary
     c1008_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Feedback and error
-    correction practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What changed because of the feedback that would not have changed through more time
+    polishing alone? Completion is not mastery.
+  plain_language_evidence: A literal test exposed the unnamed destination; the revised instruction worked
+    on a new slip and the final guide also clarified where unused slips belonged.
   display_order: 130
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '10.08'
+  title: Expose one instruction error and verify a targeted repair
+  scored: false
+  sections:
+  - id: feedback-model
+    kind: concept
+    title: Feedback is useful when it changes a tested gap
+    body: Feedback is information about the difference between an intended result and an observed result.
+      It is not automatically correct, kind, relevant or actionable. Fix the standard before testing,
+      preserve the first output, identify one specific object/location/sequence gap, make one targeted
+      change and retest on a comparable fresh case. Praise, confidence and visual polish do not show that
+      the gap closed. Feedback about the task is evaluated against the task; feedback about identity or
+      worth is out of scope. One repaired instruction does not validate a universal feedback method.
+  - id: first-packet
+    kind: material
+    title: Supplied ambiguous instruction and intended result
+    body: 'Folders: TODAY, LATER and REFERENCE, arranged left to right. Objects: one blue slip labeled
+      “due today” and two unmarked white slips, all initially in a row below the folders. Version A instruction:
+      “Put the blue slip in the correct folder and leave the rest there.” Intended result, kept separate
+      from Version A during the literal test: the blue slip is inside TODAY; both white slips remain in
+      their original row below the folders. A test succeeds only if both destination and non-target location
+      are unambiguous from the instruction, not from private knowledge of the intended result.'
+  - id: worked-feedback
+    kind: worked_example
+    title: Example on a different object and location
+    body: 'Intended result: place the red card on shelf 2 and leave the black card on the desk. Version
+      A says “Put the red one away and leave that one.” A literal tester pauses at “away” and cannot resolve
+      what “that one” names. The author records location and reference as the two gaps, selects location
+      first, and revises only to “Place the red card on shelf 2; leave the black card on the desk.” A
+      fresh green card/gray card case reaches the intended locations. “The tester liked it” would not
+      test either gap.'
+  - id: correction-record
+    kind: material
+    title: Error-correction record
+    body: 'Intended result fixed before test: __. Version A exact text: __. Test mode [willing reviewer/self
+      literal run]: __. First output or point of uncertainty: __. Gap category [object/location/order/
+      exception/other]: __. Evidence connecting gap to text: __. Feedback wording: __. Accepted, qualified
+      or rejected and why: __. One selected correction: __. Version B exact text: __. Fresh case and fixed
+      criteria: __. Retest result: __. Remaining gap: __. Keep identities and comments private.'
+  - id: literal-test
+    kind: prompt
+    title: Test Version A before repairing it
+    body: Hide the intended-result paragraph from a willing adult tester, or run Version A yourself literally
+      without supplying missing assumptions. Preserve where the blue slip was placed, what happened to
+      each white slip, and every clarification request. Ask “Which words determined the destination and
+      where the other slips stay?” rather than “Did you like it?” Identify all supported gaps, then select
+      the most consequential one for a single correction. Do not open the key before recording Version
+      A.
+    references:
+    - first-packet
+    - correction-record
+    check_id: literal-test-key
+    attempt_mode: practice
+  - id: correction-rule
+    kind: concept
+    title: Resolve feedback with the stated standard
+    body: Accept feedback when the preserved output exposes a mismatch the instruction permits. Qualify
+      it when the issue is real but outside the fixed target. Reject it when it conflicts with the materials
+      or asks for unrelated preference. Confident wording and majority agreement do not outrank a literal
+      test. For this packet, the smallest complete repair must name TODAY and the original row below the
+      folders. Changing fonts, colors or tone alone cannot repair those semantic gaps.
+  - id: fresh-retest
+    kind: prompt
+    title: Retest Version B on a comparable green slip
+    body: 'Write Version B before seeing the key. Replace the blue slip with a green slip labeled “due
+      today”; keep two unmarked white slips in the original row below the same three folders. Give only
+      Version B to a willing adult or follow it literally yourself. Criteria fixed before the retest:
+      green is inside TODAY; both white slips remain in the original row below the folders; no clarification
+      or rescue is needed. Preserve the result and any remaining ambiguity, then open the key and classify
+      solved, partial, adverse or inconclusive.'
+    references:
+    - first-packet
+    - correction-record
+    check_id: fresh-retest-key
+    attempt_mode: practice
+  - id: access-and-consent
+    kind: pathway
+    title: Make the test accessible, private and voluntary
+    body: Use pictures with text, tactile labels, large print, audio, signing, AAC or a helper who moves
+      the slips according to the tester’s directions. Record that support in both runs. A reviewer may
+      decline without consequence; do not use public criticism, humiliation, surveillance or protected
+      work material. Self-review is valid development evidence but is not independent user evidence. For
+      an advanced route, test one more semantic ambiguity—not higher stakes or a less consenting audience.
+  - id: next-loop
+    kind: next_step
+    title: Retain remaining errors and choose one next loop
+    body: If all three fixed criteria pass, retain Version B and test it once in the real low-stakes medium.
+      If the destination passes but white-slip location fails, preserve that partial result and repair
+      only the location clause on a new case. If conditions changed, label the comparison inconclusive.
+      If feedback concerns preference rather than the intended result, track it separately. Stop for coercion,
+      distress, private data or consequences that require a qualified reviewer.
+  checks:
+  - id: literal-test-key
+    title: Check what Version A can and cannot specify
+    body: 'Version A does not name TODAY and “the correct folder” depends on a rule the tester was not
+      given. “Leave the rest there” has an unclear referent and location: there could mean beside the
+      blue slip, in a folder or in the original row. A tester who happens to produce the intended result
+      does not make the wording unambiguous. The first output must remain visible. Relevant feedback names
+      one of those textual gaps; “make it prettier” is unrelated to the fixed semantic target. A complete
+      selected correction must eventually specify both target destination and non-target location.'
+    criteria:
+    - Destination and non-target-location gaps are identified
+    - Lucky success is not treated as clear instruction
+    - Feedback is connected to preserved output and text
+    - One semantic correction is selected before retest
+  - id: fresh-retest-key
+    title: Check Version B against the three fixed criteria
+    body: 'A complete Version B is: “Place the green slip labeled due today inside TODAY. Leave both unmarked
+      white slips in their original row below the folders.” Equivalent accessible wording passes when
+      it fixes the same object, destination and non-target location. Green in TODAY plus moved white slips
+      is partial. Green in LATER is adverse for the stated result. No preserved retest, a prompted destination
+      or a changed folder layout is inconclusive for comparison. Record self-review separately from an
+      unprompted willing tester; either can reveal defects, but only the latter is independent for this
+      run.'
+    criteria:
+    - The fresh object reaches TODAY
+    - Both non-target objects retain the declared location
+    - Clarification prompts and changed conditions remain visible
+    - Result labels follow the fixed criteria rather than approval

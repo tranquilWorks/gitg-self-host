@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1006-MEMORY-AND-RECALL-01
 slug: c1006-memory-and-recall-practice
-name: Bounded Memory and recall Practice
+name: Recall a short sequence with cues and a delayed check
 parent_competency_id: '10.06'
 domain_id: '10'
 governance:
@@ -14,10 +14,10 @@ governance:
   scoring_status: active
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
+  - SRC-KARPICKE-ROEDIGER-RETRIEVAL-2008
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 10.06
-      (Memory and recall); canonical scope, evidence target, classification, domain boundary, and parent
-      mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 10.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,38 +35,47 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Memory and recall through a bounded longitudinal review bounded by the canonical
-    scope: Train working memory appropriately and use mnemonics, retrieval cues, stories, and spaced review
-    for long-term memory.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Recalls relevant knowledge
-    without depending entirely on recognition or external lookup. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Use manageable chunks, meaningful cues and spaced recall to remember a short sequence while
+    distinguishing memory practice from unsupported claims about general working-memory capacity.
+  why_recommended: Use manageable chunks, meaningful cues and spaced recall to remember a short sequence
+    while distinguishing memory practice from unsupported claims about general working-memory capacity.
   claims:
-  - statement: Using the canonical scope and evidence target for Memory and recall is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: Use manageable chunks, meaningful cues and spaced recall to remember a short sequence while
+      distinguishing memory practice from unsupported claims about general working-memory capacity.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  - statement: In the reported foreign-language vocabulary experiments, repeated retrieval after initial
+      learning produced substantially better delayed recall than repeated study without continued retrieval,
+      supporting the distinction between seeing material again and attempting to retrieve it.
+    classification: empirical_finding
+    source_ids:
+    - SRC-KARPICKE-ROEDIGER-RETRIEVAL-2008
+    limitations: A specific controlled vocabulary-learning study, not a universal spacing schedule, general
+      working-memory intervention, clinical assessment, proof of transfer or validation of this product-authored
+      visitor-sequence exercise.
   applicability_question: Does a voluntary, bounded Memory and recall practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Memory and recall as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Memory and recall
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Memory and
-    recall; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use spoken, visual or tactile cues and fewer items per chunk. Never practice
+    by withholding a necessary real-world safety aid or medication reminder. New or concerning memory
+    changes warrant appropriate evaluation rather than self-testing through this exercise.
+  opportunity_considerations: 'Memorize this fictional visitor sequence: enter at the west door; check
+    in at the desk; collect a purple pass; go to room four; return the pass to the blue box; leave by
+    the same door. Use six cards or one accessible recording. No real security procedure or private information
+    is involved.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Memory and recall.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Memorize this fictional visitor sequence: enter at the west door; check in at the desk; collect a
+    purple pass; go to room four; return the pass to the blue box; leave by the same door. Use six cards
+    or one accessible recording. No real security procedure or private information is involved.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Memory and recall instead of a
-    live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use spoken, visual or tactile cues and fewer items per chunk. Never practice by withholding a necessary
+    real-world safety aid or medication reminder. New or concerning memory changes warrant appropriate
+    evaluation rather than self-testing through this exercise.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -77,20 +86,32 @@ meaning_and_fit:
   - The practice does not require one worldview or treat disagreement about Memory and recall as inferiority;
     competing reasonable interpretations and conscientious refusal remain visible.
 intervention:
-  protocol_class: PF-LONGITUDINAL-REVIEW
+  protocol_class: PF-KNOWLEDGE-APPLICATION
   duration_days: 10
-  cadence: Complete three bounded Memory and recall actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Memory and recall; copy the canonical scope and evidence target into a
-    private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Memory and
-    recall. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Memory and recall actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Memorize this fictional visitor sequence: enter at the west door; check in at the desk; collect
+    a purple pass; go to room four; return the pass to the blue box; leave by the same door. Use six cards
+    or one accessible recording. No real security procedure or private information is involved. Goal:
+    Use manageable chunks, meaningful cues and spaced recall to remember a short sequence while distinguishing
+    memory practice from unsupported claims about general working-memory capacity. Scope: This practices
+    one memory target. It is not cognitive diagnosis, rehabilitation or a promise that training a sequence
+    increases intelligence or general memory ability. Time and effort: Ten minutes to encode, five minutes
+    after a short break, and ten minutes the next day. Adaptation: Use spoken, visual or tactile cues
+    and fewer items per chunk. Never practice by withholding a necessary real-world safety aid or medication
+    reminder. New or concerning memory changes warrant appropriate evaluation rather than self-testing
+    through this exercise. Keep personal working notes outside the check-in; record only the listed observations.
+
+
+    Reference support:
+
+    The Critical Importance of Retrieval for Learning: https://doi.org/10.1126/science.1152408'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use spoken, visual or tactile cues and fewer items per chunk. Never practice by
+    withholding a necessary real-world safety aid or medication reminder. New or concerning memory changes
+    warrant appropriate evaluation rather than self-testing through this exercise.
+  expected_burden: Ten minutes to encode, five minutes after a short break, and ten minutes the next day.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Memory and recall protocol to rank worth, coerce participation, demand disclosure, override
@@ -98,19 +119,24 @@ intervention:
   - Treating a completed Memory and recall action, a polished artifact, agreement, confidence, speed,
     independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Memory and recall situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use spoken,
+    visual or tactile cues and fewer items per chunk. Never practice by withholding a necessary real-world
+    safety aid or medication reminder. New or concerning memory changes warrant appropriate evaluation
+    rather than self-testing through this exercise.
   actions:
   - stable_id: PRACTICE-COMP-1006-MEMORY-AND-RECALL-01-A1
     sequence: 1
-    title: Define indicators for Memory and recall
-    instructions: 'Choose two to four observable, privacy-minimized indicators for Memory and recall,
-      plus a missing-data rule and one contradiction indicator. Bound the review to one role or context
-      using this scope: Train working memory appropriately and use mnemonics, retrieval cues, stories,
-      and spaced review for long-term memory.'
+    title: Chunk and cue the sequence without overloading it
+    instructions: 'Group the six steps into arrival, visit and departure, with two actions in each. Make
+      one simple story or mental route linking west door, desk, purple pass, room four and blue box. Read
+      or hear the sequence once, then explain the three chunks. Use an external cue card when needed;
+      the purpose is a workable memory aid, not forcing a fixed span without support.
+
+
+      Observation checks: The six steps are grouped into meaningful chunks; A concrete mnemonic or route
+      connects the items; The original order is checked for accuracy; Support is allowed rather than treated
+      as a failure. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -132,9 +158,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1006_a1_indicators_observable
-        - c1006_a1_missing_data_rule_present
-        - c1006_a1_contradiction_indicator_present
+        - the_six_steps_are_grouped_into_meaningful_chunks
+        - a_concrete_mnemonic_or_route_connects_the_items
+        - the_original_order_is_checked_for_accuracy
+        - support_is_allowed_rather_than_treated_as_a_failure
       - measurement_id: c1006_a1_boundary
         kind: boolean
         role: supporting
@@ -151,10 +178,17 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1006-MEMORY-AND-RECALL-01-A2
     sequence: 2
-    title: Observe Memory and recall across three checkpoints
-    instructions: Collect up to three brief Memory and recall checkpoints across the selected period or
-      contexts. Record unknown, not observed, not applicable, defer, and adverse outcomes as valid states;
-      do not infer a trend from prose length, mood, or one unusually good or bad event.
+    title: Retrieve after a break and correct the exact error
+    instructions: 'After a short unrelated activity, recall the sequence without seeing the complete reference.
+      Mark each step unaided, recalled with a cue or looked up. Check the original and correct an omitted
+      location, color or order using a more distinct cue. Do not restart repeatedly until a lucky perfect
+      run can be presented as the first attempt.
+
+
+      Observation checks: A recall attempt follows a real break; Unaided cued and looked-up items are
+      separated; The error is checked against the original sequence; The cue is revised for a specific
+      omission or order error. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -170,15 +204,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1006_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - a_recall_attempt_follows_a_real_break
+        - unaided_cued_and_looked_up_items_are_separated
+        - the_error_is_checked_against_the_original_sequence
+        - the_cue_is_revised_for_a_specific_omission_or_order_error
       - measurement_id: c1006_a2_boundary
         kind: boolean
         role: supporting
@@ -195,10 +230,36 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1006-MEMORY-AND-RECALL-01-A3
     sequence: 3
-    title: Review the limited Memory and recall pattern
-    instructions: 'Compare the checkpoints, name the strongest contradiction or missing context, and choose
-      repeat, adapt, stop, or seek support. Treat this target as a review criterion rather than proof
-      of transfer: Recalls relevant knowledge without depending entirely on recognition or external lookup.'
+    title: Review after a day and test a modest variation
+    instructions: 'The next day, recall the original sequence before looking. Then explain how you would
+      update the aid if the room changed from four to six while every other step stayed the same. Keep
+      old and new versions distinct so an outdated cue is not silently reused. Choose a further review
+      interval based on the actual errors and the importance of remembering, without inferring broad memory
+      improvement.
+
+
+      Observation checks: A next-day recall is recorded with its actual delay; Original and revised sequence
+      versions are distinguished; A changed detail is incorporated without scrambling the order; The next
+      review follows observed errors rather than streak pressure. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Did the cue help you retrieve the information, or only make it feel familiar when
+      you saw it again?
+
+
+      Examples: Supportive: The learner recalled five steps unaided, used a cue for the return box and
+      revised that cue before the next-day check.
+
+
+      Mixed: The route was remembered but a changed room number revealed interference from the older version.
+
+
+      Contradictory: A necessary safety reminder was removed to test memory, or success on the sequence
+      was claimed as a general intelligence gain.
+
+
+      Inconclusive: The sequence was recognized on the page but never recalled after a delay.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -220,9 +281,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1006_a3_checkpoints_compared
-        - c1006_a3_contradiction_or_gap_named
-        - c1006_a3_transfer_limit_preserved
+        - a_next_day_recall_is_recorded_with_its_actual_delay
+        - original_and_revised_sequence_versions_are_distinguished
+        - a_changed_detail_is_incorporated_without_scrambling_the_order
+        - the_next_review_follows_observed_errors_rather_than_streak_pressure
       - measurement_id: c1006_a3_boundary
         kind: boolean
         role: supporting
@@ -242,16 +304,17 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Memory and recall; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Memory and recall; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Use spoken, visual or tactile cues and fewer items per chunk. Never practice by withholding a necessary
+      real-world safety aid or medication reminder. New or concerning memory changes warrant appropriate
+      evaluation rather than self-testing through this exercise.
     cultural_context:
     - Adapt the expression of Memory and recall to direct or indirect communication, collective or individual
       decision structures, local norms, faith or secular commitments, and role obligations while preserving
       consent and dignity.
     resource_variants:
-    - When a real Memory and recall opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use spoken, visual or tactile cues and fewer items per chunk. Never practice by withholding a necessary
+      real-world safety aid or medication reminder. New or concerning memory changes warrant appropriate
+      evaluation rather than self-testing through this exercise.
   pause_conditions:
   - Pause Memory and recall when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -281,10 +344,8 @@ evidence_and_scoring:
   - c1006_a3_boundary
   - c1006_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Memory and recall action exceeded consent, authority, privacy, qualification, role, burden, or
-    safety boundaries.
-  - The evidence contradicted the intended Memory and recall criterion, depended on coercion or hidden
-    private content, or could not distinguish the protocol from contextual change.
+  - A necessary safety reminder was removed to test memory, or success on the sequence was claimed as
+    a general intelligence gain.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Memory and recall explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -294,14 +355,22 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Memory and recall rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Recalls relevant knowledge without depending entirely on recognition or external lookup.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Memory and recall requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Chunk and cue the sequence without overloading it. Observed checks: The
+    six steps are grouped into meaningful chunks; A concrete mnemonic or route connects the items; The
+    original order is checked for accuracy; Support is allowed rather than treated as a failure. Action
+    2: Retrieve after a break and correct the exact error. Observed checks: A recall attempt follows a
+    real break; Unaided cued and looked-up items are separated; The error is checked against the original
+    sequence; The cue is revised for a specific omission or order error. Action 3: Review after a day
+    and test a modest variation. Observed checks: A next-day recall is recorded with its actual delay;
+    Original and revised sequence versions are distinguished; A changed detail is incorporated without
+    scrambling the order; The next review follows observed errors rather than streak pressure.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. The sequence was recognized on the page but never recalled
+    after a delay.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Memory
     and recall contribution under typed evaluation; protocol performance remains distinct and is never
     counted twice.
@@ -310,9 +379,8 @@ evidence_and_scoring:
   - L08
   - L10
   - L15
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Memory and recall evidence.
@@ -320,10 +388,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define indicators for memory and recall action was attempted or explicitly deferred.
-  - The observe memory and recall across three checkpoints action was attempted or explicitly deferred.
-  - The review the limited memory and recall pattern action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Chunk and cue the sequence without overloading it. Observed checks: The six steps are grouped
+    into meaningful chunks; A concrete mnemonic or route connects the items; The original order is checked
+    for accuracy; Support is allowed rather than treated as a failure.'
+  - 'Action 2: Retrieve after a break and correct the exact error. Observed checks: A recall attempt follows
+    a real break; Unaided cued and looked-up items are separated; The error is checked against the original
+    sequence; The cue is revised for a specific omission or order error.'
+  - 'Action 3: Review after a day and test a modest variation. Observed checks: A next-day recall is recorded
+    with its actual delay; Original and revised sequence versions are distinguished; A changed detail
+    is incorporated without scrambling the order; The next review follows observed errors rather than
+    streak pressure.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -332,55 +409,175 @@ completion_and_review:
     - c1006_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Memory and recall only when the initial context remained safe,
-    the evidence criteria were usable, burden was acceptable, and a new context can be named without assuming
-    transfer.
-  transfer_limit: Three bounded actions do not establish Memory and recall across roles, cultures, relationships,
-    seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Did the cue help you retrieve the information, or only make it feel familiar when
+    you saw it again?
+  transfer_limit: This practices one memory target. It is not cognitive diagnosis, rehabilitation or a
+    promise that training a sequence increases intelligence or general memory ability.
   reflection:
-    before: What does Memory and recall require in this exact context, what remains outside my role or
-      authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Memory and recall criterion is present, absent, mixed, or unknown, and are
-      consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Recalls relevant knowledge without depending entirely on recognition
-      or external lookup.', what contradiction or missing context matters most, and should this Memory
-      and recall design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Use manageable chunks, meaningful cues and
+      spaced recall to remember a short sequence while distinguishing memory practice from unsupported
+      claims about general working-memory capacity.'
+    during: Which checks have actually been observed? The route was remembered but a changed room number
+      revealed interference from the older version.
+    after: Did the cue help you retrieve the information, or only make it feel familiar when you saw it
+      again?
   review_guidance:
     repeat: Repeat the same bounded Memory and recall design only when the context and burden remain appropriate.
-    adapt: Change the Memory and recall medium, scope, support, timing, criteria, or context while preserving
-      provenance and the narrower evidence claim.
+    adapt: Use spoken, visual or tactile cues and fewer items per chunk. Never practice by withholding
+      a necessary real-world safety aid or medication reminder. New or concerning memory changes warrant
+      appropriate evaluation rather than self-testing through this exercise.
     stop: Stop Memory and recall when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Memory and recall questions beyond this
-      educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Memory and recall criteria were observed with provenance and no adverse boundary
-      signal in the selected context.
-    mixed: Some Memory and recall criteria were observed while burden, support, contextual change, or
-      a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Memory and recall criterion, introduced harm
-      or coercion, or showed the design was not workable.
-    inconclusive: The Memory and recall action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: The learner recalled five steps unaided, used a cue for the return box and revised that
+      cue before the next-day check.
+    mixed: The route was remembered but a changed room number revealed interference from the older version.
+    contradictory: A necessary safety reminder was removed to test memory, or success on the sequence
+      was claimed as a general intelligence gain.
+    inconclusive: The sequence was recognized on the page but never recalled after a delay.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Memory and recall.
+    context_heading: Recall a short sequence with cues and a delayed check
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Memory and
       recall.
   check_in_labels:
-    c1006_a1_primary: The bounded Memory and recall criterion for action 1 was observed
+    c1006_a1_primary: 'Observed checks: chunk and cue the sequence without overloading it'
     c1006_a1_boundary: Action 1 stayed inside its stated Memory and recall boundary
     c1006_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1006_a2_primary: The bounded Memory and recall criterion for action 2 was observed
+    c1006_a2_primary: 'Observed checks: retrieve after a break and correct the exact error'
     c1006_a2_boundary: Action 2 stayed inside its stated Memory and recall boundary
     c1006_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1006_a3_primary: The bounded Memory and recall criterion for action 3 was observed
+    c1006_a3_primary: 'Observed checks: review after a day and test a modest variation'
     c1006_a3_boundary: Action 3 stayed inside its stated Memory and recall boundary
     c1006_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Memory and recall
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Did the cue help you retrieve the information, or only make it feel familiar when you
+    saw it again? Completion is not mastery.
+  plain_language_evidence: The learner recalled five steps unaided, used a cue for the return box and
+    revised that cue before the next-day check.
   display_order: 128
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '10.06'
+  title: Retrieve, repair and version one short sequence
+  scored: false
+  sections:
+  - id: memory-model
+    kind: concept
+    title: Separate recognition, retrieval and cue use
+    body: Recognition is noticing that an answer looks familiar when it is present. Retrieval is producing
+      the target before seeing the complete reference. A cue can support retrieval without making the
+      attempt unaided; looking up the full answer is useful correction but is not recall. Record those
+      routes separately. Chunking groups related steps into a meaningful unit, and a mnemonic supplies
+      a route back to them. Neither changes a fixed personal worth or proves broader memory capacity.
+      A delayed attempt is informative only when the actual delay, target version and available cues remain
+      visible. This original exercise is not diagnosis, rehabilitation or a validated memory program.
+  - id: worked-route
+    kind: worked_example
+    title: Example on a different six-step route
+    body: 'Example target: enter at the red gate; sign the visitor page; take a yellow tag; go to room
+      two; return the tag to the green tray; leave through the red gate. One learner groups this as arrival
+      [red gate, sign], visit [yellow tag, room two], departure [green tray, red gate]. Their route image
+      is red pen, yellow tag, door 2, green tray, red gate. After a break they say room three. They mark
+      that item incorrect before checking, then change only the cue to “yellow tag touches a large 2.”
+      Seeing room two on the page would be recognition; producing it from that cue is cued recall.'
+  - id: visitor-sequence
+    kind: material
+    title: Supplied fictional target and three chunks
+    body: 'Target V1, revision 1, 8 September 2026: (1) enter at the west door; (2) check in at the desk;
+      (3) collect a purple pass; (4) go to room four; (5) return the pass to the blue box; (6) leave by
+      the same west door. The suggested chunks are arrival [1–2], visit [3–4], departure [5–6]. The chunk
+      labels are aids, not replacement answers: order, object, color, number and repeated exit door still
+      matter. This is a fictional memory target, never a real access or safety procedure.'
+  - id: recall-record
+    kind: material
+    title: Preserve the attempt before correction
+    body: 'Target version: __. Encoding route and supports: __. Encoding ended at: __. Recall began at:
+      __. Actual delay: __. First response in order: __. For each position mark U [unaided], C [specific
+      cue used], L [full item looked up], O [omitted] or W [wrong]: 1 __ 2 __ 3 __ 4 __ 5 __ 6 __. Exact-position
+      correct count: __/6. First error or uncertainty: __. Reference checked after the attempt [yes/no].
+      Exact cue repair: __. Keep the first response; do not replace it with the key.'
+  - id: first-recall
+    kind: prompt
+    title: First retrieval after a real short break
+    body: Read or hear Target V1 once and create one cue route. Put the complete target away. Do an unrelated
+      activity for at least five minutes; record the actual times rather than estimating a delay. Then
+      write or say all six steps in order without the reference. Mark U, C, L, O or W for every position
+      before opening the key. A cue may be used, but label it. Stop after one preserved response; repeated
+      guesses are practice, not the first attempt.
+    references:
+    - visitor-sequence
+    - recall-record
+    check_id: first-recall-key
+    attempt_mode: practice
+  - id: repair-one-error
+    kind: concept
+    title: Repair the smallest demonstrated retrieval failure
+    body: 'Compare each position with V1. An item in the wrong position is wrong even when all nouns appear.
+      For the first omission, substitution or order error, make one cue more discriminating: bind the
+      color to its object, the room number to the pass, or the return container to departure. If every
+      item was correct, record maintenance and test the unchanged route later; do not invent improvement.
+      Keep exposure, cue use and correction separate so a perfect corrected copy is not presented as the
+      initial recall.'
+  - id: version-check
+    kind: prompt
+    title: Delayed retrieval and one controlled version change
+    body: 'On the next calendar day, or after the longest honest delay available, retrieve V1 before looking
+      and preserve the actual response and delay. Then read Target V2: only step 4 changes from room four
+      to room six; every other word and position remains V1. Put both versions away and produce V2 once.
+      Label whether step 4 came from V2, interfered from V1, used a cue or was looked up. List any other
+      position that changed accidentally. If the delay did not occur, label this a prepared future check,
+      not delayed evidence.'
+    references:
+    - visitor-sequence
+    - recall-record
+    check_id: version-check-key
+    attempt_mode: practice
+  - id: access-and-safety
+    kind: pathway
+    title: Keep supports available and stakes low
+    body: 'Use large print, audio, tactile markers, speech entry, fewer items per displayed chunk or a
+      helper who records the learner’s chosen response. Report the support in every attempt. Necessary
+      medication, emergency, access-control and safety reminders must remain available; never remove one
+      to create a memory test. New, worsening or concerning memory changes need appropriate clinical evaluation,
+      not harder self-testing. An advanced route may use a longer harmless list, but changes only one
+      variable at a time: length, delay, cue availability or version similarity.'
+  - id: next-review
+    kind: next_step
+    title: Choose the next interval from the error record
+    body: If V1 and V2 were exact with the same supports, schedule one longer interval on the same harmless
+      target before raising length. If one position failed, keep length and practice the repaired cue
+      on one future retrieval. If several positions failed, shorten the target or strengthen chunk meaning.
+      Record improved, unchanged, worse, mixed or not comparable. One sequence does not demonstrate general
+      transfer; test any later real use with its normal aids still present.
+  checks:
+  - id: first-recall-key
+    title: Check the first response position by position
+    body: 'V1 in exact order is: west door; desk check-in; purple pass; room four; blue box return; same
+      west door exit. Award one exact-position item only when the object, distinguishing detail and order
+      are correct. “Door, desk, pass, room, box, door” preserves categories but omits west, purple, four
+      and blue; it is not 6/6. “West door, desk, room four, purple pass, blue box, west door” has positions
+      3 and 4 reversed. Report U/C/L/O/W separately; C and L can support learning but are not unaided
+      recall. A valid repair names the exact failed feature and changes one cue after preserving the response.'
+    criteria:
+    - The complete six-position key is separate from the prompt
+    - Recognition cue use lookup omission and error remain distinct
+    - Order and distinguishing details are checked
+    - Correction follows rather than overwrites the attempt
+  - id: version-check-key
+    title: Check original and changed versions without blending them
+    body: V1 remains west door, desk, purple pass, room four, blue box, west door. V2 is identical except
+      position 4 is room six. Saying room four in the V2 attempt is old-version interference, not a correct
+      answer because it was once learned. Changing purple to another color or blue box to another container
+      is collateral error. A completed record includes the actual delay and retrieval route for both attempts.
+      When no delay occurred, the correct disposition is prepared or immediate practice—not a delayed
+      pass. A clean V2 response supports only this controlled version update under recorded supports.
+    criteria:
+    - V1 and V2 differ at exactly one declared position
+    - Old-version interference is visible
+    - Unplanned changes at other positions are retained
+    - The actual delay controls the evidence label
