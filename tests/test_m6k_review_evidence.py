@@ -509,3 +509,20 @@ def test_na_cannot_clear_owner_or_be_simulated_human_evidence(case):
     row["decision_reference"] = "synthetic-fixture-only"
     with pytest.raises(reviews.ReviewError, match="real decision"):
         validate(case, row)
+
+
+@pytest.mark.parametrize("index", ["-1", "01", "+1", "-"])
+def test_array_pointer_rejects_noncanonical_indices(case, index):
+    anchor = {
+        "path": "docs/authoring/exercises/10.yaml",
+        "pointer": f"/exercises/10.01/actions/{index}",
+        "sha256": "0" * 64,
+    }
+    with pytest.raises(reviews.ReviewError, match="nonnegative canonical index"):
+        reviews.anchor_value(case[0], anchor)
+
+
+def test_check_requires_a_pinned_history_base(monkeypatch):
+    monkeypatch.setattr("sys.argv", ["reviews.py", "check"])
+    with pytest.raises(reviews.ReviewError, match="pinned --base"):
+        reviews.main()

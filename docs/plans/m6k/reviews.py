@@ -115,7 +115,16 @@ def anchor_value(root, anchor):
     try:
         for part in anchor["pointer"][1:].split("/"):
             part = part.replace("~1", "/").replace("~0", "~")
-            value = value[int(part)] if isinstance(value, list) else value[part]
+            if isinstance(value, list):
+                require(
+                    re.fullmatch(r"0|[1-9][0-9]*", part),
+                    "Array pointer must use a nonnegative canonical index.",
+                )
+                value = value[int(part)]
+            else:
+                value = value[part]
+    except ReviewError:
+        raise
     except (KeyError, IndexError, TypeError, ValueError) as exc:
         raise ReviewError(f"Unresolved artifact pointer: {anchor}") from exc
     return json.dumps(value, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode()
@@ -589,6 +598,8 @@ def main():
     parser.add_argument("--base", help="Pinned prior Git revision for append-only history checks.")
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
+    if args.command == "check":
+        require(args.base, "check requires a pinned --base for append-only history enforcement.")
     if args.base:
         preserve_history(ROOT, args.base)
     if args.command == "snapshot":

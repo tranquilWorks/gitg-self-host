@@ -23,7 +23,7 @@ ledger only when the pinned tree also contains no historical receipts.
 
 `report` derives current dispositions and explains invalid receipts without
 accepting them. `check` exits unsuccessfully for stale report bytes, an invalid
-current receipt, rewritten history (when `--base` is supplied), or a changed
+current receipt, rewritten history (`check` requires `--base`), or a changed
 protected recovery baseline. The baseline restriction is deliberate for this
 software-only batch; a future runtime-content batch must explicitly reconcile
 its authorized invariant boundary rather than silently rebaseline it.

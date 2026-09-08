@@ -43,3 +43,27 @@ certify semantic depth, completeness of a declared facet inventory, independent
 private knowledge, human identity or intervention effectiveness. Source-only
 implementation is distinct from final hosted verification and milestone acceptance.
 M6K-01-03 and formal repair/A/B/C work remain subsequent actions.
+
+## Final implementation checkpoint
+
+- Expanded initial focused run: **66 passed in 141.74 seconds** (44 review
+  tests plus 22 existing recovery/instructional/repair regressions).
+- Final review enforcement, including mandatory pinned-base checking and strict
+  array pointers: **49 passed in 54.88 seconds**. These include the earlier 44;
+  together the two runs cover **71 distinct targeted tests**, not 115.
+- Isolated `make pilot-check`: passed, preserving 383 active protocols,
+  1,151 action identities, 383 score-active protocols and exact replay.
+- Scope audit: every changed file is allowed and no forbidden path changed.
+- The full non-browser suite was collected as 521 tests before the five final
+  hardening tests were added. It and the remaining readiness/catalog commands
+  are still running at this checkpoint. Their retained `.partial.txt` logs are
+  progress snapshots, not pass evidence or a final-head full-suite claim.
+- The initial published implementation's tree was verified against all 13
+  local blob hashes. Draft PR #68 runs hosted verification. No required hosted
+  gate or final browser/Compose inspection is claimed complete.
+
+Exact retained output and environment are under
+`docs/evidence/m6k-review-2026-09-08/`. The final gate output and formatting,
+manifest and Django contract checks are retained separately with the publication
+update. Final report still has 383 recovered drafts, 91 tailored runtime entries,
+292 pending runtime rewrites and zero passes in every formal review dimension.
