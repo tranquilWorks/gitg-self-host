@@ -32,7 +32,7 @@ Dockerfile	556
 HANDOFF_PROMPT.md	10887
 Makefile	5864
 README.md	40647
-contracts/active-batch.yaml	3862
+contracts/active-batch.yaml	3571
 contracts/assessment-calibration-analysis.schema.json	8367
 contracts/assessment-calibration-analysis.yaml	2771
 contracts/assessment-calibration-consent.yaml	1882
@@ -492,7 +492,7 @@ docker-entrypoint.sh	563
 docs/CURRENT_STATE.md	7751
 docs/HANDOFF.md	1676
 docs/PRODUCT_DECISIONS.md	41502
-docs/PROJECT_HANDOFF.md	80561
+docs/PROJECT_HANDOFF.md	81555
 docs/SCORING_DESIGN.md	9023
 docs/architecture/0001-django-monolith-and-sqlite.md	3070
 docs/architecture/0002-shadow-scoring-before-mutation.md	1989
@@ -574,7 +574,9 @@ docs/authoring/quality/21.03/seed-swap-attempt-check.md	2681
 docs/authoring/quality/21.03/seed-swap-attempt-prompt.md	1679
 docs/authoring/quality/21.03/sketch-walk-attempt-check.md	2656
 docs/authoring/quality/21.03/sketch-walk-attempt-prompt.md	1665
-docs/authoring/quality/README.md	1952
+docs/authoring/quality/README.md	2571
+docs/authoring/quality/current-report.json	717717
+docs/authoring/quality/ledger.json	62
 docs/authoring/sources.yaml	38949
 docs/backup-and-restore.md	5607
 docs/context-and-personal-os.md	18262
@@ -604,6 +606,7 @@ docs/evidence/M6J-03-FOUNDATIONAL-PRACTICES-2026-09-06.md	6567
 docs/evidence/M6J-04-VULNERABILITY-PRACTICES-2026-09-06.md	6433
 docs/evidence/M6K-INSTRUCTIONAL-2026-09-08.md	3940
 docs/evidence/M6K-RECOVERY-2026-09-08.md	1838
+docs/evidence/M6K-REVIEW-EVIDENCE-2026-09-08.md	2723
 docs/evidence/local/.gitignore	14
 docs/evidence/m6k-2026-09-08/browser-collection.txt	251
 docs/evidence/m6k-2026-09-08/contract.txt	1055
@@ -624,6 +627,7 @@ docs/plans/AGENTIC_DELIVERY_GAPS.md	1933
 docs/plans/DELIVERY_AUTOMATION.md	2415
 docs/plans/m6k/AUDIT.md	4774
 docs/plans/m6k/README.md	10816
+docs/plans/m6k/REVIEW_IMPLEMENTATION.md	7844
 docs/plans/m6k/REVIEW_RECORD.md	6511
 docs/plans/m6k/input-manifest.json	1407
 docs/plans/m6k/navigation-state.json	93
@@ -666,6 +670,10 @@ docs/plans/m6k/recovery/selected/exercises/26.yaml	63899
 docs/plans/m6k/recovery/selected/exercises/27.yaml	71193
 docs/plans/m6k/recovery/selected/sources.yaml	142530
 docs/plans/m6k/recovery/source-inventory.json	194800
+docs/plans/m6k/reviews.py	24507
+docs/plans/m6k/schemas/ledger.schema.json	863
+docs/plans/m6k/schemas/receipt.schema.json	14746
+docs/plans/m6k/schemas/scope-plan.schema.json	4875
 docs/practice-content.md	6143
 docs/practice-workflow.md	7833
 docs/program/M6_CURRICULUM_EXPANSION.md	16001
@@ -993,6 +1001,7 @@ tests/test_m6c_pilot_readiness.py	10156
 tests/test_m6d_authoring_readiness.py	7744
 tests/test_m6k_recovery.py	2548
 tests/test_m6k_repair_drafts.py	3894
+tests/test_m6k_review_evidence.py	19977
 tests/test_models.py	2870
 tests/test_personal_os_browser.py	26811
 tests/test_personal_os_models.py	5683

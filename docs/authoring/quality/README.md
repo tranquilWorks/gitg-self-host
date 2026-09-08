@@ -23,3 +23,13 @@ cold-start run must receive only the selected learner-visible material and
 prerequisites first; do not send this authoring directory with hidden checks
 and author rationale as its first input. No independent C run, actual learner
 session, qualified decision or professional credential is claimed here.
+
+## Current-revision review enforcement
+
+`ledger.json` now indexes immutable, per-competency receipts; it starts empty.
+`current-report.json` derives seven independent dimensions from valid current
+receipts and keeps draft mechanical findings visible. The implementation and
+recording procedure are in [REVIEW_IMPLEMENTATION.md](../../plans/m6k/REVIEW_IMPLEMENTATION.md).
+Existing `draft-record.json` files are provenance and are deliberately not imported
+as acceptance. Run `reviews.py check` with the pinned PR base before publishing
+new review records. No actual A/B/C or human pass has been recorded by this batch.
