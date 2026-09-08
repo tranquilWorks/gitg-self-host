@@ -1,0 +1,55 @@
+repository=/workspace/scratch/16fa3a306990/gitg-self-host
+mode=quick
+started=2026-09-08T03:46:35+00:00
+head=1a5ca67364a5a3025d32d17a0ebffb58688f4875
+
+>>> [contract] ./scripts/ensure-agent-env.py
+Development environment ready: /workspace/scratch/16fa3a306990/gitg-self-host/.venv/bin/python
+
+>>> [contract] .venv/bin/python scripts/verify-manifest.py
+MANIFEST.tsv verified: 1019 files
+
+>>> [contract] .venv/bin/python -m ruff format --check .
+308 files already formatted
+
+>>> [contract] .venv/bin/python -m ruff check .
+All checks passed!
+
+>>> [contract] APP_DATA_DIR="$PWD/var/agent-check" DJANGO_SECRET_KEY=agent-check-secret APP_DEBUG=true .venv/bin/python manage.py check
+System check identified no issues (0 silenced).
+
+>>> [contract] APP_DATA_DIR="$PWD/var/agent-check" DJANGO_SECRET_KEY=agent-check-secret APP_DEBUG=true .venv/bin/python manage.py makemigrations --check --dry-run
+No changes detected
+
+>>> [quick] APP_DATA_DIR="$PWD/var/agent-test" .venv/bin/python -m pytest -m "not e2e"
+============================= test session starts ==============================
+platform linux -- Python 3.12.13, pytest-8.4.2, pluggy-1.6.0
+django: version: 6.0.8, settings: grounded_growth.settings_test (from ini)
+rootdir: /workspace/scratch/16fa3a306990/gitg-self-host
+configfile: pyproject.toml
+testpaths: tests
+plugins: django-4.14.0, playwright-0.9.0, base-url-2.1.0
+collected 549 items / 28 deselected / 521 selected
+
+tests/test_all_active_runtime.py .....                                   [  0%]
+tests/test_applicability_coverage.py ....                                [  1%]
+tests/test_assessment_calibration_analysis.py ..                         [  2%]
+tests/test_assessment_calibration_consent.py ..............              [  4%]
+tests/test_assessment_integration.py .....                               [  5%]
+tests/test_auth_and_health.py ....                                       [  6%]
+tests/test_bootstrap.py ..                                               [  6%]
+tests/test_canonical_import.py ...                                       [  7%]
+tests/test_competency_evidence_readiness.py ..                           [  7%]
+tests/test_composite_score_state.py ........                             [  9%]
+tests/test_composite_scoring_readiness.py .                              [  9%]
+tests/test_context_models.py ....                                        [ 10%]
+tests/test_context_priority_readiness.py .............                   [ 12%]
+tests/test_context_readiness.py ...                                      [ 13%]
+tests/test_context_services.py ....                                      [ 14%]
+tests/test_data_lifecycle.py ..........                                  [ 16%]
+tests/test_database_and_backup.py ..                                     [ 16%]
+tests/test_evidence_audit.py ......                                      [ 17%]
+tests/test_evidence_engine.py ......                                     [ 18%]
+tests/test_expansion_readiness.py ..                                     [ 19%]
+tests/test_instructional_content.py ..                                   [ 19%]
+tests/test_m6c_pilot_readiness.py .

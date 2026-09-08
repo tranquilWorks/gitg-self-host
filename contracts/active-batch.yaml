@@ -1,26 +1,26 @@
 schema_version: 1
 batch:
-  id: M6K-01-02-REVIEW-EVIDENCE
-  title: Enforce current-revision competency review evidence
-  goal: Implement M6K-01-02 mechanical checks, append-only review receipts and independent current-revision
-    dimensions; do not accept content or human gates.
+  id: M6K-01-03-GOVERNED-CONTINUATION
+  title: Connect evidence-aware one-action M6K continuation
+  goal: Generate bounded existing-schema contracts, retain restartable checkpoints and exclusive workspace
+    leases, and dispatch through the current Portfolio Control runner without accepting content or human
+    gates.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
   - docs/plans/m6k/program.json
-  milestone: M6K-00 and M6K-01
-  baseline_commit: 1a5ca67364a5a3025d32d17a0ebffb58688f4875
+  milestone: M6K-01-03
+  baseline_commit: f03e73db4748b192bfe6fae18ac0f540874700cd
 dependencies:
-- M6K-PR-67-merged-instructional-implementation
+- M6K-PR-68-merged-review-enforcement
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/**
-  - growth/domain/instructional_content.py
-  - tests/**
+  - tests/test_m6k_continuation.py
   forbidden_paths:
   - data/assessment/**
   - data/model/**
@@ -39,26 +39,20 @@ scope:
   - docker-compose.yml
   - .github/workflows/**
 acceptance:
-- All 383 protocol packages and 1151 scored-action identities remain unchanged.
-- Receipt validation rejects stale revisions, unresolved anchors, duplicate IDs, invalid dependencies
-  and unresolved blockers.
-- Scope, instruction, independent cold-start, integration, actual learner, qualified and owner decisions
-  remain independent.
-- Per-entry and per-artifact hashes do not invalidate neighboring entries in the same YAML.
-- Mechanical defects fail closed; successful checks cannot establish semantic depth or authenticate a
-  human.
-- No source repair is selected for runtime and no content or human acceptance is fabricated.
-- Hosted/browser/Compose verification limitations are retained explicitly.
+- Current program and per-competency review evidence determine completion; advisory state and commit subjects
+  do not.
+- Every generated batch validates against pinned Portfolio Control schemas and has exact action scope,
+  dependencies, verification and rollback.
+- Persistent checkpoints survive interruption without duplicate branch/PR identities or automatic acceptance.
+- Exclusive leases refuse concurrent edits across linked worktrees; abandoned leases need explicit dead-owner
+  recovery.
+- M6K is registered separately from legacy active work and actual human gates remain intact.
+- Deterministic fixtures cover stale/missing evidence, blocked independent work, human gates, lease contention
+  and resume.
 validation:
   local:
-  - .venv/bin/python docs/plans/m6k/reviews.py check --base 1a5ca67364a5a3025d32d17a0ebffb58688f4875 --output
-    docs/authoring/quality/current-report.json
-  - make full-frontier-check PYTHON=.venv/bin/python
+  - .venv/bin/python -m pytest tests/test_m6k_continuation.py -q
   - ./scripts/agent-verify.sh contract
-  - ./scripts/agent-verify.sh quick
-  - make practice-report-check PYTHON=.venv/bin/python
-  - make catalog-governance-audit-check PYTHON=.venv/bin/python
-  - make composite-scoring-catalog-check PYTHON=.venv/bin/python
   - git diff --check
   required_ci:
   - Ruff Django pytest migration drift and manifest verification
@@ -66,6 +60,11 @@ validation:
   - Playwright core journeys
   - Compose backup restore and recreation
   - aggregate Pilot readiness gate
+  focused_tests_to_add:
+  - Dependency and evidence freshness
+  - Existing-schema contract and exact scope
+  - Durable lease contention and interruption resume
+  - No fabricated completion or human approval
 risk:
   class: high
   hazards:
@@ -83,7 +82,6 @@ rollback:
     reinterpret existing event snapshots.
 evidence:
   output:
-  - docs/evidence/M6K-REVIEW-EVIDENCE-2026-09-08.md
-  - docs/authoring/quality/current-report.json
+  - docs/evidence/M6K-CONTINUATION-2026-09-08.md
   claim_boundary: Authored educational practices and software verification; no automatic human review
     or empirical validation acceptance.

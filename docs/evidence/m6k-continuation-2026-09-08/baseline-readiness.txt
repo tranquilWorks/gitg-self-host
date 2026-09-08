@@ -1,0 +1,145 @@
+PYTHON_BIN=".venv/bin/python" ./scripts/verify_pilot_readiness.sh
+
+==> Build an isolated migrated and seeded application database
+Operations to perform:
+  Apply all migrations: auth, contenttypes, growth, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0001_initial... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying growth.0001_initial... OK
+  Applying growth.0002_m1b_workflow_fields... OK
+  Applying growth.0003_m2a_evidence_events... OK
+  Applying growth.0004_m3a_shadow_scoring... OK
+  Applying growth.0005_m3b_score_state... OK
+  Applying growth.0006_m4a_protocol_library... OK
+  Applying growth.0007_pilotfeedback... OK
+  Applying growth.0008_assessmentcontext_practicecontext... OK
+  Applying growth.0009_personalosrevision... OK
+  Applying growth.0010_practicecheckin_typed_observations... OK
+  Applying growth.0011_weeklyexecutionplan_weeklyexecutionreview_and_more... OK
+  Applying growth.0012_composite_closeout_scoring... OK
+  Applying growth.0013_assessmentcalibrationconsent... OK
+  Applying sessions.0001_initial... OK
+Created bootstrap user 'pilot-readiness'.
+Canonical seed complete: 37 levers, 383 competencies, 1403 weighted links, 383 practice protocols, 37 Pilot 002 baselines.
+Canonical seed complete: 37 levers, 383 competencies, 1403 weighted links, 383 practice protocols, 37 Pilot 002 baselines.
+Evidence backfill complete: 0 submitted, 0 created, 0 already present.
+Score-state rebuild complete: 1 assessment runs, 1 initialized, 0 events processed, 0 repairs.
+
+==> Run the read-only post-M4 pilot-readiness contract
+Pilot readiness verified (GG-PILOT-READINESS-1.0): 27 domains, 383 competencies, 37 levers, 15 archetypes, 555 archetype affinities, 1403 weighted links; 383 active protocols with 1151 actions and 383 score-active protocols; 1 Pilot 002 profile; 0 evidence events and 1 score-state runs replayed.
+
+Pilot-readiness verification passed.
+PYTHON_BIN=".venv/bin/python" ./scripts/verify_expansion_readiness.sh
+
+==> Verify deterministic canonical practice-content reports
+Practice-content reports are current.
+
+==> Build an isolated migrated and idempotently seeded application database
+Operations to perform:
+  Apply all migrations: auth, contenttypes, growth, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0001_initial... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying growth.0001_initial... OK
+  Applying growth.0002_m1b_workflow_fields... OK
+  Applying growth.0003_m2a_evidence_events... OK
+  Applying growth.0004_m3a_shadow_scoring... OK
+  Applying growth.0005_m3b_score_state... OK
+  Applying growth.0006_m4a_protocol_library... OK
+  Applying growth.0007_pilotfeedback... OK
+  Applying growth.0008_assessmentcontext_practicecontext... OK
+  Applying growth.0009_personalosrevision... OK
+  Applying growth.0010_practicecheckin_typed_observations... OK
+  Applying growth.0011_weeklyexecutionplan_weeklyexecutionreview_and_more... OK
+  Applying growth.0012_composite_closeout_scoring... OK
+  Applying growth.0013_assessmentcalibrationconsent... OK
+  Applying sessions.0001_initial... OK
+Created bootstrap user 'm6a-probe'.
+Canonical seed complete: 37 levers, 383 competencies, 1403 weighted links, 383 practice protocols, 37 Pilot 002 baselines.
+Canonical seed complete: 37 levers, 383 competencies, 1403 weighted links, 383 practice protocols, 37 Pilot 002 baselines.
+Evidence backfill complete: 0 submitted, 0 created, 0 already present.
+Score-state rebuild complete: 1 assessment runs, 1 initialized, 0 events processed, 0 repairs.
+
+==> Run the additive M6A curriculum-expansion readiness contract
+Expansion readiness verified (GG-CURRICULUM-EXPANSION-READINESS-1.0): 383 canonical packages and 1151 actions project 383 runtime protocols; 0 of 383 competencies remain explicitly unauthored; 383 score-active protocols; 5 legacy-compatible projections; legacy projection hash 9eff5558607936aab20ec2adcdf4912510e9f8816cc291ae6b77918bf6711672.
+
+Curriculum-expansion readiness verification passed.
+PYTHON_BIN=".venv/bin/python" ./scripts/verify_competency_evidence_readiness.sh
+
+==> Verify canonical and deterministic M6A/M6B source contracts
+Canonical content valid: 383 practice packages, content hash 4b37fa8c3f41418c12324c7b3da98c45814c72ed96034d9797b02a4bdb274645, runtime projection 9eff5558607936aab20ec2adcdf4912510e9f8816cc291ae6b77918bf6711672; typed evidence GG-TYPED-EVIDENCE-1.0.
+Practice-content reports are current.
+Competency-evidence reports are current.
+
+==> Build an isolated migrated and idempotently seeded application database
+Operations to perform:
+  Apply all migrations: auth, contenttypes, growth, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0001_initial... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying growth.0001_initial... OK
+  Applying growth.0002_m1b_workflow_fields... OK
+  Applying growth.0003_m2a_evidence_events... OK
+  Applying growth.0004_m3a_shadow_scoring... OK
+  Applying growth.0005_m3b_score_state... OK
+  Applying growth.0006_m4a_protocol_library... OK
+  Applying growth.0007_pilotfeedback... OK
+  Applying growth.0008_assessmentcontext_practicecontext... OK
+  Applying growth.0009_personalosrevision... OK
+  Applying growth.0010_practicecheckin_typed_observations... OK
+  Applying growth.0011_weeklyexecutionplan_weeklyexecutionreview_and_more... OK
+  Applying growth.0012_composite_closeout_scoring... OK
+  Applying growth.0013_assessmentcalibrationconsent... OK
+  Applying sessions.0001_initial... OK
+Created bootstrap user 'm6b-probe'.
+Canonical seed complete: 37 levers, 383 competencies, 1403 weighted links, 383 practice protocols, 37 Pilot 002 baselines.
+Canonical seed complete: 37 levers, 383 competencies, 1403 weighted links, 383 practice protocols, 37 Pilot 002 baselines.
+Evidence backfill complete: 0 submitted, 0 created, 0 already present.
+Score-state rebuild complete: 1 assessment runs, 1 initialized, 0 events processed, 0 repairs.
+
+==> Preserve exact v1 evidence and production score-state replay
+Evidence verification passed: 0 events replayed for 0 submitted check-ins.
+Score-state verification passed for 1 assessment runs.
+
+==> Preserve M6A and verify additive M6B software readiness
+Expansion readiness verified (GG-CURRICULUM-EXPANSION-READINESS-1.0): 383 canonical packages and 1151 actions project 383 runtime protocols; 0 of 383 competencies remain explicitly unauthored; 383 score-active protocols; 5 legacy-compatible projections; legacy projection hash 9eff5558607936aab20ec2adcdf4912510e9f8816cc291ae6b77918bf6711672.
+Competency-evidence software readiness verified (GG-COMPETENCY-EVIDENCE-READINESS-1.0): 383 canonical packages, 1151 actions, 0 explicitly unauthored competencies, 378 typed production protocols, 378 typed score-active protocols, and 383 total score-active protocols. Owner-directed M6F software activation is effective; the separate M6B specialist audit remains tracked as ER-M6A-003=pending and RG-M6A-002=open.
+
+Competency-evidence software readiness verification passed.
