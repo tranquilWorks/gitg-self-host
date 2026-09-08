@@ -1,5 +1,10 @@
 # Governed one-action continuation
 
+The QA-01 continuation reconciles actual M6K-01 software evidence and records the
+specific 21.03 source repair. Current evidence selects M6K-02-02. See
+`docs/evidence/M6K-QA01-CRAFT-REPAIR.md`; the original rollout state below describes
+the initial installation, not a permanent restriction on subsequent progress.
+
 `continuation.py preview` computes progress from validated evidence and selects the
 first unresolved, dependency-ready agent action. `queue.py` remains advisory.
 

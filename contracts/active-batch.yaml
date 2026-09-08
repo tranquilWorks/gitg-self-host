@@ -1,26 +1,36 @@
 schema_version: 1
 batch:
-  id: M6K-01-03-GOVERNED-CONTINUATION
-  title: Connect evidence-aware one-action M6K continuation
-  goal: Generate bounded existing-schema contracts, retain restartable checkpoints and exclusive workspace
-    leases, and dispatch through the current Portfolio Control runner without accepting content or human
-    gates.
+  id: M6K-QA01-CRAFT-REPAIR
+  title: Verify instructional prerequisites and finish the supplied craft exercise
+  goal: Retain actual browser and prerequisite verification; complete and desk-check the 21.03 materials
+    without claiming full A/B/C or human acceptance.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
   - docs/plans/m6k/program.json
-  milestone: M6K-01-03
-  baseline_commit: f03e73db4748b192bfe6fae18ac0f540874700cd
+  - https://github.com/tranquilWorks/gitg-self-host/issues/60
+  milestone: M6K-02-01
+  baseline_commit: 6173b1e15596ac883fd08f9c4c1f4967f3450c6a
 dependencies:
-- M6K-PR-68-merged-review-enforcement
+- M6K-01-01-evidence-reconciliation
+- M6K-01-02-merged
+- M6K-01-03-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
-  - docs/**
-  - tests/test_m6k_continuation.py
+  - docs/plans/m6k/program-receipts.json
+  - docs/plans/m6k/README.md
+  - docs/plans/m6k/CONTINUATION.md
+  - docs/PROJECT_HANDOFF.md
+  - docs/evidence/**
+  - docs/authoring/exercises/21.yaml
+  - docs/authoring/quality/21.03/**
+  - docs/authoring/quality/current-report.json
+  - tests/test_m6k_2103.py
+  - tests/e2e/test_instructional_content.py
   forbidden_paths:
   - data/assessment/**
   - data/model/**
@@ -39,19 +49,17 @@ scope:
   - docker-compose.yml
   - .github/workflows/**
 acceptance:
-- Current program and per-competency review evidence determine completion; advisory state and commit subjects
-  do not.
-- Every generated batch validates against pinned Portfolio Control schemas and has exact action scope,
-  dependencies, verification and rollback.
-- Persistent checkpoints survive interruption without duplicate branch/PR identities or automatic acceptance.
-- Exclusive leases refuse concurrent edits across linked worktrees; abandoned leases need explicit dead-owner
-  recovery.
-- M6K is registered separately from legacy active work and actual human gates remain intact.
-- Deterministic fixtures cover stale/missing evidence, blocked independent work, human gates, lease contention
-  and resume.
+- Instructional browser evidence is retained and visually reviewed against the exact tested sources.
+- Only supported software prerequisite criteria and the targeted QA-01 repair receive program dispositions;
+  release and human gates stay explicit.
+- The default supplies three briefs, matching keys, a usable record and observable accuracy/access criteria.
+- A plausible wrong date and missing contact fail the standard; a genuine default dry-run is retained.
+- Only competency 21.03 authoring changes; all runtime packages, scoring, canonical IDs and neighbors
+  remain exact.
 validation:
   local:
-  - .venv/bin/python -m pytest tests/test_m6k_continuation.py -q
+  - .venv/bin/python -m pytest tests/test_m6k_2103.py tests/test_m6k_repair_drafts.py tests/test_instructional_content.py
+    -q
   - ./scripts/agent-verify.sh contract
   - git diff --check
   required_ci:
@@ -61,10 +69,9 @@ validation:
   - Compose backup restore and recreation
   - aggregate Pilot readiness gate
   focused_tests_to_add:
-  - Dependency and evidence freshness
-  - Existing-schema contract and exact scope
-  - Durable lease contention and interruption resume
-  - No fabricated completion or human approval
+  - Supplied work record and access procedure
+  - Incorrect output and separate checking
+  - Exact neighbor and runtime preservation
 risk:
   class: high
   hazards:
@@ -82,6 +89,6 @@ rollback:
     reinterpret existing event snapshots.
 evidence:
   output:
-  - docs/evidence/M6K-CONTINUATION-2026-09-08.md
+  - docs/evidence/M6K-QA01-CRAFT-REPAIR.md
   claim_boundary: Authored educational practices and software verification; no automatic human review
     or empirical validation acceptance.
