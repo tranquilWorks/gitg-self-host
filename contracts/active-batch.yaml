@@ -1,121 +1,126 @@
 schema_version: 1
 batch:
-  id: M6K-INDEPENDENT-TEACHING-BREADTH-RUNTIME
-  title: Learn, teach and connect one bounded topic
-  goal: >-
-    Increase substantive tailored runtime coverage from 102 to 105 through three
-    related but separately evidenced independent-learning, teaching and
-    interdisciplinary-literacy practices; preserve separate pending formal and
-    human review.
+  id: M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME
+  title: Guided learning with correction, permission and accessible standards
+  goal: Increase tailored runtime coverage from 105 to 108 through three related but individually evidenced
+    guided-learning practices; preserve pending human and formal review.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
-    - docs/plans/m6k/README.md
-    - docs/plans/m6k/REVIEW_RECORD.md
-    - docs/plans/m6k/program.json
-    - https://github.com/tranquilWorks/gitg-self-host/issues/61
-    - https://github.com/tranquilWorks/gitg-self-host/issues/62
-  milestone: M6K-10.09-10.11
-  baseline_commit: dda62f571adf9d116a06ed8c541a8ae207141626
+  - docs/plans/m6k/README.md
+  - docs/plans/m6k/REVIEW_RECORD.md
+  - docs/plans/m6k/program.json
+  - https://github.com/tranquilWorks/gitg-self-host/issues/61
+  - https://github.com/tranquilWorks/gitg-self-host/issues/62
+  milestone: M6K-10.12-10.14
+  baseline_commit: a2bb50f18084b38b00b0f5736dcc80ccf3bcc901
 dependencies:
-  - PR-74-merged
+- PR-75-merged
+- PR-76-merged
 scope:
   allowed_paths:
-    - MANIFEST.tsv
-    - contracts/active-batch.yaml
-    - contracts/tailored-practice-authoring.yaml
-    - docs/PROJECT_HANDOFF.md
-    - docs/plans/m6k/README.md
-    - docs/plans/m6k/runtime-projections.json
-    - docs/authoring/exercises/10.yaml
-    - docs/authoring/sources.yaml
-    - docs/authoring/quality/10.09/**
-    - docs/authoring/quality/10.10/**
-    - docs/authoring/quality/10.11/**
-    - docs/authoring/quality/current-report.json
-    - docs/authoring/M6K-INDEPENDENT-TEACHING-BREADTH-*.md
-    - docs/evidence/M6K-INDEPENDENT-TEACHING-BREADTH-RUNTIME.md
-    - data/practices/protocols/10/PRACTICE-COMP-1009-INDEPENDENT-LEARNING-AND-RESOURCEFULNESS-01.yaml
-    - data/practices/protocols/10/PRACTICE-COMP-1010-TEACHING-AND-EXPLANATION-01.yaml
-    - data/practices/protocols/10/PRACTICE-COMP-1011-BREADTH-AND-INTERDISCIPLINARY-LITERACY-01.yaml
-    - data/practices/registries/source_registry.yaml
-    - data/practices/release_manifest.yaml
-    - reports/**
-    - tests/test_m6k_independent_teaching_breadth.py
-    - tests/test_m6k_learning_loop.py
-    - tests/test_m6k_inquiry_notes.py
-    - tests/test_m6k_learning_craft.py
-    - tests/test_m6k_physical_capacity.py
-    - tests/test_m6k_review_evidence.py
+  - MANIFEST.tsv
+  - contracts/active-batch.yaml
+  - contracts/tailored-practice-authoring.yaml
+  - docs/PROJECT_HANDOFF.md
+  - docs/plans/m6k/README.md
+  - docs/plans/m6k/runtime-projections.json
+  - docs/authoring/exercises/10.yaml
+  - docs/authoring/sources.yaml
+  - docs/authoring/quality/current-report.json
+  - data/practices/registries/source_registry.yaml
+  - data/practices/release_manifest.yaml
+  - reports/**
+  - tests/test_m6k_independent_teaching_breadth.py
+  - tests/test_m6k_learning_loop.py
+  - tests/test_m6k_inquiry_notes.py
+  - tests/test_m6k_learning_craft.py
+  - tests/test_m6k_physical_capacity.py
+  - tests/test_m6k_review_evidence.py
+  - docs/authoring/quality/10.12/**
+  - docs/authoring/quality/10.13/**
+  - docs/authoring/quality/10.14/**
+  - data/practices/protocols/10/PRACTICE-COMP-1012-APPRENTICESHIP-AND-TACIT-KNOWLEDGE-01.yaml
+  - data/practices/protocols/10/PRACTICE-COMP-1013-COMMUNAL-AND-INTERGENERATIONAL-KNOWLEDGE-TRANSMISSION-01.yaml
+  - data/practices/protocols/10/PRACTICE-COMP-1014-ACCESSIBLE-AND-DIFFERENTIATED-LEARNING-01.yaml
+  - docs/authoring/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-*.md
+  - docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md
+  - tests/test_m6k_guided_learning.py
+  - tests/e2e/test_instructional_content.py
   forbidden_paths:
-    - data/assessment/**
-    - data/model/**
-    - data/curriculum/**
-    - data/practices/registries/activation_ledger.yaml
-    - growth/models.py
-    - growth/migrations/**
-    - growth/services/canonical_import.py
-    - growth/domain/composite_scoring.py
-    - growth/services/composite_score_state.py
-    - growth/domain/context_priority.py
-    - requirements*.txt
-    - pyproject.toml
-    - Dockerfile
-    - docker-compose.yml
-    - .github/workflows/**
-    - docs/plans/m6k/recovery/**
-    - docs/authoring/quality/ledger.json
+  - data/assessment/**
+  - data/model/**
+  - data/curriculum/**
+  - data/practices/registries/activation_ledger.yaml
+  - growth/models.py
+  - growth/migrations/**
+  - growth/services/canonical_import.py
+  - growth/domain/composite_scoring.py
+  - growth/services/composite_score_state.py
+  - growth/domain/context_priority.py
+  - requirements*.txt
+  - pyproject.toml
+  - Dockerfile
+  - docker-compose.yml
+  - .github/workflows/**
+  - docs/plans/m6k/recovery/**
+  - docs/authoring/quality/ledger.json
 acceptance:
-  - 'Exactly 10.09, 10.10 and 10.11 become individually authored runtime practices: 105 tailored, 278 pending.'
-  - Independent learning supplies the complete binary reference, logs help routes and distinguishes directed help from refusal of help.
-  - Teaching requires consent, an explanation and a fresh learner application while labeling the complete fictional simulation as preparation rather than learner evidence.
-  - Breadth work supplies seven defined lenses, a complete fictional packet and a bounded two-lens synthesis without causal or population overclaim.
-  - Each learner artifact includes complete fictional materials, separately revealed checks, success/partial/adverse/inconclusive examples and a concrete advanced or accessible route.
-  - Preserve 383 protocol IDs, 1151 action IDs, parent mappings, completion rules, activation, scoring and immutable event replay.
-  - Recovery archive stays byte-exact; prospective content is checked against pinned originals and exact compiler output.
-  - Formal independent, actual learner, qualified and owner acceptance are not inferred.
+- 'Exactly 10.12, 10.13 and 10.14 become individually authored runtime practices: 108 tailored, 275 pending.'
+- Apprenticeship includes complete harmless bow instructions, observation and correction records, simulated
+  checks and a separate voluntary live route.
+- Transmission includes a complete fictional holder packet, flawed handoff, permission record and holder-verification
+  boundary.
+- Accessible learning includes a complete grid, comparable three-position two-move routes, learner-stated
+  barrier and separate usability and performance checks.
+- Every guide includes complete materials, different worked example, separately revealed checks, accessible
+  or advanced route and bounded outcome examples.
+- Preserve 383 protocol IDs, 1151 action IDs, parent mappings, completion rules, activation, scoring and
+  immutable event replay.
+- Preserve 383 protocol IDs, 1151 action IDs, parent mappings, completion rules, activation, scoring and
+  immutable event replay.
+- Recovery archive stays byte-exact; prospective content is checked against pinned originals and exact
+  compiler output.
+- Formal independent, actual learner, qualified and owner acceptance are not inferred.
 validation:
   local:
-    - >-
-      .venv/bin/python -m pytest tests/test_m6k_independent_teaching_breadth.py
-      tests/test_m6k_learning_loop.py tests/test_m6k_inquiry_notes.py
-      tests/test_m6k_learning_craft.py tests/test_m6k_physical_capacity.py
-      tests/test_tailored_practice_authoring.py tests/test_m6k_recovery.py
-      tests/test_m6k_review_evidence.py -q
-    - ./scripts/agent-verify.sh contract
-    - make pilot-check curriculum-check competency-evidence-check
-    - git diff --check
+  - .venv/bin/python -m pytest tests/test_m6k_guided_learning.py tests/test_m6k_independent_teaching_breadth.py
+    tests/test_m6k_learning_loop.py tests/test_m6k_inquiry_notes.py tests/test_m6k_learning_craft.py tests/test_m6k_physical_capacity.py
+    tests/test_tailored_practice_authoring.py tests/test_m6k_recovery.py tests/test_m6k_review_evidence.py
+    -q
+  - ./scripts/agent-verify.sh contract
+  - make pilot-check curriculum-check competency-evidence-check
+  - git diff --check
   required_ci:
-    - Ruff Django pytest migration drift and manifest verification
-    - all readiness and canonical report gates
-    - Playwright core journeys
-    - Compose backup restore and recreation
-    - aggregate Pilot readiness gate
+  - Ruff Django pytest migration drift and manifest verification
+  - all readiness and canonical report gates
+  - Playwright core journeys
+  - Compose backup restore and recreation
+  - aggregate Pilot readiness gate
   focused_tests_to_add:
-    - Exact identity and completion preservation for all three runtime projections
-    - Prompt/key reveal isolation for six discriminating checks
-    - Independent-help, learner-application and cross-lens synthesis fixtures
-    - Prospective invariant drift rejection for each selected package
+  - Exact identity and completion preservation for three runtime projections
+  - Six prompt/key reveal boundaries and three served Django guides
+  - Task-grounded correction, permission and matched-route fixtures
+  - Three prospective recovery-drift rejections
+  - Desktop/mobile keyboard reveal through compiled guides
 risk:
   class: moderate
   hazards:
-    - a resource list or copied answer is mislabeled as independent learning
-    - a fictional teaching simulation is represented as evidence from an actual learner
-    - familiar field labels are promoted into claims of disciplinary expertise
-    - one synthetic scenario is generalized into a causal or population conclusion
+  - Simulation is mislabeled as live guided learning
+  - Accurate knowledge is distributed outside permission
+  - An access adaptation abandons the construct or implies diagnosis
+  - One supported trial is promoted into causal or durable learning evidence
   stop_conditions:
-    - historical event replay changes
-    - assessment, activation or scoring mathematics changes
-    - a prompt exposes its answer key before an attempt
-    - a promised table, learner case, lens packet, record or key is missing
-    - a required local gate fails
+  - historical event replay changes
+  - assessment, activation or scoring mathematics changes
+  - a prompt exposes its answer key before an attempt
+  - A promised cord reference, holder packet, route, record or answer check is missing
+  - a required local gate fails
 rollback:
-  strategy: >-
-    Revert the content release before import or restore the verified pre-upgrade backup;
-    never reinterpret existing event snapshots.
+  strategy: Revert the content release before import or restore the verified pre-upgrade backup; never
+    reinterpret existing event snapshots.
 evidence:
   output:
-    - docs/evidence/M6K-INDEPENDENT-TEACHING-BREADTH-RUNTIME.md
-  claim_boundary: >-
-    Authored educational practices and software verification; no automatic formal,
-    independent learner, qualified, owner or empirical validation acceptance.
+  - docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md
+  claim_boundary: Authored educational practices and software verification; no automatic formal, independent
+    learner, qualified, owner or empirical validation acceptance.

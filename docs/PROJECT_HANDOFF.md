@@ -1,5 +1,25 @@
 # Grounded Growth — Project Handoff
 
+## Guided-learning runtime cohort — 9 September 2026
+
+The post-PR #76 continuation authors **10.12 Apprenticeship and tacit knowledge**,
+**10.13 Communal and intergenerational knowledge transmission**, and
+**10.14 Accessible and differentiated learning**. The compiler now selects
+**108 tailored / 275 pending**, preserving 383 protocols and 1,151 actions.
+
+The guides supply a harmless cord task with observation/correction record, a
+fictional holder packet and permission-aware handoff repair, and comparable grid
+routes with separate access and skill checks. Six keys are separately revealed.
+Simulation never stands in for actual teacher, holder or learner evidence.
+
+Scope and checkpoint status:
+`docs/authoring/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-SCOPE-MAP.md` and
+`docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md`.
+Local verification is in progress at the initial checkpoint. Owner authorization
+includes draft publication and merge without waiting for hosted CI. Formal scope,
+instructional, cold-start, integration, learner, qualified and owner reviews remain
+open. The next cohort must begin from the eventual verified merged head.
+
 
 ## Independent-learning, teaching and breadth runtime cohort — 8 September 2026
 

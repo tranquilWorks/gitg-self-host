@@ -52,3 +52,51 @@ def test_learning_guide_keyboard_mobile_and_separate_reveal(live_server, page, w
     page.evaluate("document.documentElement.style.fontSize = '200%'")
     assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth")
     page.screenshot(path=artifacts / f"m6k-guide-check-zoom-{width}.png", full_page=True)
+
+
+@pytest.mark.e2e
+@pytest.mark.django_db(transaction=True)
+@pytest.mark.parametrize("width", [1280, 390])
+@pytest.mark.parametrize(
+    "competency_id,prompt_id,key_id,hidden_phrase",
+    [
+        ("10.12", "corrected-attempt", "corrected-attempt-key", "disparity decreases"),
+        ("10.13", "correction-prompt", "correction-key", "D1 violates scope"),
+        ("10.14", "adapted-attempt", "adapted-attempt-key", "R1 substitutes"),
+    ],
+)
+def test_guided_learning_compiled_keyboard_and_mobile_reveal(
+    live_server, page, width, competency_id, prompt_id, key_id, hidden_phrase
+):
+    from growth.models import PracticeProtocol
+
+    get_user_model().objects.create_user(username="guided-reader", password="Guide-Test-2047!")
+    seed_canonical_data()
+    protocol = PracticeProtocol.objects.get(parent_competency_id=competency_id)
+    guide = protocol.setup_copy["instructional_content"]
+    prompt = next(row for row in guide["sections"] if row["id"] == prompt_id)
+    key = next(row for row in guide["checks"] if row["id"] == key_id)
+    page.set_viewport_size({"width": width, "height": 900})
+    page.goto(live_server.url + "/")
+    page.get_by_label("Username").fill("guided-reader")
+    page.get_by_label("Password").fill("Guide-Test-2047!")
+    page.get_by_role("button", name="Sign in").click()
+    page.wait_for_url(live_server.url + "/")
+    page.goto(f"{live_server.url}/practices/{protocol.slug}/guide/")
+    expect(page.get_by_role("heading", level=1)).to_have_text(guide["title"])
+    assert hidden_phrase not in page.content()
+    page.get_by_role("link", name=f"Open {prompt['title']}", exact=True).focus()
+    page.keyboard.press("Enter")
+    expect(page.get_by_role("heading", name=prompt["title"], exact=True)).to_be_visible()
+    assert hidden_phrase not in page.content()
+    assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth")
+    artifacts = ROOT / "test-results/pilot-walkthrough"
+    artifacts.mkdir(parents=True, exist_ok=True)
+    page.screenshot(path=artifacts / f"m6k-{competency_id}-prompt-{width}.png", full_page=True)
+    page.get_by_role("link", name=f"Reveal check for {prompt['title']}", exact=True).focus()
+    page.keyboard.press("Enter")
+    expect(page.get_by_role("heading", name=key["title"], exact=True)).to_be_visible()
+    assert hidden_phrase in page.content()
+    page.evaluate("document.documentElement.style.fontSize = '200%'")
+    assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth")
+    page.screenshot(path=artifacts / f"m6k-{competency_id}-check-{width}.png", full_page=True)

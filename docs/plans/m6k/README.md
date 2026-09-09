@@ -1,5 +1,15 @@
 # M6K — Competency quality remediation and acceptance
 
+## Guided learning, transmission and access — 9 September 2026
+
+The post-PR #76 cohort adds 10.12, 10.13 and 10.14: **108 tailored / 275 pending**.
+Tacit correction, holder-authorized transmission and accessible participation are
+the shared reason for this bounded three-item cohort. Each retains its own exact
+baseline, complete guide, two separate checks and content record. See
+`docs/authoring/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-SCOPE-MAP.md` and
+`docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md` for current evidence.
+Compilation is not formal acceptance; all human review stages remain open.
+
 
 ## Independent-learning, teaching and breadth runtime cohort — 8 September 2026
 
