@@ -1,6 +1,33 @@
 # Grounded Growth — Project Handoff
 
 
+## Independent-learning, teaching and breadth runtime cohort — 8 September 2026
+
+After PR #74 merged the learning-loop cohort, this bounded release completes
+**10.09 Independent learning and resourcefulness**, **10.10 Teaching and
+explanation**, and **10.11 Breadth and interdisciplinary literacy**. Compiler and
+runtime coverage are now **105 tailored / 278 pending**.
+
+10.09 supplies a complete three-bit reference, checked 000–111 artifact, targeted
+help ledger and four-bit extension. 10.10 supplies a coordinate grid, consent and
+session record, fresh applications, prompt analysis and a complete fictional
+simulation explicitly labeled as preparation rather than learner evidence. 10.11
+supplies seven operational lenses, a shared fictional evidence packet, a traceable
+lens map and a bounded two-lens synthesis. All six answer keys remain separately
+revealed from their prompts.
+
+Exact pre-projection packages and hashes live under each competency's quality
+folder. The prospective compiler preserves 383 protocols, 1,151 actions,
+completion, activation, scoring and event replay. See
+`docs/authoring/M6K-INDEPENDENT-TEACHING-BREADTH-SCOPE-MAP.md` and
+`docs/evidence/M6K-INDEPENDENT-TEACHING-BREADTH-RUNTIME.md`.
+
+This is authored educational content and software verification. It is not evidence
+of general resourcefulness, learner performance, disciplinary expertise, causal
+effects or formal acceptance. Independent cold-start, actual learner, qualified and
+owner reviews remain pending.
+
+
 ## Retrieval, decomposition and feedback runtime cohort — 8 September 2026
 
 After PR #73 integrated the previously stacked 96/383 work plus the inquiry cohort,
