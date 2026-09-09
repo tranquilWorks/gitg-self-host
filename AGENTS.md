@@ -480,6 +480,7 @@ as completion of this content rewrite.
 <!-- BEGIN PORTFOLIO-CONTROL MANAGED -->
 ## Governed agentic delivery
 
+- Read `.agents/skills/engineering-execution/SKILL.md` for nontrivial work: complete the requested outcome, verify its entry point, and preserve context.
 - Product: `gitg-self-host`; delivery profile: `product-data`.
 - Control revision: `2e6d817ee4e0db4e4efc82b21fa9ad1735fb96d9`; harness version: `2`.
 - Read `contracts/profile-requirements.yaml` and the approved
