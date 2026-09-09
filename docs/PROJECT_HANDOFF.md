@@ -15,8 +15,10 @@ Simulation never stands in for actual teacher, holder or learner evidence.
 Scope and checkpoint status:
 `docs/authoring/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-SCOPE-MAP.md` and
 `docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md`.
-Local verification is in progress at the initial checkpoint. Owner authorization
-includes draft publication and merge without waiting for hosted CI. Formal scope,
+PR #77 preserves the source checkpoint. All 164 focused/regression tests, pilot,
+curriculum, competency-evidence, deterministic compiler/report and contract checks
+pass. Browser download failed and Compose is unavailable; neither is claimed
+verified. Owner authorization includes merge without waiting for hosted CI. Formal scope,
 instructional, cold-start, integration, learner, qualified and owner reviews remain
 open. The next cohort must begin from the eventual verified merged head.
 
