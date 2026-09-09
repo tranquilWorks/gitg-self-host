@@ -1,6 +1,29 @@
 # M6K — Competency quality remediation and acceptance
 
 
+## Independent-learning, teaching and breadth runtime cohort — 8 September 2026
+
+The post-PR #74 continuation completes **10.09 Independent learning and
+resourcefulness**, **10.10 Teaching and explanation**, and **10.11 Breadth and
+interdisciplinary literacy**, increasing compiler/runtime coverage to **105 tailored /
+278 pending**. The three form a learn-to-teach-to-connect sequence, which is the
+explicit reason for using the maximum three-item batch; every competency retains
+separate materials, prompts, checks, recovery baseline and content record.
+
+The default routes are executable from complete fictional materials. 10.09 produces
+and audits a binary table while retaining directed help. 10.10 tests an explanation
+through fresh coordinate applications and keeps the supplied simulation distinct
+from an actual learner. 10.11 applies seven defined lenses to a common waiting-area
+packet and requires a bounded, traceable two-lens synthesis. See
+`docs/authoring/M6K-INDEPENDENT-TEACHING-BREADTH-SCOPE-MAP.md` and the six separate
+check files.
+
+The compiler preserves 383 protocols and 1,151 actions. Formal scope,
+instructional, cold-start, integration, actual learner, qualified and owner-review
+counts remain zero. These authored practices do not demonstrate general
+resourcefulness, teaching success, disciplinary expertise or causal effectiveness.
+
+
 ## Retrieval, decomposition and feedback runtime cohort — 8 September 2026
 
 The post-PR #73 continuation completes **10.06 Memory and recall**, **10.07 Skill

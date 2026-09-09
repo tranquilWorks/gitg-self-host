@@ -1542,6 +1542,132 @@ exercises:
       contradictory: The learner refused useful help or copied an unchecked answer while claiming independent
         understanding.
       inconclusive: Many resources were saved but no first artifact, correction or explanation was produced.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.09'
+      title: Learn one unfamiliar representation through a checked first artifact
+      scored: false
+      sections:
+      - id: independence-model
+        kind: concept
+        title: Independence means directing help, not refusing it
+        body: >-
+          Independent learning fixes a bounded outcome, identifies minimum prerequisites, attempts something
+          checkable, asks a precise question when evidence exposes a gap, and uses the answer to revise the
+          work. It is not collecting resources, guessing without a reference or avoiding appropriate experts.
+          Record what was known, attempted, looked up, explained and still unknown. A correct first artifact
+          supports one beginner result under these materials; it does not establish expertise in computing or
+          a general trait of resourcefulness.
+      - id: binary-reference
+        kind: material
+        title: Supplied three-bit place-value reference
+        body: >-
+          Read a three-bit row from left to right as places worth 4, 2 and 1. A 1 includes that place value;
+          a 0 contributes zero. Add the included values to obtain the decimal value. Example: 101 includes
+          4 and 1, so it equals 5. Leading zeroes retain the three-place layout: 010 includes only 2. The
+          target artifact contains every bit pattern from 000 through 111 exactly once, paired with decimal
+          0 through 7 exactly once. This card covers unsigned place value only—not signed numbers, storage,
+          encoding or computer architecture.
+      - id: worked-two-bit
+        kind: worked_example
+        title: Worked example on a different two-bit system
+        body: >-
+          With two places worth 2 and 1, the complete patterns are 00 = 0, 01 = 1, 10 = 2 and 11 = 3.
+          For 10, include 2 and omit 1. The check is structural: all four patterns appear, all four decimal
+          values appear, and each row equals its selected weights. This demonstrates the method without
+          supplying the requested three-bit table.
+      - id: learning-log
+        kind: material
+        title: Minimum plan and help ledger
+        body: >-
+          Outcome and pass condition: __. Prerequisite 1: __; evidence it is available: __. Prerequisite 2:
+          __; evidence: __. Three steps: build __; check __; explain __. First attempt preserved at: __.
+          Row or idea that exposed uncertainty: __. Precise question: __. Source or willing helper and access
+          date: __. Answer in my own words: __. Exact correction made: __. Items checked: __/__. Known now:
+          __. Still outside scope: __. Next question justified by the artifact: __. Keep the target and stop
+          limit small enough to execute before gathering another general resource.
+      - id: three-bit-table
+        kind: prompt
+        title: Build and audit the complete three-bit table
+        body: >-
+          Before opening the key, write rows 000, 001, 010, 011, 100, 101, 110 and 111. For each row, show
+          the included 4/2/1 weights and your decimal total. Audit that every pattern appears once, decimal
+          values 0–7 appear once and each total matches its weights. Preserve the first error rather than
+          silently replacing it. Explain why 011 is three rather than the decimal-looking text eleven, and
+          record any precise question or lookup used.
+        references:
+        - binary-reference
+        - learning-log
+        check_id: three-bit-table-key
+        attempt_mode: practice
+      - id: help-model
+        kind: concept
+        title: Ask only after the artifact identifies the obstacle
+        body: >-
+          “Teach me binary” is too broad for this cycle. “Why does the left 1 in 101 contribute four?” names
+          a specific place-value obstacle. Prefer the supplied reference first; consult a traceable source or
+          willing knowledgeable person when it cannot resolve the question. Copying a finished table can hide
+          the obstacle. Refusing a needed reference wastes effort. Independence is visible when the learner
+          selects, evaluates and applies help while retaining the correction trail.
+      - id: four-bit-extension
+        kind: prompt
+        title: Transfer the rule to one added place
+        body: >-
+          A fourth place is added on the left with value 8, giving places 8, 4, 2 and 1. Without copying a
+          table, calculate 1001, 1010 and 1111 by listing included values. Then explain one answer in your own
+          words and name two topics this extension still does not cover. Preserve the attempt and any help
+          before opening the key. If the three-bit table was not checked, return to it rather than presenting
+          the extension as a substitute.
+        references:
+        - binary-reference
+        - learning-log
+        check_id: four-bit-extension-key
+        attempt_mode: practice
+      - id: access-route
+        kind: pathway
+        title: Change the representation while keeping place value visible
+        body: >-
+          Use three labeled physical counters, large-print columns, tactile on/off markers, audio descriptions
+          or a helper who records the learner’s selected weights. A calculator may check addition after the
+          included places are identified. An experienced learner may start at four bits but must retain the
+          same check trail. Hazardous, regulated, medical, legal or safety-critical topics require appropriate
+          instruction and are not suitable for proving independence through trial and error.
+      - id: next-topic
+        kind: next_step
+        title: Let the checked artifact choose the next question
+        body: >-
+          If every three-bit row and the extension are explained correctly, choose one bounded next topic such
+          as converting decimal 8–15 to four bits. If a weight-selection error remains, practice only that
+          prerequisite on new rows. If addition caused the error, keep binary structure fixed and use an
+          accessible arithmetic support. Record completed, partial, adverse or inconclusive; do not equate a
+          resource list, effort or one correct guess with independent learning.
+      checks:
+      - id: three-bit-table-key
+        title: Check all eight rows and the place-value explanation
+        body: >-
+          The complete table is 000 = 0; 001 = 1; 010 = 2; 011 = 3; 100 = 4; 101 = 5; 110 = 6; 111 = 7.
+          The selected-weight forms are 0; 1; 2; 2+1; 4; 4+1; 4+2; 4+2+1. Thus 011 is 0×4 + 1×2 + 1×1
+          = 3; its symbols are a base-two place-value representation, not the base-ten text 11. Duplicate,
+          omitted or unchecked rows remain partial even if the visible endpoints are correct. A correction
+          counts only when the first output, exact question or reference and changed row remain visible.
+        criteria:
+        - All eight patterns and decimal values appear exactly once
+        - Every total matches the included 4/2/1 weights
+        - The 011 explanation uses place value rather than memorized appearance
+        - Help and correction remain traceable
+      - id: four-bit-extension-key
+        title: Check the new place without extending the claim
+        body: >-
+          1001 includes 8 and 1, so it equals 9. 1010 includes 8 and 2, so it equals 10. 1111 includes
+          8, 4, 2 and 1, so it equals 15. A correct explanation names the selected places and their sum.
+          Signed values, text encodings, storage order, arithmetic circuits and software representation all
+          remain outside this exercise. Correct extension rows support transfer of this place-value rule to
+          one added place, not broad computing knowledge or expertise.
+        criteria:
+        - All three totals are independently correct
+        - At least one answer is explained from included values
+        - Known and unlearned material are distinguished
+        - The extension follows a checked first artifact
   '10.10':
     title: Teach a small idea and let the learner’s application test the explanation
     goal: Adapt language, examples, sequence and practice to another person’s starting knowledge, then
@@ -1599,6 +1725,136 @@ exercises:
         to finish the lesson.
       inconclusive: The explanation was delivered but no unmodeled application or responsive revision
         was attempted.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.10'
+      title: Teach one grid rule and let a fresh move test the explanation
+      scored: false
+      sections:
+      - id: teaching-model
+        kind: concept
+        title: Application tests the explanation better than agreement
+        body: >-
+          A bounded teaching cycle asks what the learner already knows and which representation is usable,
+          states an observable goal, demonstrates one case, withholds the answer to a fresh case, and revises
+          the explanation from the learner’s action. Polite agreement, repetition and teacher confidence do
+          not show application. A mistake is evidence about the explanation, task and supports—not the
+          learner’s intelligence or character. Self-rehearsal prepares teaching but cannot become another
+          person’s result.
+      - id: grid-card
+        kind: material
+        title: Supplied three-by-three coordinate grid
+        body: >-
+          Columns A, B and C run left to right. Rows 1, 2 and 3 run bottom to top. A coordinate gives column
+          first, then row. Therefore B2 is the center cell and B3 is the top-middle cell. The first fresh case
+          is A3; the post-revision case is C1. Use nine tactile or paper squares when a visual grid is not
+          accessible. Orientation labels remain available; the learner is not tested on tiny print, speed or
+          remembering an unstated origin.
+      - id: worked-shelf
+        kind: worked_example
+        title: Example on a different shelf label
+        body: >-
+          A two-column shelf uses X and Y left to right and rows 1 and 2 bottom to top. The teacher checks that
+          the learner understands “bottom,” demonstrates Y2 by choosing the right column then the top row,
+          and asks for X1 without pointing. When the learner chooses bottom-left and says “X first, then row
+          1 from the bottom,” the new action supports the explanation. Repeating Y2 would test imitation,
+          not the unmodeled rule.
+      - id: session-record
+        kind: material
+        title: Consent, attempt and revision record
+        body: >-
+          Session route [willing adult/supplied simulation/self-rehearsal]: __. Permission and stop option:
+          __. Starting knowledge: __. Preferred representation/support: __. Observable goal: __. Version A
+          exact explanation: __. Worked and contrasting examples: __. Fresh case: __. First committed response:
+          __. Prompt/rescue used: __. Learner’s stated uncertainty: __. Observed barrier versus inferred cause:
+          __. One revision: __. Second fresh case and committed response: __. Remaining uncertainty: __. Keep
+          identity private and record only with permission.
+      - id: lesson-plan
+        kind: prompt
+        title: Prepare the explanation without giving away the fresh move
+        body: >-
+          Use the grid card to write a Version A explanation in no more than four sentences. It must name
+          column-first order, left-to-right letters and bottom-to-top row numbers; demonstrate B2; and contrast
+          B3 without mentioning the location of A3. Write one starting-knowledge question, one access question
+          and the exact neutral prompt for A3. Identify two teacher behaviors that would reveal the answer
+          before the learner commits. Preserve the plan before opening the key.
+        references:
+        - grid-card
+        - session-record
+        check_id: lesson-plan-key
+        attempt_mode: practice
+      - id: responsive-model
+        kind: concept
+        title: Diagnose the explanation before diagnosing the learner
+        body: >-
+          If A3 is wrong, first check whether Version A stated the row origin, order and labels clearly and
+          whether the representation was accessible. Ask which step felt uncertain. Use a hint ladder only
+          after a committed attempt: repeat the rule; name the relevant edge; then model a different example.
+          Record the hint because a rescued response is not independent application. Revise one supported
+          barrier and test C1, a new coordinate, rather than repeating the demonstrated answer.
+      - id: learner-application
+        kind: prompt
+        title: Run or analyze the two fresh applications
+        body: >-
+          Preferred route: with a willing adult, use Version A, obtain a committed A3 response, ask what was
+          uncertain, revise one supported barrier and request C1 without pointing. If no willing learner is
+          available, use this supplied simulation and label actual learner evidence untested: after B2, the
+          learner asks “Do rows start at the top?”; the teacher points at A3 before commitment; the learner
+          selects it. The teacher then revises, “Row 1 starts at the bottom edge and rows count upward,” and
+          the learner selects C1 without a hint. Classify both attempts, the prompt, the revision and what the
+          simulation can and cannot establish before opening the key.
+        references:
+        - grid-card
+        - session-record
+        check_id: learner-application-key
+        attempt_mode: practice
+      - id: access-consent
+        kind: pathway
+        title: Preserve the coordinate rule across accessible routes
+        body: >-
+          Use speech, sign, AAC, tactile squares, large text or the learner’s chosen medium. Remove speed when
+          it is not part of the goal. Participation, pacing and recording require permission and may stop
+          without penalty; never recruit a dependent person under pressure. A helper may operate the medium
+          while the learner chooses the cell. The supplied simulation supports planning and analysis only,
+          not a claim of successful teaching with an actual person.
+      - id: next-lesson
+        kind: next_step
+        title: Revise the smallest evidenced barrier
+        body: >-
+          If a willing learner applies C1 unprompted and explains the rule, retain the revision and test a
+          different grid later. If a prompt was needed, keep that support visible and change only the linked
+          explanation. If access blocked the action, change the medium without lowering the coordinate rule.
+          If no learner participated, the next step is a consented session—not a harder self-rehearsal. One
+          session says nothing about learner intelligence or general teaching expertise.
+      checks:
+      - id: lesson-plan-key
+        title: Check the plan for rule, contrast and non-revealing prompt
+        body: >-
+          A complete short explanation may say: “Coordinates name a column first and a row second. Columns
+          A–C go left to right; rows 1–3 start at the bottom and go upward. For B2, choose column B and then
+          row 2, the center. B3 stays in column B but moves to the top row.” The fresh prompt is simply “Please
+          locate A3 and tell me how you chose it.” Pointing toward top-left or saying “top row” before commitment
+          reveals part of the answer; moving the learner’s hand reveals it entirely. Starting knowledge and
+          preferred representation must be asked, not inferred.
+        criteria:
+        - Column-first order and both axis directions are explicit
+        - B2 and B3 show a meaningful contrast
+        - A3 remains unmodeled before commitment
+        - Starting knowledge access and answer-revealing behavior are addressed
+      - id: learner-application-key
+        title: Check the fresh moves and evidence boundary
+        body: >-
+          A3 is the top-left cell. In the simulation, pointing before commitment makes that response prompted,
+          so it cannot show independent application. The question about row origin identifies a plausible
+          explanation gap but does not diagnose the learner. The revision explicitly anchors row 1 at the
+          bottom. C1 is the bottom-right cell; the simulated unhinted selection is consistent with the revised
+          rule. Because the record is fictional, both events support analysis of a teaching response—not an
+          actual learner outcome. A live willing learner’s actions must be recorded separately if they occur.
+        criteria:
+        - A3 and C1 are located correctly
+        - The answer-revealing prompt limits the first result
+        - The revision addresses the stated row-origin uncertainty
+        - Simulation rehearsal and actual learner evidence remain distinct
   '10.11':
     title: Connect seven fields around one ordinary public-space question
     goal: Use foundational questions from several disciplines, investigate two connections and mark the
@@ -1659,6 +1915,146 @@ exercises:
       contradictory: A superficial overview was presented as authority over specialists or affected users.
       inconclusive: Interesting facts were collected from different fields without a shared question,
         traceable evidence or limits.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.11'
+      title: Connect seven disciplinary lenses without pretending depth
+      scored: false
+      sections:
+      - id: breadth-model
+        kind: concept
+        title: Breadth changes a question; labels alone do not
+        body: >-
+          Interdisciplinary breadth uses each field to ask a different concrete question, identify a fitting
+          kind of evidence and show how at least two lenses change one decision. Science asks what can be
+          observed or measured; history asks what changed over time and why accounts differ; technology asks
+          how a designed system works; economics asks about scarcity, incentives and tradeoffs; humanities
+          examine meaning, interpretation and justified values; arts examine how form shapes experience; and
+          society asks who participates, is affected and decides. Naming fields is not expertise, and combining
+          weak evidence does not make it strong.
+      - id: waiting-area-packet
+        kind: material
+        title: Supplied fictional waiting-area records
+        body: >-
+          W0: six seats occupy a 4-by-6-meter room; four receive afternoon shade; three sound readings are 70,
+          72 and 71 dB at the same marked point, with no comfort threshold supplied. H1: a 2024 memo says the
+          stop moved indoors after summer heat complaints; it does not explain who was consulted. D1: the
+          route display uses 8-millimeter characters and refreshes each minute; no legibility standard is
+          supplied. E1: the improvement budget is $2,400; either eight $300 high-contrast signs or four $600
+          shaded seats fit before maintenance, but mixed options are allowed. U1: in a voluntary fictional
+          test at the intended distance, two of two readers could not identify the route number; the sample
+          cannot represent all users. A1: one designer describes the current gray surface as calm; one rider
+          describes it as hard to distinguish. S1: a meeting roster lists operations and one designer but no
+          riders or disability advocate. These records are synthetic and contain no real people.
+      - id: worked-library
+        kind: worked_example
+        title: Example connection on a different public library question
+        body: >-
+          A library-entry question connects technology—whether an automatic door’s sensor detects a slow
+          approach—with society—whose mobility patterns were included in testing. The technical specification
+          may describe the detection range, while a small user observation reveals one missed condition. The
+          connection changes the decision: a range number alone is insufficient if the test population omits
+          relevant approaches. It still does not answer historical preservation, budget or aesthetic questions,
+          and one observation does not establish population-wide performance.
+      - id: lens-map
+        kind: material
+        title: Seven-lens map and synthesis record
+        body: >-
+          Shared decision: __. One row per lens: field | concrete question | evidence needed | supplied record
+          or external source | what it supports | what it cannot show | relevant expertise or affected voice.
+          Selected lenses A and B: __. Claim from A with record code: __. Claim from B with record code: __.
+          Connection—B changes A by: __. Decision implication: __. Tension or tradeoff retained: __. Five
+          lenses mapped but not investigated: __. Scope limit: __. Small next learning step and fitting source
+          or person: __. Do not convert a field name into a conclusion.
+      - id: seven-lens-prompt
+        kind: prompt
+        title: Map one evidence-shaped question for every lens
+        body: >-
+          For the supplied waiting area, write one concrete question from each of the seven lenses and pair it
+          with the most fitting W0/H1/D1/E1/U1/A1/S1 record or mark “not supplied.” Include at least one
+          measurement question, one change-over-time question, one mechanism question, one resource tradeoff,
+          one justified-value question, one form/experience question and one participation/decision question.
+          Identify which proposed answer would exceed its record. Preserve the map before opening the key.
+        references:
+        - waiting-area-packet
+        - lens-map
+        check_id: seven-lens-key
+        attempt_mode: practice
+      - id: connection-model
+        kind: concept
+        title: A connection must alter interpretation or action
+        body: >-
+          Two adjacent summaries are not yet a synthesis. A real connection shows that one lens changes the
+          question, interpretation, criterion or action under another. D1 says how the display is built; U1
+          shows a small access problem at the intended distance. Together they justify further legibility
+          testing or a bounded redesign, not a claim about all riders. E1 adds a cost tradeoff but cannot decide
+          which option is fair without stated values and affected voices. Retain disagreements and unknowns.
+      - id: two-lens-synthesis
+        kind: prompt
+        title: Connect display technology and social access
+        body: >-
+          Use D1 and U1 to write a five-part synthesis: exact supported technical fact; exact observed access
+          result; how the access result changes the display-design question; one bounded next decision; and
+          three important unknowns. Then state one tension introduced by E1 without pretending the budget
+          record identifies the best option. Name the five lenses not investigated beyond the map and the
+          source, specialist or affected voice needed before a consequential redesign. Cite record codes after
+          every factual claim and preserve the draft before opening the key.
+        references:
+        - waiting-area-packet
+        - lens-map
+        check_id: two-lens-key
+        attempt_mode: practice
+      - id: access-route
+        kind: pathway
+        title: Use the fictional case or a permitted public record
+        body: >-
+          Use spoken mapping, cards, large text, audio or a supported scribe. The complete fictional packet
+          requires no internet or observation. A live route may use public specifications and records but must
+          retain provenance, access permission and population limits; do not photograph or profile people
+          without consent. An advanced route may add a third lens only when it changes the decision, not to
+          make the map look comprehensive. Consequential design needs relevant specialists and affected users.
+      - id: next-connection
+        kind: next_step
+        title: Deepen one boundary rather than adding more labels
+        body: >-
+          If the two-lens synthesis is supported and limited, choose one missing evidence item such as a larger
+          voluntary legibility check or the applicable display standard. If the connection is only adjacent
+          summaries, rewrite how one finding changes the other question. If a value judgment is hidden as a
+          measurement, label it and identify whose reasons matter. Transfer the seven-lens map to another
+          harmless decision without claiming disciplinary mastery.
+      checks:
+      - id: seven-lens-key
+        title: Check the seven questions against evidence type and scope
+        body: >-
+          A defensible map includes: science—how do sound readings vary across comparable times? W0 is only
+          one three-reading snapshot; history—why was the stop moved in 2024 and whose accounts differ? H1
+          supplies the stated heat reason but not consultation; technology—how do character size and refresh
+          work? D1; economics—which sign/seat mix fits $2,400 plus maintenance? E1 lacks maintenance costs;
+          humanities—which values justify comfort, dignity and fairness? no record decides them; arts—how do
+          contrast and surface form shape legibility and atmosphere? A1 supplies two perspectives, not a rule;
+          society—who participated and who was absent? S1. Treating 71 dB as acceptable, two readers as all
+          users or the calm description as consensus would exceed the supplied evidence.
+        criteria:
+        - Every lens has a concrete question rather than a label
+        - Evidence type fits the question or is marked missing
+        - Measurement and justified-value questions remain distinct
+        - At least one overclaim is identified
+      - id: two-lens-key
+        title: Check the cross-field inference and retained limits
+        body: >-
+          D1 supports that the fictional display uses 8-millimeter characters and one-minute refreshes. U1
+          supports that two willing readers in this fictional test could not identify the route number at the
+          intended distance. Together they justify treating legibility as an unresolved design requirement
+          and testing a bounded high-contrast or larger-character alternative. They do not show that character
+          size caused the failures, represent other users, identify an applicable standard or choose the best
+          redesign. E1 introduces a $2,400 allocation tension between signs and shade but omits maintenance and
+          mixed-option performance. History, economics, humanities, arts and society remain only mapped unless
+          separately investigated; a correct synthesis names those limits and the next fitting expertise.
+        criteria:
+        - Technical and access claims cite D1 and U1 separately
+        - The connection changes a bounded design question
+        - Causation population and standard gaps remain explicit
+        - Budget tension and five uninvestigated lenses stay visible
   '10.12':
     title: Learn one tacit adjustment from a willing skilled person
     goal: Observe a safe skill, imitate it, obtain correction on an otherwise hidden judgment and repeat

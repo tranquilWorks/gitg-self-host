@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1011-BREADTH-AND-INTERDISCIPLINARY-LITERACY-01
 slug: c1011-breadth-and-interdisciplinary-literacy-practice
-name: Bounded Breadth and interdisciplinary literacy Practice
+name: Connect seven fields around one ordinary public-space question
 parent_competency_id: '10.11'
 domain_id: '10'
 governance:
@@ -14,10 +14,10 @@ governance:
   scoring_status: active
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
+  - SRC-NASEM-INTERDISCIPLINARY-RESEARCH-2005
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 10.11
-      (Breadth and interdisciplinary literacy); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 10.11; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +35,50 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Breadth and interdisciplinary literacy through a low-stakes skill rehearsal bounded
-    by the canonical scope: Build foundational literacy in science, history, technology, economics, humanities,
-    arts, and society.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can connect ideas across
-    fields without pretending superficial exposure is expertise. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Use foundational questions from several disciplines, investigate two connections and mark the
+    boundary between useful breadth and genuine subject expertise.
+  why_recommended: Use foundational questions from several disciplines, investigate two connections and
+    mark the boundary between useful breadth and genuine subject expertise.
   claims:
-  - statement: Using the canonical scope and evidence target for Breadth and interdisciplinary literacy
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Use foundational questions from several disciplines, investigate two connections and mark
+      the boundary between useful breadth and genuine subject expertise.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  - statement: The consensus study treats interdisciplinary work as integrating information, methods,
+      concepts or perspectives from multiple disciplines to advance understanding beyond one field's scope,
+      supporting a connection requirement rather than adjacent field labels.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-NASEM-INTERDISCIPLINARY-RESEARCH-2005
+    limitations: A consensus report about interdisciplinary research, not a complete map of the seven
+      product-authored lenses, not evidence that the waiting-area synthesis is professionally adequate
+      and not permission to substitute breadth for domain or community expertise.
   applicability_question: Does a voluntary, bounded Breadth and interdisciplinary literacy practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Breadth and interdisciplinary literacy as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Breadth and interdisciplinary
-    literacy context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Breadth and
-    interdisciplinary literacy; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use a spoken mind map, cards or the fictional records. A library or accessible
+    introductory resource can replace internet access. Do not photograph or profile public-space users
+    without appropriate consent.
+  opportunity_considerations: 'Question: how should a small public waiting area be improved? Use seven
+    lenses: science asks what can be measured; history asks what changed and why; technology asks how
+    a designed system works; economics asks about scarce resources and tradeoffs; humanities asks about
+    meaning and justified values; arts asks how form shapes experience; society asks who participates
+    and who decides. Use a fictional waiting area when no safe public case is available.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Breadth and interdisciplinary literacy.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Question: how should a small public waiting area be improved? Use seven lenses: science asks what
+    can be measured; history asks what changed and why; technology asks how a designed system works; economics
+    asks about scarce resources and tradeoffs; humanities asks about meaning and justified values; arts
+    asks how form shapes experience; society asks who participates and who decides. Use a fictional waiting
+    area when no safe public case is available.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Breadth and interdisciplinary literacy
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a spoken mind map, cards or the fictional records. A library or accessible introductory resource
+    can replace internet access. Do not photograph or profile public-space users without appropriate consent.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -79,21 +90,34 @@ meaning_and_fit:
   - The practice does not require one worldview or treat disagreement about Breadth and interdisciplinary
     literacy as inferiority; competing reasonable interpretations and conscientious refusal remain visible.
 intervention:
-  protocol_class: PF-SKILL-REHEARSAL
+  protocol_class: PF-KNOWLEDGE-APPLICATION
   duration_days: 10
-  cadence: Complete three bounded Breadth and interdisciplinary literacy actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Breadth and interdisciplinary literacy; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Breadth
-    and interdisciplinary literacy. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Breadth and interdisciplinary literacy
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Question: how should a small public waiting area be improved? Use seven lenses: science asks
+    what can be measured; history asks what changed and why; technology asks how a designed system works;
+    economics asks about scarce resources and tradeoffs; humanities asks about meaning and justified values;
+    arts asks how form shapes experience; society asks who participates and who decides. Use a fictional
+    waiting area when no safe public case is available. Goal: Use foundational questions from several
+    disciplines, investigate two connections and mark the boundary between useful breadth and genuine
+    subject expertise. Scope: The seven-lens map is a product-authored learning device. It is not a complete
+    account of any discipline or permission to make professional claims outside your knowledge. Time and
+    effort: Twenty minutes for the map, thirty minutes for two source checks and ten minutes for synthesis.
+    Adaptation: Use a spoken mind map, cards or the fictional records. A library or accessible introductory
+    resource can replace internet access. Do not photograph or profile public-space users without appropriate
+    consent. Keep personal working notes outside the check-in; record only the listed observations.
+
+
+    Reference support:
+
+    Facilitating Interdisciplinary Research: https://www.nationalacademies.org/publications/11153'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a spoken mind map, cards or the fictional records. A library or accessible
+    introductory resource can replace internet access. Do not photograph or profile public-space users
+    without appropriate consent.
+  expected_burden: Twenty minutes for the map, thirty minutes for two source checks and ten minutes for
+    synthesis.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Breadth and interdisciplinary literacy protocol to rank worth, coerce participation, demand
@@ -101,18 +125,24 @@ intervention:
   - Treating a completed Breadth and interdisciplinary literacy action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Breadth and interdisciplinary literacy situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a spoken
+    mind map, cards or the fictional records. A library or accessible introductory resource can replace
+    internet access. Do not photograph or profile public-space users without appropriate consent.
   actions:
   - stable_id: PRACTICE-COMP-1011-BREADTH-AND-INTERDISCIPLINARY-LITERACY-01-A1
     sequence: 1
-    title: Define observable criteria for Breadth and interdisciplinary literacy
-    instructions: 'Select one safe, lawful, low-stakes component of Breadth and interdisciplinary literacy.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Build foundational
-      literacy in science, history, technology, economics, humanities, arts, and society.'
+    title: Generate one concrete question from each lens
+    instructions: 'Apply the seven supplied definitions to the waiting area: measure shade or noise; trace
+      a past relocation; inspect the information display; compare maintenance tradeoffs; examine dignity
+      and fairness; consider legibility and atmosphere; identify whose access needs are unheard. State
+      what kind of evidence each field would need. Do not use a discipline’s name as a substitute for
+      an actual question.
+
+
+      Observation checks: All seven fields receive a concrete question; Each question names a relevant
+      kind of evidence; At least one value question is distinguished from a measurement; The map does
+      not claim expertise from terminology alone. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +164,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1011_a1_skill_component_bounded
-        - c1011_a1_observable_rubric_present
-        - c1011_a1_error_or_stop_defined
+        - all_seven_fields_receive_a_concrete_question
+        - each_question_names_a_relevant_kind_of_evidence
+        - at_least_one_value_question_is_distinguished_from_a_measurement
+        - the_map_does_not_claim_expertise_from_terminology_alone
       - measurement_id: c1011_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +184,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1011-BREADTH-AND-INTERDISCIPLINARY-LITERACY-01-A2
     sequence: 2
-    title: Rehearse Breadth and interdisciplinary literacy twice
-    instructions: Perform two bounded attempts of the selected Breadth and interdisciplinary literacy
-      component under comparable safe conditions. Use self-review, a consensual observer, or a reviewed
-      artifact; do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Investigate two connected questions with traceable evidence
+    instructions: 'Choose two lenses that affect the same decision, such as display technology and access.
+      Consult a public specification, historical record, scholarly introduction or experienced professional
+      appropriate to each. Offline alternative: use these fictional records—display D1 requires reading
+      small print; user test U1 reports that two willing readers could not identify the route number at
+      the intended distance. Explain what the pair supports and what it leaves unknown about other users
+      or designs.
+
+
+      Observation checks: Two distinct lenses receive actual evidence checks; Sources or fictional records
+      are identified; The connection affects a concrete decision; Small or synthetic evidence is not generalized
+      to a whole population. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +212,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1011_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - two_distinct_lenses_receive_actual_evidence_checks
+        - sources_or_fictional_records_are_identified
+        - the_connection_affects_a_concrete_decision
+        - small_or_synthetic_evidence_is_not_generalized_to_a_whole_population
       - measurement_id: c1011_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +238,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1011-BREADTH-AND-INTERDISCIPLINARY-LITERACY-01-A3
     sequence: 3
-    title: Use feedback for one Breadth and interdisciplinary literacy retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Can connect
-      ideas across fields without pretending superficial exposure is expertise.'
+    title: Write a synthesis that keeps disciplinary limits visible
+    instructions: 'Explain one insight gained by connecting the two fields and one tension that remains,
+      such as a visually attractive display that is difficult to read. Name the five lenses not investigated
+      beyond the initial map and the expert or source needed before a consequential decision. Propose
+      one small next learning step rather than claiming that interdisciplinary vocabulary has solved the
+      waiting area.
+
+
+      Observation checks: The synthesis contains a genuine cross-field connection; A tradeoff or disagreement
+      remains explicit; Uninvestigated lenses are honestly identified; The next step names an appropriate
+      source or expertise. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.
+
+
+      Final review: Which connection improved the question, and where would confidence now exceed the
+      depth of your actual study?
+
+
+      Examples: Supportive: The learner connected display design with readable access, identified a meaningful
+      tradeoff and kept unstudied historical and economic questions open.
+
+
+      Mixed: Seven lenses were named and two sources read, but the synthesis did not explain how one field
+      changed the other’s question.
+
+
+      Contradictory: A superficial overview was presented as authority over specialists or affected users.
+
+
+      Inconclusive: Interesting facts were collected from different fields without a shared question,
+      traceable evidence or limits.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +290,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1011_a3_feedback_item_selected
-        - c1011_a3_adjustment_traceable
-        - c1011_a3_retry_result_preserved
+        - the_synthesis_contains_a_genuine_cross_field_connection
+        - a_tradeoff_or_disagreement_remains_explicit
+        - uninvestigated_lenses_are_honestly_identified
+        - the_next_step_names_an_appropriate_source_or_expertise
       - measurement_id: c1011_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +314,17 @@ intervention:
       Breadth and interdisciplinary literacy; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Breadth and interdisciplinary literacy; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use a spoken mind map, cards or the fictional records. A library or accessible introductory resource
+      can replace internet access. Do not photograph or profile public-space users without appropriate
+      consent.
     cultural_context:
     - Adapt the expression of Breadth and interdisciplinary literacy to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Breadth and interdisciplinary literacy opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use a spoken mind map, cards or the fictional records. A library or accessible introductory resource
+      can replace internet access. Do not photograph or profile public-space users without appropriate
+      consent.
   pause_conditions:
   - Pause Breadth and interdisciplinary literacy when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -287,10 +356,7 @@ evidence_and_scoring:
   - c1011_a3_boundary
   - c1011_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Breadth and interdisciplinary literacy action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Breadth and interdisciplinary literacy criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A superficial overview was presented as authority over specialists or affected users.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Breadth and interdisciplinary literacy explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -301,14 +367,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Breadth and interdisciplinary literacy rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can connect ideas across fields without pretending superficial exposure is expertise.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Breadth and interdisciplinary literacy requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Generate one concrete question from each lens. Observed checks: All seven
+    fields receive a concrete question; Each question names a relevant kind of evidence; At least one
+    value question is distinguished from a measurement; The map does not claim expertise from terminology
+    alone. Action 2: Investigate two connected questions with traceable evidence. Observed checks: Two
+    distinct lenses receive actual evidence checks; Sources or fictional records are identified; The connection
+    affects a concrete decision; Small or synthetic evidence is not generalized to a whole population.
+    Action 3: Write a synthesis that keeps disciplinary limits visible. Observed checks: The synthesis
+    contains a genuine cross-field connection; A tradeoff or disagreement remains explicit; Uninvestigated
+    lenses are honestly identified; The next step names an appropriate source or expertise.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Interesting facts were collected from different fields
+    without a shared question, traceable evidence or limits.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Breadth
     and interdisciplinary literacy contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -318,9 +392,8 @@ evidence_and_scoring:
   - L15
   - L16
   - L31
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Breadth and interdisciplinary literacy evidence.
@@ -328,11 +401,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for breadth and interdisciplinary literacy action was attempted or
-    explicitly deferred.
-  - The rehearse breadth and interdisciplinary literacy twice action was attempted or explicitly deferred.
-  - The use feedback for one breadth and interdisciplinary literacy retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Generate one concrete question from each lens. Observed checks: All seven fields receive
+    a concrete question; Each question names a relevant kind of evidence; At least one value question
+    is distinguished from a measurement; The map does not claim expertise from terminology alone.'
+  - 'Action 2: Investigate two connected questions with traceable evidence. Observed checks: Two distinct
+    lenses receive actual evidence checks; Sources or fictional records are identified; The connection
+    affects a concrete decision; Small or synthetic evidence is not generalized to a whole population.'
+  - 'Action 3: Write a synthesis that keeps disciplinary limits visible. Observed checks: The synthesis
+    contains a genuine cross-field connection; A tradeoff or disagreement remains explicit; Uninvestigated
+    lenses are honestly identified; The next step names an appropriate source or expertise.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -341,58 +421,185 @@ completion_and_review:
     - c1011_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Breadth and interdisciplinary literacy only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Breadth and interdisciplinary literacy across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which connection improved the question, and where would confidence now exceed
+    the depth of your actual study?
+  transfer_limit: The seven-lens map is a product-authored learning device. It is not a complete account
+    of any discipline or permission to make professional claims outside your knowledge.
   reflection:
-    before: What does Breadth and interdisciplinary literacy require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Breadth and interdisciplinary literacy criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can connect ideas across fields without pretending superficial
-      exposure is expertise.', what contradiction or missing context matters most, and should this Breadth
-      and interdisciplinary literacy design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Use foundational questions from several disciplines,
+      investigate two connections and mark the boundary between useful breadth and genuine subject expertise.'
+    during: Which checks have actually been observed? Seven lenses were named and two sources read, but
+      the synthesis did not explain how one field changed the other’s question.
+    after: Which connection improved the question, and where would confidence now exceed the depth of
+      your actual study?
   review_guidance:
     repeat: Repeat the same bounded Breadth and interdisciplinary literacy design only when the context
       and burden remain appropriate.
-    adapt: Change the Breadth and interdisciplinary literacy medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use a spoken mind map, cards or the fictional records. A library or accessible introductory
+      resource can replace internet access. Do not photograph or profile public-space users without appropriate
+      consent.
     stop: Stop Breadth and interdisciplinary literacy when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Breadth and interdisciplinary literacy
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Breadth and interdisciplinary literacy criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Breadth and interdisciplinary literacy criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Breadth and interdisciplinary literacy criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Breadth and interdisciplinary literacy action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The learner connected display design with readable access, identified a meaningful tradeoff
+      and kept unstudied historical and economic questions open.
+    mixed: Seven lenses were named and two sources read, but the synthesis did not explain how one field
+      changed the other’s question.
+    contradictory: A superficial overview was presented as authority over specialists or affected users.
+    inconclusive: Interesting facts were collected from different fields without a shared question, traceable
+      evidence or limits.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Breadth and interdisciplinary literacy.
+    context_heading: Connect seven fields around one ordinary public-space question
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Breadth and
       interdisciplinary literacy.
   check_in_labels:
-    c1011_a1_primary: The bounded Breadth and interdisciplinary literacy criterion for action 1 was observed
+    c1011_a1_primary: 'Observed checks: generate one concrete question from each lens'
     c1011_a1_boundary: Action 1 stayed inside its stated Breadth and interdisciplinary literacy boundary
     c1011_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1011_a2_primary: The bounded Breadth and interdisciplinary literacy criterion for action 2 was observed
+    c1011_a2_primary: 'Observed checks: investigate two connected questions with traceable evidence'
     c1011_a2_boundary: Action 2 stayed inside its stated Breadth and interdisciplinary literacy boundary
     c1011_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1011_a3_primary: The bounded Breadth and interdisciplinary literacy criterion for action 3 was observed
+    c1011_a3_primary: 'Observed checks: write a synthesis that keeps disciplinary limits visible'
     c1011_a3_boundary: Action 3 stayed inside its stated Breadth and interdisciplinary literacy boundary
     c1011_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Breadth and interdisciplinary
-    literacy practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which connection improved the question, and where would confidence now exceed the depth
+    of your actual study? Completion is not mastery.
+  plain_language_evidence: The learner connected display design with readable access, identified a meaningful
+    tradeoff and kept unstudied historical and economic questions open.
   display_order: 133
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '10.11'
+  title: Connect seven disciplinary lenses without pretending depth
+  scored: false
+  sections:
+  - id: breadth-model
+    kind: concept
+    title: Breadth changes a question; labels alone do not
+    body: Interdisciplinary breadth uses each field to ask a different concrete question, identify a fitting
+      kind of evidence and show how at least two lenses change one decision. Science asks what can be
+      observed or measured; history asks what changed over time and why accounts differ; technology asks
+      how a designed system works; economics asks about scarcity, incentives and tradeoffs; humanities
+      examine meaning, interpretation and justified values; arts examine how form shapes experience; and
+      society asks who participates, is affected and decides. Naming fields is not expertise, and combining
+      weak evidence does not make it strong.
+  - id: waiting-area-packet
+    kind: material
+    title: Supplied fictional waiting-area records
+    body: 'W0: six seats occupy a 4-by-6-meter room; four receive afternoon shade; three sound readings
+      are 70, 72 and 71 dB at the same marked point, with no comfort threshold supplied. H1: a 2024 memo
+      says the stop moved indoors after summer heat complaints; it does not explain who was consulted.
+      D1: the route display uses 8-millimeter characters and refreshes each minute; no legibility standard
+      is supplied. E1: the improvement budget is $2,400; either eight $300 high-contrast signs or four
+      $600 shaded seats fit before maintenance, but mixed options are allowed. U1: in a voluntary fictional
+      test at the intended distance, two of two readers could not identify the route number; the sample
+      cannot represent all users. A1: one designer describes the current gray surface as calm; one rider
+      describes it as hard to distinguish. S1: a meeting roster lists operations and one designer but
+      no riders or disability advocate. These records are synthetic and contain no real people.'
+  - id: worked-library
+    kind: worked_example
+    title: Example connection on a different public library question
+    body: 'A library-entry question connects technology—whether an automatic door’s sensor detects a slow
+      approach—with society—whose mobility patterns were included in testing. The technical specification
+      may describe the detection range, while a small user observation reveals one missed condition. The
+      connection changes the decision: a range number alone is insufficient if the test population omits
+      relevant approaches. It still does not answer historical preservation, budget or aesthetic questions,
+      and one observation does not establish population-wide performance.'
+  - id: lens-map
+    kind: material
+    title: Seven-lens map and synthesis record
+    body: 'Shared decision: __. One row per lens: field | concrete question | evidence needed | supplied
+      record or external source | what it supports | what it cannot show | relevant expertise or affected
+      voice. Selected lenses A and B: __. Claim from A with record code: __. Claim from B with record
+      code: __. Connection—B changes A by: __. Decision implication: __. Tension or tradeoff retained:
+      __. Five lenses mapped but not investigated: __. Scope limit: __. Small next learning step and fitting
+      source or person: __. Do not convert a field name into a conclusion.'
+  - id: seven-lens-prompt
+    kind: prompt
+    title: Map one evidence-shaped question for every lens
+    body: For the supplied waiting area, write one concrete question from each of the seven lenses and
+      pair it with the most fitting W0/H1/D1/E1/U1/A1/S1 record or mark “not supplied.” Include at least
+      one measurement question, one change-over-time question, one mechanism question, one resource tradeoff,
+      one justified-value question, one form/experience question and one participation/decision question.
+      Identify which proposed answer would exceed its record. Preserve the map before opening the key.
+    references:
+    - waiting-area-packet
+    - lens-map
+    check_id: seven-lens-key
+    attempt_mode: practice
+  - id: connection-model
+    kind: concept
+    title: A connection must alter interpretation or action
+    body: Two adjacent summaries are not yet a synthesis. A real connection shows that one lens changes
+      the question, interpretation, criterion or action under another. D1 says how the display is built;
+      U1 shows a small access problem at the intended distance. Together they justify further legibility
+      testing or a bounded redesign, not a claim about all riders. E1 adds a cost tradeoff but cannot
+      decide which option is fair without stated values and affected voices. Retain disagreements and
+      unknowns.
+  - id: two-lens-synthesis
+    kind: prompt
+    title: Connect display technology and social access
+    body: 'Use D1 and U1 to write a five-part synthesis: exact supported technical fact; exact observed
+      access result; how the access result changes the display-design question; one bounded next decision;
+      and three important unknowns. Then state one tension introduced by E1 without pretending the budget
+      record identifies the best option. Name the five lenses not investigated beyond the map and the
+      source, specialist or affected voice needed before a consequential redesign. Cite record codes after
+      every factual claim and preserve the draft before opening the key.'
+    references:
+    - waiting-area-packet
+    - lens-map
+    check_id: two-lens-key
+    attempt_mode: practice
+  - id: access-route
+    kind: pathway
+    title: Use the fictional case or a permitted public record
+    body: Use spoken mapping, cards, large text, audio or a supported scribe. The complete fictional packet
+      requires no internet or observation. A live route may use public specifications and records but
+      must retain provenance, access permission and population limits; do not photograph or profile people
+      without consent. An advanced route may add a third lens only when it changes the decision, not to
+      make the map look comprehensive. Consequential design needs relevant specialists and affected users.
+  - id: next-connection
+    kind: next_step
+    title: Deepen one boundary rather than adding more labels
+    body: If the two-lens synthesis is supported and limited, choose one missing evidence item such as
+      a larger voluntary legibility check or the applicable display standard. If the connection is only
+      adjacent summaries, rewrite how one finding changes the other question. If a value judgment is hidden
+      as a measurement, label it and identify whose reasons matter. Transfer the seven-lens map to another
+      harmless decision without claiming disciplinary mastery.
+  checks:
+  - id: seven-lens-key
+    title: Check the seven questions against evidence type and scope
+    body: 'A defensible map includes: science—how do sound readings vary across comparable times? W0 is
+      only one three-reading snapshot; history—why was the stop moved in 2024 and whose accounts differ?
+      H1 supplies the stated heat reason but not consultation; technology—how do character size and refresh
+      work? D1; economics—which sign/seat mix fits $2,400 plus maintenance? E1 lacks maintenance costs;
+      humanities—which values justify comfort, dignity and fairness? no record decides them; arts—how
+      do contrast and surface form shape legibility and atmosphere? A1 supplies two perspectives, not
+      a rule; society—who participated and who was absent? S1. Treating 71 dB as acceptable, two readers
+      as all users or the calm description as consensus would exceed the supplied evidence.'
+    criteria:
+    - Every lens has a concrete question rather than a label
+    - Evidence type fits the question or is marked missing
+    - Measurement and justified-value questions remain distinct
+    - At least one overclaim is identified
+  - id: two-lens-key
+    title: Check the cross-field inference and retained limits
+    body: D1 supports that the fictional display uses 8-millimeter characters and one-minute refreshes.
+      U1 supports that two willing readers in this fictional test could not identify the route number
+      at the intended distance. Together they justify treating legibility as an unresolved design requirement
+      and testing a bounded high-contrast or larger-character alternative. They do not show that character
+      size caused the failures, represent other users, identify an applicable standard or choose the best
+      redesign. E1 introduces a $2,400 allocation tension between signs and shade but omits maintenance
+      and mixed-option performance. History, economics, humanities, arts and society remain only mapped
+      unless separately investigated; a correct synthesis names those limits and the next fitting expertise.
+    criteria:
+    - Technical and access claims cite D1 and U1 separately
+    - The connection changes a bounded design question
+    - Causation population and standard gaps remain explicit
+    - Budget tension and five uninvestigated lenses stay visible

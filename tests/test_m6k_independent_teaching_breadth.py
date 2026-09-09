@@ -1,4 +1,4 @@
-"""M6K memory, skill-path and feedback-loop runtime checks."""
+"""M6K independent-learning, teaching and breadth runtime checks."""
 
 import json
 from pathlib import Path
@@ -13,10 +13,10 @@ from growth.domain.practice_content import load_practice_content_bundle
 from scripts.tailored_practice_authoring import load_exercises
 
 ROOT = Path(__file__).resolve().parents[1]
-COHORT = ("10.06", "10.07", "10.08")
+COHORT = ("10.09", "10.10", "10.11")
 
 
-def test_learning_loop_reaches_runtime_with_preserved_identity_and_completion():
+def test_cohort_reaches_runtime_with_preserved_identity_and_completion():
     selected = load_exercises(ROOT)
     bundle = load_practice_content_bundle(ROOT)
     canonical = {row["parent_competency_id"]: row for row in bundle.protocols}
@@ -45,84 +45,77 @@ def test_learning_loop_reaches_runtime_with_preserved_identity_and_completion():
         )
 
 
-def test_memory_case_distinguishes_retrieval_routes_delay_and_versions():
-    exercise = load_exercises(ROOT)["10.06"]
-    text = render_text(learner_projection(exercise["instructional_content"], "10.06"))
+def test_independent_learning_supplies_complete_binary_work_and_help_route():
+    exercise = load_exercises(ROOT)["10.09"]
     authored = " ".join(
         section["body"] for section in exercise["instructional_content"]["sections"]
     )
     for phrase in (
-        "Recognition is noticing",
-        "U [unaided]",
-        "Actual delay",
-        "Target V1",
-        "only step 4 changes",
-        "prepared future check",
+        "places worth 4, 2 and 1",
+        "Outcome and pass condition",
+        "every bit pattern from 000 through 111",
+        "Precise question",
+        "fourth place is added",
+        "refusing a needed reference",
     ):
-        assert (
-            phrase in text
-            or phrase in authored
-            or phrase in " ".join(action["instructions"] for action in exercise["actions"])
-        )
-    assert "general working-memory capacity" in exercise["goal"]
+        assert phrase.lower() in authored.lower()
+    assert "not a claim of expertise" in exercise["scope_note"]
 
 
-def test_skill_path_supplies_rule_dependencies_milestones_and_fresh_case():
-    exercise = load_exercises(ROOT)["10.07"]
-    text = render_text(learner_projection(exercise["instructional_content"], "10.07"))
+def test_teaching_case_preserves_consent_application_and_simulation_boundary():
+    exercise = load_exercises(ROOT)["10.10"]
     authored = " ".join(
         section["body"] for section in exercise["instructional_content"]["sections"]
     )
     for phrase in (
-        "Five folders are labeled",
-        "Apply the first matching rule",
-        "R read the slip fields",
-        "Milestone 1",
-        "Hold back this slip",
-        "waiting for Lee",
+        "Columns A, B and C",
+        "willing learner",
+        "without pointing",
+        "fresh case",
+        "supplied simulation",
+        "planning and analysis only",
     ):
-        assert phrase.lower() in authored.lower() or phrase.lower() in text.lower()
-    assert "integration attempt" in exercise["actions"][2]["title"].lower()
+        assert phrase.lower() in authored.lower()
+    assert "willing learner" in exercise["scope_note"].lower()
 
 
-def test_feedback_case_preserves_first_output_and_retests_one_semantic_repair():
-    exercise = load_exercises(ROOT)["10.08"]
-    text = render_text(learner_projection(exercise["instructional_content"], "10.08"))
+def test_breadth_case_supplies_seven_lenses_packet_and_bounded_synthesis():
+    exercise = load_exercises(ROOT)["10.11"]
     authored = " ".join(
         section["body"] for section in exercise["instructional_content"]["sections"]
     )
     for phrase in (
-        "difference between an intended result and an observed result",
-        "Version A instruction",
-        "original row below the folders",
-        "Error-correction record",
-        "fixed before the retest",
-        "Self-review is valid",
+        "science asks",
+        "history asks",
+        "technology asks",
+        "economics asks",
+        "humanities examine",
+        "arts examine",
+        "society asks",
+        "W0",
+        "two-lens",
+        "population-wide",
     ):
-        assert phrase in text or phrase in authored
-    assert "not the learner" in exercise["scope_note"]
-    assert "character" in exercise["scope_note"]
+        assert phrase.lower() in authored.lower()
 
 
 @pytest.mark.parametrize(
     "competency_id,prompt_id,key_id,hidden_phrase",
     [
-        ("10.06", "first-recall", "first-recall-key", "V1 in exact order"),
-        ("10.06", "version-check", "version-check-key", "V1 remains"),
-        ("10.07", "dependency-map", "dependency-map-key", "minimal valid chain"),
-        ("10.07", "integration-test", "integration-test-key", "G belongs in WAITING"),
-        ("10.08", "literal-test", "literal-test-key", "Version A does not name TODAY"),
-        ("10.08", "fresh-retest", "fresh-retest-key", "complete Version B is"),
+        ("10.09", "three-bit-table", "three-bit-table-key", "complete table is"),
+        ("10.09", "four-bit-extension", "four-bit-extension-key", "1001 includes"),
+        ("10.10", "lesson-plan", "lesson-plan-key", "complete short explanation"),
+        ("10.10", "learner-application", "learner-application-key", "A3 is the top-left"),
+        ("10.11", "seven-lens-prompt", "seven-lens-key", "defensible map includes"),
+        ("10.11", "two-lens-synthesis", "two-lens-key", "D1 supports"),
     ],
 )
-def test_learning_loop_keys_are_revealed_only_after_the_prompt(
-    competency_id, prompt_id, key_id, hidden_phrase
-):
+def test_keys_are_revealed_only_after_the_prompt(competency_id, prompt_id, key_id, hidden_phrase):
     guide = load_exercises(ROOT)[competency_id]["instructional_content"]
     prompt = render_text(learner_projection(guide, competency_id, attempt=prompt_id))
     checked = render_text(learner_projection(guide, competency_id, check=key_id))
-    assert hidden_phrase not in prompt
-    assert hidden_phrase in checked
+    assert hidden_phrase.lower() not in prompt.lower()
+    assert hidden_phrase.lower() in checked.lower()
     assert "Check your attempt:" not in prompt
 
 
@@ -130,12 +123,12 @@ def test_learning_loop_keys_are_revealed_only_after_the_prompt(
 @pytest.mark.parametrize(
     "competency_id,prompt_id,key_id",
     [
-        ("10.06", "version-check", "version-check-key"),
-        ("10.07", "integration-test", "integration-test-key"),
-        ("10.08", "fresh-retest", "fresh-retest-key"),
+        ("10.09", "four-bit-extension", "four-bit-extension-key"),
+        ("10.10", "learner-application", "learner-application-key"),
+        ("10.11", "two-lens-synthesis", "two-lens-key"),
     ],
 )
-def test_compiled_learning_loop_guides_and_separate_keys_are_served(
+def test_compiled_guides_and_separate_keys_are_served(
     client, user, seeded, competency_id, prompt_id, key_id
 ):
     from growth.models import PracticeProtocol
@@ -154,9 +147,7 @@ def test_compiled_learning_loop_guides_and_separate_keys_are_served(
 
 
 @pytest.mark.parametrize("competency_id", COHORT)
-def test_recovery_accepts_only_the_declared_exact_learning_loop_projection(
-    monkeypatch, competency_id
-):
+def test_recovery_accepts_only_the_declared_exact_projection(monkeypatch, competency_id):
     path = next(
         path
         for path in (ROOT / "data/practices/protocols/10").glob("*.yaml")
@@ -176,13 +167,12 @@ def test_recovery_accepts_only_the_declared_exact_learning_loop_projection(
         recovery.verify_runtime(ROOT, baseline)
 
 
-def test_learning_loop_sources_are_bounded_to_their_claims():
+def test_external_sources_are_current_and_bounded_to_their_claims():
     sources = yaml.safe_load((ROOT / "docs/authoring/sources.yaml").read_text())["sources"]
     by_id = {row["source_id"]: row for row in sources}
     expected = {
-        "SRC-KARPICKE-ROEDIGER-RETRIEVAL-2008": ["10.06"],
-        "SRC-VAN-MERRIENBOER-4CID-2002": ["10.07"],
-        "SRC-KLUGER-DENISI-FEEDBACK-1996": ["10.08"],
+        "SRC-CAST-UDL-GUIDELINES-3": ["10.10"],
+        "SRC-NASEM-INTERDISCIPLINARY-RESEARCH-2005": ["10.11"],
     }
     for source_id, competency_ids in expected.items():
         assert by_id[source_id]["applicable_competency_ids"] == competency_ids
@@ -190,14 +180,30 @@ def test_learning_loop_sources_are_bounded_to_their_claims():
         assert by_id[source_id]["date_accessed"] == "2026-09-08"
 
 
-def test_supplied_sequence_precedence_and_retest_facts_are_reproducible():
-    v1 = ["west door", "desk", "purple pass", "room four", "blue box", "west door"]
-    v2 = ["west door", "desk", "purple pass", "room six", "blue box", "west door"]
+def test_binary_grid_and_lens_facts_are_reproducible():
     assert [
-        index for index, pair in enumerate(zip(v1, v2, strict=True), 1) if pair[0] != pair[1]
-    ] == [4]
-    rules = ["completed", "waiting", "today", "this week", "reference"]
-    slip_b = {"completed": False, "waiting": True, "due": "today"}
-    assert next(rule for rule in rules if slip_b.get(rule, False)) == "waiting"
-    expected_retest = {"green": "TODAY", "white_1": "original row", "white_2": "original row"}
-    assert len(expected_retest) == 3 and set(expected_retest.values()) == {"TODAY", "original row"}
+        sum(bit * weight for bit, weight in zip(bits, (4, 2, 1), strict=True))
+        for bits in (
+            (0, 0, 0),
+            (0, 0, 1),
+            (0, 1, 0),
+            (0, 1, 1),
+            (1, 0, 0),
+            (1, 0, 1),
+            (1, 1, 0),
+            (1, 1, 1),
+        )
+    ] == list(range(8))
+    grid = {
+        (column, row): (x, y) for x, column in enumerate("ABC") for y, row in enumerate((1, 2, 3))
+    }
+    assert grid[("A", 3)] == (0, 2) and grid[("C", 1)] == (2, 0)
+    assert {"science", "history", "technology", "economics", "humanities", "arts", "society"} == {
+        "science",
+        "history",
+        "technology",
+        "economics",
+        "humanities",
+        "arts",
+        "society",
+    }

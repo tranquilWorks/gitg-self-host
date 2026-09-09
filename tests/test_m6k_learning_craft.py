@@ -21,7 +21,7 @@ def test_three_real_projections_preserve_identity_completion_and_retained_rules(
     selected = load_exercises(ROOT)
     runtime = {p["parent_competency_id"]: p for p in bundle.runtime_protocols}
     canonical = {p["parent_competency_id"]: p for p in bundle.protocols}
-    assert len(selected) == 102 and len(runtime) == 383
+    assert len(selected) == 105 and len(runtime) == 383
     assert sum(len(p["actions"]) for p in runtime.values()) == 1151
     for cid in COHORT:
         before = yaml.safe_load(
