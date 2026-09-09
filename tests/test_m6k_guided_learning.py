@@ -1,6 +1,7 @@
-"""M6K independent-learning, teaching and breadth runtime checks."""
+"""M6K apprenticeship, transmission and accessible learning runtime checks."""
 
 import json
+from itertools import pairwise
 from pathlib import Path
 
 import pytest
@@ -13,7 +14,7 @@ from growth.domain.practice_content import load_practice_content_bundle
 from scripts.tailored_practice_authoring import load_exercises
 
 ROOT = Path(__file__).resolve().parents[1]
-COHORT = ("10.09", "10.10", "10.11")
+COHORT = ("10.12", "10.13", "10.14")
 
 
 def test_cohort_reaches_runtime_with_preserved_identity_and_completion():
@@ -45,69 +46,61 @@ def test_cohort_reaches_runtime_with_preserved_identity_and_completion():
         )
 
 
-def test_independent_learning_supplies_complete_binary_work_and_help_route():
-    exercise = load_exercises(ROOT)["10.09"]
-    authored = " ".join(
-        section["body"] for section in exercise["instructional_content"]["sections"]
-    )
+def guide_text(competency_id):
+    guide = load_exercises(ROOT)[competency_id]["instructional_content"]
+    return " ".join(row["body"] for row in guide["sections"] + guide["checks"])
+
+
+def test_apprenticeship_preserves_guidance_and_safe_simulation_boundary():
+    text = guide_text("10.12")
     for phrase in (
-        "places worth 4, 2 and 1",
-        "Outcome and pass condition",
-        "every bit pattern from 000 through 111",
-        "Precise question",
-        "fourth place is added",
-        "refusing a needed reference",
+        "80 cm",
+        "normal and slower pace",
+        "Teacher confirmation or untested",
+        "live feedback",
+        "not restraint, climbing, rescue",
+        "simulated supported improvement",
     ):
-        assert phrase.lower() in authored.lower()
-    assert "not a claim of expertise" in exercise["scope_note"]
+        assert phrase in text
 
 
-def test_teaching_case_preserves_consent_application_and_simulation_boundary():
-    exercise = load_exercises(ROOT)["10.10"]
-    authored = " ".join(
-        section["body"] for section in exercise["instructional_content"]["sections"]
-    )
+def test_transmission_preserves_context_and_distribution_authority():
+    text = guide_text("10.13")
     for phrase in (
-        "Columns A, B and C",
-        "willing learner",
-        "without pointing",
-        "fresh case",
-        "supplied simulation",
-        "planning and analysis only",
+        "notes yes, audio no",
+        "volunteer team only",
+        "return-only",
+        "Another shift",
+        "No response means pending",
+        "oldest volunteer",
+        "actual holder verification",
     ):
-        assert phrase.lower() in authored.lower()
-    assert "willing learner" in exercise["scope_note"].lower()
+        assert phrase in text
 
 
-def test_breadth_case_supplies_seven_lenses_packet_and_bounded_synthesis():
-    exercise = load_exercises(ROOT)["10.11"]
-    authored = " ".join(
-        section["body"] for section in exercise["instructional_content"]["sections"]
-    )
+def test_access_preserves_construct_supports_and_comparison_limits():
+    text = guide_text("10.14")
     for phrase in (
-        "science asks",
-        "history asks",
-        "technology asks",
-        "economics asks",
-        "humanities examine",
-        "arts examine",
-        "society asks",
-        "W0",
-        "two-lens",
-        "population-wide",
+        "three positions and two moves",
+        "two-component presentation package",
+        "not a diagnosis",
+        "Preserve required supports",
+        "Practice and two changed",
+        "simulated observations",
+        "reaching B2 alone",
     ):
-        assert phrase.lower() in authored.lower()
+        assert phrase.lower() in text.lower()
 
 
 @pytest.mark.parametrize(
     "competency_id,prompt_id,key_id,hidden_phrase",
     [
-        ("10.09", "three-bit-table", "three-bit-table-key", "complete table is"),
-        ("10.09", "four-bit-extension", "four-bit-extension-key", "1001 includes"),
-        ("10.10", "lesson-plan", "lesson-plan-key", "complete short explanation"),
-        ("10.10", "learner-application", "learner-application-key", "A3 is the top-left"),
-        ("10.11", "seven-lens-prompt", "seven-lens-key", "defensible map includes"),
-        ("10.11", "two-lens-synthesis", "two-lens-key", "D1 supports"),
+        ("10.12", "observation-prompt", "observation-key", "The written-step example"),
+        ("10.12", "corrected-attempt", "corrected-attempt-key", "disparity decreases"),
+        ("10.13", "draft-prompt", "draft-key", "A complete H0 handoff"),
+        ("10.13", "correction-prompt", "correction-key", "D1 violates scope"),
+        ("10.14", "barrier-prompt", "barrier-key", "The essential demand"),
+        ("10.14", "adapted-attempt", "adapted-attempt-key", "R1 substitutes"),
     ],
 )
 def test_keys_are_revealed_only_after_the_prompt(competency_id, prompt_id, key_id, hidden_phrase):
@@ -123,9 +116,9 @@ def test_keys_are_revealed_only_after_the_prompt(competency_id, prompt_id, key_i
 @pytest.mark.parametrize(
     "competency_id,prompt_id,key_id",
     [
-        ("10.09", "four-bit-extension", "four-bit-extension-key"),
-        ("10.10", "learner-application", "learner-application-key"),
-        ("10.11", "two-lens-synthesis", "two-lens-key"),
+        ("10.12", "corrected-attempt", "corrected-attempt-key"),
+        ("10.13", "correction-prompt", "correction-key"),
+        ("10.14", "adapted-attempt", "adapted-attempt-key"),
     ],
 )
 def test_compiled_guides_and_separate_keys_are_served(
@@ -167,43 +160,46 @@ def test_recovery_accepts_only_the_declared_exact_projection(monkeypatch, compet
         recovery.verify_runtime(ROOT, baseline)
 
 
-def test_external_sources_are_current_and_bounded_to_their_claims():
+def test_sources_are_bounded_and_prior_applicability_is_unchanged():
     sources = yaml.safe_load((ROOT / "docs/authoring/sources.yaml").read_text())["sources"]
     by_id = {row["source_id"]: row for row in sources}
-    expected = {
-        "SRC-CAST-UDL-GUIDELINES-3": ["10.10"],
-        "SRC-NASEM-INTERDISCIPLINARY-RESEARCH-2005": ["10.11"],
-    }
-    for source_id, competency_ids in expected.items():
-        assert by_id[source_id]["applicable_competency_ids"] == competency_ids
-        assert "not" in by_id[source_id]["limitations"].lower()
-        assert by_id[source_id]["date_accessed"] == "2026-09-08"
+    assert by_id["SRC-CAST-UDL-GUIDELINES-3"]["applicable_competency_ids"] == ["10.10"]
+    for source_id, cid in (
+        ("SRC-UNESCO-ICH-TRANSMISSION-2003", "10.13"),
+        ("SRC-CAST-UDL-ACCESS-FAQ", "10.14"),
+    ):
+        source = by_id[source_id]
+        assert source["applicable_competency_ids"] == [cid]
+        assert source["date_accessed"] == "2026-09-09"
+        assert "not" in source["limitations"].lower()
 
 
-def test_binary_grid_and_lens_facts_are_reproducible():
-    assert [
-        sum(bit * weight for bit, weight in zip(bits, (4, 2, 1), strict=True))
-        for bits in (
-            (0, 0, 0),
-            (0, 0, 1),
-            (0, 1, 0),
-            (0, 1, 1),
-            (1, 0, 0),
-            (1, 0, 1),
-            (1, 1, 0),
-            (1, 1, 1),
-        )
-    ] == list(range(8))
-    grid = {
-        (column, row): (x, y) for x, column in enumerate("ABC") for y, row in enumerate((1, 2, 3))
-    }
-    assert grid[("A", 3)] == (0, 2) and grid[("C", 1)] == (2, 0)
-    assert {"science", "history", "technology", "economics", "humanities", "arts", "society"} == {
-        "science",
-        "history",
-        "technology",
-        "economics",
-        "humanities",
-        "arts",
-        "society",
-    }
+def test_supplied_correction_and_route_keys_match_the_actual_task_data():
+    import re
+
+    exercises = load_exercises(ROOT)
+    bow = exercises["10.12"]["instructional_content"]
+    prompt = next(s["body"] for s in bow["sections"] if s["id"] == "corrected-attempt")
+    pairs = re.findall(r"loops (\d+) cm and (\d+) cm", prompt)
+    differences = [abs(int(a) - int(b)) for a, b in pairs]
+    key = next(k["body"] for k in bow["checks"] if k["id"] == "corrected-attempt-key")
+    assert len(differences) == 2
+    assert f"from {differences[0]} cm to {differences[1]} cm" in key
+    guide = exercises["10.14"]["instructional_content"]
+    packet = next(s["body"] for s in guide["sections"] if s["id"] == "route-packet")
+    routes = re.findall(r"R[12] is ([ABC][123]), ([ABC][123]), ([ABC][123])", packet)
+    assert len(routes) == 2
+    for route in routes:
+        coords = [("ABC".index(p[0]), int(p[1])) for p in route]
+        assert len(set(coords)) == 3
+        assert [abs(x2 - x1) + abs(y2 - y1) for (x1, y1), (x2, y2) in pairwise(coords)] == [
+            1,
+            1,
+        ]
+        assert coords[1][1] - coords[0][1] == 1
+    prompt = next(s["body"] for s in guide["sections"] if s["id"] == "adapted-attempt")
+    answers = re.findall(r"R[12] response is ([ABC][123]), ([ABC][123]), ([ABC][123])", prompt)
+    assert answers[0][-1] == routes[0][-1] and answers[0][1] != routes[0][1]
+    assert answers[1] == routes[1]
+    key = next(k["body"] for k in guide["checks"] if k["id"] == "adapted-attempt-key")
+    assert f"substitutes {answers[0][1]} for {routes[0][1]}" in key

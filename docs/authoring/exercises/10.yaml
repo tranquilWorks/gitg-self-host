@@ -2114,6 +2114,124 @@ exercises:
         a safety-critical application.
       inconclusive: A tutorial was watched and described as apprenticeship despite no imitation or clearly
         labeled feedback limitation.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.12'
+      title: Observe, imitate and check one tacit adjustment
+      scored: false
+      sections:
+      - id: tacit-model
+        kind: concept
+        title: A sequence is not the whole judgment
+        body: Written motions say what comes next; demonstration can expose tension, timing and stopping cues.
+          Ask a willing skilled person to show their judgment at normal and slower pace, then observe your
+          imitation and correct one cue. A recording or the supplied fictional case can prepare questions
+          but cannot establish live guided participation, community immersion or competence. Correction concerns
+          a movement, never your worth; consent can be withdrawn.
+      - id: bow-card
+        kind: material
+        title: Complete loose-cord bow reference
+        body: Use about 80 cm of soft cord loose on a table. Cross the ends, pass one end under the crossing
+          and pull gently into a flat first knot. Fold one end into a loop. Wrap the other end around the
+          loop's base, fold a bight of that end and push the folded bight through the opening behind the first
+          loop. Hold both loops and pull them gently apart; leave free tails rather than pulling a tail through.
+          Release by pulling one free tail. A willing demonstrator may show their equivalent method. Keep
+          the cord away from bodies, animals, machinery and loads. This is not restraint, climbing, rescue
+          or a safety knot. Stop for strain or confusion and ask the teacher to demonstrate again.
+      - id: worked-paper
+        kind: worked_example
+        title: Different example — align before creasing
+        body: A learner folds a paper strip into thirds but presses the first crease before comparing panel
+          widths. The teacher slowly brings the two loose folds together, checks the three widths, then presses.
+          The correction is to align before pressure, not to be a more talented folder. The learner restates
+          the cue and repeats while the teacher observes. A neater strip with that prompt is a supported retry,
+          not evidence of independent performance on every folding task.
+      - id: observation-record
+        kind: material
+        title: Observation and correction record
+        body: 'Route (live, recording or supplied simulation): __. Task and teacher permission: __. Recording
+          permission or no recording: __. Normal demonstration noticed: __. Slowed demonstration noticed:
+          __. Written step: __. Judgment cue: __. Preserved first attempt: __. Exact correction: __. My restatement:
+          __. Teacher confirmation or untested: __. Retry and supports: __. Release result: __. Remaining
+          dependence: __. Permission to keep this note: __. Leave unobserved fields untested; never invent
+          a teacher response.'
+      - id: observation-prompt
+        kind: prompt
+        title: Separate the step from the judgment
+        body: 'Before revealing the check, classify what the bow card supplies and what you must elicit from
+          a teacher. Ask what they notice before tightening and when they stop. If no teacher is available,
+          analyze this fictional demonstrator statement instead: compare loop sizes before tightening; stop
+          while both free tails remain longer than a finger width. Record one written step, one demonstrated
+          judgment cue, and which live evidence remains untested. The simulation is analysis only.'
+        references:
+        - bow-card
+        - observation-record
+        check_id: observation-key
+        attempt_mode: practice
+      - id: correction-model
+        kind: concept
+        title: Preserve the error so the correction has a target
+        body: Keep the first attempt description before changing it. Request one observable cue, restate it
+          and ask the teacher whether the restatement is accurate. Retry and check release. Merely repeating
+          the teacher's words does not show the adjustment was made. One successful guided attempt supports
+          a narrow result; partial success still needing prompts, strain or coercion, and a recording without
+          feedback are different outcomes, not equivalent evidence.
+      - id: corrected-attempt
+        kind: prompt
+        title: Audit a corrected attempt
+        body: Analyze this fictional record before revealing the check. First attempt has loops 9 cm and 3
+          cm and a right tail nearly swallowed. Teacher correction is to form the bight farther from the tip
+          and equalize loops before adding tension. Learner restates leave enough tail and equalize first;
+          teacher confirms. Retry has loops 7 cm and 6 cm, both tails longer than 8 cm, and releases when
+          a free tail is pulled. Identify the preserved error, correction, change in disparity, functional
+          check, and what this does not demonstrate. If practicing live, record actual observations instead
+          of copying these measurements.
+        references:
+        - bow-card
+        - observation-record
+        check_id: corrected-attempt-key
+        attempt_mode: practice
+      - id: access-path
+        kind: pathway
+        title: Keep the participation voluntary and the task harmless
+        body: Use thicker high-contrast cord or agree another accessible low-risk task with the teacher. Assistance
+          may stabilize the material but must be recorded; do not claim unsupported execution. Stop rather
+          than force painful movement. Without a willing teacher, finish the supplied classification exercise
+          and mark live demonstration, imitation and correction untested. A lawful recording is preparation,
+          not membership in a community of practice.
+      - id: next-practice
+        kind: next_step
+        title: Return to a guided attempt with one question
+        body: Ask the teacher to observe a later safe attempt with the same supports and one question about
+          when the cue changes. Record any continuing dependence. If only simulation was possible, the next
+          step is arranging voluntary live guidance, not claiming apprenticeship complete. Broader community
+          immersion and professional qualification remain outside this small encounter.
+      checks:
+      - id: observation-key
+        title: Check the step and judgment distinction
+        body: The written-step example is wrapping the second end around the loop base. The fictional judgment
+          is comparing loop sizes before tension and preserving visible tails when stopping. Naming the next
+          motion alone misses that judgment. The simulation supplies words to analyze, not an observed normal/slowed
+          demonstration, learner imitation or live feedback. On a live route, cite what the teacher actually
+          demonstrated rather than substituting the fictional statement.
+        criteria:
+        - Written motion and judgment are distinct
+        - Observation route is explicit
+        - Missing live evidence stays untested
+        - Consent and harmless scope remain intact
+      - id: corrected-attempt-key
+        title: Check the correction without overclaiming
+        body: The disparity decreases from 6 cm to 1 cm in the fictional record. The first near-swallowed
+          tail and unequal loops justify the specific bight-position and equalizing cue. Restatement plus
+          teacher confirmation checks understanding; the retry and successful release check this harmless
+          result. It remains a simulated supported improvement, not actual learner evidence, independent retention,
+          community membership or a safety-knot qualification. Failure to release would make the result partial
+          despite better-looking loops; pain or humiliation calls for stopping.
+        criteria:
+        - First error and exact correction retained
+        - Restatement and retry distinguished
+        - Release checked separately from appearance
+        - Simulation and supported-result limits explicit
   '10.13':
     title: Preserve a piece of lived knowledge with its holder’s permission
     goal: Document or teach one practical story, procedure or tradition through a relationship, verify
@@ -2173,6 +2291,127 @@ exercises:
       contradictory: Private or restricted knowledge was published without permission, or one person’s
         memory was treated as the only legitimate version.
       inconclusive: A story was copied without a holder’s scope agreement, verification or permitted destination.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.13'
+      title: Preserve knowledge without taking over its authority
+      scored: false
+      sections:
+      - id: transmission-model
+        kind: concept
+        title: Preserve reasons, relationships and permission
+        body: Knowledge transmission preserves why a practice works, when it changes and who may correct or
+          receive the account. It is not extraction of a story into unrestricted content. An experienced holder
+          can decline, restrict recording or correct the draft. Age alone does not make one account infallible.
+          A useful record retains variation and provenance instead of declaring one official tradition. The
+          supplied packet is fictional and cannot provide actual holder verification.
+      - id: holder-packet
+        kind: material
+        title: H0 — fictional tool-library holder packet
+        body: H0 is an experienced volunteer describing this shift's first ten minutes with a newcomer. Permission
+          is notes yes, audio no; attribution is experienced volunteer; audience is the volunteer team only,
+          not the public. Do not include member names. Five actions are greet the newcomer; ask their preferred
+          name and pronunciation; explain the checkout board; offer a quiet walk or paired tour; arrange a
+          willing buddy if requested. The reason is to avoid overwhelming a new person. Exception is a return-only
+          visit, when the tour is skipped. A common mistake is lecturing about tools before asking what the
+          person needs. Another shift starts at the return desk. These are fictional practice facts, not universal
+          tool-library policy or a living community's testimony.
+      - id: worked-garden
+        kind: worked_example
+        title: Different example — a garden handoff
+        body: A fictional garden note says water every morning. Its holder corrects it to check soil first
+          and skip watering when already wet; that exception prevents the bare schedule from replacing judgment.
+          The note is for plot stewards only, with no public attribution. A repaired instruction can be accurate
+          yet still unauthorized for a public blog. The writer returns both content and destination for confirmation;
+          a missing reply is not approval.
+      - id: permission-record
+        kind: material
+        title: Permission and verification record
+        body: 'Route (live holder or supplied simulation): __. Holder relationship to practice: __. Agreed
+          scope: __. Written notes allowed: __. Audio or images allowed: __. Attribution: __. Audience and
+          destination: __. Excluded details: __. Purpose: __. Steps: __. Reason: __. Exception: __. Common
+          mistake: __. Variation: __. Remembered fact versus interpretation: __. Draft returned on: __. Holder
+          corrections: __. Final content and sharing confirmation: __. Review date: __. Blank permission or
+          verification means do not share as endorsed.'
+      - id: draft-prompt
+        kind: prompt
+        title: Draft a bounded handoff from H0
+        body: Before revealing the check, write a short handoff with the five actions, reason, return-only
+          exception, common mistake and other-shift variation. Attach the exact recording, attribution and
+          audience boundaries. Identify what remains unverified in this fictional route. Do not add a claim
+          of official policy, treat age as proof or invent a real holder's approval. On the live route, return
+          the draft to the willing holder before any agreed handoff.
+        references:
+        - holder-packet
+        - permission-record
+        check_id: draft-key
+        attempt_mode: practice
+      - id: verification-model
+        kind: concept
+        title: Accuracy and distribution are separate checks
+        body: Ask what is inaccurate, missing, too private or overgeneralized, then revise and confirm the
+          intended audience. Consent to a conversation is not publication consent. An accurate draft awaiting
+          holder response is pending; a verified team-only record posted publicly is adverse, not a successful
+          transmission. A public archive can support source study but cannot supply personal permission or
+          a verification conversation that never occurred.
+      - id: correction-prompt
+        kind: prompt
+        title: Repair a flawed handoff
+        body: Audit fictional D1 against H0 before opening the check. D1 says all tool libraries must publicly
+          introduce a newcomer's full name, give a compulsory tool lecture and assign a buddy; the oldest
+          volunteer guarantees this is official policy; an audio recording should be posted online. Identify
+          each unsupported or forbidden change, produce a corrected short replacement, and state the permission
+          and verification still required before a real handoff. Do not silently repair the text while retaining
+          its false endorsement.
+        references:
+        - holder-packet
+        - permission-record
+        check_id: correction-key
+        attempt_mode: practice
+      - id: access-path
+        kind: pathway
+        title: Let the holder choose a usable and bounded process
+        body: Offer readback, large print, a jointly drawn sequence or a mutually agreed interpreter. Audio
+          requires separate permission; refusing it does not obstruct participation. Stop if material becomes
+          sacred, private, commercially protected or outside the holder's authority. If no holder is available,
+          complete H0 analysis as simulation, not community endorsement. A later real encounter may preserve
+          legitimate disagreement rather than force consensus.
+      - id: next-handoff
+        kind: next_step
+        title: Complete only the permitted handoff
+        body: After actual holder confirmation, offer the corrected record to a willing recipient in the agreed
+          audience or store it at the agreed location with a review date. Invite a recipient question and
+          return uncertain points to the holder. For advanced practice, compare a second willing holder's
+          version with separate consent and preserve both contexts. The simulation does not authorize contacting,
+          recording or publishing a real community.
+      checks:
+      - id: draft-key
+        title: Check content and permission together
+        body: A complete H0 handoff greets, asks preferred name and pronunciation, explains the checkout board,
+          offers a quiet walk or paired tour, and arranges a willing buddy only if requested. Keep the overwhelm
+          reason, skip-tour return-only exception, avoid-lecture mistake and other shift's return-desk variation.
+          Notes yes and audio no remain separate; attribution is experienced volunteer and sharing is volunteer-team-only
+          with no member names. This is a fictional reconstruction awaiting any real holder's verification,
+          not an endorsed universal policy.
+        criteria:
+        - Five actions retained with optional choices
+        - Reasons exceptions and variation preserved
+        - Recording attribution and audience explicit
+        - Fictional reconstruction is not holder approval
+      - id: correction-key
+        title: Check the flawed draft repair
+        body: D1 violates scope by turning one shift into all libraries, preferred name into a public full-name
+          announcement, an optional tour into a compulsory lecture, and a requested willing buddy into an
+          assignment. Age does not establish official authority. Posting audio violates both audio refusal
+          and team-only sharing. Replace it with the five H0 actions and their reason, exception and variation;
+          preserve attribution and no-member-name limits. A live holder must confirm the final content and
+          destination before an endorsed handoff. No response means pending, not consent; the supplied fictional
+          packet cannot confer real approval.
+        criteria:
+        - Every unsupported change identified
+        - Replacement restores H0 choices and context
+        - Content and distribution checked separately
+        - No fictional or silent endorsement inferred
   '10.14':
     title: Remove a learning barrier while keeping the real standard
     goal: Adapt pace, medium, environment or response method to a learner’s stated needs, then check whether
@@ -2180,7 +2419,7 @@ exercises:
     scope_note: This is an access-focused teaching trial, not diagnosis or proof of a fixed learning style.
       One person’s preferred adaptation should not be generalized to everyone with a similar label.
     burden: Ten minutes to agree the goal and barrier, two short attempts and fifteen minutes to compare.
-    setup: 'Default task: follow a three-step route on a paper grid from A1 to A2 to B2. The learning
+    setup: 'Default task: follow a three-position, two-move route on a paper grid from A1 to A2 to B2. The learning
       goal is interpreting ordered route instructions, not reading tiny print, speaking quickly or using
       a particular hand. Invite a willing adult to identify an unnecessary barrier, or examine a barrier
       you personally encounter. Use large print, tactile markers, audio or a slower presentation as appropriate.'
@@ -2195,8 +2434,8 @@ exercises:
       - The learner identifies or confirms the barrier
       - Essential and incidental demands are separated
       - No diagnosis or fixed learning-style label is assigned
-    - title: Change one access condition and attempt the same kind of task
-      instructions: Agree on one adaptation, such as presenting each direction as an audio step with a
+    - title: Agree an access adaptation and attempt the same kind of task
+      instructions: Agree on one adaptation package, recording each changed component, such as presenting each direction as an audio step with a
         repeat option. Keep route complexity and the success criterion comparable; preserve other established
         supports. Use a new route of the same length and ask the learner to attempt it without answer-revealing
         hints. Record whether the change reduced the identified barrier and whether it created a different
@@ -2231,3 +2470,125 @@ exercises:
         from one difficulty.
       inconclusive: An adaptation was selected from a stereotype and declared effective without a learner
         attempt or feedback.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '10.14'
+      title: Reduce a barrier while preserving the learning target
+      scored: false
+      sections:
+      - id: access-model
+        kind: concept
+        title: Change access demands without replacing the construct
+        body: The construct is the actual skill to be demonstrated. Here it is interpreting an ordered route
+          and explaining its order, not reading tiny print, responding quickly or moving a particular hand.
+          Ask the learner which barrier matters. An adaptation is a testable design choice, not a diagnosis
+          or proof of a fixed learning style. Preserve required supports and the meaningful target; comfort,
+          correctness and burden are separate observations.
+      - id: route-packet
+        kind: material
+        title: Complete grid and two comparable routes
+        body: Draw nine cells with columns A, B, C from left to right and rows 1, 2, 3 from bottom to top.
+          Bottom row is A1 B1 C1, middle A2 B2 C2, top A3 B3 C3. R1 is A1, A2, B2. Fresh R2 is C1, C2, B2.
+          Each has three positions and two moves, first upward then horizontal. Criterion is to visit every
+          position in order and explain the order; reaching B2 alone is insufficient. Use chosen speech, pointing,
+          tactile markers or AAC without helper answer selection. No speed criterion applies. Keep reference
+          and other established supports available on both attempts.
+      - id: worked-shapes
+        kind: worked_example
+        title: Different example — usable shape cards can still be in the wrong order
+        body: A learner must place circle, square, triangle in that order. Larger separate cards become easier
+          to see, but the learner places circle, triangle, square. Usability improved by their report; sequence
+          performance still misses the target. Keep the helpful size while explaining order and checking a
+          fresh comparable case. Declaring success solely because the cards feel comfortable would discard
+          the learning standard.
+      - id: access-record
+        kind: material
+        title: Access trial record
+        body: 'Route (live learner, self-test or supplied simulation): __. Voluntary participation: __. Skill
+          criterion: __. Essential demands: __. Learner-stated incidental barrier: __. Established supports:
+          __. R1 exact response and prompts: __. R1 usability report: __. Agreed adaptation and components:
+          __. R2 exact response, explanation and prompts: __. R2 usability and new barriers: __. Comparability
+          limits: __. Keep, revise or stop and reason: __. Next comparable route: __. Do not collect diagnosis
+          or sensitive identity details to complete this record.'
+      - id: barrier-prompt
+        kind: prompt
+        title: Identify the barrier and preserve the standard
+        body: In this fictional case the route is printed in crowded 6-point type with all arrows together.
+          The learner asks for bigger labels and one instruction at a time. Before opening the check, separate
+          the essential skill from incidental demands and propose a presentation adaptation. State what stays
+          comparable across R1 and R2, which existing supports stay available, what the helper may do, and
+          why a correct destination alone is insufficient. Treat larger labels plus chunking as a two-component
+          presentation package, not an isolated causal variable.
+        references:
+        - route-packet
+        - access-record
+        check_id: barrier-key
+        attempt_mode: practice
+      - id: comparison-model
+        kind: concept
+        title: Record usability and performance without claiming causation
+        body: A fresh route reduces copying of the old answer but does not remove effects of practice, familiarity
+          or support. Matched route length and criteria help comparison; they do not make one trial a controlled
+          experiment. Larger labels and chunking change two components together, so this package cannot isolate
+          which mattered. Correctness with excessive burden needs further adaptation; greater comfort with
+          a sequence error needs further teaching. Preserve the learner's feedback rather than infer it from
+          the output.
+      - id: adapted-attempt
+        kind: prompt
+        title: Audit an adapted attempt
+        body: Analyze this supplied fictional record before opening the key. R1 response is A1, B1, B2; learner
+          says I lost the arrow. Agreed package is 18-point labels, one position per card and optional repetition
+          without pointing to the answer. R2 response is C1, C2, B2; learner explains start at C1, move up,
+          then left. Learner reports easier to follow but requests audio when fatigued. Classify route performance,
+          usability, comparability and next action; identify why this is neither real learner evidence nor
+          proof that print size caused learning. On a live or self route use actual responses, not this transcript.
+        references:
+        - route-packet
+        - access-record
+        check_id: adapted-attempt-key
+        attempt_mode: practice
+      - id: access-path
+        kind: pathway
+        title: Offer chosen supports without choosing the answer
+        body: Use large print, tactile cells, sequential audio with repeat, AAC, quiet space or more time
+          as chosen by the learner. A helper may operate a marker at the learner's direction but must not
+          choose the next cell. Record assistance and new barriers. Stop without penalty; persistent or complex
+          needs can require qualified accessibility or educational support. A self-test concerns your own
+          barrier, and a simulation supports planning only, not an independent learner result.
+      - id: next-trial
+        kind: next_step
+        title: Keep helpful access and check another comparable case
+        body: Retain supports the learner finds useful and agree a later fresh route with the same criterion,
+          such as A3, A2, B2 with its changed initial direction recorded. If testing a new component, change
+          and record that component while retaining needed aids; do not remove accommodations to prove independence.
+          Ask about fatigue and usability again. Success on one supported route does not establish durable
+          learning, a diagnosis or a population-wide accessibility solution.
+      checks:
+      - id: barrier-key
+        title: Check the access design
+        body: The essential demand is preserving all three positions and explaining their order. Tiny print,
+          crowded simultaneous arrows, speed and a specific response hand are incidental here. The requested
+          presentation package can use larger labels with one instruction at a time and optional repeat; preserve
+          established supports, route length and criterion on both attempts. A helper can present material
+          but cannot select positions. A shared B2 destination does not validate an incorrect intermediate
+          cell. Two changed presentation components do not isolate a single cause, and the fictional request
+          is not a diagnosis.
+        criteria:
+        - Construct and incidental barriers distinguished
+        - Learner request informs adaptation
+        - Criterion and supports preserved
+        - Package and causal limits explicit
+      - id: adapted-attempt-key
+        title: Check performance and usability separately
+        body: R1 substitutes B1 for A2 and therefore fails the ordered-route criterion despite ending at B2.
+          R2 follows C1, C2, B2 and explains up then left, satisfying this supported fictional task. The learner's
+          easier-to-follow report concerns usability; the audio request identifies a remaining fatigue-related
+          access need. Keep the agreed helpful package and explore audio with consent on a comparable fresh
+          trial. These are simulated observations, not actual learner improvement. Practice and two changed
+          presentation components prevent a causal attribution to print size alone; no durability, diagnosis
+          or population claim follows.
+        criteria:
+        - Intermediate error identified despite correct destination
+        - R2 sequence and explanation checked
+        - Usability and remaining barrier retained
+        - Simulation support and causal limits preserved

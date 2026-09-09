@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1013-COMMUNAL-AND-INTERGENERATIONAL-KNOWLEDGE-TRANSMISSION-01
 slug: c1013-communal-and-intergenerational-knowledge-transmission-practice
-name: Bounded Communal and intergenerational knowledge transmission Practice
+name: Preserve a piece of lived knowledge with its holder’s permission
 parent_competency_id: '10.13'
 domain_id: '10'
 governance:
@@ -14,10 +14,10 @@ governance:
   scoring_status: active
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
+  - SRC-UNESCO-ICH-TRANSMISSION-2003
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 10.13
-      (Communal and intergenerational knowledge transmission); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 10.13; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,40 +35,49 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Communal and intergenerational knowledge transmission through a low-stakes skill
-    rehearsal bounded by the canonical scope: Preserve stories, practices, craft, local knowledge, and
-    institutional memory through relationships and participation.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Documents or teaches
-    knowledge that would otherwise be lost and verifies it with experienced holders. The protocol creates
-    a small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Document or teach one practical story, procedure or tradition through a relationship, verify
+    it with an experienced holder and preserve the agreed limits on sharing.
+  why_recommended: Document or teach one practical story, procedure or tradition through a relationship,
+    verify it with an experienced holder and preserve the agreed limits on sharing.
   claims:
-  - statement: Using the canonical scope and evidence target for Communal and intergenerational knowledge
-      transmission is a traceable product-design basis for a source-only draft protocol.
+  - statement: Document or teach one practical story, procedure or tradition through a relationship, verify
+      it with an experienced holder and preserve the agreed limits on sharing.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  - statement: Articles 2, 13, 14 and 15 connect safeguarding with intergenerational transmission, context-sensitive
+      renewal, non-formal education, community participation and respect for customary access restrictions.
+    classification: professional_or_public_standard
+    source_ids:
+    - SRC-UNESCO-ICH-TRANSMISSION-2003
+    limitations: Not legal advice, a designation of the fictional tool-library practice as cultural heritage,
+      validation of this exercise or permission to publish any holder's knowledge. The granular consent
+      and readback record is an original product safeguard, not a quoted Convention procedure.
   applicability_question: Does a voluntary, bounded Communal and intergenerational knowledge transmission
     practice fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Communal and intergenerational knowledge transmission as not applicable,
     consciously unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity,
     or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Communal and intergenerational
-    knowledge transmission context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Communal
-    and intergenerational knowledge transmission; do not manufacture conflict, deprivation, exposure,
-    disclosure, danger, urgency, or dependence for evidence.
+  readiness_considerations: Use audio only with permission, a large-print draft, an interpreter or a jointly
+    drawn sequence. A public archive can support source study when no holder is available, but it does
+    not supply personal permission or verification that did not occur.
+  opportunity_considerations: 'Default: ask a willing experienced person how a small group welcomes a
+    new member or hands over a shared task. Use a page with purpose, steps, reasons, exceptions, source
+    holder and sharing permission. The holder may choose a different ordinary practice or decline. Do
+    not request family secrets, protected work procedures or cultural knowledge they are not authorized
+    to share.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Communal and intergenerational
-    knowledge transmission.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default: ask a willing experienced person how a small group welcomes a new member or hands over a
+    shared task. Use a page with purpose, steps, reasons, exceptions, source holder and sharing permission.
+    The holder may choose a different ordinary practice or decline. Do not request family secrets, protected
+    work procedures or cultural knowledge they are not authorized to share.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Communal and intergenerational
-    knowledge transmission instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use audio only with permission, a large-print draft, an interpreter or a jointly drawn sequence. A
+    public archive can support source study when no holder is available, but it does not supply personal
+    permission or verification that did not occur.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,21 +90,35 @@ meaning_and_fit:
     knowledge transmission as inferiority; competing reasonable interpretations and conscientious refusal
     remain visible.
 intervention:
-  protocol_class: PF-SKILL-REHEARSAL
+  protocol_class: PF-RELATIONAL-CONVERSATION
   duration_days: 10
-  cadence: Complete three bounded Communal and intergenerational knowledge transmission actions over ten
-    days, preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Communal and intergenerational knowledge transmission; copy the canonical
-    scope and evidence target into a private working note; define the action boundary, valid supports,
-    privacy limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Communal
-    and intergenerational knowledge transmission. Do not store private prose, names, identities, diagnoses,
-    allegations, credentials, account data, protected work information, intimate detail, artifact contents,
-    observer narrative, or another person's secrets. This source-only draft is not surveillance, professional
-    advice, treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Communal and intergenerational knowledge
-    transmission actions, and review; scope may be reduced or deferred for access, care, health, workload,
-    conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default: ask a willing experienced person how a small group welcomes a new member or hands over
+    a shared task. Use a page with purpose, steps, reasons, exceptions, source holder and sharing permission.
+    The holder may choose a different ordinary practice or decline. Do not request family secrets, protected
+    work procedures or cultural knowledge they are not authorized to share. Goal: Document or teach one
+    practical story, procedure or tradition through a relationship, verify it with an experienced holder
+    and preserve the agreed limits on sharing. Scope: This preserves one contribution to communal memory.
+    It does not make the participant the owner of another person’s knowledge or authorize disclosure of
+    sacred, private, restricted or commercially protected material. Time and effort: Ten minutes to agree
+    scope, a twenty-minute demonstration or conversation, and fifteen minutes for a verified revision.
+    Adaptation: Use audio only with permission, a large-print draft, an interpreter or a jointly drawn
+    sequence. A public archive can support source study when no holder is available, but it does not supply
+    personal permission or verification that did not occur. Keep personal working notes outside the check-in;
+    record only the listed observations.
+
+
+    Reference support:
+
+    Convention for the Safeguarding of the Intangible Cultural Heritage: https://www.unesco.org/en/legal-affairs/convention-safeguarding-intangible-cultural-heritage'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use audio only with permission, a large-print draft, an interpreter or a jointly
+    drawn sequence. A public archive can support source study when no holder is available, but it does
+    not supply personal permission or verification that did not occur.
+  expected_burden: Ten minutes to agree scope, a twenty-minute demonstration or conversation, and fifteen
+    minutes for a verified revision.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Communal and intergenerational knowledge transmission protocol to rank worth, coerce participation,
@@ -104,19 +127,24 @@ intervention:
   - Treating a completed Communal and intergenerational knowledge transmission action, a polished artifact,
     agreement, confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Communal and intergenerational knowledge transmission situation involving emergency response,
-    abuse, retaliation, illegal conduct, medical treatment, legal representation, financial-loss decisions,
-    safeguarding, hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use audio only
+    with permission, a large-print draft, an interpreter or a jointly drawn sequence. A public archive
+    can support source study when no holder is available, but it does not supply personal permission or
+    verification that did not occur.
   actions:
   - stable_id: PRACTICE-COMP-1013-COMMUNAL-AND-INTERGENERATIONAL-KNOWLEDGE-TRANSMISSION-01-A1
     sequence: 1
-    title: Define observable criteria for Communal and intergenerational knowledge transmission
-    instructions: 'Select one safe, lawful, low-stakes component of Communal and intergenerational knowledge
-      transmission. Build a three-to-five-item rubric from this scope, including an error or stop criterion:
-      Preserve stories, practices, craft, local knowledge, and institutional memory through relationships
-      and participation.'
+    title: Agree what may be learned recorded and passed on
+    instructions: 'Explain that you want to prevent one useful practice from being lost. Ask what may
+      be written, whether attribution is wanted, who may receive it and what should remain unrecorded.
+      Identify the holder’s relationship to the practice without assuming that age or status alone guarantees
+      accuracy. Agree on a small scope, such as the first ten minutes of welcoming a newcomer.
+
+
+      Observation checks: The holder freely chooses the scope; Recording attribution and sharing permissions
+      are explicit; Restricted or private knowledge is excluded; The holder’s experience is described
+      without treating status as infallible. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -138,9 +166,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1013_a1_skill_component_bounded
-        - c1013_a1_observable_rubric_present
-        - c1013_a1_error_or_stop_defined
+        - the_holder_freely_chooses_the_scope
+        - recording_attribution_and_sharing_permissions_are_explicit
+        - restricted_or_private_knowledge_is_excluded
+        - the_holder_s_experience_is_described_without_treating_status_as_infallible
       - measurement_id: c1013_a1_boundary
         kind: boolean
         role: supporting
@@ -157,11 +186,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1013-COMMUNAL-AND-INTERGENERATIONAL-KNOWLEDGE-TRANSMISSION-01-A2
     sequence: 2
-    title: Rehearse Communal and intergenerational knowledge transmission twice
-    instructions: Perform two bounded attempts of the selected Communal and intergenerational knowledge
-      transmission component under comparable safe conditions. Use self-review, a consensual observer,
-      or a reviewed artifact; do not require public exposure, coerced feedback, licensed work, or high-consequence
-      performance.
+    title: Learn through a demonstration or concrete story
+    instructions: 'Ask the holder to walk through an actual or fictionalized example. Record not just
+      what happens but why a step matters, what changes with context and which mistake a newcomer commonly
+      makes. Participate in a safe demonstration when invited. Distinguish remembered fact, personal interpretation
+      and a version that differs across families or groups; do not flatten variation into a single official
+      tradition.
+
+
+      Observation checks: A concrete example or demonstration is obtained; Reasons exceptions and a common
+      mistake are captured; Observation and interpretation remain distinguishable; Legitimate variation
+      is preserved. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -177,15 +213,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1013_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - a_concrete_example_or_demonstration_is_obtained
+        - reasons_exceptions_and_a_common_mistake_are_captured
+        - observation_and_interpretation_remain_distinguishable
+        - legitimate_variation_is_preserved
       - measurement_id: c1013_a2_boundary
         kind: boolean
         role: supporting
@@ -202,10 +239,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1013-COMMUNAL-AND-INTERGENERATIONAL-KNOWLEDGE-TRANSMISSION-01-A3
     sequence: 3
-    title: Use feedback for one Communal and intergenerational knowledge transmission retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Documents
-      or teaches knowledge that would otherwise be lost and verifies it with experienced holders.'
+    title: Return the record for correction and make an agreed handoff
+    instructions: 'Show or read the concise draft back to the holder. Ask what is inaccurate, missing,
+      too private or overgeneralized, then revise it before sharing. Preserve only the attribution and
+      audience permission they approved. Teach or hand the final version to a willing intended recipient
+      when authorized, or store it where agreed with a review date. An unverified draft is not presented
+      as the holder’s endorsed account.
+
+
+      Observation checks: The holder reviews the draft for accuracy and permission; Corrections are incorporated
+      before any handoff; The final audience and attribution match consent; Unverified material is not
+      represented as endorsed communal knowledge. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: What would have been lost in a bare checklist, and what does your permission agreement
+      forbid you from passing on?
+
+
+      Examples: Supportive: A welcoming practice was documented with its reasons, corrected by the experienced
+      holder and shared only with the agreed volunteer team.
+
+
+      Mixed: The steps were accurate, but a contextual exception or sharing restriction required another
+      revision.
+
+
+      Contradictory: Private or restricted knowledge was published without permission, or one person’s
+      memory was treated as the only legitimate version.
+
+
+      Inconclusive: A story was copied without a holder’s scope agreement, verification or permitted destination.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -227,9 +291,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1013_a3_feedback_item_selected
-        - c1013_a3_adjustment_traceable
-        - c1013_a3_retry_result_preserved
+        - the_holder_reviews_the_draft_for_accuracy_and_permission
+        - corrections_are_incorporated_before_any_handoff
+        - the_final_audience_and_attribution_match_consent
+        - unverified_material_is_not_represented_as_endorsed_communal_knowledge
       - measurement_id: c1013_a3_boundary
         kind: boolean
         role: supporting
@@ -250,17 +315,17 @@ intervention:
       Communal and intergenerational knowledge transmission; no purchase, subscription, travel, credential,
       or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Communal and intergenerational knowledge transmission; assistive technology, interpretation,
-      a support person, and a deferred action are valid without penalty.
+    - Use audio only with permission, a large-print draft, an interpreter or a jointly drawn sequence.
+      A public archive can support source study when no holder is available, but it does not supply personal
+      permission or verification that did not occur.
     cultural_context:
     - Adapt the expression of Communal and intergenerational knowledge transmission to direct or indirect
       communication, collective or individual decision structures, local norms, faith or secular commitments,
       and role obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Communal and intergenerational knowledge transmission opportunity is unavailable or
-      inappropriate, use a fictional, historical, public, simulated, or planning-only equivalent and retain
-      the narrower evidence classification.
+    - Use audio only with permission, a large-print draft, an interpreter or a jointly drawn sequence.
+      A public archive can support source study when no holder is available, but it does not supply personal
+      permission or verification that did not occur.
   pause_conditions:
   - Pause Communal and intergenerational knowledge transmission when capacity, consent, authority, privacy,
     access, care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances
@@ -293,11 +358,8 @@ evidence_and_scoring:
   - c1013_a3_boundary
   - c1013_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Communal and intergenerational knowledge transmission action exceeded consent, authority, privacy,
-    qualification, role, burden, or safety boundaries.
-  - The evidence contradicted the intended Communal and intergenerational knowledge transmission criterion,
-    depended on coercion or hidden private content, or could not distinguish the protocol from contextual
-    change.
+  - Private or restricted knowledge was published without permission, or one person’s memory was treated
+    as the only legitimate version.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Communal and intergenerational knowledge transmission explicitly; support can enable access and
     never reduces dignity or silently changes the typed value.
@@ -309,14 +371,22 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Communal and intergenerational knowledge transmission rules withhold observations
     older than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Documents or teaches knowledge that would otherwise be lost and verifies it with experienced
-    holders.—not completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Communal and intergenerational knowledge transmission requires
-    a bounded context, allowlisted observations, provenance, contradiction and adverse handling, and preserved
-    uncertainty; free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Agree what may be learned recorded and passed on. Observed checks: The
+    holder freely chooses the scope; Recording attribution and sharing permissions are explicit; Restricted
+    or private knowledge is excluded; The holder’s experience is described without treating status as
+    infallible. Action 2: Learn through a demonstration or concrete story. Observed checks: A concrete
+    example or demonstration is obtained; Reasons exceptions and a common mistake are captured; Observation
+    and interpretation remain distinguishable; Legitimate variation is preserved. Action 3: Return the
+    record for correction and make an agreed handoff. Observed checks: The holder reviews the draft for
+    accuracy and permission; Corrections are incorporated before any handoff; The final audience and attribution
+    match consent; Unverified material is not represented as endorsed communal knowledge.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A story was copied without a holder’s scope agreement,
+    verification or permitted destination.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Communal
     and intergenerational knowledge transmission contribution under typed evaluation; protocol performance
     remains distinct and is never counted twice.
@@ -326,9 +396,8 @@ evidence_and_scoring:
   - L16
   - L26
   - L28
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Communal and intergenerational knowledge transmission evidence.
@@ -336,12 +405,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for communal and intergenerational knowledge transmission action was
-    attempted or explicitly deferred.
-  - The rehearse communal and intergenerational knowledge transmission twice action was attempted or explicitly
-    deferred.
-  - The use feedback for one communal and intergenerational knowledge transmission retry action preserved
-    a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Agree what may be learned recorded and passed on. Observed checks: The holder freely chooses
+    the scope; Recording attribution and sharing permissions are explicit; Restricted or private knowledge
+    is excluded; The holder’s experience is described without treating status as infallible.'
+  - 'Action 2: Learn through a demonstration or concrete story. Observed checks: A concrete example or
+    demonstration is obtained; Reasons exceptions and a common mistake are captured; Observation and interpretation
+    remain distinguishable; Legitimate variation is preserved.'
+  - 'Action 3: Return the record for correction and make an agreed handoff. Observed checks: The holder
+    reviews the draft for accuracy and permission; Corrections are incorporated before any handoff; The
+    final audience and attribution match consent; Unverified material is not represented as endorsed communal
+    knowledge.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -350,65 +426,181 @@ completion_and_review:
     - c1013_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Communal and intergenerational knowledge transmission only when
-    the initial context remained safe, the evidence criteria were usable, burden was acceptable, and a
-    new context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Communal and intergenerational knowledge transmission
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: What would have been lost in a bare checklist, and what does your permission agreement
+    forbid you from passing on?
+  transfer_limit: This preserves one contribution to communal memory. It does not make the participant
+    the owner of another person’s knowledge or authorize disclosure of sacred, private, restricted or
+    commercially protected material.
   reflection:
-    before: What does Communal and intergenerational knowledge transmission require in this exact context,
-      what remains outside my role or authority, and which scope sentence or evidence criterion will keep
-      the practice honest?
-    during: Which observable Communal and intergenerational knowledge transmission criterion is present,
-      absent, mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Documents or teaches knowledge that would otherwise be lost
-      and verifies it with experienced holders.', what contradiction or missing context matters most,
-      and should this Communal and intergenerational knowledge transmission design be repeated, adapted,
-      deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Document or teach one practical story, procedure
+      or tradition through a relationship, verify it with an experienced holder and preserve the agreed
+      limits on sharing.'
+    during: Which checks have actually been observed? The steps were accurate, but a contextual exception
+      or sharing restriction required another revision.
+    after: What would have been lost in a bare checklist, and what does your permission agreement forbid
+      you from passing on?
   review_guidance:
     repeat: Repeat the same bounded Communal and intergenerational knowledge transmission design only
       when the context and burden remain appropriate.
-    adapt: Change the Communal and intergenerational knowledge transmission medium, scope, support, timing,
-      criteria, or context while preserving provenance and the narrower evidence claim.
+    adapt: Use audio only with permission, a large-print draft, an interpreter or a jointly drawn sequence.
+      A public archive can support source study when no holder is available, but it does not supply personal
+      permission or verification that did not occur.
     stop: Stop Communal and intergenerational knowledge transmission when the practice becomes coercive,
       unsafe, privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Communal and intergenerational knowledge
-      transmission questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Communal and intergenerational knowledge transmission criteria were observed
-      with provenance and no adverse boundary signal in the selected context.
-    mixed: Some Communal and intergenerational knowledge transmission criteria were observed while burden,
-      support, contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Communal and intergenerational knowledge transmission
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Communal and intergenerational knowledge transmission action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A welcoming practice was documented with its reasons, corrected by the experienced holder
+      and shared only with the agreed volunteer team.
+    mixed: The steps were accurate, but a contextual exception or sharing restriction required another
+      revision.
+    contradictory: Private or restricted knowledge was published without permission, or one person’s memory
+      was treated as the only legitimate version.
+    inconclusive: A story was copied without a holder’s scope agreement, verification or permitted destination.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Communal and intergenerational knowledge transmission.
+    context_heading: Preserve a piece of lived knowledge with its holder’s permission
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Communal
       and intergenerational knowledge transmission.
   check_in_labels:
-    c1013_a1_primary: The bounded Communal and intergenerational knowledge transmission criterion for
-      action 1 was observed
+    c1013_a1_primary: 'Observed checks: agree what may be learned recorded and passed on'
     c1013_a1_boundary: Action 1 stayed inside its stated Communal and intergenerational knowledge transmission
       boundary
     c1013_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1013_a2_primary: The bounded Communal and intergenerational knowledge transmission criterion for
-      action 2 was observed
+    c1013_a2_primary: 'Observed checks: learn through a demonstration or concrete story'
     c1013_a2_boundary: Action 2 stayed inside its stated Communal and intergenerational knowledge transmission
       boundary
     c1013_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1013_a3_primary: The bounded Communal and intergenerational knowledge transmission criterion for
-      action 3 was observed
+    c1013_a3_primary: 'Observed checks: return the record for correction and make an agreed handoff'
     c1013_a3_boundary: Action 3 stayed inside its stated Communal and intergenerational knowledge transmission
       boundary
     c1013_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Communal and intergenerational
-    knowledge transmission practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What would have been lost in a bare checklist, and what does your permission agreement
+    forbid you from passing on? Completion is not mastery.
+  plain_language_evidence: A welcoming practice was documented with its reasons, corrected by the experienced
+    holder and shared only with the agreed volunteer team.
   display_order: 135
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '10.13'
+  title: Preserve knowledge without taking over its authority
+  scored: false
+  sections:
+  - id: transmission-model
+    kind: concept
+    title: Preserve reasons, relationships and permission
+    body: Knowledge transmission preserves why a practice works, when it changes and who may correct or
+      receive the account. It is not extraction of a story into unrestricted content. An experienced holder
+      can decline, restrict recording or correct the draft. Age alone does not make one account infallible.
+      A useful record retains variation and provenance instead of declaring one official tradition. The
+      supplied packet is fictional and cannot provide actual holder verification.
+  - id: holder-packet
+    kind: material
+    title: H0 — fictional tool-library holder packet
+    body: H0 is an experienced volunteer describing this shift's first ten minutes with a newcomer. Permission
+      is notes yes, audio no; attribution is experienced volunteer; audience is the volunteer team only,
+      not the public. Do not include member names. Five actions are greet the newcomer; ask their preferred
+      name and pronunciation; explain the checkout board; offer a quiet walk or paired tour; arrange a
+      willing buddy if requested. The reason is to avoid overwhelming a new person. Exception is a return-only
+      visit, when the tour is skipped. A common mistake is lecturing about tools before asking what the
+      person needs. Another shift starts at the return desk. These are fictional practice facts, not universal
+      tool-library policy or a living community's testimony.
+  - id: worked-garden
+    kind: worked_example
+    title: Different example — a garden handoff
+    body: A fictional garden note says water every morning. Its holder corrects it to check soil first
+      and skip watering when already wet; that exception prevents the bare schedule from replacing judgment.
+      The note is for plot stewards only, with no public attribution. A repaired instruction can be accurate
+      yet still unauthorized for a public blog. The writer returns both content and destination for confirmation;
+      a missing reply is not approval.
+  - id: permission-record
+    kind: material
+    title: Permission and verification record
+    body: 'Route (live holder or supplied simulation): __. Holder relationship to practice: __. Agreed
+      scope: __. Written notes allowed: __. Audio or images allowed: __. Attribution: __. Audience and
+      destination: __. Excluded details: __. Purpose: __. Steps: __. Reason: __. Exception: __. Common
+      mistake: __. Variation: __. Remembered fact versus interpretation: __. Draft returned on: __. Holder
+      corrections: __. Final content and sharing confirmation: __. Review date: __. Blank permission or
+      verification means do not share as endorsed.'
+  - id: draft-prompt
+    kind: prompt
+    title: Draft a bounded handoff from H0
+    body: Before revealing the check, write a short handoff with the five actions, reason, return-only
+      exception, common mistake and other-shift variation. Attach the exact recording, attribution and
+      audience boundaries. Identify what remains unverified in this fictional route. Do not add a claim
+      of official policy, treat age as proof or invent a real holder's approval. On the live route, return
+      the draft to the willing holder before any agreed handoff.
+    references:
+    - holder-packet
+    - permission-record
+    check_id: draft-key
+    attempt_mode: practice
+  - id: verification-model
+    kind: concept
+    title: Accuracy and distribution are separate checks
+    body: Ask what is inaccurate, missing, too private or overgeneralized, then revise and confirm the
+      intended audience. Consent to a conversation is not publication consent. An accurate draft awaiting
+      holder response is pending; a verified team-only record posted publicly is adverse, not a successful
+      transmission. A public archive can support source study but cannot supply personal permission or
+      a verification conversation that never occurred.
+  - id: correction-prompt
+    kind: prompt
+    title: Repair a flawed handoff
+    body: Audit fictional D1 against H0 before opening the check. D1 says all tool libraries must publicly
+      introduce a newcomer's full name, give a compulsory tool lecture and assign a buddy; the oldest
+      volunteer guarantees this is official policy; an audio recording should be posted online. Identify
+      each unsupported or forbidden change, produce a corrected short replacement, and state the permission
+      and verification still required before a real handoff. Do not silently repair the text while retaining
+      its false endorsement.
+    references:
+    - holder-packet
+    - permission-record
+    check_id: correction-key
+    attempt_mode: practice
+  - id: access-path
+    kind: pathway
+    title: Let the holder choose a usable and bounded process
+    body: Offer readback, large print, a jointly drawn sequence or a mutually agreed interpreter. Audio
+      requires separate permission; refusing it does not obstruct participation. Stop if material becomes
+      sacred, private, commercially protected or outside the holder's authority. If no holder is available,
+      complete H0 analysis as simulation, not community endorsement. A later real encounter may preserve
+      legitimate disagreement rather than force consensus.
+  - id: next-handoff
+    kind: next_step
+    title: Complete only the permitted handoff
+    body: After actual holder confirmation, offer the corrected record to a willing recipient in the agreed
+      audience or store it at the agreed location with a review date. Invite a recipient question and
+      return uncertain points to the holder. For advanced practice, compare a second willing holder's
+      version with separate consent and preserve both contexts. The simulation does not authorize contacting,
+      recording or publishing a real community.
+  checks:
+  - id: draft-key
+    title: Check content and permission together
+    body: A complete H0 handoff greets, asks preferred name and pronunciation, explains the checkout board,
+      offers a quiet walk or paired tour, and arranges a willing buddy only if requested. Keep the overwhelm
+      reason, skip-tour return-only exception, avoid-lecture mistake and other shift's return-desk variation.
+      Notes yes and audio no remain separate; attribution is experienced volunteer and sharing is volunteer-team-only
+      with no member names. This is a fictional reconstruction awaiting any real holder's verification,
+      not an endorsed universal policy.
+    criteria:
+    - Five actions retained with optional choices
+    - Reasons exceptions and variation preserved
+    - Recording attribution and audience explicit
+    - Fictional reconstruction is not holder approval
+  - id: correction-key
+    title: Check the flawed draft repair
+    body: D1 violates scope by turning one shift into all libraries, preferred name into a public full-name
+      announcement, an optional tour into a compulsory lecture, and a requested willing buddy into an
+      assignment. Age does not establish official authority. Posting audio violates both audio refusal
+      and team-only sharing. Replace it with the five H0 actions and their reason, exception and variation;
+      preserve attribution and no-member-name limits. A live holder must confirm the final content and
+      destination before an endorsed handoff. No response means pending, not consent; the supplied fictional
+      packet cannot confer real approval.
+    criteria:
+    - Every unsupported change identified
+    - Replacement restores H0 choices and context
+    - Content and distribution checked separately
+    - No fictional or silent endorsement inferred

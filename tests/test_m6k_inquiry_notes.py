@@ -22,7 +22,7 @@ def test_inquiry_cohort_reaches_runtime_with_preserved_identity_and_completion()
     canonical = {row["parent_competency_id"]: row for row in bundle.protocols}
     runtime = {row["parent_competency_id"]: row for row in bundle.runtime_protocols}
 
-    assert len(selected) == 105
+    assert len(selected) == 108
     assert len(runtime) == 383
     assert sum(len(row["actions"]) for row in runtime.values()) == 1151
     for competency_id in COHORT:
