@@ -254,8 +254,7 @@ class SourceFixtureAlignment(unittest.TestCase):
                 prompt,
             )
             self.assertIn(
-                f"{o['name']} totals {o['travel']} + {o['session']} "
-                f"= {o['travel'] + o['session']}",
+                f"{o['name']} totals {o['travel']} + {o['session']} = {o['travel'] + o['session']}",
                 key,
             )
 

@@ -85,9 +85,18 @@ class Structure(unittest.TestCase):
                 guide = text(cid)
                 self.assertTrue(guide.startswith("# " + cid))
                 for marker in (
-                    "Canonical scope", "Action 1", "Action 2", "Action 3",
-                    "Accessibility", "Supportive", "Mixed", "Contradictory",
-                    "Inconclusive", "Final review", "check-prompts.md", "check-answers.md",
+                    "Canonical scope",
+                    "Action 1",
+                    "Action 2",
+                    "Action 3",
+                    "Accessibility",
+                    "Supportive",
+                    "Mixed",
+                    "Contradictory",
+                    "Inconclusive",
+                    "Final review",
+                    "check-prompts.md",
+                    "check-answers.md",
                 ):
                     self.assertIn(marker, guide)
                 self.assertNotIn("TODO", guide)
@@ -115,10 +124,25 @@ class Structure(unittest.TestCase):
     def test_scope_map_covers_every_canonical_element(self):
         scope = (CONTENT / "SCOPE-MAP.md").read_text(encoding="utf-8").lower()
         for word in (
-            "expertise", "incentives", "methodology", "sample quality", "replication",
-            "uncertainty", "competing explanations", "confidence", "assumptions",
-            "unknowns", "limitations", "change a belief", "ranges", "likelihoods",
-            "base rates", "scenarios", "sensitivity", "expected value", "calibration",
+            "expertise",
+            "incentives",
+            "methodology",
+            "sample quality",
+            "replication",
+            "uncertainty",
+            "competing explanations",
+            "confidence",
+            "assumptions",
+            "unknowns",
+            "limitations",
+            "change a belief",
+            "ranges",
+            "likelihoods",
+            "base rates",
+            "scenarios",
+            "sensitivity",
+            "expected value",
+            "calibration",
         ):
             self.assertIn(word, scope)
 
@@ -169,8 +193,7 @@ class SourceEvaluation(unittest.TestCase):
     def test_fresh_b_risk_differences(self):
         studies = DATA["source_evaluation"]["fresh_b"]
         observed = {
-            name: Fraction(*groups[0]) - Fraction(*groups[1])
-            for name, groups in studies.items()
+            name: Fraction(*groups[0]) - Fraction(*groups[1]) for name, groups in studies.items()
         }
         self.assertEqual(observed, {"Q": Fraction(1, 5), "R": Fraction(1, 10)})
 
@@ -205,10 +228,10 @@ class Humility(unittest.TestCase):
 
     def test_main_room_failures_are_retained(self):
         observations = DATA["humility"]["initial"] + DATA["humility"]["later"]
+        self.assertEqual([o["usable"] for o in observations if o["room"] == "Main"], [False, False])
         self.assertEqual(
-            [o["usable"] for o in observations if o["room"] == "Main"], [False, False]
+            [o["usable"] for o in observations if o["room"] == "Quiet Q"], [True, True]
         )
-        self.assertEqual([o["usable"] for o in observations if o["room"] == "Quiet Q"], [True, True])
 
     def test_fresh_counterexample_does_not_establish_majority_success(self):
         observations = DATA["humility"]["fresh_a"]

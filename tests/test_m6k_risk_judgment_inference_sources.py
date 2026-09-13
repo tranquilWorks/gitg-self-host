@@ -158,12 +158,13 @@ def pilot_summary(rows) -> dict:
 
 
 def pilot_criterion(summary) -> bool | None:
-    l, u = summary["L"], summary["U"]
-    if l["duration_n"] != 2 or u["duration_n"] != 2:
+    layout_l, layout_u = summary["L"], summary["U"]
+    if layout_l["duration_n"] != 2 or layout_u["duration_n"] != 2:
         return None  # Planned complete four-run comparison not available.
-    return (
-        u["mean_seconds"] - l["mean_seconds"] >= F["science"]["time_threshold"]
-        and Q(l["correct"], l["assigned"]) >= Q(u["correct"], u["assigned"])
+    return layout_u["mean_seconds"] - layout_l["mean_seconds"] >= F["science"][
+        "time_threshold"
+    ] and Q(layout_l["correct"], layout_l["assigned"]) >= Q(
+        layout_u["correct"], layout_u["assigned"]
     )
 
 
@@ -208,8 +209,11 @@ class CohortStructure(unittest.TestCase):
         self.assertEqual(M["formal_reviews_accepted"], 0)
 
     def test_eighteen_individual_guide_check_files(self):
-        paths = [CONTENT / c["id"] / n for c in M["competencies"] for n in
-                 ("learner-guide.md", "check-prompts.md", "check-answers.md")]
+        paths = [
+            CONTENT / c["id"] / n
+            for c in M["competencies"]
+            for n in ("learner-guide.md", "check-prompts.md", "check-answers.md")
+        ]
         self.assertEqual(len(paths), 18)
         for p in paths:
             self.assertTrue(p.is_file(), p)
@@ -224,9 +228,19 @@ class CohortStructure(unittest.TestCase):
     def test_each_guide_has_complete_actions_and_outcome_boundaries(self):
         for c in M["competencies"]:
             t = text(c["id"], "learner-guide.md")
-            for token in ("Canonical scope", "Deliverable", "Action 1", "Action 2", "Action 3",
-                          "Accessibility", "Supportive", "Mixed", "Contradictory", "Inconclusive",
-                          "Final review"):
+            for token in (
+                "Canonical scope",
+                "Deliverable",
+                "Action 1",
+                "Action 2",
+                "Action 3",
+                "Accessibility",
+                "Supportive",
+                "Mixed",
+                "Contradictory",
+                "Inconclusive",
+                "Final review",
+            ):
                 with self.subTest(cid=c["id"], token=token):
                     self.assertIn(token, t)
 
@@ -312,8 +326,12 @@ class RiskCases(unittest.TestCase):
 
     def test_independence_permission_and_no_field_claim_visible(self):
         t = text("09.10", "learner-guide.md")
-        for phrase in ("independent crossings", "not a probability of injury", "no permission",
-                       "Do not stage a physical obstruction"):
+        for phrase in (
+            "independent crossings",
+            "not a probability of injury",
+            "no permission",
+            "Do not stage a physical obstruction",
+        ):
             self.assertIn(phrase, t)
 
 
@@ -334,7 +352,9 @@ class ContextCases(unittest.TestCase):
         self.assertIn("must not use the unsafe channel", t)
 
     def test_fresh_checks_include_no_safe_substitute_case(self):
-        self.assertIn("no safe substitute is currently established", text("09.11", "check-prompts.md"))
+        self.assertIn(
+            "no safe substitute is currently established", text("09.11", "check-prompts.md")
+        )
         self.assertIn("does not justify unsafe contact", text("09.11", "check-answers.md"))
 
     def test_no_machine_wisdom_acceptance(self):
@@ -379,8 +399,13 @@ class DecisionCases(unittest.TestCase):
                 check_private_example(r)
 
     def test_chronology_and_review_window(self):
-        for updates in ({"record_day": 2}, {"review_day": 31}, {"review_day": 0},
-                        {"choice_day": True}, {"record_day": -1}):
+        for updates in (
+            {"record_day": 2},
+            {"review_day": 31},
+            {"review_day": 0},
+            {"choice_day": True},
+            {"record_day": -1},
+        ):
             r = copy.deepcopy(F["decision"]["initial"])
             r.update(updates)
             with self.assertRaises(ValueError):
@@ -390,15 +415,20 @@ class DecisionCases(unittest.TestCase):
         check_private_example(r)
 
     def test_unknown_option_and_prediction_rejected(self):
-        for field, value in (("selected_code", "C"), ("prediction", "mastered"),
-                             ("confidence", "certain")):
+        for field, value in (
+            ("selected_code", "C"),
+            ("prediction", "mastered"),
+            ("confidence", "certain"),
+        ):
             r = copy.deepcopy(F["decision"]["initial"])
             r[field] = value
             with self.assertRaises(ValueError):
                 check_private_example(r)
 
     def test_notice_is_post_choice_not_ignored_pre_choice(self):
-        self.assertGreater(F["decision"]["notice_available_day"], F["decision"]["initial"]["choice_day"])
+        self.assertGreater(
+            F["decision"]["notice_available_day"], F["decision"]["initial"]["choice_day"]
+        )
         self.assertIn("did not exist at Day 0", text("09.12", "outcome-packet.md"))
 
     def test_hash_changes_but_no_independent_timestamp_claim(self):
@@ -411,8 +441,11 @@ class DecisionCases(unittest.TestCase):
 
     def test_no_retroactive_scheduling_or_production_extension(self):
         t = text("09.12", "learner-guide.md")
-        for phrase in ("does not create a reminder", "existing reviewed observation fields",
-                       "not production observations"):
+        for phrase in (
+            "does not create a reminder",
+            "existing reviewed observation fields",
+            "not production observations",
+        ):
             self.assertIn(phrase, t)
 
 
@@ -453,8 +486,15 @@ class StatisticsCases(unittest.TestCase):
         self.assertGreater(6, max(data["x"]))
 
     def test_ols_input_guards(self):
-        for xs, ys in (([], []), ([1], [2]), ([1, 1], [2, 3]), ([1, 2], [1]),
-                       ([1, float("nan")], [1, 2]), ([1, 2], [True, 2]), (["1", 2], [1, 2])):
+        for xs, ys in (
+            ([], []),
+            ([1], [2]),
+            ([1, 1], [2, 3]),
+            ([1, 2], [1]),
+            ([1, float("nan")], [1, 2]),
+            ([1, 2], [True, 2]),
+            (["1", 2], [1, 2]),
+        ):
             with self.assertRaises(ValueError):
                 ols(xs, ys)
 
@@ -467,8 +507,10 @@ class StatisticsCases(unittest.TestCase):
 
     def test_selected_extreme_has_nonextreme_expected_repeat(self):
         model = F["stats"]["noise"]
-        trials = [(model["truth"] + e1, model["truth"] + e2)
-                  for e1, e2 in itertools.product(model["errors"], repeat=2)]
+        trials = [
+            (model["truth"] + e1, model["truth"] + e2)
+            for e1, e2 in itertools.product(model["errors"], repeat=2)
+        ]
         selected = [second for first, second in trials if first == 12]
         self.assertEqual(selected, [8, 10, 12])
         self.assertEqual(mean(selected), 10)
@@ -515,7 +557,9 @@ class StatisticsCases(unittest.TestCase):
             self.assertIn(", ".join(map(str, values)), guide)
         for values in F["stats"]["outlier"].values():
             self.assertIn(", ".join(map(str, values)), prompt)
-        for i, (x, y) in enumerate(zip(F["stats"]["regression"]["x"], F["stats"]["regression"]["y"], strict=True), 1):
+        for i, (x, y) in enumerate(
+            zip(F["stats"]["regression"]["x"], F["stats"]["regression"]["y"], strict=True), 1
+        ):
             self.assertIn(f"| R{i} | {x} | {y} |", guide)
         self.assertIn("Do not assume those two false-positive rates are identical", prompt)
 
@@ -524,7 +568,7 @@ class ExperimentCases(unittest.TestCase):
     def test_all_four_decks_have_ten_slips_two_each(self):
         for deck in F["science"]["decks"].values():
             self.assertEqual(len(deck), 10)
-            self.assertEqual(Counter(deck), Counter({x: 2 for x in "ABCDE"}))
+            self.assertEqual(Counter(deck), Counter(dict.fromkeys("ABCDE", 2)))
 
     def test_decks_and_layouts_match_visible_materials(self):
         guide = text("09.14", "learner-guide.md")
@@ -536,8 +580,10 @@ class ExperimentCases(unittest.TestCase):
 
     def test_each_layout_appears_once_in_each_position(self):
         counts = Counter((r["layout"], r["position"]) for r in F["science"]["runs"])
-        self.assertEqual(counts, Counter({("L", "first"): 1, ("L", "second"): 1,
-                                         ("U", "first"): 1, ("U", "second"): 1}))
+        self.assertEqual(
+            counts,
+            Counter({("L", "first"): 1, ("L", "second"): 1, ("U", "first"): 1, ("U", "second"): 1}),
+        )
 
     def test_default_pilot_time_and_accuracy(self):
         s = pilot_summary(F["science"]["runs"])
@@ -582,9 +628,16 @@ class ExperimentCases(unittest.TestCase):
         self.assertIsNone(pilot_criterion(s))
 
     def test_bad_count_status_and_duration_rejected(self):
-        for updates in ({"correct": 11}, {"incorrect": -1}, {"correct": True},
-                        {"seconds": None}, {"seconds": 0}, {"seconds": 121},
-                        {"correct": 9, "unplaced": 1}, {"status": "interrupted"}):
+        for updates in (
+            {"correct": 11},
+            {"incorrect": -1},
+            {"correct": True},
+            {"seconds": None},
+            {"seconds": 0},
+            {"seconds": 121},
+            {"correct": 9, "unplaced": 1},
+            {"status": "interrupted"},
+        ):
             row = dict(F["science"]["runs"][0], **updates)
             with self.assertRaises(ValueError):
                 check_run(row)
@@ -592,16 +645,53 @@ class ExperimentCases(unittest.TestCase):
     def test_visible_main_and_fresh_result_rows_match(self):
         later, prompt = text("09.14", "pilot-results.md"), text("09.14", "check-prompts.md")
         for r in F["science"]["runs"]:
-            self.assertIn("| " + " | ".join(str(r[k]) for k in
-                          ("run", "block", "position", "layout", "deck", "seconds", "correct", "incorrect", "unplaced", "status")) + " |", later)
+            self.assertIn(
+                "| "
+                + " | ".join(
+                    str(r[k])
+                    for k in (
+                        "run",
+                        "block",
+                        "position",
+                        "layout",
+                        "deck",
+                        "seconds",
+                        "correct",
+                        "incorrect",
+                        "unplaced",
+                        "status",
+                    )
+                )
+                + " |",
+                later,
+            )
         for r in F["science"]["fresh_runs"]:
-            self.assertIn("| " + " | ".join(str(r[k]) for k in
-                          ("run", "layout", "seconds", "correct", "incorrect", "unplaced", "status")) + " |", prompt)
+            self.assertIn(
+                "| "
+                + " | ".join(
+                    str(r[k])
+                    for k in (
+                        "run",
+                        "layout",
+                        "seconds",
+                        "correct",
+                        "incorrect",
+                        "unplaced",
+                        "status",
+                    )
+                )
+                + " |",
+                prompt,
+            )
 
     def test_units_replication_and_non_timed_route_limits_visible(self):
         guide = text("09.14", "learner-guide.md")
-        for phrase in ("not forty independent participants", "new observations",
-                       "not establish the same speed claim", "No live"):
+        for phrase in (
+            "not forty independent participants",
+            "new observations",
+            "not establish the same speed claim",
+            "No live",
+        ):
             if phrase == "No live":
                 self.assertIn("no live task", text("09.14", "pilot-results.md").lower())
             else:
@@ -610,8 +700,10 @@ class ExperimentCases(unittest.TestCase):
 
 class CausalCases(unittest.TestCase):
     def test_stratum_rates_and_differences(self):
-        rates = [(Q(r["t_success"], r["t_total"]), Q(r["c_success"], r["c_total"]))
-                 for r in F["causal"]["strata"]]
+        rates = [
+            (Q(r["t_success"], r["t_total"]), Q(r["c_success"], r["c_total"]))
+            for r in F["causal"]["strata"]
+        ]
         self.assertEqual(rates, [(Q(9, 10), Q(4, 5)), (Q(3, 10), Q(1, 5))])
         self.assertTrue(all(t - c == Q(1, 10) for t, c in rates))
 
@@ -641,8 +733,10 @@ class CausalCases(unittest.TestCase):
         worlds = list(possible_worlds())
         self.assertEqual(len(worlds), 16)
         self.assertTrue(all(consistent(w) for w in worlds))
-        self.assertEqual(Counter(ate(w) for w in worlds),
-                         Counter({Q(-1, 2): 1, Q(-1, 4): 4, Q(0): 6, Q(1, 4): 4, Q(1, 2): 1}))
+        self.assertEqual(
+            Counter(ate(w) for w in worlds),
+            Counter({Q(-1, 2): 1, Q(-1, 4): 4, Q(0): 6, Q(1, 4): 4, Q(1, 2): 1}),
+        )
 
     def test_changing_observed_or_nonbinary_values_is_rejected(self):
         world = copy.deepcopy(F["causal"]["positive_world"])
@@ -657,7 +751,9 @@ class CausalCases(unittest.TestCase):
 
     def test_offer_assignment_contrast(self):
         a, b = F["causal"]["offer"].values()
-        self.assertEqual(Q(a["completed"], a["assigned"]) - Q(b["completed"], b["assigned"]), Q(1, 10))
+        self.assertEqual(
+            Q(a["completed"], a["assigned"]) - Q(b["completed"], b["assigned"]), Q(1, 10)
+        )
         self.assertEqual(Q(a["attended"], a["assigned"]) - Q(b["attended"], b["assigned"]), Q(2, 5))
 
     def test_attender_outcomes_not_identified_by_marginal_totals(self):
@@ -677,7 +773,11 @@ class CausalCases(unittest.TestCase):
     def test_visible_stratum_counts_and_fresh_totals_match(self):
         guide = text("09.15", "learner-guide.md")
         for r in F["causal"]["strata"]:
-            self.assertIn(f"| {r['prior']} | {r['t_success']} / {r['t_total']} | {r['c_success']} / {r['c_total']} |", guide)
+            self.assertIn(
+                f"| {r['prior']} | {r['t_success']} / {r['t_total']} | "
+                f"{r['c_success']} / {r['c_total']} |",
+                guide,
+            )
         prompt = text("09.15", "check-prompts.md")
         self.assertIn("24 attend and 28 complete", prompt)
         self.assertIn("8 access similar support elsewhere and 24 complete", prompt)

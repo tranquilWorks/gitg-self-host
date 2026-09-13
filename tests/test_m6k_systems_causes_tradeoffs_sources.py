@@ -35,11 +35,19 @@ def simulate(policy: str, initial: int = 2, arrivals: int = 4, days: int = 3):
         hidden += refused
         settled += attempts - due
         unfinished = ready + due + hidden
-        rows.append({
-            "day": day, "D": available, "C": attempts, "ready": ready,
-            "due": due, "hidden": hidden, "unfinished": unfinished,
-            "settled": settled, "capacity": capacity,
-        })
+        rows.append(
+            {
+                "day": day,
+                "D": available,
+                "C": attempts,
+                "ready": ready,
+                "due": due,
+                "hidden": hidden,
+                "unfinished": unfinished,
+                "settled": settled,
+                "capacity": capacity,
+            }
+        )
     return rows
 
 
@@ -79,15 +87,17 @@ def routing_summary(card: str, deck: list[str]):
     return {
         "attempted": len(deck),
         "violations": sum(a != r for a, r in zip(actual, required, strict=True)),
-        "completed": sum(a == r and a in {"L", "R"}
-                         for a, r in zip(actual, required, strict=True)),
+        "completed": sum(a == r and a in {"L", "R"} for a, r in zip(actual, required, strict=True)),
         "held": actual.count("H"),
     }
 
 
 def dominates(a, b):
-    return (a["minutes"] <= b["minutes"] and a["benefit"] >= b["benefit"]
-            and (a["minutes"] < b["minutes"] or a["benefit"] > b["benefit"]))
+    return (
+        a["minutes"] <= b["minutes"]
+        and a["benefit"] >= b["benefit"]
+        and (a["minutes"] < b["minutes"] or a["benefit"] > b["benefit"])
+    )
 
 
 def rank_options(weight: str):
@@ -118,8 +128,18 @@ class SourceStructure(unittest.TestCase):
     def test_guides_have_individual_complete_operations_and_limits(self):
         for cid in DATA["cohort"]:
             text = (CONTENT / cid / "learner-guide.md").read_text(encoding="utf-8")
-            for term in ["Canonical scope", "Deliverable", "Action 1", "Action 2", "Action 3",
-                         "Accessibility", "Supportive", "Mixed", "Contradictory", "Inconclusive"]:
+            for term in [
+                "Canonical scope",
+                "Deliverable",
+                "Action 1",
+                "Action 2",
+                "Action 3",
+                "Accessibility",
+                "Supportive",
+                "Mixed",
+                "Contradictory",
+                "Inconclusive",
+            ]:
                 with self.subTest(cid=cid, term=term):
                     self.assertIn(term, text)
 
@@ -152,16 +172,20 @@ class SourceStructure(unittest.TestCase):
 class SystemDynamics(unittest.TestCase):
     def test_all_nine_fixture_rows_follow_the_given_recurrence(self):
         for policy in DATA["systems"]["policies"]:
-            rows = [[r[k] for k in ["D", "C", "ready", "due", "hidden", "unfinished"]]
-                    for r in simulate(policy)]
+            rows = [
+                [r[k] for k in ["D", "C", "ready", "due", "hidden", "unfinished"]]
+                for r in simulate(policy)
+            ]
             self.assertEqual(rows, DATA["systems"]["expected"][policy])
 
     def test_conservation_across_small_complete_parameter_grid(self):
         for initial, arrivals, policy in itertools.product(
-                range(6), range(7), DATA["systems"]["policies"]):
+            range(6), range(7), DATA["systems"]["policies"]
+        ):
             for row in simulate(policy, initial, arrivals, 5):
-                self.assertEqual(initial + row["day"] * arrivals,
-                                 row["settled"] + row["unfinished"])
+                self.assertEqual(
+                    initial + row["day"] * arrivals, row["settled"] + row["unfinished"]
+                )
                 self.assertGreaterEqual(row["ready"], 0)
                 self.assertGreaterEqual(row["settled"], 0)
                 self.assertLessEqual(row["C"], min(row["D"], row["capacity"]))
@@ -192,12 +216,17 @@ class SystemDynamics(unittest.TestCase):
 
     def test_empty_system_does_not_create_work(self):
         for policy in DATA["systems"]["policies"]:
-            self.assertTrue(all(r["unfinished"] == r["C"] == 0
-                                for r in simulate(policy, initial=0, arrivals=0)))
+            self.assertTrue(
+                all(r["unfinished"] == r["C"] == 0 for r in simulate(policy, initial=0, arrivals=0))
+            )
 
     def test_invalid_parameters_fail_instead_of_normalizing(self):
-        for args in [("unknown", 2, 4, 3), ("baseline", -1, 4, 3),
-                     ("baseline", 1, 2.5, 3), ("baseline", True, 4, 3)]:
+        for args in [
+            ("unknown", 2, 4, 3),
+            ("baseline", -1, 4, 3),
+            ("baseline", 1, 2.5, 3),
+            ("baseline", True, 4, 3),
+        ]:
             with self.assertRaises(ValueError):
                 simulate(*args)
 
@@ -222,8 +251,9 @@ class RootCause(unittest.TestCase):
             self.assertEqual(routing_summary(condition["card"], deck), expected)
 
     def test_wrong_card_has_exact_four_full_feed_counterexamples(self):
-        bad = [s for s in DATA["causes"]["baseline_deck"]
-               if posted_route("V1", s) != correct_route(s)]
+        bad = [
+            s for s in DATA["causes"]["baseline_deck"] if posted_route("V1", s) != correct_route(s)
+        ]
         self.assertEqual(bad, ["12", "21", "34", "43"])
 
     def test_lucky_masked_guess_is_still_a_violation(self):
@@ -242,8 +272,10 @@ class RootCause(unittest.TestCase):
     def test_fresh_valid_deck_meets_all_three_acceptance_conditions(self):
         c = DATA["causes"]
         self.assertEqual([correct_route(s) for s in c["fresh_deck"]], c["fresh_expected"])
-        self.assertEqual(routing_summary("V2", c["fresh_deck"]),
-                         {"attempted": 8, "violations": 0, "completed": 8, "held": 0})
+        self.assertEqual(
+            routing_summary("V2", c["fresh_deck"]),
+            {"attempted": 8, "violations": 0, "completed": 8, "held": 0},
+        )
 
     def test_invalid_challenge_has_a_separate_hold_denominator(self):
         c = DATA["causes"]
@@ -256,7 +288,7 @@ class RootCause(unittest.TestCase):
         self.assertEqual(routing_summary("V2", codes)["completed"], 100)
 
     def test_malformed_and_non_ascii_digits_are_not_silently_accepted(self):
-        for code in ["", "1", "123", " 12", "12\n", "a2", "１２", "١٢", "?2"]:
+        for code in ["", "1", "123", " 12", "12\n", "a2", "\uff11\uff12", "١٢", "?2"]:
             self.assertEqual(correct_route(code), "H")
 
     def test_unrecognized_card_is_rejected(self):
@@ -300,8 +332,7 @@ class Tradeoffs(unittest.TestCase):
 
     def test_exact_pareto_frontier_on_stipulated_criteria(self):
         options = DATA["tradeoffs"]["fresh_options"][:3]
-        frontier = [o["name"] for o in options
-                    if not any(dominates(other, o) for other in options)]
+        frontier = [o["name"] for o in options if not any(dominates(other, o) for other in options)]
         self.assertEqual(frontier, ["P", "Q"])
         self.assertTrue(dominates(options[1], options[2]))
 
@@ -337,8 +368,12 @@ class SourceAlignment(unittest.TestCase):
 
     def test_queue_rules_in_guide_match_fixture_inputs(self):
         guide = (CONTENT / "09.07" / "learner-guide.md").read_text(encoding="utf-8")
-        for text in ["**2 requests are ready**", "**4 new legitimate requests arrive each day.**",
-                     "3 on Day 1; 4 afterward", "B_next + R_next + H"]:
+        for text in [
+            "**2 requests are ready**",
+            "**4 new legitimate requests arrive each day.**",
+            "3 on Day 1; 4 afterward",
+            "B_next + R_next + H",
+        ]:
             self.assertIn(text, guide)
 
     def test_routing_decks_in_guide_match_fixtures(self):
@@ -360,9 +395,21 @@ class SourceAlignment(unittest.TestCase):
 
     def test_canonical_scope_map_covers_every_element(self):
         text = (CONTENT / "SCOPE-MAP.md").read_text(encoding="utf-8").lower()
-        elements = ["components", "interfaces", "feedback", "delays", "incentives",
-                    "unintended", "second-order", "define the problem", "symptoms",
-                    "causes", "gather evidence", "test hypotheses", "verify improvement"]
+        elements = [
+            "components",
+            "interfaces",
+            "feedback",
+            "delays",
+            "incentives",
+            "unintended",
+            "second-order",
+            "define the problem",
+            "symptoms",
+            "causes",
+            "gather evidence",
+            "test hypotheses",
+            "verify improvement",
+        ]
         for element in elements + DATA["tradeoffs"]["scope_elements"]:
             self.assertIn(element, text)
 

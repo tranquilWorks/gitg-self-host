@@ -4,6 +4,7 @@ Run with Python's standard library:
     python -m unittest discover -s tests -p '*sources.py' -v
 No network, participant records, production scoring, or Django is used here.
 """
+
 from __future__ import annotations
 
 import copy
@@ -103,7 +104,9 @@ def goal_status(record):
     if any(value is None for value in [*found, *returned]):
         return "inconclusive"
     homes = DATA["goal"]["homes"]
-    correct = all(f == q and r == homes[q] for q, f, r in zip(requests, found, returned, strict=True))
+    correct = all(
+        f == q and r == homes[q] for q, f, r in zip(requests, found, returned, strict=True)
+    )
     return "met_for_tested_scope" if correct else "partial"
 
 
@@ -132,7 +135,9 @@ def earliest_parallel(tasks):
 
 
 def ready_for_confirmation(branch):
-    return all(branch[k] is True for k in ("R_consent", "T_consent", "time_agreed", "access_agreed"))
+    return all(
+        branch[k] is True for k in ("R_consent", "T_consent", "time_agreed", "access_agreed")
+    )
 
 
 class SourceStructure(unittest.TestCase):
@@ -160,8 +165,17 @@ class SourceStructure(unittest.TestCase):
         guides = [text(c) for c in IDS]
         self.assertEqual(len(set(guides)), 6)
         for guide in guides:
-            for phrase in ("Canonical scope", "Action 1", "Action 2", "Action 3",
-                           "Supportive", "Mixed", "Contradictory", "Inconclusive", "Final review"):
+            for phrase in (
+                "Canonical scope",
+                "Action 1",
+                "Action 2",
+                "Action 3",
+                "Supportive",
+                "Mixed",
+                "Contradictory",
+                "Inconclusive",
+                "Final review",
+            ):
                 self.assertIn(phrase, guide)
 
     def test_twelve_fresh_checks_and_eighteen_key_sections(self):
@@ -249,8 +263,10 @@ class ModelCases(unittest.TestCase):
         self.assertEqual(f["setup"] + Fraction(f["count"], f["rate"]), 8)
 
     def test_identical_small_fit_not_unique_extrapolation(self):
-        second = lambda n: model(n) + max(0, n - 6)
-        for n in range(0, 7):
+        def second(n):
+            return model(n) + max(0, n - 6)
+
+        for n in range(7):
             self.assertEqual(model(n), second(n))
         self.assertEqual((model(10), second(10)), (35, 39))
 
@@ -276,7 +292,9 @@ class InformationCases(unittest.TestCase):
         p = DATA["information"]["parents"]
         self.assertEqual(source_roots("W1", p), {"W1"})
         self.assertEqual(DATA["information"]["visit"]["room"], "South Room")
-        self.assertNotEqual(DATA["information"]["visit"]["room"], DATA["information"]["notice"]["room"])
+        self.assertNotEqual(
+            DATA["information"]["visit"]["room"], DATA["information"]["notice"]["room"]
+        )
 
     def test_claim_graph_cycle_rejected(self):
         with self.assertRaises(ValueError):
@@ -312,7 +330,9 @@ class InformationCases(unittest.TestCase):
         guide = text("09.17")
         self.assertIn("A2 -> A1 -> H1", guide)
         self.assertIn("A3 -> H1", guide)
-        self.assertIn("not a second independently observed event", text("09.17", "check-answers.md"))
+        self.assertIn(
+            "not a second independently observed event", text("09.17", "check-answers.md")
+        )
 
 
 class TimeAuditCases(unittest.TestCase):
@@ -327,7 +347,10 @@ class TimeAuditCases(unittest.TestCase):
         result = Counter()
         for day in DATA["audit"]["baseline_days"]:
             result.update(audit(self.rows(day)))
-        self.assertEqual(dict(result), {"Required": 315, "Flexible": 105, "Protected recovery": 90, "Unknown": 30})
+        self.assertEqual(
+            dict(result),
+            {"Required": 315, "Flexible": 105, "Protected recovery": 90, "Unknown": 30},
+        )
         self.assertEqual(sum(result.values()), 540)
 
     def test_reading_record_and_unknown_bound(self):
@@ -344,10 +367,16 @@ class TimeAuditCases(unittest.TestCase):
         self.assertLess(reading["minutes"], DATA["audit"]["reading_goal_minutes"])
 
     def test_trial_category_totals(self):
-        self.assertEqual(dict(audit(self.rows("D4"))), {"Required": 115, "Flexible": 35, "Protected recovery": 30})
+        self.assertEqual(
+            dict(audit(self.rows("D4"))),
+            {"Required": 115, "Flexible": 35, "Protected recovery": 30},
+        )
 
     def test_trial_context_not_equal_to_baseline(self):
-        durations = {day: next(r["minutes"] for r in self.rows(day) if r["activity"] == "Care") for day in ("D1", "D2", "D3", "D4")}
+        durations = {
+            day: next(r["minutes"] for r in self.rows(day) if r["activity"] == "Care")
+            for day in ("D1", "D2", "D3", "D4")
+        }
         self.assertEqual(durations, {"D1": 30, "D2": 45, "D3": 60, "D4": 55})
 
     def test_overlap_rejected(self):
@@ -384,12 +413,20 @@ class TimeAuditCases(unittest.TestCase):
         guide = text("11.01")
         for day in DATA["audit"]["baseline_days"]:
             for r in self.rows(day):
-                self.assertIn(f"| {day} | {r['start']}–{r['end']} | {r['activity']} | {r['minutes']} | {r['category']} | {r['energy']} |", guide)
+                self.assertIn(
+                    f"| {day} | {r['start']}\u2013{r['end']} | {r['activity']} | "
+                    f"{r['minutes']} | {r['category']} | {r['energy']} |",
+                    guide,
+                )
 
     def test_all_trial_rows_match_visible_packet(self):
         later = text("11.01", "later-packet.md")
         for r in self.rows("D4"):
-            self.assertIn(f"| {r['start']}–{r['end']} | {r['activity']} | {r['minutes']} | {r['category']} |", later)
+            self.assertIn(
+                f"| {r['start']}\u2013{r['end']} | {r['activity']} | "
+                f"{r['minutes']} | {r['category']} |",
+                later,
+            )
 
 
 class PriorityCases(unittest.TestCase):
@@ -437,7 +474,10 @@ class PriorityCases(unittest.TestCase):
     def test_all_fifty_four_defined_plan_combinations(self):
         p = DATA["priorities"]
         keys = list(p["versions"])
-        plans = [dict(zip(keys, values, strict=True)) for values in itertools.product(*(p["versions"][k] for k in keys))]
+        plans = [
+            dict(zip(keys, values, strict=True))
+            for values in itertools.product(*(p["versions"][k] for k in keys))
+        ]
         self.assertEqual(len(plans), 54)
         for plan in plans:
             self.assertEqual(feasible(plan, 210), sum(plan.values()) <= 190)
@@ -472,46 +512,59 @@ class GoalCases(unittest.TestCase):
         r = self.prototype()
         homes = DATA["goal"]["homes"]
         self.assertEqual(sum(f == q for q, f in zip(r["requests"], r["found"], strict=True)), 3)
-        self.assertEqual(sum(v == homes[q] for q, v in zip(r["requests"], r["returned"], strict=True)), 2)
+        self.assertEqual(
+            sum(v == homes[q] for q, v in zip(r["requests"], r["returned"], strict=True)), 2
+        )
 
     def test_correct_local_scope_not_household_mastery(self):
         self.assertEqual(goal_status(self.good()), "met_for_tested_scope")
 
     def test_permission_missing_blocks(self):
         for value in (False, None):
-            r = self.good(); r["permission"] = value
+            r = self.good()
+            r["permission"] = value
             self.assertEqual(goal_status(r), "blocked_permission")
 
     def test_reserved_zone_violation_fails(self):
-        r = self.good(); r["reserved_clear"] = False
+        r = self.good()
+        r["reserved_clear"] = False
         self.assertEqual(goal_status(r), "constraint_failed")
 
     def test_unrecorded_returns_inconclusive(self):
-        r = self.good(); r["returned"] = [None, None, None]
+        r = self.good()
+        r["returned"] = [None, None, None]
         self.assertEqual(goal_status(r), "inconclusive")
 
     def test_answer_selection_help_not_independent_result(self):
-        r = self.good(); r["answer_help"] = True
+        r = self.good()
+        r["answer_help"] = True
         self.assertEqual(goal_status(r), "constraint_failed")
 
     def test_purchases_and_effort_limit_enforced(self):
-        r = self.good(); r["purchases"] = 1
+        r = self.good()
+        r["purchases"] = 1
         self.assertEqual(goal_status(r), "constraint_failed")
-        r = self.good(); r["effort"] = 21
+        r = self.good()
+        r["effort"] = 21
         self.assertEqual(goal_status(r), "constraint_failed")
         r["effort"] = 20
         self.assertEqual(goal_status(r), "met_for_tested_scope")
 
     def test_repeated_request_cannot_replace_missing_item(self):
-        r = self.good(); r["requests"] = ["PENCIL"] * 3
+        r = self.good()
+        r["requests"] = ["PENCIL"] * 3
         with self.assertRaises(ValueError):
             goal_status(r)
 
     def test_all_sixty_four_find_return_patterns(self):
         for flags in itertools.product((False, True), repeat=6):
             r = self.good()
-            r["found"] = [q if ok else "wrong" for q, ok in zip(r["requests"], flags[:3], strict=True)]
-            r["returned"] = [home if ok else "D" for home, ok in zip(r["returned"], flags[3:], strict=True)]
+            r["found"] = [
+                q if ok else "wrong" for q, ok in zip(r["requests"], flags[:3], strict=True)
+            ]
+            r["returned"] = [
+                home if ok else "D" for home, ok in zip(r["returned"], flags[3:], strict=True)
+            ]
             expected = "met_for_tested_scope" if all(flags) else "partial"
             self.assertEqual(goal_status(r), expected)
 
@@ -521,9 +574,12 @@ class GoalCases(unittest.TestCase):
         self.assertEqual(json.dumps(DATA["goal"]["prototype"], sort_keys=True), original)
 
     def test_packet_matches_actual_return_rows(self):
-        r = self.prototype(); homes = DATA["goal"]["homes"]
+        r = self.prototype()
+        homes = DATA["goal"]["homes"]
         for q, f, returned in zip(r["requests"], r["found"], r["returned"], strict=True):
-            self.assertIn(f"| {q} | {f} | {returned} | {homes[q]} |", text("11.03", "later-packet.md"))
+            self.assertIn(
+                f"| {q} | {f} | {returned} | {homes[q]} |", text("11.03", "later-packet.md")
+            )
 
 
 class MilestoneCases(unittest.TestCase):
@@ -553,11 +609,14 @@ class MilestoneCases(unittest.TestCase):
     def test_all_sixteen_boolean_readiness_combinations(self):
         keys = ("R_consent", "T_consent", "time_agreed", "access_agreed")
         for values in itertools.product((False, True), repeat=4):
-            self.assertEqual(ready_for_confirmation(dict(zip(keys, values, strict=True))), all(values))
+            self.assertEqual(
+                ready_for_confirmation(dict(zip(keys, values, strict=True))), all(values)
+            )
 
     def test_unknown_in_each_gate_stays_unready(self):
         for key in ("R_consent", "T_consent", "time_agreed", "access_agreed"):
-            r = dict(DATA["milestones"]["ready"]); r[key] = None
+            r = dict(DATA["milestones"]["ready"])
+            r[key] = None
             self.assertFalse(ready_for_confirmation(r))
 
     def test_two_valid_single_worker_orders(self):
