@@ -1,0 +1,262 @@
+{
+  "schema_version": "GG-EVIDENCE-HUMILITY-FORECASTING-SOURCES-1.0",
+  "cohort": [
+    "09.04",
+    "09.05",
+    "09.06"
+  ],
+  "runtime_baseline": {
+    "commit": "d93532696d3ea9d04e50f47350b90fa255208511",
+    "tailored": 108,
+    "pending": 275,
+    "protocols": 383,
+    "actions": 1151
+  },
+  "stage": "source_candidates_not_runtime_selected",
+  "source_evaluation": {
+    "main": [
+      {
+        "label": "New",
+        "selected": 12,
+        "responded": 10,
+        "yes": 10
+      },
+      {
+        "label": "Old",
+        "selected": 40,
+        "responded": 40,
+        "yes": 20
+      }
+    ],
+    "main_dataset_ids": [
+      "R1",
+      "R1",
+      "R1",
+      "R1"
+    ],
+    "fresh_a": [
+      {
+        "label": "New",
+        "selected": 12,
+        "responded": 6,
+        "yes": 6
+      },
+      {
+        "label": "Old",
+        "selected": 12,
+        "responded": 12,
+        "yes": 6
+      }
+    ],
+    "fresh_a_dataset_ids": [
+      "P",
+      "P",
+      "P",
+      "P"
+    ],
+    "fresh_b": {
+      "Q": [
+        [
+          24,
+          40
+        ],
+        [
+          16,
+          40
+        ]
+      ],
+      "R": [
+        [
+          22,
+          40
+        ],
+        [
+          18,
+          40
+        ]
+      ]
+    },
+    "fresh_b_dataset_ids": [
+      "Q-study",
+      "R-study"
+    ]
+  },
+  "humility": {
+    "initial": [
+      {
+        "id": "L1",
+        "room": "Main",
+        "usable": false
+      }
+    ],
+    "later": [
+      {
+        "id": "L2",
+        "room": "Main",
+        "usable": false
+      },
+      {
+        "id": "L3",
+        "room": "Quiet Q",
+        "usable": true
+      },
+      {
+        "id": "L4",
+        "room": "Quiet Q",
+        "usable": true
+      }
+    ],
+    "reports_not_observations": [
+      "L5",
+      "L6"
+    ],
+    "fresh_a": [
+      {
+        "room": "Main",
+        "usable": false
+      },
+      {
+        "room": "Main",
+        "usable": false
+      },
+      {
+        "room": "Side",
+        "usable": true
+      },
+      {
+        "room": "Main",
+        "usable": false
+      }
+    ],
+    "closure_versions": [
+      {
+        "order": 1,
+        "source": "official",
+        "effective_day": 4,
+        "scheduled": "closed"
+      },
+      {
+        "order": 2,
+        "source": "unsupported_peer",
+        "effective_day": 4,
+        "scheduled": "open"
+      },
+      {
+        "order": 3,
+        "source": "official",
+        "effective_day": 4,
+        "scheduled": "open"
+      }
+    ]
+  },
+  "forecasting": {
+    "history_delays": [
+      0,
+      2,
+      1,
+      4,
+      5,
+      0,
+      3,
+      2,
+      9,
+      12
+    ],
+    "threshold_minutes": 5,
+    "forecast_ids": [
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "outcome_delays": [
+      2,
+      11,
+      4
+    ],
+    "example_probabilities": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "cost": 5,
+    "benefit": 15,
+    "scenario_probabilities": [
+      0.3,
+      0.8,
+      0.9
+    ],
+    "probability_range": [
+      0.6,
+      0.9
+    ],
+    "fresh_a": [
+      {
+        "id": "G1",
+        "p": 0.75,
+        "delay": 3,
+        "cancelled": false
+      },
+      {
+        "id": "G2",
+        "p": 0.25,
+        "delay": 5,
+        "cancelled": false
+      },
+      {
+        "id": "G3",
+        "p": 0.8,
+        "delay": null,
+        "cancelled": false
+      },
+      {
+        "id": "G4",
+        "p": 0.8,
+        "delay": null,
+        "cancelled": true
+      }
+    ],
+    "fresh_cost": 4,
+    "fresh_benefit": 10,
+    "fresh_scenario_probabilities": [
+      0.2,
+      0.7
+    ],
+    "calibration": [
+      {
+        "p": 0.2,
+        "outcomes": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "p": 0.8,
+        "outcomes": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      }
+    ],
+    "rare_set": {
+      "p": 0.01,
+      "n": 100,
+      "successes": 0
+    }
+  }
+}

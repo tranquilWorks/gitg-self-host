@@ -1,126 +1,80 @@
 schema_version: 1
 batch:
-  id: M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME
-  title: Guided learning with correction, permission and accessible standards
-  goal: Increase tailored runtime coverage from 105 to 108 through three related but individually evidenced
-    guided-learning practices; preserve pending human and formal review.
+  id: M6K-EVIDENCE-HUMILITY-FORECASTING-SOURCES
+  title: Evaluate evidence, update beliefs, and verify forecasts
+  goal: Individually author 09.04 through 09.06 as complete source candidates without claiming runtime integration or advancing the verified 108 tailored and 275 pending runtime counts.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
   - docs/plans/m6k/program.json
-  - https://github.com/tranquilWorks/gitg-self-host/issues/61
-  - https://github.com/tranquilWorks/gitg-self-host/issues/62
-  milestone: M6K-10.12-10.14
-  baseline_commit: a2bb50f18084b38b00b0f5736dcc80ccf3bcc901
+  - docs/authoring/evidence-humility-forecasting/SCOPE-MAP.md
+  milestone: M6K-09.04-09.06-SOURCE-CHECKPOINT
+  baseline_commit: d93532696d3ea9d04e50f47350b90fa255208511
 dependencies:
-- PR-75-merged
-- PR-76-merged
+- PR-77-merged
 scope:
   allowed_paths:
-  - MANIFEST.tsv
   - contracts/active-batch.yaml
-  - contracts/tailored-practice-authoring.yaml
-  - docs/PROJECT_HANDOFF.md
-  - docs/plans/m6k/README.md
-  - docs/plans/m6k/runtime-projections.json
-  - docs/authoring/exercises/10.yaml
-  - docs/authoring/sources.yaml
-  - docs/authoring/quality/current-report.json
-  - data/practices/registries/source_registry.yaml
-  - data/practices/release_manifest.yaml
-  - reports/**
-  - tests/test_m6k_independent_teaching_breadth.py
-  - tests/test_m6k_learning_loop.py
-  - tests/test_m6k_inquiry_notes.py
-  - tests/test_m6k_learning_craft.py
-  - tests/test_m6k_physical_capacity.py
-  - tests/test_m6k_review_evidence.py
-  - docs/authoring/quality/10.12/**
-  - docs/authoring/quality/10.13/**
-  - docs/authoring/quality/10.14/**
-  - data/practices/protocols/10/PRACTICE-COMP-1012-APPRENTICESHIP-AND-TACIT-KNOWLEDGE-01.yaml
-  - data/practices/protocols/10/PRACTICE-COMP-1013-COMMUNAL-AND-INTERGENERATIONAL-KNOWLEDGE-TRANSMISSION-01.yaml
-  - data/practices/protocols/10/PRACTICE-COMP-1014-ACCESSIBLE-AND-DIFFERENTIATED-LEARNING-01.yaml
-  - docs/authoring/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-*.md
-  - docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md
-  - tests/test_m6k_guided_learning.py
-  - tests/e2e/test_instructional_content.py
+  - MANIFEST.tsv
+  - docs/authoring/evidence-humility-forecasting/**
+  - docs/evidence/M6K-EVIDENCE-HUMILITY-FORECASTING-SOURCES.md
+  - tests/test_m6k_evidence_humility_forecasting_sources.py
   forbidden_paths:
-  - data/assessment/**
-  - data/model/**
-  - data/curriculum/**
-  - data/practices/registries/activation_ledger.yaml
-  - growth/models.py
-  - growth/migrations/**
-  - growth/services/canonical_import.py
-  - growth/domain/composite_scoring.py
-  - growth/services/composite_score_state.py
-  - growth/domain/context_priority.py
+  - data/**
+  - growth/**
+  - docs/authoring/exercises/**
+  - contracts/tailored-practice-authoring.yaml
+  - docs/plans/m6k/recovery/**
+  - docs/plans/m6k/runtime-projections.json
+  - docs/authoring/quality/ledger.json
   - requirements*.txt
   - pyproject.toml
   - Dockerfile
   - docker-compose.yml
   - .github/workflows/**
-  - docs/plans/m6k/recovery/**
-  - docs/authoring/quality/ledger.json
 acceptance:
-- 'Exactly 10.12, 10.13 and 10.14 become individually authored runtime practices: 108 tailored, 275 pending.'
-- Apprenticeship includes complete harmless bow instructions, observation and correction records, simulated
-  checks and a separate voluntary live route.
-- Transmission includes a complete fictional holder packet, flawed handoff, permission record and holder-verification
-  boundary.
-- Accessible learning includes a complete grid, comparable three-position two-move routes, learner-stated
-  barrier and separate usability and performance checks.
-- Every guide includes complete materials, different worked example, separately revealed checks, accessible
-  or advanced route and bounded outcome examples.
-- Preserve 383 protocol IDs, 1151 action IDs, parent mappings, completion rules, activation, scoring and
-  immutable event replay.
-- Preserve 383 protocol IDs, 1151 action IDs, parent mappings, completion rules, activation, scoring and
-  immutable event replay.
-- Recovery archive stays byte-exact; prospective content is checked against pinned originals and exact
-  compiler output.
-- Formal independent, actual learner, qualified and owner acceptance are not inferred.
+- Exactly 09.04, 09.05 and 09.06 receive distinct complete source guides, supplied materials, two fresh checks each, separate keys, adaptations, progression and evidence limits.
+- Every canonical element is individually mapped to teaching and a check.
+- Source evaluation distinguishes response denominators, missingness bounds, measurement, confounding and independent new data from repeated publication.
+- Belief revision preserves prior versions, states assumptions and revision conditions, and distinguishes relevant evidence from unsupported pressure.
+- Forecasting preserves prospective probabilities, separately reveals outcomes, defines void and unresolved cases, checks sensitivity and separates calibration from Brier accuracy.
+- No canonical package, production score, activation, completion, historical event or formal review record changes.
+- Neither this cohort nor earlier draft PR-78 is counted as runtime-integrated.
+- Root manifest synchronization and applicable repository gates remain prerequisites for merge; no failing gate is waived.
 validation:
   local:
-  - .venv/bin/python -m pytest tests/test_m6k_guided_learning.py tests/test_m6k_independent_teaching_breadth.py
-    tests/test_m6k_learning_loop.py tests/test_m6k_inquiry_notes.py tests/test_m6k_learning_craft.py tests/test_m6k_physical_capacity.py
-    tests/test_tailored_practice_authoring.py tests/test_m6k_recovery.py tests/test_m6k_review_evidence.py
-    -q
+  - python -m unittest discover -s tests -p test_m6k_evidence_humility_forecasting_sources.py -v
   - ./scripts/agent-verify.sh contract
-  - make pilot-check curriculum-check competency-evidence-check
   - git diff --check
   required_ci:
-  - Ruff Django pytest migration drift and manifest verification
-  - all readiness and canonical report gates
-  - Playwright core journeys
-  - Compose backup restore and recreation
-  - aggregate Pilot readiness gate
+  - existing repository verification workflow
+  - manifest verification
+  - existing readiness and regression gates
   focused_tests_to_add:
-  - Exact identity and completion preservation for three runtime projections
-  - Six prompt/key reveal boundaries and three served Django guides
-  - Task-grounded correction, permission and matched-route fixtures
-  - Three prospective recovery-drift rejections
-  - Desktop/mobile keyboard reveal through compiled guides
+  - Missing response bounds verified by exhaustive assignments
+  - Independent data distinguished from multiple reports of the same dataset
+  - Scope-aware belief updates preserve conflicting observations and prior notices
+  - Probability and outcome validation with explicit exclusion denominators
+  - Exact threshold, expected-value, Brier and calibration arithmetic
+  - Prompt, table, key and fixture alignment
 risk:
   class: moderate
   hazards:
-  - Simulation is mislabeled as live guided learning
-  - Accurate knowledge is distributed outside permission
-  - An access adaptation abandons the construct or implies diagnosis
-  - One supported trial is promoted into causal or durable learning evidence
+  - Source coverage is mistaken for compiler-selected runtime completeness
+  - A financial incentive is treated as proof that a claim is false
+  - Humility is confused with acquiescence or universal skepticism
+  - Forecast outcomes are exposed before the initial record
+  - A low Brier score is reported as proven calibration
+  - Missing outcomes or respondents silently disappear
   stop_conditions:
-  - historical event replay changes
-  - assessment, activation or scoring mathematics changes
-  - a prompt exposes its answer key before an attempt
-  - A promised cord reference, holder packet, route, record or answer check is missing
-  - a required local gate fails
+  - Any forbidden path changes
+  - A required gate fails and is represented as passing
+  - A runtime or human-review count advances without evidence
 rollback:
-  strategy: Revert the content release before import or restore the verified pre-upgrade backup; never
-    reinterpret existing event snapshots.
+  strategy: Revert the source-only commit; this checkpoint performs no database import or deployment.
 evidence:
   output:
-  - docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md
-  claim_boundary: Authored educational practices and software verification; no automatic formal, independent
-    learner, qualified, owner or empirical validation acceptance.
+  - docs/evidence/M6K-EVIDENCE-HUMILITY-FORECASTING-SOURCES.md
+  claim_boundary: Authored source candidates, standalone source checks and standalone preview checks only; no compiler, application, historical replay, independent learner, specialist or owner acceptance claim.
