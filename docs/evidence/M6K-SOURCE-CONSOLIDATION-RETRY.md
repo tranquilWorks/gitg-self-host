@@ -1,3 +1,102 @@
+# Current local recovery checkpoint — 13 September 2026 UTC
+
+The owner's current instruction explicitly authorizes repairing/verifying/merging
+PR #80, then delivering and merging 11.05–11.10. It does not accept formal human
+reviews, waive failing gates, authorize deployment or change participant data.
+The earlier retry account below is retained historical evidence, not current status.
+
+## Recovered source and manifest repair
+
+A full authenticated clone at `/home/kbianco/gitg-self-host` resumed live head
+`d373f9f84dcc707b37eeb401c8f772eac63a1652`; main was
+`d93532696d3ea9d04e50f47350b90fa255208511`. Older managed local checkouts were
+left untouched. The next-six remote branch still pointed to the same source head;
+no newer six-batch PR or complete local draft was found. All five repaired test
+files from `d72798ff3b58feeb4b2ad5b3961cfeb9d38516a7` remain byte-identical.
+
+The unchanged manifest verifier reproduced exit 1 with exactly the stale
+`.github/workflows/source-repair-capture.yml` entry. The workflow was absent and
+remains removed. Regeneration removed exactly that entry and the next verifier
+passed with 1,323 entries. Repair commit:
+`6212e2f721b9c766b62ee179afc80dcda8f91506`; tree:
+`461dc38488fc598aeb0639fbad00fb5872941d64`.
+
+## Current executed evidence and pending gates
+
+Environment: Debian 12, Python 3.13.14, repository-created `.venv`; resolved
+Django 6.0.8, pytest 8.4.2, Ruff 0.16.7, Playwright 1.62.0 and Chromium
+151.0.7922.34 (build 1234). Requirements are bounded ranges, not a lockfile.
+Full resolved dependencies are retained locally in `pr80-pip-freeze.txt`.
+
+| Check | Actual result at this checkpoint |
+| --- | --- |
+| `python scripts/verify-manifest.py`, initial head | Exit 1, reproduced stale workflow entry |
+| `python scripts/verify-manifest.py --write`, then verifier | Exit 0; exact one-entry repair; 1,323 entries |
+| `python -m unittest discover -s tests -p '*sources.py' -v` | Exit 0; all 283 passed in 0.046 seconds, none skipped |
+| Full harness contract stage | Manifest, Ruff format/lint, Django system and migration-drift checks passed |
+| `python scripts/author_full_competency_frontier.py --check` | Exit 0; deterministic/current, 108 tailored / 275 pending |
+| `make e2e PYTHON=.venv/bin/python` | Exit 0; 34 passed, 939 deselected in 357.53 seconds |
+| `./scripts/agent-verify.sh full` | Running at documentation capture; 939 selected non-browser tests; no full pass claimed yet |
+| `make compose-smoke` | Running at documentation capture in isolated `ggsmokelocal03979759`; no completed drill pass claimed yet |
+| Protected-path diff against main and `git diff --check` | Exit 0; no canonical/runtime/compiler/dependency/deployment/formal-review change |
+
+The source, full, compiler and Compose runs began with the manifest-repaired
+working tree later committed as `6212e2f`; the full harness header still names
+parent `d373f9f` because the commit was created after it started. The browser run
+started on `6212e2f`. The only subsequent changes in this checkpoint are evidence,
+status documentation and their manifest sizes; no tested source/runtime file is
+changed. Final contract/source checks and hosted CI must verify that final commit.
+
+Local logs, exit receipts and screenshots are retained outside the checkout in
+`/home/kbianco/gg-source-delivery-evidence/`; the harness additionally retains its
+ignored `docs/evidence/local/verify-full-*.log`. Browser artifacts were generated
+under `test-results/pilot-walkthrough/`. The agent visually inspected
+`desktop-profile.png`, `mobile-weekly-plan.png`, `m6k-10.12-prompt-390.png` and
+`m6k-10.12-check-1280.png`: readable content, bounded layout, visible controls and
+separate prompt/key state in the sampled views. This is agent inspection of
+existing application regression artifacts, not actual learner or specialist review
+and not runtime validation of these 21 unselected sources.
+
+Hosted run [34769656775](https://github.com/tranquilWorks/gitg-self-host/actions/runs/34769656775)
+checks repair head `6212e2f`; browser passed while quality/Compose were still
+running at capture. This documentation commit supersedes that head and requires
+its own final hosted run. Do not transfer a green status between commits. Final
+local results and the exact final CI/merge receipt must be recorded in PR #80 and
+the successor batch evidence; an enabled auto-merge or test merge is not a merge.
+
+## Failed historical evidence remains visible
+
+[Run 34742998545](https://github.com/tranquilWorks/gitg-self-host/actions/runs/34742998545)
+failed quality on the stale manifest before later quality steps ran; browser
+passed, Compose was cancelled and the aggregate failed. Its test-merge checkout
+was `9df5fd32f2687da9e451849a00c151f4f9ccba8a`, not an actual main merge.
+[Repair diagnostics 34742788628](https://github.com/tranquilWorks/gitg-self-host/actions/runs/34742788628)
+succeeded and produced the preserved test repair. Its success is separate from
+the freshly executed local 283-test pass. The older 266-pass/17-unrun statement
+below is superseded as a current limitation, not deleted from history.
+
+## Next executable action and claim boundary
+
+Finish the healthy full harness and isolated Compose drill, retain their exit
+statuses, verify this documentation candidate's manifest/contract/source suite,
+and require all final hosted quality/browser/Compose/aggregate checks. Update
+PR #80 with exact local results, final head/tree and CI provenance; mark ready
+and merge normally under the owner's existing authorization only after gates pass.
+Fetch main and verify the actual merge receipt and source identities. Check #78/#79
+for unique later changes before treating them as superseded; do not merge them over
+the consolidation. Then reconcile the existing next-six branch with merged main
+without resetting or force-pushing and deliver all 11.05–11.10 together.
+
+Runtime remains **108 tailored / 275 pending / 383 protocols / 1,151 actions**.
+The 21 sources are authored and source-verified, published on the branch, and
+not yet merged at this documentation checkpoint. Compiler selection/application
+verification of these guides and independent/learner/qualified/owner content
+acceptance remain pending. Source integration needs its own compatible scope.
+No production deployment, participant-data mutation or runtime/scoring rewrite
+is part of these deliveries.
+
+---
+
 # Source consolidation retry evidence
 
 Base: d93532696d3ea9d04e50f47350b90fa255208511.
