@@ -1,0 +1,582 @@
+{
+  "schema_version": "GG-MODELS-INFORMATION-EXECUTION-SOURCE-FIXTURES-1.0",
+  "evidence_level": "fictional_instructional_examples_only_not_production_scoring",
+  "model": {
+    "setup": 5,
+    "per_card": 3,
+    "fit": [
+      {
+        "n": 2,
+        "minutes": 11
+      },
+      {
+        "n": 4,
+        "minutes": 17
+      }
+    ],
+    "holdouts": [
+      {
+        "id": "H1",
+        "n": 3,
+        "condition": "ordinary",
+        "minutes": 15
+      },
+      {
+        "id": "H2",
+        "n": 6,
+        "condition": "special",
+        "minutes": 31
+      }
+    ],
+    "sensitivity": {
+      "n": 6,
+      "setup": [
+        3,
+        7
+      ],
+      "per_card": [
+        2,
+        4
+      ],
+      "deadline": 25
+    },
+    "error_trigger": 5,
+    "fresh": {
+      "setup": 4,
+      "rate": 3,
+      "count": 12
+    },
+    "extrapolation_counts": [
+      4,
+      6,
+      10
+    ]
+  },
+  "information": {
+    "parents": {
+      "H1": [],
+      "A1": [
+        "H1"
+      ],
+      "A2": [
+        "A1"
+      ],
+      "A3": [
+        "H1"
+      ],
+      "N1": [],
+      "P1": [
+        "N1"
+      ],
+      "W1": []
+    },
+    "claim_sources": {
+      "permanent_closure": [
+        "H1"
+      ],
+      "notice": [
+        "N1",
+        "P1"
+      ],
+      "south_room_visit": [
+        "W1"
+      ]
+    },
+    "unestablished": [
+      "operator identity",
+      "deliberate intent",
+      "hostile controller",
+      "payment transfers"
+    ],
+    "notice": {
+      "issued": "Day 4",
+      "closure_day": "Day 6",
+      "room": "North Studio",
+      "start": "10:00",
+      "end": "12:00",
+      "permanent": false,
+      "rescue_payment_required": false
+    },
+    "visit": {
+      "room": "South Room",
+      "day": "Day 6",
+      "start": "12:10",
+      "end": "12:40"
+    }
+  },
+  "audit": {
+    "window": [
+      "18:00",
+      "21:00"
+    ],
+    "rows": [
+      {
+        "day": "D1",
+        "start": "18:00",
+        "end": "18:30",
+        "activity": "Meal",
+        "minutes": 30,
+        "category": "Required",
+        "energy": "Medium"
+      },
+      {
+        "day": "D1",
+        "start": "18:30",
+        "end": "19:00",
+        "activity": "Care",
+        "minutes": 30,
+        "category": "Required",
+        "energy": "Medium"
+      },
+      {
+        "day": "D1",
+        "start": "19:00",
+        "end": "19:20",
+        "activity": "Personal administration",
+        "minutes": 20,
+        "category": "Flexible",
+        "energy": "Medium"
+      },
+      {
+        "day": "D1",
+        "start": "19:20",
+        "end": "19:50",
+        "activity": "Leisure video",
+        "minutes": 30,
+        "category": "Flexible",
+        "energy": "Medium"
+      },
+      {
+        "day": "D1",
+        "start": "19:50",
+        "end": "20:00",
+        "activity": "Recovery",
+        "minutes": 10,
+        "category": "Protected recovery",
+        "energy": "Low"
+      },
+      {
+        "day": "D1",
+        "start": "20:00",
+        "end": "20:30",
+        "activity": "Rest in the planned reading slot",
+        "minutes": 30,
+        "category": "Protected recovery",
+        "energy": "Low"
+      },
+      {
+        "day": "D1",
+        "start": "20:30",
+        "end": "21:00",
+        "activity": "Cleanup",
+        "minutes": 30,
+        "category": "Required",
+        "energy": "Low"
+      },
+      {
+        "day": "D2",
+        "start": "18:00",
+        "end": "18:30",
+        "activity": "Meal",
+        "minutes": 30,
+        "category": "Required",
+        "energy": "Medium"
+      },
+      {
+        "day": "D2",
+        "start": "18:30",
+        "end": "19:15",
+        "activity": "Care",
+        "minutes": 45,
+        "category": "Required",
+        "energy": "Medium"
+      },
+      {
+        "day": "D2",
+        "start": "19:15",
+        "end": "19:30",
+        "activity": "Personal administration",
+        "minutes": 15,
+        "category": "Flexible",
+        "energy": "Medium"
+      },
+      {
+        "day": "D2",
+        "start": "19:30",
+        "end": "20:00",
+        "activity": "Leisure video",
+        "minutes": 30,
+        "category": "Flexible",
+        "energy": "Medium"
+      },
+      {
+        "day": "D2",
+        "start": "20:00",
+        "end": "20:10",
+        "activity": "Reading",
+        "minutes": 10,
+        "category": "Flexible",
+        "energy": "Medium"
+      },
+      {
+        "day": "D2",
+        "start": "20:10",
+        "end": "20:30",
+        "activity": "Recovery",
+        "minutes": 20,
+        "category": "Protected recovery",
+        "energy": "Low"
+      },
+      {
+        "day": "D2",
+        "start": "20:30",
+        "end": "21:00",
+        "activity": "Cleanup",
+        "minutes": 30,
+        "category": "Required",
+        "energy": "Low"
+      },
+      {
+        "day": "D3",
+        "start": "18:00",
+        "end": "18:30",
+        "activity": "Meal",
+        "minutes": 30,
+        "category": "Required",
+        "energy": "Medium"
+      },
+      {
+        "day": "D3",
+        "start": "18:30",
+        "end": "19:30",
+        "activity": "Care",
+        "minutes": 60,
+        "category": "Required",
+        "energy": "Low"
+      },
+      {
+        "day": "D3",
+        "start": "19:30",
+        "end": "20:00",
+        "activity": "Not recalled",
+        "minutes": 30,
+        "category": "Unknown",
+        "energy": "Unknown"
+      },
+      {
+        "day": "D3",
+        "start": "20:00",
+        "end": "20:30",
+        "activity": "Recovery",
+        "minutes": 30,
+        "category": "Protected recovery",
+        "energy": "Low"
+      },
+      {
+        "day": "D3",
+        "start": "20:30",
+        "end": "21:00",
+        "activity": "Cleanup",
+        "minutes": 30,
+        "category": "Required",
+        "energy": "Low"
+      },
+      {
+        "day": "D4",
+        "start": "18:00",
+        "end": "18:30",
+        "activity": "Meal",
+        "minutes": 30,
+        "category": "Required",
+        "energy": "Medium"
+      },
+      {
+        "day": "D4",
+        "start": "18:30",
+        "end": "19:25",
+        "activity": "Care",
+        "minutes": 55,
+        "category": "Required",
+        "energy": "Medium"
+      },
+      {
+        "day": "D4",
+        "start": "19:25",
+        "end": "19:40",
+        "activity": "Personal administration",
+        "minutes": 15,
+        "category": "Flexible",
+        "energy": "Medium"
+      },
+      {
+        "day": "D4",
+        "start": "19:40",
+        "end": "19:47",
+        "activity": "Reading",
+        "minutes": 7,
+        "category": "Flexible",
+        "energy": "Medium"
+      },
+      {
+        "day": "D4",
+        "start": "19:47",
+        "end": "20:00",
+        "activity": "Leisure video",
+        "minutes": 13,
+        "category": "Flexible",
+        "energy": "Medium"
+      },
+      {
+        "day": "D4",
+        "start": "20:00",
+        "end": "20:30",
+        "activity": "Recovery",
+        "minutes": 30,
+        "category": "Protected recovery",
+        "energy": "Low"
+      },
+      {
+        "day": "D4",
+        "start": "20:30",
+        "end": "21:00",
+        "activity": "Cleanup",
+        "minutes": 30,
+        "category": "Required",
+        "energy": "Low"
+      }
+    ],
+    "baseline_days": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "trial_day": "D4",
+    "reading_goal_minutes": 10,
+    "no_capacity": {
+      "window": 120,
+      "meal": 30,
+      "care": 60,
+      "recovery": 30
+    }
+  },
+  "priorities": {
+    "budget": 210,
+    "revised_budget": 160,
+    "buffer": 20,
+    "versions": {
+      "O": [
+        60
+      ],
+      "M": [
+        30
+      ],
+      "R": [
+        30,
+        60
+      ],
+      "P": [
+        0,
+        30,
+        75
+      ],
+      "G": [
+        0,
+        15,
+        45
+      ],
+      "L": [
+        0,
+        30,
+        60
+      ]
+    },
+    "full": {
+      "O": 60,
+      "M": 30,
+      "R": 60,
+      "P": 75,
+      "G": 45,
+      "L": 60
+    },
+    "plan_learning": {
+      "O": 60,
+      "M": 30,
+      "R": 30,
+      "P": 0,
+      "G": 15,
+      "L": 30
+    },
+    "plan_project": {
+      "O": 60,
+      "M": 30,
+      "R": 30,
+      "P": 30,
+      "G": 0,
+      "L": 30
+    },
+    "plan_revised": {
+      "O": 60,
+      "M": 30,
+      "R": 30,
+      "P": 0,
+      "G": 15,
+      "L": 0
+    },
+    "visit_change": {
+      "budget": 160,
+      "O": 60,
+      "M": 30,
+      "R": 60,
+      "G": 15,
+      "buffer": 20
+    }
+  },
+  "goal": {
+    "items": [
+      "PENCIL",
+      "ERASER",
+      "BLANK CARD"
+    ],
+    "homes": {
+      "PENCIL": "A",
+      "ERASER": "B",
+      "BLANK CARD": "C"
+    },
+    "reserved": "D",
+    "effort_limit": 20,
+    "prototype": {
+      "route": "supplied_simulation",
+      "permission": true,
+      "purchases": 0,
+      "effort": 12,
+      "reserved_clear": true,
+      "answer_help": false,
+      "requests": [
+        "ERASER",
+        "BLANK CARD",
+        "PENCIL"
+      ],
+      "found": [
+        "ERASER",
+        "BLANK CARD",
+        "PENCIL"
+      ],
+      "returned": [
+        "A",
+        "C",
+        "A"
+      ]
+    },
+    "version": "P1"
+  },
+  "milestones": {
+    "tasks": {
+      "S": {
+        "effort": 5,
+        "deps": []
+      },
+      "I": {
+        "effort": 5,
+        "deps": [
+          "S"
+        ]
+      },
+      "D": {
+        "effort": 10,
+        "deps": [
+          "S"
+        ]
+      },
+      "A": {
+        "effort": 10,
+        "deps": [
+          "I"
+        ]
+      },
+      "C": {
+        "effort": 5,
+        "deps": [
+          "A",
+          "D"
+        ]
+      },
+      "E": {
+        "effort": 20,
+        "deps": [
+          "C"
+        ]
+      },
+      "R": {
+        "effort": 5,
+        "deps": [
+          "E"
+        ]
+      }
+    },
+    "external_requirements": {
+      "A": [
+        "required_replies"
+      ],
+      "E": [
+        "agreed_session_time"
+      ]
+    },
+    "prep_ids": [
+      "S",
+      "I",
+      "D",
+      "A",
+      "C"
+    ],
+    "prep_limit": 40,
+    "response_checkpoint": "Day 3 noon",
+    "session": "Day 6 18:00\u201318:20",
+    "ready": {
+      "R_consent": true,
+      "T_consent": true,
+      "time_agreed": true,
+      "access_agreed": true,
+      "final_confirmation": false,
+      "event_occurred": false
+    },
+    "blocked": {
+      "R_consent": true,
+      "T_consent": null,
+      "time_agreed": null,
+      "access_agreed": null,
+      "final_confirmation": false,
+      "event_occurred": false
+    },
+    "fresh_tasks": {
+      "A": {
+        "effort": 5,
+        "deps": []
+      },
+      "B": {
+        "effort": 10,
+        "deps": [
+          "A"
+        ]
+      },
+      "C": {
+        "effort": 5,
+        "deps": [
+          "A"
+        ]
+      },
+      "D": {
+        "effort": 5,
+        "deps": [
+          "B",
+          "C"
+        ]
+      },
+      "E": {
+        "effort": 5,
+        "deps": [
+          "D"
+        ]
+      }
+    }
+  }
+}
