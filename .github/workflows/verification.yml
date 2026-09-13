@@ -22,6 +22,8 @@ jobs:
     timeout-minutes: 180
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
@@ -32,6 +34,8 @@ jobs:
       - run: make lint PYTHON=python
       - run: python scripts/author_full_competency_frontier.py --check
       - run: make test PYTHON=python
+        env:
+          PYTEST_ADDOPTS: "-n 4 --dist=load --maxschedchunk=1"
       - run: make pilot-check PYTHON=python
       - run: make curriculum-check PYTHON=python
       - run: make competency-evidence-check PYTHON=python

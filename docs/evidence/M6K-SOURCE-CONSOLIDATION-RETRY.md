@@ -1,3 +1,73 @@
+# Approved quality checkout and runner repair — 13 September 2026 UTC
+
+The owner approved the bounded checkout and test-runner patch after reviewing
+its local results. Quality stays at **180 minutes**. Only the quality checkout
+gets `fetch-depth: 0`; its existing test step gets
+`PYTEST_ADDOPTS="-n 4 --dist=load --maxschedchunk=1"`. Development requirements
+add `pytest-xdist>=3.8,<4`. Every test, assertion, migration, readiness command,
+browser/Compose step and aggregate success requirement is preserved. The active
+contract records this precise exception. No runtime dependency changes.
+
+Run [34779233842](https://github.com/tranquilWorks/gitg-self-host/actions/runs/34779233842)
+tested head `7724250afd495374b372719490aac76806ab0930`, tree
+`63183b2eb1e99a58678c8f58c11c2dd8c75e4f55`, through test merge
+`62b81d8a4faa567cae5048127be606e4571bd00e`. Quality finished pytest with
+**938 passed, one failed and 34 deselected in 9,871.45 seconds**. The unchanged
+21.03 regression could not read its pinned ancestor
+`6173b1e15596ac883fd08f9c4c1f4967f3450c6a` from the shallow checkout. This was
+not a timeout: quality failed after 165 minutes 9 seconds, and its seventeen
+subsequent readiness steps were skipped. The aggregate gate failed.
+
+A separate depth-one clone reproduced the exact missing-path error: eight tests
+passed and that comparison failed. Fetching full history made all nine tests
+in the unchanged module pass in 0.26 seconds. The pinned revision is an ancestor
+of the candidate and main. The repair supplies its original input; it does not
+replace the comparison or change the baseline. The
+[checkout action](https://github.com/actions/checkout/tree/v6) documents the
+full-history option.
+
+The local execution evidence for this follow-up is:
+
+| Check | Actual result and provenance |
+| --- | --- |
+| Complete non-browser pytest with the proposed four-worker configuration | All 939 passed, no errors/skips; exact original test IDs each executed once; 2,971.65 seconds; separate clean checkout of `7724250` |
+| Earlier two-worker experiment | All 939 passed in 5,932.19 seconds; retained as a separate experiment |
+| Seventeen readiness commands | All exit 0 on `7724250`, verbatim from unchanged `contracts/verification.commands`; 19:56:56–21:53:04 UTC, individual receipts retained |
+| Current-head hosted browser | 34 passed / 939 deselected in 355.23 seconds; four retained images have the same verified hashes as the four previously visually inspected views |
+| Current-head hosted Compose | Passed job `103783106048` in 107 minutes 41 seconds, including backup, recreation/persistence, restore, restored-state replay/readiness and clean shutdown |
+| Local Compose | Exit 0, completed 18:45:49 UTC; complete isolated recovery drill; synthetic containers and volume confirmed removed |
+
+The worker experiment used Python 3.13.14, pytest 8.4.2 and Django 6.0.8, with
+every original resolved dependency version retained and only pytest-xdist 3.8.0
+and execnet 2.1.2 added in a separate environment. Requirements remain bounded
+ranges, not a lockfile. Hosted Python was 3.13.15. Local timing is not a guarantee
+of hosted timing. Worker databases remain separate; no test or migration is
+disabled. The smaller scheduling chunk distributes the long independent cases
+without keeping an entire slow file on one worker.
+
+These separate passes do not relabel the original failed full-harness run below
+as successful. On the approved candidate, all 283 source checks passed in 0.050
+seconds and all 13 deployment/history checks passed in 0.26 seconds. The
+repository contract passed at 22:59:35 UTC: manifest, Ruff formatting/lint,
+Django system checks and migration-drift checks. The schema and 107-path scope
+audit passed; all twenty-one source folders' contents and five repaired test
+modules remain identical to `d373f9f`. Runtime, canonical, compiler and historical
+comparison paths remain identical to main. The repository environment helper
+retained every old dependency version and installed the same two additions as
+the passing experiment. Final documentation gets a regenerated manifest and
+another contract check before publication. Fresh full hosted CI is still required.
+Exact final commit/tree and CI/merge receipts belong in PR #80 and
+the successor evidence. Browser results cover unchanged runtime, not these
+unselected authoring guides. Recovery drills are synthetic, not deployment.
+Runtime coverage remains 108 tailored / 275 pending / 383 protocols / 1,151
+actions; independent, learner, specialist and owner content acceptance remain
+separate from the explicit merge authorization.
+
+Detailed logs, JUnit test-ID receipts, dependency versions, shallow-checkout
+reproduction and the original failed runs remain in
+`/home/kbianco/gg-source-delivery-evidence/`. The older checkpoints below retain
+their original dates, failures and limitations.
+
 # Dependent budget-assertion repair — 13 September 2026 UTC
 
 The first local full harness completed pytest with **938 passed, one failed and

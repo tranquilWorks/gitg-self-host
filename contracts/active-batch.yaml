@@ -31,6 +31,7 @@ scope:
   - tests/test_m6k_models_information_execution_sources.py
   - tests/test_deployment_contract.py
   - .github/workflows/verification.yml
+  - requirements-dev.txt
   forbidden_paths:
   - data/**
   - growth/**
@@ -41,13 +42,15 @@ scope:
   - docs/plans/m6k/recovery/**
   - docs/plans/m6k/runtime-projections.json
   - contracts/tailored-practice-authoring.yaml
-  - requirements*.txt
+  - requirements.txt
   - pyproject.toml
   - Dockerfile
   - docker-compose.yml
   - .github/codex/**
 acceptance:
-- Limit verification workflow changes to increasing the Compose job time budget from 60 to 180 minutes and its explanatory comment; retain every command, assertion, dependency, and required result.
+- Fetch full Git history only in the quality checkout so the unchanged pinned-ancestor source regression can inspect its original input; do not alter that test, its baseline revision or its comparison.
+- Keep quality timeout exactly 180 minutes; add only pytest-xdist>=3.8,<4 to development requirements and run the complete existing non-browser selection with four workers using load with --maxschedchunk=1. Preserve separate worker test databases, migrations, every test ID/assertion, browser execution and all readiness commands.
+- Limit verification workflow changes to increasing the Compose job time budget from 60 to 180 minutes and its explanatory comment, plus full history in the quality checkout and four pytest workers with --dist=load --maxschedchunk=1 in the existing quality test step; retain every command, assertion, gate dependency and required result.
 - Align only the deployment-contract test's Compose budget expectation with the owner-approved 180 minutes; retain its quality expectation at 180 and every other assertion.
 - Preserve the twenty-one source candidates and every existing test criterion.
 - Repair formatting and lint without weakening or skipping checks.
@@ -61,7 +64,7 @@ validation:
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci:
-  - existing repository verification commands and result requirements unchanged; Compose time budget only increased to permit the complete drill
+  - existing repository verification commands and result requirements unchanged; Compose time budget increased to permit the complete drill; full pytest execution distributed over four workers with --maxschedchunk=1 within the unchanged quality 180-minute limit
   - source formatting and lint verification
   focused_tests_to_add:
   - Preserve source identities and test criteria
@@ -81,4 +84,4 @@ rollback:
 evidence:
   output:
   - docs/evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md
-  claim_boundary: Owner authorizes merge of PR80 and the next six. All compiler integration, deployment, and formal human-review claims remain separate.
+  claim_boundary: Owner authorizes merge of PR80 and the next six, plus the bounded full-history quality checkout and four-worker test-runner/development-dependency repair while keeping quality at 180 minutes. All compiler integration, deployment, and formal human-review claims remain separate.
