@@ -1,8 +1,8 @@
 schema_version: 1
 batch:
   id: M6K-SIX-MORE-SOURCE-CONSOLIDATION
-  title: Publish six new individual sources and recover prior source cohorts
-  goal: Preserve and publish 09.16, 09.17, and 11.01 through 11.04 with the preceding fifteen authored source candidates, without runtime or formal-review promotion.
+  title: Publish consolidated sources and repair source verification
+  goal: Preserve the twenty-one authored candidates, repair source-test formatting, and honor the owner's explicit merge request without claiming runtime integration.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
@@ -30,6 +30,7 @@ scope:
   - tests/test_m6k_systems_causes_tradeoffs_sources.py
   - tests/test_m6k_risk_judgment_inference_sources.py
   - tests/test_m6k_models_information_execution_sources.py
+  - .github/workflows/source-repair-capture.yml
   forbidden_paths:
   - data/**
   - growth/**
@@ -44,41 +45,40 @@ scope:
   - pyproject.toml
   - Dockerfile
   - docker-compose.yml
-  - .github/**
+  - .github/workflows/verification.yml
+  - .github/codex/**
 acceptance:
-- Exactly six new competency source packages retain individual guides, complete materials, fresh checks, corrective keys, access adaptations, and claim limits.
-- Preserve the preceding fifteen source packages and their four test modules while consolidating them into the branch.
-- Preserve all runtime content, 383 protocol IDs, 1151 action IDs, completion rules, activation, scoring, and historical replay sources unchanged.
-- Runtime coverage remains 108 tailored and 275 pending; source publication does not count as runtime completion.
-- Synchronize the root manifest for the actual published files before any merge-ready claim.
-- Report executed source checks separately from full application, browser, Compose, and human acceptance.
+- Preserve all twenty-one individually authored source candidates and their test criteria.
+- Fix formatting and lint defects without weakening or skipping tests.
+- The temporary read-only diagnostic workflow may export tracked source and test repairs, never credentials, participant data, or repository writes; remove it before merge.
+- Preserve all runtime content, stable IDs, completion, activation, scoring, and historical replay.
+- Runtime coverage remains 108 tailored and 275 pending; publication is not runtime completion.
+- Regenerate and verify MANIFEST.tsv on the actual final tracked checkout before merge.
+- Report actual source, application, CI, and human evidence separately.
 validation:
   local:
   - python -m unittest discover -s tests -p '*sources.py' -v
-  - ./scripts/verify-manifest.py
-  - ./scripts/agent-verify.sh contract
+  - python scripts/verify-manifest.py
   - git diff --check
   required_ci:
-  - existing repository verification workflow
-  - manifest and contract checks
-  - applicable application and readiness regressions
+  - existing repository verification workflow unchanged
+  - source formatting, lint, and source regression checks
   focused_tests_to_add:
-  - Preserve source identities across all five cohorts
-  - Verify model boundaries, provenance, time accounting, capacity, consent, and dependency cases
-  - Verify the exact final manifest and forbidden-path preservation
+  - Preserve source identities and existing assertions across all five cohorts
+  - Run previously unavailable source-text checks using the exact tracked snapshot
 risk:
   class: moderate
   hazards:
-  - Authored sources are mistaken for runtime integration or human review
-  - Earlier checkpoint notes are mistaken for current execution evidence
-  - Source consolidation drops a prior cohort or changes protected content
+  - Source publication is mistaken for runtime integration or human acceptance
+  - A test repair changes an assertion or hides a failing case
+  - Diagnostic material accidentally includes untracked or sensitive data
   stop_conditions:
-  - Any forbidden path changes
-  - Missing source objects or mismatched source identities
-  - A required check is falsely represented as passing
+  - Any protected runtime, data, or original verification-workflow change
+  - Source-identity mismatch or lost test criteria
+  - A failed or unrun check is represented as passing
 rollback:
-  strategy: Revert the source-only branch change; no database import, live operation, deployment, or historical evidence mutation occurs.
+  strategy: Revert the source-only merge; no database import, live action, deployment, or historical mutation.
 evidence:
   output:
   - docs/evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md
-  claim_boundary: Source authorship and publication only until separately verified integration and human acceptance. No merge or deployment is inferred from the user's push request.
+  claim_boundary: The owner explicitly authorized merging PR80 and the next six source candidates. Merge does not establish runtime selection, deployment, or formal learner/specialist acceptance.

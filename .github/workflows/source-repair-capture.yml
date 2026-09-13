@@ -1,0 +1,50 @@
+name: Source repair diagnostics
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/source-repair-capture.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  source-repair:
+    if: github.event.pull_request.number == 80
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: python -m pip install 'ruff==0.16.7'
+      - name: Preserve exact tracked snapshot and diagnostic results
+        shell: bash
+        run: |
+          set -u
+          out="$RUNNER_TEMP/source-repair"
+          mkdir -p "$out"
+          git rev-parse HEAD > "$out/checkout-sha.txt"
+          git archive --format=tar.gz HEAD > "$out/pristine-repository.tar.gz"
+          cp "$(command -v ruff)" "$out/ruff"
+          set +e
+          python -m unittest discover -s tests -p '*sources.py' -v > "$out/source-tests.txt" 2>&1
+          echo "$?" > "$out/source-tests.exit"
+          python -m ruff format tests/test_m6k_*sources.py > "$out/format.txt" 2>&1
+          echo "$?" > "$out/format.exit"
+          python -m ruff check --fix tests/test_m6k_*sources.py > "$out/lint.txt" 2>&1
+          echo "$?" > "$out/lint.exit"
+          set -e
+          git diff --binary -- tests/test_m6k_*sources.py > "$out/test-repair.patch"
+          tar -czf "$out/repaired-tests.tar.gz" tests/test_m6k_*sources.py
+      - name: Retain diagnostics only; never push changes or alter checks
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: source-repair-diagnostics
+          path: ${{ runner.temp }}/source-repair/
+          retention-days: 3
+          if-no-files-found: error
