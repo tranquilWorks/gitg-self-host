@@ -1,3 +1,31 @@
+# Dependent budget-assertion repair — 13 September 2026 UTC
+
+The first local full harness completed pytest with **938 passed, one failed and
+34 deselected in 11,088.13 seconds**. It then stopped before the seventeen
+readiness commands. The failing deployment-contract assertion still expected
+Compose's old 60-minute allowance after the approved workflow change to 180.
+The failure log remains retained; this run is not a full-harness pass.
+
+The dependent repair changes only that existing assertion's expected value to
+180, preserving its exact quality expectation of 180 and every other deployment
+criterion. The active batch records this necessary test path for the approved
+Compose setting. No workflow command, runtime file, canonical package or repaired
+source-test criterion changes. The owner declined increasing quality's budget;
+it remains 180 minutes in both workflow and test.
+
+Rerun the complete deployment-contract module, all 283 source checks, manifest
+and repository contract. Execute the previously unreached readiness commands
+verbatim from `contracts/verification.commands`, retaining individual exit receipts.
+Fresh exact-head hosted CI must rerun the entire pytest suite and every readiness,
+browser and Compose gate. Do not relabel the earlier failed local harness as passed
+or substitute the focused repair for that required hosted full-suite result.
+
+The first long local run began on the manifest-repaired inputs later committed as
+`6212e2f`; while it ran, documentation and the approved workflow budget were
+updated. Its deployment test read the new 180-minute workflow against the still-old
+60-minute assertion. All other tests passed, including all 283 source checks.
+The evidence below retains the preceding snapshots and their original limitations.
+
 # Approved Compose time-budget repair — 13 September 2026 UTC
 
 After inspecting the concrete patch, the owner instructed: “Apply the bounded

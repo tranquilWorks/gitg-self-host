@@ -29,6 +29,7 @@ scope:
   - tests/test_m6k_systems_causes_tradeoffs_sources.py
   - tests/test_m6k_risk_judgment_inference_sources.py
   - tests/test_m6k_models_information_execution_sources.py
+  - tests/test_deployment_contract.py
   - .github/workflows/verification.yml
   forbidden_paths:
   - data/**
@@ -47,6 +48,7 @@ scope:
   - .github/codex/**
 acceptance:
 - Limit verification workflow changes to increasing the Compose job time budget from 60 to 180 minutes and its explanatory comment; retain every command, assertion, dependency, and required result.
+- Align only the deployment-contract test's Compose budget expectation with the owner-approved 180 minutes; retain its quality expectation at 180 and every other assertion.
 - Preserve the twenty-one source candidates and every existing test criterion.
 - Repair formatting and lint without weakening or skipping checks.
 - The temporary same-repository PR80-only workflow may commit exactly the five hash-verified test repairs and regenerated manifest to the existing PR branch, never main. Remove this workflow before merge.
