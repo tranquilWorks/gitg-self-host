@@ -1,3 +1,32 @@
+# Approved Compose time-budget repair — 13 September 2026 UTC
+
+After inspecting the concrete patch, the owner instructed: “Apply the bounded
+timeout patch.” This authorizes only increasing the Compose job allowance from
+60 to 180 minutes, its explanatory comment, and the corresponding active-batch
+scope exception. All workflow commands, assertions, dependencies and required
+success results remain unchanged. The removed temporary workflow stays absent.
+
+Current-head run [34770876994](https://github.com/tranquilWorks/gitg-self-host/actions/runs/34770876994)
+verified `c3a773f6f609ba0963f5e41ad8b80713740d7495` through test merge
+`8c15e335ddd3fe0e242359989662c59114da54ec`. Browser passed all 34 checks;
+Compose job `103760172473` was cancelled before backup restoration. Its check-run
+annotations explicitly report that the job exceeded the one-hour execution limit.
+The earlier cancelled Compose job in run `34742998545` has the same explicit
+limit annotation. Neither is a passed recovery drill. Full job logs and annotations
+are retained outside the checkout in the local evidence directory below.
+
+The local full harness and isolated recovery drill remain running at this capture.
+The local drill has restored the verified backup and reached post-restore readiness;
+it is not yet claimed complete. Preserve both healthy processes and their final
+exit receipts. The new candidate needs fresh manifest, source and contract checks,
+a structural comparison proving the sole workflow-value change, and all required
+hosted gates. Final results belong in PR #80 and the successor evidence record.
+
+This is an execution allowance change, not acceptance of a failing check or any
+runtime, deployment, participant-data, specialist or learner-review change. The
+following earlier checkpoints remain historical evidence with their original dates
+and limitations.
+
 # Current local recovery checkpoint — 13 September 2026 UTC
 
 The owner's current instruction explicitly authorizes repairing/verifying/merging
