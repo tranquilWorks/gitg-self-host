@@ -10,7 +10,7 @@ This branch resumes the interrupted owner request: six more individually authore
 | risk-judgment-inference | 09.10-09.15 | 71 |
 | models-information-execution | 09.16-09.17; 11.01-11.04 | 84 |
 
-There are 21 additional authored source candidates and 283 defined standalone source tests in these five directories/modules. Defined is not executed. See ../../docs/evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md for current verification evidence; older cohort README files describe their original checkpoints, not the present consolidation state.
+There are 21 additional authored source candidates and 283 defined standalone source tests. This retry executed 199 retained tests and 67 new fixture/metadata tests successfully; 17 new source-text checks were not run because the corresponding Markdown files were not mounted locally. Defined is not executed. See [current verification evidence](../evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md). Older cohort README files describe their original checkpoints, not the present consolidation state.
 
 The base remains main d93532696d3ea9d04e50f47350b90fa255208511, after PR #77: 108 tailored runtime competencies, 275 pending, 383 protocols, and 1,151 actions. No authored-source count changes runtime coverage. No catalog selection, scoring, completion, activation, historical replay, or formal review receipt is changed by publication.
 
