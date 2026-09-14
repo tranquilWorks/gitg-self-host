@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "runtime_evidence": false,
+  "composition": {
+    "tasks": [
+      {
+        "seconds": 120,
+        "books": 3,
+        "route": "usual",
+        "aid": "usual",
+        "helper": "usual"
+      },
+      {
+        "seconds": 100,
+        "books": 3,
+        "route": "usual",
+        "aid": "usual",
+        "helper": "usual"
+      },
+      {
+        "seconds": 95,
+        "books": 2,
+        "route": "usual",
+        "aid": "usual",
+        "helper": "one_book_carried"
+      }
+    ],
+    "tissue_measured": false,
+    "waist_measured": false,
+    "scale": "unchanged",
+    "garment_stretched": true,
+    "care_main": [
+      "sent",
+      "acknowledged",
+      "booked"
+    ],
+    "care_alternative": [
+      "sent",
+      "acknowledged",
+      "booked",
+      "review_attended",
+      "followup_agreed"
+    ]
+  },
+  "recovery": {
+    "previous": [
+      20,
+      3
+    ],
+    "changed": [
+      30,
+      4
+    ],
+    "intensity": null,
+    "main": {
+      "fatigue": "less",
+      "function": "different",
+      "pain": null,
+      "advice": "acknowledged",
+      "return_performed": false
+    },
+    "alternative": {
+      "fatigue": "usual",
+      "function": "usual",
+      "pain": "no_concern_reported",
+      "advice": "individual_plan_received",
+      "return_performed": false
+    }
+  },
+  "substances": {
+    "now": "20:30",
+    "wait_end": "21:00",
+    "funds": 0,
+    "journey_minutes": 10,
+    "options": {
+      "A": {
+        "pickup": "20:40",
+        "driver_suitable": false,
+        "confirmed": true,
+        "cost": 0,
+        "accessible": true
+      },
+      "B": {
+        "pickup": null,
+        "driver_suitable": null,
+        "confirmed": false,
+        "cost": 12,
+        "accessible": null
+      },
+      "C": {
+        "pickup": "20:50",
+        "driver_suitable": true,
+        "confirmed": true,
+        "cost": 0,
+        "accessible": true
+      }
+    },
+    "delay_pickup": "21:10",
+    "qualified_reply": false,
+    "impaired": true,
+    "alcohol_consumed": false
+  },
+  "consent": {
+    "A": [
+      {
+        "time": "10:00",
+        "action": "handshake",
+        "choice": "yes"
+      },
+      {
+        "time": "10:01",
+        "action": "handshake",
+        "choice": "withdraw"
+      },
+      {
+        "time": "10:02",
+        "action": "photo",
+        "choice": "unknown"
+      }
+    ],
+    "B": {
+      "touch_permission": false,
+      "overstep": true,
+      "stopped": true,
+      "space_requested": true,
+      "space_respected": true,
+      "forgiveness": null,
+      "renewed_permission": false
+    },
+    "C": {
+      "greeting": "wave_only",
+      "read_card_permission": true,
+      "share_reason_permission": false
+    }
+  },
+  "presentation": {
+    "tasks": [
+      [
+        "13:40",
+        "13:42",
+        2
+      ],
+      [
+        "13:42",
+        "13:46",
+        4
+      ],
+      [
+        "13:46",
+        "13:48",
+        2
+      ],
+      [
+        "13:48",
+        "13:51",
+        3
+      ],
+      [
+        "13:51",
+        "13:52",
+        1
+      ],
+      [
+        "13:52",
+        "14:00",
+        8
+      ]
+    ],
+    "reserve": 1,
+    "correction": 1,
+    "harder_correction": 2,
+    "travel": 8,
+    "wash_C": 30,
+    "cost": 0,
+    "initial_items": [
+      "B",
+      "D",
+      "L",
+      "I"
+    ],
+    "final_items": [
+      "B",
+      "D",
+      "I"
+    ],
+    "layer_reach": false,
+    "shirt_reach": true,
+    "aid_retained": true,
+    "warm_seat_confirmed": true
+  },
+  "lifelong": {
+    "functions": [
+      "Travel to site",
+      "Endurance / path mobility",
+      "Carrying / strength",
+      "Sitting, rising / transfer",
+      "Balance / stability",
+      "Bone-health / broader training question",
+      "Ongoing participation"
+    ],
+    "outbound_movement": 4,
+    "return_movement": 4,
+    "limit": 8,
+    "conversation": 20,
+    "wait": 2,
+    "pickup": "10:30",
+    "first": {
+      "performed": true,
+      "return_confirmed": true,
+      "movement_minutes": 8,
+      "recovery": "usual"
+    },
+    "second": {
+      "performed": false,
+      "return_confirmed": false,
+      "movement_minutes": 0,
+      "recovery": null
+    },
+    "home_alternative": "proposed",
+    "recurrence": "weekly_while_suitable",
+    "review": "one_month_or_earlier_change"
+  }
+}
