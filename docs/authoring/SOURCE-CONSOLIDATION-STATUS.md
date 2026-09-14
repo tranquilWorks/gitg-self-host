@@ -1,6 +1,6 @@
 # Current source publication
 
-[PR80](https://github.com/tranquilWorks/gitg-self-host/pull/80) merged the prior 21 source candidates on 14 September 2026 at revision `adbbbdac63ec29018732795a1bf4928905c2775d`. The continuation adds the exact next six **11.05–11.10**, individually reviewed with separate guides, complete materials and corrective keys. Start with the [six-guide index](execution-capacity-closeout/README.md).
+[PR80](https://github.com/tranquilWorks/gitg-self-host/pull/80) merged the prior 21 source candidates on 14 September 2026 at revision `adbbbdac63ec29018732795a1bf4928905c2775d`. [PR81](https://github.com/tranquilWorks/gitg-self-host/pull/81) merged **11.05–11.10** at `0dda672a905a972249105c06a0d1b9bbc75e128e` on the same date at 02:23:58 UTC. The current source continuation authors the next six pending entries **12.01–12.04, 12.06 and 12.07**; start with the [health-foundations index](health-foundations/README.md). Strength 12.05 and coordination 12.08 were already tailored by PR72 and remain preserved.
 
 | Source directory | Competencies | Source tests defined |
 | --- | --- | --- |
@@ -10,12 +10,13 @@
 | risk-judgment-inference | 09.10-09.15 | 71 |
 | models-information-execution | 09.16-09.17; 11.01-11.04 | 84 |
 | execution-capacity-closeout | 11.05-11.10 | 65 |
+| health-foundations | 12.01-12.04; 12.06-12.07 | 65 |
 
-There are 27 additional authored source candidates. All 348 source checks passed unfiltered (283 preserved plus 65 new); the five repaired test modules and source packages remain preserved. On 14 September 2026 the owner explicitly instructed “ignore cicd for now, just vett the quality of the posts” and requested the next six. Editorial/source review, source tests, manifest and scope verification are the publication gate for these two source-only deliveries. Full application/CI/CD gates are deferred, not represented as passed.
+There are 33 additional authored source candidates. All 413 source checks passed unfiltered (348 preserved plus 65 new); the five repaired test modules and source packages remain preserved. On 14 September 2026 the owner explicitly instructed “ignore cicd for now, just vett the quality of the posts” and requested the next six. Editorial/source review, source tests, manifest and scope verification are the publication gate for these source-only deliveries, including the owner's subsequent instruction to vet, move on and continue with the next six. Full application/CI/CD gates are deferred, not represented as passed.
 
 The latest application run, [34788511504](https://github.com/tranquilWorks/gitg-self-host/actions/runs/34788511504), tested head `570cb723b99770c3f48244e7111edf0c9754f4ec`: all 939 pytest tests and 13 readiness commands passed; quality hit its 180-minute limit during M6C, leaving M6D, weekly execution and operations skipped. Browser passed 34 tests and Compose recovery passed in 107 minutes 11 seconds; the aggregate failed. The separate readiness-job proposal remains unapplied. Historical results remain in [verification evidence](../evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md). The actual preceding merge and individual next-six editorial corrections are recorded in [successor evidence](../evidence/M6K-EXECUTION-CAPACITY-CLOSEOUT-SIX.md); a test merge is not a merge receipt. Older cohort README statements are historical snapshots.
 
-The successor baseline is actual PR80 merged main `adbbbdac63ec29018732795a1bf4928905c2775d`. Runtime remains 108 tailored runtime competencies, 275 pending, 383 protocols, and 1,151 actions. No authored-source count changes runtime coverage. No catalog selection, scoring, completion, activation, historical replay, or formal review receipt is changed by publication.
+The current successor baseline is actual PR81 merged main `0dda672a905a972249105c06a0d1b9bbc75e128e`. Health-batch editorial findings, failed/repaired lint evidence and publication provenance are retained in [health-foundations evidence](../evidence/M6K-HEALTH-FOUNDATIONS-SIX.md). Runtime remains 108 tailored runtime competencies, 275 pending, 383 protocols, and 1,151 actions. No authored-source count changes runtime coverage. No catalog selection, scoring, completion, activation, historical replay, or formal review receipt is changed by publication.
 
 Read each competency's learner-guide.md, then attempt its check-prompts.md before opening check-answers.md. Later packets, where present, are separate learning aids rather than security controls. Each scope map and source registry explains its boundaries. All practice data are fictional unless an actual authorized live route is separately undertaken and recorded.
 
