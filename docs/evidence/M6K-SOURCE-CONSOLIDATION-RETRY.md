@@ -1,3 +1,15 @@
+# Owner-directed source publication — 14 September 2026
+
+The owner explicitly changed the delivery gate: “ignore cicd for now, just vett the quality of the posts” and requested the next six. This supersedes the earlier requirement to await full CI for PR80 and the exact 11.05–11.10 source successor. Existing normal-merge authorization persists. Editorial/source review, the complete source suite, manifest and scope checks remain required. Runtime, compiler inputs, scoring, participant records, deployment and human acceptance remain outside scope.
+
+Current application evidence is retained without relabeling: run **34788511504** on head `570cb723b99770c3f48244e7111edf0c9754f4ec`, tree `1fffee7bc26a65fe10f17e5ad7b557b6b11d584f`, passed **939 pytest tests in 5372.67 seconds** on Python 3.13.15/pytest8.4.2/xdist3.8.0, then **13 readiness commands**. Quality was cancelled at 180 minutes during M6C; M6D, weekly execution and operations were skipped. Browser passed **34 tests in 353.96 seconds**; isolated Compose recovery passed **6431 seconds**. The aggregate failed. Test merge `b46b5639eb81e44fabf8fccaf3c7ecad818a90ca` has the same tree as the head and is not an actual merge.
+
+No further CI scheduling patch is being applied. Quality stays at 180 minutes. These source-only publication commits use the native `[skip ci]` commit marker to honor the current instruction without editing or disabling workflows. GitHub main has no protection or applicable branch rules at the verified checkpoint; normal merges still use an exact-head guard. No protection bypass is authorized.
+
+The publication candidate preserves all 21 source folders and all five repaired modules. Source checks, manifest and final diff are verified before commit; exact commit and actual merge receipt are recorded in PR80 and the successor evidence. Source publication does not change **108 tailored / 275 pending / 383 protocols / 1151 actions**. Independent, learner, specialist and owner content acceptance remain pending. The following sections preserve older checkpoints and failed attempts; their former waiting requirements are superseded by the owner's dated instruction above.
+
+---
+
 # Approved quality checkout and runner repair — 13 September 2026 UTC
 
 The owner approved the bounded checkout and test-runner patch after reviewing
