@@ -1,0 +1,264 @@
+{
+  "schema_version": "GG-REASONING-SOURCE-FIXTURES-1.0",
+  "evidence_level": "fictional_instructional_examples_and_source_checks_only",
+  "baseline": {
+    "commit": "d93532696d3ea9d04e50f47350b90fa255208511",
+    "tree": "7bec2c6054e5570ba738201dd3560cbf790030bf",
+    "runtime_tailored": 108,
+    "runtime_pending": 275,
+    "protocols": 383,
+    "actions": 1151
+  },
+  "cohort": [
+    "09.01",
+    "09.02",
+    "09.03"
+  ],
+  "observation": {
+    "claims": [
+      {
+        "id": "E1.sent",
+        "classification": "bounded_observation",
+        "source": "sent log",
+        "establishes": "message recorded sent",
+        "does_not_establish": [
+          "delivery",
+          "reading",
+          "deadline agreement",
+          "motive"
+        ]
+      },
+      {
+        "id": "E2.no_reply",
+        "classification": "bounded_observation",
+        "source": "inspected thread at Day 3 noon",
+        "establishes": "no reply visible in that thread by that time",
+        "does_not_establish": [
+          "no reply through any channel",
+          "future silence",
+          "hostile motive"
+        ]
+      },
+      {
+        "id": "E3.feeling",
+        "classification": "attributed_report",
+        "source": "Alex",
+        "establishes": "Alex reports worry and irritation",
+        "does_not_establish": [
+          "Lea's attitude",
+          "Lea's motive"
+        ]
+      },
+      {
+        "id": "E4.online",
+        "classification": "attributed_report",
+        "source": "Sam",
+        "establishes": "Sam reports seeing Lea online",
+        "does_not_establish": [
+          "message read",
+          "availability",
+          "hostile motive"
+        ]
+      },
+      {
+        "id": "E5.expectation",
+        "classification": "attributed_report",
+        "source": "Alex's recollection",
+        "establishes": "Alex recalls a usual response pattern",
+        "does_not_establish": [
+          "deadline agreement"
+        ]
+      },
+      {
+        "id": "R1.explanation",
+        "classification": "attributed_report",
+        "source": "Lea's reply",
+        "establishes": "Lea reports attachment difficulty and offers a conditional new time",
+        "does_not_establish": [
+          "all earlier attempts",
+          "original motive",
+          "completed chair count"
+        ]
+      },
+      {
+        "id": "R2.error",
+        "classification": "bounded_observation",
+        "source": "supplied screenshot",
+        "establishes": "an attachment error appears in that capture",
+        "does_not_establish": [
+          "every attempt failed",
+          "original event time",
+          "completed chair count"
+        ]
+      }
+    ],
+    "check_a_expected": [
+      "bounded_observation",
+      "unknown",
+      "attributed_report",
+      "attributed_report_containing_unverified_motive",
+      "prediction",
+      "conclusion"
+    ],
+    "check_b_new_location": "Cabinet D",
+    "check_b_move_cause": "staff_report_not_independently_witnessed"
+  },
+  "logic": {
+    "tokens": [
+      {
+        "id": "T1",
+        "color": "blue",
+        "location": "drawer"
+      },
+      {
+        "id": "T2",
+        "color": "blue",
+        "location": "drawer"
+      },
+      {
+        "id": "T3",
+        "color": "red",
+        "location": "desk"
+      },
+      {
+        "id": "T4",
+        "color": "red",
+        "location": "drawer"
+      }
+    ],
+    "many_threshold": 6,
+    "events": [
+      {
+        "name": "Cedar",
+        "advertised_free": true,
+        "admission": 0,
+        "travel": 6,
+        "seats": 10,
+        "reservations": 6
+      },
+      {
+        "name": "Willow",
+        "advertised_free": true,
+        "admission": 0,
+        "travel": 0,
+        "seats": 10,
+        "reservations": 10
+      },
+      {
+        "name": "Elm",
+        "advertised_free": false,
+        "admission": 4,
+        "travel": 0,
+        "seats": 10,
+        "reservations": 2
+      }
+    ],
+    "argument_a": {
+      "valid": true,
+      "premises_true_in_packet": [
+        false,
+        true
+      ],
+      "conclusion_true_in_packet": false,
+      "sound": false
+    },
+    "argument_b": {
+      "valid": false,
+      "premises_true_in_packet": [
+        true,
+        true
+      ],
+      "conclusion_true_in_packet": false,
+      "sound": false
+    },
+    "fresh_room": {
+      "attendees": 12,
+      "M_seats": 14,
+      "N_seats": 10,
+      "M_reservation_confirmation": true,
+      "M_opening_confirmation": null,
+      "M_access_confirmation": null
+    }
+  },
+  "bias": {
+    "routes": [
+      "confirmation",
+      "availability",
+      "anchoring",
+      "sunk cost",
+      "overconfidence",
+      "tribal reasoning",
+      "self-serving bias"
+    ],
+    "default": {
+      "budget_minutes": 70,
+      "needs_rest": false,
+      "options": [
+        {
+          "name": "A",
+          "travel": 40,
+          "session": 45,
+          "access_confirmed": null,
+          "participation": true,
+          "past_irrecoverable": 60,
+          "group_label": "familiar"
+        },
+        {
+          "name": "B",
+          "travel": 20,
+          "session": 40,
+          "access_confirmed": true,
+          "participation": true,
+          "past_irrecoverable": 0,
+          "group_label": "unfamiliar"
+        },
+        {
+          "name": "C",
+          "travel": 0,
+          "session": 0,
+          "access_confirmed": true,
+          "participation": false,
+          "past_irrecoverable": 0,
+          "group_label": "home"
+        }
+      ],
+      "expected": "B"
+    },
+    "fresh": {
+      "budget_minutes": 60,
+      "needs_rest": false,
+      "initial_preference": "X",
+      "options": [
+        {
+          "name": "X",
+          "travel": 20,
+          "session": 30,
+          "access_confirmed": true,
+          "participation": true,
+          "past_irrecoverable": 0,
+          "group_label": "unfamiliar"
+        },
+        {
+          "name": "Y",
+          "travel": 10,
+          "session": 45,
+          "access_confirmed": true,
+          "participation": true,
+          "past_irrecoverable": 80,
+          "group_label": "familiar"
+        }
+      ],
+      "expected": "X"
+    },
+    "worked": {
+      "past_irrecoverable": 90,
+      "old_remaining": 40,
+      "new_remaining": 15
+    },
+    "anchor_case": {
+      "step_count": 5,
+      "minutes_each": 5,
+      "expected_total": 25
+    }
+  }
+}

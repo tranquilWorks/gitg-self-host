@@ -111,7 +111,7 @@ def test_repeatable_compose_acceptance_is_wired_into_make_and_ci():
     assert "make compose-smoke" in workflow
     # Keep the approved slow-runner budgets tied to the jobs they protect.
     assert workflow_data["jobs"]["quality"]["timeout-minutes"] == 180
-    assert workflow_data["jobs"]["compose"]["timeout-minutes"] == 60
+    assert workflow_data["jobs"]["compose"]["timeout-minutes"] == 180
     assert "pilot-check:" in makefile
     assert "verify_pilot_readiness.sh" in makefile
     assert "verify_pilot_readiness" in pilot_script

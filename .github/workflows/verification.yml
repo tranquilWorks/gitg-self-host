@@ -22,6 +22,8 @@ jobs:
     timeout-minutes: 180
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
@@ -32,6 +34,8 @@ jobs:
       - run: make lint PYTHON=python
       - run: python scripts/author_full_competency_frontier.py --check
       - run: make test PYTHON=python
+        env:
+          PYTEST_ADDOPTS: "-n 4 --dist=load --maxschedchunk=1"
       - run: make pilot-check PYTHON=python
       - run: make curriculum-check PYTHON=python
       - run: make competency-evidence-check PYTHON=python
@@ -78,9 +82,9 @@ jobs:
   compose:
     name: Docker Compose deployment drill
     runs-on: ubuntu-24.04
-    # Run 33948198395 reached 35 minutes during post-restore readiness.
-    # Preserve the complete drill and allow headroom for repeated corpus checks.
-    timeout-minutes: 60
+    # Run 34770876994 hit the one-hour limit before backup restoration.
+    # Keep every recovery check and allow time for repeated corpus verification.
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v6
       - run: make compose-smoke

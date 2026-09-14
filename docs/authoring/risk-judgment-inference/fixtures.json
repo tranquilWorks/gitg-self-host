@@ -1,0 +1,484 @@
+{
+  "schema_version": "GG-SIX-SOURCE-FIXTURES-1.0",
+  "evidence_level": "fictional_instructional_data_only",
+  "risk": {
+    "mismatch_probability": [
+      1,
+      10
+    ],
+    "crossings": [
+      3,
+      6
+    ],
+    "conditions": [
+      "permission",
+      "view",
+      "capability",
+      "clear",
+      "unoccupied"
+    ],
+    "events": [
+      {
+        "id": "E1",
+        "permission": true,
+        "view": true,
+        "capability": true,
+        "clear": true,
+        "unoccupied": true,
+        "expected": "proceed"
+      },
+      {
+        "id": "E2",
+        "permission": true,
+        "view": true,
+        "capability": true,
+        "clear": false,
+        "unoccupied": false,
+        "expected": "hold"
+      },
+      {
+        "id": "E3",
+        "permission": false,
+        "view": true,
+        "capability": true,
+        "clear": null,
+        "unoccupied": null,
+        "expected": "hold"
+      }
+    ]
+  },
+  "wisdom": {
+    "cases": {
+      "A": [
+        "14:10",
+        "text",
+        "may decline"
+      ],
+      "B": [
+        "14:20",
+        "uncertainty",
+        "three roles"
+      ],
+      "C": [
+        "agreed voice relay",
+        "privacy"
+      ],
+      "D": [
+        "agreed coordinator",
+        "explicit time",
+        "no stereotype"
+      ],
+      "E": [
+        "notify owner",
+        "cannot approve"
+      ],
+      "F": [
+        "unsafe channel prohibited",
+        "already agreed support",
+        "no disclosure"
+      ]
+    },
+    "rubric": [
+      "purpose",
+      "material_difference",
+      "feasible_response",
+      "authority",
+      "remaining_duty",
+      "symmetry",
+      "no_invented_permission"
+    ],
+    "machine_acceptance": false
+  },
+  "decision": {
+    "initial": {
+      "record_code": "D1",
+      "category": "reading",
+      "objective_code": "O1",
+      "option_codes": [
+        "A",
+        "B"
+      ],
+      "assumption_codes": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "counterargument_code": "A2",
+      "prediction": "completed",
+      "confidence": "moderate",
+      "record_day": 0,
+      "choice_day": 0,
+      "selected_code": "A",
+      "review_day": 7,
+      "route": "simulation"
+    },
+    "outcome": {
+      "record_code": "D1",
+      "review_day": 7,
+      "outcome": "partly completed",
+      "assumptions": {
+        "A1": "contradicted",
+        "A2": "contradicted",
+        "A3": "supported"
+      },
+      "process_change_code": "RECHECK_DAY_OF",
+      "fallback_code": "B"
+    },
+    "notice_available_day": 1,
+    "production_evidence": false
+  },
+  "stats": {
+    "groups": {
+      "A": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "B": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "sample_population": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "fresh_population": [
+      1,
+      3,
+      8
+    ],
+    "regression": {
+      "x": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "y": [
+        3,
+        5,
+        4,
+        8
+      ]
+    },
+    "fresh_regression": {
+      "x": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "y": [
+        1,
+        2,
+        2,
+        5
+      ]
+    },
+    "flags": {
+      "n": 100,
+      "cases": 10,
+      "tp": 8,
+      "fp": 10
+    },
+    "fresh_flags": {
+      "n": 1000,
+      "cases": 20,
+      "tp": 16,
+      "fp": 98
+    },
+    "matched_flags": {
+      "n": 100,
+      "cases": 10,
+      "tp": 8,
+      "fp": 9
+    },
+    "outlier": {
+      "P": [
+        4,
+        4,
+        4,
+        4,
+        24
+      ],
+      "Q": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "noise": {
+      "truth": 10,
+      "errors": [
+        -2,
+        0,
+        2
+      ]
+    }
+  },
+  "science": {
+    "layouts": {
+      "L": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "U": [
+        "C",
+        "A",
+        "E",
+        "B",
+        "D"
+      ]
+    },
+    "decks": {
+      "X": [
+        "A",
+        "C",
+        "E",
+        "B",
+        "D",
+        "B",
+        "A",
+        "D",
+        "E",
+        "C"
+      ],
+      "Y": [
+        "D",
+        "B",
+        "A",
+        "E",
+        "C",
+        "A",
+        "D",
+        "C",
+        "B",
+        "E"
+      ],
+      "Z": [
+        "C",
+        "E",
+        "B",
+        "A",
+        "D",
+        "E",
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "W": [
+        "B",
+        "D",
+        "C",
+        "E",
+        "A",
+        "D",
+        "B",
+        "A",
+        "E",
+        "C"
+      ]
+    },
+    "assigned_per_run": 10,
+    "time_threshold": 5,
+    "max_seconds": 120,
+    "runs": [
+      {
+        "run": 1,
+        "block": 1,
+        "position": "first",
+        "layout": "L",
+        "deck": "X",
+        "seconds": 40,
+        "correct": 10,
+        "incorrect": 0,
+        "unplaced": 0,
+        "status": "complete"
+      },
+      {
+        "run": 2,
+        "block": 1,
+        "position": "second",
+        "layout": "U",
+        "deck": "Y",
+        "seconds": 34,
+        "correct": 9,
+        "incorrect": 1,
+        "unplaced": 0,
+        "status": "complete"
+      },
+      {
+        "run": 3,
+        "block": 2,
+        "position": "first",
+        "layout": "U",
+        "deck": "Z",
+        "seconds": 42,
+        "correct": 10,
+        "incorrect": 0,
+        "unplaced": 0,
+        "status": "complete"
+      },
+      {
+        "run": 4,
+        "block": 2,
+        "position": "second",
+        "layout": "L",
+        "deck": "W",
+        "seconds": 33,
+        "correct": 10,
+        "incorrect": 0,
+        "unplaced": 0,
+        "status": "complete"
+      }
+    ],
+    "fresh_runs": [
+      {
+        "run": 1,
+        "layout": "L",
+        "seconds": 18,
+        "correct": 10,
+        "incorrect": 0,
+        "unplaced": 0,
+        "status": "complete"
+      },
+      {
+        "run": 2,
+        "layout": "U",
+        "seconds": 24,
+        "correct": 10,
+        "incorrect": 0,
+        "unplaced": 0,
+        "status": "complete"
+      },
+      {
+        "run": 3,
+        "layout": "U",
+        "seconds": 22,
+        "correct": 10,
+        "incorrect": 0,
+        "unplaced": 0,
+        "status": "complete"
+      },
+      {
+        "run": 4,
+        "layout": "L",
+        "seconds": 20,
+        "correct": 9,
+        "incorrect": 1,
+        "unplaced": 0,
+        "status": "complete"
+      }
+    ]
+  },
+  "causal": {
+    "strata": [
+      {
+        "prior": "Prepared",
+        "t_success": 18,
+        "t_total": 20,
+        "c_success": 72,
+        "c_total": 90
+      },
+      {
+        "prior": "Beginner",
+        "t_success": 27,
+        "t_total": 90,
+        "c_success": 4,
+        "c_total": 20
+      }
+    ],
+    "observed": [
+      {
+        "id": "a",
+        "t": 1,
+        "y": 1
+      },
+      {
+        "id": "b",
+        "t": 1,
+        "y": 0
+      },
+      {
+        "id": "c",
+        "t": 0,
+        "y": 1
+      },
+      {
+        "id": "d",
+        "t": 0,
+        "y": 0
+      }
+    ],
+    "positive_world": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "negative_world": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "offer": {
+      "offered": {
+        "assigned": 40,
+        "attended": 24,
+        "completed": 28
+      },
+      "not_offered": {
+        "assigned": 40,
+        "attended": 8,
+        "completed": 24
+      }
+    },
+    "temporal_roles": {
+      "P": "pre",
+      "R": "pre",
+      "T": "intervention",
+      "M": "post",
+      "Y": "outcome",
+      "S": "observation_selection"
+    }
+  }
+}

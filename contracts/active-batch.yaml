@@ -1,126 +1,88 @@
 schema_version: 1
 batch:
-  id: M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME
-  title: Guided learning with correction, permission and accessible standards
-  goal: Increase tailored runtime coverage from 105 to 108 through three related but individually evidenced
-    guided-learning practices; preserve pending human and formal review.
+  id: M6K-SIX-MORE-SOURCE-CONSOLIDATION
+  title: Publish consolidated sources and repair source verification
+  goal: Preserve twenty-one authored candidates, repair source-test formatting, and honor the explicit owner merge request without runtime integration claims.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/plans/m6k/program.json
-  - https://github.com/tranquilWorks/gitg-self-host/issues/61
-  - https://github.com/tranquilWorks/gitg-self-host/issues/62
-  milestone: M6K-10.12-10.14
-  baseline_commit: a2bb50f18084b38b00b0f5736dcc80ccf3bcc901
+  - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
+  milestone: M6K-SIX-MORE-SOURCE-PUBLICATION
+  baseline_commit: d93532696d3ea9d04e50f47350b90fa255208511
 dependencies:
-- PR-75-merged
-- PR-76-merged
+- PR-77-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
-  - contracts/tailored-practice-authoring.yaml
-  - docs/PROJECT_HANDOFF.md
-  - docs/plans/m6k/README.md
-  - docs/plans/m6k/runtime-projections.json
-  - docs/authoring/exercises/10.yaml
-  - docs/authoring/sources.yaml
-  - docs/authoring/quality/current-report.json
-  - data/practices/registries/source_registry.yaml
-  - data/practices/release_manifest.yaml
-  - reports/**
-  - tests/test_m6k_independent_teaching_breadth.py
-  - tests/test_m6k_learning_loop.py
-  - tests/test_m6k_inquiry_notes.py
-  - tests/test_m6k_learning_craft.py
-  - tests/test_m6k_physical_capacity.py
-  - tests/test_m6k_review_evidence.py
-  - docs/authoring/quality/10.12/**
-  - docs/authoring/quality/10.13/**
-  - docs/authoring/quality/10.14/**
-  - data/practices/protocols/10/PRACTICE-COMP-1012-APPRENTICESHIP-AND-TACIT-KNOWLEDGE-01.yaml
-  - data/practices/protocols/10/PRACTICE-COMP-1013-COMMUNAL-AND-INTERGENERATIONAL-KNOWLEDGE-TRANSMISSION-01.yaml
-  - data/practices/protocols/10/PRACTICE-COMP-1014-ACCESSIBLE-AND-DIFFERENTIATED-LEARNING-01.yaml
-  - docs/authoring/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-*.md
-  - docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md
-  - tests/test_m6k_guided_learning.py
-  - tests/e2e/test_instructional_content.py
+  - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
+  - docs/authoring/reasoning-foundations/**
+  - docs/authoring/evidence-humility-forecasting/**
+  - docs/authoring/systems-causes-tradeoffs/**
+  - docs/authoring/risk-judgment-inference/**
+  - docs/authoring/models-information-execution/**
+  - docs/evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md
+  - tests/test_m6k_reasoning_sources.py
+  - tests/test_m6k_evidence_humility_forecasting_sources.py
+  - tests/test_m6k_systems_causes_tradeoffs_sources.py
+  - tests/test_m6k_risk_judgment_inference_sources.py
+  - tests/test_m6k_models_information_execution_sources.py
+  - tests/test_deployment_contract.py
+  - .github/workflows/verification.yml
+  - requirements-dev.txt
   forbidden_paths:
-  - data/assessment/**
-  - data/model/**
-  - data/curriculum/**
-  - data/practices/registries/activation_ledger.yaml
-  - growth/models.py
-  - growth/migrations/**
-  - growth/services/canonical_import.py
-  - growth/domain/composite_scoring.py
-  - growth/services/composite_score_state.py
-  - growth/domain/context_priority.py
-  - requirements*.txt
+  - data/**
+  - growth/**
+  - grounded_growth/**
+  - templates/**
+  - docs/authoring/exercises/**
+  - docs/authoring/quality/**
+  - docs/plans/m6k/recovery/**
+  - docs/plans/m6k/runtime-projections.json
+  - contracts/tailored-practice-authoring.yaml
+  - requirements.txt
   - pyproject.toml
   - Dockerfile
   - docker-compose.yml
-  - .github/workflows/**
-  - docs/plans/m6k/recovery/**
-  - docs/authoring/quality/ledger.json
+  - .github/codex/**
 acceptance:
-- 'Exactly 10.12, 10.13 and 10.14 become individually authored runtime practices: 108 tailored, 275 pending.'
-- Apprenticeship includes complete harmless bow instructions, observation and correction records, simulated
-  checks and a separate voluntary live route.
-- Transmission includes a complete fictional holder packet, flawed handoff, permission record and holder-verification
-  boundary.
-- Accessible learning includes a complete grid, comparable three-position two-move routes, learner-stated
-  barrier and separate usability and performance checks.
-- Every guide includes complete materials, different worked example, separately revealed checks, accessible
-  or advanced route and bounded outcome examples.
-- Preserve 383 protocol IDs, 1151 action IDs, parent mappings, completion rules, activation, scoring and
-  immutable event replay.
-- Preserve 383 protocol IDs, 1151 action IDs, parent mappings, completion rules, activation, scoring and
-  immutable event replay.
-- Recovery archive stays byte-exact; prospective content is checked against pinned originals and exact
-  compiler output.
-- Formal independent, actual learner, qualified and owner acceptance are not inferred.
+- On 14 September 2026 the owner explicitly directed "ignore cicd for now, just vett the quality of the posts" and requested the next six. For PR80 and its exact six-source successor, editorial review, source checks, manifest and scoped-diff verification govern source publication and the already-authorized normal merges. Do not wait for or rerun full application/CI/CD gates for these deliveries; retain their actual failed, cancelled and skipped evidence. This does not waive actual branch protection or authorize deployment, runtime or participant-data changes.
+- Fetch full Git history only in the quality checkout so the unchanged pinned-ancestor source regression can inspect its original input; do not alter that test, its baseline revision or its comparison.
+- Keep quality timeout exactly 180 minutes; add only pytest-xdist>=3.8,<4 to development requirements and run the complete existing non-browser selection with four workers using load with --maxschedchunk=1. Preserve separate worker test databases, migrations, every test ID/assertion, browser execution and all readiness commands.
+- Limit verification workflow changes to increasing the Compose job time budget from 60 to 180 minutes and its explanatory comment, plus full history in the quality checkout and four pytest workers with --dist=load --maxschedchunk=1 in the existing quality test step; retain every command, assertion, gate dependency and required result.
+- Align only the deployment-contract test's Compose budget expectation with the owner-approved 180 minutes; retain its quality expectation at 180 and every other assertion.
+- Preserve the twenty-one source candidates and every existing test criterion.
+- Repair formatting and lint without weakening or skipping checks.
+- The temporary same-repository PR80-only workflow may commit exactly the five hash-verified test repairs and regenerated manifest to the existing PR branch, never main. Remove this workflow before merge.
+- Export only tracked source and diagnostic results, never credentials, private application data, or untracked state.
+- Keep runtime coverage at 108 tailored and 275 pending; source publication is not runtime completion.
+- Verify the final manifest, source suite, Ruff, and protected-path identities.
 validation:
   local:
-  - .venv/bin/python -m pytest tests/test_m6k_guided_learning.py tests/test_m6k_independent_teaching_breadth.py
-    tests/test_m6k_learning_loop.py tests/test_m6k_inquiry_notes.py tests/test_m6k_learning_craft.py tests/test_m6k_physical_capacity.py
-    tests/test_tailored_practice_authoring.py tests/test_m6k_recovery.py tests/test_m6k_review_evidence.py
-    -q
-  - ./scripts/agent-verify.sh contract
-  - make pilot-check curriculum-check competency-evidence-check
+  - python -m unittest discover -s tests -p '*sources.py' -v
+  - python scripts/verify-manifest.py
   - git diff --check
-  required_ci:
-  - Ruff Django pytest migration drift and manifest verification
-  - all readiness and canonical report gates
-  - Playwright core journeys
-  - Compose backup restore and recreation
-  - aggregate Pilot readiness gate
+  required_ci: []
+  deferred_ci:
+  - Full application, browser, Compose and aggregate CI gates are deferred for these source-only deliveries by the owner's 14 September instruction; existing workflow definitions and quality 180-minute limit remain unchanged.
   focused_tests_to_add:
-  - Exact identity and completion preservation for three runtime projections
-  - Six prompt/key reveal boundaries and three served Django guides
-  - Task-grounded correction, permission and matched-route fixtures
-  - Three prospective recovery-drift rejections
-  - Desktop/mobile keyboard reveal through compiled guides
+  - Preserve source identities and test criteria
+  - Run the seventeen previously unavailable source-text checks
 risk:
   class: moderate
   hazards:
-  - Simulation is mislabeled as live guided learning
-  - Accurate knowledge is distributed outside permission
-  - An access adaptation abandons the construct or implies diagnosis
-  - One supported trial is promoted into causal or durable learning evidence
+  - Source publication mistaken for runtime integration
+  - Repair changes assertions or hides failures
+  - Automation changes unrelated paths or overwrites another author
   stop_conditions:
-  - historical event replay changes
-  - assessment, activation or scoring mathematics changes
-  - a prompt exposes its answer key before an attempt
-  - A promised cord reference, holder packet, route, record or answer check is missing
-  - a required local gate fails
+  - Any protected-path change
+  - Expected repaired hash mismatch
+  - Non-fast-forward push or falsely claimed verification
 rollback:
-  strategy: Revert the content release before import or restore the verified pre-upgrade backup; never
-    reinterpret existing event snapshots.
+  strategy: Revert source-only changes; no database, deployment, live-action, or historical mutation.
 evidence:
   output:
-  - docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md
-  claim_boundary: Authored educational practices and software verification; no automatic formal, independent
-    learner, qualified, owner or empirical validation acceptance.
+  - docs/evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md
+  claim_boundary: The owner now explicitly defers CI/CD as a source-publication gate for these two deliveries and requests editorial quality vetting. Owner authorizes merge of PR80 and the next six, plus the bounded full-history quality checkout and four-worker test-runner/development-dependency repair while keeping quality at 180 minutes. All compiler integration, deployment, and formal human-review claims remain separate.
