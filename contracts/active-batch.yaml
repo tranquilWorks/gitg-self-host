@@ -1,88 +1,111 @@
 schema_version: 1
 batch:
-  id: M6K-SIX-MORE-SOURCE-CONSOLIDATION
-  title: Publish consolidated sources and repair source verification
-  goal: Preserve twenty-one authored candidates, repair source-test formatting, and honor the explicit owner merge request without runtime integration claims.
+  id: M6K-EXECUTION-CAPACITY-CLOSEOUT-SIX
+  title: Author scheduling, workflow, pacing, accountability, adaptation and responsible endings
+  goal: Deliver the owner's exact six source companions 11.05–11.10 as one verified merged batch after PR80,
+    preserving runtime and all preceding source work.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  milestone: M6K-SIX-MORE-SOURCE-PUBLICATION
-  baseline_commit: d93532696d3ea9d04e50f47350b90fa255208511
+  - docs/authoring/execution-capacity-closeout/SOURCES.md
+  - docs/authoring/execution-capacity-closeout/cohort.json
+  milestone: M6K-EXECUTION-CAPACITY-CLOSEOUT-SOURCE-PUBLICATION
+  baseline_commit: adbbbdac63ec29018732795a1bf4928905c2775d
 dependencies:
-- PR-77-merged
+- PR-80-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/reasoning-foundations/**
-  - docs/authoring/evidence-humility-forecasting/**
-  - docs/authoring/systems-causes-tradeoffs/**
-  - docs/authoring/risk-judgment-inference/**
-  - docs/authoring/models-information-execution/**
-  - docs/evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md
-  - tests/test_m6k_reasoning_sources.py
-  - tests/test_m6k_evidence_humility_forecasting_sources.py
-  - tests/test_m6k_systems_causes_tradeoffs_sources.py
-  - tests/test_m6k_risk_judgment_inference_sources.py
-  - tests/test_m6k_models_information_execution_sources.py
-  - tests/test_deployment_contract.py
-  - .github/workflows/verification.yml
-  - requirements-dev.txt
+  - docs/authoring/execution-capacity-closeout/**
+  - docs/evidence/M6K-EXECUTION-CAPACITY-CLOSEOUT-SIX.md
+  - tests/test_m6k_execution_capacity_closeout_sources.py
   forbidden_paths:
   - data/**
   - growth/**
   - grounded_growth/**
   - templates/**
+  - scripts/**
   - docs/authoring/exercises/**
   - docs/authoring/quality/**
-  - docs/plans/m6k/recovery/**
-  - docs/plans/m6k/runtime-projections.json
+  - docs/authoring/reasoning-foundations/**
+  - docs/authoring/evidence-humility-forecasting/**
+  - docs/authoring/systems-causes-tradeoffs/**
+  - docs/authoring/risk-judgment-inference/**
+  - docs/authoring/models-information-execution/**
+  - tests/test_m6k_reasoning_sources.py
+  - tests/test_m6k_evidence_humility_forecasting_sources.py
+  - tests/test_m6k_systems_causes_tradeoffs_sources.py
+  - tests/test_m6k_risk_judgment_inference_sources.py
+  - tests/test_m6k_models_information_execution_sources.py
+  - docs/plans/m6k/**
   - contracts/tailored-practice-authoring.yaml
-  - requirements.txt
+  - requirements*.txt
   - pyproject.toml
   - Dockerfile
   - docker-compose.yml
-  - .github/codex/**
+  - .github/**
 acceptance:
-- On 14 September 2026 the owner explicitly directed "ignore cicd for now, just vett the quality of the posts" and requested the next six. For PR80 and its exact six-source successor, editorial review, source checks, manifest and scoped-diff verification govern source publication and the already-authorized normal merges. Do not wait for or rerun full application/CI/CD gates for these deliveries; retain their actual failed, cancelled and skipped evidence. This does not waive actual branch protection or authorize deployment, runtime or participant-data changes.
-- Fetch full Git history only in the quality checkout so the unchanged pinned-ancestor source regression can inspect its original input; do not alter that test, its baseline revision or its comparison.
-- Keep quality timeout exactly 180 minutes; add only pytest-xdist>=3.8,<4 to development requirements and run the complete existing non-browser selection with four workers using load with --maxschedchunk=1. Preserve separate worker test databases, migrations, every test ID/assertion, browser execution and all readiness commands.
-- Limit verification workflow changes to increasing the Compose job time budget from 60 to 180 minutes and its explanatory comment, plus full history in the quality checkout and four pytest workers with --dist=load --maxschedchunk=1 in the existing quality test step; retain every command, assertion, gate dependency and required result.
-- Align only the deployment-contract test's Compose budget expectation with the owner-approved 180 minutes; retain its quality expectation at 180 and every other assertion.
-- Preserve the twenty-one source candidates and every existing test criterion.
-- Repair formatting and lint without weakening or skipping checks.
-- The temporary same-repository PR80-only workflow may commit exactly the five hash-verified test repairs and regenerated manifest to the existing PR branch, never main. Remove this workflow before merge.
-- Export only tracked source and diagnostic results, never credentials, private application data, or untracked state.
-- Keep runtime coverage at 108 tailored and 275 pending; source publication is not runtime completion.
-- Verify the final manifest, source suite, Ruff, and protected-path identities.
+- On 14 September 2026 the owner instructed "ignore cicd for now, just vett the quality of the posts" and requested
+  the next six. Use editorial review, complete source checks, manifest, links, arithmetic and scope validation
+  for this exact source-only batch and its already-authorized normal merge. Full application/CI/CD gates are
+  deferred, not passed; do not bypass actual branch protection.
+- 'Exact competency IDs: 11.05, 11.06, 11.07, 11.08, 11.09, 11.10. The owner explicitly requested all six remaining
+  domain-11 competencies together; each has separate materials, checks, source/scope evidence and claim limits.'
+- Preserve all 21 preceding source candidates and their repaired 283 test criteria.
+- Supply exact 11.05–11.10 individually usable guides, complete default facts, worked examples, separate later
+  outcomes, at least two fresh checks and corrective keys, supported routes, harder practice, transfer and
+  individual canonical scope maps.
+- Verify schedule intervals, access, dependencies and single-use reserve rather than totals alone.
+- Verify actual workflow outputs, consenting ownership, bounded work in progress, blocked inputs, acceptance
+  tests, rework and responsible closeout.
+- Separate pace, accepted output, verified repairs, active effort, recovery and later burden; preserve restrictions
+  and do not infer health from fictional numbers.
+- Preserve original promises and chronology; distinguish proposals, explicit agreement, attempted delivery,
+  receipt and repair.
+- Preserve review plans and denominators; test one method against outcome and cost, with retain, revise, reject
+  and inconclusive results possible.
+- Distinguish optional refusal, existing duties, obsolete-goal release and safe relationship endings; freeze
+  all 11.10 runtime/action/evidence/completion semantics.
+- Record inspected primary/official sources, limited claims, originality, inaccessible or uninspected material
+  and pending specialist/learner/independent/owner acceptance.
+- Keep runtime coverage 108 tailored and 275 pending, with 383 protocols and 1151 action IDs; 27 additional
+  sources do not imply 135 runtime-tailored competencies.
+- Regenerate and verify manifest; run all existing and new source checks, Ruff for the source-test module,
+  learning-link and protected-path checks. Record actual editorial findings and corrections individually.
 validation:
   local:
   - python -m unittest discover -s tests -p '*sources.py' -v
+  - python -m ruff format --check tests/test_m6k_execution_capacity_closeout_sources.py
+  - python -m ruff check tests/test_m6k_execution_capacity_closeout_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
-  deferred_ci:
-  - Full application, browser, Compose and aggregate CI gates are deferred for these source-only deliveries by the owner's 14 September instruction; existing workflow definitions and quality 180-minute limit remain unchanged.
   focused_tests_to_add:
-  - Preserve source identities and test criteria
-  - Run the seventeen previously unavailable source-text checks
+  - Exact arithmetic, interval boundaries, malformed inputs, fixture/source alignment, chronology, accounting,
+    ownership and status transitions
+  - Byte-pinned canonical/input/frozen-boundary compatibility and prior-source regressions
 risk:
   class: moderate
   hazards:
-  - Source publication mistaken for runtime integration
-  - Repair changes assertions or hides failures
-  - Automation changes unrelated paths or overwrites another author
+  - Source-only companions mistaken for compiler-selected or human-accepted runtime content
+  - Invented event, agreement, receipt, recovery or score advancement
+  - Buffer, rework or cost double counting
+  - Optional refusal used to erase real duties or justify unsafe confrontation
   stop_conditions:
-  - Any protected-path change
-  - Expected repaired hash mismatch
-  - Non-fast-forward push or falsely claimed verification
+  - Protected-path or stable-ID drift
+  - Failed verification or unresolved material source defect
+  - Non-fast-forward push requiring destructive history repair
 rollback:
-  strategy: Revert source-only changes; no database, deployment, live-action, or historical mutation.
+  strategy: Revert this bounded source-only batch; no migration, deployment or participant-data mutation is
+    involved.
 evidence:
   output:
-  - docs/evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md
-  claim_boundary: The owner now explicitly defers CI/CD as a source-publication gate for these two deliveries and requests editorial quality vetting. Owner authorizes merge of PR80 and the next six, plus the bounded full-history quality checkout and four-worker test-runner/development-dependency repair while keeping quality at 180 minutes. All compiler integration, deployment, and formal human-review claims remain separate.
+  - docs/evidence/M6K-EXECUTION-CAPACITY-CLOSEOUT-SIX.md
+  claim_boundary: The owner explicitly authorizes source publication and normal merge and now defers CI/CD
+    gates for these two deliveries in favor of editorial/source quality vetting. Native [skip ci] commit markers
+    avoid unnecessary CI runs without editing workflows. No formal content/specialist/learner acceptance, runtime
+    integration, deployment or actual branch-protection bypass is implied.
