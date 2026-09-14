@@ -1,0 +1,592 @@
+{
+  "schedule": {
+    "window": [
+      540,
+      720
+    ],
+    "baseline": [
+      [
+        540,
+        545,
+        "Prepare form materials",
+        5
+      ],
+      [
+        545,
+        605,
+        "Complete and check form",
+        60
+      ],
+      [
+        605,
+        610,
+        "Move to appointment",
+        5
+      ],
+      [
+        610,
+        640,
+        "Fixed appointment",
+        30
+      ],
+      [
+        640,
+        655,
+        "Recovery",
+        15
+      ],
+      [
+        655,
+        660,
+        "Move to errand desk",
+        5
+      ],
+      [
+        660,
+        690,
+        "Optional errand",
+        30
+      ],
+      [
+        690,
+        720,
+        "Reserved buffer",
+        30
+      ]
+    ],
+    "branch_a_remaining": [
+      [
+        655,
+        675,
+        "Interruption",
+        20
+      ],
+      [
+        675,
+        720,
+        "Unallocated",
+        45
+      ]
+    ],
+    "errand_access": [
+      660,
+      705
+    ],
+    "form_energy": [
+      540,
+      605
+    ],
+    "branch_b": {
+      "interruption": [
+        565,
+        585
+      ],
+      "form_done": 20,
+      "form_remaining": 40,
+      "form_deadline": 605
+    },
+    "fresh_1": {
+      "windows": [
+        [
+          780,
+          800
+        ],
+        [
+          815,
+          840
+        ]
+      ],
+      "task": 30,
+      "handoff": 5
+    },
+    "fresh_2": {
+      "window": 120,
+      "work": 75,
+      "recovery": 15,
+      "reserve": 30,
+      "interruptions": [
+        20,
+        15
+      ],
+      "deferred": 10
+    }
+  },
+  "workflow": {
+    "inventory": [
+      [
+        "Upper Left",
+        "PUNCH",
+        "hole punch"
+      ],
+      [
+        "Upper Right",
+        "STRING",
+        "string spool"
+      ],
+      [
+        "Lower Left",
+        "BLUE TAPE",
+        "blue tape roll"
+      ],
+      [
+        "Lower Right",
+        "BLANK CARDS",
+        "blank cards"
+      ]
+    ],
+    "targets": [
+      "hole punch",
+      "blue tape roll"
+    ],
+    "v0_locations": [
+      "Upper Left",
+      "Upper Left",
+      "Lower Right",
+      "Lower Left"
+    ],
+    "v1_locations": [
+      "Upper Left",
+      "Upper Left",
+      "Lower Left",
+      "Lower Left"
+    ],
+    "reader_v0": [
+      true,
+      true,
+      false,
+      null
+    ],
+    "cards": [
+      {
+        "id": "S",
+        "owner": "learner",
+        "consented": true,
+        "dependencies": [],
+        "state": "ready",
+        "output": null,
+        "accepted": false
+      },
+      {
+        "id": "I",
+        "owner": "learner",
+        "consented": true,
+        "dependencies": [
+          "S"
+        ],
+        "state": "blocked",
+        "output": null,
+        "accepted": false,
+        "missing_input": "S output",
+        "unblock_owner": "learner",
+        "next_check": "After S output, before I begins"
+      },
+      {
+        "id": "D",
+        "owner": "learner",
+        "consented": true,
+        "dependencies": [
+          "I"
+        ],
+        "state": "blocked",
+        "output": null,
+        "accepted": false,
+        "missing_input": "I output",
+        "unblock_owner": "learner",
+        "next_check": "After I output, before D begins"
+      },
+      {
+        "id": "T",
+        "owner": "learner",
+        "consented": true,
+        "dependencies": [
+          "D"
+        ],
+        "state": "blocked",
+        "output": null,
+        "accepted": false,
+        "missing_input": "D output",
+        "unblock_owner": "learner",
+        "next_check": "After D output, before T begins"
+      },
+      {
+        "id": "R",
+        "owner": "learner",
+        "consented": true,
+        "dependencies": [
+          "T"
+        ],
+        "state": "blocked",
+        "output": null,
+        "accepted": false,
+        "missing_input": "T output",
+        "unblock_owner": "learner",
+        "next_check": "After T output, before R begins"
+      }
+    ]
+  },
+  "pacing": {
+    "inventory": [
+      [
+        "A",
+        "notebook",
+        2
+      ],
+      [
+        "A",
+        "pencil",
+        4
+      ],
+      [
+        "A",
+        "clip box",
+        1
+      ],
+      [
+        "A",
+        "ruler",
+        1
+      ],
+      [
+        "B",
+        "folder",
+        3
+      ],
+      [
+        "B",
+        "card pack",
+        2
+      ],
+      [
+        "B",
+        "eraser",
+        2
+      ],
+      [
+        "B",
+        "tape roll",
+        1
+      ]
+    ],
+    "maintenance": {
+      "attempted": 8,
+      "wrong": 0,
+      "active": [
+        18,
+        19
+      ],
+      "recovery": [
+        10,
+        10
+      ]
+    },
+    "sprint": {
+      "attempted": 8,
+      "wrong": 3,
+      "active": [
+        40,
+        12,
+        8
+      ],
+      "recovery": [
+        0,
+        10
+      ],
+      "care_delay": 10
+    },
+    "fresh": [
+      [
+        12,
+        4,
+        30,
+        12,
+        4
+      ],
+      [
+        10,
+        0,
+        30,
+        0,
+        0
+      ]
+    ]
+  },
+  "promise": {
+    "clock_origin": "Thursday 00:00, minute offsets; every event is fictional",
+    "original": {
+      "due": 2460,
+      "method": "direct",
+      "item": "Blue Atlas"
+    },
+    "proposal": {
+      "due": 1980,
+      "method": "Jo",
+      "item": "Blue Atlas"
+    },
+    "A": [
+      [
+        720,
+        "propose"
+      ],
+      [
+        750,
+        "accept"
+      ],
+      [
+        1080,
+        "intermediary"
+      ],
+      [
+        1980,
+        "attempt"
+      ],
+      [
+        1985,
+        "receipt"
+      ]
+    ],
+    "B": [
+      [
+        720,
+        "propose"
+      ],
+      [
+        750,
+        "acknowledge"
+      ],
+      [
+        780,
+        "clarify"
+      ]
+    ],
+    "C": [
+      [
+        720,
+        "propose"
+      ],
+      [
+        750,
+        "accept"
+      ],
+      [
+        1080,
+        "intermediary"
+      ],
+      [
+        1980,
+        "failed_attempt"
+      ]
+    ]
+  },
+  "review": {
+    "baseline": {
+      "outcomes": [
+        true,
+        false,
+        false
+      ],
+      "active": [
+        8,
+        6,
+        7
+      ]
+    },
+    "branches": {
+      "A": {
+        "outcomes": [
+          true,
+          false,
+          true
+        ],
+        "costs": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "comparable": true,
+        "burden": false,
+        "expected": "retain"
+      },
+      "B": {
+        "outcomes": [
+          true,
+          true,
+          true
+        ],
+        "costs": [
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "comparable": false,
+        "burden": false,
+        "expected": "inconclusive"
+      },
+      "C": {
+        "outcomes": [
+          true,
+          false,
+          false
+        ],
+        "costs": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "comparable": true,
+        "burden": false,
+        "expected": "reject"
+      },
+      "D": {
+        "outcomes": [
+          true,
+          true,
+          true
+        ],
+        "costs": [
+          [
+            4,
+            3
+          ],
+          [
+            null,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "comparable": null,
+        "burden": null,
+        "expected": "inconclusive"
+      },
+      "E": {
+        "outcomes": [
+          true,
+          true,
+          true
+        ],
+        "costs": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "comparable": true,
+        "burden": true,
+        "expected": "reject"
+      },
+      "F": {
+        "outcomes": [
+          true,
+          false,
+          true
+        ],
+        "costs": [
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        "comparable": true,
+        "burden": false,
+        "expected": "revise"
+      }
+    }
+  },
+  "boundary": {
+    "duration_days": 10,
+    "due_within_days": [
+      3,
+      null,
+      7
+    ],
+    "minimum_completed": 2,
+    "markers": [
+      [
+        "user_initiated",
+        "moved_beyond_transactional"
+      ],
+      [
+        "moved_beyond_transactional",
+        "follow_up_question_asked"
+      ],
+      [
+        "follow_up_within_seven_days",
+        "user_initiated"
+      ]
+    ],
+    "substantive_markers": [
+      "moved_beyond_transactional",
+      "follow_up_within_seven_days"
+    ],
+    "setup_packs": 6,
+    "A": {
+      "packs": 6,
+      "key_received": true,
+      "approval": false,
+      "safe": true
+    },
+    "B": {
+      "packs": 5,
+      "key_received": true,
+      "approval": false,
+      "safe": true
+    },
+    "C": {
+      "packs": null,
+      "key_received": false,
+      "approval": false,
+      "safe": false
+    },
+    "D": {
+      "packs": null,
+      "key_received": null,
+      "approval": null,
+      "safe": null
+    }
+  }
+}
