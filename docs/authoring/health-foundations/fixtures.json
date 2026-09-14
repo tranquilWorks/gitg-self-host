@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "runtime_evidence": false,
+  "care": {
+    "areas": [
+      "Screening",
+      "Symptoms",
+      "Medicines",
+      "Vaccination",
+      "Dental care",
+      "Sexual health"
+    ],
+    "branches": {
+      "A": [
+        [
+          "authorized",
+          1,
+          660
+        ],
+        [
+          "sent",
+          1,
+          660
+        ],
+        [
+          "acknowledged",
+          1,
+          840
+        ],
+        [
+          "received_partial",
+          3,
+          600
+        ],
+        [
+          "booked",
+          3,
+          900
+        ]
+      ],
+      "B": [
+        [
+          "authorized",
+          1,
+          660
+        ],
+        [
+          "sent",
+          1,
+          660
+        ],
+        [
+          "acknowledged",
+          1,
+          840
+        ]
+      ]
+    },
+    "followup_day": 4,
+    "appointment_day": 8
+  },
+  "sleep": {
+    "baseline": [
+      [
+        "B1",
+        "23:00",
+        "07:00",
+        "manageable"
+      ],
+      [
+        "B2",
+        "23:30",
+        "07:00",
+        "difficult"
+      ],
+      [
+        "B3",
+        "23:00",
+        "07:00",
+        "manageable"
+      ]
+    ],
+    "trial": [
+      [
+        "T1",
+        "23:00",
+        "07:00",
+        true,
+        "manageable"
+      ],
+      [
+        "T2",
+        "23:00",
+        "07:00",
+        true,
+        "manageable"
+      ],
+      [
+        "T3",
+        "23:00",
+        "07:00",
+        true,
+        null
+      ],
+      [
+        "T4",
+        "00:00",
+        "07:00",
+        false,
+        "difficult"
+      ]
+    ]
+  },
+  "food": {
+    "budget_cents": 800,
+    "prep_limit_minutes": 8,
+    "storage_limit_minutes": 1440,
+    "items": {
+      "R": {
+        "price": 200,
+        "prep": 2,
+        "portions": 2,
+        "protein": 2,
+        "fiber": 1,
+        "safety": "verified"
+      },
+      "B": {
+        "price": 240,
+        "prep": 2,
+        "portions": 2,
+        "protein": 7,
+        "fiber": 5,
+        "safety": "verified"
+      },
+      "V": {
+        "price": 160,
+        "prep": 1,
+        "portions": 2,
+        "protein": 1,
+        "fiber": 2,
+        "safety": "verified"
+      },
+      "O": {
+        "price": 0,
+        "prep": 1,
+        "portions": 2,
+        "protein": 0,
+        "fiber": 0,
+        "safety": "verified"
+      },
+      "F": {
+        "price": 100,
+        "prep": 1,
+        "portions": 2,
+        "protein": null,
+        "fiber": null,
+        "safety": "verified"
+      },
+      "P": {
+        "price": 280,
+        "prep": 2,
+        "portions": 2,
+        "protein": null,
+        "fiber": null,
+        "safety": "verified"
+      },
+      "S": {
+        "price": 80,
+        "prep": 1,
+        "portions": 2,
+        "protein": null,
+        "fiber": null,
+        "safety": "incompatible"
+      },
+      "U": {
+        "price": 40,
+        "prep": 1,
+        "portions": 2,
+        "protein": null,
+        "fiber": null,
+        "safety": "unknown"
+      }
+    },
+    "default": [
+      "R",
+      "B",
+      "V",
+      "O",
+      "F"
+    ],
+    "alternate": [
+      "R",
+      "P",
+      "V",
+      "O",
+      "F"
+    ],
+    "repeat_minutes": {
+      "A": 1430,
+      "B": 1470
+    }
+  },
+  "body": {
+    "A": {
+      "meal": "occurred",
+      "feelings": "uncomfortable",
+      "message": "absent",
+      "response": false,
+      "qualified_contact": false
+    },
+    "B": {
+      "meal": "occurred",
+      "feelings": "uncomfortable",
+      "message": "drafted",
+      "response": false,
+      "qualified_contact": false,
+      "interference": "repeated"
+    }
+  },
+  "aerobic": {
+    "limit": 6,
+    "loop_minutes": 2,
+    "loops": 3,
+    "outbound": 4,
+    "return": 4,
+    "sessions": [
+      {
+        "actual": 6,
+        "usual_support": true,
+        "warning": false,
+        "recovery_minutes": 3,
+        "later_function": "usual"
+      },
+      {
+        "actual": 4,
+        "usual_support": true,
+        "warning": true,
+        "recovery_minutes": null,
+        "later_function": null
+      }
+    ],
+    "clearance_to_resume": false
+  },
+  "mobility": {
+    "arrangements": {
+      "A": [
+        35,
+        20,
+        true
+      ],
+      "B": [
+        25,
+        20,
+        true
+      ],
+      "C": [
+        45,
+        35,
+        null
+      ]
+    },
+    "criteria": [
+      "support",
+      "control",
+      "no_new_pain_dizziness_instability",
+      "grip_aftermath"
+    ],
+    "initial_A": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "initial_B": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "repeat_B": [
+      true,
+      true,
+      true,
+      null
+    ],
+    "grip_fatigue": true,
+    "C_attempted": false
+  }
+}
