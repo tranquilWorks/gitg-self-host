@@ -1,29 +1,28 @@
 schema_version: 1
 batch:
-  id: M6K-HEALTH-FOUNDATIONS-SIX
-  title: Author six health literacy, nourishment and physical access sources
-  goal: "Individually author, vet, source-verify and normally merge the next six pending competencies: 12.01\u2013\
-    12.04, 12.06 and 12.07; preserve prior work."
+  id: M6K-HEALTH-STEWARDSHIP-SIX
+  title: Author six health stewardship, autonomy and lifelong participation sources
+  goal: Individually author, vet, source-verify and normally merge 12.09–12.14 under the continuing owner source-quality
+    gate; preserve all newer and preceding work.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/health-foundations/SOURCES.md
-  - docs/authoring/health-foundations/cohort.json
-  milestone: M6K-HEALTH-FOUNDATIONS-SOURCE-PUBLICATION
-  baseline_commit: 0dda672a905a972249105c06a0d1b9bbc75e128e
+  - docs/authoring/health-stewardship/SOURCES.md
+  - docs/authoring/health-stewardship/cohort.json
+  milestone: M6K-HEALTH-STEWARDSHIP-SOURCE-PUBLICATION
+  baseline_commit: afeb95df1dd058ab1c1272ac4d24db7d8c6cb3ef
 dependencies:
-- PR-80-merged
-- PR-81-merged
+- PR-82-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/health-foundations/**
-  - docs/evidence/M6K-HEALTH-FOUNDATIONS-SIX.md
-  - tests/test_m6k_health_foundations_sources.py
+  - docs/authoring/health-stewardship/**
+  - docs/evidence/M6K-HEALTH-STEWARDSHIP-SIX.md
+  - tests/test_m6k_health_stewardship_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -51,57 +50,64 @@ scope:
   - .github/**
   - docs/authoring/execution-capacity-closeout/**
   - tests/test_m6k_execution_capacity_closeout_sources.py
+  - docs/authoring/health-foundations/**
+  - tests/test_m6k_health_foundations_sources.py
 acceptance:
 - The owner instructed "ignore cicd for now, just vett the quality of the posts" and then "if they pass by
   your standards like the past ones move this one on and continue with the next six". Editorial/source quality
   is the gate for this source-only batch and its authorized normal merge. Full application, browser, Compose
-  and CI/CD are deferred, not passed. Actual branch protection remains binding.
-- 'Exact IDs: 12.01, 12.02, 12.03, 12.04, 12.06, 12.07. Current compiler selection already includes 12.05 and
-  12.08 from PR72; preserve those authored repairs rather than duplicate them.'
-- Preserve the 27 prior source companions and all 348 source checks. Each new guide needs distinct explanation
-  and worked example, complete default materials, prior decision and separate later results, two fresh checks
-  and separate keys, access routes, harder practice, transfer and individual canonical scope mapping.
-- Distinguish prevention, symptom evaluation and treatment; missing records, requested records, received records,
-  booked care and completed care are separate. Do not prescribe screening, vaccination or medication changes.
-- Sleep opportunity is not measured sleep. Compare three baseline and four trial nights with correct missing-data
-  denominators and confounding; preserve needed sleep, essential care and existing clinical plans.
-- Nutrition cases must fit cost, preparation and access constraints; use consistent serving units, honor allergy/cross-contact
-  uncertainty and existing care plans, and avoid calorie targets or universal adequacy claims.
-- Body-image content separates observations, judgments, care and appearance preferences without compelled positivity,
-  deprivation, compensation, triggering exposure or treatment claims.
-- Aerobic decisions preserve existing individualized dose and support, compare recovery and effort, stop for
-  warning signs and never turn two sessions into measured adaptation or automatic progression.
-- Mobility content separates task access, range, control, tissue tolerance, balance and stability; preserve
-  aids, avoid forced range and separate environmental improvement from bodily adaptation.
-- Use inspected primary/official sources with dates, jurisdictions, specific claim limits, originality and
-  unresolved qualified/learner/independent/owner review. Synthetic outcomes never become participant evidence.
-- Runtime stays 108 tailored /275 pending /383 protocols /1151 actions. The resulting 33 additional source
-  companions do not change runtime, scoring, completion or review acceptance.
-- Run all existing and new source tests, focused Ruff, manifest, local links, fixture arithmetic and source
-  alignment, canonical/input pins and allowed/forbidden-path audit; retain failures and corrections.
+  and CI/CD are deferred, not passed. Actual branch protection remains binding. The owner now asks "can we
+  do another 6 more"; this continues that authorized delivery method.
+- 'Exact IDs: 12.09, 12.10, 12.11, 12.12, 12.13, 12.14. Preserve all 33 preceding companions and 413 source
+  checks, including existing strength/coordination repairs.'
+- Each guide needs an individual purpose and applicability boundary, substantive explanation, distinct worked
+  example, complete default materials, exact actions/burden/output, separate later outcomes, at least two fresh
+  checks with separate corrective guidance, supported/harder routes, later transfer and a canonical scope map.
+- 'Body composition: distinguish total weight, muscle/fat, waist, function and clinical markers; preserve measurement
+  context and contradictory evidence, with no body metric or appearance verdict, diagnosis or restrictive target.'
+- 'Recovery: compare load and resources with symptoms and ordinary function; no self-diagnosis, pain provocation/masking,
+  calendar-only clearance, automatic progression or deprivation.'
+- 'Substances: distinguish alcohol/nicotine/recreational/performance/medication risks, ingredients, impairment,
+  interactions and dependence; no dosing, sourcing, use experiment or unsupervised withdrawal. Emergency care
+  supersedes exercise review.'
+- 'Bodily autonomy: current specific revocable permission, no-touch option, privacy and reciprocal boundaries;
+  stop/repair oversteps without demanding forgiveness. Medical choice needs applicable care process; no universal
+  legal assertion or unsafe confrontation.'
+- 'Presentation: actual hygiene/context requirements, identity, access and movement/comfort; no purchase/beauty/posture
+  demand, discrimination normalizing or compliment-based success inference.'
+- 'Lifelong movement: map future participation to strength/endurance/balance/mobility/bone questions, carrying/transfers/access;
+  use existing supported familiar plans, preserve unmet transport or recovery and separate two attempts from
+  lifelong capacity.'
+- Inspect official/primary sources with date/jurisdiction/claim limits; original synthetic cases, not clinical
+  protocols or participant records. No independent/qualified/learner/owner acceptance is fabricated.
+- 'After this batch: 39 additional source companions; runtime 108 tailored /275 pending /383 protocols /1,151
+  actions unchanged. No compiler, runtime, action/evidence/scoring/completion, formal-review, workflow or participant-data
+  changes.'
+- Run complete source tests, focused Ruff, links, canonical/input pins, arithmetic/chronology/permissions/status
+  regressions, manifest and exact allowed/forbidden-path audit; retain failures and final provenance.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_health_foundations_sources.py
-  - python -m ruff check tests/test_m6k_health_foundations_sources.py
+  - python -m ruff format --check tests/test_m6k_health_stewardship_sources.py
+  - python -m ruff check tests/test_m6k_health_stewardship_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Care-state chronology and unknown-record handling
-  - Sleep windows, missing data and comparison denominators
-  - Food quantities, whole-package budget and allergen status
-  - Body-care permission and evidence distinctions
-  - Aerobic stop/recovery and changed-condition decisions
-  - Mobility support, task access and adaptation claim boundaries
-  - Exact source/fixture alignment, canonical/input pins and prior-source regressions
+  - Measurement comparability and unknown tissue/lab status
+  - Load quantities and recovery-before-return decisions
+  - Transport feasibility, impairment, dependence and emergency routing
+  - Scoped/revoked/unknown consent and privacy permission transitions
+  - Presentation item constraints, routine timing and real movement evidence
+  - Future-function map, round-trip access and supported participation chronology
+  - Source/fixture alignment, malformed data, canonical pins and prior regressions
 risk:
   class: moderate
   hazards:
-  - Educational health content mistaken for clinical advice or specialist acceptance
-  - Missing observations normalized into favorable evidence
-  - Unsafe food or exercise choices inferred from a synthetic case
-  - Existing compiled strength/coordination repairs overwritten
+  - Clinical/legal conclusions inferred from educational synthetic cases
+  - Unconfirmed permission, transport, recovery or clinical review reported as complete
+  - Body metrics or appearance made a dignity or nourishment score
+  - Unsafe withdrawal, physical challenge or unsupported aging assumptions
   stop_conditions:
   - Protected-path or stable-ID drift
   - Failed verification or unresolved material source defect
@@ -111,7 +117,7 @@ rollback:
     involved.
 evidence:
   output:
-  - docs/evidence/M6K-HEALTH-FOUNDATIONS-SIX.md
+  - docs/evidence/M6K-HEALTH-STEWARDSHIP-SIX.md
   claim_boundary: Owner-authorized source publication and normal merge under editorial/source quality gate.
     Native [skip ci] markers defer CI without workflow changes. No clinical, specialist, learner, independent
     or owner content acceptance; no runtime integration, deployment or branch-protection bypass.
