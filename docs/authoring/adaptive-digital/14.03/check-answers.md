@@ -1,0 +1,7 @@
+# Corrective key — identity and privacy
+
+1. Public audience is restricted; the described provider collection continues. Inspect the visibility control and the separate policy/control governing collection and retention. Do not turn absence from public preview into absence from provider systems or a promise of anonymity.
+2. Future uploading is disabled under the stipulated policy, and the deletion request was received. Existing-record deletion is **unconfirmed**. Retain the request scope and seek its actual disposition through the verified process. Acknowledgement is progress in a request, not evidence the data disappeared.
+3. The provider-hosted post is no longer visible in the checked location. The recipient's copy and linked app's records are separate and unresolved. Inspect the linked app's official controls/policy and, where appropriate, request a specific action from its responsible party. Do not infer an applicable legal right, response deadline or guaranteed retrieval of every copy from this fictional case.
+
+For Mira, the public location, audience, future discovery and hosted caption changed. Stored-list deletion remains pending in the initial later packet. The alternative provider reply supports only a provider-confirmed contact-list result. Recovery remains linked; security logs continue; the outside drawing is unverified. These are educational status distinctions, not a legal opinion or independent provider audit.

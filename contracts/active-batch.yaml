@@ -1,28 +1,28 @@
 schema_version: 1
 batch:
-  id: M6K-HEALTH-STEWARDSHIP-SIX
-  title: Author six health stewardship, autonomy and lifelong participation sources
-  goal: Individually author, vet, source-verify and normally merge 12.09–12.14 under the continuing owner source-quality
-    gate; preserve all newer and preceding work.
+  id: M6K-ADAPTIVE-DIGITAL-SIX
+  title: Complete health source companions and begin digital-life foundations
+  goal: Individually author and vet 12.15, 12.16 and 14.01–14.04, then publish and normally merge under
+    the continuing owner source-quality workflow.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/health-stewardship/SOURCES.md
-  - docs/authoring/health-stewardship/cohort.json
-  milestone: M6K-HEALTH-STEWARDSHIP-SOURCE-PUBLICATION
-  baseline_commit: afeb95df1dd058ab1c1272ac4d24db7d8c6cb3ef
+  - docs/authoring/adaptive-digital/SOURCES.md
+  - docs/authoring/adaptive-digital/cohort.json
+  milestone: M6K-ADAPTIVE-DIGITAL-SOURCE-PUBLICATION
+  baseline_commit: c91e43e915ac9f9963dec08904d29be1d6e13365
 dependencies:
-- PR-82-merged
+- PR-83-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/health-stewardship/**
-  - docs/evidence/M6K-HEALTH-STEWARDSHIP-SIX.md
-  - tests/test_m6k_health_stewardship_sources.py
+  - docs/authoring/adaptive-digital/**
+  - docs/evidence/M6K-ADAPTIVE-DIGITAL-SIX.md
+  - tests/test_m6k_adaptive_digital_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -52,72 +52,60 @@ scope:
   - tests/test_m6k_execution_capacity_closeout_sources.py
   - docs/authoring/health-foundations/**
   - tests/test_m6k_health_foundations_sources.py
+  - docs/authoring/health-stewardship/**
+  - tests/test_m6k_health_stewardship_sources.py
 acceptance:
-- The owner instructed "ignore cicd for now, just vett the quality of the posts" and then "if they pass by
-  your standards like the past ones move this one on and continue with the next six". Editorial/source quality
-  is the gate for this source-only batch and its authorized normal merge. Full application, browser, Compose
-  and CI/CD are deferred, not passed. Actual branch protection remains binding. The owner now asks "can we
-  do another 6 more"; this continues that authorized delivery method.
-- 'Exact IDs: 12.09, 12.10, 12.11, 12.12, 12.13, 12.14. Preserve all 33 preceding companions and 413 source
-  checks, including existing strength/coordination repairs.'
-- Each guide needs an individual purpose and applicability boundary, substantive explanation, distinct worked
-  example, complete default materials, exact actions/burden/output, separate later outcomes, at least two fresh
-  checks with separate corrective guidance, supported/harder routes, later transfer and a canonical scope map.
-- 'Body composition: distinguish total weight, muscle/fat, waist, function and clinical markers; preserve measurement
-  context and contradictory evidence, with no body metric or appearance verdict, diagnosis or restrictive target.'
-- 'Recovery: compare load and resources with symptoms and ordinary function; no self-diagnosis, pain provocation/masking,
-  calendar-only clearance, automatic progression or deprivation.'
-- 'Substances: distinguish alcohol/nicotine/recreational/performance/medication risks, ingredients, impairment,
-  interactions and dependence; no dosing, sourcing, use experiment or unsupervised withdrawal. Emergency care
-  supersedes exercise review.'
-- 'Bodily autonomy: current specific revocable permission, no-touch option, privacy and reciprocal boundaries;
-  stop/repair oversteps without demanding forgiveness. Medical choice needs applicable care process; no universal
-  legal assertion or unsafe confrontation.'
-- 'Presentation: actual hygiene/context requirements, identity, access and movement/comfort; no purchase/beauty/posture
-  demand, discrimination normalizing or compliment-based success inference.'
-- 'Lifelong movement: map future participation to strength/endurance/balance/mobility/bone questions, carrying/transfers/access;
-  use existing supported familiar plans, preserve unmet transport or recovery and separate two attempts from
-  lifelong capacity.'
-- Inspect official/primary sources with date/jurisdiction/claim limits; original synthetic cases, not clinical
-  protocols or participant records. No independent/qualified/learner/owner acceptance is fabricated.
-- 'After this batch: 39 additional source companions; runtime 108 tailored /275 pending /383 protocols /1,151
-  actions unchanged. No compiler, runtime, action/evidence/scoring/completion, formal-review, workflow or participant-data
-  changes.'
-- Run complete source tests, focused Ruff, links, canonical/input pins, arithmetic/chronology/permissions/status
-  regressions, manifest and exact allowed/forbidden-path audit; retain failures and final provenance.
+- 'The current request to pick up competency authoring continues the recorded owner source-only six-guide
+  workflow: vet quality, publish and normally merge, with CI/CD deferred. No branch-protection bypass,
+  deployment, runtime change or human acceptance is authorized.'
+- 'Exact IDs: 12.15, 12.16, 14.01, 14.02, 14.03, 14.04. Finish the two remaining domain-12 source companions
+  and continue past already-tailored domain 13. Preserve all 39 prior companions and 478 source checks.'
+- Individually supply meaningful concept explanations, worked example, complete practice materials, bounded
+  ordered actions with observable outputs, later outcomes, three fresh checks with corrective answers,
+  practical adaptations, harder routes, transfer, and exact canonical scope mapping.
+- Adaptive movement preserves individual guidance, chosen participation, assistance, environment and variable
+  capacity. Pain literacy teaches response uncertainty and escalation without diagnostic rules, pain provocation,
+  universal exercise doses or equating pain with either damage or safety.
+- Digital self-governance preserves useful and essential access and voluntary limits. Data hygiene supplies
+  a non-destructive file restore; privacy tracks collection, linkage, purpose, permission and residual
+  copies; cybersecurity traces independent recovery dependencies and attack scenarios. Never include real
+  secrets or require destructive lockouts.
+- Inspect primary/official sources with date, precise support and limits; retain retrieval failures. All
+  case data are original synthetic materials and no simulated action is presented as actual performance.
+- Expected additional-source count 45. Runtime stays 108 tailored, 275 pending, 383 protocols, 1151 actions.
+  Formal quality/human-review counts remain unchanged.
+- Run the full source-test suite, focused Ruff, local links, source-case checks, canonical/input hashes,
+  manifest, and exact allowed/forbidden-path audit. Publish exact results and residual gaps.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_health_stewardship_sources.py
-  - python -m ruff check tests/test_m6k_health_stewardship_sources.py
+  - ruff format --check tests/test_m6k_adaptive_digital_sources.py
+  - ruff check tests/test_m6k_adaptive_digital_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Measurement comparability and unknown tissue/lab status
-  - Load quantities and recovery-before-return decisions
-  - Transport feasibility, impairment, dependence and emergency routing
-  - Scoped/revoked/unknown consent and privacy permission transitions
-  - Presentation item constraints, routine timing and real movement evidence
-  - Future-function map, round-trip access and supported participation chronology
-  - Source/fixture alignment, malformed data, canonical pins and prior regressions
+  - Exact six canonical entries and unchanged input hashes
+  - Non-destructive source restore matches expected bytes and preserves newer originals
+  - Failed copy, stale version and sync-deletion cases
+  - Purpose/essential-access and unknown session statuses
+  - Privacy scope, copied records and unconfirmed erasure
+  - Independent recovery dependencies and missing/unknown factors
+  - Health-case chronology and separate completed, deferred and unresolved activity
 risk:
   class: moderate
   hazards:
-  - Clinical/legal conclusions inferred from educational synthetic cases
-  - Unconfirmed permission, transport, recovery or clinical review reported as complete
-  - Body metrics or appearance made a dignity or nourishment score
-  - Unsafe withdrawal, physical challenge or unsupported aging assumptions
+  - Health information misread as diagnosis or clearance
+  - Credentials or private information exposed
+  - Delete, sync, account recovery and privacy claims overstated
   stop_conditions:
-  - Protected-path or stable-ID drift
-  - Failed verification or unresolved material source defect
+  - Protected-path drift
+  - Unresolved material source defect or failing source verification
   - Non-fast-forward push requiring destructive history repair
 rollback:
-  strategy: Revert this bounded source-only batch; no migration, deployment or participant-data mutation is
-    involved.
+  strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-HEALTH-STEWARDSHIP-SIX.md
-  claim_boundary: Owner-authorized source publication and normal merge under editorial/source quality gate.
-    Native [skip ci] markers defer CI without workflow changes. No clinical, specialist, learner, independent
-    or owner content acceptance; no runtime integration, deployment or branch-protection bypass.
+  - docs/evidence/M6K-ADAPTIVE-DIGITAL-SIX.md
+  claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
+    and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.

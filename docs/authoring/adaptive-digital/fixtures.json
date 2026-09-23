@@ -1,0 +1,223 @@
+{
+  "synthetic": true,
+  "runtime_evidence": false,
+  "adaptive": {
+    "default_minutes": [
+      4,
+      3,
+      2,
+      3,
+      3
+    ],
+    "available_minutes": 20,
+    "harder_available_minutes": 13,
+    "fresh_minutes": [
+      5,
+      4,
+      3,
+      4,
+      2
+    ],
+    "fresh_available_minutes": 17,
+    "events": [
+      {
+        "day": "Monday",
+        "bouts": 2,
+        "minutes_each": 3,
+        "status": "performed",
+        "next_morning": "usual"
+      },
+      {
+        "day": "Wednesday",
+        "bouts": 0,
+        "minutes_each": 3,
+        "status": "deferred",
+        "next_morning": null
+      },
+      {
+        "day": "Friday",
+        "bouts": 1,
+        "minutes_each": 3,
+        "status": "stopped",
+        "next_morning": null
+      }
+    ]
+  },
+  "pain": {
+    "A": {
+      "observation": "decreased",
+      "diagnosis": null
+    },
+    "B": {
+      "contact": "sent",
+      "appointment": "acknowledged",
+      "assessment": "not_recorded",
+      "diagnosis": null
+    },
+    "C1": {
+      "attempt": "performed",
+      "next_day": null
+    },
+    "C2": {
+      "new_features": true,
+      "required_route": "emergency",
+      "contact": "not_recorded",
+      "diagnosis": null
+    }
+  },
+  "media": {
+    "options": {
+      "A": {
+        "direct_messages": false,
+        "calls": true,
+        "accessibility": true,
+        "voluntary": true
+      },
+      "B": {
+        "direct_messages": true,
+        "calls": true,
+        "accessibility": true,
+        "voluntary": true
+      },
+      "C": {
+        "direct_messages": null,
+        "calls": null,
+        "accessibility": null,
+        "voluntary": false
+      }
+    },
+    "sessions": [
+      {
+        "day": "Monday",
+        "occurred": true,
+        "minutes": 4,
+        "purpose_met": true
+      },
+      {
+        "day": "Wednesday",
+        "occurred": true,
+        "minutes": 14,
+        "purpose_met": false
+      },
+      {
+        "day": "Friday",
+        "occurred": false,
+        "minutes": null,
+        "purpose_met": null
+      }
+    ],
+    "fresh_sessions": [
+      {
+        "occurred": true,
+        "minutes": 7,
+        "purpose_met": true
+      },
+      {
+        "occurred": true,
+        "minutes": 12,
+        "purpose_met": false
+      },
+      {
+        "occurred": false,
+        "minutes": null,
+        "purpose_met": null
+      }
+    ]
+  },
+  "recovery": {
+    "required": [
+      "Community meeting",
+      "Room Birch",
+      "Bring one pencil"
+    ],
+    "branches": {
+      "R1": [
+        "Community meeting",
+        "Room Birch",
+        "Bring one pencil"
+      ],
+      "R2": [
+        "Community meeting",
+        "Room Cedar",
+        "Bring one pencil"
+      ],
+      "R3": null,
+      "R4": [
+        "Community meeting",
+        "Room Birch"
+      ]
+    }
+  },
+  "privacy": {
+    "public_location": "cleared_verified",
+    "audience": "private_verified",
+    "future_contact_discovery": false,
+    "stored_contacts": "acknowledged",
+    "hosted_caption": "changed_verified",
+    "recovery_email": "unchanged",
+    "security_logs": "retained",
+    "recipient_copy": null,
+    "alternative_reply_scope": [
+      "stored_contacts"
+    ]
+  },
+  "security": {
+    "rules": {
+      "vault": [
+        [
+          "trusted_laptop",
+          "vault_passphrase"
+        ]
+      ],
+      "account_password": [
+        [
+          "vault"
+        ]
+      ],
+      "account": [
+        [
+          "account_password",
+          "phone_code"
+        ],
+        [
+          "account_password",
+          "paper_unused_code"
+        ]
+      ],
+      "in_account_code": [
+        [
+          "account"
+        ]
+      ]
+    },
+    "initial_confirmed": [
+      "trusted_laptop",
+      "vault_passphrase"
+    ],
+    "after_confirmed": [
+      "trusted_laptop",
+      "vault_passphrase",
+      "paper_unused_code"
+    ],
+    "test_code_status": "consumed",
+    "encryption_key_verified": null,
+    "circular_rules": {
+      "vault": [
+        [
+          "account"
+        ]
+      ],
+      "account_password": [
+        [
+          "vault"
+        ]
+      ],
+      "account": [
+        [
+          "account_password",
+          "paper_unused_code"
+        ]
+      ]
+    }
+  }
+}

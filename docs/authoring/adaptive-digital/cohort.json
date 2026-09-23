@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "ids": [
+    "12.15",
+    "12.16",
+    "14.01",
+    "14.02",
+    "14.03",
+    "14.04"
+  ],
+  "baseline_commit": "c91e43e915ac9f9963dec08904d29be1d6e13365",
+  "source_only": true,
+  "runtime_tailored": 108,
+  "runtime_pending": 275,
+  "protocols": 383,
+  "actions": 1151,
+  "entries": [
+    {
+      "name": "Adaptive movement and fitness",
+      "scope": "Modify physical activity for disability, chronic illness, pregnancy, aging, injury, environment, and changing capacity.",
+      "evidence_of_progress": "Maintains safe, meaningful movement using qualified guidance and individualized progression.",
+      "id": "12.15",
+      "classification": {
+        "applicability": "cross_context_core",
+        "normative_status": "cross_tradition_core_or_broadly_recurrent",
+        "formation_modes": [
+          "agency",
+          "adaptation",
+          "stewardship"
+        ]
+      },
+      "measurement": {
+        "preferred_evidence_types": [
+          "objective_indicator",
+          "behavioral_adherence",
+          "qualified_assessment",
+          "longitudinal_review"
+        ],
+        "minimum_standard": "Use at least two independent evidence types, including one behavioral, observer, artifact, objective, or longitudinal indicator; self-report alone is insufficient for score advancement.",
+        "not_proof_of_moral_worth": true
+      },
+      "professional_boundary": "Health and exercise content must be adapted to the person and does not replace licensed medical care."
+    },
+    {
+      "name": "Pain literacy and safe response",
+      "scope": "Distinguish soreness, acute injury, chronic pain, referred symptoms, red flags, and fear-driven avoidance.",
+      "evidence_of_progress": "Uses appropriate load modification and professional evaluation rather than reckless persistence or total withdrawal.",
+      "id": "12.16",
+      "classification": {
+        "applicability": "cross_context_core",
+        "normative_status": "cross_tradition_core_or_broadly_recurrent",
+        "formation_modes": [
+          "agency",
+          "adaptation",
+          "stewardship"
+        ]
+      },
+      "measurement": {
+        "preferred_evidence_types": [
+          "objective_indicator",
+          "behavioral_adherence",
+          "qualified_assessment",
+          "longitudinal_review"
+        ],
+        "minimum_standard": "Use at least two independent evidence types, including one behavioral, observer, artifact, objective, or longitudinal indicator; self-report alone is insufficient for score advancement.",
+        "not_proof_of_moral_worth": true
+      },
+      "professional_boundary": "Health and exercise content must be adapted to the person and does not replace licensed medical care."
+    },
+    {
+      "name": "Digital and media self-governance",
+      "scope": "Control notifications, feeds, pornography, gaming, outrage, and compulsive checking through boundaries and friction.",
+      "evidence_of_progress": "Media use reflects explicit purposes and limits rather than default consumption.",
+      "id": "14.01",
+      "classification": {
+        "applicability": "cross_context_core",
+        "normative_status": "cross_tradition_core_or_broadly_recurrent",
+        "formation_modes": [
+          "agency",
+          "stewardship",
+          "interdependence"
+        ]
+      },
+      "measurement": {
+        "preferred_evidence_types": [
+          "performance_task",
+          "artifact",
+          "behavioral_adherence",
+          "longitudinal_review"
+        ],
+        "minimum_standard": "Use at least two independent evidence types, including one behavioral, observer, artifact, objective, or longitudinal indicator; self-report alone is insufficient for score advancement.",
+        "not_proof_of_moral_worth": true
+      }
+    },
+    {
+      "name": "Digital competence and data hygiene",
+      "scope": "Manage devices, backups, accounts, passwords, files, privacy, updates, and common troubleshooting.",
+      "evidence_of_progress": "Personal data and essential services remain organized, recoverable, and reasonably secure.",
+      "id": "14.02",
+      "classification": {
+        "applicability": "cross_context_core",
+        "normative_status": "cross_tradition_core_or_broadly_recurrent",
+        "formation_modes": [
+          "agency",
+          "stewardship",
+          "interdependence"
+        ]
+      },
+      "measurement": {
+        "preferred_evidence_types": [
+          "performance_task",
+          "artifact",
+          "behavioral_adherence",
+          "longitudinal_review"
+        ],
+        "minimum_standard": "Use at least two independent evidence types, including one behavioral, observer, artifact, objective, or longitudinal indicator; self-report alone is insufficient for score advancement.",
+        "not_proof_of_moral_worth": true
+      }
+    },
+    {
+      "name": "Digital identity, privacy, and data rights",
+      "scope": "Understand data collection, tracking, identity linkage, consent, platform policies, and the persistence of online records.",
+      "evidence_of_progress": "Can audit major accounts and change settings, sharing, or services to match stated privacy priorities.",
+      "id": "14.03",
+      "classification": {
+        "applicability": "cross_context_core",
+        "normative_status": "cross_tradition_core_or_broadly_recurrent",
+        "formation_modes": [
+          "agency",
+          "stewardship",
+          "interdependence"
+        ]
+      },
+      "measurement": {
+        "preferred_evidence_types": [
+          "performance_task",
+          "artifact",
+          "behavioral_adherence",
+          "longitudinal_review"
+        ],
+        "minimum_standard": "Use at least two independent evidence types, including one behavioral, observer, artifact, objective, or longitudinal indicator; self-report alone is insufficient for score advancement.",
+        "not_proof_of_moral_worth": true
+      }
+    },
+    {
+      "name": "Cybersecurity and account resilience",
+      "scope": "Use strong authentication, updates, backups, encryption, recovery plans, and safe device practices.",
+      "evidence_of_progress": "Can recover access or data and demonstrates reduced exposure to common compromise paths.",
+      "id": "14.04",
+      "classification": {
+        "applicability": "cross_context_core",
+        "normative_status": "cross_tradition_core_or_broadly_recurrent",
+        "formation_modes": [
+          "agency",
+          "stewardship",
+          "interdependence"
+        ]
+      },
+      "measurement": {
+        "preferred_evidence_types": [
+          "performance_task",
+          "artifact",
+          "behavioral_adherence",
+          "longitudinal_review"
+        ],
+        "minimum_standard": "Use at least two independent evidence types, including one behavioral, observer, artifact, objective, or longitudinal indicator; self-report alone is insufficient for score advancement.",
+        "not_proof_of_moral_worth": true
+      }
+    }
+  ],
+  "input_sha256": {
+    "data/curriculum/ideal_person_curriculum_v2_pluralist_full_scope.yaml": "0b397894deca28855c04a13d59d2b8af8aec3b43210f8aecbe2519f4200bc560",
+    "contracts/tailored-practice-authoring.yaml": "bea23084c41969cc9746cba1d6de653da6c70788a401a76fec70554e208b1bba",
+    "docs/plans/m6k/recovery/selected/exercises/12.yaml": "a4361a8f8d8e84bca6e926b4c5122e63878218220ee0889160a32e27a6b08090",
+    "docs/plans/m6k/recovery/selected/exercises/14.yaml": "6104de4bc8f7f2e9954bc3d7cbddf2889de5b9b3890c4273305723577c6be582",
+    "docs/authoring/exercises/12.yaml": "a5f5bc16d22ab998d1e953f1db3a491b9314e39d9e0986a58d108ab2d525d0da",
+    "docs/authoring/exercises/14.yaml": "6104de4bc8f7f2e9954bc3d7cbddf2889de5b9b3890c4273305723577c6be582"
+  },
+  "prior_additional_companions": 39,
+  "additional_companions_after": 45,
+  "formal_reviews_accepted": 0
+}

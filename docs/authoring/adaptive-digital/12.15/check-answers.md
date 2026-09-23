@@ -1,0 +1,7 @@
+# Corrective key — adaptive movement
+
+1. Required time is 5 + 4 + 3 + 4 + 2 = **18 minutes**. The confirmed window is **17 minutes**, one minute short. Resolve transport or an already-authorized alternative before treating it as feasible. Cutting the rest to two minutes produces a neat timetable by violating the supplied plan. An unanswered transport request remains unresolved.
+2. Retain the aid: “This is part of my current plan. I want to take part using it.” Check that the instructor and setting can support that route, or use another suitable agreed setting. Removing it despite the requirement is not progression; cancelling without considering an accessible route also fails to demonstrate adaptation. Participation still depends on the adult's choice.
+3. Record **one completed session, one deferred opportunity**, and unknown next-day response. Obtain that observation and any required plan review before claiming suitability of a change. Missing data are not an adverse finding by themselves, but cannot become reassuring evidence. The schedule is not evidence of the second session occurring.
+
+The default case takes 15 minutes (4 + 3 + 2 + 3 + 3), leaving 5 minutes before pickup. Across the later dates there are 3 performed bouts and 9 active minutes, one deferral, and an unresolved Friday review. The harder 13-minute transport window is 2 minutes short. These are paper-case results, not clinical thresholds or physical outcomes of a learner.
