@@ -1,0 +1,222 @@
+{
+  "synthetic": true,
+  "runtime_evidence": false,
+  "exit": {
+    "initial_endpoint": "north counter",
+    "changed_endpoint": "east lobby",
+    "rejected_endpoint": "west alcove",
+    "actual_deescalation_observed": false
+  },
+  "providers": {
+    "A": {
+      "introduction_credential_confirmed_in_later": true,
+      "physical_qualification_confirmed": null,
+      "learner_skill_assessed": false
+    },
+    "B": {
+      "stop_allowed": false,
+      "universal_legal_claim": true
+    },
+    "C": {
+      "sport_scope": true,
+      "self_protection_scope": false
+    }
+  },
+  "outdoor": {
+    "checkpoint": "10:22",
+    "return_minutes": 10,
+    "continuation_cutoff": "10:20",
+    "expected_return": "10:32",
+    "fire_authorized": false,
+    "stream_drinkable_established": false,
+    "priorities": [
+      "shelter",
+      "water",
+      "warmth",
+      "navigation",
+      "signaling",
+      "fire",
+      "food"
+    ]
+  },
+  "water": {
+    "float_seconds": 20,
+    "float_aid": true,
+    "tread_assessed": false,
+    "swim_metres": 8,
+    "swim_aid": true,
+    "exit_assisted": true,
+    "later_change": "orientation without cue",
+    "river_competence_established": false,
+    "actual_aquatic_assessment": false
+  },
+  "travel": {
+    "arrival": "20:10",
+    "last_bus": "20:00",
+    "desk_closes": "21:00",
+    "funds": 95,
+    "reserve": 10,
+    "initial_room": 70,
+    "later_room": 60,
+    "fare": 18,
+    "initial_cost": 88,
+    "initial_shortfall": 3,
+    "later_cost": 78,
+    "later_remainder": 17,
+    "later_above_reserve": 7,
+    "medicine_permission": null,
+    "mobile_voice_tested": false,
+    "staff_call_supplied": true
+  },
+  "cyber": {
+    "signals": [
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5"
+    ],
+    "posted_payment": 46,
+    "refund": null,
+    "code_disclosed": false,
+    "document_exposed": true,
+    "later_identity_misuse": null,
+    "personal_actions": [
+      "password changed",
+      "unknown forwarding rule removed",
+      "listed unfamiliar session revoked",
+      "recovery contact verified"
+    ],
+    "it_acknowledged": true,
+    "work_resolution": null
+  },
+  "contingency": {
+    "starts": "18:00",
+    "initial_end": "18:40",
+    "later_end": "18:20",
+    "minimum_minutes": 30,
+    "full_minutes": 60,
+    "initial_spare": 10,
+    "later_shortfall": 10,
+    "trigger": "17:40",
+    "decision_by": "17:50",
+    "later_decision": "cancel",
+    "handback_requires_agreement": true
+  },
+  "community": {
+    "stock": 4,
+    "requests": {
+      "A": 2,
+      "B": 1
+    },
+    "remaining": 1,
+    "B_transport_suitable": null,
+    "Ren_available_later": false,
+    "C_contact_consent": false,
+    "checkin_deadline": "14:30",
+    "B_response": null,
+    "Mara_acknowledged_gap": true,
+    "transport_fulfilled": false,
+    "Jo_task_accepted": true,
+    "Jo_task_completed": null,
+    "actual_participation": false
+  },
+  "health": {
+    "notices": [
+      {
+        "id": "R1",
+        "day": 1,
+        "time": "09:00",
+        "hazard": "respiratory illness"
+      },
+      {
+        "id": "R2",
+        "day": 2,
+        "time": "12:00",
+        "hazard": "outdoor smoke"
+      }
+    ],
+    "participants": 12,
+    "telephone_capacity": 12,
+    "diagnosis_required": false,
+    "in_person_arrangement_confirmed": null,
+    "real_outbreak_claim": false,
+    "fixed_isolation_days": null
+  },
+  "bystander": {
+    "strategies": [
+      "direct",
+      "distract",
+      "delegate",
+      "document",
+      "delay"
+    ],
+    "steward_received": true,
+    "support_outcome": null,
+    "company_consent": false,
+    "publication_consent": false,
+    "actual_victim_consent": false
+  },
+  "work": {
+    "cards": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5"
+    ],
+    "machine_switched_off": true,
+    "isolation_verified": false,
+    "learner_maintenance_authorized": false,
+    "cabinet_reported": true,
+    "cabinet_repaired": null,
+    "physical_practice": "ordinary sheets only"
+  },
+  "listening": {
+    "first_window": "out between two and five",
+    "corrected_deadline": "home by five",
+    "timed_ticket_acceptable": true,
+    "later_choice": "where to sit afterward",
+    "requested_suggestions": 1,
+    "confirmation": "supplied fictional response",
+    "actual_speaker_confirmation": false
+  },
+  "fresh_checks": {
+    "travel": {
+      "funds": 130,
+      "reserve": 25,
+      "room": 90,
+      "fare": 20,
+      "shortfall": 5
+    },
+    "outdoor": {
+      "checkpoint": "14:18",
+      "return_minutes": 12,
+      "expected_return": "14:30"
+    },
+    "cyber": {
+      "payment": 80,
+      "refunded": 30,
+      "unresolved": 50
+    },
+    "contingency": {
+      "available": 50,
+      "minimum": 55,
+      "shortfall": 5
+    },
+    "community": {
+      "stock": 6,
+      "requests": [
+        2,
+        2,
+        3
+      ],
+      "shortfall": 1
+    },
+    "health": {
+      "recipients": 12,
+      "confirmed": 3,
+      "unconfirmed": 9
+    }
+  }
+}

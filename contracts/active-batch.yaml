@@ -1,28 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-DIGITAL-JUDGMENT-PREPAREDNESS-TWELVE
-  title: Complete digital-life sources and begin practical preparedness
-  goal: Individually author and vet 14.05–14.13 and 15.01–15.03, then publish and normally merge under
-    the continuing source-quality workflow.
+  id: M6K-RESILIENCE-COMMUNITY-LISTENING-TWELVE
+  title: Complete practical resilience sources and begin attentive listening
+  goal: Individually author and vet 15.04–15.14 and 16.01 with explicit depth and distinctiveness review,
+    then publish and normally merge under the continuing source-quality workflow.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/digital-judgment-preparedness/SOURCES.md
-  - docs/authoring/digital-judgment-preparedness/cohort.json
-  milestone: M6K-DIGITAL-JUDGMENT-PREPAREDNESS-SOURCE-PUBLICATION
-  baseline_commit: f9fdc647d4ea6c409a8152bca018140259de21cc
+  - docs/authoring/resilience-community-listening/SOURCES.md
+  - docs/authoring/resilience-community-listening/cohort.json
+  - docs/authoring/resilience-community-listening/QUALITY-REVIEW.md
+  milestone: M6K-RESILIENCE-COMMUNITY-LISTENING-SOURCE-PUBLICATION
+  baseline_commit: 3c3b306e537c16646cad8e11099cb3e9de8a3aea
 dependencies:
-- PR-84-merged
+- PR-85-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/digital-judgment-preparedness/**
-  - docs/evidence/M6K-DIGITAL-JUDGMENT-PREPAREDNESS-TWELVE.md
-  - tests/test_m6k_digital_judgment_preparedness_sources.py
+  - docs/authoring/resilience-community-listening/**
+  - docs/evidence/M6K-RESILIENCE-COMMUNITY-LISTENING-TWELVE.md
+  - tests/test_m6k_resilience_community_listening_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -56,53 +57,62 @@ scope:
   - tests/test_m6k_health_stewardship_sources.py
   - docs/authoring/adaptive-digital/**
   - tests/test_m6k_adaptive_digital_sources.py
+  - docs/authoring/digital-judgment-preparedness/**
+  - tests/test_m6k_digital_judgment_preparedness_sources.py
 acceptance:
-- The owner explicitly doubled the reporting iteration from six to twelve on 23 September 2026 and instructed
-  begin. Carry forward authorized source vetting, publication and normal merge with CI/CD deferred. Do
-  not bypass branch protection or claim deployment, runtime integration or human acceptance.
-- 'Exact IDs: 14.05–14.13 and 15.01–15.03. Preserve all 45 earlier source companions and 512 source tests.
-  Twelve is the continuing reporting cadence, not permission to consume the backlog.'
-- Each competency requires individual concept teaching, worked example, complete fictional practice materials,
-  ordered bounded actions and observable artifacts, later outcomes, three fresh checks with corrective
-  keys, accessibility adaptations, harder and real transfer routes, exact canonical facet mapping and
-  inspected sources.
-- Scams use independent channels and exposure-specific recovery. Feeds separate observation from algorithm
-  inference. AI audits claims, bias and human responsibility. Provenance does not prove truth; copied
-  claims do not become independent evidence.
-- Online conduct preserves privacy and consent. Rights records distinguish permission, credit, commercial/adaptation
-  conditions and code licenses. Fallbacks require actual retrieval of harmless materials, freshness and
-  duplicate-safe reconciliation. Platform policy must include accessible appeals and feasible capacity.
-- First-aid procedures remain qualified-instruction work; calls are harmless rehearsal and enrollment
-  is not assessed skill. Household planning must preserve individual care plans and safe drills. Awareness
-  concerns observable hazards and functional access, not profiling or hypervigilance.
-- Expected additional-source count 57; runtime stays 108 tailored, 275 pending, 383 protocols and 1151
+- Owner requested another twelve with no quality compromise. Carry forward explicit source-quality publication
+  and normal merge authorization; CI/CD remains deferred. No branch-protection bypass, deployment or runtime
+  integration.
+- Exact IDs 15.04–15.14 and 16.01. Preserve all 57 earlier additional source companions and 552 source
+  tests. Twelve is a reporting batch, not permission to consume the backlog.
+- Each competency requires substantive individual teaching, worked example, complete fictional practice
+  materials, ordered actions and observable outputs, separate later outcomes, three fresh checks with
+  corrective answers, adaptations, harder and real transfer routes, exact canonical mapping and inspected
+  primary sources.
+- Explicit per-competency author review must address facet coverage, usable default, distinctiveness from
+  adjacent/prior work, answer-key discrimination, source limits and remaining human/qualified evidence.
+  Word counts and passing tests do not establish pedagogical quality.
+- Physical safety practice must remain benign, consenting and within competence. Paper judgment, enrollment
+  and dryland work never demonstrate defensive, outdoor, aquatic or rescue competence. Legal examples
+  retain jurisdiction and setting limits.
+- Cyber incident signals, verified access, containment, financial dispute and identity recovery remain
+  separate statuses. Contingencies require real ownership, available reserves, finite capacity, triggers
+  and recovery handback.
+- Community rehearsal retains voluntary roles, privacy, welfare-check boundaries and unmet needs. Public-health
+  actions require current setting-specific guidance, accessible alternatives and no invented clinical
+  regimen. Bystander action preserves targeted-person agency.
+- Workplace controls prioritize hazard removal and authorized qualified isolation; no machinery intervention
+  drill. Listening requires actual speaker correction/confirmation for real progress, not inferred agreement
+  or a canned summary.
+- Expected additional source count 69; runtime stays 108 tailored, 275 pending, 383 protocols and 1151
   actions. Formal quality/human-review counts unchanged.
-- Run the full source suite, focused Ruff, links, canonical/input hashes, actual source-material checks,
-  manifest and allowed/forbidden scope audit. Record exact outcomes and remaining gaps.
+- Run full source suite, focused Ruff, links, canonical/input hashes, source-case checks, manifest and
+  allowed/forbidden scope audit. Record exact results and limitations.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - ruff format --check tests/test_m6k_digital_judgment_preparedness_sources.py
-  - ruff check tests/test_m6k_digital_judgment_preparedness_sources.py
+  - ruff format --check tests/test_m6k_resilience_community_listening_sources.py
+  - ruff check tests/test_m6k_resilience_community_listening_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
   - Canonical and inherited-input integrity
-  - Source dependencies and claim chronology
-  - Feed arithmetic with missing or absent sessions
-  - AI claim audit and unsupported additions
-  - Rights constraints and preserved notices
-  - Harmless offline retrieval freshness and duplicate prevention
-  - Appeal capacity arithmetic
-  - Training attendance versus observed topic scope
-  - Household dependency and accessible-route failures
+  - Training and observed physical skill distinctions
+  - Travel fallback feasibility and stale information
+  - Incident triage and unresolved recovery
+  - Contingency capacity and handback
+  - Volunteer task consent and unmet needs
+  - Health notice revision and teach-back correction
+  - Bystander consent and workplace control boundaries
+  - Listening corrections versus simulated confirmation
 risk:
   class: moderate
   hazards:
-  - Unsupported authenticity, legal or clinical certainty
-  - Unsafe physical drills or unverified care continuity
-  - Private material exposure or simulated outcomes called actual
+  - Overclaimed physical competence or universal legal advice
+  - Outdated clinical directions or unsafe drills
+  - Repeated generic exercises replacing individual scope
+  - Unconsented disclosure or fabricated human acceptance
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -111,6 +121,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-DIGITAL-JUDGMENT-PREPAREDNESS-TWELVE.md
+  - docs/evidence/M6K-RESILIENCE-COMMUNITY-LISTENING-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
