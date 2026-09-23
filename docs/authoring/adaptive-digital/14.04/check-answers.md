@@ -1,0 +1,7 @@
+# Corrective key — account resilience
+
+1. No. The password is needed to enter the account, but the vault holding it requires that account first. The printed code supplies only the other required input. Identify a verified independent way to reach the password or use the provider's appropriate recovery/support process. Do not count a circular chain as a recovery route.
+2. The method was tested, but usable remaining recovery material is not established. Through official settings and retained working access, prepare and safely store a currently valid unused route, accounting for any invalidation of older sets. Record the new status. A consumed code cannot be reused merely because it once worked.
+3. A readable encrypted backup without an accessible key cannot establish disaster recovery. The successful account test proves neither key recovery nor full data restoration. Do not approve the unexpected prompt or share a code; independently inspect the provider's official security/incident route from a trusted device. Do not infer the prompt is harmless or invent a compromise diagnosis.
+
+Owen's original route fails when phone and sessions are unavailable. After the supplied setup, laptop plus known vault passphrase yields the account password, and the valid unused paper code supplies the second input. The paper scenario has a route; a real loss recovery was not performed. Missing paper or missing laptop defeats that specific route. Encryption-key recovery and full-device backup coverage remain unresolved.

@@ -1,0 +1,167 @@
+{
+  "date": "2026-09-23",
+  "baseline_commit": "c91e43e915ac9f9963dec08904d29be1d6e13365",
+  "validation_level": "source static checks plus actual temporary harmless-file copy/retrieval; original synthetic reasoning cases",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "*sources.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 2.085,
+      "output": "_p) ... ok\ntest_tie_weight_preserves_tie_instead_of_claiming_unique_choice (test_m6k_systems_causes_tradeoffs_sources.Tradeoffs.test_tie_weight_preserves_tie_instead_of_claiming_unique_choice) ... ok\n\n----------------------------------------------------------------------\nRan 512 tests in 2.010s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/root/.local/bin/ruff",
+        "format",
+        "--check",
+        "tests/test_m6k_adaptive_digital_sources.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.006,
+      "output": "1 file already formatted\n"
+    },
+    {
+      "command": [
+        "/root/.local/bin/ruff",
+        "check",
+        "tests/test_m6k_adaptive_digital_sources.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.006,
+      "output": "All checks passed!\n"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.004,
+      "output": ""
+    },
+    {
+      "command": [
+        "python",
+        "scripts/verify-manifest.py"
+      ],
+      "exit_code": 0,
+      "output": "MANIFEST.tsv verified: 1471 files",
+      "note": "Regenerated again after writing this receipt; final receipt byte length is included."
+    }
+  ],
+  "source_tests": 512,
+  "prior_source_tests_preserved": 478,
+  "new_source_tests": 34,
+  "scope_check": {
+    "changed_paths": [
+      "MANIFEST.tsv",
+      "contracts/active-batch.yaml",
+      "docs/authoring/SOURCE-CONSOLIDATION-STATUS.md",
+      "docs/authoring/adaptive-digital/12.15/SCOPE-MAP.md",
+      "docs/authoring/adaptive-digital/12.15/check-answers.md",
+      "docs/authoring/adaptive-digital/12.15/check-prompts.md",
+      "docs/authoring/adaptive-digital/12.15/later-packet.md",
+      "docs/authoring/adaptive-digital/12.15/learner-guide.md",
+      "docs/authoring/adaptive-digital/12.16/SCOPE-MAP.md",
+      "docs/authoring/adaptive-digital/12.16/check-answers.md",
+      "docs/authoring/adaptive-digital/12.16/check-prompts.md",
+      "docs/authoring/adaptive-digital/12.16/later-packet.md",
+      "docs/authoring/adaptive-digital/12.16/learner-guide.md",
+      "docs/authoring/adaptive-digital/14.01/SCOPE-MAP.md",
+      "docs/authoring/adaptive-digital/14.01/check-answers.md",
+      "docs/authoring/adaptive-digital/14.01/check-prompts.md",
+      "docs/authoring/adaptive-digital/14.01/later-packet.md",
+      "docs/authoring/adaptive-digital/14.01/learner-guide.md",
+      "docs/authoring/adaptive-digital/14.02/SCOPE-MAP.md",
+      "docs/authoring/adaptive-digital/14.02/check-answers.md",
+      "docs/authoring/adaptive-digital/14.02/check-prompts.md",
+      "docs/authoring/adaptive-digital/14.02/later-packet.md",
+      "docs/authoring/adaptive-digital/14.02/learner-guide.md",
+      "docs/authoring/adaptive-digital/14.02/materials/README.md",
+      "docs/authoring/adaptive-digital/14.02/materials/meeting-v1.txt",
+      "docs/authoring/adaptive-digital/14.02/materials/meeting-v2.txt",
+      "docs/authoring/adaptive-digital/14.03/SCOPE-MAP.md",
+      "docs/authoring/adaptive-digital/14.03/check-answers.md",
+      "docs/authoring/adaptive-digital/14.03/check-prompts.md",
+      "docs/authoring/adaptive-digital/14.03/later-packet.md",
+      "docs/authoring/adaptive-digital/14.03/learner-guide.md",
+      "docs/authoring/adaptive-digital/14.04/SCOPE-MAP.md",
+      "docs/authoring/adaptive-digital/14.04/check-answers.md",
+      "docs/authoring/adaptive-digital/14.04/check-prompts.md",
+      "docs/authoring/adaptive-digital/14.04/later-packet.md",
+      "docs/authoring/adaptive-digital/14.04/learner-guide.md",
+      "docs/authoring/adaptive-digital/README.md",
+      "docs/authoring/adaptive-digital/SOURCES.md",
+      "docs/authoring/adaptive-digital/cohort.json",
+      "docs/authoring/adaptive-digital/fixtures.json",
+      "docs/authoring/adaptive-digital/verification.json",
+      "docs/evidence/M6K-ADAPTIVE-DIGITAL-SIX.md",
+      "tests/test_m6k_adaptive_digital_sources.py"
+    ],
+    "violations": [],
+    "path_count": 43
+  },
+  "sha256": {
+    "docs/authoring/adaptive-digital/12.15/SCOPE-MAP.md": "a3c8e70bdaf5fc01939fbba5d09f784917f9494874d68b04eddf97be6228cbd8",
+    "docs/authoring/adaptive-digital/12.15/check-answers.md": "26d3c2ea5ca4a197b6ae2d89bcd1fdb69cfe17201c8860dc824b4239097a633b",
+    "docs/authoring/adaptive-digital/12.15/check-prompts.md": "2750969f2582a2ac7898ed5a368bc15da26c8ac9049b834507f3d04a282b11b8",
+    "docs/authoring/adaptive-digital/12.15/later-packet.md": "279d1e0876b79820c808985a8d839838ed568ef4731adc27a6eadfe3c16a2a6e",
+    "docs/authoring/adaptive-digital/12.15/learner-guide.md": "db43ede6bf72ba45ef8c9d7471b11cf3fb9ca4f204ae334df289845d34308efc",
+    "docs/authoring/adaptive-digital/12.16/SCOPE-MAP.md": "284b8394f377669f8700dcb3d52a3363e65986d2d33481b9f9cfac227bf4c0e3",
+    "docs/authoring/adaptive-digital/12.16/check-answers.md": "7bd250cf7925fc229656af4a5bd6a754161f3662ab47c71a351b52753315b6d8",
+    "docs/authoring/adaptive-digital/12.16/check-prompts.md": "59c7eb525a106150b282cbeb6d3edc570bb5580fa87378e9697eb51009848727",
+    "docs/authoring/adaptive-digital/12.16/later-packet.md": "b9ba2e1e75a69028a19f5da6923719ee7181cf440971eb6f989497f4bf37732d",
+    "docs/authoring/adaptive-digital/12.16/learner-guide.md": "0d4b4a0eb3e982f51fb2826fdb1661e8057560a47f4ca48282b122f269f72082",
+    "docs/authoring/adaptive-digital/14.01/SCOPE-MAP.md": "58ee8c344883253a87b9d6e4459ed669dde43b8375aa0c94d7cc1391eb84d700",
+    "docs/authoring/adaptive-digital/14.01/check-answers.md": "b90dd06c803b12342278d7a52ace1965a90c5d281090b917eeaafdda60b1d11b",
+    "docs/authoring/adaptive-digital/14.01/check-prompts.md": "c46dc9b96058cd87e5416b4709cae46c492f80d1f445a87c48cef6bb567ba706",
+    "docs/authoring/adaptive-digital/14.01/later-packet.md": "4bfe3e5d50d574d55bce3d131c0028d3f13a27f74391a938109ad8815935eddf",
+    "docs/authoring/adaptive-digital/14.01/learner-guide.md": "7a121a451687bf213dd73b0e7e24298da9819a56598932ac0fcaf490fb6bfbb9",
+    "docs/authoring/adaptive-digital/14.02/SCOPE-MAP.md": "270c1c8035d4f972d45a9cc2f909eb2d6faadf7c33202bbe577cd532a96e9248",
+    "docs/authoring/adaptive-digital/14.02/check-answers.md": "5585a613d13bcd060d920d01b1fbc1d6fae7efdf5802f391cf41b3d2c8679686",
+    "docs/authoring/adaptive-digital/14.02/check-prompts.md": "ae015aa3fd18238fb93670d20216aa672377d2490d5071e8ea5c14bfd31f40b2",
+    "docs/authoring/adaptive-digital/14.02/later-packet.md": "45bc30aba428647998e89fd4da39ce4e1f265930dc2579c5a313fb180c469ee0",
+    "docs/authoring/adaptive-digital/14.02/learner-guide.md": "0766c0c18a489aeb800da6ee96445f87687581efc418f2210d8687de6b71166b",
+    "docs/authoring/adaptive-digital/14.02/materials/README.md": "47d2276682982098573241b57144e80de9c4fa60ddaaa8f38496310177c25bb7",
+    "docs/authoring/adaptive-digital/14.02/materials/meeting-v1.txt": "17f468225378ada3167924028c0dc4dddf19e12678769624fb69344e88502c31",
+    "docs/authoring/adaptive-digital/14.02/materials/meeting-v2.txt": "128ed241d25e84f2e37d634c9f67e300808e58d8b938ae67cbb2f0eea3fab638",
+    "docs/authoring/adaptive-digital/14.03/SCOPE-MAP.md": "f07ae37d94628cf84e31c2b76c7c210115599ef8fd672af31df0f1cc39daa065",
+    "docs/authoring/adaptive-digital/14.03/check-answers.md": "f969115758602f614ccdd1cd3f2ab31bbcae827fb2884a5cbd245654e88f2c08",
+    "docs/authoring/adaptive-digital/14.03/check-prompts.md": "2824bf01102ba193a323784854d924480ee8a84fc342ff81ada5e3d1f4f1df7e",
+    "docs/authoring/adaptive-digital/14.03/later-packet.md": "805ce70844d5a86d09869fd403bc8d00afcedfa0ef4f600d9270d19463c39db5",
+    "docs/authoring/adaptive-digital/14.03/learner-guide.md": "c707ceb25896a6bc5daa3b93faa5bcaa57daa6e59c595e525725915b657caed3",
+    "docs/authoring/adaptive-digital/14.04/SCOPE-MAP.md": "ad1bb7ddcdf805288cbe2beb7418c506ba3cf2bf20270a5736039f9e5374a6c9",
+    "docs/authoring/adaptive-digital/14.04/check-answers.md": "864c23b77031b4a35f9f980db8a1918eac1ca7d71c2a6f45413bff0f14329e01",
+    "docs/authoring/adaptive-digital/14.04/check-prompts.md": "001d9c8c67ae2a45588e8a75d942f62baee620cbd6767b3bbf2ba3f08875c279",
+    "docs/authoring/adaptive-digital/14.04/later-packet.md": "0d060108719c97a729d9cbbb9c88d831a72717650d35d6f60edebca27198e9d9",
+    "docs/authoring/adaptive-digital/14.04/learner-guide.md": "a70be4123fdd8139d99adbf4aaf741744a414583e983135cb08b33aee60dfe05",
+    "docs/authoring/adaptive-digital/README.md": "15bf6ddfbd2bd169ddaa9a949e55790107129b14f3430df787226afe113d0092",
+    "docs/authoring/adaptive-digital/SOURCES.md": "3530b6fb8b1fda0c2e63123a40b7404ad43c223fcfa56cfb41c9963dd0452670",
+    "docs/authoring/adaptive-digital/cohort.json": "2dbce658e35e1e88f5c337a4b73407af57a2b4baa7d9696ee8ee32c24b5a649d",
+    "docs/authoring/adaptive-digital/fixtures.json": "b2371f043c0638473a6f8f980856dd68fca5524a82c7decb65f317d1040c1e64",
+    "tests/test_m6k_adaptive_digital_sources.py": "75435ca309e1d4e7d0363c9356d44ef323c31b9596ccd1036da681c9b429ab59"
+  },
+  "unperformed": [
+    "application regression",
+    "runtime integration",
+    "browser",
+    "Compose",
+    "hosted CI",
+    "independent cold-start",
+    "actual learner",
+    "qualified review",
+    "owner content acceptance",
+    "deployment"
+  ]
+}

@@ -1,0 +1,7 @@
+# Corrective key — pain literacy
+
+1. A pain number alone cannot establish cause or safety. Ask about onset/event, location/description, changed ordinary function, associated changes, and an applicable care plan; choose appropriate help from the actual situation. Do not infer “mild means harmless” or repeatedly provoke it to collect evidence. Missing information remains missing rather than normal.
+2. The new bladder-control change with back pain warrants local emergency help. The familiar plan does not override it. A draft message is not a sent request, contact or assessment, and waiting for routine correspondence is the wrong route for this case. Do not add a diagnosis or claim emergency help was already obtained.
+3. An appointment request is not an attended assessment. The location of a symptom does not establish its source; referred symptoms are possible. Preserve onset, symptom description, functional change, associated features, existing guidance and what was actually communicated or received. Do not name a remote cause from the possibility of referral.
+
+In the default later records, Imani has a favorable observation with limited scope; Devon has contacted a service but not a documented examination. C1 has an attempted plan option and incomplete follow-up. C2 requires emergency action not yet performed. These classifications assess written reasoning only. They are not a validated triage instrument or proof of clinical competence.
