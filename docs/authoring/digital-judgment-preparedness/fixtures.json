@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "runtime_evidence": false,
+  "scams": {
+    "ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ],
+    "bank_authorized": false,
+    "club_renewal_due": true,
+    "club_download_required": false,
+    "code_reported": true,
+    "account_recovery_complete": null,
+    "payment_sent": 300,
+    "payment_recovered": null,
+    "fresh_sent": 120,
+    "unsolicited_recovery_fee": 25
+  },
+  "feed": {
+    "cards": [
+      [
+        "F1",
+        "direct",
+        "G"
+      ],
+      [
+        "F2",
+        "adjacent",
+        "G"
+      ],
+      [
+        "F3",
+        "provocative",
+        null
+      ],
+      [
+        "F4",
+        "direct",
+        "G"
+      ],
+      [
+        "F5",
+        "unrelated",
+        null
+      ],
+      [
+        "F6",
+        "adjacent",
+        "G"
+      ],
+      [
+        "F7",
+        "direct",
+        "nursery"
+      ],
+      [
+        "F8",
+        "unrelated",
+        null
+      ],
+      [
+        "F9",
+        "direct",
+        "G"
+      ],
+      [
+        "F10",
+        "adjacent",
+        "collection"
+      ]
+    ],
+    "sessions": [
+      {
+        "occurred": true,
+        "minutes": 12,
+        "endpoint": false,
+        "shifts": 4
+      },
+      {
+        "occurred": true,
+        "minutes": 7,
+        "endpoint": true,
+        "shifts": 1
+      },
+      {
+        "occurred": false,
+        "minutes": null,
+        "endpoint": null,
+        "shifts": null
+      }
+    ],
+    "fresh_minutes": [
+      8,
+      6
+    ]
+  },
+  "ai": {
+    "source": {
+      "day": "Tuesday",
+      "time": "18:00",
+      "room": "Room B",
+      "hall": "Cedar Hall",
+      "cost": "free",
+      "bring": "notebook"
+    },
+    "manual_minutes": [
+      6,
+      2
+    ],
+    "assisted_minutes": [
+      1,
+      1,
+      5,
+      4
+    ],
+    "fresh_manual_minutes": [
+      7
+    ],
+    "fresh_assisted_minutes": [
+      2,
+      9
+    ],
+    "unsupported": [
+      "included notebook",
+      "universal accessibility",
+      "Cedar Access Report 2026"
+    ]
+  },
+  "provenance": {
+    "validated_D": [
+      "editing-tool signature",
+      "exact file binding",
+      "June 10 export/crop"
+    ],
+    "not_validated_D": [
+      "speaker identity",
+      "event date",
+      "spoken claim truth"
+    ],
+    "event_reply": {
+      "venue": "South Hall",
+      "time": "10:00",
+      "fee": 0,
+      "origin": null
+    },
+    "partial_reply": {
+      "venue": null,
+      "fee": 0
+    }
+  },
+  "library": {
+    "copies": {
+      "C": "B",
+      "B": "A"
+    },
+    "originals": [
+      "A",
+      "N",
+      "W"
+    ],
+    "publication": "2026-05-04",
+    "tomorrow_event": "2026-05-05",
+    "notice_published": "2026-05-03",
+    "west_closed": [
+      "2026-05-06",
+      "2026-05-07",
+      "2026-05-08"
+    ],
+    "new_whole_closure": [
+      "2026-05-06"
+    ],
+    "reopening_planned": "2026-05-07",
+    "reopening_observed": false
+  },
+  "conduct": {
+    "margin_by_version": {
+      "2": 8,
+      "3": 6
+    },
+    "private_chat_consent": false,
+    "default_posted": false,
+    "public_targeting_posts": 3,
+    "report_status": "acknowledged",
+    "resolved": null
+  },
+  "rights": {
+    "use": "primarily commercial",
+    "creative_adaptation": true,
+    "A": {
+      "license": "CC BY 4.0",
+      "creator": "Mira",
+      "copyright": "Mira, 2026",
+      "source": "record A",
+      "permitted": true
+    },
+    "B": {
+      "license": "CC BY-NC 4.0",
+      "separate_commercial_grant": false,
+      "permitted": false
+    },
+    "C": {
+      "license": "CC BY-ND 4.0",
+      "separate_shared_adaptation_grant": false,
+      "permitted": false
+    },
+    "D": {
+      "license": null,
+      "permitted": null
+    },
+    "E": {
+      "purpose": "event administration",
+      "publication_authorized": false
+    },
+    "actual_publication": false
+  },
+  "continuity": {
+    "required_lines": [
+      "Meeting: 2026-09-24 14:00 local",
+      "Room: Birch",
+      "Entry: East entrance, ask reception for the level route to Birch",
+      "Contact: Ask reception for the meeting coordinator"
+    ],
+    "local_pending": [
+      "R-41",
+      "R-42"
+    ],
+    "server": {
+      "R-41": "accepted",
+      "R-42": "not received"
+    },
+    "fresh_server": {
+      "P-1": "accepted",
+      "P-2": null
+    }
+  },
+  "policy": {
+    "moderators": 2,
+    "minutes_each": 30,
+    "ordinary_minutes": 10,
+    "urgent_minutes": 20,
+    "baseline_ordinary": 4,
+    "surge_ordinary": 6,
+    "urgent_count": 1,
+    "fresh_capacity": 45,
+    "fresh_ordinary": 3
+  },
+  "first_aid": {
+    "topics": [
+      "bleeding",
+      "CPR",
+      "AED",
+      "choking",
+      "shock",
+      "burns",
+      "poisoning",
+      "communication"
+    ],
+    "courses": {
+      "A": {
+        "observed": [],
+        "knowledge": [
+          "bleeding",
+          "CPR",
+          "AED",
+          "choking",
+          "shock",
+          "burns",
+          "poisoning",
+          "communication"
+        ]
+      },
+      "B": {
+        "observed": [
+          "CPR",
+          "AED",
+          "choking",
+          "communication"
+        ]
+      },
+      "C": {
+        "observed": [
+          "bleeding",
+          "shock",
+          "burns",
+          "poisoning",
+          "communication"
+        ]
+      }
+    },
+    "receipt": {
+      "CPR": "satisfactory observed",
+      "AED": "satisfactory observed",
+      "choking": "not assessed",
+      "communication": "role-play with correction",
+      "bleeding": "not assessed",
+      "shock": "not assessed",
+      "burns": "not assessed",
+      "poisoning": "not assessed"
+    },
+    "C_status": "booked",
+    "aed_fetched": null,
+    "aed_used": null,
+    "entrance_before": "east",
+    "entrance_after": "north",
+    "hazard_breathing": null
+  },
+  "household": {
+    "hazards": [
+      "Fire",
+      "Power loss",
+      "Evacuation order",
+      "Severe-weather shelter alert",
+      "Medical emergency",
+      "Water/shops unavailable"
+    ],
+    "initial": {
+      "lantern_present": true,
+      "lantern_works": false,
+      "contact_retrieved": false,
+      "care_plan": null,
+      "helper_consented": false,
+      "transport_confirmed": null
+    },
+    "later": {
+      "lantern_works": true,
+      "contact_retrieved": true,
+      "contact_called": false,
+      "provider_reply": "acknowledged",
+      "care_plan": null,
+      "helper_consented": false,
+      "transport_confirmed": null
+    }
+  },
+  "awareness": {
+    "initial_routes": {
+      "east": {
+        "open": true,
+        "level": true
+      },
+      "west": {
+        "open": true,
+        "level": false,
+        "steps": 6
+      },
+      "garden": {
+        "open": null,
+        "level": null
+      }
+    },
+    "changed_routes": {
+      "east": {
+        "open": false,
+        "level": true
+      },
+      "west": {
+        "open": true,
+        "level": false,
+        "steps": 6
+      },
+      "garden": {
+        "open": null,
+        "level": null
+      }
+    },
+    "A_garden": {
+      "open": true,
+      "level": true,
+      "traversed": true
+    },
+    "B": {
+      "garden_traversed": false,
+      "desk_pickup": true
+    },
+    "north_exit_suitable": null,
+    "visits": [
+      {
+        "occurred": true,
+        "changed": false
+      },
+      {
+        "occurred": false,
+        "changed": null
+      }
+    ]
+  }
+}
