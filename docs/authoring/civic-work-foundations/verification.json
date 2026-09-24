@@ -1,0 +1,733 @@
+{
+  "schema_version": 1,
+  "status": "local_source_verification_passed",
+  "inspected_on": "2026-09-24",
+  "baseline_commit": "212a8e34338b08d67bdf329d725e5375d75e3f74",
+  "baseline_tests": 816,
+  "new_tests": 37,
+  "total_source_tests": 853,
+  "source_sha256": {
+    "docs/authoring/civic-work-foundations/20.13/SCOPE-MAP.md": "96df467d61311d4b165181a37c87bd3c5ee39d66ad21c1def234b6d7116d0382",
+    "docs/authoring/civic-work-foundations/20.13/check-answers.md": "d0aac837dadf66e5c96e6df7ba85517e667cc93b9b8d7212d1d8150174281db7",
+    "docs/authoring/civic-work-foundations/20.13/check-prompts.md": "791abdf048e7c7e3361cc7ac339ef6fc32426028920e7fb1ae184eb388bed72f",
+    "docs/authoring/civic-work-foundations/20.13/later-packet.md": "cf13f656da1f0a53ce70870b0463bc54c460139d70de83e9b5ee44557186f5e7",
+    "docs/authoring/civic-work-foundations/20.13/learner-guide.md": "479dc39f7490cde372fa3e9cdc63919c91e45bbfa9bec88f241759e8ff9c7ddf",
+    "docs/authoring/civic-work-foundations/20.14/SCOPE-MAP.md": "15f2fb99b30ca4edad5e794a6f1eb636443275ca9931d07093e43fae23f20fdb",
+    "docs/authoring/civic-work-foundations/20.14/check-answers.md": "41c7b84ed0bed8ba65fefbf82462684ed59a9d3d7de501d690124605ef68fbae",
+    "docs/authoring/civic-work-foundations/20.14/check-prompts.md": "c5fc821a528fd2a16d26bb6ad1775cf1044a82b9736fc93df356ffe5fcc81738",
+    "docs/authoring/civic-work-foundations/20.14/later-packet.md": "653548a0096af0456dbd21d75fb1f5906064ac2439a307c38fb13b853af86828",
+    "docs/authoring/civic-work-foundations/20.14/learner-guide.md": "040aad5ab6292f20f5b4fe19505bb91bb84dfcf321aa94f15f34efb881b024a6",
+    "docs/authoring/civic-work-foundations/20.15/SCOPE-MAP.md": "a7e794ddc6060ec58336d101c00610bde0db0adb7a8d0f0b9d0db36aed73b31b",
+    "docs/authoring/civic-work-foundations/20.15/check-answers.md": "505f3860610d2bcc662554c07bb09776b67106a2eba382b7b26f328b7582a238",
+    "docs/authoring/civic-work-foundations/20.15/check-prompts.md": "e7b70027fc94bb652da019e5302323177a53fd6e21b2ce3942adc2b237b84319",
+    "docs/authoring/civic-work-foundations/20.15/later-packet.md": "baf51739a8f2d19fc36385a3d29885980589a9acd1315c6a240b0670c824fcb9",
+    "docs/authoring/civic-work-foundations/20.15/learner-guide.md": "faf3908d65178b3c1fb05d6ca36ff7bbf7d3454aa6d467329968fb43edc415f4",
+    "docs/authoring/civic-work-foundations/20.16/SCOPE-MAP.md": "727ab12ff71c927ed9eeb1671779bcd4d91a5d7aeeb1e65f95ed31185595c1c6",
+    "docs/authoring/civic-work-foundations/20.16/check-answers.md": "5746d1ddc05b5d51fd3199ba6deba07de31ce773ab0f4bb270b4b6f1c2317fe8",
+    "docs/authoring/civic-work-foundations/20.16/check-prompts.md": "caca8a46eaf695cabe1f79bedbe78eeb6e79b3a13934823b41ff67f8b56aace7",
+    "docs/authoring/civic-work-foundations/20.16/later-packet.md": "4987ede62e8b448920e7465546babdf26baa363433fcac569a238540fe8b884f",
+    "docs/authoring/civic-work-foundations/20.16/learner-guide.md": "8df1697b6097965edca84c57927c296024438f788661a386d19863c94f4ddfc0",
+    "docs/authoring/civic-work-foundations/20.17/SCOPE-MAP.md": "4f3ef566e7219a6bc53fb4f18f4a6a6ce92929ee05f873778fc623bfa1d65bc1",
+    "docs/authoring/civic-work-foundations/20.17/check-answers.md": "a536d25b12637bb3fc0e76f549ef6ea425241148834b1c51d51b9211f62df969",
+    "docs/authoring/civic-work-foundations/20.17/check-prompts.md": "8cf06264b50c8ef180f6cac0488dc03805baa8e96f9664ff66cb8eae828572c0",
+    "docs/authoring/civic-work-foundations/20.17/later-packet.md": "7992843e57bf9c7814668b8e4e86f402bdf9ff18114dff662fb008bebcf09804",
+    "docs/authoring/civic-work-foundations/20.17/learner-guide.md": "071cbbc7d0ed240c31440edb72054bb92c5d6303153ea16799b36fb7444888eb",
+    "docs/authoring/civic-work-foundations/20.18/SCOPE-MAP.md": "3f055d74de997428395887af16847007e0eb44e56d04254b9ee22d9aca5f7341",
+    "docs/authoring/civic-work-foundations/20.18/check-answers.md": "b0589708dd57f983d9181ec021f323d5a22d9a9b5651a1633385806dcae79c25",
+    "docs/authoring/civic-work-foundations/20.18/check-prompts.md": "8428e0b7ba1dec97042099f2b7125e23623b147581e568f432893b6a5f6a0315",
+    "docs/authoring/civic-work-foundations/20.18/later-packet.md": "8a9ffa07716e24f1f9c81750291523aeb389f64529dffa23714298a4bec0e0b5",
+    "docs/authoring/civic-work-foundations/20.18/learner-guide.md": "aa15bb11055f98fe87bb734cefdf3ecdbfb7035aef170d72217ecfc1318a8741",
+    "docs/authoring/civic-work-foundations/21.01/SCOPE-MAP.md": "af55ec45ad8b61ce35094c7421abb35f16a253fd2faefa90316dfc562bc2706b",
+    "docs/authoring/civic-work-foundations/21.01/check-answers.md": "0757fa5572f420a8b9e47567c9c8ee54941c099af6b3bdbebaa487f11540112a",
+    "docs/authoring/civic-work-foundations/21.01/check-prompts.md": "244b598addc478dc46f0ef7d80e75d9516a599106591c6e3679af56d5700a20f",
+    "docs/authoring/civic-work-foundations/21.01/later-packet.md": "4ce0a37df3c1da7718da919e70be433f55aef5646c0c4bb8a77af6d044b51d62",
+    "docs/authoring/civic-work-foundations/21.01/learner-guide.md": "3434ae24dcdbcf14ab85b95ade5907b60f35fba020ed784d81a9c177de96c248",
+    "docs/authoring/civic-work-foundations/21.02/SCOPE-MAP.md": "0799263ac5fa565e503adfa6c56d24ba17bc5a6276abe3ad47c4ed41fed7f3e6",
+    "docs/authoring/civic-work-foundations/21.02/check-answers.md": "4947583295e3db3bf5a7bd998f97b0139e6adb0527b6f79ccc51f48f93470526",
+    "docs/authoring/civic-work-foundations/21.02/check-prompts.md": "85adc1062d941f426a50531e9b461e75afeab51d3fd96ea31b66a8b513f62779",
+    "docs/authoring/civic-work-foundations/21.02/later-packet.md": "08f81ee2aecc37f5cfb1b181253e9b306f7c537e776bd72628ff0b9382b42352",
+    "docs/authoring/civic-work-foundations/21.02/learner-guide.md": "7515987a4280e55694d92dffaaa0cde1003999cb77892bcd0fec54d06275c02b",
+    "docs/authoring/civic-work-foundations/21.04/SCOPE-MAP.md": "5d93e39073a9b8052c532384a217941b99cb2e5f4fba28f541d3a2b3e2ad8dde",
+    "docs/authoring/civic-work-foundations/21.04/check-answers.md": "c5cc3f7e6866cdc6a54cb5d5b72f5446bb522d3d040175963c42dc7bee982a10",
+    "docs/authoring/civic-work-foundations/21.04/check-prompts.md": "d72c578e9a881976593afeefef55398588c51a040f96c1eeabdb2f4b828c10ab",
+    "docs/authoring/civic-work-foundations/21.04/later-packet.md": "0550726616affe33362d03977f76052907d6ff52e3ca98aa577deb70154eec96",
+    "docs/authoring/civic-work-foundations/21.04/learner-guide.md": "015ff6b429dc6766343a87a2930d326d58df1eea465355543cc8ea5f7da2264f",
+    "docs/authoring/civic-work-foundations/21.05/SCOPE-MAP.md": "a57ed38cad31d30f71e5a89f5a099e645e581bc629d9e133a42f8aa3170ce495",
+    "docs/authoring/civic-work-foundations/21.05/check-answers.md": "3487d960de2bf19fae795a3f282bdbe73c0b2585bfaf531d5ff5262c8e04dbde",
+    "docs/authoring/civic-work-foundations/21.05/check-prompts.md": "62325e5a37ef837ecd917cddf986618ab865a67f69b90ebf17b8566f2c93d796",
+    "docs/authoring/civic-work-foundations/21.05/later-packet.md": "b431c34004cb3ea91b1c5cb667ac5461abf8e611609ac2a38b0b264f4180964c",
+    "docs/authoring/civic-work-foundations/21.05/learner-guide.md": "96191621deecf4e3875dd86cb010de01a6dfe035bf5d9b062240983e2046fa69",
+    "docs/authoring/civic-work-foundations/21.06/SCOPE-MAP.md": "bf5da07186455db6d8df53c6e6aef874bb1eb439738d9b4b4d14346f76301482",
+    "docs/authoring/civic-work-foundations/21.06/check-answers.md": "57b9868fbdac24db5e7db41973672be154cfc10c588daf6a5f7e79cfe1c9f541",
+    "docs/authoring/civic-work-foundations/21.06/check-prompts.md": "29a81a01c493ca207d934c104bb4507aaba74f890301f7c87950dd9d9f843015",
+    "docs/authoring/civic-work-foundations/21.06/later-packet.md": "0d076211ffb41d813bb92ad739010760363fcd787080b19484f1cfe14acb5bbe",
+    "docs/authoring/civic-work-foundations/21.06/learner-guide.md": "d2b4a995ecf980e34b19a5e47f668f0effa772d688951ab8dcb9e56d71dd970e",
+    "docs/authoring/civic-work-foundations/21.07/SCOPE-MAP.md": "e73b7579f00b5bb1afc44a6bddae892864c7abe4533b97057da41906a39eb328",
+    "docs/authoring/civic-work-foundations/21.07/check-answers.md": "c1497cdd2a72efd456b6fcb97600369bc9030ed3ad7945f422f2a1aad55a7a02",
+    "docs/authoring/civic-work-foundations/21.07/check-prompts.md": "09836b47087ad9b4602084c889585832694f1660040b7b6ca3e36716b1b205dd",
+    "docs/authoring/civic-work-foundations/21.07/later-packet.md": "3da543c2c70ef8f6b5252eba1c05b58a99e0253fa240d4a8c1289f763ba2d289",
+    "docs/authoring/civic-work-foundations/21.07/learner-guide.md": "f6162bb9d3b58fc4b6a6ac5f40121682c089f1f62e40632dcd5063085243a417",
+    "docs/authoring/civic-work-foundations/QUALITY-REVIEW.md": "3a87372e10a8b485a3ec3b6b1a0ad6abffa5c88a72665d10da4516dd395a716b",
+    "docs/authoring/civic-work-foundations/README.md": "9aefe84035744c529f9df429e168fa0d08dcc5015c7b874a157a16bac3e25f83",
+    "docs/authoring/civic-work-foundations/SOURCES.md": "06c9edf6867bae2b3224af862abd4a8f2739f0f069a9d9e6dd2dfd8242304e7b",
+    "docs/authoring/civic-work-foundations/cohort.json": "afc362360ac75e434b1c692a0fc045128e4f7ab8e6100cf6c001c5024dcd8ff5",
+    "docs/authoring/civic-work-foundations/fixtures.json": "a3aa29da9467f9657baa05b57bc89b633da38f68333db82e1be31bb3415ab85e",
+    "docs/authoring/civic-work-foundations/sources.json": "ad4035fe5def05f784c049fad239880e4275ec4686c4d1c509fb93fa48af796b"
+  },
+  "focused_test_sha256": "33b4fd47445cf863ebef88aad9de208147b72700a9a3e489a9f2a68f83e047e8",
+  "formal_reviews_accepted": 0,
+  "independent_review": "pending",
+  "actual_learner_review": "pending",
+  "qualified_review": "pending",
+  "owner_content_acceptance": "pending",
+  "application_ci_cd": "deferred, not passed",
+  "runtime_integrated": false,
+  "repair_history": [
+    {
+      "failed_command": "python -m unittest discover -s tests -p *sources.py -v",
+      "tests_run": 853,
+      "failures": 1,
+      "predecessor_failures": 0,
+      "output_sha256": "4e8399a153f6c4c0266cea205d5951be89b1ad6e502b68684d3113ccf11eba7d",
+      "finding": "New test incorrectly assumed whole-file identity for both current/recovery domains. Domain 21 already differs only at implemented 21.03; all four exercise files exactly match baseline commit 212a8e34338b08d67bdf329d725e5375d75e3f74.",
+      "repair": "Compare exact current/recovery entries for the twelve selected IDs. Retain six input-file hashes, including distinct preserved current/recovery domain 21 hashes. Do not alter protected exercises or 21.03."
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "*sources.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.872,
+      "output_sha256": "ecc8ff889c661c27f61dc8684404a6405cac051e58c3ad0358f63fff071f2391",
+      "summary": [
+        "test_tie_weight_preserves_tie_instead_of_claiming_unique_choice (test_m6k_systems_causes_tradeoffs_sources.Tradeoffs.test_tie_weight_preserves_tie_instead_of_claiming_unique_choice) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 853 tests in 6.781s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "tests/test_m6k_civic_work_foundations_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.023,
+      "output_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50",
+      "summary": [
+        "1 file already formatted"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "check",
+        "tests/test_m6k_civic_work_foundations_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.028,
+      "output_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "summary": [
+        "All checks passed!"
+      ]
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.005,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "summary": []
+    }
+  ],
+  "local_links_checked": 174,
+  "literal_repetition_check": {
+    "minimum_words": 18,
+    "new_pairs": 66,
+    "preceding_batch_pairs": 144,
+    "comparison": "All new guide pairs and every new guide against preceding twelve",
+    "duplicates": [
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      }
+    ],
+    "limit": "Literal scan only; individual conceptual review is separate.",
+    "author_disposition": "All 87 pair matches are the exact required domain 20 professional boundary with its heading: 15 pairs among six new civic guides and 72 against twelve predecessor civic guides. No other sentence at the 18-word threshold matched. Individual conceptual review is recorded separately; this is not an originality or efficacy certification."
+  },
+  "learner_guide_word_counts": {
+    "20.13": 1105,
+    "20.14": 1111,
+    "20.15": 1123,
+    "20.16": 1126,
+    "20.17": 1080,
+    "20.18": 1129,
+    "21.01": 1126,
+    "21.02": 1048,
+    "21.04": 1093,
+    "21.05": 1135,
+    "21.06": 1118,
+    "21.07": 1125
+  },
+  "source_registry_rows": 12,
+  "fresh_check_questions_reviewed": 36,
+  "case_verification": "Distinct rhetoric and checkable facts; alternative nonviolent branches; unused review route and necessity; reciprocal help and future accepted backup; alternative risk-pool arithmetic; reconciliation function/resource/consent gaps; work constraints and unapproved redesign; provisional versus late full commitment; whole-task regression; assisted versus uncoached craft use; need-driven invitation retry; approved version and shifted organizational burden. Source consistency only, not actual learner assessment.",
+  "baseline_output_sha256": "0f7e09b09c526a8223e842e574926d3d865777a9e8e29300fa3aba2e1c3e08d3",
+  "baseline_elapsed_seconds": 5.604,
+  "input_sha256": {
+    "data/curriculum/ideal_person_curriculum_v2_pluralist_full_scope.yaml": "0b397894deca28855c04a13d59d2b8af8aec3b43210f8aecbe2519f4200bc560",
+    "contracts/tailored-practice-authoring.yaml": "bea23084c41969cc9746cba1d6de653da6c70788a401a76fec70554e208b1bba",
+    "docs/authoring/exercises/20.yaml": "dae734ee7c32d68c97ce84290fc88d8323bcae669e3cf93ab9ae929cacd52215",
+    "docs/authoring/exercises/21.yaml": "9c7b0c7522695de7593380088efe75ef9e0f0236265b15074de998e58897a784",
+    "docs/plans/m6k/recovery/selected/exercises/20.yaml": "dae734ee7c32d68c97ce84290fc88d8323bcae669e3cf93ab9ae929cacd52215",
+    "docs/plans/m6k/recovery/selected/exercises/21.yaml": "be716acaac570d8e5bddf1dd9c92ca794978327551f727c00bad10ec1586e25d"
+  },
+  "scope_audit": {
+    "changed_paths": [
+      "MANIFEST.tsv",
+      "contracts/active-batch.yaml",
+      "docs/authoring/SOURCE-CONSOLIDATION-STATUS.md",
+      "docs/authoring/civic-work-foundations/20.13/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/20.13/check-answers.md",
+      "docs/authoring/civic-work-foundations/20.13/check-prompts.md",
+      "docs/authoring/civic-work-foundations/20.13/later-packet.md",
+      "docs/authoring/civic-work-foundations/20.13/learner-guide.md",
+      "docs/authoring/civic-work-foundations/20.14/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/20.14/check-answers.md",
+      "docs/authoring/civic-work-foundations/20.14/check-prompts.md",
+      "docs/authoring/civic-work-foundations/20.14/later-packet.md",
+      "docs/authoring/civic-work-foundations/20.14/learner-guide.md",
+      "docs/authoring/civic-work-foundations/20.15/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/20.15/check-answers.md",
+      "docs/authoring/civic-work-foundations/20.15/check-prompts.md",
+      "docs/authoring/civic-work-foundations/20.15/later-packet.md",
+      "docs/authoring/civic-work-foundations/20.15/learner-guide.md",
+      "docs/authoring/civic-work-foundations/20.16/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/20.16/check-answers.md",
+      "docs/authoring/civic-work-foundations/20.16/check-prompts.md",
+      "docs/authoring/civic-work-foundations/20.16/later-packet.md",
+      "docs/authoring/civic-work-foundations/20.16/learner-guide.md",
+      "docs/authoring/civic-work-foundations/20.17/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/20.17/check-answers.md",
+      "docs/authoring/civic-work-foundations/20.17/check-prompts.md",
+      "docs/authoring/civic-work-foundations/20.17/later-packet.md",
+      "docs/authoring/civic-work-foundations/20.17/learner-guide.md",
+      "docs/authoring/civic-work-foundations/20.18/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/20.18/check-answers.md",
+      "docs/authoring/civic-work-foundations/20.18/check-prompts.md",
+      "docs/authoring/civic-work-foundations/20.18/later-packet.md",
+      "docs/authoring/civic-work-foundations/20.18/learner-guide.md",
+      "docs/authoring/civic-work-foundations/21.01/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/21.01/check-answers.md",
+      "docs/authoring/civic-work-foundations/21.01/check-prompts.md",
+      "docs/authoring/civic-work-foundations/21.01/later-packet.md",
+      "docs/authoring/civic-work-foundations/21.01/learner-guide.md",
+      "docs/authoring/civic-work-foundations/21.02/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/21.02/check-answers.md",
+      "docs/authoring/civic-work-foundations/21.02/check-prompts.md",
+      "docs/authoring/civic-work-foundations/21.02/later-packet.md",
+      "docs/authoring/civic-work-foundations/21.02/learner-guide.md",
+      "docs/authoring/civic-work-foundations/21.04/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/21.04/check-answers.md",
+      "docs/authoring/civic-work-foundations/21.04/check-prompts.md",
+      "docs/authoring/civic-work-foundations/21.04/later-packet.md",
+      "docs/authoring/civic-work-foundations/21.04/learner-guide.md",
+      "docs/authoring/civic-work-foundations/21.05/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/21.05/check-answers.md",
+      "docs/authoring/civic-work-foundations/21.05/check-prompts.md",
+      "docs/authoring/civic-work-foundations/21.05/later-packet.md",
+      "docs/authoring/civic-work-foundations/21.05/learner-guide.md",
+      "docs/authoring/civic-work-foundations/21.06/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/21.06/check-answers.md",
+      "docs/authoring/civic-work-foundations/21.06/check-prompts.md",
+      "docs/authoring/civic-work-foundations/21.06/later-packet.md",
+      "docs/authoring/civic-work-foundations/21.06/learner-guide.md",
+      "docs/authoring/civic-work-foundations/21.07/SCOPE-MAP.md",
+      "docs/authoring/civic-work-foundations/21.07/check-answers.md",
+      "docs/authoring/civic-work-foundations/21.07/check-prompts.md",
+      "docs/authoring/civic-work-foundations/21.07/later-packet.md",
+      "docs/authoring/civic-work-foundations/21.07/learner-guide.md",
+      "docs/authoring/civic-work-foundations/QUALITY-REVIEW.md",
+      "docs/authoring/civic-work-foundations/README.md",
+      "docs/authoring/civic-work-foundations/SOURCES.md",
+      "docs/authoring/civic-work-foundations/cohort.json",
+      "docs/authoring/civic-work-foundations/fixtures.json",
+      "docs/authoring/civic-work-foundations/sources.json",
+      "docs/authoring/civic-work-foundations/verification.json",
+      "docs/evidence/M6K-CIVIC-WORK-FOUNDATIONS-TWELVE.md",
+      "tests/test_m6k_civic_work_foundations_sources.py"
+    ],
+    "allowed_path_count": 72,
+    "violations": []
+  },
+  "current_recovery_preservation": {
+    "baseline_commit": "212a8e34338b08d67bdf329d725e5375d75e3f74",
+    "full_files_unchanged": true,
+    "domain_20_files_identical": true,
+    "domain_21_existing_difference_ids": [
+      "21.03"
+    ],
+    "selected_entries_identical": true
+  },
+  "manifest": {
+    "command": [
+      "python",
+      "scripts/verify-manifest.py"
+    ],
+    "expected_entries": 2097,
+    "exit_code": 0,
+    "final_regeneration_required_after_verification_record": true
+  }
+}
