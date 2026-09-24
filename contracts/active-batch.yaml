@@ -1,29 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-PARTNERSHIP-FAMILY-TWELVE
-  title: Individually author partnership, family and caregiving companions
-  goal: Complete 18.06–18.14 and 19.01–19.03 at twelve per report with individual depth, then normally
-    merge the verified source batch.
+  id: M6K-FAMILY-STEWARDSHIP-TWELVE
+  title: Individually author reproductive, family and care stewardship companions
+  goal: Complete 19.04–19.15 with individual depth at twelve per report, verify and normally merge the
+    source-only batch.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/partnership-family/SOURCES.md
-  - docs/authoring/partnership-family/cohort.json
-  - docs/authoring/partnership-family/QUALITY-REVIEW.md
-  milestone: M6K-PARTNERSHIP-FAMILY-SOURCE-PUBLICATION
-  baseline_commit: c9e6564c7cb33ce811e908f93b1c77f2ba1b56c7
+  - docs/authoring/family-stewardship/SOURCES.md
+  - docs/authoring/family-stewardship/cohort.json
+  - docs/authoring/family-stewardship/QUALITY-REVIEW.md
+  milestone: M6K-FAMILY-STEWARDSHIP-SOURCE-PUBLICATION
+  baseline_commit: 22889faded03bca7c73d8a56aedd9c573e434040
 dependencies:
-- PR-89-merged
+- PR-90-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/partnership-family/**
-  - docs/evidence/M6K-PARTNERSHIP-FAMILY-TWELVE.md
-  - tests/test_m6k_partnership_family_sources.py
+  - docs/authoring/family-stewardship/**
+  - docs/evidence/M6K-FAMILY-STEWARDSHIP-TWELVE.md
+  - tests/test_m6k_family_stewardship_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -67,75 +67,86 @@ scope:
   - tests/test_m6k_respectful_connection_sources.py
   - docs/authoring/belonging-partnership/**
   - tests/test_m6k_belonging_partnership_sources.py
+  - docs/authoring/partnership-family/**
+  - tests/test_m6k_partnership_family_sources.py
 acceptance:
-- Owner continuation “next batch please” retains twelve per report, individual quality and prior explicit
-  normal merge authorization. Source-quality workflow defers CI/CD. Normal merge authorization overrides
-  generic target-pr-merge prohibition for this batch only; no protection bypass, runtime integration or
-  deployment.
-- Exact IDs 18.06–18.14 and 19.01–19.03. Preserve 105 earlier additional source companions and 707 source
-  tests. Scope ends after twelve; no new legacy companion.
+- Owner continuation “again next batch please” retains twelve per report, individual quality, standing
+  source-quality CI/CD deferral and prior explicit normal-merge authorization. This authorizes the scoped
+  normal merge despite generic target-pr-merge prohibition; no protection bypass, runtime integration
+  or deployment.
+- Exact IDs 19.04–19.15. Preserve 117 earlier additional companions and 743 source tests. No new legacy
+  companion; stop after twelve.
 - Each competency requires substantive individual teaching, worked example, complete original fictional
-  case, ordered actions and inspectable outputs, separate later packet, three fresh cases and corrective
-  answers, supported/harder/real transfer routes, full canonical scope/classification/measurement and
+  case, ordered actions with inspectable outputs, separate later packet, three fresh checks with corrective
+  answers, supported/harder/real transfer routes, exact canonical scope/classification/measurement and
   inspected primary or first-party sources.
-- Author review checks every facet, depth, usability, distinctiveness, answer discrimination, source limits
-  and absent human evidence. Length and automated tests do not establish pedagogy or qualified acceptance.
-- All twelve retain role-conditional applicability/normative status. Preserve exact domain-specific professional
-  boundaries and measurement preferences. Partnership, sex, parenting, reproduction and caregiving are
-  not required life paths.
-- Relationship stages are not a fixed sequence; changed capacity does not erase a breach. Shared labor
-  includes noticing and follow-through; chores cannot buy sex, privacy access or personal decision authority.
-  Repair requires conduct, not compelled forgiveness or equal blame.
-- 18.09 is a no-contact adult fictional consent rehearsal. 18.10 is voluntary nonsexual-time conversation
-  or fiction, never sexual performance. No private sexual/medical details in app evidence; uncertainty,
-  withdrawal, coercion or incapacity means stop, not obtain a technical yes.
-- No contraceptive prescribing, fertility prediction, diagnostic assessment or legal conclusion. Separate
-  contraception from infection prevention, intentions from predictions, and appointments from clinical
-  answers. Use current qualified resources for relevant uncertainties.
-- Trust follows actual promises without surveillance or retroactive erasure of a breach. Diversity preserves
-  personal commitments and equal dignity without compelled participation, outing or excusing coercion.
-- Endings preserve safety, dependents and actual obligations; no forced direct contact, asset deprivation,
-  care withdrawal or court-order changes. Family-pattern work uses observed occasions, not diagnoses,
-  reconstructed trauma or compulsory reconciliation.
-- Parenting live routes require actual authorized caregiving and care-plan consistency. Demonstration,
-  accessible choice, warmth and proportionate safety limits replace humiliation or compliance tests. Caregiving
-  preserves recipient agency and task-specific authority, safe backups and sustainability; no medication,
-  transfer, feeding, clinical or financial authority invented.
-- Expected additional source count 117; runtime stays 108 tailored, 275 pending, 383 protocols and 1151
-  actions. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain
+- All twelve remain role_conditional in applicability and normative status; retain exact domain19 professional
+  boundary and measurement preferences. Reproduction, parenting and caregiving are not required life paths.
+  Actual role and task authority precede live care; fiction and no-attempt routes remain legitimate.
+- Reproductive-health learning prepares qualified questions, not a fertility forecast, contraceptive prescription,
+  pregnancy diagnosis, treatment decision or fixed personal referral deadline. Separate population information
+  from suitability, and inquiry/booking/attendance from clinical answer.
+- Pregnancy/postpartum support preserves bodily consent, helper versus infant-care versus medical authority,
+  existing care instructions and prompt actual help for concerning symptoms; no false emergency calls
+  or simulated symptoms. Grief support accepts silence/refusal and different meanings without blame, forced
+  disclosure or replacement narratives.
+- Family belonging preserves origins, privacy and child voice without forced titles, contact or legal
+  authority. Safeguarding uses official jurisdiction-specific receiving routes, obligations and emergency
+  paths; no amateur interviews, credibility tests, confrontation, false reports, secrecy promises or delay
+  of a real concern for this exercise.
+- Autonomy/discipline distinguishes safety and shared-use limits from adult preference. No humiliation,
+  violence or withholding essentials/affection. Family teaching includes practical, ethical, emotional,
+  cultural/worldview and media judgment through a safe demonstration and learner retry, not compliance
+  or compelled belief.
+- Elder-care work distinguishes observed changes, diagnosis, task-specific capacity and legal authority;
+  use accessible participation, qualified planning and sustainable support. No family vote or age-based
+  automatic takeover, medication change or private care records in app evidence.
+- Family labor exposes complete units and hidden rework without stereotypes or withdrawal of essential
+  care. Restructuring follows existing custody/care/safety authority, keeps adult disputes from dependents
+  and never tests a live pickup.
+- Heritage activity allows opt-out, alternative meaning, story/recording permissions and actual revision
+  without coercive nostalgia. Respite requires competent willing authorized backup, start/return handoffs
+  and actual protected time; an offer or booked slot is not coverage, one break is not resolved burnout.
+- Individual author review covers all facets, depth, usability, distinctiveness, source limits, fresh
+  answers and missing human evidence. Length and automated checks do not establish pedagogy, qualified
+  acceptance or formal review.
+- Additional source count expected129; runtime108 tailored/275 pending/383 protocols/1151 actions unchanged.
+  Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain
   pending.
-- Run full source suite, focused Ruff, links, exact canonical/current/recovery hashes, meaningful case
-  regressions, manifest and allowed/forbidden scope audit. Record actual results and limitations.
+- Run full source suite, focused Ruff, link/anchor checks, exact canonical/current/recovery hashes, case
+  regressions, manifest and allowed/forbidden scope audit. Record actual results; source publication does
+  not claim application gates.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - ruff format --check tests/test_m6k_partnership_family_sources.py
-  - ruff check tests/test_m6k_partnership_family_sources.py
+  - python -m ruff format --check tests/test_m6k_family_stewardship_sources.py
+  - python -m ruff check tests/test_m6k_family_stewardship_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Exact role-conditional and professional-boundary integrity
-  - Temporary adjustment versus unresolved repair
-  - Whole-task labor and decision authority
-  - Apology versus comparable follow-through
-  - Specific, ongoing, voluntary and reversible consent without contact
-  - Prevention questions versus performance or clinical claims
-  - Existing promises versus assumptions and surveillance
-  - Endings versus continuing obligations and safe handoffs
-  - Diversity versus forced participation or excused coercion
-  - Reproductive wishes versus predictions and bodily control
-  - Observed family routes versus inferred trauma
-  - Authorized parenting, support adjustment and non-coercive participation
-  - Care recipient agency, transport timing, backup authority and clinical uncertainty
+  - Exact domain19 role, measurement and professional boundaries
+  - Population guidance versus individual reproductive judgment
+  - Postpartum disruption, distinct authority and urgent-help route
+  - Grief refusal versus accepted practical support
+  - Belonging choices versus privacy and legal authority
+  - Verified receiving routes versus information services and fictional report
+  - Proportionate repair and changed responsibility conditions
+  - Own-word learning and verified source versus copied compliance
+  - Memory observations versus diagnosis/capacity and qualified planning
+  - Whole-task ownership, hidden rework and accepted workload
+  - Collector authority, safe delay and actual transfer
+  - Heritage revision, permission and limited belonging claim
+  - Respite acceptance, competence, interval and return handoff
 risk:
   class: moderate
   hazards:
-  - Generic repetition erasing individual scope
-  - Coerced intimacy, disclosure, reproduction, repair or reconciliation
-  - Unsupported medical/legal/developmental conclusions
-  - Unauthorized care, financial control or unsafe handoff
-  - Invented participant evidence or formal acceptance
+  - Generic content hiding distinct canonical scope
+  - Unsupported medical, legal, capacity or developmental claims
+  - Delayed protection or amateur child investigation
+  - Coercion, disclosure or unauthorized care
+  - Uncovered essential care or respite described as completed
+  - Fabricated learner, specialist or acceptance evidence
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -144,6 +155,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-PARTNERSHIP-FAMILY-TWELVE.md
+  - docs/evidence/M6K-FAMILY-STEWARDSHIP-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
