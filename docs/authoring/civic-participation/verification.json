@@ -1,0 +1,832 @@
+{
+  "schema_version": 1,
+  "status": "local_source_verification_passed",
+  "inspected_on": "2026-09-24",
+  "baseline_commit": "46c8a6181ed5281f4fba5a907f7e68c38ea34e15",
+  "baseline_tests": 779,
+  "new_tests": 37,
+  "total_source_tests": 816,
+  "source_sha256": {
+    "docs/authoring/civic-participation/20.01/SCOPE-MAP.md": "0f2a67718107e21310808c8505da7169050483a586bbca45b844ca4468c5a9e8",
+    "docs/authoring/civic-participation/20.01/check-answers.md": "97d35f26a8e5b7a9c221aa3fdcf3783f2c54036db94a8f3b657339cfbbc6e0ec",
+    "docs/authoring/civic-participation/20.01/check-prompts.md": "796ed73b1b1619856530255f68cd23ca3f45e9e00be9a9339c66671c44da1e69",
+    "docs/authoring/civic-participation/20.01/later-packet.md": "b8f1a5cf70141f24892477491e64b5c88d37a27902aa210cdc19664d968384fa",
+    "docs/authoring/civic-participation/20.01/learner-guide.md": "95162889296b7b22a97b06426ee7e95c6e0053691b999bed90e00a40f6ae8a1d",
+    "docs/authoring/civic-participation/20.02/SCOPE-MAP.md": "1c3b2152e2e1cdef90bce1eec87d6c1fd1ee58eaf3fa97a412622c32a8167fd4",
+    "docs/authoring/civic-participation/20.02/check-answers.md": "19d1e34386ccc867159a5f84f15c018d7452ee84e2b14589fd707e29c680a090",
+    "docs/authoring/civic-participation/20.02/check-prompts.md": "8956b77e5b448772201d007f4caabc064e2b4cd1773654ef91ce71bc2fa758c8",
+    "docs/authoring/civic-participation/20.02/later-packet.md": "618bbe12af356ecdc0112887fe876b0500bf61769721a1e514a59657346418be",
+    "docs/authoring/civic-participation/20.02/learner-guide.md": "f700a07e7029d435bb6c6ada06102673cd5f160c7c2ab888204ad0bf3e7ec492",
+    "docs/authoring/civic-participation/20.03/SCOPE-MAP.md": "eb2cb54b1be0a0506e2bfa126bff69dac55bd0fec7ab463b8789bab7985821c4",
+    "docs/authoring/civic-participation/20.03/check-answers.md": "099844158ccc4de8d684c2c94890bd121b9a80a3375fb71f31342aeb9ef535b8",
+    "docs/authoring/civic-participation/20.03/check-prompts.md": "07982618f4366a35fc5412f41a671a84041d822c7dcbbbd13fe2ffeea84defe0",
+    "docs/authoring/civic-participation/20.03/later-packet.md": "9dd01aec1e9083a670c445d591d96b41d08c136470e72bd66e4f46b5f4003f51",
+    "docs/authoring/civic-participation/20.03/learner-guide.md": "ac471049677c2c5142d49efc68cc850f683dfec145751563ddc1adf3aff3de50",
+    "docs/authoring/civic-participation/20.04/SCOPE-MAP.md": "899adf472044b33211201a5a1a06911e74906d7cdc26f398271af00ede11736a",
+    "docs/authoring/civic-participation/20.04/check-answers.md": "1a28d471d311f087ba4499d1fc2e3c00ded4a804860e9f389e497fc0e04b246f",
+    "docs/authoring/civic-participation/20.04/check-prompts.md": "2b331c6a50f5120dc2f7beb698310d04406a92a54e3dfd701ae2bc4c1ad4e5c4",
+    "docs/authoring/civic-participation/20.04/later-packet.md": "ba007c1342e0ca3319a9c0b09b3fe86866b90dc52dc1021414b319014baadd8e",
+    "docs/authoring/civic-participation/20.04/learner-guide.md": "fa94b4ff308964653bb3482fe5b1c5ad34e4874c56778c4b3d9e316506557efb",
+    "docs/authoring/civic-participation/20.05/SCOPE-MAP.md": "69c8c843c4ed737aa591e3e131c4c653b140a88c974acdc30330cd38ba02d010",
+    "docs/authoring/civic-participation/20.05/check-answers.md": "4f5420d1b912ace2026ebcc9fed4e5e24d54356c97c894fe72da09834bb97cd7",
+    "docs/authoring/civic-participation/20.05/check-prompts.md": "c01d4c3a3e47a99a2455d569a89f74b81e0be8656b82b54eaf97caaf54fa3759",
+    "docs/authoring/civic-participation/20.05/later-packet.md": "61876e63f5f705d3eaaa75aae8b7ce5418ea7d8ce2eeee69ec7e68780e185f39",
+    "docs/authoring/civic-participation/20.05/learner-guide.md": "469d63da3adf4c052375a4b8ed01d762bef2a10afbb53fe024e412c34b5db926",
+    "docs/authoring/civic-participation/20.06/SCOPE-MAP.md": "3c367c3d09423919a29a0d5494f4ffcf12793adb2c1ed79b85a8fc251ecb0b32",
+    "docs/authoring/civic-participation/20.06/check-answers.md": "f65a89ccde1caf96cac4030450adb3c4792ff52bc699d9bb796da5d9a1a6fe8c",
+    "docs/authoring/civic-participation/20.06/check-prompts.md": "a0f27ad9d0315c615155d169ca546c22aab49929efb06d1d6b7f866a6615558e",
+    "docs/authoring/civic-participation/20.06/later-packet.md": "d1047ddc3e8deac19fe21379c833f391eb284ca32a8f34a76848e953bfea101b",
+    "docs/authoring/civic-participation/20.06/learner-guide.md": "b246b0e5bbb9deb140a9412908d08cb7fde089a4065d96cc3b4c6e34be6d9793",
+    "docs/authoring/civic-participation/20.07/SCOPE-MAP.md": "4e69edaa0f7c287590465cf824eeef6da0bb3c1677443a0fc2634196fa895e40",
+    "docs/authoring/civic-participation/20.07/check-answers.md": "2894dc048286f96fbcac62f079be49831193b3d9387b42642d9c70f8c634d07b",
+    "docs/authoring/civic-participation/20.07/check-prompts.md": "6877aeb2f4e256e1c603814d46d1ca9fc39055ac5e1273665668977d59e5cc95",
+    "docs/authoring/civic-participation/20.07/later-packet.md": "bb2a3538bc3e2b412ab78f6988b7313510a4bd369a851dfaf85279826b5526b6",
+    "docs/authoring/civic-participation/20.07/learner-guide.md": "ef6ca3c9d9b63799372c9caa9078dd3db0a17682fbd6293853515829d3a86c71",
+    "docs/authoring/civic-participation/20.08/SCOPE-MAP.md": "213bc0eec140f81773a3f722dd89c95e98e840c420823ab7103fcfa35398656c",
+    "docs/authoring/civic-participation/20.08/check-answers.md": "40a92cb386b3536de9ddbecec7dd31ce9197a3dddc804be3aef197a465416309",
+    "docs/authoring/civic-participation/20.08/check-prompts.md": "bbf6abbfb05031c32ec57ec0c89c9b571fb87d5e77d643ca951ea846137ed655",
+    "docs/authoring/civic-participation/20.08/later-packet.md": "dcfdb6f0af46e312019428be4a727ad28444764ba4759803758192c092ae5147",
+    "docs/authoring/civic-participation/20.08/learner-guide.md": "5711956b94c235afe8589b1b1c8a9dc7c8343a18d1c015e57fcc30e42fc250e1",
+    "docs/authoring/civic-participation/20.09/SCOPE-MAP.md": "7eae8f5a4f4afaa2350b41effef6b1981c457c5a40d0bec6f5577f56b6bab167",
+    "docs/authoring/civic-participation/20.09/check-answers.md": "e2c426410889862b8c22ba6685406fdc3a873c0c50f5d0a3a3210463b39d2e35",
+    "docs/authoring/civic-participation/20.09/check-prompts.md": "2bf42e2f1eb360cf252a19a42a84e855da613e934b8a7bbca305496259f057a4",
+    "docs/authoring/civic-participation/20.09/later-packet.md": "f400bbcbdf24b9647225d4a1886af8d370726126e329fe724ee82147f4dab6c1",
+    "docs/authoring/civic-participation/20.09/learner-guide.md": "be0e7991b9ede97532809bf1ffe76da5fc55cc5b97c64a0ee6224fac6dfc3ea5",
+    "docs/authoring/civic-participation/20.10/SCOPE-MAP.md": "ec9cb8bcc79220241870f822bf0089bb5198518f0ed8da7afeb7e3ce17a1f2ab",
+    "docs/authoring/civic-participation/20.10/check-answers.md": "0818288510432d11902221c8ec5267906d3d7c2ec137651816f82040de511241",
+    "docs/authoring/civic-participation/20.10/check-prompts.md": "21aca31fdfc656790d85096e039a3c6e67bc95562a9c5cc152ad89a8d7655e9f",
+    "docs/authoring/civic-participation/20.10/later-packet.md": "69ed9f3bc8f1c479153190d4958a3e3594019c938dc90fd0e2cae18ff2746f4a",
+    "docs/authoring/civic-participation/20.10/learner-guide.md": "38b8430741efbc18b5a7a3a296e8055a1d26928f1cf8218c9b5b4d20a0ee0ddb",
+    "docs/authoring/civic-participation/20.11/SCOPE-MAP.md": "e87971a54586556c8e8cad0fd577062f9bc08a1c0941199e943074e9f28da3da",
+    "docs/authoring/civic-participation/20.11/check-answers.md": "d23cd9736602453e3ffddb1d8095e7b3222541e1bca717732e4dbb959df6e7f6",
+    "docs/authoring/civic-participation/20.11/check-prompts.md": "4433c0c266f1a3efed3ecae70320596276991a69483754e8a9cc946890b1ef44",
+    "docs/authoring/civic-participation/20.11/later-packet.md": "bc5262781aa91fcecbbb5239457fd289041e0effc943160bc0e1a665400a5fbf",
+    "docs/authoring/civic-participation/20.11/learner-guide.md": "bfb09c767fd46a3aca1daf59660f9bfbbc4847d0ea7348063bdea976c7ed2aa1",
+    "docs/authoring/civic-participation/20.12/SCOPE-MAP.md": "62a0a7c32277b90394385835e4dd36e1d0d09c13d1b16fe9698ebfa74df791f5",
+    "docs/authoring/civic-participation/20.12/check-answers.md": "2460c423b9a2f7d058c11d275279efab5ed0f9c3a0a97757812b1ef9539a0558",
+    "docs/authoring/civic-participation/20.12/check-prompts.md": "f709bc795aec9f134584ea44de57adf8f3b9a22ea2426e91f0cf675e554cbcf9",
+    "docs/authoring/civic-participation/20.12/later-packet.md": "cf0a0313c7efa8f1c312dab1ff0e20b8695bc3ab430a16ded44f374c440550bb",
+    "docs/authoring/civic-participation/20.12/learner-guide.md": "7af2916ec76f8d181aa6be740e75f12d4216a88a4692adc5388c5c3c7f38a2b2",
+    "docs/authoring/civic-participation/QUALITY-REVIEW.md": "0ca80a5146abe69ea6ea255d7380c5871efbe9687eeabfa3a829cea9cc078956",
+    "docs/authoring/civic-participation/README.md": "776e89949b516b6a426d3d34dc5a2a6cd9948535b6484ab168c82c777c9cf96c",
+    "docs/authoring/civic-participation/SOURCES.md": "baa60dc933762ad20ca0390d4c4ddf73d0ef204c69fe235d0870bea96c5db4b5",
+    "docs/authoring/civic-participation/cohort.json": "e168f8e17557e86d6e8690c15272feebd5f95998864623ed47821196b6eb0442",
+    "docs/authoring/civic-participation/fixtures.json": "15b8c2fe9d1b3c6a74e7787146a9a2bf0b7eec202c6dbe732ef06d51609bb2e3",
+    "docs/authoring/civic-participation/sources.json": "7e3e774f162a857cb648637f9eba14ef7b44ddc896bc7c86fdb33c32a157ede7"
+  },
+  "focused_test_sha256": "976ab563c81f67d08a3c9430d44ecd9c2738d5e37df38ca96e9de9dfb1708e63",
+  "formal_reviews_accepted": 0,
+  "independent_review": "pending",
+  "actual_learner_review": "pending",
+  "qualified_review": "pending",
+  "owner_content_acceptance": "pending",
+  "application_ci_cd": "deferred, not passed",
+  "runtime_integrated": false,
+  "repair_history": [
+    "After an initial 816-test pass, final usability review supplied missing literal notice inputs in20.05/20.06 and full board inventory/target time in20.08; extended case assertions and reran all checks. Clarified future-help and sent-event status before the initial pass. No predecessor test or source modified.",
+    "The extended cases passed all816 tests; focused Ruff then reported three literal en dashes in new test strings (RUF001). Encoded the same characters as Unicode escapes without changing assertions; reran the full source contract."
+  ],
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "*sources.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.6,
+      "output_sha256": "84c351898901b7561ae237a003a8dae86aa078ec18ff3fae8d4887b4c5e1ca8d",
+      "summary": [
+        "test_tie_weight_preserves_tie_instead_of_claiming_unique_choice (test_m6k_systems_causes_tradeoffs_sources.Tradeoffs.test_tie_weight_preserves_tie_instead_of_claiming_unique_choice) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 816 tests in 5.513s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "tests/test_m6k_civic_participation_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.03,
+      "output_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50",
+      "summary": [
+        "1 file already formatted"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "check",
+        "tests/test_m6k_civic_participation_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.026,
+      "output_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "summary": [
+        "All checks passed!"
+      ]
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.007,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "summary": []
+    }
+  ],
+  "local_links_checked": 180,
+  "literal_repetition_check": {
+    "minimum_words": 18,
+    "new_pairs": 66,
+    "preceding_batch_pairs": 144,
+    "comparison": "All new guide pairs and every new guide against preceding twelve",
+    "duplicates": [
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.01/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.02/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.03/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.04/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.05/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.06/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.07/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.08/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.09/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.10/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      },
+      {
+        "a": "docs/authoring/civic-participation/20.11/learner-guide.md",
+        "b": "docs/authoring/civic-participation/20.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nPolitical and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk."
+      }
+    ],
+    "limit": "Literal scan only; individual conceptual review is separate.",
+    "editorial_disposition": "All66 repeated pairs contain only the exact canonical civic/legal professional boundary with its shared heading. No other sentence at the18-word threshold repeats in the210 compared guide pairs; this is not proof of conceptual originality."
+  },
+  "learner_guide_word_counts": {
+    "20.01": 1086,
+    "20.02": 980,
+    "20.03": 1047,
+    "20.04": 1059,
+    "20.05": 1133,
+    "20.06": 1134,
+    "20.07": 1080,
+    "20.08": 1255,
+    "20.09": 1116,
+    "20.10": 1089,
+    "20.11": 1096,
+    "20.12": 1187
+  },
+  "source_registry_rows": 16,
+  "fresh_check_questions_reviewed": 36,
+  "case_verification": "Twelve distinct case regressions: accepted return versus repair; operational reply versus unsent policy inquiry; equal separate capacity versus unresolved threat; attendance arithmetic and confounding; fair representation without conversion; repeated accepted output, rework and burden; selected support versus submission; coordinated permitted removals and limited retry; dependent sources and audience-preserving correction/update; usability repair without environmental measurement; access and dissent with a paper booking; survey denominator, unknown nonresponse, handoffs and unsent corrections. Exact 108+141=249/383 coverage partition leaves134, including25 in07–08. Source consistency, not learner assessment.",
+  "intermediate_commands_before_lint_repair": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "*sources.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.636,
+      "output_sha256": "e96784812e358458fa46c93861d1b328aa1f0fdc5c49bb8e45e673d7769e7052",
+      "summary": [
+        "test_tie_weight_preserves_tie_instead_of_claiming_unique_choice (test_m6k_systems_causes_tradeoffs_sources.Tradeoffs.test_tie_weight_preserves_tie_instead_of_claiming_unique_choice) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 816 tests in 5.548s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "tests/test_m6k_civic_participation_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.025,
+      "output_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50",
+      "summary": [
+        "1 file already formatted"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "check",
+        "tests/test_m6k_civic_participation_sources.py"
+      ],
+      "exit_code": 1,
+      "elapsed_seconds": 0.023,
+      "output_sha256": "183ce4ef090fd9e25f30fb11803503deee67e75db52f863a88917769cc16c061",
+      "summary": [
+        "    |                                                    ^",
+        "353 |             \"Hub Event Desk\",",
+        "354 |             \"18-point\",",
+        "    |",
+        "",
+        "Found 3 errors."
+      ]
+    }
+  ],
+  "prior_successful_pass": {
+    "source_sha256": {
+      "docs/authoring/civic-participation/20.01/SCOPE-MAP.md": "0f2a67718107e21310808c8505da7169050483a586bbca45b844ca4468c5a9e8",
+      "docs/authoring/civic-participation/20.01/check-answers.md": "97d35f26a8e5b7a9c221aa3fdcf3783f2c54036db94a8f3b657339cfbbc6e0ec",
+      "docs/authoring/civic-participation/20.01/check-prompts.md": "796ed73b1b1619856530255f68cd23ca3f45e9e00be9a9339c66671c44da1e69",
+      "docs/authoring/civic-participation/20.01/later-packet.md": "b8f1a5cf70141f24892477491e64b5c88d37a27902aa210cdc19664d968384fa",
+      "docs/authoring/civic-participation/20.01/learner-guide.md": "95162889296b7b22a97b06426ee7e95c6e0053691b999bed90e00a40f6ae8a1d",
+      "docs/authoring/civic-participation/20.02/SCOPE-MAP.md": "1c3b2152e2e1cdef90bce1eec87d6c1fd1ee58eaf3fa97a412622c32a8167fd4",
+      "docs/authoring/civic-participation/20.02/check-answers.md": "19d1e34386ccc867159a5f84f15c018d7452ee84e2b14589fd707e29c680a090",
+      "docs/authoring/civic-participation/20.02/check-prompts.md": "8956b77e5b448772201d007f4caabc064e2b4cd1773654ef91ce71bc2fa758c8",
+      "docs/authoring/civic-participation/20.02/later-packet.md": "618bbe12af356ecdc0112887fe876b0500bf61769721a1e514a59657346418be",
+      "docs/authoring/civic-participation/20.02/learner-guide.md": "f700a07e7029d435bb6c6ada06102673cd5f160c7c2ab888204ad0bf3e7ec492",
+      "docs/authoring/civic-participation/20.03/SCOPE-MAP.md": "eb2cb54b1be0a0506e2bfa126bff69dac55bd0fec7ab463b8789bab7985821c4",
+      "docs/authoring/civic-participation/20.03/check-answers.md": "099844158ccc4de8d684c2c94890bd121b9a80a3375fb71f31342aeb9ef535b8",
+      "docs/authoring/civic-participation/20.03/check-prompts.md": "07982618f4366a35fc5412f41a671a84041d822c7dcbbbd13fe2ffeea84defe0",
+      "docs/authoring/civic-participation/20.03/later-packet.md": "9dd01aec1e9083a670c445d591d96b41d08c136470e72bd66e4f46b5f4003f51",
+      "docs/authoring/civic-participation/20.03/learner-guide.md": "ac471049677c2c5142d49efc68cc850f683dfec145751563ddc1adf3aff3de50",
+      "docs/authoring/civic-participation/20.04/SCOPE-MAP.md": "899adf472044b33211201a5a1a06911e74906d7cdc26f398271af00ede11736a",
+      "docs/authoring/civic-participation/20.04/check-answers.md": "1a28d471d311f087ba4499d1fc2e3c00ded4a804860e9f389e497fc0e04b246f",
+      "docs/authoring/civic-participation/20.04/check-prompts.md": "2b331c6a50f5120dc2f7beb698310d04406a92a54e3dfd701ae2bc4c1ad4e5c4",
+      "docs/authoring/civic-participation/20.04/later-packet.md": "ba007c1342e0ca3319a9c0b09b3fe86866b90dc52dc1021414b319014baadd8e",
+      "docs/authoring/civic-participation/20.04/learner-guide.md": "fa94b4ff308964653bb3482fe5b1c5ad34e4874c56778c4b3d9e316506557efb",
+      "docs/authoring/civic-participation/20.05/SCOPE-MAP.md": "69c8c843c4ed737aa591e3e131c4c653b140a88c974acdc30330cd38ba02d010",
+      "docs/authoring/civic-participation/20.05/check-answers.md": "4f5420d1b912ace2026ebcc9fed4e5e24d54356c97c894fe72da09834bb97cd7",
+      "docs/authoring/civic-participation/20.05/check-prompts.md": "c01d4c3a3e47a99a2455d569a89f74b81e0be8656b82b54eaf97caaf54fa3759",
+      "docs/authoring/civic-participation/20.05/later-packet.md": "61876e63f5f705d3eaaa75aae8b7ce5418ea7d8ce2eeee69ec7e68780e185f39",
+      "docs/authoring/civic-participation/20.05/learner-guide.md": "f8536704496872bd0574c57e8c34a9c823b428e27df487f583f7e6f2a1cf162d",
+      "docs/authoring/civic-participation/20.06/SCOPE-MAP.md": "3c367c3d09423919a29a0d5494f4ffcf12793adb2c1ed79b85a8fc251ecb0b32",
+      "docs/authoring/civic-participation/20.06/check-answers.md": "f65a89ccde1caf96cac4030450adb3c4792ff52bc699d9bb796da5d9a1a6fe8c",
+      "docs/authoring/civic-participation/20.06/check-prompts.md": "a0f27ad9d0315c615155d169ca546c22aab49929efb06d1d6b7f866a6615558e",
+      "docs/authoring/civic-participation/20.06/later-packet.md": "d1047ddc3e8deac19fe21379c833f391eb284ca32a8f34a76848e953bfea101b",
+      "docs/authoring/civic-participation/20.06/learner-guide.md": "a8b048c34c13cd19bd7cd9f52a716b1ef09b78c13a98dcdfe40d206cd2e102c8",
+      "docs/authoring/civic-participation/20.07/SCOPE-MAP.md": "4e69edaa0f7c287590465cf824eeef6da0bb3c1677443a0fc2634196fa895e40",
+      "docs/authoring/civic-participation/20.07/check-answers.md": "2894dc048286f96fbcac62f079be49831193b3d9387b42642d9c70f8c634d07b",
+      "docs/authoring/civic-participation/20.07/check-prompts.md": "6877aeb2f4e256e1c603814d46d1ca9fc39055ac5e1273665668977d59e5cc95",
+      "docs/authoring/civic-participation/20.07/later-packet.md": "bb2a3538bc3e2b412ab78f6988b7313510a4bd369a851dfaf85279826b5526b6",
+      "docs/authoring/civic-participation/20.07/learner-guide.md": "ef6ca3c9d9b63799372c9caa9078dd3db0a17682fbd6293853515829d3a86c71",
+      "docs/authoring/civic-participation/20.08/SCOPE-MAP.md": "213bc0eec140f81773a3f722dd89c95e98e840c420823ab7103fcfa35398656c",
+      "docs/authoring/civic-participation/20.08/check-answers.md": "40a92cb386b3536de9ddbecec7dd31ce9197a3dddc804be3aef197a465416309",
+      "docs/authoring/civic-participation/20.08/check-prompts.md": "bbf6abbfb05031c32ec57ec0c89c9b571fb87d5e77d643ca951ea846137ed655",
+      "docs/authoring/civic-participation/20.08/later-packet.md": "d188fb4cdcc9d4f710a82afecd1174b512dd87656610d2a19a5345ed015ae074",
+      "docs/authoring/civic-participation/20.08/learner-guide.md": "04abfd28d485aac1307d13e22aaf14b1939b470d51b60794c24d975fcf45cafb",
+      "docs/authoring/civic-participation/20.09/SCOPE-MAP.md": "7eae8f5a4f4afaa2350b41effef6b1981c457c5a40d0bec6f5577f56b6bab167",
+      "docs/authoring/civic-participation/20.09/check-answers.md": "e2c426410889862b8c22ba6685406fdc3a873c0c50f5d0a3a3210463b39d2e35",
+      "docs/authoring/civic-participation/20.09/check-prompts.md": "2bf42e2f1eb360cf252a19a42a84e855da613e934b8a7bbca305496259f057a4",
+      "docs/authoring/civic-participation/20.09/later-packet.md": "f400bbcbdf24b9647225d4a1886af8d370726126e329fe724ee82147f4dab6c1",
+      "docs/authoring/civic-participation/20.09/learner-guide.md": "be0e7991b9ede97532809bf1ffe76da5fc55cc5b97c64a0ee6224fac6dfc3ea5",
+      "docs/authoring/civic-participation/20.10/SCOPE-MAP.md": "ec9cb8bcc79220241870f822bf0089bb5198518f0ed8da7afeb7e3ce17a1f2ab",
+      "docs/authoring/civic-participation/20.10/check-answers.md": "0818288510432d11902221c8ec5267906d3d7c2ec137651816f82040de511241",
+      "docs/authoring/civic-participation/20.10/check-prompts.md": "21aca31fdfc656790d85096e039a3c6e67bc95562a9c5cc152ad89a8d7655e9f",
+      "docs/authoring/civic-participation/20.10/later-packet.md": "69ed9f3bc8f1c479153190d4958a3e3594019c938dc90fd0e2cae18ff2746f4a",
+      "docs/authoring/civic-participation/20.10/learner-guide.md": "38b8430741efbc18b5a7a3a296e8055a1d26928f1cf8218c9b5b4d20a0ee0ddb",
+      "docs/authoring/civic-participation/20.11/SCOPE-MAP.md": "e87971a54586556c8e8cad0fd577062f9bc08a1c0941199e943074e9f28da3da",
+      "docs/authoring/civic-participation/20.11/check-answers.md": "d23cd9736602453e3ffddb1d8095e7b3222541e1bca717732e4dbb959df6e7f6",
+      "docs/authoring/civic-participation/20.11/check-prompts.md": "4433c0c266f1a3efed3ecae70320596276991a69483754e8a9cc946890b1ef44",
+      "docs/authoring/civic-participation/20.11/later-packet.md": "bc5262781aa91fcecbbb5239457fd289041e0effc943160bc0e1a665400a5fbf",
+      "docs/authoring/civic-participation/20.11/learner-guide.md": "bfb09c767fd46a3aca1daf59660f9bfbbc4847d0ea7348063bdea976c7ed2aa1",
+      "docs/authoring/civic-participation/20.12/SCOPE-MAP.md": "62a0a7c32277b90394385835e4dd36e1d0d09c13d1b16fe9698ebfa74df791f5",
+      "docs/authoring/civic-participation/20.12/check-answers.md": "2460c423b9a2f7d058c11d275279efab5ed0f9c3a0a97757812b1ef9539a0558",
+      "docs/authoring/civic-participation/20.12/check-prompts.md": "f709bc795aec9f134584ea44de57adf8f3b9a22ea2426e91f0cf675e554cbcf9",
+      "docs/authoring/civic-participation/20.12/later-packet.md": "cf0a0313c7efa8f1c312dab1ff0e20b8695bc3ab430a16ded44f374c440550bb",
+      "docs/authoring/civic-participation/20.12/learner-guide.md": "7af2916ec76f8d181aa6be740e75f12d4216a88a4692adc5388c5c3c7f38a2b2",
+      "docs/authoring/civic-participation/QUALITY-REVIEW.md": "119b917ad46b3ba046b67cb3717feb7116ecfbd98af8c9977daf179e166b5b14",
+      "docs/authoring/civic-participation/README.md": "776e89949b516b6a426d3d34dc5a2a6cd9948535b6484ab168c82c777c9cf96c",
+      "docs/authoring/civic-participation/SOURCES.md": "baa60dc933762ad20ca0390d4c4ddf73d0ef204c69fe235d0870bea96c5db4b5",
+      "docs/authoring/civic-participation/cohort.json": "e168f8e17557e86d6e8690c15272feebd5f95998864623ed47821196b6eb0442",
+      "docs/authoring/civic-participation/fixtures.json": "15b8c2fe9d1b3c6a74e7787146a9a2bf0b7eec202c6dbe732ef06d51609bb2e3",
+      "docs/authoring/civic-participation/sources.json": "7e3e774f162a857cb648637f9eba14ef7b44ddc896bc7c86fdb33c32a157ede7"
+    },
+    "focused_test_sha256": "2c7f0c9eb2115f2f7e3b32b4f770ade0c65dec2e63be40783d8425d01275d04f",
+    "commands": [
+      {
+        "command": [
+          "python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-p",
+          "*sources.py",
+          "-v"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 6.409,
+        "output_sha256": "b7f14e2ded13807bc69def581c83e292221a2b090cdb2ec5c74a5e973c406a8a",
+        "summary": [
+          "test_tie_weight_preserves_tie_instead_of_claiming_unique_choice (test_m6k_systems_causes_tradeoffs_sources.Tradeoffs.test_tie_weight_preserves_tie_instead_of_claiming_unique_choice) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 816 tests in 6.328s",
+          "",
+          "OK"
+        ]
+      },
+      {
+        "command": [
+          "python",
+          "-m",
+          "ruff",
+          "format",
+          "--check",
+          "tests/test_m6k_civic_participation_sources.py"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.027,
+        "output_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50",
+        "summary": [
+          "1 file already formatted"
+        ]
+      },
+      {
+        "command": [
+          "python",
+          "-m",
+          "ruff",
+          "check",
+          "tests/test_m6k_civic_participation_sources.py"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.032,
+        "output_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+        "summary": [
+          "All checks passed!"
+        ]
+      },
+      {
+        "command": [
+          "git",
+          "diff",
+          "--check"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.005,
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "summary": []
+      }
+    ],
+    "status": "local_source_verification_passed"
+  },
+  "baseline_output_sha256": "1aceb15b97865bd03957e7b7584777adb399304ce524041bdeddf7dbf133d4da",
+  "source_coverage": {
+    "covered_unique_count": 249,
+    "remaining_count": 134,
+    "remaining_by_domain": {
+      "07": 14,
+      "08": 11,
+      "20": 6,
+      "21": 18,
+      "22": 17,
+      "23": 12,
+      "24": 14,
+      "25": 13,
+      "26": 14,
+      "27": 15
+    }
+  },
+  "scope_audit": {
+    "changed_paths": [
+      "MANIFEST.tsv",
+      "contracts/active-batch.yaml",
+      "docs/authoring/SOURCE-CONSOLIDATION-STATUS.md",
+      "docs/authoring/civic-participation/20.01/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.01/check-answers.md",
+      "docs/authoring/civic-participation/20.01/check-prompts.md",
+      "docs/authoring/civic-participation/20.01/later-packet.md",
+      "docs/authoring/civic-participation/20.01/learner-guide.md",
+      "docs/authoring/civic-participation/20.02/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.02/check-answers.md",
+      "docs/authoring/civic-participation/20.02/check-prompts.md",
+      "docs/authoring/civic-participation/20.02/later-packet.md",
+      "docs/authoring/civic-participation/20.02/learner-guide.md",
+      "docs/authoring/civic-participation/20.03/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.03/check-answers.md",
+      "docs/authoring/civic-participation/20.03/check-prompts.md",
+      "docs/authoring/civic-participation/20.03/later-packet.md",
+      "docs/authoring/civic-participation/20.03/learner-guide.md",
+      "docs/authoring/civic-participation/20.04/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.04/check-answers.md",
+      "docs/authoring/civic-participation/20.04/check-prompts.md",
+      "docs/authoring/civic-participation/20.04/later-packet.md",
+      "docs/authoring/civic-participation/20.04/learner-guide.md",
+      "docs/authoring/civic-participation/20.05/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.05/check-answers.md",
+      "docs/authoring/civic-participation/20.05/check-prompts.md",
+      "docs/authoring/civic-participation/20.05/later-packet.md",
+      "docs/authoring/civic-participation/20.05/learner-guide.md",
+      "docs/authoring/civic-participation/20.06/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.06/check-answers.md",
+      "docs/authoring/civic-participation/20.06/check-prompts.md",
+      "docs/authoring/civic-participation/20.06/later-packet.md",
+      "docs/authoring/civic-participation/20.06/learner-guide.md",
+      "docs/authoring/civic-participation/20.07/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.07/check-answers.md",
+      "docs/authoring/civic-participation/20.07/check-prompts.md",
+      "docs/authoring/civic-participation/20.07/later-packet.md",
+      "docs/authoring/civic-participation/20.07/learner-guide.md",
+      "docs/authoring/civic-participation/20.08/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.08/check-answers.md",
+      "docs/authoring/civic-participation/20.08/check-prompts.md",
+      "docs/authoring/civic-participation/20.08/later-packet.md",
+      "docs/authoring/civic-participation/20.08/learner-guide.md",
+      "docs/authoring/civic-participation/20.09/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.09/check-answers.md",
+      "docs/authoring/civic-participation/20.09/check-prompts.md",
+      "docs/authoring/civic-participation/20.09/later-packet.md",
+      "docs/authoring/civic-participation/20.09/learner-guide.md",
+      "docs/authoring/civic-participation/20.10/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.10/check-answers.md",
+      "docs/authoring/civic-participation/20.10/check-prompts.md",
+      "docs/authoring/civic-participation/20.10/later-packet.md",
+      "docs/authoring/civic-participation/20.10/learner-guide.md",
+      "docs/authoring/civic-participation/20.11/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.11/check-answers.md",
+      "docs/authoring/civic-participation/20.11/check-prompts.md",
+      "docs/authoring/civic-participation/20.11/later-packet.md",
+      "docs/authoring/civic-participation/20.11/learner-guide.md",
+      "docs/authoring/civic-participation/20.12/SCOPE-MAP.md",
+      "docs/authoring/civic-participation/20.12/check-answers.md",
+      "docs/authoring/civic-participation/20.12/check-prompts.md",
+      "docs/authoring/civic-participation/20.12/later-packet.md",
+      "docs/authoring/civic-participation/20.12/learner-guide.md",
+      "docs/authoring/civic-participation/QUALITY-REVIEW.md",
+      "docs/authoring/civic-participation/README.md",
+      "docs/authoring/civic-participation/SOURCES.md",
+      "docs/authoring/civic-participation/cohort.json",
+      "docs/authoring/civic-participation/fixtures.json",
+      "docs/authoring/civic-participation/sources.json",
+      "docs/authoring/civic-participation/verification.json",
+      "docs/evidence/M6K-CIVIC-PARTICIPATION-TWELVE.md",
+      "tests/test_m6k_civic_participation_sources.py"
+    ],
+    "allowed_path_count": 72,
+    "violations": []
+  },
+  "manifest_commands": [
+    {
+      "command": [
+        "python",
+        "scripts/verify-manifest.py",
+        "--write"
+      ],
+      "exit_code": 0,
+      "output": "Wrote /workspace/scratch/0f63e6b0c5d8/gitg-self-host/MANIFEST.tsv with 2028 entries"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/verify-manifest.py"
+      ],
+      "exit_code": 0,
+      "output": "MANIFEST.tsv verified: 2028 files"
+    }
+  ],
+  "manifest_entries": 2028
+}
