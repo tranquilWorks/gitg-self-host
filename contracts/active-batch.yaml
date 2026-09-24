@@ -1,29 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-RESPECTFUL-CONNECTION-TWELVE
-  title: Individually author respectful communication and relationship companions
-  goal: Complete 16.14–16.18 and 17.01–17.07 at twelve per report, preserve individual quality and normally
+  id: M6K-BELONGING-PARTNERSHIP-TWELVE
+  title: Individually author belonging and adult partnership companions
+  goal: Complete 17.08–17.14 and 18.01–18.05 at twelve per report, preserve individual quality and normally
     merge the verified source batch.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/respectful-connection/SOURCES.md
-  - docs/authoring/respectful-connection/cohort.json
-  - docs/authoring/respectful-connection/QUALITY-REVIEW.md
-  milestone: M6K-RESPECTFUL-CONNECTION-SOURCE-PUBLICATION
-  baseline_commit: f1d433697a2a558066560523d354a8d191d18238
+  - docs/authoring/belonging-partnership/SOURCES.md
+  - docs/authoring/belonging-partnership/cohort.json
+  - docs/authoring/belonging-partnership/QUALITY-REVIEW.md
+  milestone: M6K-BELONGING-PARTNERSHIP-SOURCE-PUBLICATION
+  baseline_commit: 402b69615414f8111d8ba486deacfea4fef1ff8d
 dependencies:
-- PR-87-merged
+- PR-88-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/respectful-connection/**
-  - docs/evidence/M6K-RESPECTFUL-CONNECTION-TWELVE.md
-  - tests/test_m6k_respectful_connection_sources.py
+  - docs/authoring/belonging-partnership/**
+  - docs/evidence/M6K-BELONGING-PARTNERSHIP-TWELVE.md
+  - tests/test_m6k_belonging_partnership_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -63,66 +63,71 @@ scope:
   - tests/test_m6k_resilience_community_listening_sources.py
   - docs/authoring/communication-influence/**
   - tests/test_m6k_communication_influence_sources.py
+  - docs/authoring/respectful-connection/**
+  - tests/test_m6k_respectful_connection_sources.py
 acceptance:
-- Owner continuation request “Next chunk please” on 24 September 2026 carries forward twelve-per-report
-  cadence, no quality compromise and explicit “next batch and merge in” normal merge authorization. Source-quality
-  workflow defers CI/CD; normal merge authorization overrides generic target-pr-merge prohibition for
-  this batch only. No bypass, deployment or runtime integration.
-- Exact IDs 16.14–16.18 and 17.01–17.07. Preserve 81 previous additional source companions and 632 source
+- Owner continuation “next batch” on 24 September 2026 retains twelve per report, individual quality and
+  prior explicit normal merge authorization. Source-quality workflow defers CI/CD. Normal merge authorization
+  overrides generic target-pr-merge prohibition for this batch only; no protection bypass, runtime integration
+  or deployment.
+- Exact IDs 17.08–17.14 and 18.01–18.05. Preserve all 93 earlier additional companions and 671 source
   tests. Scope ends after twelve.
-- Each competency requires individual conceptual teaching, worked example, complete original fictional
-  case, ordered actions and inspectable output, separate later outcomes, three fresh checks and corrective
-  answers, supported/harder/real transfer routes, full canonical mapping and inspected primary sources.
-- Author review checks every canonical facet, usability, distinctiveness, case and answer discrimination,
-  source limits and missing human evidence. Length and passing tests are not pedagogical validation.
-- 17.03 is a frozen legacy companion. Preserve its protocol/actions/evidence fields, fourteen-day practice,
-  at least ten minutes primarily listening, seven-day follow-up, completion and replay byte-for-byte.
-  A proposed activity is not jointly scheduled.
-- Courtesy never measures wealth, accent, appearance, eye contact or human worth. Indirect signals remain
-  hypotheses; silence is not consent. Adapt local communication preferences without stereotypes, compelled
-  code-switching or altered material facts.
-- Accommodation must allow understanding AND expression, including disagreement. Self-audit and fictional
-  responses cannot establish actual access or friendship. Qualified language assistance in regulated settings
-  is outside the informal peer exercise.
-- Teach all seven coercion mechanisms without diagnosis by checklist. Threats, monitoring, stalking or
-  unsafe dependence stop confrontation practice; use a verified safe local support route and individualized
-  safety planning. Do not force exit, reconciliation or allegations into the application.
-- Relationship selection, maintenance, reliable support, reciprocity and hospitality require distinct
-  tasks. Respect refusal and unequal capacity. No secret loyalty tests, exact moral ledgers or rescue/control.
-  Intent and promises do not prove usefulness or follow-through.
-- Expected additional source count 93; runtime stays 108 tailored, 275 pending, 383 protocols, 1151 actions.
-  Formal independent, learner, qualified and owner content acceptance remain pending.
-- Run full source suite, focused Ruff, links, canonical/input hashes, meaningful case regressions, manifest
-  and allowed/forbidden scope audit. Record actual results and limits.
+- Each competency requires substantive individual teaching, worked example, complete original fictional
+  case, ordered actions and inspectable outputs, separate later packet, three fresh cases and corrective
+  answers, supported/harder/real transfer routes, full canonical scope/classification/measurement and
+  inspected primary sources.
+- Author review checks each facet, depth, usability, distinctiveness, answer discrimination, source limits
+  and absent human evidence; length and tests do not validate pedagogy.
+- 17.08–17.14 are cross-context core. 18.01–18.05 retain role-conditional applicability/normative status
+  and the exact professional boundary. No new legacy companion; all existing legacy runtime content stays
+  protected.
+- Collaboration requires willing roles, actual handoff and accurate credit; discussion alone cannot establish
+  added value. Belonging is not a headcount, loneliness cure or requirement to fill every social category.
+- Networking uses separate consent and minimal sharing; mentorship is reciprocal and contextual with adult-only
+  default. Inherited duties need a protected good and fair burden review, not unlimited entitlement or
+  withdrawal of essential care.
+- Deep difference and group dissent preserve real disagreement, conscience and dignity without forced
+  identity debate or retaliation. Contribution does not purchase assent or create authority over others.
+- Partnership exercises are voluntary lawful adult and role-conditional. Preserve single life and fictional/no-attempt
+  routes. No coerced romance, surveillance, loyalty tests, diagnosis, disclosure quotas or compelled sacrifice/reconciliation.
+- Abuse, threats, stalking, coercive power, unsafe dependency, medical/legal/safeguarding concerns require
+  appropriate qualified resources; ordinary mutual communication exercises do not replace safety support.
+  No private intimate content in the application.
+- Expected additional source count 105; runtime stays 108 tailored, 275 pending, 383 protocols and 1151
+  actions. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain
+  pending.
+- Run full source suite, focused Ruff, links, exact canonical/current/recovery hashes, meaningful case
+  regressions, manifest and allowed/forbidden scope audit. Record actual results and limits.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - ruff format --check tests/test_m6k_respectful_connection_sources.py
-  - ruff check tests/test_m6k_respectful_connection_sources.py
+  - ruff format --check tests/test_m6k_belonging_partnership_sources.py
+  - ruff check tests/test_m6k_belonging_partnership_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Canonical/inherited/legacy integrity
-  - Arrival buffers and changed access arrangements
-  - Pressure evidence versus diagnosis
-  - Indirect clarification versus consent
-  - Cross-format material fact preservation
-  - Two-way access and incomplete retest
-  - Welcome initiation and refusal
-  - Friendship pattern versus response speed
-  - Legacy listening duration and seven-day follow-up
-  - Support mode and renegotiated capacity
-  - Voluntary reciprocity without exact debt
-  - Safety branch and non-repair
-  - Hospitality access versus welcome intent
+  - Canonical role-conditional/professional-boundary integrity
+  - Willing roles and real handoff
+  - Sustainable social-ecology timing
+  - Separate introduction consent
+  - Mentoring transfer limits and follow-up
+  - Communal burden visibility
+  - Disagreement versus conversion
+  - Group contribution versus decision authority
+  - Eight love dimensions and freely chosen care
+  - Adult courtship consent and refusal
+  - Compatibility beyond intensity
+  - Direct request versus test or surveillance
+  - Readiness and bounded truthful disclosure
 risk:
   class: moderate
   hazards:
-  - Generic repetition erasing canonical facets
-  - Cultural stereotypes and access-performance demands
-  - Unsafe confrontation or forced exit
-  - False participant evidence or formal acceptance
+  - Generic repetition erasing individual scope
+  - Social quotas and status extraction
+  - Cultural/age stereotypes and unlimited duties
+  - Coerced romance, disclosure, reassurance or unsafe reconciliation
+  - Invented participant evidence or formal acceptance
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -131,6 +136,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-RESPECTFUL-CONNECTION-TWELVE.md
+  - docs/evidence/M6K-BELONGING-PARTNERSHIP-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
