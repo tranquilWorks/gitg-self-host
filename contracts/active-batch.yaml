@@ -1,29 +1,28 @@
 schema_version: 1
 batch:
-  id: M6K-CIVIC-WORK-FOUNDATIONS-TWELVE
-  title: Individually author civic judgment and work foundations
-  goal: Complete twelve new companions after 20.12 with individual quality, normal merge and exact remaining
-    count.
+  id: M6K-WORK-DELIVERY-VOICE-TWELVE
+  title: Individually author work delivery, rights, voice and boundaries
+  goal: Complete 21.08–21.19 with individual quality, normal merge and exact remaining count.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/civic-work-foundations/SOURCES.md
-  - docs/authoring/civic-work-foundations/cohort.json
-  - docs/authoring/civic-work-foundations/QUALITY-REVIEW.md
-  milestone: M6K-CIVIC-WORK-FOUNDATIONS-SOURCE-PUBLICATION
-  baseline_commit: 212a8e34338b08d67bdf329d725e5375d75e3f74
+  - docs/authoring/work-delivery-voice/SOURCES.md
+  - docs/authoring/work-delivery-voice/cohort.json
+  - docs/authoring/work-delivery-voice/QUALITY-REVIEW.md
+  milestone: M6K-WORK-DELIVERY-VOICE-SOURCE-PUBLICATION
+  baseline_commit: 439b85ea6e562fca3110e493e1169b8881f8f626
 dependencies:
-- PR-92-merged
+- PR-93-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/civic-work-foundations/**
-  - docs/evidence/M6K-CIVIC-WORK-FOUNDATIONS-TWELVE.md
-  - tests/test_m6k_civic_work_foundations_sources.py
+  - docs/authoring/work-delivery-voice/**
+  - docs/evidence/M6K-WORK-DELIVERY-VOICE-TWELVE.md
+  - tests/test_m6k_work_delivery_voice_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -73,68 +72,65 @@ scope:
   - tests/test_m6k_family_stewardship_sources.py
   - docs/authoring/civic-participation/**
   - tests/test_m6k_civic_participation_sources.py
+  - docs/authoring/civic-work-foundations/**
+  - tests/test_m6k_civic_work_foundations_sources.py
 acceptance:
-- Owner requests twelve more, continuing twelve-per-report quality and previously explicit normal-merge authorization.
+- Owner requests another twelve, retaining individual quality and previously explicit normal-merge authorization.
   Standing source-quality CI/CD deferral remains; scoped normal merge is authorized despite generic target-pr-merge
   prohibition. No protection bypass, runtime integration or deployment.
-- Exact new IDs 20.13–20.18,21.01,21.02,21.04–21.07.21.03 is already implemented and must be skipped. Preserve
-  all 141 prior additional companions and 816 predecessor source checks; no new legacy companion.
-- Each competency requires substantive individual teaching, worked example, complete original fictional materials,
-  ordered inspectable outputs, separate later packet, three fresh checks/corrective answers, supported/harder/real
-  transfer routes and exact canonical metadata. Sources must be actually inspected and limitations explicit.
-- Six civic entries preserve cross_context_core and exact professional boundary. Six work entries preserve
-  context_sensitive; their canonical records have no professional_boundary, so do not invent one as canonical.
-  All retain cross_tradition_core_or_broadly_recurrent. Work is context-sensitive; paid employment or public
-  civic participation is not compulsory.
-- 20.13 separates manipulative mechanisms from falsehood, strong criticism, conspiracy proof and preferred-side
-  bias; no targeting or dissemination.20.14 distinguishes dialogue/mediation/restorative processes from pressure
-  methods, with consent, authority, risk and partial-progress review; fiction only for risky methods.20.15
-  compares public conscience and convenience with alternatives, proportionate harm, transparency and accountability,
-  without operational lawbreaking or waiving legal rights.
-- 20.16 maps all six support areas and preserves received help without equal repayment, accepted handoffs,
-  privacy and actual backup ownership.20.17 compares adequacy, incentives, access, dignity, cost and distribution
-  with exact toy-pool arithmetic and correlated-shock shortfall; no real eligibility, actuarial or solvency
-  finding.20.18 distinguishes truth, accountability, memory, repair, institutional reform and coexistence;
-  no required forgiveness or testimony collection.
-- 21.01 gives eight work-choice criteria, staying/redesign, hard constraints and a decision-reversing evidence
-  check.21.02 retains explicit acceptance/deadline/checkpoint, early honest status, revised commitment and
-  usable handoff.21.04 fixes an external criterion, critiques a component, practices two cases and tests whole-task
-  transfer without a mastery claim.
-- 21.05 distinguishes correctness/robustness/useful finish and two comparable uses targeting uncoached performance, with any assistance recorded; no invented safety certification
-  or reputation.21.06 lets observed downstream task difficulty change a requirement, with comparable retry
-  and nonuser/helper effects.21.07 maps interfaces, incentives, dependencies, constraints and failure modes,
-  obtains receiver/owner agreement, tests changed readiness and checks shifted burden.
-- Unique coverage is 108 implemented IDs plus 153 additional companion IDs=261 of383;122 remain to author including 25
-  in 07–08. Preserve exact remaining list and per-domain counts. Legacy status alone does not close this pass.
-  Runtime108 tailored/275 pending/383 protocols/1151 actions unchanged.
-- Individual author review covers breadth, depth, usability, distinctiveness, all fresh answers and source/evidence
-  limits. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance
-  remain pending. Word counts, fiction, source checks and merge do not prove learning or acceptance.
-- Run full unfiltered source suite, focused Ruff, local links, exact six canonical/contract/current/recovery
-  input hashes, case and coverage regressions, manifest and allowed/forbidden scope audit. Record failures
-  and repairs honestly. Application/CI/CD remains deferred, not passed.
+- Exact new IDs 21.08–21.19, completing domain 21 source authoring. Preserve all 153 prior additional companions
+  and 853 predecessor source tests; no new legacy companion.
+- Each competency requires substantive individual explanation, worked example, complete original fictional materials,
+  ordered inspectable outputs, separate later packet, three checks and corrective answers, supported/harder/real
+  transfer routes and exact canonical metadata. Inspect actual sources and state retrieval and transfer limits.
+- All twelve retain context_sensitive and cross_tradition_core_or_broadly_recurrent, formation modes and measurement
+  metadata. No canonical professional_boundary field exists for these records; do not invent one. Practical safeguards
+  remain explicit. Employment, union participation, disclosure and career change are not compulsory.
+- 21.08 distinguishes verified requirements, accepting authority, scope tradeoffs and maintenance handover. 21.09
+  confirms dependencies, repairs constructive challenge, records shared credit and receiver readiness. 21.10 supplies
+  four comparable five-file trials, outcome and maintenance costs, and honest causal limits.
+- 21.11 supplies dated contradictory fictional demand signals and a complete numerical transfer sample without forecasts
+  or credentials. 21.12 traces output to beneficiary, tests a contribution claim and retains harms or distant uncertainty.
+  21.13 supplies executable successor materials, rationale, exception, retry and accepted upkeep ownership.
+- 21.14 applies consequence-specific quality and reversibility to three tasks; timer never waives essential checks.
+  21.15 classifies all eight workplace issues and distinguishes jurisdiction, coverage, source freshness, inquiry,
+  charge, deadline and personal ruling. 21.16 distinguishes demanding work from coercive dependence and compares
+  safe independent support routes without demanding confrontation or resignation.
+- 21.17 compares four voice mechanisms, authority, governance, consent, cost and coverage; public-sector change
+  must revise the private-sector analysis. 21.18 preserves five factual outcomes plus clarification across modes,
+  checks shifted barriers and retains actual authority. 21.19 records urgency, coverage, negotiated boundary, real
+  versus claimed protected time and worth beyond output.
+- Unique source-authoring coverage is 108 implemented plus 165 additional companion IDs = 273 of 383; 110 remain,
+  including 25 in 07–08. Preserve the full exact partition. Legacy status alone does not close this pass. Runtime
+  108 tailored / 275 pending / 383 protocols / 1151 actions is unchanged.
+- Individual author review covers breadth, depth, usability, distinctiveness, all answers and source/evidence limits.
+  Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending.
+  Fiction, tests, word counts and merge prove neither learning nor formal acceptance.
+- Run the full unfiltered source suite, focused Ruff, local links, four canonical/contract/current/recovery file
+  hashes, selected exercise entry comparison, coverage and case regressions, manifest and allowed/forbidden scope
+  audit. Current/recovery domain 21 already differ at implemented 21.03; preserve both full files and compare selected
+  entries. Record actual failures and repairs. Application/CI/CD deferred, not passed.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_civic_work_foundations_sources.py
-  - python -m ruff check tests/test_m6k_civic_work_foundations_sources.py
+  - python -m ruff format --check tests/test_m6k_work_delivery_voice_sources.py
+  - python -m ruff check tests/test_m6k_work_delivery_voice_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Exact mixed civic/work scope classification and optional canonical boundary
-  - Exact unique coverage and remaining 122
-  - Twelve individual case arithmetic/status/authority/transfer regressions
-  - Complete supplied inputs, source limits, local links and unchanged predecessors
+  - Exact twelve context-sensitive canonical entries with absent professional boundary
+  - Exact 273/383 unique coverage and remaining 110
+  - Twelve individual arithmetic, authority, status, equivalence and transfer regressions
+  - Source freshness and limits, complete inputs, links, preserved current/recovery files
 risk:
   class: moderate
   hazards:
-  - Generic teaching or incomplete supplied materials
-  - Unverified legal, policy, financial or causal claims
-  - Political coercion, private data, operational lawbreaking or unsafe care
-  - Claimed effectiveness, reliability or mastery beyond supplied evidence
-  - Source/runtime double counting
-  - Fabricated human or independent acceptance
+  - Generic teaching or incomplete task inputs
+  - Unverified personal legal, career or employment conclusions
+  - Coercion, unsafe confrontation, unnecessary disclosure or confidential records
+  - Overclaiming causality, acceptance, independence or protected time
+  - Source/runtime double counting or fabricated human acceptance
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -143,6 +139,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-CIVIC-WORK-FOUNDATIONS-TWELVE.md
-  claim_boundary: Author editorial and source verification only; independent, actual learner, qualified and
-    owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
+  - docs/evidence/M6K-WORK-DELIVERY-VOICE-TWELVE.md
+  claim_boundary: Author editorial and source verification only; independent, actual learner, qualified and owner
+    content acceptance remain pending. CI/CD/application verification deferred, not passed.
