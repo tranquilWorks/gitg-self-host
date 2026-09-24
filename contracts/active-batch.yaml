@@ -1,28 +1,28 @@
 schema_version: 1
 batch:
-  id: M6K-STEWARDSHIP-ENTERPRISE-TWELVE
-  title: Individually author stewardship and enterprise foundations
-  goal: Complete 23.08–23.12 and 24.01–24.07 with individual quality, normal merge and exact remaining count.
+  id: M6K-ECONOMICS-CREATIVE-TWELVE
+  title: Individually author economic systems and creative practice
+  goal: Complete 24.08–24.14 and 25.01–25.05 with individual quality, normal merge and exact remaining count.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/stewardship-enterprise/SOURCES.md
-  - docs/authoring/stewardship-enterprise/cohort.json
-  - docs/authoring/stewardship-enterprise/QUALITY-REVIEW.md
-  milestone: M6K-STEWARDSHIP-ENTERPRISE-SOURCE-PUBLICATION
-  baseline_commit: ce9a936878b03a449bcdc189796fe77063a691e8
+  - docs/authoring/economics-creative/SOURCES.md
+  - docs/authoring/economics-creative/cohort.json
+  - docs/authoring/economics-creative/QUALITY-REVIEW.md
+  milestone: M6K-ECONOMICS-CREATIVE-SOURCE-PUBLICATION
+  baseline_commit: 608d9c3f125c73dbd8cf4742ea3a3c184ad60eab
 dependencies:
-- PR-96-merged
+- PR-97-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/stewardship-enterprise/**
-  - docs/evidence/M6K-STEWARDSHIP-ENTERPRISE-TWELVE.md
-  - tests/test_m6k_stewardship_enterprise_sources.py
+  - docs/authoring/economics-creative/**
+  - docs/evidence/M6K-ECONOMICS-CREATIVE-TWELVE.md
+  - tests/test_m6k_economics_creative_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -80,54 +80,56 @@ scope:
   - tests/test_m6k_leadership_foundations_sources.py
   - docs/authoring/governance-finance/**
   - tests/test_m6k_governance_finance_sources.py
+  - docs/authoring/stewardship-enterprise/**
+  - tests/test_m6k_stewardship_enterprise_sources.py
 acceptance:
 - Owner requests another twelve, retaining individual quality and previously explicit normal-merge authorization.
   Standing source-quality CI/CD deferral remains; scoped normal merge is authorized despite generic target-pr-merge
   prohibition. No protection bypass, runtime integration or deployment.
-- Exact new IDs 23.08–23.12 and 24.01–24.07. Preserve all 189 prior additional companions and 964 predecessor
-  source tests; no new legacy companion.
-- Each competency requires substantive individual explanation, worked example, complete original fictional
-  materials, ordered inspectable outputs, separate later packet, three checks and corrective answers, supported/harder/real
+- Exact new IDs 24.08–24.14 and 25.01–25.05. Preserve all 201 prior additional companions and 1001 predecessor source
+  tests; no new legacy companion.
+- Each competency requires substantive individual explanation, worked example, complete original fictional materials,
+  ordered inspectable outputs, separate later packet, three checks and corrective answers, supported/harder/real
   transfer routes and exact canonical metadata. Inspect actual sources and state retrieval and transfer limits.
-- Five financial stewardship entries retain context_sensitive applicability and cross_tradition_core_or_broadly_recurrent
-  status with their exact financial professional_boundary. Seven business entries retain role_conditional applicability
-  and normative status with their exact business/economic professional_boundary. Preserve all formation and
-  measurement metadata.
-- Individually cover generosity, intergenerational stewardship, lifecycle resources, financial hardship, shared
-  money, career economics, entrepreneurship, business mechanisms, discovery, unit economics, operations and
-  market power. Complete original cases retain partial outcomes, arithmetic assumptions, consent, authority
-  and source/jurisdiction limits. No actual transaction, investigation, sales contact or personal legal/financial
-  ruling.
-- Unique source coverage is 108 implemented plus 201 additional companions = 309 of 383; 74 remain, including
-  25 in 07–08. Preserve the exact partition. Legacy status alone does not close this pass. Runtime 108 tailored
-  / 275 pending / 383 protocols / 1151 actions is unchanged.
-- Individual author review covers breadth, depth, usability, distinctiveness, all answers and source/evidence
-  limits. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance
-  remain pending. Fiction, tests, word counts and merge prove neither learning nor formal acceptance.
-- Run full unfiltered source suite, focused Ruff, local links, six canonical/contract/current/recovery hashes,
-  selected exercise comparisons, coverage/case regressions, manifest and allowed/forbidden scope audit. Current/recovery
-  domains 23 and 24 match; preserve all full files. Record actual failures and repairs. Application/CI/CD deferred,
+- Seven business/economic entries retain role_conditional applicability and normative status with the exact business
+  professional_boundary. Five creative entries retain elective_cultivation applicability and elective_but_flourishing_relevant
+  status; their canonical records have no professional_boundary field. Preserve domain-specific formation modes
+  and measurement metadata.
+- Individually cover externalities, macroeconomic cycles, public finance, social insurance, enterprise forms, responsible
+  innovation, cross-border trade, regular making, observation/imagination, taste, medium/technique and synthesis.
+  Complete original cases retain assumptions, partial outcomes, consent, legitimate authority and source limits.
+  No actual policy approval, benefit claim, business formation, deployment, shipment or independent participant
+  evidence is invented.
+- Unique source coverage is 108 implemented plus 213 additional companions = 321 of 383; 62 remain, including 25
+  in 07–08. Preserve the exact partition; legacy status alone does not close this pass. Runtime 108 tailored / 275
+  pending / 383 protocols / 1151 actions is unchanged.
+- Individual author review covers breadth, depth, usability, distinctiveness, all answers and source/evidence limits.
+  Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending.
+  Fiction, tests, word counts and merge prove neither learning nor formal acceptance.
+- Run full unfiltered source suite, focused Ruff, local links, six canonical/contract/current/recovery hashes, selected
+  exercise comparisons, coverage/case regressions, manifest and allowed/forbidden scope audit. Current/recovery
+  domains 24 and 25 match; preserve all full files. Record actual failures and repairs. Application/CI/CD deferred,
   not passed.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_stewardship_enterprise_sources.py
-  - python -m ruff check tests/test_m6k_stewardship_enterprise_sources.py
+  - python -m ruff format --check tests/test_m6k_economics_creative_sources.py
+  - python -m ruff check tests/test_m6k_economics_creative_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Exact twelve mixed canonical classifications and both professional boundaries
-  - Exact 309/383 unique coverage and remaining 74
-  - Twelve distinct consent, lifecycle, stabilization, cash, demand, delivery and market-power regressions
-  - Source and jurisdiction limits, complete inputs, local links and preserved six inputs
+  - Exact twelve canonical classifications, financial/economic boundary and absent creative boundary
+  - Exact 321/383 unique coverage and remaining 62
+  - Twelve distinct economic and creative regressions with complete examples and partial outcomes
+  - Source and jurisdiction limits, local links and preserved six inputs
 risk:
   class: moderate
   hazards:
   - Incomplete or generic teaching and missing task inputs
-  - Unverified assistance, coercive money arrangements or unsafe care action
-  - Revenue/profit/cash conflation, unsupported demand or scalability claims
-  - Unsupported legal market-power or compliance conclusions
+  - Economic-model assumptions mistaken for policy, legal or benefit approval
+  - Unverified governance, trade permission or deployment claim
+  - Creative examples or scripted responses mistaken for actual practice or independent review
   - Source/runtime double counting or fabricated human acceptance
   stop_conditions:
   - Protected-path drift
@@ -137,6 +139,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-STEWARDSHIP-ENTERPRISE-TWELVE.md
-  claim_boundary: Author editorial and source verification only; independent, actual learner, qualified and
-    owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
+  - docs/evidence/M6K-ECONOMICS-CREATIVE-TWELVE.md
+  claim_boundary: Author editorial and source verification only; independent, actual learner, qualified and owner
+    content acceptance remain pending. CI/CD/application verification deferred, not passed.
