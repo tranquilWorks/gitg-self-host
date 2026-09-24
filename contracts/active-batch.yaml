@@ -1,28 +1,28 @@
 schema_version: 1
 batch:
-  id: M6K-LEADERSHIP-FOUNDATIONS-TWELVE
-  title: Individually author twelve leadership foundations
-  goal: Complete 22.01–22.12 with individual quality, normal merge and exact remaining count.
+  id: M6K-GOVERNANCE-FINANCE-TWELVE
+  title: Individually author governance and financial foundations
+  goal: Complete 22.13–22.17 and 23.01–23.07 with individual quality, normal merge and exact remaining count.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/leadership-foundations/SOURCES.md
-  - docs/authoring/leadership-foundations/cohort.json
-  - docs/authoring/leadership-foundations/QUALITY-REVIEW.md
-  milestone: M6K-LEADERSHIP-FOUNDATIONS-SOURCE-PUBLICATION
-  baseline_commit: fe070a89ae993dd54478d7ca7d564b66095ee5e9
+  - docs/authoring/governance-finance/SOURCES.md
+  - docs/authoring/governance-finance/cohort.json
+  - docs/authoring/governance-finance/QUALITY-REVIEW.md
+  milestone: M6K-GOVERNANCE-FINANCE-SOURCE-PUBLICATION
+  baseline_commit: df35bd115b334f5c280896943c13a17d2781f78b
 dependencies:
-- PR-94-merged
+- PR-95-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/leadership-foundations/**
-  - docs/evidence/M6K-LEADERSHIP-FOUNDATIONS-TWELVE.md
-  - tests/test_m6k_leadership_foundations_sources.py
+  - docs/authoring/governance-finance/**
+  - docs/evidence/M6K-GOVERNANCE-FINANCE-TWELVE.md
+  - tests/test_m6k_governance_finance_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -76,52 +76,54 @@ scope:
   - tests/test_m6k_civic_work_foundations_sources.py
   - docs/authoring/work-delivery-voice/**
   - tests/test_m6k_work_delivery_voice_sources.py
+  - docs/authoring/leadership-foundations/**
+  - tests/test_m6k_leadership_foundations_sources.py
 acceptance:
 - Owner requests another twelve, retaining individual quality and previously explicit normal-merge authorization.
   Standing source-quality CI/CD deferral remains; scoped normal merge is authorized despite generic target-pr-merge
   prohibition. No protection bypass, runtime integration or deployment.
-- Exact new IDs 22.01–22.12. Preserve all 165 prior additional companions and 890 predecessor source tests; no new
-  legacy companion.
+- Exact new IDs 22.13–22.17 and 23.01–23.07. Preserve all 177 prior additional companions and 927 predecessor source
+  tests; no new legacy companion.
 - Each competency requires substantive individual explanation, worked example, complete original fictional materials,
   ordered inspectable outputs, separate later packet, three checks and corrective answers, supported/harder/real
   transfer routes and exact canonical metadata. Inspect actual sources and state retrieval and transfer limits.
-- All twelve retain role_conditional applicability and normative status, formation modes and measurement metadata.
-  No canonical professional_boundary field exists. Leadership is not compulsory; actual authority, dependency, consent
-  and practical safeguards remain explicit.
-- Individually teach credibility, worthwhile direction and limited priorities, ethical power, responsible decisions,
-  delegation, coaching, humane accountability, dissent, institutional design, legitimate stakeholder negotiation,
-  tabletop crisis leadership and succession. Each case must exercise its distinctive canonical facets, with partial
-  or disconfirming later evidence and honest transfer limits.
-- Unique source-authoring coverage is 108 implemented plus 177 additional companions = 285 of 383; 98 remain, including
-  25 in 07–08. Preserve exact partition. Legacy status alone does not close this pass. Runtime 108 tailored / 275
-  pending / 383 protocols / 1151 actions is unchanged.
+- Five governance entries retain role_conditional applicability and normative status with no canonical professional_boundary.
+  Seven financial entries retain context_sensitive applicability, cross_tradition_core_or_broadly_recurrent status
+  and their exact financial professional_boundary. Preserve all formation and measurement metadata.
+- Individually cover anti-corruption, capture, protected dissent, accountable governance, institutional repair,
+  financial literacy, cash-flow budgeting, reserves, debt, investing/retirement, dependent protection and consumption.
+  Complete original cases must retain mixed outcomes, arithmetic assumptions, actual authority and source/jurisdiction
+  limits. No actual investigation, disclosure, financial transaction or personal legal/financial ruling.
+- Unique source coverage is 108 implemented plus 189 additional companions = 297 of 383; 86 remain, including 25
+  in 07–08. Preserve exact partition. Legacy status alone does not close this pass. Runtime 108 tailored / 275 pending
+  / 383 protocols / 1151 actions is unchanged.
 - Individual author review covers breadth, depth, usability, distinctiveness, all answers and source/evidence limits.
   Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending.
   Fiction, tests, word counts and merge prove neither learning nor formal acceptance.
-- Run full unfiltered source suite, focused Ruff, local links, four canonical/contract/current/recovery hashes,
-  selected exercise comparison, coverage and case regressions, manifest and allowed/forbidden scope audit. Current/recovery
-  domain 22 match; preserve both full files. Record actual failures and repairs. Application/CI/CD deferred, not
-  passed.
+- Run full unfiltered source suite, focused Ruff, local links, six canonical/contract/current/recovery hashes, selected
+  exercise comparisons, coverage/case regressions, manifest and allowed/forbidden scope audit. Current/recovery
+  domains 22 and 23 match; preserve all full files. Record actual failures and repairs. Application/CI/CD deferred,
+  not passed.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_leadership_foundations_sources.py
-  - python -m ruff check tests/test_m6k_leadership_foundations_sources.py
+  - python -m ruff format --check tests/test_m6k_governance_finance_sources.py
+  - python -m ruff check tests/test_m6k_governance_finance_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Exact twelve role-conditional canonical records and absent professional boundary
-  - Exact 285/383 coverage and remaining 98
-  - Twelve individual authority, arithmetic, support, dissent, transfer and status regressions
-  - Source inspection limits, complete materials, local links and preserved inputs
+  - Exact twelve mixed canonical classifications and professional boundaries
+  - Exact 297/383 unique coverage and remaining 86
+  - Twelve distinct authority, process, arithmetic, liquidity, scenario and transfer regressions
+  - Source and jurisdiction limits, complete inputs, local links and preserved six inputs
 risk:
   class: moderate
   hazards:
-  - Generic leadership teaching or incomplete task materials
-  - Coercion, false consent, unauthorized personnel decisions or manipulated dissent
-  - Unsafe live crisis rehearsal or invented professional qualification
-  - Overclaiming independence, institutional change, approval or durable outcomes
+  - Incomplete or generic teaching and missing task inputs
+  - Unsafe disclosure, amateur investigation, due-process failure or invented legal protection
+  - Personal financial advice, unverified account protection, concealed liquidity or debt risk
+  - Overclaimed repairs, simulated behavior, outcomes or independence
   - Source/runtime double counting or fabricated human acceptance
   stop_conditions:
   - Protected-path drift
@@ -131,6 +133,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-LEADERSHIP-FOUNDATIONS-TWELVE.md
+  - docs/evidence/M6K-GOVERNANCE-FINANCE-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified and owner
     content acceptance remain pending. CI/CD/application verification deferred, not passed.
