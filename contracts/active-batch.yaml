@@ -1,29 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-FAMILY-STEWARDSHIP-TWELVE
-  title: Individually author reproductive, family and care stewardship companions
-  goal: Complete 19.04–19.15 with individual depth at twelve per report, verify and normally merge the
-    source-only batch.
+  id: M6K-CIVIC-PARTICIPATION-TWELVE
+  title: Individually author civic participation and public-information companions
+  goal: Complete 20.01–20.12 with individual depth, verify and normally merge, and report the exact remaining
+    authoring backlog.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/family-stewardship/SOURCES.md
-  - docs/authoring/family-stewardship/cohort.json
-  - docs/authoring/family-stewardship/QUALITY-REVIEW.md
-  milestone: M6K-FAMILY-STEWARDSHIP-SOURCE-PUBLICATION
-  baseline_commit: 22889faded03bca7c73d8a56aedd9c573e434040
+  - docs/authoring/civic-participation/SOURCES.md
+  - docs/authoring/civic-participation/cohort.json
+  - docs/authoring/civic-participation/QUALITY-REVIEW.md
+  milestone: M6K-CIVIC-PARTICIPATION-SOURCE-PUBLICATION
+  baseline_commit: 46c8a6181ed5281f4fba5a907f7e68c38ea34e15
 dependencies:
-- PR-90-merged
+- PR-91-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/family-stewardship/**
-  - docs/evidence/M6K-FAMILY-STEWARDSHIP-TWELVE.md
-  - tests/test_m6k_family_stewardship_sources.py
+  - docs/authoring/civic-participation/**
+  - docs/evidence/M6K-CIVIC-PARTICIPATION-TWELVE.md
+  - tests/test_m6k_civic_participation_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -69,83 +69,87 @@ scope:
   - tests/test_m6k_belonging_partnership_sources.py
   - docs/authoring/partnership-family/**
   - tests/test_m6k_partnership_family_sources.py
+  - docs/authoring/family-stewardship/**
+  - tests/test_m6k_family_stewardship_sources.py
 acceptance:
-- Owner continuation “again next batch please” retains twelve per report, individual quality, standing
-  source-quality CI/CD deferral and prior explicit normal-merge authorization. This authorizes the scoped
-  normal merge despite generic target-pr-merge prohibition; no protection bypass, runtime integration
-  or deployment.
-- Exact IDs 19.04–19.15. Preserve 117 earlier additional companions and 743 source tests. No new legacy
-  companion; stop after twelve.
+- Owner explicitly requests twelve more and the remaining count. Preserve twelve per report, individual
+  quality, standing source-quality CI/CD deferral and prior explicit normal-merge authorization. Normal
+  scoped merge is authorized despite generic target-pr-merge prohibition; no protection bypass, runtime
+  integration or deployment.
+- Exact IDs 20.01–20.12. Preserve all 129 earlier additional companions and 779 source tests. No implemented
+  or retained-legacy ID in this new batch; stop after twelve.
 - Each competency requires substantive individual teaching, worked example, complete original fictional
-  case, ordered actions with inspectable outputs, separate later packet, three fresh checks with corrective
+  case, ordered actions with inspectable outputs, separate later packet, three fresh checks/corrective
   answers, supported/harder/real transfer routes, exact canonical scope/classification/measurement and
   inspected primary or first-party sources.
-- All twelve remain role_conditional in applicability and normative status; retain exact domain19 professional
-  boundary and measurement preferences. Reproduction, parenting and caregiving are not required life paths.
-  Actual role and task authority precede live care; fiction and no-attempt routes remain legitimate.
-- Reproductive-health learning prepares qualified questions, not a fertility forecast, contraceptive prescription,
-  pregnancy diagnosis, treatment decision or fixed personal referral deadline. Separate population information
-  from suitability, and inquiry/booking/attendance from clinical answer.
-- Pregnancy/postpartum support preserves bodily consent, helper versus infant-care versus medical authority,
-  existing care instructions and prompt actual help for concerning symptoms; no false emergency calls
-  or simulated symptoms. Grief support accepts silence/refusal and different meanings without blame, forced
-  disclosure or replacement narratives.
-- Family belonging preserves origins, privacy and child voice without forced titles, contact or legal
-  authority. Safeguarding uses official jurisdiction-specific receiving routes, obligations and emergency
-  paths; no amateur interviews, credibility tests, confrontation, false reports, secrecy promises or delay
-  of a real concern for this exercise.
-- Autonomy/discipline distinguishes safety and shared-use limits from adult preference. No humiliation,
-  violence or withholding essentials/affection. Family teaching includes practical, ethical, emotional,
-  cultural/worldview and media judgment through a safe demonstration and learner retry, not compliance
-  or compelled belief.
-- Elder-care work distinguishes observed changes, diagnosis, task-specific capacity and legal authority;
-  use accessible participation, qualified planning and sustainable support. No family vote or age-based
-  automatic takeover, medication change or private care records in app evidence.
-- Family labor exposes complete units and hidden rework without stereotypes or withdrawal of essential
-  care. Restructuring follows existing custody/care/safety authority, keeps adult disputes from dependents
-  and never tests a live pickup.
-- Heritage activity allows opt-out, alternative meaning, story/recording permissions and actual revision
-  without coercive nostalgia. Respite requires competent willing authorized backup, start/return handoffs
-  and actual protected time; an offer or booked slot is not coverage, one break is not resolved burnout.
-- Individual author review covers all facets, depth, usability, distinctiveness, source limits, fresh
-  answers and missing human evidence. Length and automated checks do not establish pedagogy, qualified
-  acceptance or formal review.
-- Additional source count expected129; runtime108 tailored/275 pending/383 protocols/1151 actions unchanged.
-  Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain
-  pending.
+- All twelve retain cross_context_core applicability, cross_tradition_core_or_broadly_recurrent normative
+  status and exact domain20 professional boundary. This classification does not compel political belief,
+  affiliation, voting, volunteering, public disclosure or participation. Keep civic education nonpartisan
+  and safe; real legal questions require qualified local guidance.
+- Interdependence traces infrastructure, labor, law, knowledge, environment and inherited institutions
+  without unlimited debt. Civic navigation separates operator, policy, budget, election, complaint and
+  court authority and verifies actual local routes; fiction and inquiry receipt do not establish actual
+  authority or policy change.
+- Rights apply consistently across disliked viewpoints with relevant conduct, safety evidence, proportionate
+  response and review. General human-rights principles do not establish local enforceability. Structural
+  analysis separates observed gaps, individual choices and plausible mechanisms; no identity inference,
+  causal certainty or unnecessary demographic collection.
+- Cross-difference cooperation preserves corrected representation, actual conviction, boundaries and accepted
+  task. Volunteer work responds to a verified requested need, tracks correction/support burden and repeats
+  or responsibly hands off without publicity or regulated-care overreach.
+- Helping preserves recipient-selected support, credentials, choices and desired outcome; gratitude is
+  not useful-capacity evidence and ongoing support is legitimate. Organizing needs consenting stakeholders,
+  accepted roles, permission, a user-tested result and maintenance ownership; a charter alone is not community
+  impact.
+- Public information work traces original context, independent versus copied sources, bounded attention
+  and correction to the original audience. Commons work is permitted, reversible and user-tested with
+  stewardship; no ecological restoration claim from a label or unsupported data.
+- Pluralist rules distinguish conduct from belief, accommodate access and allow dissent/review without
+  excusing harassment or mistaking silence for consent. Institutional literacy distinguishes eight institution
+  types, source handoffs, method, incentives and accountability without assuming prestige proves truth
+  or funding proves fraud.
+- Compute exact unique coverage from 108 implemented IDs and actual companion-guide paths, not incompatible
+  cohort schemas or counting legacy IDs as tailored. Prior source129 to new141; disjoint union249 of383;
+  authoring remaining134 including25 in domains07–08. Runtime108 tailored/275 pending/383 protocols/1151
+  actions unchanged. Preserve remaining ID list and per-domain counts.
+- Individual author review covers all facets, depth, usability, distinctiveness, source limits, all fresh
+  answers and missing human evidence. Word counts and automated checks do not establish pedagogy, qualified
+  acceptance or formal review. Formal M6K A/B/C, independent cold-start, actual learner, qualified and
+  owner content acceptance remain pending.
 - Run full source suite, focused Ruff, link/anchor checks, exact canonical/current/recovery hashes, case
-  regressions, manifest and allowed/forbidden scope audit. Record actual results; source publication does
-  not claim application gates.
+  and coverage regressions, manifest and allowed/forbidden scope audit. Record actual results. Application/CI/CD
+  gates remain deferred, not passed.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_family_stewardship_sources.py
-  - python -m ruff check tests/test_m6k_family_stewardship_sources.py
+  - python -m ruff format --check tests/test_m6k_civic_participation_sources.py
+  - python -m ruff check tests/test_m6k_civic_participation_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Exact domain19 role, measurement and professional boundaries
-  - Population guidance versus individual reproductive judgment
-  - Postpartum disruption, distinct authority and urgent-help route
-  - Grief refusal versus accepted practical support
-  - Belonging choices versus privacy and legal authority
-  - Verified receiving routes versus information services and fictional report
-  - Proportionate repair and changed responsibility conditions
-  - Own-word learning and verified source versus copied compliance
-  - Memory observations versus diagnosis/capacity and qualified planning
-  - Whole-task ownership, hidden rework and accepted workload
-  - Collector authority, safe delay and actual transfer
-  - Heritage revision, permission and limited belonging claim
-  - Respite acceptance, competence, interval and return handoff
+  - Exact civic scope, measurement and professional boundary
+  - Exact unique source/runtime coverage and remaining IDs
+  - Six interdependence branches and reciprocal endpoint
+  - Operator/advisor/authority versus inquiry status
+  - Identity swap, credible safety fact and due process
+  - Attendance arithmetic, confounding and no demographic inference
+  - Corrected viewpoint versus retained conviction and accepted task
+  - Repeated requested service, corrected outputs and support burden
+  - Recipient choice versus helper control
+  - Accepted roles, partial result and maintenance
+  - Claim context, source dependence and correction
+  - Permitted commons repair versus ecological claim
+  - Pluralist cases, accommodation and challenge route
+  - Institutional handoffs, survey denominator and accountability
 risk:
   class: moderate
   hazards:
-  - Generic content hiding distinct canonical scope
-  - Unsupported medical, legal, capacity or developmental claims
-  - Delayed protection or amateur child investigation
-  - Coercion, disclosure or unauthorized care
-  - Uncovered essential care or respite described as completed
+  - Generic content hiding distinct scope
+  - Unverified legal, institutional or causal claims
+  - Partisan or coerced participation and private identity collection
+  - Claims of impact without accepted handoff or usable output
+  - Source/runtime count conflation or double counting
   - Fabricated learner, specialist or acceptance evidence
   stop_conditions:
   - Protected-path drift
@@ -155,6 +159,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-FAMILY-STEWARDSHIP-TWELVE.md
+  - docs/evidence/M6K-CIVIC-PARTICIPATION-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
