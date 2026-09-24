@@ -1,28 +1,28 @@
 schema_version: 1
 batch:
-  id: M6K-WORK-DELIVERY-VOICE-TWELVE
-  title: Individually author work delivery, rights, voice and boundaries
-  goal: Complete 21.08–21.19 with individual quality, normal merge and exact remaining count.
+  id: M6K-LEADERSHIP-FOUNDATIONS-TWELVE
+  title: Individually author twelve leadership foundations
+  goal: Complete 22.01–22.12 with individual quality, normal merge and exact remaining count.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/work-delivery-voice/SOURCES.md
-  - docs/authoring/work-delivery-voice/cohort.json
-  - docs/authoring/work-delivery-voice/QUALITY-REVIEW.md
-  milestone: M6K-WORK-DELIVERY-VOICE-SOURCE-PUBLICATION
-  baseline_commit: 439b85ea6e562fca3110e493e1169b8881f8f626
+  - docs/authoring/leadership-foundations/SOURCES.md
+  - docs/authoring/leadership-foundations/cohort.json
+  - docs/authoring/leadership-foundations/QUALITY-REVIEW.md
+  milestone: M6K-LEADERSHIP-FOUNDATIONS-SOURCE-PUBLICATION
+  baseline_commit: fe070a89ae993dd54478d7ca7d564b66095ee5e9
 dependencies:
-- PR-93-merged
+- PR-94-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/work-delivery-voice/**
-  - docs/evidence/M6K-WORK-DELIVERY-VOICE-TWELVE.md
-  - tests/test_m6k_work_delivery_voice_sources.py
+  - docs/authoring/leadership-foundations/**
+  - docs/evidence/M6K-LEADERSHIP-FOUNDATIONS-TWELVE.md
+  - tests/test_m6k_leadership_foundations_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -74,62 +74,54 @@ scope:
   - tests/test_m6k_civic_participation_sources.py
   - docs/authoring/civic-work-foundations/**
   - tests/test_m6k_civic_work_foundations_sources.py
+  - docs/authoring/work-delivery-voice/**
+  - tests/test_m6k_work_delivery_voice_sources.py
 acceptance:
 - Owner requests another twelve, retaining individual quality and previously explicit normal-merge authorization.
   Standing source-quality CI/CD deferral remains; scoped normal merge is authorized despite generic target-pr-merge
   prohibition. No protection bypass, runtime integration or deployment.
-- Exact new IDs 21.08–21.19, completing domain 21 source authoring. Preserve all 153 prior additional companions
-  and 853 predecessor source tests; no new legacy companion.
+- Exact new IDs 22.01–22.12. Preserve all 165 prior additional companions and 890 predecessor source tests; no new
+  legacy companion.
 - Each competency requires substantive individual explanation, worked example, complete original fictional materials,
   ordered inspectable outputs, separate later packet, three checks and corrective answers, supported/harder/real
   transfer routes and exact canonical metadata. Inspect actual sources and state retrieval and transfer limits.
-- All twelve retain context_sensitive and cross_tradition_core_or_broadly_recurrent, formation modes and measurement
-  metadata. No canonical professional_boundary field exists for these records; do not invent one. Practical safeguards
-  remain explicit. Employment, union participation, disclosure and career change are not compulsory.
-- 21.08 distinguishes verified requirements, accepting authority, scope tradeoffs and maintenance handover. 21.09
-  confirms dependencies, repairs constructive challenge, records shared credit and receiver readiness. 21.10 supplies
-  four comparable five-file trials, outcome and maintenance costs, and honest causal limits.
-- 21.11 supplies dated contradictory fictional demand signals and a complete numerical transfer sample without forecasts
-  or credentials. 21.12 traces output to beneficiary, tests a contribution claim and retains harms or distant uncertainty.
-  21.13 supplies executable successor materials, rationale, exception, retry and accepted upkeep ownership.
-- 21.14 applies consequence-specific quality and reversibility to three tasks; timer never waives essential checks.
-  21.15 classifies all eight workplace issues and distinguishes jurisdiction, coverage, source freshness, inquiry,
-  charge, deadline and personal ruling. 21.16 distinguishes demanding work from coercive dependence and compares
-  safe independent support routes without demanding confrontation or resignation.
-- 21.17 compares four voice mechanisms, authority, governance, consent, cost and coverage; public-sector change
-  must revise the private-sector analysis. 21.18 preserves five factual outcomes plus clarification across modes,
-  checks shifted barriers and retains actual authority. 21.19 records urgency, coverage, negotiated boundary, real
-  versus claimed protected time and worth beyond output.
-- Unique source-authoring coverage is 108 implemented plus 165 additional companion IDs = 273 of 383; 110 remain,
-  including 25 in 07–08. Preserve the full exact partition. Legacy status alone does not close this pass. Runtime
-  108 tailored / 275 pending / 383 protocols / 1151 actions is unchanged.
+- All twelve retain role_conditional applicability and normative status, formation modes and measurement metadata.
+  No canonical professional_boundary field exists. Leadership is not compulsory; actual authority, dependency, consent
+  and practical safeguards remain explicit.
+- Individually teach credibility, worthwhile direction and limited priorities, ethical power, responsible decisions,
+  delegation, coaching, humane accountability, dissent, institutional design, legitimate stakeholder negotiation,
+  tabletop crisis leadership and succession. Each case must exercise its distinctive canonical facets, with partial
+  or disconfirming later evidence and honest transfer limits.
+- Unique source-authoring coverage is 108 implemented plus 177 additional companions = 285 of 383; 98 remain, including
+  25 in 07–08. Preserve exact partition. Legacy status alone does not close this pass. Runtime 108 tailored / 275
+  pending / 383 protocols / 1151 actions is unchanged.
 - Individual author review covers breadth, depth, usability, distinctiveness, all answers and source/evidence limits.
   Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending.
   Fiction, tests, word counts and merge prove neither learning nor formal acceptance.
-- Run the full unfiltered source suite, focused Ruff, local links, four canonical/contract/current/recovery file
-  hashes, selected exercise entry comparison, coverage and case regressions, manifest and allowed/forbidden scope
-  audit. Current/recovery domain 21 already differ at implemented 21.03; preserve both full files and compare selected
-  entries. Record actual failures and repairs. Application/CI/CD deferred, not passed.
+- Run full unfiltered source suite, focused Ruff, local links, four canonical/contract/current/recovery hashes,
+  selected exercise comparison, coverage and case regressions, manifest and allowed/forbidden scope audit. Current/recovery
+  domain 22 match; preserve both full files. Record actual failures and repairs. Application/CI/CD deferred, not
+  passed.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_work_delivery_voice_sources.py
-  - python -m ruff check tests/test_m6k_work_delivery_voice_sources.py
+  - python -m ruff format --check tests/test_m6k_leadership_foundations_sources.py
+  - python -m ruff check tests/test_m6k_leadership_foundations_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Exact twelve context-sensitive canonical entries with absent professional boundary
-  - Exact 273/383 unique coverage and remaining 110
-  - Twelve individual arithmetic, authority, status, equivalence and transfer regressions
-  - Source freshness and limits, complete inputs, links, preserved current/recovery files
+  - Exact twelve role-conditional canonical records and absent professional boundary
+  - Exact 285/383 coverage and remaining 98
+  - Twelve individual authority, arithmetic, support, dissent, transfer and status regressions
+  - Source inspection limits, complete materials, local links and preserved inputs
 risk:
   class: moderate
   hazards:
-  - Generic teaching or incomplete task inputs
-  - Unverified personal legal, career or employment conclusions
-  - Coercion, unsafe confrontation, unnecessary disclosure or confidential records
-  - Overclaiming causality, acceptance, independence or protected time
+  - Generic leadership teaching or incomplete task materials
+  - Coercion, false consent, unauthorized personnel decisions or manipulated dissent
+  - Unsafe live crisis rehearsal or invented professional qualification
+  - Overclaiming independence, institutional change, approval or durable outcomes
   - Source/runtime double counting or fabricated human acceptance
   stop_conditions:
   - Protected-path drift
@@ -139,6 +131,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-WORK-DELIVERY-VOICE-TWELVE.md
+  - docs/evidence/M6K-LEADERSHIP-FOUNDATIONS-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified and owner
     content acceptance remain pending. CI/CD/application verification deferred, not passed.
