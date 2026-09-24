@@ -1,29 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-RESILIENCE-COMMUNITY-LISTENING-TWELVE
-  title: Complete practical resilience sources and begin attentive listening
-  goal: Individually author and vet 15.04–15.14 and 16.01 with explicit depth and distinctiveness review,
-    then publish and normally merge under the continuing source-quality workflow.
+  id: M6K-COMMUNICATION-INFLUENCE-TWELVE
+  title: Individually author communication, influence and social ease companions
+  goal: Complete 16.02–16.13 at the twelve-per-report cadence, retain individual quality gates and normally
+    merge the verified source batch.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/resilience-community-listening/SOURCES.md
-  - docs/authoring/resilience-community-listening/cohort.json
-  - docs/authoring/resilience-community-listening/QUALITY-REVIEW.md
-  milestone: M6K-RESILIENCE-COMMUNITY-LISTENING-SOURCE-PUBLICATION
-  baseline_commit: 3c3b306e537c16646cad8e11099cb3e9de8a3aea
+  - docs/authoring/communication-influence/SOURCES.md
+  - docs/authoring/communication-influence/cohort.json
+  - docs/authoring/communication-influence/QUALITY-REVIEW.md
+  milestone: M6K-COMMUNICATION-INFLUENCE-SOURCE-PUBLICATION
+  baseline_commit: a4def18643ba060d14e5913d4294b557c0f87a7f
 dependencies:
-- PR-85-merged
+- PR-86-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/resilience-community-listening/**
-  - docs/evidence/M6K-RESILIENCE-COMMUNITY-LISTENING-TWELVE.md
-  - tests/test_m6k_resilience_community_listening_sources.py
+  - docs/authoring/communication-influence/**
+  - docs/evidence/M6K-COMMUNICATION-INFLUENCE-TWELVE.md
+  - tests/test_m6k_communication_influence_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -59,60 +59,59 @@ scope:
   - tests/test_m6k_adaptive_digital_sources.py
   - docs/authoring/digital-judgment-preparedness/**
   - tests/test_m6k_digital_judgment_preparedness_sources.py
+  - docs/authoring/resilience-community-listening/**
+  - tests/test_m6k_resilience_community_listening_sources.py
 acceptance:
-- Owner requested another twelve with no quality compromise. Carry forward explicit source-quality publication
-  and normal merge authorization; CI/CD remains deferred. No branch-protection bypass, deployment or runtime
-  integration.
-- Exact IDs 15.04–15.14 and 16.01. Preserve all 57 earlier additional source companions and 552 source
-  tests. Twelve is a reporting batch, not permission to consume the backlog.
-- Each competency requires substantive individual teaching, worked example, complete fictional practice
-  materials, ordered actions and observable outputs, separate later outcomes, three fresh checks with
-  corrective answers, adaptations, harder and real transfer routes, exact canonical mapping and inspected
-  primary sources.
-- Explicit per-competency author review must address facet coverage, usable default, distinctiveness from
-  adjacent/prior work, answer-key discrimination, source limits and remaining human/qualified evidence.
-  Word counts and passing tests do not establish pedagogical quality.
-- Physical safety practice must remain benign, consenting and within competence. Paper judgment, enrollment
-  and dryland work never demonstrate defensive, outdoor, aquatic or rescue competence. Legal examples
-  retain jurisdiction and setting limits.
-- Cyber incident signals, verified access, containment, financial dispute and identity recovery remain
-  separate statuses. Contingencies require real ownership, available reserves, finite capacity, triggers
-  and recovery handback.
-- Community rehearsal retains voluntary roles, privacy, welfare-check boundaries and unmet needs. Public-health
-  actions require current setting-specific guidance, accessible alternatives and no invented clinical
-  regimen. Bystander action preserves targeted-person agency.
-- Workplace controls prioritize hazard removal and authorized qualified isolation; no machinery intervention
-  drill. Listening requires actual speaker correction/confirmation for real progress, not inferred agreement
-  or a canned summary.
-- Expected additional source count 69; runtime stays 108 tailored, 275 pending, 383 protocols and 1151
-  actions. Formal quality/human-review counts unchanged.
-- Run full source suite, focused Ruff, links, canonical/input hashes, source-case checks, manifest and
-  allowed/forbidden scope audit. Record exact results and limitations.
+- Owner explicitly requested next batch and merge in on 24 September 2026. Preserve twelve-per-report
+  cadence and no quality compromise. Continuing source-quality workflow defers CI/CD; explicit normal
+  merge authorization overrides the generic target-pr-merge prohibition only for this batch. No protection
+  bypass, deployment or runtime integration.
+- Exact IDs 16.02–16.13. Preserve all 69 previous additional source companions and 591 source tests. Twelve
+  is a reporting batch, not permission to consume the backlog.
+- Each competency requires individual conceptual teaching, worked example, complete original fictional
+  case, ordered actions and inspectable output, separate later outcomes, three fresh checks and corrective
+  answers, supported/harder/real transfer routes, full canonical mapping and inspected primary sources.
+- Per-competency author review must check facet coverage, usability, distinctiveness, answer discrimination,
+  source limits and unresolved human evidence. Length and tests are not pedagogical validation.
+- 16.03 is a frozen legacy companion. Preserve its protocol, actions, evidence fields, ten-day practice,
+  seven-day follow-up, completion and replay byte-for-byte. It is not new runtime integration.
+- Nonverbal cues remain uncertain; no emotion dictionary, deception detection, eye-contact quota or cultural/neurotype
+  stereotype. Perspective hypotheses require voluntary reports and retain contradictions and unknowns.
+- Clear expression, audience adaptation, reciprocal conversation, feedback, rhetoric, public delivery,
+  causal storytelling, negotiation, conflict repair and warmth require distinct tasks. Comprehension is
+  not assent; fictional replies are never actual observer evidence.
+- Preserve truth and material burdens across audiences; no coercive persuasion or exploitative leverage.
+  Negotiation must allow feasible refusal; conflict practice excludes abuse, threats and compelled shared
+  blame. Humor is optional and objections are respected.
+- Expected additional source count 81; runtime remains 108 tailored, 275 pending, 383 protocols, 1151
+  actions. Formal human/qualified/owner acceptance unchanged.
+- Run full source suite, focused Ruff, links, canonical/input hashes, case regressions, manifest and allowed/forbidden
+  scope audit. Record exact results and limits.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - ruff format --check tests/test_m6k_resilience_community_listening_sources.py
-  - ruff check tests/test_m6k_resilience_community_listening_sources.py
+  - ruff format --check tests/test_m6k_communication_influence_sources.py
+  - ruff check tests/test_m6k_communication_influence_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Canonical and inherited-input integrity
-  - Training and observed physical skill distinctions
-  - Travel fallback feasibility and stale information
-  - Incident triage and unresolved recovery
-  - Contingency capacity and handback
-  - Volunteer task consent and unmet needs
-  - Health notice revision and teach-back correction
-  - Bystander consent and workplace control boundaries
-  - Listening corrections versus simulated confirmation
+  - Canonical/inherited/legacy integrity
+  - Cue and perspective disconfirmation
+  - Message fact preservation and comprehension versus acceptance
+  - Feedback observation versus proposed solution
+  - Rhetorical evidence and ethical burden preservation
+  - Talk and story accuracy versus polish
+  - Negotiation feasibility and principled refusal
+  - Conflict ownership and unconfirmed follow-through
+  - Humor response and nonperformative warmth
 risk:
   class: moderate
   hazards:
-  - Overclaimed physical competence or universal legal advice
-  - Outdated clinical directions or unsafe drills
-  - Repeated generic exercises replacing individual scope
-  - Unconsented disclosure or fabricated human acceptance
+  - Generic repetition erasing individual scope
+  - Mind-reading, cultural stereotypes or unsupported outcome promises
+  - Coercive persuasion, forced blame or humiliation
+  - Invented participant evidence or formal acceptance
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -121,6 +120,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-RESILIENCE-COMMUNITY-LISTENING-TWELVE.md
+  - docs/evidence/M6K-COMMUNICATION-INFLUENCE-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.

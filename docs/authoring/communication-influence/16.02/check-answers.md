@@ -1,0 +1,5 @@
+# 16.02 — Corrective answers
+
+1. The colleague reports understanding the requested time and declines that time. They have not agreed to 11:00. Check whether 14:00 still serves the task; accept, counter or use your alternative. Repeating the deadline as if misunderstanding were the problem would miss the actual constraint.
+2. For example: “The agenda changed twice after I printed it, so the copies no longer matched. Could we agree a stable version by 16:00? I'll wait to print until that version is confirmed; if it isn't, I'll use the digital copy.” This states event, reason, need, request and controlled action without claiming to know respect or forbidding authorized edits. A feeling can be included honestly, but is not mandatory disclosure.
+3. Clarify your actual role and that declining is allowed. Ask a willing reader to identify who is asking, whether it is optional and what action is requested, without supplying those answers first. Pleasant wording alone does not repair misleading authority.
