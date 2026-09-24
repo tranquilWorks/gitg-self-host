@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "all_responses_supplied_fiction": true,
+  "actual_participant_evidence": false,
+  "procurement": {
+    "bids": [
+      {
+        "name": "Birch",
+        "price": 180,
+        "on_time": true
+      },
+      {
+        "name": "Alder",
+        "price": 170,
+        "on_time": true
+      },
+      {
+        "name": "Cedar",
+        "price": 160,
+        "on_time": false
+      }
+    ],
+    "personal_voucher": 20,
+    "recusal_recorded": true,
+    "approval": false,
+    "purchase": false,
+    "delivery": false,
+    "legal_finding": false
+  },
+  "capture": {
+    "cases": [
+      "hall_board",
+      "water_review_office",
+      "profession_panel"
+    ],
+    "budget": 100,
+    "withdrawn": 60,
+    "later_grant": 10,
+    "external_review_cost": 8,
+    "panel_seats": 5,
+    "rotating_seats": 2,
+    "leader_shortlist_retained": true,
+    "leader_appeal_retained": true,
+    "technical_approval": false
+  },
+  "dissent": {
+    "direct_records": 2,
+    "secondhand_claims": 1,
+    "inferred_intent": true,
+    "working_day_target": 2,
+    "acknowledged_on_time": false,
+    "alternate_acknowledged": true,
+    "technical_signoff": false,
+    "reopening": false,
+    "legal_deadline_known": false,
+    "retaliation_protection_proven": false
+  },
+  "governance": {
+    "requests": [
+      {
+        "name": "A",
+        "time": "09:00",
+        "eligible": true
+      },
+      {
+        "name": "B",
+        "time": "10:00",
+        "eligible": true
+      }
+    ],
+    "coordinator_absent": true,
+    "reviewer_recused": true,
+    "substitute_preappointed": true,
+    "corrected_to": "A",
+    "notices": 2,
+    "receipts": 1,
+    "leader_veto": false,
+    "oversight_completed": false
+  },
+  "repair": {
+    "report_count": 2,
+    "shift_preserved_this_week": true,
+    "conduct_finding": false,
+    "entry_amounts": [
+      80,
+      80
+    ],
+    "payments": [
+      80
+    ],
+    "audit_history_retained": true,
+    "fraud_proven": false,
+    "monitoring_performed": false
+  },
+  "literacy": {
+    "gross": 3000,
+    "withholding": 600,
+    "net": 2400,
+    "outflows": [
+      1500,
+      500,
+      100
+    ],
+    "opening_cash": 400,
+    "opening_debt": 1200,
+    "payment_allocation_known": false,
+    "final_tax_known": false,
+    "separate_interest_rate": "0.01",
+    "basket": [
+      100,
+      105
+    ],
+    "next_net": 2000
+  },
+  "budget": {
+    "opening": 100,
+    "incomes": [
+      [
+        1,
+        1200
+      ],
+      [
+        15,
+        1200
+      ]
+    ],
+    "original_outflows": [
+      [
+        2,
+        1000
+      ],
+      [
+        8,
+        400
+      ],
+      [
+        18,
+        150
+      ],
+      [
+        22,
+        100
+      ],
+      [
+        25,
+        100
+      ],
+      [
+        28,
+        150
+      ],
+      [
+        28,
+        50
+      ],
+      [
+        29,
+        100
+      ],
+      [
+        29,
+        100
+      ]
+    ],
+    "revised_outflows": [
+      [
+        2,
+        800
+      ],
+      [
+        8,
+        400
+      ],
+      [
+        16,
+        200
+      ],
+      [
+        18,
+        150
+      ],
+      [
+        22,
+        100
+      ],
+      [
+        25,
+        100
+      ],
+      [
+        28,
+        150
+      ],
+      [
+        28,
+        50
+      ],
+      [
+        29,
+        100
+      ],
+      [
+        29,
+        100
+      ]
+    ],
+    "next_incomes": [
+      [
+        1,
+        1200
+      ],
+      [
+        17,
+        1200
+      ]
+    ],
+    "rent_agreed": true,
+    "actual_adherence": false
+  },
+  "reserve": {
+    "needs": [
+      600,
+      900
+    ],
+    "accessible": 200,
+    "contribution": 50,
+    "initial_contributions": [
+      8,
+      14
+    ],
+    "sample_business_days": 2,
+    "sample_fees": 0,
+    "sample_minimum": 0,
+    "protection_verified": false,
+    "later_contributions": [
+      50,
+      0
+    ],
+    "immediate_later": 200,
+    "withdrawal_tested": false
+  },
+  "debt": {
+    "principal": 1000,
+    "years": 1,
+    "nominal_rates": [
+      "0.10",
+      "0.12"
+    ],
+    "end_fees": [
+      50,
+      0
+    ],
+    "monthly_saving": 94,
+    "months": 12,
+    "missed_months": [
+      4,
+      7
+    ],
+    "current_accepted_obligation": 0,
+    "comparison_ceiling": 1120,
+    "base_collateral": false,
+    "variant_collateral": "necessary work tool",
+    "actual_borrowing": false
+  },
+  "investing": {
+    "start": 1000,
+    "net_rates": [
+      "0.05",
+      "0.04"
+    ],
+    "years": 2,
+    "holdings": [
+      [
+        60,
+        40
+      ],
+      [
+        60,
+        40
+      ]
+    ],
+    "equal_split": [
+      500,
+      500
+    ],
+    "expense_ratios": [
+      "0.002",
+      "0.008"
+    ],
+    "goals_months": [
+      6,
+      240
+    ],
+    "loss_fraction": "0.20",
+    "taxes_included": false,
+    "actual_prospectus_inspected": false,
+    "official_educational_example_inspected": true,
+    "trade": false
+  },
+  "continuity": {
+    "headings": 5,
+    "trusted_contact": true,
+    "bill_paying_authority": false,
+    "dependent_authority": false,
+    "source_question_answered": true,
+    "missing_contact_repaired": true,
+    "inquiry_sent": false,
+    "policy_coverage_verified": false,
+    "legal_document_executed": false
+  },
+  "consumption": {
+    "costs": [
+      [
+        0,
+        0
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        60,
+        20
+      ],
+      [
+        150,
+        20
+      ]
+    ],
+    "limit": 80,
+    "pause_hours": 48,
+    "supplied_uses": 2,
+    "safe": true,
+    "structural_repair": false,
+    "chosen_cosmetic_cost": 15,
+    "repair_performed": false,
+    "purchase": false,
+    "lifespan_known": false,
+    "visitor_judgment_observed": false
+  }
+}
