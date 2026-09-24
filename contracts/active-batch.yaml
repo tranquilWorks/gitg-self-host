@@ -1,29 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-BELONGING-PARTNERSHIP-TWELVE
-  title: Individually author belonging and adult partnership companions
-  goal: Complete 17.08–17.14 and 18.01–18.05 at twelve per report, preserve individual quality and normally
+  id: M6K-PARTNERSHIP-FAMILY-TWELVE
+  title: Individually author partnership, family and caregiving companions
+  goal: Complete 18.06–18.14 and 19.01–19.03 at twelve per report with individual depth, then normally
     merge the verified source batch.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/belonging-partnership/SOURCES.md
-  - docs/authoring/belonging-partnership/cohort.json
-  - docs/authoring/belonging-partnership/QUALITY-REVIEW.md
-  milestone: M6K-BELONGING-PARTNERSHIP-SOURCE-PUBLICATION
-  baseline_commit: 402b69615414f8111d8ba486deacfea4fef1ff8d
+  - docs/authoring/partnership-family/SOURCES.md
+  - docs/authoring/partnership-family/cohort.json
+  - docs/authoring/partnership-family/QUALITY-REVIEW.md
+  milestone: M6K-PARTNERSHIP-FAMILY-SOURCE-PUBLICATION
+  baseline_commit: c9e6564c7cb33ce811e908f93b1c77f2ba1b56c7
 dependencies:
-- PR-88-merged
+- PR-89-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/belonging-partnership/**
-  - docs/evidence/M6K-BELONGING-PARTNERSHIP-TWELVE.md
-  - tests/test_m6k_belonging_partnership_sources.py
+  - docs/authoring/partnership-family/**
+  - docs/evidence/M6K-PARTNERSHIP-FAMILY-TWELVE.md
+  - tests/test_m6k_partnership_family_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -65,68 +65,76 @@ scope:
   - tests/test_m6k_communication_influence_sources.py
   - docs/authoring/respectful-connection/**
   - tests/test_m6k_respectful_connection_sources.py
+  - docs/authoring/belonging-partnership/**
+  - tests/test_m6k_belonging_partnership_sources.py
 acceptance:
-- Owner continuation “next batch” on 24 September 2026 retains twelve per report, individual quality and
-  prior explicit normal merge authorization. Source-quality workflow defers CI/CD. Normal merge authorization
-  overrides generic target-pr-merge prohibition for this batch only; no protection bypass, runtime integration
-  or deployment.
-- Exact IDs 17.08–17.14 and 18.01–18.05. Preserve all 93 earlier additional companions and 671 source
-  tests. Scope ends after twelve.
+- Owner continuation “next batch please” retains twelve per report, individual quality and prior explicit
+  normal merge authorization. Source-quality workflow defers CI/CD. Normal merge authorization overrides
+  generic target-pr-merge prohibition for this batch only; no protection bypass, runtime integration or
+  deployment.
+- Exact IDs 18.06–18.14 and 19.01–19.03. Preserve 105 earlier additional source companions and 707 source
+  tests. Scope ends after twelve; no new legacy companion.
 - Each competency requires substantive individual teaching, worked example, complete original fictional
   case, ordered actions and inspectable outputs, separate later packet, three fresh cases and corrective
   answers, supported/harder/real transfer routes, full canonical scope/classification/measurement and
-  inspected primary sources.
-- Author review checks each facet, depth, usability, distinctiveness, answer discrimination, source limits
-  and absent human evidence; length and tests do not validate pedagogy.
-- 17.08–17.14 are cross-context core. 18.01–18.05 retain role-conditional applicability/normative status
-  and the exact professional boundary. No new legacy companion; all existing legacy runtime content stays
-  protected.
-- Collaboration requires willing roles, actual handoff and accurate credit; discussion alone cannot establish
-  added value. Belonging is not a headcount, loneliness cure or requirement to fill every social category.
-- Networking uses separate consent and minimal sharing; mentorship is reciprocal and contextual with adult-only
-  default. Inherited duties need a protected good and fair burden review, not unlimited entitlement or
-  withdrawal of essential care.
-- Deep difference and group dissent preserve real disagreement, conscience and dignity without forced
-  identity debate or retaliation. Contribution does not purchase assent or create authority over others.
-- Partnership exercises are voluntary lawful adult and role-conditional. Preserve single life and fictional/no-attempt
-  routes. No coerced romance, surveillance, loyalty tests, diagnosis, disclosure quotas or compelled sacrifice/reconciliation.
-- Abuse, threats, stalking, coercive power, unsafe dependency, medical/legal/safeguarding concerns require
-  appropriate qualified resources; ordinary mutual communication exercises do not replace safety support.
-  No private intimate content in the application.
-- Expected additional source count 105; runtime stays 108 tailored, 275 pending, 383 protocols and 1151
+  inspected primary or first-party sources.
+- Author review checks every facet, depth, usability, distinctiveness, answer discrimination, source limits
+  and absent human evidence. Length and automated tests do not establish pedagogy or qualified acceptance.
+- All twelve retain role-conditional applicability/normative status. Preserve exact domain-specific professional
+  boundaries and measurement preferences. Partnership, sex, parenting, reproduction and caregiving are
+  not required life paths.
+- Relationship stages are not a fixed sequence; changed capacity does not erase a breach. Shared labor
+  includes noticing and follow-through; chores cannot buy sex, privacy access or personal decision authority.
+  Repair requires conduct, not compelled forgiveness or equal blame.
+- 18.09 is a no-contact adult fictional consent rehearsal. 18.10 is voluntary nonsexual-time conversation
+  or fiction, never sexual performance. No private sexual/medical details in app evidence; uncertainty,
+  withdrawal, coercion or incapacity means stop, not obtain a technical yes.
+- No contraceptive prescribing, fertility prediction, diagnostic assessment or legal conclusion. Separate
+  contraception from infection prevention, intentions from predictions, and appointments from clinical
+  answers. Use current qualified resources for relevant uncertainties.
+- Trust follows actual promises without surveillance or retroactive erasure of a breach. Diversity preserves
+  personal commitments and equal dignity without compelled participation, outing or excusing coercion.
+- Endings preserve safety, dependents and actual obligations; no forced direct contact, asset deprivation,
+  care withdrawal or court-order changes. Family-pattern work uses observed occasions, not diagnoses,
+  reconstructed trauma or compulsory reconciliation.
+- Parenting live routes require actual authorized caregiving and care-plan consistency. Demonstration,
+  accessible choice, warmth and proportionate safety limits replace humiliation or compliance tests. Caregiving
+  preserves recipient agency and task-specific authority, safe backups and sustainability; no medication,
+  transfer, feeding, clinical or financial authority invented.
+- Expected additional source count 117; runtime stays 108 tailored, 275 pending, 383 protocols and 1151
   actions. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain
   pending.
 - Run full source suite, focused Ruff, links, exact canonical/current/recovery hashes, meaningful case
-  regressions, manifest and allowed/forbidden scope audit. Record actual results and limits.
+  regressions, manifest and allowed/forbidden scope audit. Record actual results and limitations.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - ruff format --check tests/test_m6k_belonging_partnership_sources.py
-  - ruff check tests/test_m6k_belonging_partnership_sources.py
+  - ruff format --check tests/test_m6k_partnership_family_sources.py
+  - ruff check tests/test_m6k_partnership_family_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Canonical role-conditional/professional-boundary integrity
-  - Willing roles and real handoff
-  - Sustainable social-ecology timing
-  - Separate introduction consent
-  - Mentoring transfer limits and follow-up
-  - Communal burden visibility
-  - Disagreement versus conversion
-  - Group contribution versus decision authority
-  - Eight love dimensions and freely chosen care
-  - Adult courtship consent and refusal
-  - Compatibility beyond intensity
-  - Direct request versus test or surveillance
-  - Readiness and bounded truthful disclosure
+  - Exact role-conditional and professional-boundary integrity
+  - Temporary adjustment versus unresolved repair
+  - Whole-task labor and decision authority
+  - Apology versus comparable follow-through
+  - Specific, ongoing, voluntary and reversible consent without contact
+  - Prevention questions versus performance or clinical claims
+  - Existing promises versus assumptions and surveillance
+  - Endings versus continuing obligations and safe handoffs
+  - Diversity versus forced participation or excused coercion
+  - Reproductive wishes versus predictions and bodily control
+  - Observed family routes versus inferred trauma
+  - Authorized parenting, support adjustment and non-coercive participation
+  - Care recipient agency, transport timing, backup authority and clinical uncertainty
 risk:
   class: moderate
   hazards:
   - Generic repetition erasing individual scope
-  - Social quotas and status extraction
-  - Cultural/age stereotypes and unlimited duties
-  - Coerced romance, disclosure, reassurance or unsafe reconciliation
+  - Coerced intimacy, disclosure, reproduction, repair or reconciliation
+  - Unsupported medical/legal/developmental conclusions
+  - Unauthorized care, financial control or unsafe handoff
   - Invented participant evidence or formal acceptance
   stop_conditions:
   - Protected-path drift
@@ -136,6 +144,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-BELONGING-PARTNERSHIP-TWELVE.md
+  - docs/evidence/M6K-PARTNERSHIP-FAMILY-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
