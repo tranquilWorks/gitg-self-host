@@ -1,0 +1,677 @@
+{
+  "schema_version": 1,
+  "status": "local_source_verification_passed",
+  "inspected_on": "2026-09-24",
+  "baseline_commit": "ce9a936878b03a449bcdc189796fe77063a691e8",
+  "baseline_tests": 964,
+  "new_tests": 37,
+  "total_source_tests": 1001,
+  "source_sha256": {
+    "docs/authoring/stewardship-enterprise/23.08/SCOPE-MAP.md": "6f3286a8d7a499f7c2fe26b583003b7fced31ef66d4c67f479f236c4128b08ca",
+    "docs/authoring/stewardship-enterprise/23.08/check-answers.md": "b8cfef7db07204865d2c55a15fafa2e465535c3156a18b7c87becc74527bb374",
+    "docs/authoring/stewardship-enterprise/23.08/check-prompts.md": "833bbb0eab9abe0ad55218a1434287b16f559d7462e16a45e539cae333fd0e09",
+    "docs/authoring/stewardship-enterprise/23.08/later-packet.md": "7250e21fbcab6582b5d74d9952bf1576da504cd52397c577153fd98ef5572cfb",
+    "docs/authoring/stewardship-enterprise/23.08/learner-guide.md": "35b1d497bd42f84d2461f43c971d7a8a0b0e0c3b4a3379aacbca17b350faeacf",
+    "docs/authoring/stewardship-enterprise/23.09/SCOPE-MAP.md": "ec85f911907050dd47e2154b9ed38df6ffdcc9dce24c2a42a723076a52d24953",
+    "docs/authoring/stewardship-enterprise/23.09/check-answers.md": "c8c6b8cb5a0916cfb255cd0285ba67c10e73c77e37738bd22908e1b04c025d9f",
+    "docs/authoring/stewardship-enterprise/23.09/check-prompts.md": "b00373c415609a345da32751835697754e96ba5e1f055d755df63d8d33091a2e",
+    "docs/authoring/stewardship-enterprise/23.09/later-packet.md": "8fca1b15e391d05eecb149eebbe3395c5fd7e35abfe43ffbf4029f039224afba",
+    "docs/authoring/stewardship-enterprise/23.09/learner-guide.md": "502bc40b870f654747987727c1439527c0ae1e90115f7169f0d48cbfb2da0cfc",
+    "docs/authoring/stewardship-enterprise/23.10/SCOPE-MAP.md": "c79d9b731cfa91aee88b4f7deecb4f0dff1b130b43b69d36aab3f5af374cc132",
+    "docs/authoring/stewardship-enterprise/23.10/check-answers.md": "8a158b073900c551fcb8475aa57a9eb67b94cdee06cc16b0bd3627a13b111943",
+    "docs/authoring/stewardship-enterprise/23.10/check-prompts.md": "1553aadbe3aef9a5b597077cec3f928a1f3b702a49a6e4a73864eaa487bbafa2",
+    "docs/authoring/stewardship-enterprise/23.10/later-packet.md": "b2bed2f8635ecae7484536765c2488251cd48bbb72824576511417dc55fd42f0",
+    "docs/authoring/stewardship-enterprise/23.10/learner-guide.md": "14683625b79a182487aaf2d2f8497f867fbc8d6cc70a651fe986f627e2eccb29",
+    "docs/authoring/stewardship-enterprise/23.11/SCOPE-MAP.md": "faaf0110bc5c9e317d92594cc8cf92cdc80c230c6b4bb52df0c6fdeccf397860",
+    "docs/authoring/stewardship-enterprise/23.11/check-answers.md": "71873dc78f8e82c374853647168ddb25b6d8b5e59d4097cf4379ffa34e21cf30",
+    "docs/authoring/stewardship-enterprise/23.11/check-prompts.md": "ac3be230f049cf5c8358acae56d3a4b69b03f3c271ff4b36c0a3148c89fc68aa",
+    "docs/authoring/stewardship-enterprise/23.11/later-packet.md": "77f9b0db0655a3b62daed056ce3cdb328f210c50e37187169c8b8cb0363b4e28",
+    "docs/authoring/stewardship-enterprise/23.11/learner-guide.md": "6f079fa35634ba0171c2083ee90155d5789c441615603e7377ea7d127bd2ff1d",
+    "docs/authoring/stewardship-enterprise/23.12/SCOPE-MAP.md": "89a31d24200d5f22bfc7f40c3eb7da4cfb727172fa42b3370d98e7a7c79e2504",
+    "docs/authoring/stewardship-enterprise/23.12/check-answers.md": "d05baf94d5ba4da140d8c5849c71a617db1fd1bb293cd3170a160bf2e134b5b9",
+    "docs/authoring/stewardship-enterprise/23.12/check-prompts.md": "ce04235b56fc674f56ce037bcb6c3fbff398b046c8e8ae6984b1dfbea94b2965",
+    "docs/authoring/stewardship-enterprise/23.12/later-packet.md": "87f9c847d766517d5448f0cf9ef080a622c2f8ebb0ba72120d5984299699cda0",
+    "docs/authoring/stewardship-enterprise/23.12/learner-guide.md": "395fc66008762e5bb0cbd3c987c7ee6e6ecfa56c45842813960686cec6de0d2b",
+    "docs/authoring/stewardship-enterprise/24.01/SCOPE-MAP.md": "1e9ec1a2f72ad56a3c95d1ad784bb3e3f6e504524a86627d66ff97c6ef842005",
+    "docs/authoring/stewardship-enterprise/24.01/check-answers.md": "4245f0ff6fb1b60034dc50d06c0f5a30988a51dbf21f8f640005080dd379dff1",
+    "docs/authoring/stewardship-enterprise/24.01/check-prompts.md": "1c1581b65d273a5c1e083d0b63138f622a8d1723f3bedc7c1f73776703463b7c",
+    "docs/authoring/stewardship-enterprise/24.01/later-packet.md": "3e90f4f4b281a9a3fc035e19b61a78e93bbf5240a23edcbeb3baf4176e68d8d3",
+    "docs/authoring/stewardship-enterprise/24.01/learner-guide.md": "74354ebabd4ae042e537943c8c37c42faa6e63f012208c8ca3930a526fb2e759",
+    "docs/authoring/stewardship-enterprise/24.02/SCOPE-MAP.md": "df59c493f965e810b7ce5fbfeef8081196f1cf012f0ef62af5eda0dae7e2c335",
+    "docs/authoring/stewardship-enterprise/24.02/check-answers.md": "fd094ce88a3f3fdb896493b929a540e62e2fdcff338fd408bc4d56f46f27ced9",
+    "docs/authoring/stewardship-enterprise/24.02/check-prompts.md": "3de90cb8865e1102a24b82a95e7b2725aa4e17bcf179532d22c3722ed5613f0d",
+    "docs/authoring/stewardship-enterprise/24.02/later-packet.md": "f05fcea9b50e33d62c1cab52e44a4d484509d41ac99ccd21af46509375b3da3c",
+    "docs/authoring/stewardship-enterprise/24.02/learner-guide.md": "60fe6549fe80f5db8548f649281de23dcc5d0533c58a59fe2b8aca0051276cef",
+    "docs/authoring/stewardship-enterprise/24.03/SCOPE-MAP.md": "ed775b8437631b013bad0e853e2a5e3e252088cf913144437829010b793f0081",
+    "docs/authoring/stewardship-enterprise/24.03/check-answers.md": "d5f69dd1bf00d4743bc094569cb2b19af432653e9cb3118430ff3254b7ccb5a5",
+    "docs/authoring/stewardship-enterprise/24.03/check-prompts.md": "84f49d26e69b66fb09dd4c0b29034c8629726102579ef3b6ea59dd14fc458330",
+    "docs/authoring/stewardship-enterprise/24.03/later-packet.md": "449c18c2118fd7a98b12e185c9207357a9efe3bec3f9042e86a26a9804213530",
+    "docs/authoring/stewardship-enterprise/24.03/learner-guide.md": "3d709a8f906dedd71b0842c4b59946b03ba2cc5e483161bec454be073914f9f1",
+    "docs/authoring/stewardship-enterprise/24.04/SCOPE-MAP.md": "58f0729c00f9854b9bc9f3ffb11b33723829e46af63bf430c0f232ae4819ce3c",
+    "docs/authoring/stewardship-enterprise/24.04/check-answers.md": "9c0d78ceab418e7819750c9bac57f53a955ce469401cc9455cb61428e0a0e843",
+    "docs/authoring/stewardship-enterprise/24.04/check-prompts.md": "6d9ecd8973a6afea07a19df264f99b3bd17dbb55f482caf5dfe9dec3001effb2",
+    "docs/authoring/stewardship-enterprise/24.04/later-packet.md": "15e8426e7532e6d0c14ca7c5fef3e7322f19c5a5677620c71720859a8f776385",
+    "docs/authoring/stewardship-enterprise/24.04/learner-guide.md": "752f8c966070da9c14abbe60d705e06f6ad3818614d485f35c0fe117e22ff851",
+    "docs/authoring/stewardship-enterprise/24.05/SCOPE-MAP.md": "27467ba6d9c08ed29d17e70a05d95fe56fdc9b07d7602da31949250cb133fc0d",
+    "docs/authoring/stewardship-enterprise/24.05/check-answers.md": "1e8ade8d125be3ae373023343c8ba3b246e5d00102b81df61f0ae7b0b315db01",
+    "docs/authoring/stewardship-enterprise/24.05/check-prompts.md": "61ea0c2bf52fbad0518c7409b10db005e029da4f0724c9bb14171006f7803f46",
+    "docs/authoring/stewardship-enterprise/24.05/later-packet.md": "4eae06d96d9c668151b418dd0f6f0a93c25357af00a853b43e4145093dfad3ee",
+    "docs/authoring/stewardship-enterprise/24.05/learner-guide.md": "7abf51e19a6d85656e5caae7d62f73c4dd202293ffbda46a88277d8467f43104",
+    "docs/authoring/stewardship-enterprise/24.06/SCOPE-MAP.md": "dcbdc030e328ec5f0de3a22ec5548100a36f7d1493645e7bf48e7af0549e0bf7",
+    "docs/authoring/stewardship-enterprise/24.06/check-answers.md": "5f72545e2ff794ba8e6a2482edb9e9fac8e3360b9c3a7976f301e2f0ea1e2980",
+    "docs/authoring/stewardship-enterprise/24.06/check-prompts.md": "985c5d3b7151185601edd2ac66b4a89f9cdbffa297c39dc1050ab77932d49be5",
+    "docs/authoring/stewardship-enterprise/24.06/later-packet.md": "2ea386006e085ae8923047f3016a4b22e69f882d77cc5d34968794d07cf33522",
+    "docs/authoring/stewardship-enterprise/24.06/learner-guide.md": "23856fb9d69c6070be94b8453d1e22b5edad86911052e227f5bfcae3d8e37f32",
+    "docs/authoring/stewardship-enterprise/24.07/SCOPE-MAP.md": "5e4242617b1795ef2ab43837476bc36e4baa6575e1c278c47f1ec8911c7f3a16",
+    "docs/authoring/stewardship-enterprise/24.07/check-answers.md": "19096b1bc9b0ab5bf87fe6c1137f8bcabf601802baa6cc7094299a7797dba568",
+    "docs/authoring/stewardship-enterprise/24.07/check-prompts.md": "794c8da5fd64701abe3d33cc5ca51fef30a17957f30307803f066f221fb7323d",
+    "docs/authoring/stewardship-enterprise/24.07/later-packet.md": "8282e623b9a4fe9a9ba3ea57cd8220b1b2b70e767c31c80b44455083a136db42",
+    "docs/authoring/stewardship-enterprise/24.07/learner-guide.md": "1940bda7612addc9c900b2abcb04631fdd2c65b09990e03580237bc39f56b23d",
+    "docs/authoring/stewardship-enterprise/QUALITY-REVIEW.md": "0e3c998d4b7f5fb17fb83214608ec01b3d0e343c0622bc7996651004e5465b15",
+    "docs/authoring/stewardship-enterprise/README.md": "392f24041eeae058f4ecf68844406e2133c8961635b4221b55574f78ec55030e",
+    "docs/authoring/stewardship-enterprise/SOURCES.md": "8a802c16ca401384918f6757294fe006b91b7c5116e26aed6c8e95ddb8160639",
+    "docs/authoring/stewardship-enterprise/cohort.json": "c992f077cc9b8e13af66ceec8460bba56d2c2b5fc5dba6e9dfe14aee050b6aaf",
+    "docs/authoring/stewardship-enterprise/fixtures.json": "6709cefbdc957f9c5eabc27efc010ccb56c2a37befaf532adc747fbc68fe310f",
+    "docs/authoring/stewardship-enterprise/sources.json": "3ff764e04afcb37a6b786c902c426e1b9f64ee12fff1fe543f84817a7e55bf69"
+  },
+  "focused_test_sha256": "45c6fa12754f37322155335cfeb967ac439fab5f1329f94c734b416d7cc3d40b",
+  "formal_reviews_accepted": 0,
+  "independent_review": "pending",
+  "actual_learner_review": "pending",
+  "qualified_review": "pending",
+  "owner_content_acceptance": "pending",
+  "application_ci_cd": "deferred, not passed",
+  "runtime_integrated": false,
+  "repair_history": [
+    {
+      "stage": "initial verification",
+      "commands": [
+        {
+          "command": [
+            "python",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "*sources.py",
+            "-v"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 11.685,
+          "output_sha256": "26952359ff62e2215f9abb9333177acd91a77d6d4dce2e3dc189362740fe422b",
+          "summary": [
+            "test_verification_covers_exact_source_and_test_bytes (test_m6k_work_delivery_voice_sources.IntegrityTests.test_verification_covers_exact_source_and_test_bytes) ... ok",
+            "",
+            "----------------------------------------------------------------------",
+            "Ran 1001 tests in 11.568s",
+            "",
+            "OK"
+          ]
+        },
+        {
+          "command": [
+            "python",
+            "-m",
+            "ruff",
+            "format",
+            "--check",
+            "tests/test_m6k_stewardship_enterprise_sources.py"
+          ],
+          "exit_code": 0,
+          "elapsed_seconds": 0.029,
+          "output_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50",
+          "summary": [
+            "1 file already formatted"
+          ]
+        },
+        {
+          "command": [
+            "python",
+            "-m",
+            "ruff",
+            "check",
+            "tests/test_m6k_stewardship_enterprise_sources.py"
+          ],
+          "exit_code": 1,
+          "elapsed_seconds": 0.027,
+          "output_sha256": "3d0cc5ac9b0380254b5c40bf7f60679dd29c410c115dda7edf944491cb92f409",
+          "summary": [
+            "349 |         self.assertIn(\"N’s first two tasks\", doc(\"24.02\"))",
+            "    |                         ^",
+            "350 |         self.assertIn(\"East entrance\", doc(\"24.02\"))",
+            "    |",
+            "",
+            "Found 1 error."
+          ]
+        }
+      ],
+      "defect": "Ruff RUF001 rejected a typographic apostrophe in one exact source assertion after all 1001 source tests and format check passed.",
+      "repair": "Use an ASCII apostrophe in both the guide phrase and its assertion without changing meaning; finish scope-map spacing review and rerun final gates."
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "*sources.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 10.167,
+      "output_sha256": "76669610f05e30282bcc1581a6d816367e12c8339767176e60be3cceb32f4b97",
+      "summary": [
+        "test_verification_covers_exact_source_and_test_bytes (test_m6k_work_delivery_voice_sources.IntegrityTests.test_verification_covers_exact_source_and_test_bytes) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 1001 tests in 10.061s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "tests/test_m6k_stewardship_enterprise_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.025,
+      "output_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50",
+      "summary": [
+        "1 file already formatted"
+      ]
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "check",
+        "tests/test_m6k_stewardship_enterprise_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.03,
+      "output_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "summary": [
+        "All checks passed!"
+      ]
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.005,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "summary": []
+    }
+  ],
+  "baseline_verification": {
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "*sources.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "tests": 964,
+    "reported_seconds": 10.316,
+    "output_sha256": "838d7d85a1b008ec7bb1740a97075675f633455be71ca40e688f1a542ca3cd3e"
+  },
+  "local_links_checked": 160,
+  "literal_repetition_check": {
+    "minimum_words": 18,
+    "new_pairs": 66,
+    "preceding_batch_pairs": 144,
+    "comparison": "All new guide pairs and every new guide against preceding twelve",
+    "duplicates": [
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.01/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.01/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.01/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.01/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.01/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.01/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.02/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.02/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.02/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.02/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.02/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.03/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.03/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.03/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.03/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.04/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.04/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.04/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.05/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.05/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/24.06/learner-guide.md",
+        "b": "docs/authoring/stewardship-enterprise/24.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.01/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.02/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.03/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.04/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.05/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.06/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      },
+      {
+        "a": "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+        "b": "docs/authoring/governance-finance/23.07/learner-guide.md",
+        "sentence": "## Scope and evidence boundary\n\nCanonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice."
+      }
+    ],
+    "limit": "Literal scan only; individual conceptual review is separate.",
+    "review_disposition": "All 66 matching pairs contain only one of the two exact required professional-boundary sentences and its section heading. No other literal sentence at or above eighteen words repeats across the compared guides."
+  },
+  "learner_guide_word_counts": {
+    "23.08": 1171,
+    "23.09": 1198,
+    "23.10": 1303,
+    "23.11": 1317,
+    "23.12": 1162,
+    "24.01": 1222,
+    "24.02": 1227,
+    "24.03": 1181,
+    "24.04": 1263,
+    "24.05": 1218,
+    "24.06": 1209,
+    "24.07": 1208
+  },
+  "source_registry_rows": 16,
+  "fresh_check_questions_reviewed": 36,
+  "case_verification": "Twelve individual cases reconcile giving capacity, generational resources, lifecycle burden, hardship amount versus timing, shared contribution and authority, career pay/capability, two reader tasks and net organizer burden, profit versus cash and receivables, disconfirming discovery, unit/acquisition/cash economics, approval/payment/pointer state and market-power/privacy/usability limits. Source consistency only.",
+  "scope_audit": {
+    "changed_paths": [
+      "MANIFEST.tsv",
+      "contracts/active-batch.yaml",
+      "docs/authoring/SOURCE-CONSOLIDATION-STATUS.md",
+      "docs/authoring/stewardship-enterprise/23.08/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/23.08/check-answers.md",
+      "docs/authoring/stewardship-enterprise/23.08/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/23.08/later-packet.md",
+      "docs/authoring/stewardship-enterprise/23.08/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/23.09/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/23.09/check-answers.md",
+      "docs/authoring/stewardship-enterprise/23.09/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/23.09/later-packet.md",
+      "docs/authoring/stewardship-enterprise/23.09/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/23.10/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/23.10/check-answers.md",
+      "docs/authoring/stewardship-enterprise/23.10/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/23.10/later-packet.md",
+      "docs/authoring/stewardship-enterprise/23.10/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/23.11/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/23.11/check-answers.md",
+      "docs/authoring/stewardship-enterprise/23.11/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/23.11/later-packet.md",
+      "docs/authoring/stewardship-enterprise/23.11/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/23.12/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/23.12/check-answers.md",
+      "docs/authoring/stewardship-enterprise/23.12/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/23.12/later-packet.md",
+      "docs/authoring/stewardship-enterprise/23.12/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/24.01/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/24.01/check-answers.md",
+      "docs/authoring/stewardship-enterprise/24.01/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/24.01/later-packet.md",
+      "docs/authoring/stewardship-enterprise/24.01/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/24.02/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/24.02/check-answers.md",
+      "docs/authoring/stewardship-enterprise/24.02/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/24.02/later-packet.md",
+      "docs/authoring/stewardship-enterprise/24.02/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/24.03/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/24.03/check-answers.md",
+      "docs/authoring/stewardship-enterprise/24.03/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/24.03/later-packet.md",
+      "docs/authoring/stewardship-enterprise/24.03/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/24.04/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/24.04/check-answers.md",
+      "docs/authoring/stewardship-enterprise/24.04/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/24.04/later-packet.md",
+      "docs/authoring/stewardship-enterprise/24.04/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/24.05/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/24.05/check-answers.md",
+      "docs/authoring/stewardship-enterprise/24.05/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/24.05/later-packet.md",
+      "docs/authoring/stewardship-enterprise/24.05/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/24.06/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/24.06/check-answers.md",
+      "docs/authoring/stewardship-enterprise/24.06/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/24.06/later-packet.md",
+      "docs/authoring/stewardship-enterprise/24.06/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/24.07/SCOPE-MAP.md",
+      "docs/authoring/stewardship-enterprise/24.07/check-answers.md",
+      "docs/authoring/stewardship-enterprise/24.07/check-prompts.md",
+      "docs/authoring/stewardship-enterprise/24.07/later-packet.md",
+      "docs/authoring/stewardship-enterprise/24.07/learner-guide.md",
+      "docs/authoring/stewardship-enterprise/QUALITY-REVIEW.md",
+      "docs/authoring/stewardship-enterprise/README.md",
+      "docs/authoring/stewardship-enterprise/SOURCES.md",
+      "docs/authoring/stewardship-enterprise/cohort.json",
+      "docs/authoring/stewardship-enterprise/fixtures.json",
+      "docs/authoring/stewardship-enterprise/sources.json",
+      "docs/authoring/stewardship-enterprise/verification.json",
+      "docs/evidence/M6K-STEWARDSHIP-ENTERPRISE-TWELVE.md",
+      "tests/test_m6k_stewardship_enterprise_sources.py"
+    ],
+    "allowed_path_count": 72,
+    "violations": []
+  },
+  "manifest_expected_entries": 2373,
+  "final_editorial_review": "All twelve guides, later packets, canonical scope maps and 36 fresh-answer pairs individually reviewed; source limits and partial results retained. No actual human acceptance."
+}

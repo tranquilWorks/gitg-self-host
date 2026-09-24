@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "all_responses_supplied_fiction": true,
+  "actual_participant_evidence": false,
+  "generosity": {
+    "limit": 30,
+    "planned": [
+      12,
+      8,
+      10
+    ],
+    "later": [
+      12,
+      10,
+      10
+    ],
+    "cash": 0,
+    "worksheet_used": null,
+    "recurring_agreement": false
+  },
+  "generations": {
+    "available": 600,
+    "initial": [
+      200,
+      150,
+      100,
+      150
+    ],
+    "later": [
+      200,
+      250,
+      100,
+      50
+    ],
+    "teaching": [
+      20,
+      15,
+      25
+    ],
+    "teaching_later": [
+      20,
+      30,
+      10
+    ],
+    "tool_permission": false,
+    "transfer": false
+  },
+  "lifecycle": {
+    "stages": [
+      "materials",
+      "manufacture",
+      "transport",
+      "use",
+      "care_or_repair",
+      "reuse_or_disposal"
+    ],
+    "article": "206.111.08",
+    "method": "wipe",
+    "washing_allowed": false,
+    "food_contact": false,
+    "initial_minutes": 4,
+    "expected_minutes": 3,
+    "later_minutes": 8,
+    "measured_carbon_saving": null
+  },
+  "hardship": {
+    "income": 1500,
+    "essentials": [
+      900,
+      300,
+      350,
+      150,
+      200
+    ],
+    "optional": 80,
+    "first_pay": 750,
+    "early_food": 75,
+    "early_transport": 75,
+    "received_gift": 100,
+    "deferral": 100,
+    "service_cost": null,
+    "response_time": null,
+    "official_contact": false,
+    "approved_aid": null
+  },
+  "shared": {
+    "incomes": [
+      1200,
+      2400
+    ],
+    "cost": 900,
+    "later_incomes": [
+      1200,
+      1800
+    ],
+    "threshold": 100,
+    "food_remaining": 90,
+    "purchases": [
+      80,
+      110
+    ],
+    "relative_offer": 200,
+    "relative_received": false,
+    "later_agreement": false
+  },
+  "career": {
+    "before_misses": 6,
+    "after_misses": 2,
+    "bookings": 40,
+    "handoff_success": 8,
+    "handoff_tasks": 10,
+    "pay": [
+      3000,
+      3300
+    ],
+    "hours": [
+      160,
+      180
+    ],
+    "added_transport": 200,
+    "budget": 100,
+    "plan": [
+      40,
+      30,
+      20
+    ],
+    "canceled": 20,
+    "extra": 15,
+    "pay_increase": false
+  },
+  "value": {
+    "fields": [
+      "purpose",
+      "time",
+      "location_access",
+      "bring",
+      "contact"
+    ],
+    "initial_reader": "N",
+    "first_results": [
+      true,
+      false
+    ],
+    "later_reader": "O",
+    "later_result": true,
+    "provider_minutes": [
+      10,
+      18,
+      8,
+      4
+    ],
+    "before_questions": 6,
+    "later_questions": 2,
+    "minutes_each": 2,
+    "organizer_maintenance": 10,
+    "paid_demand": null
+  },
+  "business": {
+    "orders": 4,
+    "price": 50,
+    "variable": 25,
+    "overhead": 60,
+    "paid_orders": 2,
+    "opening_cash": 100,
+    "rework": 15,
+    "delayed_invoice": 50,
+    "other_costs": null
+  },
+  "discovery": {
+    "initial_records": [
+      {
+        "id": "A",
+        "minutes": 20,
+        "frequency": "three_of_four_weeks",
+        "mechanism": "version",
+        "buyer": false
+      },
+      {
+        "id": "B",
+        "minutes": 0,
+        "frequency": "monthly",
+        "mechanism": "adequate_alternative",
+        "buyer": null
+      },
+      {
+        "id": "C",
+        "minutes": 10,
+        "frequency": "quarterly",
+        "mechanism": "approval",
+        "buyer": false
+      }
+    ],
+    "actual_interviews": 0,
+    "prototype_copies_time": true,
+    "later_stale": true,
+    "revised_tested": false
+  },
+  "units": {
+    "price": 12,
+    "materials": 2,
+    "labor": 4,
+    "handling": 1,
+    "fixed": 100,
+    "volume": 40,
+    "capacity": 40,
+    "campaign": 30,
+    "new_customers": 10,
+    "lower_price": 10,
+    "opening_cash": 200,
+    "receipts_before_day30": 0,
+    "pilot_units": 10,
+    "pilot_campaign": 0,
+    "later_labor": 6,
+    "retention": null,
+    "actual_spend": 0
+  },
+  "operations": {
+    "price": 50,
+    "v1_time": "13:00",
+    "v2_time": "14:00",
+    "approver": "Ivo",
+    "approval": "Thursday 15:00",
+    "delivery": "Friday 14:00",
+    "deadline": "Friday 16:00",
+    "payment_due": "Monday 12:00",
+    "payment_received": false,
+    "initial_current": [
+      "v1",
+      "v2"
+    ],
+    "later_current": [
+      "v2"
+    ],
+    "reader": "Noah",
+    "actual_independent_reader": false,
+    "compliance_complete": false,
+    "synthetic_retention_days": 30
+  },
+  "market": {
+    "services": [
+      "A",
+      "B",
+      "C"
+    ],
+    "mechanisms": [
+      "quality",
+      "network",
+      "export_block_and_exclusivity"
+    ],
+    "market_shares": null,
+    "legal_finding": false,
+    "initial_export_exposes_others": true,
+    "later_export_exposes_others": false,
+    "later_export_timezone": false,
+    "actual_export": false
+  }
+}
