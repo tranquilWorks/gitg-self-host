@@ -1,29 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-COMMUNICATION-INFLUENCE-TWELVE
-  title: Individually author communication, influence and social ease companions
-  goal: Complete 16.02–16.13 at the twelve-per-report cadence, retain individual quality gates and normally
+  id: M6K-RESPECTFUL-CONNECTION-TWELVE
+  title: Individually author respectful communication and relationship companions
+  goal: Complete 16.14–16.18 and 17.01–17.07 at twelve per report, preserve individual quality and normally
     merge the verified source batch.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/communication-influence/SOURCES.md
-  - docs/authoring/communication-influence/cohort.json
-  - docs/authoring/communication-influence/QUALITY-REVIEW.md
-  milestone: M6K-COMMUNICATION-INFLUENCE-SOURCE-PUBLICATION
-  baseline_commit: a4def18643ba060d14e5913d4294b557c0f87a7f
+  - docs/authoring/respectful-connection/SOURCES.md
+  - docs/authoring/respectful-connection/cohort.json
+  - docs/authoring/respectful-connection/QUALITY-REVIEW.md
+  milestone: M6K-RESPECTFUL-CONNECTION-SOURCE-PUBLICATION
+  baseline_commit: f1d433697a2a558066560523d354a8d191d18238
 dependencies:
-- PR-86-merged
+- PR-87-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/communication-influence/**
-  - docs/evidence/M6K-COMMUNICATION-INFLUENCE-TWELVE.md
-  - tests/test_m6k_communication_influence_sources.py
+  - docs/authoring/respectful-connection/**
+  - docs/evidence/M6K-RESPECTFUL-CONNECTION-TWELVE.md
+  - tests/test_m6k_respectful_connection_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -61,57 +61,68 @@ scope:
   - tests/test_m6k_digital_judgment_preparedness_sources.py
   - docs/authoring/resilience-community-listening/**
   - tests/test_m6k_resilience_community_listening_sources.py
+  - docs/authoring/communication-influence/**
+  - tests/test_m6k_communication_influence_sources.py
 acceptance:
-- Owner explicitly requested next batch and merge in on 24 September 2026. Preserve twelve-per-report
-  cadence and no quality compromise. Continuing source-quality workflow defers CI/CD; explicit normal
-  merge authorization overrides the generic target-pr-merge prohibition only for this batch. No protection
-  bypass, deployment or runtime integration.
-- Exact IDs 16.02–16.13. Preserve all 69 previous additional source companions and 591 source tests. Twelve
-  is a reporting batch, not permission to consume the backlog.
+- Owner continuation request “Next chunk please” on 24 September 2026 carries forward twelve-per-report
+  cadence, no quality compromise and explicit “next batch and merge in” normal merge authorization. Source-quality
+  workflow defers CI/CD; normal merge authorization overrides generic target-pr-merge prohibition for
+  this batch only. No bypass, deployment or runtime integration.
+- Exact IDs 16.14–16.18 and 17.01–17.07. Preserve 81 previous additional source companions and 632 source
+  tests. Scope ends after twelve.
 - Each competency requires individual conceptual teaching, worked example, complete original fictional
   case, ordered actions and inspectable output, separate later outcomes, three fresh checks and corrective
   answers, supported/harder/real transfer routes, full canonical mapping and inspected primary sources.
-- Per-competency author review must check facet coverage, usability, distinctiveness, answer discrimination,
-  source limits and unresolved human evidence. Length and tests are not pedagogical validation.
-- 16.03 is a frozen legacy companion. Preserve its protocol, actions, evidence fields, ten-day practice,
-  seven-day follow-up, completion and replay byte-for-byte. It is not new runtime integration.
-- Nonverbal cues remain uncertain; no emotion dictionary, deception detection, eye-contact quota or cultural/neurotype
-  stereotype. Perspective hypotheses require voluntary reports and retain contradictions and unknowns.
-- Clear expression, audience adaptation, reciprocal conversation, feedback, rhetoric, public delivery,
-  causal storytelling, negotiation, conflict repair and warmth require distinct tasks. Comprehension is
-  not assent; fictional replies are never actual observer evidence.
-- Preserve truth and material burdens across audiences; no coercive persuasion or exploitative leverage.
-  Negotiation must allow feasible refusal; conflict practice excludes abuse, threats and compelled shared
-  blame. Humor is optional and objections are respected.
-- Expected additional source count 81; runtime remains 108 tailored, 275 pending, 383 protocols, 1151
-  actions. Formal human/qualified/owner acceptance unchanged.
-- Run full source suite, focused Ruff, links, canonical/input hashes, case regressions, manifest and allowed/forbidden
-  scope audit. Record exact results and limits.
+- Author review checks every canonical facet, usability, distinctiveness, case and answer discrimination,
+  source limits and missing human evidence. Length and passing tests are not pedagogical validation.
+- 17.03 is a frozen legacy companion. Preserve its protocol/actions/evidence fields, fourteen-day practice,
+  at least ten minutes primarily listening, seven-day follow-up, completion and replay byte-for-byte.
+  A proposed activity is not jointly scheduled.
+- Courtesy never measures wealth, accent, appearance, eye contact or human worth. Indirect signals remain
+  hypotheses; silence is not consent. Adapt local communication preferences without stereotypes, compelled
+  code-switching or altered material facts.
+- Accommodation must allow understanding AND expression, including disagreement. Self-audit and fictional
+  responses cannot establish actual access or friendship. Qualified language assistance in regulated settings
+  is outside the informal peer exercise.
+- Teach all seven coercion mechanisms without diagnosis by checklist. Threats, monitoring, stalking or
+  unsafe dependence stop confrontation practice; use a verified safe local support route and individualized
+  safety planning. Do not force exit, reconciliation or allegations into the application.
+- Relationship selection, maintenance, reliable support, reciprocity and hospitality require distinct
+  tasks. Respect refusal and unequal capacity. No secret loyalty tests, exact moral ledgers or rescue/control.
+  Intent and promises do not prove usefulness or follow-through.
+- Expected additional source count 93; runtime stays 108 tailored, 275 pending, 383 protocols, 1151 actions.
+  Formal independent, learner, qualified and owner content acceptance remain pending.
+- Run full source suite, focused Ruff, links, canonical/input hashes, meaningful case regressions, manifest
+  and allowed/forbidden scope audit. Record actual results and limits.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - ruff format --check tests/test_m6k_communication_influence_sources.py
-  - ruff check tests/test_m6k_communication_influence_sources.py
+  - ruff format --check tests/test_m6k_respectful_connection_sources.py
+  - ruff check tests/test_m6k_respectful_connection_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
   - Canonical/inherited/legacy integrity
-  - Cue and perspective disconfirmation
-  - Message fact preservation and comprehension versus acceptance
-  - Feedback observation versus proposed solution
-  - Rhetorical evidence and ethical burden preservation
-  - Talk and story accuracy versus polish
-  - Negotiation feasibility and principled refusal
-  - Conflict ownership and unconfirmed follow-through
-  - Humor response and nonperformative warmth
+  - Arrival buffers and changed access arrangements
+  - Pressure evidence versus diagnosis
+  - Indirect clarification versus consent
+  - Cross-format material fact preservation
+  - Two-way access and incomplete retest
+  - Welcome initiation and refusal
+  - Friendship pattern versus response speed
+  - Legacy listening duration and seven-day follow-up
+  - Support mode and renegotiated capacity
+  - Voluntary reciprocity without exact debt
+  - Safety branch and non-repair
+  - Hospitality access versus welcome intent
 risk:
   class: moderate
   hazards:
-  - Generic repetition erasing individual scope
-  - Mind-reading, cultural stereotypes or unsupported outcome promises
-  - Coercive persuasion, forced blame or humiliation
-  - Invented participant evidence or formal acceptance
+  - Generic repetition erasing canonical facets
+  - Cultural stereotypes and access-performance demands
+  - Unsafe confrontation or forced exit
+  - False participant evidence or formal acceptance
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -120,6 +131,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-COMMUNICATION-INFLUENCE-TWELVE.md
+  - docs/evidence/M6K-RESPECTFUL-CONNECTION-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
