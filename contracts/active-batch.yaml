@@ -1,28 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-ECONOMICS-CREATIVE-TWELVE
-  title: Individually author economic systems and creative practice
-  goal: Complete 24.08–24.14 and 25.01–25.05 with individual quality, normal merge and exact remaining count.
+  id: M6K-CREATIVE-CULTURE-LEISURE-TWELVE
+  title: Individually author creative culture and leisure
+  goal: Complete 25.06–25.13 and 26.01–26.04 with individual quality, preserved play compatibility, normal
+    merge and exact remaining count.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/economics-creative/SOURCES.md
-  - docs/authoring/economics-creative/cohort.json
-  - docs/authoring/economics-creative/QUALITY-REVIEW.md
-  milestone: M6K-ECONOMICS-CREATIVE-SOURCE-PUBLICATION
-  baseline_commit: 608d9c3f125c73dbd8cf4742ea3a3c184ad60eab
+  - docs/authoring/creative-culture-leisure/SOURCES.md
+  - docs/authoring/creative-culture-leisure/cohort.json
+  - docs/authoring/creative-culture-leisure/QUALITY-REVIEW.md
+  milestone: M6K-CREATIVE-CULTURE-LEISURE-SOURCE-PUBLICATION
+  baseline_commit: 1a67d1cd055941aa245f121377249dd1fb55b55e
 dependencies:
-- PR-97-merged
+- PR-98-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/economics-creative/**
-  - docs/evidence/M6K-ECONOMICS-CREATIVE-TWELVE.md
-  - tests/test_m6k_economics_creative_sources.py
+  - docs/authoring/creative-culture-leisure/**
+  - docs/evidence/M6K-CREATIVE-CULTURE-LEISURE-TWELVE.md
+  - tests/test_m6k_creative_culture_leisure_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -82,55 +83,61 @@ scope:
   - tests/test_m6k_governance_finance_sources.py
   - docs/authoring/stewardship-enterprise/**
   - tests/test_m6k_stewardship_enterprise_sources.py
+  - docs/authoring/economics-creative/**
+  - tests/test_m6k_economics_creative_sources.py
 acceptance:
-- Owner requests another twelve, retaining individual quality and previously explicit normal-merge authorization.
-  Standing source-quality CI/CD deferral remains; scoped normal merge is authorized despite generic target-pr-merge
-  prohibition. No protection bypass, runtime integration or deployment.
-- Exact new IDs 24.08–24.14 and 25.01–25.05. Preserve all 201 prior additional companions and 1001 predecessor source
-  tests; no new legacy companion.
-- Each competency requires substantive individual explanation, worked example, complete original fictional materials,
-  ordered inspectable outputs, separate later packet, three checks and corrective answers, supported/harder/real
-  transfer routes and exact canonical metadata. Inspect actual sources and state retrieval and transfer limits.
-- Seven business/economic entries retain role_conditional applicability and normative status with the exact business
-  professional_boundary. Five creative entries retain elective_cultivation applicability and elective_but_flourishing_relevant
-  status; their canonical records have no professional_boundary field. Preserve domain-specific formation modes
-  and measurement metadata.
-- Individually cover externalities, macroeconomic cycles, public finance, social insurance, enterprise forms, responsible
-  innovation, cross-border trade, regular making, observation/imagination, taste, medium/technique and synthesis.
-  Complete original cases retain assumptions, partial outcomes, consent, legitimate authority and source limits.
-  No actual policy approval, benefit claim, business formation, deployment, shipment or independent participant
-  evidence is invented.
-- Unique source coverage is 108 implemented plus 213 additional companions = 321 of 383; 62 remain, including 25
-  in 07–08. Preserve the exact partition; legacy status alone does not close this pass. Runtime 108 tailored / 275
-  pending / 383 protocols / 1151 actions is unchanged.
-- Individual author review covers breadth, depth, usability, distinctiveness, all answers and source/evidence limits.
-  Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending.
-  Fiction, tests, word counts and merge prove neither learning nor formal acceptance.
-- Run full unfiltered source suite, focused Ruff, local links, six canonical/contract/current/recovery hashes, selected
-  exercise comparisons, coverage/case regressions, manifest and allowed/forbidden scope audit. Current/recovery
-  domains 24 and 25 match; preserve all full files. Record actual failures and repairs. Application/CI/CD deferred,
-  not passed.
+- Owner requests resume, retaining the twelve-per-report individual quality cadence and explicit normal-merge
+  authorization. Standing source-quality CI/CD deferral remains; scoped normal merge is authorized despite
+  generic target-pr-merge prohibition. No protection bypass, runtime integration or deployment.
+- Exact new IDs 25.06–25.13 and 26.01–26.04. Preserve all 213 prior additional companions and 1038 predecessor
+  source tests. Add one source companion for frozen legacy 26.01 without changing its protocol, actions, evidence,
+  timing, completion or replay.
+- Each competency requires substantive individual teaching, a worked example, complete original fictional materials,
+  ordered inspectable outputs, a separate later packet, three fresh checks and answers, accessible/support/harder
+  routes and exact canonical metadata. Inspect actual primary sources and preserve retrieval and transfer limits.
+- Eight creative entries retain elective_cultivation and elective_but_flourishing_relevant. Four leisure entries
+  retain cross_context_core and cross_tradition_core_or_broadly_recurrent. All twelve lack a canonical professional_boundary
+  field; do not invent one. Preserve domain-specific formation modes and measurement.
+- Individually cover experimentation, revision/release, collaboration, moral imagination, historical/cultural
+  literacy, aesthetic environment, tradition-bearing, cultural use, play, rest, durable interests and nature
+  connection. Distinguish actual audience, collaborator, teacher, play and repeated observation from supplied
+  fiction or preparation.
+- 26.01 retains PRACTICE-PLAY-01, duration ten days, reserve at least thirty minutes within three days with
+  existing accessible variants, play without an output goal, and return within seven days. Preserve all five
+  existing check-in fields, missing user_initiated exception, exact action rules, completion and legacy compatibility.
+  No new enjoyment score.
+- Unique source coverage is 108 implemented plus 225 additional companions = 333 of 383; 50 remain, including
+  25 in 07–08. Legacy 08.02 still lacks this source companion; 26.01 closes only the additional source gap.
+  Runtime 108 tailored / 275 pending / 383 protocols / 1151 actions remains unchanged.
+- Individual author review covers breadth, depth, usability, distinctiveness, all 36 answers and source/evidence
+  limits. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance
+  remain pending. Fiction, tests, word counts and merge prove neither learning nor formal acceptance.
+- Run full unfiltered source suite, focused Ruff, local links, seven canonical/contract/current/recovery/legacy
+  input hashes, selected exercise comparisons, case and exact coverage regressions, frozen play preservation,
+  manifest and scope audit. Full current/recovery domains 25 and 26 match and remain unchanged. Record actual
+  failures and repairs. Application/CI/CD deferred, not passed.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_economics_creative_sources.py
-  - python -m ruff check tests/test_m6k_economics_creative_sources.py
+  - python -m ruff format --check tests/test_m6k_creative_culture_leisure_sources.py
+  - python -m ruff check tests/test_m6k_creative_culture_leisure_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Exact twelve canonical classifications, financial/economic boundary and absent creative boundary
-  - Exact 321/383 unique coverage and remaining 62
-  - Twelve distinct economic and creative regressions with complete examples and partial outcomes
-  - Source and jurisdiction limits, local links and preserved six inputs
+  - Exact twelve canonical classifications, absent boundaries and domain-specific measurement
+  - Exact 333/383 source coverage and 50 remaining; new legacy companion is source-only
+  - Twelve distinct creative/cultural/leisure cases with complete materials and partial outcomes
+  - Frozen play package/action/evidence/timing/completion preservation and seven input hashes
+  - Inspected sources, truthful audience/teacher/observation limits and local links
 risk:
   class: moderate
   hazards:
-  - Incomplete or generic teaching and missing task inputs
-  - Economic-model assumptions mistaken for policy, legal or benefit approval
-  - Unverified governance, trade permission or deployment claim
-  - Creative examples or scripted responses mistaken for actual practice or independent review
-  - Source/runtime double counting or fabricated human acceptance
+  - Generic teaching, incomplete task inputs or fabricated audience/teacher evidence
+  - Cultural interpretation, online access or a fictional holder mistaken for actual authority
+  - Leisure converted into an optimization or happiness score
+  - Changes to frozen play timing, fields, action semantics or completion
+  - Source/runtime double counting or unsupported health/ecological claims
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -139,6 +146,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-ECONOMICS-CREATIVE-TWELVE.md
-  claim_boundary: Author editorial and source verification only; independent, actual learner, qualified and owner
-    content acceptance remain pending. CI/CD/application verification deferred, not passed.
+  - docs/evidence/M6K-CREATIVE-CULTURE-LEISURE-TWELVE.md
+  claim_boundary: Author editorial and source verification only; independent, actual learner, qualified and
+    owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
