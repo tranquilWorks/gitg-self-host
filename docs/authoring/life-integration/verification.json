@@ -1,0 +1,168 @@
+{
+  "validation_level": "author editorial and source integrity only",
+  "baseline_commit": "1d9812c5bdb12bfb26106c76b174e91da0bfcdac",
+  "baseline_source_tests": {
+    "count": 1119,
+    "seconds": 17.109,
+    "status": "passed",
+    "log_sha256": "ab8c8bf89b56fffe67d20501ef89b951d1bb335358515b1e75e5c14dd3abad51"
+  },
+  "commands": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "*sources.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 20.404,
+      "log_sha256": "7741783aafd654f72c3c955781cdd96192667f3180ce435079ea819a412acc17"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "tests/test_m6k_life_integration_sources.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.032,
+      "log_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "tests/test_m6k_life_integration_sources.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.031,
+      "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "*sources.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 19.628,
+      "log_sha256": "25d8531f386eb3a4edc5c166fb6148f684a0d59b5108d92d9122992142a414b4"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "tests/test_m6k_life_integration_sources.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.03,
+      "log_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "tests/test_m6k_life_integration_sources.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.029,
+      "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    }
+  ],
+  "failures_and_repairs": [
+    "After the first passing suite, a readability edit added a colon-space to an unquoted active-contract acceptance item. The scope audit rejected the invalid YAML. Converted the item to a folded scalar and reran the full source suite and audit; no source/runtime content or prior test changed."
+  ],
+  "formal_acceptance": false,
+  "application_cicd": "deferred, not passed",
+  "source_sha256": {
+    "docs/authoring/life-integration/27.03/SCOPE-MAP.md": "98d6a24d9398f8cfd0936a671c2ad6273a855140a426d85c25a078d1464056f1",
+    "docs/authoring/life-integration/27.03/check-answers.md": "568c31e181357a0d92d7d9bb11010671c628ec16fd8fcb1471eed3be27271431",
+    "docs/authoring/life-integration/27.03/check-prompts.md": "d2ad75ebe19085e490c91c11fca7f27b6095057a2c5a113e9e43bc3f738dcac2",
+    "docs/authoring/life-integration/27.03/later-packet.md": "e2d78068c86f04a93a1d919e2a1f38bda42ae5c98b2f48ab266ad5bef0d4292f",
+    "docs/authoring/life-integration/27.03/learner-guide.md": "c06932ff968c3d88b9b8a69593c202f1e56715ec7b5fb82ec1c9578773588b6a",
+    "docs/authoring/life-integration/27.04/SCOPE-MAP.md": "da2a8382a5480964339ea570a658ef80d966f657b45d922bceeac5a9c07ce775",
+    "docs/authoring/life-integration/27.04/check-answers.md": "c278feb2360ba947167c170405e0cbae4e6994edea5b8f394cf9cfc13ee95bab",
+    "docs/authoring/life-integration/27.04/check-prompts.md": "4a411eff407bb28158f7b360821b7cef2317bc44fe87ab02bbe55083eeda1291",
+    "docs/authoring/life-integration/27.04/later-packet.md": "a1437bd476bc1ffdc1bf30e845eb8bff0eca21087a795a30d2d18f245ff2fbf3",
+    "docs/authoring/life-integration/27.04/learner-guide.md": "ecb381d547661ec729da74b1722837c132d8f817ece0b59e7a043728e1438e41",
+    "docs/authoring/life-integration/27.05/SCOPE-MAP.md": "5bce8a2aa58a44fb85e845a98032da317b9c1ccac133614a8942a85fa65d8728",
+    "docs/authoring/life-integration/27.05/check-answers.md": "07baf3d8fa00ec4950e020aa444715282c01fd918f479cc01dbda05dd947cfb8",
+    "docs/authoring/life-integration/27.05/check-prompts.md": "f5f30f4f34dad1d6d344ac33ecb040849b430a62803753c3265fccab589adf22",
+    "docs/authoring/life-integration/27.05/later-packet.md": "3a1b6defa6ee679c91ddaf2c53476fbb38848e5001d46538c35ed6bcf754cc9f",
+    "docs/authoring/life-integration/27.05/learner-guide.md": "cee4255dd1ea0a23041d0e32be320a9d345cf489d0039bec068ab2feb98ca861",
+    "docs/authoring/life-integration/27.06/SCOPE-MAP.md": "094a7da366a2223b37121f9bbf8830ab35916f9fc6ebae27faf455f35826f001",
+    "docs/authoring/life-integration/27.06/check-answers.md": "fcb856dc30862b5a053d4aaa82f02adcfe3f8a20c5f94257e583f486734e64bb",
+    "docs/authoring/life-integration/27.06/check-prompts.md": "4a688519da1ea8b801d79335b4cbec6cf354d54a1d25b0598ca7c81d251ce641",
+    "docs/authoring/life-integration/27.06/later-packet.md": "56d85b2ef231876c4151a0d54a040d74b5204ac5975b5da039759b2d70f6947a",
+    "docs/authoring/life-integration/27.06/learner-guide.md": "b417b95cc659d6d98cdca32096711887ac0abbeeb606e5282b0aeded8e7ff9c0",
+    "docs/authoring/life-integration/27.07/SCOPE-MAP.md": "0a9d13c145351646032e1ed59c8babfe60b7b43e9dbe026915c2c2e51a9a37e1",
+    "docs/authoring/life-integration/27.07/check-answers.md": "4491886a81112a259907daf3eba03afac79e56cd7c7307cf724db0e5d0f79c74",
+    "docs/authoring/life-integration/27.07/check-prompts.md": "594f7c24fa4bf26b68e9b86cde6a2f7ddaaf217ace7983a93bd554cd1fb4f31d",
+    "docs/authoring/life-integration/27.07/later-packet.md": "84e154c7f4f5fc355c37e82a05a47ea5aa1c8ade065b9c9e2d17db391aae59b8",
+    "docs/authoring/life-integration/27.07/learner-guide.md": "f13c3df03d7796a4e1b9cf3f644aefca18804cb4421d7ae2d557a263a094dc30",
+    "docs/authoring/life-integration/27.08/SCOPE-MAP.md": "7f4103c4d6e02798353ea894557dd5bb83a97dc764210782d447a15e44360409",
+    "docs/authoring/life-integration/27.08/check-answers.md": "5ff6927fff142cfc986e8d9bb9b3bfffa486cfdc0c9ddf5a98aa50a9d02368e6",
+    "docs/authoring/life-integration/27.08/check-prompts.md": "bd3681d3a5d4c01c7c87209a86b781169d01df9261abceca62f500987fcdd3c6",
+    "docs/authoring/life-integration/27.08/later-packet.md": "a090ed35cc735e0e1fb469f50e14077dc8c9ff5122baac40a85164184c047d54",
+    "docs/authoring/life-integration/27.08/learner-guide.md": "2cb6c03a4f5caaf9056579634d32d49afa4a893b1bd8f718fb73f29322decb83",
+    "docs/authoring/life-integration/27.09/SCOPE-MAP.md": "bcec2746746d991517090bffcc55b8d7c8e31780cd4f8092f82ebda6b43b48ff",
+    "docs/authoring/life-integration/27.09/check-answers.md": "d228468f496dbe583f7e587a8df8d0d2e20cfc14c82a7693a071cb69b4de5ad4",
+    "docs/authoring/life-integration/27.09/check-prompts.md": "4abb56e3aef92e650d5ae0185721ac7d595d3b9d91ab35fb94270c84a64b7757",
+    "docs/authoring/life-integration/27.09/later-packet.md": "9842fb44710287740b40a0a4dd62912d1807168ea379ac367aeac6b318345f23",
+    "docs/authoring/life-integration/27.09/learner-guide.md": "66ac3d866c220ff2e1b161939ea8e84c7be16fd7db05fcdae82550c09812a926",
+    "docs/authoring/life-integration/27.10/SCOPE-MAP.md": "552a8df30b966d2c7d478ca0ac804da91c12c6a5285b9188a8d346c01ec4f360",
+    "docs/authoring/life-integration/27.10/check-answers.md": "27f5e365fe3db7b0219ed057b2a40735aa2b1d5d7c95f62003209e38c6d4fb05",
+    "docs/authoring/life-integration/27.10/check-prompts.md": "28eeaf0fc3047329ffeceb11cd276c0447b8c57166ccf72269d2a0abceeca65a",
+    "docs/authoring/life-integration/27.10/later-packet.md": "afd191fc3730276a6b93249c5bca2552a4b0c9c82e28ae9c186536804c32ae84",
+    "docs/authoring/life-integration/27.10/learner-guide.md": "309bc3724765ccdac4e7db747f0677ec452746d7cb1d368a92d8b3ee7f7f6cbf",
+    "docs/authoring/life-integration/27.11/SCOPE-MAP.md": "738b537b2b5e934089447f38651a44f7c7122a062d8cb57b4019a348ee92c156",
+    "docs/authoring/life-integration/27.11/check-answers.md": "b84e866e04a302dbe820092fc6a6bd65226d8436bfbe42740ec9e48b28c7d4d8",
+    "docs/authoring/life-integration/27.11/check-prompts.md": "122c226ffdaf67cda63883d3de92212caaa097d0b76a2500a34bf2a9be86a8ec",
+    "docs/authoring/life-integration/27.11/later-packet.md": "899efd8fade91a0761fe53a23048599d315e06334824f4b8137a4f30823c0f15",
+    "docs/authoring/life-integration/27.11/learner-guide.md": "841dc762682689015d9fff6e95ef12d51ec5fc3ac7b6e9fcf70fe8471f43dc50",
+    "docs/authoring/life-integration/27.12/SCOPE-MAP.md": "9a7ea250d8682c18ccd455f5ee75fd76ef65eca1d60fc902d6430c384a3ce15c",
+    "docs/authoring/life-integration/27.12/check-answers.md": "888d951a574557bd4fc7daa534b3db4fcdc1294f7879a819c907e08ac63d68f5",
+    "docs/authoring/life-integration/27.12/check-prompts.md": "83892d96e1351cdb84f8877ee8b318ed29ae0dc920c90d6044c795612c8c5b51",
+    "docs/authoring/life-integration/27.12/later-packet.md": "11268477103541f9b3f5badb2fbc54aa9170475988b8a63c0c50a4d26ac680d5",
+    "docs/authoring/life-integration/27.12/learner-guide.md": "9e9ce29c679c324ef1044b55495624e445db010fd407242990d14fe76000bd6f",
+    "docs/authoring/life-integration/27.13/SCOPE-MAP.md": "099d5dc0521f3923a034e4f8fbc7dd7c373486dfba605cc890f936cd087add0a",
+    "docs/authoring/life-integration/27.13/check-answers.md": "73e7ec1fab3298e3397ee6dbc3dc4ed73daa70694ba4510095e1d3e26ac976f1",
+    "docs/authoring/life-integration/27.13/check-prompts.md": "6e79d01865526bccb70b0034627f183d624204091f38e64391daf9240b7b7e11",
+    "docs/authoring/life-integration/27.13/later-packet.md": "3413a91b7927c1305aa91858c141b12cba6041ac453c564d2bcffc5257ab3ae2",
+    "docs/authoring/life-integration/27.13/learner-guide.md": "4107d98f98be91a1d2d33772ce8781503c9b0349c951d9ed3195ad4456a0533b",
+    "docs/authoring/life-integration/27.14/SCOPE-MAP.md": "580cd725aae394ecbc9c509917600bfa438ab6bdefbf4caf84d418c1bd81f1ae",
+    "docs/authoring/life-integration/27.14/check-answers.md": "3c7a749969dd31755e0ae6137f8245c8f1813bb9774fef7c98b64c2f8fa3e61d",
+    "docs/authoring/life-integration/27.14/check-prompts.md": "11274494032e78601d6924e3c191661a9ab7d8b5c3092352fa03709ddb9c0c4e",
+    "docs/authoring/life-integration/27.14/later-packet.md": "9f82ecbf19237a6a5d491b2b4a717958deb4596269b057196102654ae58bb9ce",
+    "docs/authoring/life-integration/27.14/learner-guide.md": "e4dc1cd1d85513a63398899b3b9a017ea9a63ea3b554ad745b58f93a133955e9",
+    "docs/authoring/life-integration/QUALITY-REVIEW.md": "c5a3ff42a6be7028d53b13c879e0b78c85b336833fc89b1e4d03f0590e7de554",
+    "docs/authoring/life-integration/README.md": "3d35216456419980de630a478ec82566441cb13b223264e278515b2cff1ff323",
+    "docs/authoring/life-integration/SOURCES.md": "d01ba7e68e0e825e5efdf5789262ded025b0d31655e0e1d456c3583ab8a405c5",
+    "docs/authoring/life-integration/cohort.json": "bc3cf715f6f94031d736d68f9448d578e13896b8569135e45d5364f90527cdc2",
+    "docs/authoring/life-integration/fixtures.json": "6f385f42629feebcbf5edacf695ee61009736956170ac0ce0f9d6a9177239ede",
+    "docs/authoring/life-integration/sources.json": "a633802750ca5cd3b832ad0bba678b75bae235f46d641cce46feb1375ed367bd"
+  },
+  "focused_test_sha256": "8bf88a65c7a8d37fa86184dba7b41bbe18f1e3c78ea96cef181c156675b3be02"
+}
