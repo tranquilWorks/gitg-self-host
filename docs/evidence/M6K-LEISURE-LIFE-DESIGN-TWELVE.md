@@ -1,0 +1,33 @@
+# M6K responsible leisure and life design — twelve source companions
+
+## Continuation and baseline
+
+The owner requested continuation of gitg-self-host competencies. Fetching revealed that the local main at PR83 was stale; it was cleanly fast-forwarded to actual [PR99](https://github.com/tranquilWorks/gitg-self-host/pull/99), merged 25 September 2026 at 03:43:14 UTC, main `601c1c19fab545a8d7e041dcaf1ba8561838ac9f`. Its current contract and source status preserve the twelve-per-report individual quality cadence, standing normal-merge authorization and source-quality CI/CD deferral. No stale six-item batch was started. Historical drafts #78/#79 and experimental worktrees remain untouched.
+
+The predecessor source suite passed all 1,078 checks in 16.902 seconds. Branch `codex/leisure-life-design-twelve-20260926` and the successor active contract restrict this batch to the new source directory, focused source test, this evidence, source status, contract and manifest. The owner's continuation and standing merge permission do not constitute content acceptance, runtime integration or deployment approval.
+
+## Individually authored content
+
+The [index](../authoring/leisure-life-design/README.md) covers **26.05–26.14 and 27.01–27.02**. Every guide includes substantive explanation, its own worked example, complete fictional task inputs, ordered inspectable outputs, a separate later packet, three fresh checks and corrective answers, supported/harder routes and bounded real transfer. The twelve cases require different work: an outdoor return, a contextual place account, attributed cultural interpretation, supported wayfinding, a signal-model correction, a private celebration, repaired play opportunities, a reflective journey, a stopped joke with task correction, a project observation, an actual-week comparison and a finite competing-goods decision.
+
+[Individual review](../authoring/leisure-life-design/QUALITY-REVIEW.md) records all twelve facet/depth, usability, outcome and fresh-answer reviews. It retains early returns, disagreements, missing permission, actual assistance, neutral emotion, unknown enjoyment, incomplete observation, unagreed roles and foregone goods. No real participant, community, journey, field observation or life outcome is fabricated. The ten leisure and two life-integration entries preserve exact canonical classifications, domain-specific formation/measurement metadata and absent professional_boundary fields.
+
+[Nine inspected primary/official sources](../authoring/leisure-life-design/SOURCES.md) have dated, narrow use and retrieval limits. Failed UNESCO/Smithsonian/ADA routes are excluded rather than treated as read. No linked manual, unplayed comedy media, live outdoor conditions or volunteer opening is credited. No source citation establishes these original exercises' efficacy or formal acceptance.
+
+## Verification, failures and repairs
+
+The focused module adds **41 source checks**: 13 integrity, 24 individual-case and four fresh-case/parser checks. The first full candidate run executed 1,119 checks with one failure in a new wording assertion: it looked for generic “no one” language rather than the guide's actual no-public-names-or-photographs permission. The test now checks that substantive sentence; no predecessor test or gate was removed. The original failure log is retained. Final source checks, Ruff formatting and lint passed; executed command results and hashes are retained in [verification.json](../authoring/leisure-life-design/verification.json).
+
+Author review corrected an intermediate travel calculation from seven to five added minutes: two waiting and three speaking, counted once. The library later packet now explicitly uses another staff member at the junction so it does not contradict the staffed entrance desk. External drafting tooling initially needed an apostrophe fix and a coverage-discovery fix: nine early guides have no cohort.json, so actual guide paths establish the historical inventory. These failed drafting attempts are recorded without changing canonical/runtime data.
+
+The source audit checks **185 local links**, **66 source-file hashes**, six canonical/contract/current/recovery input hashes and exact complete canonical entries. Current and recovery domains 26/27 remain equal and unchanged. The literal originality scan finds no shared sentences of eighteen or more words across 66 new-guide pairs and 2,700 new/predecessor pairs after excluding the standard final metadata boundary. This narrow scan supports inspection but does not establish semantic originality by itself. The individual review addresses distinct purposes and outputs separately.
+
+The final intended scope is **72 paths**: 67 files in the new directory, one new test, active contract, source status, evidence and manifest. The exact allowed/forbidden-path audit compares against PR99 and preserves all prior source/tests, canonical data, runtime/compiler/recovery, workflows, dependencies and participant boundaries. Manifest and staged whitespace verification are required on the publication candidate; exact final statuses and Git tree are retained externally with the publication receipt to avoid inventing a self-referential commit hash.
+
+## Coverage and remaining work
+
+The exact canonical partition is **108 implemented + 237 additional companions = 345 unique of 383**, leaving **38**: domain 07 has 14, 08 has 11 and 27 has 13. All 225 prior companions are preserved. Domain 26 is now complete by this source-authoring definition; the next sequential source is **27.03**. Earlier emotional/interiority domains remain explicitly unfinished, including legacy 08.02 without a source companion. See [cohort metadata](../authoring/leisure-life-design/cohort.json) for every remaining ID and prior guide path.
+
+Runtime remains **108 tailored / 275 pending / 383 protocols / 1,151 actions**. No activation, evidence, scoring, completion, in-flight instructions, participant data or deployment changes. Full application/browser/Compose/CI/CD verification is deferred under the standing owner instruction, not passed. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending.
+
+Publication uses the tested source tree, confirmed current base and expected head through a normal merge, with native `[skip ci]` and no workflow or branch-protection bypass. A future PR number or merge receipt is not invented inside this candidate; actual publication is verified and reported afterward. All necessary runtime integration and its applicable verification remain separate work.
