@@ -1,29 +1,28 @@
 schema_version: 1
 batch:
-  id: M6K-LEISURE-LIFE-DESIGN-TWELVE
-  title: Individually author responsible leisure and life design
-  goal: Complete 26.05–26.14 and 27.01–27.02 under the continuing individual source-quality and normal-merge
-    workflow.
+  id: M6K-LIFE-INTEGRATION-TWELVE
+  title: Individually author life integration and plural pathways
+  goal: Complete 27.03–27.14 with individual source-quality review, verification and normal merge.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/leisure-life-design/SOURCES.md
-  - docs/authoring/leisure-life-design/cohort.json
-  - docs/authoring/leisure-life-design/QUALITY-REVIEW.md
-  milestone: M6K-LEISURE-LIFE-DESIGN-SOURCE-PUBLICATION
-  baseline_commit: 601c1c19fab545a8d7e041dcaf1ba8561838ac9f
+  - docs/authoring/life-integration/SOURCES.md
+  - docs/authoring/life-integration/cohort.json
+  - docs/authoring/life-integration/QUALITY-REVIEW.md
+  milestone: M6K-LIFE-INTEGRATION-SOURCE-PUBLICATION
+  baseline_commit: 1d9812c5bdb12bfb26106c76b174e91da0bfcdac
 dependencies:
-- PR-99-merged
+- PR-100-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/leisure-life-design/**
-  - docs/evidence/M6K-LEISURE-LIFE-DESIGN-TWELVE.md
-  - tests/test_m6k_leisure_life_design_sources.py
+  - docs/authoring/life-integration/**
+  - docs/evidence/M6K-LIFE-INTEGRATION-TWELVE.md
+  - tests/test_m6k_life_integration_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -87,37 +86,37 @@ scope:
   - tests/test_m6k_economics_creative_sources.py
   - docs/authoring/creative-culture-leisure/**
   - tests/test_m6k_creative_culture_leisure_sources.py
+  - docs/authoring/leisure-life-design/**
+  - tests/test_m6k_leisure_life_design_sources.py
 acceptance:
-- Owner asks to continue where competencies left off. Continue the recorded twelve-per-report individual
-  quality cadence, source-quality CI/CD deferral and standing normal-merge authorization. No protection
-  bypass or deployment.
-- Exact IDs 26.05–26.14 and 27.01–27.02; preserve all 225 prior companions and 1078 prior source tests.
-- Individually teach each canonical facet with an original worked example, complete fictional inputs,
-  ordered actions and inspectable outputs, later packet, three fresh checks and separate corrective answers,
-  access/support/harder routes and real-transfer limits.
-- Outdoor and journey cases retain current conditions, permissions, navigation, suitable supports, turnaround
-  and actual return. Fiction is never route clearance or competence in technical environments.
-- Cultural cases separate observation, attributed meaning, inference and unknowns; no invented culture-wide
-  norm or permission. Celebration and play retain decline, access, no-cost options and unknown enjoyment.
-- Wonder and humor do not demand emotion or displace serious responsibilities. Stewardship requires authorized
-  methods, null and incomplete records, feedback and no ecosystem-recovery inference.
-- Life architecture maps calendar, environment, resources, relationships, roles and recurrence. Competing-goods
-  work protects obligations and compares feasible options, honest sacrifice, reversal and actual outcomes
-  without claiming all goods can be maximized.
-- 'Canonical classifications, domain-specific formation modes, measurement and absent professional_boundary
-  fields remain exact. All source-authoring coverage uses a disjoint canonical-ID partition: 108 implemented
-  plus 237 companions = 345, leaving 38 (07:14,08:11,27:13). Runtime remains 108/275/383/1151.'
-- Inspect primary sources with narrow claim limits and dated retrieval; review each guide, all 36 answers,
-  originality and remaining breadth. Formal A/B/C, independent cold-start, actual learner, qualified and
-  owner acceptance remain pending.
-- Run all source tests, focused Ruff, links, canonical/current/recovery/contract input hashes, arithmetic
-  and chronology checks, exact remaining coverage, manifest and allowed/forbidden-path audit. Application/browser/Compose/CI
-  deferred, not passed.
+- Owner explicitly requests the next twelve. Continue the existing twelve-per-report individual source-quality
+  cadence and standing normal-merge authorization; application/CI/CD remains deferred, not passed. No
+  protection bypass or deployment.
+- Exact IDs 27.03–27.14; preserve all 237 preceding companions and 1119 prior source checks.
+- Each guide needs substantive individual teaching, worked example, complete fictional inputs, ordered
+  outputs, separate later outcomes, three fresh checks and corrective answers, access/support/harder routes
+  and an exact canonical scope map.
+- Teach changing seasons, held roles, sustainable reviews, bounded experiments and transition preparation
+  without erasing obligations or inferring actual outcomes from plans.
+- Separate ambition from worth, principles from revisable methods, mentorship from preparation, and maintainable
+  contributions from recognition.
+- Annual accounts retain missing evidence and unresolved repair. Optional roles can remain unchosen while
+  real duties persist; alternative pathways retain the actual purpose and their specific evidence limits.
+- All twelve retain exact cross-context classification, formation modes, measurement and absent professional_boundary
+  fields. No diagnosis, prescribed recovery timetable, identity judgment or invented legal permission.
+- >-
+  Source coverage becomes 108 implemented plus 249 companions = 357/383; 26 remain: 07=14, 08=11, 27=1.
+  Runtime remains 108/275/383/1151. Next sequential 27.15.
+- Inspect primary sources with narrow claim/retrieval limits; review all canonical facets and 36 fresh answers.
+  Formal A/B/C, independent cold-start, actual learner, qualified and owner acceptance remain pending.
+- Run full source suite, focused Ruff, links, canonical/current/recovery/contract hashes, cases, exact
+  coverage partition, manifest and scope audit. Preserve all earlier source/runtime/workflow/dependency
+  paths.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_leisure_life_design_sources.py
-  - python -m ruff check tests/test_m6k_leisure_life_design_sources.py
+  - python -m ruff format --check tests/test_m6k_life_integration_sources.py
+  - python -m ruff check tests/test_m6k_life_integration_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
@@ -129,11 +128,11 @@ validation:
 risk:
   class: moderate
   hazards:
-  - Unsafe outing escalation or invented permission
-  - Culture-wide inference or invented participant evidence
-  - Leisure converted to an emotion score
-  - Unknown or planned action counted as performed
-  - Life planning removes obligations or ignores scarce resources
+  - Planning mistaken for lived transition or mentorship
+  - Erased obligations through season or optional-role labels
+  - Clinical legal or financial advice inferred from fiction
+  - Forced disclosure gratitude reconciliation or contentment
+  - Equivalent purpose mistaken for equal evidence or qualification
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -142,6 +141,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-LEISURE-LIFE-DESIGN-TWELVE.md
+  - docs/evidence/M6K-LIFE-INTEGRATION-TWELVE.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
