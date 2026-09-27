@@ -1,0 +1,91 @@
+{
+  "verification_kind": "static_identity_and_synthetic_arithmetic",
+  "competencies": 383,
+  "source_files_hash_verified": 1671,
+  "review_depth": {
+    "full_primary": 383
+  },
+  "10.03": {
+    "pairs": [
+      [
+        "1",
+        "2"
+      ],
+      [
+        "2",
+        "3"
+      ],
+      [
+        "5",
+        "6"
+      ],
+      [
+        "8",
+        "9"
+      ],
+      [
+        "9",
+        "10"
+      ]
+    ],
+    "distinct_overlapping_notices": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "nonoverlapping_notices": [
+      4,
+      7,
+      11,
+      12
+    ],
+    "supplied_nonoverlap_count": 7,
+    "correct_nonoverlap_count": 4,
+    "finding_reproduced": true
+  },
+  "10.01": {
+    "first_statistics": [
+      6,
+      5,
+      9
+    ],
+    "second_statistics": [
+      8,
+      5,
+      15
+    ],
+    "deltas": [
+      2,
+      0,
+      6
+    ]
+  },
+  "10.09": {
+    "prior_answers_reappear_in_transfer": [
+      "1001 = 9",
+      "1111 = 15"
+    ]
+  },
+  "10.11": {
+    "selected_lenses": [
+      "technology",
+      "social access"
+    ],
+    "key_lists_society_as_uninvestigated": true,
+    "key_omits_science_from_uninvestigated_list": true,
+    "limit": "Literal contradiction in the stated two-lens partition; no expert redesign claim."
+  },
+  "21.03": {
+    "three_matching_briefs_keys": true,
+    "changed_contact_and_wrong_date_checks_present": true
+  },
+  "24.11": {
+    "fresh_check_balance": -100
+  },
+  "quality_or_acceptance_pass": false
+}
