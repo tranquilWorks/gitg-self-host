@@ -1,29 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-EMOTIONAL-FOUNDATIONS-THIRTEEN
-  title: Individually author receiving and emotional foundations
-  goal: Complete 27.15 and 07.01–07.12 with individual source-quality review, verification and normal
-    merge; leave thirteen for the next iteration.
+  id: M6K-ATTENTION-AGENCY-FINAL-THIRTEEN
+  title: Finish the thirteen remaining competency source companions
+  goal: Complete 07.13–07.14 and 08.01–08.11, individually review and verify, normally merge, and report
+    383/383 source coverage separately from runtime integration.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/emotional-foundations/SOURCES.md
-  - docs/authoring/emotional-foundations/cohort.json
-  - docs/authoring/emotional-foundations/QUALITY-REVIEW.md
-  milestone: M6K-EMOTIONAL-FOUNDATIONS-SOURCE-PUBLICATION
-  baseline_commit: c02d9e0006ad186e97c49d279531fd1e01898b52
+  - docs/authoring/attention-agency/SOURCES.md
+  - docs/authoring/attention-agency/cohort.json
+  - docs/authoring/attention-agency/QUALITY-REVIEW.md
+  milestone: M6K-ATTENTION-AGENCY-SOURCE-PUBLICATION
+  baseline_commit: 3d25f01efa8bee21f771917a41e76551e996ff14
 dependencies:
-- PR-101-merged
+- PR-102-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/emotional-foundations/**
-  - docs/evidence/M6K-EMOTIONAL-FOUNDATIONS-THIRTEEN.md
-  - tests/test_m6k_emotional_foundations_sources.py
+  - docs/authoring/attention-agency/**
+  - docs/evidence/M6K-ATTENTION-AGENCY-FINAL-THIRTEEN.md
+  - tests/test_m6k_attention_agency_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -91,56 +91,51 @@ scope:
   - tests/test_m6k_leisure_life_design_sources.py
   - docs/authoring/life-integration/**
   - tests/test_m6k_life_integration_sources.py
+  - docs/authoring/emotional-foundations/**
+  - tests/test_m6k_emotional_foundations_sources.py
 acceptance:
-- Owner requests the next batch of thirteen so the remaining twenty-six can finish in two iterations.
-  This iteration is 27.15 and 07.01–07.12 only; standing normal-merge authorization and source-quality
-  CI/CD deferral continue.
-- Preserve all 249 preceding companions and 1160 prior source checks. Each new guide needs original substantive
-  teaching, complete fictional inputs, worked example, ordered outputs, separate later packet, three fresh
-  checks with corrective answers, support/harder routes and canonical scope map.
-- Receiving distinguishes freely offered goods, real obligations, coercive offers and absent gratitude.
-  Emotional differentiation separates observation, hypothesis, intensity, meaning and urge; body cues
-  are neither diagnoses nor universal signatures.
-- Pauses return to the issue; ordinary graduated approach preserves access supports, actual risk and local
-  stop limits without presenting a clinical exposure protocol. No prescribed-support removal, forced distress
-  or generalized safety threshold.
-- Anger and expression protect consent and proportion. Grief has no required timetable or meaning. Shame
-  repair preserves responsibility without demanding forgiveness. Comparison cannot authorize surveillance
-  or possession.
-- Self-compassion keeps care, consequences and renewed effort distinct; hope retains hardship and unknown
-  outcomes; adaptation preserves adverse results and causal uncertainty.
-- Preserve exact canonical entries, classification, formation modes, measurement and domain 07 professional
-  boundaries; 27.15 has no professional_boundary field. No invented clinical, legal, specialist or learner
-  acceptance.
-- 'Source coverage becomes 108 implemented + 262 companions = 370/383; thirteen remain: 07.13–07.14 and
-  08.01–08.11, including legacy 08.02. Runtime remains 108/275/383/1151.'
-- Inspect primary resources with dated narrow claim and retrieval limits; review all thirteen and all
-  39 fresh answers. Formal A/B/C, independent cold-start, actual learner, qualified and owner acceptance
-  remain pending.
-- Run full source suite, focused Ruff, links, exact input/source hashes, case calculations and boundaries,
-  disjoint coverage, manifest, whitespace and allowed/forbidden audit. Full application/browser/Compose/CI/CD
-  deferred, not passed; no bypass or deployment.
+- Owner requests finishing all remaining competencies under the continuing source-quality and normal-merge
+  workflow; application/browser/Compose/CI/CD deferred, not passed.
+- Preserve all 262 preceding companions and 1203 preceding source tests. Author thirteen distinct guides
+  with complete fictional materials, worked examples, ordered outputs, later records, three fresh checks
+  and corrective answers, support/harder routes and exact canonical scope maps.
+- Retain exact domain 07 professional boundaries and absent domain 08 professional_boundary fields, classification,
+  formation modes and measurement metadata. No diagnosis or qualified acceptance invented.
+- Help-seeking routes are location-bound, verified and distinguish booked from attended care; generalization
+  records unavailable and ineffective strategies separately without inducing distress.
+- Preserve the complete frozen 08.02 presence package, action IDs, six fields, three fifteen-minute windows,
+  comparison, repeat within seven days and completion rules. Preserve the complete existing 08.06 typed
+  package and all evidence semantics; validation range is not task duration permission.
+- Protect consent, access, essential needs and deferral across desire, restraint and discipline; adverse,
+  absent and incomplete outcomes remain explicit.
+- Source coverage becomes 108 implemented plus 275 additional companions equals 383/383, with zero remaining
+  IDs. Runtime stays 108 tailored / 275 pending / 383 protocols / 1151 actions.
+- Inspect official sources with dated narrow uses and retrieval limits. Review all thirteen guides and
+  39 corrective answers. Formal A/B/C, independent cold-start, actual learner, qualified and owner content
+  acceptance remain pending.
+- Run full source suite, focused Ruff, exact hashes, links, case boundaries, coverage, manifest, whitespace
+  and allowed/forbidden audit. No deployment, workflow edits or protection bypass.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_emotional_foundations_sources.py
-  - python -m ruff check tests/test_m6k_emotional_foundations_sources.py
+  - python -m ruff format --check tests/test_m6k_attention_agency_sources.py
+  - python -m ruff check tests/test_m6k_attention_agency_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Exact canonical scope and professional boundary preservation
-  - Thirteen distinct supplied cases and adverse outcomes
-  - Consent access diagnosis and causality limits
-  - Verified hashes links coverage and protected predecessor paths
+  - Exact full source partition with zero remaining IDs
+  - Eight preserved input hashes and complete frozen protocol snapshots
+  - Distinct case arithmetic, missing outcomes and access boundaries
+  - Predecessor preservation, exact source hashes and local links
 risk:
   class: moderate
   hazards:
-  - Emotional case mistaken for diagnosis or treatment
-  - Exposure misused for trauma or dangerous situations
-  - Grief pressure or forced disclosure and forgiveness
-  - Access support removed or unknown feelings fabricated
-  - Receiving confused with debt, entitlement or unsafe acceptance
+  - Help-seeking guide mistaken for diagnosis or universal service routing
+  - Legacy presence or typed-start rules silently replaced
+  - Rest or deferral mislabeled as failure or completion
+  - Restraint mistaken for deprivation or clinical exposure
+  - Source coverage mistaken for runtime or qualified acceptance
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -149,6 +144,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-EMOTIONAL-FOUNDATIONS-THIRTEEN.md
+  - docs/evidence/M6K-ATTENTION-AGENCY-FINAL-THIRTEEN.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
