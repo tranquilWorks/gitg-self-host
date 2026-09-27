@@ -1,0 +1,174 @@
+{
+  "validation_level": "author editorial and source integrity only",
+  "baseline_commit": "3d25f01efa8bee21f771917a41e76551e996ff14",
+  "baseline_source_tests": {
+    "count": 1203,
+    "seconds": 19.008,
+    "status": "passed",
+    "log_sha256": "f44ac91f9ddb7c69cd0753e4ad0418f0d8351a5141acb6403774844007ced185"
+  },
+  "commands": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "*sources.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 20.498,
+      "log_sha256": "dd5f4cc0de815af5f99ded469583a5eee826814d683d8f5a1904e4c1f47cccb2"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "tests/test_m6k_attention_agency_sources.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.038,
+      "log_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "tests/test_m6k_attention_agency_sources.py"
+      ],
+      "returncode": 1,
+      "seconds": 0.033,
+      "log_sha256": "ad9788c7a0cad736949687ac459e33c6ae510e9dc2a3b597acd19f94054a08d6"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "*sources.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 20.79,
+      "log_sha256": "9ef2ed53a00bdec928d9113326b2ac7e466dfb444fdd16d782100de33fc30cef"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "tests/test_m6k_attention_agency_sources.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.034,
+      "log_sha256": "fd2299c9f1c6dc869070883e281051bfe93aacf66c1a3b0069f45b4aa410ca50"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "tests/test_m6k_attention_agency_sources.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.051,
+      "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    }
+  ],
+  "failures_and_repairs": [
+    "Full-package author review corrected an overrestrictive 08.02 support paragraph to retain consistently shortened windows with limitations recorded. Existing 08.06 reduced-duration accessibility adaptation also made explicit.",
+    "First full source suite passed 1234 checks. Focused Ruff then reported RUF001 for an intentional en dash in an exact text assertion and two C408 dict constructors. Encoded the same dash explicitly and changed those constructors to literals; no assertion or coverage removed."
+  ],
+  "formal_acceptance": false,
+  "application_cicd": "deferred, not passed",
+  "source_sha256": {
+    "docs/authoring/attention-agency/07.13/SCOPE-MAP.md": "5b4b1cbab0630feb16b134a2ac6820c996fa477035e52684417f1813f115c0bc",
+    "docs/authoring/attention-agency/07.13/check-answers.md": "8f151d370766c3c4c16001b0de1e742fae3c587b0e33bfc433bf899c207a9f8b",
+    "docs/authoring/attention-agency/07.13/check-prompts.md": "9470c55720cb087d587c62d611224514e842d744b601ac027b4f4f52df798a53",
+    "docs/authoring/attention-agency/07.13/later-packet.md": "3c74e1a98b8db91ebb4d53dc9c7d79851ad3c39d9b2701cb296fe67b5778fb26",
+    "docs/authoring/attention-agency/07.13/learner-guide.md": "c1942c80a10a70301741ea8d3410f4b660fb26406de474447c4d96d039eec9b5",
+    "docs/authoring/attention-agency/07.14/SCOPE-MAP.md": "7636b6d20b3d1776254a4511901083cb77fb997b15000181f024d51cf9d8e45c",
+    "docs/authoring/attention-agency/07.14/check-answers.md": "f56310ac1adbba4e5291232831013215cb4b6e2ffbc0d631ef753653e0190fcc",
+    "docs/authoring/attention-agency/07.14/check-prompts.md": "dc3a4f25b6d41852e310d8b296d4dbf6a844ac135fef3187c8e2c03351731da5",
+    "docs/authoring/attention-agency/07.14/later-packet.md": "19f4ecbe509a1e2c9cd89873e381c79f153bfd2906f0df85eb73de5a2860deef",
+    "docs/authoring/attention-agency/07.14/learner-guide.md": "48db28627ca4711e54d248266eb9b8a27a8f52b9b8136e8fceb77dd74e42ecf6",
+    "docs/authoring/attention-agency/08.01/SCOPE-MAP.md": "77f6958464d4cde807722df05e0664d00f060fac638e5bb9085e34d968a0c22a",
+    "docs/authoring/attention-agency/08.01/check-answers.md": "66405359121b38af7e64deed581902a0238332b85579da23df1ce8809ee671de",
+    "docs/authoring/attention-agency/08.01/check-prompts.md": "122900ccff492d979ae58aaf537859e917e3cf0d7be92bf1c4f30a13a6db6bc9",
+    "docs/authoring/attention-agency/08.01/later-packet.md": "8d5cd54550cf2fa0b8b11d46a026a40181f723e114d994b5bf98cb3b0e880d30",
+    "docs/authoring/attention-agency/08.01/learner-guide.md": "e863f6e452663853cb4b0799dfefc0fb47260be5c32c0d255ec06ec7da631783",
+    "docs/authoring/attention-agency/08.02/SCOPE-MAP.md": "f713c6f994eb8a5c9307499f23c249a5201764700de5a83c1802c29789ceb856",
+    "docs/authoring/attention-agency/08.02/check-answers.md": "66eb0cc4663dbbc1d919c67cd4ed3ba831482702d6b86dbbe6d9f8d99878f76b",
+    "docs/authoring/attention-agency/08.02/check-prompts.md": "46070f00a5999db95fa4e66a3319961e3535a7758c738b811d6fd3700cec8833",
+    "docs/authoring/attention-agency/08.02/later-packet.md": "e82ab9159804951b9500ead7a4350f7ee12cfb7c5e90fe3bd71e413a7a12e7e3",
+    "docs/authoring/attention-agency/08.02/learner-guide.md": "2b7de3c9b31dc690dfefe09b3359ee61da6f1722ca5da2740576cac58d1a2540",
+    "docs/authoring/attention-agency/08.03/SCOPE-MAP.md": "2a4baed61018f023b0584610089e4c3341cfb1728b121b286ea4b19cc8d1b34c",
+    "docs/authoring/attention-agency/08.03/check-answers.md": "aab89ed3150849976d03558c343f117f51b078bfc029c5f902d902198f03c89a",
+    "docs/authoring/attention-agency/08.03/check-prompts.md": "e4c0798fb931dc0c73668d7735d203ad5e1e85f6908b4c444fa75c5bb97d7c1a",
+    "docs/authoring/attention-agency/08.03/later-packet.md": "adcbf37caef34d9f3746967f1f25a4aeaa75fb07918c3408fd4251fb288144f1",
+    "docs/authoring/attention-agency/08.03/learner-guide.md": "b0827e13b0bc631fc7090ec0e3f7ba49f8522dd972a194224e9caaa33b577618",
+    "docs/authoring/attention-agency/08.04/SCOPE-MAP.md": "aab0c615fb426a71e00d4a1be7d50ec5bd25c4fa603b36538449c085d54e0ee8",
+    "docs/authoring/attention-agency/08.04/check-answers.md": "ba9d3f48bc25b37547ba5269adb621c128f8fa9a09ad8886b9e905f7b4a18535",
+    "docs/authoring/attention-agency/08.04/check-prompts.md": "fd82fa38059433c2379852c438b6731a875fc7ed5a0b9541715ba3fc482991ce",
+    "docs/authoring/attention-agency/08.04/later-packet.md": "cd0de78470ecc518798e1796ef1eec474860ad24c7116343404400181eb2255b",
+    "docs/authoring/attention-agency/08.04/learner-guide.md": "3124ac038c1e52e2837a6268edf51762bf892d20594c4cd32cb1afbed6659ccc",
+    "docs/authoring/attention-agency/08.05/SCOPE-MAP.md": "88136aa53cb31731b0326a380115a16d00e8ba854920b6ff05dc93c571277562",
+    "docs/authoring/attention-agency/08.05/check-answers.md": "c7916a9453c89eb814175dbd747795ffb62c387f09b1dfc115dd1192ff707ef2",
+    "docs/authoring/attention-agency/08.05/check-prompts.md": "c5997688399c573f7bcbf9e0e708692b4fdf699f81accc7cc2bd810cb911fce8",
+    "docs/authoring/attention-agency/08.05/later-packet.md": "26ac136edc741a6c5e1f9d77e5fefdd63c5310da53c49b47c549b9c9d30098de",
+    "docs/authoring/attention-agency/08.05/learner-guide.md": "9572bd43bfe0312104f452254546532751fd96e4a140c362a9cad511406f1b61",
+    "docs/authoring/attention-agency/08.06/SCOPE-MAP.md": "9bf710089d7a70678677ea5cd1481d8756433b0fa5adac5487b31b66a8e53f12",
+    "docs/authoring/attention-agency/08.06/check-answers.md": "7c904fbc9ac8dfb5fb7437e09e50831588ee37ee169ecf3ac77b22163cb558a5",
+    "docs/authoring/attention-agency/08.06/check-prompts.md": "5a18177ce6f3a7a6ab840f39a8082b6d9dfd69aa9f430156ed23604018505f6e",
+    "docs/authoring/attention-agency/08.06/later-packet.md": "fb31a12b86960d9bcc154fd486dec274f3688891fa2093560d493218b9cd7912",
+    "docs/authoring/attention-agency/08.06/learner-guide.md": "52cf0e819efade075fa26a5c3dc496a1bc5678f5638b08e0b8697284fc4d4579",
+    "docs/authoring/attention-agency/08.07/SCOPE-MAP.md": "0fcd444ac0e7b8d0b834b8d03fa698f000b4b94956f6213613217a634391f2cd",
+    "docs/authoring/attention-agency/08.07/check-answers.md": "dbbfa1efae996650257705a414d553afbde0b5b6d25b5508d5574c651440ee1c",
+    "docs/authoring/attention-agency/08.07/check-prompts.md": "95f441615a9489b35407595505994753b603c90cf9feac3b6168d02ce647074e",
+    "docs/authoring/attention-agency/08.07/later-packet.md": "2b54703d1d270534ddef5c2c61a7c9e0b577d152f033f63b0190af3869bfac5f",
+    "docs/authoring/attention-agency/08.07/learner-guide.md": "422b54a71d15db06750b8a3d56071614f0fca36220f7537ee524234de63b6c34",
+    "docs/authoring/attention-agency/08.08/SCOPE-MAP.md": "2de6acaf5bb830b4e26c0d5e0d454e55df3803a19f54546db9cf85e709c66c1e",
+    "docs/authoring/attention-agency/08.08/check-answers.md": "41da46adf8e9ada1345211073aebdde9acabda074ed42a204d0eda4b48aed8e3",
+    "docs/authoring/attention-agency/08.08/check-prompts.md": "fc74dca7756aa560223d8feea1ebe323f9ba5904ec4ec06190bf32d455837815",
+    "docs/authoring/attention-agency/08.08/later-packet.md": "5cbde8d92e8e036462e25e5ac6a77bce7bdf1dc8ded2ea52ba5700a2aee278f4",
+    "docs/authoring/attention-agency/08.08/learner-guide.md": "fbbbfa755bf7cc6ee93f1d49e4ebc82ddac9378035aec612f2059af6991f994c",
+    "docs/authoring/attention-agency/08.09/SCOPE-MAP.md": "fc101c9b72a8baf4e06738e592beec51e4febcab77cf2fc8aed9feb4fbd0ea24",
+    "docs/authoring/attention-agency/08.09/check-answers.md": "84e1cfd0844e4ac92c324d84d50893cedb1f4aa541946925d3542fa314fbd21a",
+    "docs/authoring/attention-agency/08.09/check-prompts.md": "78d083fcc417ff9ff470c1ea3ba9079cd0eb5756e62622ef3abbd6d08ec3a83f",
+    "docs/authoring/attention-agency/08.09/later-packet.md": "33fdb4312090edb2f9ab76aca00581af1d27056b64480f55c3a227ec11a2e36e",
+    "docs/authoring/attention-agency/08.09/learner-guide.md": "cc536bd891fad01474078f51a86aaa2715a95941bcfbd4d8b67595558cc1a829",
+    "docs/authoring/attention-agency/08.10/SCOPE-MAP.md": "2d282104d20127521886a4052efbf49f5bdbe23947a29fa3e7ebd89fba1f5b3a",
+    "docs/authoring/attention-agency/08.10/check-answers.md": "7daaaa20eb4febc0883ef12a20d18afae8da995723f2735e67893c3b478a3840",
+    "docs/authoring/attention-agency/08.10/check-prompts.md": "20b27e6f797f01253909bd6ba1a17d59824fa9270366f2469a9bb82cf08b578d",
+    "docs/authoring/attention-agency/08.10/later-packet.md": "f1b05e59444d5fe2e9aa643e0f8ff9816658c7ff5d92ac61e74dfa59875e3370",
+    "docs/authoring/attention-agency/08.10/learner-guide.md": "dbc6de99517f9dfb78c77a598fd140b9ccd8bf2ebe8ff6eabe4a8c1a096e7e46",
+    "docs/authoring/attention-agency/08.11/SCOPE-MAP.md": "ba33d072d8ba8cca5020492482124e4330e712294552e06f831743abaeedbfef",
+    "docs/authoring/attention-agency/08.11/check-answers.md": "d4525aa7d37fd98cc76fe62b4b341c6d377bcf26c63bbadbc4bfa6a2062e5c8e",
+    "docs/authoring/attention-agency/08.11/check-prompts.md": "c7cbb39e28201da06cbc087179222f30fd8a06f1a4ae58fbcab37dcba037459e",
+    "docs/authoring/attention-agency/08.11/later-packet.md": "eb676d5582ef6c351b787eea053f90759fe2538a678ec3b4216268a175be84d1",
+    "docs/authoring/attention-agency/08.11/learner-guide.md": "7c541de503cfdf8b6761e473eb8b04fdd907011b0c7f4e86cf3c7d662e128aa2",
+    "docs/authoring/attention-agency/QUALITY-REVIEW.md": "97828ed035bd3ebef95940ce14ff962c6393681647384e1bfb9e8f8df532d6aa",
+    "docs/authoring/attention-agency/README.md": "2041c5bf3864207456901d5f5bad9ec5ecc540b26ff7ac8cf2ac71124db52cac",
+    "docs/authoring/attention-agency/SOURCES.md": "e09c84b940b4d63e256546c770ecea7b105a7e1e7cec7947baf2ab99376ec068",
+    "docs/authoring/attention-agency/cohort.json": "126f9f4f4c9f202599ce06ae21ccad75fd54b33a2addbc37f92158f45f9f23d0",
+    "docs/authoring/attention-agency/fixtures.json": "7cf9fc7a239da6e01fde0492a09dc9a1c1b6d141ab14f8e7f7c4d16bf9c757e5",
+    "docs/authoring/attention-agency/sources.json": "74cd7cba3deab0867263fce5a3ae9d899ec4ace4836e5c0f77fe23d284915d8a"
+  },
+  "focused_test_sha256": "bf608b925c170ccbbbb0a598f29af2e011f2524f8ec9fc14b76f0736c2442f74"
+}
