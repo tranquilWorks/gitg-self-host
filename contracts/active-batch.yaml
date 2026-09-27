@@ -1,28 +1,29 @@
 schema_version: 1
 batch:
-  id: M6K-LIFE-INTEGRATION-TWELVE
-  title: Individually author life integration and plural pathways
-  goal: Complete 27.03–27.14 with individual source-quality review, verification and normal merge.
+  id: M6K-EMOTIONAL-FOUNDATIONS-THIRTEEN
+  title: Individually author receiving and emotional foundations
+  goal: Complete 27.15 and 07.01–07.12 with individual source-quality review, verification and normal
+    merge; leave thirteen for the next iteration.
 sources:
   product: products/gitg-self-host/product.yaml
   requirements:
   - docs/plans/m6k/README.md
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/life-integration/SOURCES.md
-  - docs/authoring/life-integration/cohort.json
-  - docs/authoring/life-integration/QUALITY-REVIEW.md
-  milestone: M6K-LIFE-INTEGRATION-SOURCE-PUBLICATION
-  baseline_commit: 1d9812c5bdb12bfb26106c76b174e91da0bfcdac
+  - docs/authoring/emotional-foundations/SOURCES.md
+  - docs/authoring/emotional-foundations/cohort.json
+  - docs/authoring/emotional-foundations/QUALITY-REVIEW.md
+  milestone: M6K-EMOTIONAL-FOUNDATIONS-SOURCE-PUBLICATION
+  baseline_commit: c02d9e0006ad186e97c49d279531fd1e01898b52
 dependencies:
-- PR-100-merged
+- PR-101-merged
 scope:
   allowed_paths:
   - MANIFEST.tsv
   - contracts/active-batch.yaml
   - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/life-integration/**
-  - docs/evidence/M6K-LIFE-INTEGRATION-TWELVE.md
-  - tests/test_m6k_life_integration_sources.py
+  - docs/authoring/emotional-foundations/**
+  - docs/evidence/M6K-EMOTIONAL-FOUNDATIONS-THIRTEEN.md
+  - tests/test_m6k_emotional_foundations_sources.py
   forbidden_paths:
   - data/**
   - growth/**
@@ -88,51 +89,58 @@ scope:
   - tests/test_m6k_creative_culture_leisure_sources.py
   - docs/authoring/leisure-life-design/**
   - tests/test_m6k_leisure_life_design_sources.py
+  - docs/authoring/life-integration/**
+  - tests/test_m6k_life_integration_sources.py
 acceptance:
-- Owner explicitly requests the next twelve. Continue the existing twelve-per-report individual source-quality
-  cadence and standing normal-merge authorization; application/CI/CD remains deferred, not passed. No
-  protection bypass or deployment.
-- Exact IDs 27.03–27.14; preserve all 237 preceding companions and 1119 prior source checks.
-- Each guide needs substantive individual teaching, worked example, complete fictional inputs, ordered
-  outputs, separate later outcomes, three fresh checks and corrective answers, access/support/harder routes
-  and an exact canonical scope map.
-- Teach changing seasons, held roles, sustainable reviews, bounded experiments and transition preparation
-  without erasing obligations or inferring actual outcomes from plans.
-- Separate ambition from worth, principles from revisable methods, mentorship from preparation, and maintainable
-  contributions from recognition.
-- Annual accounts retain missing evidence and unresolved repair. Optional roles can remain unchosen while
-  real duties persist; alternative pathways retain the actual purpose and their specific evidence limits.
-- All twelve retain exact cross-context classification, formation modes, measurement and absent professional_boundary
-  fields. No diagnosis, prescribed recovery timetable, identity judgment or invented legal permission.
-- >-
-  Source coverage becomes 108 implemented plus 249 companions = 357/383; 26 remain: 07=14, 08=11, 27=1.
-  Runtime remains 108/275/383/1151. Next sequential 27.15.
-- Inspect primary sources with narrow claim/retrieval limits; review all canonical facets and 36 fresh answers.
-  Formal A/B/C, independent cold-start, actual learner, qualified and owner acceptance remain pending.
-- Run full source suite, focused Ruff, links, canonical/current/recovery/contract hashes, cases, exact
-  coverage partition, manifest and scope audit. Preserve all earlier source/runtime/workflow/dependency
-  paths.
+- Owner requests the next batch of thirteen so the remaining twenty-six can finish in two iterations.
+  This iteration is 27.15 and 07.01–07.12 only; standing normal-merge authorization and source-quality
+  CI/CD deferral continue.
+- Preserve all 249 preceding companions and 1160 prior source checks. Each new guide needs original substantive
+  teaching, complete fictional inputs, worked example, ordered outputs, separate later packet, three fresh
+  checks with corrective answers, support/harder routes and canonical scope map.
+- Receiving distinguishes freely offered goods, real obligations, coercive offers and absent gratitude.
+  Emotional differentiation separates observation, hypothesis, intensity, meaning and urge; body cues
+  are neither diagnoses nor universal signatures.
+- Pauses return to the issue; ordinary graduated approach preserves access supports, actual risk and local
+  stop limits without presenting a clinical exposure protocol. No prescribed-support removal, forced distress
+  or generalized safety threshold.
+- Anger and expression protect consent and proportion. Grief has no required timetable or meaning. Shame
+  repair preserves responsibility without demanding forgiveness. Comparison cannot authorize surveillance
+  or possession.
+- Self-compassion keeps care, consequences and renewed effort distinct; hope retains hardship and unknown
+  outcomes; adaptation preserves adverse results and causal uncertainty.
+- Preserve exact canonical entries, classification, formation modes, measurement and domain 07 professional
+  boundaries; 27.15 has no professional_boundary field. No invented clinical, legal, specialist or learner
+  acceptance.
+- 'Source coverage becomes 108 implemented + 262 companions = 370/383; thirteen remain: 07.13–07.14 and
+  08.01–08.11, including legacy 08.02. Runtime remains 108/275/383/1151.'
+- Inspect primary resources with dated narrow claim and retrieval limits; review all thirteen and all
+  39 fresh answers. Formal A/B/C, independent cold-start, actual learner, qualified and owner acceptance
+  remain pending.
+- Run full source suite, focused Ruff, links, exact input/source hashes, case calculations and boundaries,
+  disjoint coverage, manifest, whitespace and allowed/forbidden audit. Full application/browser/Compose/CI/CD
+  deferred, not passed; no bypass or deployment.
 validation:
   local:
   - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_life_integration_sources.py
-  - python -m ruff check tests/test_m6k_life_integration_sources.py
+  - python -m ruff format --check tests/test_m6k_emotional_foundations_sources.py
+  - python -m ruff check tests/test_m6k_emotional_foundations_sources.py
   - python scripts/verify-manifest.py
   - git diff --check
   required_ci: []
   focused_tests_to_add:
-  - Exact canonical and coverage partition
-  - Twelve individual cases including incomplete and contrary outcomes
-  - Local links and verified source/input bytes
-  - Protected predecessor/runtime paths unchanged
+  - Exact canonical scope and professional boundary preservation
+  - Thirteen distinct supplied cases and adverse outcomes
+  - Consent access diagnosis and causality limits
+  - Verified hashes links coverage and protected predecessor paths
 risk:
   class: moderate
   hazards:
-  - Planning mistaken for lived transition or mentorship
-  - Erased obligations through season or optional-role labels
-  - Clinical legal or financial advice inferred from fiction
-  - Forced disclosure gratitude reconciliation or contentment
-  - Equivalent purpose mistaken for equal evidence or qualification
+  - Emotional case mistaken for diagnosis or treatment
+  - Exposure misused for trauma or dangerous situations
+  - Grief pressure or forced disclosure and forgiveness
+  - Access support removed or unknown feelings fabricated
+  - Receiving confused with debt, entitlement or unsafe acceptance
   stop_conditions:
   - Protected-path drift
   - Unresolved material source defect or failing source verification
@@ -141,6 +149,6 @@ rollback:
   strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
 evidence:
   output:
-  - docs/evidence/M6K-LIFE-INTEGRATION-TWELVE.md
+  - docs/evidence/M6K-EMOTIONAL-FOUNDATIONS-THIRTEEN.md
   claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
     and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
