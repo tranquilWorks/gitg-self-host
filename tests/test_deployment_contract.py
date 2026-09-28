@@ -167,3 +167,6 @@ def test_registry_publication_requires_verified_main_and_validates_published_dig
     assert "@${{ steps.image.outputs.digest }}" in probe["env"]["IMAGE"]
     assert 'docker pull "$IMAGE"' in probe["run"]
     assert "validate_canonical_content" in probe["run"]
+    assert "-e DJANGO_SECRET_KEY=publication-probe-only-not-a-deployment-secret" in probe["run"]
+    assert "-e DJANGO_ALLOWED_HOSTS=localhost" in probe["run"]
+    assert "-e APP_DATA_DIR=/tmp/publication-check" in probe["run"]

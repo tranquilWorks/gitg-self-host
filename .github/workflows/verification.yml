@@ -143,5 +143,9 @@ jobs:
           IMAGE: ghcr.io/tranquilworks/gitg-self-host@${{ steps.image.outputs.digest }}
         run: |
           docker pull "$IMAGE"
-          docker run --rm --entrypoint python "$IMAGE" manage.py validate_canonical_content
+          docker run --rm --entrypoint python \
+            -e DJANGO_SECRET_KEY=publication-probe-only-not-a-deployment-secret \
+            -e DJANGO_ALLOWED_HOSTS=localhost \
+            -e APP_DATA_DIR=/tmp/publication-check \
+            "$IMAGE" manage.py validate_canonical_content
           printf 'Published and pulled `%s`\n' "$IMAGE" >> "$GITHUB_STEP_SUMMARY"
