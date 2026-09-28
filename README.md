@@ -1,13 +1,25 @@
 # Grounded Growth
 
+The current product includes individually authored practices and learning guides
+for all **383 competencies**, with separate materials, prompts and checks.
+[Deployment and updates](docs/deployment.md) explain published images, backups
+and preservation of in-progress practices. The milestone descriptions below
+record the project’s history.
+
 ## Install
 
 ```bash
 cp .env.example .env
 # Edit .env: set DJANGO_SECRET_KEY, DJANGO_ALLOWED_HOSTS,
 # APP_BOOTSTRAP_USERNAME, and APP_BOOTSTRAP_PASSWORD.
-docker compose up -d --build
+docker compose pull
+docker compose up -d --no-build
 ```
+
+Images are published as `ghcr.io/tranquilworks/gitg-self-host:latest` after main
+passes verification. Set `APP_IMAGE` to a `sha-<full-commit>` tag or digest to pin
+a version. For a source build, use `docker compose up -d --build` instead.
+See the deployment guide if registry authentication is required.
 
 Open `http://<server-local-ip>:<APP_PORT>`; the default port is
 `3000`. Sign in with the bootstrap credentials from `.env`.

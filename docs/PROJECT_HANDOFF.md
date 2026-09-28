@@ -1,5 +1,18 @@
 # Grounded Growth — Project Handoff
 
+## Owner-accepted catalog publication — 28 September 2026
+
+The owner accepts the product quality for inspection and explicitly authorizes a
+final audit/polish, merge and container publication. This supersedes the earlier
+local-only boundary. It does not manufacture specialist or per-competency formal
+review receipts. See [release evidence](evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md).
+
+Final polish selects PyYAML’s safe native loader, with an exact all-catalog parity
+check and a safe Python fallback. A measured cold catalog load fell from 16.035 to
+4.272 seconds with the same content hash. Published images are gated on the main
+revision’s complete CI, tagged by commit and digest, and documented for pull,
+upgrade and rollback. Existing in-progress practice protection remains intact.
+
 ## Catalog product integration — 28 September 2026
 
 The owner requested implementation of the report and per-competency feedback in

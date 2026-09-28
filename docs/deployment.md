@@ -2,7 +2,7 @@
 
 ## Supported single-instance topology
 
-M1 runs one `app` service. Gunicorn listens on `0.0.0.0:8000` in the
+The application runs one `app` service. Gunicorn listens on `0.0.0.0:8000` in the
 container, and Docker Compose maps the configured host port. SQLite and future
 uploaded application data live under `/data` in a named volume.
 
@@ -38,7 +38,8 @@ python -c "import secrets; print(secrets.token_urlsafe(50))"
 Start:
 
 ```bash
-docker compose up -d --build
+docker compose pull
+docker compose up -d --no-build
 docker compose ps
 ```
 
@@ -51,6 +52,26 @@ http://<server-local-ip>:<APP_PORT>
 For example, with server IP `192.168.1.20` and the default port:
 `http://192.168.1.20:3000`. Ensure `192.168.1.20` appears in
 `DJANGO_ALLOWED_HOSTS`.
+
+## Published images
+
+The verified main revision is published to
+`ghcr.io/tranquilworks/gitg-self-host:latest` for Linux AMD64 and ARM64. Each
+publication also has `sha-<full-commit>` and digest references. `APP_IMAGE` in
+`.env` can select one of those references for a reproducible upgrade or rollback.
+The publishing job runs only after the main revision passes the aggregate
+**Pilot readiness gate**; it pulls the resulting digest and validates its catalog.
+
+For a source build, run `docker compose up -d --build`. For a published image,
+use `docker compose pull` followed by `docker compose up -d --no-build` so a
+local build does not replace the pulled image.
+
+GitHub initially creates container packages as private. If anonymous pulls are
+not enabled for this package, authenticate to `ghcr.io` with your GitHub account
+and a classic personal access token with `read:packages`, using Docker’s
+`--password-stdin` option. An organization/package administrator can enable public
+visibility in the [package settings](https://github.com/orgs/tranquilWorks/packages/container/package/gitg-self-host/settings).
+See [GitHub’s registry documentation](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry).
 
 ## Startup contract
 
@@ -162,7 +183,15 @@ only the latest explicit per-run choice controls future local exports.
 
 ## Updating
 
-Use the verified pre-upgrade workflow rather than an unverified file copy:
+Finish or explicitly stop active/paused practices whose instructions change before
+upgrading. The importer deliberately rejects replacement of in-progress practice
+instructions or evidence rules. It never silently converts an existing attempt.
+If an upgrade stops at this guard, restart the previous pinned image and finish
+or stop the practice there; keep its data volume and backup.
+
+Record the current image digest before upgrading (`docker inspect` on the running
+container shows its image ID). Keep that image locally or pin its published digest
+for rollback. Use the verified pre-upgrade workflow:
 
 ```bash
 docker compose exec app python manage.py backup_database \
@@ -170,7 +199,8 @@ docker compose exec app python manage.py backup_database \
 docker compose exec app python manage.py verify_database_backup \
   /data/backups/pre-upgrade.sqlite3 --compare-live
 git pull --ff-only
-docker compose up -d --build
+docker compose pull
+docker compose up -d --no-build
 docker compose ps
 docker compose exec app python manage.py migrate --check
 docker compose exec app python manage.py verify_m6h_operations_readiness
@@ -330,7 +360,7 @@ It verifies:
   HTTP access to the Personal OS surface;
 - database and bootstrap-password persistence after forced container
   recreation, including synthetic revision/result hashes and unchanged
-  friendship-only activation;
+  the 383-protocol activation boundary;
 - an online SQLite backup, `PRAGMA integrity_check`, and restore that preserve
   those synthetic hashes and the activation boundary;
 - clean Gunicorn shutdown.

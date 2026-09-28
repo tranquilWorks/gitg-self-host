@@ -152,3 +152,18 @@ def test_repeatable_compose_acceptance_is_wired_into_make_and_ci():
         "compose",
     }
     assert workflow_data["jobs"]["pilot-ready"]["if"] == "always()"
+
+
+def test_registry_publication_requires_verified_main_and_validates_published_digest():
+    workflow = yaml.safe_load((ROOT / ".github/workflows/verification.yml").read_text())
+    publish = workflow["jobs"]["publish"]
+    assert publish["needs"] == "pilot-ready"
+    assert publish["if"] == "github.event_name == 'push' && github.ref == 'refs/heads/main'"
+    assert publish["permissions"] == {"contents": "read", "packages": "write"}
+    build = next(step for step in publish["steps"] if step.get("id") == "image")
+    assert build["with"]["push"] is True
+    assert "sha-${{ github.sha }}" in build["with"]["tags"]
+    probe = publish["steps"][-1]
+    assert "@${{ steps.image.outputs.digest }}" in probe["env"]["IMAGE"]
+    assert 'docker pull "$IMAGE"' in probe["run"]
+    assert "validate_canonical_content" in probe["run"]

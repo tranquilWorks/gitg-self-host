@@ -1,13 +1,13 @@
 schema_version: 1
 batch:
-  id: M6K-CATALOG-PRODUCT-INTEGRATION-20260928
-  title: Deliver each repaired competency through the learner product
-  goal: Project tailored actions and complete repaired learning materials for all 383 competencies; verify
-    learner routes and preserve historical evidence.
+  id: M6K-CATALOG-OWNER-RELEASE-20260928
+  title: Audit, polish and publish the owner-accepted competency product
+  goal: Verify final learner quality and startup performance, merge all catalog work, and publish a pullable
+    versioned container for owner inspection.
 sources:
-  baseline_commit: 4bb8a17
-  owner_instruction: Take report and per-competency feedback and implement it so the entire product is
-    professional.
+  baseline_commit: bdc092b
+  owner_instruction: Assume owner quality acceptance; perform final audit/polish, merge everything and
+    publish a Docker container for owner inspection.
   requirements:
   - docs/plans/m6k/program.json
   - docs/plans/m6k/REVIEW_RECORD.md
@@ -39,6 +39,13 @@ scope:
   - docs/PROJECT_HANDOFF.md
   - docs/evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md
   - MANIFEST.tsv
+  - growth/domain/practice_content.py
+  - .github/workflows/verification.yml
+  - Dockerfile
+  - .env.example
+  - README.md
+  - docs/deployment.md
+  - docs/evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md
   forbidden_paths:
   - docs/authoring/catalog-quality-audit-20260927/**
   - docs/authoring/catalog-remediation-20260927/**
@@ -48,7 +55,6 @@ scope:
   - data/assessment/**
   - data/model/**
   - data/practices/registries/activation_ledger.yaml
-  - .github/**
 acceptance:
 - All 383 competencies have a manifest-bound learner guide; individually authored actions replace remaining
   270 generic typed practices.
@@ -60,8 +66,8 @@ acceptance:
   reach authenticated learners with safe formatting and no unrevealed key body.
 - Per-competency parity and app/browser tests distinguish software evidence from independent authorship,
   specialist acceptance and actual learner results.
-- New implementation stage after the completed five-pass editorial review; no sixth editorial sweep, merge,
-  release or deployment.
+- Owner authorizes merge and image publication after final checks. Owner product acceptance is recorded;
+  specialist, learner and formal per-competency reviews are not fabricated. No live instance is upgraded.
 validation:
   local:
   - Ruff and Django checks
@@ -75,7 +81,8 @@ validation:
   - recovery invariants
   - manifest verification
   - git diff --check
-  required_ci: []
+  required_ci:
+  - Pilot readiness gate
 risk:
   class: moderate
   stop_conditions:
@@ -84,5 +91,4 @@ risk:
   - Fabricated human acceptance
 evidence:
   output:
-  - docs/authoring/catalog-product-integration-20260928/README.md
-  - docs/evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md
+  - docs/evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md

@@ -13,7 +13,7 @@
 .agents/skills/verify-change/SKILL.md	1419
 .codex/config.toml	439
 .dockerignore	194
-.env.example	1216
+.env.example	1337
 .github/codex/pr-risk-review.md	1240
 .github/codex/prompts/repo-onboarding.md	1909
 .github/codex/release-readiness.md	593
@@ -25,15 +25,15 @@
 .github/codex/schemas/intake.schema.json	1419
 .github/codex/schemas/planner-review.schema.json	1475
 .github/codex/schemas/product.schema.json	1140
-.github/workflows/verification.yml	3670
+.github/workflows/verification.yml	5028
 .gitignore	266
 .portfolio-harness.json	4360
 AGENTS.md	29467
-Dockerfile	556
+Dockerfile	737
 HANDOFF_PROMPT.md	10887
 Makefile	5864
-README.md	40647
-contracts/active-batch.yaml	3527
+README.md	41319
+contracts/active-batch.yaml	3769
 contracts/assessment-calibration-analysis.schema.json	8367
 contracts/assessment-calibration-analysis.yaml	2771
 contracts/assessment-calibration-consent.yaml	1882
@@ -494,12 +494,12 @@ data/practices/schema/research_gaps_v1.schema.json	1744
 data/practices/schema/risk_taxonomy_v1.schema.json	1754
 data/practices/schema/scoring_policy_registry_v1.schema.json	2198
 data/practices/schema/source_registry_v1.schema.json	3438
-docker-compose.yml	693
+docker-compose.yml	764
 docker-entrypoint.sh	563
 docs/CURRENT_STATE.md	7751
 docs/HANDOFF.md	1676
 docs/PRODUCT_DECISIONS.md	41502
-docs/PROJECT_HANDOFF.md	95551
+docs/PROJECT_HANDOFF.md	96354
 docs/SCORING_DESIGN.md	9023
 docs/architecture/0001-django-monolith-and-sqlite.md	3070
 docs/architecture/0002-shadow-scoring-before-mutation.md	1989
@@ -2824,7 +2824,7 @@ docs/authoring/work-delivery-voice/verification.json	19184
 docs/backup-and-restore.md	5607
 docs/context-and-personal-os.md	18262
 docs/data-import.md	8096
-docs/deployment.md	14132
+docs/deployment.md	15996
 docs/evidence-audit.md	5226
 docs/evidence-contract.md	11338
 docs/evidence/M6B-GOV-AUDIT-2026-09-01.json	6589
@@ -2852,6 +2852,7 @@ docs/evidence/M6K-APPRENTICESHIP-TRANSMISSION-ACCESS-RUNTIME.md	5101
 docs/evidence/M6K-ATTENTION-AGENCY-FINAL-THIRTEEN.md	6923
 docs/evidence/M6K-BELONGING-PARTNERSHIP-TWELVE.md	7001
 docs/evidence/M6K-CATALOG-EDITORIAL-REMEDIATION-20260927.md	2768
+docs/evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md	3095
 docs/evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md	4620
 docs/evidence/M6K-CATALOG-QUALITY-AUDIT-20260927.md	4880
 docs/evidence/M6K-CIVIC-PARTICIPATION-TWELVE.md	5610
@@ -3036,7 +3037,7 @@ growth/domain/evidence.py	12816
 growth/domain/evidence_dispatch.py	1965
 growth/domain/instructional_content.py	5319
 growth/domain/personal_os.py	11940
-growth/domain/practice_content.py	73335
+growth/domain/practice_content.py	73406
 growth/domain/ranking.py	4092
 growth/domain/scoring.py	17242
 growth/domain/typed_evidence.py	52120
@@ -3314,6 +3315,7 @@ tests/test_bootstrap.py	1411
 tests/test_canonical_import.py	7416
 tests/test_catalog_governance_audit.py	8887
 tests/test_catalog_learning_guides.py	6215
+tests/test_catalog_yaml_backend.py	1218
 tests/test_competency_evidence_readiness.py	2480
 tests/test_competency_evidence_reports.py	7388
 tests/test_competency_shadow.py	24872
@@ -3328,7 +3330,7 @@ tests/test_context_readiness.py	3741
 tests/test_context_services.py	13403
 tests/test_data_lifecycle.py	18873
 tests/test_database_and_backup.py	3636
-tests/test_deployment_contract.py	7247
+tests/test_deployment_contract.py	8078
 tests/test_evidence_audit.py	16889
 tests/test_evidence_dispatch.py	5190
 tests/test_evidence_engine.py	14027
