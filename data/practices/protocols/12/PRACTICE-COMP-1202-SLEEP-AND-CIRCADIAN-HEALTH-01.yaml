@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1202-SLEEP-AND-CIRCADIAN-HEALTH-01
 slug: c1202-sleep-and-circadian-health-practice
-name: Bounded Sleep and circadian health Practice
+name: Test one sleep-supporting change without restricting needed sleep
 parent_competency_id: '12.02'
 domain_id: '12'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.02
-      (Sleep and circadian health); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.02; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Sleep and circadian health through a qualified-support preparation bounded by the
-    canonical scope: Manage schedule, light, caffeine, environment, stress, and recovery to support sufficient
-    sleep.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Sleep is regular enough
-    to support cognition, mood, and physical function. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Connect sleep opportunity and regularity with light, caffeine, environment, stress and recovery,
+    then test one feasible change against ordinary daytime functioning.
+  why_recommended: Connect sleep opportunity and regularity with light, caffeine, environment, stress
+    and recovery, then test one feasible change against ordinary daytime functioning.
   claims:
-  - statement: Using the canonical scope and evidence target for Sleep and circadian health is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Connect sleep opportunity and regularity with light, caffeine, environment, stress and
+      recovery, then test one feasible change against ordinary daytime functioning.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Sleep and circadian health practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Sleep and circadian health as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Sleep and circadian
-    health context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Sleep and
-    circadian health; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: For shift work or caregiving, compare similar shifts and choose a light, noise
+    or caffeine-timing change that fits the existing care plan. Audio relaxation, a dim night light or
+    sensory supports may remain necessary. A sleep clinician’s individualized plan takes precedence over
+    this habit trial.
+  opportunity_considerations: 'Use a private note with approximate sleep opportunity, perceived rest,
+    daytime functioning and unusual circumstances. Default change: create a quieter, dimmer wind-down
+    period before the existing bedtime while preserving enough opportunity to sleep. Keep medicines, clinical
+    plans and essential nighttime care unchanged. No wearable or precise sleep-stage score is required.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Sleep and circadian health.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use a private note with approximate sleep opportunity, perceived rest, daytime functioning and unusual
+    circumstances. Default change: create a quieter, dimmer wind-down period before the existing bedtime
+    while preserving enough opportunity to sleep. Keep medicines, clinical plans and essential nighttime
+    care unchanged. No wearable or precise sleep-stage score is required.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Sleep and circadian health instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - For shift work or caregiving, compare similar shifts and choose a light, noise or caffeine-timing
+    change that fits the existing care plan. Audio relaxation, a dim night light or sensory supports may
+    remain necessary. A sleep clinician’s individualized plan takes precedence over this habit trial.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +82,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Sleep and circadian health actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Sleep and circadian health; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Sleep and
-    circadian health. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Sleep and circadian health actions, and
-    review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a private note with approximate sleep opportunity, perceived rest, daytime functioning and
+    unusual circumstances. Default change: create a quieter, dimmer wind-down period before the existing
+    bedtime while preserving enough opportunity to sleep. Keep medicines, clinical plans and essential
+    nighttime care unchanged. No wearable or precise sleep-stage score is required. Goal: Connect sleep
+    opportunity and regularity with light, caffeine, environment, stress and recovery, then test one feasible
+    change against ordinary daytime functioning. Scope: This is a short sleep-habit observation, not treatment
+    for insomnia, sleep apnea or a circadian disorder. It does not prescribe sleep restriction, supplements
+    or a universal shift-work schedule. Time and effort: A two-minute morning note for seven days, ten
+    minutes of setup and a ten-minute comparison. Adaptation: For shift work or caregiving, compare similar
+    shifts and choose a light, noise or caffeine-timing change that fits the existing care plan. Audio
+    relaxation, a dim night light or sensory supports may remain necessary. A sleep clinician’s individualized
+    plan takes precedence over this habit trial. Keep personal working notes outside the check-in; record
+    only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. For shift work or caregiving, compare similar shifts and choose a light, noise
+    or caffeine-timing change that fits the existing care plan. Audio relaxation, a dim night light or
+    sensory supports may remain necessary. A sleep clinician’s individualized plan takes precedence over
+    this habit trial.
+  expected_burden: A two-minute morning note for seven days, ten minutes of setup and a ten-minute comparison.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Sleep and circadian health protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +111,25 @@ intervention:
   - Treating a completed Sleep and circadian health action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Sleep and circadian health situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. For shift work
+    or caregiving, compare similar shifts and choose a light, noise or caffeine-timing change that fits
+    the existing care plan. Audio relaxation, a dim night light or sensory supports may remain necessary.
+    A sleep clinician’s individualized plan takes precedence over this habit trial.
   actions:
   - stable_id: PRACTICE-COMP-1202-SLEEP-AND-CIRCADIAN-HEALTH-01-A1
     sequence: 1
-    title: Bound the qualified question for Sleep and circadian health
-    instructions: 'Turn Sleep and circadian health into one educational or planning question and identify
-      the qualification and jurisdiction needed to answer it. Use the canonical scope to separate general
-      learning from diagnosis, treatment, legal advice, financial advice, safeguarding decisions, or other
-      professional judgment: Manage schedule, light, caffeine, environment, stress, and recovery to support
-      sufficient sleep.'
+    title: Observe the current pattern and choose one controllable factor
+    instructions: 'For three ordinary mornings, note approximate bed and wake windows, perceived awakenings,
+      daytime sleepiness and major care or work interruptions. Review six possible influences: schedule,
+      light, caffeine timing, bedroom conditions, stress and recovery opportunity. Choose one feasible
+      factor; for the default, reduce avoidable bright entertainment light before bed rather than move
+      bedtime later. Record the other factors as unchanged or constrained.
+
+
+      Observation checks: Three ordinary observations include daytime function; All six influences are
+      considered without causal certainty; One feasible factor is selected for change; Needed sleep and
+      essential care are not reduced. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +151,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1202_a1_question_bounded
-        - c1202_a1_qualification_named
-        - c1202_a1_professional_boundary_explicit
+        - three_ordinary_observations_include_daytime_function
+        - all_six_influences_are_considered_without_causal_certainty
+        - one_feasible_factor_is_selected_for_change
+        - needed_sleep_and_essential_care_are_not_reduced
       - measurement_id: c1202_a1_boundary
         kind: boolean
         role: supporting
@@ -154,11 +171,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1202-SLEEP-AND-CIRCADIAN-HEALTH-01-A2
     sequence: 2
-    title: Prepare minimum information for Sleep and circadian health
-    instructions: Create a privacy-minimized Sleep and circadian health consultation note containing only
-      the question, relevant category-level facts, current constraints, and desired decision. Omit diagnoses,
-      allegations, account numbers, credentials, protected work information, intimate detail, and third-party
-      identity unless a qualified professional lawfully requires it through an appropriate channel.
+    title: Use the chosen change on four nights with honest exceptions
+    instructions: 'Arrange the quieter wind-down space before the first trial night and use it on four
+      nights when feasible. Keep the sleep window and other major conditions as similar as ordinary life
+      permits. Record disruptions and whether the change added stress. Do not lie awake clock-watching
+      to obtain precise data, force yourself to remain awake or compensate for a missed night by an extreme
+      schedule shift.
+
+
+      Observation checks: The selected environmental or schedule change is actually used; Exceptions and
+      other changing conditions remain visible; No deliberate sleep deprivation or punitive compensation
+      is introduced; The observation burden does not become a new sleep obstacle. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -180,9 +204,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1202_a2_minimum_information_only
-        - c1202_a2_sensitive_detail_excluded
-        - c1202_a2_decision_need_named
+        - the_selected_environmental_or_schedule_change_is_actually_used
+        - exceptions_and_other_changing_conditions_remain_visible
+        - no_deliberate_sleep_deprivation_or_punitive_compensation_is_introduced
+        - the_observation_burden_does_not_become_a_new_sleep_obstacle
       - measurement_id: c1202_a2_boundary
         kind: boolean
         role: supporting
@@ -199,11 +224,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1202-SLEEP-AND-CIRCADIAN-HEALTH-01-A3
     sequence: 3
-    title: Record a bounded Sleep and circadian health disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Sleep is regular enough to support cognition, mood, and physical function.'
+    title: Compare function and choose continuation or clinical review
+    instructions: 'Compare the three usual nights with the four trial nights using rest and daytime function,
+      not a claim of measured sleep architecture. Keep the change only if useful and sustainable; an unclear
+      result remains unclear. Persistent sleep problems, breathing concerns during sleep or dangerous
+      daytime sleepiness warrant qualified evaluation. Do not drive or do hazardous work while dangerously
+      sleepy merely to finish the experiment.
+
+
+      Observation checks: Both periods are compared using the same simple indicators; An uncertain result
+      is not presented as a cure; The next choice considers feasibility and burden; Persistent or safety-relevant
+      sleep concerns lead to qualified help. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Did the change improve usable rest or daytime function without making sleep itself
+      another performance task?
+
+
+      Examples: Supportive: The dimmer wind-down was feasible and mornings felt less disrupted, so it
+      was retained without claiming insomnia was treated.
+
+
+      Mixed: Rest improved on two nights, but work shifts changed too, leaving the cause uncertain.
+
+
+      Contradictory: Sleep time was deliberately shortened or severe daytime sleepiness ignored to meet
+      the logging target.
+
+
+      Inconclusive: A sleep score was watched repeatedly without changing a factor or comparing daily
+      function.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -219,14 +270,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1202_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1202_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - both_periods_are_compared_using_the_same_simple_indicators
+        - an_uncertain_result_is_not_presented_as_a_cure
+        - the_next_choice_considers_feasibility_and_burden
+        - persistent_or_safety_relevant_sleep_concerns_lead_to_qualified_help
       - measurement_id: c1202_a3_boundary
         kind: boolean
         role: supporting
@@ -247,16 +300,17 @@ intervention:
       Sleep and circadian health; no purchase, subscription, travel, credential, or public artifact is
       required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Sleep and circadian health; assistive technology, interpretation, a support person, and
-      a deferred action are valid without penalty.
+    - For shift work or caregiving, compare similar shifts and choose a light, noise or caffeine-timing
+      change that fits the existing care plan. Audio relaxation, a dim night light or sensory supports
+      may remain necessary. A sleep clinician’s individualized plan takes precedence over this habit trial.
     cultural_context:
     - Adapt the expression of Sleep and circadian health to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Sleep and circadian health opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - For shift work or caregiving, compare similar shifts and choose a light, noise or caffeine-timing
+      change that fits the existing care plan. Audio relaxation, a dim night light or sensory supports
+      may remain necessary. A sleep clinician’s individualized plan takes precedence over this habit trial.
   pause_conditions:
   - Pause Sleep and circadian health when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -287,10 +341,7 @@ evidence_and_scoring:
   - c1202_a3_boundary
   - c1202_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Sleep and circadian health action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Sleep and circadian health criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - Sleep time was deliberately shortened or severe daytime sleepiness ignored to meet the logging target.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Sleep and circadian health explicitly; support can enable access and never reduces dignity or
     silently changes the typed value.
@@ -300,14 +351,23 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Sleep and circadian health rules withhold observations older than 90 days; no
     unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Sleep is regular enough to support cognition, mood, and physical function.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Sleep and circadian health requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Observe the current pattern and choose one controllable factor. Observed
+    checks: Three ordinary observations include daytime function; All six influences are considered without
+    causal certainty; One feasible factor is selected for change; Needed sleep and essential care are
+    not reduced. Action 2: Use the chosen change on four nights with honest exceptions. Observed checks:
+    The selected environmental or schedule change is actually used; Exceptions and other changing conditions
+    remain visible; No deliberate sleep deprivation or punitive compensation is introduced; The observation
+    burden does not become a new sleep obstacle. Action 3: Compare function and choose continuation or
+    clinical review. Observed checks: Both periods are compared using the same simple indicators; An uncertain
+    result is not presented as a cure; The next choice considers feasibility and burden; Persistent or
+    safety-relevant sleep concerns lead to qualified help.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A sleep score was watched repeatedly without changing
+    a factor or comparing daily function.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Sleep
     and circadian health contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -315,9 +375,8 @@ evidence_and_scoring:
   recommendation_target_lever_ids:
   - L10
   - L17
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Sleep and circadian health evidence.
@@ -325,12 +384,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for sleep and circadian health action was attempted or explicitly
-    deferred.
-  - The prepare minimum information for sleep and circadian health action was attempted or explicitly
-    deferred.
-  - The record a bounded sleep and circadian health disposition action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Observe the current pattern and choose one controllable factor. Observed checks: Three
+    ordinary observations include daytime function; All six influences are considered without causal certainty;
+    One feasible factor is selected for change; Needed sleep and essential care are not reduced.'
+  - 'Action 2: Use the chosen change on four nights with honest exceptions. Observed checks: The selected
+    environmental or schedule change is actually used; Exceptions and other changing conditions remain
+    visible; No deliberate sleep deprivation or punitive compensation is introduced; The observation burden
+    does not become a new sleep obstacle.'
+  - 'Action 3: Compare function and choose continuation or clinical review. Observed checks: Both periods
+    are compared using the same simple indicators; An uncertain result is not presented as a cure; The
+    next choice considers feasibility and burden; Persistent or safety-relevant sleep concerns lead to
+    qualified help.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -339,56 +406,341 @@ completion_and_review:
     - c1202_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Sleep and circadian health only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Sleep and circadian health across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Did the change improve usable rest or daytime function without making sleep itself
+    another performance task?
+  transfer_limit: This is a short sleep-habit observation, not treatment for insomnia, sleep apnea or
+    a circadian disorder. It does not prescribe sleep restriction, supplements or a universal shift-work
+    schedule.
   reflection:
-    before: What does Sleep and circadian health require in this exact context, what remains outside my
-      role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Sleep and circadian health criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Sleep is regular enough to support cognition, mood, and physical
-      function.', what contradiction or missing context matters most, and should this Sleep and circadian
-      health design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Connect sleep opportunity and regularity with
+      light, caffeine, environment, stress and recovery, then test one feasible change against ordinary
+      daytime functioning.'
+    during: Which checks have actually been observed? Rest improved on two nights, but work shifts changed
+      too, leaving the cause uncertain.
+    after: Did the change improve usable rest or daytime function without making sleep itself another
+      performance task?
   review_guidance:
     repeat: Repeat the same bounded Sleep and circadian health design only when the context and burden
       remain appropriate.
-    adapt: Change the Sleep and circadian health medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: For shift work or caregiving, compare similar shifts and choose a light, noise or caffeine-timing
+      change that fits the existing care plan. Audio relaxation, a dim night light or sensory supports
+      may remain necessary. A sleep clinician’s individualized plan takes precedence over this habit trial.
     stop: Stop Sleep and circadian health when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Sleep and circadian health questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Sleep and circadian health criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Sleep and circadian health criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Sleep and circadian health criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Sleep and circadian health action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: The dimmer wind-down was feasible and mornings felt less disrupted, so it was retained
+      without claiming insomnia was treated.
+    mixed: Rest improved on two nights, but work shifts changed too, leaving the cause uncertain.
+    contradictory: Sleep time was deliberately shortened or severe daytime sleepiness ignored to meet
+      the logging target.
+    inconclusive: A sleep score was watched repeatedly without changing a factor or comparing daily function.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Sleep and circadian health.
+    context_heading: Test one sleep-supporting change without restricting needed sleep
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Sleep and
       circadian health.
   check_in_labels:
-    c1202_a1_primary: The bounded Sleep and circadian health criterion for action 1 was observed
+    c1202_a1_primary: 'Observed checks: observe the current pattern and choose one controllable factor'
     c1202_a1_boundary: Action 1 stayed inside its stated Sleep and circadian health boundary
     c1202_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1202_a2_primary: The bounded Sleep and circadian health criterion for action 2 was observed
+    c1202_a2_primary: 'Observed checks: use the chosen change on four nights with honest exceptions'
     c1202_a2_boundary: Action 2 stayed inside its stated Sleep and circadian health boundary
     c1202_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1202_a3_primary: The bounded Sleep and circadian health criterion for action 3 was observed
+    c1202_a3_primary: 'Observed checks: compare function and choose continuation or clinical review'
     c1202_a3_boundary: Action 3 stayed inside its stated Sleep and circadian health boundary
     c1202_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Sleep and circadian
-    health practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Did the change improve usable rest or daytime function without making sleep itself
+    another performance task? Completion is not mastery.
+  plain_language_evidence: The dimmer wind-down was feasible and mornings felt less disrupted, so it was
+    retained without claiming insomnia was treated.
   display_order: 147
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.02'
+  title: 12.02 — Sleep and circadian health
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [AHRQ, Teach-Back](https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/teachback.html)
+
+      - [NHLBI, Healthy Sleep Habits](https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits)
+
+      - [NIDDK, Diet & Nutrition](https://www.niddk.nih.gov/health-information/diet-nutrition)
+
+      - [MedlinePlus, Protein in diet](https://www.medlineplus.gov/ency/article/002467.htm)
+
+      - [MedlinePlus, Dietary Fiber](https://www.medlineplus.gov/dietaryfiber.html)
+
+      - [FDA, Serving Size on the Nutrition Facts Label](https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label)
+
+      - [FDA, Food Allergies](https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies)
+
+      - [NIMH, Eating Disorders: What You Need to Know](https://www.nimh.nih.gov/health/publications/eating-disorders)
+
+      - [CDC, How to Measure Physical Activity Intensity](https://www.cdc.gov/physical-activity-basics/measuring/index.html)
+
+      - [CDC, Strategies to Prevent Worsening of Symptoms](https://www.cdc.gov/me-cfs/hcp/clinical-care/treating-the-most-disruptive-symptoms-first-and-preventing-worsening-of-symptoms.html)
+
+      - [NHS, How to improve your strength and flexibility](https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/)
+
+      - [Mayo Clinic, Stretching and flexibility](https://www.mayoclinic.org/healthy-lifestyle/fitness/basics/stretching-and-flexibility/hlv-20049447)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Reveal after saving the baseline, prediction and decision rule. These are fictional reports,
+      not device measurements.
+
+
+      | Night | Opportunity | Change used | Daytime functioning | Context |
+
+      | --- | --- | --- | --- | --- |
+
+      | T1 | 23:00–07:00 | yes | manageable | Same shift; no added burden |
+
+      | T2 | 23:00–07:00 | yes | manageable | Same shift; no added burden |
+
+      | T3 | 23:00–07:00 | yes | missing | Morning note interrupted; outcome unknown |
+
+      | T4 | 00:00–07:00 | no | difficult | Essential care; no hazardous sleepiness reported |
+
+
+      Lee says the audio was acceptable on the three nights used. Safety light and care alert remained;
+      no medication or caffeine change is reported. Do not infer that “no hazardous sleepiness reported”
+      proves none existed.
+
+
+      Calculate opportunity, feasibility, observed functioning and missingness before reading onward.
+
+
+      ### Comparison and next step
+
+
+      Baseline opportunities are 480, 450 and 480 minutes: 1,410 total, 470 mean. Trial opportunities
+      are 480, 480, 480 and 420: 1,860 total, 465 mean. This is five minutes less mean opportunity, not
+      five minutes less measured sleep.
+
+
+      The change was used on 3/4 trial nights. Manageable functioning was reported on 2/3 baseline nights
+      and 2/3 observed trial nights, with 1/4 trial outcomes missing. Calling trial functioning 3/4 manageable
+      fabricates T3; calling it 2/4 manageable silently treats missing as non-manageable unless explicitly
+      labeled a conservative sensitivity calculation. With T3 unfavorable the trial proportion would be
+      2/4; with it favorable, 3/4. The missing report can change the decision.
+
+
+      The observed proportion meets Lee''s toy “no worse” rule, but missingness and a care-related interruption
+      make benefit inconclusive. A defensible decision is retain the acceptable audio provisionally for
+      convenience, make no sleep-benefit claim, and revisit on comparable ordinary nights without increasing
+      tracking or reducing care. Rejection is also reasonable if Lee finds the routine unwanted; completion
+      does not require a favorable result.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Protect sleep opportunity, then test one feasible change
+
+
+      Time available for sleep, time actually asleep and next-day functioning are related but different
+      observations. A long window can contain awakenings; a brief morning note cannot identify sleep stages
+      or diagnose a disorder. Regularity concerns timing across days, not perfect adherence to an arbitrary
+      bedtime.
+
+
+      This guide teaches schedule, light, caffeine, environment, stress and recovery through a complete
+      seven-night fictional comparison. Allow 10 minutes to plan, 10 to analyze the later packet and 10
+      for fresh checks. No wearable, clock-watching, purchase, personal sleep disclosure or deliberate
+      sleep deprivation is needed. You produce a preserved prediction, comparison and next decision. The
+      case does not demonstrate that you slept differently. Health and exercise content must be adapted
+      to the person and does not replace licensed medical care.
+
+
+      ### Six influences, one manageable experiment
+
+
+      Schedule creates an opportunity that must fit work, care and individual needs. Light can affect
+      the body clock; caffeine can interfere with sleep. Noise, temperature and necessary sensory supports
+      affect the environment. Stress may make settling harder, while extra monitoring can itself add burden.
+      Recovery needs and existing clinical plans take priority over the experiment. NHLBI describes [healthy
+      sleep habits](https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits); those general
+      suggestions do not specify an individual''s treatment or shift-work schedule.
+
+
+      Choose one controllable factor and record the others as unchanged, constrained or unknown. A quieter
+      entertainment period can be tested while keeping a safety light and caregiving alert. Turning off
+      every light is not a requirement. Do not postpone bedtime to finish a log, suppress essential care,
+      change medicines or use sleep restriction to manufacture a difference.
+
+
+      Compare the same simple indicator across periods: for example, the person''s description of ordinary
+      daytime functioning. Keep exceptions, missing records and changed shifts visible. A short comparison
+      can inform whether a habit is feasible; it cannot prove the habit caused a change. Persistent problems,
+      breathing concerns during sleep or dangerous sleepiness need qualified evaluation. Do not drive
+      or perform hazardous work while dangerously sleepy to complete a trial.
+
+
+      ### Worked example: a long window is not measured sleep
+
+
+      Taylor has an opportunity from 22:45 to 06:45: 75 minutes before midnight plus 405 after it, or
+      480 minutes. They report a prolonged awakening but do not time it. The record can say “480-minute
+      opportunity; actual sleep unknown.” Subtracting a guessed 60 minutes would create false precision.
+      If the next day''s functioning was not recorded, leave it missing rather than treating it as good.
+
+
+      ### Complete materials: Lee''s ordinary week
+
+
+      Lee has a stable daytime shift, an existing 23:00–07:00 sleep opportunity and a required dim safety
+      light. No medicine changes or current dangerous sleepiness are reported. A care alert must remain
+      audible. These are stipulated case facts, not medical clearance. Lee wants a less intrusive wind-down,
+      not a sleep score.
+
+
+      Here “manageable” means Lee reported ordinary daytime duties felt manageable; “difficult” means
+      they reported unusual difficulty staying engaged. These original descriptive categories are not
+      a validated scale. Blank means missing. All windows cross midnight once.
+
+
+      | Baseline night | Opportunity | Daytime functioning | Context |
+
+      | --- | --- | --- | --- |
+
+      | B1 | 23:00–07:00 | manageable | Bright entertainment screen until bed |
+
+      | B2 | 23:30–07:00 | difficult | Late essential care shortened opportunity |
+
+      | B3 | 23:00–07:00 | manageable | Bright entertainment screen until bed |
+
+
+      The proposed single change is to replace bright entertainment with familiar quiet audio from 22:30,
+      keeping the dim safety light, care alert and 23:00–07:00 opportunity. Audio is already available.
+      Caffeine routine, work shift and room setup stay unchanged unless a later record says otherwise.
+      Lee will spend at most two minutes on a morning note; no overnight measurement is requested.
+
+
+      #### Action 1 — Preserve the plan before outcomes
+
+
+      Compute each baseline opportunity and the mean; retain the care disruption. Write a six-factor map
+      and the prediction “this may be easier to use and may support manageable daytime function; cause
+      will remain uncertain.” Define a practical continuation rule before opening results: consider retaining
+      the change if it is feasible on at least three of four trial nights, observed functioning is no
+      worse in proportion than baseline, and no new safety concern or unwanted burden appears. Missing
+      or substantially changed conditions can make this inconclusive. This is Lee''s toy decision rule,
+      not a health threshold.
+
+
+      Use `night | planned window | actual opportunity | change used yes/no/unknown | functioning | interruption
+      | logging burden`. Save the plan before opening [later-packet.md](?resource=file-later-packet-md).
+
+
+      #### Action 2 — Analyze all four trial nights
+
+
+      Separate exposure (whether the change occurred) from the outcome (functioning). Use the number of
+      observed functioning reports as its denominator; also state how many nights are missing. Compare
+      opportunity minutes separately. Do not add missing nights to the favorable count or omit inconvenient
+      disruptions from the case narrative. Explain whether the predeclared rule is met, contradicted or
+      uncertain.
+
+
+      #### Action 3 — Make a bounded next decision
+
+
+      Choose retain provisionally, revise one method, reject an unwanted change or seek qualified help
+      for a relevant concern. State exactly what happens next and what would change that choice. “Sleep
+      improved” without a comparable observation is not enough. A real follow-up uses similar shifts and
+      unchanged supports; if opportunity is constrained by care or work, address access/support rather
+      than blame.
+
+
+      Attempt [check-prompts.md](?attempt=practice-checks) before the [key](?check=practice-answers).
+      The source learning artifact includes the preserved rule, baseline and trial arithmetic, missingness,
+      burden and next decision. The actual seven-day practice remains distinct from this case analysis.
+
+
+      ### Access, challenge and transfer
+
+
+      A reader can calculate elapsed windows; approximate morning descriptions are enough for live use.
+      Use relative anchors for shift work and compare similar shifts. Keep assistive audio, dim lighting
+      and clinical instructions. If recording becomes distressing, reduce or stop this optional observation;
+      more tracking is not the goal.
+
+
+      Harder supplied variation: keep the same four trial records, but T2 and T3 are now after a newly
+      changed night shift. Recalculate nothing falsely: the arithmetic is the same, but comparability
+      is weaker. Plan a future comparison of similar shifts without forcing a return to a daytime schedule
+      or cutting sleep.
+
+
+      For later real transfer, use three ordinary baseline mornings and four feasible trial nights under
+      the existing source route, with a brief comparison. Record actual behavior only when it happens.
+      Unsupported self-report is distinct from device measurement, qualified assessment and an independent
+      observer; none may be invented to satisfy a score. A week cannot establish a general circadian-health
+      outcome.
+
+
+      **Supportive:** A feasible change accompanies useful functioning under comparable conditions and
+      can be retained provisionally.
+
+
+      **Mixed:** The change is feasible, but interruptions, burden or different shifts weaken the comparison.
+
+
+      **Contradictory:** Needed sleep or care is removed, worsening is hidden, or hazardous sleepiness
+      is ignored.
+
+
+      **Inconclusive:** Missing observations or a plan without actual use cannot establish a benefit.
+
+
+      See scope and limits described in this guide and [source limits](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. An opportunity runs 22:50–06:20. The person reports an awakening of unknown length. Calculate
+      opportunity and state what can be said about actual sleep. Would moving bedtime to 23:20 to finish
+      the log preserve that opportunity?
+
+      2. Two of three baseline mornings were manageable. In a four-night trial, two mornings were manageable,
+      one difficult and one missing. A reviewer writes “75% improved, so the routine cured insomnia.”
+      Correct the numerator, denominator, missingness and claim.
+
+      3. A trial appears favorable but removes a needed safety light and coincides with a different work
+      shift. Identify the support correction and the comparison limit. Do not design a treatment schedule.
+
+
+      Save answers before [the key](?check=practice-answers).'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. 70 minutes before midnight plus 380 after it equals 450 minutes of opportunity. Actual sleep
+      remains unknown. Starting at 23:20 leaves 420 minutes, a 30-minute reduction; shorten or defer the
+      log instead. If you subtracted an invented awakening, restore the unknown.
+
+      2. Manageable functioning is 2/3 observed trial mornings, the same observed proportion as baseline,
+      with 1/4 trial outcomes missing. The trial could be 2/4 or 3/4 if the missing report were known.
+      This cannot establish improvement, causation or a cure. Record uncertainty and a practical next
+      choice.
+
+      3. Restore the needed light and preserve the existing support plan. The shift change weakens comparability
+      even if the arithmetic is correct. A future observation should fit similar shifts and sufficient
+      opportunity; do not force unsafe schedule changes to obtain clean data.
+
+
+      The key assesses reasoning about a fictional record, not sleep health or clinical competence.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

@@ -1,0 +1,22 @@
+............................F.......                                     [100%]
+=================================== FAILURES ===================================
+________ test_compiler_round_trip_preserves_action_and_completion_rules ________
+
+    def test_compiler_round_trip_preserves_action_and_completion_rules():
+        bundle = load_practice_content_bundle(ROOT)
+        package = next(p for p in bundle.protocols if p["parent_competency_id"] == "01.04")
+        exercise = copy.deepcopy(load_exercises(ROOT)["01.04"])
+        exercise["instructional_content"] = sample_guide()
+        projected = apply_exercise(package, exercise)
+        reloaded = yaml.safe_load(yaml.safe_dump(projected))
+        runtime = compile_runtime_protocol(reloaded, bundle.activation_entries)
+        assert runtime["setup_copy"]["instructional_content"] == sample_guide()
+        assert reloaded["intervention"]["actions"] == package["intervention"]["actions"]
+        assert reloaded["completion_and_review"] == package["completion_and_review"]
+>       assert "instructional_content" not in package
+E       AssertionError: assert 'instructional_content' not in {'completion_and_review': {'completion_criteria': ['Action 1: Name the goods and the actual conflict. Observed checks:...lability': 'active', 'deprecation': {'deprecated': False, 'replaced_by': None}, 'editorial_status': 'draft', ...}, ...}
+
+tests/test_instructional_content.py:126: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_instructional_content.py::test_compiler_round_trip_preserves_action_and_completion_rules
+1 failed, 35 passed in 229.31s (0:03:49)

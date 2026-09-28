@@ -9,6 +9,8 @@ from pathlib import Path
 
 import yaml
 
+from tests.m6k_historical_inputs import historical_input_path
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/authoring/leisure-life-design"
 COHORT = json.loads((SOURCE / "cohort.json").read_text())
@@ -77,7 +79,9 @@ class IntegrityTests(unittest.TestCase):
         )
         self.assertEqual(len(COHORT["input_sha256"]), 6)
         for path, digest in COHORT["input_sha256"].items():
-            self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), digest)
+            self.assertEqual(
+                hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(), digest
+            )
 
     def test_current_recovery_inputs_remain_equal(self):
         for domain in ("26", "27"):
@@ -130,7 +134,12 @@ class IntegrityTests(unittest.TestCase):
             ).read_text()
         )
         canonical = {e["id"] for d in catalog["curriculum"]["domains"] for e in d["competencies"]}
-        contract = yaml.safe_load((ROOT / "contracts/tailored-practice-authoring.yaml").read_text())
+        contract = yaml.safe_load(
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
+        )
         implemented = set(contract["implemented_competency_ids"])
         paths = cov["prior_companion_guides"]
         directories = {str(Path(p).parent.parent) for p in paths}
@@ -164,7 +173,12 @@ class IntegrityTests(unittest.TestCase):
         old = json.loads((ROOT / "docs/authoring/creative-culture-leisure/cohort.json").read_text())
         self.assertEqual(old["ids"][-1], "26.04")
         self.assertEqual(old["additional_companions_after"], COHORT["additional_companions_before"])
-        contract = yaml.safe_load((ROOT / "contracts/tailored-practice-authoring.yaml").read_text())
+        contract = yaml.safe_load(
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
+        )
         self.assertFalse(set(IDS) & set(contract["retained_legacy_competency_ids"]))
         self.assertEqual(COHORT["legacy_companion_ids"], [])
 
@@ -217,9 +231,11 @@ class IntegrityTests(unittest.TestCase):
         }
         self.assertEqual(set(verification["source_sha256"]), expected)
         for path, digest in verification["source_sha256"].items():
-            self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), digest)
+            self.assertEqual(
+                hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(), digest
+            )
         self.assertEqual(
-            hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+            hashlib.sha256(historical_input_path(Path(__file__)).read_bytes()).hexdigest(),
             verification["focused_test_sha256"],
         )
 

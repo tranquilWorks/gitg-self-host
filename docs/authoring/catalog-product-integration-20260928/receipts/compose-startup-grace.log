@@ -1,0 +1,157 @@
+./scripts/verify_compose.sh
+Docker Compose version v5.4.0
+
+==> Build and start the isolated application stack
+time="2026-09-28T03:28:53Z" level=warning msg="Docker Compose requires buildx plugin to be installed"
+ Image ggsmokelocal01270384-app Building 
+ Image ggsmokelocal01270384-app Building 
+Sending build context to Docker daemon  524.4kBSending build context to Docker daemon  1.049MBSending build context to Docker daemon  1.573MBSending build context to Docker daemon  2.098MBSending build context to Docker daemon  2.622MBSending build context to Docker daemon  3.146MBSending build context to Docker daemon  3.671MBSending build context to Docker daemon  4.195MBSending build context to Docker daemon   4.72MBSending build context to Docker daemon  5.244MBSending build context to Docker daemon  6.293MBSending build context to Docker daemon  6.817MBSending build context to Docker daemon  7.342MBSending build context to Docker daemon  7.866MBSending build context to Docker daemon   8.39MBSending build context to Docker daemon  8.915MBSending build context to Docker daemon  9.439MBSending build context to Docker daemon  10.49MBSending build context to Docker daemon  11.01MBSending build context to Docker daemon  12.07MBSending build context to Docker daemon  12.59MBSending build context to Docker daemon  13.12MBSending build context to Docker daemon  13.64MBSending build context to Docker daemon  14.17MBSending build context to Docker daemon  14.69MBSending build context to Docker daemon  15.22MBSending build context to Docker daemon  15.74MBSending build context to Docker daemon  16.26MBSending build context to Docker daemon  16.79MBSending build context to Docker daemon  17.31MBSending build context to Docker daemon  17.84MBSending build context to Docker daemon  17.92MB
+Step 1/12 : FROM python:3.13-slim
+ ---> 9351a9a0a697
+Step 2/12 : ENV PYTHONDONTWRITEBYTECODE=1     PYTHONUNBUFFERED=1     PIP_DISABLE_PIP_VERSION_CHECK=1     APP_DATA_DIR=/data
+ ---> Using cache
+ ---> 24d47917b165
+Step 3/12 : WORKDIR /app
+ ---> Using cache
+ ---> d0c3c8de642e
+Step 4/12 : RUN groupadd --gid 10001 grounded     && useradd --uid 10001 --gid grounded --create-home --shell /usr/sbin/nologin grounded
+ ---> Using cache
+ ---> 4adadbdc96ff
+Step 5/12 : COPY requirements.txt ./
+ ---> 12aa61b5e8bc
+Step 6/12 : RUN python -m pip install --no-cache-dir -r requirements.txt
+ ---> Running in 5f35d356887f
+Collecting Django<6.1,>=6.0.7 (from -r requirements.txt (line 1))
+  Downloading django-6.0.8-py3-none-any.whl.metadata (3.9 kB)
+Collecting gunicorn<24,>=23 (from -r requirements.txt (line 2))
+  Downloading gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting jsonschema<5,>=4.25 (from -r requirements.txt (line 3))
+  Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting PyYAML<7,>=6.0.2 (from -r requirements.txt (line 4))
+  Downloading pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting whitenoise<7,>=6.9 (from -r requirements.txt (line 5))
+  Downloading whitenoise-6.12.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting markdown-it-py<5,>=4 (from -r requirements.txt (line 6))
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting rapidfuzz<4,>=3.14.6 (from -r requirements.txt (line 7))
+  Downloading rapidfuzz-3.14.6-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (12 kB)
+Collecting asgiref>=3.9.1 (from Django<6.1,>=6.0.7->-r requirements.txt (line 1))
+  Downloading asgiref-3.12.1-py3-none-any.whl.metadata (9.4 kB)
+Collecting sqlparse>=0.5.0 (from Django<6.1,>=6.0.7->-r requirements.txt (line 1))
+  Downloading sqlparse-0.6.0-py3-none-any.whl.metadata (6.0 kB)
+Collecting packaging (from gunicorn<24,>=23->-r requirements.txt (line 2))
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting attrs>=22.2.0 (from jsonschema<5,>=4.25->-r requirements.txt (line 3))
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema<5,>=4.25->-r requirements.txt (line 3))
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema<5,>=4.25->-r requirements.txt (line 3))
+  Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema<5,>=4.25->-r requirements.txt (line 3))
+  Downloading rpds_py-2026.6.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Collecting mdurl~=0.1 (from markdown-it-py<5,>=4->-r requirements.txt (line 6))
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading django-6.0.8-py3-none-any.whl (8.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.4/8.4 MB 74.6 MB/s  0:00:00
+Downloading gunicorn-23.0.0-py3-none-any.whl (85 kB)
+Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Downloading pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (801 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.6/801.6 kB 143.9 MB/s  0:00:00
+Downloading whitenoise-6.12.0-py3-none-any.whl (20 kB)
+Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Downloading rapidfuzz-3.14.6-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 118.4 MB/s  0:00:00
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading asgiref-3.12.1-py3-none-any.whl (25 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-2026.6.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (365 kB)
+Downloading sqlparse-0.6.0-py3-none-any.whl (50 kB)
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Installing collected packages: whitenoise, sqlparse, rpds-py, rapidfuzz, PyYAML, packaging, mdurl, attrs, asgiref, referencing, markdown-it-py, gunicorn, Django, jsonschema-specifications, jsonschema
+
+Successfully installed Django-6.0.8 PyYAML-6.0.3 asgiref-3.12.1 attrs-26.1.0 gunicorn-23.0.0 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 markdown-it-py-4.2.0 mdurl-0.1.2 packaging-26.3 rapidfuzz-3.14.6 referencing-0.37.0 rpds-py-2026.6.3 sqlparse-0.6.0 whitenoise-6.12.0
+[91mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+[0mRemoving intermediate container 5f35d356887f
+ ---> aea3a6a28344
+Step 7/12 : COPY . .
+ ---> 90cc98d36289
+Step 8/12 : RUN mkdir -p /data/uploads /data/backups /app/staticfiles     && chown -R grounded:grounded /data /app
+ ---> Running in 538a727659b0
+Removing intermediate container 538a727659b0
+ ---> e10bffd7470f
+Step 9/12 : USER grounded
+ ---> Running in 68caa91d2928
+Removing intermediate container 68caa91d2928
+ ---> afecdedd9630
+Step 10/12 : EXPOSE 8000
+ ---> Running in f28fcfd71cbb
+Removing intermediate container f28fcfd71cbb
+ ---> 5d5256354431
+Step 11/12 : ENTRYPOINT ["/app/docker-entrypoint.sh"]
+ ---> Running in 8d936b458f3e
+Removing intermediate container 8d936b458f3e
+ ---> 4e0733437535
+Step 12/12 : LABEL com.docker.compose.image.builder=classic
+ ---> Running in 260fcdabb24e
+Removing intermediate container 260fcdabb24e
+ ---> b92183ca228b
+Successfully built b92183ca228b
+Successfully tagged ggsmokelocal01270384-app:latest
+ Image ggsmokelocal01270384-app Built 
+ Image ggsmokelocal01270384-app Built 
+ Network ggsmokelocal01270384_default Creating 
+ Network ggsmokelocal01270384_default Creating 
+ Volume ggsmokelocal01270384_grounded_growth_data Creating 
+ Volume ggsmokelocal01270384_grounded_growth_data Creating 
+ Volume ggsmokelocal01270384_grounded_growth_data Created 
+ Volume ggsmokelocal01270384_grounded_growth_data Created 
+ Network ggsmokelocal01270384_default Created 
+ Network ggsmokelocal01270384_default Created 
+ Container ggsmokelocal01270384-app-1 Creating 
+ Container ggsmokelocal01270384-app-1 Created 
+ Container ggsmokelocal01270384-app-1 Starting 
+ Container ggsmokelocal01270384-app-1 Started 
+ Container ggsmokelocal01270384-app-1 Waiting 
+container ggsmokelocal01270384-app-1 is unhealthy
+
+Compose verification failed; final service state and logs follow.
+NAME                         IMAGE                      COMMAND                  SERVICE   CREATED              STATUS                          PORTS
+ggsmokelocal01270384-app-1   ggsmokelocal01270384-app   "/app/docker-entrypo…"   app       About a minute ago   Up About a minute (unhealthy)   0.0.0.0:57315->8000/tcp, [::]:57315->8000/tcp
+app-1  | Canonical content valid: 383 practice packages, content hash ed41c16509d8c86a0f2e5fa44b5944d97309afd0532ba7dabf0cbf328a76ba8a, runtime projection 9eff5558607936aab20ec2adcdf4912510e9f8816cc291ae6b77918bf6711672; typed evidence GG-TYPED-EVIDENCE-1.0.
+app-1  | Operations to perform:
+app-1  |   Apply all migrations: auth, contenttypes, growth, sessions
+app-1  | Running migrations:
+app-1  |   Applying contenttypes.0001_initial... OK
+app-1  |   Applying contenttypes.0002_remove_content_type_name... OK
+app-1  |   Applying auth.0001_initial... OK
+app-1  |   Applying auth.0002_alter_permission_name_max_length... OK
+app-1  |   Applying auth.0003_alter_user_email_max_length... OK
+app-1  |   Applying auth.0004_alter_user_username_opts... OK
+app-1  |   Applying auth.0005_alter_user_last_login_null... OK
+app-1  |   Applying auth.0006_require_contenttypes_0002... OK
+app-1  |   Applying auth.0007_alter_validators_add_error_messages... OK
+app-1  |   Applying auth.0008_alter_user_username_max_length... OK
+app-1  |   Applying auth.0009_alter_user_last_name_max_length... OK
+app-1  |   Applying auth.0010_alter_group_name_max_length... OK
+app-1  |   Applying auth.0011_update_proxy_permissions... OK
+app-1  |   Applying auth.0012_alter_user_first_name_max_length... OK
+app-1  |   Applying growth.0001_initial... OK
+app-1  |   Applying growth.0002_m1b_workflow_fields... OK
+app-1  |   Applying growth.0003_m2a_evidence_events... OK
+app-1  |   Applying growth.0004_m3a_shadow_scoring... OK
+app-1  |   Applying growth.0005_m3b_score_state... OK
+app-1  |   Applying growth.0006_m4a_protocol_library... OK
+app-1  |   Applying growth.0007_pilotfeedback... OK
+app-1  |   Applying growth.0008_assessmentcontext_practicecontext... OK
+app-1  |   Applying growth.0009_personalosrevision... OK
+app-1  |   Applying growth.0010_practicecheckin_typed_observations... OK
+app-1  |   Applying growth.0011_weeklyexecutionplan_weeklyexecutionreview_and_more... OK
+app-1  |   Applying growth.0012_composite_closeout_scoring... OK
+app-1  |   Applying growth.0013_assessmentcalibrationconsent... OK
+app-1  |   Applying sessions.0001_initial... OK
+app-1  | Created bootstrap user 'compose-probe'.
+app-1  | Canonical seed complete: 37 levers, 383 competencies, 1403 weighted links, 383 practice protocols, 37 Pilot 002 baselines.
+app-1  | Evidence backfill complete: 0 submitted, 0 created, 0 already present.
+make: *** [Makefile:152: compose-smoke] Error 1

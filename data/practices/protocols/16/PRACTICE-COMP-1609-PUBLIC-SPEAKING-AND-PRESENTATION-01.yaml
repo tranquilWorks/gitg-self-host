@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1609-PUBLIC-SPEAKING-AND-PRESENTATION-01
 slug: c1609-public-speaking-and-presentation-practice
-name: Bounded Public speaking and presentation Practice
+name: Deliver a three-minute explanation and improve it from audience evidence
 parent_competency_id: '16.09'
 domain_id: '16'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 16.09
-      (Public speaking and presentation); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 16.09; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,38 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Public speaking and presentation through a low-stakes skill rehearsal bounded by
-    the canonical scope: Structure, rehearse, deliver, adapt, and respond to an audience with clarity
-    and composure.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can deliver a coherent
-    talk and improve it using observed audience response. The protocol creates a small opportunity to
-    examine that target without treating completion as broad capability.'
+  purpose: Structure, rehearse and deliver a short talk, respond honestly to a question and revise a specific
+    weakness observed by an audience.
+  why_recommended: Structure, rehearse and deliver a short talk, respond honestly to a question and revise
+    a specific weakness observed by an audience.
   claims:
-  - statement: Using the canonical scope and evidence target for Public speaking and presentation is a
-      traceable product-design basis for a source-only draft protocol.
+  - statement: Structure, rehearse and deliver a short talk, respond honestly to a question and revise
+      a specific weakness observed by an audience.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Public speaking and presentation practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Public speaking and presentation as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Public speaking and
-    presentation context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Public speaking
-    and presentation; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use seated delivery, captions, AAC, a recorded or asynchronous talk and additional
+    processing time. No eye-contact quota or memorization requirement applies. A solo rehearsal remains
+    preparation when no audience is available.
+  opportunity_considerations: 'Default topic: how a shared borrowing shelf works. The audience needs to
+    know where items go, how returns are recorded and whom to ask about a missing item. Use no more than
+    one page or three simple slides, with essential information available as text or spoken description.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Public speaking and presentation.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default topic: how a shared borrowing shelf works. The audience needs to know where items go, how
+    returns are recorded and whom to ask about a missing item. Use no more than one page or three simple
+    slides, with essential information available as text or spoken description.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Public speaking and presentation
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use seated delivery, captions, AAC, a recorded or asynchronous talk and additional processing time.
+    No eye-contact quota or memorization requirement applies. A solo rehearsal remains preparation when
+    no audience is available.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +79,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Public speaking and presentation actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Public speaking and presentation; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Public speaking
-    and presentation. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Public speaking and presentation actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default topic: how a shared borrowing shelf works. The audience needs to know where items go,
+    how returns are recorded and whom to ask about a missing item. Use no more than one page or three
+    simple slides, with essential information available as text or spoken description. Goal: Structure,
+    rehearse and deliver a short talk, respond honestly to a question and revise a specific weakness observed
+    by an audience. Scope: This is a small voluntary presentation, not a public-performance requirement
+    or proof of broad speaking confidence. The audience may be one willing person. Time and effort: Twenty
+    minutes to prepare, two three-minute rehearsals, a short delivery and a ten-minute revision. Adaptation:
+    Use seated delivery, captions, AAC, a recorded or asynchronous talk and additional processing time.
+    No eye-contact quota or memorization requirement applies. A solo rehearsal remains preparation when
+    no audience is available. Keep personal working notes outside the check-in; record only the listed
+    observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use seated delivery, captions, AAC, a recorded or asynchronous talk and additional
+    processing time. No eye-contact quota or memorization requirement applies. A solo rehearsal remains
+    preparation when no audience is available.
+  expected_burden: Twenty minutes to prepare, two three-minute rehearsals, a short delivery and a ten-minute
+    revision.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Public speaking and presentation protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +106,25 @@ intervention:
   - Treating a completed Public speaking and presentation action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Public speaking and presentation situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use seated
+    delivery, captions, AAC, a recorded or asynchronous talk and additional processing time. No eye-contact
+    quota or memorization requirement applies. A solo rehearsal remains preparation when no audience is
+    available.
   actions:
   - stable_id: PRACTICE-COMP-1609-PUBLIC-SPEAKING-AND-PRESENTATION-01-A1
     sequence: 1
-    title: Define observable criteria for Public speaking and presentation
-    instructions: 'Select one safe, lawful, low-stakes component of Public speaking and presentation.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Structure,
-      rehearse, deliver, adapt, and respond to an audience with clarity and composure.'
+    title: Build a talk around one audience action
+    instructions: 'Write the sentence you want the audience to be able to act on: Borrow freely within
+      the agreed rules and return items to the labeled shelf. Organize three parts—why the system exists,
+      the borrowing and return sequence, and what to do when something is missing. Add one concrete example
+      and remove facts that do not serve this purpose. Plan an opening and a closing rather than reading
+      a list until time runs out.
+
+
+      Observation checks: One intended audience action guides the structure; The talk has a clear opening
+      sequence and closing; A concrete example explains the process; Unnecessary material is removed rather
+      than spoken faster. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +146,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1609_a1_skill_component_bounded
-        - c1609_a1_observable_rubric_present
-        - c1609_a1_error_or_stop_defined
+        - one_intended_audience_action_guides_the_structure
+        - the_talk_has_a_clear_opening_sequence_and_closing
+        - a_concrete_example_explains_the_process
+        - unnecessary_material_is_removed_rather_than_spoken_faster
       - measurement_id: c1609_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +166,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1609-PUBLIC-SPEAKING-AND-PRESENTATION-01-A2
     sequence: 2
-    title: Rehearse Public speaking and presentation twice
-    instructions: Perform two bounded attempts of the selected Public speaking and presentation component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Rehearse timing access and a likely interruption
+    instructions: 'Deliver the talk twice to an empty room, recording only if you choose and can keep
+      it private. On the first pass, check whether the sequence fits roughly three minutes without rushing.
+      On the second, practice describing any visual and pausing after a key instruction. Insert the sample
+      question What happens if I cannot return it on time? Answer from the agreed rules or state what
+      must be checked; do not invent a policy to appear composed.
+
+
+      Observation checks: Two actual rehearsals occur; Timing is adjusted by editing rather than rushing;
+      Visual information is also conveyed accessibly; An uncertain question receives an honest check-needed
+      response. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +193,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1609_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - two_actual_rehearsals_occur
+        - timing_is_adjusted_by_editing_rather_than_rushing
+        - visual_information_is_also_conveyed_accessibly
+        - an_uncertain_question_receives_an_honest_check_needed_response
       - measurement_id: c1609_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +219,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1609-PUBLIC-SPEAKING-AND-PRESENTATION-01-A3
     sequence: 3
-    title: Use feedback for one Public speaking and presentation retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Can deliver
-      a coherent talk and improve it using observed audience response.'
+    title: Deliver to a willing audience and revise one observed problem
+    instructions: 'Give the talk to a willing person or small group and invite one question. Ask them
+      afterward to explain the borrowing sequence and missing-item route. Use their actual response to
+      identify one unclear transition, omitted fact or pacing issue, then revise and redeliver that section.
+      Audience politeness or your own reduced nervousness is not sufficient evidence that the instructions
+      were understood.
+
+
+      Observation checks: A willing audience hears the actual talk; A question is handled without inventing
+      information; Comprehension is checked through the audience’s explanation; One observed weakness
+      is revised and redelivered. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.
+
+
+      Final review: What did the audience actually misunderstand, and how did your revision change the
+      explanation rather than merely make you feel more polished?
+
+
+      Examples: Supportive: The audience understood borrowing but missed the late-return route, so the
+      speaker added that step and successfully retested the explanation.
+
+
+      Mixed: Timing improved in rehearsal, but no audience delivery occurred and audience response remained
+      untested.
+
+
+      Contradictory: The speaker hid uncertainty with an invented rule or required an unwilling person
+      to serve as an audience.
+
+
+      Inconclusive: Slides were completed but the talk was never spoken or checked for comprehension.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +271,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1609_a3_feedback_item_selected
-        - c1609_a3_adjustment_traceable
-        - c1609_a3_retry_result_preserved
+        - a_willing_audience_hears_the_actual_talk
+        - a_question_is_handled_without_inventing_information
+        - comprehension_is_checked_through_the_audience_s_explanation
+        - one_observed_weakness_is_revised_and_redelivered
       - measurement_id: c1609_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +295,17 @@ intervention:
       Public speaking and presentation; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Public speaking and presentation; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use seated delivery, captions, AAC, a recorded or asynchronous talk and additional processing time.
+      No eye-contact quota or memorization requirement applies. A solo rehearsal remains preparation when
+      no audience is available.
     cultural_context:
     - Adapt the expression of Public speaking and presentation to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Public speaking and presentation opportunity is unavailable or inappropriate, use a
-      fictional, historical, public, simulated, or planning-only equivalent and retain the narrower evidence
-      classification.
+    - Use seated delivery, captions, AAC, a recorded or asynchronous talk and additional processing time.
+      No eye-contact quota or memorization requirement applies. A solo rehearsal remains preparation when
+      no audience is available.
   pause_conditions:
   - Pause Public speaking and presentation when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -287,10 +337,7 @@ evidence_and_scoring:
   - c1609_a3_boundary
   - c1609_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Public speaking and presentation action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Public speaking and presentation criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The speaker hid uncertainty with an invented rule or required an unwilling person to serve as an audience.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Public speaking and presentation explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +348,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Public speaking and presentation rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can deliver a coherent talk and improve it using observed audience response.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Public speaking and presentation requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Build a talk around one audience action. Observed checks: One intended
+    audience action guides the structure; The talk has a clear opening sequence and closing; A concrete
+    example explains the process; Unnecessary material is removed rather than spoken faster. Action 2:
+    Rehearse timing access and a likely interruption. Observed checks: Two actual rehearsals occur; Timing
+    is adjusted by editing rather than rushing; Visual information is also conveyed accessibly; An uncertain
+    question receives an honest check-needed response. Action 3: Deliver to a willing audience and revise
+    one observed problem. Observed checks: A willing audience hears the actual talk; A question is handled
+    without inventing information; Comprehension is checked through the audience’s explanation; One observed
+    weakness is revised and redelivered.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Slides were completed but the talk was never spoken
+    or checked for comprehension.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Public
     speaking and presentation contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -317,9 +372,8 @@ evidence_and_scoring:
   - L23
   - L25
   - L33
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Public speaking and presentation evidence.
@@ -327,11 +381,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for public speaking and presentation action was attempted or explicitly
-    deferred.
-  - The rehearse public speaking and presentation twice action was attempted or explicitly deferred.
-  - The use feedback for one public speaking and presentation retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Build a talk around one audience action. Observed checks: One intended audience action
+    guides the structure; The talk has a clear opening sequence and closing; A concrete example explains
+    the process; Unnecessary material is removed rather than spoken faster.'
+  - 'Action 2: Rehearse timing access and a likely interruption. Observed checks: Two actual rehearsals
+    occur; Timing is adjusted by editing rather than rushing; Visual information is also conveyed accessibly;
+    An uncertain question receives an honest check-needed response.'
+  - 'Action 3: Deliver to a willing audience and revise one observed problem. Observed checks: A willing
+    audience hears the actual talk; A question is handled without inventing information; Comprehension
+    is checked through the audience’s explanation; One observed weakness is revised and redelivered.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,57 +401,265 @@ completion_and_review:
     - c1609_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Public speaking and presentation only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Public speaking and presentation across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What did the audience actually misunderstand, and how did your revision change
+    the explanation rather than merely make you feel more polished?
+  transfer_limit: This is a small voluntary presentation, not a public-performance requirement or proof
+    of broad speaking confidence. The audience may be one willing person.
   reflection:
-    before: What does Public speaking and presentation require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Public speaking and presentation criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can deliver a coherent talk and improve it using observed
-      audience response.', what contradiction or missing context matters most, and should this Public
-      speaking and presentation design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Structure, rehearse and deliver a short talk,
+      respond honestly to a question and revise a specific weakness observed by an audience.'
+    during: Which checks have actually been observed? Timing improved in rehearsal, but no audience delivery
+      occurred and audience response remained untested.
+    after: What did the audience actually misunderstand, and how did your revision change the explanation
+      rather than merely make you feel more polished?
   review_guidance:
     repeat: Repeat the same bounded Public speaking and presentation design only when the context and
       burden remain appropriate.
-    adapt: Change the Public speaking and presentation medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use seated delivery, captions, AAC, a recorded or asynchronous talk and additional processing
+      time. No eye-contact quota or memorization requirement applies. A solo rehearsal remains preparation
+      when no audience is available.
     stop: Stop Public speaking and presentation when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Public speaking and presentation questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Public speaking and presentation criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Public speaking and presentation criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Public speaking and presentation criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Public speaking and presentation action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The audience understood borrowing but missed the late-return route, so the speaker added
+      that step and successfully retested the explanation.
+    mixed: Timing improved in rehearsal, but no audience delivery occurred and audience response remained
+      untested.
+    contradictory: The speaker hid uncertainty with an invented rule or required an unwilling person to
+      serve as an audience.
+    inconclusive: Slides were completed but the talk was never spoken or checked for comprehension.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Public speaking and presentation.
+    context_heading: Deliver a three-minute explanation and improve it from audience evidence
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Public speaking
       and presentation.
   check_in_labels:
-    c1609_a1_primary: The bounded Public speaking and presentation criterion for action 1 was observed
+    c1609_a1_primary: 'Observed checks: build a talk around one audience action'
     c1609_a1_boundary: Action 1 stayed inside its stated Public speaking and presentation boundary
     c1609_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1609_a2_primary: The bounded Public speaking and presentation criterion for action 2 was observed
+    c1609_a2_primary: 'Observed checks: rehearse timing access and a likely interruption'
     c1609_a2_boundary: Action 2 stayed inside its stated Public speaking and presentation boundary
     c1609_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1609_a3_primary: The bounded Public speaking and presentation criterion for action 3 was observed
+    c1609_a3_primary: 'Observed checks: deliver to a willing audience and revise one observed problem'
     c1609_a3_boundary: Action 3 stayed inside its stated Public speaking and presentation boundary
     c1609_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Public speaking and
-    presentation practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What did the audience actually misunderstand, and how did your revision change the
+    explanation rather than merely make you feel more polished? Completion is not mastery.
+  plain_language_evidence: The audience understood borrowing but missed the late-return route, so the
+    speaker added that step and successfully retested the explanation.
   display_order: 211
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '16.09'
+  title: 16.09 — Deliver a talk someone can use
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [The 4 Components of Nonviolent Communication — Rosenberg framework teaching sheet](https://www.nonviolentcommunication.com/bookshare/4_components_of_NVC_4_rev_6.20.19.pdf)
+
+      - [Barrett et al. (2019), Emotional Expressions Reconsidered](https://pmc.ncbi.nlm.nih.gov/articles/PMC6640856/)
+
+      - [Publisher correction](https://journals.sagepub.com/doi/10.1177/1529100619889954)
+
+      - [Correction to Huang et al. (2017), It does not hurt to ask (2025)](https://pubmed.ncbi.nlm.nih.gov/40111841/)
+
+      - [Kluger and Malloy (2019), Question asking as a dyadic behavior](https://pubmed.ncbi.nlm.nih.gov/31714108/)
+
+      - [Eyal, Steffel and Epley (2018), Perspective mistaking](https://www.nicholasepley.com/publications)
+
+      - [GSA Digital.gov — Write for the reader](https://digital.gov/guides/plain-language/principles/write-for-reader)
+
+      - [W3C WAI — Making Events Accessible](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)
+
+      - [MIT OpenCourseWare — Giving and Receiving Feedback Activity, Christine Kelly course (2008)](https://ocw.mit.edu/courses/15-277-special-seminar-in-communications-leadership-and-personal-effectiveness-coaching-fall-2008/37362bb8a9db0e92731e53a1a2099373_guide_02.pdf)
+
+      - [Aristotle — Rhetoric, Book I, W. Rhys Roberts translation](https://classics.mit.edu/Aristotle/rhetoric.1.i.html)
+
+      - [Dahlstrom (2014), Using narratives and storytelling to communicate science with nonexpert audiences](https://pubmed.ncbi.nlm.nih.gov/25225368/)
+
+      - [MIT NSE Communication Lab — Delivery and Q&A](https://mitcommlab.mit.edu/nse/commkit/delivery-and-qa/)
+
+      - [Harvard HMS/HSDM/HSPH Ombuds — Seven Elements of Effective Negotiations, Jerome Slavik (2008)](https://hms.harvard.edu/sites/default/files/Departments/Ombuds%20Office/files/SEVEN%20ELEMENTS%20OF%20EFFECTIVE%20NEGOTIATIONS.pdf)
+
+      - [Harvard PON — BATNA Analysis Can Help You Avoid the Agreement Trap (2025)](https://www.pon.harvard.edu/daily/batna/too-eager-to-close-nb/)
+
+      - [Acas — Challenging conversations and how to manage them (July 2014)](https://www.acas.org.uk/sites/default/files/2021-04/challenging-conversations-and-how-to-manage-them.pdf)
+
+      - [Kant and Norman (2019), You Must Be Joking!](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.01380/full)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fictional response: “I write the item code before borrowing. When finished I put it
+      directly on the green-labeled shelf. If it is missing I ask Neri in the group thread.”
+
+
+      The borrowing and help route are represented correctly, but the return location is wrong. Revise
+      and redeliver the return section with an explicit contrast between taking from the shelf and returning
+      to the RETURNS tray. Include marking the return column. Do not spend the revision on a more entertaining
+      opening while leaving the failed step untouched.
+
+
+      The fictional listener then asks, “Does contacting Neri mean I automatically get another week?”
+      Answer no automatic extension is specified; contact begins arranging a new plan. Do not invent a
+      seven-day entitlement. A second fictional explanation gets the tray right but omits the log update.
+      Preserve that residual gap and repair/recheck it if a reader is available. Do not label the whole
+      process mastered.
+
+
+      These outcomes are supplied for diagnosis. They do not substitute for two actual rehearsals, actual
+      delivery or actual audience evidence.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'A presentation succeeds at its purpose when an audience can follow the intended idea or action,
+      including the part that was initially unclear. Slides, rehearsal time and reduced nerves are useful
+      inputs, not evidence of comprehension. Here you prepare a three-minute explanation of a fictional
+      borrowing shelf, rehearse twice, deliver to a willing audience and revise one observed weakness.
+      Allow twenty minutes to prepare, two actual three-minute rehearsals, delivery and ten minutes to
+      repair a section.
+
+
+      ### Structure around the audience''s next action
+
+
+      Choose one purpose: a first-time user should know how to borrow and return an item and where to
+      ask when something is missing. Begin by giving a reason to care, then explain the sequence with
+      a concrete example, and close by restating the action and help route. Transitions tell the audience
+      why the next part follows. A list of details without those connections can be accurate but hard
+      to use.
+
+
+      MIT''s presentation guidance treats rehearsal as a way to revise content and transitions, not simply
+      memorize a script [S11](https://mitcommlab.mit.edu/nse/commkit/delivery-and-qa/). W3C''s event guidance
+      supports accessible advance material and conveying essential information beyond a single sensory
+      channel [S07](https://www.w3.org/WAI/teach-advocate/accessible-presentations/). This companion does
+      not require standing, eye contact, a particular accent, a loud expressive style or unaided speech.
+      Composure includes pausing, using notes and saying when an answer must be checked.
+
+
+      Audience adaptation during delivery can mean slowing at a confusing step, describing a visual, accepting
+      a written question or shortening an aside. Do not infer understanding from nods. You need an actual
+      response to a task, such as the listener explaining where a returned item goes. A question can reveal
+      a missing assumption rather than a weakness in the questioner.
+
+
+      ### Worked example: an unclear return step
+
+
+      A speaker says, “Put it back where you found it and update the card.” In rehearsal they realize
+      the return area is different from the borrowing shelf. They revise: “Place returned items in the
+      tray labeled RETURNS, then mark the return column on your borrowing row. A steward will put the
+      item back on the shelf.” The transition now explains why the tray exists: it gives the steward a
+      chance to check the item.
+
+
+      During delivery, a listener asks whether damaged items also go in that tray. If the rules do not
+      specify a damage process, a composed answer is, “That isn''t covered on this card; please check
+      with the steward before returning a damaged item.” Inventing a fine or repair policy to sound decisive
+      would undermine the explanation. The example is a rehearsal model, not an actual audience result.
+
+
+      ### Your complete fictional shelf rules
+
+
+      Only items with a green BORROW label may be borrowed. Read the item''s own use instructions; this
+      practice teaches the shelf process, not safe operation of equipment. Before taking an item, write
+      the item code, your chosen borrower label and planned return day on the paper log. Do not add private
+      contact details. Return it to the RETURNS tray and mark the return column. Steward Neri checks the
+      tray and puts items back. If an item is missing, ask Neri through the existing group message thread.
+      If you cannot return it on the planned day, contact Neri to discuss a new plan; no extension is
+      automatic. The rules specify no fine, damage procedure or ability to reserve an item.
+
+
+      Use one page or at most three simple slides. No slide file or public upload is necessary. Keep essential
+      instructions available as text or spoken/signed description as appropriate. The audience may be
+      one willing person. If none is available, complete preparation and mark audience delivery and response
+      unattempted.
+
+
+      1. **Build the three-minute route.** Write the intended audience action, an opening, the borrowing/return
+      sequence, a missing-item route and a close. Include a concrete green-labeled item example. Remove
+      details that do not serve the action. Output: a complete outline or script and any accessible support
+      page.
+
+      2. **Rehearse twice in the actual delivery form.** On pass one, record the actual duration and where
+      sequence or timing breaks. On pass two, edit excess material rather than accelerating everything,
+      describe essential visuals and pause after a key instruction. Insert “What if I cannot return it
+      on time?” and answer from the supplied rules. Output: two actual rehearsal durations, a change between
+      them and an uncertainty response. Imagining delivery is not a timed rehearsal.
+
+      3. **Deliver and hear a question.** With consent, present to the audience and invite a question
+      through their usable channel. Let the question finish, clarify if necessary, then answer within
+      the known rules. Do not record anyone without agreement. Output: delivery status and an actual question/response,
+      or explicit pending status.
+
+      4. **Test and repair comprehension.** Ask the listener to explain borrowing, return location and
+      missing-item help in their own words before you supply the answer. Identify one observed weakness,
+      revise that section and redeliver it. Then open the [later packet](?resource=file-later-packet-md)
+      for the separate fictional outcome. Output: audience response, targeted repair and retest result
+      or remaining gap.
+
+
+      ### Transfer the method, not a performance ideal
+
+
+      For support, use seated delivery, notes, AAC, captions, interpretation, recorded/asynchronous delivery
+      or a longer response window. An asynchronous audience must actually access and respond before it
+      supplies audience evidence. The three-minute target is a practice constraint, not a universal pace
+      requirement; agree a reasonable accommodation and record it. Do not penalize the access support
+      as evidence of poor speaking.
+
+
+      For a harder attempt, the visual aid fails. Explain the route from your outline and offer the essential
+      text afterward in a usable way. Alternatively, handle a question whose answer is genuinely absent
+      from the rules. State the limit, name who can verify it and keep the unresolved answer visible instead
+      of filling the silence with invented policy.
+
+
+      For real transfer, explain one harmless process you understand and are authorized to describe. Verify
+      its current rules, rehearse, deliver and ask for a task-based account. Compare the same section
+      before and after revision. Your improved confidence may matter to you, but the separate question
+      is what the audience could understand and use. The [fresh checks](?attempt=practice-checks) help
+      keep those outcomes separate.'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A talk must fit roughly four minutes. Your rehearsal takes six. Why might speaking 50% faster
+      be a poor first repair, and what should you change instead?
+
+      2. A listener applauds but explains the steps in the wrong order. What evidence should guide the
+      next revision?
+
+      3. During Q&A you are asked about a policy absent from your source. Give a composed response and
+      state what remains unresolved afterward.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Compressing the same material into less time can damage comprehension and access. Identify
+      the audience''s essential action, remove nonessential content, strengthen transitions and rehearse
+      the edited version. If accommodation requires more time, agree and record that separately; the numerical
+      target is not proof of delivery quality.
+
+      2. Use the actual sequencing error to revise the relevant transition or example, then ask for another
+      uncoached account. Applause shows a reaction, not correct procedural understanding. Do not redesign
+      a successful section merely because it is easier to polish.
+
+      3. For example: “That policy isn''t in the material I verified. I need to check with the responsible
+      organizer before giving you an answer.” Clarify the question and use an authorized follow-up route
+      if available. The answer remains pending until actually verified; confidence cannot fill the gap.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

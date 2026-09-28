@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0908-ROOT-CAUSE-PROBLEM-SOLVING-01
 slug: c0908-root-cause-problem-solving-practice
-name: Bounded Root-cause problem solving Practice
+name: Test competing causes of one recurring low-stakes failure
 parent_competency_id: '09.08'
 domain_id: 09
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 09.08
-      (Root-cause problem solving); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 09.08; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,38 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Root-cause problem solving through a low-stakes skill rehearsal bounded by the canonical
-    scope: Define the problem, distinguish symptoms from causes, gather evidence, test hypotheses, and
-    verify improvement.'
-  why_recommended: 'The parent competency identifies this limited evidence target: A recurring problem
-    improves through a documented causal process. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Define a repeatable problem, distinguish symptoms from causal hypotheses, change one safe variable
+    and verify whether the problem actually improves.
+  why_recommended: Define a repeatable problem, distinguish symptoms from causal hypotheses, change one
+    safe variable and verify whether the problem actually improves.
   claims:
-  - statement: Using the canonical scope and evidence target for Root-cause problem solving is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Define a repeatable problem, distinguish symptoms from causal hypotheses, change one safe
+      variable and verify whether the problem actually improves.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Root-cause problem solving practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Root-cause problem solving as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Root-cause problem
-    solving context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Root-cause
-    problem solving; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use icons, a tally or an accessible location aid. A tabletop simulation can
+    practice hypothesis discrimination but cannot establish an improvement in your routine. Stop where
+    the problem involves electricity, machinery, injury, essential care or another person’s privacy.
+  opportunity_considerations: 'Default problem: a needed reusable item is often not where you expect it.
+    Use a harmless item you control, such as a notebook. Record when it is needed, its expected location
+    and where it was actually found. Do not track another person or search their belongings.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Root-cause problem solving.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default problem: a needed reusable item is often not where you expect it. Use a harmless item you
+    control, such as a notebook. Record when it is needed, its expected location and where it was actually
+    found. Do not track another person or search their belongings.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Root-cause problem solving instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use icons, a tally or an accessible location aid. A tabletop simulation can practice hypothesis discrimination
+    but cannot establish an improvement in your routine. Stop where the problem involves electricity,
+    machinery, injury, essential care or another person’s privacy.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +79,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Root-cause problem solving actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Root-cause problem solving; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Root-cause
-    problem solving. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Root-cause problem solving actions, and
-    review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default problem: a needed reusable item is often not where you expect it. Use a harmless item
+    you control, such as a notebook. Record when it is needed, its expected location and where it was
+    actually found. Do not track another person or search their belongings. Goal: Define a repeatable
+    problem, distinguish symptoms from causal hypotheses, change one safe variable and verify whether
+    the problem actually improves. Scope: This is a bounded root-cause inquiry. One successful retry does
+    not prove a unique root cause, and hazardous, medical or regulated failures require appropriate professionals.
+    Time and effort: Fifteen minutes to define the problem, three to five ordinary opportunities for observation,
+    and twenty minutes for the comparison. Adaptation: Use icons, a tally or an accessible location aid.
+    A tabletop simulation can practice hypothesis discrimination but cannot establish an improvement in
+    your routine. Stop where the problem involves electricity, machinery, injury, essential care or another
+    person’s privacy. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use icons, a tally or an accessible location aid. A tabletop simulation can practice
+    hypothesis discrimination but cannot establish an improvement in your routine. Stop where the problem
+    involves electricity, machinery, injury, essential care or another person’s privacy.
+  expected_burden: Fifteen minutes to define the problem, three to five ordinary opportunities for observation,
+    and twenty minutes for the comparison.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Root-cause problem solving protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +106,25 @@ intervention:
   - Treating a completed Root-cause problem solving action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Root-cause problem solving situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use icons,
+    a tally or an accessible location aid. A tabletop simulation can practice hypothesis discrimination
+    but cannot establish an improvement in your routine. Stop where the problem involves electricity,
+    machinery, injury, essential care or another person’s privacy.
   actions:
   - stable_id: PRACTICE-COMP-0908-ROOT-CAUSE-PROBLEM-SOLVING-01-A1
     sequence: 1
-    title: Define observable criteria for Root-cause problem solving
-    instructions: 'Select one safe, lawful, low-stakes component of Root-cause problem solving. Build
-      a three-to-five-item rubric from this scope, including an error or stop criterion: Define the problem,
-      distinguish symptoms from causes, gather evidence, test hypotheses, and verify improvement.'
+    title: Define the failure and preserve a small baseline
+    instructions: 'Describe the problem as notebook unavailable at the chosen work start, not I am disorganized.
+      On two ordinary opportunities, note the expected and actual location, the preceding activity and
+      the interruption caused. List at least two plausible causes: the return location is unclear, or
+      the notebook is needed in two places. Missing observations stay missing; do not reconstruct exact
+      details from a general impression.
+
+
+      Observation checks: The failure has an observable definition; Two baseline opportunities or honest
+      missing data are recorded; At least two distinct causal hypotheses are listed; Character judgments
+      are not treated as causes. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +146,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0908_a1_skill_component_bounded
-        - c0908_a1_observable_rubric_present
-        - c0908_a1_error_or_stop_defined
+        - the_failure_has_an_observable_definition
+        - two_baseline_opportunities_or_honest_missing_data_are_recorded
+        - at_least_two_distinct_causal_hypotheses_are_listed
+        - character_judgments_are_not_treated_as_causes
       - measurement_id: c0908_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +166,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0908-ROOT-CAUSE-PROBLEM-SOLVING-01-A2
     sequence: 2
-    title: Rehearse Root-cause problem solving twice
-    instructions: Perform two bounded attempts of the selected Root-cause problem solving component under
-      comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact; do not
-      require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Choose a discriminating test rather than a convenient fix
+    instructions: 'For the unclear-location hypothesis, place a clearly marked return spot where the notebook
+      is usually set down, leaving the work task and item unchanged. Predict what should improve if that
+      hypothesis is right and what finding would favor the two-location explanation instead. Use three
+      ordinary opportunities and keep the old arrangement reversible. Do not change several variables
+      at once and then assign credit to your favorite.
+
+
+      Observation checks: One variable is changed with authority; The competing hypotheses predict different
+      observations; The test has a fixed opportunity count; The change is reversible and other major changes
+      are noted. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +193,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c0908_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - one_variable_is_changed_with_authority
+        - the_competing_hypotheses_predict_different_observations
+        - the_test_has_a_fixed_opportunity_count
+        - the_change_is_reversible_and_other_major_changes_are_noted
       - measurement_id: c0908_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +219,36 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0908-ROOT-CAUSE-PROBLEM-SOLVING-01-A3
     sequence: 3
-    title: Use feedback for one Root-cause problem solving retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: A recurring
-      problem improves through a documented causal process.'
+    title: Verify the result and decide what remains unexplained
+    instructions: 'Compare baseline and test opportunities using the same definition of unavailable. Note
+      whether the item was easier to find, merely moved to a different inconvenient place, or still failed
+      under one recurring condition. Retain, revise or reject the hypothesis and write the next smallest
+      test. Improvement counts as a useful observation, not proof that all future failures share the same
+      cause.
+
+
+      Observation checks: Baseline and test use the same outcome definition; Displacement and recurring
+      exceptions are retained; The causal conclusion matches the strength of evidence; A next test or
+      maintenance decision is explicit. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.
+
+
+      Final review: Which observation distinguished the proposed cause from a plausible alternative, and
+      what failure mode remains?
+
+
+      Examples: Supportive: The marked return spot helped on ordinary days but not when the notebook was
+      used elsewhere, leading to a narrower two-location explanation.
+
+
+      Mixed: The item became easier to find, but several simultaneous changes made the cause uncertain.
+
+
+      Contradictory: The exercise blamed someone without evidence or used an unsafe repair as an experiment.
+
+
+      Inconclusive: A solution was announced without a baseline, competing hypothesis or verification
+      opportunity.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +270,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0908_a3_feedback_item_selected
-        - c0908_a3_adjustment_traceable
-        - c0908_a3_retry_result_preserved
+        - baseline_and_test_use_the_same_outcome_definition
+        - displacement_and_recurring_exceptions_are_retained
+        - the_causal_conclusion_matches_the_strength_of_evidence
+        - a_next_test_or_maintenance_decision_is_explicit
       - measurement_id: c0908_a3_boundary
         kind: boolean
         role: supporting
@@ -245,16 +294,17 @@ intervention:
       Root-cause problem solving; no purchase, subscription, travel, credential, or public artifact is
       required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Root-cause problem solving; assistive technology, interpretation, a support person, and
-      a deferred action are valid without penalty.
+    - Use icons, a tally or an accessible location aid. A tabletop simulation can practice hypothesis
+      discrimination but cannot establish an improvement in your routine. Stop where the problem involves
+      electricity, machinery, injury, essential care or another person’s privacy.
     cultural_context:
     - Adapt the expression of Root-cause problem solving to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Root-cause problem solving opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use icons, a tally or an accessible location aid. A tabletop simulation can practice hypothesis
+      discrimination but cannot establish an improvement in your routine. Stop where the problem involves
+      electricity, machinery, injury, essential care or another person’s privacy.
   pause_conditions:
   - Pause Root-cause problem solving when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -286,10 +336,7 @@ evidence_and_scoring:
   - c0908_a3_boundary
   - c0908_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Root-cause problem solving action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Root-cause problem solving criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The exercise blamed someone without evidence or used an unsafe repair as an experiment.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Root-cause problem solving explicitly; support can enable access and never reduces dignity or
     silently changes the typed value.
@@ -299,14 +346,22 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Root-cause problem solving rules withhold observations older than 90 days; no
     unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—A recurring problem improves through a documented causal process.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Root-cause problem solving requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Define the failure and preserve a small baseline. Observed checks: The
+    failure has an observable definition; Two baseline opportunities or honest missing data are recorded;
+    At least two distinct causal hypotheses are listed; Character judgments are not treated as causes.
+    Action 2: Choose a discriminating test rather than a convenient fix. Observed checks: One variable
+    is changed with authority; The competing hypotheses predict different observations; The test has a
+    fixed opportunity count; The change is reversible and other major changes are noted. Action 3: Verify
+    the result and decide what remains unexplained. Observed checks: Baseline and test use the same outcome
+    definition; Displacement and recurring exceptions are retained; The causal conclusion matches the
+    strength of evidence; A next test or maintenance decision is explicit.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A solution was announced without a baseline, competing
+    hypothesis or verification opportunity.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Root-cause
     problem solving contribution under typed evaluation; protocol performance remains distinct and is
     never counted twice.
@@ -315,9 +370,8 @@ evidence_and_scoring:
   - L12
   - L14
   - L32
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Root-cause problem solving evidence.
@@ -325,10 +379,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for root-cause problem solving action was attempted or explicitly deferred.
-  - The rehearse root-cause problem solving twice action was attempted or explicitly deferred.
-  - The use feedback for one root-cause problem solving retry action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Define the failure and preserve a small baseline. Observed checks: The failure has an observable
+    definition; Two baseline opportunities or honest missing data are recorded; At least two distinct
+    causal hypotheses are listed; Character judgments are not treated as causes.'
+  - 'Action 2: Choose a discriminating test rather than a convenient fix. Observed checks: One variable
+    is changed with authority; The competing hypotheses predict different observations; The test has a
+    fixed opportunity count; The change is reversible and other major changes are noted.'
+  - 'Action 3: Verify the result and decide what remains unexplained. Observed checks: Baseline and test
+    use the same outcome definition; Displacement and recurring exceptions are retained; The causal conclusion
+    matches the strength of evidence; A next test or maintenance decision is explicit.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -337,56 +399,508 @@ completion_and_review:
     - c0908_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Root-cause problem solving only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Root-cause problem solving across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which observation distinguished the proposed cause from a plausible alternative,
+    and what failure mode remains?
+  transfer_limit: This is a bounded root-cause inquiry. One successful retry does not prove a unique root
+    cause, and hazardous, medical or regulated failures require appropriate professionals.
   reflection:
-    before: What does Root-cause problem solving require in this exact context, what remains outside my
-      role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Root-cause problem solving criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'A recurring problem improves through a documented causal process.',
-      what contradiction or missing context matters most, and should this Root-cause problem solving design
-      be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Define a repeatable problem, distinguish symptoms
+      from causal hypotheses, change one safe variable and verify whether the problem actually improves.'
+    during: Which checks have actually been observed? The item became easier to find, but several simultaneous
+      changes made the cause uncertain.
+    after: Which observation distinguished the proposed cause from a plausible alternative, and what failure
+      mode remains?
   review_guidance:
     repeat: Repeat the same bounded Root-cause problem solving design only when the context and burden
       remain appropriate.
-    adapt: Change the Root-cause problem solving medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use icons, a tally or an accessible location aid. A tabletop simulation can practice hypothesis
+      discrimination but cannot establish an improvement in your routine. Stop where the problem involves
+      electricity, machinery, injury, essential care or another person’s privacy.
     stop: Stop Root-cause problem solving when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Root-cause problem solving questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Root-cause problem solving criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Root-cause problem solving criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Root-cause problem solving criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Root-cause problem solving action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: The marked return spot helped on ordinary days but not when the notebook was used elsewhere,
+      leading to a narrower two-location explanation.
+    mixed: The item became easier to find, but several simultaneous changes made the cause uncertain.
+    contradictory: The exercise blamed someone without evidence or used an unsafe repair as an experiment.
+    inconclusive: A solution was announced without a baseline, competing hypothesis or verification opportunity.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Root-cause problem solving.
+    context_heading: Test competing causes of one recurring low-stakes failure
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Root-cause
       problem solving.
   check_in_labels:
-    c0908_a1_primary: The bounded Root-cause problem solving criterion for action 1 was observed
+    c0908_a1_primary: 'Observed checks: define the failure and preserve a small baseline'
     c0908_a1_boundary: Action 1 stayed inside its stated Root-cause problem solving boundary
     c0908_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0908_a2_primary: The bounded Root-cause problem solving criterion for action 2 was observed
+    c0908_a2_primary: 'Observed checks: choose a discriminating test rather than a convenient fix'
     c0908_a2_boundary: Action 2 stayed inside its stated Root-cause problem solving boundary
     c0908_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0908_a3_primary: The bounded Root-cause problem solving criterion for action 3 was observed
+    c0908_a3_primary: 'Observed checks: verify the result and decide what remains unexplained'
     c0908_a3_boundary: Action 3 stayed inside its stated Root-cause problem solving boundary
     c0908_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Root-cause problem
-    solving practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which observation distinguished the proposed cause from a plausible alternative, and
+    what failure mode remains? Completion is not mastery.
+  plain_language_evidence: The marked return spot helped on ordinary days but not when the notebook was
+    used elsewhere, leading to a narrower two-location explanation.
   display_order: 115
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '09.08'
+  title: 09.08 — Root-cause problem solving
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Systems reasoning](https://ocw.mit.edu/courses/15-871-introduction-to-system-dynamics-fall-2013/pages/syllabus/)
+
+      - [Discriminating tests and multiple factors](https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm)
+
+      - [Discriminating tests and multiple factors](https://www.itl.nist.gov/div898/handbook/pri/section3/pri331.htm)
+
+      - [Discriminating tests and multiple factors](https://www.itl.nist.gov/div898/handbook/pri/section3/pri3331.htm)
+
+      - [Decisions among constrained alternatives](https://www.nasa.gov/reference/6-8-decision-analysis/)'
+  - id: file-test-results-md
+    title: Test results
+    body: 'Open after recording predictions and running the four conditions. These are deterministic fictional
+      outputs, not collected participant observations.
+
+
+      | Condition | Attempted | Violations | Correctly completed | Held |
+
+      | --- | --- | --- | --- | --- |
+
+      | V1/full | 8 | 4 | 4 | 0 |
+
+      | V2/full | 8 | 0 | 8 | 0 |
+
+      | V1/masked | 8 | 8 | 0 | 0 |
+
+      | V2/masked | 8 | 0 | 0 | 8 |
+
+
+      For V1/full, 12, 21, 34, and 43 are misrouted; 11, 22, 33, and 44 happen to be routed correctly.
+      V1''s first-digit rule is therefore defective even when followed without an attention lapse.
+
+
+      For masked inputs, Spec S2 requires H. A V1 guess that happens to match the hidden original destination
+      is not compliant completion from the available information. V2/masked prevents that violation but
+      cannot complete the records. The model supports both a wrong-rule contributor and an upstream information-loss
+      contributor.
+
+
+      The fresh V2/full deck routes **R, L, R, L, R, L, R, L**, giving 8 compliant completions, no violations,
+      and no holds. The separate four malformed or incomplete codes all produce H. Keep those two tests
+      and their denominators separate.
+
+
+      Among all 100 full two-digit ASCII codes, V1 disagrees with the correct routing on 50 and V2 disagrees
+      on none. This exhausts only the stated finite domain. It does not test reading errors, behavior,
+      or a physical feed.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### What you are practicing
+
+
+      Turn a recurring failure into an observable question, compare explanations that predict different
+      results, and verify a correction on fresh cases. A plausible explanation is a starting point; a
+      fix that looks successful is not automatically evidence of a unique root cause.
+
+
+      **Canonical scope:** Define the problem, distinguish symptoms from causes, gather evidence, test
+      hypotheses, and verify improvement.
+
+
+      **Deliverable:** A problem definition, competing-hypothesis table, four-condition paper test, fresh
+      verification record, and maintenance decision. Allow about 40 minutes. Use paper cards, a text editor,
+      a calculator, or dictation. You need no electrical equipment, live service, other participant, or
+      private data.
+
+
+      The default is a deterministic simulation. It can establish what the specified routing rules do,
+      but not that an actual person''s routine improved. The canonical progress indicator concerning a
+      recurring real problem remains untested until a suitable real process is observed. Use this material
+      to practice the reasoning and inspect your answer.
+
+
+      ### A reference for causal investigation
+
+
+      A **symptom** is the observed failure: a form reaches the wrong tray. A **cause hypothesis** proposes
+      a mechanism: the instruction uses the wrong digit. “People are careless” is neither a measured mechanism
+      nor a discriminating explanation. A process may have several interacting contributors rather than
+      one privileged cause.
+
+
+      A **baseline** records outcomes before the proposed correction using a fixed definition and denominator.
+      Preserve missing cases. A **containment** limits immediate consequences without necessarily removing
+      the cause; holding an unreadable form is containment. A **corrective action** changes the proposed
+      mechanism. **Verification** asks whether the correction works on suitable new opportunities and
+      whether it creates another problem.
+
+
+      A **discriminating test** produces different expected observations under competing explanations.
+      Changing one variable while holding others fixed can make a comparison clearer. It is not a universal
+      rule that every investigation must change only one factor forever: a planned set of combinations
+      can expose interacting conditions. NIST''s experimental-design references in SOURCES.md distinguish
+      design choice, factors, and run order. Our four-condition exercise is a stipulated model, not a
+      randomized human trial.
+
+
+      Separate observation, hypothesis, intervention, and conclusion in your record. Keep your initial
+      explanation even when it loses support. Repeating a successful test on the same cases is useful
+      regression checking; fresh cases check something additional. Neither replaces the other.
+
+
+      ### A different worked example: an unreadable address
+
+
+      A postcard lacks its final address line. Holding it for clarification prevents a guessed delivery,
+      but does not supply the missing address. Reporting “zero wrong deliveries” while every postcard
+      remains on hold would hide a service failure. A complete correction needs the right information
+      and a process that uses it correctly.
+
+
+      This example separates safe containment from effective completion. It also explains why a denominator
+      needs categories beyond success/failure: correctly completed, incorrectly handled, held, and unobserved
+      can mean different things.
+
+
+      ### Complete practice packet: the paper-routing desk
+
+
+      A fictional club routes paper slips. A valid code has **exactly two ASCII digits**, such as 12 or
+      77. Its **last digit** determines the destination: odd goes **L**, even goes **R**. If either digit
+      is missing or the code is malformed, the correct action is **H**, hold for clarification. “1?” therefore
+      belongs in H, not a guessed tray.
+
+
+      This is the authoritative task requirement, called **Spec S2**. It applies regardless of what a
+      posted instruction card says. A lucky destination guess is still an incorrect handling decision
+      when the visible information requires H.
+
+
+      The posted old card, **Card V1**, instructs the clerk to use the **first digit** and ignores whether
+      the second digit is visible. The proposed new card, **Card V2**, instructs the clerk to validate
+      the two-digit code, hold any invalid code, and otherwise route using the last digit. In this simulation
+      the clerk follows the selected card exactly. This assumption removes attention, memory, and practice
+      effects; it cannot tell us how real people respond to either card.
+
+
+      #### Input deck and feed conditions
+
+
+      The complete baseline deck is:
+
+
+      `12, 21, 34, 43, 11, 22, 33, 44`
+
+
+      **Full feed** shows both digits. **Masked feed** replaces the second digit with a question mark,
+      retaining order:
+
+
+      `1?, 2?, 3?, 4?, 1?, 2?, 3?, 4?`
+
+
+      These are two representations of eight corresponding records, not sixteen independent sampled people.
+      The hidden original digits are provided for author checking only; a clerk receiving the masked feed
+      must not use them to guess. No records are dropped because they are inconvenient.
+
+
+      For each attempted record, log these fields:
+
+
+      `Record number | original code | visible code | card version | required handling from visible code
+      | chosen handling | compliant? | completed L/R or held H`
+
+
+      A valid full code correctly sent to L/R is completed. H is appropriate containment for unreadable
+      input, but is not completed delivery. Count **total attempts, compliant decisions, violations, correctly
+      completed, wrongly routed or guessed, and held**. These are related categories, not numbers to add
+      indiscriminately: compliant decisions include both correct completion and appropriate holds.
+
+
+      #### Action 1 — Define the problem and make competing predictions
+
+
+      State the problem without a character judgment: “The desk does not consistently complete slips according
+      to Spec S2.” Name the outcomes you will measure and preserve the eight-record denominator for every
+      condition. Distinguish incorrect handling from noncompletion.
+
+
+      Write at least these three candidate explanations and their predictions:
+
+
+      - **H1: The posted digit-selection rule is wrong.** Changing V1 to V2 should remove full-feed misrouting
+      without changing the input deck.
+
+      - **H2: The feed loses information needed for completion.** Even a correct card should be unable
+      to complete masked records without clarification.
+
+      - **H3: The problem is only attention or insufficient effort.** A simulated clerk following explicit
+      instructions exactly can help test whether the written process itself already contains a defect.
+      It cannot rule out attention effects in a different real setting.
+
+
+      Use `hypothesis | expected contrast | observation that would count against it | what this simulation
+      cannot test`. Do not frame H1 and H2 as mutually exclusive merely to force one winner. A symptom
+      can have both an incorrect rule and unusable input upstream.
+
+
+      Before revealing any result, predict how each of the four conditions should differ. In particular,
+      state whether “fewer wrong routes” will necessarily mean “more correct completions.”
+
+
+      #### Action 2 — Run the four conditions and retain every record
+
+
+      Apply V1/full, V2/full, V1/masked, and V2/masked separately to the same baseline deck. Reset the
+      deck between conditions. Follow each written card literally; do not silently improve V1 because
+      you know the correct specification.
+
+
+      For V1, use the first visible digit: odd L, even R. For V2, first require exactly two ASCII digits;
+      otherwise H. Then use the last digit: odd L, even R. You can move cards, speak their destinations,
+      or write them. Log assistance and any actual departure from the simulated rule.
+
+
+      Make a summary:
+
+
+      `Condition | attempted | violations | correctly completed | held | what mechanism this contrast
+      supports`
+
+
+      Compare V1/full with V2/full to isolate the instruction difference in this stipulated process. Compare
+      V2/full with V2/masked to isolate information availability under the corrected instruction. An observational
+      “before” with full inputs and an “after” with masked inputs would mix factors and obscure the interpretation.
+
+
+      Keep the test safe and synthetic. A real counterbalanced or randomized run can help with order and
+      learning effects when appropriate, but a fixed sequence on yourself would not become an independent
+      trial simply because it has four rows. Do not claim a p-value or human causal effect from the model''s
+      stipulated behavior.
+
+
+      After saving the predictions and all records, open **test-results.md**. Treat any mismatch as a
+      reason to inspect the exact rule, visible input, or your recording before declaring the answer wrong.
+
+
+      #### Action 3 — Verify on fresh inputs and define what is actually fixed
+
+
+      For the candidate corrected process, use V2 and full inputs on this fresh deck:
+
+
+      `58, 85, 66, 77, 92, 29, 24, 35`
+
+
+      The acceptance target is **8 correctly completed, 0 violations, and 0 holds**. Keep the same definitions
+      as baseline. This tests new code combinations, not durability across time or contexts.
+
+
+      Then deliberately challenge the paper rule with `8?`, `?2`, `123`, and `A2`. Each should be H. This
+      is a separate invalid-input test with **4 appropriate holds**, not an extension of the completed-delivery
+      denominator. Never count these four safe holds as four completed slips. No real record or service
+      is modified for the challenge.
+
+
+      Write the correction as a two-part process requirement: maintain the correct card and deliver complete
+      usable codes. The masking test shows why updating the card alone cannot restore completion when
+      the upstream feed still clips information. Do not quietly assume the real upstream problem has been
+      fixed because the synthetic full deck works.
+
+
+      Create a maintenance record:
+
+
+      `Spec version | exact card version | tested feed conditions | baseline and verification decks |
+      acceptance result | unresolved failure | owner/authority | recheck trigger | reversible fallback`
+
+
+      A suitable recheck trigger is any instruction or input-format change. The fallback for ambiguous
+      input is clarification or H, not reinstating a known wrong rule. In an actual low-stakes process,
+      retain unedited observations, record context changes, and inspect whether completion stays improved
+      without burden being moved elsewhere. Missing opportunities remain missing.
+
+
+      ### Fresh checks, Accessibility, and progression
+
+
+      Complete both checks in **check-prompts.md** before reading **check-answers.md**. One tests a confounded
+      explanation; the other tests an improvement claim that hides held work. Their evidence limits differ
+      from deterministic code routing.
+
+
+      For Accessibility, use large code cards, audio digits, or a reader who states exactly the visible
+      code. Keep the missing marker explicit; a helper must not fill in a hidden digit. Use the same outcome
+      categories even when speaking the record. There is no speed criterion.
+
+
+      For a more demanding route, enumerate every two-digit code from 00 to 99 under full inputs. Record
+      how many V1 routes differ from Spec S2 and whether V2 matches every one. That is exhaustive verification
+      for this finite two-digit rule, not proof about arbitrary strings, ambiguous printing, or actual
+      clerks. Extend a domain only after defining its validation requirements.
+
+
+      For live transfer, choose a harmless process you control and a fixed opportunity window. Preserve
+      at least two competing explanations, a baseline, a discriminating change, and verification using
+      the same outcome definition. Avoid experiments involving electricity, machinery, essential care,
+      confidential records, or another person''s belongings. Seek appropriate expertise for consequential
+      failures.
+
+
+      ### How to interpret your result
+
+
+      **Supportive:** The problem and denominator are fixed; the four conditions separate rule error from
+      missing information; fresh tests distinguish completion from appropriate containment; the remaining
+      upstream issue is acknowledged.
+
+
+      **Mixed:** V2/full works, but the learner calls every H a success or generalizes the result to human
+      attention without evidence.
+
+
+      **Contradictory:** The clerk guesses masked codes, inconvenient records disappear, or a corrected
+      card is declared a complete fix while the feed remains unreadable.
+
+
+      **Inconclusive:** A preferred solution is announced without preserved baseline, competing predictions,
+      record-level checks, or fresh verification. The real-world progress indicator remains open after
+      simulation alone.
+
+
+      **Final review:** Which contrast discriminated between explanations, which mechanism remains unresolved,
+      and what evidence would justify calling the process improved rather than merely contained?'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'These fictional records require no experiment on a real person or their belongings. Save your
+      answers before opening the keys.
+
+
+      ### Check A — A convenient fix and a confounded comparison
+
+
+      A person''s notebook is available on two recorded desk-work days and unavailable on two recorded
+      away-work days. They add a bright return label and also stop working away from the desk. On the
+      next four desk-work days it is available. They conclude, “The label fixed the cause.” No other observations
+      are supplied.
+
+
+      Define the failure and at least two explanations. Explain which variables changed together, what
+      the before/after comparison establishes, and what it does not. Propose a harmless observation or
+      controlled comparison that could distinguish the label explanation from the work-location explanation.
+      Do not deliberately make an essential item unavailable to create a failure.
+
+
+      For a separate fictional follow-up, the record contains two opportunities for each combination:
+      no label/desk 2 available of 2; label/desk 2 of 2; no label/away 0 of 2; label/away 0 of 2. State
+      the narrow pattern this supports and why it does not prove that labels never help anyone.
+
+
+      ### Check B — Zero errors can hide incomplete service
+
+
+      Before a change, 20 fictional records include 14 correctly completed, 6 incorrectly routed, and
+      0 held. After a change, another 20 include 8 correctly completed, 0 incorrectly routed, and 12 held
+      for missing information. No records are missing, and the held records have not been completed.
+
+
+      Calculate the incorrect-routing rate, completed-correctly rate, and held rate in both groups. Evaluate
+      the announcement “We fixed the process: zero wrong routes.” Distinguish what improved from what
+      remains unsatisfactory and name an upstream question.
+
+
+      A later verification group under a corrected feed and corrected rule has 20 correctly completed,
+      0 wrongly routed, and 0 held. What additional evidence does that supply? What future reliability
+      or unique-cause claim would still exceed these three fictional summaries?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '### Check A — Key
+
+
+      A measurable failure is notebook unavailable at the chosen work start in the recorded context. Label
+      clarity and work location are distinct proposed contributors. The intervention changes both label
+      and location pattern. Four subsequent available desk opportunities show availability in those observed
+      conditions; they do not isolate the label''s effect. The baseline already contained successful desk
+      days.
+
+
+      A discriminating plan could observe naturally occurring desk and away opportunities with context
+      recorded, or use a harmless spare notebook in a reversible rehearsal. A planned comparison would
+      vary label while keeping a comparable location, task, and opportunity definition, and separately
+      examine the location effect. It must not remove a needed aid or engineer a disruptive loss.
+
+
+      In the separate follow-up, availability matches location across the supplied combinations and does
+      not differ by label within either location. That pattern favors investigating the two-location handoff
+      rather than crediting the label. With only two opportunities per cell and no broader sampling or
+      assignment details, it does not establish a universal causal law or prove labels ineffective elsewhere.
+
+
+      **Repair:** Preserve the successful change but narrow the attribution: “Availability improved after
+      changing the routine; the available comparison cannot attribute that improvement to the label alone.”
+      Then specify a safe, genuinely discriminating next observation.
+
+
+      ### Check B — Key
+
+
+      Before: incorrectly routed 6/20 = 30%; correctly completed 14/20 = 70%; held 0/20 = 0%.
+
+
+      After: incorrectly routed 0/20 = 0%; correctly completed 8/20 = 40%; held 12/20 = 60%.
+
+
+      Avoiding wrong routes is a real improvement in that metric. Correct completion nevertheless falls
+      from 70% to 40% in the supplied groups. Appropriate containment is not completed service. Ask why
+      required information is missing, whether the rule requires it appropriately, and how it can be obtained
+      without unsafe guessing or hidden burden.
+
+
+      The later group reaches 20/20 correctly completed with no wrong routes or holds under its reported
+      conditions. It supplies a further verification result for the combined corrected rule and feed.
+      It does not prove a permanent zero-error rate, eliminate all future failure modes, or establish
+      a unique cause independently of those conditions.
+
+
+      **Repair:** Report all three outcome categories with their denominators. State the improved mechanism,
+      remaining bottleneck, and fresh verification result separately. Do not enlarge the success numerator
+      by counting appropriate holds as delivered records.
+
+
+      ### Main-practice review
+
+
+      Use test-results.md for the exact four-condition and fresh-deck outputs. A convincing explanation
+      identifies the wrong digit-selection rule as a structural defect in V1, identifies masked information
+      as a separate obstacle, and retains both findings. H3 about attention is not needed to explain the
+      simulated defect, but real-world attention effects remain untested.
+
+
+      The exhaustive 100-code test and a small live trial would answer different questions. The former
+      checks every element of a stipulated finite input domain. The latter could inform actual usability,
+      context, and adherence, while requiring authority, records, and cautious interpretation. Neither
+      is automatic formal acceptance or proof of mastery.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1107-PACING-AND-SUSTAINABLE-INTENSITY-01
 slug: c1107-pacing-and-sustainable-intensity-practice
-name: Bounded Pacing and sustainable intensity Practice
+name: Choose a sustainable pace for one demanding commitment
 parent_competency_id: '11.07'
 domain_id: '11'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 11.07
-      (Pacing and sustainable intensity); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 11.07; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Pacing and sustainable intensity through a bounded audit and redesign bounded by
-    the canonical scope: Match effort to urgency, duration, health, quality, and the importance of the
-    outcome.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can sprint, maintain,
-    or recover deliberately rather than using one pace for everything. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Match effort to urgency, duration, health, quality and importance, distinguishing a bounded
+    sprint from maintenance and recovery rather than treating maximal intensity as the default.
+  why_recommended: Match effort to urgency, duration, health, quality and importance, distinguishing a
+    bounded sprint from maintenance and recovery rather than treating maximal intensity as the default.
   claims:
-  - statement: Using the canonical scope and evidence target for Pacing and sustainable intensity is a
-      traceable product-design basis for a source-only draft protocol.
+  - statement: Match effort to urgency, duration, health, quality and importance, distinguishing a bounded
+      sprint from maintenance and recovery rather than treating maximal intensity as the default.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Pacing and sustainable intensity practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Pacing and sustainable intensity as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Pacing and sustainable
-    intensity context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Pacing and
-    sustainable intensity; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use supported, seated, remote or shorter work where appropriate and treat
+    rest as legitimate work planning. Variable or persistent fatigue may require qualified assessment
+    and accommodation rather than a new productivity technique. No physical challenge or deprivation is
+    part of this exercise.
+  opportunity_considerations: 'Default: a non-urgent room inventory can be done in one exhausting evening
+    or in two 20-minute sections. Use three pace cards: maintenance—one small section; sprint—one time-limited
+    priority block with a stop and recovery plan; recovery—only essential duties plus support. Keep existing
+    clinical and workplace restrictions unchanged.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Pacing and sustainable intensity.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default: a non-urgent room inventory can be done in one exhausting evening or in two 20-minute sections.
+    Use three pace cards: maintenance—one small section; sprint—one time-limited priority block with a
+    stop and recovery plan; recovery—only essential duties plus support. Keep existing clinical and workplace
+    restrictions unchanged.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Pacing and sustainable intensity
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use supported, seated, remote or shorter work where appropriate and treat rest as legitimate work
+    planning. Variable or persistent fatigue may require qualified assessment and accommodation rather
+    than a new productivity technique. No physical challenge or deprivation is part of this exercise.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +82,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Pacing and sustainable intensity actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Pacing and sustainable intensity; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Pacing and
-    sustainable intensity. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Pacing and sustainable intensity actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default: a non-urgent room inventory can be done in one exhausting evening or in two 20-minute
+    sections. Use three pace cards: maintenance—one small section; sprint—one time-limited priority block
+    with a stop and recovery plan; recovery—only essential duties plus support. Keep existing clinical
+    and workplace restrictions unchanged. Goal: Match effort to urgency, duration, health, quality and
+    importance, distinguishing a bounded sprint from maintenance and recovery rather than treating maximal
+    intensity as the default. Scope: The plan concerns ordinary work allocation. It does not diagnose
+    fatigue, prescribe rehabilitation or justify working through pain, illness, dangerous sleepiness or
+    unsafe conditions. Time and effort: Fifteen minutes to choose a pace, two ordinary work periods and
+    ten minutes to compare quality and recovery. Adaptation: Use supported, seated, remote or shorter
+    work where appropriate and treat rest as legitimate work planning. Variable or persistent fatigue
+    may require qualified assessment and accommodation rather than a new productivity technique. No physical
+    challenge or deprivation is part of this exercise. Keep personal working notes outside the check-in;
+    record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use supported, seated, remote or shorter work where appropriate and treat rest
+    as legitimate work planning. Variable or persistent fatigue may require qualified assessment and accommodation
+    rather than a new productivity technique. No physical challenge or deprivation is part of this exercise.
+  expected_burden: Fifteen minutes to choose a pace, two ordinary work periods and ten minutes to compare
+    quality and recovery.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Pacing and sustainable intensity protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +111,24 @@ intervention:
   - Treating a completed Pacing and sustainable intensity action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Pacing and sustainable intensity situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use supported,
+    seated, remote or shorter work where appropriate and treat rest as legitimate work planning. Variable
+    or persistent fatigue may require qualified assessment and accommodation rather than a new productivity
+    technique. No physical challenge or deprivation is part of this exercise.
   actions:
   - stable_id: PRACTICE-COMP-1107-PACING-AND-SUSTAINABLE-INTENSITY-01-A1
     sequence: 1
-    title: Audit one bounded Pacing and sustainable intensity context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Pacing and sustainable
-      intensity. Use the canonical scope to name observable conditions without diagnosing people or systems:
-      Match effort to urgency, duration, health, quality, and the importance of the outcome.'
+    title: Choose the pace from consequences rather than pressure
+    instructions: 'State the real deadline, consequence of delay, expected duration and quality required.
+      Check current capacity and existing restrictions. For the inventory, choose maintenance because
+      urgency is low; reserve sprint for a genuinely bounded need, not someone’s impatience. Define a
+      stop signal and what essential task remains covered if the chosen pace becomes unsuitable.
+
+
+      Observation checks: Deadline consequence duration and quality are separately stated; Current capacity
+      and existing restrictions are respected; The pace has a reason beyond pressure or self-judgment;
+      A stop signal and essential-duty fallback are defined. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +150,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1107_a1_one_context_only
-        - c1107_a1_observable_conditions_recorded
-        - c1107_a1_hazards_excluded
+        - deadline_consequence_duration_and_quality_are_separately_stated
+        - current_capacity_and_existing_restrictions_are_respected
+        - the_pace_has_a_reason_beyond_pressure_or_self_judgment
+        - a_stop_signal_and_essential_duty_fallback_are_defined
       - measurement_id: c1107_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +170,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1107-PACING-AND-SUSTAINABLE-INTENSITY-01-A2
     sequence: 2
-    title: Make one reversible Pacing and sustainable intensity redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Pacing and sustainable intensity. Record the intended effect, cost or burden, and a rollback
-      condition before changing anything.
+    title: Use two bounded work periods without compensatory overrun
+    instructions: 'Attempt the selected section, stop at the agreed endpoint and take the planned recovery
+      or transition. Note whether errors, discomfort or attention problems changed the quality of work.
+      Repeat only at the planned next opportunity; do not add an unplanned extra block to erase a slow
+      start. If a stop condition appears, stop and use appropriate support rather than treating endurance
+      as evidence.
+
+
+      Observation checks: Work occurs within the chosen pace and stop boundary; Quality and burden are
+      observed alongside quantity; Recovery is actually taken rather than merely scheduled; A safety or
+      capacity stop overrides the output target. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -178,9 +203,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1107_a2_change_traces_to_finding
-        - c1107_a2_rollback_defined
-        - c1107_a2_burden_recorded
+        - work_occurs_within_the_chosen_pace_and_stop_boundary
+        - quality_and_burden_are_observed_alongside_quantity
+        - recovery_is_actually_taken_rather_than_merely_scheduled
+        - a_safety_or_capacity_stop_overrides_the_output_target
       - measurement_id: c1107_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +223,36 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1107-PACING-AND-SUSTAINABLE-INTENSITY-01-A3
     sequence: 3
-    title: Compare the Pacing and sustainable intensity context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: Can sprint,
-      maintain, or recover deliberately rather than using one pace for everything.'
+    title: Select the next pace using both output and aftermath
+    instructions: 'Compare what was completed, rework required, remaining obligations and capacity at
+      the next ordinary activity. Retain maintenance, shorten the block, arrange help or choose recovery
+      based on the combined result. A sprint is not complete until its recovery and outstanding commitments
+      are addressed. Record a concrete condition for returning from recovery to ordinary work without
+      setting a punitive deadline.
+
+
+      Observation checks: Output and rework are compared with the quality requirement; Aftermath for health
+      and other duties is included; The next pace follows the observed tradeoff; Return from recovery
+      uses a suitable condition rather than punishment. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which pace preserved both the result and the ability to meet the next legitimate responsibility?
+
+
+      Examples: Supportive: Two short inventory sections were accurate and left enough capacity for evening
+      care, so maintenance remained appropriate.
+
+
+      Mixed: More was completed in the first block, but errors and next-day burden showed the chosen intensity
+      was too high.
+
+
+      Contradictory: A stop signal was ignored and recovery withheld until a quantity target was reached.
+
+
+      Inconclusive: Intensity was rated privately without attempting a bounded period or inspecting its
+      quality and aftermath.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +274,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1107_a3_same_context_compared
-        - c1107_a3_mixed_or_null_result_allowed
-        - c1107_a3_target_evidence_reviewed
+        - output_and_rework_are_compared_with_the_quality_requirement
+        - aftermath_for_health_and_other_duties_is_included
+        - the_next_pace_follows_the_observed_tradeoff
+        - return_from_recovery_uses_a_suitable_condition_rather_than_punishment
       - measurement_id: c1107_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +298,17 @@ intervention:
       Pacing and sustainable intensity; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Pacing and sustainable intensity; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use supported, seated, remote or shorter work where appropriate and treat rest as legitimate work
+      planning. Variable or persistent fatigue may require qualified assessment and accommodation rather
+      than a new productivity technique. No physical challenge or deprivation is part of this exercise.
     cultural_context:
     - Adapt the expression of Pacing and sustainable intensity to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Pacing and sustainable intensity opportunity is unavailable or inappropriate, use a
-      fictional, historical, public, simulated, or planning-only equivalent and retain the narrower evidence
-      classification.
+    - Use supported, seated, remote or shorter work where appropriate and treat rest as legitimate work
+      planning. Variable or persistent fatigue may require qualified assessment and accommodation rather
+      than a new productivity technique. No physical challenge or deprivation is part of this exercise.
   pause_conditions:
   - Pause Pacing and sustainable intensity when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -287,10 +340,7 @@ evidence_and_scoring:
   - c1107_a3_boundary
   - c1107_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Pacing and sustainable intensity action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Pacing and sustainable intensity criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A stop signal was ignored and recovery withheld until a quantity target was reached.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Pacing and sustainable intensity explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +351,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Pacing and sustainable intensity rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can sprint, maintain, or recover deliberately rather than using one pace for everything.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Pacing and sustainable intensity requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Choose the pace from consequences rather than pressure. Observed checks:
+    Deadline consequence duration and quality are separately stated; Current capacity and existing restrictions
+    are respected; The pace has a reason beyond pressure or self-judgment; A stop signal and essential-duty
+    fallback are defined. Action 2: Use two bounded work periods without compensatory overrun. Observed
+    checks: Work occurs within the chosen pace and stop boundary; Quality and burden are observed alongside
+    quantity; Recovery is actually taken rather than merely scheduled; A safety or capacity stop overrides
+    the output target. Action 3: Select the next pace using both output and aftermath. Observed checks:
+    Output and rework are compared with the quality requirement; Aftermath for health and other duties
+    is included; The next pace follows the observed tradeoff; Return from recovery uses a suitable condition
+    rather than punishment.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Intensity was rated privately without attempting a
+    bounded period or inspecting its quality and aftermath.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Pacing
     and sustainable intensity contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -318,9 +377,8 @@ evidence_and_scoring:
   - L17
   - L34
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Pacing and sustainable intensity evidence.
@@ -328,12 +386,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded pacing and sustainable intensity context action was attempted or explicitly
-    deferred.
-  - The make one reversible pacing and sustainable intensity redesign action was attempted or explicitly
-    deferred.
-  - The compare the pacing and sustainable intensity context after the change action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Choose the pace from consequences rather than pressure. Observed checks: Deadline consequence
+    duration and quality are separately stated; Current capacity and existing restrictions are respected;
+    The pace has a reason beyond pressure or self-judgment; A stop signal and essential-duty fallback
+    are defined.'
+  - 'Action 2: Use two bounded work periods without compensatory overrun. Observed checks: Work occurs
+    within the chosen pace and stop boundary; Quality and burden are observed alongside quantity; Recovery
+    is actually taken rather than merely scheduled; A safety or capacity stop overrides the output target.'
+  - 'Action 3: Select the next pace using both output and aftermath. Observed checks: Output and rework
+    are compared with the quality requirement; Aftermath for health and other duties is included; The
+    next pace follows the observed tradeoff; Return from recovery uses a suitable condition rather than
+    punishment.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -342,57 +408,369 @@ completion_and_review:
     - c1107_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Pacing and sustainable intensity only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Pacing and sustainable intensity across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which pace preserved both the result and the ability to meet the next legitimate
+    responsibility?
+  transfer_limit: The plan concerns ordinary work allocation. It does not diagnose fatigue, prescribe
+    rehabilitation or justify working through pain, illness, dangerous sleepiness or unsafe conditions.
   reflection:
-    before: What does Pacing and sustainable intensity require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Pacing and sustainable intensity criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can sprint, maintain, or recover deliberately rather than
-      using one pace for everything.', what contradiction or missing context matters most, and should
-      this Pacing and sustainable intensity design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Match effort to urgency, duration, health,
+      quality and importance, distinguishing a bounded sprint from maintenance and recovery rather than
+      treating maximal intensity as the default.'
+    during: Which checks have actually been observed? More was completed in the first block, but errors
+      and next-day burden showed the chosen intensity was too high.
+    after: Which pace preserved both the result and the ability to meet the next legitimate responsibility?
   review_guidance:
     repeat: Repeat the same bounded Pacing and sustainable intensity design only when the context and
       burden remain appropriate.
-    adapt: Change the Pacing and sustainable intensity medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use supported, seated, remote or shorter work where appropriate and treat rest as legitimate
+      work planning. Variable or persistent fatigue may require qualified assessment and accommodation
+      rather than a new productivity technique. No physical challenge or deprivation is part of this exercise.
     stop: Stop Pacing and sustainable intensity when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Pacing and sustainable intensity questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Pacing and sustainable intensity criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Pacing and sustainable intensity criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Pacing and sustainable intensity criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Pacing and sustainable intensity action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: Two short inventory sections were accurate and left enough capacity for evening care,
+      so maintenance remained appropriate.
+    mixed: More was completed in the first block, but errors and next-day burden showed the chosen intensity
+      was too high.
+    contradictory: A stop signal was ignored and recovery withheld until a quantity target was reached.
+    inconclusive: Intensity was rated privately without attempting a bounded period or inspecting its
+      quality and aftermath.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Pacing and sustainable intensity.
+    context_heading: Choose a sustainable pace for one demanding commitment
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Pacing and
       sustainable intensity.
   check_in_labels:
-    c1107_a1_primary: The bounded Pacing and sustainable intensity criterion for action 1 was observed
+    c1107_a1_primary: 'Observed checks: choose the pace from consequences rather than pressure'
     c1107_a1_boundary: Action 1 stayed inside its stated Pacing and sustainable intensity boundary
     c1107_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1107_a2_primary: The bounded Pacing and sustainable intensity criterion for action 2 was observed
+    c1107_a2_primary: 'Observed checks: use two bounded work periods without compensatory overrun'
     c1107_a2_boundary: Action 2 stayed inside its stated Pacing and sustainable intensity boundary
     c1107_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1107_a3_primary: The bounded Pacing and sustainable intensity criterion for action 3 was observed
+    c1107_a3_primary: 'Observed checks: select the next pace using both output and aftermath'
     c1107_a3_boundary: Action 3 stayed inside its stated Pacing and sustainable intensity boundary
     c1107_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Pacing and sustainable
-    intensity practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which pace preserved both the result and the ability to meet the next legitimate responsibility?
+    Completion is not mastery.
+  plain_language_evidence: Two short inventory sections were accurate and left enough capacity for evening
+    care, so maintenance remained appropriate.
   display_order: 143
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '11.07'
+  title: 11.07 — Pacing and sustainable intensity
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [NASA, 6.1 Technical Planning](https://www.nasa.gov/reference/6-1-technical-planning/)
+
+      - [NASA, 6.7 Technical Assessment](https://www.nasa.gov/reference/6-7-technical-assessment/)
+
+      - [Institute for Healthcare Improvement, Model for Improvement](https://www.ihi.org/library/model-for-improvement)
+
+      - [CDC/NIOSH, Fatigue and Work](https://www.cdc.gov/niosh/fatigue/about/index.html)
+
+      - [Western Australia Centre for Clinical Interventions, Assertiveness](https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Assertiveness)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'These alternative records are supplied fiction, not measurements of the learner.
+
+
+      **M — maintenance:** Day 1: section A, four entries attempted in 18 minutes, all four correct; 10-minute
+      recovery taken and care duty covered. Day 2: section B, four entries attempted in 19 minutes, all
+      four correct; 10-minute recovery taken and care duty covered. No rework recorded. Later burden beyond
+      those observations is unknown.
+
+
+      **S — unsuitable sprint:** Day 1: both sections, eight entries attempted in 40 minutes. Notebook
+      was written as 3 rather than 2, pencil as 5 rather than 4, and folder as 2 rather than 3. The other
+      five entries were correct. Recovery was skipped; care started 10 minutes late. Day 2: repairing
+      those three entries took 12 minutes and a full recheck took 8 minutes. All eight then matched. Recovery
+      was taken on Day 2, but the record does not erase Day 1''s missed care timing. No medical consequence
+      is supplied.
+
+
+      **R — recovery:** Before Day 1 work, the worker reports a warning sign that their existing plan
+      says to stop optional activity for. They do not begin inventory and use existing support to preserve
+      essential duties. Day 2 safe capacity is still unknown. Inventory remains pending; no output or
+      recovery success is asserted. Decide the next appropriate capacity/support check and communicate
+      if Day 3 becomes doubtful.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Choose effort from the whole consequence
+
+
+      Pacing means matching effort to urgency, duration, health/capacity, quality and the importance of
+      the result. The fastest visible output can leave errors, rework or another duty unpaid. A sprint,
+      maintenance pace and recovery serve different situations; none is a rank of personal worth.
+
+
+      This guide uses a fictional room inventory to practice choosing a pace and reviewing its consequences.
+      Allow 15 minutes for the decision and paper work, then 10 for the later outcomes and fresh checks.
+      It requires reading short records and counting correct entries. Use paper, audio or a text editor;
+      no physical exertion, live inventory, diagnosis or purchase is required. The case''s work periods
+      are scenario facts, not a direction to force yourself to work for that length.
+
+
+      A live route applies only to ordinary safe work within existing restrictions and supports. It is
+      not treatment for fatigue or a rehabilitation plan. Illness, pain, dangerous sleepiness, worsening
+      symptoms or unsafe conditions override output targets; use appropriate existing support. Do not
+      test deprivation, remove aids or work through a warning sign for the exercise.
+
+
+      ### Reference: pace includes what happens afterward
+
+
+      **Maintenance** is a repeatable allocation sized to current capacity and ordinary demands. **Sprint**
+      is an exceptional bounded effort for an important, time-sensitive result, with a stop, quality check,
+      recovery and outstanding-duty plan. **Recovery** reduces optional demand while preserving essential
+      duties through suitable support. Recovery is not a debt to repay with extra work.
+
+
+      Separate four observations: attempted quantity, accepted output, rework and later burden. An entry
+      counts as accepted only after its fixed criteria pass. Rework consumes real time; do not count the
+      corrected item as a second new item. Later burden includes postponed duties and work shifted to
+      others without agreement. A private rating or an invented energy score is not a physiological measurement.
+
+
+      Choose the pace before seeing the outcome. Record the real deadline and consequence, the task''s
+      importance, current capacity, existing restrictions, the stopping boundary and the next responsibility.
+      The same task may merit a different choice on another day. Pressure alone does not establish urgency.
+      A deadline also cannot authorize unsafe intensity.
+
+
+      ### A different worked example
+
+
+      A non-urgent box-labeling task has eight labels. One supplied record shows eight attempted, five
+      correct, and three still needing repair; another shows six attempted and six correct. The first
+      has a larger attempt count but less accepted output. If repair later takes nine minutes, include
+      those minutes in its cost. Neither record tells you whose health improved or that the second method
+      caused the difference. Compare conditions before choosing a next pace.
+
+
+      ### Complete practice packet: inventory a fictional room
+
+
+      The inventory is useful for a hobby list. It is due at the end of Day 3; delay would postpone an
+      optional catalog update, with no essential consequence. No requester has demanded same-day completion.
+      There are eight object types across two sections, with 16 individual items in total. The simulated
+      worker has two ordinary opportunities on Day 1 and Day 2, each with at most 20 minutes available
+      for this optional activity, followed by a protected 10-minute transition/recovery period. A pre-existing
+      care responsibility follows each period. No one else has agreed to absorb it. These are the case
+      person''s stated constraints, not recommended medical durations.
+
+
+      | Section | Object | Count |
+
+      | --- | --- | --- |
+
+      | A | notebook | 2 |
+
+      | A | pencil | 4 |
+
+      | A | clip box | 1 |
+
+      | A | ruler | 1 |
+
+      | B | folder | 3 |
+
+      | B | card pack | 2 |
+
+      | B | eraser | 2 |
+
+      | B | tape roll | 1 |
+
+
+      An accepted inventory has one row per object type, the correct section, exact name and count, and
+      no duplicate. A neat but wrong count fails. Keep unverified entries marked unverified. This table
+      supplies the complete reference; no room visit is implied.
+
+
+      #### Three decision cards
+
+
+      - **Maintenance:** one section in each ordinary opportunity, with the protected transition/recovery
+      and care duty retained. Review accuracy before the next section.
+
+      - **Sprint proposal:** do both sections now in a single 40-minute block. This exceeds today''s stated
+      20-minute availability and would consume recovery and care time. It is not feasible in this case.
+      A valid sprint in another case would need actual capacity, a bounded important deadline, preserved
+      supports and a recovery/remaining-duty plan.
+
+      - **Recovery:** no optional inventory period today; preserve essential duties using existing supports.
+      Keep inventory pending and review at the next suitable opportunity. If this threatens Day 3, communicate
+      the actual limitation rather than promising compensatory overrun.
+
+
+      #### Action 1 — Make a justified pace decision
+
+
+      Before opening the later packet, write `deadline and consequence | importance | capacity/restrictions
+      | pace | output limit | quality criterion | stop condition | next duty | next decision`.
+
+
+      For the supplied baseline, maintenance fits the low urgency and two available periods. Recovery
+      becomes appropriate if current safe capacity is unavailable. Do not “solve” that branch by dropping
+      care or declaring a universal recovery deadline. A sprint cannot be justified from the optional
+      catalog''s importance alone.
+
+
+      Set your review rule now: retain maintenance provisionally only when entries meet the accuracy criterion
+      and the protected periods/duties remain intact. Revise the task size or seek agreed help if rework
+      or later burden exceeds the planned capacity. Stop optional work if a warning sign appears. Return
+      from recovery according to safe actual capacity and existing restrictions/supports, not punishment
+      for low output.
+
+
+      #### Action 2 — Produce and inspect a paper inventory
+
+
+      Copy section A into your own inventory. Compare each row against the reference and retain any correction.
+      Then, at your next chosen reading break or now if appropriate, copy and check B. Record which route
+      you actually used; do not invent a two-day attempt or a physical recovery experience. These are
+      actual paper outputs about fictional objects.
+
+
+      Open [later-packet.md](?resource=file-later-packet-md) after saving the pace decision. It contains
+      alternative simulated two-period records with quality and aftermath. For each, calculate attempted
+      entries, accepted entries, rework and outstanding items. Keep attempted output before correction
+      separate from accepted output after correction. Do not mix the successful recovery of one branch
+      with the errors of another.
+
+
+      #### Action 3 — Decide the next pace from output and aftermath
+
+
+      Append `what met the standard | rework minutes | later duty/burden | differing conditions | next
+      pace | concrete next action | what remains unknown`. A useful result may be a slower next period,
+      agreed help or a recovery decision. “Try harder” is not a changed pace. A sprint''s accounting remains
+      open until its promised recovery and outstanding obligations are addressed.
+
+
+      Complete [check-prompts.md](?attempt=practice-checks) before [check-answers.md](?check=practice-answers).
+      Finish the source exercise with the actual paper inventory, prior decision and branch-specific review.
+      This does not establish sustainable capacity or a completed live practice.
+
+
+      ### Access, greater challenge and transfer
+
+
+      A reader may dictate rows or use a large-print template; record assistance without treating it as
+      a deficit. If counting is the access barrier, have an aid count while you decide what the quality
+      and burden evidence permits. The supported route still exercises pace judgment, but not unaided
+      counting. No unsupported physical task is required.
+
+
+      For a more demanding case, use fresh check 1''s feasible sprint and add uncertainty: its four items
+      may need 5–8 minutes each. Four upper bounds require 32 minutes before the 10-minute review; the
+      40-minute task window is then two minutes short. Reduce scope with agreement or seek another feasible
+      arrangement; never turn an upper estimate into safe capacity by assertion.
+
+
+      For later transfer, choose two naturally available periods of one low-stakes task. Preserve existing
+      supports, inspect accuracy and actual aftermath at the next ordinary responsibility, and record
+      changed conditions. No observed burden is not proof of physiological benefit; unexpected worsening
+      is a reason to stop or adjust, not evidence of inadequate character.
+
+
+      **Supportive:** Accurate work fits the chosen periods, recovery occurs and the next duty remains
+      covered.
+
+
+      **Mixed:** The target is reached but corrections and later burden exceed the planned allocation.
+
+
+      **Contradictory:** Warning signs are ignored or recovery is withheld until a quantity target is
+      reached.
+
+
+      **Inconclusive:** Only intended intensity is recorded, with no inspected output or later information.
+
+
+      The safety background is limited to [NIOSH and the source notes](?resource=sources). The case numbers
+      are original teaching assumptions, not a fatigue model or therapeutic dose.'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '### Check 1 — A bounded sprint that can fit
+
+
+      A fictional worker has a safe 40-minute task window, followed by a protected 15-minute recovery/transition,
+      then an essential duty. Four verified labels are needed today to prevent an otherwise agreed low-stakes
+      handoff being missed. Each label takes at most 6 minutes, and final checking takes 10. Existing
+      restrictions permit this work. State whether a bounded sprint can fit, its stopping boundary, quality
+      test, unused task-window minutes and remaining duty/recovery obligations. Does calling it urgent
+      allow using the recovery if the estimate proves wrong?
+
+
+      ### Check 2 — Quantity and rework
+
+
+      Record A: 12 entries attempted in 30 minutes, 4 wrong; correcting those 4 takes 12 additional minutes
+      and all 12 are then verified. Record B: 10 entries attempted and verified in 30 minutes, no rework.
+      Both records use the same acceptance rule. Calculate each accepted output before and after correction
+      and total active minutes. Which has the higher final accepted-entries-per-active-minute rate? Can
+      these two records alone establish a health effect or justify choosing A for every task?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '### Default records
+
+
+      M produces eight accepted entries across 37 active minutes, plus 20 protected recovery minutes across
+      two days. S initially produces five accepted of eight attempts; after 20 more active minutes, all
+      eight are verified. S costs 60 active minutes, not 40, and retains Day 1''s skipped recovery and
+      10-minute care delay. Corrections are not three additional new entries. These observations support
+      the case''s maintenance choice; they do not prove a physiological mechanism or that the pace caused
+      every difference.
+
+
+      R has zero attempted inventory entries and unknown next-day capacity. Preserve that absence without
+      scoring it as poor inventory performance. Stop optional work, use the existing support plan and
+      reassess before promising a new period. A fixed deadline to “finish recovery” is not warranted.
+
+
+      A complete paper inventory matches the eight rows of the reference. Assess your own copied sheet
+      before using the model outcome; the fictional M branch cannot certify your output. A partial review
+      records quantity but omits rework; a contradictory one hides the late care duty to claim sprint
+      success.
+
+
+      ### Check 1
+
+
+      4 × 6 + 10 = 34 active minutes, leaving 6 uncommitted task-window minutes. A bounded sprint fits
+      the stated conditions, with no medical inference. Stop by the 40-minute boundary or sooner for the
+      existing stop condition, preserve the 15-minute recovery/transition and essential duty, and verify
+      all four labels before reporting them delivered. If estimates fail, reduce/renegotiate the handoff
+      or obtain suitable help; urgency does not permit consuming protected recovery. The sprint''s obligations
+      include its aftermath, not merely label output.
+
+
+      ### Check 2
+
+
+      A: 8 accepted initially, 12 after correction, 42 active minutes total. B: 10 accepted initially
+      and finally, 30 active minutes total. A''s final rate is 12/42 = 2/7 (about 0.286); B''s is 10/30
+      = 1/3 (about 0.333). B has the higher rate under this narrow accounting. A still has more final
+      accepted items; the right choice also depends on need, constraints and later burden. There is no
+      health outcome or causal comparison supplied. A universal recommendation from these figures is unsupported.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

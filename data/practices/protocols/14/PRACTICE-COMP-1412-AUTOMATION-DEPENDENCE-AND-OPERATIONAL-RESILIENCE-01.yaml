@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1412-AUTOMATION-DEPENDENCE-AND-OPERATIONAL-RESILIENCE-01
 slug: c1412-automation-dependence-and-operational-resilience-practice
-name: Bounded Automation dependence and operational resilience Practice
+name: Keep one important activity usable when a digital dependency disappears
 parent_competency_id: '14.12'
 domain_id: '14'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 14.12
-      (Automation dependence and operational resilience); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 14.12; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,40 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Automation dependence and operational resilience through a low-stakes skill rehearsal
-    bounded by the canonical scope: Identify critical activities that depend on cloud services, algorithms,
-    AI, or connected devices.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Maintains manual fallback,
-    export, backup, or alternative access for an important dependency. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Identify a critical cloud, AI, algorithm or connected-device dependency and test a manual or
+    offline fallback without disrupting the real service.
+  why_recommended: Identify a critical cloud, AI, algorithm or connected-device dependency and test a
+    manual or offline fallback without disrupting the real service.
   claims:
-  - statement: Using the canonical scope and evidence target for Automation dependence and operational
-      resilience is a traceable product-design basis for a source-only draft protocol.
+  - statement: Identify a critical cloud, AI, algorithm or connected-device dependency and test a manual
+      or offline fallback without disrupting the real service.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Automation dependence and operational resilience practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Automation dependence and operational resilience as not applicable,
     consciously unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity,
     or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Automation dependence
-    and operational resilience context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Automation
-    dependence and operational resilience; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Use paper, large print, an accessible local file or a chosen helper. For medical,
+    financial or safety-critical dependencies, follow the provider’s approved continuity plan and test
+    only a harmless representation. No real outage, account deletion or device reset is required.
+  opportunity_considerations: 'Default activity: access a meeting’s time, location and contact route when
+    the usual calendar app is unavailable. Use a fictional event or a private minimal copy with no sensitive
+    attendee information. Prepare an offline text or paper version and keep the live calendar untouched.
+    The test assumes the app is unavailable; it does not actually revoke credentials or disconnect essential
+    services.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Automation dependence and operational
-    resilience.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default activity: access a meeting’s time, location and contact route when the usual calendar app
+    is unavailable. Use a fictional event or a private minimal copy with no sensitive attendee information.
+    Prepare an offline text or paper version and keep the live calendar untouched. The test assumes the
+    app is unavailable; it does not actually revoke credentials or disconnect essential services.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Automation dependence and operational
-    resilience instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use paper, large print, an accessible local file or a chosen helper. For medical, financial or safety-critical
+    dependencies, follow the provider’s approved continuity plan and test only a harmless representation.
+    No real outage, account deletion or device reset is required.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +83,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Automation dependence and operational resilience actions over ten days,
-    preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Automation dependence and operational resilience; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Automation
-    dependence and operational resilience. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Automation dependence and operational
-    resilience actions, and review; scope may be reduced or deferred for access, care, health, workload,
-    conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default activity: access a meeting’s time, location and contact route when the usual calendar
+    app is unavailable. Use a fictional event or a private minimal copy with no sensitive attendee information.
+    Prepare an offline text or paper version and keep the live calendar untouched. The test assumes the
+    app is unavailable; it does not actually revoke credentials or disconnect essential services. Goal:
+    Identify a critical cloud, AI, algorithm or connected-device dependency and test a manual or offline
+    fallback without disrupting the real service. Scope: This is a small continuity rehearsal, not a full
+    outage or cyberattack exercise. Do not disable safety systems, medical devices, workplace services
+    or another person’s access. Time and effort: Twenty minutes of preparation and a ten-minute harmless
+    fallback test. Adaptation: Use paper, large print, an accessible local file or a chosen helper. For
+    medical, financial or safety-critical dependencies, follow the provider’s approved continuity plan
+    and test only a harmless representation. No real outage, account deletion or device reset is required.
+    Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use paper, large print, an accessible local file or a chosen helper. For medical,
+    financial or safety-critical dependencies, follow the provider’s approved continuity plan and test
+    only a harmless representation. No real outage, account deletion or device reset is required.
+  expected_burden: Twenty minutes of preparation and a ten-minute harmless fallback test.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Automation dependence and operational resilience protocol to rank worth, coerce participation,
@@ -104,18 +111,24 @@ intervention:
   - Treating a completed Automation dependence and operational resilience action, a polished artifact,
     agreement, confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Automation dependence and operational resilience situation involving emergency response, abuse,
-    retaliation, illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use paper,
+    large print, an accessible local file or a chosen helper. For medical, financial or safety-critical
+    dependencies, follow the provider’s approved continuity plan and test only a harmless representation.
+    No real outage, account deletion or device reset is required.
   actions:
   - stable_id: PRACTICE-COMP-1412-AUTOMATION-DEPENDENCE-AND-OPERATIONAL-RESILIENCE-01-A1
     sequence: 1
-    title: Define observable criteria for Automation dependence and operational resilience
-    instructions: 'Select one safe, lawful, low-stakes component of Automation dependence and operational
-      resilience. Build a three-to-five-item rubric from this scope, including an error or stop criterion:
-      Identify critical activities that depend on cloud services, algorithms, AI, or connected devices.'
+    title: Map the dependency and the minimum service that must survive
+    instructions: 'Trace the activity through device, power, network, cloud account, authentication and
+      any AI or automation layer. Identify one single point of failure and define a minimum useful fallback:
+      knowing where and when to go and how to contact the organizer. State how fresh the information must
+      be and who is allowed to see it. More backup data is not automatically a better privacy decision.
+
+
+      Observation checks: Device power network account and automation dependencies are traced; A specific
+      single point of failure is identified; The minimum useful service and freshness requirement are
+      defined; Fallback access is limited to an appropriate audience. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -137,9 +150,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1412_a1_skill_component_bounded
-        - c1412_a1_observable_rubric_present
-        - c1412_a1_error_or_stop_defined
+        - device_power_network_account_and_automation_dependencies_are_traced
+        - a_specific_single_point_of_failure_is_identified
+        - the_minimum_useful_service_and_freshness_requirement_are_defined
+        - fallback_access_is_limited_to_an_appropriate_audience
       - measurement_id: c1412_a1_boundary
         kind: boolean
         role: supporting
@@ -156,10 +170,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1412-AUTOMATION-DEPENDENCE-AND-OPERATIONAL-RESILIENCE-01-A2
     sequence: 2
-    title: Rehearse Automation dependence and operational resilience twice
-    instructions: Perform two bounded attempts of the selected Automation dependence and operational resilience
-      component under comparable safe conditions. Use self-review, a consensual observer, or a reviewed
-      artifact; do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Create the fallback and test it without the normal route
+    instructions: 'Export or copy the minimum authorized information to an accessible offline format.
+      Put the device or app aside rather than disabling it, then use only the fallback to answer the event’s
+      time, location and contact questions. For an AI-dependent writing task, draft a short answer manually
+      from the source instead of calling the model. Record missing information and do not assume an export
+      is usable until opened.
+
+
+      Observation checks: A minimal authorized fallback is actually created; The test does not use the
+      normal app or model route; The fallback is opened and used to complete the defined task; Missing
+      information remains visible without disrupting the live service. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -175,15 +197,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1412_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - a_minimal_authorized_fallback_is_actually_created
+        - the_test_does_not_use_the_normal_app_or_model_route
+        - the_fallback_is_opened_and_used_to_complete_the_defined_task
+        - missing_information_remains_visible_without_disrupting_the_live_service
       - measurement_id: c1412_a2_boundary
         kind: boolean
         role: supporting
@@ -200,10 +223,36 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1412-AUTOMATION-DEPENDENCE-AND-OPERATIONAL-RESILIENCE-01-A3
     sequence: 3
-    title: Use feedback for one Automation dependence and operational resilience retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Maintains
-      manual fallback, export, backup, or alternative access for an important dependency.'
+    title: Define refresh recovery and safe retirement
+    instructions: 'Choose a review or refresh trigger, such as a changed event or monthly check, and record
+      how to return to the normal service without duplicating actions. Decide when the offline copy should
+      be destroyed or updated and how it remains private. Identify any unresolved dependency, such as
+      the contact number still being available only online. A single successful rehearsal does not prove
+      continuity for every outage.
+
+
+      Observation checks: A concrete refresh trigger keeps the fallback current; Return to normal service
+      avoids duplicate actions; Retention and privacy of the fallback are addressed; Residual dependencies
+      and limited test coverage are explicit. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Could the important activity still proceed through the fallback, and what dependency
+      did the rehearsal reveal rather than remove?
+
+
+      Examples: Supportive: The offline event card supplied the time, location and verified contact route,
+      and a change-triggered refresh was scheduled.
+
+
+      Mixed: The event details were available, but the map required a network connection and the fallback
+      needed a written route.
+
+
+      Contradictory: A real service or safety device was disabled to make the test more realistic.
+
+
+      Inconclusive: An export was saved but never opened or used without the original service.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -225,9 +274,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1412_a3_feedback_item_selected
-        - c1412_a3_adjustment_traceable
-        - c1412_a3_retry_result_preserved
+        - a_concrete_refresh_trigger_keeps_the_fallback_current
+        - return_to_normal_service_avoids_duplicate_actions
+        - retention_and_privacy_of_the_fallback_are_addressed
+        - residual_dependencies_and_limited_test_coverage_are_explicit
       - measurement_id: c1412_a3_boundary
         kind: boolean
         role: supporting
@@ -248,17 +298,17 @@ intervention:
       Automation dependence and operational resilience; no purchase, subscription, travel, credential,
       or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Automation dependence and operational resilience; assistive technology, interpretation,
-      a support person, and a deferred action are valid without penalty.
+    - Use paper, large print, an accessible local file or a chosen helper. For medical, financial or safety-critical
+      dependencies, follow the provider’s approved continuity plan and test only a harmless representation.
+      No real outage, account deletion or device reset is required.
     cultural_context:
     - Adapt the expression of Automation dependence and operational resilience to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Automation dependence and operational resilience opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use paper, large print, an accessible local file or a chosen helper. For medical, financial or safety-critical
+      dependencies, follow the provider’s approved continuity plan and test only a harmless representation.
+      No real outage, account deletion or device reset is required.
   pause_conditions:
   - Pause Automation dependence and operational resilience when capacity, consent, authority, privacy,
     access, care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances
@@ -291,11 +341,7 @@ evidence_and_scoring:
   - c1412_a3_boundary
   - c1412_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Automation dependence and operational resilience action exceeded consent, authority, privacy,
-    qualification, role, burden, or safety boundaries.
-  - The evidence contradicted the intended Automation dependence and operational resilience criterion,
-    depended on coercion or hidden private content, or could not distinguish the protocol from contextual
-    change.
+  - A real service or safety device was disabled to make the test more realistic.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Automation dependence and operational resilience explicitly; support can enable access and never
     reduces dignity or silently changes the typed value.
@@ -307,14 +353,23 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Automation dependence and operational resilience rules withhold observations
     older than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Maintains manual fallback, export, backup, or alternative access for an important dependency.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Automation dependence and operational resilience requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Map the dependency and the minimum service that must survive. Observed
+    checks: Device power network account and automation dependencies are traced; A specific single point
+    of failure is identified; The minimum useful service and freshness requirement are defined; Fallback
+    access is limited to an appropriate audience. Action 2: Create the fallback and test it without the
+    normal route. Observed checks: A minimal authorized fallback is actually created; The test does not
+    use the normal app or model route; The fallback is opened and used to complete the defined task; Missing
+    information remains visible without disrupting the live service. Action 3: Define refresh recovery
+    and safe retirement. Observed checks: A concrete refresh trigger keeps the fallback current; Return
+    to normal service avoids duplicate actions; Retention and privacy of the fallback are addressed; Residual
+    dependencies and limited test coverage are explicit.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. An export was saved but never opened or used without
+    the original service.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Automation
     dependence and operational resilience contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -324,9 +379,8 @@ evidence_and_scoring:
   - L18
   - L19
   - L20
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Automation dependence and operational resilience evidence.
@@ -334,12 +388,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for automation dependence and operational resilience action was attempted
-    or explicitly deferred.
-  - The rehearse automation dependence and operational resilience twice action was attempted or explicitly
-    deferred.
-  - The use feedback for one automation dependence and operational resilience retry action preserved a
-    limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Map the dependency and the minimum service that must survive. Observed checks: Device power
+    network account and automation dependencies are traced; A specific single point of failure is identified;
+    The minimum useful service and freshness requirement are defined; Fallback access is limited to an
+    appropriate audience.'
+  - 'Action 2: Create the fallback and test it without the normal route. Observed checks: A minimal authorized
+    fallback is actually created; The test does not use the normal app or model route; The fallback is
+    opened and used to complete the defined task; Missing information remains visible without disrupting
+    the live service.'
+  - 'Action 3: Define refresh recovery and safe retirement. Observed checks: A concrete refresh trigger
+    keeps the fallback current; Return to normal service avoids duplicate actions; Retention and privacy
+    of the fallback are addressed; Residual dependencies and limited test coverage are explicit.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -348,65 +410,429 @@ completion_and_review:
     - c1412_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Automation dependence and operational resilience only when the
-    initial context remained safe, the evidence criteria were usable, burden was acceptable, and a new
-    context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Automation dependence and operational resilience
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Could the important activity still proceed through the fallback, and what dependency
+    did the rehearsal reveal rather than remove?
+  transfer_limit: This is a small continuity rehearsal, not a full outage or cyberattack exercise. Do
+    not disable safety systems, medical devices, workplace services or another person’s access.
   reflection:
-    before: What does Automation dependence and operational resilience require in this exact context,
-      what remains outside my role or authority, and which scope sentence or evidence criterion will keep
-      the practice honest?
-    during: Which observable Automation dependence and operational resilience criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Maintains manual fallback, export, backup, or alternative
-      access for an important dependency.', what contradiction or missing context matters most, and should
-      this Automation dependence and operational resilience design be repeated, adapted, deferred, stopped,
-      or referred?
+    before: 'What would count as doing this honestly? Goal: Identify a critical cloud, AI, algorithm or
+      connected-device dependency and test a manual or offline fallback without disrupting the real service.'
+    during: Which checks have actually been observed? The event details were available, but the map required
+      a network connection and the fallback needed a written route.
+    after: Could the important activity still proceed through the fallback, and what dependency did the
+      rehearsal reveal rather than remove?
   review_guidance:
     repeat: Repeat the same bounded Automation dependence and operational resilience design only when
       the context and burden remain appropriate.
-    adapt: Change the Automation dependence and operational resilience medium, scope, support, timing,
-      criteria, or context while preserving provenance and the narrower evidence claim.
+    adapt: Use paper, large print, an accessible local file or a chosen helper. For medical, financial
+      or safety-critical dependencies, follow the provider’s approved continuity plan and test only a
+      harmless representation. No real outage, account deletion or device reset is required.
     stop: Stop Automation dependence and operational resilience when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Automation dependence and operational
-      resilience questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Automation dependence and operational resilience criteria were observed with
-      provenance and no adverse boundary signal in the selected context.
-    mixed: Some Automation dependence and operational resilience criteria were observed while burden,
-      support, contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Automation dependence and operational resilience
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Automation dependence and operational resilience action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The offline event card supplied the time, location and verified contact route, and a change-triggered
+      refresh was scheduled.
+    mixed: The event details were available, but the map required a network connection and the fallback
+      needed a written route.
+    contradictory: A real service or safety device was disabled to make the test more realistic.
+    inconclusive: An export was saved but never opened or used without the original service.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Automation dependence and operational resilience.
+    context_heading: Keep one important activity usable when a digital dependency disappears
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Automation
       dependence and operational resilience.
   check_in_labels:
-    c1412_a1_primary: The bounded Automation dependence and operational resilience criterion for action
-      1 was observed
+    c1412_a1_primary: 'Observed checks: map the dependency and the minimum service that must survive'
     c1412_a1_boundary: Action 1 stayed inside its stated Automation dependence and operational resilience
       boundary
     c1412_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1412_a2_primary: The bounded Automation dependence and operational resilience criterion for action
-      2 was observed
+    c1412_a2_primary: 'Observed checks: create the fallback and test it without the normal route'
     c1412_a2_boundary: Action 2 stayed inside its stated Automation dependence and operational resilience
       boundary
     c1412_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1412_a3_primary: The bounded Automation dependence and operational resilience criterion for action
-      3 was observed
+    c1412_a3_primary: 'Observed checks: define refresh recovery and safe retirement'
     c1412_a3_boundary: Action 3 stayed inside its stated Automation dependence and operational resilience
       boundary
     c1412_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Automation dependence
-    and operational resilience practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Could the important activity still proceed through the fallback, and what dependency
+    did the rehearsal reveal rather than remove? Completion is not mastery.
+  plain_language_evidence: The offline event card supplied the time, location and verified contact route,
+    and a change-triggered refresh was scheduled.
   display_order: 188
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '14.12'
+  title: 14.12 — Automation dependence and operational resilience
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [What To Do if You Were Scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [What To Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+
+      - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
+
+      - [AI 600-1: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+      - [Content Credentials explainer v2.4](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+
+      - [Improving college students’ fact-checking strategies through lateral reading instruction in a
+      general education civics course](https://link.springer.com/article/10.1186/s41235-021-00291-4)
+
+      - [Report adult cyber abuse](https://www.esafety.gov.au/key-topics/adult-cyber-abuse/report-adult-cyber-abuse)
+
+      - [What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+      - [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+      - [deed](https://creativecommons.org/licenses/by/4.0/)
+
+      - [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+      - [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+
+      - [BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+      - [MIT License](https://opensource.org/license/mit)
+
+      - [Backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+
+      - [User rights under the Digital Services Act](https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act)
+
+      - [Developing for Web Accessibility](https://www.w3.org/WAI/tips/developing/)
+
+      - [First Aid Online Classes](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+
+      - [Learn First Aid](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+
+      - [Adult cardiac arrest](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-cardiac-arrest)
+
+      - [adult/child choking](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking)
+
+      - [Life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+      - [Shock](https://www.redcross.org/take-a-class/resources/learn-first-aid/shock)
+
+      - [Burns](https://www.redcross.org/take-a-class/resources/learn-first-aid/burns)
+
+      - [Poison exposure](https://www.redcross.org/take-a-class/resources/learn-first-aid/poison-exposure)
+
+      - [Making an Emergency Plan](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+
+      - [Make a Plan](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+
+      - [Causes and prevention: overview](https://www.hse.gov.uk/slips/preventing-overview.htm)
+
+      - [A computational reward learning account of social media engagement](https://www.nature.com/articles/s41467-020-19607-x)
+
+      - [publisher correction](https://www.nature.com/articles/s41467-021-22067-6)
+
+      - [author-hosted abstract of Exposure to ideologically diverse news and opinion on Facebook](https://solomonmg.github.io/publications/bakshy-2015-exposure/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Compare these fictional branches with your actual local/paper result; do not substitute them
+      for it.
+
+
+      | Branch | Retrieval and contents | Disposition |
+
+      | --- | --- | --- |
+
+      | O1 | Card opens; September 24, 14:00, Birch, east entrance/level-route reception directions and
+      in-person coordinator route present | Meets this case''s four minimum answers |
+
+      | O2 | Card opens but says Willow | Retrieval succeeded; freshness failed |
+
+      | O3 | Card has time and Birch, but says “contact in app” | Contact dependency remains unavailable
+      |
+
+      | O4 | File exists but cannot be opened without cloud authorization | Storage is recorded; usable
+      fallback not demonstrated |
+
+
+      Version 2 changes the room and directions, not the meeting time. Retyping a corrected answer after
+      opening the normal source is a repair, not evidence the first fallback had it. Repeat retrieval
+      after updating.
+
+
+      The complete server record confirms R-41 accepted and R-42 not received at this check. Reconcile
+      R-41 as accepted; do not create a new request for another map. R-42 may be submitted once in the
+      paper plan under the toy service''s same-ID rule, followed by acknowledgment verification. Submission
+      and acknowledgment have not actually occurred.
+
+
+      Alternative branch: the server cannot be queried. Both statuses remain uncertain relative to the
+      local pending labels. Do not assume zero accepted requests. Hold or use the service''s documented
+      status/retry procedure; actual systems may have different idempotency rules.
+
+
+      Your evidence should distinguish a real harmless file/card retrieval from these simulated service
+      outcomes and retain any unresolved contact, access or freshness gap.'
+  - id: file-materials-readme-md
+    title: Readme
+    body: 'All records are original fiction. No address, account, telephone number or request endpoint
+      is live.
+
+
+      - [event-v1.txt](?resource=file-materials-event-v1-txt): stale baseline, room Willow.
+
+      - [event-v2.txt](?resource=file-materials-event-v2-txt): current source, room Birch. Make a separate
+      fallback from this; preserve both originals.
+
+      - [outbox.txt](?resource=file-materials-outbox-txt): simulated locally pending requests for Action
+      3.
+
+      - [server-receipts.txt](?resource=file-materials-server-receipts-txt): open only after writing the
+      local-state assumption in Action 3.
+
+
+      Use a new temporary folder or paper. Do not delete files, disconnect services or submit requests.
+      The material files are learning records, not executable programs.'
+  - id: file-materials-event-v1-txt
+    title: Event v1
+    body: '```text
+
+      FICTIONAL PRACTICE EVENT
+
+      Revision: 2026-09-18 09:00 local
+
+      Meeting: 2026-09-24 14:00 local
+
+      Room: Willow
+
+      Entry: East entrance, then staffed reception
+
+      Contact: Ask reception for the meeting coordinator
+
+      Reception staffed: 13:30-14:30 local on meeting day
+
+      ```'
+  - id: file-materials-event-v2-txt
+    title: Event v2
+    body: '```text
+
+      FICTIONAL PRACTICE EVENT
+
+      Revision: 2026-09-23 16:00 local
+
+      Meeting: 2026-09-24 14:00 local
+
+      Room: Birch
+
+      Entry: East entrance, ask reception for the level route to Birch
+
+      Contact: Ask reception for the meeting coordinator
+
+      Reception staffed: 13:30-14:30 local on meeting day
+
+      ```'
+  - id: file-materials-outbox-txt
+    title: Outbox
+    body: '```text
+
+      FICTIONAL REQUESTS - DO NOT SEND
+
+      R-41 | request one printed map | pending locally
+
+      R-42 | request one large-print agenda | pending locally
+
+      ```'
+  - id: file-materials-server-receipts-txt
+    title: Server receipts
+    body: '```text
+
+      FICTIONAL SERVER RECORD - COMPLETE FOR R-41 AND R-42 AT THIS CHECK
+
+      R-41 | accepted | request one printed map
+
+      R-42 | not received | request one large-print agenda
+
+      ```'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Preserve the useful activity when a service is unavailable
+
+
+      Operational resilience starts with the activity you need to perform. “Have a backup” is too vague
+      if the file cannot be opened, is stale, or omits the one contact route you need. An export preserves
+      some data; a fallback makes a minimum activity possible under a specified failure. Recovery then
+      restores normal operation without duplicating actions or silently losing changes.
+
+
+      Allow 40 minutes with the harmless local materials supplied here. Use an accessible editor or paper.
+      The meeting, contact desk and request IDs are fictional; never send them to a service. Do not disable
+      a real account, device, network, medical system or utility. The exercise makes a dependency unavailable
+      only by putting its information aside.
+
+
+      ### Trace prerequisites, then remove one on paper
+
+
+      A cloud calendar may require device, power, network, account and authentication. An AI summarizer
+      can add another dependency even when the underlying information is available. A connected lock may
+      depend on a different combination. If every fallback still requires the failed item, the apparent
+      redundancy is circular.
+
+
+      [NCSC''s backup guidance](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+      supports making and checking appropriate backups. A copy is not a demonstrated recovery until you
+      can retrieve and use it. This exercise adds an original meeting-continuity task; it is not a complete
+      disaster-recovery design or a test of NCSC recommendations.
+
+
+      Worked example: a calendar export contains “see online map for room and contact.” It opens offline
+      but cannot answer where to go or whom to contact. The format worked; the minimum service failed.
+      Add authorized location text and an independent contact route, then test those specific questions
+      again.
+
+
+      ### Complete materials and failure assumptions
+
+
+      The packet contains [event-v1.txt](?resource=file-materials-event-v1-txt), [event-v2.txt](?resource=file-materials-event-v2-txt),
+      [outbox.txt](?resource=file-materials-outbox-txt) and [server-receipts.txt](?resource=file-materials-server-receipts-txt).
+      All are plain UTF-8 text; [the material index](?resource=file-materials-readme-md) describes their
+      roles. Do not read server-receipts until Action 3.
+
+
+      The minimum service is to answer the meeting''s date/time, exact room, entry directions and an independent
+      way to reach the organizer. The cloud calendar and AI assistant are unavailable in the scenario.
+      Your paper/local copy and ordinary ability to ask the staffed desk in person remain available. No
+      telephone, email delivery or online map is assumed. This is why an in-person contact route is supplied
+      rather than a fake working phone number.
+
+
+      Version 1: revision September 18 at 09:00; event September 24 at 14:00 local time; room Willow;
+      east entrance, then staffed reception; ask reception for meeting coordinator; reception staffed
+      13:30–14:30. Version 2: revision September 23 at 16:00; the same event and contact arrangement,
+      **room Birch**, with directions “east entrance, ask reception for the level route to Birch.” Version
+      2 supersedes version 1. No attendee list is needed.
+
+
+      #### Action 1 — Define what must survive
+
+
+      Draw the normal dependency chain and write the failure assumption. Name the four minimum answers
+      and the freshness requirement: the latest confirmed event revision, checked again if an update arrives.
+      Decide where a real minimal copy could be kept privately and accessibly. A locked file whose only
+      key is in the unavailable account is not an independent fallback.
+
+
+      Read version 2, then create your own paper or local fallback card. If copying files, use a separate
+      practice folder and a new filename; do not overwrite source materials. Record revision and event
+      date separately. A creation timestamp on your copy cannot prove its contents are current.
+
+
+      #### Action 2 — Actually retrieve and use the fallback
+
+
+      Put the normal source page and any AI tool aside. Open your local card or retrieve your paper copy.
+      Answer the four minimum questions using only it. Then compare your recorded answers against version
+      2. Mark **retrieved**, **correct**, **missing** or **unknown** for each requirement. Do not silently
+      repair the answers while claiming the first attempt succeeded.
+
+
+      If you discover a stale room or online-only contact, correct the card and repeat the same retrieval
+      constraint. Record first attempt and retest separately. A paper exercise can genuinely demonstrate
+      that you made and used a card, while a fictional outage remains a fictional outage. Neither proves
+      the real reception desk or a real network worked.
+
+
+      #### Action 3 — Reconcile before resuming automation
+
+
+      Read outbox.txt: two fictional requests, R-41 and R-42, are pending locally after an interrupted
+      sync. “Pending locally” does not prove the server failed to accept them. Open server-receipts.txt
+      and [the later packet](?resource=file-later-packet-md). Match exact IDs before deciding which requests
+      need further action. The toy service treats repeated identical IDs as the same request; creating
+      a new ID creates a new request. These are stipulated exercise rules, not a guarantee about real
+      services.
+
+
+      Write a reconciliation table: `request ID | local status | server evidence | next action | uncertainty`.
+      An acknowledgment of R-41 says nothing about R-42. If server status is unknown, check it or hold
+      rather than blindly resending with a new identity. Do not send any actual request.
+
+
+      Finish with refresh, recovery and retirement triggers: a changed event requires an updated copy;
+      service return requires status comparison; an expired real event copy should be removed or retained
+      only for an appropriate purpose. Avoid spreading unnecessary personal information across “backup”
+      locations.
+
+
+      Complete [fresh checks](?attempt=practice-checks), then [the key](?check=practice-answers). Retain
+      the dependency map, actual card/retrieval results and simulated reconciliation decisions.
+
+
+      ### Different capacities and harder failures
+
+
+      A large-print card, audio note available offline or chosen helper can supply access. Verify that
+      the format itself works without the original service. If the helper is the single point of failure,
+      plan a consented alternative. For care, finance or safety-critical equipment, use the responsible
+      provider''s approved continuity arrangements; test only a harmless representation here.
+
+
+      Harder route: the device holding your local file is also unavailable. The local-file fallback then
+      fails, while a separately held paper card might survive that particular loss. Do not claim every
+      failure is solved by adding more copies; consider privacy, freshness and actual reachability.
+
+
+      For transfer, choose one authorized ordinary dependency and test a minimal fallback without disrupting
+      service. An AI-dependent writing task can be rehearsed manually from a short source; a cloud route
+      can be rehearsed with a current offline record. Specify exactly which task and failure you covered.
+
+
+      **Supportive:** The minimum task succeeds from a current independent fallback and reconciliation
+      avoids duplication. **Mixed:** Retrieval works but the contact or freshness requirement fails. **Contradictory:**
+      Real safety systems are disabled or pending actions are blindly duplicated. **Inconclusive:** An
+      export is saved but never opened or used.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A newly exported file contains yesterday''s event revision and the wrong room. Its file
+      timestamp is today. Which fact determines freshness?
+
+      2. Two pending requests have IDs P-1 and P-2. The server confirms P-1 accepted but returns no status
+      for P-2. Which may be marked complete and which may be blindly resent under a new ID?
+
+      3. Your fallback is on a local laptop, but both its unlock instructions and decryption key exist
+      only in the unavailable cloud account. Has the outage dependency been removed?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Content revision and comparison with the latest confirmed event determine freshness, not
+      the export timestamp. Preserve the stale first-attempt result, update the room from an authorized
+      source, and repeat the fallback test.
+
+      2. P-1 can be marked accepted based on its acknowledgment; acceptance may still differ from task
+      fulfillment in a real service. P-2 remains unknown, not confirmed missing. Neither should be blindly
+      resent under a new ID. Obtain status or follow the actual service''s documented retry/duplicate
+      controls.
+
+      3. No. A local filename hides a remaining cloud dependency. Establish a suitable independently reachable
+      and private access route, then test harmless retrieval without the cloud. Do not disable encryption
+      or expose real keys merely to pass the exercise.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

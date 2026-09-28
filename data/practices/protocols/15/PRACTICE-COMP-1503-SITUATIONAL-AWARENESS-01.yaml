@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1503-SITUATIONAL-AWARENESS-01
 slug: c1503-situational-awareness-practice
-name: Bounded Situational awareness Practice
+name: Notice an ordinary environmental change and choose a proportionate response
 parent_competency_id: '15.03'
 domain_id: '15'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 15.03
-      (Situational awareness); canonical scope, evidence target, classification, domain boundary, and
-      parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 15.03; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,37 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Situational awareness through a qualified-support preparation bounded by the canonical
-    scope: Observe environment, exits, people, hazards, anomalies, and changes without living in paranoia.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Notices relevant risk
-    early while remaining socially and emotionally functional. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Orient to exits, movement, access and changing conditions without treating unfamiliar people
+    or every anomaly as a threat.
+  why_recommended: Orient to exits, movement, access and changing conditions without treating unfamiliar
+    people or every anomaly as a threat.
   claims:
-  - statement: Using the canonical scope and evidence target for Situational awareness is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Orient to exits, movement, access and changing conditions without treating unfamiliar people
+      or every anomaly as a threat.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Situational awareness practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Situational awareness as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Situational awareness
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Situational
-    awareness; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use a companion, building accessibility information, audio directions or a
+    quieter familiar setting. A person affected by hypervigilance may prefer a single planned orientation
+    rather than repeated scans; stop when the exercise increases distress or interferes with ordinary
+    functioning.
+  opportunity_considerations: Choose a familiar library, workplace common area or other place you already
+    use safely. Before entering, plan to notice the normal entrance, another signed exit, staff or assistance
+    point, accessibility route and one environmental condition such as crowding or a wet floor. Do not
+    record identifiable people.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Situational awareness.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Choose a familiar library, workplace common area or other place you already use safely. Before entering,
+    plan to notice the normal entrance, another signed exit, staff or assistance point, accessibility
+    route and one environmental condition such as crowding or a wet floor. Do not record identifiable
+    people.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Situational awareness instead of
-    a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a companion, building accessibility information, audio directions or a quieter familiar setting.
+    A person affected by hypervigilance may prefer a single planned orientation rather than repeated scans;
+    stop when the exercise increases distress or interferes with ordinary functioning.
   role_conditions:
   - This competency is context contingent; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -78,18 +80,25 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Situational awareness actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Situational awareness; copy the canonical scope and evidence target into
-    a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Situational
-    awareness. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Situational awareness actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose a familiar library, workplace common area or other place you already use safely. Before
+    entering, plan to notice the normal entrance, another signed exit, staff or assistance point, accessibility
+    route and one environmental condition such as crowding or a wet floor. Do not record identifiable
+    people. Goal: Orient to exits, movement, access and changing conditions without treating unfamiliar
+    people or every anomaly as a threat. Scope: This practices ordinary awareness in a familiar public
+    place. It is not surveillance, profiling, threat prediction or a requirement to remain constantly
+    vigilant. Time and effort: Two five-minute observations during normal visits and a ten-minute comparison
+    afterward. Adaptation: Use a companion, building accessibility information, audio directions or a
+    quieter familiar setting. A person affected by hypervigilance may prefer a single planned orientation
+    rather than repeated scans; stop when the exercise increases distress or interferes with ordinary
+    functioning. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a companion, building accessibility information, audio directions or a quieter
+    familiar setting. A person affected by hypervigilance may prefer a single planned orientation rather
+    than repeated scans; stop when the exercise increases distress or interferes with ordinary functioning.
+  expected_burden: Two five-minute observations during normal visits and a ten-minute comparison afterward.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Situational awareness protocol to rank worth, coerce participation, demand disclosure, override
@@ -97,20 +106,25 @@ intervention:
   - Treating a completed Situational awareness action, a polished artifact, agreement, confidence, speed,
     independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Situational awareness situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Hands-on safety, medical, aquatic, survival, and defensive skills require qualified instruction and
-    compliance with local law.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a companion,
+    building accessibility information, audio directions or a quieter familiar setting. A person affected
+    by hypervigilance may prefer a single planned orientation rather than repeated scans; stop when the
+    exercise increases distress or interferes with ordinary functioning.
   actions:
   - stable_id: PRACTICE-COMP-1503-SITUATIONAL-AWARENESS-01-A1
     sequence: 1
-    title: Bound the qualified question for Situational awareness
-    instructions: 'Turn Situational awareness into one educational or planning question and identify the
-      qualification and jurisdiction needed to answer it. Use the canonical scope to separate general
-      learning from diagnosis, treatment, legal advice, financial advice, safeguarding decisions, or other
-      professional judgment: Observe environment, exits, people, hazards, anomalies, and changes without
-      living in paranoia.'
+    title: Orient using functional landmarks rather than suspicious-person guesses
+    instructions: 'During an ordinary visit, identify how you entered, how staff direct people to leave,
+      where help can be requested and any accessible route you depend on. Note one ordinary condition
+      affecting movement, such as a queue narrowing a passage. Separate observed facts from interpretations:
+      a person looking around is not evidence of harmful intent. End the scan and return attention to
+      your actual activity instead of repeatedly checking everyone.
+
+
+      Observation checks: Entry exit help and access landmarks are identified; One movement or environmental
+      condition is directly observed; Appearance or identity is not used as a threat category; Attention
+      returns to the intended ordinary activity. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -132,9 +146,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1503_a1_question_bounded
-        - c1503_a1_qualification_named
-        - c1503_a1_professional_boundary_explicit
+        - entry_exit_help_and_access_landmarks_are_identified
+        - one_movement_or_environmental_condition_is_directly_observed
+        - appearance_or_identity_is_not_used_as_a_threat_category
+        - attention_returns_to_the_intended_ordinary_activity
       - measurement_id: c1503_a1_boundary
         kind: boolean
         role: supporting
@@ -151,11 +166,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1503-SITUATIONAL-AWARENESS-01-A2
     sequence: 2
-    title: Prepare minimum information for Situational awareness
-    instructions: Create a privacy-minimized Situational awareness consultation note containing only the
-      question, relevant category-level facts, current constraints, and desired decision. Omit diagnoses,
-      allegations, account numbers, credentials, protected work information, intimate detail, and third-party
-      identity unless a qualified professional lawfully requires it through an appropriate channel.
+    title: Compare a second visit for one meaningful change
+    instructions: 'At the next normal visit, compare the same landmarks and conditions. The supplied change
+      case is a temporary sign directing visitors away from a closed corridor. Confirm the alternative
+      route through posted information or staff rather than entering the closed area. If nothing changes,
+      record that honestly. Name what would warrant asking staff, leaving or using emergency help, and
+      distinguish those thresholds from mere unfamiliarity or discomfort.
+
+
+      Observation checks: The second observation uses the same functional reference points; A change or
+      its absence is recorded without invention; Unclear directions are checked through an appropriate
+      source; Response thresholds depend on conditions rather than stereotypes. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -177,9 +199,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1503_a2_minimum_information_only
-        - c1503_a2_sensitive_detail_excluded
-        - c1503_a2_decision_need_named
+        - the_second_observation_uses_the_same_functional_reference_points
+        - a_change_or_its_absence_is_recorded_without_invention
+        - unclear_directions_are_checked_through_an_appropriate_source
+        - response_thresholds_depend_on_conditions_rather_than_stereotypes
       - measurement_id: c1503_a2_boundary
         kind: boolean
         role: supporting
@@ -196,11 +219,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1503-SITUATIONAL-AWARENESS-01-A3
     sequence: 3
-    title: Record a bounded Situational awareness disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Notices relevant risk early while remaining socially and emotionally functional.'
+    title: Take one small action and check whether it solved the actual problem
+    instructions: 'When a real minor access issue exists, use the posted alternative, ask staff for assistance
+      or choose another ordinary location. For the closed-corridor case, verify that the alternate path
+      actually reaches the destination and remains suitable for your access needs. Record the action and
+      its result without photographing strangers or investigating motives. If the environment becomes
+      genuinely unsafe, leave or obtain appropriate help rather than turning the event into a training
+      opportunity.
+
+
+      Observation checks: The action addresses the observed access or environmental condition; The route
+      or assistance is checked for practical usability; No person is monitored or confronted to test a
+      hypothesis; A real safety concern ends the exercise rather than escalating it. Mark only what you
+      observed. Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which observation changed what you did, and which initial interpretation turned out
+      to be unnecessary or unsupported?
+
+
+      Examples: Supportive: A visitor noticed a corridor closure, confirmed an accessible alternative
+      with staff and then resumed the visit without monitoring other visitors.
+
+
+      Mixed: The route was found, but repeated scanning distracted from the visit and the next attempt
+      was reduced to one orientation.
+
+
+      Contradictory: A person followed or photographed strangers based on appearance and called that situational
+      awareness.
+
+
+      Inconclusive: Threat scenarios were imagined at home without observing a real environment or checking
+      a functional route.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -216,14 +267,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1503_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1503_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - the_action_addresses_the_observed_access_or_environmental_condition
+        - the_route_or_assistance_is_checked_for_practical_usability
+        - no_person_is_monitored_or_confronted_to_test_a_hypothesis
+        - a_real_safety_concern_ends_the_exercise_rather_than_escalating_it
       - measurement_id: c1503_a3_boundary
         kind: boolean
         role: supporting
@@ -243,16 +296,17 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Situational awareness; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Situational awareness; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Use a companion, building accessibility information, audio directions or a quieter familiar setting.
+      A person affected by hypervigilance may prefer a single planned orientation rather than repeated
+      scans; stop when the exercise increases distress or interferes with ordinary functioning.
     cultural_context:
     - Adapt the expression of Situational awareness to direct or indirect communication, collective or
       individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Situational awareness opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use a companion, building accessibility information, audio directions or a quieter familiar setting.
+      A person affected by hypervigilance may prefer a single planned orientation rather than repeated
+      scans; stop when the exercise increases distress or interferes with ordinary functioning.
   pause_conditions:
   - Pause Situational awareness when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -282,10 +336,7 @@ evidence_and_scoring:
   - c1503_a3_boundary
   - c1503_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Situational awareness action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Situational awareness criterion, depended on coercion or hidden
-    private content, or could not distinguish the protocol from contextual change.
+  - A person followed or photographed strangers based on appearance and called that situational awareness.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Situational awareness explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -295,14 +346,24 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Situational awareness rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Notices relevant risk early while remaining socially and emotionally functional.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Situational awareness requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Orient using functional landmarks rather than suspicious-person guesses.
+    Observed checks: Entry exit help and access landmarks are identified; One movement or environmental
+    condition is directly observed; Appearance or identity is not used as a threat category; Attention
+    returns to the intended ordinary activity. Action 2: Compare a second visit for one meaningful change.
+    Observed checks: The second observation uses the same functional reference points; A change or its
+    absence is recorded without invention; Unclear directions are checked through an appropriate source;
+    Response thresholds depend on conditions rather than stereotypes. Action 3: Take one small action
+    and check whether it solved the actual problem. Observed checks: The action addresses the observed
+    access or environmental condition; The route or assistance is checked for practical usability; No
+    person is monitored or confronted to test a hypothesis; A real safety concern ends the exercise rather
+    than escalating it.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Threat scenarios were imagined at home without observing
+    a real environment or checking a functional route.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Situational
     awareness contribution under typed evaluation; protocol performance remains distinct and is never
     counted twice.
@@ -311,9 +372,8 @@ evidence_and_scoring:
   - L08
   - L20
   - L24
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Situational awareness evidence.
@@ -321,10 +381,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for situational awareness action was attempted or explicitly deferred.
-  - The prepare minimum information for situational awareness action was attempted or explicitly deferred.
-  - The record a bounded situational awareness disposition action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Orient using functional landmarks rather than suspicious-person guesses. Observed checks:
+    Entry exit help and access landmarks are identified; One movement or environmental condition is directly
+    observed; Appearance or identity is not used as a threat category; Attention returns to the intended
+    ordinary activity.'
+  - 'Action 2: Compare a second visit for one meaningful change. Observed checks: The second observation
+    uses the same functional reference points; A change or its absence is recorded without invention;
+    Unclear directions are checked through an appropriate source; Response thresholds depend on conditions
+    rather than stereotypes.'
+  - 'Action 3: Take one small action and check whether it solved the actual problem. Observed checks:
+    The action addresses the observed access or environmental condition; The route or assistance is checked
+    for practical usability; No person is monitored or confronted to test a hypothesis; A real safety
+    concern ends the exercise rather than escalating it.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -333,56 +404,371 @@ completion_and_review:
     - c1503_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Situational awareness only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Situational awareness across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which observation changed what you did, and which initial interpretation turned
+    out to be unnecessary or unsupported?
+  transfer_limit: This practices ordinary awareness in a familiar public place. It is not surveillance,
+    profiling, threat prediction or a requirement to remain constantly vigilant.
   reflection:
-    before: What does Situational awareness require in this exact context, what remains outside my role
-      or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Situational awareness criterion is present, absent, mixed, or unknown, and
-      are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Notices relevant risk early while remaining socially and emotionally
-      functional.', what contradiction or missing context matters most, and should this Situational awareness
-      design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Orient to exits, movement, access and changing
+      conditions without treating unfamiliar people or every anomaly as a threat.'
+    during: Which checks have actually been observed? The route was found, but repeated scanning distracted
+      from the visit and the next attempt was reduced to one orientation.
+    after: Which observation changed what you did, and which initial interpretation turned out to be unnecessary
+      or unsupported?
   review_guidance:
     repeat: Repeat the same bounded Situational awareness design only when the context and burden remain
       appropriate.
-    adapt: Change the Situational awareness medium, scope, support, timing, criteria, or context while
-      preserving provenance and the narrower evidence claim.
+    adapt: Use a companion, building accessibility information, audio directions or a quieter familiar
+      setting. A person affected by hypervigilance may prefer a single planned orientation rather than
+      repeated scans; stop when the exercise increases distress or interferes with ordinary functioning.
     stop: Stop Situational awareness when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Situational awareness questions beyond
-      this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Situational awareness criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Situational awareness criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Situational awareness criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Situational awareness action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: A visitor noticed a corridor closure, confirmed an accessible alternative with staff and
+      then resumed the visit without monitoring other visitors.
+    mixed: The route was found, but repeated scanning distracted from the visit and the next attempt was
+      reduced to one orientation.
+    contradictory: A person followed or photographed strangers based on appearance and called that situational
+      awareness.
+    inconclusive: Threat scenarios were imagined at home without observing a real environment or checking
+      a functional route.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Situational awareness.
+    context_heading: Notice an ordinary environmental change and choose a proportionate response
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Situational
       awareness.
   check_in_labels:
-    c1503_a1_primary: The bounded Situational awareness criterion for action 1 was observed
+    c1503_a1_primary: 'Observed checks: orient using functional landmarks rather than suspicious-person
+      guesses'
     c1503_a1_boundary: Action 1 stayed inside its stated Situational awareness boundary
     c1503_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1503_a2_primary: The bounded Situational awareness criterion for action 2 was observed
+    c1503_a2_primary: 'Observed checks: compare a second visit for one meaningful change'
     c1503_a2_boundary: Action 2 stayed inside its stated Situational awareness boundary
     c1503_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1503_a3_primary: The bounded Situational awareness criterion for action 3 was observed
+    c1503_a3_primary: 'Observed checks: take one small action and check whether it solved the actual problem'
     c1503_a3_boundary: Action 3 stayed inside its stated Situational awareness boundary
     c1503_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Situational awareness
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which observation changed what you did, and which initial interpretation turned out
+    to be unnecessary or unsupported? Completion is not mastery.
+  plain_language_evidence: A visitor noticed a corridor closure, confirmed an accessible alternative with
+    staff and then resumed the visit without monitoring other visitors.
   display_order: 192
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '15.03'
+  title: 15.03 — Situational awareness
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [What To Do if You Were Scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [What To Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+
+      - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
+
+      - [AI 600-1: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+      - [Content Credentials explainer v2.4](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+
+      - [Improving college students’ fact-checking strategies through lateral reading instruction in a
+      general education civics course](https://link.springer.com/article/10.1186/s41235-021-00291-4)
+
+      - [Report adult cyber abuse](https://www.esafety.gov.au/key-topics/adult-cyber-abuse/report-adult-cyber-abuse)
+
+      - [What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+      - [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+      - [deed](https://creativecommons.org/licenses/by/4.0/)
+
+      - [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+      - [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+
+      - [BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+      - [MIT License](https://opensource.org/license/mit)
+
+      - [Backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+
+      - [User rights under the Digital Services Act](https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act)
+
+      - [Developing for Web Accessibility](https://www.w3.org/WAI/tips/developing/)
+
+      - [First Aid Online Classes](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+
+      - [Learn First Aid](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+
+      - [Adult cardiac arrest](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-cardiac-arrest)
+
+      - [adult/child choking](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking)
+
+      - [Life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+      - [Shock](https://www.redcross.org/take-a-class/resources/learn-first-aid/shock)
+
+      - [Burns](https://www.redcross.org/take-a-class/resources/learn-first-aid/burns)
+
+      - [Poison exposure](https://www.redcross.org/take-a-class/resources/learn-first-aid/poison-exposure)
+
+      - [Making an Emergency Plan](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+
+      - [Make a Plan](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+
+      - [Causes and prevention: overview](https://www.hse.gov.uk/slips/preventing-overview.htm)
+
+      - [A computational reward learning account of social media engagement](https://www.nature.com/articles/s41467-020-19607-x)
+
+      - [publisher correction](https://www.nature.com/articles/s41467-021-22067-6)
+
+      - [author-hosted abstract of Exposure to ideologically diverse news and opinion on Facebook](https://solomonmg.github.io/publications/bakshy-2015-exposure/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: '**Branch A:** Staff confirm the garden corridor is open today and level from the lobby to the
+      reading room. In the supplied fictional outcome, Nia uses it, reaches the room and collects the
+      book. Nia then reads for ten minutes without further checking of visitors. The garden route worked
+      in this scenario. North-exit emergency suitability still has no confirmation; success on an ordinary
+      route does not settle it.
+
+
+      **Branch B, replacing A:** Staff cannot confirm whether the garden corridor is open. The west route
+      still has six steps and the east route is still closed. Staff offer to bring the reserved book to
+      the lobby desk, which is reachable by the level south entrance. Nia accepts and receives the book.
+      The visit''s collection goal succeeds; an accessible path to the reading room remains unresolved.
+      Do not record garden traversal.
+
+
+      **Branch C, replacing A/B:** No conditions change between two ordinary visits. Nia records “no relevant
+      change observed” and resumes reading. That is an honest outcome, not evidence that vigilance failed.
+      If no actual second observation occurred, record it as absent instead; absence of an observation
+      is not an observation of no change.
+
+
+      In every branch, unfamiliar visitors supply no threat evidence merely by being unfamiliar. None
+      of the supplied outcomes demonstrates that you visited a real site or that its exits are safe. For
+      real conditions, use current building guidance and appropriate help.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Notice what changes a useful action
+
+
+      Situational awareness means noticing relevant conditions, understanding their practical implications
+      and updating when they change. It does not require constant scanning, predicting a stranger''s motives
+      or turning an ordinary visit into surveillance. A short orientation that helps you move, find assistance
+      and return to your purpose is more useful here than an elaborate story about hidden threats.
+
+
+      Allow 25 minutes for the fictional library route exercise. Use the written layout below and an accessible
+      editor or paper. No public visit, photograph, following of people or confrontation is required.
+      The optional real route uses a place you already visit safely and ends if it increases distress
+      or interferes with ordinary functioning.
+
+
+      ### Observation, interpretation and response
+
+
+      “A queue extends into the passage” describes an observable condition. “The people in the queue are
+      dangerous” adds an unsupported interpretation. You can ask staff for a clear route without deciding
+      why anyone is there. Appearance, language, disability or unfamiliarity is not a threat category.
+      Relevant behavior and environmental conditions should carry the decision.
+
+
+      [HSE''s slips-and-trips overview](https://www.hse.gov.uk/slips/preventing-overview.htm) discusses
+      obstructions, walkway suitability, lighting and maintenance. That supports noticing concrete movement
+      hazards; it does not validate this exercise as a violence-prediction method. Emergency exits and
+      responses in a real building depend on its actual signs, staff instructions and emergency plan.
+
+
+      Worked example: you notice a wet patch near the usual door and a staff member directing people to
+      another entrance. The useful response is to avoid the wet area, confirm an appropriate alternative
+      if needed, and report the hazard to staff if they are unaware. Investigating who spilled it adds
+      little to getting safely to your destination. An alternate route must also fit your access needs;
+      “there is another door” does not settle that.
+
+
+      ### Complete fictional layout
+
+
+      Nia visits Alder Reading Center to collect a reserved book. Nia needs a level route without stairs.
+      All route information below is invented and complete for the initial case; it is not an actual building
+      safety assessment.
+
+
+      | Landmark / route | Initial visit facts |
+
+      | --- | --- |
+
+      | South entrance | Level entrance from the public pavement to the lobby |
+
+      | Help desk | Staffed point in the lobby, visible from the entrance |
+
+      | East corridor | Level connection from lobby to reading room; usual route |
+
+      | West corridor | Connection from lobby to reading room with six steps; no level bypass on this
+      corridor |
+
+      | Garden corridor | Another connection from lobby to reading room; level status and current opening
+      are not yet known |
+
+      | Signed south exit | Leads from lobby to the pavement |
+
+      | Signed north exit | Leads from reading room to outside; its suitability for Nia''s emergency access
+      needs is not yet verified |
+
+      | Ordinary condition | A short queue near the desk leaves the east corridor clear |
+
+      | People | One visitor looks around at signs; no threatening action or blocked route is observed
+      |
+
+
+      No timer determines whether Nia is “aware enough.” The route goal is to reach the reading room through
+      a confirmed suitable path, find a help point and then collect the book. An emergency-route question
+      should be checked with staff; it must not be resolved by trying doors or entering restricted areas.
+
+
+      #### Action 1 — Orient once and separate facts
+
+
+      Write a compact orientation: entrance, usual path, help point, signed exits and one relevant condition.
+      Mark north-exit suitability and garden-route status unknown. Record the visitor''s observed behavior
+      separately from any interpretation; there is no evidence here for treating the person as a threat.
+
+
+      Choose the initial ordinary route using the supplied facts. East is confirmed level and open. West
+      has steps and does not meet Nia''s requirement. Garden is unknown. Then explicitly return attention
+      to the purpose: collecting the book. You are not required to watch people throughout the visit.
+
+
+      #### Action 2 — Compare the changed condition
+
+
+      At the second fictional visit, a posted sign says, “East corridor closed for maintenance. Use west
+      corridor.” No other route detail has yet been confirmed. The desk remains staffed. The west route''s
+      steps remain unchanged. A second visitor is unfamiliar to Nia but does nothing that blocks access
+      or threatens anyone.
+
+
+      Write what changed and what did not. The sign provides a general diversion, but it does not remove
+      the steps or establish suitability. Ask the desk: “I need a level route to the reading room. The
+      east corridor is closed; is the garden route open and level today, or is there another way to collect
+      my book?” Do not enter the closed corridor to check whether the warning really applies.
+
+
+      Set proportionate response thresholds: a minor access ambiguity prompts a staff question; no suitable
+      route prompts another service option or leaving the visit; an actual immediate hazard ends the exercise
+      and calls for the building''s emergency response or local help as appropriate. Discomfort can justify
+      choosing another place without requiring an accusation about a stranger.
+
+
+      #### Action 3 — Check whether the chosen response works
+
+
+      Save your question and route decision before opening [the later packet](?resource=file-later-packet-md).
+      Use each branch separately. A staff suggestion is evidence about a possible route; the packet''s
+      supplied traversal outcome establishes whether it worked for Nia in that fictional event. Keep your
+      own actual performance separate from the supplied story.
+
+
+      Record `observed change | question/action | confirmed outcome | unknowns | return to ordinary activity`.
+      If the route fails or the person cannot continue comfortably, revise the plan rather than declaring
+      success because a direction was given. A safe alternative such as desk pickup may meet the visit''s
+      goal without entering the reading room.
+
+
+      Attempt [fresh checks](?attempt=practice-checks) before [the key](?check=practice-answers). Your
+      output is a two-visit comparison, suitable-route reasoning and a proportionate action. It should
+      contain no dossiers, photos or identity judgments about other visitors.
+
+
+      ### Adapt the observation burden
+
+
+      Use a companion, spoken directions, a tactile or accessible building map, or a quieter familiar
+      setting. Asking staff is a legitimate strategy, not a failure of independence. If repeated scanning
+      increases anxiety or distracts from life, reduce the task to one planned orientation or use the
+      paper case; this exercise is not treatment for anxiety or hypervigilance.
+
+
+      Harder route: garden access is unconfirmed and the desk cannot establish a level route today. Do
+      not turn “unknown” into “probably fine.” Ask for a reachable pickup alternative or postpone. A successful
+      visit may mean choosing not to enter a place whose access requirements cannot currently be met.
+
+
+      For real transfer, during two ordinary safe visits notice the same functional landmarks and one
+      relevant condition. Record a change or honestly record none. Ask a staff question if needed, take
+      a small proportionate action and check whether it helped. Do not force a second visit, create a
+      hazard or look for suspicious people to make the exercise eventful.
+
+
+      **Supportive:** A meaningful change is noticed, a suitable response checked and attention returns
+      to the visit. **Mixed:** Access is resolved but repeated scanning disrupts the activity. **Contradictory:**
+      Strangers are followed, photographed or confronted based on appearance. **Inconclusive:** Imagined
+      threats replace observations or a suggested route is called tested without a result.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A diversion sign points to a stairway, but you require level access. A second corridor is
+      unverified. Which route is confirmed suitable, and what is a proportionate next step?
+
+      2. A stranger looks around at signs. A trolley blocks the passage. Which observation justifies a
+      functional response, and what should the response address?
+
+      3. One visitor records no relevant change on a second visit. Another did not make the second visit.
+      Are these the same evidence? What if staff suggested an alternative but nobody tested or confirmed
+      its suitability?
+
+
+      ### Changed-case attempt
+
+
+      Save your response before opening the matching answer. This is a new fictional case.
+
+
+      At a fictional reception, the usual entrance has two steps. A sign points to a level side door,
+      but today a delivery trolley blocks its approach. The desk is staffed and no permission to move
+      equipment is given. Plan an access inquiry without assuming the signed route is usable.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Neither alternative is yet confirmed suitable: the stairs fail the requirement and the other
+      route is unknown. Ask staff for a verified suitable path or reachable service alternative. Do not
+      enter a closed corridor or assume a generic diversion meets every access need.
+
+      2. The blocked passage supports asking staff for a clear appropriate route or reporting the obstruction.
+      Looking at signs does not establish harmful intent. Address movement/access without monitoring or
+      confronting the stranger.
+
+      3. No. The first is an actual observation of no relevant change; the second is an absent observation.
+      A suggested route without suitability/result evidence remains unverified. Keep observation, advice,
+      attempt and successful access as separate statuses.
+
+
+      ### Changed-case answer
+
+
+      Describe the actual blockage to the desk and request an authorized clear route or assistance chosen
+      by the visitor. Do not move unknown equipment or presume the person can use the steps. A sign establishes
+      an intended route, not present usability; record what was confirmed before claiming access.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0907-SYSTEMS-AND-CAUSAL-REASONING-01
 slug: c0907-systems-and-causal-reasoning-practice
-name: Bounded Systems and causal reasoning Practice
+name: Trace one recurring problem through a small causal system
 parent_competency_id: '09.07'
 domain_id: 09
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 09.07
-      (Systems and causal reasoning); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 09.07; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Systems and causal reasoning through a consent-respecting relational practice bounded
-    by the canonical scope: Map components, interfaces, feedback loops, delays, incentives, unintended
-    effects, and second-order consequences.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Explains why a system
-    behaves as it does and identifies leverage points or failure modes. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Map components, handoffs, feedback, delays and incentives, then test one plausible leverage
+    point while keeping alternative causes visible.
+  why_recommended: Map components, handoffs, feedback, delays and incentives, then test one plausible
+    leverage point while keeping alternative causes visible.
   claims:
-  - statement: Using the canonical scope and evidence target for Systems and causal reasoning is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Map components, handoffs, feedback, delays and incentives, then test one plausible leverage
+      point while keeping alternative causes visible.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Systems and causal reasoning practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Systems and causal reasoning as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Systems and causal
-    reasoning context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Systems and
-    causal reasoning; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Describe the loop aloud or use labeled cards instead of a visual diagram.
+    Analyze only a process you may observe and change. Use synthetic requests when work, family or organizational
+    confidentiality prevents a live test.
+  opportunity_considerations: Use the low-stakes default of a shared meeting agenda that keeps growing.
+    Draw boxes for requests, organizer triage, agenda slots, meeting length and unresolved items. Use
+    paper, an accessible diagram tool or a spoken sequence. A private simulation is sufficient when you
+    do not control the real process.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Systems and causal reasoning.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the low-stakes default of a shared meeting agenda that keeps growing. Draw boxes for requests,
+    organizer triage, agenda slots, meeting length and unresolved items. Use paper, an accessible diagram
+    tool or a spoken sequence. A private simulation is sufficient when you do not control the real process.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Systems and causal reasoning instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Describe the loop aloud or use labeled cards instead of a visual diagram. Analyze only a process you
+    may observe and change. Use synthetic requests when work, family or organizational confidentiality
+    prevents a live test.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +80,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-RELATIONAL-CONVERSATION
   duration_days: 10
-  cadence: Complete three bounded Systems and causal reasoning actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Systems and causal reasoning; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Systems
-    and causal reasoning. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Systems and causal reasoning actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the low-stakes default of a shared meeting agenda that keeps growing. Draw boxes for requests,
+    organizer triage, agenda slots, meeting length and unresolved items. Use paper, an accessible diagram
+    tool or a spoken sequence. A private simulation is sufficient when you do not control the real process.
+    Goal: Map components, handoffs, feedback, delays and incentives, then test one plausible leverage
+    point while keeping alternative causes visible. Scope: A causal diagram is a hypothesis about one
+    system, not proof that its arrows are true. The exercise does not authorize experiments on unwilling
+    people or essential services. Time and effort: Twenty minutes to map a routine, one small authorized
+    change over three opportunities, and fifteen minutes to review. Adaptation: Describe the loop aloud
+    or use labeled cards instead of a visual diagram. Analyze only a process you may observe and change.
+    Use synthetic requests when work, family or organizational confidentiality prevents a live test. Keep
+    personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Describe the loop aloud or use labeled cards instead of a visual diagram. Analyze
+    only a process you may observe and change. Use synthetic requests when work, family or organizational
+    confidentiality prevents a live test.
+  expected_burden: Twenty minutes to map a routine, one small authorized change over three opportunities,
+    and fifteen minutes to review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Systems and causal reasoning protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +107,25 @@ intervention:
   - Treating a completed Systems and causal reasoning action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Systems and causal reasoning situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Describe the
+    loop aloud or use labeled cards instead of a visual diagram. Analyze only a process you may observe
+    and change. Use synthetic requests when work, family or organizational confidentiality prevents a
+    live test.
   actions:
   - stable_id: PRACTICE-COMP-0907-SYSTEMS-AND-CAUSAL-REASONING-01-A1
     sequence: 1
-    title: Prepare a consent-safe Systems and causal reasoning interaction
-    instructions: 'Choose one welcome, low-stakes relationship context for Systems and causal reasoning.
-      Translate the canonical scope into one observable communication act, identify power or retaliation
-      concerns, and obtain or preserve the other person''s freedom not to participate: Map components,
-      interfaces, feedback loops, delays, incentives, unintended effects, and second-order consequences.'
+    title: Draw the components and the handoffs that matter
+    instructions: 'Connect requests to triage, triage to slots, slots to meeting length, and unresolved
+      items back to later requests. Label what moves across each interface and who is authorized to decide.
+      Note the delay between a request and a meeting, and an incentive such as rewarding quick acceptance
+      of every request. Distinguish observed links from guessed ones with different labels rather than
+      drawing every arrow as established fact.
+
+
+      Observation checks: Components and interfaces have concrete labels; At least one delay and one incentive
+      are shown; A feedback loop is traced back to its start; Observed and hypothesized links are distinguishable.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +147,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0907_a1_communication_act_specific
-        - c0907_a1_consent_boundary_present
-        - c0907_a1_power_checked
+        - components_and_interfaces_have_concrete_labels
+        - at_least_one_delay_and_one_incentive_are_shown
+        - a_feedback_loop_is_traced_back_to_its_start
+        - observed_and_hypothesized_links_are_distinguishable
       - measurement_id: c0907_a1_boundary
         kind: boolean
         role: supporting
@@ -154,10 +167,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0907-SYSTEMS-AND-CAUSAL-REASONING-01-A2
     sequence: 2
-    title: Practice one Systems and causal reasoning communication act
-    instructions: Use the prepared Systems and causal reasoning act once without covert testing, pressure,
-      diagnosis, deception inference, or a demand for disclosure. Ask one direct clarification when appropriate
-      and allow refusal, delay, indirect communication, language access, or another format.
+    title: Predict a leverage point and its possible side effects
+    instructions: 'Choose one controllable change, such as requiring each optional agenda request to name
+      a decision needed. Predict both the intended effect, fewer unclear items, and a possible unintended
+      effect, discouraging legitimate concerns. State what you will observe at the next three opportunities:
+      unclear requests, deferred issues and unresolved essential items. Preserve a route for urgent or
+      access-related needs; do not optimize meeting length by hiding them.
+
+
+      Observation checks: The change targets a named link or incentive; An intended effect and an unintended
+      effect are predicted; Observations include displaced or delayed work; Essential and access-related
+      needs retain a route. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -173,12 +194,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c0907_a2_primary
-        kind: boolean
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        expected: true
+        - reviewed_artifact
+        criteria:
+        - the_change_targets_a_named_link_or_incentive
+        - an_intended_effect_and_an_unintended_effect_are_predicted
+        - observations_include_displaced_or_delayed_work
+        - essential_and_access_related_needs_retain_a_route
       - measurement_id: c0907_a2_boundary
         kind: boolean
         role: supporting
@@ -195,11 +220,36 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0907-SYSTEMS-AND-CAUSAL-REASONING-01-A3
     sequence: 3
-    title: Review Systems and causal reasoning without scoring the person
-    instructions: 'Review only the observable interaction and its boundaries. Do not infer motives or
-      store private narrative. Compare what happened with this evidence target and retain disagreement
-      or an inconclusive result: Explains why a system behaves as it does and identifies leverage points
-      or failure modes.'
+    title: Compare the system response with the diagram
+    instructions: 'Apply the authorized change or walk three synthetic requests through it. Record where
+      the predicted effect appeared and where work merely moved elsewhere. Revise at least one arrow,
+      delay or boundary if observations contradict it. Decide to keep, alter or remove the change, explicitly
+      accounting for downstream burden rather than judging only the visible meeting length.
+
+
+      Observation checks: Actual operation or simulation is clearly labeled; Downstream effects are inspected;
+      The model is revised when a link fails; The decision considers burden outside the target metric.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.
+
+
+      Final review: Did the intervention remove a cause, shift the burden somewhere else or reveal that
+      the original system boundary was too narrow?
+
+
+      Examples: Supportive: A clearer request rule reduced ambiguous items without hiding urgent concerns,
+      and the diagram was revised to include a previously missed triage delay.
+
+
+      Mixed: Meetings shortened, but unresolved work grew outside the agenda and required a revised boundary.
+
+
+      Contradictory: The map blamed one person while ignoring incentives, or essential needs were suppressed
+      to improve a metric.
+
+
+      Inconclusive: Boxes and arrows were drawn without a feedback loop, testable prediction or observed
+      system response.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -221,9 +271,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0907_a3_observable_interaction_reviewed
-        - c0907_a3_private_narrative_excluded
-        - c0907_a3_inconclusive_allowed
+        - actual_operation_or_simulation_is_clearly_labeled
+        - downstream_effects_are_inspected
+        - the_model_is_revised_when_a_link_fails
+        - the_decision_considers_burden_outside_the_target_metric
       - measurement_id: c0907_a3_boundary
         kind: boolean
         role: supporting
@@ -244,16 +295,17 @@ intervention:
       Systems and causal reasoning; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Systems and causal reasoning; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Describe the loop aloud or use labeled cards instead of a visual diagram. Analyze only a process
+      you may observe and change. Use synthetic requests when work, family or organizational confidentiality
+      prevents a live test.
     cultural_context:
     - Adapt the expression of Systems and causal reasoning to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Systems and causal reasoning opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Describe the loop aloud or use labeled cards instead of a visual diagram. Analyze only a process
+      you may observe and change. Use synthetic requests when work, family or organizational confidentiality
+      prevents a live test.
   pause_conditions:
   - Pause Systems and causal reasoning when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -285,10 +337,8 @@ evidence_and_scoring:
   - c0907_a3_boundary
   - c0907_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Systems and causal reasoning action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Systems and causal reasoning criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The map blamed one person while ignoring incentives, or essential needs were suppressed to improve
+    a metric.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Systems and causal reasoning explicitly; support can enable access and never reduces dignity or
     silently changes the typed value.
@@ -299,14 +349,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Systems and causal reasoning rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Explains why a system behaves as it does and identifies leverage points or failure modes.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Systems and causal reasoning requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Draw the components and the handoffs that matter. Observed checks: Components
+    and interfaces have concrete labels; At least one delay and one incentive are shown; A feedback loop
+    is traced back to its start; Observed and hypothesized links are distinguishable. Action 2: Predict
+    a leverage point and its possible side effects. Observed checks: The change targets a named link or
+    incentive; An intended effect and an unintended effect are predicted; Observations include displaced
+    or delayed work; Essential and access-related needs retain a route. Action 3: Compare the system response
+    with the diagram. Observed checks: Actual operation or simulation is clearly labeled; Downstream effects
+    are inspected; The model is revised when a link fails; The decision considers burden outside the target
+    metric.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Boxes and arrows were drawn without a feedback loop,
+    testable prediction or observed system response.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Systems
     and causal reasoning contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -315,9 +373,8 @@ evidence_and_scoring:
   - L12
   - L14
   - L31
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Systems and causal reasoning evidence.
@@ -325,12 +382,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The prepare a consent-safe systems and causal reasoning interaction action was attempted or explicitly
-    deferred.
-  - The practice one systems and causal reasoning communication act action was attempted or explicitly
-    deferred.
-  - The review systems and causal reasoning without scoring the person action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Draw the components and the handoffs that matter. Observed checks: Components and interfaces
+    have concrete labels; At least one delay and one incentive are shown; A feedback loop is traced back
+    to its start; Observed and hypothesized links are distinguishable.'
+  - 'Action 2: Predict a leverage point and its possible side effects. Observed checks: The change targets
+    a named link or incentive; An intended effect and an unintended effect are predicted; Observations
+    include displaced or delayed work; Essential and access-related needs retain a route.'
+  - 'Action 3: Compare the system response with the diagram. Observed checks: Actual operation or simulation
+    is clearly labeled; Downstream effects are inspected; The model is revised when a link fails; The
+    decision considers burden outside the target metric.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -339,56 +402,495 @@ completion_and_review:
     - c0907_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Systems and causal reasoning only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Systems and causal reasoning across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Did the intervention remove a cause, shift the burden somewhere else or reveal
+    that the original system boundary was too narrow?
+  transfer_limit: A causal diagram is a hypothesis about one system, not proof that its arrows are true.
+    The exercise does not authorize experiments on unwilling people or essential services.
   reflection:
-    before: What does Systems and causal reasoning require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Systems and causal reasoning criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Explains why a system behaves as it does and identifies leverage
-      points or failure modes.', what contradiction or missing context matters most, and should this Systems
-      and causal reasoning design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Map components, handoffs, feedback, delays
+      and incentives, then test one plausible leverage point while keeping alternative causes visible.'
+    during: Which checks have actually been observed? Meetings shortened, but unresolved work grew outside
+      the agenda and required a revised boundary.
+    after: Did the intervention remove a cause, shift the burden somewhere else or reveal that the original
+      system boundary was too narrow?
   review_guidance:
     repeat: Repeat the same bounded Systems and causal reasoning design only when the context and burden
       remain appropriate.
-    adapt: Change the Systems and causal reasoning medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Describe the loop aloud or use labeled cards instead of a visual diagram. Analyze only a process
+      you may observe and change. Use synthetic requests when work, family or organizational confidentiality
+      prevents a live test.
     stop: Stop Systems and causal reasoning when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Systems and causal reasoning questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Systems and causal reasoning criteria were observed with provenance and no
-      adverse boundary signal in the selected context.
-    mixed: Some Systems and causal reasoning criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Systems and causal reasoning criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Systems and causal reasoning action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A clearer request rule reduced ambiguous items without hiding urgent concerns, and the
+      diagram was revised to include a previously missed triage delay.
+    mixed: Meetings shortened, but unresolved work grew outside the agenda and required a revised boundary.
+    contradictory: The map blamed one person while ignoring incentives, or essential needs were suppressed
+      to improve a metric.
+    inconclusive: Boxes and arrows were drawn without a feedback loop, testable prediction or observed
+      system response.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Systems and causal reasoning.
+    context_heading: Trace one recurring problem through a small causal system
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Systems and
       causal reasoning.
   check_in_labels:
-    c0907_a1_primary: The bounded Systems and causal reasoning criterion for action 1 was observed
+    c0907_a1_primary: 'Observed checks: draw the components and the handoffs that matter'
     c0907_a1_boundary: Action 1 stayed inside its stated Systems and causal reasoning boundary
     c0907_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0907_a2_primary: The bounded Systems and causal reasoning criterion for action 2 was observed
+    c0907_a2_primary: 'Observed checks: predict a leverage point and its possible side effects'
     c0907_a2_boundary: Action 2 stayed inside its stated Systems and causal reasoning boundary
     c0907_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0907_a3_primary: The bounded Systems and causal reasoning criterion for action 3 was observed
+    c0907_a3_primary: 'Observed checks: compare the system response with the diagram'
     c0907_a3_boundary: Action 3 stayed inside its stated Systems and causal reasoning boundary
     c0907_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Systems and causal
-    reasoning practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Did the intervention remove a cause, shift the burden somewhere else or reveal that
+    the original system boundary was too narrow? Completion is not mastery.
+  plain_language_evidence: A clearer request rule reduced ambiguous items without hiding urgent concerns,
+    and the diagram was revised to include a previously missed triage delay.
   display_order: 114
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '09.07'
+  title: 09.07 — Systems and causal reasoning
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Systems reasoning](https://ocw.mit.edu/courses/15-871-introduction-to-system-dynamics-fall-2013/pages/syllabus/)
+
+      - [Discriminating tests and multiple factors](https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm)
+
+      - [Discriminating tests and multiple factors](https://www.itl.nist.gov/div898/handbook/pri/section3/pri331.htm)
+
+      - [Discriminating tests and multiple factors](https://www.itl.nist.gov/div898/handbook/pri/section3/pri3331.htm)
+
+      - [Decisions among constrained alternatives](https://www.nasa.gov/reference/6-8-decision-analysis/)'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### What you are practicing
+
+
+      Explain how a process produces a pattern over time, including work that crosses your first boundary.
+      Then predict what a small change will do, test that prediction in a complete fictional system, and
+      revise the explanation when an apparently good metric hides a cost.
+
+
+      **Canonical scope:** Map components, interfaces, feedback loops, delays, incentives, unintended
+      effects, and second-order consequences.
+
+
+      **Deliverable:** A labeled system map, a three-day comparison of three policies, and a decision
+      that includes the delayed and displaced work. Allow about 40 minutes, split into shorter sessions
+      as needed. Paper, a calculator, a text editor, or spoken records are enough. No software installation
+      or actual organization is required.
+
+
+      This source is educational and unscored. A successful simulation is not evidence that an actual
+      service improved or that its workers behave like the model. The course background in SOURCES.md
+      supports studying feedback and delayed consequences; the desk, rules, and numbers below are original
+      fictional constructions.
+
+
+      ### A reference for drawing a useful map
+
+
+      A **component** performs a role: receiving requests, processing them, or checking the result. An
+      **interface** transfers something between roles. Label what moves, when it moves, and who may accept
+      or reject it. An arrow labeled only “affects” conceals the mechanism.
+
+
+      A **stock** is an accumulation at an instant, such as unfinished requests. A **flow** changes that
+      accumulation over an interval, such as requests received per day. Ten unfinished requests and ten
+      requests per day are different quantities. Adding them requires choosing an interval and converting
+      the flow to an amount.
+
+
+      A **feedback loop** returns a consequence to something that influenced it. A reinforcing loop amplifies
+      a change; a balancing loop counteracts it. Those words describe direction, not whether the consequences
+      are good or bad. A chain that never returns is not a feedback loop. A balancing process may be unable
+      to keep up when its capacity is limited.
+
+
+      A **delay** separates a cause or decision from a later effect. Work can be absent from today''s
+      queue but already committed to tomorrow''s. An **incentive** rewards a behavior or metric; it is
+      not automatically proof of anyone''s motives. Write a possible response as a hypothesis unless it
+      is given by the exercise or supported by a real record.
+
+
+      A **boundary** says what the analysis includes. A shorter visible queue can coexist with more unfinished
+      work outside it. Inspect the purpose, not just the easiest number to improve. Include the people
+      who bear added work, the needs you must preserve, and any consequences your model omits.
+
+
+      ### A different worked example: dishes waiting to be put away
+
+
+      Four clean plates wait on a counter. Three more arrive during an hour and two are put away. The
+      ending accumulation is 4 + 3 - 2 = 5 plates. Putting three plates in an uncounted cupboard makes
+      the counter look better without establishing that the agreed storage task is complete.
+
+
+      A possible balancing response is that seeing more waiting plates prompts more put-away effort. That
+      causal arrow is a hypothesis about behavior, not something proved by the arithmetic. If cupboard
+      space is full, extra effort may not increase the outflow. This separates an accounting identity,
+      a behavioral assumption, and a capacity limit.
+
+
+      ### Complete practice packet: the request desk
+
+
+      Every request below is an interchangeable unit of harmless administrative work. There are no emergencies,
+      private records, or actual participants. We stipulate the rules so you can check the logic; do not
+      treat their rates as measured facts about real workers.
+
+
+      The desk''s purpose is to settle legitimate requests without losing them or creating unacknowledged
+      work. The daily dashboard displays the ready queue and today''s processing count. It omits requests
+      due to reopen tomorrow and requests refused at intake. A fictional manager rewards a high processing
+      count and a low ready queue. Whether a real person would game such a metric is unknown.
+
+
+      At the start of Day 1, **2 requests are ready**, **0 reopenings are due**, and **0 requests have
+      been hidden**. **4 new legitimate requests arrive each day.** Processing capacity is normally **4
+      attempts per day**. Reprocessing consumes capacity too. All three policies begin from this same
+      state; never feed one policy''s ending queue into another policy''s start.
+
+
+      Within each day, do these operations in this order:
+
+
+      1. Add the ready queue, admitted new requests, and reopenings due from the preceding day. Call the
+      result **D**, available work today.
+
+      2. Process **C = the smaller of capacity and D**. Never process nonexistent requests or create a
+      negative queue.
+
+      3. The next ready queue is **B_next = D - C**.
+
+      4. Calculate **R_next**, requests that will reopen at the start of the next day. They are not available
+      for another processing attempt today.
+
+      5. Add any refused new requests to a separate hidden stock **H**. Nothing in this packet resolves
+      that stock.
+
+
+      At each day''s end, count all unfinished work as **B_next + R_next + H**. Also retain the processing
+      count and capacity; a single total cannot explain every mechanism. A processing attempt is not necessarily
+      a permanently settled original request.
+
+
+      #### The three policies
+
+
+      | Policy | New requests admitted each day | Capacity | Tomorrow''s reopenings | Hidden work |
+
+      | --- | --- | --- | --- | --- |
+
+      | Baseline | 4 | 4 every day | 1 when D is greater than 4 and C is positive; otherwise 0 | None
+      |
+
+      | Clarify before processing | 4 | 3 on Day 1; 4 afterward | 0, stipulated for this toy policy |
+      None |
+
+      | Hide one at intake | 3 | 4 every day | Same rule as baseline | Add 1 legitimate request each day
+      |
+
+
+      The clarification policy spends one processing slot on initial setup, then changes the stipulated
+      rework mechanism. Its zero-reopening rule is an assumption to test elsewhere, not a guaranteed real
+      improvement. The hiding policy is included for diagnosis, not as an acceptable intervention. Rejected
+      legitimate work does not cease to matter because the dashboard omits it.
+
+
+      #### Action 1 — Draw the structure and expose its assumptions
+
+
+      Use boxes or a spoken sequence for intake, ready work, processing, quality feedback, and requests
+      outside intake. Label the request count crossing each interface, its daily timing, and the processing
+      authority. Keep an explicit place for tomorrow''s reopenings.
+
+
+      Distinguish three kinds of statement: **given fictional rule**, **arithmetic identity**, and **hypothesis
+      requiring real evidence**. Map the overload mechanism: more available work above the threshold can
+      create reopening, reopening adds to next day''s load, and that load can keep the threshold exceeded.
+      This is a reinforcing route with a one-day delay. It is a threshold mechanism, not a continuously
+      proportional effect.
+
+
+      Also map the balancing route: available work can increase processing attempts, which remove ready
+      work, but attempts cannot exceed capacity. Describe what happens once that limit is reached. Add
+      the incentive concern as a hypothesis: a dashboard rewarding visible reduction may encourage refusal
+      rather than settlement. Include the affected requester even when the request is outside intake.
+
+
+      Use this map record:
+
+
+      `From | To | what is transferred or influenced | direction | delay | given rule, identity, or hypothesis
+      | evidence needed outside the simulation`
+
+
+      Do not present all arrows as independently established causal relationships. Name at least one omitted
+      influence, such as unequal request complexity or the burden of clarification on requesters.
+
+
+      #### Action 2 — Predict first, then run each policy for three days
+
+
+      Before calculating, record which policy you expect to leave the least unfinished work after Day
+      3, which might look worse initially, and which dashboard number could mislead. Explain your predictions
+      using an arrow or delay rather than a guess about worker character.
+
+
+      Make three copies of this row and use one table per policy:
+
+
+      `Day | B at start | reopenings due | admitted new | D | capacity | C | B_next | R_next | H | all
+      unfinished`
+
+
+      Calculate Days 1–3 in order. Carry B_next and R_next forward separately. Keep Day 3''s R_next in
+      the ending total even though it would enter the ready queue on Day 4. This avoids ending the study
+      just before a cost becomes visible.
+
+
+      Check conservation after each day. Initial requests plus all new legitimate arrivals must equal
+      permanently settled requests plus all unfinished requests. In this simplified model, today''s net
+      permanently settled count is **C - R_next**; add those daily counts across the run. Hidden work
+      remains on the unfinished side of the identity. No request is counted as both permanently settled
+      and pending.
+
+
+      Only after saving your tables, inspect the main-practice key in **check-answers.md**. The rules
+      make the results derivable; the separate key is corrective guidance, not a secure examination barrier.
+
+
+      #### Action 3 — Explain the difference and revise the decision
+
+
+      Compare the ready queue, all unfinished work, processing attempts, and setup cost. Describe why
+      a policy can look worse on the first day yet avoid a later accumulation. Check whether the apparent
+      improvement reduces the total or merely moves it outside the dashboard.
+
+
+      Write a decision with four parts: the modeled mechanism, the preferred provisional policy, the most
+      important assumption to test, and a stop or revision condition. Do not claim that a stable queue
+      has been eliminated. If incoming work equals long-run capacity and no extra capacity is available,
+      an existing queue can remain even after rework is removed.
+
+
+      A real follow-up would need authority, requesters'' access needs, actual reopen counts and delays,
+      and a measure of burden outside the desk. Protect urgent and essential routes rather than refusing
+      them for an experiment. A reasonable stop condition is any lost legitimate request or an unacceptable
+      new access barrier. Do not test by secretly manipulating another person''s work.
+
+
+      ### Fresh checks, adaptation, and progression
+
+
+      Complete both cases in **check-prompts.md**, save your responses, then open their keys. One checks
+      accumulation and delayed rework; the other checks ordering with a delivery delay. You need to trace
+      a mechanism, not merely reuse the desk''s winning policy.
+
+
+      For **Accessibility**, use one card per stock and move counters while another person records at
+      your direction. Name delayed and hidden cards aloud. Use larger print, dictation, or a calculator.
+      Assistance may change the representation, but the learner still chooses the boundaries and explains
+      the accounting.
+
+
+      For a more demanding route, test zero arrivals, a capacity above available work, or a longer reopening
+      delay. State every new rule before running it. Compare the result with your prediction, and mark
+      any changed conclusion as model-dependent. Increasing realism does not automatically make an unvalidated
+      model accurate.
+
+
+      For later transfer, map one ordinary process you are authorized to observe, such as your own reading
+      backlog. Record both completed work and abandoned work. An actual observation can challenge a proposed
+      loop, but a few days do not prove a universal mechanism.
+
+
+      ### How to interpret your result
+
+
+      **Supportive:** The map labels mechanisms and delays; the tables conserve requests; the decision
+      includes hidden and delayed work and states the assumptions behind the improvement.
+
+
+      **Mixed:** The arithmetic is right but the conclusion calls a stable queue “cleared,” or neglects
+      the effort needed to clarify requests.
+
+
+      **Contradictory:** Refusing legitimate requests is counted as settlement, a processing count is
+      treated as unique completed work, or speculation about motives is presented as measured fact.
+
+
+      **Inconclusive:** Boxes are drawn without a returning loop, time sequence, prediction, or comparison.
+      Simulation results alone cannot establish a real service improvement.
+
+
+      **Final review:** Did the change reduce the problem, postpone it, move it, or reveal that the boundary
+      was too narrow?'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Save an attempt before opening the separate answers. All records are fictional.
+
+
+      ### Check A — An outflow is not the same as a finished request
+
+
+      A different desk starts with 8 ready requests and no reopening or hidden stock. During one day,
+      2 new requests arrive, 3 processing attempts occur, and 1 of those processed requests is scheduled
+      to reopen tomorrow. No other changes occur.
+
+
+      Calculate the ending ready queue, delayed reopening stock, all unfinished work, and permanently
+      settled count for this day. Check conservation. Explain what is wrong with reporting “three requests
+      permanently resolved.” Would increasing capacity to 20 allow 20 attempts in this same day? State
+      the necessary limit.
+
+
+      Identify which statement is arithmetic and which needs additional evidence: “A scheduled reopening
+      adds work tomorrow” and “The larger queue makes the workers anxious, causing more errors.” Name
+      a feedback loop that the second hypothesis could form, without treating the hypothesis as established.
+
+
+      ### Check B — Ordering without remembering what is already ordered
+
+
+      A fictional stationery cupboard needs 10 boxes. It starts Week 1 with 4. There is no consumption,
+      loss, or other delivery during this exercise. An order placed at the end of Week 1 arrives at the
+      start of Week 3; an order at the end of Week 2 arrives at the start of Week 4. No orders are placed
+      after Week 2.
+
+
+      Policy A orders the gap between 10 and the boxes physically present, ignoring orders already in
+      transit. Policy B orders the gap between 10 and the sum of boxes present plus outstanding orders.
+      Neither policy orders a negative quantity. Both start with no outstanding orders.
+
+
+      For each policy, record the Week 1 and Week 2 orders, the deliveries in Weeks 3 and 4, the final
+      physical stock, and any surplus above 10. Explain the delayed information that distinguishes the
+      policies. Identify one situation outside these stipulated facts in which a pipeline-aware policy
+      would need another input rather than blindly subtracting all outstanding orders.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Read after saving your map, tables, and fresh attempts. These are authored model checks, not
+      independent learner acceptance.
+
+
+      ### Main-practice key
+
+
+      | Policy and day | D | C | B_next | R_next | H | All unfinished |
+
+      | --- | --- | --- | --- | --- | --- | --- |
+
+      | Baseline 1 | 6 | 4 | 2 | 1 | 0 | 3 |
+
+      | Baseline 2 | 7 | 4 | 3 | 1 | 0 | 4 |
+
+      | Baseline 3 | 8 | 4 | 4 | 1 | 0 | 5 |
+
+      | Clarify 1 | 6 | 3 | 3 | 0 | 0 | 3 |
+
+      | Clarify 2 | 7 | 4 | 3 | 0 | 0 | 3 |
+
+      | Clarify 3 | 7 | 4 | 3 | 0 | 0 | 3 |
+
+      | Hide 1 | 5 | 4 | 1 | 1 | 1 | 3 |
+
+      | Hide 2 | 5 | 4 | 1 | 1 | 2 | 4 |
+
+      | Hide 3 | 5 | 4 | 1 | 1 | 3 | 5 |
+
+
+      There are 2 + 3 times 4 = 14 original legitimate requests across each three-day run. Baseline and
+      hiding each have 9 permanently settled and 5 unfinished. Clarification has 11 settled and 3 unfinished.
+      Twelve processing attempts under baseline do not equal twelve permanently settled originals; the
+      three scheduled reopenings account for the difference in this model.
+
+
+      On Day 1, clarification''s ready queue is 3 rather than baseline''s 2. Its all-unfinished total
+      is nevertheless the same: 3. By Day 3 it avoids two unfinished requests relative to baseline, conditional
+      on the stipulated zero-reopening rule. Its remaining queue of 3 is stable, not eliminated. Hiding
+      produces a ready queue of 1 but no reduction in all unfinished work relative to baseline.
+
+
+      The rework route reinforces load after a one-day delay. Processing opposes the ready accumulation
+      but is capacity-limited. The dashboard incentive can make the hiding policy attractive without making
+      it effective. A diagram should label that behavioral response as a hypothesis, while labeling the
+      simulation''s rules as stipulated.
+
+
+      A defensible decision is to investigate clarification with a reversible, authorized trial and measure
+      reopens, setup effort, requester burden, missing requests, and access. Do not declare that zero
+      rework is an established real outcome. Unequal request size, longer reopen delays, or an access
+      barrier could alter the conclusion.
+
+
+      **Repair:** If your totals lose tomorrow''s reopening or refused work, add separate stocks and rerun
+      all three days. If your chosen policy changes because the boundary expanded, preserve that revision
+      rather than rewriting the initial prediction.
+
+
+      ### Check A — Key
+
+
+      Available work is 8 + 2 = 10. The ending ready queue is 10 - 3 = 7. One reopening is pending, so
+      all unfinished work is 8. Only 3 - 1 = 2 requests are permanently settled in this packet. Conservation
+      is 10 = 8 + 2.
+
+
+      Capacity 20 would still permit at most 10 attempts before any next-day reopening. Capacity is a
+      limit, not a supply of work. The scheduled reopening''s next-day addition follows the stipulated
+      rule; anxiety causing additional errors needs actual evidence. One possible hypothesized reinforcing
+      loop is queue growth, increased pressure, additional errors, and rework feeding the queue. The hypothesis
+      requires more than a plausible story.
+
+
+      **Repair:** Keep units and timing beside each number. Today''s ready work excludes tomorrow''s reopening,
+      but today''s all-unfinished total includes it.
+
+
+      ### Check B — Key
+
+
+      Policy A orders 6 boxes in Week 1 and another 6 in Week 2 because physical stock is still 4. Six
+      arrive in Week 3 and six in Week 4. Final stock is 16, a surplus of 6.
+
+
+      Policy B orders 6 and then 0 because the Week 2 inventory position is 4 physical plus 6 outstanding.
+      Six arrive in Week 3; none arrive in Week 4. Final stock is 10 with no surplus. The pipeline is
+      part of the state; ignoring it repeats a correction before the original correction has arrived.
+
+
+      Outside this toy packet, consumption, cancelled orders, uncertain delivery, unusable stock, or a
+      changed target could matter. A due date and reliability estimate may be necessary; subtracting an
+      order that will never arrive can create a shortage. Do not invent those events in the stipulated
+      calculation.
+
+
+      **Repair:** Separate physical inventory from outstanding orders. Check a delivery''s arrival date
+      before treating its boxes as usable, and check all outstanding commitments before issuing another
+      correction.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

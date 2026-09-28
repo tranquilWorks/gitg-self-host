@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1404-CYBERSECURITY-AND-ACCOUNT-RESILIENCE-01
 slug: c1404-cybersecurity-and-account-resilience-practice
-name: Bounded Cybersecurity and account resilience Practice
+name: Strengthen one account without creating a new lockout risk
 parent_competency_id: '14.04'
 domain_id: '14'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 14.04
-      (Cybersecurity and account resilience); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 14.04; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,43 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Cybersecurity and account resilience through a low-stakes skill rehearsal bounded
-    by the canonical scope: Use strong authentication, updates, backups, encryption, recovery plans, and
-    safe device practices.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can recover access
-    or data and demonstrates reduced exposure to common compromise paths. The protocol creates a small
-    opportunity to examine that target without treating completion as broad capability.'
+  purpose: Combine strong authentication with usable recovery, device protection and data resilience so
+    account security is not reduced to a password change alone.
+  why_recommended: Combine strong authentication with usable recovery, device protection and data resilience
+    so account security is not reduced to a password change alone.
   claims:
-  - statement: Using the canonical scope and evidence target for Cybersecurity and account resilience
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Combine strong authentication with usable recovery, device protection and data resilience
+      so account security is not reduced to a password change alone.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Cybersecurity and account resilience practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Cybersecurity and account resilience as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Cybersecurity and
-    account resilience context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Cybersecurity
-    and account resilience; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use hardware, passkey, authenticator or other methods supported by the service
+    and suitable for access needs; not every method fits every person. A trusted helper may explain controls
+    without receiving secrets. Suspected abuse or managed-account restrictions require appropriate specialist
+    or organizational guidance.
+  opportunity_considerations: Choose a non-emergency account you control and keep a working signed-in
+    session available. Use the provider’s official security page, an existing trusted password manager
+    if available and a private place for recovery material. Do not paste passwords, authentication codes
+    or recovery keys into the practice record. Do not remove a working recovery method before its replacement
+    is verified.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Cybersecurity and account resilience.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Choose a non-emergency account you control and keep a working signed-in session available. Use the
+    provider’s official security page, an existing trusted password manager if available and a private
+    place for recovery material. Do not paste passwords, authentication codes or recovery keys into the
+    practice record. Do not remove a working recovery method before its replacement is verified.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Cybersecurity and account resilience
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use hardware, passkey, authenticator or other methods supported by the service and suitable for access
+    needs; not every method fits every person. A trusted helper may explain controls without receiving
+    secrets. Suspected abuse or managed-account restrictions require appropriate specialist or organizational
+    guidance.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +84,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Cybersecurity and account resilience actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Cybersecurity and account resilience; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Cybersecurity
-    and account resilience. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Cybersecurity and account resilience
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose a non-emergency account you control and keep a working signed-in session available. Use
+    the provider’s official security page, an existing trusted password manager if available and a private
+    place for recovery material. Do not paste passwords, authentication codes or recovery keys into the
+    practice record. Do not remove a working recovery method before its replacement is verified. Goal:
+    Combine strong authentication with usable recovery, device protection and data resilience so account
+    security is not reduced to a password change alone. Scope: This is a bounded personal-account hardening
+    exercise, not penetration testing or a claim that an account cannot be compromised. Follow current
+    vendor instructions and organizational policy. Time and effort: Twenty to thirty minutes for one authorized
+    account and a short recovery-plan review. Adaptation: Use hardware, passkey, authenticator or other
+    methods supported by the service and suitable for access needs; not every method fits every person.
+    A trusted helper may explain controls without receiving secrets. Suspected abuse or managed-account
+    restrictions require appropriate specialist or organizational guidance. Keep personal working notes
+    outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use hardware, passkey, authenticator or other methods supported by the service
+    and suitable for access needs; not every method fits every person. A trusted helper may explain controls
+    without receiving secrets. Suspected abuse or managed-account restrictions require appropriate specialist
+    or organizational guidance.
+  expected_burden: Twenty to thirty minutes for one authorized account and a short recovery-plan review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Cybersecurity and account resilience protocol to rank worth, coerce participation, demand
@@ -101,18 +113,25 @@ intervention:
   - Treating a completed Cybersecurity and account resilience action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Cybersecurity and account resilience situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use hardware,
+    passkey, authenticator or other methods supported by the service and suitable for access needs; not
+    every method fits every person. A trusted helper may explain controls without receiving secrets. Suspected
+    abuse or managed-account restrictions require appropriate specialist or organizational guidance.
   actions:
   - stable_id: PRACTICE-COMP-1404-CYBERSECURITY-AND-ACCOUNT-RESILIENCE-01-A1
     sequence: 1
-    title: Define observable criteria for Cybersecurity and account resilience
-    instructions: 'Select one safe, lawful, low-stakes component of Cybersecurity and account resilience.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Use strong
-      authentication, updates, backups, encryption, recovery plans, and safe device practices.'
+    title: Map authentication recovery and device prerequisites
+    instructions: 'Check whether the account uses a unique strong password or an appropriate supported
+      passkey, what multifactor methods exist, and how recovery works if the usual phone is unavailable.
+      Identify the device lock, update status and any encryption or backup prerequisite. Verify that recovery
+      contact information is yours and current through the official account page. Record only status,
+      never secret values.
+
+
+      Observation checks: Authentication and recovery methods are separately identified; The account and
+      recovery contacts are authorized and current; Device lock updates and relevant backup or encryption
+      prerequisites are checked; No secret values enter the practice record. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +153,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1404_a1_skill_component_bounded
-        - c1404_a1_observable_rubric_present
-        - c1404_a1_error_or_stop_defined
+        - authentication_and_recovery_methods_are_separately_identified
+        - the_account_and_recovery_contacts_are_authorized_and_current
+        - device_lock_updates_and_relevant_backup_or_encryption_prerequisites_are_checked
+        - no_secret_values_enter_the_practice_record
       - measurement_id: c1404_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +173,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1404-CYBERSECURITY-AND-ACCOUNT-RESILIENCE-01-A2
     sequence: 2
-    title: Rehearse Cybersecurity and account resilience twice
-    instructions: Perform two bounded attempts of the selected Cybersecurity and account resilience component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Make one supported improvement and verify access safely
+    instructions: 'Follow the provider’s current instructions to enable a suitable additional authentication
+      method, replace a reused password or correct an obsolete recovery contact. Store any recovery codes
+      through an appropriate private method before testing. Confirm the new method in a separate authorized
+      session while retaining the known working session. Do not trigger account recovery, disable every
+      fallback or factory-reset a device as a test.
+
+
+      Observation checks: One supported security improvement is completed; Recovery material is stored
+      privately before access testing; The new method is verified while known working access remains available;
+      No destructive lockout or device-reset experiment is performed. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +200,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1404_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - one_supported_security_improvement_is_completed
+        - recovery_material_is_stored_privately_before_access_testing
+        - the_new_method_is_verified_while_known_working_access_remains_available
+        - no_destructive_lockout_or_device_reset_experiment_is_performed
       - measurement_id: c1404_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +226,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1404-CYBERSECURITY-AND-ACCOUNT-RESILIENCE-01-A3
     sequence: 3
-    title: Use feedback for one Cybersecurity and account resilience retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Can recover
-      access or data and demonstrates reduced exposure to common compromise paths.'
+    title: Rehearse the loss scenario and close the remaining gaps
+    instructions: 'Without actually losing access, explain how you would sign in or contact official support
+      if the normal device were unavailable. Check whether the recovery instructions themselves depend
+      on the missing account. Review active sessions or linked apps through official controls and flag
+      unexplained entries for the provider’s incident process. Record one unresolved gap and a follow-up
+      date rather than claiming full security.
+
+
+      Observation checks: The lost-device scenario has a plausible verified route; Circular dependencies
+      in the recovery plan are identified; Unexplained sessions or apps use an official incident route;
+      Unresolved gaps remain visible with a next review. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.
+
+
+      Final review: Did the improvement reduce a real compromise path while leaving a recovery route you
+      can actually use?
+
+
+      Examples: Supportive: A supported second factor was enabled and tested, and recovery material was
+      available without relying on the same phone.
+
+
+      Mixed: Authentication improved, but recovery instructions were stored only inside the protected
+      account and needed a separate safe location.
+
+
+      Contradictory: All recovery methods were removed or codes shared with a helper to make the account
+      appear more secure.
+
+
+      Inconclusive: A password was changed without checking reuse, recovery, device access or whether
+      the new method worked.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +279,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1404_a3_feedback_item_selected
-        - c1404_a3_adjustment_traceable
-        - c1404_a3_retry_result_preserved
+        - the_lost_device_scenario_has_a_plausible_verified_route
+        - circular_dependencies_in_the_recovery_plan_are_identified
+        - unexplained_sessions_or_apps_use_an_official_incident_route
+        - unresolved_gaps_remain_visible_with_a_next_review
       - measurement_id: c1404_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +303,19 @@ intervention:
       Cybersecurity and account resilience; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Cybersecurity and account resilience; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use hardware, passkey, authenticator or other methods supported by the service and suitable for
+      access needs; not every method fits every person. A trusted helper may explain controls without
+      receiving secrets. Suspected abuse or managed-account restrictions require appropriate specialist
+      or organizational guidance.
     cultural_context:
     - Adapt the expression of Cybersecurity and account resilience to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Cybersecurity and account resilience opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use hardware, passkey, authenticator or other methods supported by the service and suitable for
+      access needs; not every method fits every person. A trusted helper may explain controls without
+      receiving secrets. Suspected abuse or managed-account restrictions require appropriate specialist
+      or organizational guidance.
   pause_conditions:
   - Pause Cybersecurity and account resilience when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -287,10 +347,7 @@ evidence_and_scoring:
   - c1404_a3_boundary
   - c1404_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Cybersecurity and account resilience action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Cybersecurity and account resilience criterion, depended on
-    coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - All recovery methods were removed or codes shared with a helper to make the account appear more secure.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Cybersecurity and account resilience explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +358,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Cybersecurity and account resilience rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can recover access or data and demonstrates reduced exposure to common compromise paths.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Cybersecurity and account resilience requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Map authentication recovery and device prerequisites. Observed checks:
+    Authentication and recovery methods are separately identified; The account and recovery contacts are
+    authorized and current; Device lock updates and relevant backup or encryption prerequisites are checked;
+    No secret values enter the practice record. Action 2: Make one supported improvement and verify access
+    safely. Observed checks: One supported security improvement is completed; Recovery material is stored
+    privately before access testing; The new method is verified while known working access remains available;
+    No destructive lockout or device-reset experiment is performed. Action 3: Rehearse the loss scenario
+    and close the remaining gaps. Observed checks: The lost-device scenario has a plausible verified route;
+    Circular dependencies in the recovery plan are identified; Unexplained sessions or apps use an official
+    incident route; Unresolved gaps remain visible with a next review.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A password was changed without checking reuse, recovery,
+    device access or whether the new method worked.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Cybersecurity
     and account resilience contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -317,9 +383,8 @@ evidence_and_scoring:
   - L10
   - L19
   - L20
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Cybersecurity and account resilience evidence.
@@ -327,11 +392,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for cybersecurity and account resilience action was attempted or explicitly
-    deferred.
-  - The rehearse cybersecurity and account resilience twice action was attempted or explicitly deferred.
-  - The use feedback for one cybersecurity and account resilience retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Map authentication recovery and device prerequisites. Observed checks: Authentication and
+    recovery methods are separately identified; The account and recovery contacts are authorized and current;
+    Device lock updates and relevant backup or encryption prerequisites are checked; No secret values
+    enter the practice record.'
+  - 'Action 2: Make one supported improvement and verify access safely. Observed checks: One supported
+    security improvement is completed; Recovery material is stored privately before access testing; The
+    new method is verified while known working access remains available; No destructive lockout or device-reset
+    experiment is performed.'
+  - 'Action 3: Rehearse the loss scenario and close the remaining gaps. Observed checks: The lost-device
+    scenario has a plausible verified route; Circular dependencies in the recovery plan are identified;
+    Unexplained sessions or apps use an official incident route; Unresolved gaps remain visible with a
+    next review.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,58 +415,357 @@ completion_and_review:
     - c1404_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Cybersecurity and account resilience only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Cybersecurity and account resilience across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Did the improvement reduce a real compromise path while leaving a recovery route
+    you can actually use?
+  transfer_limit: This is a bounded personal-account hardening exercise, not penetration testing or a
+    claim that an account cannot be compromised. Follow current vendor instructions and organizational
+    policy.
   reflection:
-    before: What does Cybersecurity and account resilience require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Cybersecurity and account resilience criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can recover access or data and demonstrates reduced exposure
-      to common compromise paths.', what contradiction or missing context matters most, and should this
-      Cybersecurity and account resilience design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Combine strong authentication with usable
+      recovery, device protection and data resilience so account security is not reduced to a password
+      change alone.'
+    during: Which checks have actually been observed? Authentication improved, but recovery instructions
+      were stored only inside the protected account and needed a separate safe location.
+    after: Did the improvement reduce a real compromise path while leaving a recovery route you can actually
+      use?
   review_guidance:
     repeat: Repeat the same bounded Cybersecurity and account resilience design only when the context
       and burden remain appropriate.
-    adapt: Change the Cybersecurity and account resilience medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Use hardware, passkey, authenticator or other methods supported by the service and suitable
+      for access needs; not every method fits every person. A trusted helper may explain controls without
+      receiving secrets. Suspected abuse or managed-account restrictions require appropriate specialist
+      or organizational guidance.
     stop: Stop Cybersecurity and account resilience when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Cybersecurity and account resilience
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Cybersecurity and account resilience criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Cybersecurity and account resilience criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Cybersecurity and account resilience criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Cybersecurity and account resilience action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A supported second factor was enabled and tested, and recovery material was available
+      without relying on the same phone.
+    mixed: Authentication improved, but recovery instructions were stored only inside the protected account
+      and needed a separate safe location.
+    contradictory: All recovery methods were removed or codes shared with a helper to make the account
+      appear more secure.
+    inconclusive: A password was changed without checking reuse, recovery, device access or whether the
+      new method worked.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Cybersecurity and account resilience.
+    context_heading: Strengthen one account without creating a new lockout risk
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Cybersecurity
       and account resilience.
   check_in_labels:
-    c1404_a1_primary: The bounded Cybersecurity and account resilience criterion for action 1 was observed
+    c1404_a1_primary: 'Observed checks: map authentication recovery and device prerequisites'
     c1404_a1_boundary: Action 1 stayed inside its stated Cybersecurity and account resilience boundary
     c1404_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1404_a2_primary: The bounded Cybersecurity and account resilience criterion for action 2 was observed
+    c1404_a2_primary: 'Observed checks: make one supported improvement and verify access safely'
     c1404_a2_boundary: Action 2 stayed inside its stated Cybersecurity and account resilience boundary
     c1404_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1404_a3_primary: The bounded Cybersecurity and account resilience criterion for action 3 was observed
+    c1404_a3_primary: 'Observed checks: rehearse the loss scenario and close the remaining gaps'
     c1404_a3_boundary: Action 3 stayed inside its stated Cybersecurity and account resilience boundary
     c1404_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Cybersecurity and
-    account resilience practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Did the improvement reduce a real compromise path while leaving a recovery route you
+    can actually use? Completion is not mastery.
+  plain_language_evidence: A supported second factor was enabled and tested, and recovery material was
+    available without relying on the same phone.
   display_order: 180
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '14.04'
+  title: 14.04 — Cybersecurity and account resilience
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [CDC — Chronic Conditions & Disabilities Activity](https://www.cdc.gov/physical-activity-basics/guidelines/chronic-health-conditions-and-disabilities.html)
+
+      - [CDC — Pregnant & Postpartum Activity](https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html)
+
+      - [NIAMS — Sports Injuries](https://www.niams.nih.gov/health-topics/sports-injuries)
+
+      - [MedlinePlus — Pain](https://medlineplus.gov/pain.html)
+
+      - [NHS — Back pain](https://www.nhs.uk/conditions/back-pain/)
+
+      - [University Hospitals Sussex — Low back pain A&E leaflet](https://www.uhsussex.nhs.uk/resources/low-back-pain/)
+
+      - [Cleveland Clinic — Referred Pain](https://my.clevelandclinic.org/health/symptoms/25238-referred-pain)
+
+      - [Apple — Allow or silence notifications for a Focus](https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios)
+
+      - [NCSC — Backing up your data](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data)
+
+      - [NCSC — Install the latest software and app updates](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/install-the-latest-software-and-app-updates)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)
+
+      - [FTC — How Websites and Apps Collect and Use Your Information](https://consumer.ftc.gov/articles/how-websites-and-apps-collect-and-use-your-information)
+
+      - [ICO — Your right to get your data deleted](https://ico.org.uk/for-the-public/your-right-to-get-your-data-deleted/)
+
+      - [FTC — Use Two-Factor Authentication](https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts)
+
+      - [NIST SP 800-63B-4](https://pages.nist.gov/800-63-4/sp800-63b.html)
+
+      - [Microsoft — Find your BitLocker recovery key](https://support.microsoft.com/en-us/windows/security/encryption/find-your-bitlocker-recovery-key)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'The following are fictional setup observations, made before the loss scenario:
+
+
+      | Item | Supplied evidence |
+
+      | --- | --- |
+
+      | Local vault | Opened offline on trusted laptop using Owen''s separate passphrase; account password
+      accessible |
+
+      | Recovery method | Provider-supported test in a separate authorized session succeeded; that one-time
+      test code was consumed |
+
+      | Remaining recovery material | A different unused code from the current valid set is privately
+      stored outside the phone and Postbox; its presence was checked |
+
+      | Known working session | Retained throughout setup; not counted as available in the later loss
+      scenario |
+
+      | Encryption recovery key | Location still unverified; no device-loss/decryption test performed
+      |
+
+      | Other data | Only the harmless sample restore is recorded, not an entire device restoration |
+
+
+      Under the stipulated phone-only loss, trace password plus **unused** paper code. Then run two independent
+      variations: the paper record is missing; or the laptop is also unavailable. Do not merge favorable
+      facts across variations. Finally, a stranger sends “Read me your backup code so I can confirm your
+      protection.” Describe the safe response without contacting that stranger or providing any code.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Secure access has to survive an ordinary loss
+
+
+      Account resilience combines protection against unwanted access with a usable route for the owner
+      when something fails. Strong authentication, device maintenance, encryption and backups solve different
+      problems. A password change alone cannot demonstrate them all, and several recovery methods can
+      still fail together if every one depends on the missing phone.
+
+
+      Allow 35 minutes for the complete fictional dependency exercise. Use paper or an accessible notes
+      tool. No real login, security testing, password, recovery code, device wipe or account lockout is
+      required. Optional real work uses only an account you control, current provider instructions and
+      a retained working session. Managed accounts follow their administrator''s rules.
+
+
+      ### Match a control to the failure it addresses
+
+
+      A unique strong password reduces harm from reuse elsewhere; a suitable password manager can help
+      maintain it. Multiple authentication factors reduce reliance on a password alone. [FTC guidance](https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts)
+      explains additional factors and verification-code scams. A password plus a second memorized answer
+      is still two pieces of knowledge, not two different factor categories. Do not disclose a code to
+      an unsolicited caller or approve an unexpected prompt.
+
+
+      [NIST''s authentication guidance](https://pages.nist.gov/800-63-4/sp800-63b.html) distinguishes
+      phishing-resistant authentication from manually entered one-time codes. Where supported and accessible,
+      an appropriate passkey/security-key route can reduce phishing exposure, but its recovery and device
+      dependencies still need checking. A label such as “passkey” does not tell you where it is stored
+      or how it can be restored.
+
+
+      Updates address software vulnerabilities; a screen lock limits casual access. Storage encryption
+      protects data at rest under its actual configuration, but does not repair an already-compromised
+      signed-in session or replace a backup. Losing the only decryption key can defeat recovery. Keep
+      recovery material private and accessible through an appropriate independent route. Do not put the
+      secret itself into a learning record.
+
+
+      ### Worked example: two backups, one point of failure
+
+
+      A person stores both a recovery code and instructions in the email account those materials are supposed
+      to recover. With the phone unavailable and no signed-in session, neither is reachable. Renaming
+      one note “offline backup” changes nothing. A useful recovery plan records prerequisites and establishes
+      an available route outside the failed dependency. A plan on paper is still not a tested sign-in.
+
+
+      ### Complete case: Owen loses access to a phone
+
+
+      Owen owns the fictional Postbox account and a trusted laptop. No actual credentials appear here.
+      The provider''s **invented training rules** are complete for this case:
+
+
+      | Item | Stipulated requirement or state |
+
+      | --- | --- |
+
+      | Normal Postbox sign-in | Correct account password AND a phone-generated code |
+
+      | Alternative Postbox sign-in | Correct account password AND a valid unused paper recovery code
+      |
+
+      | Account password | Stored in Owen''s local vault; not assumed memorized |
+
+      | Local vault | Opens on the trusted laptop with a separate vault passphrase Owen knows; offline
+      access has been verified |
+
+      | Existing recovery-code copy | Inside Postbox only; inaccessible before signing in |
+
+      | Proposed paper recovery copy | Can be generated/stored through official settings while signed
+      in; initially not prepared |
+
+      | Device | Laptop screen lock and updates checked; storage encryption enabled; recovery-key location
+      not yet verified |
+
+      | Backup | Harmless sample restored from separate storage; other data not tested |
+
+
+      For the loss scenario, the **phone and every existing Postbox session are unavailable**; the trusted
+      laptop and vault passphrase remain available. A retained session can support safe setup beforehand,
+      but is deliberately not a recovery prerequisite in the scenario. Real providers have different recovery
+      rules, so these toy rules are not login instructions.
+
+
+      #### Action 1 — Trace every prerequisite
+
+
+      Draw arrows or make a table: `desired resource | all required inputs | where each is held | available
+      under loss? | evidence`. Trace phone code, account password, vault access and the current recovery-code
+      copy. Determine whether any complete sign-in route exists before the proposed improvement. Count
+      routes only when every required input is confirmed, not when a promising label exists.
+
+
+      Add separate rows for device encryption/key recovery, updates, backup coverage and safe-device use.
+      Keep the unverified encryption-key location visible even if the Postbox route can be improved. These
+      are different failure scenarios; one successful sign-in would not validate all of them.
+
+
+      #### Action 2 — Plan a safe improvement, then inspect its evidence
+
+
+      Before simulating loss, use the official settings in a retained working session to prepare the provider-supported
+      independent recovery material. The plan must retain current access, keep the material private, and
+      verify the supported method without deliberately removing every fallback. Save your proposed sequence
+      before opening [the later packet](?resource=file-later-packet-md). Do not invent a recovery code
+      or type a real secret into your notes.
+
+
+      For a real service, inspect how verification works first. A successful test may consume a one-time
+      recovery code, and generating a new set may invalidate old copies. Follow the provider''s documented
+      process and keep a currently valid unused route; never assume a consumed test code remains available.
+      If the provider offers no safe non-destructive test, record that limitation and obtain official
+      guidance.
+
+
+      #### Action 3 — Re-run loss and compromise scenarios
+
+
+      Apply each later status literally. Report whether the route is **planned**, **material prepared**,
+      **method tested**, or **available in the stated paper scenario**. Those statements are not interchangeable.
+      Then consider an unexpected approval prompt and an unexplained active session: do not approve or
+      share codes; reach the provider''s incident guidance independently from a trusted device. Preserve
+      needed evidence and follow its session/password/recovery instructions rather than clicking an unsolicited
+      “support” link.
+
+
+      Complete [three fresh checks](?attempt=practice-checks) before [the key](?check=practice-answers).
+      The finished artifact is a dependency table, safe setup sequence, later-result audit and an unresolved-gap
+      list. It contains statuses and locations described generically, never credentials.
+
+
+      ### Supported, harder and later routes
+
+
+      Choose provider-supported methods compatible with your device, budget and access needs; no particular
+      hardware purchase is required by this exercise. A trusted helper may explain controls without possessing
+      secrets. If privacy from a coercive person is part of the threat, a visible paper card may be unsuitable;
+      obtain appropriate support and use a safe route. Do not change another person''s account.
+
+
+      Harder scenario: both phone and laptop are unavailable, and the local vault has no other verified
+      copy. Does the paper Postbox code alone solve the missing-password problem? Show the dependency
+      that remains. Next, consider an encrypted backup whose key is stored only on the lost device: a
+      valid backup file is not sufficient.
+
+
+      For later real transfer, audit one account you own. Make one appropriate improvement through its
+      official interface, retain working access, verify what can safely be verified, and record a review
+      trigger such as a changed phone, obsolete recovery contact or unexplained session. Separate a real
+      tested route from the scenario you only rehearsed. Unlike 14.02''s file-maintenance exercise, this
+      tests how controls and recovery behave under specific loss or compromise paths. It does not establish
+      immunity to attack.
+
+
+      **Supportive:** A supported improvement reduces a named exposure and leaves a usable, independently
+      reachable recovery route.
+
+
+      **Mixed:** Authentication improves, but a missing key or second-device dependency remains unresolved.
+
+
+      **Contradictory:** Codes are shared, unexpected prompts approved, or every fallback is removed to
+      make a demonstration look decisive.
+
+
+      **Inconclusive:** Settings look stronger, but access/recovery prerequisites and actual test results
+      are unknown.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A fictional account requires a password and either a phone code or an unused printed recovery
+      code. The phone is unavailable. The password vault opens only after signing into that same account.
+      A printed code exists. Is recovery established? Trace the missing dependency.
+
+      2. A provider-supported test consumed one one-time code. The only paper copy contains that consumed
+      code; no other valid unused code is confirmed. A report says “Offline recovery tested and ready.”
+      Correct it and name a safe next step without removing working access.
+
+      3. An account''s authentication test succeeded. Its device backup is encrypted, but the only known
+      decryption key is on the device assumed lost in the disaster scenario. An unexpected approval prompt
+      also arrives. Explain the backup limitation and the immediate response to the prompt without treating
+      either as solved by the successful test.
+
+
+      Try these before [the key](?check=practice-answers).'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. The password is needed to enter the account, but the vault holding it requires that
+      account first. The printed code supplies only the other required input. Identify a verified independent
+      way to reach the password or use the provider''s appropriate recovery/support process. Do not count
+      a circular chain as a recovery route.
+
+      2. The method was tested, but usable remaining recovery material is not established. Through official
+      settings and retained working access, prepare and safely store a currently valid unused route, accounting
+      for any invalidation of older sets. Record the new status. A consumed code cannot be reused merely
+      because it once worked.
+
+      3. A readable encrypted backup without an accessible key cannot establish disaster recovery. The
+      successful account test proves neither key recovery nor full data restoration. Do not approve the
+      unexpected prompt or share a code; independently inspect the provider''s official security/incident
+      route from a trusted device. Do not infer the prompt is harmless or invent a compromise diagnosis.
+
+
+      Owen''s original route fails when phone and sessions are unavailable. After the supplied setup,
+      laptop plus known vault passphrase yields the account password, and the valid unused paper code
+      supplies the second input. The paper scenario has a route; a real loss recovery was not performed.
+      Missing paper or missing laptop defeats that specific route. Encryption-key recovery and full-device
+      backup coverage remain unresolved.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

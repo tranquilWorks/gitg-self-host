@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1704-RELIABLE-SUPPORT-01
 slug: c1704-reliable-support-practice
-name: Bounded Reliable support Practice
+name: Ask what kind of support is wanted and deliver one bounded part
 parent_competency_id: '17.04'
 domain_id: '17'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 17.04
-      (Reliable support); canonical scope, evidence target, classification, domain boundary, and parent
-      mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 17.04; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,38 +34,38 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Reliable support through a consent-respecting relational practice bounded by the
-    canonical scope: Identify whether someone needs listening, practical help, encouragement, information,
-    advocacy, or space.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Provides useful support
-    without assuming, rescuing, controlling, or disappearing. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Match support to the person’s stated need and your actual capacity rather than assuming that
+    advice, rescue or constant availability is always helpful.
+  why_recommended: Match support to the person’s stated need and your actual capacity rather than assuming
+    that advice, rescue or constant availability is always helpful.
   claims:
-  - statement: Using the canonical scope and evidence target for Reliable support is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: Match support to the person’s stated need and your actual capacity rather than assuming
+      that advice, rescue or constant availability is always helpful.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Reliable support practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Reliable support as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Reliable support
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Reliable
-    support; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Support may be asynchronous, remote, translated or practical rather than verbally
+    expressive. The recipient can decline feedback or further help. An unavailable friend is not a practice
+    target; use a fictional rehearsal until a welcome opportunity arises.
+  opportunity_considerations: 'Default case: a friend says an ordinary week has become overwhelming. Prepare
+    six possible modes—listening, practical help, encouragement, information, advocacy or space—and a
+    truthful limit such as twenty minutes today. Do not assume which mode the person needs from the intensity
+    of their message.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Reliable support.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default case: a friend says an ordinary week has become overwhelming. Prepare six possible modes—listening,
+    practical help, encouragement, information, advocacy or space—and a truthful limit such as twenty
+    minutes today. Do not assume which mode the person needs from the intensity of their message.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Reliable support instead of a live
-    situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Support may be asynchronous, remote, translated or practical rather than verbally expressive. The
+    recipient can decline feedback or further help. An unavailable friend is not a practice target; use
+    a fictional rehearsal until a welcome opportunity arises.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -79,18 +78,25 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-RELATIONAL-CONVERSATION
   duration_days: 10
-  cadence: Complete three bounded Reliable support actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Reliable support; copy the canonical scope and evidence target into a
-    private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Reliable
-    support. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Reliable support actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default case: a friend says an ordinary week has become overwhelming. Prepare six possible modes—listening,
+    practical help, encouragement, information, advocacy or space—and a truthful limit such as twenty
+    minutes today. Do not assume which mode the person needs from the intensity of their message. Goal:
+    Match support to the person’s stated need and your actual capacity rather than assuming that advice,
+    rescue or constant availability is always helpful. Scope: This is ordinary nonprofessional support.
+    Crisis, abuse, medical, legal or other high-stakes needs require appropriate qualified help; friendship
+    does not replace those services. Time and effort: A ten-minute support conversation, the agreed small
+    action and a five-minute follow-up. Adaptation: Support may be asynchronous, remote, translated or
+    practical rather than verbally expressive. The recipient can decline feedback or further help. An
+    unavailable friend is not a practice target; use a fictional rehearsal until a welcome opportunity
+    arises. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Support may be asynchronous, remote, translated or practical rather than verbally
+    expressive. The recipient can decline feedback or further help. An unavailable friend is not a practice
+    target; use a fictional rehearsal until a welcome opportunity arises.
+  expected_burden: A ten-minute support conversation, the agreed small action and a five-minute follow-up.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Reliable support protocol to rank worth, coerce participation, demand disclosure, override
@@ -98,19 +104,25 @@ intervention:
   - Treating a completed Reliable support action, a polished artifact, agreement, confidence, speed, independence,
     or output as mastery or universal transfer.
   exclusions:
-  - Any Reliable support situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Support may
+    be asynchronous, remote, translated or practical rather than verbally expressive. The recipient can
+    decline feedback or further help. An unavailable friend is not a practice target; use a fictional
+    rehearsal until a welcome opportunity arises.
   actions:
   - stable_id: PRACTICE-COMP-1704-RELIABLE-SUPPORT-01-A1
     sequence: 1
-    title: Prepare a consent-safe Reliable support interaction
-    instructions: 'Choose one welcome, low-stakes relationship context for Reliable support. Translate
-      the canonical scope into one observable communication act, identify power or retaliation concerns,
-      and obtain or preserve the other person''s freedom not to participate: Identify whether someone
-      needs listening, practical help, encouragement, information, advocacy, or space.'
+    title: Ask for the support mode and check your capacity
+    instructions: 'Acknowledge what the person actually said and ask whether they would prefer listening,
+      a practical task, ideas, encouragement, help speaking to someone or some space. State what you can
+      realistically offer and when. For the default, you might say I can listen for twenty minutes now
+      or help with one errand tomorrow. Acknowledge needs you cannot safely meet rather than making an
+      open-ended promise.
+
+
+      Observation checks: The person is asked what form of support they want; All offered help fits your
+      actual time and competence; A limit is stated before an open-ended commitment develops; Needs beyond
+      the role are acknowledged rather than hidden. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -132,9 +144,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1704_a1_communication_act_specific
-        - c1704_a1_consent_boundary_present
-        - c1704_a1_power_checked
+        - the_person_is_asked_what_form_of_support_they_want
+        - all_offered_help_fits_your_actual_time_and_competence
+        - a_limit_is_stated_before_an_open_ended_commitment_develops
+        - needs_beyond_the_role_are_acknowledged_rather_than_hidden
       - measurement_id: c1704_a1_boundary
         kind: boolean
         role: supporting
@@ -151,10 +164,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1704-RELIABLE-SUPPORT-01-A2
     sequence: 2
-    title: Practice one Reliable support communication act
-    instructions: Use the prepared Reliable support act once without covert testing, pressure, diagnosis,
-      deception inference, or a demand for disclosure. Ask one direct clarification when appropriate and
-      allow refusal, delay, indirect communication, language access, or another format.
+    title: Do the agreed support without switching modes uninvited
+    instructions: 'Carry out the chosen bounded action. When listening, ask before moving to advice; when
+      doing an errand, follow the agreed task rather than reorganizing the person’s life; when offering
+      advocacy, obtain permission about what may be shared. If the person asks for space, respect the
+      agreed contact boundary. If conditions change, renegotiate promptly instead of disappearing or taking
+      control to ensure your preferred outcome.
+
+
+      Observation checks: The actual action matches the agreed support mode; A change to advice advocacy
+      or practical control requires permission; Privacy limits are followed; Changed capacity is communicated
+      rather than concealed. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -170,12 +191,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1704_a2_primary
-        kind: boolean
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        expected: true
+        - reviewed_artifact
+        criteria:
+        - the_actual_action_matches_the_agreed_support_mode
+        - a_change_to_advice_advocacy_or_practical_control_requires_permission
+        - privacy_limits_are_followed
+        - changed_capacity_is_communicated_rather_than_concealed
       - measurement_id: c1704_a2_boundary
         kind: boolean
         role: supporting
@@ -192,10 +217,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1704-RELIABLE-SUPPORT-01-A3
     sequence: 3
-    title: Review Reliable support without scoring the person
-    instructions: 'Review only the observable interaction and its boundaries. Do not infer motives or
-      store private narrative. Compare what happened with this evidence target and retain disagreement
-      or an inconclusive result: Provides useful support without assuming, rescuing, controlling, or disappearing.'
+    title: Check usefulness and close the commitment clearly
+    instructions: 'At the agreed point, ask whether the support helped with the stated need and whether
+      anything should be different next time. Accept that a well-intended action may have been unhelpful.
+      Confirm what is complete, what remains and whether another bounded step is both wanted and feasible.
+      Route serious or persistent needs to appropriate support without promising to manage the person’s
+      recovery or solve everything yourself.
+
+
+      Observation checks: Usefulness is checked against the person’s stated need; Unhelpful effects can
+      be acknowledged without defensiveness; Completion remaining need and any next commitment are separate;
+      Professional or emergency needs are not absorbed into an unlimited friendship role. Mark only what
+      you observed. Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Did you provide the kind of help the person actually wanted, and where did respecting
+      a limit make the support more reliable rather than less caring?
+
+
+      Examples: Supportive: The friend chose listening rather than advice, received the agreed attention
+      and later said that being heard was useful.
+
+
+      Mixed: The errand was completed, but the helper added unsolicited advice and revised the support
+      boundary after feedback.
+
+
+      Contradictory: The helper took over decisions, shared private information without permission or
+      promised availability they could not sustain.
+
+
+      Inconclusive: Support was offered vaguely but no mode, capacity, action or follow-up was agreed.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -217,9 +269,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1704_a3_observable_interaction_reviewed
-        - c1704_a3_private_narrative_excluded
-        - c1704_a3_inconclusive_allowed
+        - usefulness_is_checked_against_the_person_s_stated_need
+        - unhelpful_effects_can_be_acknowledged_without_defensiveness
+        - completion_remaining_need_and_any_next_commitment_are_separate
+        - professional_or_emergency_needs_are_not_absorbed_into_an_unlimited_friendship_role
       - measurement_id: c1704_a3_boundary
         kind: boolean
         role: supporting
@@ -239,16 +292,17 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Reliable support; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Reliable support; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Support may be asynchronous, remote, translated or practical rather than verbally expressive. The
+      recipient can decline feedback or further help. An unavailable friend is not a practice target;
+      use a fictional rehearsal until a welcome opportunity arises.
     cultural_context:
     - Adapt the expression of Reliable support to direct or indirect communication, collective or individual
       decision structures, local norms, faith or secular commitments, and role obligations while preserving
       consent and dignity.
     resource_variants:
-    - When a real Reliable support opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Support may be asynchronous, remote, translated or practical rather than verbally expressive. The
+      recipient can decline feedback or further help. An unavailable friend is not a practice target;
+      use a fictional rehearsal until a welcome opportunity arises.
   pause_conditions:
   - Pause Reliable support when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -278,10 +332,8 @@ evidence_and_scoring:
   - c1704_a3_boundary
   - c1704_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Reliable support action exceeded consent, authority, privacy, qualification, role, burden, or
-    safety boundaries.
-  - The evidence contradicted the intended Reliable support criterion, depended on coercion or hidden
-    private content, or could not distinguish the protocol from contextual change.
+  - The helper took over decisions, shared private information without permission or promised availability
+    they could not sustain.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Reliable support explicitly; support can enable access and never reduces dignity or silently changes
     the typed value.
@@ -291,14 +343,23 @@ evidence_and_scoring:
     are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Reliable support rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Provides useful support without assuming, rescuing, controlling, or disappearing.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Reliable support requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Ask for the support mode and check your capacity. Observed checks: The
+    person is asked what form of support they want; All offered help fits your actual time and competence;
+    A limit is stated before an open-ended commitment develops; Needs beyond the role are acknowledged
+    rather than hidden. Action 2: Do the agreed support without switching modes uninvited. Observed checks:
+    The actual action matches the agreed support mode; A change to advice advocacy or practical control
+    requires permission; Privacy limits are followed; Changed capacity is communicated rather than concealed.
+    Action 3: Check usefulness and close the commitment clearly. Observed checks: Usefulness is checked
+    against the person’s stated need; Unhelpful effects can be acknowledged without defensiveness; Completion
+    remaining need and any next commitment are separate; Professional or emergency needs are not absorbed
+    into an unlimited friendship role.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Support was offered vaguely but no mode, capacity,
+    action or follow-up was agreed.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Reliable
     support contribution under typed evaluation; protocol performance remains distinct and is never counted
     twice.
@@ -308,9 +369,8 @@ evidence_and_scoring:
   - L24
   - L26
   - L28
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Reliable support evidence.
@@ -318,10 +378,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The prepare a consent-safe reliable support interaction action was attempted or explicitly deferred.
-  - The practice one reliable support communication act action was attempted or explicitly deferred.
-  - The review reliable support without scoring the person action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Ask for the support mode and check your capacity. Observed checks: The person is asked
+    what form of support they want; All offered help fits your actual time and competence; A limit is
+    stated before an open-ended commitment develops; Needs beyond the role are acknowledged rather than
+    hidden.'
+  - 'Action 2: Do the agreed support without switching modes uninvited. Observed checks: The actual action
+    matches the agreed support mode; A change to advice advocacy or practical control requires permission;
+    Privacy limits are followed; Changed capacity is communicated rather than concealed.'
+  - 'Action 3: Check usefulness and close the commitment clearly. Observed checks: Usefulness is checked
+    against the person’s stated need; Unhelpful effects can be acknowledged without defensiveness; Completion
+    remaining need and any next commitment are separate; Professional or emergency needs are not absorbed
+    into an unlimited friendship role.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -330,55 +400,260 @@ completion_and_review:
     - c1704_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Reliable support only when the initial context remained safe,
-    the evidence criteria were usable, burden was acceptable, and a new context can be named without assuming
-    transfer.
-  transfer_limit: Three bounded actions do not establish Reliable support across roles, cultures, relationships,
-    seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Did you provide the kind of help the person actually wanted, and where did respecting
+    a limit make the support more reliable rather than less caring?
+  transfer_limit: This is ordinary nonprofessional support. Crisis, abuse, medical, legal or other high-stakes
+    needs require appropriate qualified help; friendship does not replace those services.
   reflection:
-    before: What does Reliable support require in this exact context, what remains outside my role or
-      authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Reliable support criterion is present, absent, mixed, or unknown, and are
-      consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Provides useful support without assuming, rescuing, controlling,
-      or disappearing.', what contradiction or missing context matters most, and should this Reliable
-      support design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Match support to the person’s stated need
+      and your actual capacity rather than assuming that advice, rescue or constant availability is always
+      helpful.'
+    during: Which checks have actually been observed? The errand was completed, but the helper added unsolicited
+      advice and revised the support boundary after feedback.
+    after: Did you provide the kind of help the person actually wanted, and where did respecting a limit
+      make the support more reliable rather than less caring?
   review_guidance:
     repeat: Repeat the same bounded Reliable support design only when the context and burden remain appropriate.
-    adapt: Change the Reliable support medium, scope, support, timing, criteria, or context while preserving
-      provenance and the narrower evidence claim.
+    adapt: Support may be asynchronous, remote, translated or practical rather than verbally expressive.
+      The recipient can decline feedback or further help. An unavailable friend is not a practice target;
+      use a fictional rehearsal until a welcome opportunity arises.
     stop: Stop Reliable support when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Reliable support questions beyond this
-      educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Reliable support criteria were observed with provenance and no adverse boundary
-      signal in the selected context.
-    mixed: Some Reliable support criteria were observed while burden, support, contextual change, or a
-      contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Reliable support criterion, introduced harm
-      or coercion, or showed the design was not workable.
-    inconclusive: The Reliable support action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: The friend chose listening rather than advice, received the agreed attention and later
+      said that being heard was useful.
+    mixed: The errand was completed, but the helper added unsolicited advice and revised the support boundary
+      after feedback.
+    contradictory: The helper took over decisions, shared private information without permission or promised
+      availability they could not sustain.
+    inconclusive: Support was offered vaguely but no mode, capacity, action or follow-up was agreed.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Reliable support.
+    context_heading: Ask what kind of support is wanted and deliver one bounded part
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Reliable
       support.
   check_in_labels:
-    c1704_a1_primary: The bounded Reliable support criterion for action 1 was observed
+    c1704_a1_primary: 'Observed checks: ask for the support mode and check your capacity'
     c1704_a1_boundary: Action 1 stayed inside its stated Reliable support boundary
     c1704_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1704_a2_primary: The bounded Reliable support criterion for action 2 was observed
+    c1704_a2_primary: 'Observed checks: do the agreed support without switching modes uninvited'
     c1704_a2_boundary: Action 2 stayed inside its stated Reliable support boundary
     c1704_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1704_a3_primary: The bounded Reliable support criterion for action 3 was observed
+    c1704_a3_primary: 'Observed checks: check usefulness and close the commitment clearly'
     c1704_a3_boundary: Action 3 stayed inside its stated Reliable support boundary
     c1704_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Reliable support practice,
-    including support, contradiction, defer, no result, or harm.
+  completion_copy: Did you provide the kind of help the person actually wanted, and where did respecting
+    a limit make the support more reliable rather than less caring? Completion is not mastery.
+  plain_language_evidence: The friend chose listening rather than advice, received the agreed attention
+    and later said that being heard was useful.
   display_order: 223
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '17.04'
+  title: 17.04 — Offer the kind of support the person can use
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [The Principles of Etiquette](https://emilypost.com/advice/the-principles-of-etiquette)
+
+      - [What is emotional abuse?](https://www.thehotline.org/resources/what-is-emotional-abuse/)
+
+      - [What is gaslighting?](https://www.thehotline.org/resources/what-is-gaslighting/)
+
+      - [Technology Safety Plan: A Guide for Survivors and Advocates](https://www.techsafety.org/resources-survivors/technology-safety-plan)
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [The logic of indirect speech](https://pubmed.ncbi.nlm.nih.gov/18199841/)
+
+      - [Autobiography of Intercultural Encounters](https://rm.coe.int/autobiography-of-intercultural-encounters/16806bf02d)
+
+      - [Communication Access](https://www.asha.org/practice/communication-access/)
+
+      - [Making Events Accessible](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)
+
+      - [National CLAS Standards](https://thinkculturalhealth.hhs.gov/clas/standards)
+
+      - [Mistakenly Seeking Solitude](https://faculty.haas.berkeley.edu/jschroeder/Publications/Epley&Schroeder2014.pdf)
+
+      - [How many hours does it take to make a friend?](https://journals.sagepub.com/doi/10.1177/0265407518761225)
+
+      - [A new look at social support: a theoretical perspective on thriving through relationships](https://pubmed.ncbi.nlm.nih.gov/25125368/)
+
+      - [A Theory of Communal (and Exchange) Relationships](https://clarkrelationshiplab.yale.edu/sites/default/files/files/ClarkMills2012.pdf)
+
+      - [Plan for Safety](https://www.thehotline.org/plan-for-safety/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence.
+
+
+      Rae chooses the book return and has handed you the packed book. Before the errand, your available
+      start moves from 16:15 to 16:40, while your obligation to be back at 17:00 remains. The fifteen-minute
+      outward trip, five-minute book deposit and fifteen-minute trip back still total thirty-five minutes.
+      Only twenty minutes are now available: the plan is fifteen minutes short, even though you could
+      reach the library before closing.
+
+
+      Tell Rae promptly that the agreed plan no longer fits. You may offer another time if actually available
+      and ask about the book''s return deadline; do not assert an extension or transfer the task to somebody
+      else without agreement. Keep the book secure and agree its return or handover.
+
+
+      No revised agreement or completed library return is supplied. “I warned Rae” is a useful action
+      but does not make the original errand complete. Rae''s broader week and their response remain unknown.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Reliable support starts by finding out what would help, stating what you can actually offer
+      and doing the agreed part. It also includes saying promptly when your capacity changes. This practice
+      uses an ordinary difficult week, not a crisis. Allow ten minutes for a conversation, the bounded
+      action you agree and five minutes for a follow-up about usefulness.
+
+
+      ### A strong feeling does not identify the needed help
+
+
+      Someone saying “I''m overwhelmed” does not tell you whether to listen, solve, reassure, research,
+      speak on their behalf or leave them room. Ask rather than choosing the mode that makes you feel
+      most helpful. You can offer a small menu without making the person manage your whole response: “Would
+      listening, one practical task or some space help most?”
+
+
+      Six modes have different jobs. **Listening** lets someone describe their experience without immediate
+      advice. **Practical help** completes a specific task they want done. **Encouragement** recognizes
+      effort or offers confidence without promising an outcome. **Information** answers an actual question
+      with relevant, checked material. **Advocacy** communicates a concern through an agreed route with
+      permission about what may be shared. **Space** respects a request for less contact while making
+      only a welcome follow-up commitment.
+
+
+      Feeney and Collins frame support as an interpersonal process rather than just an expectation that
+      support exists [S13](https://pubmed.ncbi.nlm.nih.gov/25125368/). This theoretical point motivates
+      checking what was useful. The six-mode menu and case are original practice design, not a clinical
+      assessment or a guarantee of well-being.
+
+
+      Reliability requires truthful capacity. “I can listen for twenty minutes today” may be more dependable
+      than “anything you need.” State the limit before the person relies on a promise. Competence matters
+      too: a friend''s legal, medical or safety crisis is not an opportunity to improvise professional
+      advice. Help them access appropriate qualified or emergency support when needed; this exercise does
+      not replace it.
+
+
+      ### Worked example: an errand is not permission to reorganize
+
+
+      An overwhelmed friend asks Sol to return one library book tomorrow. Sol agrees to that task, confirms
+      the branch and return deadline, and checks that the task is feasible. Sol does not also sort the
+      friend''s belongings or contact their employer to explain the situation. Those additions may create
+      work, embarrassment or loss of control.
+
+
+      If Sol becomes unavailable, the useful move is a timely message: “I can''t do the return tomorrow
+      as promised. I can do it Thursday, but I understand if that is too late.” The friend then has a
+      real chance to choose another route. Disappearing until Thursday hides the information the person
+      needs to plan; insisting they wait makes Sol''s help a condition imposed on them.
+
+
+      ### Your case: twenty minutes or one errand
+
+
+      This fictional case concerns Rae, a friend having an ordinary busy week. Rae says, “Everything is
+      piling up.” You can listen for twenty minutes today between 18:00 and 18:20, or return one already
+      packed library book tomorrow before 17:00. You cannot do both. You have no authority to contact
+      Rae''s workplace or family. There is no emergency, abuse, medical issue or unsafe task in the supplied
+      facts.
+
+
+      Rae has not specified the desired support mode. You know the book-return branch closes at 17:00,
+      the trip takes fifteen minutes each way, and the return itself takes five minutes. Tomorrow you
+      have a free window from 16:15 to 17:00. The alternative is that Rae returns it another day under
+      the library''s own terms; you must not invent that there is no cost or deadline consequence.
+
+
+      1. **Ask for the mode and share capacity.** Explain the two feasible options and that you can do
+      one. Leave Rae free to choose neither or name something else you may not be able to provide. Output:
+      a question and an honest offer, without assuming distress requires advice.
+
+      2. **Make the chosen action specific.** If Rae chooses the errand, confirm the branch, book, handover
+      and actual return deadline. The journey and return take thirty-five minutes, leaving ten minutes
+      in your window. Do not promise it before checking the necessary handover. Output: who will do what
+      and by when, with any dependency still visible.
+
+      3. **Carry out only what was agreed.** Listening is not a disguised advice session. Information
+      should be relevant and checked. Advocacy needs permission for the exact audience and content. Space
+      means no repeated checking disguised as care. Output: action performed or unresolved obstacle, not
+      a list of imagined good intentions.
+
+      4. **Read the [later packet](?resource=file-later-packet-md) and renegotiate.** Recalculate capacity
+      when the window changes. Let Rae decide whether a revised offer helps. Output: a timely update,
+      agreed alternative if any, and a clear distinction between completed help and remaining need.
+
+
+      ### Check usefulness without asking for praise
+
+
+      After a real action, ask a concrete question such as, “Did returning that book remove the task you
+      wanted help with?” A yes concerns that task; it does not mean you solved the whole difficult week.
+      If the person says the help missed the need, listen and revise what is within your role. Do not
+      make them reassure you because you worked hard.
+
+
+      Support can create burden if it requires extensive supervision, exposes private information or obligates
+      gratitude. Notice these costs without using them as a reason to avoid all help. The person may need
+      something you cannot offer. You can say so clearly and, if welcome, help locate a suitable alternative
+      rather than taking over.
+
+
+      For support with this practice, rehearse the six modes using the case and write the capacity limit
+      before offering. A role-play establishes preparation only. For a harder attempt, the person changes
+      the desired mode halfway through: ask whether you can meet the new request and agree a revised boundary.
+      For real transfer, choose a willing person with an ordinary bounded need, do one agreed action and
+      check its usefulness without requiring a positive answer. If they choose space, a respected pause
+      can be the action; repeated unsolicited contact is not reliable presence. Finish with the [fresh
+      checks](?attempt=practice-checks).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'All cases are fictional; [answers](?check=practice-answers) are separate.
+
+
+      1. A friend asks for listening. You have relevant advice and start giving it without asking. What
+      needs repair?
+
+      2. You have twenty-five minutes; an errand needs ten minutes each way and eight at the destination.
+      What can you honestly promise?
+
+      3. Someone welcomes help drafting a message to a landlord. May you send it or disclose their situation
+      to the landlord as advocacy?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Acknowledge the mode switch, stop the unsolicited advice and ask whether they want to return
+      to listening or hear an option. Relevant knowledge does not override the chosen form of support.
+
+      2. The task needs twenty-eight minutes, three more than available. Renegotiate before commitment,
+      choose a feasible alternative or decline. Reaching the destination is not the same as completing
+      the whole promised task.
+
+      3. Drafting permission is not sending or disclosure permission. Agree the exact recipient, content
+      and action before acting, and stay within competence and applicable processes. Keep the person in
+      control of their communication.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

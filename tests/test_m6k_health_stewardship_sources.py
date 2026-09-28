@@ -9,6 +9,8 @@ from pathlib import Path
 
 import yaml
 
+from tests.m6k_historical_inputs import historical_input_path
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/authoring/health-stewardship"
 COHORT = json.loads((SOURCE / "cohort.json").read_text())
@@ -146,7 +148,12 @@ class IdentityAndSourceTests(unittest.TestCase):
         self.assertEqual(sorted(p.name for p in SOURCE.iterdir() if p.is_dir()), IDS)
 
     def test_selection_is_next_pending_after_prior_companions(self):
-        contract = yaml.safe_load((ROOT / "contracts/tailored-practice-authoring.yaml").read_text())
+        contract = yaml.safe_load(
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
+        )
         covered = set(contract["implemented_competency_ids"])
         for path in (ROOT / "docs/authoring").glob("*/cohort.json"):
             if path.parent != SOURCE:
@@ -166,7 +173,10 @@ class IdentityAndSourceTests(unittest.TestCase):
     def test_byte_pinned_inputs_and_frozen_boundary(self):
         for path, digest in COHORT["input_sha256"].items():
             with self.subTest(path=path):
-                self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), digest)
+                self.assertEqual(
+                    hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(),
+                    digest,
+                )
 
     def test_runtime_and_simulation_accounting(self):
         self.assertEqual(

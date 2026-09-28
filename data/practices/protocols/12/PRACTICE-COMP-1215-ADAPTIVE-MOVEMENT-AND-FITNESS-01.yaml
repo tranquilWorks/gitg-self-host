@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1215-ADAPTIVE-MOVEMENT-AND-FITNESS-01
 slug: c1215-adaptive-movement-and-fitness-practice
-name: Bounded Adaptive movement and fitness Practice
+name: Adapt one movement goal without losing its meaning or safety
 parent_competency_id: '12.15'
 domain_id: '12'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.15
-      (Adaptive movement and fitness); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.15; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Adaptive movement and fitness through a qualified-support preparation bounded by
-    the canonical scope: Modify physical activity for disability, chronic illness, pregnancy, aging, injury,
-    environment, and changing capacity.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Maintains safe, meaningful
-    movement using qualified guidance and individualized progression. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Modify mode, environment, support, duration and progression for changing capacity while preserving
+    a personally meaningful movement or participation goal.
+  why_recommended: Modify mode, environment, support, duration and progression for changing capacity while
+    preserving a personally meaningful movement or participation goal.
   claims:
-  - statement: Using the canonical scope and evidence target for Adaptive movement and fitness is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Modify mode, environment, support, duration and progression for changing capacity while
+      preserving a personally meaningful movement or participation goal.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Adaptive movement and fitness practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Adaptive movement and fitness as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Adaptive movement
-    and fitness context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Adaptive
-    movement and fitness; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use a fictional planning case when physical participation is currently unsuitable.
+    For post-exertional worsening, acute injury, pregnancy complications or other medical uncertainty,
+    use the relevant professional plan and do not test limits. Assistance and adaptive equipment are not
+    penalties.
+  opportunity_considerations: 'Default goal: join a friend for a brief outdoor conversation when a long
+    walking route is unsuitable. Candidate adaptations are a shorter accessible path, a seated meeting,
+    wheeling, transport to a bench or a clinician-approved movement interval. Use an existing safe plan
+    and ask the participant what part of the activity matters; do not assume walking itself is the only
+    valued outcome.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Adaptive movement and fitness.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default goal: join a friend for a brief outdoor conversation when a long walking route is unsuitable.
+    Candidate adaptations are a shorter accessible path, a seated meeting, wheeling, transport to a bench
+    or a clinician-approved movement interval. Use an existing safe plan and ask the participant what
+    part of the activity matters; do not assume walking itself is the only valued outcome.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Adaptive movement and fitness instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a fictional planning case when physical participation is currently unsuitable. For post-exertional
+    worsening, acute injury, pregnancy complications or other medical uncertainty, use the relevant professional
+    plan and do not test limits. Assistance and adaptive equipment are not penalties.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +83,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Adaptive movement and fitness actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Adaptive movement and fitness; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Adaptive
-    movement and fitness. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Adaptive movement and fitness actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default goal: join a friend for a brief outdoor conversation when a long walking route is unsuitable.
+    Candidate adaptations are a shorter accessible path, a seated meeting, wheeling, transport to a bench
+    or a clinician-approved movement interval. Use an existing safe plan and ask the participant what
+    part of the activity matters; do not assume walking itself is the only valued outcome. Goal: Modify
+    mode, environment, support, duration and progression for changing capacity while preserving a personally
+    meaningful movement or participation goal. Scope: This is an adaptation process, not a condition-specific
+    exercise prescription. Disability, chronic illness, pregnancy, aging and injury may require different
+    qualified guidance; they are not interchangeable limitations. Time and effort: Twenty minutes to prepare,
+    one appropriate movement opportunity and a short follow-up after recovery. Adaptation: Use a fictional
+    planning case when physical participation is currently unsuitable. For post-exertional worsening,
+    acute injury, pregnancy complications or other medical uncertainty, use the relevant professional
+    plan and do not test limits. Assistance and adaptive equipment are not penalties. Keep personal working
+    notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a fictional planning case when physical participation is currently unsuitable.
+    For post-exertional worsening, acute injury, pregnancy complications or other medical uncertainty,
+    use the relevant professional plan and do not test limits. Assistance and adaptive equipment are not
+    penalties.
+  expected_burden: Twenty minutes to prepare, one appropriate movement opportunity and a short follow-up
+    after recovery.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Adaptive movement and fitness protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +113,25 @@ intervention:
   - Treating a completed Adaptive movement and fitness action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Adaptive movement and fitness situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a fictional
+    planning case when physical participation is currently unsuitable. For post-exertional worsening,
+    acute injury, pregnancy complications or other medical uncertainty, use the relevant professional
+    plan and do not test limits. Assistance and adaptive equipment are not penalties.
   actions:
   - stable_id: PRACTICE-COMP-1215-ADAPTIVE-MOVEMENT-AND-FITNESS-01-A1
     sequence: 1
-    title: Bound the qualified question for Adaptive movement and fitness
-    instructions: 'Turn Adaptive movement and fitness into one educational or planning question and identify
-      the qualification and jurisdiction needed to answer it. Use the canonical scope to separate general
-      learning from diagnosis, treatment, legal advice, financial advice, safeguarding decisions, or other
-      professional judgment: Modify physical activity for disability, chronic illness, pregnancy, aging,
-      injury, environment, and changing capacity.'
+    title: Separate the meaningful aim from an unnecessary physical format
+    instructions: 'State the aim in the participant’s own terms and list the actual constraints: symptoms,
+      energy variability, mobility, pregnancy-related guidance, recovery, weather, equipment or access.
+      Give each relevant constraint a current-information or advice-needed status. Choose what must stay,
+      such as companionship or a familiar movement dose, and what can change. Do not infer a person’s
+      limits from a diagnosis or visible disability alone.
+
+
+      Observation checks: The meaningful aim is chosen by the participant; Relevant constraints are specific
+      rather than diagnosis-based assumptions; Unknown medical or progression questions are marked for
+      qualified advice; Essential aims are separated from changeable activity format. Mark only what you
+      observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +153,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1215_a1_question_bounded
-        - c1215_a1_qualification_named
-        - c1215_a1_professional_boundary_explicit
+        - the_meaningful_aim_is_chosen_by_the_participant
+        - relevant_constraints_are_specific_rather_than_diagnosis_based_assumptions
+        - unknown_medical_or_progression_questions_are_marked_for_qualified_advice
+        - essential_aims_are_separated_from_changeable_activity_format
       - measurement_id: c1215_a1_boundary
         kind: boolean
         role: supporting
@@ -154,12 +173,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1215-ADAPTIVE-MOVEMENT-AND-FITNESS-01-A2
     sequence: 2
-    title: Prepare minimum information for Adaptive movement and fitness
-    instructions: Create a privacy-minimized Adaptive movement and fitness consultation note containing
-      only the question, relevant category-level facts, current constraints, and desired decision. Omit
-      diagnoses, allegations, account numbers, credentials, protected work information, intimate detail,
-      and third-party identity unless a qualified professional lawfully requires it through an appropriate
-      channel.
+    title: Arrange and try the individualized version
+    instructions: 'Confirm the route, equipment, assistance and exit plan before the opportunity. Use
+      only the familiar or qualified-approved dose, with an option to rest, shorten or stop without social
+      penalty. For the default, meet at the accessible bench and use the existing tolerated movement interval
+      only if appropriate that day. Record the adaptation actually used and whether it preserved the intended
+      meaning.
+
+
+      Observation checks: Access equipment assistance and exit arrangements are confirmed; The dose follows
+      current ability or an existing qualified plan; Rest shortening and stopping remain real options;
+      The adaptation is tested against the participant’s intended aim. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -181,9 +206,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1215_a2_minimum_information_only
-        - c1215_a2_sensitive_detail_excluded
-        - c1215_a2_decision_need_named
+        - access_equipment_assistance_and_exit_arrangements_are_confirmed
+        - the_dose_follows_current_ability_or_an_existing_qualified_plan
+        - rest_shortening_and_stopping_remain_real_options
+        - the_adaptation_is_tested_against_the_participant_s_intended_aim
       - measurement_id: c1215_a2_boundary
         kind: boolean
         role: supporting
@@ -200,12 +226,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1215-ADAPTIVE-MOVEMENT-AND-FITNESS-01-A3
     sequence: 3
-    title: Record a bounded Adaptive movement and fitness disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Maintains safe, meaningful movement using qualified guidance and individualized
-      progression.'
+    title: Review immediate and delayed fit before changing the dose
+    instructions: 'Check comfort, participation and recovery at the appropriate later point, including
+      delayed symptom effects. Retain the version, reduce it or seek individualized guidance; do not automatically
+      increase duration because one attempt succeeded. Record one change that would make the next opportunity
+      more accessible. If the meaningful aim was met through a seated or assisted version, preserve that
+      success without pretending the same physical demand was performed.
+
+
+      Observation checks: Immediate and delayed effects are both considered; Progression is individualized
+      rather than automatic; One next access improvement is identified; Meaningful participation and physical
+      dose are reported separately. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.
+
+
+      Final review: Did the adaptation preserve what mattered while fitting the person’s actual capacity
+      before, during and after the activity?
+
+
+      Examples: Supportive: A bench-based visit preserved companionship and the short approved movement
+      interval did not create an unacceptable recovery cost.
+
+
+      Mixed: The outing felt manageable at the time, but delayed symptoms required a lower dose and clinical
+      discussion.
+
+
+      Contradictory: A generic progression was imposed or aids withheld to make the activity count as
+      real exercise.
+
+
+      Inconclusive: An adaptation was selected from a diagnosis label without asking the person’s goal
+      or checking its actual fit.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -221,14 +273,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1215_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1215_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - immediate_and_delayed_effects_are_both_considered
+        - progression_is_individualized_rather_than_automatic
+        - one_next_access_improvement_is_identified
+        - meaningful_participation_and_physical_dose_are_reported_separately
       - measurement_id: c1215_a3_boundary
         kind: boolean
         role: supporting
@@ -249,16 +303,17 @@ intervention:
       Adaptive movement and fitness; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Adaptive movement and fitness; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a fictional planning case when physical participation is currently unsuitable. For post-exertional
+      worsening, acute injury, pregnancy complications or other medical uncertainty, use the relevant
+      professional plan and do not test limits. Assistance and adaptive equipment are not penalties.
     cultural_context:
     - Adapt the expression of Adaptive movement and fitness to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Adaptive movement and fitness opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use a fictional planning case when physical participation is currently unsuitable. For post-exertional
+      worsening, acute injury, pregnancy complications or other medical uncertainty, use the relevant
+      professional plan and do not test limits. Assistance and adaptive equipment are not penalties.
   pause_conditions:
   - Pause Adaptive movement and fitness when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -289,10 +344,7 @@ evidence_and_scoring:
   - c1215_a3_boundary
   - c1215_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Adaptive movement and fitness action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Adaptive movement and fitness criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A generic progression was imposed or aids withheld to make the activity count as real exercise.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Adaptive movement and fitness explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -303,14 +355,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Adaptive movement and fitness rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Maintains safe, meaningful movement using qualified guidance and individualized progression.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Adaptive movement and fitness requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate the meaningful aim from an unnecessary physical format. Observed
+    checks: The meaningful aim is chosen by the participant; Relevant constraints are specific rather
+    than diagnosis-based assumptions; Unknown medical or progression questions are marked for qualified
+    advice; Essential aims are separated from changeable activity format. Action 2: Arrange and try the
+    individualized version. Observed checks: Access equipment assistance and exit arrangements are confirmed;
+    The dose follows current ability or an existing qualified plan; Rest shortening and stopping remain
+    real options; The adaptation is tested against the participant’s intended aim. Action 3: Review immediate
+    and delayed fit before changing the dose. Observed checks: Immediate and delayed effects are both
+    considered; Progression is individualized rather than automatic; One next access improvement is identified;
+    Meaningful participation and physical dose are reported separately.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. An adaptation was selected from a diagnosis label without
+    asking the person’s goal or checking its actual fit.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Adaptive
     movement and fitness contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -320,9 +381,8 @@ evidence_and_scoring:
   - L11
   - L17
   - L31
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Adaptive movement and fitness evidence.
@@ -330,12 +390,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for adaptive movement and fitness action was attempted or explicitly
-    deferred.
-  - The prepare minimum information for adaptive movement and fitness action was attempted or explicitly
-    deferred.
-  - The record a bounded adaptive movement and fitness disposition action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Separate the meaningful aim from an unnecessary physical format. Observed checks: The meaningful
+    aim is chosen by the participant; Relevant constraints are specific rather than diagnosis-based assumptions;
+    Unknown medical or progression questions are marked for qualified advice; Essential aims are separated
+    from changeable activity format.'
+  - 'Action 2: Arrange and try the individualized version. Observed checks: Access equipment assistance
+    and exit arrangements are confirmed; The dose follows current ability or an existing qualified plan;
+    Rest shortening and stopping remain real options; The adaptation is tested against the participant’s
+    intended aim.'
+  - 'Action 3: Review immediate and delayed fit before changing the dose. Observed checks: Immediate and
+    delayed effects are both considered; Progression is individualized rather than automatic; One next
+    access improvement is identified; Meaningful participation and physical dose are reported separately.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -344,56 +412,359 @@ completion_and_review:
     - c1215_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Adaptive movement and fitness only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Adaptive movement and fitness across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Did the adaptation preserve what mattered while fitting the person’s actual capacity
+    before, during and after the activity?
+  transfer_limit: This is an adaptation process, not a condition-specific exercise prescription. Disability,
+    chronic illness, pregnancy, aging and injury may require different qualified guidance; they are not
+    interchangeable limitations.
   reflection:
-    before: What does Adaptive movement and fitness require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Adaptive movement and fitness criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Maintains safe, meaningful movement using qualified guidance
-      and individualized progression.', what contradiction or missing context matters most, and should
-      this Adaptive movement and fitness design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Modify mode, environment, support, duration
+      and progression for changing capacity while preserving a personally meaningful movement or participation
+      goal.'
+    during: Which checks have actually been observed? The outing felt manageable at the time, but delayed
+      symptoms required a lower dose and clinical discussion.
+    after: Did the adaptation preserve what mattered while fitting the person’s actual capacity before,
+      during and after the activity?
   review_guidance:
     repeat: Repeat the same bounded Adaptive movement and fitness design only when the context and burden
       remain appropriate.
-    adapt: Change the Adaptive movement and fitness medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use a fictional planning case when physical participation is currently unsuitable. For post-exertional
+      worsening, acute injury, pregnancy complications or other medical uncertainty, use the relevant
+      professional plan and do not test limits. Assistance and adaptive equipment are not penalties.
     stop: Stop Adaptive movement and fitness when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Adaptive movement and fitness questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Adaptive movement and fitness criteria were observed with provenance and no
-      adverse boundary signal in the selected context.
-    mixed: Some Adaptive movement and fitness criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Adaptive movement and fitness criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Adaptive movement and fitness action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A bench-based visit preserved companionship and the short approved movement interval did
+      not create an unacceptable recovery cost.
+    mixed: The outing felt manageable at the time, but delayed symptoms required a lower dose and clinical
+      discussion.
+    contradictory: A generic progression was imposed or aids withheld to make the activity count as real
+      exercise.
+    inconclusive: An adaptation was selected from a diagnosis label without asking the person’s goal or
+      checking its actual fit.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Adaptive movement and fitness.
+    context_heading: Adapt one movement goal without losing its meaning or safety
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Adaptive
       movement and fitness.
   check_in_labels:
-    c1215_a1_primary: The bounded Adaptive movement and fitness criterion for action 1 was observed
+    c1215_a1_primary: 'Observed checks: separate the meaningful aim from an unnecessary physical format'
     c1215_a1_boundary: Action 1 stayed inside its stated Adaptive movement and fitness boundary
     c1215_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1215_a2_primary: The bounded Adaptive movement and fitness criterion for action 2 was observed
+    c1215_a2_primary: 'Observed checks: arrange and try the individualized version'
     c1215_a2_boundary: Action 2 stayed inside its stated Adaptive movement and fitness boundary
     c1215_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1215_a3_primary: The bounded Adaptive movement and fitness criterion for action 3 was observed
+    c1215_a3_primary: 'Observed checks: review immediate and delayed fit before changing the dose'
     c1215_a3_boundary: Action 3 stayed inside its stated Adaptive movement and fitness boundary
     c1215_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Adaptive movement
-    and fitness practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Did the adaptation preserve what mattered while fitting the person’s actual capacity
+    before, during and after the activity? Completion is not mastery.
+  plain_language_evidence: A bench-based visit preserved companionship and the short approved movement
+    interval did not create an unacceptable recovery cost.
   display_order: 160
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.15'
+  title: 12.15 — Adaptive movement and fitness
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [CDC — Chronic Conditions & Disabilities Activity](https://www.cdc.gov/physical-activity-basics/guidelines/chronic-health-conditions-and-disabilities.html)
+
+      - [CDC — Pregnant & Postpartum Activity](https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html)
+
+      - [NIAMS — Sports Injuries](https://www.niams.nih.gov/health-topics/sports-injuries)
+
+      - [MedlinePlus — Pain](https://medlineplus.gov/pain.html)
+
+      - [NHS — Back pain](https://www.nhs.uk/conditions/back-pain/)
+
+      - [University Hospitals Sussex — Low back pain A&E leaflet](https://www.uhsussex.nhs.uk/resources/low-back-pain/)
+
+      - [Cleveland Clinic — Referred Pain](https://my.clevelandclinic.org/health/symptoms/25238-referred-pain)
+
+      - [Apple — Allow or silence notifications for a Focus](https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios)
+
+      - [NCSC — Backing up your data](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data)
+
+      - [NCSC — Install the latest software and app updates](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/install-the-latest-software-and-app-updates)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)
+
+      - [FTC — How Websites and Apps Collect and Use Your Information](https://consumer.ftc.gov/articles/how-websites-and-apps-collect-and-use-your-information)
+
+      - [ICO — Your right to get your data deleted](https://ico.org.uk/for-the-public/your-right-to-get-your-data-deleted/)
+
+      - [FTC — Use Two-Factor Authentication](https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts)
+
+      - [NIST SP 800-63B-4](https://pages.nist.gov/800-63-4/sp800-63b.html)
+
+      - [Microsoft — Find your BitLocker recovery key](https://support.microsoft.com/en-us/windows/security/encryption/find-your-bitlocker-recovery-key)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Open after saving the initial adaptation card. These are separate dates, not alternative facts
+      about one session.
+
+
+      | Date | Recorded event | Later observation / care status |
+
+      | --- | --- | --- |
+
+      | Monday | Setup and both three-minute bouts completed with Lee, the specified rest and usual supports
+      | Ordinary function unchanged that evening and next morning; no progression decision issued |
+
+      | Wednesday | Lee unavailable; session deferred before movement | Zero bouts; an alternate helper
+      was requested but not confirmed |
+
+      | Friday | Lee present; first three-minute bout completed; a new symptom occurred and Morgan stopped
+      before the second | Message to care team sent; response and next-morning function not yet recorded
+      |
+
+
+      Retain Friday''s unresolved symptom and review. Do not infer its diagnosis, severity or clearance
+      from the number of minutes. There are no emergency symptoms supplied in this case; if a real emergency
+      occurs, use urgent local care rather than these records. No later contact or clinical decision may
+      be invented.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Keep the purpose; change the fit
+
+
+      Adaptation changes how a person participates so movement fits their capacity, environment and chosen
+      purpose. It is not necessarily an easier version of somebody else''s activity. A familiar seated
+      sequence, assistance, equipment, shorter bouts or a different location may preserve the intended
+      benefit; replacing all movement with paperwork does not demonstrate physical participation. Equally,
+      cancelling an unsuitable session is not a character failure.
+
+
+      This guide teaches how to carry an existing individualized plan into a changing setting. The default
+      is a fictional planning and review exercise, requiring paper or an accessible notes tool, about
+      30 minutes, and no physical performance. Do not adopt the case''s minutes as your own exercise prescription.
+      Health and exercise content must be adapted to the person and does not replace licensed medical
+      care. No diagnosis, pregnancy status or disability disclosure is required.
+
+
+      ### What can change, and what must be checked
+
+
+      Separate **purpose** (what participation matters), **task** (the actual movement), **load** (duration,
+      intensity, repetitions and frequency), and **conditions** (equipment, assistance, transport, temperature
+      and recovery). Shorter duration alone does not make an unfamiliar task suitable. A helper can change
+      physical demand as well as access. Write down which variable changed before comparing outcomes.
+
+
+      For disability or chronic illness, useful activity and progression depend on the person. The [CDC
+      guidance](https://www.cdc.gov/physical-activity-basics/guidelines/chronic-health-conditions-and-disabilities.html)
+      supports appropriate activity and discussion of type and amount with a qualified professional. It
+      does not authorize a universal increase after a successful attempt. If an established plan calls
+      for pacing, rest or symptom-contingent limits, retain them. Delayed effects matter; finishing a
+      session does not settle its fit.
+
+
+      Pregnancy and postpartum changes require their own care discussion; [CDC''s pregnancy guidance](https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html)
+      advises consulting the responsible clinician about adjustments. An older age alone does not define
+      capacity. An injury may change a formerly familiar activity''s suitability. For an unfamiliar restriction
+      or changed symptoms, the useful next step is a precise question and an access plan, not an improvised
+      movement test.
+
+
+      ### Worked example: a location change is still a change
+
+
+      An established plan permits a familiar supported seated movement at a quiet indoor venue. Moving
+      it outside adds heat and an uneven approach. Calling the task “the same three minutes” hides those
+      changes. A useful adaptation first checks the approach, temperature, seating and assistance. If
+      they cannot be confirmed, the original indoor option or deferral remains available. This reasoning
+      establishes planning fit, not medical clearance or actual tolerance.
+
+
+      ### Complete case: Morgan''s studio session
+
+
+      Morgan wants to continue a familiar movement-to-music activity with their community group. The following
+      is a **stipulated fictional plan**, already agreed with Morgan''s qualified practitioner. It is
+      case data only:
+
+
+      | Requirement | Supplied current status |
+
+      | --- | --- |
+
+      | Activity | The familiar seated sequence already taught to Morgan; no new movements |
+
+      | Amount | Two three-minute bouts, a two-minute seated rest between; no increase before review |
+
+      | Support | Usual seat and existing positioning aids; helper Lee present throughout |
+
+      | Setting | Quiet, cool indoor studio; accessible route confirmed open |
+
+      | Stop/review | Stop for new or changed symptoms; contact the existing care team; do not make up
+      missed bouts |
+
+      | Follow-up | Record ordinary function later that day and next morning for the plan review |
+
+      | Transport | Arrival 09:00; pickup 09:20; same confirmed support for both journeys |
+
+      | Other session tasks | Four minutes setup; three minutes closing and preparing for pickup |
+
+
+      These facts are sufficient to make a paper plan. They do not teach a bodily sequence and therefore
+      cannot be used as instructions to perform one.
+
+
+      #### Action 1 — Build an adaptation card
+
+
+      Write `purpose | existing plan | task/load | required assistance | environment | transport | stop/help
+      | later review`. Fill every field from the case. Arrange setup, first bout, rest, second bout and
+      closing inside the transport window. Label active minutes, other session minutes and spare time
+      separately. Do not count travel or waiting as performed exercise.
+
+
+      Draft this clarification request with the actual missing detail filled in when needed: “My purpose
+      is __. My current plan is __. The changed condition is __. Which existing option remains appropriate,
+      what should stop the activity, and what later effects should prompt review?” An unanswered request
+      is not permission to progress.
+
+
+      #### Action 2 — Rehearse the pre-session decision
+
+
+      Check all requirements, including the return journey, before classifying the session as planned.
+      Use **confirmed**, **missing**, **changed** or **unknown**, rather than a single ready/not-ready
+      feeling. Say what you would do if Lee were absent. Retain Morgan''s choice to decline even when
+      the conditions fit. Save the plan before opening [the later packet](?resource=file-later-packet-md).
+
+
+      #### Action 3 — Reconcile attempts and changes
+
+
+      For each later record, enter `date | conditions actually present | bouts actually performed | change/stop
+      | later function | contact sent/answered | next decision`. Count actual bouts only. Preserve an
+      incomplete next-morning report as unknown. Explain why completing an earlier session cannot authorize
+      a longer next session.
+
+
+      Then complete these alternative planning cards. They ask for useful preparation, not generic referral:
+
+
+      | Changed context | Supplied facts | Produce this concrete next step |
+
+      | --- | --- | --- |
+
+      | Pregnancy | Familiar activity; clinician has not yet discussed the new pregnancy | A concise request
+      naming the activity, current load, pregnancy change and questions about adjustment/stop signs; no
+      case-dose adoption |
+
+      | Aging | Familiar plan still fits; transport now requires an extra transfer | Map who provides
+      each transfer and where the person rests; confirm those supports before scheduling |
+
+      | Injury | Existing guidance excludes one movement used in the familiar sequence | Mark that movement
+      unavailable and ask the practitioner for an appropriate substitute; do not simply reduce its repetitions
+      |
+
+      | Variable capacity | Person''s own plan requires pacing and records next-day effects | Preserve
+      its limit and later observations; no automatic catch-up or calendar-based increase |
+
+
+      Attempt [the fresh checks](?attempt=practice-checks) before [the answers](?check=practice-answers).
+      A complete source exercise contains the adaptation card, feasible schedule, contingency, reconciled
+      later records and four context cards.
+
+
+      ### Supported, harder and later routes
+
+
+      Use dictated notes, a supporter reading one card at a time, or a large-print schedule. Keep aids
+      and assistance; “independent” does not mean removing them. If no current plan exists, finish the
+      fictional exercise and prepare the named-purpose request above. That is preparation, not exercise
+      performed.
+
+
+      For a harder paper case, arrival changes to 09:07 while pickup stays 09:20. Preserve the existing
+      activity and support limits. Identify the shortfall and request a revised transport slot or another
+      already-agreed option; do not compress rest or invent a higher-intensity substitute.
+
+
+      At a later real opportunity, use your own familiar, appropriate plan and change only what it permits.
+      Verify one access condition, record actual participation and subsequent effects, and bring a concrete
+      question to the existing review. If changed symptoms or uncertainty make that unsuitable, use the
+      care/support route. This extends 12.14''s long-term participation planning into present adaptation;
+      it does not replace qualified movement instruction.
+
+
+      **Supportive:** The chosen purpose remains possible with verified assistance and actual follow-up
+      inside the person''s plan.
+
+
+      **Mixed:** Access works, but later function changes; the record prompts review rather than progression.
+
+
+      **Contradictory:** Assistance or rest is removed to make the session look more capable, or missed
+      movement is made up against the plan.
+
+
+      **Inconclusive:** A complete schedule exists, but no participation or later response has been observed.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Use the guide''s concepts, without copying Morgan''s schedule. Explain each decision before
+      opening [the corrective key](?check=practice-answers).
+
+
+      1. A fictional established plan has two four-minute bouts with three minutes rest, five minutes
+      setup and two minutes closing. Confirmed arrival is 10:00 and pickup is 10:17. Does the complete
+      session fit? What must be resolved without silently changing the plan?
+
+      2. An adult uses their usual movement aid. A new instructor offers the same activity without the
+      aid to “prove independence”; the person''s plan requires it. The adult wants to participate. Write
+      a response and a workable next action that preserves the activity''s purpose.
+
+      3. Two sessions were planned. One was completed within the person''s plan; the second was cancelled
+      because its required support was unavailable. The first session''s next-day response is missing.
+      A report claims two successful sessions and readiness to increase duration. Correct the report and
+      identify the next evidence needed.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Required time is 5 + 4 + 3 + 4 + 2 = **18 minutes**. The confirmed window is **17 minutes**,
+      one minute short. Resolve transport or an already-authorized alternative before treating it as feasible.
+      Cutting the rest to two minutes produces a neat timetable by violating the supplied plan. An unanswered
+      transport request remains unresolved.
+
+      2. Retain the aid: “This is part of my current plan. I want to take part using it.” Check that the
+      instructor and setting can support that route, or use another suitable agreed setting. Removing
+      it despite the requirement is not progression; cancelling without considering an accessible route
+      also fails to demonstrate adaptation. Participation still depends on the adult''s choice.
+
+      3. Record **one completed session, one deferred opportunity**, and unknown next-day response. Obtain
+      that observation and any required plan review before claiming suitability of a change. Missing data
+      are not an adverse finding by themselves, but cannot become reassuring evidence. The schedule is
+      not evidence of the second session occurring.
+
+
+      The default case takes 15 minutes (4 + 3 + 2 + 3 + 3), leaving 5 minutes before pickup. Across the
+      later dates there are 3 performed bouts and 9 active minutes, one deferral, and an unresolved Friday
+      review. The harder 13-minute transport window is 2 minutes short. These are paper-case results,
+      not clinical thresholds or physical outcomes of a learner.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0801-ATTENTION-AUDIT-01
 slug: c0801-attention-audit-practice
-name: Bounded Attention audit Practice
+name: Find and Repair One Recurring Attention Leak
 parent_competency_id: '08.01'
 domain_id: 08
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 08.01
-      (Attention audit); canonical scope, evidence target, classification, domain boundary, and parent
-      mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 08.01; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,38 +34,52 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Attention audit through a bounded audit and redesign bounded by the canonical scope:
-    Track where attention goes across devices, entertainment, work, relationships, rumination, and deliberate
-    practice.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can identify major
-    attention leaks and redesign at least one recurring environment. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Distinguish where attention was intended to go from where it actually went, then test one reversible
+    change to a recurring environment. The result is a small attention map and a tested adjustment, not
+    a productivity score or a diagnosis.
+  why_recommended: Distinguish where attention was intended to go from where it actually went, then test
+    one reversible change to a recurring environment. The result is a small attention map and a tested
+    adjustment, not a productivity score or a diagnosis.
   claims:
-  - statement: Using the canonical scope and evidence target for Attention audit is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: Distinguish where attention was intended to go from where it actually went, then test one
+      reversible change to a recurring environment. The result is a small attention map and a tested adjustment,
+      not a productivity score or a diagnosis.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Attention audit practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Attention audit as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Attention audit context,
-    understand the source-only status, and stop without losing safety, care, employment, housing, services,
-    relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Attention
-    audit; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use voice notes, tactile category markers, or a consenting helper who records
+    only categories; support is not a deficit. An offline equivalent is an unread magazine beside paperwork
+    or background television. Shorten both activity windows equally. Keep medically necessary routines
+    and all essential alerts. Stop for safety responsibilities or distress. Persistent intrusive thoughts
+    are not an invitation to monitor them continuously; use an ordinary external activity instead and
+    seek appropriate support when needed.
+  opportunity_considerations: 'Use paper or an offline note and a clock already available. The default
+    is an ordinary ten-minute reading period interrupted by optional messages. Make six headings: devices,
+    entertainment, work or necessary tasks, relationships, rumination, and deliberate practice. A period
+    may have more than one label: a meaningful call belongs under relationships even though a device carries
+    it. Select three convenient checkpoints in one ordinary day and the same checkpoints on a second day;
+    do not install tracking software or record another person.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Attention audit.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use paper or an offline note and a clock already available. The default is an ordinary ten-minute
+    reading period interrupted by optional messages. Make six headings: devices, entertainment, work or
+    necessary tasks, relationships, rumination, and deliberate practice. A period may have more than one
+    label: a meaningful call belongs under relationships even though a device carries it. Select three
+    convenient checkpoints in one ordinary day and the same checkpoints on a second day; do not install
+    tracking software or record another person.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Attention audit instead of a live
-    situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use voice notes, tactile category markers, or a consenting helper who records only categories; support
+    is not a deficit. An offline equivalent is an unread magazine beside paperwork or background television.
+    Shorten both activity windows equally. Keep medically necessary routines and all essential alerts.
+    Stop for safety responsibilities or distress. Persistent intrusive thoughts are not an invitation
+    to monitor them continuously; use an ordinary external activity instead and seek appropriate support
+    when needed.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -79,18 +92,39 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Attention audit actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Attention audit; copy the canonical scope and evidence target into a private
-    working note; define the action boundary, valid supports, privacy limit, and stop condition before
-    beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Attention
-    audit. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Attention audit actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use paper or an offline note and a clock already available. The default is an ordinary ten-minute
+    reading period interrupted by optional messages. Make six headings: devices, entertainment, work or
+    necessary tasks, relationships, rumination, and deliberate practice. A period may have more than one
+    label: a meaningful call belongs under relationships even though a device carries it. Select three
+    convenient checkpoints in one ordinary day and the same checkpoints on a second day; do not install
+    tracking software or record another person. Goal: Distinguish where attention was intended to go from
+    where it actually went, then test one reversible change to a recurring environment. The result is
+    a small attention map and a tested adjustment, not a productivity score or a diagnosis. Scope: The
+    audit samples devices, entertainment, work, relationships, rumination, and deliberate practice; these
+    are not good-versus-bad categories. A leak means a recurring mismatch with a freely chosen intention,
+    not leisure, caregiving, accessible device use, or an interruption that deserved attention. Three
+    brief samples cannot establish a whole-day time budget. One environmental test addresses one recurring
+    mismatch and does not establish general attention capacity. Time and effort: About five minutes to
+    set up, three one-minute notes on each of two days, two ten-minute activity windows, and a five-minute
+    review. Keep only coarse categories; no continuous monitoring. Adaptation: Use voice notes, tactile
+    category markers, or a consenting helper who records only categories; support is not a deficit. An
+    offline equivalent is an unread magazine beside paperwork or background television. Shorten both activity
+    windows equally. Keep medically necessary routines and all essential alerts. Stop for safety responsibilities
+    or distress. Persistent intrusive thoughts are not an invitation to monitor them continuously; use
+    an ordinary external activity instead and seek appropriate support when needed. Keep personal working
+    notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use voice notes, tactile category markers, or a consenting helper who records only
+    categories; support is not a deficit. An offline equivalent is an unread magazine beside paperwork
+    or background television. Shorten both activity windows equally. Keep medically necessary routines
+    and all essential alerts. Stop for safety responsibilities or distress. Persistent intrusive thoughts
+    are not an invitation to monitor them continuously; use an ordinary external activity instead and
+    seek appropriate support when needed.
+  expected_burden: About five minutes to set up, three one-minute notes on each of two days, two ten-minute
+    activity windows, and a five-minute review. Keep only coarse categories; no continuous monitoring.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Attention audit protocol to rank worth, coerce participation, demand disclosure, override
@@ -98,18 +132,30 @@ intervention:
   - Treating a completed Attention audit action, a polished artifact, agreement, confidence, speed, independence,
     or output as mastery or universal transfer.
   exclusions:
-  - Any Attention audit situation involving emergency response, abuse, retaliation, illegal conduct, medical
-    treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment, or other
-    consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use voice notes,
+    tactile category markers, or a consenting helper who records only categories; support is not a deficit.
+    An offline equivalent is an unread magazine beside paperwork or background television. Shorten both
+    activity windows equally. Keep medically necessary routines and all essential alerts. Stop for safety
+    responsibilities or distress. Persistent intrusive thoughts are not an invitation to monitor them
+    continuously; use an ordinary external activity instead and seek appropriate support when needed.
   actions:
   - stable_id: PRACTICE-COMP-0801-ATTENTION-AUDIT-01-A1
     sequence: 1
-    title: Audit one bounded Attention audit context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Attention audit. Use
-      the canonical scope to name observable conditions without diagnosing people or systems: Track where
-      attention goes across devices, entertainment, work, relationships, rumination, and deliberate practice.'
+    title: Sample intention, actual attention, and context
+    instructions: 'At each chosen checkpoint, look back over the immediately preceding activity and write
+      its intended focus, its actual focus, and what redirected it. For example: intended to read a page;
+      followed an optional message into a feed; the unlocked phone beside the page was the cue. Assign
+      one or more of the six headings. Mark headings not observed as not sampled, not as zero. Distinguish
+      a needed response, such as a care request, from an optional diversion. After the third checkpoint,
+      select a mismatch that appeared twice or identify a clearly recalled recurring example separately
+      from the samples; do not invent recurrence from one observation.
+
+
+      Observation checks: Three planned checkpoints were recorded or the missing checkpoints were explicitly
+      identified; Intended focus and actual focus were distinguished without recording private contents;
+      All six categories were considered and unsampled categories remained unknown; A recurring mismatch
+      was supported by observations or separately labeled retrospective evidence. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -131,9 +177,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0801_a1_one_context_only
-        - c0801_a1_observable_conditions_recorded
-        - c0801_a1_hazards_excluded
+        - three_planned_checkpoints_were_recorded_or_the_missing_checkpoints_were_explicitly_identified
+        - intended_focus_and_actual_focus_were_distinguished_without_recording_private_contents
+        - all_six_categories_were_considered_and_unsampled_categories_remained_unknown
+        - a_recurring_mismatch_was_supported_by_observations_or_separately_labeled_retrospective_evidence
       - measurement_id: c0801_a1_boundary
         kind: boolean
         role: supporting
@@ -150,10 +197,21 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0801-ATTENTION-AUDIT-01-A2
     sequence: 2
-    title: Make one reversible Attention audit redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Attention audit. Record the intended effect, cost or burden, and a rollback condition before
-      changing anything.
+    title: Change the environment rather than blame the person
+    instructions: 'Choose one reversible condition that contributed to the mismatch. For the default,
+      put the phone face down out of immediate reach for ten minutes while retaining essential alerts
+      and access; alternatively close one optional feed tab. Write a prediction before starting: I may
+      notice the urge to check without opening the feed automatically. Run the same ordinary reading activity
+      once. Do not add a timer app, silence all alerts, move locations, and change the task simultaneously.
+      Record whether the change was used, whether attention returned when a diversion was noticed, and
+      any necessary interruption. The aim is a more workable choice, not a higher page count.
+
+
+      Observation checks: One controllable environmental condition was changed and the change was reversible;
+      A prediction was written before a real activity window was attempted; Essential alerts and accessibility
+      or caregiving supports remained available; The observed redirection and return were recorded without
+      using output as the outcome. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -175,9 +233,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0801_a2_change_traces_to_finding
-        - c0801_a2_rollback_defined
-        - c0801_a2_burden_recorded
+        - one_controllable_environmental_condition_was_changed_and_the_change_was_reversible
+        - a_prediction_was_written_before_a_real_activity_window_was_attempted
+        - essential_alerts_and_accessibility_or_caregiving_supports_remained_available
+        - the_observed_redirection_and_return_were_recorded_without_using_output_as_the_outcome
       - measurement_id: c0801_a2_boundary
         kind: boolean
         role: supporting
@@ -194,10 +253,46 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0801-ATTENTION-AUDIT-01-A3
     sequence: 3
-    title: Compare the Attention audit context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: Can identify
-      major attention leaks and redesign at least one recurring environment.'
+    title: Compare another ordinary day and decide what to retain
+    instructions: 'Repeat the three checkpoints on the second day and run a comparable ten-minute activity
+      with the tested condition. Compare the intended-versus-actual focus notes, not guessed totals for
+      the day. Name an important difference between days, such as visitors, task difficulty, fatigue,
+      or an urgent call. Decide to keep, adjust, remove, or repeat the one change, with a reason tied
+      to observed attention and burden. For example: closing the feed helped at both windows, but moving
+      the phone blocked a necessary call, so retain only the closed tab. Missing checkpoints or unlike
+      activities limit the comparison; they are not evidence that the change worked.
+
+
+      Observation checks: A second real activity window and the second-day checkpoints were reviewed;
+      Context differences and missing observations were retained in the comparison; The conclusion concerned
+      attention allocation rather than productivity or character; A keep, adjust, remove, or repeat decision
+      was tied to evidence and burden. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.
+
+
+      Final review: Which mismatch actually recurred, which change was tested, and what competing explanation
+      remains? Name one condition to retain and one situation in which it should not be used. Review it
+      after two further naturally occurring opportunities; one successful window does not establish broad
+      or durable improvement.
+
+
+      Examples: Supportive: Optional feed checking interrupted two reading samples. Closing that tab,
+      while keeping necessary messages available, made returning to the page workable in both later windows.
+      The user retained the change without claiming a whole-day improvement.
+
+
+      Mixed: The first changed window was easier, but a necessary care call occupied the second. The change
+      may fit quiet reading; the samples do not show whether it helps during active care duties.
+
+
+      Contradictory: Moving the phone out of reach caused a missed essential response and more checking
+      anxiety. The user restored access and rejected that change rather than presenting fewer screen touches
+      as success.
+
+
+      Inconclusive: Only one checkpoint was recorded and the activity changed from reading to a social
+      visit. There is no defensible before-and-after comparison; the unobserved categories and effects
+      remain unknown.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -219,9 +314,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0801_a3_same_context_compared
-        - c0801_a3_mixed_or_null_result_allowed
-        - c0801_a3_target_evidence_reviewed
+        - a_second_real_activity_window_and_the_second_day_checkpoints_were_reviewed
+        - context_differences_and_missing_observations_were_retained_in_the_comparison
+        - the_conclusion_concerned_attention_allocation_rather_than_productivity_or_character
+        - a_keep_adjust_remove_or_repeat_decision_was_tied_to_evidence_and_burden
       - measurement_id: c0801_a3_boundary
         kind: boolean
         role: supporting
@@ -241,16 +337,23 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Attention audit; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Attention audit; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Use voice notes, tactile category markers, or a consenting helper who records only categories; support
+      is not a deficit. An offline equivalent is an unread magazine beside paperwork or background television.
+      Shorten both activity windows equally. Keep medically necessary routines and all essential alerts.
+      Stop for safety responsibilities or distress. Persistent intrusive thoughts are not an invitation
+      to monitor them continuously; use an ordinary external activity instead and seek appropriate support
+      when needed.
     cultural_context:
     - Adapt the expression of Attention audit to direct or indirect communication, collective or individual
       decision structures, local norms, faith or secular commitments, and role obligations while preserving
       consent and dignity.
     resource_variants:
-    - When a real Attention audit opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use voice notes, tactile category markers, or a consenting helper who records only categories; support
+      is not a deficit. An offline equivalent is an unread magazine beside paperwork or background television.
+      Shorten both activity windows equally. Keep medically necessary routines and all essential alerts.
+      Stop for safety responsibilities or distress. Persistent intrusive thoughts are not an invitation
+      to monitor them continuously; use an ordinary external activity instead and seek appropriate support
+      when needed.
   pause_conditions:
   - Pause Attention audit when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -280,10 +383,8 @@ evidence_and_scoring:
   - c0801_a3_boundary
   - c0801_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Attention audit action exceeded consent, authority, privacy, qualification, role, burden, or safety
-    boundaries.
-  - The evidence contradicted the intended Attention audit criterion, depended on coercion or hidden private
-    content, or could not distinguish the protocol from contextual change.
+  - Moving the phone out of reach caused a missed essential response and more checking anxiety. The user
+    restored access and rejected that change rather than presenting fewer screen touches as success.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Attention audit explicitly; support can enable access and never reduces dignity or silently changes
     the typed value.
@@ -293,14 +394,27 @@ evidence_and_scoring:
     are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Attention audit rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can identify major attention leaks and redesign at least one recurring environment.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Attention audit requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Sample intention, actual attention, and context. Observed checks: Three
+    planned checkpoints were recorded or the missing checkpoints were explicitly identified; Intended
+    focus and actual focus were distinguished without recording private contents; All six categories were
+    considered and unsampled categories remained unknown; A recurring mismatch was supported by observations
+    or separately labeled retrospective evidence. Action 2: Change the environment rather than blame the
+    person. Observed checks: One controllable environmental condition was changed and the change was reversible;
+    A prediction was written before a real activity window was attempted; Essential alerts and accessibility
+    or caregiving supports remained available; The observed redirection and return were recorded without
+    using output as the outcome. Action 3: Compare another ordinary day and decide what to retain. Observed
+    checks: A second real activity window and the second-day checkpoints were reviewed; Context differences
+    and missing observations were retained in the comparison; The conclusion concerned attention allocation
+    rather than productivity or character; A keep, adjust, remove, or repeat decision was tied to evidence
+    and burden.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Only one checkpoint was recorded and the activity changed
+    from reading to a social visit. There is no defensible before-and-after comparison; the unobserved
+    categories and effects remain unknown.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Attention
     audit contribution under typed evaluation; protocol performance remains distinct and is never counted
     twice.
@@ -309,9 +423,8 @@ evidence_and_scoring:
   - L08
   - L10
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Attention audit evidence.
@@ -319,10 +432,22 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded attention audit context action was attempted or explicitly deferred.
-  - The make one reversible attention audit redesign action was attempted or explicitly deferred.
-  - The compare the attention audit context after the change action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Sample intention, actual attention, and context. Observed checks: Three planned checkpoints
+    were recorded or the missing checkpoints were explicitly identified; Intended focus and actual focus
+    were distinguished without recording private contents; All six categories were considered and unsampled
+    categories remained unknown; A recurring mismatch was supported by observations or separately labeled
+    retrospective evidence.'
+  - 'Action 2: Change the environment rather than blame the person. Observed checks: One controllable
+    environmental condition was changed and the change was reversible; A prediction was written before
+    a real activity window was attempted; Essential alerts and accessibility or caregiving supports remained
+    available; The observed redirection and return were recorded without using output as the outcome.'
+  - 'Action 3: Compare another ordinary day and decide what to retain. Observed checks: A second real
+    activity window and the second-day checkpoints were reviewed; Context differences and missing observations
+    were retained in the comparison; The conclusion concerned attention allocation rather than productivity
+    or character; A keep, adjust, remove, or repeat decision was tied to evidence and burden.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -331,55 +456,238 @@ completion_and_review:
     - c0801_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Attention audit only when the initial context remained safe,
-    the evidence criteria were usable, burden was acceptable, and a new context can be named without assuming
-    transfer.
-  transfer_limit: Three bounded actions do not establish Attention audit across roles, cultures, relationships,
-    seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which mismatch actually recurred, which change was tested, and what competing
+    explanation remains? Name one condition to retain and one situation in which it should not be used.
+    Review it after two further naturally occurring opportunities; one successful window does not establish
+    broad or durable improvement.
+  transfer_limit: The audit samples devices, entertainment, work, relationships, rumination, and deliberate
+    practice; these are not good-versus-bad categories. A leak means a recurring mismatch with a freely
+    chosen intention, not leisure, caregiving, accessible device use, or an interruption that deserved
+    attention. Three brief samples cannot establish a whole-day time budget. One environmental test addresses
+    one recurring mismatch and does not establish general attention capacity.
   reflection:
-    before: What does Attention audit require in this exact context, what remains outside my role or authority,
-      and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Attention audit criterion is present, absent, mixed, or unknown, and are
-      consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can identify major attention leaks and redesign at least one
-      recurring environment.', what contradiction or missing context matters most, and should this Attention
-      audit design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Distinguish where attention was intended to
+      go from where it actually went, then test one reversible change to a recurring environment. The
+      result is a small attention map and a tested adjustment, not a productivity score or a diagnosis.'
+    during: Which checks have actually been observed? The first changed window was easier, but a necessary
+      care call occupied the second. The change may fit quiet reading; the samples do not show whether
+      it helps during active care duties.
+    after: Which mismatch actually recurred, which change was tested, and what competing explanation remains?
+      Name one condition to retain and one situation in which it should not be used. Review it after two
+      further naturally occurring opportunities; one successful window does not establish broad or durable
+      improvement.
   review_guidance:
     repeat: Repeat the same bounded Attention audit design only when the context and burden remain appropriate.
-    adapt: Change the Attention audit medium, scope, support, timing, criteria, or context while preserving
-      provenance and the narrower evidence claim.
+    adapt: Use voice notes, tactile category markers, or a consenting helper who records only categories;
+      support is not a deficit. An offline equivalent is an unread magazine beside paperwork or background
+      television. Shorten both activity windows equally. Keep medically necessary routines and all essential
+      alerts. Stop for safety responsibilities or distress. Persistent intrusive thoughts are not an invitation
+      to monitor them continuously; use an ordinary external activity instead and seek appropriate support
+      when needed.
     stop: Stop Attention audit when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Attention audit questions beyond this
-      educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Attention audit criteria were observed with provenance and no adverse boundary
-      signal in the selected context.
-    mixed: Some Attention audit criteria were observed while burden, support, contextual change, or a
-      contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Attention audit criterion, introduced harm
-      or coercion, or showed the design was not workable.
-    inconclusive: The Attention audit action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: Optional feed checking interrupted two reading samples. Closing that tab, while keeping
+      necessary messages available, made returning to the page workable in both later windows. The user
+      retained the change without claiming a whole-day improvement.
+    mixed: The first changed window was easier, but a necessary care call occupied the second. The change
+      may fit quiet reading; the samples do not show whether it helps during active care duties.
+    contradictory: Moving the phone out of reach caused a missed essential response and more checking
+      anxiety. The user restored access and rejected that change rather than presenting fewer screen touches
+      as success.
+    inconclusive: Only one checkpoint was recorded and the activity changed from reading to a social visit.
+      There is no defensible before-and-after comparison; the unobserved categories and effects remain
+      unknown.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Attention audit.
+    context_heading: Find and Repair One Recurring Attention Leak
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Attention
       audit.
   check_in_labels:
-    c0801_a1_primary: The bounded Attention audit criterion for action 1 was observed
+    c0801_a1_primary: 'Observed checks: sample intention, actual attention, and context'
     c0801_a1_boundary: Action 1 stayed inside its stated Attention audit boundary
     c0801_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0801_a2_primary: The bounded Attention audit criterion for action 2 was observed
+    c0801_a2_primary: 'Observed checks: change the environment rather than blame the person'
     c0801_a2_boundary: Action 2 stayed inside its stated Attention audit boundary
     c0801_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0801_a3_primary: The bounded Attention audit criterion for action 3 was observed
+    c0801_a3_primary: 'Observed checks: compare another ordinary day and decide what to retain'
     c0801_a3_boundary: Action 3 stayed inside its stated Attention audit boundary
     c0801_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Attention audit practice,
-    including support, contradiction, defer, no result, or harm.
+  completion_copy: Which mismatch actually recurred, which change was tested, and what competing explanation
+    remains? Name one condition to retain and one situation in which it should not be used. Review it
+    after two further naturally occurring opportunities; one successful window does not establish broad
+    or durable improvement. Completion is not mastery.
+  plain_language_evidence: Optional feed checking interrupted two reading samples. Closing that tab, while
+    keeping necessary messages available, made returning to the page workable in both later windows. The
+    user retained the change without claiming a whole-day improvement.
   display_order: 99
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '08.01'
+  title: 08.01 — Attention audit
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [NIMH — Caring for Your Mental Health](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health)
+
+      - [988 Suicide & Crisis Lifeline — What to Expect](https://988lifeline.org/get-help/what-to-expect/)
+
+      - [NHS Every Mind Matters — Staying on top of things](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/staying-on-top-of-things/)
+
+      - [NCCIH — Meditation and Mindfulness: Effectiveness and Safety](https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety)
+
+      - [NHS Every Mind Matters — Reframing unhelpful thoughts](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/reframing-unhelpful-thoughts/)
+
+      - [NHS Every Mind Matters — Tackling your to-do list](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-to-do-list/)
+
+      - [University of Edinburgh — What? So what? Now what?](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence. Save the initial work in the [guide](?)
+      before reading.
+
+
+      Casey removes only the optional news tile. Wednesday''s ten-minute window contains eight minutes
+      with the card and two minutes finding the saved page. Thursday contains five minutes with the card
+      and five answering a necessary call. Essential alerts and the friend''s contact remain accessible.
+
+
+      The first two morning windows contained seven reading minutes in total; the changed pair contains
+      thirteen. This is a descriptive comparison with different circumstances, including a necessary call
+      and page-finding friction. It does not isolate the tile''s effect or make the call a failure. Casey
+      keeps the arrangement provisionally, with no later review yet supplied. The rest of either day remains
+      unobserved.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Look for a mismatch, not a bad category of attention
+
+
+      An attention audit compares what you intended with what actually occupied a small observed window.
+      Devices can support relationships or deliberate study; work can include avoidant busywork; entertainment
+      can be chosen rest. Rumination is repetitive thought without a useful next step, but an outside
+      observer cannot infer it from silence. Categories overlap and do not measure moral worth.
+
+
+      Use three brief checkpoints on each of two ordinary days, then two comparable ten-minute redesign
+      windows. The NHS discussion of task patterns and environment [S06](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-to-do-list/)
+      supports observing a recurring obstacle and making a manageable adjustment. The six-category audit
+      and timing below are original teaching choices, not validated measurements of total attention.
+
+
+      ### Six observations with a recurring cue
+
+
+      Fictional Casey records the ten minutes immediately before 09:00, 13:00 and 18:00. These are sampled
+      windows, not a whole-day history. Use device, entertainment, work, relationships, rumination and
+      deliberate practice as overlapping tags. Mark an unobserved activity unknown rather than zero.
+
+
+      | Day/checkpoint | Intention | Actual window | Cue and interpretation |
+
+      | --- | --- | --- | --- |
+
+      | Monday 09:00 | Read a short learning card | Four minutes reading, six browsing optional headlines
+      | A home-screen news tile; mismatch with study intention. |
+
+      | Monday 13:00 | Talk to a friend by phone | Ten minutes talking | Device plus relationship; intended
+      use. |
+
+      | Monday 18:00 | Watch a chosen comedy | Ten minutes watching | Entertainment plus device; intended
+      rest. |
+
+      | Tuesday 09:00 | Read the same card | Three minutes reading, seven optional headlines | Same news
+      tile; recurring mismatch. |
+
+      | Tuesday 13:00 | Finish a routine draft | Ten minutes working on it | Work; no drift reported.
+      |
+
+      | Tuesday 18:00 | Rest | Thoughts replaying an old minor exchange; duration uncertain | Possible
+      rumination by Casey''s report; no minute estimate. |
+
+
+      The full learning card says: “For this fictional index, blue means a book, green means a map and
+      orange means a game. An uncolored entry needs clarification.” Study its four rules without making
+      speed or recall the outcome. The repeated cue is the news tile, not every phone use. Summing overlapping
+      tags would double-count some minutes; the uncertain evening cannot be filled with a guessed number.
+
+
+      1. Label each observed window with intention, actual use and cue. Identify the two recurring mismatches
+      and leave the uncertain duration unresolved. State one important intended use that should remain
+      possible: the friend''s call.
+
+      2. Change one condition: remove the optional news tile from the first screen, keeping the device,
+      card, essential alerts and access supports available. Try two later ten-minute morning windows with
+      the same card. Save the redesign before the [later comparison](?resource=file-later-packet-md).
+      Do not add blocking software, notification removal and a reward simultaneously.
+
+      3. Compare intended and actual use in those windows, including changed circumstances. Keep, adjust
+      or undo the arrangement based on usefulness and costs. No screen surveillance, application telemetry
+      or employer productivity ranking is needed.
+
+
+      For support, use one accurately remembered window and treat the two-day audit as incomplete, or
+      work entirely from this table. For a harder case, the news shortcut is needed for a genuine duty:
+      choose another optional cue or retain it. Never remove emergency, accessibility or caregiving access.
+      A later natural review can test recurrence, but four morning samples cannot establish a stable attention
+      trait or prove causation.
+
+
+      ### Use the result at its proper scale
+
+
+      Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not
+      diagnose, establish mastery or score human dignity. Actual situations require appropriate access,
+      consent, authority and support.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt these before opening [answers](?check=practice-answers).
+
+
+      1. A phone call uses a device for ten minutes of intended friendship. Is it automatically an attention
+      leak?
+
+
+      2. Two ten-minute samples contain thirteen study minutes after a change versus seven before. Does
+      that prove the change caused six extra minutes?
+
+
+      3. One checkpoint has an uncertain rumination duration. May it be entered as zero?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Compare with your attempted [checks](?attempt=practice-checks); these are learning aids, not
+      a learner score.
+
+
+      1. No. Compare actual use with the intended purpose; device and relationship tags may overlap. A
+      category is not a verdict.
+
+
+      2. No. The six-minute descriptive difference is real in the supplied record, but circumstances differ
+      and there is no controlled causal test or whole-day estimate.
+
+
+      3. No. Unknown duration is not zero. Preserve the uncertainty and avoid totals that double-count
+      overlapping categories.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

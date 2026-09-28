@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1203-NUTRITION-FUNDAMENTALS-01
 slug: c1203-nutrition-fundamentals-practice
-name: Bounded Nutrition fundamentals Practice
+name: Build and repeat an adequate everyday meal within real constraints
 parent_competency_id: '12.03'
 domain_id: '12'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.03
-      (Nutrition fundamentals); canonical scope, evidence target, classification, domain boundary, and
-      parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.03; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,38 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Nutrition fundamentals through a qualified-support preparation bounded by the canonical
-    scope: Understand energy balance, protein, fiber, micronutrients, hydration, food quality, allergies,
-    and individual constraints.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Maintains a practical
-    eating pattern without fad dependence or obsessive control. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Apply basic nutrition literacy to an affordable, accessible eating pattern that includes energy,
+    protein, fiber, micronutrient variety and hydration without rigid tracking or fad rules.
+  why_recommended: Apply basic nutrition literacy to an affordable, accessible eating pattern that includes
+    energy, protein, fiber, micronutrient variety and hydration without rigid tracking or fad rules.
   claims:
-  - statement: Using the canonical scope and evidence target for Nutrition fundamentals is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Apply basic nutrition literacy to an affordable, accessible eating pattern that includes
+      energy, protein, fiber, micronutrient variety and hydration without rigid tracking or fad rules.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Nutrition fundamentals practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Nutrition fundamentals as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Nutrition fundamentals
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Nutrition
-    fundamentals; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or
-    dependence for evidence.
+  readiness_considerations: Use frozen, canned, prepared, blended or culturally familiar foods when they
+    meet individual safety needs. Food assistance and help with preparation are valid routes. Follow fluid
+    restrictions or swallowing plans when prescribed; the exercise never requires drinking beyond those
+    limits or testing a suspected allergen.
+  opportunity_considerations: 'Default meal: a familiar grain or starchy food, beans or another tolerated
+    protein, a vegetable or fruit, a usual source of fat or flavor, and a suitable drink. Use ingredients
+    already known to be safe for you. The supplied audit asks what supplies energy, protein, fiber, varied
+    micronutrients and fluid, and what is missing across the rest of the day.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Nutrition fundamentals.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default meal: a familiar grain or starchy food, beans or another tolerated protein, a vegetable or
+    fruit, a usual source of fat or flavor, and a suitable drink. Use ingredients already known to be
+    safe for you. The supplied audit asks what supplies energy, protein, fiber, varied micronutrients
+    and fluid, and what is missing across the rest of the day.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Nutrition fundamentals instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use frozen, canned, prepared, blended or culturally familiar foods when they meet individual safety
+    needs. Food assistance and help with preparation are valid routes. Follow fluid restrictions or swallowing
+    plans when prescribed; the exercise never requires drinking beyond those limits or testing a suspected
+    allergen.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -79,18 +81,30 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Nutrition fundamentals actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Nutrition fundamentals; copy the canonical scope and evidence target into
-    a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Nutrition
-    fundamentals. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Nutrition fundamentals actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default meal: a familiar grain or starchy food, beans or another tolerated protein, a vegetable
+    or fruit, a usual source of fat or flavor, and a suitable drink. Use ingredients already known to
+    be safe for you. The supplied audit asks what supplies energy, protein, fiber, varied micronutrients
+    and fluid, and what is missing across the rest of the day. Goal: Apply basic nutrition literacy to
+    an affordable, accessible eating pattern that includes energy, protein, fiber, micronutrient variety
+    and hydration without rigid tracking or fad rules. Scope: One meal cannot establish nutritional adequacy
+    for a whole diet. Individual allergies, swallowing needs, pregnancy, disease, medication interactions
+    and clinician-directed diets take precedence; no calorie deficit or supplement regimen is prescribed.
+    Time and effort: Fifteen minutes to plan, one ordinary meal preparation or purchase, and a five-minute
+    review after a second comparable meal. Adaptation: Use frozen, canned, prepared, blended or culturally
+    familiar foods when they meet individual safety needs. Food assistance and help with preparation are
+    valid routes. Follow fluid restrictions or swallowing plans when prescribed; the exercise never requires
+    drinking beyond those limits or testing a suspected allergen. Keep personal working notes outside
+    the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use frozen, canned, prepared, blended or culturally familiar foods when they meet
+    individual safety needs. Food assistance and help with preparation are valid routes. Follow fluid
+    restrictions or swallowing plans when prescribed; the exercise never requires drinking beyond those
+    limits or testing a suspected allergen.
+  expected_burden: Fifteen minutes to plan, one ordinary meal preparation or purchase, and a five-minute
+    review after a second comparable meal.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Nutrition fundamentals protocol to rank worth, coerce participation, demand disclosure,
@@ -98,19 +112,25 @@ intervention:
   - Treating a completed Nutrition fundamentals action, a polished artifact, agreement, confidence, speed,
     independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Nutrition fundamentals situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use frozen,
+    canned, prepared, blended or culturally familiar foods when they meet individual safety needs. Food
+    assistance and help with preparation are valid routes. Follow fluid restrictions or swallowing plans
+    when prescribed; the exercise never requires drinking beyond those limits or testing a suspected allergen.
   actions:
   - stable_id: PRACTICE-COMP-1203-NUTRITION-FUNDAMENTALS-01-A1
     sequence: 1
-    title: Bound the qualified question for Nutrition fundamentals
-    instructions: 'Turn Nutrition fundamentals into one educational or planning question and identify
-      the qualification and jurisdiction needed to answer it. Use the canonical scope to separate general
-      learning from diagnosis, treatment, legal advice, financial advice, safeguarding decisions, or other
-      professional judgment: Understand energy balance, protein, fiber, micronutrients, hydration, food
-      quality, allergies, and individual constraints.'
+    title: Explain the meal’s functions and its actual constraints
+    instructions: 'Use the default or a familiar cultural meal to identify the five nutrition functions.
+      Energy needs depend on the person and activity; a single plate does not reveal energy balance or
+      every micronutrient. Check budget, preparation time, storage, appetite, sensory needs and allergy
+      information, including cross-contact where relevant. Record an unknown rather than treating a marketing
+      label as proof of nutritional completeness.
+
+
+      Observation checks: Energy protein fiber variety and fluid each have an identified source or gap;
+      A single meal is not equated with whole-diet adequacy; Budget preparation storage and access constraints
+      are included; Allergy and individual care requirements control ingredient choice. Mark only what
+      you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -132,9 +152,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1203_a1_question_bounded
-        - c1203_a1_qualification_named
-        - c1203_a1_professional_boundary_explicit
+        - energy_protein_fiber_variety_and_fluid_each_have_an_identified_source_or_gap
+        - a_single_meal_is_not_equated_with_whole_diet_adequacy
+        - budget_preparation_storage_and_access_constraints_are_included
+        - allergy_and_individual_care_requirements_control_ingredient_choice
       - measurement_id: c1203_a1_boundary
         kind: boolean
         role: supporting
@@ -151,11 +172,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1203-NUTRITION-FUNDAMENTALS-01-A2
     sequence: 2
-    title: Prepare minimum information for Nutrition fundamentals
-    instructions: Create a privacy-minimized Nutrition fundamentals consultation note containing only
-      the question, relevant category-level facts, current constraints, and desired decision. Omit diagnoses,
-      allegations, account numbers, credentials, protected work information, intimate detail, and third-party
-      identity unless a qualified professional lawfully requires it through an appropriate channel.
+    title: Prepare or obtain the meal with one practical improvement
+    instructions: 'Make or purchase the chosen meal using familiar safe methods. Change one feasible gap,
+      such as adding tolerated beans, a cooked vegetable or access to a suitable drink; do not simultaneously
+      eliminate entire food groups. Follow the product’s preparation and storage instructions. Eat according
+      to your established needs or care plan, noting adequacy, enjoyment and convenience without classifying
+      the meal as morally clean or bad.
+
+
+      Observation checks: An actual meal is prepared or obtained safely; One identified gap receives a
+      feasible change; No unsupported elimination or restrictive target is introduced; Nourishment enjoyment
+      and convenience are all considered. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -177,9 +205,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1203_a2_minimum_information_only
-        - c1203_a2_sensitive_detail_excluded
-        - c1203_a2_decision_need_named
+        - an_actual_meal_is_prepared_or_obtained_safely
+        - one_identified_gap_receives_a_feasible_change
+        - no_unsupported_elimination_or_restrictive_target_is_introduced
+        - nourishment_enjoyment_and_convenience_are_all_considered
       - measurement_id: c1203_a2_boundary
         kind: boolean
         role: supporting
@@ -196,12 +225,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1203-NUTRITION-FUNDAMENTALS-01-A3
     sequence: 3
-    title: Record a bounded Nutrition fundamentals disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Maintains a practical eating pattern without fad dependence or obsessive
-      control.'
+    title: Repeat once and test whether the pattern is sustainable
+    instructions: 'Use the meal or an equivalent version at another ordinary opportunity. Compare cost,
+      access, satisfaction and fit with the rest of the day. Choose one alternate protein, plant food
+      or preparation that adds variety within the same constraints. If adequacy, unwanted weight change,
+      restrictive eating or a medical diet remains uncertain, take the specific question to a qualified
+      clinician or dietitian rather than escalate self-tracking.
+
+
+      Observation checks: The pattern is repeated or the missing opportunity is explicit; Cost satisfaction
+      and day-level fit are compared; A realistic variety option is identified; Persistent nutritional
+      or medical uncertainty has a qualified review route. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which small change made adequate nourishment easier to repeat, and which need cannot
+      be inferred from this meal alone?
+
+
+      Examples: Supportive: A tolerated bean-and-rice meal with vegetables was repeated affordably, and
+      an alternate protein kept the pattern flexible.
+
+
+      Mixed: The meal covered several functions but preparation time made it unrealistic on workdays,
+      so a prepared alternative was needed.
+
+
+      Contradictory: The exercise became calorie punishment, allergy testing or an unsupported elimination
+      diet.
+
+
+      Inconclusive: Nutrient categories were memorized without preparing, obtaining or repeating a workable
+      meal.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -217,14 +272,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1203_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1203_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - the_pattern_is_repeated_or_the_missing_opportunity_is_explicit
+        - cost_satisfaction_and_day_level_fit_are_compared
+        - a_realistic_variety_option_is_identified
+        - persistent_nutritional_or_medical_uncertainty_has_a_qualified_review_route
       - measurement_id: c1203_a3_boundary
         kind: boolean
         role: supporting
@@ -244,16 +301,19 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Nutrition fundamentals; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Nutrition fundamentals; assistive technology, interpretation, a support person, and a
-      deferred action are valid without penalty.
+    - Use frozen, canned, prepared, blended or culturally familiar foods when they meet individual safety
+      needs. Food assistance and help with preparation are valid routes. Follow fluid restrictions or
+      swallowing plans when prescribed; the exercise never requires drinking beyond those limits or testing
+      a suspected allergen.
     cultural_context:
     - Adapt the expression of Nutrition fundamentals to direct or indirect communication, collective or
       individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Nutrition fundamentals opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use frozen, canned, prepared, blended or culturally familiar foods when they meet individual safety
+      needs. Food assistance and help with preparation are valid routes. Follow fluid restrictions or
+      swallowing plans when prescribed; the exercise never requires drinking beyond those limits or testing
+      a suspected allergen.
   pause_conditions:
   - Pause Nutrition fundamentals when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -283,10 +343,7 @@ evidence_and_scoring:
   - c1203_a3_boundary
   - c1203_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Nutrition fundamentals action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Nutrition fundamentals criterion, depended on coercion or hidden
-    private content, or could not distinguish the protocol from contextual change.
+  - The exercise became calorie punishment, allergy testing or an unsupported elimination diet.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Nutrition fundamentals explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -296,14 +353,23 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Nutrition fundamentals rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Maintains a practical eating pattern without fad dependence or obsessive control.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Nutrition fundamentals requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Explain the meal’s functions and its actual constraints. Observed checks:
+    Energy protein fiber variety and fluid each have an identified source or gap; A single meal is not
+    equated with whole-diet adequacy; Budget preparation storage and access constraints are included;
+    Allergy and individual care requirements control ingredient choice. Action 2: Prepare or obtain the
+    meal with one practical improvement. Observed checks: An actual meal is prepared or obtained safely;
+    One identified gap receives a feasible change; No unsupported elimination or restrictive target is
+    introduced; Nourishment enjoyment and convenience are all considered. Action 3: Repeat once and test
+    whether the pattern is sustainable. Observed checks: The pattern is repeated or the missing opportunity
+    is explicit; Cost satisfaction and day-level fit are compared; A realistic variety option is identified;
+    Persistent nutritional or medical uncertainty has a qualified review route.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Nutrient categories were memorized without preparing,
+    obtaining or repeating a workable meal.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Nutrition
     fundamentals contribution under typed evaluation; protocol performance remains distinct and is never
     counted twice.
@@ -312,9 +378,8 @@ evidence_and_scoring:
   - L13
   - L17
   - L18
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Nutrition fundamentals evidence.
@@ -322,10 +387,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for nutrition fundamentals action was attempted or explicitly deferred.
-  - The prepare minimum information for nutrition fundamentals action was attempted or explicitly deferred.
-  - The record a bounded nutrition fundamentals disposition action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Explain the meal’s functions and its actual constraints. Observed checks: Energy protein
+    fiber variety and fluid each have an identified source or gap; A single meal is not equated with whole-diet
+    adequacy; Budget preparation storage and access constraints are included; Allergy and individual care
+    requirements control ingredient choice.'
+  - 'Action 2: Prepare or obtain the meal with one practical improvement. Observed checks: An actual meal
+    is prepared or obtained safely; One identified gap receives a feasible change; No unsupported elimination
+    or restrictive target is introduced; Nourishment enjoyment and convenience are all considered.'
+  - 'Action 3: Repeat once and test whether the pattern is sustainable. Observed checks: The pattern is
+    repeated or the missing opportunity is explicit; Cost satisfaction and day-level fit are compared;
+    A realistic variety option is identified; Persistent nutritional or medical uncertainty has a qualified
+    review route.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -334,56 +409,373 @@ completion_and_review:
     - c1203_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Nutrition fundamentals only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Nutrition fundamentals across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which small change made adequate nourishment easier to repeat, and which need
+    cannot be inferred from this meal alone?
+  transfer_limit: One meal cannot establish nutritional adequacy for a whole diet. Individual allergies,
+    swallowing needs, pregnancy, disease, medication interactions and clinician-directed diets take precedence;
+    no calorie deficit or supplement regimen is prescribed.
   reflection:
-    before: What does Nutrition fundamentals require in this exact context, what remains outside my role
-      or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Nutrition fundamentals criterion is present, absent, mixed, or unknown, and
-      are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Maintains a practical eating pattern without fad dependence
-      or obsessive control.', what contradiction or missing context matters most, and should this Nutrition
-      fundamentals design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Apply basic nutrition literacy to an affordable,
+      accessible eating pattern that includes energy, protein, fiber, micronutrient variety and hydration
+      without rigid tracking or fad rules.'
+    during: Which checks have actually been observed? The meal covered several functions but preparation
+      time made it unrealistic on workdays, so a prepared alternative was needed.
+    after: Which small change made adequate nourishment easier to repeat, and which need cannot be inferred
+      from this meal alone?
   review_guidance:
     repeat: Repeat the same bounded Nutrition fundamentals design only when the context and burden remain
       appropriate.
-    adapt: Change the Nutrition fundamentals medium, scope, support, timing, criteria, or context while
-      preserving provenance and the narrower evidence claim.
+    adapt: Use frozen, canned, prepared, blended or culturally familiar foods when they meet individual
+      safety needs. Food assistance and help with preparation are valid routes. Follow fluid restrictions
+      or swallowing plans when prescribed; the exercise never requires drinking beyond those limits or
+      testing a suspected allergen.
     stop: Stop Nutrition fundamentals when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Nutrition fundamentals questions beyond
-      this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Nutrition fundamentals criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Nutrition fundamentals criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Nutrition fundamentals criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Nutrition fundamentals action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: A tolerated bean-and-rice meal with vegetables was repeated affordably, and an alternate
+      protein kept the pattern flexible.
+    mixed: The meal covered several functions but preparation time made it unrealistic on workdays, so
+      a prepared alternative was needed.
+    contradictory: The exercise became calorie punishment, allergy testing or an unsupported elimination
+      diet.
+    inconclusive: Nutrient categories were memorized without preparing, obtaining or repeating a workable
+      meal.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Nutrition fundamentals.
+    context_heading: Build and repeat an adequate everyday meal within real constraints
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Nutrition
       fundamentals.
   check_in_labels:
-    c1203_a1_primary: The bounded Nutrition fundamentals criterion for action 1 was observed
+    c1203_a1_primary: 'Observed checks: explain the meal’s functions and its actual constraints'
     c1203_a1_boundary: Action 1 stayed inside its stated Nutrition fundamentals boundary
     c1203_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1203_a2_primary: The bounded Nutrition fundamentals criterion for action 2 was observed
+    c1203_a2_primary: 'Observed checks: prepare or obtain the meal with one practical improvement'
     c1203_a2_boundary: Action 2 stayed inside its stated Nutrition fundamentals boundary
     c1203_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1203_a3_primary: The bounded Nutrition fundamentals criterion for action 3 was observed
+    c1203_a3_primary: 'Observed checks: repeat once and test whether the pattern is sustainable'
     c1203_a3_boundary: Action 3 stayed inside its stated Nutrition fundamentals boundary
     c1203_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Nutrition fundamentals
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which small change made adequate nourishment easier to repeat, and which need cannot
+    be inferred from this meal alone? Completion is not mastery.
+  plain_language_evidence: A tolerated bean-and-rice meal with vegetables was repeated affordably, and
+    an alternate protein kept the pattern flexible.
   display_order: 148
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.03'
+  title: 12.03 — Nutrition fundamentals
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [AHRQ, Teach-Back](https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/teachback.html)
+
+      - [NHLBI, Healthy Sleep Habits](https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits)
+
+      - [NIDDK, Diet & Nutrition](https://www.niddk.nih.gov/health-information/diet-nutrition)
+
+      - [MedlinePlus, Protein in diet](https://www.medlineplus.gov/ency/article/002467.htm)
+
+      - [MedlinePlus, Dietary Fiber](https://www.medlineplus.gov/dietaryfiber.html)
+
+      - [FDA, Serving Size on the Nutrition Facts Label](https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label)
+
+      - [FDA, Food Allergies](https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies)
+
+      - [NIMH, Eating Disorders: What You Need to Know](https://www.nimh.nih.gov/health/publications/eating-disorders)
+
+      - [CDC, How to Measure Physical Activity Intensity](https://www.cdc.gov/physical-activity-basics/measuring/index.html)
+
+      - [CDC, Strategies to Prevent Worsening of Symptoms](https://www.cdc.gov/me-cfs/hcp/clinical-care/treating-the-most-disruptive-symptoms-first-and-preventing-worsening-of-symptoms.html)
+
+      - [NHS, How to improve your strength and flexibility](https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/)
+
+      - [Mayo Clinic, Stretching and flexibility](https://www.mayoclinic.org/healthy-lifestyle/fitness/basics/stretching-and-flexibility/hlv-20049447)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Reveal after saving the shopping/meal plan. Use the R/B/V/O/F choice in this supplied record.
+      All events are simulated.
+
+
+      Day 1: whole packages cost 7.00 units. Ari opens the relevant packages at 12:00, prepares the lunch
+      in 7 minutes, follows the stated storage instructions and reports the meal acceptable. R/B/V/O have
+      the supplied subtotal of 10 g protein and 8 g fiber; F''s contribution is unknown. This is not the
+      complete meal''s known nutrient total.
+
+
+      ### Branch A: repeat fits the label
+
+
+      Day 2: the remaining portions are used at 11:50 after appropriate refrigeration. The elapsed time
+      since opening is 23 hours 50 minutes, within the fictional 24-hour limit. Preparation again takes
+      7 minutes. Ari reports the lunch acceptable but wants a different protein next time. No extra purchase
+      was needed. Identify the supported claim: workable repeat under these conditions, not measured nutritional
+      adequacy.
+
+
+      ### Branch B: repeat delayed
+
+
+      Day 2: work delays lunch until 12:30. The opened R/B/V foods'' stated 24-hour limit has passed by
+      30 minutes. The remaining cash is 1.00 unit. Buying replacement R/B/V packages would cost 6.00 units;
+      The existing F and O remain suitable under their separate supplied instructions and are not additional
+      purchases in this branch. No other ready meal or safe replacement is stipulated. Do not declare
+      that the same complete lunch is still available or that the fictional budget can pay for it. Record
+      the unresolved food-access need and a request for an available safe meal/support route rather than
+      instructing Ari to skip nourishment. A real situation uses actual food-storage guidance and available
+      support, not this invented label.
+
+
+      ### Review
+
+
+      Branch A supports practical repetition. Branch B exposes a timing/access failure despite a feasible
+      original calculation. A future arrangement could use portions whose actual packaging safely supports
+      the needed schedule or acquire a verified ready alternative in advance; neither has been obtained
+      in this branch. Preserve money already spent and the failed repeat rather than rewriting the plan.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Make nourishment practical without turning it into a score
+
+
+      A workable eating pattern supplies energy and nutrients, fits the person''s needs and can be repeated
+      with available money, time and support. One impressive label or one meal cannot establish that a
+      whole diet is adequate. This guide teaches energy balance, protein, fiber, micronutrient variety,
+      hydration, food quality, allergies and individual constraints through a complete meal-planning case.
+
+
+      Allow 15 minutes for the meal and budget, 10 for the later repeat and 10 for checks. Use paper,
+      a calculator or dictation. All foods, prices and outcomes below are invented. No purchase, tasting,
+      private dietary disclosure or calorie/weight tracking is required. The default produces a practical
+      meal plan and a repeat decision; it does not show that you prepared or ate a meal. Health and exercise
+      content must be adapted to the person and does not replace licensed medical care.
+
+
+      ### Understand the functions and the label''s limits
+
+
+      Food provides energy for bodily functions and activity; energy balance concerns intake and expenditure
+      over time, not the moral quality of one plate. [Protein supplies building material](https://www.medlineplus.gov/ency/article/002467.htm),
+      [fiber supports digestive function](https://www.medlineplus.gov/dietaryfiber.html), and varied foods
+      can contribute different vitamins and minerals. Fluid is another need, with individual restrictions
+      or swallowing plans taking priority. Needs vary with the person, circumstances and care plan; no
+      intake target is supplied here. [NIDDK''s nutrition overview](https://www.niddk.nih.gov/health-information/diet-nutrition)
+      supports the broad energy/nutrient distinction.
+
+
+      Food quality includes useful nourishment, safety, enjoyment and practical fit. Convenient canned,
+      frozen or prepared foods can be suitable; “fresh” and “expensive” do not establish adequacy. A familiar
+      cultural meal need not be replaced by a standardized plate. Variety is an option to make a pattern
+      workable, not a demand to ignore sensory limits or eliminate tolerated foods.
+
+
+      A label''s serving size describes the unit used for the listed information; it is not a personal
+      portion prescription. Multiply per-serving values by the number of servings actually considered,
+      and keep per-container and per-serving units separate. [FDA''s serving-size explanation](https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label)
+      supports this calculation. The numbers below teach label arithmetic, not a nutrient quota.
+
+
+      Allergy information is a safety constraint. Read the applicable label, including ingredients and
+      relevant cross-contact information, and follow the person''s existing allergy plan. An unreadable
+      label or missing voluntary warning does not prove safety. Do not taste-test a suspected allergen.
+      [FDA''s food-allergy guidance](https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies)
+      concerns U.S. labeling; other jurisdictions differ. A fictional “verified for this case” status
+      is not assurance about any real product.
+
+
+      ### Worked example: a container has two servings
+
+
+      A fictional pot lists protein 6 g and fiber 3 g per serving, two servings per pot. The entire pot
+      supplies 12 g protein and 6 g fiber by label arithmetic. That says nothing about whether the person
+      should eat the whole pot or whether the day is nutritionally adequate. If the pot costs 2.40 units,
+      purchasing it costs 2.40 even when half is used now; allocating 1.20 to this meal does not reduce
+      the cash needed at checkout.
+
+
+      ### Complete materials: Ari''s two lunches
+
+
+      Ari has a familiar eating plan and a sesame allergy. For this synthetic case only, R, B, V, F, P
+      and O have been checked against Ari''s existing allergy plan, including relevant handling, and are
+      tolerated. S contains sesame. U has unreadable ingredients and unknown cross-contact status. There
+      are no other stipulated dietary restrictions. Never infer these statuses for products outside this
+      case.
+
+
+      Available money for the two lunches is 8.00 units. Each lunch has at most 8 minutes of preparation.
+      A refrigerator, microwave, safe drinking water and the listed packaging instructions are available.
+      Ari''s existing plan uses one listed portion each of R, B, V and O for this familiar lunch; this
+      is a fictional personal plan, not a serving recommendation. All packs contain exactly two such portions
+      except where shown. Prices are whole-package cash costs, not per-portion costs.
+
+
+      | Code | Food and package | Cost units | Preparation for one lunch | Function/information |
+
+      | --- | --- | --- | --- | --- |
+
+      | R | Familiar ready rice, 2 portions | 2.00 | 2 minutes | Starchy energy source; protein 2 g, fiber
+      1 g per portion |
+
+      | B | Tolerated ready beans, 2 portions | 2.40 | 2 minutes | Protein 7 g, fiber 5 g per portion
+      |
+
+      | V | Ready vegetables, 2 portions | 1.60 | 1 minute | Plant variety; protein 1 g, fiber 2 g per
+      portion |
+
+      | O | Familiar oil/flavor, 2 portions | already available, 0.00 cash | 1 minute to assemble with
+      R/B/V | Energy and flavor; protein 0 g, fiber 0 g per portion |
+
+      | F | Familiar fruit, 2 portions | 1.00 | 1 additional minute | Optional additional plant variety;
+      no nutrient figures supplied |
+
+      | P | Tolerated ready alternate protein, 2 portions | 2.80 | 2 minutes | Optional replacement for
+      B; no nutrient figures supplied |
+
+      | S | Sauce, 2 portions | 0.80 | 1 minute | Contains sesame; excluded by Ari''s plan |
+
+      | U | Loose mixed topping, 2 portions | 0.40 | 1 minute | Ingredient and cross-contact information
+      unknown |
+
+
+      The table''s preparation times are sequential and include all preparation for the stated foods;
+      add them, do not assume overlap. Filling the already available water cup adds no preparation time
+      in this toy case. R/B/V/O packaging permits the stated preparation. Unused opened R/B/V portions
+      must be refrigerated promptly and used no later than the label''s 24-hour limit after opening. F
+      and O have separate supplied storage instructions that permit their remaining portions on day 2;
+      they do not inherit R/B/V''s limit. The first lunch is planned just after 12:00, and the second
+      before 12:00 the next day, allowing preparation and use before the boundary. These are supplied
+      toy package facts, not a general food-storage rule. Record the actual opening/use times when reviewing
+      the repeat.
+
+
+      #### Action 1 — Build a meal that fits
+
+
+      Make the R/B/V/O lunch and decide whether to include F. Identify energy, protein, fiber, micronutrient
+      variety and fluid sources, and at least two unknowns about the whole day. Calculate whole-package
+      cash, one-lunch preparation time and the provided protein/fiber subtotal. Do not invent values for
+      F or P. State the safety disposition of S and U separately: known incompatible and unverified are
+      different reasons not to select them.
+
+
+      Use `foods | five functions | known safety basis | unknowns | whole-package cash | preparation |
+      opening/use plan | alternative`. Save this before [later-packet.md](?resource=file-later-packet-md).
+      Your decision concerns the supplied plan''s fit; no one needs to eat the fictional quantities.
+
+
+      #### Action 2 — Use the later meal and repeat record
+
+
+      The later packet supplies actual simulated preparation and repeat times. Check the label''s storage
+      boundary before claiming the second meal is usable. Compare cash already spent with extra cash required
+      for a replacement. Time and storage can defeat a meal that looks nutritionally attractive. Do not
+      consume questionable food to satisfy a repeat requirement; if the case no longer supplies a feasible
+      safe option, record the access gap explicitly.
+
+
+      #### Action 3 — Preserve nourishment and flexibility
+
+
+      Choose retain, adapt or seek support based on the repeat. Name a realistic alternative protein or
+      preparation within the same constraints, preserving allergy verification and the existing plan.
+      Distinguish an alternative calculated on paper from an actual second meal. If a real pattern raises
+      adequacy concerns, restrictive eating, unwanted weight change or medical-diet uncertainty, bring
+      a specific question to a qualified clinician or dietitian rather than escalating self-tracking.
+
+
+      Attempt [fresh checks](?attempt=practice-checks) before [corrective guidance](?check=practice-answers).
+      A complete source artifact contains the feasible first plan, honest nutrient unknowns, storage/cash
+      accounting and repeat decision. It does not establish whole-diet adequacy.
+
+
+      ### Access, harder work and transfer
+
+
+      Use a calculator, read-aloud labels or a consented preparation helper. Prepared, blended or culturally
+      familiar equivalents may be used only when compatible with actual allergy, swallowing and other
+      care needs. Food assistance and preparation support are valid practical routes; a budget shortfall
+      is not a character judgment. Keep personal food/health records private.
+
+
+      Harder case: before purchasing anything, replace B with P and retain R/V/O/F. Compute 7.40 units
+      cash and 7 minutes preparation; both fit. Protein and fiber totals are now unknown because P and
+      F lack figures. Do not keep B''s nutrient numbers after replacing it. This is a feasible alternative
+      for the fictional Ari only because P''s tolerability is explicitly supplied.
+
+
+      At a later ordinary real opportunity, use familiar safe foods within your established needs, make
+      or obtain the meal, and compare a second occasion for satisfaction, access, cost and preparation
+      burden. Keep other meals and fluid needs in view. Do not impose a deficit, supplement regimen or
+      elimination diet. Actual food preparation is behavioral evidence only if performed; simulated records
+      and author review are different evidence types, and two meals do not prove broad nutrition competence.
+
+
+      **Supportive:** A tolerated, affordable pattern is actually repeated with appropriate storage and
+      acceptable burden.
+
+
+      **Mixed:** The first meal works, but timing or access makes its repeat require another arrangement.
+
+
+      **Contradictory:** An allergen is tested, unsafe leftovers are used, or nourishment is withheld
+      to make the numbers look favorable.
+
+
+      **Inconclusive:** A menu is calculated without an actual meal on the live route, or missing label
+      facts are silently filled in.
+
+
+      See scope and limits described in this guide and [source notes](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A fictional container holds three servings, each with 4 g protein and 2 g fiber. The whole
+      container costs 3.60 units. Calculate the label quantities for two servings and the cash needed
+      to buy the container. Does the label tell the person to eat two servings?
+
+      2. A topping says “plant based”; its ingredients are unreadable and cross-contact information is
+      absent. The person has a relevant allergy. Another topping explicitly contains that allergen. Distinguish
+      the statuses and explain whether either is established suitable by those facts.
+
+      3. A planned lunch includes a food with no protein value supplied. A reviewer substitutes a different
+      food''s number to reach a target. Correct the calculation and explain what additional information,
+      if actually needed, could resolve the gap without prescribing a diet.
+
+
+      Save your answers before opening [the key](?check=practice-answers).'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Two servings give 8 g protein and 4 g fiber. Buying the package requires 3.60 units even
+      though two-thirds of its cost is 2.40. Serving size is a label unit, not a portion recommendation.
+      If you used the allocated cost as cash, redo the budget with whole packages.
+
+      2. One topping is unverified; the other is known incompatible. Neither is established suitable.
+      “Plant based” does not resolve an allergy, and absence of information cannot become reassurance.
+      Use a known suitable alternative or obtain reliable information consistent with the existing allergy
+      plan; do not taste-test uncertainty.
+
+      3. Keep the known subtotal and mark the total unknown. A relevant verified label or appropriate
+      qualified advice could resolve a genuine question. A copied number does not establish adequacy,
+      and a target invented for this exercise is not an individual nutrition need.
+
+
+      This is source reasoning about a synthetic meal, not a dietetic assessment.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

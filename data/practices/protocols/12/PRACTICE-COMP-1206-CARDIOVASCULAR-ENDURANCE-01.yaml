@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1206-CARDIOVASCULAR-ENDURANCE-01
 slug: c1206-cardiovascular-endurance-practice
-name: Bounded Cardiovascular endurance Practice
+name: Compare sustainable aerobic effort with the recovery it requires
 parent_competency_id: '12.06'
 domain_id: '12'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.06
-      (Cardiovascular endurance); canonical scope, evidence target, classification, domain boundary, and
-      parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,38 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Cardiovascular endurance through a qualified-support preparation bounded by the canonical
-    scope: Develop aerobic base, higher-intensity capacity, and recovery appropriate to health and goals.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can sustain and recover
-    from meaningful cardiovascular effort. The protocol creates a small opportunity to examine that target
-    without treating completion as broad capability.'
+  purpose: Practice a familiar cardiovascular activity at an appropriate sustainable level and distinguish
+    endurance, higher-intensity work and recovery without confusing exhaustion with fitness.
+  why_recommended: Practice a familiar cardiovascular activity at an appropriate sustainable level and
+    distinguish endurance, higher-intensity work and recovery without confusing exhaustion with fitness.
   claims:
-  - statement: Using the canonical scope and evidence target for Cardiovascular endurance is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Practice a familiar cardiovascular activity at an appropriate sustainable level and distinguish
+      endurance, higher-intensity work and recovery without confusing exhaustion with fitness.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Cardiovascular endurance practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Cardiovascular endurance as not applicable, consciously unchosen, or
     deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Cardiovascular endurance
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Cardiovascular
-    endurance; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use indoor, seated, supported or shorter activity under an existing plan when
+    weather, disability or access requires it. For chronic illness with post-exertional worsening, do
+    not use automatic graded increases; follow individualized clinical guidance. A route plan without
+    movement is preparation only.
+  opportunity_considerations: 'Choose walking, wheelchair propulsion, easy cycling on a familiar safe
+    route or another already-tolerated aerobic activity. Default: five minutes on a level, nearby route
+    at a pace that permits comfortable conversation, with an easy return and usual aids. Choose a shorter
+    existing tolerated duration when five minutes is inappropriate. No traffic exposure, heat challenge
+    or performance target is required.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Cardiovascular endurance.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Choose walking, wheelchair propulsion, easy cycling on a familiar safe route or another already-tolerated
+    aerobic activity. Default: five minutes on a level, nearby route at a pace that permits comfortable
+    conversation, with an easy return and usual aids. Choose a shorter existing tolerated duration when
+    five minutes is inappropriate. No traffic exposure, heat challenge or performance target is required.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Cardiovascular endurance instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use indoor, seated, supported or shorter activity under an existing plan when weather, disability
+    or access requires it. For chronic illness with post-exertional worsening, do not use automatic graded
+    increases; follow individualized clinical guidance. A route plan without movement is preparation only.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -80,19 +83,30 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Cardiovascular endurance actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Cardiovascular endurance; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Cardiovascular
-    endurance. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Cardiovascular endurance actions, and
-    review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose walking, wheelchair propulsion, easy cycling on a familiar safe route or another already-tolerated
+    aerobic activity. Default: five minutes on a level, nearby route at a pace that permits comfortable
+    conversation, with an easy return and usual aids. Choose a shorter existing tolerated duration when
+    five minutes is inappropriate. No traffic exposure, heat challenge or performance target is required.
+    Goal: Practice a familiar cardiovascular activity at an appropriate sustainable level and distinguish
+    endurance, higher-intensity work and recovery without confusing exhaustion with fitness. Scope: The
+    trial is not a stress test, fitness clearance or prescription for vigorous intervals. Existing medical
+    advice controls activity choice, and two outings cannot prove cardiovascular adaptation. Time and
+    effort: Ten minutes to prepare and two short familiar activity periods on separate suitable days,
+    each followed by a brief recovery note. Adaptation: Use indoor, seated, supported or shorter activity
+    under an existing plan when weather, disability or access requires it. For chronic illness with post-exertional
+    worsening, do not use automatic graded increases; follow individualized clinical guidance. A route
+    plan without movement is preparation only. Keep personal working notes outside the check-in; record
+    only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use indoor, seated, supported or shorter activity under an existing plan when weather,
+    disability or access requires it. For chronic illness with post-exertional worsening, do not use automatic
+    graded increases; follow individualized clinical guidance. A route plan without movement is preparation
+    only.
+  expected_burden: Ten minutes to prepare and two short familiar activity periods on separate suitable
+    days, each followed by a brief recovery note.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Cardiovascular endurance protocol to rank worth, coerce participation, demand disclosure,
@@ -100,19 +114,25 @@ intervention:
   - Treating a completed Cardiovascular endurance action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Cardiovascular endurance situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use indoor,
+    seated, supported or shorter activity under an existing plan when weather, disability or access requires
+    it. For chronic illness with post-exertional worsening, do not use automatic graded increases; follow
+    individualized clinical guidance. A route plan without movement is preparation only.
   actions:
   - stable_id: PRACTICE-COMP-1206-CARDIOVASCULAR-ENDURANCE-01-A1
     sequence: 1
-    title: Bound the qualified question for Cardiovascular endurance
-    instructions: 'Turn Cardiovascular endurance into one educational or planning question and identify
-      the qualification and jurisdiction needed to answer it. Use the canonical scope to separate general
-      learning from diagnosis, treatment, legal advice, financial advice, safeguarding decisions, or other
-      professional judgment: Develop aerobic base, higher-intensity capacity, and recovery appropriate
-      to health and goals.'
+    title: Set a sustainable route dose and stop plan
+    instructions: 'State the activity’s purpose, current comfortable duration, route access and recovery
+      opportunity. Distinguish this easy base effort from higher-intensity training, which may require
+      separate preparation or advice. Check weather, surface, equipment and a way to stop or return early.
+      Fix duration and a comfortable effort description before starting; symptoms such as chest discomfort,
+      faintness or unusual breathlessness require stopping and appropriate care.
+
+
+      Observation checks: The dose is based on current ability rather than an age or peer target; Easy
+      base effort is distinguished from unprescribed high-intensity work; Route conditions access aids
+      and an early return are checked; Concerning symptoms override the activity plan. Mark only what
+      you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +154,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1206_a1_question_bounded
-        - c1206_a1_qualification_named
-        - c1206_a1_professional_boundary_explicit
+        - the_dose_is_based_on_current_ability_rather_than_an_age_or_peer_target
+        - easy_base_effort_is_distinguished_from_unprescribed_high_intensity_work
+        - route_conditions_access_aids_and_an_early_return_are_checked
+        - concerning_symptoms_override_the_activity_plan
       - measurement_id: c1206_a1_boundary
         kind: boolean
         role: supporting
@@ -153,11 +174,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1206-CARDIOVASCULAR-ENDURANCE-01-A2
     sequence: 2
-    title: Prepare minimum information for Cardiovascular endurance
-    instructions: Create a privacy-minimized Cardiovascular endurance consultation note containing only
-      the question, relevant category-level facts, current constraints, and desired decision. Omit diagnoses,
-      allegations, account numbers, credentials, protected work information, intimate detail, and third-party
-      identity unless a qualified professional lawfully requires it through an appropriate channel.
+    title: Complete the familiar effort and observe recovery
+    instructions: 'Use the planned activity at the selected comfortable pace without racing or extending
+      the route. Record approximate time, whether the effort stayed conversational or within the existing
+      plan, and how ordinary breathing and function returned afterward. Stop at the boundary and retain
+      any symptom or interruption in the record. A shorter safe attempt is more informative than hiding
+      a difficult finish.
+
+
+      Observation checks: The planned familiar activity is actually attempted; Effort stays within the
+      chosen appropriate range or prompts stopping; Duration and recovery are observed without a maximal
+      test; Symptoms interruptions and shortened attempts remain visible. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -179,9 +207,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1206_a2_minimum_information_only
-        - c1206_a2_sensitive_detail_excluded
-        - c1206_a2_decision_need_named
+        - the_planned_familiar_activity_is_actually_attempted
+        - effort_stays_within_the_chosen_appropriate_range_or_prompts_stopping
+        - duration_and_recovery_are_observed_without_a_maximal_test
+        - symptoms_interruptions_and_shortened_attempts_remain_visible
       - measurement_id: c1206_a2_boundary
         kind: boolean
         role: supporting
@@ -198,11 +227,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1206-CARDIOVASCULAR-ENDURANCE-01-A3
     sequence: 3
-    title: Record a bounded Cardiovascular endurance disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Can sustain and recover from meaningful cardiovascular effort.'
+    title: Repeat comparably and decide whether the dose fits
+    instructions: 'On another suitable day, repeat only after usual recovery and compare effort, access
+      and aftermath. Keep the dose, shorten it, change the route or seek qualified guidance. If a future
+      goal needs higher intensity, identify the required instruction and individualized progression rather
+      than adding sprints now. The review concerns sustainable participation and recovery, not a claimed
+      change in aerobic capacity.
+
+
+      Observation checks: A comparable repeat occurs only after appropriate recovery; Effort and aftermath
+      are compared alongside duration; The next dose or support choice follows the observations; Higher-intensity
+      goals remain separate from this easy trial. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Was the effort repeatable without an unacceptable recovery cost, and what would make
+      a different intensity appropriate?
+
+
+      Examples: Supportive: Both short level outings remained comfortable and recovery fit the rest of
+      the day, supporting repetition of the same dose.
+
+
+      Mixed: The second outing took similar time but caused greater delayed fatigue, so the plan needed
+      reduction or review.
+
+
+      Contradictory: Unplanned sprints were added or alarming symptoms ignored to finish a distance target.
+
+
+      Inconclusive: A route and heart-rate goal were selected without an actual safe effort or recovery
+      observation.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -218,14 +273,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1206_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1206_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - a_comparable_repeat_occurs_only_after_appropriate_recovery
+        - effort_and_aftermath_are_compared_alongside_duration
+        - the_next_dose_or_support_choice_follows_the_observations
+        - higher_intensity_goals_remain_separate_from_this_easy_trial
       - measurement_id: c1206_a3_boundary
         kind: boolean
         role: supporting
@@ -245,16 +302,19 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Cardiovascular endurance; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Cardiovascular endurance; assistive technology, interpretation, a support person, and
-      a deferred action are valid without penalty.
+    - Use indoor, seated, supported or shorter activity under an existing plan when weather, disability
+      or access requires it. For chronic illness with post-exertional worsening, do not use automatic
+      graded increases; follow individualized clinical guidance. A route plan without movement is preparation
+      only.
     cultural_context:
     - Adapt the expression of Cardiovascular endurance to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Cardiovascular endurance opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use indoor, seated, supported or shorter activity under an existing plan when weather, disability
+      or access requires it. For chronic illness with post-exertional worsening, do not use automatic
+      graded increases; follow individualized clinical guidance. A route plan without movement is preparation
+      only.
   pause_conditions:
   - Pause Cardiovascular endurance when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -284,10 +344,7 @@ evidence_and_scoring:
   - c1206_a3_boundary
   - c1206_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Cardiovascular endurance action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Cardiovascular endurance criterion, depended on coercion or
-    hidden private content, or could not distinguish the protocol from contextual change.
+  - Unplanned sprints were added or alarming symptoms ignored to finish a distance target.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Cardiovascular endurance explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -297,14 +354,23 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Cardiovascular endurance rules withhold observations older than 90 days; no
     unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can sustain and recover from meaningful cardiovascular effort.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Cardiovascular endurance requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Set a sustainable route dose and stop plan. Observed checks: The dose
+    is based on current ability rather than an age or peer target; Easy base effort is distinguished from
+    unprescribed high-intensity work; Route conditions access aids and an early return are checked; Concerning
+    symptoms override the activity plan. Action 2: Complete the familiar effort and observe recovery.
+    Observed checks: The planned familiar activity is actually attempted; Effort stays within the chosen
+    appropriate range or prompts stopping; Duration and recovery are observed without a maximal test;
+    Symptoms interruptions and shortened attempts remain visible. Action 3: Repeat comparably and decide
+    whether the dose fits. Observed checks: A comparable repeat occurs only after appropriate recovery;
+    Effort and aftermath are compared alongside duration; The next dose or support choice follows the
+    observations; Higher-intensity goals remain separate from this easy trial.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A route and heart-rate goal were selected without an
+    actual safe effort or recovery observation.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Cardiovascular
     endurance contribution under typed evaluation; protocol performance remains distinct and is never
     counted twice.
@@ -312,9 +378,8 @@ evidence_and_scoring:
   recommendation_target_lever_ids:
   - L10
   - L17
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Cardiovascular endurance evidence.
@@ -322,10 +387,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for cardiovascular endurance action was attempted or explicitly deferred.
-  - The prepare minimum information for cardiovascular endurance action was attempted or explicitly deferred.
-  - The record a bounded cardiovascular endurance disposition action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Set a sustainable route dose and stop plan. Observed checks: The dose is based on current
+    ability rather than an age or peer target; Easy base effort is distinguished from unprescribed high-intensity
+    work; Route conditions access aids and an early return are checked; Concerning symptoms override the
+    activity plan.'
+  - 'Action 2: Complete the familiar effort and observe recovery. Observed checks: The planned familiar
+    activity is actually attempted; Effort stays within the chosen appropriate range or prompts stopping;
+    Duration and recovery are observed without a maximal test; Symptoms interruptions and shortened attempts
+    remain visible.'
+  - 'Action 3: Repeat comparably and decide whether the dose fits. Observed checks: A comparable repeat
+    occurs only after appropriate recovery; Effort and aftermath are compared alongside duration; The
+    next dose or support choice follows the observations; Higher-intensity goals remain separate from
+    this easy trial.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -334,56 +410,359 @@ completion_and_review:
     - c1206_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Cardiovascular endurance only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Cardiovascular endurance across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Was the effort repeatable without an unacceptable recovery cost, and what would
+    make a different intensity appropriate?
+  transfer_limit: The trial is not a stress test, fitness clearance or prescription for vigorous intervals.
+    Existing medical advice controls activity choice, and two outings cannot prove cardiovascular adaptation.
   reflection:
-    before: What does Cardiovascular endurance require in this exact context, what remains outside my
-      role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Cardiovascular endurance criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can sustain and recover from meaningful cardiovascular effort.',
-      what contradiction or missing context matters most, and should this Cardiovascular endurance design
-      be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Practice a familiar cardiovascular activity
+      at an appropriate sustainable level and distinguish endurance, higher-intensity work and recovery
+      without confusing exhaustion with fitness.'
+    during: Which checks have actually been observed? The second outing took similar time but caused greater
+      delayed fatigue, so the plan needed reduction or review.
+    after: Was the effort repeatable without an unacceptable recovery cost, and what would make a different
+      intensity appropriate?
   review_guidance:
     repeat: Repeat the same bounded Cardiovascular endurance design only when the context and burden remain
       appropriate.
-    adapt: Change the Cardiovascular endurance medium, scope, support, timing, criteria, or context while
-      preserving provenance and the narrower evidence claim.
+    adapt: Use indoor, seated, supported or shorter activity under an existing plan when weather, disability
+      or access requires it. For chronic illness with post-exertional worsening, do not use automatic
+      graded increases; follow individualized clinical guidance. A route plan without movement is preparation
+      only.
     stop: Stop Cardiovascular endurance when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Cardiovascular endurance questions beyond
-      this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Cardiovascular endurance criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Cardiovascular endurance criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Cardiovascular endurance criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Cardiovascular endurance action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: Both short level outings remained comfortable and recovery fit the rest of the day, supporting
+      repetition of the same dose.
+    mixed: The second outing took similar time but caused greater delayed fatigue, so the plan needed
+      reduction or review.
+    contradictory: Unplanned sprints were added or alarming symptoms ignored to finish a distance target.
+    inconclusive: A route and heart-rate goal were selected without an actual safe effort or recovery
+      observation.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Cardiovascular endurance.
+    context_heading: Compare sustainable aerobic effort with the recovery it requires
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Cardiovascular
       endurance.
   check_in_labels:
-    c1206_a1_primary: The bounded Cardiovascular endurance criterion for action 1 was observed
+    c1206_a1_primary: 'Observed checks: set a sustainable route dose and stop plan'
     c1206_a1_boundary: Action 1 stayed inside its stated Cardiovascular endurance boundary
     c1206_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1206_a2_primary: The bounded Cardiovascular endurance criterion for action 2 was observed
+    c1206_a2_primary: 'Observed checks: complete the familiar effort and observe recovery'
     c1206_a2_boundary: Action 2 stayed inside its stated Cardiovascular endurance boundary
     c1206_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1206_a3_primary: The bounded Cardiovascular endurance criterion for action 3 was observed
+    c1206_a3_primary: 'Observed checks: repeat comparably and decide whether the dose fits'
     c1206_a3_boundary: Action 3 stayed inside its stated Cardiovascular endurance boundary
     c1206_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Cardiovascular endurance
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Was the effort repeatable without an unacceptable recovery cost, and what would make
+    a different intensity appropriate? Completion is not mastery.
+  plain_language_evidence: Both short level outings remained comfortable and recovery fit the rest of
+    the day, supporting repetition of the same dose.
   display_order: 151
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.06'
+  title: 12.06 — Cardiovascular endurance
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [AHRQ, Teach-Back](https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/teachback.html)
+
+      - [NHLBI, Healthy Sleep Habits](https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits)
+
+      - [NIDDK, Diet & Nutrition](https://www.niddk.nih.gov/health-information/diet-nutrition)
+
+      - [MedlinePlus, Protein in diet](https://www.medlineplus.gov/ency/article/002467.htm)
+
+      - [MedlinePlus, Dietary Fiber](https://www.medlineplus.gov/dietaryfiber.html)
+
+      - [FDA, Serving Size on the Nutrition Facts Label](https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label)
+
+      - [FDA, Food Allergies](https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies)
+
+      - [NIMH, Eating Disorders: What You Need to Know](https://www.nimh.nih.gov/health/publications/eating-disorders)
+
+      - [CDC, How to Measure Physical Activity Intensity](https://www.cdc.gov/physical-activity-basics/measuring/index.html)
+
+      - [CDC, Strategies to Prevent Worsening of Symptoms](https://www.cdc.gov/me-cfs/hcp/clinical-care/treating-the-most-disruptive-symptoms-first-and-preventing-worsening-of-symptoms.html)
+
+      - [NHS, How to improve your strength and flexibility](https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/)
+
+      - [Mayo Clinic, Stretching and flexibility](https://www.mayoclinic.org/healthy-lifestyle/fitness/basics/stretching-and-flexibility/hlv-20049447)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Reveal after choosing the route. Every observation is fictional and belongs to Dev, not the
+      learner.
+
+
+      Session 1: indoor loop, usual aid, suitable conditions. Dev completes 6 minutes within the easy
+      cue. Ordinary breathing is reported back after 3 minutes; later that day and the next morning ordinary
+      function is reported usual. No warning sign is reported. Before session 2 on a later suitable day,
+      the existing plan and usual recovery are rechecked and remain appropriate.
+
+
+      Session 2: same loop, aid and planned effort. After 4 minutes Dev notices unusual breathlessness,
+      stops at the accessible exit and uses the appropriate urgent medical advice route. The record does
+      not include a diagnosis, a measured recovery time or clearance to resume. A friend suggests completing
+      the remaining 2 minutes later to reach the target.
+
+
+      Preserve actual work as 6 + 4 = 10 minutes across two attempts, not 12 completed minutes. The missing
+      recovery record is unknown, not a quick recovery. Stopping is consistent with the plan; resuming
+      to earn the remaining minutes is not supported. The next step follows the medical advice obtained,
+      with no exercise repeat or escalation assumed in this record.
+
+
+      The first session supports tolerability under its conditions. The second supplies an adverse observation
+      requiring the stated help route; this is mixed evidence about the two-session participation plan,
+      not a claim that stopping was poor behavior. Two sessions cannot establish fitness gain or diagnose
+      the cause.
+
+
+      Alternative supportive branch, replacing session 2 entirely: 6 easy minutes, same conditions and
+      usual aid, ordinary breathing after 3 minutes, later function usual, no concern reported. This supports
+      repeating the unchanged plan, not automatic progression. Keep the branches separate; do not borrow
+      the alternative''s recovery for the main session.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Higher intensity: instruction before participation
+
+
+      Higher intensity changes the effort and recovery demand; it is not established by finishing the
+      same route faster. This lesson’s easy-effort trial does not teach interval technique or authorize
+      increasing exertion. If higher-intensity activity is an appropriate goal, begin with an existing
+      individualized plan or a qualified instructor who can assess suitability, explain the intended effort
+      and recovery cues, demonstrate the chosen activity and observe an accessible first attempt. Bring
+      the actual activity, current supports, prior response and recovery questions; keep medical details
+      with the appropriate clinician. Before any such attempt, confirm the prescribed work/recovery limits,
+      stop conditions and who may change them. A missing dose, uncertain technique or unresolved recovery
+      problem means preparation or consultation, not an improvised interval. After an authorized attempt,
+      record actual effort, assistance, recovery and any early stop, then seek the agreed review before
+      progression. This is a preparation pathway; exact physical instruction and suitability remain matters
+      for qualified review.
+
+
+      ### Ask whether an effort is repeatable, including its aftermath
+
+
+      Cardiovascular endurance concerns sustaining activity and recovering appropriately for the person''s
+      health and goals. A faster time can come from greater effort, an easier route or changed assistance;
+      it does not automatically show improved capacity. Easy aerobic participation, higher-intensity training
+      and a maximal test are different tasks with different preparation needs.
+
+
+      This guide provides a complete fictional route-and-recovery comparison. Allow 10 minutes to choose
+      the route, 10 for the later sessions and 10 for fresh checks. Paper, dictation and simple time arithmetic
+      suffice. No exercise, wearable, purchase, fitness disclosure or physical challenge is required for
+      the default. Its output is an evidence-based decision about supplied records, not a claim that the
+      learner exercised. Health and exercise content must be adapted to the person and does not replace
+      licensed medical care.
+
+
+      ### Duration, intensity, frequency and recovery
+
+
+      Duration is how long an effort lasts; frequency is how often it occurs; intensity describes how
+      demanding it is. A useful record also includes the activity type, environment, equipment, support
+      and recovery afterward. Increasing several at once makes both tolerability and the explanation harder
+      to assess. More exhaustion is not a required sign of a useful session.
+
+
+      The CDC describes [relative intensity and the talk test](https://www.cdc.gov/physical-activity-basics/measuring/index.html).
+      Conversational ease can be a rough description for someone able to use it; it is not medical clearance
+      or a universal instrument. Speech, respiratory conditions and communication differences may make
+      it unsuitable. Keep the person''s established nonverbal effort cues or qualified plan instead of
+      requiring speech. A numerical heart-rate formula is unnecessary here.
+
+
+      Base activity usually emphasizes repeatable sustainable effort. Higher-intensity goals may need
+      different preparation, progression and recovery; this guide supplies no interval prescription. A
+      previously tolerated activity may still be inappropriate today if health, symptoms or conditions
+      change. Check the opportunity to stop and return before choosing a route. New chest discomfort,
+      faintness or unusual breathlessness means stop and obtain appropriate urgent medical help; use local
+      emergency services for severe symptoms or an emergency. Existing stop rules also apply. Do not wait
+      for the next log entry.
+
+
+      Immediate recovery and later ordinary functioning are different observations. Delayed worsening
+      remains relevant even after breathing settles. For conditions involving post-exertional worsening,
+      use individualized clinical guidance; no automatic graded increase is required. [CDC''s ME/CFS guidance](https://www.cdc.gov/me-cfs/hcp/clinical-care/treating-the-most-disruptive-symptoms-first-and-preventing-worsening-of-symptoms.html)
+      supports that specific limitation, not a diagnosis from fatigue alone.
+
+
+      ### Worked example: equal duration, changed conditions
+
+
+      Jamie completes an eight-minute familiar activity twice. The first is indoors with usual assistance;
+      the second is outdoors in heat with less support and requires substantially more recovery. Equal
+      minutes do not make the efforts comparable. The second record should preserve changed conditions
+      and the recovery cost. Restore suitable conditions or seek relevant guidance before repeating; do
+      not interpret the harder aftermath as proof of better training.
+
+
+      ### Complete materials: Dev''s route choice
+
+
+      Dev has an existing individualized activity plan for a familiar indoor accessible loop using their
+      usual mobility aid. It permits up to 6 minutes total of easy movement, including the return, on
+      suitable days. The present observation cycle makes no dose increase. Ordinary function and usual
+      recovery must be restored before another session; calendar spacing alone does not establish this.
+      The movement, support, equipment and stop rules are already familiar in the case. These are fictional
+      personal-plan facts, not instructions for the reader to perform six minutes.
+
+
+      The loop takes about 2 minutes at Dev''s planned pace; distance and speed are not goals. An accessible
+      exit and seat are available after every loop. No public road crossing is involved. The alternative
+      is a familiar level out-and-back path taking 4 minutes outbound and 4 minutes to return, with no
+      earlier safe exit. Conditions today are suitable indoors. There is no current symptom concern reported,
+      and the usual aid is available. If any important condition is unknown in a real setting, obtain
+      appropriate information or defer the physical attempt.
+
+
+      | Plan item | Fixed case value |
+
+      | --- | --- |
+
+      | Purpose | Reach a nearby indoor activity without unacceptable later burden |
+
+      | Total movement limit | 6 minutes including return |
+
+      | Intensity | Existing easy effort cue; usual conversational comfort is available for Dev |
+
+      | Support | Usual aid retained; accessible seat and exit |
+
+      | Boundary | No racing, extra loop, heat challenge or vigorous interval |
+
+      | Before repeat | Ordinary recovery/function restored; no concerning change; existing plan remains
+      appropriate |
+
+      | After effort | Record immediate recovery and later same-day/next-day function |
+
+
+      #### Action 1 — Choose and predeclare
+
+
+      Calculate which route fits total movement and return. For the loop, 3 × 2 = 6 minutes is the planned
+      ceiling, not a reason to hurry or finish when a stop condition occurs. The alternative requires
+      8 minutes; “only four minutes out” omits the return. Write a plan containing type, duration, effort
+      cue, aid, exit, stop rules and recovery review. Preserve it before [later-packet.md](?resource=file-later-packet-md).
+
+
+      Use `session | conditions | planned/actual minutes | effort | support | stop/interruption | immediate
+      recovery | later function | next decision`. Missing recovery is unknown, not zero burden. If a real
+      route cannot meet these requirements, a route/consultation brief completes preparation only, not
+      physical practice.
+
+
+      #### Action 2 — Read the two sessions honestly
+
+
+      Apply the later observations without changing the original limit. Compare effort, support, immediate
+      recovery and later burden alongside duration. Distinguish an appropriately shortened effort from
+      a violation such as adding an unplanned sprint. A stop can be a responsible action while evidence
+      about sustainable participation remains limited.
+
+
+      #### Action 3 — Choose a defensible next step
+
+
+      Choose repeat unchanged, reduce or adapt within existing guidance, seek qualified advice, or stop
+      and use appropriate care. No disposition is a reward for finishing. Cite the observation that controls
+      the decision and what remains uncertain. If the goal later requires higher intensity, name the individualized
+      instruction/preparation needed; do not append intervals to this easy trial.
+
+
+      Complete [fresh checks](?attempt=practice-checks) before [the key](?check=practice-answers). The
+      source artifact needs the route calculation, preserved plan, session comparison and next disposition.
+      The actual two-outing practice is separate; reading the case does not demonstrate aerobic adaptation.
+
+
+      ### Access, harder practice and later transfer
+
+
+      Use familiar indoor, seated, supported or shorter activity only within an already suitable plan.
+      Assistance is a legitimate comparison condition, not a failed version. A reader may analyze the
+      entire default without movement. If access, safety or recovery is uncertain, write the exact question
+      for a qualified person: appropriate activity and cue, current tolerable dose, stop/return arrangement,
+      recovery criteria and progression authority. An unanswered consultation is preparation, not clearance.
+
+
+      Harder case: someone completes the loop in 5 minutes by increasing pace, then claims a 1-minute
+      gain at the same dose. Identify the intensity change, withhold a capacity-improvement claim and
+      preserve the original easy-effort boundary. No sprint or maximal test is needed to answer.
+
+
+      At a later suitable real opportunity, use an already tolerated activity and existing limits, observe
+      a first effort and its aftermath, and repeat comparably only after appropriate recovery. Preserve
+      shortened attempts and naturally changed conditions. Longer-term evidence of endurance change would
+      require a suitable comparable measure and adequate repeated observation; two outings, a self-review
+      or this simulation do not supply it. Independent and qualified observations must actually occur
+      and remain distinct from self-report.
+
+
+      **Supportive:** Both efforts remain within the existing plan and ordinary recovery supports repeating
+      the same dose.
+
+
+      **Mixed:** Similar minutes conceal greater effort or delayed burden, prompting adaptation or review.
+
+
+      **Contradictory:** A warning sign is ignored, support is removed or intensity is added to produce
+      a faster result.
+
+
+      **Inconclusive:** A route is planned but no activity or recovery is observed on the live route.
+
+
+      See scope and limits described in this guide and [source notes](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A fictional existing plan allows 10 minutes total movement. The chosen route requires 6
+      minutes outward and 6 to return, with no early exit. Does it fit? Can a promised future faster return
+      be used to make it fit?
+
+      2. Two sessions take the same time, but the second removes usual assistance and has no recovery
+      record. The learner concludes “same dose, no burden, ready for intervals.” Identify the changed
+      condition, unknown and unsupported transition.
+
+      3. A person stops a familiar effort at a warning sign. A friend proposes finishing the missed minutes
+      that evening. State what is recorded and which authority, rather than the target, controls any resumption.
+
+
+      Save answers before [the key](?check=practice-answers).'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The route needs 12 minutes, exceeding the 10-minute total by 2. An imagined faster return
+      changes intensity and cannot be budgeted as a safe fact. Choose a route that actually fits the existing
+      plan and exit needs or defer.
+
+      2. Assistance changed, so duration alone does not establish the same demand. Recovery is unknown,
+      not absent burden. Neither the comparison nor the plan authorizes intervals. Restore appropriate
+      conditions and use existing guidance or qualified advice before another effort.
+
+      3. Keep the actual shortened duration, warning sign and stop visible. Obtain appropriate medical
+      help for the concern; any resumption follows that advice and the applicable plan, not an obligation
+      to make up minutes. Do not invent clearance or an outcome.
+
+
+      No answer supplies a personal exercise prescription or physiological measurement.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

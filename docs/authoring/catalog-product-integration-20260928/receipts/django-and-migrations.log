@@ -1,0 +1,10 @@
+.venv/bin/python -m ruff format --check .
+1969 files already formatted
+.venv/bin/python -m ruff check .
+All checks passed!
+APP_DATA_DIR="/home/kbianco/gitg-self-host/var" DJANGO_SECRET_KEY=local-check-secret APP_DEBUG=true \
+	.venv/bin/python manage.py check
+System check identified no issues (0 silenced).
+APP_DATA_DIR="/home/kbianco/gitg-self-host/var" DJANGO_SECRET_KEY=local-check-secret APP_DEBUG=true \
+	.venv/bin/python manage.py makemigrations --check --dry-run
+No changes detected

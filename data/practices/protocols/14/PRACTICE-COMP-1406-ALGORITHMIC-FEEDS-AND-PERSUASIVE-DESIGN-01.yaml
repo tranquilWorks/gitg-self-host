@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1406-ALGORITHMIC-FEEDS-AND-PERSUASIVE-DESIGN-01
 slug: c1406-algorithmic-feeds-and-persuasive-design-practice
-name: Bounded Algorithmic feeds and persuasive design Practice
+name: Compare a feed’s invitations with the purpose you brought to it
 parent_competency_id: '14.06'
 domain_id: '14'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 14.06
-      (Algorithmic feeds and persuasive design); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 14.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,40 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Algorithmic feeds and persuasive design through a low-stakes skill rehearsal bounded
-    by the canonical scope: Understand recommender systems, engagement optimization, personalization,
-    filter bubbles, and variable reward.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can describe how a
-    feed shapes attention and redesign use around chosen purposes. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Understand how ranking, personalization and feedback can shape attention, then redesign one
+    media route around chosen purposes rather than assume the feed is neutral or all-powerful.
+  why_recommended: Understand how ranking, personalization and feedback can shape attention, then redesign
+    one media route around chosen purposes rather than assume the feed is neutral or all-powerful.
   claims:
-  - statement: Using the canonical scope and evidence target for Algorithmic feeds and persuasive design
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Understand how ranking, personalization and feedback can shape attention, then redesign
+      one media route around chosen purposes rather than assume the feed is neutral or all-powerful.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Algorithmic feeds and persuasive design practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Algorithmic feeds and persuasive design as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Algorithmic feeds
-    and persuasive design context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Algorithmic
-    feeds and persuasive design; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use a fictional ten-card feed or a browser without a signed-in profile when
+    personal observation is unsuitable. Avoid recording other people’s handles or private posts. A paper
+    simulation practices classification and choice, not the behavior of an actual recommender.
+  opportunity_considerations: 'Default purpose: find one practical gardening explanation. Observe up to
+    ten ordinary recommendations without seeking harmful content. Classify each as directly useful, adjacent,
+    unrelated or emotionally provocative, and note the invitation to continue. Read the platform’s current
+    official explanation of recommendation signals and user controls; do not assume every system optimizes
+    the same metric.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Algorithmic feeds and persuasive
-    design.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default purpose: find one practical gardening explanation. Observe up to ten ordinary recommendations
+    without seeking harmful content. Classify each as directly useful, adjacent, unrelated or emotionally
+    provocative, and note the invitation to continue. Read the platform’s current official explanation
+    of recommendation signals and user controls; do not assume every system optimizes the same metric.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Algorithmic feeds and persuasive
-    design instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a fictional ten-card feed or a browser without a signed-in profile when personal observation is
+    unsuitable. Avoid recording other people’s handles or private posts. A paper simulation practices
+    classification and choice, not the behavior of an actual recommender.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -82,19 +82,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Algorithmic feeds and persuasive design actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Algorithmic feeds and persuasive design; copy the canonical scope and
-    evidence target into a private working note; define the action boundary, valid supports, privacy limit,
-    and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Algorithmic
-    feeds and persuasive design. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Algorithmic feeds and persuasive design
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default purpose: find one practical gardening explanation. Observe up to ten ordinary recommendations
+    without seeking harmful content. Classify each as directly useful, adjacent, unrelated or emotionally
+    provocative, and note the invitation to continue. Read the platform’s current official explanation
+    of recommendation signals and user controls; do not assume every system optimizes the same metric.
+    Goal: Understand how ranking, personalization and feedback can shape attention, then redesign one
+    media route around chosen purposes rather than assume the feed is neutral or all-powerful. Scope:
+    A small feed sample cannot reveal a platform’s proprietary model, prove a filter bubble or establish
+    intentional manipulation. Platform explanations describe their systems and are not independent effectiveness
+    audits. Time and effort: Fifteen minutes of observation and two brief purposeful sessions. Adaptation:
+    Use a fictional ten-card feed or a browser without a signed-in profile when personal observation is
+    unsuitable. Avoid recording other people’s handles or private posts. A paper simulation practices
+    classification and choice, not the behavior of an actual recommender. Keep personal working notes
+    outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a fictional ten-card feed or a browser without a signed-in profile when personal
+    observation is unsuitable. Avoid recording other people’s handles or private posts. A paper simulation
+    practices classification and choice, not the behavior of an actual recommender.
+  expected_burden: Fifteen minutes of observation and two brief purposeful sessions.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Algorithmic feeds and persuasive design protocol to rank worth, coerce participation, demand
@@ -102,18 +110,25 @@ intervention:
   - Treating a completed Algorithmic feeds and persuasive design action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Algorithmic feeds and persuasive design situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a fictional
+    ten-card feed or a browser without a signed-in profile when personal observation is unsuitable. Avoid
+    recording other people’s handles or private posts. A paper simulation practices classification and
+    choice, not the behavior of an actual recommender.
   actions:
   - stable_id: PRACTICE-COMP-1406-ALGORITHMIC-FEEDS-AND-PERSUASIVE-DESIGN-01-A1
     sequence: 1
-    title: Define observable criteria for Algorithmic feeds and persuasive design
-    instructions: 'Select one safe, lawful, low-stakes component of Algorithmic feeds and persuasive design.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Understand
-      recommender systems, engagement optimization, personalization, filter bubbles, and variable reward.'
+    title: Separate observed feed behavior from claims about the algorithm
+    instructions: 'Record the ten-item sample and your intended purpose, then note which items invite
+      novelty, repetition or emotional reaction. Compare observations with the official explanation of
+      signals such as prior activity, feedback or satisfaction. Distinguish what you saw from a hypothesis
+      about engagement optimization or a filter bubble. Intermittently appealing items can encourage continued
+      checking, but the sample alone does not establish a psychological mechanism.
+
+
+      Observation checks: A bounded sample is classified against a stated purpose; Continuation and emotional
+      invitations are observed without harmful exposure; Officially described signals are separate from
+      inferred motives; Filter-bubble and reward-mechanism claims remain hypotheses. Mark only what you
+      observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +150,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1406_a1_skill_component_bounded
-        - c1406_a1_observable_rubric_present
-        - c1406_a1_error_or_stop_defined
+        - a_bounded_sample_is_classified_against_a_stated_purpose
+        - continuation_and_emotional_invitations_are_observed_without_harmful_exposure
+        - officially_described_signals_are_separate_from_inferred_motives
+        - filter_bubble_and_reward_mechanism_claims_remain_hypotheses
       - measurement_id: c1406_a1_boundary
         kind: boolean
         role: supporting
@@ -154,10 +170,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1406-ALGORITHMIC-FEEDS-AND-PERSUASIVE-DESIGN-01-A2
     sequence: 2
-    title: Rehearse Algorithmic feeds and persuasive design twice
-    instructions: Perform two bounded attempts of the selected Algorithmic feeds and persuasive design
-      component under comparable safe conditions. Use self-review, a consensual observer, or a reviewed
-      artifact; do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Build a route that reaches the purpose more directly
+    instructions: 'Choose one supported change: use a saved source, a direct search, subscriptions or
+      an official recommendation-control setting. Include one deliberate source outside the usual cluster
+      when it is credible and relevant, rather than equating novelty with truth. Set an endpoint such
+      as one usable answer and a source note. Preserve legitimate entertainment as an explicit separate
+      choice rather than pretend all browsing must be educational.
+
+
+      Observation checks: One route or control is changed for a stated purpose; A credible relevant alternative
+      reduces dependence on a single cluster; An endpoint is defined before the session; Entertainment
+      remains a legitimate chosen activity. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -173,15 +197,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1406_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - one_route_or_control_is_changed_for_a_stated_purpose
+        - a_credible_relevant_alternative_reduces_dependence_on_a_single_cluster
+        - an_endpoint_is_defined_before_the_session
+        - entertainment_remains_a_legitimate_chosen_activity
       - measurement_id: c1406_a2_boundary
         kind: boolean
         role: supporting
@@ -198,10 +223,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1406-ALGORITHMIC-FEEDS-AND-PERSUASIVE-DESIGN-01-A3
     sequence: 3
-    title: Use feedback for one Algorithmic feeds and persuasive design retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Can describe
-      how a feed shapes attention and redesign use around chosen purposes.'
+    title: Compare two sessions and keep only useful control
+    instructions: 'Use the direct route once and the usual route once on comparable harmless questions.
+      Note whether the answer was found, how often attention shifted and whether the stopping point worked.
+      Record convenience and discovery benefits as well as distraction. Keep or revise the route without
+      claiming the platform has been retrained from two sessions; changes in the feed may have other causes.
+
+
+      Observation checks: Two routes are tried on comparable harmless purposes; Answer quality attention
+      shifts and stopping are observed; Discovery and convenience benefits are retained in the comparison;
+      No causal claim about retraining the algorithm is made. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which part of the feed served your purpose, and which route gave you a more deliberate
+      choice about continuing?
+
+
+      Examples: Supportive: Direct search found a useful explanation and a second credible source, while
+      the usual feed’s unrelated suggestions made stopping harder.
+
+
+      Mixed: The direct route reduced drift but also missed useful discovery, so the person retained a
+      separate bounded exploration session.
+
+
+      Contradictory: Two recommendations were treated as proof of a platform’s hidden motive or used to
+      justify consuming upsetting material for analysis.
+
+
+      Inconclusive: The algorithm was blamed in general terms without a sample, stated purpose or tested
+      alternative route.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -223,9 +275,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1406_a3_feedback_item_selected
-        - c1406_a3_adjustment_traceable
-        - c1406_a3_retry_result_preserved
+        - two_routes_are_tried_on_comparable_harmless_purposes
+        - answer_quality_attention_shifts_and_stopping_are_observed
+        - discovery_and_convenience_benefits_are_retained_in_the_comparison
+        - no_causal_claim_about_retraining_the_algorithm_is_made
       - measurement_id: c1406_a3_boundary
         kind: boolean
         role: supporting
@@ -246,17 +299,17 @@ intervention:
       Algorithmic feeds and persuasive design; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Algorithmic feeds and persuasive design; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use a fictional ten-card feed or a browser without a signed-in profile when personal observation
+      is unsuitable. Avoid recording other people’s handles or private posts. A paper simulation practices
+      classification and choice, not the behavior of an actual recommender.
     cultural_context:
     - Adapt the expression of Algorithmic feeds and persuasive design to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Algorithmic feeds and persuasive design opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use a fictional ten-card feed or a browser without a signed-in profile when personal observation
+      is unsuitable. Avoid recording other people’s handles or private posts. A paper simulation practices
+      classification and choice, not the behavior of an actual recommender.
   pause_conditions:
   - Pause Algorithmic feeds and persuasive design when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -288,10 +341,8 @@ evidence_and_scoring:
   - c1406_a3_boundary
   - c1406_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Algorithmic feeds and persuasive design action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Algorithmic feeds and persuasive design criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - Two recommendations were treated as proof of a platform’s hidden motive or used to justify consuming
+    upsetting material for analysis.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Algorithmic feeds and persuasive design explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -302,14 +353,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Algorithmic feeds and persuasive design rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can describe how a feed shapes attention and redesign use around chosen purposes.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Algorithmic feeds and persuasive design requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate observed feed behavior from claims about the algorithm. Observed
+    checks: A bounded sample is classified against a stated purpose; Continuation and emotional invitations
+    are observed without harmful exposure; Officially described signals are separate from inferred motives;
+    Filter-bubble and reward-mechanism claims remain hypotheses. Action 2: Build a route that reaches
+    the purpose more directly. Observed checks: One route or control is changed for a stated purpose;
+    A credible relevant alternative reduces dependence on a single cluster; An endpoint is defined before
+    the session; Entertainment remains a legitimate chosen activity. Action 3: Compare two sessions and
+    keep only useful control. Observed checks: Two routes are tried on comparable harmless purposes; Answer
+    quality attention shifts and stopping are observed; Discovery and convenience benefits are retained
+    in the comparison; No causal claim about retraining the algorithm is made.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. The algorithm was blamed in general terms without a
+    sample, stated purpose or tested alternative route.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Algorithmic
     feeds and persuasive design contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -319,9 +379,8 @@ evidence_and_scoring:
   - L09
   - L13
   - L19
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Algorithmic feeds and persuasive design evidence.
@@ -329,11 +388,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for algorithmic feeds and persuasive design action was attempted or
-    explicitly deferred.
-  - The rehearse algorithmic feeds and persuasive design twice action was attempted or explicitly deferred.
-  - The use feedback for one algorithmic feeds and persuasive design retry action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Separate observed feed behavior from claims about the algorithm. Observed checks: A bounded
+    sample is classified against a stated purpose; Continuation and emotional invitations are observed
+    without harmful exposure; Officially described signals are separate from inferred motives; Filter-bubble
+    and reward-mechanism claims remain hypotheses.'
+  - 'Action 2: Build a route that reaches the purpose more directly. Observed checks: One route or control
+    is changed for a stated purpose; A credible relevant alternative reduces dependence on a single cluster;
+    An endpoint is defined before the session; Entertainment remains a legitimate chosen activity.'
+  - 'Action 3: Compare two sessions and keep only useful control. Observed checks: Two routes are tried
+    on comparable harmless purposes; Answer quality attention shifts and stopping are observed; Discovery
+    and convenience benefits are retained in the comparison; No causal claim about retraining the algorithm
+    is made.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -342,58 +410,359 @@ completion_and_review:
     - c1406_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Algorithmic feeds and persuasive design only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Algorithmic feeds and persuasive design across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which part of the feed served your purpose, and which route gave you a more deliberate
+    choice about continuing?
+  transfer_limit: A small feed sample cannot reveal a platform’s proprietary model, prove a filter bubble
+    or establish intentional manipulation. Platform explanations describe their systems and are not independent
+    effectiveness audits.
   reflection:
-    before: What does Algorithmic feeds and persuasive design require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Algorithmic feeds and persuasive design criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can describe how a feed shapes attention and redesign use
-      around chosen purposes.', what contradiction or missing context matters most, and should this Algorithmic
-      feeds and persuasive design design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Understand how ranking, personalization and
+      feedback can shape attention, then redesign one media route around chosen purposes rather than assume
+      the feed is neutral or all-powerful.'
+    during: Which checks have actually been observed? The direct route reduced drift but also missed useful
+      discovery, so the person retained a separate bounded exploration session.
+    after: Which part of the feed served your purpose, and which route gave you a more deliberate choice
+      about continuing?
   review_guidance:
     repeat: Repeat the same bounded Algorithmic feeds and persuasive design design only when the context
       and burden remain appropriate.
-    adapt: Change the Algorithmic feeds and persuasive design medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use a fictional ten-card feed or a browser without a signed-in profile when personal observation
+      is unsuitable. Avoid recording other people’s handles or private posts. A paper simulation practices
+      classification and choice, not the behavior of an actual recommender.
     stop: Stop Algorithmic feeds and persuasive design when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Algorithmic feeds and persuasive design
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Algorithmic feeds and persuasive design criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Algorithmic feeds and persuasive design criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Algorithmic feeds and persuasive design criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Algorithmic feeds and persuasive design action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: Direct search found a useful explanation and a second credible source, while the usual
+      feed’s unrelated suggestions made stopping harder.
+    mixed: The direct route reduced drift but also missed useful discovery, so the person retained a separate
+      bounded exploration session.
+    contradictory: Two recommendations were treated as proof of a platform’s hidden motive or used to
+      justify consuming upsetting material for analysis.
+    inconclusive: The algorithm was blamed in general terms without a sample, stated purpose or tested
+      alternative route.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Algorithmic feeds and persuasive design.
+    context_heading: Compare a feed’s invitations with the purpose you brought to it
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Algorithmic
       feeds and persuasive design.
   check_in_labels:
-    c1406_a1_primary: The bounded Algorithmic feeds and persuasive design criterion for action 1 was observed
+    c1406_a1_primary: 'Observed checks: separate observed feed behavior from claims about the algorithm'
     c1406_a1_boundary: Action 1 stayed inside its stated Algorithmic feeds and persuasive design boundary
     c1406_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1406_a2_primary: The bounded Algorithmic feeds and persuasive design criterion for action 2 was observed
+    c1406_a2_primary: 'Observed checks: build a route that reaches the purpose more directly'
     c1406_a2_boundary: Action 2 stayed inside its stated Algorithmic feeds and persuasive design boundary
     c1406_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1406_a3_primary: The bounded Algorithmic feeds and persuasive design criterion for action 3 was observed
+    c1406_a3_primary: 'Observed checks: compare two sessions and keep only useful control'
     c1406_a3_boundary: Action 3 stayed inside its stated Algorithmic feeds and persuasive design boundary
     c1406_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Algorithmic feeds
-    and persuasive design practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which part of the feed served your purpose, and which route gave you a more deliberate
+    choice about continuing? Completion is not mastery.
+  plain_language_evidence: Direct search found a useful explanation and a second credible source, while
+    the usual feed’s unrelated suggestions made stopping harder.
   display_order: 182
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '14.06'
+  title: 14.06 — Algorithmic feeds and persuasive design
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [What To Do if You Were Scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [What To Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+
+      - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
+
+      - [AI 600-1: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+      - [Content Credentials explainer v2.4](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+
+      - [Improving college students’ fact-checking strategies through lateral reading instruction in a
+      general education civics course](https://link.springer.com/article/10.1186/s41235-021-00291-4)
+
+      - [Report adult cyber abuse](https://www.esafety.gov.au/key-topics/adult-cyber-abuse/report-adult-cyber-abuse)
+
+      - [What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+      - [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+      - [deed](https://creativecommons.org/licenses/by/4.0/)
+
+      - [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+      - [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+
+      - [BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+      - [MIT License](https://opensource.org/license/mit)
+
+      - [Backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+
+      - [User rights under the Digital Services Act](https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act)
+
+      - [Developing for Web Accessibility](https://www.w3.org/WAI/tips/developing/)
+
+      - [First Aid Online Classes](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+
+      - [Learn First Aid](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+
+      - [Adult cardiac arrest](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-cardiac-arrest)
+
+      - [adult/child choking](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking)
+
+      - [Life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+      - [Shock](https://www.redcross.org/take-a-class/resources/learn-first-aid/shock)
+
+      - [Burns](https://www.redcross.org/take-a-class/resources/learn-first-aid/burns)
+
+      - [Poison exposure](https://www.redcross.org/take-a-class/resources/learn-first-aid/poison-exposure)
+
+      - [Making an Emergency Plan](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+
+      - [Make a Plan](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+
+      - [Causes and prevention: overview](https://www.hse.gov.uk/slips/preventing-overview.htm)
+
+      - [A computational reward learning account of social media engagement](https://www.nature.com/articles/s41467-020-19607-x)
+
+      - [publisher correction](https://www.nature.com/articles/s41467-021-22067-6)
+
+      - [author-hosted abstract of Exposure to ideologically diverse news and opinion on Facebook](https://solomonmg.github.io/publications/bakshy-2015-exposure/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'All observations are fictional. The usual-route session ran 18:00–18:12. It produced a correct
+      D/water, B/wait answer from Garden G only, involved four departures from the question, and continued
+      after the answer to see an enjoyable pot-design idea. The second-source endpoint was not met.
+
+
+      The direct-route session on the next day ran 18:00–18:07. It produced the correct answer with Garden
+      G and the independent nursery explanation, involved one departure, and ended at the planned point.
+      Its question used a different fictional pot, so the attempts are similar but not identical. It produced
+      no unexpected discovery.
+
+
+      A third scheduled attempt was canceled before starting. There is no duration or answer. There are
+      **two observed sessions, 19 total minutes and one fully met endpoint**; the mean observed duration
+      is 9.5 minutes. Five fewer minutes in the direct session describes this pair, not a causal time-saving
+      estimate.
+
+
+      You may keep the direct route for narrow questions and preserve a separate chosen discovery session.
+      There is no record of StreamGarden''s subsequent rankings or training updates. “The algorithm changed”
+      is unsupported.
+
+
+      Alternative branch: a later direct-source copy contains an obsolete rule, and an official correction
+      appears in the feed. The method needs a freshness check. A faster wrong answer is not success. In
+      a real case, verify the correction at its original source.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### A ranked feed is an invitation, not your agenda
+
+
+      A recommender selects and orders candidates using signals and objectives. Personalization can help
+      you discover relevant material, but a prediction that you will engage does not necessarily match
+      what you intended to accomplish. Ranking, autoplay and a bottomless list also make continuing easy.
+      The practical question is which route serves your purpose and leaves room for a deliberate stop.
+
+
+      Allow 35 minutes for a ten-card paper analysis and two supplied session audits. Use paper or an
+      accessible editor; no account or exposure to upsetting material is needed. The cards and system
+      description below are invented. The offline exercise practices reasoning about a feed, not observation
+      of a live algorithm. An optional real route comes later.
+
+
+      ### Separate mechanism, evidence and hypothesis
+
+
+      An engagement objective might use clicks or viewing duration as signals. A system can also consider
+      satisfaction, quality, subscriptions or explicit feedback. [YouTube''s own explanation](https://support.google.com/youtube/answer/16089387?hl=en)
+      describes several signals, including surveys; it does not justify saying that every feed simply
+      maximizes outrage or watch time. A provider''s description is evidence of what it says, not an independent
+      audit of outcomes.
+
+
+      A filter bubble is a concern about narrowed exposure through selection and feedback. Ten similar
+      items can suggest a cluster worth examining, but cannot establish your whole information environment
+      or its cause. Your subscriptions, available content and recent topic choice may contribute. Variable
+      reward means that a rewarding result is not obtained predictably on every attempt. Intermittently
+      appealing items can invite another check, but that is a hypothesis to examine here, not a measured
+      mechanism. [Lindström and colleagues](https://www.nature.com/articles/s41467-020-19607-x) studied
+      social rewards and posting behavior; their work does not by itself establish the cause of someone’s
+      feed scrolling. A short session cannot diagnose addiction. [Bakshy and colleagues’ study](https://solomonmg.github.io/publications/bakshy-2015-exposure/)
+      also distinguishes network composition, ranked exposure and user choice in a particular news setting;
+      it does not settle filter-bubble effects for every service.
+
+
+      Worked example: you arrive for a bus timetable, find it in the second item, and continue through
+      eight entertaining clips. The clips can be enjoyable while the route misses your chosen endpoint.
+      You could retain a separate entertainment session and use a saved timetable link for travel. “Spent
+      less time” would still be a poor success measure if the timetable was outdated.
+
+
+      ### Complete fictional feed
+
+
+      Purpose: find the **training garden''s rule for checking whether a pot needs water**, obtain a second
+      relevant explanation, and stop after writing a two-sentence answer. These are fictional garden rules,
+      not horticultural advice.
+
+
+      The made-up StreamGarden service says it ranks candidates using previous views, follows, completion
+      and “useful” feedback. It does not publish weights or user-level explanations. An autoplay switch
+      and a search box are available. A route using saved sources does not change these ranking rules.
+
+
+      | Card | Supplied content | Invitation |
+
+      | --- | --- | --- |
+
+      | F1 | Garden G rule: check the marked indicator; water only when its card reads D | “Read the full
+      rule” |
+
+      | F2 | Tour of Garden G''s painted pots; no care rule | “Next tour starts automatically” |
+
+      | F3 | “Everyone else is ruining their garden”; no care instruction | “Join the argument” |
+
+      | F4 | Garden G explanation: D means the case''s agreed watering condition; B means wait | “Save
+      this reference” |
+
+      | F5 | Short comedy unrelated to gardening | “Another surprise clip” |
+
+      | F6 | Garden G merchandise; no care rule | “Offer ends tonight” |
+
+      | F7 | Neighborhood nursery''s independent training note: read the supplied indicator before choosing
+      D/water or B/wait | “Compare the diagram” |
+
+      | F8 | Celebrity kitchen tour | “Keep watching” |
+
+      | F9 | Garden G''s republished F1 text | “Share the tip” |
+
+      | F10 | Compost collection timetable; no pot-watering rule | “Follow the collection series” |
+
+
+      Treat F1, F4, F7 and F9 as directly useful; F2, F6 and F10 as adjacent; F3 as provocative without
+      useful rule content; F5 and F8 as unrelated. Those labels are relative to this exact purpose, not
+      quality ratings. F9 is another occurrence of F1, not another independent explanation. You may disagree
+      about a secondary label if you preserve what each card actually supplies.
+
+
+      #### Action 1 — Audit the invitations
+
+
+      Make a ten-row table: `card | relevance | source cluster | continuation invitation | observation
+      or inference`. Count useful cards and distinct relevant source groups separately. Write one observed
+      pattern and one hypothesis that requires more evidence. “Four directly useful cards appear” is observable;
+      “the company knows I am vulnerable” is not established by these materials.
+
+
+      Then write the point at which your purpose could be met. F1/F4 supply Garden G''s rule, and F7 supplies
+      another relevant explanation. A novel source with no usable evidence would not satisfy the second-source
+      requirement.
+
+
+      #### Action 2 — Design a purposeful route
+
+
+      Use saved Garden G instructions plus the nursery note, or a direct search for those supplied sources.
+      Write an endpoint before beginning: the two-sentence answer and source note, then a choice to stop
+      or consciously start another activity. You may turn off autoplay as an additional control, but identify
+      which change you are evaluating. Changing five settings at once makes the comparison less interpretable.
+
+
+      Record a possible cost: direct retrieval may reduce pleasant discovery. Preserve a bounded discovery
+      route if it serves a chosen purpose. The target is usable control, not a rule that entertainment
+      must earn its place through productivity.
+
+
+      #### Action 3 — Examine two sessions
+
+
+      Save your plan, then open [the later packet](?resource=file-later-packet-md). Compare answer completeness,
+      source independence, shifts away from purpose, stopping and discovery benefits. Calculate duration
+      only for sessions that occurred. A canceled opportunity is not a zero-minute success; a missing
+      stop time gives an unknown duration.
+
+
+      Make a keep/change decision for this case. Two sessions with different questions and order cannot
+      isolate a causal effect of the route. State the smaller conclusion the observations support and
+      what another comparable attempt could clarify. Do not claim to have retrained StreamGarden''s model
+      by using saved links.
+
+
+      Attempt [fresh checks](?attempt=practice-checks), then read [the answers](?check=practice-answers).
+      Your completed artifact includes the card audit, purpose/endpoint, session comparison and a bounded
+      route decision.
+
+
+      ### Access, challenge and real use
+
+
+      Read cards aloud or group them on paper. If live feeds cause distress or interfere with functioning,
+      keep the fictional route; no harmful exposure is needed. Avoid recording private posts or other
+      people''s handles. A companion can help describe controls without taking over your account.
+
+
+      Harder route: the direct source is stale, while the feed surfaces a genuine correction. Decide how
+      your source-checking rule should change without abandoning purposeful access. This tests whether
+      the endpoint includes answer quality rather than mere speed.
+
+
+      For real transfer, choose one harmless question, inspect the platform''s current official controls
+      and try a small change during two ordinary opportunities. Note question difficulty, interruptions
+      and the actual outcome. Keep the practice small enough to resume the activity you wanted to do.
+
+
+      **Supportive:** The route reaches a checked answer and chosen stop. **Mixed:** Drift decreases but
+      useful discovery or answer quality suffers. **Contradictory:** A tiny sample becomes proof of hidden
+      motives or justifies distressing exposure. **Inconclusive:** A setting changes, but the purpose
+      and session outcome are not observed.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A feed shows six posts from one outlet and two reposts of its work. What can you observe,
+      and what additional evidence would a filter-bubble claim require?
+
+      2. Sessions last eight and six minutes; a third was canceled. Only the six-minute session meets
+      its full purpose. Give observed count, total, mean and successful endpoints.
+
+      3. Autoplay is disabled, but the user gets an unchecked answer and repeatedly reopens the feed.
+      Is the control successful? Propose one revision without diagnosing the user.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The sample is concentrated in one source group, with dependent reposts. A broader and repeated
+      sample, other routes used and evidence about selection would be needed to assess narrowed exposure
+      and its causes. Eight cards are not eight independent perspectives.
+
+      2. Two observed sessions, 14 minutes, mean seven minutes, one met endpoint. Dividing by three incorrectly
+      gives an absent opportunity a performed duration. If a stop time were missing instead, preserve
+      duration as unknown.
+
+      3. Only the setting change is established. The full purpose and deliberate stop failed. Add a checked-source
+      endpoint and a direct route for this question, then observe another ordinary attempt. Avoid claims
+      about compulsion, model retraining or universal benefit from this small case.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

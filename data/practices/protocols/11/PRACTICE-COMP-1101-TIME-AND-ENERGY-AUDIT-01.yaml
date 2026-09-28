@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1101-TIME-AND-ENERGY-AUDIT-01
 slug: c1101-time-and-energy-audit-practice
-name: Bounded Time and energy audit Practice
+name: Find and correct one mismatch between a stated priority and usable time
 parent_competency_id: '11.01'
 domain_id: '11'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 11.01
-      (Time and energy audit); canonical scope, evidence target, classification, domain boundary, and
-      parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 11.01; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,37 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Time and energy audit through a bounded audit and redesign bounded by the canonical
-    scope: Measure how time and usable energy are actually spent rather than relying on impression.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can identify mismatches
-    between stated priorities and lived allocation. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Distinguish where time actually goes from when usable energy is available, then change one
+    recurring allocation that conflicts with an endorsed priority.
+  why_recommended: Distinguish where time actually goes from when usable energy is available, then change
+    one recurring allocation that conflicts with an endorsed priority.
   claims:
-  - statement: Using the canonical scope and evidence target for Time and energy audit is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Distinguish where time actually goes from when usable energy is available, then change
+      one recurring allocation that conflicts with an endorsed priority.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Time and energy audit practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Time and energy audit as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Time and energy audit
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Time and
-    energy audit; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or
-    dependence for evidence.
+  readiness_considerations: Use broad blocks, symbols, voice notes or a support person instead of minute-level
+    logs. For highly variable capacity, compare similar-capacity days. If no discretionary block exists,
+    document the constraint and a legitimate request for help rather than manufacture free time.
+  opportunity_considerations: 'Use paper or a private note. Default: reading is an endorsed priority,
+    but its evening slot repeatedly becomes exhausted scrolling. Make four columns: approximate block,
+    actual activity, usable energy low/medium/high, and chosen or constrained. Include sleep, care, travel,
+    maintenance and unstructured rest rather than treating them as missing productivity.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Time and energy audit.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use paper or a private note. Default: reading is an endorsed priority, but its evening slot repeatedly
+    becomes exhausted scrolling. Make four columns: approximate block, actual activity, usable energy
+    low/medium/high, and chosen or constrained. Include sleep, care, travel, maintenance and unstructured
+    rest rather than treating them as missing productivity.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Time and energy audit instead of
-    a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use broad blocks, symbols, voice notes or a support person instead of minute-level logs. For highly
+    variable capacity, compare similar-capacity days. If no discretionary block exists, document the constraint
+    and a legitimate request for help rather than manufacture free time.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -78,18 +79,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Time and energy audit actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Time and energy audit; copy the canonical scope and evidence target into
-    a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Time and
-    energy audit. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Time and energy audit actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use paper or a private note. Default: reading is an endorsed priority, but its evening slot
+    repeatedly becomes exhausted scrolling. Make four columns: approximate block, actual activity, usable
+    energy low/medium/high, and chosen or constrained. Include sleep, care, travel, maintenance and unstructured
+    rest rather than treating them as missing productivity. Goal: Distinguish where time actually goes
+    from when usable energy is available, then change one recurring allocation that conflicts with an
+    endorsed priority. Scope: A three-day sample is a local audit, not a measure of personal worth or
+    a complete account of seasonal workload, disability, unpaid care or structural constraint. Time and
+    effort: Three two-minute daily reconstructions, one 15-minute comparison and a short repeat on the
+    next comparable day. Adaptation: Use broad blocks, symbols, voice notes or a support person instead
+    of minute-level logs. For highly variable capacity, compare similar-capacity days. If no discretionary
+    block exists, document the constraint and a legitimate request for help rather than manufacture free
+    time. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use broad blocks, symbols, voice notes or a support person instead of minute-level
+    logs. For highly variable capacity, compare similar-capacity days. If no discretionary block exists,
+    document the constraint and a legitimate request for help rather than manufacture free time.
+  expected_burden: Three two-minute daily reconstructions, one 15-minute comparison and a short repeat
+    on the next comparable day.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Time and energy audit protocol to rank worth, coerce participation, demand disclosure, override
@@ -97,18 +107,24 @@ intervention:
   - Treating a completed Time and energy audit action, a polished artifact, agreement, confidence, speed,
     independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Time and energy audit situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use broad blocks,
+    symbols, voice notes or a support person instead of minute-level logs. For highly variable capacity,
+    compare similar-capacity days. If no discretionary block exists, document the constraint and a legitimate
+    request for help rather than manufacture free time.
   actions:
   - stable_id: PRACTICE-COMP-1101-TIME-AND-ENERGY-AUDIT-01-A1
     sequence: 1
-    title: Audit one bounded Time and energy audit context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Time and energy audit.
-      Use the canonical scope to name observable conditions without diagnosing people or systems: Measure
-      how time and usable energy are actually spent rather than relying on impression.'
+    title: Reconstruct three ordinary days without continuous tracking
+    instructions: 'At the end of each day, reconstruct the major blocks from memory or an existing calendar;
+      do not install monitoring. Mark uncertain durations as ranges. Record the energy you actually had
+      and whether each block was freely chosen, required or interrupted. For the default, distinguish
+      an available evening hour from an hour in which reading was realistically accessible.
+
+
+      Observation checks: Three ordinary days or clearly stated missing days are represented; Actual activities
+      are separate from planned activities; Energy and unavoidable constraints accompany the time estimates;
+      Uncertainty and restorative time are retained rather than erased. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -130,9 +146,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1101_a1_one_context_only
-        - c1101_a1_observable_conditions_recorded
-        - c1101_a1_hazards_excluded
+        - three_ordinary_days_or_clearly_stated_missing_days_are_represented
+        - actual_activities_are_separate_from_planned_activities
+        - energy_and_unavoidable_constraints_accompany_the_time_estimates
+        - uncertainty_and_restorative_time_are_retained_rather_than_erased
       - measurement_id: c1101_a1_boundary
         kind: boolean
         role: supporting
@@ -149,10 +166,17 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1101-TIME-AND-ENERGY-AUDIT-01-A2
     sequence: 2
-    title: Make one reversible Time and energy audit redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Time and energy audit. Record the intended effect, cost or burden, and a rollback condition
-      before changing anything.
+    title: Identify one actionable allocation mismatch
+    instructions: 'Choose one endorsed priority and compare its actual share with its access to usable
+      energy. Name both an external constraint and a choice under your control. For the default, test
+      ten minutes of reading after lunch rather than borrowing from sleep. Specify the block being moved
+      or shortened, what will not be displaced, and a reason this tradeoff fits the present season.
+
+
+      Observation checks: A stated priority is compared with actual time and energy; External constraints
+      are not relabeled as poor discipline; One controllable allocation changes with an explicit tradeoff;
+      Sleep care and essential obligations remain protected. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -174,9 +198,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1101_a2_change_traces_to_finding
-        - c1101_a2_rollback_defined
-        - c1101_a2_burden_recorded
+        - a_stated_priority_is_compared_with_actual_time_and_energy
+        - external_constraints_are_not_relabeled_as_poor_discipline
+        - one_controllable_allocation_changes_with_an_explicit_tradeoff
+        - sleep_care_and_essential_obligations_remain_protected
       - measurement_id: c1101_a2_boundary
         kind: boolean
         role: supporting
@@ -193,10 +218,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1101-TIME-AND-ENERGY-AUDIT-01-A3
     sequence: 3
-    title: Compare the Time and energy audit context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: Can identify
-      mismatches between stated priorities and lived allocation.'
+    title: Try the revised allocation and inspect its real cost
+    instructions: 'On the next comparable day, attempt the changed block and record its actual start,
+      approximate duration and energy. Check the displaced activity and any spillover into another responsibility.
+      Keep, shrink, move or reverse the change using this comparison; a successful ten-minute block does
+      not prove that every evening can now be reclaimed.
+
+
+      Observation checks: The changed allocation is actually attempted or remains untested; Actual use
+      is compared with the original mismatch; Displaced work and spillover costs are inspected; A concrete
+      retain revise or reverse decision follows. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Did the new slot give the priority usable attention without exporting its cost to
+      health, care or another person?
+
+
+      Examples: Supportive: A ten-minute lunch reading block occurred twice without shortening sleep;
+      the evening slot became deliberate rest.
+
+
+      Mixed: Reading happened, but the displaced errand moved onto a partner, so the allocation needs
+      renegotiation.
+
+
+      Contradictory: Necessary care or disability-related recovery was labeled wasted time and removed
+      to improve the chart.
+
+
+      Inconclusive: A perfect weekly schedule was drawn without observing actual time or testing any changed
+      allocation.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -218,9 +270,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1101_a3_same_context_compared
-        - c1101_a3_mixed_or_null_result_allowed
-        - c1101_a3_target_evidence_reviewed
+        - the_changed_allocation_is_actually_attempted_or_remains_untested
+        - actual_use_is_compared_with_the_original_mismatch
+        - displaced_work_and_spillover_costs_are_inspected
+        - a_concrete_retain_revise_or_reverse_decision_follows
       - measurement_id: c1101_a3_boundary
         kind: boolean
         role: supporting
@@ -240,16 +293,17 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Time and energy audit; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Time and energy audit; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Use broad blocks, symbols, voice notes or a support person instead of minute-level logs. For highly
+      variable capacity, compare similar-capacity days. If no discretionary block exists, document the
+      constraint and a legitimate request for help rather than manufacture free time.
     cultural_context:
     - Adapt the expression of Time and energy audit to direct or indirect communication, collective or
       individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Time and energy audit opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use broad blocks, symbols, voice notes or a support person instead of minute-level logs. For highly
+      variable capacity, compare similar-capacity days. If no discretionary block exists, document the
+      constraint and a legitimate request for help rather than manufacture free time.
   pause_conditions:
   - Pause Time and energy audit when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -279,10 +333,7 @@ evidence_and_scoring:
   - c1101_a3_boundary
   - c1101_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Time and energy audit action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Time and energy audit criterion, depended on coercion or hidden
-    private content, or could not distinguish the protocol from contextual change.
+  - Necessary care or disability-related recovery was labeled wasted time and removed to improve the chart.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Time and energy audit explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -292,14 +343,23 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Time and energy audit rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can identify mismatches between stated priorities and lived allocation.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Time and energy audit requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Reconstruct three ordinary days without continuous tracking. Observed
+    checks: Three ordinary days or clearly stated missing days are represented; Actual activities are
+    separate from planned activities; Energy and unavoidable constraints accompany the time estimates;
+    Uncertainty and restorative time are retained rather than erased. Action 2: Identify one actionable
+    allocation mismatch. Observed checks: A stated priority is compared with actual time and energy; External
+    constraints are not relabeled as poor discipline; One controllable allocation changes with an explicit
+    tradeoff; Sleep care and essential obligations remain protected. Action 3: Try the revised allocation
+    and inspect its real cost. Observed checks: The changed allocation is actually attempted or remains
+    untested; Actual use is compared with the original mismatch; Displaced work and spillover costs are
+    inspected; A concrete retain revise or reverse decision follows.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A perfect weekly schedule was drawn without observing
+    actual time or testing any changed allocation.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Time and
     energy audit contribution under typed evaluation; protocol performance remains distinct and is never
     counted twice.
@@ -309,9 +369,8 @@ evidence_and_scoring:
   - L10
   - L17
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Time and energy audit evidence.
@@ -319,10 +378,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded time and energy audit context action was attempted or explicitly deferred.
-  - The make one reversible time and energy audit redesign action was attempted or explicitly deferred.
-  - The compare the time and energy audit context after the change action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Reconstruct three ordinary days without continuous tracking. Observed checks: Three ordinary
+    days or clearly stated missing days are represented; Actual activities are separate from planned activities;
+    Energy and unavoidable constraints accompany the time estimates; Uncertainty and restorative time
+    are retained rather than erased.'
+  - 'Action 2: Identify one actionable allocation mismatch. Observed checks: A stated priority is compared
+    with actual time and energy; External constraints are not relabeled as poor discipline; One controllable
+    allocation changes with an explicit tradeoff; Sleep care and essential obligations remain protected.'
+  - 'Action 3: Try the revised allocation and inspect its real cost. Observed checks: The changed allocation
+    is actually attempted or remains untested; Actual use is compared with the original mismatch; Displaced
+    work and spillover costs are inspected; A concrete retain revise or reverse decision follows.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -331,56 +399,453 @@ completion_and_review:
     - c1101_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Time and energy audit only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Time and energy audit across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Did the new slot give the priority usable attention without exporting its cost
+    to health, care or another person?
+  transfer_limit: A three-day sample is a local audit, not a measure of personal worth or a complete account
+    of seasonal workload, disability, unpaid care or structural constraint.
   reflection:
-    before: What does Time and energy audit require in this exact context, what remains outside my role
-      or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Time and energy audit criterion is present, absent, mixed, or unknown, and
-      are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can identify mismatches between stated priorities and lived
-      allocation.', what contradiction or missing context matters most, and should this Time and energy
-      audit design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Distinguish where time actually goes from
+      when usable energy is available, then change one recurring allocation that conflicts with an endorsed
+      priority.'
+    during: Which checks have actually been observed? Reading happened, but the displaced errand moved
+      onto a partner, so the allocation needs renegotiation.
+    after: Did the new slot give the priority usable attention without exporting its cost to health, care
+      or another person?
   review_guidance:
     repeat: Repeat the same bounded Time and energy audit design only when the context and burden remain
       appropriate.
-    adapt: Change the Time and energy audit medium, scope, support, timing, criteria, or context while
-      preserving provenance and the narrower evidence claim.
+    adapt: Use broad blocks, symbols, voice notes or a support person instead of minute-level logs. For
+      highly variable capacity, compare similar-capacity days. If no discretionary block exists, document
+      the constraint and a legitimate request for help rather than manufacture free time.
     stop: Stop Time and energy audit when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Time and energy audit questions beyond
-      this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Time and energy audit criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Time and energy audit criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Time and energy audit criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Time and energy audit action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: A ten-minute lunch reading block occurred twice without shortening sleep; the evening
+      slot became deliberate rest.
+    mixed: Reading happened, but the displaced errand moved onto a partner, so the allocation needs renegotiation.
+    contradictory: Necessary care or disability-related recovery was labeled wasted time and removed to
+      improve the chart.
+    inconclusive: A perfect weekly schedule was drawn without observing actual time or testing any changed
+      allocation.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Time and energy audit.
+    context_heading: Find and correct one mismatch between a stated priority and usable time
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Time and
       energy audit.
   check_in_labels:
-    c1101_a1_primary: The bounded Time and energy audit criterion for action 1 was observed
+    c1101_a1_primary: 'Observed checks: reconstruct three ordinary days without continuous tracking'
     c1101_a1_boundary: Action 1 stayed inside its stated Time and energy audit boundary
     c1101_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1101_a2_primary: The bounded Time and energy audit criterion for action 2 was observed
+    c1101_a2_primary: 'Observed checks: identify one actionable allocation mismatch'
     c1101_a2_boundary: Action 2 stayed inside its stated Time and energy audit boundary
     c1101_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1101_a3_primary: The bounded Time and energy audit criterion for action 3 was observed
+    c1101_a3_primary: 'Observed checks: try the revised allocation and inspect its real cost'
     c1101_a3_boundary: Action 3 stayed inside its stated Time and energy audit boundary
     c1101_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Time and energy audit
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Did the new slot give the priority usable attention without exporting its cost to health,
+    care or another person? Completion is not mastery.
+  plain_language_evidence: A ten-minute lunch reading block occurred twice without shortening sleep; the
+    evening slot became deliberate rest.
   display_order: 137
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '11.01'
+  title: 11.01 — Time and energy audit
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Model terminology — NASA Glenn](https://www.grc.nasa.gov/www/wind/valid/tutorial/glossary.html)
+
+      - [Technical planning — NASA Systems Engineering Handbook](https://www.nasa.gov/reference/6-1-technical-planning/)
+
+      - [Goal and acceptance clarity — NASA Systems Engineering Handbook](https://www.nasa.gov/reference/appendix-c-how-to-write-a-good-requirement/)
+
+      - [Goal and acceptance clarity — NASA Systems Engineering Handbook](https://www.nasa.gov/reference/4-2-technical-requirements-definition/)
+
+      - [Time-management evidence and limits](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245066)
+
+      - [Defensive outside-source checking — Digital Inquiry Group](https://learn.inquirygroup.org/course/1mc-2026/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'The fictional D4 plan substituted ten minutes of reading for the start of the earlier video
+      block. The person then recorded these actual intervals. They described reading as accessible at
+      its actual start but stopped after an ordinary interruption. They did not transfer a responsibility
+      to another person.
+
+
+      | Start–end | Activity | Minutes | Disposition |
+
+      | --- | --- | --- | --- |
+
+      | 18:00–18:30 | Meal | 30 | Required |
+
+      | 18:30–19:25 | Care | 55 | Required |
+
+      | 19:25–19:40 | Personal administration | 15 | Flexible |
+
+      | 19:40–19:47 | Reading | 7 | Flexible |
+
+      | 19:47–20:00 | Leisure video | 13 | Flexible |
+
+      | 20:00–20:30 | Recovery | 30 | Protected recovery |
+
+      | 20:30–21:00 | Cleanup | 30 | Required |
+
+
+      Care differed from every earlier day. No comparable untreated D4 exists. The record supplies an
+      attempted change and its actual costs, not a controlled causal comparison or proof that a ten-minute
+      goal was met.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Purpose and a useful finish
+
+
+      Compare an endorsed priority with where time actually goes and when that activity is realistically
+      accessible. A blank calendar slot is not necessarily usable capacity. An obligation, a needed recovery
+      period, or an inaccessible task is not a character failure.
+
+
+      **Canonical scope:** Measure how time and usable energy are actually spent rather than relying on
+      impression.
+
+
+      Your deliverable is a bounded observation record, one evidence-based mismatch, and a small allocation
+      experiment that preserves its real costs. Allow about 25 minutes for the supplied fictional case.
+      A live route uses three brief reconstructions over comparable days and one later attempt; it does
+      not require continuous tracking or installing monitoring software. Paper, voice notes, icons, or
+      a private text editor are sufficient.
+
+
+      The default studies only **18:00–21:00 on three days**, not all waking time or a whole life. All
+      times in its packet are stipulated fictional records. For a real audit, uncertain memory should
+      stay approximate. This is not a medical measure of fatigue, a diagnostic assessment, or a score
+      of productivity or worth.
+
+
+      ### Reference: four distinctions before counting
+
+
+      **Planned versus actual:** “I reserved 30 minutes for reading” is a plan. “I rested during that
+      interval” is the activity record. Keep both rather than rewriting one to match the other.
+
+
+      **Time versus usable energy:** Record whether the intended activity was accessible at that time,
+      using your own words or low/medium/high. Those are ordered personal descriptions, not quantities
+      that can be multiplied by minutes to produce scientifically measured “energy units.” Different tasks
+      can be accessible under different conditions.
+
+
+      **Choice versus constraint:** Separate required responsibilities, protected recovery, flexible choices,
+      and unknown time. The categories describe the current situation, not a ranking of moral value. A
+      freely chosen leisure activity may be worthwhile. A genuinely constrained period cannot be reclaimed
+      by renaming it.
+
+
+      **Coverage versus certainty:** State the window and account for every interval exactly once. Concurrent
+      activities belong in the same clock interval, with one primary category and an optional secondary
+      note. Missing activity is unknown, not zero. A long record is not automatically accurate or representative
+      of another week.
+
+
+      ### Different worked example: a commute overlaps listening
+
+
+      A person travels from 08:00 to 08:30 and listens to a lecture from 08:10 to 08:30. The elapsed window
+      is 30 minutes, not 50. The 20 minutes of listening describe an activity within the commute, not
+      a second free block. If attention to travel must take priority, do not infer that this is usable
+      time for every learning task. A bounded audit preserves both the overlap and the constraint.
+
+
+      ### Complete practice packet: three evenings
+
+
+      The fictional person values reading and hoped to read for ten minutes on each observed evening.
+      They also endorse care, meals, recovery, and leisure. The table reports what actually happened.
+      “Flexible” means a choice the person controls in this case; it does not mean worthless. Medium energy
+      is self-described as adequate for a brief reading attempt. Low energy does not establish a diagnosis
+      or make rest optional.
+
+
+      | Day | Start–end | Actual activity | Minutes | Current disposition | Usable energy |
+
+      | --- | --- | --- | --- | --- | --- |
+
+      | D1 | 18:00–18:30 | Meal | 30 | Required | Medium |
+
+      | D1 | 18:30–19:00 | Care | 30 | Required | Medium |
+
+      | D1 | 19:00–19:20 | Personal administration | 20 | Flexible | Medium |
+
+      | D1 | 19:20–19:50 | Leisure video | 30 | Flexible | Medium |
+
+      | D1 | 19:50–20:00 | Recovery | 10 | Protected recovery | Low |
+
+      | D1 | 20:00–20:30 | Rest in the planned reading slot | 30 | Protected recovery | Low |
+
+      | D1 | 20:30–21:00 | Cleanup | 30 | Required | Low |
+
+      | D2 | 18:00–18:30 | Meal | 30 | Required | Medium |
+
+      | D2 | 18:30–19:15 | Care | 45 | Required | Medium |
+
+      | D2 | 19:15–19:30 | Personal administration | 15 | Flexible | Medium |
+
+      | D2 | 19:30–20:00 | Leisure video | 30 | Flexible | Medium |
+
+      | D2 | 20:00–20:10 | Reading | 10 | Flexible | Medium |
+
+      | D2 | 20:10–20:30 | Recovery | 20 | Protected recovery | Low |
+
+      | D2 | 20:30–21:00 | Cleanup | 30 | Required | Low |
+
+      | D3 | 18:00–18:30 | Meal | 30 | Required | Medium |
+
+      | D3 | 18:30–19:30 | Care | 60 | Required | Low |
+
+      | D3 | 19:30–20:00 | Not recalled | 30 | Unknown | Unknown |
+
+      | D3 | 20:00–20:30 | Recovery | 30 | Protected recovery | Low |
+
+      | D3 | 20:30–21:00 | Cleanup | 30 | Required | Low |
+
+
+      No sleep, paid work, travel, or other activity outside this window is represented. No one has agreed
+      to take over the care or cleanup. D3''s unknown block is not evidence that medium-energy discretionary
+      time existed.
+
+
+      #### Action 1 — Reconcile the record before interpreting it
+
+
+      For each day, confirm that the non-overlapping intervals cover 180 minutes. Aggregate required time,
+      protected recovery, known flexible activity, and unknown time across the three days. Keep the 30
+      unknown minutes visible in the denominator rather than deleting the day.
+
+
+      Record the observed reading minutes and the number of evenings with a confirmed ten-minute reading
+      attempt. Explain what the unknown block prevents you from concluding. Distinguish “only ten minutes
+      are recorded as reading” from “exactly ten minutes of reading certainly occurred.” Do not treat
+      a missing entry as either proof of success or proof of failure.
+
+
+      Use this private record form for a live route:
+
+
+      `Day and sampled window | planned activity, if relevant | actual interval/activity | estimate or
+      range | usable energy for the priority | required/protected/flexible/unknown | overlap or interruption
+      | confidence in recall`
+
+
+      For a full-day adaptation, cover the day with major blocks including sleep, care, work, travel,
+      meals, maintenance, recovery, and leisure. Avoid fictitious precision. When a block''s endpoints
+      or duration are uncertain, record a range and do not add incompatible high endpoints as if they
+      were one observed day.
+
+
+      #### Action 2 — Name one controllable mismatch and its tradeoff
+
+
+      Compare the reading intention with both time and energy. D1''s late planned slot became rest; that
+      does not establish that the person should sacrifice recovery. D1 and D2 contain earlier known flexible
+      medium-energy video blocks. Identify a ten-minute substitution within one such block, leaving care,
+      meals, cleanup, and protected recovery unchanged.
+
+
+      Write the displaced benefit honestly: ten fewer minutes of chosen leisure, not ten minutes rescued
+      from an activity declared valueless. Specify the planned trigger, duration, access support, and
+      stop/revise condition. One suitable default is, “On the next comparable evening, after personal
+      administration and while reading is accessible, use the first ten minutes of the video block to
+      read; retain recovery and stop or shorten the trial if a required responsibility intervenes.” This
+      is a trial, not a command for every day.
+
+
+      Acknowledge D3''s constraint. It does not contain evidence of a comparable available block. A person
+      with no discretionary capacity may complete the analysis by identifying an external constraint and
+      a legitimate support or renegotiation need; inventing free time would be the error.
+
+
+      #### Action 3 — Attempt or inspect the trial and include its cost
+
+
+      Save the proposed allocation before opening **later-packet.md**. The supplied follow-up is a fictional
+      trial result, not a record of your behavior. Compare it using the same activity definitions. Inspect
+      actual reading, its displaced activity, required time, protected recovery, and changed context.
+      Do not call a seven-minute attempt a completed ten-minute target.
+
+
+      Choose to keep, shrink, move, or reverse the allocation with a reason. A later day may differ in
+      care demands; record that difference rather than claiming the allocation alone caused the outcome.
+      If using a live route, retain the actual attempt and any missing observation. Stop unnecessary logging
+      when it ceases to help; the aim is one usable decision, not surveillance.
+
+
+      ### Fresh checks and a completion boundary
+
+
+      Attempt **check-prompts.md**, then consult **check-answers.md**. One case tests overlap and missing
+      time; the other contains no discretionary block. Both require conclusions that respect what was
+      actually observed.
+
+
+      Completion of this bounded exercise means a reconciled record, a priority/time/energy mismatch or
+      justified no-capacity finding, a tradeoff, and a trial review or honestly untested plan. A fictional
+      success does not establish improved personal allocation. A plan alone does not establish the live
+      progress indicator.
+
+
+      ### Accessibility and progression
+
+
+      Use broad blocks, a few symbols, voice notes, or a support person who records rather than judges.
+      Keep established accommodations. Compare similar-capacity days when conditions vary; do not force
+      a “normal day” that does not exist. Energy descriptions may be task-specific or simply accessible/not
+      accessible/unknown.
+
+
+      For a more demanding route, compare a workday and non-workday, or add an interruption category while
+      preserving non-overlap. Separate your choice from costs moved onto another person. Any proposed
+      reassignment of shared responsibilities requires agreement, not an accounting trick.
+
+
+      For later transfer, repeat the small audit after a meaningful change in responsibilities. Do not
+      promise that a three-day sample identifies a permanent routine or that time management can remove
+      structural overload. Background research concerns broad associations, not validation of this original
+      case or a guarantee of individual benefit; see [source notes](?resource=sources).
+
+
+      **Supportive:** The record exposes an earlier usable block, the chosen tradeoff preserves obligations
+      and recovery, and the follow-up reports the actual duration and remaining constraint.
+
+
+      **Mixed:** Reading occurs, but a displaced task silently moves to another person or the shortened
+      attempt is reported as meeting the original target.
+
+
+      **Contradictory:** Required care, access needs, or recovery are labeled wasted time; unknown time
+      is relabeled free; or overlapping activities are counted as extra capacity.
+
+
+      **Inconclusive:** An ideal schedule is drawn without any actual record or a comparison to the endorsed
+      priority.
+
+
+      **Final review:** Did the change provide usable attention without hiding its cost, and which part
+      of the mismatch is genuinely within your control?'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Save your analysis before consulting the answers.
+
+
+      ### Check A — Overlap and an unobserved interval
+
+
+      A 60-minute record contains travel from 08:00 to 08:30, with an audiobook playing from 08:10 to
+      08:30; breakfast from 08:30 to 08:45; and an unrecorded interval from 08:45 to 09:00. A draft audit
+      adds 30 travel + 20 learning + 15 breakfast + 15 unknown and concludes that the hour contains 80
+      minutes, including 35 minutes available for concentrated study.
+
+
+      Repair the elapsed-time accounting. State the observed audiobook exposure and what remains unknown
+      about attention or learning. Can the missing interval be called usable study time? Supply a conclusion
+      that preserves the priority without inventing capacity.
+
+
+      ### Check B — No discretionary capacity in this record
+
+
+      A different fictional 120-minute evening contains 30 minutes of essential meal preparation, 60 minutes
+      of required care, and 30 minutes of needed recovery. No task can be delegated under the current
+      arrangements and no other interval is documented. The person values language practice but reports
+      it inaccessible during care and recovery.
+
+
+      What does the audit establish, and what does it not establish about the person''s priorities or
+      discipline? Write a legitimate next step that does not remove necessary care or recovery, impose
+      a duty on someone else, or invent another free hour. Does a justified no-capacity finding count
+      as useful analysis even without a language-practice trial?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '### Main practice
+
+
+      Each evening covers 180 minutes without overlap; the three-window denominator is 540 minutes. Required
+      activity totals **315**, protected recovery **90**, known flexible activity **105**, and unknown
+      time **30**. These sum to 540. The known flexible minutes contain 35 of administration, 60 of video,
+      and 10 of reading.
+
+
+      There is one confirmed ten-minute reading evening, D2. Recorded reading totals ten minutes. The
+      unknown 30-minute D3 block means total actual reading could be greater; under the packet''s exhaustive
+      categories, a bound is ten to forty minutes. That does not establish reading on all three evenings,
+      since D1 is fully observed without it. Do not describe the unknown interval as available medium-energy
+      time.
+
+
+      The mismatch is partly the timing of the proposed reading activity, not simply a lack of clock minutes.
+      A small substitution in D1/D2''s earlier flexible medium-energy block is within the fictional person''s
+      control. Its cost is reduced leisure. Care, recovery, and other protected activities remain represented
+      rather than treated as obstacles to erase.
+
+
+      D4 covers 180 minutes: 115 required, 30 protected recovery, and 35 flexible. Reading lasts **seven**,
+      not ten, minutes. Care takes 55 minutes, so the context is not matched to D2. A defensible review
+      is to retain a shorter accessible reading attempt or adjust its trigger while preserving obligations
+      and acknowledging the missed ten-minute target. The data do not prove the change caused a general
+      improvement.
+
+
+      Repair an overclaim by distinguishing the target, actual attempt, unknowns, comparison conditions,
+      and decision about the next attempt. A no-capacity conclusion may require support or renegotiation
+      rather than personal optimization.
+
+
+      ### Check A — Overlap and an unobserved interval
+
+
+      The elapsed record is 30 minutes travel, 15 breakfast, and 15 unknown: **60 minutes**. The audiobook''s
+      20 minutes overlap the travel block and can be recorded as secondary exposure, not extra elapsed
+      time. The packet does not establish attention, retention, or suitability for concentrated study.
+
+
+      The unknown 15 minutes cannot automatically be classified as accessible discretionary time. Nor
+      does the audiobook prove the person''s learning goal was achieved. A useful next observation would
+      record the actual activity and task accessibility for that interval or inspect an independently
+      suitable learning opportunity, without compromising the required travel task.
+
+
+      ### Check B — No discretionary capacity in this record
+
+
+      The activities exactly fill the observed 120 minutes. Under the stated constraints, zero documented
+      discretionary minutes are available for the proposed language task. The record does not establish
+      the person''s whole week, motivation, or worth, and it does not make necessary recovery optional.
+
+
+      A legitimate next step is to document the constrained choice set, reconsider the goal''s current
+      timing, or request appropriate support or renegotiation where genuinely available. A request is
+      not an assumption that someone else will take over. Leaving the practice deferred with a stated
+      review condition is more accurate than manufacturing capacity.
+
+
+      A well-supported no-capacity finding is a useful audit result. It is not evidence that a language-practice
+      trial occurred or that the original goal was achieved.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

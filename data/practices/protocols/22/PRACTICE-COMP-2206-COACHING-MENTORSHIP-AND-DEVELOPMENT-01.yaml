@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2206-COACHING-MENTORSHIP-AND-DEVELOPMENT-01
 slug: c2206-coaching-mentorship-and-development-practice
-name: Bounded Coaching, mentorship, and development Practice
+name: Coach one learner from a specific gap to a checked retry
 parent_competency_id: '22.06'
 domain_id: '22'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 22.06
-      (Coaching, mentorship, and development); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 22.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,38 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Coaching, mentorship, and development through a consent-respecting relational practice
-    bounded by the canonical scope: Diagnose learning needs, ask useful questions, teach, challenge, encourage,
-    and create opportunities.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Another person becomes
-    more independent and capable. The protocol creates a small opportunity to examine that target without
-    treating completion as broad capability.'
+  purpose: Use observation, useful questions, demonstration, proportionate challenge and encouragement
+    to help a willing learner perform a small task with more capability.
+  why_recommended: Use observation, useful questions, demonstration, proportionate challenge and encouragement
+    to help a willing learner perform a small task with more capability.
   claims:
-  - statement: Using the canonical scope and evidence target for Coaching, mentorship, and development
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Use observation, useful questions, demonstration, proportionate challenge and encouragement
+      to help a willing learner perform a small task with more capability.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Coaching, mentorship, and development practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Coaching, mentorship, and development as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Coaching, mentorship,
-    and development context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Coaching,
-    mentorship, and development; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use oral, signed, visual or accessible text tasks and a smaller step. A fictional
+    two-role rehearsal tests coaching preparation but not another person’s development. Feedback must
+    be voluntary and must not expose private student, employee or client information.
+  opportunity_considerations: Default to a learner writing a clear meeting reminder from five supplied
+    facts. Use fictional material, a willing learner and a fixed check for accuracy, order and a usable
+    contact route. The learner chooses whether to continue and can use accessibility supports.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Coaching, mentorship, and development.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Default to a learner writing a clear meeting reminder from five supplied facts. Use fictional material,
+    a willing learner and a fixed check for accuracy, order and a usable contact route. The learner chooses
+    whether to continue and can use accessibility supports.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Coaching, mentorship, and development
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use oral, signed, visual or accessible text tasks and a smaller step. A fictional two-role rehearsal
+    tests coaching preparation but not another person’s development. Feedback must be voluntary and must
+    not expose private student, employee or client information.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -82,19 +80,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-RELATIONAL-CONVERSATION
   duration_days: 10
-  cadence: Complete three bounded Coaching, mentorship, and development actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Coaching, mentorship, and development; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Coaching,
-    mentorship, and development. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Coaching, mentorship, and development
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default to a learner writing a clear meeting reminder from five supplied facts. Use fictional
+    material, a willing learner and a fixed check for accuracy, order and a usable contact route. The
+    learner chooses whether to continue and can use accessibility supports. Goal: Use observation, useful
+    questions, demonstration, proportionate challenge and encouragement to help a willing learner perform
+    a small task with more capability. Scope: This is educational coaching of a safe task, not clinical
+    diagnosis, therapy, professional certification or a measure of the learner’s worth. Time and effort:
+    A 15-minute learning conversation, one short demonstration and two comparable practice attempts. Adaptation:
+    Use oral, signed, visual or accessible text tasks and a smaller step. A fictional two-role rehearsal
+    tests coaching preparation but not another person’s development. Feedback must be voluntary and must
+    not expose private student, employee or client information. Keep personal working notes outside the
+    check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use oral, signed, visual or accessible text tasks and a smaller step. A fictional
+    two-role rehearsal tests coaching preparation but not another person’s development. Feedback must
+    be voluntary and must not expose private student, employee or client information.
+  expected_burden: A 15-minute learning conversation, one short demonstration and two comparable practice
+    attempts.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Coaching, mentorship, and development protocol to rank worth, coerce participation, demand
@@ -102,19 +107,25 @@ intervention:
   - Treating a completed Coaching, mentorship, and development action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Coaching, mentorship, and development situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use oral, signed,
+    visual or accessible text tasks and a smaller step. A fictional two-role rehearsal tests coaching
+    preparation but not another person’s development. Feedback must be voluntary and must not expose private
+    student, employee or client information.
   actions:
   - stable_id: PRACTICE-COMP-2206-COACHING-MENTORSHIP-AND-DEVELOPMENT-01-A1
     sequence: 1
-    title: Prepare a consent-safe Coaching, mentorship, and development interaction
-    instructions: 'Choose one welcome, low-stakes relationship context for Coaching, mentorship, and development.
-      Translate the canonical scope into one observable communication act, identify power or retaliation
-      concerns, and obtain or preserve the other person''s freedom not to participate: Diagnose learning
-      needs, ask useful questions, teach, challenge, encourage, and create opportunities.'
+    title: Locate the learning need through an attempt and questions
+    instructions: 'Ask the learner what they want to improve and have them make a short first attempt.
+      Compare it with the agreed criteria and ask what they were trying to do, where they felt uncertain
+      and what feedback would be useful. Select one observable gap, such as burying the changed time in
+      a long paragraph. Do not diagnose motivation, intelligence or a learning style from the error, and
+      do not assume your preferred solution is the only competent one.
+
+
+      Observation checks: The learner’s own goal is elicited; A real attempt reveals a specific gap; Questions
+      explore reasoning and uncertainty; No identity or clinical diagnosis is inferred from performance.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +147,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2206_a1_communication_act_specific
-        - c2206_a1_consent_boundary_present
-        - c2206_a1_power_checked
+        - the_learner_s_own_goal_is_elicited
+        - a_real_attempt_reveals_a_specific_gap
+        - questions_explore_reasoning_and_uncertainty
+        - no_identity_or_clinical_diagnosis_is_inferred_from_performance
       - measurement_id: c2206_a1_boundary
         kind: boolean
         role: supporting
@@ -155,10 +167,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2206-COACHING-MENTORSHIP-AND-DEVELOPMENT-01-A2
     sequence: 2
-    title: Practice one Coaching, mentorship, and development communication act
-    instructions: Use the prepared Coaching, mentorship, and development act once without covert testing,
-      pressure, diagnosis, deception inference, or a demand for disclosure. Ask one direct clarification
-      when appropriate and allow refusal, delay, indirect communication, language access, or another format.
+    title: Teach one correction and create a safe stretch
+    instructions: 'Demonstrate a concise version that puts the changed time first and explain the reason.
+      Ask the learner to adapt the principle to a different fictional event rather than copy your sentence.
+      Offer a challenge slightly beyond the first attempt while keeping the task safe and supported. Give
+      specific encouragement about a useful action and correction about a missed criterion; neither empty
+      praise nor humiliation supplies informative feedback.
+
+
+      Observation checks: One correction is demonstrated with a reason; The learner adapts rather than
+      copies the example; The stretch is manageable and supported; Encouragement and correction are specific
+      to observable work. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -174,12 +194,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2206_a2_primary
-        kind: boolean
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        expected: true
+        - reviewed_artifact
+        criteria:
+        - one_correction_is_demonstrated_with_a_reason
+        - the_learner_adapts_rather_than_copies_the_example
+        - the_stretch_is_manageable_and_supported
+        - encouragement_and_correction_are_specific_to_observable_work
       - measurement_id: c2206_a2_boundary
         kind: boolean
         role: supporting
@@ -196,10 +220,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2206-COACHING-MENTORSHIP-AND-DEVELOPMENT-01-A3
     sequence: 3
-    title: Review Coaching, mentorship, and development without scoring the person
-    instructions: 'Review only the observable interaction and its boundaries. Do not infer motives or
-      store private narrative. Compare what happened with this evidence target and retain disagreement
-      or an inconclusive result: Another person becomes more independent and capable.'
+    title: Step back for a retry and ask what support should remain
+    instructions: 'Let the learner complete a new comparable reminder with their preferred aids, then
+      check the fixed criteria together. Ask them to explain what they changed and when the principle
+      might not apply. Identify a next practice opportunity and what support they still want. Record the
+      observed change without claiming independence if you supplied the answer throughout, and do not
+      make the learner’s gratitude the measure of your mentoring.
+
+
+      Observation checks: A new comparable task is completed; The learner explains the correction and
+      a limit; Observed capability is separated from coach-provided answers; The next opportunity and
+      remaining support are jointly chosen. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.
+
+
+      Final review: What can the learner now explain and do that they could not do in the first attempt,
+      and what support remains genuinely useful?
+
+
+      Examples: Supportive: The learner placed the changed time clearly in a new reminder and explained
+      why it mattered, using a retained checklist.
+
+
+      Mixed: The second result improved but relied on repeated prompts, so the coach kept the independence
+      claim limited and planned another attempt.
+
+
+      Contradictory: The coach labeled the learner’s character, used humiliation or treated praise and
+      gratitude as proof of development.
+
+
+      Inconclusive: Advice was given without observing a gap, demonstrating a correction or checking a
+      learner-led retry.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -221,9 +273,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2206_a3_observable_interaction_reviewed
-        - c2206_a3_private_narrative_excluded
-        - c2206_a3_inconclusive_allowed
+        - a_new_comparable_task_is_completed
+        - the_learner_explains_the_correction_and_a_limit
+        - observed_capability_is_separated_from_coach_provided_answers
+        - the_next_opportunity_and_remaining_support_are_jointly_chosen
       - measurement_id: c2206_a3_boundary
         kind: boolean
         role: supporting
@@ -244,17 +297,17 @@ intervention:
       Coaching, mentorship, and development; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Coaching, mentorship, and development; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use oral, signed, visual or accessible text tasks and a smaller step. A fictional two-role rehearsal
+      tests coaching preparation but not another person’s development. Feedback must be voluntary and
+      must not expose private student, employee or client information.
     cultural_context:
     - Adapt the expression of Coaching, mentorship, and development to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Coaching, mentorship, and development opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use oral, signed, visual or accessible text tasks and a smaller step. A fictional two-role rehearsal
+      tests coaching preparation but not another person’s development. Feedback must be voluntary and
+      must not expose private student, employee or client information.
   pause_conditions:
   - Pause Coaching, mentorship, and development when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -286,10 +339,8 @@ evidence_and_scoring:
   - c2206_a3_boundary
   - c2206_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Coaching, mentorship, and development action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Coaching, mentorship, and development criterion, depended on
-    coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - The coach labeled the learner’s character, used humiliation or treated praise and gratitude as proof
+    of development.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Coaching, mentorship, and development explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -300,14 +351,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Coaching, mentorship, and development rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Another person becomes more independent and capable.—not completion, confidence, conformity,
-    output, independence, or worth.
-  evidence_quality_rubric: Quality for Coaching, mentorship, and development requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Locate the learning need through an attempt and questions. Observed checks:
+    The learner’s own goal is elicited; A real attempt reveals a specific gap; Questions explore reasoning
+    and uncertainty; No identity or clinical diagnosis is inferred from performance. Action 2: Teach one
+    correction and create a safe stretch. Observed checks: One correction is demonstrated with a reason;
+    The learner adapts rather than copies the example; The stretch is manageable and supported; Encouragement
+    and correction are specific to observable work. Action 3: Step back for a retry and ask what support
+    should remain. Observed checks: A new comparable task is completed; The learner explains the correction
+    and a limit; Observed capability is separated from coach-provided answers; The next opportunity and
+    remaining support are jointly chosen.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Advice was given without observing a gap, demonstrating
+    a correction or checking a learner-led retry.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Coaching,
     mentorship, and development contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -317,9 +376,8 @@ evidence_and_scoring:
   - L23
   - L24
   - L33
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Coaching, mentorship, and development evidence.
@@ -327,12 +385,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The prepare a consent-safe coaching, mentorship, and development interaction action was attempted
-    or explicitly deferred.
-  - The practice one coaching, mentorship, and development communication act action was attempted or explicitly
-    deferred.
-  - The review coaching, mentorship, and development without scoring the person action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Locate the learning need through an attempt and questions. Observed checks: The learner’s
+    own goal is elicited; A real attempt reveals a specific gap; Questions explore reasoning and uncertainty;
+    No identity or clinical diagnosis is inferred from performance.'
+  - 'Action 2: Teach one correction and create a safe stretch. Observed checks: One correction is demonstrated
+    with a reason; The learner adapts rather than copies the example; The stretch is manageable and supported;
+    Encouragement and correction are specific to observable work.'
+  - 'Action 3: Step back for a retry and ask what support should remain. Observed checks: A new comparable
+    task is completed; The learner explains the correction and a limit; Observed capability is separated
+    from coach-provided answers; The next opportunity and remaining support are jointly chosen.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -341,58 +405,286 @@ completion_and_review:
     - c2206_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Coaching, mentorship, and development only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Coaching, mentorship, and development across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What can the learner now explain and do that they could not do in the first attempt,
+    and what support remains genuinely useful?
+  transfer_limit: This is educational coaching of a safe task, not clinical diagnosis, therapy, professional
+    certification or a measure of the learner’s worth.
   reflection:
-    before: What does Coaching, mentorship, and development require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Coaching, mentorship, and development criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Another person becomes more independent and capable.', what
-      contradiction or missing context matters most, and should this Coaching, mentorship, and development
-      design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Use observation, useful questions, demonstration,
+      proportionate challenge and encouragement to help a willing learner perform a small task with more
+      capability.'
+    during: Which checks have actually been observed? The second result improved but relied on repeated
+      prompts, so the coach kept the independence claim limited and planned another attempt.
+    after: What can the learner now explain and do that they could not do in the first attempt, and what
+      support remains genuinely useful?
   review_guidance:
     repeat: Repeat the same bounded Coaching, mentorship, and development design only when the context
       and burden remain appropriate.
-    adapt: Change the Coaching, mentorship, and development medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use oral, signed, visual or accessible text tasks and a smaller step. A fictional two-role
+      rehearsal tests coaching preparation but not another person’s development. Feedback must be voluntary
+      and must not expose private student, employee or client information.
     stop: Stop Coaching, mentorship, and development when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Coaching, mentorship, and development
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Coaching, mentorship, and development criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Coaching, mentorship, and development criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Coaching, mentorship, and development criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Coaching, mentorship, and development action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The learner placed the changed time clearly in a new reminder and explained why it mattered,
+      using a retained checklist.
+    mixed: The second result improved but relied on repeated prompts, so the coach kept the independence
+      claim limited and planned another attempt.
+    contradictory: The coach labeled the learner’s character, used humiliation or treated praise and gratitude
+      as proof of development.
+    inconclusive: Advice was given without observing a gap, demonstrating a correction or checking a learner-led
+      retry.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Coaching, mentorship, and development.
+    context_heading: Coach one learner from a specific gap to a checked retry
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Coaching,
       mentorship, and development.
   check_in_labels:
-    c2206_a1_primary: The bounded Coaching, mentorship, and development criterion for action 1 was observed
+    c2206_a1_primary: 'Observed checks: locate the learning need through an attempt and questions'
     c2206_a1_boundary: Action 1 stayed inside its stated Coaching, mentorship, and development boundary
     c2206_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2206_a2_primary: The bounded Coaching, mentorship, and development criterion for action 2 was observed
+    c2206_a2_primary: 'Observed checks: teach one correction and create a safe stretch'
     c2206_a2_boundary: Action 2 stayed inside its stated Coaching, mentorship, and development boundary
     c2206_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2206_a3_primary: The bounded Coaching, mentorship, and development criterion for action 3 was observed
+    c2206_a3_primary: 'Observed checks: step back for a retry and ask what support should remain'
     c2206_a3_boundary: Action 3 stayed inside its stated Coaching, mentorship, and development boundary
     c2206_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Coaching, mentorship,
-    and development practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What can the learner now explain and do that they could not do in the first attempt,
+    and what support remains genuinely useful? Completion is not mastery.
+  plain_language_evidence: The learner placed the changed time clearly in a new reminder and explained
+    why it mattered, using a retained checklist.
   display_order: 305
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '22.06'
+  title: 22.06 — Coaching, mentorship, and development
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Civil Service Leadership Statement](https://www.gov.uk/government/publications/civil-service-leadership-statement/civil-service-leadership-statement)
+
+      - [OECD Public Integrity Handbook: Leadership](https://www.oecd.org/en/publications/oecd-public-integrity-handbook_ac8ed8e8-en/full-report/leadership_1aa35fa2.html)
+
+      - [Government Functional Standard GovS 002: Project delivery (HTML)](https://projectdelivery.gov.uk/library-products/government-functional-standard-govs-002-project-delivery/)
+
+      - [Mentoring and Coaching](https://www.opm.gov/policy-data-oversight/performance-management/performance-management-and-accountability-playbook/mentoring-and-coaching/)
+
+      - [Developing Performance Standards](https://www.opm.gov/policy-data-oversight/performance-management/reference-materials/articles/developing-performance-standards/)
+
+      - [OECD Public Integrity Handbook: Openness](https://www.oecd.org/en/publications/oecd-public-integrity-handbook_ac8ed8e8-en/full-report/openness_b1c18876.html)
+
+      - [CERC: Introduction](https://www.cdc.gov/cerc/media/pdfs/CERC_Introduction.pdf)
+
+      - [Knowledge Management](https://www.nasa.gov/learning-resources/for-professionals/appel-knowledge-management/)
+
+      - [Identifying and managing conflicts of interest in a charity](https://www.gov.uk/government/publications/identifying-and-managing-conflicts-of-interest-in-a-charity-cc29/conflicts-of-interest-a-guide-for-charity-trustees)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving a first attempt. These events are invented learning materials,
+      not actual participant evidence.
+
+
+      Tess explains that both times were included to show the history and that nobody had explained which
+      instruction the reader should follow. Oren uses MODEL and asks Tess to foreground the change and
+      remove the obsolete instruction. Tess''s revised R1 reads: “New time: 18:30–19:00 UTC. Paper Globe
+      review, 12 November 2026, Cedar Center, Birch Room. Questions: Globe Desk.” It meets all seven checks
+      after coaching.
+
+
+      With the checklist available and Oren silent, Tess writes R2: “Paper Compass has moved to Willow
+      Room at Cedar Center. Join on 14 November 2026, 16:00–16:40 UTC. Questions: Compass Desk.” It also
+      meets seven checks. Oren did not supply these words. This is a fresh fictional attempt with a retained
+      aid, not unaided performance or proof of retention.
+
+
+      Tess says, “Put the fact that changes the reader''s action early; if nothing changed, the event
+      purpose might come first.” Tess requests one more independent draft next week, with optional feedback
+      afterward. Oren agrees to offer a practice opportunity but none has occurred. No reminder was delivered,
+      recipient comprehension checked or long-term development measured.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Help a learner improve a reminder, then check a fresh attempt without supplying the answer.
+      Allow twenty minutes for diagnosis and teaching and ten for a transfer review. All learner responses
+      below are supplied fiction. You can rehearse the coach''s choices alone; do not recruit someone
+      into assessment or treat a subordinate''s gratitude as evidence of development.
+
+
+      ### Find the learning need in the work
+
+
+      Coaching begins with the learner''s purpose and a sample, not your favorite advice. Ask what they
+      want to improve, what they were trying to do and which feedback would help. Compare the attempt
+      with agreed criteria. A missing changed time may reflect an unclear task, a source-reading gap or
+      a presentation choice; one error cannot diagnose intelligence, motivation or a learning style. Keep
+      the initial explanation open until the learner supplies relevant context.
+
+
+      Choose a tractable gap. Correcting every stylistic preference at once can obscure the useful principle.
+      If the reader must act on a changed time, help the learner make that change prominent while keeping
+      all required facts accurate. Accuracy, intelligibility and a usable questions route matter more
+      than copying your sentence. Define what remains fixed and where alternative competent methods are
+      welcome.
+
+
+      Questions and demonstration serve different needs. “What would the reader need first?” may expose
+      the learner''s reasoning. If they do not yet know how to reorganize the facts, a concise model with
+      an explanation is more useful than endless questioning. Demonstrate on a separate example, then
+      ask them to adapt the principle. Record how much help you supplied; a coached correction is useful
+      progress but differs from a fresh performance without answer hints.
+
+
+      Challenge should be slightly beyond the current attempt and remain safe. A new event with a changed
+      room tests whether the learner understood relevance, rather than memorized “always put the time
+      first.” Explain that the most action-relevant fact varies with the situation. Offer encouragement
+      tied to an observable action, such as preserving the correct date while moving the changed room
+      earlier. Empty praise does not identify a reusable choice, and humiliation adds no useful instructional
+      information.
+
+
+      Mentorship can extend beyond this small skill. Ask about a wanted next opportunity, help the person
+      understand relevant pathways and connect them with willing support within your actual role. Do not
+      promise access you cannot grant or make continued help depend on loyalty. The learner should gradually
+      have more useful choices, including the choice to stop, seek another mentor or retain supports that
+      work for them.
+
+
+      Independence is specific to task and conditions. A checklist, calculator or accessible format may
+      remain part of competent independent work. If the coach dictates the content throughout, however,
+      the final artifact cannot show that the learner generated it. Keep the aid, prompt, demonstration
+      and answer contribution distinguishable. Compare attempts against the same criteria, allowing a
+      different valid style without quietly lowering the standard.
+
+
+      Finish with the learner''s explanation of what changed, a limit on the principle and a realistic
+      next opportunity. A correct paper response is not proof of long-term retention, a delivered message
+      or general capability. If the fresh attempt still fails, select the next teaching step rather than
+      relabeling the result as success. Development is supported by an honest record of the gap and a
+      tolerable way to practice again.
+
+
+      ### Worked example
+
+
+      A coach models a reminder that puts a changed venue first and explains that readers might otherwise
+      travel to the old location. The learner''s next case changes only the date. Copying the model''s
+      exact wording would be wrong; applying its principle means putting the date change where the reader
+      can find it. The coach can recognize this transfer without claiming the learner can now handle every
+      communication problem.
+
+
+      ### Complete learning materials
+
+
+      Fictional learner Tess says: “I want people to notice the change without losing the other facts.
+      Please tell me one thing to work on at a time.” Tess wants written feedback and may use a five-fact
+      checklist. Coach Oren has agreed to help with this harmless drafting task. The five required fact
+      categories are event, date, time, place and contact. In a change notice the changed fact must also
+      be prominent; no obsolete instruction may remain. These create **seven checks**: five correct categories,
+      prominent change, no obsolete instruction.
+
+
+      First case **R1**: Paper Globe review; **12 November 2026**; time changed from **18:00 to 18:30–19:00
+      UTC**; Cedar Center, Birch Room; questions to **Globe Desk**. Tess''s initial attempt is: “We are
+      looking forward to seeing everyone and comparing ideas at the Paper Globe review at Cedar Center,
+      Birch Room on 12 November. Questions go to Globe Desk. We will start at 18:00 as usual. There has
+      been a time adjustment to 18:30–19:00 UTC.” Both contradictory time instructions are present and
+      the change is buried.
+
+
+      Separate demonstration **MODEL**: Map Cards; **13 November**, **17:00–17:30 UTC**; room changed
+      from Oak to Elm at Cedar Center; contact Map Desk. Oren''s example is: “Room changed to Elm at Cedar
+      Center. Map Cards meets 13 November, 17:00–17:30 UTC. Questions: Map Desk.” The explanation is that
+      a reader should not travel to Oak. MODEL does not supply the answer to R1.
+
+
+      Fresh case **R2**: Paper Compass; **14 November 2026**, **16:00–16:40 UTC**; room changed from Birch
+      to Willow at Cedar Center; contact Compass Desk. Tess may keep the checklist, but Oren must not
+      dictate R2''s wording. All contacts are fictional role labels. Nothing is sent.
+
+
+      ### Diagnose, teach and check transfer
+
+
+      1. Inspect R1 using the seven checks. Ask Tess about the goal of including both times; use the later
+      account only after saving your own diagnosis question. Output: one evidence-based gap, with no character
+      diagnosis.
+
+      2. Use MODEL to explain prominence and removal of obsolete instructions. Invite Tess to revise R1
+      in their own words. Output: a bounded teaching move, informative encouragement and clear help record.
+
+      3. Save your plan before the [later packet](?resource=file-later-packet-md). Judge R1 revision and
+      R2 independently against all seven checks. Output: results distinguishing supported correction from
+      fresh generation with a checklist.
+
+      4. Ask where the principle might change and what practice Tess wants next. Output: a learner-owned
+      next opportunity and a narrow progress claim that preserves remaining uncertainty.
+
+
+      ### Support and further use
+
+
+      A screen reader, signed explanation, speech-to-text or reordered fact cards can preserve the criteria.
+      A harder version supplies two contradictory purported approvals; the learner should ask for authority
+      rather than write a confident notice. In actual coaching obtain willing participation, protect work
+      samples and keep career or professional advice within your competence. No learning opportunity,
+      mentorship relationship or real capability is inferred from this rehearsal.
+
+
+      ### Source use
+
+
+      [OPM Mentoring and Coaching, S04](https://www.opm.gov/policy-data-oversight/performance-management/performance-management-and-accountability-playbook/mentoring-and-coaching/),
+      distinguishes immediate skill-focused coaching from broader developmental mentoring. Only that framing
+      is used. Its general benefits are not treated as measured outcomes of these original fictional attempts.
+
+
+      ### Use the result at its proper scale
+
+
+      Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority
+      and willing participation; keep protected records private. Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A learner includes obsolete and current times to show history. What should the coach diagnose
+      from this one attempt?
+
+      2. The next reminder changes the room, not the time. What would demonstrate adaptation of the lesson?
+
+      3. A fresh draft meets criteria with a checklist while the coach stays silent. What independence
+      claim fits?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. A specific communication gap or unclear instruction to investigate. Ask about the reasoning;
+      do not infer laziness, low intelligence or a fixed learning style.
+
+      2. Make the changed room prominent, preserve the other correct facts and remove obsolete instructions.
+      Copying the demonstration''s surface wording is not transfer.
+
+      3. Independent generation on that case with the stated aid. Do not call it unaided, durable mastery,
+      recipient success or evidence from an actual learner.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

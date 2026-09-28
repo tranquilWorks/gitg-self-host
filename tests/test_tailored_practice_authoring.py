@@ -34,7 +34,13 @@ def test_tailored_coverage_keeps_unwritten_competencies_explicit():
     exercises = load_exercises(ROOT)
     report = coverage_report(exercises, ROOT)
     assert report["target"] == 383
-    assert report["authored"] + report["remaining"] == 383
+    assert report["authored"] + report["retained_legacy"] + report["remaining"] == 383
+    assert (
+        report["authored"],
+        report["retained_legacy"],
+        report["learning_guides"],
+        report["remaining"],
+    ) == (378, 5, 383, 0)
     assert report["human_review_complete"] == 0
     assert {
         row["competency_id"] for row in report["rows"] if row["status"] == "authored_pending_review"

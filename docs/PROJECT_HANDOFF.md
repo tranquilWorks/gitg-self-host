@@ -1,5 +1,35 @@
 # Grounded Growth — Project Handoff
 
+## Catalog product integration — 28 September 2026
+
+The owner requested implementation of the report and per-competency feedback in
+the product. All 383 practices now have learner guides: 275 compiled companion
+bundles, 107 existing structured lessons and compact 13.16. The remaining 270
+generic typed practices use their own authored actions. Five frozen legacy
+packages retain exact behavior and gain manifest-bound companion guides.
+See [the integration report](authoring/catalog-product-integration-20260928/README.md)
+and [per-competency implementation](authoring/catalog-product-integration-20260928/catalog.csv).
+
+This is a product integration stage after the completed five editorial passes.
+The historical reports below remain accurate snapshots. Current authoring
+coverage is 378 tailored plus five retained legacy practices with guides, with
+zero unintegrated competencies. Stable IDs, completion rules, mapping, activation,
+scoring mathematics and historical replay remain protected. Existing compiler
+rules update non-retained primary observation checks prospectively; active/paused
+practice imports still fail closed. No migration or live database write is part
+of this batch. Formal human acceptance and deployment remain unclaimed.
+
+Current quality fingerprints bind compiled materials, legacy companions and the
+Markdown renderer. The historical quality ledger remains unchanged; the new
+[quality snapshot](authoring/catalog-product-integration-20260928/quality-status.json)
+records zero formal human passes. See the integration verification receipts for
+local test results and preserved diagnostic failures. Full regression: 1,901
+passed and one obsolete report assertion, then repaired and verified through
+52 review tests and 30 continuation tests. Source tests: 1,234 passed; browser:
+10 distinct cases plus two updated wide-table rechecks. Pilot, curriculum,
+competency-evidence and complete fresh Compose backup/restore smoke passed.
+See [local evidence](evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md).
+
 ## Catalog editorial remediation — 28 September 2026
 
 The owner authorized all 383 competency sources to be repaired in at most five

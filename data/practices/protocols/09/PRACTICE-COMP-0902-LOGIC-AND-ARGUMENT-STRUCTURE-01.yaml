@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0902-LOGIC-AND-ARGUMENT-STRUCTURE-01
 slug: c0902-logic-and-argument-structure-practice
-name: Bounded Logic and argument structure Practice
+name: Reconstruct and test an argument before judging its conclusion
 parent_competency_id: '09.02'
 domain_id: 09
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 09.02
-      (Logic and argument structure); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 09.02; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Logic and argument structure through a low-stakes skill rehearsal bounded by the
-    canonical scope: Understand premises, conclusions, validity, soundness, contradiction, inference,
-    fallacy, and burden of proof.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can reconstruct and
-    evaluate an argument rather than reacting only to its conclusion. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Identify premises, conclusion and inference, test validity separately from truth, and assign
+    the burden of supporting each contested premise.
+  why_recommended: Identify premises, conclusion and inference, test validity separately from truth, and
+    assign the burden of supporting each contested premise.
   claims:
-  - statement: Using the canonical scope and evidence target for Logic and argument structure is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Identify premises, conclusion and inference, test validity separately from truth, and assign
+      the burden of supporting each contested premise.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Logic and argument structure practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Logic and argument structure as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Logic and argument
-    structure context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Logic and
-    argument structure; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use a spoken argument, a diagram with arrows or short premise cards. The two
+    supplied cases are sufficient for a rehearsal when no suitable live claim exists. Avoid confidential
+    disputes and do not treat formal analysis as a substitute for qualified legal or scientific review.
+  opportunity_considerations: 'Use paper or a text editor. Argument A: All events advertised as free have
+    no costs; this event is advertised as free; therefore attending it has no costs. Argument B: Every
+    fully booked event has many reservations; this event has many reservations; therefore it is fully
+    booked. These are synthetic claims, not factual reports.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Logic and argument structure.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use paper or a text editor. Argument A: All events advertised as free have no costs; this event is
+    advertised as free; therefore attending it has no costs. Argument B: Every fully booked event has
+    many reservations; this event has many reservations; therefore it is fully booked. These are synthetic
+    claims, not factual reports.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Logic and argument structure instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a spoken argument, a diagram with arrows or short premise cards. The two supplied cases are sufficient
+    for a rehearsal when no suitable live claim exists. Avoid confidential disputes and do not treat formal
+    analysis as a substitute for qualified legal or scientific review.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Logic and argument structure actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Logic and argument structure; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Logic and
-    argument structure. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Logic and argument structure actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use paper or a text editor. Argument A: All events advertised as free have no costs; this event
+    is advertised as free; therefore attending it has no costs. Argument B: Every fully booked event has
+    many reservations; this event has many reservations; therefore it is fully booked. These are synthetic
+    claims, not factual reports. Goal: Identify premises, conclusion and inference, test validity separately
+    from truth, and assign the burden of supporting each contested premise. Scope: This is an argument-analysis
+    exercise. A valid form does not make premises true, and identifying a fallacy does not by itself prove
+    the opposite conclusion. Time and effort: Three fifteen-minute passes through the supplied argument
+    pair and one ordinary argument of your choice. Adaptation: Use a spoken argument, a diagram with arrows
+    or short premise cards. The two supplied cases are sufficient for a rehearsal when no suitable live
+    claim exists. Avoid confidential disputes and do not treat formal analysis as a substitute for qualified
+    legal or scientific review. Keep personal working notes outside the check-in; record only the listed
+    observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a spoken argument, a diagram with arrows or short premise cards. The two supplied
+    cases are sufficient for a rehearsal when no suitable live claim exists. Avoid confidential disputes
+    and do not treat formal analysis as a substitute for qualified legal or scientific review.
+  expected_burden: Three fifteen-minute passes through the supplied argument pair and one ordinary argument
+    of your choice.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Logic and argument structure protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +109,24 @@ intervention:
   - Treating a completed Logic and argument structure action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Logic and argument structure situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a spoken
+    argument, a diagram with arrows or short premise cards. The two supplied cases are sufficient for
+    a rehearsal when no suitable live claim exists. Avoid confidential disputes and do not treat formal
+    analysis as a substitute for qualified legal or scientific review.
   actions:
   - stable_id: PRACTICE-COMP-0902-LOGIC-AND-ARGUMENT-STRUCTURE-01-A1
     sequence: 1
-    title: Define observable criteria for Logic and argument structure
-    instructions: 'Select one safe, lawful, low-stakes component of Logic and argument structure. Build
-      a three-to-five-item rubric from this scope, including an error or stop criterion: Understand premises,
-      conclusions, validity, soundness, contradiction, inference, fallacy, and burden of proof.'
+    title: Expose the premises and hidden assumptions
+    instructions: 'Number the premises and underline the conclusion in both arguments. For A, distinguish
+      admission price from transport, time and other costs; write the implied meaning of no costs. For
+      B, identify whether many reservations means every available place is reserved. Restate each argument
+      so a person who disagrees can still recognize it, without strengthening it secretly.
+
+
+      Observation checks: Premises and conclusion are separately numbered; Ambiguous terms receive explicit
+      meanings; At least one hidden assumption is exposed; The reconstruction does not silently repair
+      the argument. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +148,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0902_a1_skill_component_bounded
-        - c0902_a1_observable_rubric_present
-        - c0902_a1_error_or_stop_defined
+        - premises_and_conclusion_are_separately_numbered
+        - ambiguous_terms_receive_explicit_meanings
+        - at_least_one_hidden_assumption_is_exposed
+        - the_reconstruction_does_not_silently_repair_the_argument
       - measurement_id: c0902_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +168,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0902-LOGIC-AND-ARGUMENT-STRUCTURE-01-A2
     sequence: 2
-    title: Rehearse Logic and argument structure twice
-    instructions: Perform two bounded attempts of the selected Logic and argument structure component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Test the inference independently of premise truth
+    instructions: 'Assume each stated premise is true and ask whether the conclusion could still be false.
+      A has a valid all–this–therefore form, but its first premise needs support and is implausibly broad.
+      B is invalid: a 100-seat event with 60 reservations supplies a counterexample. State why invalid
+      inference differs from a false premise, a contradiction or an unsupported assertion; do not substitute
+      a fallacy label for the explanation.
+
+
+      Observation checks: Validity is tested while granting the premises; The reservation counterexample
+      is worked through; Validity and soundness receive separate judgments; A fallacy label is accompanied
+      by the failed inference. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +195,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c0902_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - validity_is_tested_while_granting_the_premises
+        - the_reservation_counterexample_is_worked_through
+        - validity_and_soundness_receive_separate_judgments
+        - a_fallacy_label_is_accompanied_by_the_failed_inference
       - measurement_id: c0902_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +221,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0902-LOGIC-AND-ARGUMENT-STRUCTURE-01-A3
     sequence: 3
-    title: Use feedback for one Logic and argument structure retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Can reconstruct
-      and evaluate an argument rather than reacting only to its conclusion.'
+    title: Evaluate a real argument with a visible proof burden
+    instructions: 'Choose a low-stakes recommendation such as selecting a meeting venue. Reconstruct its
+      premises and conclusion, identify a fact that would test the weakest premise, and check that fact
+      or label it unresolved. State who is making each claim and therefore needs to support it. Accept,
+      reject or suspend judgment on the conclusion with reasons that address both the inference and the
+      evidence.
+
+
+      Observation checks: One additional argument is reconstructed; The weakest factual premise receives
+      a check or explicit unknown; The claimant’s burden is not shifted to a critic; The final judgment
+      addresses inference and evidence separately. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Did you disagree with the conclusion, the premise evidence or the inference—and what
+      would repair the weakest part?
+
+
+      Examples: Supportive: The participant accepted A’s form but rejected its unsupported no-cost premise,
+      then supplied a concrete counterexample to B.
+
+
+      Mixed: The conclusion was questioned for a good reason, but a valid inference was incorrectly called
+      invalid because a premise was false.
+
+
+      Contradictory: The exercise became a contest of fallacy names, or lack of disproof was treated as
+      proof of a contested claim.
+
+
+      Inconclusive: Only agreement or disagreement was recorded, with no premises, counterexample or evidential
+      burden.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +274,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0902_a3_feedback_item_selected
-        - c0902_a3_adjustment_traceable
-        - c0902_a3_retry_result_preserved
+        - one_additional_argument_is_reconstructed
+        - the_weakest_factual_premise_receives_a_check_or_explicit_unknown
+        - the_claimant_s_burden_is_not_shifted_to_a_critic
+        - the_final_judgment_addresses_inference_and_evidence_separately
       - measurement_id: c0902_a3_boundary
         kind: boolean
         role: supporting
@@ -245,16 +298,17 @@ intervention:
       Logic and argument structure; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Logic and argument structure; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a spoken argument, a diagram with arrows or short premise cards. The two supplied cases are
+      sufficient for a rehearsal when no suitable live claim exists. Avoid confidential disputes and do
+      not treat formal analysis as a substitute for qualified legal or scientific review.
     cultural_context:
     - Adapt the expression of Logic and argument structure to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Logic and argument structure opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use a spoken argument, a diagram with arrows or short premise cards. The two supplied cases are
+      sufficient for a rehearsal when no suitable live claim exists. Avoid confidential disputes and do
+      not treat formal analysis as a substitute for qualified legal or scientific review.
   pause_conditions:
   - Pause Logic and argument structure when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -286,10 +340,8 @@ evidence_and_scoring:
   - c0902_a3_boundary
   - c0902_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Logic and argument structure action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Logic and argument structure criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The exercise became a contest of fallacy names, or lack of disproof was treated as proof of a contested
+    claim.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Logic and argument structure explicitly; support can enable access and never reduces dignity or
     silently changes the typed value.
@@ -300,14 +352,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Logic and argument structure rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can reconstruct and evaluate an argument rather than reacting only to its conclusion.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Logic and argument structure requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Expose the premises and hidden assumptions. Observed checks: Premises
+    and conclusion are separately numbered; Ambiguous terms receive explicit meanings; At least one hidden
+    assumption is exposed; The reconstruction does not silently repair the argument. Action 2: Test the
+    inference independently of premise truth. Observed checks: Validity is tested while granting the premises;
+    The reservation counterexample is worked through; Validity and soundness receive separate judgments;
+    A fallacy label is accompanied by the failed inference. Action 3: Evaluate a real argument with a
+    visible proof burden. Observed checks: One additional argument is reconstructed; The weakest factual
+    premise receives a check or explicit unknown; The claimant’s burden is not shifted to a critic; The
+    final judgment addresses inference and evidence separately.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Only agreement or disagreement was recorded, with no
+    premises, counterexample or evidential burden.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Logic
     and argument structure contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -316,9 +376,8 @@ evidence_and_scoring:
   - L12
   - L13
   - L23
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Logic and argument structure evidence.
@@ -326,11 +385,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for logic and argument structure action was attempted or explicitly
-    deferred.
-  - The rehearse logic and argument structure twice action was attempted or explicitly deferred.
-  - The use feedback for one logic and argument structure retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Expose the premises and hidden assumptions. Observed checks: Premises and conclusion are
+    separately numbered; Ambiguous terms receive explicit meanings; At least one hidden assumption is
+    exposed; The reconstruction does not silently repair the argument.'
+  - 'Action 2: Test the inference independently of premise truth. Observed checks: Validity is tested
+    while granting the premises; The reservation counterexample is worked through; Validity and soundness
+    receive separate judgments; A fallacy label is accompanied by the failed inference.'
+  - 'Action 3: Evaluate a real argument with a visible proof burden. Observed checks: One additional argument
+    is reconstructed; The weakest factual premise receives a check or explicit unknown; The claimant’s
+    burden is not shifted to a critic; The final judgment addresses inference and evidence separately.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -339,56 +405,499 @@ completion_and_review:
     - c0902_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Logic and argument structure only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Logic and argument structure across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Did you disagree with the conclusion, the premise evidence or the inference—and
+    what would repair the weakest part?
+  transfer_limit: This is an argument-analysis exercise. A valid form does not make premises true, and
+    identifying a fallacy does not by itself prove the opposite conclusion.
   reflection:
-    before: What does Logic and argument structure require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Logic and argument structure criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can reconstruct and evaluate an argument rather than reacting
-      only to its conclusion.', what contradiction or missing context matters most, and should this Logic
-      and argument structure design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Identify premises, conclusion and inference,
+      test validity separately from truth, and assign the burden of supporting each contested premise.'
+    during: Which checks have actually been observed? The conclusion was questioned for a good reason,
+      but a valid inference was incorrectly called invalid because a premise was false.
+    after: Did you disagree with the conclusion, the premise evidence or the inference—and what would
+      repair the weakest part?
   review_guidance:
     repeat: Repeat the same bounded Logic and argument structure design only when the context and burden
       remain appropriate.
-    adapt: Change the Logic and argument structure medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use a spoken argument, a diagram with arrows or short premise cards. The two supplied cases
+      are sufficient for a rehearsal when no suitable live claim exists. Avoid confidential disputes and
+      do not treat formal analysis as a substitute for qualified legal or scientific review.
     stop: Stop Logic and argument structure when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Logic and argument structure questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Logic and argument structure criteria were observed with provenance and no
-      adverse boundary signal in the selected context.
-    mixed: Some Logic and argument structure criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Logic and argument structure criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Logic and argument structure action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The participant accepted A’s form but rejected its unsupported no-cost premise, then supplied
+      a concrete counterexample to B.
+    mixed: The conclusion was questioned for a good reason, but a valid inference was incorrectly called
+      invalid because a premise was false.
+    contradictory: The exercise became a contest of fallacy names, or lack of disproof was treated as
+      proof of a contested claim.
+    inconclusive: Only agreement or disagreement was recorded, with no premises, counterexample or evidential
+      burden.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Logic and argument structure.
+    context_heading: Reconstruct and test an argument before judging its conclusion
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Logic and
       argument structure.
   check_in_labels:
-    c0902_a1_primary: The bounded Logic and argument structure criterion for action 1 was observed
+    c0902_a1_primary: 'Observed checks: expose the premises and hidden assumptions'
     c0902_a1_boundary: Action 1 stayed inside its stated Logic and argument structure boundary
     c0902_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0902_a2_primary: The bounded Logic and argument structure criterion for action 2 was observed
+    c0902_a2_primary: 'Observed checks: test the inference independently of premise truth'
     c0902_a2_boundary: Action 2 stayed inside its stated Logic and argument structure boundary
     c0902_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0902_a3_primary: The bounded Logic and argument structure criterion for action 3 was observed
+    c0902_a3_primary: 'Observed checks: evaluate a real argument with a visible proof burden'
     c0902_a3_boundary: Action 3 stayed inside its stated Logic and argument structure boundary
     c0902_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Logic and argument
-    structure practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Did you disagree with the conclusion, the premise evidence or the inference—and what
+    would repair the weakest part? Completion is not mastery.
+  plain_language_evidence: The participant accepted A’s form but rejected its unsupported no-cost premise,
+    then supplied a concrete counterexample to B.
   display_order: 109
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '09.02'
+  title: 09.02 — Logic and argument structure
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Argument terminology](https://openstax.org/books/introduction-philosophy/pages/5-3-arguments)
+
+      - [Selected bias terminology](https://openstax.org/books/psychology-2e/pages/7-3-problem-solving)
+
+      - [Motivational reasoning — abstract-level consultation only](https://pubmed.ncbi.nlm.nih.gov/2270237/)'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### What you are practicing
+
+
+      Reconstruct what an argument actually claims, test whether its conclusion follows, and separately
+      check the premises. Finish with a judgment that states the reason for accepting, rejecting, or suspending
+      it. Disliking a conclusion and finding a bad inference are different things.
+
+
+      **Canonical scope:** Understand premises, conclusions, validity, soundness, contradiction, inference,
+      fallacy, and burden of proof.
+
+
+      **Deliverable:** Two supplied argument maps, a counterexample or explanation of entailment for each,
+      a premise-evidence record, and one fresh application. Allow three 15-minute sessions. Paper, a text
+      editor, dictation, or premise cards are sufficient. All required data for the fictional route are
+      provided. No purchase, research subscription, or live dispute is required.
+
+
+      This is educational practice, not legal or scientific adjudication.  Completion is not mastery.
+
+
+      ### Eight concepts, one procedure
+
+
+      A **premise** is a claim offered as a reason. A **conclusion** is the claim those reasons are meant
+      to support. The **inference** is the move from reasons to conclusion. Write each separately before
+      judging the whole argument.
+
+
+      A deductive argument is **valid** when there is no possible case in which all its premises are true
+      and its conclusion is false. It is **sound** when it is valid and its premises are true. Whether
+      you have established premise truth is an evidence question: use “soundness not established” when
+      the available record leaves it unresolved. Do not use “invalid” merely to mean “I think a premise
+      is false.”
+
+
+      A **contradiction** asserts a claim and its negation with the same meaning, time, and conditions.
+      “The room was open yesterday and is not open today” is not that contradiction. An unsupported claim
+      is also not automatically a contradiction.
+
+
+      A **fallacy** is a defect in reasoning. Explain the defect; naming one is not a substitute for an
+      argument. A defective argument does not establish that its conclusion is false. A true conclusion
+      can be offered for bad reasons.
+
+
+      The **burden of proof** concerns who must provide adequate support for a disputed claim. Identify
+      the claimant and what evidence would address the claim. A critic need not establish the opposite
+      merely to point out missing support. Conversely, a critic making a new contrary claim needs support
+      for that claim too. Appropriate evidence depends on the kind and stakes of the claim, not a universal
+      demand for mathematical certainty.
+
+
+      These distinctions follow the argument-analysis background referenced in the cohort''s SOURCES.md.
+      The cases and response forms here are original instructional materials, not a validated assessment
+      instrument.
+
+
+      ### A different worked example: numbered tokens
+
+
+      The complete toy world contains four tokens:
+
+
+      `T1: blue, in drawer. T2: blue, in drawer. T3: red, on desk. T4: red, in drawer.`
+
+
+      Argument: “Every blue token in this set is in the drawer. T1 is blue. Therefore T1 is in the drawer.”
+
+
+      - P1: Every blue token in this set is in the drawer.
+
+      - P2: T1 is blue.
+
+      - C: T1 is in the drawer.
+
+
+      If P1 and P2 hold, C cannot be false. The form is valid. The complete inventory establishes both
+      premises within this fictional world, so the argument is sound there. This does not assert a rule
+      about tokens outside the given set.
+
+
+      Notice the difference between testing a form and inspecting this inventory. If the inventory were
+      not available, the inference could still be valid while premise truth remained unestablished. To
+      reject an inference as invalid, supply a possible arrangement that keeps *every* stated premise
+      true but makes its conclusion false. A case that makes a premise false does not do that job.
+
+
+      ### Complete practice packet: event claims
+
+
+      Treat the following as a complete fictional inventory, not a report about real events.
+
+
+      | Event | Advertised as free | Admission cost | Required travel cost | Seats | Reservations |
+
+      | --- | --- | --- | --- | --- | --- |
+
+      | Cedar | Yes | 0 units | 6 units | 10 | 6 |
+
+      | Willow | Yes | 0 units | 0 units | 10 | 10 |
+
+      | Elm | No | 4 units | 0 units | 10 | 2 |
+
+
+      For this packet, **total listed attendance cost** means admission plus required travel, and **fully
+      booked** means reservations equal seats. **Many reservations** means at least six. Treat the stated
+      definitions consistently; there are no other costs, events, or reservations in this toy world.
+
+
+      **Argument A:** “Every event advertised as free has zero total listed attendance cost. Cedar is
+      advertised as free. Therefore Cedar has zero total listed attendance cost.”
+
+
+      **Argument B:** “Every fully booked event in this inventory has many reservations. Cedar has many
+      reservations. Therefore Cedar is fully booked.”
+
+
+      Do not open the answers yet. The inventory supplies facts, not the classification of either argument.
+
+
+      #### Action 1 — Make an argument map without silently repairing it
+
+
+      For each argument, write P1, P2, and C in separate lines. Define the important terms using the packet.
+      Mark any assumption a real version would require, such as whether an advertisement''s “free” refers
+      to admission or all attendance costs. In this supplied version the explicit definition fixes the
+      meaning; do not quietly change it mid-argument.
+
+
+      Preserve the original before proposing a repair. A more defensible argument is useful, but it is
+      not evidence that the original was already defensible.
+
+
+      Use this record:
+
+
+      `Original argument | P1 | P2 | C | term definitions | unstated assumption, if any | proposed repair
+      kept separate`
+
+
+      #### Action 2 — Test inference and truth in separate passes
+
+
+      **Inference pass:** Temporarily grant every premise. Ask whether the conclusion could still be false.
+      Try to construct a counterexample. Write all premises and the conclusion beside your candidate and
+      explicitly mark each true or false. If one premise is false, your candidate has not refuted validity.
+      When the inference is valid, explain the link rather than saying “it looks logical.”
+
+
+      **Evidence pass:** Now return to the supplied inventory and check the actual premises. Calculate
+      any required total or comparison. Identify which row and definition support each judgment. Report
+      the conclusion''s truth separately from the validity judgment.
+
+
+      Use four labels, not one impression:
+
+
+      `Inference: valid / invalid with counterexample. Premise status: supported true / false / unresolved.
+      Soundness: established / not sound / not established. Conclusion: true / false / unresolved in the
+      stated world.`
+
+
+      For the real world, “supported true” remains a judgment based on the available evidence, not omniscience.
+      For this closed fictional packet, the supplied facts and definitions settle the relevant values.
+
+
+      #### Action 3 — Test a fresh argument and expose the proof burden
+
+
+      Complete both checks in **check-prompts.md**, save the attempts, and then open **check-answers.md**.
+      Check B includes a complete fresh packet so no live argument is necessary.
+
+
+      For an optional live route, select an ordinary low-stakes recommendation, such as which room to
+      use for a reading group. Record its actual words, premises, conclusion, and ambiguous terms. Identify
+      a fact that would test the weakest premise. Check an appropriate source or leave it unresolved.
+      Record who asserted each disputed claim, what support is needed, and what you actually inspected.
+      Do not invent a source or change the claim into an easier one without saying so.
+
+
+      Finish with a bounded judgment: “The inference works, but premise 1 is not established,” or “This
+      counterexample defeats the inference; I have not thereby proved the opposite conclusion.” A factual
+      disagreement can justify suspending a decision while you obtain relevant evidence. It need not become
+      a contest over who is smarter.
+
+
+      ### A compact diagnostic for common errors
+
+
+      **The conclusion happens to be true.** That does not show the offered reasons establish it. Write
+      a possible case that separates the reasons from the conclusion.
+
+
+      **A premise is false.** That can defeat soundness without defeating validity. Repeat the inference
+      pass while granting it as an assumption.
+
+
+      **There is an ambiguity.** State both meanings and show where the argument changes between them.
+      Do not conceal an equivocation by repairing the wording without keeping the original.
+
+
+      **Someone has not disproved the claim.** Record what positive support the claimant offers. Lack
+      of disproof is not itself proof, and an absence claim may need a specified search method and coverage.
+
+
+      **A fallacy name comes to mind.** Explain the failed move using the actual premises. A disagreement
+      or unpleasant delivery alone does not diagnose a formal fallacy.
+
+
+      ### Accessibility and progression
+
+
+      Use one premise per card, spoken statements with a transcript, or arrows connecting reasons to a
+      conclusion. A helper may transcribe or move cards at your direction, but should not choose the verdict.
+      Keep term definitions visible. No speed requirement applies.
+
+
+      For a more demanding exercise, replace “all” with “some” and inspect how the conclusion must narrow.
+      Then examine “Nine of the last ten meetings ended on time, so the next one probably will.” That
+      is a probabilistic inference, not a guarantee. Do not call every non-guaranteeing everyday argument
+      a deductive fallacy; first identify the type and strength of support it claims.
+
+
+      For later transfer, analyze one argument in a different ordinary context without reading your earlier
+      verdicts. Preserve the original and show your counterexample or entailment explanation. Repeated
+      success is task-specific evidence, not certification of general rationality.
+
+
+      ### How to interpret your result
+
+
+      **Supportive:** The maps preserve the original claims, the counterexample grants all premises, and
+      the final judgment distinguishes inference, premise truth, and the burden of support.
+
+
+      **Mixed:** A weak premise is correctly identified, but the participant calls every argument with
+      that premise invalid or silently strengthens an argument before evaluating it.
+
+
+      **Contradictory:** A true conclusion is treated as proof of a good inference, or a fallacy label
+      is used to claim the opposite conclusion without evidence.
+
+
+      **Inconclusive:** Only agreement or disagreement is recorded. There is no argument map, evidence
+      record, counterexample, or explanation of why the conclusion follows.
+
+
+      **Final review:** Is your objection to a premise, an inference, an ambiguity, or a missing source?
+      What precise repair would address it, and what would remain unestablished?'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Save your response before opening the separate answer file. Use the guide''s reference as needed
+      and record any help.
+
+
+      ### Check A — Inference independent of premise truth
+
+
+      Analyze both arguments. Number the premises and conclusion. For each, either give an assignment
+      that makes all premises true and the conclusion false, or explain why there is none. Do not infer
+      actual premise truth merely from the form.
+
+
+      **Voucher:** If a voucher is registered, it is stamped. Voucher V is stamped. Therefore V is registered.
+
+
+      **Approval:** If a summary is approved, it carries a signature. Summary S carries no signature.
+      Therefore S is not approved.
+
+
+      Use only two Boolean properties for each case. A conditional “if P then Q” is false only when P
+      is true and Q is false. “Not P” reverses P''s truth value. List the four P/Q combinations if helpful.
+      No actual vouchers, summaries, or documents are supplied.
+
+
+      Explain whether the truth of either argument''s conclusion in the real world has been established
+      by this packet. Would an invalid argument''s conclusion have to be false?
+
+
+      ### Check B — Premise evidence, ambiguity, contradiction, and burden
+
+
+      A fictional reading group needs a room for 12 people at 18:00 on Day 5. The facility''s dated room
+      sheet states: “Room M: 14 seats. Room N: 10 seats.” A reservation confirmation identifies Room M,
+      Day 5, 18:00. The packet contains no current opening notice, staffing record, or access confirmation.
+
+
+      An organizer argues: “Every room with enough seats is available for us at that time. Room M has
+      enough seats. Therefore Room M is available for us at that time.” The organizer adds, “Nobody has
+      proved that it will be locked.”
+
+
+      1. Reconstruct the argument and distinguish its deductive form from the evidence for each premise.
+
+      2. Identify what the dated sheet and reservation confirmation establish, what they do not establish,
+      and who is responsible for supporting the broad availability claim.
+
+      3. Write a bounded question or source check addressing the missing information. State what you can
+      conclude before receiving an answer.
+
+      4. Explain why “Room M is open at 18:00 on Day 5” and “Room M is not open at 18:00 on Day 5” conflict
+      when meanings and conditions are held fixed, but an open notice for Day 4 and a closed notice for
+      Day 5 need not conflict.
+
+      5. Explain the ambiguity if someone replaces “available” with “big enough” only when challenged.
+      Preserve the original argument and give a clearly labeled narrower repair.
+
+      6. Identify why the lack-of-disproof remark does not, by itself, supply the missing positive support.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Open only after attempting the guide''s event arguments and both checks. These are authored
+      explanations, not independent learner or formal review evidence.
+
+
+      ### Main practice: event arguments
+
+
+      **Argument A is valid but not sound in the supplied inventory.** If every advertised-free event
+      had zero total listed attendance cost, and Cedar belonged to that group, the conclusion would follow.
+      That explains validity without assuming the premise actually holds.
+
+
+      The inventory shows Cedar''s total listed cost as 0 + 6 = 6 units. Its advertisement is marked free.
+      The first premise is therefore false in this fictional world, the second is true, and the conclusion
+      is false. The false premise defeats soundness, not the all–member–property form.
+
+
+      A labeled repair is: “Every event advertised as free in this inventory has zero admission cost;
+      Cedar is advertised as free; therefore Cedar has zero admission cost.” The inventory supports that
+      narrower premise and conclusion. It does not thereby establish zero travel cost. Keep the original
+      and repair separate.
+
+
+      **Argument B is invalid and therefore not sound.** The packet defines many as at least six and fully
+      booked as reservations equal seats. Cedar has six reservations for ten seats: it has many reservations
+      without being fully booked. Every fully booked event in the inventory still has at least six reservations.
+      This is a counterexample with both premises true and the conclusion false.
+
+
+      The failed move is from “fully booked implies many” to “many implies fully booked.” The condition
+      was reversed. The fallacy name “affirming the consequent” is optional; this explanation is the essential
+      part. A possible repair is to obtain the actual reservation and seat totals and compare them, not
+      to redefine “many” after the fact.
+
+
+      ### Check A
+
+
+      **Voucher is invalid.** Let registered be false and stamped be true. The conditional remains true,
+      the second premise is true, and the conclusion is false. A stamp might be applied for another reason;
+      the premises never state that only registered vouchers receive stamps. Adding that condition is
+      a new premise, not something already established.
+
+
+      **Approval is valid.** Assume approval implies a signature and that there is no signature. Approval
+      being true would force the signature to be true, contrary to the second premise. Therefore approval
+      must be false under those assumptions. This is the form often called modus tollens.
+
+
+      The table has four combinations. For Approval, the only combination satisfying both premises is
+      approval false, signature false, and the conclusion is true there. For Voucher, the combination
+      registered false, stamped true supplies the required counterexample.
+
+
+      No actual voucher or summary is inspected, so the packet does not establish the premises'' truth
+      in an external real case. It tests the forms. An invalid argument can nevertheless have a true conclusion
+      in a particular case; invalidity says the premises do not guarantee it.
+
+
+      **Repair:** A counterexample that makes the conditional false is not a counterexample to validity.
+      Mark every premise and the conclusion, then try again while holding every premise true.
+
+
+      ### Check B
+
+
+      P1: Every room with enough seats is available for this group at the stated time. P2: Room M has
+      enough seats. C: Room M is available for this group at the stated time. With “available” held fixed,
+      this all–member–property form is valid.
+
+
+      The 14-seat listing supports the capacity comparison 14 >= 12, subject to the dated source''s scope.
+      The reservation confirmation is relevant positive evidence of a booking, but it does not by itself
+      establish that every sufficiently large room is available or guarantee operational access. The broad
+      first premise is not established. Do not label it false merely because it is unsupported; do not
+      label the argument sound merely because there is a reservation.
+
+
+      The organizer making the broad availability claim bears the burden of supporting it. A critic can
+      identify the gap without proving the room will be locked. A critic who asserts that the room definitely
+      will be locked has made a new claim requiring support.
+
+
+      A bounded check is to ask the facility contact whether this group''s confirmed booking will have
+      access at the stated time and whether there are current closure conditions. Until answered, distinguish
+      the supported capacity and recorded reservation from operational uncertainty. Neither “definitely
+      open” nor “definitely locked” follows solely from the missing record.
+
+
+      The open/not-open claims conflict only with the same room, meaning, time, and conditions. Different
+      dates may describe a change rather than a contradiction. The capacity/availability substitution
+      is an equivocation if it is used to defend the original access conclusion. A narrower repair can
+      establish “Room M''s listed seating capacity is sufficient for 12 people”; it cannot substitute
+      for an access check.
+
+
+      “Nobody proved it will be locked” supplies no positive access record by itself. It is not enough
+      to close the missing premise. Explain that failed move instead of relying only on a fallacy name.
+
+
+      **Repair:** Report “valid form; broad availability premise unresolved; soundness not established;
+      actual access unresolved.” Then identify the specific source check that could justify a narrower
+      practical conclusion.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

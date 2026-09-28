@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1105-SCHEDULING-AND-REALISTIC-CAPACITY-01
 slug: c1105-scheduling-and-realistic-capacity-practice
-name: Bounded Scheduling and realistic capacity Practice
+name: Build a day plan that can absorb an ordinary interruption
 parent_competency_id: '11.05'
 domain_id: '11'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 11.05
-      (Scheduling and realistic capacity); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 11.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,38 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Scheduling and realistic capacity through a bounded audit and redesign bounded by
-    the canonical scope: Allocate time using duration, energy, buffers, recovery, and competing responsibilities.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Plans survive normal
-    interruption because they reflect actual capacity. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Schedule commitments against duration ranges, usable energy, buffers, recovery and competing
+    responsibilities, then revise from a real interruption rather than an ideal day.
+  why_recommended: Schedule commitments against duration ranges, usable energy, buffers, recovery and
+    competing responsibilities, then revise from a real interruption rather than an ideal day.
   claims:
-  - statement: Using the canonical scope and evidence target for Scheduling and realistic capacity is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Schedule commitments against duration ranges, usable energy, buffers, recovery and competing
+      responsibilities, then revise from a real interruption rather than an ideal day.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Scheduling and realistic capacity practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Scheduling and realistic capacity as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Scheduling and realistic
-    capacity context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Scheduling
-    and realistic capacity; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use flexible windows rather than clock times for variable care or disability-related
+    capacity. A support person or accessible calendar may carry reminders. In externally imposed overload,
+    record the infeasible sum and request scope or staffing changes instead of relying on unpaid extra
+    hours.
+  opportunity_considerations: 'Default available window: 9 a.m. to noon. It contains a fixed 30-minute
+    appointment, a 40–60 minute form, a 20–30 minute errand and a recovery break. Protect a 30-minute
+    interruption buffer and include transitions. Use the actual energy-demanding item first only when
+    that fits the person’s usable energy, not a universal morning rule.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Scheduling and realistic capacity.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default available window: 9 a.m. to noon. It contains a fixed 30-minute appointment, a 40–60 minute
+    form, a 20–30 minute errand and a recovery break. Protect a 30-minute interruption buffer and include
+    transitions. Use the actual energy-demanding item first only when that fits the person’s usable energy,
+    not a universal morning rule.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Scheduling and realistic capacity
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use flexible windows rather than clock times for variable care or disability-related capacity. A support
+    person or accessible calendar may carry reminders. In externally imposed overload, record the infeasible
+    sum and request scope or staffing changes instead of relying on unpaid extra hours.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -80,19 +82,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Scheduling and realistic capacity actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Scheduling and realistic capacity; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Scheduling
-    and realistic capacity. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Scheduling and realistic capacity actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default available window: 9 a.m. to noon. It contains a fixed 30-minute appointment, a 40–60
+    minute form, a 20–30 minute errand and a recovery break. Protect a 30-minute interruption buffer and
+    include transitions. Use the actual energy-demanding item first only when that fits the person’s usable
+    energy, not a universal morning rule. Goal: Schedule commitments against duration ranges, usable energy,
+    buffers, recovery and competing responsibilities, then revise from a real interruption rather than
+    an ideal day. Scope: The exercise tests planning realism for one day. It does not make unavoidable
+    overload, unpredictable illness or insecure work an individual scheduling failure. Time and effort:
+    Fifteen minutes before the day and ten minutes afterward; no continuous timer is required. Adaptation:
+    Use flexible windows rather than clock times for variable care or disability-related capacity. A support
+    person or accessible calendar may carry reminders. In externally imposed overload, record the infeasible
+    sum and request scope or staffing changes instead of relying on unpaid extra hours. Keep personal
+    working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use flexible windows rather than clock times for variable care or disability-related
+    capacity. A support person or accessible calendar may carry reminders. In externally imposed overload,
+    record the infeasible sum and request scope or staffing changes instead of relying on unpaid extra
+    hours.
+  expected_burden: Fifteen minutes before the day and ten minutes afterward; no continuous timer is required.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Scheduling and realistic capacity protocol to rank worth, coerce participation, demand disclosure,
@@ -100,18 +110,24 @@ intervention:
   - Treating a completed Scheduling and realistic capacity action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Scheduling and realistic capacity situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use flexible
+    windows rather than clock times for variable care or disability-related capacity. A support person
+    or accessible calendar may carry reminders. In externally imposed overload, record the infeasible
+    sum and request scope or staffing changes instead of relying on unpaid extra hours.
   actions:
   - stable_id: PRACTICE-COMP-1105-SCHEDULING-AND-REALISTIC-CAPACITY-01-A1
     sequence: 1
-    title: Audit one bounded Scheduling and realistic capacity context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Scheduling and realistic
-      capacity. Use the canonical scope to name observable conditions without diagnosing people or systems:
-      Allocate time using duration, energy, buffers, recovery, and competing responsibilities.'
+    title: Price the whole day before allocating the open blocks
+    instructions: 'List fixed commitments, travel, preparation, meals, care and recovery, then identify
+      the genuinely flexible window. Estimate uncertain tasks as ranges based on a previous attempt or
+      a stated guess. Check the default using upper bounds: appointment 30, form 60, errand 30 and buffer
+      30 leave 30 minutes for transitions and rest. If the sum does not fit, reduce scope before scheduling.
+
+
+      Observation checks: Fixed duties transitions and recovery are included; Uncertain durations use
+      ranges with their basis stated; Available capacity is calculated rather than assumed; Overload triggers
+      scope reduction before promises are made. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -133,9 +149,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1105_a1_one_context_only
-        - c1105_a1_observable_conditions_recorded
-        - c1105_a1_hazards_excluded
+        - fixed_duties_transitions_and_recovery_are_included
+        - uncertain_durations_use_ranges_with_their_basis_stated
+        - available_capacity_is_calculated_rather_than_assumed
+        - overload_triggers_scope_reduction_before_promises_are_made
       - measurement_id: c1105_a1_boundary
         kind: boolean
         role: supporting
@@ -152,10 +169,17 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1105-SCHEDULING-AND-REALISTIC-CAPACITY-01-A2
     sequence: 2
-    title: Make one reversible Scheduling and realistic capacity redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Scheduling and realistic capacity. Record the intended effect, cost or burden, and a rollback
-      condition before changing anything.
+    title: Place demanding work and define the interruption rule
+    instructions: 'Assign tasks to suitable energy and access windows, leave the buffer uncommitted and
+      identify what moves first if time is lost. For the default, the optional errand moves before a genuinely
+      time-critical form, unless the errand is itself essential. Set a latest useful start and an early
+      communication point for any commitment at risk; do not consume all recovery to rescue the plan.
+
+
+      Observation checks: Energy and access influence task placement; A real buffer remains unallocated;
+      An explicit task moves first when time is lost; Latest starts and early communication points are
+      set. Mark only what you observed. Missing, mixed and negative results are valid; a deferred action
+      is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -177,9 +201,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1105_a2_change_traces_to_finding
-        - c1105_a2_rollback_defined
-        - c1105_a2_burden_recorded
+        - energy_and_access_influence_task_placement
+        - a_real_buffer_remains_unallocated
+        - an_explicit_task_moves_first_when_time_is_lost
+        - latest_starts_and_early_communication_points_are_set
       - measurement_id: c1105_a2_boundary
         kind: boolean
         role: supporting
@@ -196,10 +221,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1105-SCHEDULING-AND-REALISTIC-CAPACITY-01-A3
     sequence: 3
-    title: Compare the Scheduling and realistic capacity context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: Plans survive
-      normal interruption because they reflect actual capacity.'
+    title: Run the day and compare planned with actual constraints
+    instructions: 'Use the plan on an ordinary day and note only major start/end ranges, interruptions
+      and changes. Do not create a disruption to test yourself. Afterward identify one estimate error,
+      one unavoidable event and one scheduling choice. Adjust tomorrow’s task size, buffer or promise
+      using those distinctions, retaining any missed obligation for repair rather than deleting it from
+      the record.
+
+
+      Observation checks: The plan is used without manufacturing an interruption; Actual timing and interruptions
+      remain visible; Estimate errors external events and choices are separated; A specific scheduling
+      adjustment or obligation repair follows. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: What absorbed the interruption, and which estimate or promise must change so the next
+      plan does not depend on sacrificing recovery?
+
+
+      Examples: Supportive: A twenty-minute interruption used the buffer and the optional errand moved
+      without missing the fixed appointment.
+
+
+      Mixed: The main task finished, but uncounted travel consumed the recovery break, so capacity was
+      overestimated.
+
+
+      Contradictory: The plan was declared successful only because meals, needed care or sleep were removed.
+
+
+      Inconclusive: A full calendar was produced without adding durations or deciding what would move
+      when a task ran long.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -221,9 +273,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1105_a3_same_context_compared
-        - c1105_a3_mixed_or_null_result_allowed
-        - c1105_a3_target_evidence_reviewed
+        - the_plan_is_used_without_manufacturing_an_interruption
+        - actual_timing_and_interruptions_remain_visible
+        - estimate_errors_external_events_and_choices_are_separated
+        - a_specific_scheduling_adjustment_or_obligation_repair_follows
       - measurement_id: c1105_a3_boundary
         kind: boolean
         role: supporting
@@ -244,17 +297,17 @@ intervention:
       Scheduling and realistic capacity; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Scheduling and realistic capacity; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use flexible windows rather than clock times for variable care or disability-related capacity. A
+      support person or accessible calendar may carry reminders. In externally imposed overload, record
+      the infeasible sum and request scope or staffing changes instead of relying on unpaid extra hours.
     cultural_context:
     - Adapt the expression of Scheduling and realistic capacity to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Scheduling and realistic capacity opportunity is unavailable or inappropriate, use a
-      fictional, historical, public, simulated, or planning-only equivalent and retain the narrower evidence
-      classification.
+    - Use flexible windows rather than clock times for variable care or disability-related capacity. A
+      support person or accessible calendar may carry reminders. In externally imposed overload, record
+      the infeasible sum and request scope or staffing changes instead of relying on unpaid extra hours.
   pause_conditions:
   - Pause Scheduling and realistic capacity when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -286,10 +339,7 @@ evidence_and_scoring:
   - c1105_a3_boundary
   - c1105_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Scheduling and realistic capacity action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Scheduling and realistic capacity criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The plan was declared successful only because meals, needed care or sleep were removed.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Scheduling and realistic capacity explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -300,14 +350,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Scheduling and realistic capacity rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Plans survive normal interruption because they reflect actual capacity.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Scheduling and realistic capacity requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Price the whole day before allocating the open blocks. Observed checks:
+    Fixed duties transitions and recovery are included; Uncertain durations use ranges with their basis
+    stated; Available capacity is calculated rather than assumed; Overload triggers scope reduction before
+    promises are made. Action 2: Place demanding work and define the interruption rule. Observed checks:
+    Energy and access influence task placement; A real buffer remains unallocated; An explicit task moves
+    first when time is lost; Latest starts and early communication points are set. Action 3: Run the day
+    and compare planned with actual constraints. Observed checks: The plan is used without manufacturing
+    an interruption; Actual timing and interruptions remain visible; Estimate errors external events and
+    choices are separated; A specific scheduling adjustment or obligation repair follows.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A full calendar was produced without adding durations
+    or deciding what would move when a task ran long.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Scheduling
     and realistic capacity contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -317,9 +375,8 @@ evidence_and_scoring:
   - L11
   - L17
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Scheduling and realistic capacity evidence.
@@ -327,12 +384,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded scheduling and realistic capacity context action was attempted or explicitly
-    deferred.
-  - The make one reversible scheduling and realistic capacity redesign action was attempted or explicitly
-    deferred.
-  - The compare the scheduling and realistic capacity context after the change action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Price the whole day before allocating the open blocks. Observed checks: Fixed duties transitions
+    and recovery are included; Uncertain durations use ranges with their basis stated; Available capacity
+    is calculated rather than assumed; Overload triggers scope reduction before promises are made.'
+  - 'Action 2: Place demanding work and define the interruption rule. Observed checks: Energy and access
+    influence task placement; A real buffer remains unallocated; An explicit task moves first when time
+    is lost; Latest starts and early communication points are set.'
+  - 'Action 3: Run the day and compare planned with actual constraints. Observed checks: The plan is used
+    without manufacturing an interruption; Actual timing and interruptions remain visible; Estimate errors
+    external events and choices are separated; A specific scheduling adjustment or obligation repair follows.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -341,57 +404,390 @@ completion_and_review:
     - c1105_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Scheduling and realistic capacity only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Scheduling and realistic capacity across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What absorbed the interruption, and which estimate or promise must change so the
+    next plan does not depend on sacrificing recovery?
+  transfer_limit: The exercise tests planning realism for one day. It does not make unavoidable overload,
+    unpredictable illness or insecure work an individual scheduling failure.
   reflection:
-    before: What does Scheduling and realistic capacity require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Scheduling and realistic capacity criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Plans survive normal interruption because they reflect actual
-      capacity.', what contradiction or missing context matters most, and should this Scheduling and realistic
-      capacity design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Schedule commitments against duration ranges,
+      usable energy, buffers, recovery and competing responsibilities, then revise from a real interruption
+      rather than an ideal day.'
+    during: Which checks have actually been observed? The main task finished, but uncounted travel consumed
+      the recovery break, so capacity was overestimated.
+    after: What absorbed the interruption, and which estimate or promise must change so the next plan
+      does not depend on sacrificing recovery?
   review_guidance:
     repeat: Repeat the same bounded Scheduling and realistic capacity design only when the context and
       burden remain appropriate.
-    adapt: Change the Scheduling and realistic capacity medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use flexible windows rather than clock times for variable care or disability-related capacity.
+      A support person or accessible calendar may carry reminders. In externally imposed overload, record
+      the infeasible sum and request scope or staffing changes instead of relying on unpaid extra hours.
     stop: Stop Scheduling and realistic capacity when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Scheduling and realistic capacity questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Scheduling and realistic capacity criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Scheduling and realistic capacity criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Scheduling and realistic capacity criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Scheduling and realistic capacity action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A twenty-minute interruption used the buffer and the optional errand moved without missing
+      the fixed appointment.
+    mixed: The main task finished, but uncounted travel consumed the recovery break, so capacity was overestimated.
+    contradictory: The plan was declared successful only because meals, needed care or sleep were removed.
+    inconclusive: A full calendar was produced without adding durations or deciding what would move when
+      a task ran long.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Scheduling and realistic capacity.
+    context_heading: Build a day plan that can absorb an ordinary interruption
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Scheduling
       and realistic capacity.
   check_in_labels:
-    c1105_a1_primary: The bounded Scheduling and realistic capacity criterion for action 1 was observed
+    c1105_a1_primary: 'Observed checks: price the whole day before allocating the open blocks'
     c1105_a1_boundary: Action 1 stayed inside its stated Scheduling and realistic capacity boundary
     c1105_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1105_a2_primary: The bounded Scheduling and realistic capacity criterion for action 2 was observed
+    c1105_a2_primary: 'Observed checks: place demanding work and define the interruption rule'
     c1105_a2_boundary: Action 2 stayed inside its stated Scheduling and realistic capacity boundary
     c1105_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1105_a3_primary: The bounded Scheduling and realistic capacity criterion for action 3 was observed
+    c1105_a3_primary: 'Observed checks: run the day and compare planned with actual constraints'
     c1105_a3_boundary: Action 3 stayed inside its stated Scheduling and realistic capacity boundary
     c1105_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Scheduling and realistic
-    capacity practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What absorbed the interruption, and which estimate or promise must change so the next
+    plan does not depend on sacrificing recovery? Completion is not mastery.
+  plain_language_evidence: A twenty-minute interruption used the buffer and the optional errand moved
+    without missing the fixed appointment.
   display_order: 141
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '11.05'
+  title: 11.05 — Scheduling and realistic capacity
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [NASA, 6.1 Technical Planning](https://www.nasa.gov/reference/6-1-technical-planning/)
+
+      - [NASA, 6.7 Technical Assessment](https://www.nasa.gov/reference/6-7-technical-assessment/)
+
+      - [Institute for Healthcare Improvement, Model for Improvement](https://www.ihi.org/library/model-for-improvement)
+
+      - [CDC/NIOSH, Fatigue and Work](https://www.cdc.gov/niosh/fatigue/about/index.html)
+
+      - [Western Australia Centre for Clinical Interventions, Assertiveness](https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Assertiveness)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'These are alternative fictional branches, not events the learner experienced.
+
+
+      **A: access defeats a simple subtraction.** Everything through recovery finishes exactly as planned
+      at 10:55. An unavoidable 20-minute interruption occupies 10:55–11:15 before the errand transition
+      begins. The errand needs its full 30 minutes; the desk still closes at 11:45. No extension has been
+      agreed. Produce the revised remaining schedule and identify what stays pending. Do not remove recovery
+      retroactively.
+
+
+      **B: early deadline exposure.** The form needs its full 60 active minutes. An interruption occupies
+      09:25–09:45; the 20 minutes of form work already completed are retained. Forty active minutes remain
+      at 09:45. The appointment still starts at 10:10, requires five minutes of transition, and cannot
+      move by unilateral decision. At 09:25 the interruption''s 20-minute duration is known. It is a call
+      from the appointment desk, and reporting the form risk is possible in the first minute of that same
+      call; this notification is included in the 20 minutes, not additional simultaneous work. Decide
+      when to communicate, what the original plan can no longer accomplish, and which status to preserve
+      if no reply arrives. No alternative is accepted in this packet.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Make the plan fit the day
+
+
+      A usable schedule assigns work to times when its prerequisites, access and your capacity are present.
+      Adding durations is the first check; fitting them into actual intervals is the second. A spare half-hour
+      at noon cannot rescue a form due before an appointment at ten.
+
+
+      This guide practices allocating duration ranges, energy, transitions, recovery, buffers and competing
+      responsibilities. It is suitable for an ordinary day you can partly plan. It does not make imposed
+      overload, changing disability-related capacity or insecure work your fault. Use the complete fictional
+      morning below when there is no suitable live day. No calendar account, purchase, personal disclosure
+      or manufactured interruption is needed.
+
+
+      Allow 15 minutes to make the paper plan, 10 to analyze the update, and 10 for the separate checks.
+      Paper, a text editor, dictation or movable labeled cards suffice. You need to add minutes and read
+      a clock; the reference below supports both. This simulation produces a baseline, revised schedule
+      and communication decision. It cannot establish that you used a schedule in life.
+
+
+      ### Reference: capacity is located, and uncertainty stays visible
+
+
+      A **duration range** records uncertainty, not permission to pick the smaller number when the plan
+      is crowded. Use an earlier comparable attempt where available and label guesses. Here the upper
+      bounds are stipulated case assumptions, not population estimates. Reserve the upper bound for commitments,
+      then release unused time only after work actually finishes.
+
+
+      A **fixed interval** cannot move without the relevant agreement. An **access window** says when
+      a place, resource or input is usable. An **energy window** is a person''s stated fit for a kind
+      of work, not a universal morning preference. **Transitions** include preparing, changing location
+      or switching equipment. **Recovery** meets a real need and remains protected. A **buffer** is uncommitted
+      capacity reserved against uncertainty; it is not another task to finish or an extra copy of time
+      already assigned.
+
+
+      Use half-open intervals: 09:00–09:05 occupies five minutes and may be followed immediately by 09:05–09:20.
+      A task requiring 30 uninterrupted minutes cannot fit in two separate 20-minute gaps unless splitting
+      is explicitly allowed. Two independent tasks still compete for one person''s attention.
+
+
+      For a task with deadline D, upper duration U and required final transition T, the latest useful
+      start is D minus U minus T, then checked against access and energy. If prerequisites cannot be ready
+      by that start, communicate as soon as that becomes apparent. Waiting until the deadline removes
+      useful alternatives. A promise changes only through the appropriate agreement; changing your own
+      optional plan needs no invented acceptance.
+
+
+      ### A different worked example
+
+
+      A label must reach a desk by 14:00. Making it takes 15–20 minutes and walking to the desk takes
+      five. The latest useful start is 13:35: 20 + 5 = 25 minutes before 14:00. Access to the printer
+      starts at 13:45, so the proposed plan is infeasible even though the afternoon has 90 free minutes.
+      Ask about an authorized alternative format or a changed deadline before promising delivery. Removing
+      a needed break does not open the printer sooner.
+
+
+      ### Complete practice materials: one fictional morning
+
+
+      You are planning 09:00–12:00. You are the sole worker. At 12:00 an existing care duty begins; it
+      cannot be delayed. The person has stated that the form is suitable between 09:00 and 10:05. Keep
+      their existing support and recovery needs. The form''s inputs are all available at 09:00. Completion
+      means all pages checked before leaving for the appointment, not merely opening the form.
+
+
+      | Item | Duration minutes | Constraint |
+
+      | --- | --- | --- |
+
+      | Prepare form materials | 5 | Before form |
+
+      | Complete and check form | 40–60 | May pause; finish by 10:05; suited to 09:00–10:05 |
+
+      | Move to appointment | 5 | After form, arrive by 10:10 |
+
+      | Fixed appointment | 30 | 10:10–10:40; already agreed |
+
+      | Recovery | 15 | Immediately after appointment; protected |
+
+      | Move to errand desk | 5 | After recovery, before errand |
+
+      | Optional errand | 20–30 | One continuous block; desk open 11:00–11:45 |
+
+      | Reserved buffer | 30 | Uncommitted time; use at most once |
+
+
+      The errand is optional and has no recipient relying on completion today. If it moves, record “pending,
+      next suitable window to be chosen,” not “done.” All durations include the stated work; do not add
+      unlisted travel. There is no travel back after the errand in this toy case. In life, explicitly
+      include such travel if needed.
+
+
+      #### Action 1 — Preserve a feasible baseline
+
+
+      Calculate the upper-bound demand, then place every item. Save your attempt before comparing with
+      this worked baseline:
+
+
+      | Baseline interval | Allocation | Minutes |
+
+      | --- | --- | --- |
+
+      | 09:00–09:05 | Prepare form materials | 5 |
+
+      | 09:05–10:05 | Complete and check form | 60 |
+
+      | 10:05–10:10 | Move to appointment | 5 |
+
+      | 10:10–10:40 | Fixed appointment | 30 |
+
+      | 10:40–10:55 | Recovery | 15 |
+
+      | 10:55–11:00 | Move to errand desk | 5 |
+
+      | 11:00–11:30 | Optional errand | 30 |
+
+      | 11:30–12:00 | Reserved buffer | 30 |
+
+
+      The sum is 180 minutes. Every dependency fits, the errand ends before 11:45, and the form fits the
+      stated energy window. The upper-duration latest starts are 09:05 for the form and 11:15 for the
+      errand. The baseline has no slack before the form deadline. Record this exposure; the later buffer
+      is not protection for every morning risk.
+
+
+      Use: `version | assumptions | intervals | latest starts | threatened duty | communication trigger
+      | first optional work to move`.
+
+
+      #### Action 2 — Update from an interruption
+
+
+      Write the rule before opening [later-packet.md](?resource=file-later-packet-md): protect the appointment,
+      recovery and noon duty; move the optional errand when it no longer fits; communicate immediately
+      if the form deadline becomes infeasible. Apply the two later branches separately, preserving the
+      original plan. Do not combine a short form duration from one branch with an interruption from another.
+
+
+      For each branch, show occupied and unallocated minutes without overlap. Keep a buffer ledger: original
+      reserve, minutes actually used, minutes released by moved work, remaining free time. Freed time
+      is not proof that a moved task finished. If the interruption is before an access deadline, test
+      intervals again rather than subtracting only from the end-of-day total.
+
+
+      #### Action 3 — Close the planning loop honestly
+
+
+      Use the update to identify an estimate error, an external event and a scheduling choice; explicitly
+      say when a category has no evidence. Write one change to the next plan, such as reserving time before
+      the vulnerable deadline or arranging an agreed alternative before making the promise. Record any
+      open commitment and the next useful contact. Do not rewrite a missed deadline as the original plan.
+
+
+      Then attempt [check-prompts.md](?attempt=practice-checks), saving answers before opening [check-answers.md](?check=practice-answers).
+      A complete source learning artifact has both schedules, feasibility arithmetic, a single-use buffer
+      ledger, the latest-start communication rule and an honest pending-work record. Keep the paper result
+      distinct from actual follow-through.
+
+
+      ### Access, challenge and later transfer
+
+
+      Use durations relative to an anchor (“after the appointment”) when exact clock times are inaccessible,
+      while retaining the actual fixed boundary. A planning aid may add and read the intervals; record
+      that support. Variable-capacity routes may use shorter windows and explicit uncertainty rather than
+      pretending a stable three-hour block exists. When externally imposed duties exceed capacity, retain
+      the infeasible plan and use the appropriate scope/support channel.
+
+
+      For a harder supplied variation, the five-minute materials preparation is complete by 09:05, but
+      one required form input arrives at 09:15. The form still needs 60 minutes plus the five-minute transition.
+      Record the 10-minute shortfall before 10:10; propose an alternative without marking it accepted.
+      An advanced live route can compare three ordinary days using actual major time ranges, with no continuous
+      tracking. Change one estimate from those observations.
+
+
+      At the next suitable real day, preserve your plan, use it, and record naturally occurring changes
+      afterward. If no interruption occurs, that day supplies no interruption-recovery evidence. Do not
+      manufacture a disruption. Record supported use separately from unaided use and from an independent
+      observer''s actual report.
+
+
+      **Supportive:** Intervals and access fit; a normal interruption leaves fixed duties protected and
+      moved work openly pending.
+
+
+      **Mixed:** The arithmetic fits but an omitted transition eats into recovery; revise the plan rather
+      than calling it fully feasible.
+
+
+      **Contradictory:** The same buffer minutes are used twice, a deadline is silently moved, or recovery/care
+      is removed to declare success.
+
+
+      **Inconclusive:** Only a task list exists, or actual start/end information is insufficient to assess
+      the live plan.
+
+
+      Planning background: [source notes](?resource=sources). No short exercise establishes general time-management
+      skill or therapeutic benefit.'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Save your own calculations before opening check-answers.md. These checks are fictional and
+      unscored.
+
+
+      ### Check 1 — Total time versus usable intervals
+
+
+      One person has free intervals 13:00–13:20 and 13:35–14:00. A task requires 30 uninterrupted minutes
+      with the needed device available throughout both free intervals. A five-minute handoff must follow
+      it and finish by 14:00. Can the task and handoff fit? Give the total free minutes, longest free
+      interval, latest task start and a useful next decision. No one has agreed to move the 13:20–13:35
+      duty.
+
+
+      ### Check 2 — A buffer can be spent once
+
+
+      A 120-minute window contains 75 minutes of planned work, 15 minutes of protected recovery and 30
+      minutes of reserve. Interruption X uses 20 reserve minutes. Interruption Y then needs 15. Work includes
+      an optional 10-minute task that has not started and has no external commitment. Calculate the shortfall,
+      move that optional task if necessary, and state the remaining free minutes and task status. Is keeping
+      all 30 original reserve minutes on the revised calendar valid?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '### Default update A
+
+
+      The next possible transition is 11:15–11:20; a 30-minute errand would end at 11:50, five minutes
+      after closing. Its latest start was 11:15. Move the errand and its now-unneeded five-minute transition.
+      Revised allocations: all 115 minutes through 10:55 unchanged; interruption 10:55–11:15 (20); unallocated
+      11:15–12:00 (45). Total 115 + 20 + 45 = 180. Ledger: 30 original reserve − 20 interruption + 30
+      moved errand + 5 released transition = 45 free. That ledger reconciles capacity; the actual interval
+      check explains why the errand moved. Noon care and recovery remain protected; the errand is pending.
+
+
+      A plausible partial answer spends 20 reserve minutes and leaves 10, but still schedules the errand
+      after its access closes. Correct the interval, then recalculate the released work. A polished calendar
+      with 45 free minutes and an errand marked done is false accounting.
+
+
+      ### Default update B
+
+
+      At 09:25 communicate that the original form deadline is at risk and cannot fit at the stated upper
+      duration: 20 active minutes before the interruption plus 40 afterward would finish at 10:25, with
+      arrival at 10:30. Only 20 active minutes are available from 09:45 to the 10:05 transition boundary,
+      leaving 20 form minutes unfinished if the appointment is protected. Ask whether an explicitly permitted
+      incomplete-form appointment or another arrangement is available. With no reply, retain the original
+      promise and unresolved exception; do not assume permission or report the form finished. The later
+      30-minute reserve cannot move backward in time. No estimate error is established by a task taking
+      its stated upper bound; the interruption is external and the vulnerable placement is a planning
+      choice.
+
+
+      ### Check 1
+
+
+      There are 45 free minutes, but the longest contiguous interval is 25. The latest task start for
+      a 14:00 handoff finish is 13:25, inside the fixed duty. Neither interval contains the required 35
+      contiguous minutes. The plan is infeasible. Seek an authorized changed time, different resource/process
+      or reduced deliverable; keep it a proposal until agreed. Adding the two gaps or silently splitting
+      the task is incorrect.
+
+
+      ### Check 2
+
+
+      After X, reserve is 10. Y requires 15, so the shortfall is 5. Defer the optional 10-minute task:
+      65 work + 15 recovery + 35 interruptions + 5 free = 120. Record the optional task pending, with
+      a later decision to schedule or drop it. The original 30-minute reserve has been consumed; retaining
+      another 30 would double-count capacity. Reducing recovery instead fails the stipulated constraints.
+
+
+      Use a supported correction if arithmetic was the barrier. Save the first answer and correction separately
+      so improvement in the worksheet is visible without inventing a successful real day.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

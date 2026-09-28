@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2303-EMERGENCY-RESERVES-AND-LIQUIDITY-01
 slug: c2303-emergency-reserves-and-liquidity-practice
-name: Bounded Emergency reserves and liquidity Practice
+name: Design an accessible reserve around a specific disruption
 parent_competency_id: '23.03'
 domain_id: '23'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 23.03
-      (Emergency reserves and liquidity); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 23.03; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,38 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Emergency reserves and liquidity through a non-confrontational safety preparation
-    bounded by the canonical scope: Estimate foreseeable disruptions and build accessible reserves.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Common emergencies
-    no longer require immediate panic or high-cost debt. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Identify a plausible cash disruption, define a proportionate reserve purpose and test whether
+    the proposed money would actually be accessible when needed.
+  why_recommended: Identify a plausible cash disruption, define a proportionate reserve purpose and test
+    whether the proposed money would actually be accessible when needed.
   claims:
-  - statement: Using the canonical scope and evidence target for Emergency reserves and liquidity is a
-      traceable product-design basis for a source-only draft protocol.
+  - statement: Identify a plausible cash disruption, define a proportionate reserve purpose and test whether
+      the proposed money would actually be accessible when needed.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Emergency reserves and liquidity practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Emergency reserves and liquidity as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Emergency reserves
-    and liquidity context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Emergency
-    reserves and liquidity; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use a smaller first target, accessible banking support or a qualified benefits
+    counselor when asset limits matter. Lack of surplus is a material constraint, not failure. Do not
+    recommend risky investments for money needed immediately, incur fees to complete the task or share
+    banking credentials with a helper.
+  opportunity_considerations: Use the fictional choice of a 600 essential repair or a 900 temporary income
+    gap. List existing accessible cash as 200 and an affordable possible contribution as 50 per month
+    only for this example. Prepare columns for event, timing, amount, available resources, access restrictions
+    and remaining gap. No real transfer or account opening is required.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Emergency reserves and liquidity.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the fictional choice of a 600 essential repair or a 900 temporary income gap. List existing accessible
+    cash as 200 and an affordable possible contribution as 50 per month only for this example. Prepare
+    columns for event, timing, amount, available resources, access restrictions and remaining gap. No
+    real transfer or account opening is required.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Emergency reserves and liquidity
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a smaller first target, accessible banking support or a qualified benefits counselor when asset
+    limits matter. Lack of surplus is a material constraint, not failure. Do not recommend risky investments
+    for money needed immediately, incur fees to complete the task or share banking credentials with a
+    helper.
   role_conditions:
   - This competency is context sensitive; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -80,19 +83,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Emergency reserves and liquidity actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Emergency reserves and liquidity; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Emergency
-    reserves and liquidity. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Emergency reserves and liquidity actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the fictional choice of a 600 essential repair or a 900 temporary income gap. List existing
+    accessible cash as 200 and an affordable possible contribution as 50 per month only for this example.
+    Prepare columns for event, timing, amount, available resources, access restrictions and remaining
+    gap. No real transfer or account opening is required. Goal: Identify a plausible cash disruption,
+    define a proportionate reserve purpose and test whether the proposed money would actually be accessible
+    when needed. Scope: This produces a reserve plan and access check, not a claim that a fund exists
+    or a universal target measured in months. Investment and banking rules depend on the place and product.
+    Time and effort: Two twenty-minute planning and verification periods, followed by a brief scheduled
+    funding review. Adaptation: Use a smaller first target, accessible banking support or a qualified
+    benefits counselor when asset limits matter. Lack of surplus is a material constraint, not failure.
+    Do not recommend risky investments for money needed immediately, incur fees to complete the task or
+    share banking credentials with a helper. Keep personal working notes outside the check-in; record
+    only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a smaller first target, accessible banking support or a qualified benefits
+    counselor when asset limits matter. Lack of surplus is a material constraint, not failure. Do not
+    recommend risky investments for money needed immediately, incur fees to complete the task or share
+    banking credentials with a helper.
+  expected_burden: Two twenty-minute planning and verification periods, followed by a brief scheduled
+    funding review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Emergency reserves and liquidity protocol to rank worth, coerce participation, demand disclosure,
@@ -100,19 +113,25 @@ intervention:
   - Treating a completed Emergency reserves and liquidity action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Emergency reserves and liquidity situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed
-    or jurisdiction-specific advice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a smaller
+    first target, accessible banking support or a qualified benefits counselor when asset limits matter.
+    Lack of surplus is a material constraint, not failure. Do not recommend risky investments for money
+    needed immediately, incur fees to complete the task or share banking credentials with a helper.
   actions:
   - stable_id: PRACTICE-COMP-2303-EMERGENCY-RESERVES-AND-LIQUIDITY-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Emergency reserves and liquidity
-    instructions: 'Define one planning-only question for Emergency reserves and liquidity, the hazards
-      that must not be rehearsed, and the local qualified or emergency authority that supersedes this
-      source-only protocol. Do not create, approach, or simulate danger: Estimate foreseeable disruptions
-      and build accessible reserves.'
+    title: Size the need from consequences and resources
+    instructions: 'For each supplied disruption, explain when money is needed, what happens without it
+      and which resources are dependable rather than merely hoped for. Calculate gaps of 400 and 700 after
+      the 200 cash. Select a first reserve purpose and justify it from severity, likelihood and timing,
+      not a universal three- or six-month slogan. Separate predictable annual bills from genuine unexpected
+      disruptions and note debts, benefits limits or care obligations that could alter a real plan.
+
+
+      Observation checks: Both disruptions have timing and consequence descriptions; Existing cash leaves
+      gaps of 400 and 700; The first target has a context-based reason; Predictable expenses and relevant
+      constraints are not hidden inside emergencies. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +153,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2303_a1_planning_scope_bounded
-        - c2303_a1_hazards_excluded
-        - c2303_a1_authority_identified
+        - both_disruptions_have_timing_and_consequence_descriptions
+        - existing_cash_leaves_gaps_of_400_and_700
+        - the_first_target_has_a_context_based_reason
+        - predictable_expenses_and_relevant_constraints_are_not_hidden_inside_emergencies
       - measurement_id: c2303_a1_boundary
         kind: boolean
         role: supporting
@@ -153,11 +173,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2303-EMERGENCY-RESERVES-AND-LIQUIDITY-01-A2
     sequence: 2
-    title: Prepare one safe Emergency reserves and liquidity support step
-    instructions: Create one non-confrontational Emergency reserves and liquidity step such as locating
-      official guidance, checking accessible contact information, assembling a category-level checklist,
-      or scheduling qualified instruction. Do not test emergency response, weapons, rescue, medical treatment,
-      confrontation, evasion, or hazardous equipment.
+    title: Check access rather than relying on an account label
+    instructions: 'Read the official terms for one locally available type of safe cash storage or use
+      an educator-provided sample disclosure. Record withdrawal timing, access method, fees, minimums
+      and applicable protection; mark anything unverified. In the United States, verify an institution
+      and deposit type rather than assuming a payment app or investment is FDIC-insured. Rehearse finding
+      the money-access instructions without moving funds, exposing credentials or disabling account security.
+
+
+      Observation checks: Access timing and restrictions are checked in an actual disclosure; Fees minimums
+      and protection have explicit dispositions; An account label is not treated as proof of deposit insurance;
+      The access rehearsal shares no credentials and performs no transfer. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -179,9 +206,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2303_a2_step_is_preparatory
-        - c2303_a2_official_or_qualified_path_used
-        - c2303_a2_no_hazard_rehearsed
+        - access_timing_and_restrictions_are_checked_in_an_actual_disclosure
+        - fees_minimums_and_protection_have_explicit_dispositions
+        - an_account_label_is_not_treated_as_proof_of_deposit_insurance
+        - the_access_rehearsal_shares_no_credentials_and_performs_no_transfer
       - measurement_id: c2303_a2_boundary
         kind: boolean
         role: supporting
@@ -198,10 +226,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2303-EMERGENCY-RESERVES-AND-LIQUIDITY-01-A3
     sequence: 3
-    title: Review the Emergency reserves and liquidity plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Common emergencies no longer require immediate panic or high-cost debt.'
+    title: Write a funding and use rule that can be revised
+    instructions: 'At the fictional 50 per month, the gaps would take eight or fourteen monthly contributions
+      to close before any other movements. State that emergencies may arrive sooner. Define permitted
+      uses, a review trigger, a replenishment rule and a fallback such as contacting an appropriate assistance
+      service when the reserve is insufficient. Schedule a capacity review before each contribution; any
+      real saving must protect current essentials and applicable benefits rules. Record a plan, funded
+      balance and tested withdrawal as different evidence.
+
+
+      Observation checks: The contribution arithmetic and time uncertainty are explicit; Use and replenishment
+      rules are tied to the chosen disruption; A realistic insufficient-funds fallback is named; Planned
+      saving is not represented as money already available. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which access or timing assumption could make the reserve fail precisely when needed,
+      and what is the next achievable protection?
+
+
+      Examples: Supportive: The plan identified a 400 repair gap, verified withdrawal restrictions and
+      kept an assistance fallback because eight contributions would not protect against a repair tomorrow.
+
+
+      Mixed: A target was affordable, but the proposed storage required a delay and was changed before
+      being called accessible.
+
+
+      Contradictory: A volatile investment or unverified app balance was described as guaranteed emergency
+      cash, or essential bills were skipped to fund the exercise.
+
+
+      Inconclusive: A reserve target was named without a disruption, access check, contribution capacity
+      or fallback.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -217,15 +274,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2303_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2303_a3_stop_conditions_present
-        - c2303_a3_escalation_path_present
-        - c2303_a3_unknowns_retained
+        - the_contribution_arithmetic_and_time_uncertainty_are_explicit
+        - use_and_replenishment_rules_are_tied_to_the_chosen_disruption
+        - a_realistic_insufficient_funds_fallback_is_named
+        - planned_saving_is_not_represented_as_money_already_available
       - measurement_id: c2303_a3_boundary
         kind: boolean
         role: supporting
@@ -246,17 +304,19 @@ intervention:
       Emergency reserves and liquidity; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Emergency reserves and liquidity; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a smaller first target, accessible banking support or a qualified benefits counselor when asset
+      limits matter. Lack of surplus is a material constraint, not failure. Do not recommend risky investments
+      for money needed immediately, incur fees to complete the task or share banking credentials with
+      a helper.
     cultural_context:
     - Adapt the expression of Emergency reserves and liquidity to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Emergency reserves and liquidity opportunity is unavailable or inappropriate, use a
-      fictional, historical, public, simulated, or planning-only equivalent and retain the narrower evidence
-      classification.
+    - Use a smaller first target, accessible banking support or a qualified benefits counselor when asset
+      limits matter. Lack of surplus is a material constraint, not failure. Do not recommend risky investments
+      for money needed immediately, incur fees to complete the task or share banking credentials with
+      a helper.
   pause_conditions:
   - Pause Emergency reserves and liquidity when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -288,10 +348,8 @@ evidence_and_scoring:
   - c2303_a3_boundary
   - c2303_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Emergency reserves and liquidity action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Emergency reserves and liquidity criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A volatile investment or unverified app balance was described as guaranteed emergency cash, or essential
+    bills were skipped to fund the exercise.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Emergency reserves and liquidity explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -302,14 +360,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Emergency reserves and liquidity rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Common emergencies no longer require immediate panic or high-cost debt.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Emergency reserves and liquidity requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Size the need from consequences and resources. Observed checks: Both
+    disruptions have timing and consequence descriptions; Existing cash leaves gaps of 400 and 700; The
+    first target has a context-based reason; Predictable expenses and relevant constraints are not hidden
+    inside emergencies. Action 2: Check access rather than relying on an account label. Observed checks:
+    Access timing and restrictions are checked in an actual disclosure; Fees minimums and protection have
+    explicit dispositions; An account label is not treated as proof of deposit insurance; The access rehearsal
+    shares no credentials and performs no transfer. Action 3: Write a funding and use rule that can be
+    revised. Observed checks: The contribution arithmetic and time uncertainty are explicit; Use and replenishment
+    rules are tied to the chosen disruption; A realistic insufficient-funds fallback is named; Planned
+    saving is not represented as money already available.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A reserve target was named without a disruption, access
+    check, contribution capacity or fallback.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Emergency
     reserves and liquidity contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -318,9 +385,8 @@ evidence_and_scoring:
   - L10
   - L20
   - L21
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Emergency reserves and liquidity evidence.
@@ -328,12 +394,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for emergency reserves and liquidity action was attempted
-    or explicitly deferred.
-  - The prepare one safe emergency reserves and liquidity support step action was attempted or explicitly
-    deferred.
-  - The review the emergency reserves and liquidity plan against stop conditions action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Size the need from consequences and resources. Observed checks: Both disruptions have timing
+    and consequence descriptions; Existing cash leaves gaps of 400 and 700; The first target has a context-based
+    reason; Predictable expenses and relevant constraints are not hidden inside emergencies.'
+  - 'Action 2: Check access rather than relying on an account label. Observed checks: Access timing and
+    restrictions are checked in an actual disclosure; Fees minimums and protection have explicit dispositions;
+    An account label is not treated as proof of deposit insurance; The access rehearsal shares no credentials
+    and performs no transfer.'
+  - 'Action 3: Write a funding and use rule that can be revised. Observed checks: The contribution arithmetic
+    and time uncertainty are explicit; Use and replenishment rules are tied to the chosen disruption;
+    A realistic insufficient-funds fallback is named; Planned saving is not represented as money already
+    available.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -342,57 +416,316 @@ completion_and_review:
     - c2303_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Emergency reserves and liquidity only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Emergency reserves and liquidity across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which access or timing assumption could make the reserve fail precisely when needed,
+    and what is the next achievable protection?
+  transfer_limit: This produces a reserve plan and access check, not a claim that a fund exists or a universal
+    target measured in months. Investment and banking rules depend on the place and product.
   reflection:
-    before: What does Emergency reserves and liquidity require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Emergency reserves and liquidity criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Common emergencies no longer require immediate panic or high-cost
-      debt.', what contradiction or missing context matters most, and should this Emergency reserves and
-      liquidity design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Identify a plausible cash disruption, define
+      a proportionate reserve purpose and test whether the proposed money would actually be accessible
+      when needed.'
+    during: Which checks have actually been observed? A target was affordable, but the proposed storage
+      required a delay and was changed before being called accessible.
+    after: Which access or timing assumption could make the reserve fail precisely when needed, and what
+      is the next achievable protection?
   review_guidance:
     repeat: Repeat the same bounded Emergency reserves and liquidity design only when the context and
       burden remain appropriate.
-    adapt: Change the Emergency reserves and liquidity medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use a smaller first target, accessible banking support or a qualified benefits counselor when
+      asset limits matter. Lack of surplus is a material constraint, not failure. Do not recommend risky
+      investments for money needed immediately, incur fees to complete the task or share banking credentials
+      with a helper.
     stop: Stop Emergency reserves and liquidity when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Emergency reserves and liquidity questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Emergency reserves and liquidity criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Emergency reserves and liquidity criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Emergency reserves and liquidity criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Emergency reserves and liquidity action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The plan identified a 400 repair gap, verified withdrawal restrictions and kept an assistance
+      fallback because eight contributions would not protect against a repair tomorrow.
+    mixed: A target was affordable, but the proposed storage required a delay and was changed before being
+      called accessible.
+    contradictory: A volatile investment or unverified app balance was described as guaranteed emergency
+      cash, or essential bills were skipped to fund the exercise.
+    inconclusive: A reserve target was named without a disruption, access check, contribution capacity
+      or fallback.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Emergency reserves and liquidity.
+    context_heading: Design an accessible reserve around a specific disruption
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Emergency
       reserves and liquidity.
   check_in_labels:
-    c2303_a1_primary: The bounded Emergency reserves and liquidity criterion for action 1 was observed
+    c2303_a1_primary: 'Observed checks: size the need from consequences and resources'
     c2303_a1_boundary: Action 1 stayed inside its stated Emergency reserves and liquidity boundary
     c2303_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2303_a2_primary: The bounded Emergency reserves and liquidity criterion for action 2 was observed
+    c2303_a2_primary: 'Observed checks: check access rather than relying on an account label'
     c2303_a2_boundary: Action 2 stayed inside its stated Emergency reserves and liquidity boundary
     c2303_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2303_a3_primary: The bounded Emergency reserves and liquidity criterion for action 3 was observed
+    c2303_a3_primary: 'Observed checks: write a funding and use rule that can be revised'
     c2303_a3_boundary: Action 3 stayed inside its stated Emergency reserves and liquidity boundary
     c2303_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Emergency reserves
-    and liquidity practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which access or timing assumption could make the reserve fail precisely when needed,
+    and what is the next achievable protection? Completion is not mastery.
+  plain_language_evidence: The plan identified a 400 repair gap, verified withdrawal restrictions and
+    kept an assistance fallback because eight contributions would not protect against a repair tomorrow.
   display_order: 319
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '23.03'
+  title: 23.03 — Emergency reserves and liquidity
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Identifying and managing conflicts of interest in a charity](https://www.gov.uk/government/publications/identifying-and-managing-conflicts-of-interest-in-a-charity-cc29/conflicts-of-interest-a-guide-for-charity-trustees)
+
+      - [Preventing Policy Capture: Integrity in Public Decision Making](https://www.oecd.org/en/publications/preventing-policy-capture_9789264065239-en.html)
+
+      - [How to File a Whistleblower Complaint](https://www.whistleblowers.gov/complaint_page)
+
+      - [Decision-making for charity trustees](https://www.gov.uk/government/publications/decision-making-for-charity-trustees-cc27/decision-making-for-charity-trustees)
+
+      - [Promising Practices for Preventing Harassment](https://www.eeoc.gov/laws/guidance/promising-practices-preventing-harassment)
+
+      - [Creating a cash flow budget](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_cash_flow_budget_tool_2018-11_ADA.pdf)
+
+      - [An essential guide to building an emergency fund](https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/)
+
+      - [Is the money I keep in my payment app safe?](https://www.consumerfinance.gov/ask-cfpb/is-the-money-i-keep-in-my-payment-app-safe-en-2135/)
+
+      - [What is the difference between a loan interest rate and the APR?](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/)
+
+      - [Beginners’ Guide to Asset Allocation, Diversification, and Rebalancing](https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset)
+
+      - [How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated)
+
+      - [I would like to be able to have my friend or family member help with my bill-paying and banking.
+      What are my options?](https://www.consumerfinance.gov/ask-cfpb/i-would-like-to-be-able-to-have-my-friend-or-family-member-help-with-my-bill-paying-and-banking-what-are-my-options-en-1145/)
+
+      - [What to Know About Life Insurance Beneficiaries](https://content.naic.org/article/consumer-insight-what-know-about-life-insurance-beneficiaries)
+
+      - [Online Shopping](https://consumer.ftc.gov/articles/online-shopping)
+
+      - [Tax withholding](https://www.irs.gov/individuals/employees/tax-withholding)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving a first attempt. These events are invented learning materials,
+      not actual participant evidence.
+
+
+      ### One contribution, one unaffordable contribution withheld
+
+
+      The supplied follow-up records one **50 contribution** to the proposed pot, then a month in which
+      essential costs leave no affordable contribution. Total reserved money is **250**, consisting of
+      the existing 200 and the contributed 50. Only 200 is immediately accessible under the supplied facts.
+      The missed contribution is a resource constraint, not evidence of irresponsibility. The fictional
+      contribution does not endorse D4 while its protection and deadline suitability remain unresolved.
+
+
+      Remaining total-balance gaps are **350 for the repair** and **650 for the income gap**, requiring
+      seven or thirteen further 50 contributions if capacity returns and no money is used. Two calendar
+      months have not produced two contributions.
+
+
+      A Friday failure now needs a 600 payment by Sunday. D4''s two-business-day route cannot be counted
+      on for Sunday; even a fully funded balance there would not by itself solve that deadline. The immediate
+      shortfall against the 200 accessible cash is **400**. No repair, assistance approval, actual withdrawal
+      test or insurance verification is supplied.
+
+
+      Revise the storage and fallback questions before calling the reserve ready. Keep the contribution
+      record, total balance, immediate availability and tested-withdrawal status in separate fields. The
+      next step is an appropriate access or assistance inquiry, not a transfer to an unverified product
+      or a demand to sacrifice essentials.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Design a reserve for a particular disruption and test access before calling it useful. Use
+      two twenty-minute sessions, then a brief funding review. A target is a plan, a funded balance is
+      money present, and a tested withdrawal is evidence of access through a particular route. Keep those
+      three claims separate.
+
+
+      ### Start with the event and its timing
+
+
+      Emergency money serves a job: making an important payment possible when an unexpected disruption
+      occurs. The needed amount depends on consequences, timing, dependable resources and competing commitments.
+      A fixed number of months can hide these differences. Predictable annual bills also deserve planning,
+      but they are not made unexpected merely by arriving infrequently.
+
+
+      The CFPB''s [emergency-fund guide, S07](https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/)
+      frames a reserve around unplanned expenses, situation-specific needs, accessibility and replenishment.
+      Its general guidance does not establish an amount suitable for you. Debt obligations, care needs,
+      unstable income, eligibility rules and access barriers may materially change an actual plan. If
+      there is no affordable surplus, record that constraint and consider suitable assistance rather than
+      shifting money away from essentials to make the exercise look successful.
+
+
+      ### Supplied disruption choices
+
+
+      The fictional household has **200 of immediately accessible cash** beyond already funded current
+      essentials. It could contribute **50 monthly** only while the stated capacity remains available.
+      The case excludes interest, fees and other movements from the contribution arithmetic. It offers
+      two separate scenarios, not two simultaneous events:
+
+
+      | Event | Need and deadline | Consequence without money | Gap after 200 |
+
+      | --- | --- | --- | --- |
+
+      | Essential repair | 600 due within two days of an unexpected failure | Ordinary necessary travel
+      is interrupted | 400 |
+
+      | Temporary income gap | 900 needed across the next month | Several essential payments lack cover
+      | 700 |
+
+
+      For the teaching choice, the household ranks the repair as the first reserve purpose because the
+      short deadline and travel dependency leave little adjustment time. That ranking is supplied preference,
+      not a claim that repair is more likely or always more serious. The larger income-gap exposure remains
+      on the map. A known annual subscription of 120, due next year, belongs in a predictable-expense
+      plan and is not included in either emergency target.
+
+
+      ### Educator-provided sample disclosure D4
+
+
+      This is complete fictional access material for the exercise, not a real bank offer or insurance
+      certification. Read it as a disclosure with missing terms, not as marketing.
+
+
+      | D4 field | Supplied term |
+
+      | --- | --- |
+
+      | Storage type | Separate cash savings pot linked to a spending account |
+
+      | Standard withdrawal | Request through secure account access; arrives in spending account after
+      two business days |
+
+      | Weekend and holiday timing | Processing starts next business day; holidays not specified |
+
+      | Immediate cash access | None from this pot |
+
+      | Fees and minimums | No monthly fee, no withdrawal fee, no minimum balance in this sample |
+
+      | Protection | Label says “protected”; institution, eligible deposit type and scheme conditions
+      are not supplied |
+
+      | Access instructions | Locate the provider''s withdrawal page, check destination and displayed
+      arrival date, stop before confirmation |
+
+
+      The existing 200 is held separately and immediately accessible. Future contributions are proposed
+      for D4, but no transfer has occurred. The disclosure''s two-business-day timing is not the same
+      as two calendar days. If a repair payment is needed on Sunday after a Friday failure, D4 cannot
+      be assumed to deliver money in time. The phrase “protected” supplies no verified insurance basis.
+
+
+      The CFPB''s [payment-app explanation, S08](https://www.consumerfinance.gov/ask-cfpb/is-the-money-i-keep-in-my-payment-app-safe-en-2135/)
+      describes why protection can differ across providers and services. In the United States, verify
+      the institution, deposit type and applicable conditions rather than inferring insurance from an
+      app logo or account label. No current provider has been checked in this exercise. Insurance against
+      specified failure is also different from immediate access during an outage.
+
+
+      ### Worked funding calculation and its limits
+
+
+      The repair gap is **600 − 200 = 400**. At 50 per contribution it needs **8 monthly contributions**.
+      The income-gap target needs **900 − 200 = 700**, or **14 contributions**. These are counts under
+      unchanged assumptions, not protection already in place or a promise about when a disruption will
+      happen. An event tomorrow arrives before even the first contribution.
+
+
+      The repair purpose permits use for the supplied unexpected essential repair; it does not automatically
+      fund unrelated shopping. After use, review essentials and capacity before replenishing. A funding
+      plan should include a fallback while incomplete: contact an appropriate assistance or hardship service,
+      ask the responsible provider about a feasible arrangement and assess other dependable support. No
+      assistance eligibility, credit approval or payment extension is assumed. Avoid a risky investment
+      or an unverified app balance as a shortcut to guaranteed emergency cash.
+
+
+      ### Build the reserve and access record
+
+
+      1. Complete both event rows with deadlines, consequences, dependable resources and gaps. Explain
+      the first-purpose choice while retaining the other exposure and predictable annual cost separately.
+
+      2. Inspect every D4 field. Record the timing mismatch, explicit zero fees and minimums, and unverified
+      protection. Write the specific official information you would need before selecting real storage.
+      A fictional disclosure review is not provider verification.
+
+      3. Rehearse only the navigation sequence in the supplied instructions. State where you would read
+      the arrival date and where you would stop. Do not log into another person''s account, share credentials,
+      disable security or move funds to prove completion.
+
+      4. Write a contribution rule with a capacity check before each proposed 50. Specify use, replenishment,
+      review and an insufficient-funds fallback. Separate planned contributions from money already present.
+
+      5. Save the record before the [later packet](?resource=file-later-packet-md). Recompute progress
+      from actual supplied contributions rather than elapsed calendar months. Reassess access when the
+      due day changes.
+
+
+      For support, use a six-field access card and a calculator. For a harder variant, make the affordable
+      contribution irregular and identify the earliest unmet need without inventing a payday. Optional
+      actual transfer is to inspect a real official disclosure privately and locate its access instructions
+      without a transaction. Use qualified benefits or banking help where rules or accessibility matter.
+      A reserve can be modest and useful without proving financial security, and inability to fund one
+      is not a moral failure.
+
+
+      ### Use the result at its proper scale
+
+
+      Financial education only; tax, investment, insurance, estate, and benefits decisions may require
+      licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload
+      account identifiers, credentials or private financial records. Fiction and no attempt are legitimate.
+      Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A reserve target is 750, accessible cash is 150 and affordable contributions are 40. How many
+      contributions close the gap under unchanged assumptions?
+
+      2. A pot has 900 but withdrawals take three business days. A payment is due tomorrow. Is the full
+      900 necessarily usable?
+
+      3. A payment app says “protected” without naming the institution or relevant terms. What is still
+      needed?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The gap is 600, requiring 15 contributions of 40. This is a conditional funding path; a
+      disruption may arrive sooner and no money exists merely because the plan names it.
+
+      2. No. Balance and liquidity differ. Check the actual deadline and access route, identify immediately
+      available resources and a legitimate fallback, and do not call an untested route instant.
+
+      3. Verify the institution, deposit type, scheme and applicable conditions through official information.
+      A label does not establish deposit insurance or uninterrupted access; keep the status unverified
+      until supported.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

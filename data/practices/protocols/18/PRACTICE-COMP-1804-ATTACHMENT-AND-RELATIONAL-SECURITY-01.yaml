@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1804-ATTACHMENT-AND-RELATIONAL-SECURITY-01
 slug: c1804-attachment-and-relational-security-practice
-name: Bounded Attachment and relational security Practice
+name: Replace one relationship test with a direct request and reliable return
 parent_competency_id: '18.04'
 domain_id: '18'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 18.04
-      (Attachment and relational security); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 18.04; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,38 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Attachment and relational security through a non-confrontational safety preparation
-    bounded by the canonical scope: Recognize pursuing, distancing, testing, controlling, idealizing,
-    and fear of abandonment.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Uses direct requests,
-    consistency, reassurance, boundaries, and self-regulation instead. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Recognize a pursuing, distancing or testing reaction and use a clear request, self-regulation,
+    reassurance and boundaries instead of trying to control a partner’s response.
+  why_recommended: Recognize a pursuing, distancing or testing reaction and use a clear request, self-regulation,
+    reassurance and boundaries instead of trying to control a partner’s response.
   claims:
-  - statement: Using the canonical scope and evidence target for Attachment and relational security is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Recognize a pursuing, distancing or testing reaction and use a clear request, self-regulation,
+      reassurance and boundaries instead of trying to control a partner’s response.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Attachment and relational security practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Attachment and relational security as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Attachment and relational
-    security context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Attachment
-    and relational security; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use text, scheduled contact, a smaller request or individual support when
+    emotional activation makes discussion difficult. Repeated threats, coercion or abuse require appropriate
+    help, not better reassurance rituals. A fictional rehearsal remains a communication exercise only.
+  opportunity_considerations: 'Default situation: a partner’s delayed reply triggers an urge to send repeated
+    messages or withdraw to see whether they chase you. Use a private four-part note: cue, story, impulse
+    and direct request. Choose an ordinary nonurgent context, not a real safety emergency.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Attachment and relational security.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default situation: a partner’s delayed reply triggers an urge to send repeated messages or withdraw
+    to see whether they chase you. Use a private four-part note: cue, story, impulse and direct request.
+    Choose an ordinary nonurgent context, not a real safety emergency.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Attachment and relational security
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use text, scheduled contact, a smaller request or individual support when emotional activation makes
+    discussion difficult. Repeated threats, coercion or abuse require appropriate help, not better reassurance
+    rituals. A fictional rehearsal remains a communication exercise only.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +79,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Attachment and relational security actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Attachment and relational security; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Attachment
-    and relational security. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Attachment and relational security actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default situation: a partner’s delayed reply triggers an urge to send repeated messages or withdraw
+    to see whether they chase you. Use a private four-part note: cue, story, impulse and direct request.
+    Choose an ordinary nonurgent context, not a real safety emergency. Goal: Recognize a pursuing, distancing
+    or testing reaction and use a clear request, self-regulation, reassurance and boundaries instead of
+    trying to control a partner’s response. Scope: This is an ordinary adult relationship experiment,
+    not attachment diagnosis or therapy. It does not require remaining in an unsafe relationship or treating
+    legitimate concerns as personal insecurity. Time and effort: Fifteen minutes to map a pattern, one
+    safe natural opportunity and a ten-minute follow-up. Adaptation: Use text, scheduled contact, a smaller
+    request or individual support when emotional activation makes discussion difficult. Repeated threats,
+    coercion or abuse require appropriate help, not better reassurance rituals. A fictional rehearsal
+    remains a communication exercise only. Keep personal working notes outside the check-in; record only
+    the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use text, scheduled contact, a smaller request or individual support when emotional
+    activation makes discussion difficult. Repeated threats, coercion or abuse require appropriate help,
+    not better reassurance rituals. A fictional rehearsal remains a communication exercise only.
+  expected_burden: Fifteen minutes to map a pattern, one safe natural opportunity and a ten-minute follow-up.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Attachment and relational security protocol to rank worth, coerce participation, demand
@@ -101,18 +106,25 @@ intervention:
   - Treating a completed Attachment and relational security action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Attachment and relational security situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use text, scheduled
+    contact, a smaller request or individual support when emotional activation makes discussion difficult.
+    Repeated threats, coercion or abuse require appropriate help, not better reassurance rituals. A fictional
+    rehearsal remains a communication exercise only.
   actions:
   - stable_id: PRACTICE-COMP-1804-ATTACHMENT-AND-RELATIONAL-SECURITY-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Attachment and relational security
-    instructions: 'Define one planning-only question for Attachment and relational security, the hazards
-      that must not be rehearsed, and the local qualified or emergency authority that supersedes this
-      source-only protocol. Do not create, approach, or simulate danger: Recognize pursuing, distancing,
-      testing, controlling, idealizing, and fear of abandonment.'
+    title: Describe the reaction without assigning an attachment label
+    instructions: 'Record the observable cue and distinguish it from the story, such as a delayed reply
+      versus they will leave me. Notice possible pursuing, distancing, idealizing, testing or controlling
+      behavior and the fear or need it may express. Name what would make the concern a real reliability
+      or safety issue rather than assuming it is all in your head. Choose a brief safe regulation action
+      that does not become punishment or indefinite avoidance.
+
+
+      Observation checks: The cue is separated from the abandonment or rejection story; The actual impulse
+      is named without a diagnostic label; Legitimate reliability or safety concerns remain possible;
+      A regulation step avoids punishment and indefinite withdrawal. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +146,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1804_a1_planning_scope_bounded
-        - c1804_a1_hazards_excluded
-        - c1804_a1_authority_identified
+        - the_cue_is_separated_from_the_abandonment_or_rejection_story
+        - the_actual_impulse_is_named_without_a_diagnostic_label
+        - legitimate_reliability_or_safety_concerns_remain_possible
+        - a_regulation_step_avoids_punishment_and_indefinite_withdrawal
       - measurement_id: c1804_a1_boundary
         kind: boolean
         role: supporting
@@ -153,11 +166,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1804-ATTACHMENT-AND-RELATIONAL-SECURITY-01-A2
     sequence: 2
-    title: Prepare one safe Attachment and relational security support step
-    instructions: Create one non-confrontational Attachment and relational security step such as locating
-      official guidance, checking accessible contact information, assembling a category-level checklist,
-      or scheduling qualified instruction. Do not test emergency response, weapons, rescue, medical treatment,
-      confrontation, evasion, or hazardous equipment.
+    title: Make a direct request that the other person can negotiate
+    instructions: 'At an appropriate time, say what would help in concrete terms: When plans are uncertain,
+      could we agree when to check in? Ask what communication is realistic for the other person and state
+      your own limit. Offer reassurance when freely meant, but do not promise constant access, demand
+      passwords or require proof of affection. Agree a small predictable contact practice only if both
+      people genuinely want it.
+
+
+      Observation checks: The request names a concrete need rather than a hidden test; The partner can
+      negotiate timing and availability; Reassurance is distinct from constant access or surveillance;
+      Any contact agreement is mutually chosen and realistic. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -179,9 +199,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1804_a2_step_is_preparatory
-        - c1804_a2_official_or_qualified_path_used
-        - c1804_a2_no_hazard_rehearsed
+        - the_request_names_a_concrete_need_rather_than_a_hidden_test
+        - the_partner_can_negotiate_timing_and_availability
+        - reassurance_is_distinct_from_constant_access_or_surveillance
+        - any_contact_agreement_is_mutually_chosen_and_realistic
       - measurement_id: c1804_a2_boundary
         kind: boolean
         role: supporting
@@ -198,11 +219,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1804-ATTACHMENT-AND-RELATIONAL-SECURITY-01-A3
     sequence: 3
-    title: Review the Attachment and relational security plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Uses direct requests, consistency, reassurance, boundaries, and self-regulation
-      instead.'
+    title: Use the agreement once and review both people’s experience
+    instructions: 'At the next ordinary opportunity, use your regulation step and follow the agreed contact
+      pattern instead of sending a test or withdrawing to provoke pursuit. Record whether each person
+      followed through and what changed in the interaction, without using the partner’s response as a
+      worth score. If the agreement fails, discuss the specific failure or reconsider fit; do not silently
+      increase monitoring. One cycle does not establish secure attachment.
+
+
+      Observation checks: A natural opportunity is attempted without a relationship test; Follow-through
+      is compared with the actual agreement; A missed agreement leads to clarification rather than monitoring;
+      One interaction is not generalized into an attachment diagnosis or cure. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: What did the direct request reveal that the test could not, and did the agreement
+      support security without taking away either person’s autonomy?
+
+
+      Examples: Supportive: The participant replaced repeated messages with an agreed check-in time and
+      used the interval for an ordinary activity, then reviewed a missed contact directly.
+
+
+      Mixed: The request was clear, but the proposed frequency exceeded the partner’s capacity and required
+      renegotiation.
+
+
+      Contradictory: The exercise became a demand for passwords, constant location access or proof of
+      love.
+
+
+      Inconclusive: An attachment label was assigned without changing any actual request, test or follow-through
+      behavior.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -218,15 +266,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1804_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1804_a3_stop_conditions_present
-        - c1804_a3_escalation_path_present
-        - c1804_a3_unknowns_retained
+        - a_natural_opportunity_is_attempted_without_a_relationship_test
+        - follow_through_is_compared_with_the_actual_agreement
+        - a_missed_agreement_leads_to_clarification_rather_than_monitoring
+        - one_interaction_is_not_generalized_into_an_attachment_diagnosis_or_cure
       - measurement_id: c1804_a3_boundary
         kind: boolean
         role: supporting
@@ -247,17 +296,17 @@ intervention:
       Attachment and relational security; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Attachment and relational security; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use text, scheduled contact, a smaller request or individual support when emotional activation makes
+      discussion difficult. Repeated threats, coercion or abuse require appropriate help, not better reassurance
+      rituals. A fictional rehearsal remains a communication exercise only.
     cultural_context:
     - Adapt the expression of Attachment and relational security to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Attachment and relational security opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use text, scheduled contact, a smaller request or individual support when emotional activation makes
+      discussion difficult. Repeated threats, coercion or abuse require appropriate help, not better reassurance
+      rituals. A fictional rehearsal remains a communication exercise only.
   pause_conditions:
   - Pause Attachment and relational security when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -288,10 +337,7 @@ evidence_and_scoring:
   - c1804_a3_boundary
   - c1804_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Attachment and relational security action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Attachment and relational security criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The exercise became a demand for passwords, constant location access or proof of love.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Attachment and relational security explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -302,14 +348,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Attachment and relational security rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Uses direct requests, consistency, reassurance, boundaries, and self-regulation instead.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Attachment and relational security requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Describe the reaction without assigning an attachment label. Observed
+    checks: The cue is separated from the abandonment or rejection story; The actual impulse is named
+    without a diagnostic label; Legitimate reliability or safety concerns remain possible; A regulation
+    step avoids punishment and indefinite withdrawal. Action 2: Make a direct request that the other person
+    can negotiate. Observed checks: The request names a concrete need rather than a hidden test; The partner
+    can negotiate timing and availability; Reassurance is distinct from constant access or surveillance;
+    Any contact agreement is mutually chosen and realistic. Action 3: Use the agreement once and review
+    both people’s experience. Observed checks: A natural opportunity is attempted without a relationship
+    test; Follow-through is compared with the actual agreement; A missed agreement leads to clarification
+    rather than monitoring; One interaction is not generalized into an attachment diagnosis or cure.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. An attachment label was assigned without changing any
+    actual request, test or follow-through behavior.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Attachment
     and relational security contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -319,9 +374,8 @@ evidence_and_scoring:
   - L24
   - L25
   - L27
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Attachment and relational security evidence.
@@ -329,12 +383,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for attachment and relational security action was attempted
-    or explicitly deferred.
-  - The prepare one safe attachment and relational security support step action was attempted or explicitly
-    deferred.
-  - The review the attachment and relational security plan against stop conditions action preserved a
-    limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Describe the reaction without assigning an attachment label. Observed checks: The cue is
+    separated from the abandonment or rejection story; The actual impulse is named without a diagnostic
+    label; Legitimate reliability or safety concerns remain possible; A regulation step avoids punishment
+    and indefinite withdrawal.'
+  - 'Action 2: Make a direct request that the other person can negotiate. Observed checks: The request
+    names a concrete need rather than a hidden test; The partner can negotiate timing and availability;
+    Reassurance is distinct from constant access or surveillance; Any contact agreement is mutually chosen
+    and realistic.'
+  - 'Action 3: Use the agreement once and review both people’s experience. Observed checks: A natural
+    opportunity is attempted without a relationship test; Follow-through is compared with the actual agreement;
+    A missed agreement leads to clarification rather than monitoring; One interaction is not generalized
+    into an attachment diagnosis or cure.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -343,57 +406,281 @@ completion_and_review:
     - c1804_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Attachment and relational security only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Attachment and relational security across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What did the direct request reveal that the test could not, and did the agreement
+    support security without taking away either person’s autonomy?
+  transfer_limit: This is an ordinary adult relationship experiment, not attachment diagnosis or therapy.
+    It does not require remaining in an unsafe relationship or treating legitimate concerns as personal
+    insecurity.
   reflection:
-    before: What does Attachment and relational security require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Attachment and relational security criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Uses direct requests, consistency, reassurance, boundaries,
-      and self-regulation instead.', what contradiction or missing context matters most, and should this
-      Attachment and relational security design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Recognize a pursuing, distancing or testing
+      reaction and use a clear request, self-regulation, reassurance and boundaries instead of trying
+      to control a partner’s response.'
+    during: Which checks have actually been observed? The request was clear, but the proposed frequency
+      exceeded the partner’s capacity and required renegotiation.
+    after: What did the direct request reveal that the test could not, and did the agreement support security
+      without taking away either person’s autonomy?
   review_guidance:
     repeat: Repeat the same bounded Attachment and relational security design only when the context and
       burden remain appropriate.
-    adapt: Change the Attachment and relational security medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Use text, scheduled contact, a smaller request or individual support when emotional activation
+      makes discussion difficult. Repeated threats, coercion or abuse require appropriate help, not better
+      reassurance rituals. A fictional rehearsal remains a communication exercise only.
     stop: Stop Attachment and relational security when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Attachment and relational security questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Attachment and relational security criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Attachment and relational security criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Attachment and relational security criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Attachment and relational security action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The participant replaced repeated messages with an agreed check-in time and used the interval
+      for an ordinary activity, then reviewed a missed contact directly.
+    mixed: The request was clear, but the proposed frequency exceeded the partner’s capacity and required
+      renegotiation.
+    contradictory: The exercise became a demand for passwords, constant location access or proof of love.
+    inconclusive: An attachment label was assigned without changing any actual request, test or follow-through
+      behavior.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Attachment and relational security.
+    context_heading: Replace one relationship test with a direct request and reliable return
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Attachment
       and relational security.
   check_in_labels:
-    c1804_a1_primary: The bounded Attachment and relational security criterion for action 1 was observed
+    c1804_a1_primary: 'Observed checks: describe the reaction without assigning an attachment label'
     c1804_a1_boundary: Action 1 stayed inside its stated Attachment and relational security boundary
     c1804_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1804_a2_primary: The bounded Attachment and relational security criterion for action 2 was observed
+    c1804_a2_primary: 'Observed checks: make a direct request that the other person can negotiate'
     c1804_a2_boundary: Action 2 stayed inside its stated Attachment and relational security boundary
     c1804_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1804_a3_primary: The bounded Attachment and relational security criterion for action 3 was observed
+    c1804_a3_primary: 'Observed checks: use the agreement once and review both people’s experience'
     c1804_a3_boundary: Action 3 stayed inside its stated Attachment and relational security boundary
     c1804_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Attachment and relational
-    security practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What did the direct request reveal that the test could not, and did the agreement support
+    security without taking away either person’s autonomy? Completion is not mastery.
+  plain_language_evidence: The participant replaced repeated messages with an agreed check-in time and
+    used the interval for an ordinary activity, then reviewed a missed contact directly.
   display_order: 237
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '18.04'
+  title: 18.04 — Attachment and relational security
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Psychological Safety and Learning Behavior in Work Teams](https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f)
+
+      - [How to implement CRediT](https://credit.niso.org/implementing-credit/)
+
+      - [Our Epidemic of Loneliness and Isolation: The U.S. Surgeon General’s Advisory](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf)
+
+      - [Pursuing Meaningful Work: A Guide for PhDs and Postdocs](https://careered.stanford.edu/sites/g/files/sbiybj22801/files/media/file/stanfordphd_pmw_18-19.pdf)
+
+      - [The Science of Effective Mentorship in STEMM — interactive guide](https://nap.nationalacademies.org/resource/25568/interactive/)
+
+      - [UNESCO Universal Declaration on Cultural Diversity](https://www.unesco.org/en/legal-affairs/unesco-universal-declaration-cultural-diversity)
+
+      - [Receptiveness to Opposing Views: Conceptualization and Integrative Review](https://journals.sagepub.com/doi/abs/10.1177/10888683211061037)
+
+      - [Green flags in relationships](https://www.loveisrespect.org/resources/green-flags-in-relationships/)
+
+      - [What consent does—and doesn’t—look like](https://www.loveisrespect.org/resources/what-consent-does-and-doesnt-look-like/)
+
+      - [Machine learning uncovers the most robust self-report predictors of relationship quality across
+      43 longitudinal couples studies](https://pubmed.ncbi.nlm.nih.gov/32719123/)
+
+      - [Are adult attachment styles categorical or dimensional? A taxometric analysis of general and
+      relationship-specific attachment orientations](https://pubmed.ncbi.nlm.nih.gov/25559192/)
+
+      - [Intimacy as an Interpersonal Process: The Importance of Self-Disclosure, Partner Disclosure,
+      and Perceived Partner Responsiveness in Interpersonal Exchanges](https://www.affective-science.org/pubs/1998/LaurenFBPl1998.pdf)
+
+      - [Plan for Safety](https://www.thehotline.org/plan-for-safety/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence. Open after the cue/story distinction and
+      direct request.
+
+
+      After the workshop, Morgan explains that 19:30 is unavailable but offers 19:50–20:00. Kai agrees;
+      this fits Kai''s stated window. They speak for those ten minutes. Morgan says a short planned check-in
+      is workable on this occasion but does not promise the same time for every future workshop. No ongoing
+      schedule has been agreed.
+
+
+      Kai did not send the five extra messages and did not impose retaliatory silence. Kai still feels
+      some uncertainty afterward. That feeling does not erase the useful conduct, and the kept agreement
+      does not prove a permanent change in attachment or the absence of all future problems.
+
+
+      Record the counteroffer, Kai''s acceptance and the single completed check-in. The earlier 17:00
+      nonresponse occurred within agreed unavailability, so it was not a broken check-in commitment. Future
+      workshop arrangements need their own realistic agreement. A demand for location evidence or passwords
+      would be a different action, not an improved version of this request. Repeated genuine breaches
+      would also need honest attention rather than automatic self-blame.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Replace one reactive pattern with a direct, bounded request and a realistic agreement. Allow
+      fifteen minutes to prepare, one naturally occurring nonurgent opportunity and ten minutes to review.
+      This role-conditional practice is optional and for suitable voluntary adult relationships. Single
+      life is legitimate; use the complete fiction if you have no appropriate partner or prefer not to
+      attempt it live. It is not attachment diagnosis, therapy or a promise to change a relationship style.
+
+
+      ### Notice behavior without assigning a type
+
+
+      A bond can matter deeply and make uncertainty uncomfortable. Begin with the observable cue, then
+      distinguish the story you attach to it, the feeling and the action impulse. A delayed reply is observable.
+      “They are leaving me” is an interpretation unless other evidence supports it. Keeping that distinction
+      does not mean every concern is imagined: broken agreements, deception or threatening conduct are
+      real information.
+
+
+      Pursuing can become repeated contact intended to force reassurance. Distancing can become withdrawal
+      designed to avoid a needed conversation or make the other person chase. Testing creates a hidden
+      task whose correct answer the partner does not know. Controlling restricts another''s choices or
+      demands access to prove trust. Idealizing treats a partner as flawless or as the only possible source
+      of security. Fear of abandonment may intensify these impulses, but fear does not authorize them.
+
+
+      The alternative is not suppressing every need. A direct request identifies what would help and permits
+      negotiation: “Could we agree when to check in after your shift?” differs from “If you cared, you
+      would already know.” Consistency means keeping a feasible agreement or communicating a necessary
+      change. Reassurance should be freely meant and bounded, not extracted through escalating demands
+      for passwords, location access or constant availability.
+
+
+      Self-regulation creates room to choose conduct. For an ordinary nonurgent cue, pause briefly in
+      a way that is safe for you, orient to known facts and decide whether a conversation is needed. This
+      is not punishment through silence or an instruction to ignore urgent responsibilities. State a boundary
+      over your own behavior and capacity; do not disguise control of the other person as a boundary.
+
+
+      ### Worked example
+
+
+      Lena has not heard from a partner during a known work period. Lena notices the story “I no longer
+      matter” and an urge to send many messages. After a brief pause, Lena waits for a suitable time and
+      asks whether a short evening check-in could work on late-shift days. The partner can agree, propose
+      another arrangement or decline. The request addresses a real wish while allowing the partner''s
+      actual capacity to matter. If an agreed check-in is repeatedly missed, Lena can discuss reliability
+      rather than explaining away all concern as personal insecurity.
+
+
+      ### Complete fictional nonurgent situation
+
+
+      Adult partners Kai and Morgan have agreed that Morgan will be unavailable during a workshop from
+      15:00 to 18:00 on 6 October. They have not agreed to a reply before the workshop ends or to a check-in
+      immediately at 18:00. At 16:00 Kai sends an ordinary nonurgent message. By 17:00 there is no reply.
+      No emergency, threat or unexplained disappearance is supplied.
+
+
+      Kai feels anxious, thinks “Morgan is pulling away,” and considers sending five more messages or
+      deliberately ignoring Morgan later. Kai would like a predictable brief connection on workshop days.
+      Kai is available from 19:30 to 20:00; Morgan''s evening availability is unknown. A possible request
+      is a ten-minute check-in somewhere within that window, with a different arrangement allowed. No
+      request or agreement exists yet.
+
+
+      ### From cue to an explicit agreement
+
+
+      1. Write four separate lines: cue, interpretation, feeling and impulse. Identify which of the six
+      patterns the proposed extra messages or retaliatory silence might express, without diagnosing Kai
+      or Morgan. Output: a behavior account that preserves the agreed unavailability and unknown motive.
+
+      2. Choose a brief safe pause and a nonurgent time to communicate. Draft a direct request for a feasible
+      check-in, including room for a counteroffer. State what Kai can do if no arrangement fits, such
+      as making a separate evening plan and revisiting needs later. Output: a request and self-directed
+      boundary, not a hidden test.
+
+      3. Save that plan before opening the [later packet](?resource=file-later-packet-md). Record the
+      exact agreement that follows, if any. In real practice, use the actual response rather than the
+      answer you hoped to receive. Output: proposed, counteroffered, agreed or declined, with the timing
+      made explicit.
+
+      4. Compare later behavior with the agreement that actually existed. Notice both your own conduct
+      and any kept, changed or missed commitment. Output: a limited review of request, consistency, reassurance
+      and boundaries. One successful conversation does not establish cured anxiety or permanent security;
+      one missed moment does not automatically establish abandonment.
+
+
+      The exercise fails its purpose if an apparently calm request still demands proof through surveillance.
+      Likewise, the learner should not be trained to tolerate every broken promise by regulating harder.
+      A pattern of unmet needs may call for an honest discussion of fit, different support or a relationship
+      decision.
+
+
+      ### Support, challenge and real transfer
+
+
+      For support, rehearse the four lines using only the fiction, write instead of speaking, or prepare
+      a short request with a trusted appropriate helper. Do not disclose a partner''s private messages
+      to obtain a label. If the pause itself increases distress, choose another safe grounding option
+      or appropriate professional help rather than forcing a technique.
+
+
+      For a harder fictional case, let the first proposed time be impossible. Practice accepting a genuine
+      counteroffer while checking your own availability. Do not deliberately delay messages to provoke
+      a reaction. For real transfer, wait for an ordinary opportunity, make one suitable request and review
+      conduct across subsequent agreed occasions. Evidence of security concerns repeated reliability and
+      felt experience, not a speed score or a permanent identity category.
+
+
+      ### Sources and professional boundary
+
+
+      [S11](https://pubmed.ncbi.nlm.nih.gov/25559192/) reports evidence favoring dimensional over categorical
+      descriptions of adult attachment in its samples. It does not validate this exercise or diagnose
+      either case person. The six behavior distinctions are canonical teaching, not six clinical types.
+      [S13](https://www.thehotline.org/plan-for-safety/) supports individualized safety help. Threats,
+      coercion or abuse require suitable support rather than a better reassurance ritual or compelled
+      mutual discussion.
+
+
+      Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
+      Preserve private content outside the application. See the scope and limits described in this guide,
+      then attempt the [fresh cases](?attempt=practice-checks); a person''s dignity is never determined
+      by attachment language.'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A reply is absent during an agreed no-contact work period. The learner records “partner
+      broke our promise.” What needs correction?
+
+      2. Someone asks for continuous location access as reassurance and calls it a personal boundary.
+      How should the request be assessed?
+
+      3. A partner repeatedly misses an explicitly agreed check-in without notice. Must the learner treat
+      concern as an irrational attachment story?
+
+
+      [Corrective answers](?check=practice-answers)'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Compare the observation with the actual agreement: unavailability was expected, and no reply
+      promise was broken on these facts. The feeling can still be real. A later direct request may be
+      appropriate without inventing a breach.
+
+      2. Calling a demand a boundary does not change its effect. Continuous access can become surveillance
+      and coerced proof. Seek a voluntary, proportionate communication arrangement and use appropriate
+      support if control or fear is present.
+
+      3. No. Repeated breaches are relevant behavior. Regulate enough to choose a response, then discuss
+      reliability, needs and fit or seek suitable support. The exercise must not convert all legitimate
+      concerns into a defect in the learner.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

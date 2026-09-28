@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1211-SUBSTANCES-AND-ALTERED-STATES-01
 slug: c1211-substances-and-altered-states-practice
-name: Bounded Substances and altered states Practice
+name: Check a substance-risk question before acting on reassurance or fear
 parent_competency_id: '12.11'
 domain_id: '12'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.11
-      (Substances and altered states); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.11; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Substances and altered states through a non-confrontational safety preparation bounded
-    by the canonical scope: Understand alcohol, nicotine, recreational drugs, performance drugs, and medication
-    risks without moral panic or naïveté.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Makes informed choices
-    and seeks help if use becomes unsafe or compulsive. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Evaluate substance use through effects, interactions, impairment, dependence and context, and
+    obtain appropriate help when risk or loss of control exceeds self-management.
+  why_recommended: Evaluate substance use through effects, interactions, impairment, dependence and context,
+    and obtain appropriate help when risk or loss of control exceeds self-management.
   claims:
-  - statement: Using the canonical scope and evidence target for Substances and altered states is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Evaluate substance use through effects, interactions, impairment, dependence and context,
+      and obtain appropriate help when risk or loss of control exceeds self-management.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Substances and altered states practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Substances and altered states as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Substances and altered
-    states context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Substances
-    and altered states; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Abstainers can use the fictional interaction case without exposure. Use confidential,
+    culturally appropriate or accessible services and a trusted support person with consent. The exercise
+    never requires drug purchasing, intoxication, withdrawal testing, sharing medications or recording
+    another person’s use.
+  opportunity_considerations: 'Default fictional case: someone taking a sedating medicine is invited to
+    drink alcohol before driving home. Make a five-part check: substance and actual label, other medicines
+    or drugs, activity requiring alertness, pattern of control or withdrawal, and trusted help route.
+    Apply the same questions to nicotine, recreational substances, performance drugs and medicines without
+    treating all risks as identical.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Substances and altered states.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default fictional case: someone taking a sedating medicine is invited to drink alcohol before driving
+    home. Make a five-part check: substance and actual label, other medicines or drugs, activity requiring
+    alertness, pattern of control or withdrawal, and trusted help route. Apply the same questions to nicotine,
+    recreational substances, performance drugs and medicines without treating all risks as identical.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Substances and altered states instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Abstainers can use the fictional interaction case without exposure. Use confidential, culturally appropriate
+    or accessible services and a trusted support person with consent. The exercise never requires drug
+    purchasing, intoxication, withdrawal testing, sharing medications or recording another person’s use.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +83,30 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Substances and altered states actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Substances and altered states; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Substances
-    and altered states. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Substances and altered states actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default fictional case: someone taking a sedating medicine is invited to drink alcohol before
+    driving home. Make a five-part check: substance and actual label, other medicines or drugs, activity
+    requiring alertness, pattern of control or withdrawal, and trusted help route. Apply the same questions
+    to nicotine, recreational substances, performance drugs and medicines without treating all risks as
+    identical. Goal: Evaluate substance use through effects, interactions, impairment, dependence and
+    context, and obtain appropriate help when risk or loss of control exceeds self-management. Scope:
+    This is risk literacy and help-seeking, not instructions for drug use, detoxification, dosing or performance
+    enhancement. Do not start a substance for this exercise or abruptly change prescribed treatment. Time
+    and effort: Twenty minutes of private review and one pharmacist, clinician or support-service contact
+    when a real uncertainty exists. Adaptation: Abstainers can use the fictional interaction case without
+    exposure. Use confidential, culturally appropriate or accessible services and a trusted support person
+    with consent. The exercise never requires drug purchasing, intoxication, withdrawal testing, sharing
+    medications or recording another person’s use. Keep personal working notes outside the check-in; record
+    only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Abstainers can use the fictional interaction case without exposure. Use confidential,
+    culturally appropriate or accessible services and a trusted support person with consent. The exercise
+    never requires drug purchasing, intoxication, withdrawal testing, sharing medications or recording
+    another person’s use.
+  expected_burden: Twenty minutes of private review and one pharmacist, clinician or support-service contact
+    when a real uncertainty exists.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Substances and altered states protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +114,25 @@ intervention:
   - Treating a completed Substances and altered states action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Substances and altered states situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Abstainers
+    can use the fictional interaction case without exposure. Use confidential, culturally appropriate
+    or accessible services and a trusted support person with consent. The exercise never requires drug
+    purchasing, intoxication, withdrawal testing, sharing medications or recording another person’s use.
   actions:
   - stable_id: PRACTICE-COMP-1211-SUBSTANCES-AND-ALTERED-STATES-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Substances and altered states
-    instructions: 'Define one planning-only question for Substances and altered states, the hazards that
-      must not be rehearsed, and the local qualified or emergency authority that supersedes this source-only
-      protocol. Do not create, approach, or simulate danger: Understand alcohol, nicotine, recreational
-      drugs, performance drugs, and medication risks without moral panic or naïveté.'
+    title: Identify the specific risk rather than a moral category
+    instructions: 'For the default, separate alcohol’s impairment, the medicine’s effects, a possible
+      interaction and the driving decision. For other substances, identify the actual ingredient and uncertainty;
+      familiar, legal or natural does not establish safety. Privately review whether use is becoming hard
+      to control or causing harm. Do not enter substance history or medicine names into public or application
+      evidence.
+
+
+      Observation checks: Substance effects interactions and context are separated; The actual ingredient
+      or uncertainty is identified; Control impairment and harm are considered without moral labeling;
+      Sensitive use and medicine details remain private. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +154,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1211_a1_planning_scope_bounded
-        - c1211_a1_hazards_excluded
-        - c1211_a1_authority_identified
+        - substance_effects_interactions_and_context_are_separated
+        - the_actual_ingredient_or_uncertainty_is_identified
+        - control_impairment_and_harm_are_considered_without_moral_labeling
+        - sensitive_use_and_medicine_details_remain_private
       - measurement_id: c1211_a1_boundary
         kind: boolean
         role: supporting
@@ -153,11 +174,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1211-SUBSTANCES-AND-ALTERED-STATES-01-A2
     sequence: 2
-    title: Prepare one safe Substances and altered states support step
-    instructions: Create one non-confrontational Substances and altered states step such as locating official
-      guidance, checking accessible contact information, assembling a category-level checklist, or scheduling
-      qualified instruction. Do not test emergency response, weapons, rescue, medical treatment, confrontation,
-      evasion, or hazardous equipment.
+    title: Verify the uncertainty and make a safe immediate choice
+    instructions: 'Use the product label and ask a pharmacist or clinician about the specific interaction
+      or treatment question. In the default, do not drive impaired and do not combine uncertain sedating
+      products while waiting for advice. If alcohol or sedative dependence may be present, seek medical
+      support before a sudden reduction or stop; withdrawal can be dangerous. Current overdose, severe
+      withdrawal or immediate danger requires emergency help, not a scheduled exercise review.
+
+
+      Observation checks: The specific uncertainty is checked through a qualified source; An immediate
+      impairment risk is not taken while awaiting reassurance; Possible dependence is not addressed through
+      unsupervised abrupt cessation; Emergency signs or immediate danger take priority over the task.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -179,9 +208,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1211_a2_step_is_preparatory
-        - c1211_a2_official_or_qualified_path_used
-        - c1211_a2_no_hazard_rehearsed
+        - the_specific_uncertainty_is_checked_through_a_qualified_source
+        - an_immediate_impairment_risk_is_not_taken_while_awaiting_reassurance
+        - possible_dependence_is_not_addressed_through_unsupervised_abrupt_cessation
+        - emergency_signs_or_immediate_danger_take_priority_over_the_task
       - measurement_id: c1211_a2_boundary
         kind: boolean
         role: supporting
@@ -198,10 +228,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1211-SUBSTANCES-AND-ALTERED-STATES-01-A3
     sequence: 3
-    title: Review the Substances and altered states plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Makes informed choices and seeks help if use becomes unsafe or compulsive.'
+    title: Put the verified boundary and support route into use
+    instructions: 'Carry out one appropriate action: arrange sober transport, ask for a medication review,
+      contact treatment support or rehearse declining the fictional offer. Record the boundary, the help
+      route and a sign that will trigger using it, without publishing private details. Distinguish rehearsal
+      from an actual changed choice and a support appointment from treatment completed. Review whether
+      the plan is feasible in the setting where pressure occurs.
+
+
+      Observation checks: A safe action or explicitly labeled rehearsal occurs; The boundary is based
+      on verified information rather than a myth; A feasible support route and trigger are recorded; Changed
+      choice help contact and completed treatment are distinguished. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which decision became safer because the specific interaction or control risk was checked,
+      and when will outside help be used?
+
+
+      Examples: Supportive: The person asked a pharmacist about the medicine and arranged transport rather
+      than rely on a friend’s reassurance about driving.
+
+
+      Mixed: A boundary was chosen, but the help service was inaccessible, so an alternative route still
+      needed verification.
+
+
+      Contradictory: Alcohol or sedatives were stopped abruptly despite possible dependence, or a substance
+      was tried to gather exercise evidence.
+
+
+      Inconclusive: General facts about drugs were listed without resolving the actual interaction, impairment
+      or help-seeking decision.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -217,15 +275,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1211_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1211_a3_stop_conditions_present
-        - c1211_a3_escalation_path_present
-        - c1211_a3_unknowns_retained
+        - a_safe_action_or_explicitly_labeled_rehearsal_occurs
+        - the_boundary_is_based_on_verified_information_rather_than_a_myth
+        - a_feasible_support_route_and_trigger_are_recorded
+        - changed_choice_help_contact_and_completed_treatment_are_distinguished
       - measurement_id: c1211_a3_boundary
         kind: boolean
         role: supporting
@@ -246,16 +305,19 @@ intervention:
       Substances and altered states; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Substances and altered states; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Abstainers can use the fictional interaction case without exposure. Use confidential, culturally
+      appropriate or accessible services and a trusted support person with consent. The exercise never
+      requires drug purchasing, intoxication, withdrawal testing, sharing medications or recording another
+      person’s use.
     cultural_context:
     - Adapt the expression of Substances and altered states to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Substances and altered states opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Abstainers can use the fictional interaction case without exposure. Use confidential, culturally
+      appropriate or accessible services and a trusted support person with consent. The exercise never
+      requires drug purchasing, intoxication, withdrawal testing, sharing medications or recording another
+      person’s use.
   pause_conditions:
   - Pause Substances and altered states when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -286,10 +348,8 @@ evidence_and_scoring:
   - c1211_a3_boundary
   - c1211_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Substances and altered states action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Substances and altered states criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - Alcohol or sedatives were stopped abruptly despite possible dependence, or a substance was tried to
+    gather exercise evidence.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Substances and altered states explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -300,14 +360,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Substances and altered states rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Makes informed choices and seeks help if use becomes unsafe or compulsive.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Substances and altered states requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Identify the specific risk rather than a moral category. Observed checks:
+    Substance effects interactions and context are separated; The actual ingredient or uncertainty is
+    identified; Control impairment and harm are considered without moral labeling; Sensitive use and medicine
+    details remain private. Action 2: Verify the uncertainty and make a safe immediate choice. Observed
+    checks: The specific uncertainty is checked through a qualified source; An immediate impairment risk
+    is not taken while awaiting reassurance; Possible dependence is not addressed through unsupervised
+    abrupt cessation; Emergency signs or immediate danger take priority over the task. Action 3: Put the
+    verified boundary and support route into use. Observed checks: A safe action or explicitly labeled
+    rehearsal occurs; The boundary is based on verified information rather than a myth; A feasible support
+    route and trigger are recorded; Changed choice help contact and completed treatment are distinguished.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. General facts about drugs were listed without resolving
+    the actual interaction, impairment or help-seeking decision.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Substances
     and altered states contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -317,9 +386,8 @@ evidence_and_scoring:
   - L09
   - L17
   - L20
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Substances and altered states evidence.
@@ -327,12 +395,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for substances and altered states action was attempted or
-    explicitly deferred.
-  - The prepare one safe substances and altered states support step action was attempted or explicitly
-    deferred.
-  - The review the substances and altered states plan against stop conditions action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Identify the specific risk rather than a moral category. Observed checks: Substance effects
+    interactions and context are separated; The actual ingredient or uncertainty is identified; Control
+    impairment and harm are considered without moral labeling; Sensitive use and medicine details remain
+    private.'
+  - 'Action 2: Verify the uncertainty and make a safe immediate choice. Observed checks: The specific
+    uncertainty is checked through a qualified source; An immediate impairment risk is not taken while
+    awaiting reassurance; Possible dependence is not addressed through unsupervised abrupt cessation;
+    Emergency signs or immediate danger take priority over the task.'
+  - 'Action 3: Put the verified boundary and support route into use. Observed checks: A safe action or
+    explicitly labeled rehearsal occurs; The boundary is based on verified information rather than a myth;
+    A feasible support route and trigger are recorded; Changed choice help contact and completed treatment
+    are distinguished.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -341,56 +418,355 @@ completion_and_review:
     - c1211_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Substances and altered states only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Substances and altered states across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which decision became safer because the specific interaction or control risk was
+    checked, and when will outside help be used?
+  transfer_limit: This is risk literacy and help-seeking, not instructions for drug use, detoxification,
+    dosing or performance enhancement. Do not start a substance for this exercise or abruptly change prescribed
+    treatment.
   reflection:
-    before: What does Substances and altered states require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Substances and altered states criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Makes informed choices and seeks help if use becomes unsafe
-      or compulsive.', what contradiction or missing context matters most, and should this Substances
-      and altered states design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Evaluate substance use through effects, interactions,
+      impairment, dependence and context, and obtain appropriate help when risk or loss of control exceeds
+      self-management.'
+    during: Which checks have actually been observed? A boundary was chosen, but the help service was
+      inaccessible, so an alternative route still needed verification.
+    after: Which decision became safer because the specific interaction or control risk was checked, and
+      when will outside help be used?
   review_guidance:
     repeat: Repeat the same bounded Substances and altered states design only when the context and burden
       remain appropriate.
-    adapt: Change the Substances and altered states medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Abstainers can use the fictional interaction case without exposure. Use confidential, culturally
+      appropriate or accessible services and a trusted support person with consent. The exercise never
+      requires drug purchasing, intoxication, withdrawal testing, sharing medications or recording another
+      person’s use.
     stop: Stop Substances and altered states when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Substances and altered states questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Substances and altered states criteria were observed with provenance and no
-      adverse boundary signal in the selected context.
-    mixed: Some Substances and altered states criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Substances and altered states criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Substances and altered states action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The person asked a pharmacist about the medicine and arranged transport rather than rely
+      on a friend’s reassurance about driving.
+    mixed: A boundary was chosen, but the help service was inaccessible, so an alternative route still
+      needed verification.
+    contradictory: Alcohol or sedatives were stopped abruptly despite possible dependence, or a substance
+      was tried to gather exercise evidence.
+    inconclusive: General facts about drugs were listed without resolving the actual interaction, impairment
+      or help-seeking decision.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Substances and altered states.
+    context_heading: Check a substance-risk question before acting on reassurance or fear
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Substances
       and altered states.
   check_in_labels:
-    c1211_a1_primary: The bounded Substances and altered states criterion for action 1 was observed
+    c1211_a1_primary: 'Observed checks: identify the specific risk rather than a moral category'
     c1211_a1_boundary: Action 1 stayed inside its stated Substances and altered states boundary
     c1211_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1211_a2_primary: The bounded Substances and altered states criterion for action 2 was observed
+    c1211_a2_primary: 'Observed checks: verify the uncertainty and make a safe immediate choice'
     c1211_a2_boundary: Action 2 stayed inside its stated Substances and altered states boundary
     c1211_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1211_a3_primary: The bounded Substances and altered states criterion for action 3 was observed
+    c1211_a3_primary: 'Observed checks: put the verified boundary and support route into use'
     c1211_a3_boundary: Action 3 stayed inside its stated Substances and altered states boundary
     c1211_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Substances and altered
-    states practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which decision became safer because the specific interaction or control risk was checked,
+    and when will outside help be used? Completion is not mastery.
+  plain_language_evidence: The person asked a pharmacist about the medicine and arranged transport rather
+    than rely on a friend’s reassurance about driving.
   display_order: 156
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.11'
+  title: 12.11 — Substances and altered states
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [CDC, BMI Frequently Asked Questions](https://www.cdc.gov/bmi/faq/index.html)
+
+      - [MedlinePlus, How to Understand Your Lab Results](https://www.medlineplus.gov/lab-tests/how-to-understand-your-lab-results/)
+
+      - [NIAMS, Sports Injuries: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/sports-injuries/diagnosis-treatment-and-steps-to-take)
+
+      - [NIAAA, Harmful Interactions](https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/harmful-interactions-mixing-alcohol-with-medicines)
+
+      - [NIAAA, Alcohol Use Disorder: From Risk to Diagnosis to Recovery](https://www.niaaa.nih.gov/health-professionals-communities/core-resource-on-alcohol/alcohol-use-disorder-risk-diagnosis-recovery)
+
+      - [FDA, Benzodiazepine Boxed Warning update](https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class)
+
+      - [FDA, Nicotine Is Why Tobacco Products Are Addictive](https://www.fda.gov/tobacco-products/health-effects-tobacco-use/nicotine-why-tobacco-products-are-addictive)
+
+      - [NIDA, Anabolic Steroids and Other Appearance and Performance Enhancing Drugs](https://nida.nih.gov/research-topics/anabolic-steroids)
+
+      - [NHS, Consent to treatment](https://www.nhs.uk/tests-and-treatments/consent-to-treatment/)
+
+      - [CDC, About Handwashing](https://www.cdc.gov/clean-hands/about/index.html)
+
+      - [NIAMS, Exercise for Your Bone Health](https://www.niams.nih.gov/health-topics/exercise-your-bone-health)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Reveal after preserving the immediate plan. These are independent simulated branches.
+
+
+      ### Branch A: the plan occurs
+
+
+      Remy declines the alcohol. C arrives at 20:50, accommodates the usual aid and drives Remy home;
+      arrival is confirmed at 21:00. Remy did not drive. No pharmacist response is yet supplied. The 10-minute
+      journey and 10-minute margin before the venue''s 21:00 closing fit the original plan. Record an
+      actual simulated journey, not a medication review or treatment outcome.
+
+
+      ### Branch B: confirmation changes
+
+
+      At 20:40 C reports a delay: earliest pickup is now 21:10. Remy still declines alcohol and does not
+      drive. The host''s existing waiting agreement ends at 21:00. No extension, alternative transport
+      or new waiting location is confirmed. The pickup is 10 minutes after the existing waiting boundary;
+      a future arrival home at 21:20 would not fix the gap.
+
+
+      Write the next message asking the host/trusted support to arrange a suitable agreed waiting or travel
+      option now. Keep transport unresolved until a feasible option is actually confirmed. Do not use
+      A, invent funds for B, wait outside without assessing suitability, or resume driving to make the
+      plan appear closed. No emergency is supplied here; a real medical emergency would instead require
+      immediate emergency help.
+
+
+      In both branches, a sent pharmacist question would establish a request only. No answer or treatment
+      is invented. In branch B, maintaining a substance/driving boundary is supportive while the practical
+      journey remains incomplete.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Resolve the actual risk without experimenting on yourself
+
+
+      A useful substance decision identifies the product, possible interactions, current impairment, activity
+      demands and whether outside help is needed. “Legal,” “natural,” “prescribed” and “everyone uses
+      it” are not interchangeable safety conclusions. Neither fear nor reassurance substitutes for the
+      specific facts.
+
+
+      This source companion teaches risk literacy across alcohol, nicotine, recreational substances, performance
+      drugs and medications. Allow 15 minutes for the five-part case review, 10 for the transport/update
+      decision and 10 for checks. Use the complete fictional packet, paper or dictation. No substance
+      purchase, use, withdrawal experiment, live contact or private substance history is required. Health
+      and exercise content must be adapted to the person and does not replace licensed medical care. This
+      is not dosing, detoxification, treatment or performance-enhancement instruction.
+
+
+      ### Five questions, different risks
+
+
+      Ask: what is the actual substance and label; what other medicines or substances matter; what activity
+      requires alertness; is control, harm or withdrawal a concern; and which qualified or emergency route
+      is appropriate? Apply the questions to each category without assuming all effects are identical.
+
+
+      | Category | Useful distinction | What this exercise cannot conclude |
+
+      | --- | --- | --- |
+
+      | Alcohol | Impairment, interactions and a pattern of dependence are different questions | No amount
+      or waiting time is declared safe for driving |
+
+      | Nicotine | Dependence and product-related harms matter even without obvious intoxication | No
+      product is called harmless or prescribed as a personal cessation treatment |
+
+      | Recreational substances | Ingredient, strength, impairment and interaction information may be
+      uncertain | A familiar seller, name or peer report does not establish contents or safety |
+
+      | Performance drugs | An appearance/performance goal does not establish medical indication or safe
+      use | No cycle, dose, combination or sourcing advice |
+
+      | Prescription/nonprescription medicines | Appropriate treatment can coexist with impairment, interactions
+      or dependence risk | A label warning is not permission to stop treatment abruptly or share a prescription
+      |
+
+
+      NIAAA explains [alcohol–medicine interaction risks](https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/harmful-interactions-mixing-alcohol-with-medicines);
+      check the actual label and pharmacist/prescriber rather than a guessed safe interval. FDA explains
+      [nicotine dependence and differing product risks](https://www.fda.gov/tobacco-products/health-effects-tobacco-use/nicotine-why-tobacco-products-are-addictive).
+      NIDA describes [risks of anabolic steroid misuse](https://nida.nih.gov/research-topics/anabolic-steroids).
+      These references support category distinctions, not an individual regimen or moral ranking.
+
+
+      Possible alcohol or sedative dependence needs medical support before a sudden reduction or stop;
+      severe withdrawal can be dangerous. See [NIAAA''s withdrawal boundary](https://www.niaaa.nih.gov/health-professionals-communities/core-resource-on-alcohol/alcohol-use-disorder-risk-diagnosis-recovery)
+      and [FDA''s benzodiazepine warning](https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class).
+      This does not mean continue unsafe use without help: obtain timely appropriate medical advice, and
+      use emergency services for suspected overdose, severe withdrawal or immediate danger. Do not wait
+      for a worksheet, routine appointment or transport plan in an emergency.
+
+
+      ### Worked example: the ingredient is missing
+
+
+      Quinn is offered a product called “natural focus.” No ingredient list is available. They also take
+      a medicine whose interaction information they do not know. The useful record is “contents and interaction
+      unknown,” not “safe because natural” or “all products are equally dangerous.” Quinn does not try
+      it for evidence; they can decline and ask a pharmacist a specific question if there is a real treatment/product
+      concern. A refusal rehearsal is not actual use or treatment.
+
+
+      ### Complete materials: Remy''s journey home
+
+
+      At 20:30, Remy is at a low-stakes social meeting. Remy''s fictional prescribed product M has an
+      existing label warning about drowsiness, alcohol and driving; the exercise supplies no dose or medicine
+      identity. Remy is currently drowsy after taking it as prescribed and has not consumed alcohol. No
+      overdose or acute emergency sign is supplied. A friend offers alcohol and says coffee will make
+      driving fine. A pharmacist question about the actual product is unresolved. No medication change
+      is authorized.
+
+
+      Remy can decline the offered alcohol and avoid driving while arranging suitable help. The host has
+      already agreed Remy can wait safely inside with support until 21:00. Remy has zero transport money
+      available tonight. The following are the only currently supplied options:
+
+
+      | Option | Driver / mode | Confirmation and timing | Cost and access |
+
+      | --- | --- | --- | --- |
+
+      | A | Friend driving | Friend reports drinking; offers 20:40 pickup | No fare; unsuitable impairment
+      concern |
+
+      | B | Paid ride | No booking or pickup confirmation | 12 units; funds unavailable |
+
+      | C | Trusted sober, alert friend | Explicitly confirmed 20:50 pickup at accessible door; 10-minute
+      journey | No fare; usual aid accommodated; no solo walk required |
+
+
+      These facts make C feasible as a plan, not a completed journey. Safe waiting beyond 21:00 has not
+      been agreed. A support person can help contact the service or arrange alternatives with Remy''s
+      consent; no public disclosure of medicine or use history is needed.
+
+
+      #### Action 1 — Separate the immediate decision from the unresolved question
+
+
+      Complete the five-question record. Distinguish Remy''s current drowsiness, the offered alcohol,
+      a possible interaction and the driving decision. Do not use “no alcohol consumed” as proof that
+      Remy can drive. Record dependence history as not supplied, not automatically absent; this fictional
+      case does not require a detoxification decision.
+
+
+      #### Action 2 — Make the safe immediate plan concrete
+
+
+      Draft a short decline and transport message: “I am not driving tonight. I will use the confirmed
+      pickup and wait inside.” You need not share a medicine name. Calculate C''s arrival home and the
+      waiting margin before closing. Explain separately why A and B fail the current constraints. State
+      the fallback trigger: if pickup becomes uncertain or later than safe waiting, contact the host/trusted
+      support immediately to arrange an explicitly agreed safe option; do not infer an extension or substitute
+      impaired driving.
+
+
+      Draft the pharmacist/prescriber question privately: what does the actual product''s warning mean
+      for current activities and relevant interactions, and what instructions should be followed? Do not
+      stop or change prescribed treatment from a worksheet. Save the plan before [later-packet.md](?resource=file-later-packet-md).
+
+
+      #### Action 3 — Use the update and preserve help status
+
+
+      Apply both later branches separately. Track `decline/rehearsal | transport planned | pickup occurred
+      | arrived | qualified question sent | reply received | treatment completed`. Only supplied events
+      can advance a status. A sober ride does not resolve dependence or medication questions, and a booked
+      consultation is not treatment completed. If actual use is becoming unsafe, compulsive or difficult
+      to control, use an appropriate confidential qualified service; support is not contingent on a moral
+      judgment.
+
+
+      Attempt [fresh checks](?attempt=practice-checks) before [the key](?check=practice-answers). The
+      default completes a risk record, refusal/transport rehearsal, update and help plan. It does not
+      establish actual contact, altered-state experience or a changed real-world choice.
+
+
+      ### Access, challenge and transfer
+
+
+      Abstainers can complete the packet without exposure. Use text, an interpreter or a consented support
+      person; keep sensitive details private. A help route that is inaccessible remains unresolved until
+      an alternative is actually identified, not until a website is bookmarked.
+
+
+      Harder variation: a different person reports possible dependence and asks for a weekend self-detox
+      schedule. Identify timely medical support as the next step; supply no taper or abrupt-stop plan.
+      Severe symptoms or suspected overdose use emergency help. The five categories do not require identical
+      management.
+
+
+      Later real transfer may be one appropriate pharmacist question, support contact, transport arrangement
+      or low-pressure refusal. Record what actually occurs and what remains pending; never initiate use
+      or provoke withdrawal to generate evidence. Qualified assessment, actual behavior, self-review and
+      this author-provided simulation remain distinct.
+
+
+      **Supportive:** Specific uncertainty reaches the appropriate professional and a feasible safe immediate
+      choice actually occurs.
+
+
+      **Mixed:** The boundary holds but a cancelled ride or inaccessible service leaves further support
+      work.
+
+
+      **Contradictory:** Impairment is ignored, unknown products are tested or possible dependence is
+      met with unsupervised abrupt cessation.
+
+
+      **Inconclusive:** General facts or a draft are recorded without resolving the actual decision or
+      help access.
+
+
+      See scope and limits described in this guide and [source limits](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A person is drowsy from a medicine and has consumed no alcohol. A friend says this proves
+      they can drive and suggests coffee. What immediate choice and qualified question are appropriate?
+      Do not change the prescription.
+
+      2. A confirmed pickup moves from 19:40 to 20:10; the agreed safe indoor waiting ends at 20:00. A
+      15-minute journey is expected. Calculate the gap and explain why a predicted home arrival is not
+      a completed or feasible waiting plan.
+
+      3. A person reports possible alcohol or sedative dependence and wants to stop suddenly without medical
+      help. Another product has no readable ingredient list. State the two distinct uncertainty/help responses
+      without a dosing or detoxification schedule.
+
+
+      Save answers before [the key](?check=practice-answers).'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Do not drive while drowsy; arrange appropriate safe support/transport. Absence of alcohol
+      does not erase medicine-related impairment, and coffee does not establish driving fitness. Ask the
+      pharmacist/prescriber about the actual product and activity/interaction instructions; do not independently
+      change treatment.
+
+      2. Pickup is 10 minutes after safe waiting ends; predicted home arrival is 20:25. Seek an explicitly
+      agreed suitable waiting extension or alternative journey. Neither a timestamp nor a request creates
+      that agreement, pickup or arrival.
+
+      3. Possible dependence needs timely medical support before a sudden reduction or stop; severe withdrawal
+      or overdose concerns use emergency care. Unknown ingredients remain unknown: do not test the product,
+      assume “natural” means safe or invent interaction clearance. These are different risks requiring
+      specific information, not a shared do-it-yourself regimen.
+
+
+      These checks assess risk reasoning and do not establish clinical competence or actual substance
+      behavior.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

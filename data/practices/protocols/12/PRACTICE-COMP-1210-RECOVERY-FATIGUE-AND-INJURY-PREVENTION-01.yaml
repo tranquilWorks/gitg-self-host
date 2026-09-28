@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1210-RECOVERY-FATIGUE-AND-INJURY-PREVENTION-01
 slug: c1210-recovery-fatigue-and-injury-prevention-practice
-name: Bounded Recovery, fatigue, and injury prevention Practice
+name: Respond to a training-load warning before adding more work
 parent_competency_id: '12.10'
 domain_id: '12'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.10
-      (Recovery, fatigue, and injury prevention); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.10; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Recovery, fatigue, and injury prevention through a qualified-support preparation
-    bounded by the canonical scope: Distinguish productive stress from overtraining, pain, illness, and
-    structural injury.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Adjusts load, sleep,
-    nutrition, and care before temporary strain becomes lasting damage. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Distinguish ordinary training effort from warning signs of inadequate recovery, illness or
+    injury, and make a proportionate load or care decision using observed function.
+  why_recommended: Distinguish ordinary training effort from warning signs of inadequate recovery, illness
+    or injury, and make a proportionate load or care decision using observed function.
   claims:
-  - statement: Using the canonical scope and evidence target for Recovery, fatigue, and injury prevention
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Distinguish ordinary training effort from warning signs of inadequate recovery, illness
+      or injury, and make a proportionate load or care decision using observed function.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Recovery, fatigue, and injury prevention practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Recovery, fatigue, and injury prevention as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Recovery, fatigue,
-    and injury prevention context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Recovery,
-    fatigue, and injury prevention; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use voice notes or a support person to compare function without fitness tracking.
+    For chronic illness or post-exertional symptom worsening, use individualized guidance rather than
+    an automatic increase schedule. A fictional warning case exercises judgment but not actual recovery.
+  opportunity_considerations: 'Use the default of a familiar exercise session followed by unusual fatigue
+    and poorer control on stairs. Make five headings: recent load change, sleep, nourishment and hydration,
+    symptoms, and daily function. Do not repeat the provoking activity to prove whether pain is real.
+    Use a fictional case when there is no current issue.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Recovery, fatigue, and injury prevention.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use the default of a familiar exercise session followed by unusual fatigue and poorer control on
+    stairs. Make five headings: recent load change, sleep, nourishment and hydration, symptoms, and daily
+    function. Do not repeat the provoking activity to prove whether pain is real. Use a fictional case
+    when there is no current issue.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Recovery, fatigue, and injury prevention
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use voice notes or a support person to compare function without fitness tracking. For chronic illness
+    or post-exertional symptom worsening, use individualized guidance rather than an automatic increase
+    schedule. A fictional warning case exercises judgment but not actual recovery.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Recovery, fatigue, and injury prevention actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Recovery, fatigue, and injury prevention; copy the canonical scope and
-    evidence target into a private working note; define the action boundary, valid supports, privacy limit,
-    and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Recovery,
-    fatigue, and injury prevention. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Recovery, fatigue, and injury prevention
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the default of a familiar exercise session followed by unusual fatigue and poorer control
+    on stairs. Make five headings: recent load change, sleep, nourishment and hydration, symptoms, and
+    daily function. Do not repeat the provoking activity to prove whether pain is real. Use a fictional
+    case when there is no current issue. Goal: Distinguish ordinary training effort from warning signs
+    of inadequate recovery, illness or injury, and make a proportionate load or care decision using observed
+    function. Scope: This is a conservative recovery decision process, not a diagnosis of overtraining
+    or an injury-treatment protocol. Serious or worsening symptoms require timely qualified care. Time
+    and effort: Ten minutes to review a recent ordinary activity and brief checks before and after the
+    next appropriate session. Adaptation: Use voice notes or a support person to compare function without
+    fitness tracking. For chronic illness or post-exertional symptom worsening, use individualized guidance
+    rather than an automatic increase schedule. A fictional warning case exercises judgment but not actual
+    recovery. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use voice notes or a support person to compare function without fitness tracking.
+    For chronic illness or post-exertional symptom worsening, use individualized guidance rather than
+    an automatic increase schedule. A fictional warning case exercises judgment but not actual recovery.
+  expected_burden: Ten minutes to review a recent ordinary activity and brief checks before and after
+    the next appropriate session.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Recovery, fatigue, and injury prevention protocol to rank worth, coerce participation, demand
@@ -101,19 +109,25 @@ intervention:
   - Treating a completed Recovery, fatigue, and injury prevention action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Recovery, fatigue, and injury prevention situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use voice notes
+    or a support person to compare function without fitness tracking. For chronic illness or post-exertional
+    symptom worsening, use individualized guidance rather than an automatic increase schedule. A fictional
+    warning case exercises judgment but not actual recovery.
   actions:
   - stable_id: PRACTICE-COMP-1210-RECOVERY-FATIGUE-AND-INJURY-PREVENTION-01-A1
     sequence: 1
-    title: Bound the qualified question for Recovery, fatigue, and injury prevention
-    instructions: 'Turn Recovery, fatigue, and injury prevention into one educational or planning question
-      and identify the qualification and jurisdiction needed to answer it. Use the canonical scope to
-      separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Distinguish productive stress from overtraining, pain,
-      illness, and structural injury.'
+    title: Compare the recent load with recovery and usual function
+    instructions: 'Record any change in duration, intensity, frequency, equipment or environment and compare
+      it with recent sleep, food access, fluid needs and illness. Describe symptoms and daily function
+      without assigning a diagnosis. For the default, unusual stair difficulty is a reason to reconsider
+      the next session, not evidence of productive soreness. Sudden severe pain, major swelling, inability
+      to bear weight or a visibly abnormal joint needs prompt medical evaluation.
+
+
+      Observation checks: Load changes and recovery resources are reviewed together; Symptoms are described
+      without a self-diagnosis; Daily function is compared with the person’s usual baseline; Serious injury
+      signs trigger timely qualified evaluation. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +149,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1210_a1_question_bounded
-        - c1210_a1_qualification_named
-        - c1210_a1_professional_boundary_explicit
+        - load_changes_and_recovery_resources_are_reviewed_together
+        - symptoms_are_described_without_a_self_diagnosis
+        - daily_function_is_compared_with_the_person_s_usual_baseline
+        - serious_injury_signs_trigger_timely_qualified_evaluation
       - measurement_id: c1210_a1_boundary
         kind: boolean
         role: supporting
@@ -154,12 +169,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1210-RECOVERY-FATIGUE-AND-INJURY-PREVENTION-01-A2
     sequence: 2
-    title: Prepare minimum information for Recovery, fatigue, and injury prevention
-    instructions: Create a privacy-minimized Recovery, fatigue, and injury prevention consultation note
-      containing only the question, relevant category-level facts, current constraints, and desired decision.
-      Omit diagnoses, allegations, account numbers, credentials, protected work information, intimate
-      detail, and third-party identity unless a qualified professional lawfully requires it through an
-      appropriate channel.
+    title: Change the next session or obtain care within the observed limit
+    instructions: 'Choose a concrete response: defer the provoking session, reduce a familiar non-provocative
+      task, use an existing rehabilitation plan or contact a clinician. Preserve sleep and adequate nourishment
+      rather than compensate with stimulants or extra training. State what activity remains safe and useful,
+      if any, and what sign means stop. Do not test a painful movement repeatedly or take medication simply
+      to mask the signal and continue.
+
+
+      Observation checks: The next session is changed or care is sought for a stated reason; Sleep nourishment
+      and necessary hydration are protected; Any continuing activity has a clear safe boundary; Pain is
+      not provoked or masked to meet a target. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -181,9 +202,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1210_a2_minimum_information_only
-        - c1210_a2_sensitive_detail_excluded
-        - c1210_a2_decision_need_named
+        - the_next_session_is_changed_or_care_is_sought_for_a_stated_reason
+        - sleep_nourishment_and_necessary_hydration_are_protected
+        - any_continuing_activity_has_a_clear_safe_boundary
+        - pain_is_not_provoked_or_masked_to_meet_a_target
       - measurement_id: c1210_a2_boundary
         kind: boolean
         role: supporting
@@ -200,12 +222,36 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1210-RECOVERY-FATIGUE-AND-INJURY-PREVENTION-01-A3
     sequence: 3
-    title: Record a bounded Recovery, fatigue, and injury prevention disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Adjusts load, sleep, nutrition, and care before temporary strain becomes
-      lasting damage.'
+    title: Review recovery before any return or progression
+    instructions: 'At the next planned check, compare symptoms and ordinary function with baseline. Follow
+      qualified advice when obtained. Resume or progress only within the existing safe plan; if symptoms
+      persist, worsen or remain unexplained, seek further assessment instead of declaring recovery from
+      elapsed time alone. Record one future load-management change, such as avoiding simultaneous increases
+      in session length and difficulty.
+
+
+      Observation checks: Symptoms and ordinary function are rechecked before return; Qualified advice
+      remains controlling when relevant; Persistent worsening or unexplained symptoms prompt reassessment;
+      A specific future load-management change follows. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.
+
+
+      Final review: What changed in the next session because of the warning, and what evidence—not just
+      elapsed time—supports returning?
+
+
+      Examples: Supportive: The provoking session was deferred, a clinician reviewed persistent symptoms
+      and the later return followed the agreed plan.
+
+
+      Mixed: Fatigue improved, but stair control had not returned to usual, so progression remained inappropriate.
+
+
+      Contradictory: Pain was masked and workload increased because soreness was assumed to prove an effective
+      workout.
+
+
+      Inconclusive: A recovery day was declared without checking symptoms, function or the next load decision.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -221,14 +267,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1210_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1210_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - symptoms_and_ordinary_function_are_rechecked_before_return
+        - qualified_advice_remains_controlling_when_relevant
+        - persistent_worsening_or_unexplained_symptoms_prompt_reassessment
+        - a_specific_future_load_management_change_follows
       - measurement_id: c1210_a3_boundary
         kind: boolean
         role: supporting
@@ -249,17 +297,17 @@ intervention:
       Recovery, fatigue, and injury prevention; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Recovery, fatigue, and injury prevention; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use voice notes or a support person to compare function without fitness tracking. For chronic illness
+      or post-exertional symptom worsening, use individualized guidance rather than an automatic increase
+      schedule. A fictional warning case exercises judgment but not actual recovery.
     cultural_context:
     - Adapt the expression of Recovery, fatigue, and injury prevention to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Recovery, fatigue, and injury prevention opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use voice notes or a support person to compare function without fitness tracking. For chronic illness
+      or post-exertional symptom worsening, use individualized guidance rather than an automatic increase
+      schedule. A fictional warning case exercises judgment but not actual recovery.
   pause_conditions:
   - Pause Recovery, fatigue, and injury prevention when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -290,10 +338,7 @@ evidence_and_scoring:
   - c1210_a3_boundary
   - c1210_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Recovery, fatigue, and injury prevention action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Recovery, fatigue, and injury prevention criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - Pain was masked and workload increased because soreness was assumed to prove an effective workout.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Recovery, fatigue, and injury prevention explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -304,14 +349,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Recovery, fatigue, and injury prevention rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Adjusts load, sleep, nutrition, and care before temporary strain becomes lasting damage.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Recovery, fatigue, and injury prevention requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Compare the recent load with recovery and usual function. Observed checks:
+    Load changes and recovery resources are reviewed together; Symptoms are described without a self-diagnosis;
+    Daily function is compared with the person’s usual baseline; Serious injury signs trigger timely qualified
+    evaluation. Action 2: Change the next session or obtain care within the observed limit. Observed checks:
+    The next session is changed or care is sought for a stated reason; Sleep nourishment and necessary
+    hydration are protected; Any continuing activity has a clear safe boundary; Pain is not provoked or
+    masked to meet a target. Action 3: Review recovery before any return or progression. Observed checks:
+    Symptoms and ordinary function are rechecked before return; Qualified advice remains controlling when
+    relevant; Persistent worsening or unexplained symptoms prompt reassessment; A specific future load-management
+    change follows.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A recovery day was declared without checking symptoms,
+    function or the next load decision.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Recovery,
     fatigue, and injury prevention contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -320,9 +374,8 @@ evidence_and_scoring:
   - L10
   - L11
   - L17
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Recovery, fatigue, and injury prevention evidence.
@@ -330,12 +383,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for recovery, fatigue, and injury prevention action was attempted
-    or explicitly deferred.
-  - The prepare minimum information for recovery, fatigue, and injury prevention action was attempted
-    or explicitly deferred.
-  - The record a bounded recovery, fatigue, and injury prevention disposition action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Compare the recent load with recovery and usual function. Observed checks: Load changes
+    and recovery resources are reviewed together; Symptoms are described without a self-diagnosis; Daily
+    function is compared with the person’s usual baseline; Serious injury signs trigger timely qualified
+    evaluation.'
+  - 'Action 2: Change the next session or obtain care within the observed limit. Observed checks: The
+    next session is changed or care is sought for a stated reason; Sleep nourishment and necessary hydration
+    are protected; Any continuing activity has a clear safe boundary; Pain is not provoked or masked to
+    meet a target.'
+  - 'Action 3: Review recovery before any return or progression. Observed checks: Symptoms and ordinary
+    function are rechecked before return; Qualified advice remains controlling when relevant; Persistent
+    worsening or unexplained symptoms prompt reassessment; A specific future load-management change follows.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -344,62 +405,335 @@ completion_and_review:
     - c1210_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Recovery, fatigue, and injury prevention only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Recovery, fatigue, and injury prevention across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What changed in the next session because of the warning, and what evidence—not
+    just elapsed time—supports returning?
+  transfer_limit: This is a conservative recovery decision process, not a diagnosis of overtraining or
+    an injury-treatment protocol. Serious or worsening symptoms require timely qualified care.
   reflection:
-    before: What does Recovery, fatigue, and injury prevention require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Recovery, fatigue, and injury prevention criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Adjusts load, sleep, nutrition, and care before temporary
-      strain becomes lasting damage.', what contradiction or missing context matters most, and should
-      this Recovery, fatigue, and injury prevention design be repeated, adapted, deferred, stopped, or
-      referred?
+    before: 'What would count as doing this honestly? Goal: Distinguish ordinary training effort from
+      warning signs of inadequate recovery, illness or injury, and make a proportionate load or care decision
+      using observed function.'
+    during: Which checks have actually been observed? Fatigue improved, but stair control had not returned
+      to usual, so progression remained inappropriate.
+    after: What changed in the next session because of the warning, and what evidence—not just elapsed
+      time—supports returning?
   review_guidance:
     repeat: Repeat the same bounded Recovery, fatigue, and injury prevention design only when the context
       and burden remain appropriate.
-    adapt: Change the Recovery, fatigue, and injury prevention medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use voice notes or a support person to compare function without fitness tracking. For chronic
+      illness or post-exertional symptom worsening, use individualized guidance rather than an automatic
+      increase schedule. A fictional warning case exercises judgment but not actual recovery.
     stop: Stop Recovery, fatigue, and injury prevention when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Recovery, fatigue, and injury prevention
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Recovery, fatigue, and injury prevention criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Recovery, fatigue, and injury prevention criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Recovery, fatigue, and injury prevention criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Recovery, fatigue, and injury prevention action was deferred, not observed, not
-      applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The provoking session was deferred, a clinician reviewed persistent symptoms and the later
+      return followed the agreed plan.
+    mixed: Fatigue improved, but stair control had not returned to usual, so progression remained inappropriate.
+    contradictory: Pain was masked and workload increased because soreness was assumed to prove an effective
+      workout.
+    inconclusive: A recovery day was declared without checking symptoms, function or the next load decision.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Recovery, fatigue, and injury prevention.
+    context_heading: Respond to a training-load warning before adding more work
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Recovery,
       fatigue, and injury prevention.
   check_in_labels:
-    c1210_a1_primary: The bounded Recovery, fatigue, and injury prevention criterion for action 1 was
-      observed
+    c1210_a1_primary: 'Observed checks: compare the recent load with recovery and usual function'
     c1210_a1_boundary: Action 1 stayed inside its stated Recovery, fatigue, and injury prevention boundary
     c1210_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1210_a2_primary: The bounded Recovery, fatigue, and injury prevention criterion for action 2 was
-      observed
+    c1210_a2_primary: 'Observed checks: change the next session or obtain care within the observed limit'
     c1210_a2_boundary: Action 2 stayed inside its stated Recovery, fatigue, and injury prevention boundary
     c1210_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1210_a3_primary: The bounded Recovery, fatigue, and injury prevention criterion for action 3 was
-      observed
+    c1210_a3_primary: 'Observed checks: review recovery before any return or progression'
     c1210_a3_boundary: Action 3 stayed inside its stated Recovery, fatigue, and injury prevention boundary
     c1210_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Recovery, fatigue,
-    and injury prevention practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What changed in the next session because of the warning, and what evidence—not just
+    elapsed time—supports returning? Completion is not mastery.
+  plain_language_evidence: The provoking session was deferred, a clinician reviewed persistent symptoms
+    and the later return followed the agreed plan.
   display_order: 155
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.10'
+  title: 12.10 — Recovery, fatigue, and injury prevention
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [CDC, BMI Frequently Asked Questions](https://www.cdc.gov/bmi/faq/index.html)
+
+      - [MedlinePlus, How to Understand Your Lab Results](https://www.medlineplus.gov/lab-tests/how-to-understand-your-lab-results/)
+
+      - [NIAMS, Sports Injuries: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/sports-injuries/diagnosis-treatment-and-steps-to-take)
+
+      - [NIAAA, Harmful Interactions](https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/harmful-interactions-mixing-alcohol-with-medicines)
+
+      - [NIAAA, Alcohol Use Disorder: From Risk to Diagnosis to Recovery](https://www.niaaa.nih.gov/health-professionals-communities/core-resource-on-alcohol/alcohol-use-disorder-risk-diagnosis-recovery)
+
+      - [FDA, Benzodiazepine Boxed Warning update](https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class)
+
+      - [FDA, Nicotine Is Why Tobacco Products Are Addictive](https://www.fda.gov/tobacco-products/health-effects-tobacco-use/nicotine-why-tobacco-products-are-addictive)
+
+      - [NIDA, Anabolic Steroids and Other Appearance and Performance Enhancing Drugs](https://nida.nih.gov/research-topics/anabolic-steroids)
+
+      - [NHS, Consent to treatment](https://www.nhs.uk/tests-and-treatments/consent-to-treatment/)
+
+      - [CDC, About Handwashing](https://www.cdc.gov/clean-hands/about/index.html)
+
+      - [NIAMS, Exercise for Your Bone Health](https://www.niams.nih.gov/health-topics/exercise-your-bone-health)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Open after preserving the next-session decision. These are separate fictional branches.
+
+
+      ### Main branch
+
+
+      Day 1: Jules defers the optional 30-minute session and sends the advice request. Day 2: fatigue
+      is reported less intrusive. During an unavoidable ordinary task with usual support, stair control
+      is still different from baseline. No deliberate test is performed. Pain and illness information
+      remain incomplete. The clinic acknowledges the message but has not yet supplied a return plan.
+
+
+      Do not resume from a calendar date or an acknowledgement. Keep the changed function and missing
+      information visible; use appropriate clinical follow-up, with urgent help if concerning symptoms
+      arise. No specific exercise dose is authorized by this branch.
+
+
+      ### Separate favorable branch
+
+
+      Replace day 2 entirely: the clinician actually reviews the concern and supplies an individualized
+      return plan; ordinary function is reported back to baseline with no relevant concern reported. The
+      plan permits a specified familiar session with usual support and no additional increase. The session
+      has not occurred. Record advice received and a planned return, not a completed return or proof of
+      injury prevention. If later conditions change, reassess rather than use the earlier advice as unconditional
+      clearance.
+
+
+      ### Arithmetic check
+
+
+      Previous duration was 20 × 3 = 60 minutes; changed duration was 30 × 4 = 120 minutes. The increase
+      is 60 minutes, or 100% relative to the previous total. Duration and frequency both rose. Unknown
+      intensity prevents equating the time ratio with a physiological stress ratio. The deferred session
+      contributes zero performed minutes; it is not a completed 30-minute workout.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Let a warning change the next action
+
+
+      Training stress and useful adaptation are not the same event. Fatigue after effort can have many
+      explanations; pain, illness and changed daily function deserve attention without a diagnosis from
+      a worksheet. The practical question is what the next activity decision should be while uncertainty
+      remains.
+
+
+      This guide supplies a complete fictional load-and-recovery review. Allow 10 minutes for the five-part
+      record, 10 for the next-action plan and later update, and 10 for checks. No exercise, painful movement,
+      sleep loss, fitness tracker or private health disclosure is required. You produce a changed-session/care
+      decision, not evidence that you recovered or prevented injury. Health and exercise content must
+      be adapted to the person and does not replace licensed medical care.
+
+
+      ### Read load and resources together
+
+
+      Duration, frequency, intensity, equipment and environment can each change demand. Multiplying session
+      minutes by sessions counts time, not physiological stress. Doubling minutes does not establish “twice
+      the training stimulus,” an overtraining diagnosis or a safe progression. Sleep opportunity, nourishment,
+      fluid needs, illness and competing duties affect the context in which an activity occurs; do not
+      treat them as resources to remove for better performance.
+
+
+      Ordinary-function changes can matter more than enthusiasm. A formerly controlled stair descent becoming
+      unsteady is a reason to stop assuming the same plan still fits. A painful movement should not be
+      repeated to verify that pain is real, and medication should not be used merely to mask a warning
+      and continue. Existing prescribed treatment remains unchanged unless the relevant clinician advises
+      otherwise.
+
+
+      NIAMS advises [stopping activity that causes injury pain and seeking care for serious signs](https://www.niams.nih.gov/health-topics/sports-injuries/diagnosis-treatment-and-steps-to-take).
+      Sudden severe pain, major swelling, inability to bear weight or obvious deformity needs prompt medical
+      evaluation; an emergency needs the local emergency route. Persistent or worsening problems require
+      appropriate assessment. This guide supplies no diagnosis, injury treatment, imaging decision or
+      fixed return-to-activity interval.
+
+
+      Recovery is not simply “a day passed.” Review symptoms, usual function and relevant advice before
+      return. For chronic illness or post-exertional worsening, use individualized guidance rather than
+      automatic graded increases. Protect sleep, adequate nourishment, prescribed fluid limits and support
+      while the next step is clarified.
+
+
+      ### Worked example: duration is not the whole load
+
+
+      Mika keeps two 15-minute sessions but changes from a familiar flat route to a hilly one. Weekly
+      duration remains 30 minutes. The environment and effort changed, so the record cannot say “load
+      unchanged” from minutes alone. If the next ordinary day brings unfamiliar difficulty, use that information
+      to reconsider the plan rather than adding a third session to prove resilience.
+
+
+      ### Complete materials: Jules''s changed week
+
+
+      Jules has a familiar activity plan whose recent observations were comfortable. No new load increase
+      was agreed within that plan. Jules nevertheless changed session length and frequency. The details
+      are fictional, not doses for a reader.
+
+
+      | Record | Previous week | Changed week |
+
+      | --- | --- | --- |
+
+      | Session duration | 20 minutes | 30 minutes |
+
+      | Sessions performed | 3 | 4 |
+
+      | Equipment and environment | familiar | same |
+
+      | Intensity description | familiar effort | not recorded |
+
+      | Sleep opportunity | usual | reduced by an essential care interruption |
+
+      | Nourishment/fluid access | existing needs met | meals less predictable; actual adequacy unknown
+      |
+
+      | Illness information | no concern reported | no information recorded |
+
+      | Ordinary stairs | usual control | unusual difficulty and poorer control reported |
+
+      | Symptoms | no concern reported | unusual fatigue; pain status unknown |
+
+
+      Tomorrow''s calendar still contains a 30-minute session. Jules can defer that optional session without
+      affecting anyone''s essential care. Their usual clinician has an accessible advice channel; no contact
+      has yet been made. The case does not establish that any new exercise is safe. Ordinary tasks may
+      use existing assistance, with no deliberate stair test or removal of support.
+
+
+      #### Action 1 — Make a five-part warning record
+
+
+      Use `recent load | sleep | nourishment/hydration | symptoms/illness | daily function`. Calculate
+      both weekly minute totals and the difference. Identify two known load changes and at least three
+      important unknowns. Describe the loss of usual stair control without calling it productive soreness,
+      overtraining or structural injury.
+
+
+      #### Action 2 — Change the next decision before opening outcomes
+
+
+      Write a concrete plan: defer the provoking session, preserve sleep/nourishment and needed assistance,
+      and contact the appropriate clinician about the unusual function change and missing symptom context.
+      Ask what should control return and when to seek more urgent help. Do not prescribe a reduced workout
+      simply because it is shorter. A live emergency does not wait for an ordinary message response.
+
+
+      Use `planned session | actual decision | reason | protected resources | care channel | return authority
+      | next review trigger`. A draft care message is not a sent contact. Save your plan before [later-packet.md](?resource=file-later-packet-md);
+      state that function and applicable advice, not elapsed days alone, govern return.
+
+
+      #### Action 3 — Recheck without provoking the problem
+
+
+      Use only the later packet''s ordinary observations. Compare symptoms and function with baseline,
+      preserve unknowns and follow any actual qualified advice. Write the next disposition and a future
+      method change, such as avoiding simultaneous unagreed changes in duration and frequency. That is
+      a planning lesson, not an injury-prevention guarantee.
+
+
+      Attempt [fresh checks](?attempt=practice-checks) before [the corrective key](?check=practice-answers).
+      The source artifact requires the load arithmetic, five-part record, changed session and later disposition.
+      Keep these case-analysis outputs separate from an actual health inquiry.
+
+
+      ### Access, challenge and transfer
+
+
+      Use voice notes, a reader or a consented support person. Private medical details stay in appropriate
+      care channels. Unavailable sleep, food or care access calls for practical support, not a stricter
+      training target. The fictional route can be completed entirely without movement.
+
+
+      Harder variation: Jules''s duration and frequency both return to the previous values, but equipment
+      is unfamiliar and pain status is still unknown. Explain why matching 60 minutes does not establish
+      suitability or clearance. The appropriate next step is to resolve the relevant uncertainty, not
+      conduct a physical test.
+
+
+      At a later real ordinary warning, record observed changes and use the suitable care/plan route;
+      do not manufacture a warning to complete the task. A future return must follow the person''s actual
+      guidance and conditions. Log naturally observed daily function without repeatedly testing pain or
+      instability. Actual contact, recovery, independent observation and qualified assessment are separate
+      events; two notes cannot establish prevention or broad load-management mastery.
+
+
+      **Supportive:** The warning changes the next session, relevant advice is obtained, and an appropriate
+      later return follows actual conditions.
+
+
+      **Mixed:** Fatigue eases while function remains different, so return stays unresolved.
+
+
+      **Contradictory:** Pain is masked, sleep or nourishment reduced, or load raised despite unresolved
+      warnings.
+
+
+      **Inconclusive:** A recovery day is named without symptom/function information or a next-action
+      decision.
+
+
+      See scope and limits described in this guide and [source limits](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. Two 25-minute sessions become three 30-minute sessions. Compute both totals and the increase.
+      What remains unknown about physiological load if intensity was not recorded?
+
+      2. After two days, fatigue eases but ordinary function remains unusually limited. A service has
+      acknowledged a request without giving advice. A calendar says “return complete.” Correct the status
+      and name what controls the next step.
+
+      3. A person proposes repeating a painful movement and taking medication solely to hide the pain
+      so the test can finish. Explain the boundary without changing their prescribed treatment or diagnosing
+      an injury.
+
+
+      Save answers before [the key](?check=practice-answers).'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. 50 minutes becomes 90, an increase of 40 minutes or 80%. Both frequency and duration changed.
+      This does not quantify physiological stress, prove productive adaptation or diagnose overtraining;
+      retain intensity and recovery unknowns.
+
+      2. The request is acknowledged, return advice is not supplied and no return is completed. Function,
+      symptoms and relevant qualified advice control the decision; elapsed days do not supply clearance.
+      Keep follow-up open and use appropriate urgent care for serious concerns.
+
+      3. Do not provoke or mask the warning merely to finish. Stop the provoking action and seek appropriate
+      advice. Existing prescribed treatment is not changed by this exercise, and pain does not identify
+      a specific injury from the vignette.
+
+
+      These keys assess decision quality in supplied cases, not actual recovery or medical competence.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1514-WORKPLACE-AND-ACTIVITY-SPECIFIC-SAFETY-01
 slug: c1514-workplace-and-activity-specific-safety-practice
-name: Bounded Workplace and activity-specific safety Practice
+name: Stop a low-risk task when its safety conditions are not established
 parent_competency_id: '15.14'
 domain_id: '15'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 15.14
-      (Workplace and activity-specific safety); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 15.14; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Workplace and activity-specific safety through a non-confrontational safety preparation
-    bounded by the canonical scope: Learn hazard analysis, protective equipment, lockout or isolation,
-    ergonomics, reporting, and stop-work responsibility.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Identifies hazards
-    before work and can halt unsafe activity without normalization of deviance. The protocol creates a
-    small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Identify hazards before work, prefer controls that remove exposure and use a clear stop-and-report
+    decision when equipment, authorization or conditions are uncertain.
+  why_recommended: Identify hazards before work, prefer controls that remove exposure and use a clear
+    stop-and-report decision when equipment, authorization or conditions are uncertain.
   claims:
-  - statement: Using the canonical scope and evidence target for Workplace and activity-specific safety
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Identify hazards before work, prefer controls that remove exposure and use a clear stop-and-report
+      decision when equipment, authorization or conditions are uncertain.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Workplace and activity-specific safety practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Workplace and activity-specific safety as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Workplace and activity-specific
-    safety context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Workplace
-    and activity-specific safety; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use seated work, assistance or a smaller task. At work, follow the employer’s
+    safety program, training, reporting and applicable legal protections; this guide does not determine
+    a jurisdiction-specific right or procedure. Do not improvise PPE selection or hazardous-energy control
+    from a general hierarchy.
+  opportunity_considerations: 'Use a table, a few lightweight folders and an ordinary clear work area.
+    Fictional complication: someone asks you to clear a jam from powered equipment and says switching
+    it off is enough. Do not approach, open, unplug, lock out or service equipment as part of this exercise.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Workplace and activity-specific
-    safety.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use a table, a few lightweight folders and an ordinary clear work area. Fictional complication: someone
+    asks you to clear a jam from powered equipment and says switching it off is enough. Do not approach,
+    open, unplug, lock out or service equipment as part of this exercise.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Workplace and activity-specific
-    safety instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use seated work, assistance or a smaller task. At work, follow the employer’s safety program, training,
+    reporting and applicable legal protections; this guide does not determine a jurisdiction-specific
+    right or procedure. Do not improvise PPE selection or hazardous-energy control from a general hierarchy.
   role_conditions:
   - This competency is context contingent; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -82,19 +80,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Workplace and activity-specific safety actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Workplace and activity-specific safety; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Workplace
-    and activity-specific safety. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Workplace and activity-specific safety
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a table, a few lightweight folders and an ordinary clear work area. Fictional complication:
+    someone asks you to clear a jam from powered equipment and says switching it off is enough. Do not
+    approach, open, unplug, lock out or service equipment as part of this exercise. Goal: Identify hazards
+    before work, prefer controls that remove exposure and use a clear stop-and-report decision when equipment,
+    authorization or conditions are uncertain. Scope: The practical task is limited to arranging lightweight
+    paper materials at a table. Machinery, electrical work, chemicals, lifting hazards and hazardous-energy
+    isolation are discussed only as stop-and-refer cases, never practiced from this guide. Time and effort:
+    Fifteen minutes for the task review, ten minutes for a safe setup change and ten minutes for a stop-work
+    rehearsal. Adaptation: Use seated work, assistance or a smaller task. At work, follow the employer’s
+    safety program, training, reporting and applicable legal protections; this guide does not determine
+    a jurisdiction-specific right or procedure. Do not improvise PPE selection or hazardous-energy control
+    from a general hierarchy. Keep personal working notes outside the check-in; record only the listed
+    observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use seated work, assistance or a smaller task. At work, follow the employer’s safety
+    program, training, reporting and applicable legal protections; this guide does not determine a jurisdiction-specific
+    right or procedure. Do not improvise PPE selection or hazardous-energy control from a general hierarchy.
+  expected_burden: Fifteen minutes for the task review, ten minutes for a safe setup change and ten minutes
+    for a stop-work rehearsal.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Workplace and activity-specific safety protocol to rank worth, coerce participation, demand
@@ -102,19 +109,25 @@ intervention:
   - Treating a completed Workplace and activity-specific safety action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Workplace and activity-specific safety situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Hands-on safety, medical, aquatic, survival, and defensive skills require qualified instruction and
-    compliance with local law.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use seated
+    work, assistance or a smaller task. At work, follow the employer’s safety program, training, reporting
+    and applicable legal protections; this guide does not determine a jurisdiction-specific right or procedure.
+    Do not improvise PPE selection or hazardous-energy control from a general hierarchy.
   actions:
   - stable_id: PRACTICE-COMP-1514-WORKPLACE-AND-ACTIVITY-SPECIFIC-SAFETY-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Workplace and activity-specific safety
-    instructions: 'Define one planning-only question for Workplace and activity-specific safety, the hazards
-      that must not be rehearsed, and the local qualified or emergency authority that supersedes this
-      source-only protocol. Do not create, approach, or simulate danger: Learn hazard analysis, protective
-      equipment, lockout or isolation, ergonomics, reporting, and stop-work responsibility.'
+    title: Review the harmless task before starting it
+    instructions: 'Break arranging the folders into retrieving, placing and returning them. Look for trip
+      obstruction, awkward reach, poor lighting and damaged or unstable furniture without creating hazards
+      to inspect. Consider removing the obstruction or moving the materials before relying on a warning
+      or personal protective equipment. Name what would make the task no longer low-risk, such as heavy
+      loads, sharp contents or powered equipment, and stop rather than expanding the exercise.
+
+
+      Observation checks: The task is divided into observable steps before work; Existing access reach
+      lighting and stability conditions are checked; Removing or reducing exposure is considered before
+      warnings or PPE; Scope-changing hazards trigger a stop rather than improvisation. Mark only what
+      you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +149,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1514_a1_planning_scope_bounded
-        - c1514_a1_hazards_excluded
-        - c1514_a1_authority_identified
+        - the_task_is_divided_into_observable_steps_before_work
+        - existing_access_reach_lighting_and_stability_conditions_are_checked
+        - removing_or_reducing_exposure_is_considered_before_warnings_or_ppe
+        - scope_changing_hazards_trigger_a_stop_rather_than_improvisation
       - measurement_id: c1514_a1_boundary
         kind: boolean
         role: supporting
@@ -155,11 +169,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1514-WORKPLACE-AND-ACTIVITY-SPECIFIC-SAFETY-01-A2
     sequence: 2
-    title: Prepare one safe Workplace and activity-specific safety support step
-    instructions: Create one non-confrontational Workplace and activity-specific safety step such as locating
-      official guidance, checking accessible contact information, assembling a category-level checklist,
-      or scheduling qualified instruction. Do not test emergency response, weapons, rescue, medical treatment,
-      confrontation, evasion, or hazardous equipment.
+    title: Install one simple control and verify the work area
+    instructions: 'Make one authorized nonhazardous change, such as moving the folders within comfortable
+      reach or clearing an ordinary loose item from the walkway when safe. Perform the small folder task
+      and check that the change did not create another obstruction or burden. Record what was observed,
+      not a claim of formal safety certification. If the condition cannot be corrected within your authority,
+      leave the task unstarted and report it to the responsible person.
+
+
+      Observation checks: One authorized simple control is actually installed; The task is attempted only
+      within the safe scope; The change is checked for a newly created problem; An unresolved condition
+      is reported rather than declared safe. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -181,9 +202,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1514_a2_step_is_preparatory
-        - c1514_a2_official_or_qualified_path_used
-        - c1514_a2_no_hazard_rehearsed
+        - one_authorized_simple_control_is_actually_installed
+        - the_task_is_attempted_only_within_the_safe_scope
+        - the_change_is_checked_for_a_newly_created_problem
+        - an_unresolved_condition_is_reported_rather_than_declared_safe
       - measurement_id: c1514_a2_boundary
         kind: boolean
         role: supporting
@@ -200,11 +222,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1514-WORKPLACE-AND-ACTIVITY-SPECIFIC-SAFETY-01-A3
     sequence: 3
-    title: Review the Workplace and activity-specific safety plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Identifies hazards before work and can halt unsafe activity without
-      normalization of deviance.'
+    title: Rehearse refusing the powered-equipment shortcut
+    instructions: 'For the fictional jam request, say: I am not authorized to service this; it needs the
+      site’s approved isolation and maintenance process. Identify the supervisor or safety reporting route
+      and what factual information to provide. Explain that electrical, mechanical, pneumatic, hydraulic,
+      thermal or stored energy may remain despite a normal off switch. Do not touch another person’s lock
+      or tag, bypass a guard or treat this explanation as lockout training. Rehearse resuming only after
+      the authorized process establishes safe conditions.
+
+
+      Observation checks: The shortcut receives an explicit stop and referral; The report identifies the
+      task and uncertainty without blame; An off switch is not equated with verified hazardous-energy
+      isolation; Resumption depends on the authorized process rather than personal reassurance. Mark only
+      what you observed. Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: What evidence made the ordinary task acceptable, and what missing authorization or
+      control made the equipment request a stop rather than a challenge?
+
+
+      Examples: Supportive: The person moved folders to a comfortable reach, checked the clear walkway
+      and rehearsed routing the powered-equipment jam to authorized maintenance.
+
+
+      Mixed: The table task was safe, but the reporting route was unclear and had to be verified before
+      relying on the stop-work card.
+
+
+      Contradictory: The person bypassed a guard, removed someone else’s tag or attempted isolation after
+      reading the general explanation.
+
+
+      Inconclusive: A PPE checklist was completed without examining the task, existing hazards or the
+      authority to perform it.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -220,15 +270,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1514_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1514_a3_stop_conditions_present
-        - c1514_a3_escalation_path_present
-        - c1514_a3_unknowns_retained
+        - the_shortcut_receives_an_explicit_stop_and_referral
+        - the_report_identifies_the_task_and_uncertainty_without_blame
+        - an_off_switch_is_not_equated_with_verified_hazardous_energy_isolation
+        - resumption_depends_on_the_authorized_process_rather_than_personal_reassurance
       - measurement_id: c1514_a3_boundary
         kind: boolean
         role: supporting
@@ -249,17 +300,17 @@ intervention:
       Workplace and activity-specific safety; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Workplace and activity-specific safety; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use seated work, assistance or a smaller task. At work, follow the employer’s safety program, training,
+      reporting and applicable legal protections; this guide does not determine a jurisdiction-specific
+      right or procedure. Do not improvise PPE selection or hazardous-energy control from a general hierarchy.
     cultural_context:
     - Adapt the expression of Workplace and activity-specific safety to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Workplace and activity-specific safety opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use seated work, assistance or a smaller task. At work, follow the employer’s safety program, training,
+      reporting and applicable legal protections; this guide does not determine a jurisdiction-specific
+      right or procedure. Do not improvise PPE selection or hazardous-energy control from a general hierarchy.
   pause_conditions:
   - Pause Workplace and activity-specific safety when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -291,10 +342,8 @@ evidence_and_scoring:
   - c1514_a3_boundary
   - c1514_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Workplace and activity-specific safety action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Workplace and activity-specific safety criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - The person bypassed a guard, removed someone else’s tag or attempted isolation after reading the general
+    explanation.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Workplace and activity-specific safety explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -305,14 +354,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Workplace and activity-specific safety rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Identifies hazards before work and can halt unsafe activity without normalization of deviance.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Workplace and activity-specific safety requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Review the harmless task before starting it. Observed checks: The task
+    is divided into observable steps before work; Existing access reach lighting and stability conditions
+    are checked; Removing or reducing exposure is considered before warnings or PPE; Scope-changing hazards
+    trigger a stop rather than improvisation. Action 2: Install one simple control and verify the work
+    area. Observed checks: One authorized simple control is actually installed; The task is attempted
+    only within the safe scope; The change is checked for a newly created problem; An unresolved condition
+    is reported rather than declared safe. Action 3: Rehearse refusing the powered-equipment shortcut.
+    Observed checks: The shortcut receives an explicit stop and referral; The report identifies the task
+    and uncertainty without blame; An off switch is not equated with verified hazardous-energy isolation;
+    Resumption depends on the authorized process rather than personal reassurance.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A PPE checklist was completed without examining the
+    task, existing hazards or the authority to perform it.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Workplace
     and activity-specific safety contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -321,9 +379,8 @@ evidence_and_scoring:
   - L10
   - L20
   - L32
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Workplace and activity-specific safety evidence.
@@ -331,12 +388,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for workplace and activity-specific safety action was attempted
-    or explicitly deferred.
-  - The prepare one safe workplace and activity-specific safety support step action was attempted or explicitly
-    deferred.
-  - The review the workplace and activity-specific safety plan against stop conditions action preserved
-    a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Review the harmless task before starting it. Observed checks: The task is divided into
+    observable steps before work; Existing access reach lighting and stability conditions are checked;
+    Removing or reducing exposure is considered before warnings or PPE; Scope-changing hazards trigger
+    a stop rather than improvisation.'
+  - 'Action 2: Install one simple control and verify the work area. Observed checks: One authorized simple
+    control is actually installed; The task is attempted only within the safe scope; The change is checked
+    for a newly created problem; An unresolved condition is reported rather than declared safe.'
+  - 'Action 3: Rehearse refusing the powered-equipment shortcut. Observed checks: The shortcut receives
+    an explicit stop and referral; The report identifies the task and uncertainty without blame; An off
+    switch is not equated with verified hazardous-energy isolation; Resumption depends on the authorized
+    process rather than personal reassurance.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -345,58 +410,309 @@ completion_and_review:
     - c1514_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Workplace and activity-specific safety only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Workplace and activity-specific safety across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What evidence made the ordinary task acceptable, and what missing authorization
+    or control made the equipment request a stop rather than a challenge?
+  transfer_limit: The practical task is limited to arranging lightweight paper materials at a table. Machinery,
+    electrical work, chemicals, lifting hazards and hazardous-energy isolation are discussed only as stop-and-refer
+    cases, never practiced from this guide.
   reflection:
-    before: What does Workplace and activity-specific safety require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Workplace and activity-specific safety criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Identifies hazards before work and can halt unsafe activity
-      without normalization of deviance.', what contradiction or missing context matters most, and should
-      this Workplace and activity-specific safety design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Identify hazards before work, prefer controls
+      that remove exposure and use a clear stop-and-report decision when equipment, authorization or conditions
+      are uncertain.'
+    during: Which checks have actually been observed? The table task was safe, but the reporting route
+      was unclear and had to be verified before relying on the stop-work card.
+    after: What evidence made the ordinary task acceptable, and what missing authorization or control
+      made the equipment request a stop rather than a challenge?
   review_guidance:
     repeat: Repeat the same bounded Workplace and activity-specific safety design only when the context
       and burden remain appropriate.
-    adapt: Change the Workplace and activity-specific safety medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use seated work, assistance or a smaller task. At work, follow the employer’s safety program,
+      training, reporting and applicable legal protections; this guide does not determine a jurisdiction-specific
+      right or procedure. Do not improvise PPE selection or hazardous-energy control from a general hierarchy.
     stop: Stop Workplace and activity-specific safety when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Workplace and activity-specific safety
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Workplace and activity-specific safety criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Workplace and activity-specific safety criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Workplace and activity-specific safety criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Workplace and activity-specific safety action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The person moved folders to a comfortable reach, checked the clear walkway and rehearsed
+      routing the powered-equipment jam to authorized maintenance.
+    mixed: The table task was safe, but the reporting route was unclear and had to be verified before
+      relying on the stop-work card.
+    contradictory: The person bypassed a guard, removed someone else’s tag or attempted isolation after
+      reading the general explanation.
+    inconclusive: A PPE checklist was completed without examining the task, existing hazards or the authority
+      to perform it.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Workplace and activity-specific safety.
+    context_heading: Stop a low-risk task when its safety conditions are not established
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Workplace
       and activity-specific safety.
   check_in_labels:
-    c1514_a1_primary: The bounded Workplace and activity-specific safety criterion for action 1 was observed
+    c1514_a1_primary: 'Observed checks: review the harmless task before starting it'
     c1514_a1_boundary: Action 1 stayed inside its stated Workplace and activity-specific safety boundary
     c1514_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1514_a2_primary: The bounded Workplace and activity-specific safety criterion for action 2 was observed
+    c1514_a2_primary: 'Observed checks: install one simple control and verify the work area'
     c1514_a2_boundary: Action 2 stayed inside its stated Workplace and activity-specific safety boundary
     c1514_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1514_a3_primary: The bounded Workplace and activity-specific safety criterion for action 3 was observed
+    c1514_a3_primary: 'Observed checks: rehearse refusing the powered-equipment shortcut'
     c1514_a3_boundary: Action 3 stayed inside its stated Workplace and activity-specific safety boundary
     c1514_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Workplace and activity-specific
-    safety practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What evidence made the ordinary task acceptable, and what missing authorization or
+    control made the equipment request a stop rather than a challenge? Completion is not mastery.
+  plain_language_evidence: The person moved folders to a comfortable reach, checked the clear walkway
+    and rehearsed routing the powered-equipment jam to authorized maintenance.
   display_order: 203
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '15.14'
+  title: 15.14 — Workplace and activity-specific safety
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [HSE — Controls to prevent violence](https://www.hse.gov.uk/violence/employer/controls-to-prevent.htm)
+
+      - [HSE — Advice for workers](https://www.hse.gov.uk/violence/worker/index.htm)
+
+      - [GOV.UK — Reasonable force against intruders](https://www.gov.uk/reasonable-force-against-intruders)
+
+      - [NPS — Ten Essentials](https://www.nps.gov/articles/10essentials.htm)
+
+      - [NPS — Trip Planning Guide](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+
+      - [American Red Cross — Water Safety](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html)
+
+      - [RNLI — Cold water shock](https://rnli.org/water-safety/know-the-risks/cold-water-shock)
+
+      - [U.S. State Department — International Travel Checklist](https://travel.state.gov/en/international-travel/planning/checklist.html)
+
+      - [FTC — Recover a hacked account](https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account)
+
+      - [FTC — What to do if scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [FTC — Identity theft](https://consumer.ftc.gov/articles/what-know-about-identity-theft)
+
+      - [NIST SP 800-34 Rev. 1 — Contingency Planning](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)
+
+      - [FEMA IS-244.B — Developing and Managing Volunteers](https://emilms.fema.gov/is_0244b/groups/223.html)
+
+      - [CDC — Preventing Respiratory Illnesses](https://www.cdc.gov/respiratory-viruses/prevention/index.html)
+
+      - [CDC — Cleaner Air](https://www.cdc.gov/respiratory-viruses/prevention/air-quality.html)
+
+      - [Right To Be — Five Ds of Bystander Intervention](https://righttobe.org/guides/bystander-intervention-training/)
+
+      - [NIOSH — Hierarchy of Controls](https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html)
+
+      - [HSE — Maintenance of work equipment](https://www.hse.gov.uk/work-equipment-machinery/maintenance.htm)
+
+      - [Weger et al. — Relative Effectiveness of Active Listening](https://stars.library.ucf.edu/scopus2010/9657/)
+
+      - [EPA — Wildfires and Indoor Air Quality](https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'In this supplied fictional example, a learner safely relocates their own sheets within reach
+      and completes the harmless task. Record your own attempted result separately; the story is not evidence
+      that you performed it. On cleanup, they notice the discarded sleeve would obstruct their route and
+      put it in the designated container. Record the specific task, adjustment and recheck. Do not claim
+      that every activity in the room is safe.
+
+
+      In the fictional W3 case, the learner stops retrieval and reports the unstable cabinet. No repair
+      or safe access confirmation follows. Stopping/reporting is complete; the underlying hazard remains
+      unresolved. Reaching behind it to finish the assignment would contradict the boundary.
+
+
+      For W4, a coworker repeats, “We''ve always done it with the switch off.” No authorized isolation
+      assessment is supplied. Prior uneventful shortcuts do not establish control of stored energy. Keep
+      the task stopped under the applicable site process and seek qualified handling; do not test the
+      claim yourself.
+
+
+      A proposed folder relocation clears one aisle but blocks the exit. The substitute introduces another
+      hazard. Reject that location and find a safe authorized alternative or leave the task paused.
+
+
+      If the benign physical task was not attempted, preserve the paper analysis only. None of these supplied
+      fictional outcomes establishes actual machine safety or an independent workplace inspection.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Remove a small hazard and stop at the edge of your authority
+
+
+      Use the fictional work cards, then perform only the harmless paper-handling task described below
+      if your setting is suitable. Allow twenty-five minutes. You need a few sheets, a stable reachable
+      surface and a clear ordinary route. Do not use tools, chemicals, machinery, electricity, ladders
+      or heavy objects. Never create a hazard to make the practice more impressive. The skill is recognizing
+      hazards, selecting an effective authorized control and stopping when safe conditions are not established.
+
+
+      ### Think through the task, not just the equipment
+
+
+      Hazard analysis asks what could cause harm during setup, the activity and cleanup; who could be
+      affected; and which conditions make the harm possible. A clear workspace can become obstructed when
+      materials are put away. Repetition without injury does not prove a shortcut safe. Workers should
+      have a way to report uncertainty and stop unsafe activity under the applicable site process without
+      being treated as the problem.
+
+
+      NIOSH''s hierarchy orders controls from elimination and substitution through engineering and administrative
+      measures to personal protective equipment. Removing a needless obstruction can address its source;
+      warning someone to step around it relies on repeated attention. A substitute can introduce a different
+      risk, so check the result. PPE remains important when appropriate, but it must fit the hazard and
+      user and does not make an unsafe process acceptable. See S17 in [SOURCES](?resource=sources). This
+      guide does not select respirators, electrical PPE or other specialist equipment.
+
+
+      Ergonomics concerns the fit between the task, person and environment. For this small paper task,
+      a comfortable reachable position, sufficient light and avoiding awkward repeated reaching matter.
+      There is no single posture everyone must imitate. Adjust only what you can do safely and are authorized
+      to change; assistance or a different setup may be appropriate. Do not stretch, climb or move heavy
+      furniture to fulfill the exercise.
+
+
+      An off switch is not proof of energy isolation. Powered equipment can retain electrical, mechanical,
+      hydraulic, pneumatic or thermal hazards, or restart unexpectedly. HSE''s maintenance guidance addresses
+      isolation, stored energy and competent maintenance. See S18. Actual lockout/isolation is an equipment-
+      and site-specific process for trained authorized people. This paper exercise never asks you to unplug,
+      open, test, lock, remove a lock, clear a jam or service equipment. Asking a qualified person to
+      assess the issue is an action; pretending you performed isolation is not.
+
+
+      ### Worked example
+
+
+      A folder cart is parked across a walkway. The first proposal is “tell everyone to be careful.” A
+      responsible worker with permission relocates the cart to a designated clear bay without handling
+      a load beyond their ability. They recheck that the bay does not block another route. If moving it
+      would be unsafe or unauthorized, they stop the affected task and report through the site''s process.
+      The preferred control depends on what can actually be done safely, not on always making the learner
+      fix it personally.
+
+
+      ### Original fictional work cards
+
+
+      | Card | Observed situation | Authority supplied |
+
+      | --- | --- | --- |
+
+      | W1 | Three light paper folders on a stable table; a small empty cardboard sleeve lies in the walking
+      route | You may move this harmless sleeve to the waste container if you can do so safely |
+
+      | W2 | Folder placement requires an awkward reach across a wide table | You may place the folders
+      within comfortable reach on your own clear work area; no furniture moving |
+
+      | W3 | A heavy unstable cabinet leans near the retrieval route | You may stop and report to the
+      site lead; you are not authorized or equipped to stabilize it |
+
+      | W4 | A powered cutting machine is jammed; a coworker says the off button makes it safe to reach
+      inside | You have no maintenance or isolation authorization; designated qualified staff handle the
+      machine |
+
+      | W5 | Cleanup puts discarded packaging in front of the exit | You may safely dispose of your own
+      harmless packaging in the designated container; exit suitability remains the site''s responsibility
+      |
+
+
+      For the actual benign step, use your own clear table and a few ordinary sheets. Do not recreate
+      W1''s obstruction, W3''s instability or W4''s machine. If no suitable workspace is available, complete
+      the paper analysis and record the physical task unattempted.
+
+
+      ### Analyze, act and recheck
+
+
+      1. For W1–W5, name the hazard, possible effect, person affected and stage of work. Use concrete
+      descriptions rather than “unsafe.” Include people passing through, not only the person holding folders.
+
+      2. Choose a control and who may perform it. Compare removing W1''s harmless obstruction with a warning
+      sign alone. For W2, explain how a reachable placement changes the demand. For W3 and W4, stop/report
+      is the appropriate learner action; do not invent authority or a safe repair.
+
+      3. In your actual ordinary space, inspect setup, reach, light, route and cleanup destination before
+      touching the sheets. Choose one harmless authorized improvement if needed, or record that no change
+      was needed. Do not manufacture a defect.
+
+      4. Perform the small task: retrieve the sheets from a comfortable location, place them on the stable
+      surface, then put them away without blocking access. Stop if pain, instability, a blocked route
+      or uncertainty appears. A seated version or a helper following your directions is acceptable; record
+      what assistance occurred.
+
+      5. Recheck the area after cleanup. Did your change create another obstruction or uncomfortable reach?
+      Correct only a safe, authorized small issue, or report what prevents completion. Record before/after
+      facts, not “all risks eliminated.”
+
+      6. Rehearse a stop-work report for W4 on paper: machine identifier if known, observed jam, no intervention
+      performed, area/process needing authorized attention, and request for the site''s qualified isolation/maintenance
+      procedure. Do not operate any real controls. Then open the [later packet](?resource=file-later-packet-md).
+
+
+      Your evidence is a five-card analysis, an actual harmless-task result if attempted, and a scoped
+      report. It does not certify workplace safety, legal rights in every jurisdiction, machine isolation
+      competence or correct PPE for an unrelated activity.
+
+
+      ### Make the stopping point credible
+
+
+      Before resuming a stopped real task, the responsible authorized process must establish that controls
+      are adequate and the task is permitted. “Someone said it is fine” without the relevant role or verification
+      is not enough. Report near misses and recurring shortcuts through the applicable process so the
+      design can improve; do not normalize them because nobody was hurt this time.
+
+
+      For a smaller version, analyze W1 and W3 first to distinguish a safe small correction from an issue
+      requiring escalation. Use accessible text, good lighting and your ordinary aids. A harder paper
+      version has a proposed substitute that creates a blocked exit; reject or revise it based on the
+      new risk, rather than treating all substitutions as improvements.
+
+
+      For real transfer, review a low-risk activity''s authorized procedure with the responsible person:
+      hazards, control choices, required equipment/training, report route, stop authority and restart
+      conditions. Qualified instruction is needed for activity-specific risks, including actual lockout
+      and physical techniques. This guide''s paper jam scenario remains paper-only. Complete the [fresh
+      checks](?attempt=practice-checks) before the [key](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A warning sign is proposed for loose harmless packaging that an authorized person can safely
+      remove. How do the control choices differ?
+
+      2. A machine is switched off, but stored pressure has not been assessed. May this guide''s learner
+      clear the jam?
+
+      3. You move light folders to reduce reaching, then discover they block an exit. What should the
+      review record say?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Safe removal addresses the obstruction itself; a sign relies on people noticing and avoiding
+      it. Use the authorized effective control and recheck its result. Do not infer that the learner should
+      remove any object, regardless of weight, hazard or authority.
+
+      2. No. Off is not verified isolation, and the learner lacks authorization. Stop/report and use the
+      site''s qualified process. Do not unplug, open, release pressure, remove locks or test the machine
+      as part of this exercise.
+
+      3. The reach demand was reduced, but the new location introduced an access hazard and is not an
+      acceptable completed solution. Safely correct it within authority or pause/report, then recheck.
+      One improved condition does not cancel another risk.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

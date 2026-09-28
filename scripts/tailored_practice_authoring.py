@@ -148,6 +148,14 @@ def load_exercises(root: Path = ROOT) -> dict[str, dict[str, Any]]:
     if set(selected) & set(contract["retained_legacy_competency_ids"]):
         raise ValueError("Frozen runtime packages cannot be selected for rewrite.")
     exercises = {cid: exercises[cid] for cid in selected}
+    from scripts.catalog_learning_guides import compact_guide, load_companion_guides
+
+    guides = load_companion_guides(root)
+    for cid, exercise in exercises.items():
+        if cid in guides:
+            exercise["instructional_content"] = guides[cid]
+        elif "instructional_content" not in exercise:
+            exercise["instructional_content"] = compact_guide(cid, exercise)
     instructions = [
         re.sub(r"\W+", " ", action["instructions"]).lower().strip()
         for exercise in exercises.values()
@@ -239,11 +247,12 @@ def apply_exercise(protocol: dict, exercise: dict) -> dict:
             "Follow the material, equipment, consent and scope limits "
             "in the setup and each action. " + exercise["adaptation"]
         ]
-    intervention["privacy_and_boundaries"] = (
-        "Keep working notes private. Record only the listed observation checks, not document "
-        "contents, identifying details or another person's private information. "
-        "Participation and any help must be voluntary. " + exercise["adaptation"]
-    )
+    if not exercise["retain_evidence_rules"]:
+        intervention["privacy_and_boundaries"] = (
+            "Keep working notes private. Record only the listed observation checks, not document "
+            "contents, identifying details or another person's private information. "
+            "Participation and any help must be voluntary. " + exercise["adaptation"]
+        )
     presentation = result["presentation"]
     presentation["setup_copy"]["context_heading"] = exercise["title"]
     presentation["setup_copy"]["timing_hint"] = intervention["cadence"]
@@ -328,6 +337,11 @@ def apply_exercise(protocol: dict, exercise: dict) -> dict:
 
 
 def coverage_report(exercises: dict[str, dict], root: Path = ROOT) -> dict:
+    from scripts.catalog_learning_guides import load_companion_guides
+
+    guides = load_companion_guides(root)
+    contract = yaml.safe_load((root / "contracts/tailored-practice-authoring.yaml").read_text())
+    retained = set(contract["retained_legacy_competency_ids"]) & set(guides)
     curriculum = yaml.safe_load(
         (root / "data/curriculum/ideal_person_curriculum_v2_pluralist_full_scope.yaml").read_text()
     )["curriculum"]
@@ -335,7 +349,13 @@ def coverage_report(exercises: dict[str, dict], root: Path = ROOT) -> dict:
         {
             "competency_id": row["id"],
             "name": row["name"],
-            "status": "authored_pending_review" if row["id"] in exercises else "rewrite_pending",
+            "status": (
+                "authored_pending_review"
+                if row["id"] in exercises
+                else "retained_legacy_with_companion"
+                if row["id"] in retained
+                else "rewrite_pending"
+            ),
         }
         for domain in curriculum["domains"]
         for row in domain["competencies"]
@@ -344,7 +364,11 @@ def coverage_report(exercises: dict[str, dict], root: Path = ROOT) -> dict:
         "schema_version": VERSION,
         "target": len(rows),
         "authored": len(exercises),
-        "remaining": len(rows) - len(exercises),
+        "retained_legacy": len(retained),
+        "learning_guides": len(
+            set(guides) | {cid for cid, e in exercises.items() if "instructional_content" in e}
+        ),
+        "remaining": len(rows) - len(exercises) - len(retained),
         "human_review_complete": 0,
         "rows": rows,
     }

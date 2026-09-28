@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0910-RISK-ASSESSMENT-AND-PRECAUTION-01
 slug: c0910-risk-assessment-and-precaution-practice
-name: Bounded Risk assessment and precaution Practice
+name: Choose proportionate safeguards for an ordinary risk
 parent_competency_id: '09.10'
 domain_id: 09
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 09.10
-      (Risk assessment and precaution); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 09.10; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Risk assessment and precaution through a low-stakes skill rehearsal bounded by the
-    canonical scope: Estimate severity, likelihood, exposure, detectability, controllability, and mitigation
-    without demanding zero risk.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Uses proportionate
-    safeguards and avoids both recklessness and paralysis. The protocol creates a small opportunity to
-    examine that target without treating completion as broad capability.'
+  purpose: Assess severity, likelihood, exposure, detectability and control, then choose a safeguard and
+    an explicit proceed, change or stop threshold.
+  why_recommended: Assess severity, likelihood, exposure, detectability and control, then choose a safeguard
+    and an explicit proceed, change or stop threshold.
   claims:
-  - statement: Using the canonical scope and evidence target for Risk assessment and precaution is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Assess severity, likelihood, exposure, detectability and control, then choose a safeguard
+      and an explicit proceed, change or stop threshold.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Risk assessment and precaution practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Risk assessment and precaution as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Risk assessment and
-    precaution context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Risk assessment
-    and precaution; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or
-    dependence for evidence.
+  readiness_considerations: Use a seated tabletop route, an accessible handling aid or an empty-handed
+    rehearsal. Choose a different low-risk activity when mobility, balance or pain makes carrying unsuitable.
+    Electrical, fire, road, chemical, medical and other serious hazards belong to qualified procedures.
+  opportunity_considerations: 'Default: carry a stack of lightweight books across a shared room. Consider
+    a blocked view, a loose object on the route and a person entering unexpectedly. Use an ordinary empty-handed
+    walk-through first. Do not create obstacles, lift heavy loads or test whether someone can tolerate
+    a fall.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Risk assessment and precaution.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default: carry a stack of lightweight books across a shared room. Consider a blocked view, a loose
+    object on the route and a person entering unexpectedly. Use an ordinary empty-handed walk-through
+    first. Do not create obstacles, lift heavy loads or test whether someone can tolerate a fall.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Risk assessment and precaution
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a seated tabletop route, an accessible handling aid or an empty-handed rehearsal. Choose a different
+    low-risk activity when mobility, balance or pain makes carrying unsuitable. Electrical, fire, road,
+    chemical, medical and other serious hazards belong to qualified procedures.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +80,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Risk assessment and precaution actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Risk assessment and precaution; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Risk assessment
-    and precaution. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Risk assessment and precaution actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default: carry a stack of lightweight books across a shared room. Consider a blocked view, a
+    loose object on the route and a person entering unexpectedly. Use an ordinary empty-handed walk-through
+    first. Do not create obstacles, lift heavy loads or test whether someone can tolerate a fall. Goal:
+    Assess severity, likelihood, exposure, detectability and control, then choose a safeguard and an explicit
+    proceed, change or stop threshold. Scope: The exercise concerns a low-consequence activity you control.
+    It is not a professional risk assessment, emergency plan or permission to accept danger on someone
+    else’s behalf. Time and effort: Twenty minutes to assess one activity, one safe trial or tabletop
+    rehearsal, and ten minutes to review. Adaptation: Use a seated tabletop route, an accessible handling
+    aid or an empty-handed rehearsal. Choose a different low-risk activity when mobility, balance or pain
+    makes carrying unsuitable. Electrical, fire, road, chemical, medical and other serious hazards belong
+    to qualified procedures. Keep personal working notes outside the check-in; record only the listed
+    observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a seated tabletop route, an accessible handling aid or an empty-handed rehearsal.
+    Choose a different low-risk activity when mobility, balance or pain makes carrying unsuitable. Electrical,
+    fire, road, chemical, medical and other serious hazards belong to qualified procedures.
+  expected_burden: Twenty minutes to assess one activity, one safe trial or tabletop rehearsal, and ten
+    minutes to review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Risk assessment and precaution protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +108,25 @@ intervention:
   - Treating a completed Risk assessment and precaution action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Risk assessment and precaution situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a seated
+    tabletop route, an accessible handling aid or an empty-handed rehearsal. Choose a different low-risk
+    activity when mobility, balance or pain makes carrying unsuitable. Electrical, fire, road, chemical,
+    medical and other serious hazards belong to qualified procedures.
   actions:
   - stable_id: PRACTICE-COMP-0910-RISK-ASSESSMENT-AND-PRECAUTION-01-A1
     sequence: 1
-    title: Define observable criteria for Risk assessment and precaution
-    instructions: 'Select one safe, lawful, low-stakes component of Risk assessment and precaution. Build
-      a three-to-five-item rubric from this scope, including an error or stop criterion: Estimate severity,
-      likelihood, exposure, detectability, controllability, and mitigation without demanding zero risk.'
+    title: Describe the hazard without collapsing every dimension into a score
+    instructions: 'For each plausible hazard, describe the possible harm, how often exposure occurs, whether
+      warning would be visible, and which part you can control. Use words such as minor, significant,
+      unlikely or uncertain with a reason; do not multiply arbitrary numbers into false precision. In
+      the default, a blocked view is controllable by carrying fewer books, while another person’s movement
+      is not fully controllable.
+
+
+      Observation checks: Hazard and possible harm are distinguished; Likelihood and exposure receive
+      separate reasons; Detectability and control are considered; Uncertainty is not hidden inside an
+      invented precise score. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +148,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0910_a1_skill_component_bounded
-        - c0910_a1_observable_rubric_present
-        - c0910_a1_error_or_stop_defined
+        - hazard_and_possible_harm_are_distinguished
+        - likelihood_and_exposure_receive_separate_reasons
+        - detectability_and_control_are_considered
+        - uncertainty_is_not_hidden_inside_an_invented_precise_score
       - measurement_id: c0910_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +168,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0910-RISK-ASSESSMENT-AND-PRECAUTION-01-A2
     sequence: 2
-    title: Rehearse Risk assessment and precaution twice
-    instructions: Perform two bounded attempts of the selected Risk assessment and precaution component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Select safeguards and a stop condition
+    instructions: 'Compare removing the hazard, changing the method and adding a simple check. For the
+      default, clear only obstacles you may move, split the stack so the route remains visible, and wait
+      when someone is crossing. State the condition under which you will not proceed, such as an uncleared
+      route or a load you cannot comfortably manage. Consider whether a safeguard creates another burden,
+      including access barriers for others.
+
+
+      Observation checks: At least two kinds of safeguard are compared; The chosen method reduces a specific
+      exposure; An observable stop condition is defined; The safeguard is checked for new risks and access
+      barriers. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +195,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c0910_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - at_least_two_kinds_of_safeguard_are_compared
+        - the_chosen_method_reduces_a_specific_exposure
+        - an_observable_stop_condition_is_defined
+        - the_safeguard_is_checked_for_new_risks_and_access_barriers
       - measurement_id: c0910_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +221,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0910-RISK-ASSESSMENT-AND-PRECAUTION-01-A3
     sequence: 3
-    title: Use feedback for one Risk assessment and precaution retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Uses proportionate
-      safeguards and avoids both recklessness and paralysis.'
+    title: Test the method without testing the harm
+    instructions: 'Walk the safe route with a comfortable light load or rehearse the sequence with an
+      empty box. Observe whether the safeguard can actually be followed and whether an unexpected interruption
+      changes the decision. Record proceed, revise or stop and why. A trial without an incident does not
+      prove that the risk is zero; retain the stop condition and identify when qualified help would be
+      required.
+
+
+      Observation checks: The trial does not deliberately create a hazard; The safeguard’s usability is
+      observed; A changed condition can trigger stopping; No-incident evidence is not presented as proof
+      of zero risk. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.
+
+
+      Final review: Which safeguard changed exposure most, and what observation would make proceeding
+      unreasonable despite the plan?
+
+
+      Examples: Supportive: The participant split the load, kept the route visible and stopped when the
+      path became occupied rather than relying on luck.
+
+
+      Mixed: A sensible safeguard was chosen but proved too awkward to use consistently, prompting a simpler
+      method.
+
+
+      Contradictory: A dangerous condition was created to test courage, or another person’s safety was
+      traded away without their authority.
+
+
+      Inconclusive: A risk score was assigned without a hazard description, usable safeguard or stop threshold.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +273,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0910_a3_feedback_item_selected
-        - c0910_a3_adjustment_traceable
-        - c0910_a3_retry_result_preserved
+        - the_trial_does_not_deliberately_create_a_hazard
+        - the_safeguard_s_usability_is_observed
+        - a_changed_condition_can_trigger_stopping
+        - no_incident_evidence_is_not_presented_as_proof_of_zero_risk
       - measurement_id: c0910_a3_boundary
         kind: boolean
         role: supporting
@@ -245,16 +297,17 @@ intervention:
       Risk assessment and precaution; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Risk assessment and precaution; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a seated tabletop route, an accessible handling aid or an empty-handed rehearsal. Choose a different
+      low-risk activity when mobility, balance or pain makes carrying unsuitable. Electrical, fire, road,
+      chemical, medical and other serious hazards belong to qualified procedures.
     cultural_context:
     - Adapt the expression of Risk assessment and precaution to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Risk assessment and precaution opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use a seated tabletop route, an accessible handling aid or an empty-handed rehearsal. Choose a different
+      low-risk activity when mobility, balance or pain makes carrying unsuitable. Electrical, fire, road,
+      chemical, medical and other serious hazards belong to qualified procedures.
   pause_conditions:
   - Pause Risk assessment and precaution when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -286,10 +339,8 @@ evidence_and_scoring:
   - c0910_a3_boundary
   - c0910_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Risk assessment and precaution action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Risk assessment and precaution criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A dangerous condition was created to test courage, or another person’s safety was traded away without
+    their authority.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Risk assessment and precaution explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -300,14 +351,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Risk assessment and precaution rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Uses proportionate safeguards and avoids both recklessness and paralysis.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Risk assessment and precaution requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Describe the hazard without collapsing every dimension into a score.
+    Observed checks: Hazard and possible harm are distinguished; Likelihood and exposure receive separate
+    reasons; Detectability and control are considered; Uncertainty is not hidden inside an invented precise
+    score. Action 2: Select safeguards and a stop condition. Observed checks: At least two kinds of safeguard
+    are compared; The chosen method reduces a specific exposure; An observable stop condition is defined;
+    The safeguard is checked for new risks and access barriers. Action 3: Test the method without testing
+    the harm. Observed checks: The trial does not deliberately create a hazard; The safeguard’s usability
+    is observed; A changed condition can trigger stopping; No-incident evidence is not presented as proof
+    of zero risk.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A risk score was assigned without a hazard description,
+    usable safeguard or stop threshold.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Risk assessment
     and precaution contribution under typed evaluation; protocol performance remains distinct and is never
     counted twice.
@@ -316,9 +375,8 @@ evidence_and_scoring:
   - L13
   - L14
   - L20
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Risk assessment and precaution evidence.
@@ -326,11 +384,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for risk assessment and precaution action was attempted or explicitly
-    deferred.
-  - The rehearse risk assessment and precaution twice action was attempted or explicitly deferred.
-  - The use feedback for one risk assessment and precaution retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Describe the hazard without collapsing every dimension into a score. Observed checks: Hazard
+    and possible harm are distinguished; Likelihood and exposure receive separate reasons; Detectability
+    and control are considered; Uncertainty is not hidden inside an invented precise score.'
+  - 'Action 2: Select safeguards and a stop condition. Observed checks: At least two kinds of safeguard
+    are compared; The chosen method reduces a specific exposure; An observable stop condition is defined;
+    The safeguard is checked for new risks and access barriers.'
+  - 'Action 3: Test the method without testing the harm. Observed checks: The trial does not deliberately
+    create a hazard; The safeguard’s usability is observed; A changed condition can trigger stopping;
+    No-incident evidence is not presented as proof of zero risk.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -339,57 +404,435 @@ completion_and_review:
     - c0910_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Risk assessment and precaution only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Risk assessment and precaution across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which safeguard changed exposure most, and what observation would make proceeding
+    unreasonable despite the plan?
+  transfer_limit: The exercise concerns a low-consequence activity you control. It is not a professional
+    risk assessment, emergency plan or permission to accept danger on someone else’s behalf.
   reflection:
-    before: What does Risk assessment and precaution require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Risk assessment and precaution criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Uses proportionate safeguards and avoids both recklessness
-      and paralysis.', what contradiction or missing context matters most, and should this Risk assessment
-      and precaution design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Assess severity, likelihood, exposure, detectability
+      and control, then choose a safeguard and an explicit proceed, change or stop threshold.'
+    during: Which checks have actually been observed? A sensible safeguard was chosen but proved too awkward
+      to use consistently, prompting a simpler method.
+    after: Which safeguard changed exposure most, and what observation would make proceeding unreasonable
+      despite the plan?
   review_guidance:
     repeat: Repeat the same bounded Risk assessment and precaution design only when the context and burden
       remain appropriate.
-    adapt: Change the Risk assessment and precaution medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use a seated tabletop route, an accessible handling aid or an empty-handed rehearsal. Choose
+      a different low-risk activity when mobility, balance or pain makes carrying unsuitable. Electrical,
+      fire, road, chemical, medical and other serious hazards belong to qualified procedures.
     stop: Stop Risk assessment and precaution when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Risk assessment and precaution questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Risk assessment and precaution criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Risk assessment and precaution criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Risk assessment and precaution criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Risk assessment and precaution action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The participant split the load, kept the route visible and stopped when the path became
+      occupied rather than relying on luck.
+    mixed: A sensible safeguard was chosen but proved too awkward to use consistently, prompting a simpler
+      method.
+    contradictory: A dangerous condition was created to test courage, or another person’s safety was traded
+      away without their authority.
+    inconclusive: A risk score was assigned without a hazard description, usable safeguard or stop threshold.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Risk assessment and precaution.
+    context_heading: Choose proportionate safeguards for an ordinary risk
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Risk assessment
       and precaution.
   check_in_labels:
-    c0910_a1_primary: The bounded Risk assessment and precaution criterion for action 1 was observed
+    c0910_a1_primary: 'Observed checks: describe the hazard without collapsing every dimension into a
+      score'
     c0910_a1_boundary: Action 1 stayed inside its stated Risk assessment and precaution boundary
     c0910_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0910_a2_primary: The bounded Risk assessment and precaution criterion for action 2 was observed
+    c0910_a2_primary: 'Observed checks: select safeguards and a stop condition'
     c0910_a2_boundary: Action 2 stayed inside its stated Risk assessment and precaution boundary
     c0910_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0910_a3_primary: The bounded Risk assessment and precaution criterion for action 3 was observed
+    c0910_a3_primary: 'Observed checks: test the method without testing the harm'
     c0910_a3_boundary: Action 3 stayed inside its stated Risk assessment and precaution boundary
     c0910_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Risk assessment and
-    precaution practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which safeguard changed exposure most, and what observation would make proceeding unreasonable
+    despite the plan? Completion is not mastery.
+  plain_language_evidence: The participant split the load, kept the route visible and stopped when the
+    path became occupied rather than relying on luck.
   display_order: 117
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '09.10'
+  title: 09.10 — Risk assessment and precaution
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [R1 — Risk identification, controls, and review](https://www.hse.gov.uk/simple-health-safety/risk/steps-needed-to-manage-risk.htm)
+
+      - [R2 — Practical judgment and particulars](https://classics.mit.edu/Aristotle/nicomachaen.6.vi.html)
+
+      - [R3 — Prospective plans and transparent changes](https://www.cos.io/initiatives/prereg)
+
+      - [R4 — Descriptive location](https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm)
+
+      - [R5 — Fitted regression](https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm)
+
+      - [R6 — Sampling variability and spread](https://openstax.org/books/introductory-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data)
+
+      - [R7 — Blocking and experimental comparisons](https://www.itl.nist.gov/div898/handbook/pri/section3/pri332.htm)
+
+      - [R8 — Statistical versus causal quantities](https://www.ncbi.nlm.nih.gov/books/NBK588337/)'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### The skill and its boundary
+
+
+      Choose a usable safeguard for a specified hazard, explain the remaining uncertainty, and change
+      or stop when the conditions no longer support proceeding. Precaution is neither a promise of zero
+      risk nor a reason to accept avoidable harm because a score looks small.
+
+
+      **Canonical scope:** Estimate severity, likelihood, exposure, detectability, controllability, and
+      mitigation without demanding zero risk.
+
+
+      **Deliverable:** A six-dimension risk record, a chosen method, an owner and verification step for
+      each safeguard, and a three-event proceed/change/hold review. The default takes roughly 35 minutes
+      and is entirely on paper. Do not stage a physical obstruction, lift a test load, or expose anyone
+      to harm. Use words, cards, dictation, or a calculator. All required conditions and events are supplied.
+
+
+      The introductory identify–assess–control–review approach is consistent with the limited background
+      in [R1](?resource=sources). That workplace reference does not turn this fictional exercise into
+      a professional risk assessment, legal compliance finding, or permission to operate equipment.
+
+
+      ### Six different questions
+
+
+      A **hazard** is something that could cause harm; the **harm** is the adverse consequence. An obstructed
+      view is not itself an injury. Specify the causal route from the condition to the possible consequence
+      and who would bear it.
+
+
+      **Severity** asks how bad a credible consequence could be, not just what happened last time. **Likelihood**
+      asks how plausible that consequence is under the stated conditions. **Exposure** asks how often
+      or how long a person encounters the condition. A low frequency of encounters is not the same as
+      a low probability of harm per encounter.
+
+
+      **Detectability** asks whether there is a useful warning early enough to act. Seeing a dropped item
+      afterward is detection, but not necessarily prevention. **Controllability** asks which conditions
+      you can actually change, with what authority and capability. Another person''s movement is not yours
+      to command. **Mitigation** asks what measure changes the route to harm and what remains afterward.
+      Sometimes a measure lowers probability, sometimes consequence, and sometimes only the time to recover.
+
+
+      Use reasoned descriptions: “occupancy not known; need a fresh check,” not a made-up probability.
+      Multiplying ordinal labels such as 2 × 3 × 4 can create numerical precision without a defensible
+      measurement scale. Keep the dimensions visible even when an organization has a legitimate specialized
+      rating system. This exercise does not replace that system.
+
+
+      ### A different worked example: keep paper away from a drink
+
+
+      At a personal desk, a closed drink container stands beside draft paper. Moving the container to
+      a stable separate part of the desk changes the contact opportunity. A waterproof sleeve would limit
+      damage if contact occurred. Looking at the desk before starting supplies detection. These are different
+      controls, not three interchangeable labels.
+
+
+      Record the owner, permission, and check: “I may relocate my own closed container; verify that the
+      new position is stable and does not obstruct anything.” A control that moves it onto an unstable
+      edge creates another problem. One spill-free session shows that no spill was observed in that session;
+      it does not establish a zero spill probability. This example is not an instruction to work near
+      powered equipment or hazardous liquids.
+
+
+      ### Complete fictional route packet
+
+
+      You are planning to move **12 paper tokens** from station S to station D. Simulate only; the room
+      and tokens below are imagined. The purpose is to practice decisions, not manual handling.
+
+
+      There are two possible routes: **S–A–B–D** and **S–C–D**. Route A passes a narrow shared passage.
+      Route B includes an opening through which another person might enter. Route C is a longer, designated
+      alternative passage even though the map uses fewer named segments. Segment count is not physical
+      distance.
+
+
+      | Record | Current supplied condition | What you may control |
+
+      | --- | --- | --- |
+
+      | V | A tall imagined stack hides the route ahead; two smaller stacks preserve the view | Choose
+      a lower stack or a different method; no prescribed weight limit is supplied |
+
+      | A | An assistive device is parked in the narrow passage; you have no permission to move it | Do
+      not move it or block its user''s access; choose another route or defer |
+
+      | B | Occupancy beyond the opening is not yet checked | Request or make an appropriate fresh check;
+      do not treat unknown as empty |
+
+      | C | The alternative passage is currently confirmed clear and available to you | Use it only while
+      that confirmation remains applicable; keep it available to other users |
+
+      | P | You may pause at S or D; no essential deadline is threatened by deferring | Pause, use an
+      authorized alternative, or do not move the tokens now |
+
+
+      There is no instruction to move a real object, assess a person''s medical capacity, or determine
+      a generally safe load. In a real task, a comfortable amount depends on the actual person, environment,
+      and established procedures. Unsupported capability is a reason to change the task, not to test tolerance.
+
+
+      #### Action 1 — Make a record that does not hide unknowns
+
+
+      For V, A, and B, write:
+
+
+      `Condition → possible harm → affected people | severity with reason | likelihood with reason or
+      unknown | exposure | warning and response time | authority/capability | existing and additional
+      control | remaining concern`
+
+
+      Also consider the route-C method: the alternative removes some exposures but may introduce a longer
+      journey or a conflict with another user''s access. Do not claim it is risk-free just because the
+      supplied initial check is favorable. Identify which concerns are established facts in the packet
+      and which are possible consequences.
+
+
+      A useful entry explains a mechanism. “Danger, medium, be careful” does not tell anyone what to do.
+      For unknown occupancy, distinguish information missing now from a situation known to be occupied.
+      Both can prevent an immediate move, but the next steps differ.
+
+
+      #### Action 2 — Choose a method with executable safeguards
+
+
+      Compare at least two methods: lower visible stacks on an authorized clear route; keep the tokens
+      at S and arrange a later permitted transfer; or another method justified by the supplied facts.
+      Do not choose the narrow route by assuming permission to relocate the assistive device.
+
+
+      For the selected method, fill:
+
+
+      `Safeguard | specific exposure or consequence changed | responsible role | permission | check before
+      proceeding | change/hold condition | possible new burden`
+
+
+      Example stop language must be observable: “Hold if the route becomes occupied, permission is missing,
+      or a needed check is unavailable.” Avoid “stop when unsafe” without explaining what the person can
+      notice. A control must actually be in place, not merely on a list. Record which action needs another
+      person''s authority and therefore cannot be completed by your plan alone.
+
+
+      Use **proceed** only for the next bounded simulated move under satisfied conditions, **hold** when
+      you must wait or obtain a missing condition, and **change** when a different authorized method is
+      available. None of these labels is permission for a real hazardous task.
+
+
+      #### Action 3 — Test the decision rule, not the harm
+
+
+      Save the method and thresholds, then apply them to these three events in order. No one needs to
+      enact them physically.
+
+
+      | Event | New information |
+
+      | --- | --- |
+
+      | E1 | For this tabletop event the chosen method’s stipulated capability check is satisfied, its
+      lower stack preserves view, and C is freshly confirmed clear and authorized |
+
+      | E2 | Before the next move, another user occupies C; there is a safe place to wait at S |
+
+      | E3 | C remains unavailable; the only alternative would require moving the assistive device without
+      permission |
+
+
+      Record your decision and the specific condition responsible. Explain what would have to change before
+      you could reconsider E2 or E3. A method that says proceed after any previous successful move fails
+      to respond to changing exposure. A decision to hold is a successful safety decision when the condition
+      requires it; it is not completed transfer work.
+
+
+      Complete the separate fresh checks before opening their answer file. Keep the record of the first
+      method and any revision so a later reader can see why it changed.
+
+
+      ### Exposure arithmetic without pretending to know real probabilities
+
+
+      This optional mathematical toy assumes independent crossings and an unchanged **1/10 chance of a
+      harmless token mismatch per crossing**. It is not a probability of injury. With six crossings, the
+      probability of no mismatch is (9/10)^6; at least one is 1 − (9/10)^6. The same assumptions with
+      three crossings give 1 − (9/10)^3. Calculate both and state why doubling exposures can matter.
+
+
+      Do not transfer these invented probabilities to the room. Smaller stacks may preserve view but increase
+      trips. That tradeoff needs information about both effects; the arithmetic alone cannot choose the
+      safest carrying method. Correlated encounters or changing conditions invalidate this independence
+      model.
+
+
+      ### Accessibility, harder work, and transfer
+
+
+      A spoken route with labeled cards is equivalent to a drawn map. A helper may read conditions and
+      record your chosen action without selecting it. No balance, carrying ability, or speed is being
+      tested. Keep access supports rather than removing them to demonstrate independence.
+
+
+      For a harder analysis, identify a safeguard that depends on a person remembering a check and compare
+      it with one that removes the exposure. List its failure condition and who could notice it. Do not
+      assume a hierarchy automatically settles every real case; feasibility and new harms still matter.
+
+
+      For later transfer, select an ordinary low-consequence planning task you actually control and compare
+      your proposed safeguard with what was usable. Stay outside electrical, machinery, fire, road, chemical,
+      clinical, and other serious-risk activities. No real transfer is required to complete this fictional
+      lesson, and a paper exercise cannot establish safe field performance.
+
+
+      ### Interpret the result
+
+
+      **Supportive:** The record distinguishes the six dimensions, a specific safeguard is verified, and
+      new occupancy changes the next decision. **Mixed:** The plan is sensible but relies on a check no
+      one can perform or shifts burden onto an access route. **Contradictory:** Missing permission or
+      warning is ignored, or no observed incident is called proof of safety. **Inconclusive:** There is
+      a score but no mechanism, owner, verification, or usable threshold.
+
+
+      **Final review:** What changed the exposure, what remains unknown, and which new observation would
+      invalidate proceeding? Completion is a bounded planning artifact, not a general safety qualification.'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Save your attempts before opening check-answers.md. Both cases are fictional.
+
+
+      ### Check A — A control that moves the problem
+
+
+      A club''s paper display can be placed on Table X or Table Y. X is stable but blocks the only shared
+      access aisle when the display is open. Y leaves the aisle clear but has not been checked for stability.
+      You are allowed to use either table if suitable, but not to close the aisle. A volunteer says, “Put
+      it on Y; nobody has complained, and we had no incidents last month.”
+
+
+      Identify the hazard and affected people for both choices. Give separate entries for severity, likelihood,
+      exposure, detectability, controllability, and mitigation. Select the next step without declaring
+      unknown stability safe or treating the blocked aisle as acceptable. Specify who must verify what,
+      a hold threshold, and what finding would permit a different decision. Is the month''s no-incident
+      history enough to establish zero risk?
+
+
+      ### Check B — Exposure and a failed warning
+
+
+      For a harmless fictional sorting process only, each pass has independent mismatch probability 1/10,
+      constant across passes. Compare the chance of at least one mismatch across three passes and six
+      passes. Show the complement calculation, not 3/10 or 6/10 as an exact answer.
+
+
+      A proposed detector notices a mismatch only after all passes finish. Explain whether that detector
+      prevents the first mismatch, supports later correction, or establishes both. What changes if passes
+      share one common labeling fault and are not independent? What would be wrong with using these invented
+      probabilities to certify the physical route in the guide?
+
+
+      ### Changed-case attempt
+
+
+      Save your response before opening the matching answer. This is a new fictional case.
+
+
+      A fictional independent-event model gives each crossing a 0.2 chance of delay. Compare the chance
+      of at least one delay across two and four crossings. Then explain why that calculation could mislead
+      if every crossing is delayed by the same single road closure.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '### Main practice
+
+
+      A defensible plan uses an authorized, freshly checked alternative with a preserved view, or defers.
+      It does not assume permission to move the assistive device. E1 allows only the bounded simulated
+      move under the checked conditions. E2 requires a hold at S while the route is occupied. E3 remains
+      on hold or requires a genuinely different authorized plan; the desire to finish supplies neither
+      permission nor capacity.
+
+
+      An occupancy check increases knowledge; a lower stack changes visibility; choosing C changes exposure
+      to A and B; waiting changes timing. Name these distinct mechanisms. Another person''s access remains
+      a constraint rather than a cost you may silently impose. If your record treats a hold as successful
+      transfer, separate the decision result from the task result.
+
+
+      ### Check A
+
+
+      X''s known configuration obstructs shared access. Y''s unknown stability is a different unresolved
+      condition, not evidence that Y is equally bad or safe. A proportionate next step is to leave the
+      display unopened while an authorized person checks Y and its surrounding access. If Y is verified
+      suitable, that addresses the specified concerns; if not, find another permitted arrangement or defer.
+
+
+      For the six dimensions, reasonable entries include: possible collision, loss of access, or falling
+      display as harms; severity described in relation to the actual setup rather than assigned a fabricated
+      number; likelihood not quantified from the packet; exposure whenever users need the aisle or approach
+      the table; detection before opening through inspection rather than after an incident; control limited
+      to display placement and checks; mitigation by a verified suitable non-obstructing arrangement.
+      Exact consequence judgments remain conditional because table dimensions and users'' circumstances
+      are not supplied.
+
+
+      Specify who can inspect, what evidence is needed, and a threshold such as “do not open while the
+      aisle is blocked or stability remains unverified.” A no-incident month has an unknown denominator
+      and may concern different conditions. It does not establish zero probability. The repair is not
+      to demand absolute proof of no imaginable harm: it is to resolve the decision-relevant condition
+      and use a proportionate reviewed method.
+
+
+      ### Check B
+
+
+      Three passes: 1 − (9/10)^3 = 271/1000 = 27.1%. Six: 1 − (9/10)^6 = 468559/1000000 = 46.8559%. Adding
+      the per-pass probability counts overlapping multiple-mismatch possibilities more than once. The
+      six-pass event is more likely under these stated assumptions, but it is not certain.
+
+
+      An end-of-process detector can identify a mismatch for correction; it does not prevent its first
+      occurrence. Whether correction succeeds needs a separate observation. With one common fault, the
+      independence product is unjustified; dependence might change the combined probability and the packet
+      does not specify enough to replace it with a new number.
+
+
+      These are invented probabilities about token mismatches. They supply no measured injury rate, safe
+      load, or professional clearance. If you used the arithmetic to select a real carrying method, retract
+      that conclusion and identify the missing exposure, capability, and consequence evidence.
+
+
+      ### Changed-case answer
+
+
+      With independence, complements give 1−0.8²=0.36 and 1−0.8⁴=0.5904. The four-crossing route has greater
+      modeled exposure. A shared closure violates independence, so multiplying complements is not justified
+      by the marginal 0.2 alone. These are stipulated model probabilities, not measured local travel risk.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

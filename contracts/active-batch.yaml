@@ -1,13 +1,13 @@
 schema_version: 1
 batch:
-  id: M6K-CATALOG-EDITORIAL-REMEDIATION-20260927
-  title: Repair all 383 competency sources in at most five editorial passes
-  goal: Resolve evidenced editorial defects and verify complete contextual materials against the original
-    criteria without inventing independent, qualified or participant acceptance.
+  id: M6K-CATALOG-PRODUCT-INTEGRATION-20260928
+  title: Deliver each repaired competency through the learner product
+  goal: Project tailored actions and complete repaired learning materials for all 383 competencies; verify
+    learner routes and preserve historical evidence.
 sources:
-  baseline_commit: 5bf1f629d7419ed320042eca0f3547a5f11508b6
-  owner_instruction: All competencies fully up to par; editorial follow-up and blocker removal; maximum
-    five passes.
+  baseline_commit: 4bb8a17
+  owner_instruction: Take report and per-competency feedback and implement it so the entire product is
+    professional.
   requirements:
   - docs/plans/m6k/program.json
   - docs/plans/m6k/REVIEW_RECORD.md
@@ -15,50 +15,64 @@ sources:
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
-  - docs/authoring/**
-  - docs/evidence/M6K-CATALOG-EDITORIAL-REMEDIATION-20260927.md
-  - docs/PROJECT_HANDOFF.md
-  - docs/plans/m6k/runtime-projections.json
+  - contracts/tailored-practice-authoring.yaml
+  - contracts/catalog-guide-sources.yaml
+  - scripts/**
+  - growth/services/practice_content_reports.py
+  - growth/domain/instructional_content.py
+  - growth/views_instructional.py
+  - growth/templatetags/instructional.py
+  - templates/growth/practice_guide.html
+  - growth/static/growth/app.css
   - data/practices/protocols/**
+  - data/practices/registries/guides/**
+  - data/practices/schema/instructional_content_v1.schema.json
   - data/practices/release_manifest.yaml
   - data/practices/registries/source_registry.yaml
-  - reports/practice-content/**
-  - tests/test_m6k_*sources.py
-  - tests/test_tailored_practice_authoring.py
+  - reports/**
+  - tests/**
+  - requirements.txt
+  - docker-compose.yml
+  - docs/authoring/catalog-product-integration-20260928/**
+  - docs/plans/m6k/runtime-projections.json
+  - docs/plans/m6k/reviews.py
+  - docs/PROJECT_HANDOFF.md
+  - docs/evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md
   - MANIFEST.tsv
   forbidden_paths:
   - docs/authoring/catalog-quality-audit-20260927/**
-  - docs/authoring/quality/ledger.json
-  - docs/authoring/quality/*/receipts/**
+  - docs/authoring/catalog-remediation-20260927/**
+  - docs/authoring/quality/**
   - docs/plans/m6k/recovery/**
   - data/curriculum/**
   - data/assessment/**
   - data/model/**
   - data/practices/registries/activation_ledger.yaml
-  - growth/**
-  - grounded_growth/**
-  - templates/**
-  - scripts/**
   - .github/**
 acceptance:
-- Track at most five complete editorial passes with exact per-competency repairs and verification; do
-  not equate follow-up closure with formal acceptance.
-- Preserve all 383 stable protocol IDs, 1151 action IDs, canonical definitions, mappings, activation,
-  scoring/completion and historical replay.
-- No changes to frozen legacy packages or retained evidence rules; no runtime projection of the 275 companions
-  in this content-quality scope.
-- Retain original audit as a historical snapshot; superseding source changes make its current-tree hash
-  checks stale by design.
-- Keep source-only, simulated, desk, actual learner, qualified and owner evidence separate.
-- Use existing source tests; revise literal wording checks only to enforce the corrected substantive requirement,
-  never waive a failing gate.
-- Application/browser/Compose/CI/CD remain deferred under the standing content priority.
+- All 383 competencies have a manifest-bound learner guide; individually authored actions replace remaining
+  270 generic typed practices.
+- Five frozen legacy projections remain byte-identical; four retained typed rules remain exact. Stable
+  IDs, action counts, completion rules, mappings, activation and scoring mathematics are unchanged.
+- Prospective primary observation criteria use the existing pure authoring compiler and immutable event
+  snapshots. No historical data write or in-flight practice replacement.
+- Preserve repaired source documents and historical reports. Explicit later packets, materials and answers
+  reach authenticated learners with safe formatting and no unrevealed key body.
+- Per-competency parity and app/browser tests distinguish software evidence from independent authorship,
+  specialist acceptance and actual learner results.
+- New implementation stage after the completed five-pass editorial review; no sixth editorial sweep, merge,
+  release or deployment.
 validation:
   local:
-  - source unit suite
-  - tailored authoring deterministic check
-  - catalog and recovery invariants
-  - remediation per-ID verification
+  - Ruff and Django checks
+  - pytest and source checks
+  - Playwright guide journeys
+  - pilot-check
+  - curriculum-check
+  - competency-evidence-check
+  - compose-smoke if available
+  - deterministic compiler and governance reports
+  - recovery invariants
   - manifest verification
   - git diff --check
   required_ci: []
@@ -66,9 +80,9 @@ risk:
   class: moderate
   stop_conditions:
   - Unexplained protected source drift
-  - A sixth editorial pass
-  - Fabricated acceptance or hidden unresolved defect
+  - Historical event or active/paused practice mutation
+  - Fabricated human acceptance
 evidence:
   output:
-  - docs/authoring/catalog-remediation-20260927/README.md
-  - docs/evidence/M6K-CATALOG-EDITORIAL-REMEDIATION-20260927.md
+  - docs/authoring/catalog-product-integration-20260928/README.md
+  - docs/evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md

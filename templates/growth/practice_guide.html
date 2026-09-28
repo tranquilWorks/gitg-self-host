@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load instructional %}
 {% block title %}{{ guide.title }} · Grounded Growth{% endblock %}
 {% block content %}
   <p class="back-link"><a href="{% url 'growth:practice-recommendation' protocol.slug %}">← {{ protocol.name }}</a></p>
@@ -20,7 +21,7 @@
   {% for section in guide.sections %}
     <section class="panel" id="{{ section.id }}">
       <h2>{{ section.title }}</h2>
-      <div style="overflow-wrap: anywhere">{{ section.body|linebreaks }}</div>
+      <div class="guide-body">{{ section.body|guide_body:guide.body_format }}</div>
       {% if section.kind == "prompt" and not guide.check %}
         <p>Finish and keep your attempt before opening the check.</p>
         <p><a class="button button-secondary" href="?check={{ section.check_id }}">Reveal check for {{ section.title }}</a></p>
@@ -37,8 +38,15 @@
   {% if guide.check %}
     <section class="panel" aria-label="Revealed check">
       <h2>{{ guide.check.title }}</h2>
-      <div style="overflow-wrap: anywhere">{{ guide.check.body|linebreaks }}</div>
+      <div class="guide-body">{{ guide.check.body|guide_body:guide.body_format }}</div>
       <ul>{% for criterion in guide.check.criteria %}<li>{{ criterion }}</li>{% endfor %}</ul>
+    </section>
+  {% endif %}
+  {% if guide.resources %}
+    <section class="panel">
+      <h2>Materials and follow-up</h2>
+      <p>Open later information after saving the initial attempt described in the guide.</p>
+      <ul>{% for resource in guide.resources %}<li><a href="?resource={{ resource.id }}">{{ resource.title }}</a></li>{% endfor %}</ul>
     </section>
   {% endif %}
 {% endblock %}

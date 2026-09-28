@@ -11,6 +11,8 @@ from pathlib import Path
 
 import yaml
 
+from tests.m6k_historical_inputs import historical_input_path
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/authoring/adaptive-digital"
 COHORT = json.loads((SOURCE / "cohort.json").read_text())
@@ -113,11 +115,17 @@ class CorpusIntegrityTests(unittest.TestCase):
         self.assertEqual(COHORT["entries"], expected)
         for name, digest in COHORT["input_sha256"].items():
             with self.subTest(name=name):
-                self.assertEqual(hashlib.sha256((ROOT / name).read_bytes()).hexdigest(), digest)
+                self.assertEqual(
+                    hashlib.sha256(historical_input_path(ROOT / name).read_bytes()).hexdigest(),
+                    digest,
+                )
 
     def test_sequence_closes_health_skips_completed_domestic(self):
         implemented = yaml.safe_load(
-            (ROOT / "contracts/tailored-practice-authoring.yaml").read_text()
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
         )["implemented_competency_ids"]
         catalog = yaml.safe_load(
             (

@@ -1802,3 +1802,12 @@ summary:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Authored lesson packets remain readable at narrow widths and increased zoom. */
+.guide-body { overflow-wrap: anywhere; min-width: 0; }
+.guide-body p, .guide-body li { max-width: 78ch; }
+.guide-table { max-width: 100%; overflow-x: auto; }
+.guide-body table { width: 100%; table-layout: auto; border-collapse: collapse; }
+.guide-body th, .guide-body td { min-width: 8rem; padding: .65rem; border: 1px solid var(--border, #aab4ad); vertical-align: top; text-align: left; overflow-wrap: anywhere; }
+.guide-body pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.guide-body h3 { margin-top: 1.5rem; }

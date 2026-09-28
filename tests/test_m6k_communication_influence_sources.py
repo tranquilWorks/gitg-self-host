@@ -9,6 +9,8 @@ from pathlib import Path
 
 import yaml
 
+from tests.m6k_historical_inputs import historical_input_path
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/authoring/communication-influence"
 COHORT = json.loads((SOURCE / "cohort.json").read_text())
@@ -53,14 +55,22 @@ class IntegrityTests(unittest.TestCase):
         self.assertEqual(len(COHORT["input_sha256"]), 5)
         for path, digest in COHORT["input_sha256"].items():
             with self.subTest(path=path):
-                self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), digest)
+                self.assertEqual(
+                    hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(),
+                    digest,
+                )
 
     def test_previous_endpoint_and_legacy_classification(self):
         previous = json.loads(
             (ROOT / "docs/authoring/resilience-community-listening/cohort.json").read_text()
         )
         self.assertEqual(previous["ids"][-1], "16.01")
-        contract = yaml.safe_load((ROOT / "contracts/tailored-practice-authoring.yaml").read_text())
+        contract = yaml.safe_load(
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
+        )
         self.assertFalse(set(IDS) & set(contract["implemented_competency_ids"]))
         self.assertEqual(set(IDS) & set(contract["retained_legacy_competency_ids"]), {"16.03"})
         self.assertEqual(COHORT["legacy_companion_ids"], ["16.03"])

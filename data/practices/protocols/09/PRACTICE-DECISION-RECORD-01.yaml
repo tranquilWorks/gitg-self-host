@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 1.0.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-DECISION-RECORD-01
 slug: make-and-update-one-private-decision-record
-name: Make and Update One Private Decision Record
+name: Preserve a prospective decision and append its outcome honestly
 parent_competency_id: '09.12'
 domain_id: 09
 governance:
@@ -16,8 +16,8 @@ governance:
   - SRC-CANONICAL-CURRICULUM-V2
   - SRC-M6D-DECISION-OUTCOME-BIAS
   authoring:
-    provenance: Individually authored M6D-01 source package for competency 09.12; it is not projected
-      into the runtime.
+    provenance: M6J individually authored exercise for 09.12; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: pending
     safety_review_status: pending_specialist_expansion_review
@@ -36,10 +36,10 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: Create one prospective, privacy-minimized decision record before a low-stakes choice resolves,
-    then update it without rewriting the original prediction or assumptions.
-  why_recommended: The selected competency concerns preserving what was known and expected when a choice
-    was made so later outcomes can inform judgment without replacing memory.
+  purpose: Create a private minimum-metadata record before a reversible choice, preserve its original
+    predictions and assumptions, and append a later process update.
+  why_recommended: Create a private minimum-metadata record before a reversible choice, preserve its original
+    predictions and assumptions, and append a later process update.
   claims:
   - statement: Knowing an outcome can distort evaluation of what was foreseeable before the outcome, so
       preserving a prospective record can support a more bounded review.
@@ -48,29 +48,35 @@ meaning_and_fit:
     - SRC-M6D-DECISION-OUTCOME-BIAS
     limitations: Outcome-bias research does not prove that a single record improves judgment, remove bias,
       or fit high-stakes, privileged, regulated, or collective decisions.
-  - statement: A decision record should contain the minimum structured metadata needed for review and
-      no secret, credential, allegation, privileged information, protected work information, or sensitive
-      third-party detail.
+  - statement: Create a private minimum-metadata record before a reversible choice, preserve its original
+      predictions and assumptions, and append a later process update.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: This privacy-minimization boundary is not legal, records-management, security, or professional
-      advice.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Is there one freely chosen, reversible, low-stakes decision due soon enough
     to record beforehand and review within 30 days without storing sensitive or third-party information?
   not_applicable_behavior: Mark not applicable or defer without penalty when no suitable prospective decision
     exists or recording it would create privacy, legal, employment, relational, or safety risk.
-  readiness_considerations: Use only when the participant has authority to make or document the choice
-    and can retain a private minimum-metadata record under their setting's rules.
-  opportunity_considerations: Requires a decision that has not yet resolved and a realistic review date;
-    a completed decision reconstructed from memory is not a substitute.
+  readiness_considerations: Use symbols, voice input transcribed to neutral codes or a trusted planning
+    aid with privacy preserved. A wholly synthetic decision rehearses the format but is not evidence of
+    a real prospective choice. Defer when no suitable decision remains unresolved or documentation could
+    create risk.
+  opportunity_considerations: 'Use a private page or local document and a low-stakes choice not yet made.
+    Default: choose between two optional reading sessions, coded A and B. Record only a neutral category,
+    option codes, objective, up to three assumptions, a bounded outcome prediction, confidence band, date
+    and review trigger. Keep narrative and other people’s details out.'
   prerequisites:
-  - One reversible low-stakes decision with at least two live options.
-  - A private storage method controlled by the participant and permitted in the context.
+  - 'Use a private page or local document and a low-stakes choice not yet made. Default: choose between
+    two optional reading sessions, coded A and B. Record only a neutral category, option codes, objective,
+    up to three assumptions, a bounded outcome prediction, confidence band, date and review trigger. Keep
+    narrative and other people’s details out.'
   dependencies: []
   safe_alternatives:
-  - Use a wholly synthetic decision when no real decision can be recorded safely.
-  - Record only a neutral category code and structured criteria, or defer the practice.
+  - Use symbols, voice input transcribed to neutral codes or a trusted planning aid with privacy preserved.
+    A wholly synthetic decision rehearses the format but is not evidence of a real prospective choice.
+    Defer when no suitable decision remains unresolved or documentation could create risk.
   role_conditions:
   - Workplace, fiduciary, legal, clinical, safeguarding, and collective decisions must follow applicable
     authority, documentation, retention, privilege, and professional requirements instead of this protocol.
@@ -83,17 +89,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-ARTIFACT-PLAN
   duration_days: 30
-  cadence: Create the record before choosing, preserve a sealed prospective snapshot, and add one dated
-    update after the review trigger.
-  setup: Choose one reversible low-stakes decision. Use only a neutral decision category, option codes,
-    a chosen objective, up to three assumptions, an outcome prediction expressed in a bounded category,
-    confidence band, decision date, and review trigger.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a private page or local document and a low-stakes choice not yet made. Default: choose between
+    two optional reading sessions, coded A and B. Record only a neutral category, option codes, objective,
+    up to three assumptions, a bounded outcome prediction, confidence band, date and review trigger. Keep
+    narrative and other people’s details out. Goal: Create a private minimum-metadata record before a
+    reversible choice, preserve its original predictions and assumptions, and append a later process update.
+    Scope: This enriches the existing decision-record protocol without changing its typed evidence, action
+    identities or completion rules. It excludes consequential, regulated, privileged and sensitive decisions.
+    Time and effort: About thirty to forty-five minutes across a prospective draft, a five-minute preservation
+    step and a review within thirty days. Adaptation: Use symbols, voice input transcribed to neutral
+    codes or a trusted planning aid with privacy preserved. A wholly synthetic decision rehearses the
+    format but is not evidence of a real prospective choice. Defer when no suitable decision remains unresolved
+    or documentation could create risk. Keep personal working notes outside the check-in; record only
+    the listed observations.'
   privacy_and_boundaries: Omit names, contact details, secrets, credentials, allegations, legal privilege,
     health details, protected work information, financial account data, sensitive third-party detail,
     and the substantive contents of the decision. Store only allowlisted criterion IDs and neutral codes
     in typed evidence; artifact contents never enter evidence. Do not use the record to monitor another
     person, justify predetermined harm, or substitute for qualified advice.
-  expected_burden: About 30–45 minutes across prospective drafting, integrity check, and later update.
+  expected_burden: About thirty to forty-five minutes across a prospective draft, a five-minute preservation
+    step and a review within thirty days.
   action_count_rationale: null
   foreseeable_misuse:
   - Reconstructing an original prediction after learning the result, or treating a good outcome as proof
@@ -108,11 +125,18 @@ intervention:
   actions:
   - stable_id: PRACTICE-DECISION-RECORD-01-A1
     sequence: 1
-    title: Draft the prospective decision snapshot
-    instructions: Before choosing, create a private minimum-metadata record with a neutral category, option
-      codes, chosen objective, up to three current assumptions, one bounded outcome prediction, a confidence
-      band, and a review trigger. Do not include names, narrative, secrets, allegations, protected information,
-      or third-party detail.
+    title: Draft the record before selecting an option
+    instructions: 'Create the allowed fields while both options are still live. For the default, category
+      is reading, objective is one uninterrupted section, assumption A1 is a quiet room is available,
+      and the prediction is completed, partly completed or not completed by the review. Add low, medium
+      or high confidence with a private reason. Represent a counterargument only as a neutral assumption
+      or option code; do not store another person’s words or identity.
+
+
+      Observation checks: The record exists before the choice; Option codes objective and bounded assumptions
+      are present; A prediction confidence band and review trigger are recorded; The record contains no
+      names secrets or sensitive third-party detail. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15 minutes
     due_within_days: 5
     typed_evidence_identity:
@@ -161,11 +185,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-DECISION-RECORD-01-A2
     sequence: 2
-    title: Preserve the choice-time record
-    instructions: When the choice is made, add only the selected option code and decision date. Mark the
-      prospective section read-only by the chosen storage method and schedule the review trigger. Correct
-      only a clearly labeled mechanical error; never replace the original prediction, assumptions, confidence,
-      or dissent after outcome information appears.
+    title: Seal the choice-time version and schedule its review
+    instructions: 'When choosing, add the selected code and date. Preserve a read-only copy, dated paper
+      copy or other permitted snapshot so later outcome information cannot replace the initial prediction
+      and assumptions. Schedule the review trigger within thirty days. Label a genuine clerical correction
+      separately; do not rewrite uncertainty, dissent or expectations to make the eventual result look
+      foreseeable.
+
+
+      Observation checks: The chosen option code and decision date are added; The original prediction
+      and assumptions remain intact; The review trigger is actually scheduled; Any mechanical correction
+      is separately labeled. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 5 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -207,11 +238,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-DECISION-RECORD-01-A3
     sequence: 3
-    title: Add an outcome-and-update layer
-    instructions: At the scheduled trigger, append a separate update using structured categories for outcome
-      status, which assumptions were supported, contradicted, or still unknown, and one process change
-      to test next time. Preserve the prospective layer exactly. A favorable outcome may coexist with
-      weak process and an unfavorable outcome with reasonable process.
+    title: Append the outcome and one future process change
+    instructions: 'At the trigger, add a separate layer with completed, partly completed, not completed
+      or unresolved outcome status. Mark each assumption supported, contradicted or unknown and choose
+      one process change for the next comparable decision. Compare decision quality with outcome quality:
+      a reasonable choice can turn out badly, and a weak process can be lucky. Submit only the application’s
+      existing allowlisted observations, never the record’s content.
+
+
+      Observation checks: The outcome update is separate from the prospective layer; Assumptions receive
+      supported contradicted or unknown dispositions; One next process change follows the comparison;
+      Artifact contents and identifying details stay outside evidence. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: What did the outcome reveal about the process that was knowable at choice time, and
+      what remains luck or uncertainty?
+
+
+      Examples: Supportive: The original moderate-confidence prediction stayed intact, one assumption
+      was contradicted, and a separate update changed the next information-gathering step.
+
+
+      Mixed: The record was prospective and private, but the later review mixed process quality with whether
+      the outcome felt favorable.
+
+
+      Contradictory: A prediction was rewritten after the result, or private decision content was copied
+      into application evidence.
+
+
+      Inconclusive: A past decision was reconstructed from memory and presented as a prospective record.'
     expected_time: 15 minutes
     due_within_days: 30
     typed_evidence_identity:
@@ -259,14 +316,16 @@ intervention:
     - Use a paper card kept privately or an offline file; no paid decision tool, cloud account, or data
       sharing is required.
     accessibility:
-    - Use checkboxes, option codes, dictation that remains private, enlarged text, a screen reader, or
-      a user-chosen planning aid without storing helper identity.
+    - Use symbols, voice input transcribed to neutral codes or a trusted planning aid with privacy preserved.
+      A wholly synthetic decision rehearses the format but is not evidence of a real prospective choice.
+      Defer when no suitable decision remains unresolved or documentation could create risk.
     cultural_context:
     - Include collective duties and relational consequences in the chosen objective while recording only
       the participant's authorized portion of the decision.
     resource_variants:
-    - Use a synthetic case when retention, privilege, workplace policy, shared-device privacy, or safe
-      storage cannot be assured.
+    - Use symbols, voice input transcribed to neutral codes or a trusted planning aid with privacy preserved.
+      A wholly synthetic decision rehearses the format but is not evidence of a real prospective choice.
+      Defer when no suitable decision remains unresolved or documentation could create risk.
   pause_conditions:
   - Pause if the decision becomes urgent, high stakes, contested, privileged, regulated, emotionally unsafe,
     or no longer controlled by the participant.
@@ -296,9 +355,8 @@ evidence_and_scoring:
   - outcome_process_distinguished
   - update_used_to_target_person
   adverse_or_contradictory_indicators:
-  - The prospective section was created or rewritten after material outcome information became known.
-  - The artifact exposed protected, privileged, secret, credential, or sensitive third-party information.
-  - The record was used to monitor, blame, retaliate against, or make claims about another person.
+  - A prediction was rewritten after the result, or private decision content was copied into application
+    evidence.
   independence_rule: Planning aids may help structure the record, but evidence stores no helper identity
     and distinguishes self-directed, planning-aid, and guided support.
   context_transfer_rule: Evidence concerns one decision and its review trigger; it does not establish
@@ -307,20 +365,30 @@ evidence_and_scoring:
     and duplicate event application is rejected.
   recency_rule: The action rules use an explicit 60-day bound; an update outside that bound is stale rather
     than silently treated as retained skill.
-  performance_rubric: Performance requires prospective criteria, preservation of the choice-time snapshot,
-    and a separate later update; the decision's substantive content and outcome valence are not scored.
-  evidence_quality_rubric: Quality depends on timestamps or sequence criteria, minimum metadata, structured
-    allowlisted fields, and an unchanged prospective layer—not prose detail or apparent confidence.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Draft the record before selecting an option. Observed checks: The record
+    exists before the choice; Option codes objective and bounded assumptions are present; A prediction
+    confidence band and review trigger are recorded; The record contains no names secrets or sensitive
+    third-party detail. Action 2: Seal the choice-time version and schedule its review. Observed checks:
+    The chosen option code and decision date are added; The original prediction and assumptions remain
+    intact; The review trigger is actually scheduled; Any mechanical correction is separately labeled.
+    Action 3: Append the outcome and one future process change. Observed checks: The outcome update is
+    separate from the prospective layer; Assumptions receive supported contradicted or unknown dispositions;
+    One next process change follows the comparison; Artifact contents and identifying details stay outside
+    evidence.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A past decision was reconstructed from memory and presented
+    as a prospective record.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Selected artifact criteria may form context-bound direct competency shadow
     evidence while protocol completion remains separate and cannot be counted again.
   canonical_lever_allocation: parent_competency_mapping
   recommendation_target_lever_ids:
   - L14
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold records made retrospectively, missing a preserved prospective layer, stale, adverse, duplicate,
     cross-epoch, unknown, not observed, not applicable, deferred, or inconclusive.
@@ -328,10 +396,19 @@ evidence_and_scoring:
     can enter typed evaluation.
 completion_and_review:
   completion_criteria:
-  - A minimum-metadata prospective record was created before the decision resolved.
-  - The original prediction and assumptions were preserved at choice time.
-  - A separate update was appended at the review trigger; an explicit deferral closes the protocol without
-    claiming completion.
+  - 'Action 1: Draft the record before selecting an option. Observed checks: The record exists before
+    the choice; Option codes objective and bounded assumptions are present; A prediction confidence band
+    and review trigger are recorded; The record contains no names secrets or sensitive third-party detail.'
+  - 'Action 2: Seal the choice-time version and schedule its review. Observed checks: The chosen option
+    code and decision date are added; The original prediction and assumptions remain intact; The review
+    trigger is actually scheduled; Any mechanical correction is separately labeled.'
+  - 'Action 3: Append the outcome and one future process change. Observed checks: The outcome update is
+    separate from the prospective layer; Assumptions receive supported contradicted or unknown dispositions;
+    One next process change follows the comparison; Artifact contents and identifying details stay outside
+    evidence.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,36 +417,42 @@ completion_and_review:
     - decision_update_criteria
     marker_mode: all
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Use the revised process criterion on another low-stakes decision only after privacy,
-    authority, and prospective timing remain suitable.
-  transfer_limit: One preserved record cannot establish unbiased judgment, calibration, decision quality,
-    or transfer to high-stakes or differently governed choices.
+  progression_criteria: What did the outcome reveal about the process that was knowable at choice time,
+    and what remains luck or uncertainty?
+  transfer_limit: This enriches the existing decision-record protocol without changing its typed evidence,
+    action identities or completion rules. It excludes consequential, regulated, privileged and sensitive
+    decisions.
   reflection:
-    before: What minimum structured fields will preserve this choice-time view without exposing sensitive
-      content?
-    during: Has any outcome information appeared, and is the original layer still visibly unchanged?
-    after: Which assumption status and process update can be recorded without declaring the outcome proof
-      of good or bad judgment?
+    before: 'What would count as doing this honestly? Goal: Create a private minimum-metadata record before
+      a reversible choice, preserve its original predictions and assumptions, and append a later process
+      update.'
+    during: Which checks have actually been observed? The record was prospective and private, but the
+      later review mixed process quality with whether the outcome felt favorable.
+    after: What did the outcome reveal about the process that was knowable at choice time, and what remains
+      luck or uncertainty?
   review_guidance:
     repeat: Repeat with a new low-stakes prospective decision only when safe storage and an honest review
       trigger are available.
-    adapt: Use fewer assumptions, neutral codes, a synthetic case, or a more accessible private format.
+    adapt: Use symbols, voice input transcribed to neutral codes or a trusted planning aid with privacy
+      preserved. A wholly synthetic decision rehearses the format but is not evidence of a real prospective
+      choice. Defer when no suitable decision remains unresolved or documentation could create risk.
     stop: Stop if privacy, authority, privilege, safety, or record-retention boundaries become uncertain.
-    escalate: Seek qualified or organizational guidance for a decision outside this low-risk scope.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The prospective criteria were present, the original layer remained unchanged, and the
-      later update distinguished outcome from process.
-    mixed: The prospective record was preserved but the update remained partial or the review trigger
-      was delayed.
-    contradictory: Outcome knowledge altered the original prediction or assumptions, or the outcome was
-      treated as conclusive proof of process quality.
-    inconclusive: The record timing could not be established, the decision never resolved, or required
-      observations were unknown or withheld.
+    supportive: The original moderate-confidence prediction stayed intact, one assumption was contradicted,
+      and a separate update changed the next information-gathering step.
+    mixed: The record was prospective and private, but the later review mixed process quality with whether
+      the outcome felt favorable.
+    contradictory: A prediction was rewritten after the result, or private decision content was copied
+      into application evidence.
+    inconclusive: A past decision was reconstructed from memory and presented as a prospective record.
 presentation:
   setup_copy:
-    context_heading: Choose one reversible low-stakes decision.
+    context_heading: Preserve a prospective decision and append its outcome honestly
     boundary_heading: Store minimum metadata, never sensitive decision contents.
-    timing_hint: Create the first layer before choosing or learning the outcome.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: One prospective choice with a safe review date
   check_in_labels:
     prospective_record_criteria: Prospective record criteria present
@@ -381,8 +464,263 @@ presentation:
     decision_update_criteria: Separate update criteria present
     outcome_process_distinguished: Outcome and process were distinguished
     update_used_to_target_person: The update was used to monitor, blame, or target a person
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The record checks whether a prospective decision snapshot and later update
-    meet allowlisted criteria without storing their contents.
+  completion_copy: What did the outcome reveal about the process that was knowable at choice time, and
+    what remains luck or uncertainty? Completion is not mastery.
+  plain_language_evidence: The original moderate-confidence prediction stayed intact, one assumption was
+    contradicted, and a separate update changed the next information-gathering step.
   display_order: 7
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '09.12'
+  title: 09.12 — Decision records and updating
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [R1 — Risk identification, controls, and review](https://www.hse.gov.uk/simple-health-safety/risk/steps-needed-to-manage-risk.htm)
+
+      - [R2 — Practical judgment and particulars](https://classics.mit.edu/Aristotle/nicomachaen.6.vi.html)
+
+      - [R3 — Prospective plans and transparent changes](https://www.cos.io/initiatives/prereg)
+
+      - [R4 — Descriptive location](https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm)
+
+      - [R5 — Fitted regression](https://www.itl.nist.gov/div898/handbook/pmd/section1/pmd141.htm)
+
+      - [R6 — Sampling variability and spread](https://openstax.org/books/introductory-statistics-2e/pages/2-7-measures-of-the-spread-of-the-data)
+
+      - [R7 — Blocking and experimental comparisons](https://www.itl.nist.gov/div898/handbook/pri/section3/pri332.htm)
+
+      - [R8 — Statistical versus causal quantities](https://www.ncbi.nlm.nih.gov/books/NBK588337/)'
+  - id: file-outcome-packet-md
+    title: Outcome packet
+    body: 'Open after saving the initial record and selected option. This is simulated evidence, not an
+      event in your calendar.
+
+
+      On Day 1 at 12:00, a new notice announces a room closure covering Day 3. The packet stipulates that
+      the closure decision and notice did not exist at Day 0''s choice time. On Day 3 the person learns
+      of the closure before starting, uses the home fallback, and has two separate 15-minute reading periods
+      because of an interruption. The 45-minute available block itself remains available. No uninterrupted
+      30-minute section occurs.
+
+
+      At Day 7 review, code the outcome and assumption dispositions, retaining both the original choice
+      and the fallback. Do not rewrite the selected choice-time option as B. Distinguish partial reading
+      activity from meeting O1 in full. Consider one useful process change while acknowledging which closure
+      information could not have been checked on Day 0.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: "### The skill and its boundary\n\nPreserve what you knew before choosing, then append what\
+      \ happened without rewriting the first record. Review both the result and the process that produced\
+      \ the choice. A reasonable decision can have a disappointing outcome; a weak process can be lucky.\n\
+      \n**Canonical scope:** Document important choices, predictions, assumptions, dissent, review dates,\
+      \ and outcomes.\n\n**Deliverable:** A prospective-style decision record, a preserved choice-time\
+      \ copy, a separate review, and one specific improvement to the next decision process. Allow roughly\
+      \ 35 minutes for the fictional route. A real route uses a genuinely undecided low-stakes choice\
+      \ and an actual later review within 30 days. Writing a suggested review date in this lesson does\
+      \ not create a reminder or schedule anything in your accounts.\n\nKeep the detailed decision record\
+      \ private. Do not upload names, narratives, quotes from others, secrets, or the record itself merely\
+      \ to demonstrate this exercise.\n\n### A compact record can retain disagreement without retaining\
+      \ identities\n\nSeparate four layers. **Before choice:** the objective, live options, assumptions,\
+      \ prediction, uncertainty, and a counterargument. **At choice:** the selected option and date. **After\
+      \ choice:** any separately labeled clerical correction. **At review:** the observed outcome, assumption\
+      \ dispositions, and a future process change.\n\nEncode dissent as a neutral counterargument or assumption\
+      \ code, not someone else's identity or words. For example, A2 can mean “the session may be interrupted.”\
+      \ That concern deserves consideration whether it came from your own reflection or another person.\
+      \ Do not flatten disagreement into an unexplained yes/no approval field.\n\nA preserved copy supplies\
+      \ comparison, not magical proof of authenticity. A dated paper copy or ordinary local file version\
+      \ can help. A hash can detect changed bytes when compared with a trusted earlier hash, but a person\
+      \ controlling both files can replace both. Do not call a freshly recomputed hash an independent\
+      \ timestamp or tamper-proof human review.\n\nThe general distinction between a prospective plan\
+      \ and later deviations is supported as background by [R3](?resource=sources). This private practice\
+      \ is not a public research registration, an evidence upload, or a validated decision-improvement\
+      \ intervention.\n\n### A different worked example: two storage plans\n\nBefore choosing a personal\
+      \ note-storage arrangement, someone records that retrieval matters more than appearance, that one\
+      \ location may be unavailable during cleaning, and that the next check is on Day 5. They choose\
+      \ the simpler location with moderate confidence. A one-off closure later makes retrieval inconvenient.\n\
+      \nThe review should inspect what was knowable at choice time, not simply say “bad outcome, bad decision.”\
+      \ If the closure was announced before choice and ignored, that suggests a missed information check.\
+      \ If it was first announced afterward, it is a different finding. Both outcomes can prompt a useful\
+      \ contingency without pretending the original information was the same.\n\n### Complete fictional\
+      \ choice packet — stop before the later outcome file\n\nAt **Day 0, 10:00**, the decision-maker\
+      \ has not selected a reading session. The neutral objective **O1** is to complete one uninterrupted\
+      \ 30-minute section within a 45-minute available block on Day 3.\n\n| Option | Choice-time facts\
+      \ |\n| --- | --- |\n| A | A room is confirmed bookable for the block; a current notice designates\
+      \ it quiet; no closure notice appears in the supplied choice-time material |\n| B | A home space\
+      \ is available; the same block overlaps a known ordinary interruption window; uninterrupted time\
+      \ is uncertain |\n\nThe person prefers A for the uninterrupted-reading objective, while acknowledging\
+      \ that a designation is not a guarantee of silence. Both options are optional and reversible. There\
+      \ is no purchase, duty to attend, or effect on another person's access.\n\nThe maximum three assumption\
+      \ codes are **A1: room remains available**, **A2: interruptions do not prevent O1**, and **A3: the\
+      \ 45-minute block remains available**. Counterargument **A2** points to a vulnerability of even\
+      \ the preferred option. Use confidence words such as low, moderate, or high, with a reason kept\
+      \ only in your private working notes. The planned review is **Day 7, 10:00**, earlier if the outcome\
+      \ becomes impossible to determine or a material assumption changes.\n\nThe later result is in **outcome-packet.md**.\
+      \ Do not open it until you have saved the first record and choice. These files are separately stored,\
+      \ not access-controlled. Opening them early does not make you a bad learner; label the exercise\
+      \ retrospective rather than claiming a prospective prediction.\n\n#### Action 1 — Write the minimum\
+      \ useful record before selecting\n\nUse this private template:\n\n`Record code | neutral category\
+      \ | objective code | live option codes | up to three assumption codes | counterargument code | predicted\
+      \ status | confidence band | record date | review date or trigger`\n\nFor the supplied packet, category\
+      \ is reading, options are A/B, and the allowed prediction statuses are completed, partly completed,\
+      \ or not completed. Unresolved is a possible review status, not a claim that a completed outcome\
+      \ was observed. Record what would count as the objective being met: an uninterrupted 30-minute section\
+      \ in the defined block.\n\nAdd a short private reason for your confidence only where your chosen\
+      \ local record method permits it; do not copy that reason into any application observation field.\
+      \ The machine fixture supplied with this lesson uses neutral codes only. It is an optional teaching\
+      \ example, not a record of an actual decision.\n\nBefore proceeding, explain how A2 could matter.\
+      \ A record that lists only supporting assumptions can conceal a known weakness even when its final\
+      \ choice is reasonable. Do not invent a probability unsupported by the packet.\n\n#### Action 2\
+      \ — Preserve the choice-time version and establish the review\n\nAt the actual choice point, add\
+      \ the selected code and choice date without changing the original expectation. Preserve that version\
+      \ separately using a dated paper copy or an appropriate local snapshot. For the fictional route,\
+      \ write “Day 0, 10:05; A selected; rehearsal.” That is simulated chronology, not evidence of actual\
+      \ elapsed time.\n\nFor a real route, use an actual permitted calendar or local reminder method and\
+      \ verify it exists. For the fictional route, record only the intended Day 7 review. Arrange your\
+      \ own feasible reminder if needed.\n\nA clerical correction should identify the original field,\
+      \ corrected value, reason code, and date in a separate layer. If “A chosen” was accidentally transcribed\
+      \ as B, preserve both entries and identify it as a correction. Do not use a clerical correction\
+      \ to change a prediction because the outcome became known. A late reconstruction must be labeled\
+      \ late.\n\n#### Action 3 — Append an evidence-bounded review\n\nNow open the later packet. Make\
+      \ a separate record:\n\n`Original record reference | review date | outcome status | assumption-code\
+      \ dispositions: supported / contradicted / unknown | known-before versus learned-after distinction\
+      \ | next-process-change code | next check`\n\nKeep the initial copy intact. Supported means the\
+      \ later evidence supports that assumption in the stated trial; it is not a universal truth. Contradicted\
+      \ means the assumed condition did not hold for the trial; it does not prove someone lied at choice\
+      \ time. Unknown is an honest result where evidence is missing.\n\nEvaluate process quality before\
+      \ congratulating or blaming the outcome. Did the original record include relevant available evidence,\
+      \ a feasible alternative, a counterargument, and a review? What information could reasonably have\
+      \ been checked before choosing? Which new fact could not have been obtained then from this packet?\n\
+      \nChoose one concrete change such as “recheck room availability on the session day,” not “be smarter.”\
+      \ A contingency can be worthwhile without proving that the earlier decision was irrational. Do not\
+      \ announce that this change improves every decision; it addresses one observed vulnerability.\n\n\
+      ### Privacy and evidence are part of the task\n\nUse neutral labels; keep third-party content, identity,\
+      \ and consequential matters outside this exercise. A simple assumption code can preserve a concern\
+      \ without exposing a person. The action is preserving and reviewing the record, not collecting more\
+      \ private detail.\n\n The supplied example and its technical checks do not establish that you made\
+      \ a prospective decision record. They test the example's structure. Do not infer that passing them\
+      \ grants completion credit or changes any historical score.\n\n### Accessibility and progression\n\
+      \nUse large-print cards or dictated neutral codes. A helper may transcribe under your privacy constraints\
+      \ without choosing or revising the substance. Record assistance where appropriate. A spoken note\
+      \ transcribed later is retrospective unless the original recording was actually preserved before\
+      \ choice.\n\nFor a harder route, compare two records with identical choice-time information and\
+      \ opposite outcomes. Ask whether their original process ratings should change merely because of\
+      \ the outcome. Then introduce one relevant pre-choice warning into only one record; explain why\
+      \ that changes the evaluation. Hold the information set fixed when testing outcome bias.\n\nFor\
+      \ later transfer, use another real low-stakes undecided choice, preserve it before acting, and perform\
+      \ its actual review. A fictional sequence or reconstructed memory cannot establish that prospective\
+      \ behavior. Do not select a sensitive decision merely to make the exercise feel more important.\n\
+      \n### Interpret the result\n\n**Supportive:** Initial uncertainty and the counterargument survive,\
+      \ the outcome is appended, and a specific process change follows the evidence. **Mixed:** The record\
+      \ is preserved but outcome quality is mistaken for proof of process quality. **Contradictory:**\
+      \ The prediction is rewritten after the result or private content is uploaded into evidence. **Inconclusive:**\
+      \ There is a retrospective story but no actual pre-choice version or clearly labeled rehearsal.\n\
+      \n**Final review:** What did you know at choice time, what became known later, and what would a\
+      \ future reviewer need to distinguish a learning update from rewritten history?"
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '### Check A — Same information, different result
+
+
+      Two fictional records have identical pre-choice facts, a documented uncertainty, the same reasonable
+      objective, the same options, and the same selected option. Both were preserved before acting. Record
+      X later reports completed; record Y reports not completed because of an event explicitly first announced
+      after the choice.
+
+
+      May you conclude that X''s choice-time process was better solely from these outcomes? Write a separate
+      outcome review and one possible future contingency for each without changing the original expectation.
+      Now add a new fact: Y actually had a relevant warning available before choosing and omitted it from
+      consideration. Explain what changes in the process review and why this is not just punishing bad
+      luck.
+
+
+      ### Check B — Audit an altered and over-detailed record
+
+
+      A fictional learner''s original dated copy predicts partly completed with moderate confidence. The
+      later copy says completed with high confidence and contains a collaborator''s name, private quotation,
+      and exact personal circumstances. The learner says the change was only a clerical correction because
+      the task ultimately succeeded. There is no separate change log. Another field says “review planned,”
+      but no actual reminder was created for the real route.
+
+
+      Identify the distinct failures. Propose a repair that preserves the original, accurately labels
+      what happened, avoids claiming retroactive scheduling, and keeps identifying material out of application
+      evidence. Explain why hashing only the later copy cannot prove that its prediction existed before
+      the outcome.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '### Main practice and later packet
+
+
+      A can be a reasonable choice under the supplied objective and current notice; its selection does
+      not mean uninterrupted reading was certain. Preserve moderate or otherwise reasoned confidence and
+      the A2 counterargument. The packet''s selected example uses A, Day 0, 10:05, with a Day 7 review;
+      those are fictional values, not a performed calendar action.
+
+
+      At review, **partly completed** is appropriate for the activity with O1 not fully met: there were
+      two 15-minute periods, not the required uninterrupted 30-minute section. A1 is contradicted for
+      the session because the room was unavailable. A2 is contradicted for the attempted fallback because
+      interruption prevented O1. A3 is supported because the block remained available. Note the changed
+      context for A2 rather than asserting that the unavailable room was noisy. There is no observation
+      of reading inside that room.
+
+
+      The closure notice did not exist at choice time. Do not claim it should have been read then. A same-day
+      recheck and an explicit fallback are defensible future process changes. The initial A selection
+      stays intact; B is recorded as a later fallback, not as a revised prediction about what was always
+      intended. No digest or fixture may substitute for existing production evidence semantics.
+
+
+      ### Check A
+
+
+      Different realized outcomes do not alone distinguish the two identical original information-processing
+      sequences. Record X''s success and Y''s failure honestly, then inspect whether either reveals a
+      useful contingency for future choices. A contingent review need not change the original process
+      rating.
+
+
+      The added pre-choice warning breaks the identical-information premise. Omitting a relevant available
+      warning is now evidence about Y''s process, independent of whether the eventual outcome happened
+      to be good or bad. Explain what a proportionate earlier check could have changed. Do not require
+      predicting unknowable events as the standard for a reasonable decision.
+
+
+      ### Check B
+
+
+      Changing the original forecast and confidence after seeing success is a substantive revision, not
+      a demonstrated transcription correction. Preserve the genuine earlier copy. Append the actual outcome
+      and a correction record explaining that the later forecast was not prospective. If the original
+      cannot be recovered, mark that limit; do not manufacture a replacement with an earlier date.
+
+
+      Remove identifying material from any proposed submission and use minimal neutral codes in the practice
+      copy. Avoid making further copies of private quotations. Existing application evidence must remain
+      within its own allowlist; the source template does not expand it. The real reminder was only planned,
+      so acknowledge it was not scheduled at the claimed time. A future review can be scheduled prospectively
+      without inventing past execution.
+
+
+      A hash of today''s file shows today''s byte fingerprint. Without an independently preserved earlier
+      reference it does not establish when the claims were written or prevent replacing both file and
+      hash. Repair the provenance claim rather than presenting technical-looking evidence as a substitute
+      for chronology.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

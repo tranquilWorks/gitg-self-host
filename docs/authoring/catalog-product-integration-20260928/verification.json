@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "status": "verified_locally",
+  "baseline_commit": "4bb8a17fcd966ff5abdb922e168fca76393fb581",
+  "canonical_content_sha256": "ed41c16509d8c86a0f2e5fa44b5944d97309afd0532ba7dabf0cbf328a76ba8a",
+  "legacy_projection_sha256": "9eff5558607936aab20ec2adcdf4912510e9f8816cc291ae6b77918bf6711672",
+  "counts": {
+    "competencies": 383,
+    "guides": 383,
+    "tailored_typed_protocols": 378,
+    "frozen_legacy_with_guides": 5,
+    "actions": 1151,
+    "prompt_check_groups": 498,
+    "resource_pages": 549
+  },
+  "runtime_inputs_sha256": {
+    "requirements.txt": "1f66dc186e8e69568d3cbbeb450aabbdd836edd66823d387e371a1adc37c5db9",
+    "docker-compose.yml": "83e1d47c557824f190f7bc080675f487e16cef6bb270800a90842fc45d5492b0",
+    "growth/domain/instructional_content.py": "fc48fa4f43cb9018813652a86e6ab74b995a38f88b9a884f603c19df763bea53",
+    "growth/views_instructional.py": "71228684e8b7b652da0fc7eb0f56cc85e92a323b2ea2f012e7c173f3c704c2c7",
+    "growth/templatetags/instructional.py": "23d13522597cf601c66c0480bdb8c7ecde4937d06250ef2ea1bb6c6ab60dcfbd",
+    "growth/static/growth/app.css": "90829797d24d2d730e1382106e9df91e5305d2d62495592dcae8e2cd8dd06537",
+    "growth/services/practice_content_reports.py": "281235285086c0fd260f14867cc9d79f5f5113f32445d03814080faa634c8f3a",
+    "templates/growth/practice_guide.html": "e43a0f88e818743205656607590ff1649add99969daa1940b3636d95b74476d0",
+    "scripts/catalog_learning_guides.py": "79ce899b11ce7887624396f0f46ad489114580d0e60275e26e97304725d385c1",
+    "scripts/tailored_practice_authoring.py": "8520bc80f218879c23d69ec0c578923a96091663dd554db58a583ecbeac1f77d",
+    "scripts/author_full_competency_frontier.py": "4a0067bfd862479a98387f09b4f1c43df6852697cc26888ec6cac5bda1a5bfa0",
+    "scripts/verify_catalog_product_integration.py": "d941d1117d5052324cffdcfdaec472d8c7d19b0abd3c73ee533bcaca0051c610",
+    "contracts/catalog-guide-sources.yaml": "7aad2e1f6b902db65ded5eed0b6290f73d6643ad8f930a6ba5e459bb2a29ed98",
+    "contracts/tailored-practice-authoring.yaml": "4f3c842f677155a868321ebdbd35e1ba703b5a4aadfa947fcd814ff5335deff2",
+    "data/practices/release_manifest.yaml": "40572b69e277190daaf59ba0dbfd07e93e4f363e7386f9de0b4081b6050c26c2"
+  },
+  "quality_tool_sha256": "03c4b46e105916d17b3c187463f86064c705a2107f31ab6fedcb6e835d7944c2",
+  "packages": {
+    "Django": "6.0.8",
+    "PyYAML": "6.0.3",
+    "markdown-it-py": "4.2.0",
+    "RapidFuzz": "3.14.6",
+    "pytest": "8.4.2",
+    "playwright": "1.62.0"
+  },
+  "checks": [
+    {
+      "id": "quality-review",
+      "command": ".venv/bin/python -m pytest tests/test_m6k_review_evidence.py -q",
+      "level": "software/review",
+      "status": "passed",
+      "receipt": "receipts/quality-review.log",
+      "sha256": "07186b18a14af41f34f55e9c14c07318f7bf685e322b5799b200e1919af38db7"
+    },
+    {
+      "id": "continuation",
+      "command": ".venv/bin/python -m pytest tests/test_m6k_continuation.py -q",
+      "level": "software/review",
+      "status": "passed",
+      "receipt": "receipts/continuation.log",
+      "sha256": "55d760548821bb7e15dfbfff24570b716b13e68f3752ee62196de839f00e34c6"
+    },
+    {
+      "id": "review-history",
+      "command": ".venv/bin/python docs/plans/m6k/reviews.py check --base 4bb8a17 --output docs/authoring/catalog-product-integration-20260928/quality-status.json",
+      "level": "source/review",
+      "status": "passed",
+      "receipt": "receipts/review-history.log",
+      "sha256": "1119886e48d90d2d54b47c849eb846eeb3be8966088cf07e2e253f1427256904"
+    },
+    {
+      "id": "source-suite",
+      "command": ".venv/bin/python -m unittest discover -s tests -p '*sources.py'",
+      "level": "source",
+      "status": "passed",
+      "receipt": "receipts/source-suite.log",
+      "sha256": "3b9d6e6265eeefea8afea5ebbf4ff097ca09372e2153756da723107a993aec53"
+    },
+    {
+      "id": "full-regression",
+      "command": ".venv/bin/python -m pytest -m 'not e2e' -n 4 -q",
+      "level": "application",
+      "status": "passed_with_targeted_recheck",
+      "resolved_by": [
+        "quality-review",
+        "continuation",
+        "review-history"
+      ],
+      "initial_result": "1 failed, 1901 passed in 1912.50s (0:31:52)",
+      "receipt": "receipts/full-regression.log",
+      "sha256": "4923e47a67007c36408c50f3e3569448d99df00aec3a3006f0c666bf464d9e3c",
+      "note": "The full run found one obsolete historical-report assertion. Its replacement preserves the old snapshot, checks the new snapshot and verifies unchanged human acceptance states. The entire review component and affected continuation suite were rerun after repair. The final table wrapper/CSS change is additionally covered by the subsequent navigation/security and wide-table browser runs; other runtime content and logic are unchanged."
+    },
+    {
+      "id": "guide-navigation-security",
+      "command": ".venv/bin/python -m pytest tests/test_catalog_learning_guides.py -m 'not django_db' -q",
+      "level": "source/application",
+      "status": "passed",
+      "receipt": "receipts/guide-navigation-security.log",
+      "sha256": "8bc522c6caeeca26eb32b7b5604c0f54304b1cbcb4b6c6f5be7bbb614b4f23e0"
+    },
+    {
+      "id": "similarity-parity",
+      "command": ".venv/bin/python -m pytest tests/test_similarity_audit_bound.py -q",
+      "level": "software",
+      "status": "passed",
+      "receipt": "receipts/similarity-parity.log",
+      "sha256": "9f5fca75b3047a6b50338570acc3b84d6f91fc01f7616bf565c9c7f9222d4381"
+    },
+    {
+      "id": "guide-browser",
+      "command": "PLAYWRIGHT_BROWSERS_PATH=.playwright-browsers .venv/bin/python -m pytest tests/e2e/test_instructional_content.py tests/e2e/test_catalog_guides.py -q",
+      "level": "browser",
+      "status": "passed",
+      "receipt": "receipts/guide-browser.log",
+      "sha256": "7af2b4747cb317a160f7e99cd4a474a83d25cfa0f6976224106cf3a5836d52ed",
+      "note": "Ten distinct parameterized browser cases; two companion-guide cases were subsequently extended and rerun with wide-table keyboard scrolling. Do not add them as twelve distinct cases."
+    },
+    {
+      "id": "wide-table-browser",
+      "command": "PLAYWRIGHT_BROWSERS_PATH=.playwright-browsers .venv/bin/python -m pytest tests/e2e/test_catalog_guides.py -q",
+      "level": "browser",
+      "status": "passed",
+      "receipt": "receipts/wide-table-browser.log",
+      "sha256": "0f4e888ff618d9c64b680f4a02b372dffe2d5d576a857cd923eed82a38fecbea"
+    },
+    {
+      "id": "environment",
+      "command": "./scripts/ensure-agent-env.py",
+      "level": "environment",
+      "status": "passed",
+      "receipt": "receipts/environment.log",
+      "sha256": "eaf01135911d726ec30b4498707ff60242c686706a0f55f92e1aec32b3d80f41"
+    },
+    {
+      "id": "django-and-migrations",
+      "command": "make lint",
+      "level": "static/application",
+      "status": "passed",
+      "receipt": "receipts/django-and-migrations.log",
+      "sha256": "246be876db4aef5e91fb8ee2fec85fe1d7bb133a3ae2c5064475cfcb5fdc357f"
+    },
+    {
+      "id": "final-ruff",
+      "command": ".venv/bin/python -m ruff check . && .venv/bin/python -m ruff format --check .",
+      "level": "static",
+      "status": "passed",
+      "receipt": "receipts/final-ruff.log",
+      "sha256": "f3f6ec77afebfafb7a5deac3cd136e8197040e34734597a475265a6056d3bbe4"
+    },
+    {
+      "id": "compiler",
+      "command": ".venv/bin/python scripts/author_full_competency_frontier.py --check",
+      "level": "source",
+      "status": "passed",
+      "receipt": "receipts/compiler.log",
+      "sha256": "2e02098b8ed4333a31385ce53ef96c674d30fced026cec8645d10dce7806a8b7"
+    },
+    {
+      "id": "per-competency-parity",
+      "command": ".venv/bin/python scripts/verify_catalog_product_integration.py --check",
+      "level": "source/application",
+      "status": "passed",
+      "receipt": "receipts/per-competency-parity.log",
+      "sha256": "0d83f11ca365e0b841a85e6193948d35c53c4e0790c002864d8772dae164ad00"
+    },
+    {
+      "id": "recovery",
+      "command": ".venv/bin/python docs/plans/m6k/recovery.py",
+      "level": "source/recovery",
+      "status": "passed",
+      "receipt": "receipts/recovery.log",
+      "sha256": "87569ee5b521691d0d1f0a086d34726bf7b95ef88023651cccbb48ea53c2a37c"
+    },
+    {
+      "id": "governance",
+      "command": ".venv/bin/python scripts/catalog_governance_audit.py --check",
+      "level": "source",
+      "status": "passed",
+      "receipt": "receipts/governance.log",
+      "sha256": "24e0ba224746791c63d8ec7bb707ac6ed681862e55577bc441d62f0bb3957196"
+    },
+    {
+      "id": "scoring-catalog",
+      "command": ".venv/bin/python scripts/composite_scoring_catalog.py --check",
+      "level": "software",
+      "status": "passed",
+      "receipt": "receipts/scoring-catalog.log",
+      "sha256": "9392bee2a47b6ea8f928943978083344eba5202085b130f690a4d76f0039a031"
+    },
+    {
+      "id": "pilot",
+      "command": "make pilot-check",
+      "level": "synthetic application",
+      "status": "passed",
+      "receipt": "receipts/pilot.log",
+      "sha256": "546adaf947fd6234721bfb6674a3d387dbdd5c8f4d3bedc7e0d0c1f80263ec3c"
+    },
+    {
+      "id": "curriculum",
+      "command": "make curriculum-check",
+      "level": "synthetic application",
+      "status": "passed",
+      "receipt": "receipts/curriculum.log",
+      "sha256": "98f9b054f16ceef7459105836f726aaadb4dc5cf560746f2b1f14809121f4e5d"
+    },
+    {
+      "id": "competency-evidence",
+      "command": "make competency-evidence-check",
+      "level": "synthetic application",
+      "status": "passed",
+      "receipt": "receipts/competency-evidence.log",
+      "sha256": "90e0504cd4cb1fcf03d4b405c1a302aac1e411e9c2e1cb8a2f02b6934dd426b9"
+    },
+    {
+      "id": "compose",
+      "command": "make compose-smoke",
+      "level": "synthetic container",
+      "status": "passed",
+      "receipt": "receipts/compose.log",
+      "sha256": "0ca0c42d97356e90b5557ec5c5b419dfe570bd6a9b90950f6e67a7d2ea6051bb",
+      "note": "Fresh isolated synthetic project; no live-user database or deployment. Earlier interrupted and failed diagnostics are retained separately."
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "initial-targeted",
+      "reason": "35 passed; one pre-existing assertion expected an unmodified source package to lack a guide. Replaced with exact original-package immutability check.",
+      "receipt": "receipts/initial-targeted.log",
+      "sha256": "be200dddded51ba4f8ea90da7df7317715c242f750b31ef4ac2344b0a1e1a38f"
+    },
+    {
+      "id": "initial-full-suite",
+      "reason": "Interrupted after 1250 passed and 7 failures to remove the audit bottleneck. Six stale 108-count assertions updated to 378; missing retained privacy exclusion restored. Not a passing full run.",
+      "receipt": "receipts/initial-full-suite.log",
+      "sha256": "24cb56fca7a16eecbb0c533d38b0b6a59a0751c6edb163891f87d8f9b9b7f571"
+    },
+    {
+      "id": "stale-report-retry",
+      "reason": "Readiness correctly rejected reports during regeneration; interrupted and superseded by the stable final suite.",
+      "receipt": "receipts/stale-report-retry.log",
+      "sha256": "fd5bf0815d2401c93c53a615491d3a9ca0af6e1b43d1f585aae14e1565e05fed"
+    },
+    {
+      "id": "compose-resume-rejected",
+      "reason": "Attempted resumption rejected backup/live equality because a successful login had already changed live user state after restore verification. Cleanup removed the synthetic project. Superseded by a fresh complete smoke run, not waived.",
+      "receipt": "receipts/compose-resume-rejected.log",
+      "sha256": "7fb9ab9c8d8f6faef728048643d1c35769666fd3e6f531dc3af3df91a1b7ffbd"
+    },
+    {
+      "id": "compose-interrupted-after-restore",
+      "reason": "Process exited 143 after restored backup hash equality. Attempted continuation could not reuse the pre-login backup equality check. Fresh complete smoke rerun; diagnostic script retained.",
+      "receipt": "receipts/compose-interrupted-after-restore.log",
+      "sha256": "cc180c1759c869d1bacda2db19fb9872d0245e782933409e83ff85119faea525"
+    },
+    {
+      "id": "compose-startup-grace",
+      "reason": "Fresh bootstrap was still seeding when the 20-second grace expired. Actual HTTP probe retained; grace increased to 180 seconds and smoke rerun.",
+      "receipt": "receipts/compose-startup-grace.log",
+      "sha256": "d0f66e9c43eb01031700133114ed83b3d0b1610d27cd623a808de3da6e3651f1"
+    }
+  ],
+  "diagnostic_artifacts": {
+    "receipts/compose-continuation.sh": "ceb1971a9445f49eb4f2612dbb6d3a86bed936dbbe881d87b55e99ccc445585e"
+  },
+  "browser_artifacts": {
+    "browser/catalog-privacy-guide-1280.png": "21e00664c7cbf6689c712f53b8548305de8c1a51a4344a9663c045cac6b73d35",
+    "browser/catalog-privacy-guide-390.png": "c78fac2e1727dbf382fad4335db977506b038eb9f8c4f4579dbbdd52b115ec7b",
+    "browser/catalog-wide-table-1280.png": "2d76a77bcf8c65e247266e6a002d3a6c6cf0045c03dcf28d4306fc6e41e0ae77",
+    "browser/catalog-wide-table-390.png": "c5cf0f73079854876ea5ec3c6e065adab8d0f4736f2e1bfa2cc52468c11859e9"
+  },
+  "claim_boundaries": {
+    "hosted_ci": false,
+    "merged": false,
+    "deployed": false,
+    "independent_authorship_certified": false,
+    "qualified_acceptance": false,
+    "actual_learner_acceptance": false,
+    "formal_quality_passes": 0
+  },
+  "repository_closeout": {
+    "scope_contract": "contracts/active-batch.yaml",
+    "scope_violations": 0,
+    "protected_paths_changed": 0,
+    "git_diff_check": "passed",
+    "recorded_receipt_and_input_hashes": "verified"
+  }
+}

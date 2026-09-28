@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1201-HEALTH-LITERACY-AND-PREVENTIVE-CARE-01
 slug: c1201-health-literacy-and-preventive-care-practice
-name: Bounded Health literacy and preventive care Practice
+name: Close one real preventive-care information gap with a qualified service
 parent_competency_id: '12.01'
 domain_id: '12'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.01
-      (Health literacy and preventive care); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.01; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Health literacy and preventive care through a qualified-support preparation bounded
-    by the canonical scope: Understand screening, symptoms, medications, vaccination, dental care, sexual
-    health, and how to work with clinicians.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Maintains appropriate
-    preventive care and seeks qualified evaluation when warranted. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Understand the difference between prevention, symptom evaluation and treatment, organize the
+    information a clinician needs, and act on one appropriate care gap.
+  why_recommended: Understand the difference between prevention, symptom evaluation and treatment, organize
+    the information a clinician needs, and act on one appropriate care gap.
   claims:
-  - statement: Using the canonical scope and evidence target for Health literacy and preventive care is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Understand the difference between prevention, symptom evaluation and treatment, organize
+      the information a clinician needs, and act on one appropriate care gap.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Health literacy and preventive care practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Health literacy and preventive care as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Health literacy and
-    preventive care context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Health literacy
-    and preventive care; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use an interpreter, accessible portal, support person with consent or a community
+    clinic. Keep diagnoses, sexual history and medicine names out of app check-ins. A fictional case practices
+    navigation only; lack of affordable care is an access barrier, not a failed health behavior.
+  opportunity_considerations: 'Use your existing care records privately, or the supplied fictional case:
+    an adult has an unclear vaccination record, a medicine from two prescribers and an overdue dental
+    reminder. Make six headings: screening, new symptoms, medicines, vaccination, dental care and sexual
+    health. Mark current, uncertain, due according to an existing care plan, or not applicable; do not
+    invent a due date.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Health literacy and preventive
-    care.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use your existing care records privately, or the supplied fictional case: an adult has an unclear
+    vaccination record, a medicine from two prescribers and an overdue dental reminder. Make six headings:
+    screening, new symptoms, medicines, vaccination, dental care and sexual health. Mark current, uncertain,
+    due according to an existing care plan, or not applicable; do not invent a due date.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Health literacy and preventive
-    care instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use an interpreter, accessible portal, support person with consent or a community clinic. Keep diagnoses,
+    sexual history and medicine names out of app check-ins. A fictional case practices navigation only;
+    lack of affordable care is an access barrier, not a failed health behavior.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -82,19 +82,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Health literacy and preventive care actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Health literacy and preventive care; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Health literacy
-    and preventive care. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Health literacy and preventive care actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use your existing care records privately, or the supplied fictional case: an adult has an unclear
+    vaccination record, a medicine from two prescribers and an overdue dental reminder. Make six headings:
+    screening, new symptoms, medicines, vaccination, dental care and sexual health. Mark current, uncertain,
+    due according to an existing care plan, or not applicable; do not invent a due date. Goal: Understand
+    the difference between prevention, symptom evaluation and treatment, organize the information a clinician
+    needs, and act on one appropriate care gap. Scope: This is care navigation and health literacy, not
+    a screening schedule, diagnosis or instruction to start, stop or change treatment. Urgent symptoms
+    take priority over completing the exercise. Time and effort: Twenty minutes of private preparation,
+    one clinic or pharmacy contact and a ten-minute follow-up; appointment availability may extend the
+    timeline. Adaptation: Use an interpreter, accessible portal, support person with consent or a community
+    clinic. Keep diagnoses, sexual history and medicine names out of app check-ins. A fictional case practices
+    navigation only; lack of affordable care is an access barrier, not a failed health behavior. Keep
+    personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use an interpreter, accessible portal, support person with consent or a community
+    clinic. Keep diagnoses, sexual history and medicine names out of app check-ins. A fictional case practices
+    navigation only; lack of affordable care is an access barrier, not a failed health behavior.
+  expected_burden: Twenty minutes of private preparation, one clinic or pharmacy contact and a ten-minute
+    follow-up; appointment availability may extend the timeline.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Health literacy and preventive care protocol to rank worth, coerce participation, demand
@@ -102,19 +111,25 @@ intervention:
   - Treating a completed Health literacy and preventive care action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Health literacy and preventive care situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use an interpreter,
+    accessible portal, support person with consent or a community clinic. Keep diagnoses, sexual history
+    and medicine names out of app check-ins. A fictional case practices navigation only; lack of affordable
+    care is an access barrier, not a failed health behavior.
   actions:
   - stable_id: PRACTICE-COMP-1201-HEALTH-LITERACY-AND-PREVENTIVE-CARE-01-A1
     sequence: 1
-    title: Bound the qualified question for Health literacy and preventive care
-    instructions: 'Turn Health literacy and preventive care into one educational or planning question
-      and identify the qualification and jurisdiction needed to answer it. Use the canonical scope to
-      separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Understand screening, symptoms, medications, vaccination,
-      dental care, sexual health, and how to work with clinicians.'
+    title: Build a minimum useful care summary without self-diagnosing
+    instructions: 'Under the six headings, record only the questions needed for the next appointment.
+      For medicines, list prescription and nonprescription products and how they are actually taken; keep
+      this outside application evidence. Separate a new symptom from a preventive question. Note access,
+      language, cost and consent needs. A blank vaccination record means uncertain, not automatically
+      unvaccinated or protected.
+
+
+      Observation checks: All six care areas receive an honest status; Symptoms are separated from preventive
+      planning; The private medicine list reflects actual use without treatment changes; Access needs
+      and uncertainty are explicit. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +151,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1201_a1_question_bounded
-        - c1201_a1_qualification_named
-        - c1201_a1_professional_boundary_explicit
+        - all_six_care_areas_receive_an_honest_status
+        - symptoms_are_separated_from_preventive_planning
+        - the_private_medicine_list_reflects_actual_use_without_treatment_changes
+        - access_needs_and_uncertainty_are_explicit
       - measurement_id: c1201_a1_boundary
         kind: boolean
         role: supporting
@@ -155,12 +171,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1201-HEALTH-LITERACY-AND-PREVENTIVE-CARE-01-A2
     sequence: 2
-    title: Prepare minimum information for Health literacy and preventive care
-    instructions: Create a privacy-minimized Health literacy and preventive care consultation note containing
-      only the question, relevant category-level facts, current constraints, and desired decision. Omit
-      diagnoses, allegations, account numbers, credentials, protected work information, intimate detail,
-      and third-party identity unless a qualified professional lawfully requires it through an appropriate
-      channel.
+    title: Verify one gap through the appropriate qualified channel
+    instructions: 'Choose the most relevant non-urgent uncertainty and contact the existing clinician,
+      dentist, pharmacist or local public-health service. Ask what information is needed, which current
+      guidance applies to your age and circumstances, and the next action. For the default, request the
+      vaccination record rather than booking every possible vaccine. If concerning symptoms are current,
+      obtain timely clinical or emergency advice instead of waiting for the audit.
+
+
+      Observation checks: The chosen question reaches an appropriate qualified service; Current individual
+      guidance is requested rather than guessed; Required records costs and access arrangements are clarified;
+      Current concerning symptoms are not deferred for the exercise. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -182,9 +204,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1201_a2_minimum_information_only
-        - c1201_a2_sensitive_detail_excluded
-        - c1201_a2_decision_need_named
+        - the_chosen_question_reaches_an_appropriate_qualified_service
+        - current_individual_guidance_is_requested_rather_than_guessed
+        - required_records_costs_and_access_arrangements_are_clarified
+        - current_concerning_symptoms_are_not_deferred_for_the_exercise
       - measurement_id: c1201_a2_boundary
         kind: boolean
         role: supporting
@@ -201,12 +224,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1201-HEALTH-LITERACY-AND-PREVENTIVE-CARE-01-A3
     sequence: 3
-    title: Record a bounded Health literacy and preventive care disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Maintains appropriate preventive care and seeks qualified evaluation when
-      warranted.'
+    title: Carry out the agreed next step and use teach-back
+    instructions: 'Complete the next agreed action: obtain the record, book the indicated review, resolve
+      a medicine-list discrepancy with the pharmacist or attend the planned visit. Summarize in your own
+      words what happens next, why and when to seek help; ask the service to correct misunderstanding.
+      Record the remaining question and follow-up date. Booking a visit is not evidence that screening,
+      vaccination or treatment has occurred.
+
+
+      Observation checks: An agreed next step is actually completed; The next action and help threshold
+      are restated and clarified; Outstanding questions retain a follow-up route; Booking preparation
+      and completed clinical care remain distinct. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Which uncertainty became an actionable care plan, and what still needs qualified interpretation
+      rather than another internet search?
+
+
+      Examples: Supportive: The vaccination record was obtained and the clinic confirmed the appropriate
+      next review; an assumed missing dose was not self-prescribed.
+
+
+      Mixed: An appointment was booked, but transport or interpretation remained unresolved and required
+      another access step.
+
+
+      Contradictory: Medication was stopped or a symptom dismissed because a self-made prevention checklist
+      appeared complete.
+
+
+      Inconclusive: A list of recommended tests was copied without checking individual relevance or contacting
+      a care service.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,14 +271,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1201_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1201_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - an_agreed_next_step_is_actually_completed
+        - the_next_action_and_help_threshold_are_restated_and_clarified
+        - outstanding_questions_retain_a_follow_up_route
+        - booking_preparation_and_completed_clinical_care_remain_distinct
       - measurement_id: c1201_a3_boundary
         kind: boolean
         role: supporting
@@ -250,17 +301,17 @@ intervention:
       Health literacy and preventive care; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Health literacy and preventive care; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use an interpreter, accessible portal, support person with consent or a community clinic. Keep diagnoses,
+      sexual history and medicine names out of app check-ins. A fictional case practices navigation only;
+      lack of affordable care is an access barrier, not a failed health behavior.
     cultural_context:
     - Adapt the expression of Health literacy and preventive care to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Health literacy and preventive care opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use an interpreter, accessible portal, support person with consent or a community clinic. Keep diagnoses,
+      sexual history and medicine names out of app check-ins. A fictional case practices navigation only;
+      lack of affordable care is an access barrier, not a failed health behavior.
   pause_conditions:
   - Pause Health literacy and preventive care when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -291,10 +342,7 @@ evidence_and_scoring:
   - c1201_a3_boundary
   - c1201_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Health literacy and preventive care action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Health literacy and preventive care criterion, depended on
-    coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - Medication was stopped or a symptom dismissed because a self-made prevention checklist appeared complete.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Health literacy and preventive care explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -305,14 +353,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Health literacy and preventive care rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Maintains appropriate preventive care and seeks qualified evaluation when warranted.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Health literacy and preventive care requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Build a minimum useful care summary without self-diagnosing. Observed
+    checks: All six care areas receive an honest status; Symptoms are separated from preventive planning;
+    The private medicine list reflects actual use without treatment changes; Access needs and uncertainty
+    are explicit. Action 2: Verify one gap through the appropriate qualified channel. Observed checks:
+    The chosen question reaches an appropriate qualified service; Current individual guidance is requested
+    rather than guessed; Required records costs and access arrangements are clarified; Current concerning
+    symptoms are not deferred for the exercise. Action 3: Carry out the agreed next step and use teach-back.
+    Observed checks: An agreed next step is actually completed; The next action and help threshold are
+    restated and clarified; Outstanding questions retain a follow-up route; Booking preparation and completed
+    clinical care remain distinct.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A list of recommended tests was copied without checking
+    individual relevance or contacting a care service.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Health
     literacy and preventive care contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -321,9 +378,8 @@ evidence_and_scoring:
   - L10
   - L13
   - L17
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Health literacy and preventive care evidence.
@@ -331,12 +387,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for health literacy and preventive care action was attempted or explicitly
-    deferred.
-  - The prepare minimum information for health literacy and preventive care action was attempted or explicitly
-    deferred.
-  - The record a bounded health literacy and preventive care disposition action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Build a minimum useful care summary without self-diagnosing. Observed checks: All six care
+    areas receive an honest status; Symptoms are separated from preventive planning; The private medicine
+    list reflects actual use without treatment changes; Access needs and uncertainty are explicit.'
+  - 'Action 2: Verify one gap through the appropriate qualified channel. Observed checks: The chosen question
+    reaches an appropriate qualified service; Current individual guidance is requested rather than guessed;
+    Required records costs and access arrangements are clarified; Current concerning symptoms are not
+    deferred for the exercise.'
+  - 'Action 3: Carry out the agreed next step and use teach-back. Observed checks: An agreed next step
+    is actually completed; The next action and help threshold are restated and clarified; Outstanding
+    questions retain a follow-up route; Booking preparation and completed clinical care remain distinct.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -345,58 +408,354 @@ completion_and_review:
     - c1201_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Health literacy and preventive care only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Health literacy and preventive care across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which uncertainty became an actionable care plan, and what still needs qualified
+    interpretation rather than another internet search?
+  transfer_limit: This is care navigation and health literacy, not a screening schedule, diagnosis or
+    instruction to start, stop or change treatment. Urgent symptoms take priority over completing the
+    exercise.
   reflection:
-    before: What does Health literacy and preventive care require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Health literacy and preventive care criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Maintains appropriate preventive care and seeks qualified
-      evaluation when warranted.', what contradiction or missing context matters most, and should this
-      Health literacy and preventive care design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Understand the difference between prevention,
+      symptom evaluation and treatment, organize the information a clinician needs, and act on one appropriate
+      care gap.'
+    during: Which checks have actually been observed? An appointment was booked, but transport or interpretation
+      remained unresolved and required another access step.
+    after: Which uncertainty became an actionable care plan, and what still needs qualified interpretation
+      rather than another internet search?
   review_guidance:
     repeat: Repeat the same bounded Health literacy and preventive care design only when the context and
       burden remain appropriate.
-    adapt: Change the Health literacy and preventive care medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Use an interpreter, accessible portal, support person with consent or a community clinic. Keep
+      diagnoses, sexual history and medicine names out of app check-ins. A fictional case practices navigation
+      only; lack of affordable care is an access barrier, not a failed health behavior.
     stop: Stop Health literacy and preventive care when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Health literacy and preventive care questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Health literacy and preventive care criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Health literacy and preventive care criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Health literacy and preventive care criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Health literacy and preventive care action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The vaccination record was obtained and the clinic confirmed the appropriate next review;
+      an assumed missing dose was not self-prescribed.
+    mixed: An appointment was booked, but transport or interpretation remained unresolved and required
+      another access step.
+    contradictory: Medication was stopped or a symptom dismissed because a self-made prevention checklist
+      appeared complete.
+    inconclusive: A list of recommended tests was copied without checking individual relevance or contacting
+      a care service.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Health literacy and preventive care.
+    context_heading: Close one real preventive-care information gap with a qualified service
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Health literacy
       and preventive care.
   check_in_labels:
-    c1201_a1_primary: The bounded Health literacy and preventive care criterion for action 1 was observed
+    c1201_a1_primary: 'Observed checks: build a minimum useful care summary without self-diagnosing'
     c1201_a1_boundary: Action 1 stayed inside its stated Health literacy and preventive care boundary
     c1201_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1201_a2_primary: The bounded Health literacy and preventive care criterion for action 2 was observed
+    c1201_a2_primary: 'Observed checks: verify one gap through the appropriate qualified channel'
     c1201_a2_boundary: Action 2 stayed inside its stated Health literacy and preventive care boundary
     c1201_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1201_a3_primary: The bounded Health literacy and preventive care criterion for action 3 was observed
+    c1201_a3_primary: 'Observed checks: carry out the agreed next step and use teach-back'
     c1201_a3_boundary: Action 3 stayed inside its stated Health literacy and preventive care boundary
     c1201_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Health literacy and
-    preventive care practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which uncertainty became an actionable care plan, and what still needs qualified interpretation
+    rather than another internet search? Completion is not mastery.
+  plain_language_evidence: The vaccination record was obtained and the clinic confirmed the appropriate
+    next review; an assumed missing dose was not self-prescribed.
   display_order: 146
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.01'
+  title: 12.01 — Health literacy and preventive care
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [AHRQ, Teach-Back](https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/teachback.html)
+
+      - [NHLBI, Healthy Sleep Habits](https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits)
+
+      - [NIDDK, Diet & Nutrition](https://www.niddk.nih.gov/health-information/diet-nutrition)
+
+      - [MedlinePlus, Protein in diet](https://www.medlineplus.gov/ency/article/002467.htm)
+
+      - [MedlinePlus, Dietary Fiber](https://www.medlineplus.gov/dietaryfiber.html)
+
+      - [FDA, Serving Size on the Nutrition Facts Label](https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label)
+
+      - [FDA, Food Allergies](https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies)
+
+      - [NIMH, Eating Disorders: What You Need to Know](https://www.nimh.nih.gov/health/publications/eating-disorders)
+
+      - [CDC, How to Measure Physical Activity Intensity](https://www.cdc.gov/physical-activity-basics/measuring/index.html)
+
+      - [CDC, Strategies to Prevent Worsening of Symptoms](https://www.cdc.gov/me-cfs/hcp/clinical-care/treating-the-most-disruptive-symptoms-first-and-preventing-worsening-of-symptoms.html)
+
+      - [NHS, How to improve your strength and flexibility](https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/)
+
+      - [Mayo Clinic, Stretching and flexibility](https://www.mayoclinic.org/healthy-lifestyle/fitness/basics/stretching-and-flexibility/hlv-20049447)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'These branches are separate simulated futures; neither is an actual service contact.
+
+
+      ### Branch A: partial information
+
+
+      Day 1, 11:00: Morgan authorizes and sends the records request privately. Day 1, 14:00: the service
+      acknowledges it. Day 3, 10:00: Morgan receives a correctly identified record. It lists one historic
+      entry and says earlier records were not transferred. It does not state present vaccination needs.
+      Day 3, 15:00: the clinic confirms a routine review on day 8; the appointment has not happened. The
+      pharmacist, dentist and private sexual-health discussion have no new event in this branch.
+
+
+      Update each status. Draft a teach-back that distinguishes the received partial record from a completed
+      review and asks who will resolve the remaining history. Preserve the medicine and dental next actions.
+      Do not use the single entry to construct a vaccine schedule.
+
+
+      ### Branch B: no record
+
+
+      Day 1, 11:00: Morgan authorizes and sends the request. The service acknowledges it at 14:00. No
+      further reply arrives by the start of day 4. Morgan has not contacted the records desk yet. There
+      is no new symptom information and no other care event.
+
+
+      Use the supplied day-4 follow-up rule. Write “follow-up due, not yet made.” Acknowledgement proves
+      receipt of the request only. Do not invent a missing vaccination, repeat dose or completed clinical
+      review.
+
+
+      ### Review after your attempt
+
+
+      Branch A supports received partial record and booked review, while interpretation and care remain
+      pending. Branch B supports sent/acknowledged request and an open follow-up. In both, the information
+      gap is narrower than “all preventive care complete.” If a new symptom concern arises in life, use
+      timely qualified advice appropriate to it rather than treating day 4 as a symptom waiting rule.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Turn an uncertain record into a useful care question
+
+
+      Health literacy includes knowing what a record establishes, what remains unknown and which service
+      can resolve it. Screening looks for a condition before symptoms; symptom evaluation investigates
+      a concern; treatment addresses a condition. A reminder, an appointment and completed care are different
+      events. An empty record proves none of them.
+
+
+      This source companion teaches navigation across screening, symptoms, medicines, vaccination, dental
+      care and sexual health. Use the fictional packet below. You need paper or a text editor, no account,
+      purchase, personal history or actual contact. Allow 15 minutes for the summary, 10 for the simulated
+      exchange and 10 for checks. Completing this route produces a care-navigation artifact, not completed
+      preventive care. Health and exercise content must be adapted to the person and does not replace
+      licensed medical care.
+
+
+      ### A small, trustworthy summary
+
+
+      Record the source and date alongside each status. “Due according to my existing care plan” has a
+      basis; “everyone my age needs this” needs current local and individual guidance. Screening can have
+      benefits and harms, so ask about the relevant options rather than maximizing tests. Symptoms deserve
+      their own question even when preventive records look complete. A checklist cannot rule out illness.
+
+
+      For medicines, a useful private list includes prescription and nonprescription products, supplements,
+      the written instructions and actual use, plus any discrepancy. A pharmacist or prescriber can clarify
+      it; the worksheet cannot authorize starting, stopping or changing a medicine. For vaccination, seek
+      records and applicable local advice before inferring missing doses. Dental reminders identify follow-up
+      work; they do not prove either disease or completed treatment. Sexual-health questions may involve
+      prevention, symptoms, testing, contraception or consent, depending on the person. No one must disclose
+      sexual history to complete this learning exercise.
+
+
+      Use teach-back to check the explanation: restate what happens next, who does it, when, and what
+      remains unresolved; invite correction. This tests shared understanding, not the patient''s intelligence.
+      See [AHRQ''s communication tool](https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/teachback.html).
+      Qualified clinical advice and local emergency routes take priority over a worksheet when symptoms
+      are concerning; do not wait for this exercise or a routine appointment in an emergency.
+
+
+      ### Worked example: a dental reminder
+
+
+      A fictional letter says “contact us to arrange the review already discussed.” Sam writes “review
+      requested by existing dental plan; not booked.” The dental service offers Tuesday, but Sam cannot
+      travel then. Sam asks for an accessible slot and keeps “booking unresolved.” Copying Tuesday into
+      a calendar would not establish an agreed appointment. Once the service confirms Thursday and transport
+      is arranged, “booked” is justified; “attended” still is not.
+
+
+      ### Complete materials: Morgan''s Monday file
+
+
+      All facts are invented. Today is case day 1, Monday. Morgan is an adult with no current symptom
+      concern in this packet. No ages, diagnoses, medicine doses or screening/vaccine schedules are supplied
+      or needed. The clinic contact and messages below are simulated; do not send anything.
+
+
+      | Area | Information available on day 1 | Limit |
+
+      | --- | --- | --- |
+
+      | Screening | Existing clinic note: discuss individual preventive options at the next routine review
+      | No test is ordered and no due date is supplied |
+
+      | Symptoms | Morgan reports no current symptom concern | A report, not a health examination or guarantee
+      |
+
+      | Medicines | Two prescribers appear in the private medicine folder; current instructions for product
+      M are unclear; no list review has occurred | Do not guess use or dose; ask pharmacist/prescriber
+      to reconcile actual use with instructions |
+
+      | Vaccination | Old clinic record is absent | Status uncertain; neither unvaccinated nor protected
+      follows |
+
+      | Dental care | Reminder says book the review in the existing plan; no booking confirmation | Follow-up
+      due according to that reminder, not completed |
+
+      | Sexual health | Morgan requests a private discussion of prevention options at routine review |
+      No history, exposure or test indication is specified |
+
+
+      The clinic''s fictional records service accepts a request from Morgan or a specifically authorized
+      helper. Morgan consents to the learner drafting a records request only; no sending, medicine disclosure
+      or broad record-sharing permission exists. Morgan can use text communication and needs a written
+      reply; the clinic can provide it. The records service says allow two working days for a response,
+      then contact the records desk on day 4 if nothing arrives. These times are toy service facts, not
+      clinical waiting advice. The medicine uncertainty goes separately to the pharmacist/prescriber promptly;
+      a vaccination-record request is not its resolution.
+
+
+      #### Action 1 — Create the six-area summary
+
+
+      For every row write `status | supporting fact | unknown | appropriate next channel`. Include the
+      medicine discrepancy and dental reminder as open work even while selecting vaccination records for
+      the worked exchange. Add the written-reply access need and the exact consent boundary. Do not fill
+      missing clinical facts with assumptions.
+
+
+      #### Action 2 — Draft a bounded request and preserve it
+
+
+      Write two or three sentences requesting the existing vaccination record and the information required
+      to release it securely. Ask who will interpret it, not which vaccine to administer. Example opening:
+      “I want to check which vaccination records you hold. Please explain the secure request process and
+      who can advise on my current individual needs.” Keep a separate line for the medicine clarification
+      and dental booking routes.
+
+
+      Save your summary and draft before opening [later-packet.md](?resource=file-later-packet-md). Predict
+      what a record acknowledgement, a partial record and a booked appointment would each permit you to
+      claim. The default is finished by analyzing the supplied replies; a simulated message is never an
+      actual contact.
+
+
+      #### Action 3 — Reconcile the reply without closing the wrong gap
+
+
+      Apply each later branch separately. Preserve day 1 facts, add the dated event, write a teach-back
+      and name the next actor and follow-up. Use `drafted → authorized → sent → acknowledged → record
+      received → clinically interpreted` only when that exact event is supplied. These stages are evidence
+      distinctions for this case, not a universal linear clinical workflow. Booking and attending care
+      remain separate tracks. Missing answers stay open.
+
+
+      Attempt [check-prompts.md](?attempt=practice-checks), then use the [corrective key](?check=practice-answers).
+      The source artifact is complete with all six areas, the limited draft, both reply reconciliations
+      and a next-step record. These reading outputs do not establish actual health behavior.
+
+
+      ### Access, deeper work and transfer
+
+
+      Dictation, a reader, an interpreter or a consented support person can assist. Use category labels
+      instead of medicine names in shared notes; private clinical details belong only in appropriate care
+      channels. An inaccessible portal, cost or missing service is an access barrier: record the barrier
+      and alternative channel, not personal failure. No live route is necessary to finish the default.
+
+
+      Harder case: the record received on day 3 belongs to a different person with a similar name. Do
+      not use or redistribute it; contact the service through its verified privacy/correction route and
+      keep Morgan''s record uncertain. Describe only the mismatch category in the learning record. A correct
+      identity is a prerequisite for interpretation, not something inferred from a matching first name.
+
+
+      At a later suitable real opportunity, prepare one private question, use an authorized care channel,
+      and record what actually happened. Ask a qualified service to explain applicable options, access,
+      benefits/harms and follow-up. Real care may take longer than the learning exercise. An author-checked
+      simulation is not an independent observation or qualified review.
+
+
+      **Supportive:** The correct record arrives and its uncertainty is clarified by the relevant service,
+      with unresolved care explicitly retained.
+
+
+      **Mixed:** A record is obtained but incomplete; navigation progresses while clinical status remains
+      open.
+
+
+      **Contradictory:** Missing records become invented vaccination status, a medication is changed from
+      a guess, or concerning symptoms are deferred for the checklist.
+
+
+      **Inconclusive:** Only a draft or acknowledgement exists; neither record receipt nor care completion
+      is established.
+
+
+      See the scope and limits described in this guide and [source limits](?resource=sources). This is
+      original navigation practice, not proof of general health literacy or preventive-care adherence.'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Save an answer before opening [check-answers.md](?check=practice-answers).
+
+
+      1. Alex''s portal has no vaccination entries. A friend says that proves no vaccination occurred
+      and offers to select doses. The clinic has only acknowledged Alex''s request. Write the defensible
+      status, one request and a claim that must remain withheld.
+
+      2. A service says “we can offer Friday if you confirm.” The person replies “I need transport information”;
+      no further message arrives. A spreadsheet says “Friday care completed.” Correct the record, identify
+      the unresolved action and explain why neither the offer nor the reply establishes attendance.
+
+      3. A helper has permission to draft a dental booking question. They propose attaching the person''s
+      complete medicine and sexual-health history to a public group message to get faster advice. State
+      the authorized artifact and the privacy/permission correction.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Vaccination status is uncertain; the request was acknowledged, but the record has not arrived.
+      Ask the appropriate records/clinical service what history is available and who can interpret individual
+      needs. Withhold both “never vaccinated” and “protected,” and do not choose doses from absence. If
+      you treated a blank as zero, separate the observation (blank portal) from the historical event it
+      cannot establish.
+
+      2. The slot is offered, not confirmed, and care is not completed. Ask about transport/access and
+      confirm an achievable appointment through the service. Later attendance and the actual care provided
+      need their own evidence. If you marked the offer booked, restore the conditional wording instead
+      of inventing a confirmation date.
+
+      3. Draft the bounded dental question only. Additional disclosure and public sending exceed permission
+      and are unnecessary. Keep private details in authorized care channels. Faster response does not
+      supply consent, qualified advice or confidentiality.
+
+
+      All three require a supporting fact and an explicit unknown; polished prose without those distinctions
+      is incomplete. These are author-provided educational keys, not clinical assessment or independent
+      review.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

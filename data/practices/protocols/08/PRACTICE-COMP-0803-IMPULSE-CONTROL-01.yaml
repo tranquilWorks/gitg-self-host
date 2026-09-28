@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0803-IMPULSE-CONTROL-01
 slug: c0803-impulse-control-practice
-name: Bounded Impulse control Practice
+name: Insert One Deliberate Choice Before an Impulse
 parent_competency_id: '08.03'
 domain_id: 08
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 08.03
-      (Impulse control); canonical scope, evidence target, classification, domain boundary, and parent
-      mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 08.03; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,37 +34,48 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Impulse control through a bounded audit and redesign bounded by the canonical scope:
-    Delay speech, spending, eating, sex, anger, quitting, and novelty seeking long enough to choose deliberately.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can resist or redirect
-    a strong impulse for a reason consciously endorsed. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Recognize a naturally occurring urge, create a brief safe decision interval, and choose an
+    action for a reason you endorse. The exercise distinguishes a deliberate yes, no, delay, or alternative
+    from automatic action; resisting every impulse is not the goal.
+  why_recommended: Recognize a naturally occurring urge, create a brief safe decision interval, and choose
+    an action for a reason you endorse. The exercise distinguishes a deliberate yes, no, delay, or alternative
+    from automatic action; resisting every impulse is not the goal.
   claims:
-  - statement: Using the canonical scope and evidence target for Impulse control is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: Recognize a naturally occurring urge, create a brief safe decision interval, and choose
+      an action for a reason you endorse. The exercise distinguishes a deliberate yes, no, delay, or alternative
+      from automatic action; resisting every impulse is not the goal.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Impulse control practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Impulse control as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Impulse control context,
-    understand the source-only status, and stop without losing safety, care, employment, housing, services,
-    relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Impulse control;
-    do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence for
-    evidence.
+  readiness_considerations: Use a visual cue, a short spoken phrase, or an agreed nonjudgmental reminder.
+    A pause can be shorter than thirty seconds; the number is a practice default, not a treatment dose.
+    Do not delay food, water, medication, sleep, toileting, safety responses, or withdrawal care. Never
+    test consent by provoking an intimate situation. Use a neutral context or defer when urges involve
+    dangerous behavior or distress beyond an ordinary educational practice.
+  opportunity_considerations: 'Use a private three-row note and one ordinary low-stakes context. Default:
+    the urge to switch from a chosen task to an optional feed. Write the current intention in a short
+    phrase, such as finish this paragraph before deciding on a break, and a permitted alternative, such
+    as take a planned break now. No purchase, food restriction, intimate encounter, argument, or withdrawal
+    from a substance is required. Keep urgent needs and essential messages outside the delay rule.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Impulse control.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use a private three-row note and one ordinary low-stakes context. Default: the urge to switch from
+    a chosen task to an optional feed. Write the current intention in a short phrase, such as finish this
+    paragraph before deciding on a break, and a permitted alternative, such as take a planned break now.
+    No purchase, food restriction, intimate encounter, argument, or withdrawal from a substance is required.
+    Keep urgent needs and essential messages outside the delay rule.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Impulse control instead of a live
-    situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a visual cue, a short spoken phrase, or an agreed nonjudgmental reminder. A pause can be shorter
+    than thirty seconds; the number is a practice default, not a treatment dose. Do not delay food, water,
+    medication, sleep, toileting, safety responses, or withdrawal care. Never test consent by provoking
+    an intimate situation. Use a neutral context or defer when urges involve dangerous behavior or distress
+    beyond an ordinary educational practice.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -78,18 +88,38 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Impulse control actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Impulse control; copy the canonical scope and evidence target into a private
-    working note; define the action boundary, valid supports, privacy limit, and stop condition before
-    beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Impulse
-    control. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Impulse control actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a private three-row note and one ordinary low-stakes context. Default: the urge to switch
+    from a chosen task to an optional feed. Write the current intention in a short phrase, such as finish
+    this paragraph before deciding on a break, and a permitted alternative, such as take a planned break
+    now. No purchase, food restriction, intimate encounter, argument, or withdrawal from a substance is
+    required. Keep urgent needs and essential messages outside the delay rule. Goal: Recognize a naturally
+    occurring urge, create a brief safe decision interval, and choose an action for a reason you endorse.
+    The exercise distinguishes a deliberate yes, no, delay, or alternative from automatic action; resisting
+    every impulse is not the goal. Scope: Speech, spending, eating, sex, anger, quitting, and novelty
+    are transfer contexts for deliberate choice, not mandatory exposures. This small exercise directly
+    rehearses the choice interval using optional novelty or harmless speech; it does not establish safe
+    financial, sexual, medical, or conflict decisions. Bodily needs, consent, a required safety response,
+    and a reasoned decision to stop are not impulses that must be defeated. Time and effort: Five minutes
+    of setup, two naturally occurring opportunities during the next seven days, a pause of up to thirty
+    seconds only when safe, and five minutes of review. Do not provoke stronger urges to obtain evidence.
+    Adaptation: Use a visual cue, a short spoken phrase, or an agreed nonjudgmental reminder. A pause
+    can be shorter than thirty seconds; the number is a practice default, not a treatment dose. Do not
+    delay food, water, medication, sleep, toileting, safety responses, or withdrawal care. Never test
+    consent by provoking an intimate situation. Use a neutral context or defer when urges involve dangerous
+    behavior or distress beyond an ordinary educational practice. Keep personal working notes outside
+    the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a visual cue, a short spoken phrase, or an agreed nonjudgmental reminder. A
+    pause can be shorter than thirty seconds; the number is a practice default, not a treatment dose.
+    Do not delay food, water, medication, sleep, toileting, safety responses, or withdrawal care. Never
+    test consent by provoking an intimate situation. Use a neutral context or defer when urges involve
+    dangerous behavior or distress beyond an ordinary educational practice.
+  expected_burden: Five minutes of setup, two naturally occurring opportunities during the next seven
+    days, a pause of up to thirty seconds only when safe, and five minutes of review. Do not provoke stronger
+    urges to obtain evidence.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Impulse control protocol to rank worth, coerce participation, demand disclosure, override
@@ -97,18 +127,30 @@ intervention:
   - Treating a completed Impulse control action, a polished artifact, agreement, confidence, speed, independence,
     or output as mastery or universal transfer.
   exclusions:
-  - Any Impulse control situation involving emergency response, abuse, retaliation, illegal conduct, medical
-    treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment, or other
-    consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a visual
+    cue, a short spoken phrase, or an agreed nonjudgmental reminder. A pause can be shorter than thirty
+    seconds; the number is a practice default, not a treatment dose. Do not delay food, water, medication,
+    sleep, toileting, safety responses, or withdrawal care. Never test consent by provoking an intimate
+    situation. Use a neutral context or defer when urges involve dangerous behavior or distress beyond
+    an ordinary educational practice.
   actions:
   - stable_id: PRACTICE-COMP-0803-IMPULSE-CONTROL-01-A1
     sequence: 1
-    title: Audit one bounded Impulse control context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Impulse control. Use
-      the canonical scope to name observable conditions without diagnosing people or systems: Delay speech,
-      spending, eating, sex, anger, quitting, and novelty seeking long enough to choose deliberately.'
+    title: Separate the urge from the decision it suggests
+    instructions: 'At the first natural urge to open the optional feed, record the cue in a few neutral
+      words, the action the urge suggested, and your endorsed reason for the current task or for changing
+      it. Try saying: I notice an urge to switch; I have not yet decided. Take a short pause only if it
+      does not delay a real need. Then make a deliberate choice: return to the paragraph, take a genuine
+      break, or choose another appropriate action. Record what you actually did, including an automatic
+      switch noticed afterward. Awareness after the fact is useful information, but do not relabel it
+      as a pause that occurred before action.
+
+
+      Observation checks: A naturally occurring urge and its suggested action were distinguished; An endorsed
+      reason or legitimate changed need was named; Whether the pause occurred before or after action was
+      recorded honestly; The actual chosen or automatic behavior was recorded without a character verdict.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -130,9 +172,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0803_a1_one_context_only
-        - c0803_a1_observable_conditions_recorded
-        - c0803_a1_hazards_excluded
+        - a_naturally_occurring_urge_and_its_suggested_action_were_distinguished
+        - an_endorsed_reason_or_legitimate_changed_need_was_named
+        - whether_the_pause_occurred_before_or_after_action_was_recorded_honestly
+        - the_actual_chosen_or_automatic_behavior_was_recorded_without_a_character_verdict
       - measurement_id: c0803_a1_boundary
         kind: boolean
         role: supporting
@@ -149,10 +192,21 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0803-IMPULSE-CONTROL-01-A2
     sequence: 2
-    title: Make one reversible Impulse control redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Impulse control. Record the intended effect, cost or burden, and a rollback condition before
-      changing anything.
+    title: Try the choice interval at another real opportunity
+    instructions: 'At a second natural opportunity, use the same brief phrase and pause for up to thirty
+      seconds if safe. Compare at least two options against the reason you endorsed: finish the paragraph
+      and then rest, or stop now because a real need has changed the plan. Choose one and carry it out;
+      merely rehearsing options is not a completed behavioral trial. If you still switch automatically,
+      record that result and the cue rather than extending the pause as punishment. Preserve any supports
+      already helping you. An optional spoken-message variant uses an unsent ordinary sentence and a deliberate
+      decision to say, revise, or omit it, without manufacturing an argument.
+
+
+      Observation checks: A second naturally occurring opportunity was attempted; At least two appropriate
+      options were considered before the recorded choice when possible; The selected action was actually
+      carried out or the automatic action was acknowledged; Urgent needs, consent, supports, and safety
+      were not overridden by the delay rule. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -174,9 +228,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0803_a2_change_traces_to_finding
-        - c0803_a2_rollback_defined
-        - c0803_a2_burden_recorded
+        - a_second_naturally_occurring_opportunity_was_attempted
+        - at_least_two_appropriate_options_were_considered_before_the_recorded_choice_when_possible
+        - the_selected_action_was_actually_carried_out_or_the_automatic_action_was_acknowledged
+        - urgent_needs_consent_supports_and_safety_were_not_overridden_by_the_delay_rule
       - measurement_id: c0803_a2_boundary
         kind: boolean
         role: supporting
@@ -193,10 +248,45 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0803-IMPULSE-CONTROL-01-A3
     sequence: 3
-    title: Compare the Impulse control context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: Can resist or
-      redirect a strong impulse for a reason consciously endorsed.'
+    title: Review freedom of choice rather than a resistance streak
+    instructions: 'Compare the two opportunities by cue, timing of awareness, reason, and actual behavior.
+      Identify whether the brief interval helped you choose, made no difference, or became rigid or distracting.
+      Name a future cue for one repeat and an exception: for example, optional scrolling can wait, but
+      an essential message cannot. Include a deliberate choice to rest or quit an unsuitable task as a
+      legitimate decision when its reason is stated. Do not award yourself a success streak for suppressing
+      needs or import the result into high-consequence situations. A missing second opportunity leaves
+      the repeated-choice claim untested.
+
+
+      Observation checks: Both opportunities were compared with their actual sequence intact; The review
+      distinguished deliberate choice from mere suppression; One next cue and one legitimate exception
+      were specified; Unobserved opportunities and untested transfer contexts were not claimed as success.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.
+
+
+      Final review: At which point did awareness arrive, and did the interval enable a choice you could
+      explain? Keep one useful cue without imposing it everywhere. Review after two further natural opportunities
+      and preserve examples where the appropriate choice was a break, a response, or stopping rather than
+      persistence.
+
+
+      Examples: Supportive: The user noticed the urge to open a feed before acting on both occasions.
+      One time they finished a paragraph; the other they deliberately took a needed break. Both choices
+      had an endorsed reason.
+
+
+      Mixed: The first switch was automatic and noticed afterward. During the second opportunity the pause
+      preceded a deliberate choice. That supports one observed use of the interval, not two successful
+      pauses or general impulse control.
+
+
+      Contradictory: The user delayed an essential response to preserve a no-switching rule. The rule
+      reduced appropriate choice, so they removed that application rather than calling it discipline.
+
+
+      Inconclusive: No natural urge appeared during either planned window. Writing possible responses
+      rehearsed the method but did not demonstrate an actual impulse-choice interval.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -218,9 +308,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0803_a3_same_context_compared
-        - c0803_a3_mixed_or_null_result_allowed
-        - c0803_a3_target_evidence_reviewed
+        - both_opportunities_were_compared_with_their_actual_sequence_intact
+        - the_review_distinguished_deliberate_choice_from_mere_suppression
+        - one_next_cue_and_one_legitimate_exception_were_specified
+        - unobserved_opportunities_and_untested_transfer_contexts_were_not_claimed_as_success
       - measurement_id: c0803_a3_boundary
         kind: boolean
         role: supporting
@@ -240,16 +331,21 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Impulse control; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Impulse control; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Use a visual cue, a short spoken phrase, or an agreed nonjudgmental reminder. A pause can be shorter
+      than thirty seconds; the number is a practice default, not a treatment dose. Do not delay food,
+      water, medication, sleep, toileting, safety responses, or withdrawal care. Never test consent by
+      provoking an intimate situation. Use a neutral context or defer when urges involve dangerous behavior
+      or distress beyond an ordinary educational practice.
     cultural_context:
     - Adapt the expression of Impulse control to direct or indirect communication, collective or individual
       decision structures, local norms, faith or secular commitments, and role obligations while preserving
       consent and dignity.
     resource_variants:
-    - When a real Impulse control opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use a visual cue, a short spoken phrase, or an agreed nonjudgmental reminder. A pause can be shorter
+      than thirty seconds; the number is a practice default, not a treatment dose. Do not delay food,
+      water, medication, sleep, toileting, safety responses, or withdrawal care. Never test consent by
+      provoking an intimate situation. Use a neutral context or defer when urges involve dangerous behavior
+      or distress beyond an ordinary educational practice.
   pause_conditions:
   - Pause Impulse control when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -279,10 +375,8 @@ evidence_and_scoring:
   - c0803_a3_boundary
   - c0803_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Impulse control action exceeded consent, authority, privacy, qualification, role, burden, or safety
-    boundaries.
-  - The evidence contradicted the intended Impulse control criterion, depended on coercion or hidden private
-    content, or could not distinguish the protocol from contextual change.
+  - The user delayed an essential response to preserve a no-switching rule. The rule reduced appropriate
+    choice, so they removed that application rather than calling it discipline.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Impulse control explicitly; support can enable access and never reduces dignity or silently changes
     the typed value.
@@ -292,14 +386,25 @@ evidence_and_scoring:
     are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Impulse control rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can resist or redirect a strong impulse for a reason consciously endorsed.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Impulse control requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate the urge from the decision it suggests. Observed checks: A naturally
+    occurring urge and its suggested action were distinguished; An endorsed reason or legitimate changed
+    need was named; Whether the pause occurred before or after action was recorded honestly; The actual
+    chosen or automatic behavior was recorded without a character verdict. Action 2: Try the choice interval
+    at another real opportunity. Observed checks: A second naturally occurring opportunity was attempted;
+    At least two appropriate options were considered before the recorded choice when possible; The selected
+    action was actually carried out or the automatic action was acknowledged; Urgent needs, consent, supports,
+    and safety were not overridden by the delay rule. Action 3: Review freedom of choice rather than a
+    resistance streak. Observed checks: Both opportunities were compared with their actual sequence intact;
+    The review distinguished deliberate choice from mere suppression; One next cue and one legitimate
+    exception were specified; Unobserved opportunities and untested transfer contexts were not claimed
+    as success.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. No natural urge appeared during either planned window.
+    Writing possible responses rehearsed the method but did not demonstrate an actual impulse-choice interval.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Impulse
     control contribution under typed evaluation; protocol performance remains distinct and is never counted
     twice.
@@ -308,9 +413,8 @@ evidence_and_scoring:
   - L08
   - L09
   - L10
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Impulse control evidence.
@@ -318,10 +422,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded impulse control context action was attempted or explicitly deferred.
-  - The make one reversible impulse control redesign action was attempted or explicitly deferred.
-  - The compare the impulse control context after the change action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Separate the urge from the decision it suggests. Observed checks: A naturally occurring
+    urge and its suggested action were distinguished; An endorsed reason or legitimate changed need was
+    named; Whether the pause occurred before or after action was recorded honestly; The actual chosen
+    or automatic behavior was recorded without a character verdict.'
+  - 'Action 2: Try the choice interval at another real opportunity. Observed checks: A second naturally
+    occurring opportunity was attempted; At least two appropriate options were considered before the recorded
+    choice when possible; The selected action was actually carried out or the automatic action was acknowledged;
+    Urgent needs, consent, supports, and safety were not overridden by the delay rule.'
+  - 'Action 3: Review freedom of choice rather than a resistance streak. Observed checks: Both opportunities
+    were compared with their actual sequence intact; The review distinguished deliberate choice from mere
+    suppression; One next cue and one legitimate exception were specified; Unobserved opportunities and
+    untested transfer contexts were not claimed as success.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -330,54 +445,235 @@ completion_and_review:
     - c0803_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Impulse control only when the initial context remained safe,
-    the evidence criteria were usable, burden was acceptable, and a new context can be named without assuming
-    transfer.
-  transfer_limit: Three bounded actions do not establish Impulse control across roles, cultures, relationships,
-    seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: At which point did awareness arrive, and did the interval enable a choice you
+    could explain? Keep one useful cue without imposing it everywhere. Review after two further natural
+    opportunities and preserve examples where the appropriate choice was a break, a response, or stopping
+    rather than persistence.
+  transfer_limit: Speech, spending, eating, sex, anger, quitting, and novelty are transfer contexts for
+    deliberate choice, not mandatory exposures. This small exercise directly rehearses the choice interval
+    using optional novelty or harmless speech; it does not establish safe financial, sexual, medical,
+    or conflict decisions. Bodily needs, consent, a required safety response, and a reasoned decision
+    to stop are not impulses that must be defeated.
   reflection:
-    before: What does Impulse control require in this exact context, what remains outside my role or authority,
-      and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Impulse control criterion is present, absent, mixed, or unknown, and are
-      consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can resist or redirect a strong impulse for a reason consciously
-      endorsed.', what contradiction or missing context matters most, and should this Impulse control
-      design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Recognize a naturally occurring urge, create
+      a brief safe decision interval, and choose an action for a reason you endorse. The exercise distinguishes
+      a deliberate yes, no, delay, or alternative from automatic action; resisting every impulse is not
+      the goal.'
+    during: Which checks have actually been observed? The first switch was automatic and noticed afterward.
+      During the second opportunity the pause preceded a deliberate choice. That supports one observed
+      use of the interval, not two successful pauses or general impulse control.
+    after: At which point did awareness arrive, and did the interval enable a choice you could explain?
+      Keep one useful cue without imposing it everywhere. Review after two further natural opportunities
+      and preserve examples where the appropriate choice was a break, a response, or stopping rather than
+      persistence.
   review_guidance:
     repeat: Repeat the same bounded Impulse control design only when the context and burden remain appropriate.
-    adapt: Change the Impulse control medium, scope, support, timing, criteria, or context while preserving
-      provenance and the narrower evidence claim.
+    adapt: Use a visual cue, a short spoken phrase, or an agreed nonjudgmental reminder. A pause can be
+      shorter than thirty seconds; the number is a practice default, not a treatment dose. Do not delay
+      food, water, medication, sleep, toileting, safety responses, or withdrawal care. Never test consent
+      by provoking an intimate situation. Use a neutral context or defer when urges involve dangerous
+      behavior or distress beyond an ordinary educational practice.
     stop: Stop Impulse control when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Impulse control questions beyond this
-      educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Impulse control criteria were observed with provenance and no adverse boundary
-      signal in the selected context.
-    mixed: Some Impulse control criteria were observed while burden, support, contextual change, or a
-      contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Impulse control criterion, introduced harm
-      or coercion, or showed the design was not workable.
-    inconclusive: The Impulse control action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: The user noticed the urge to open a feed before acting on both occasions. One time they
+      finished a paragraph; the other they deliberately took a needed break. Both choices had an endorsed
+      reason.
+    mixed: The first switch was automatic and noticed afterward. During the second opportunity the pause
+      preceded a deliberate choice. That supports one observed use of the interval, not two successful
+      pauses or general impulse control.
+    contradictory: The user delayed an essential response to preserve a no-switching rule. The rule reduced
+      appropriate choice, so they removed that application rather than calling it discipline.
+    inconclusive: No natural urge appeared during either planned window. Writing possible responses rehearsed
+      the method but did not demonstrate an actual impulse-choice interval.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Impulse control.
+    context_heading: Insert One Deliberate Choice Before an Impulse
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Impulse control.
   check_in_labels:
-    c0803_a1_primary: The bounded Impulse control criterion for action 1 was observed
+    c0803_a1_primary: 'Observed checks: separate the urge from the decision it suggests'
     c0803_a1_boundary: Action 1 stayed inside its stated Impulse control boundary
     c0803_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0803_a2_primary: The bounded Impulse control criterion for action 2 was observed
+    c0803_a2_primary: 'Observed checks: try the choice interval at another real opportunity'
     c0803_a2_boundary: Action 2 stayed inside its stated Impulse control boundary
     c0803_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0803_a3_primary: The bounded Impulse control criterion for action 3 was observed
+    c0803_a3_primary: 'Observed checks: review freedom of choice rather than a resistance streak'
     c0803_a3_boundary: Action 3 stayed inside its stated Impulse control boundary
     c0803_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Impulse control practice,
-    including support, contradiction, defer, no result, or harm.
+  completion_copy: At which point did awareness arrive, and did the interval enable a choice you could
+    explain? Keep one useful cue without imposing it everywhere. Review after two further natural opportunities
+    and preserve examples where the appropriate choice was a break, a response, or stopping rather than
+    persistence. Completion is not mastery.
+  plain_language_evidence: The user noticed the urge to open a feed before acting on both occasions. One
+    time they finished a paragraph; the other they deliberately took a needed break. Both choices had
+    an endorsed reason.
   display_order: 100
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '08.03'
+  title: 08.03 — Impulse control
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [NIMH — Caring for Your Mental Health](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health)
+
+      - [988 Suicide & Crisis Lifeline — What to Expect](https://988lifeline.org/get-help/what-to-expect/)
+
+      - [NHS Every Mind Matters — Staying on top of things](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/staying-on-top-of-things/)
+
+      - [NCCIH — Meditation and Mindfulness: Effectiveness and Safety](https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety)
+
+      - [NHS Every Mind Matters — Reframing unhelpful thoughts](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/reframing-unhelpful-thoughts/)
+
+      - [NHS Every Mind Matters — Tackling your to-do list](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-to-do-list/)
+
+      - [University of Edinburgh — What? So what? Now what?](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence. Save the initial work in the [guide](?)
+      before reading.
+
+
+      At the first opportunity Ellis notices the reach, waits twenty seconds, sends the correct event
+      details and then takes the planned break. The novelty tab is not opened during the message task.
+
+
+      At the second opportunity Ellis has already opened a different optional tab before noticing the
+      urge. Ellis closes it and returns to the notice, then sends the answer. This is a later redirection,
+      not a second prevented opening. One pre-action interval and one post-action return occurred. No
+      change in urge intensity or general control is supplied.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Give a choice enough room to become a choice
+
+
+      An impulse is an urge toward an action; it is not the action itself or a command you must obey.
+      A short interval can make an endorsed reason available. Choosing yes, no, later or a needed break
+      can all be deliberate. The target is a reason you can stand behind, not suppression of every spontaneous
+      response.
+
+
+      Over seven days, use two naturally occurring, low-stakes opportunities. Allow up to thirty seconds
+      only when a delay is safe. The NHS guidance on checking interpretations [S05](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/reframing-unhelpful-thoughts/)
+      supports distinguishing a thought from a fact; this choice interval is original and carries no treatment
+      claim. Do not manufacture urges or delay food, sleep, medication, care or an urgent response. Sexual,
+      financial, addictive or dangerous impulses need appropriate safeguards and support beyond this harmless
+      rehearsal.
+
+
+      ### A novelty urge with a defined stopping point
+
+
+      Fictional Ellis is reading a three-line event notice when a novelty tab attracts attention. The
+      complete notice reads: “The drawing circle meets Saturday at 14:00. Bring ordinary paper if available;
+      spare paper is provided. Register by Friday using the usual group channel.” Ellis wants to tell
+      a willing friend the time and materials before taking a planned break. No actual registration or
+      personal details are needed.
+
+
+      The first cue is reaching toward a tab titled “Five surprising desk objects.” The urged action is
+      opening it immediately. The endorsed reason for a short delay is to finish the two requested facts
+      so the friend has a usable answer. Ellis can say privately, “I want to open it; first I will send
+      the time and paper information.” A worked answer is “Saturday at 14:00; bring paper if you have
+      it, and spare paper is available.” Choosing the tab after the answer would not automatically be
+      a failure.
+
+
+      1. Write a compact cue–urge–reason–choice record. Rehearse the complete notice first. In a natural
+      attempt, notice the urge, take a safe interval of up to thirty seconds, identify the reason and
+      choose. Record what actually happened rather than how strong your character seemed.
+
+      2. At the second suitable opportunity, use the same distinction. If the automatic action happened
+      before you noticed it, record late noticing. You can still redirect next, but cannot claim the earlier
+      action was prevented. Save your initial plan before the [two-opportunity record](?resource=file-later-packet-md).
+
+      3. Review both sequences: did a choice interval occur before action, what reason mattered, and what
+      response followed? Compare the actual response with the purpose. An absent urge means no opportunity,
+      not a successful resistance count.
+
+
+      For support, use fiction or a silent cue word; no timer or bodily monitoring is required. For a
+      harder case, an urgent message arrives during the interval: answer the urgent need without finishing
+      the pause. Other domains such as speech, spending, eating, sex, anger and quitting are part of the
+      competency''s breadth, but this lesson does not license provoking or self-treating those risks.
+      A later natural transfer should preserve consent and essential needs. Two small cases cannot establish
+      general impulse control.
+
+
+      ### Use the result at its proper scale
+
+
+      Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not
+      diagnose, establish mastery or score human dignity. Actual situations require appropriate access,
+      consent, authority and support.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt these before opening [answers](?check=practice-answers).
+
+
+      1. A person notices only after opening the tab, then closes it. Was the opening prevented?
+
+
+      2. The safe interval ends with choosing a planned rest. Is every yes to an urge a failure?
+
+
+      3. An urgent need appears during the thirty-second interval. Must the interval be completed?
+
+
+      ### Changed-case attempt
+
+
+      Save your response before opening the matching answer. This is a new fictional case.
+
+
+      At 16:00 you see a reminder to practice drawing for ten minutes, but a freely accepted childcare
+      pickup leaves at 16:05. The sketch materials are ready. Choose a feasible response and a new cue;
+      explain why obeying the reminder immediately is not necessarily agency.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Compare with your attempted [checks](?attempt=practice-checks); these are learning aids, not
+      a learner score.
+
+
+      1. No. Record the automatic opening and subsequent redirection separately. Useful later action cannot
+      rewrite the earlier sequence.
+
+
+      2. No. Assess whether the choice respects the person''s endorsed reason and genuine needs. Deliberate
+      rest can fit the purpose; restraint is not the only legitimate outcome.
+
+
+      3. No. Address the urgent need. Thirty seconds is an upper bound for this safe rehearsal, not a
+      duty to delay care or safety.
+
+
+      ### Changed-case answer
+
+
+      The real obligation constrains this opportunity. Close or safely leave the materials and keep the
+      pickup; choose a genuinely available later cue, such as after the agreed handoff, without inventing
+      its time. Agency includes revising a plan for reasons, not mechanically obeying every cue. A rescheduled
+      intention is not completed drawing.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

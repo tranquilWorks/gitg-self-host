@@ -21,6 +21,11 @@ def validate_instructional_content(document: dict, competency_id: str) -> None:
         raise ValueError("Instructional content belongs to a different competency.")
     sections = {row["id"]: row for row in document["sections"]}
     checks = {row["id"]: row for row in document["checks"]}
+    resources = {row["id"]: row for row in document.get("resources", [])}
+    if len(resources) != len(document.get("resources", [])) or set(resources) & (
+        set(sections) | set(checks)
+    ):
+        raise ValueError("Instructional resource IDs must be unique and distinct.")
     if len(sections) != len(document["sections"]) or len(checks) != len(document["checks"]):
         raise ValueError("Instructional section/check IDs must be unique.")
     if set(sections) & set(checks):
@@ -45,16 +50,28 @@ def content_fingerprint(document: dict) -> str:
 
 
 def learner_projection(
-    document: dict, competency_id: str, *, attempt: str | None = None, check: str | None = None
+    document: dict,
+    competency_id: str,
+    *,
+    attempt: str | None = None,
+    check: str | None = None,
+    resource: str | None = None,
 ) -> dict:
     """Never return unrevealed key text or an unrequested evaluation prompt."""
     validate_instructional_content(document, competency_id)
-    if attempt and check:
-        raise ValueError("Request an attempt or a check, not both.")
+    if sum(bool(value) for value in (attempt, check, resource)) > 1:
+        raise ValueError("Request only one attempt, check or resource.")
     sections = document["sections"]
     requested = None
     revealed = None
-    if check:
+    selected_resource = None
+    if resource:
+        selected_resource = next(
+            (r for r in document.get("resources", []) if r["id"] == resource), None
+        )
+        if selected_resource is None:
+            raise ValueError("Unknown instructional resource.")
+    elif check:
         requested = next((s for s in sections if s.get("check_id") == check), None)
         revealed = next((c for c in document["checks"] if c["id"] == check), None)
         if requested is None or revealed is None:
@@ -66,7 +83,9 @@ def learner_projection(
         if requested is None:
             raise ValueError("Unknown instructional prompt.")
     visible, prompts = [], []
-    if requested:
+    if selected_resource:
+        visible = [dict(selected_resource, kind="material")]
+    elif requested:
         allowed = set(requested.get("references", [])) | {requested["id"]}
         visible = [s for s in sections if s["id"] in allowed]
     else:
@@ -84,6 +103,11 @@ def learner_projection(
             "prompts": prompts,
             "check": revealed,
             "attempt_id": requested["id"] if requested else None,
+            "body_format": document.get("body_format", "plain"),
+            "resource_id": resource,
+            "resources": [
+                {"id": r["id"], "title": r["title"]} for r in document.get("resources", [])
+            ],
         }
     )
 
@@ -96,6 +120,7 @@ def render_text(projection: dict) -> str:
         f"Open the prompt in the practice guide: {prompt['title']}"
         for prompt in projection["prompts"]
     )
+    lines.extend(f"Open in the practice guide: {r['title']}" for r in projection["resources"])
     if projection["check"]:
         key = projection["check"]
         lines.extend(["Check your attempt: " + key["title"], "", key["body"], ""])

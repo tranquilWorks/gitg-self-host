@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1501-FIRST-AID-CPR-AND-EMERGENCY-RESPONSE-01
 slug: c1501-first-aid-cpr-and-emergency-response-practice
-name: Bounded First aid, CPR, and emergency response Practice
+name: Prepare an emergency handoff and complete a qualified first-aid skills check
 parent_competency_id: '15.01'
 domain_id: '15'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 15.01
-      (First aid, CPR, and emergency response); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 15.01; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice First aid, CPR, and emergency response through a non-confrontational safety preparation
-    bounded by the canonical scope: Learn bleeding control, CPR/AED, choking, shock, burns, poisoning,
-    and emergency communication.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Completes recognized
-    training or demonstrates procedures accurately. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Recognize the boundary between summoning help, giving accurate emergency information and performing
+    first aid that requires current instruction and observed practice.
+  why_recommended: Recognize the boundary between summoning help, giving accurate emergency information
+    and performing first aid that requires current instruction and observed practice.
   claims:
-  - statement: Using the canonical scope and evidence target for First aid, CPR, and emergency response
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Recognize the boundary between summoning help, giving accurate emergency information and
+      performing first aid that requires current instruction and observed practice.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded First aid, CPR, and emergency response practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record First aid, CPR, and emergency response as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited First aid, CPR, and
-    emergency response context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to First aid,
-    CPR, and emergency response; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use an accessible course, interpreter, communication card or emergency text
+    service only where that service is verified locally. Physical limitations may change the safe role
+    you can perform; accurate calling and delegation remain useful but do not substitute for an unperformed
+    skill assessment. In an actual emergency, use local emergency services and dispatcher guidance immediately.
+  opportunity_considerations: Use paper, an unconnected phone or a clearly marked practice script, and
+    your local emergency-service information. The fictional case is an adult who collapses at a community
+    hall. No real person acts unconscious, no emergency number is dialed for practice, and no physical
+    treatment is rehearsed on a person.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of First aid, CPR, and emergency response.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use paper, an unconnected phone or a clearly marked practice script, and your local emergency-service
+    information. The fictional case is an adult who collapses at a community hall. No real person acts
+    unconscious, no emergency number is dialed for practice, and no physical treatment is rehearsed on
+    a person.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for First aid, CPR, and emergency response
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use an accessible course, interpreter, communication card or emergency text service only where that
+    service is verified locally. Physical limitations may change the safe role you can perform; accurate
+    calling and delegation remain useful but do not substitute for an unperformed skill assessment. In
+    an actual emergency, use local emergency services and dispatcher guidance immediately.
   role_conditions:
   - This competency is context contingent; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +83,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded First aid, CPR, and emergency response actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for First aid, CPR, and emergency response; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for First aid,
-    CPR, and emergency response. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three First aid, CPR, and emergency response
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use paper, an unconnected phone or a clearly marked practice script, and your local emergency-service
+    information. The fictional case is an adult who collapses at a community hall. No real person acts
+    unconscious, no emergency number is dialed for practice, and no physical treatment is rehearsed on
+    a person. Goal: Recognize the boundary between summoning help, giving accurate emergency information
+    and performing first aid that requires current instruction and observed practice. Scope: This combines
+    a harmless communication rehearsal with a qualified training step. Reading, booking a course or rehearsing
+    a call does not establish CPR, AED, choking or bleeding-control competence. Time and effort: Twenty
+    minutes for the handoff card, ten minutes for two spoken rehearsals, and the time required by an appropriate
+    recognized practical course or refresher. Adaptation: Use an accessible course, interpreter, communication
+    card or emergency text service only where that service is verified locally. Physical limitations may
+    change the safe role you can perform; accurate calling and delegation remain useful but do not substitute
+    for an unperformed skill assessment. In an actual emergency, use local emergency services and dispatcher
+    guidance immediately. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use an accessible course, interpreter, communication card or emergency text service
+    only where that service is verified locally. Physical limitations may change the safe role you can
+    perform; accurate calling and delegation remain useful but do not substitute for an unperformed skill
+    assessment. In an actual emergency, use local emergency services and dispatcher guidance immediately.
+  expected_burden: Twenty minutes for the handoff card, ten minutes for two spoken rehearsals, and the
+    time required by an appropriate recognized practical course or refresher.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the First aid, CPR, and emergency response protocol to rank worth, coerce participation, demand
@@ -101,19 +113,26 @@ intervention:
   - Treating a completed First aid, CPR, and emergency response action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any First aid, CPR, and emergency response situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Hands-on safety, medical, aquatic, survival, and defensive skills require qualified instruction and
-    compliance with local law.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use an accessible
+    course, interpreter, communication card or emergency text service only where that service is verified
+    locally. Physical limitations may change the safe role you can perform; accurate calling and delegation
+    remain useful but do not substitute for an unperformed skill assessment. In an actual emergency, use
+    local emergency services and dispatcher guidance immediately.
   actions:
   - stable_id: PRACTICE-COMP-1501-FIRST-AID-CPR-AND-EMERGENCY-RESPONSE-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for First aid, CPR, and emergency response
-    instructions: 'Define one planning-only question for First aid, CPR, and emergency response, the hazards
-      that must not be rehearsed, and the local qualified or emergency authority that supersedes this
-      source-only protocol. Do not create, approach, or simulate danger: Learn bleeding control, CPR/AED,
-      choking, shock, burns, poisoning, and emergency communication.'
+    title: Build a location-first emergency information card
+    instructions: 'Verify the emergency number for your actual location through its official service.
+      On a private card put the address or usable location description, entrance instructions, callback
+      method and known access barriers. For the hall case, rehearse reporting where you are, what happened,
+      whether the scene appears safe and what you actually observe about responsiveness and breathing.
+      Do not invent a diagnosis or delay a real emergency call to finish the card.
+
+
+      Observation checks: The local emergency route comes from an official source; Location entrance and
+      callback information are usable; Observable condition is separated from an assumed diagnosis; No
+      real emergency service is contacted for rehearsal. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +154,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1501_a1_planning_scope_bounded
-        - c1501_a1_hazards_excluded
-        - c1501_a1_authority_identified
+        - the_local_emergency_route_comes_from_an_official_source
+        - location_entrance_and_callback_information_are_usable
+        - observable_condition_is_separated_from_an_assumed_diagnosis
+        - no_real_emergency_service_is_contacted_for_rehearsal
       - measurement_id: c1501_a1_boundary
         kind: boolean
         role: supporting
@@ -154,11 +174,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1501-FIRST-AID-CPR-AND-EMERGENCY-RESPONSE-01-A2
     sequence: 2
-    title: Prepare one safe First aid, CPR, and emergency response support step
-    instructions: Create one non-confrontational First aid, CPR, and emergency response step such as locating
-      official guidance, checking accessible contact information, assembling a category-level checklist,
-      or scheduling qualified instruction. Do not test emergency response, weapons, rescue, medical treatment,
-      confrontation, evasion, or hazardous equipment.
+    title: Rehearse communication and delegation without simulated treatment
+    instructions: 'Read the collapse case aloud and speak a concise location-first report to an empty
+      room or a willing practice partner. Rehearse asking a specific bystander to summon help or locate
+      an AED while you follow actual dispatcher instructions in a real event. Repeat with the caller unable
+      to use the main entrance. Identify the differences between safe scene assessment, consent where
+      possible, staying within training and acting under emergency guidance. Do not improvise compressions,
+      choking maneuvers, tourniquet use or rescue breaths.
+
+
+      Observation checks: Two clearly labeled communication rehearsals occur; A named task is delegated
+      rather than shouted at an unspecified crowd; The access complication changes the handoff; Physical
+      intervention is reserved for current instruction and genuine emergencies. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -180,9 +208,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1501_a2_step_is_preparatory
-        - c1501_a2_official_or_qualified_path_used
-        - c1501_a2_no_hazard_rehearsed
+        - two_clearly_labeled_communication_rehearsals_occur
+        - a_named_task_is_delegated_rather_than_shouted_at_an_unspecified_crowd
+        - the_access_complication_changes_the_handoff
+        - physical_intervention_is_reserved_for_current_instruction_and_genuine_emergencies
       - measurement_id: c1501_a2_boundary
         kind: boolean
         role: supporting
@@ -199,10 +228,40 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1501-FIRST-AID-CPR-AND-EMERGENCY-RESPONSE-01-A3
     sequence: 3
-    title: Review the First aid, CPR, and emergency response plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Completes recognized training or demonstrates procedures accurately.'
+    title: Obtain an observed skills assessment and record its limits
+    instructions: 'Select a recognized local course or refresher appropriate to your role. Ask how it
+      covers CPR and AED use, choking, severe bleeding, shock, burns, poisoning and emergency communication,
+      and whether practical skills are assessed by a qualified instructor. Complete the relevant supervised
+      skills work on approved training equipment, or record this action as pending until it happens. Keep
+      only course, date, assessed topics, unresolved gaps and renewal guidance; a certificate or online
+      module must not be represented as proof of every listed skill.
+
+
+      Observation checks: Course scope and practical assessment are verified before relying on it; Actual
+      supervised performance is distinguished from enrollment or online study; Assessed topics and unresolved
+      skill gaps are recorded accurately; The next refresher follows the provider and role requirements.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.
+
+
+      Final review: Which parts of the response have you actually rehearsed or demonstrated, and which
+      still require instruction rather than confidence?
+
+
+      Examples: Supportive: The caller gave a clear location-first report and later completed an instructor-observed
+      CPR/AED session while marking poisoning and burn care as separate learning gaps.
+
+
+      Mixed: The handoff rehearsal improved but the selected online course did not include hands-on assessment,
+      so physical competence remained unverified.
+
+
+      Contradictory: A person practiced forceful treatment on a friend or delayed a real emergency call
+      while trying to finish the worksheet.
+
+
+      Inconclusive: A course was bookmarked and a list of emergencies copied without either a communication
+      rehearsal or an observed skills check.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -218,15 +277,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1501_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1501_a3_stop_conditions_present
-        - c1501_a3_escalation_path_present
-        - c1501_a3_unknowns_retained
+        - course_scope_and_practical_assessment_are_verified_before_relying_on_it
+        - actual_supervised_performance_is_distinguished_from_enrollment_or_online_study
+        - assessed_topics_and_unresolved_skill_gaps_are_recorded_accurately
+        - the_next_refresher_follows_the_provider_and_role_requirements
       - measurement_id: c1501_a3_boundary
         kind: boolean
         role: supporting
@@ -247,17 +307,19 @@ intervention:
       First aid, CPR, and emergency response; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for First aid, CPR, and emergency response; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use an accessible course, interpreter, communication card or emergency text service only where that
+      service is verified locally. Physical limitations may change the safe role you can perform; accurate
+      calling and delegation remain useful but do not substitute for an unperformed skill assessment.
+      In an actual emergency, use local emergency services and dispatcher guidance immediately.
     cultural_context:
     - Adapt the expression of First aid, CPR, and emergency response to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real First aid, CPR, and emergency response opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use an accessible course, interpreter, communication card or emergency text service only where that
+      service is verified locally. Physical limitations may change the safe role you can perform; accurate
+      calling and delegation remain useful but do not substitute for an unperformed skill assessment.
+      In an actual emergency, use local emergency services and dispatcher guidance immediately.
   pause_conditions:
   - Pause First aid, CPR, and emergency response when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -289,10 +351,8 @@ evidence_and_scoring:
   - c1501_a3_boundary
   - c1501_a3_adverse
   adverse_or_contradictory_indicators:
-  - The First aid, CPR, and emergency response action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended First aid, CPR, and emergency response criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A person practiced forceful treatment on a friend or delayed a real emergency call while trying to
+    finish the worksheet.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for First aid, CPR, and emergency response explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -303,14 +363,24 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated First aid, CPR, and emergency response rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Completes recognized training or demonstrates procedures accurately.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for First aid, CPR, and emergency response requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Build a location-first emergency information card. Observed checks: The
+    local emergency route comes from an official source; Location entrance and callback information are
+    usable; Observable condition is separated from an assumed diagnosis; No real emergency service is
+    contacted for rehearsal. Action 2: Rehearse communication and delegation without simulated treatment.
+    Observed checks: Two clearly labeled communication rehearsals occur; A named task is delegated rather
+    than shouted at an unspecified crowd; The access complication changes the handoff; Physical intervention
+    is reserved for current instruction and genuine emergencies. Action 3: Obtain an observed skills assessment
+    and record its limits. Observed checks: Course scope and practical assessment are verified before
+    relying on it; Actual supervised performance is distinguished from enrollment or online study; Assessed
+    topics and unresolved skill gaps are recorded accurately; The next refresher follows the provider
+    and role requirements.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A course was bookmarked and a list of emergencies copied
+    without either a communication rehearsal or an observed skills check.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct First
     aid, CPR, and emergency response contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -319,9 +389,8 @@ evidence_and_scoring:
   - L17
   - L20
   - L28
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse First aid, CPR, and emergency response evidence.
@@ -329,12 +398,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for first aid, cpr, and emergency response action was attempted
-    or explicitly deferred.
-  - The prepare one safe first aid, cpr, and emergency response support step action was attempted or explicitly
-    deferred.
-  - The review the first aid, cpr, and emergency response plan against stop conditions action preserved
-    a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Build a location-first emergency information card. Observed checks: The local emergency
+    route comes from an official source; Location entrance and callback information are usable; Observable
+    condition is separated from an assumed diagnosis; No real emergency service is contacted for rehearsal.'
+  - 'Action 2: Rehearse communication and delegation without simulated treatment. Observed checks: Two
+    clearly labeled communication rehearsals occur; A named task is delegated rather than shouted at an
+    unspecified crowd; The access complication changes the handoff; Physical intervention is reserved
+    for current instruction and genuine emergencies.'
+  - 'Action 3: Obtain an observed skills assessment and record its limits. Observed checks: Course scope
+    and practical assessment are verified before relying on it; Actual supervised performance is distinguished
+    from enrollment or online study; Assessed topics and unresolved skill gaps are recorded accurately;
+    The next refresher follows the provider and role requirements.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -343,58 +420,369 @@ completion_and_review:
     - c1501_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden First aid, CPR, and emergency response only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish First aid, CPR, and emergency response across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which parts of the response have you actually rehearsed or demonstrated, and which
+    still require instruction rather than confidence?
+  transfer_limit: This combines a harmless communication rehearsal with a qualified training step. Reading,
+    booking a course or rehearsing a call does not establish CPR, AED, choking or bleeding-control competence.
   reflection:
-    before: What does First aid, CPR, and emergency response require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable First aid, CPR, and emergency response criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Completes recognized training or demonstrates procedures accurately.',
-      what contradiction or missing context matters most, and should this First aid, CPR, and emergency
-      response design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Recognize the boundary between summoning help,
+      giving accurate emergency information and performing first aid that requires current instruction
+      and observed practice.'
+    during: Which checks have actually been observed? The handoff rehearsal improved but the selected
+      online course did not include hands-on assessment, so physical competence remained unverified.
+    after: Which parts of the response have you actually rehearsed or demonstrated, and which still require
+      instruction rather than confidence?
   review_guidance:
     repeat: Repeat the same bounded First aid, CPR, and emergency response design only when the context
       and burden remain appropriate.
-    adapt: Change the First aid, CPR, and emergency response medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use an accessible course, interpreter, communication card or emergency text service only where
+      that service is verified locally. Physical limitations may change the safe role you can perform;
+      accurate calling and delegation remain useful but do not substitute for an unperformed skill assessment.
+      In an actual emergency, use local emergency services and dispatcher guidance immediately.
     stop: Stop First aid, CPR, and emergency response when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for First aid, CPR, and emergency response
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded First aid, CPR, and emergency response criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some First aid, CPR, and emergency response criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended First aid, CPR, and emergency response criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The First aid, CPR, and emergency response action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The caller gave a clear location-first report and later completed an instructor-observed
+      CPR/AED session while marking poisoning and burn care as separate learning gaps.
+    mixed: The handoff rehearsal improved but the selected online course did not include hands-on assessment,
+      so physical competence remained unverified.
+    contradictory: A person practiced forceful treatment on a friend or delayed a real emergency call
+      while trying to finish the worksheet.
+    inconclusive: A course was bookmarked and a list of emergencies copied without either a communication
+      rehearsal or an observed skills check.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for First aid, CPR, and emergency response.
+    context_heading: Prepare an emergency handoff and complete a qualified first-aid skills check
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for First aid,
       CPR, and emergency response.
   check_in_labels:
-    c1501_a1_primary: The bounded First aid, CPR, and emergency response criterion for action 1 was observed
+    c1501_a1_primary: 'Observed checks: build a location-first emergency information card'
     c1501_a1_boundary: Action 1 stayed inside its stated First aid, CPR, and emergency response boundary
     c1501_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1501_a2_primary: The bounded First aid, CPR, and emergency response criterion for action 2 was observed
+    c1501_a2_primary: 'Observed checks: rehearse communication and delegation without simulated treatment'
     c1501_a2_boundary: Action 2 stayed inside its stated First aid, CPR, and emergency response boundary
     c1501_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1501_a3_primary: The bounded First aid, CPR, and emergency response criterion for action 3 was observed
+    c1501_a3_primary: 'Observed checks: obtain an observed skills assessment and record its limits'
     c1501_a3_boundary: Action 3 stayed inside its stated First aid, CPR, and emergency response boundary
     c1501_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited First aid, CPR, and
-    emergency response practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which parts of the response have you actually rehearsed or demonstrated, and which
+    still require instruction rather than confidence? Completion is not mastery.
+  plain_language_evidence: The caller gave a clear location-first report and later completed an instructor-observed
+    CPR/AED session while marking poisoning and burn care as separate learning gaps.
   display_order: 190
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '15.01'
+  title: 15.01 — First aid, CPR, and emergency response
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [What To Do if You Were Scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [What To Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+
+      - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
+
+      - [AI 600-1: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+      - [Content Credentials explainer v2.4](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+
+      - [Improving college students’ fact-checking strategies through lateral reading instruction in a
+      general education civics course](https://link.springer.com/article/10.1186/s41235-021-00291-4)
+
+      - [Report adult cyber abuse](https://www.esafety.gov.au/key-topics/adult-cyber-abuse/report-adult-cyber-abuse)
+
+      - [What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+      - [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+      - [deed](https://creativecommons.org/licenses/by/4.0/)
+
+      - [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+      - [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+
+      - [BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+      - [MIT License](https://opensource.org/license/mit)
+
+      - [Backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+
+      - [User rights under the Digital Services Act](https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act)
+
+      - [Developing for Web Accessibility](https://www.w3.org/WAI/tips/developing/)
+
+      - [First Aid Online Classes](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+
+      - [Learn First Aid](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+
+      - [Adult cardiac arrest](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-cardiac-arrest)
+
+      - [adult/child choking](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking)
+
+      - [Life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+      - [Shock](https://www.redcross.org/take-a-class/resources/learn-first-aid/shock)
+
+      - [Burns](https://www.redcross.org/take-a-class/resources/learn-first-aid/burns)
+
+      - [Poison exposure](https://www.redcross.org/take-a-class/resources/learn-first-aid/poison-exposure)
+
+      - [Making an Emergency Plan](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+
+      - [Make a Plan](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+
+      - [Causes and prevention: overview](https://www.hse.gov.uk/slips/preventing-overview.htm)
+
+      - [A computational reward learning account of social media engagement](https://www.nature.com/articles/s41467-020-19607-x)
+
+      - [publisher correction](https://www.nature.com/articles/s41467-021-22067-6)
+
+      - [author-hosted abstract of Exposure to ideologically diverse news and opinion on Facebook](https://solomonmg.github.io/publications/bakshy-2015-exposure/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: '**Second handoff:** The east entrance is unavailable because of scheduled works. The hall''s
+      supplied response plan identifies the north entrance on Practice Lane, with level access directly
+      to the main room. Jo can meet responders there after the delegated AED task is reassigned to another
+      willing bystander, Ren. No AED retrieval is recorded yet. Update entrance and delegation without
+      changing the adult''s observed condition.
+
+
+      **Separate hazard branch:** A damaged electrical cable lies in water between you and the collapsed
+      person. You have not approached and cannot safely establish responsiveness or breathing. State the
+      hazard and unknown condition to emergency services in a real incident; do not touch the cable, water
+      or person through the hazard or improvise isolation. This branch replaces the original safe-approach
+      observations rather than combining them.
+
+
+      **Fictional course receipt:** Course B was attended September 10. An instructor observed adult CPR
+      and AED tasks and recorded them satisfactory. A communication role-play was completed with one access-direction
+      correction. Choking practice was interrupted before assessment and is marked not assessed. Course
+      C is booked for October 2 but has not occurred. No A completion is supplied.
+
+
+      Only two physical topics have a satisfactory observed assessment in this record: adult CPR and AED.
+      Communication has a completed role-play with the stated correction, not an invented blanket pass.
+      Choking, severe bleeding, shock, burns and poisoning remain without the planned assessment. The
+      October booking is not attendance. None of these fictional records is your certificate or clinical
+      performance.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Make the handoff usable and the training gap visible
+
+
+      Emergency response includes recognizing a possible emergency, summoning appropriate help, communicating
+      useful observations and giving care within current guidance and your ability. These are related
+      skills, but completing one does not demonstrate the others. A polished call script cannot establish
+      CPR technique; enrolling in a course does not establish attendance or a successful skills assessment.
+
+
+      Allow 35 minutes for the supplied communication and course-selection exercises, plus the separate
+      time required for appropriate qualified training. Use paper, an unconnected phone or an accessible
+      communication aid. Never dial an emergency number for practice, have someone pretend to be unconscious,
+      or perform compressions, choking maneuvers or other treatment on a healthy person. In a real emergency,
+      seek local emergency help immediately and follow dispatcher/AED guidance; do not delay action while
+      completing a worksheet or waiting to earn a certificate.
+
+
+      ### Know what the training topics actually concern
+
+
+      The [American Red Cross first-aid resources](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+      distinguish topics that should not be collapsed into a generic “first aid complete” label. The concepts
+      below orient your training questions; they are not a standalone procedure manual.
+
+
+      | Topic | Meaning and question for practical instruction |
+
+      | --- | --- |
+
+      | Severe bleeding | Ongoing major blood loss can be urgent. Learn recognition, protective measures
+      and appropriate bleeding control on approved equipment; specialized methods need suitable instruction.
+      |
+
+      | CPR | Supports circulation in cardiac arrest. An unresponsive adult who is not breathing normally
+      or is only gasping needs immediate emergency response; learn the current sequence and technique
+      for your role and age group. |
+
+      | AED | A defibrillator analyzes rhythm and gives prompts; learn safe pad placement, prompts and
+      coordination with CPR using a trainer. Merely knowing where a cabinet is does not demonstrate use.
+      |
+
+      | Choking | Airway obstruction differs from cardiac arrest, and response varies with the person''s
+      condition and age. Learn recognition and the appropriate supervised skills, including relevant adaptations.
+      |
+
+      | Shock | A dangerous failure of adequate circulation/oxygen delivery, not simply emotional surprise.
+      Learn recognition, emergency escalation and appropriate supportive care. |
+
+      | Burns | Heat, chemicals and electricity create different hazards. Learn scene safety, appropriate
+      first aid and escalation; do not improvise a single treatment for every burn. |
+
+      | Poisoning | Harm can follow swallowing, breathing, skin or other exposure. Use emergency/poison-service
+      guidance appropriate to location and severity; do not induce vomiting unless the poison specialist
+      specifically instructs it. |
+
+      | Communication | Give location, access, observed condition and changes; listen and answer the dispatcher.
+      Do not replace “not responding, only gasping” with an assumed diagnosis or “breathing fine.” |
+
+
+      Current professional topic links and limits are in [sources](?resource=sources). For local emergency
+      and poison-service numbers, use the actual jurisdiction''s official service information. No universal
+      number or text-service availability is assumed here.
+
+
+      Worked example: “Someone is ill at the club” leaves responders without a usable location or condition.
+      “Cedar Hall, 18 Practice Lane, east entrance, main room; one adult collapsed, is not responding
+      and is only gasping” supplies concrete facts in the fictional case. The latter is still a rehearsal,
+      not a real call or proof that care occurred.
+
+
+      ### Complete fictional collapse case
+
+
+      Cedar Hall is at **18 Practice Lane, Cedar Town**. This address is fictional. The ordinary response
+      entrance is the east door; the main room is directly inside. You observed one adult collapse. They
+      do not respond and are only gasping. There is no visible fire, traffic or electrical hazard in the
+      initial scene. A willing bystander, Jo, is beside you. An AED cabinet is marked at reception, but
+      nobody has fetched or used it. Your callback information would come from the actual device during
+      a real call; write “practice callback placeholder” here, not a made-up working number.
+
+
+      #### Action 1 — Prepare and speak the handoff
+
+
+      Write a short card with location, entrance, callback placeholder, number of affected people and
+      exact observed condition. Include “follow dispatcher questions; report changes.” Then speak the
+      report aloud, or communicate through your chosen accessible practice method. Record whether you
+      actually rehearsed and which facts you omitted on the first attempt.
+
+
+      Delegate a specific task in the rehearsal: “Jo, get the AED from reception and tell me when you
+      have it,” while the caller follows emergency guidance. In a real event, task assignment depends
+      on the situation and dispatcher; do not leave an unsafe scene or abandon necessary care to obey
+      a rigid worksheet sequence. Do not invent that the AED is present merely because someone was asked
+      to fetch it.
+
+
+      #### Action 2 — Repeat with a changed access route
+
+
+      Open [the later packet](?resource=file-later-packet-md) after saving the first report. Repeat using
+      its changed entrance facts. No physical treatment is acted out. If an observer helps, ask them to
+      identify omitted location/access/condition facts, not to certify clinical competence. If alone,
+      compare your written or spoken recall with the packet. Recording audio is optional and should contain
+      only fiction.
+
+
+      For the packet''s separate electrical-hazard branch, state that an unsafe approach ends the ordinary
+      rehearsal and that real responders need the hazard information. Do not enter a hazardous area to
+      collect better observations. “Unknown breathing” should remain unknown if it cannot safely be assessed.
+
+
+      #### Action 3 — Select training and audit actual scope
+
+
+      These are complete **invented course descriptions**, not purchasable recommendations:
+
+
+      | Course | Format and stated assessment |
+
+      | --- | --- |
+
+      | A | Two-hour online knowledge module covering all eight listed topics; no instructor-observed
+      physical skills |
+
+      | B | Three-hour supervised session on approved equipment: adult CPR, AED, adult choking and emergency
+      communication; no burns, poisoning, shock or bleeding-control assessment |
+
+      | C | Four-hour first-aid session: observed bleeding-control practice plus instructor-assessed shock,
+      burns, poisoning and communication scenarios; no CPR/AED/choking skills assessment |
+
+
+      Choose a route for the listed scope and identify any remaining age-group, role or accessibility
+      gaps. B plus C covers the described adult course content on paper; it does not prove that either
+      was attended or passed. [Red Cross''s online-course explanation](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+      explicitly distinguishes online learning from demonstrating proficiency to an instructor.
+
+
+      Use the later attendance record to make eight topic rows: `not yet learned | knowledge studied |
+      attended | assessed result | follow-up`. For actual training, verify the recognized provider, local/role
+      requirements, equipment, accessible participation, instructor observation and renewal guidance.
+      Record only what was actually demonstrated. A certificate''s title is not a substitute for its assessed
+      scope.
+
+
+      Attempt [fresh checks](?attempt=practice-checks), then [the key](?check=practice-answers). The default
+      completes communication practice and a training-gap audit; hands-on qualification remains pending
+      until real instruction and assessment occur.
+
+
+      ### Adapt and continue
+
+
+      Use a communication card, interpreter or locally verified accessible emergency route. Physical capacity
+      can change which role you perform; useful communication and delegation still matter. Do not describe
+      an unperformed skill as passed because an adaptation was planned. Harder route: choose training
+      for a setting with children and show why adult-only assessment is insufficient for that requirement.
+
+
+      For transfer, verify your local emergency route without making a test call, prepare a private location/access
+      card and arrange an appropriate recognized practical course or refresher if needed. Keep enrollment,
+      attendance and assessed outcomes separate. In a real emergency, immediate help and current guidance
+      take precedence over this learning sequence.
+
+
+      **Supportive:** Communication is rehearsed and actual assessed topics are recorded accurately. **Mixed:**
+      The handoff improves but physical skills remain unverified. **Contradictory:** Forceful practice
+      is performed on a healthy person or real help is delayed for the exercise. **Inconclusive:** A course
+      is bookmarked without rehearsal or observed skills evidence.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A person is unresponsive and only gasping. Is “breathing normally” an accurate handoff?
+      What should the real responder do about summoning help while learning materials remain unfinished?
+
+      2. A certificate says “online first aid completed” and records no observed skills. A CPR/AED session
+      is booked next week. Which physical skills can be recorded as demonstrated from those facts?
+
+      3. The main entrance is blocked, an alternative entrance is confirmed, and someone has been asked
+      to fetch an AED. What should change in the handoff, and may AED use be recorded as completed?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Report unresponsiveness and gasping accurately; these warrant immediate emergency response.
+      Contact local emergency services and follow dispatcher/AED guidance without waiting to finish this
+      exercise or obtain a certificate. The default practice still uses no real call or treatment on a
+      healthy person.
+
+      2. None is established as physically demonstrated. Online completion is knowledge-course evidence;
+      booking is a plan. Record the missing observed assessment and obtain suitable instruction. Do not
+      infer failure either: performance is unverified.
+
+      3. Give the confirmed usable entrance and meeting/access directions and keep the condition observations
+      current. A delegated AED task is not confirmed retrieval, application or use. Record each only when
+      actually known; do not fill missing care steps with assumptions.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

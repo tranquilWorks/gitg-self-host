@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1915-CAREGIVER-LIMITS-RESPITE-AND-SHARED-RESPONSIBILITY-01
 slug: c1915-caregiver-limits-respite-and-shared-responsibility-practice
-name: Bounded Caregiver limits, respite, and shared responsibility Practice
+name: Replace one exhausted-caregiver gap with a confirmed respite handoff
 parent_competency_id: '19.15'
 domain_id: '19'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 19.15
-      (Caregiver limits, respite, and shared responsibility); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 19.15; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Caregiver limits, respite, and shared responsibility through a qualified-support
-    preparation bounded by the canonical scope: Recognize burnout, resentment, role captivity, and the
-    need for support, respite, and distributed care.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Care remains safer
-    and more sustainable because limits and backup are explicit. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Make caregiver limits explicit and distribute one care responsibility safely enough that rest
+    does not depend on abandoning the person receiving care.
+  why_recommended: Make caregiver limits explicit and distribute one care responsibility safely enough
+    that rest does not depend on abandoning the person receiving care.
   claims:
-  - statement: Using the canonical scope and evidence target for Caregiver limits, respite, and shared
-      responsibility is a traceable product-design basis for a source-only draft protocol.
+  - statement: Make caregiver limits explicit and distribute one care responsibility safely enough that
+      rest does not depend on abandoning the person receiving care.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Caregiver limits, respite, and shared responsibility
     practice fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Caregiver limits, respite, and shared responsibility as not applicable,
     consciously unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity,
     or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Caregiver limits,
-    respite, and shared responsibility context, understand the source-only status, and stop without losing
-    safety, care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Caregiver
-    limits, respite, and shared responsibility; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Start with a smaller task, remote administrative support or a qualified service
+    when hands-on coverage is not available. A fictional rehearsal is preparation only. Imminent unsafe
+    care, medical deterioration, abuse or a caregiver unable to maintain safety requires immediate appropriate
+    help rather than waiting for routine respite.
+  opportunity_considerations: Use an actual authorized care role or the fictional case of a caregiver
+    who handles every appointment reminder and cannot take an uninterrupted afternoon. Prepare a private
+    coverage card with the essential task, authorized competent backup, permitted scope, urgent route,
+    start and end, and confirmation signal. Exclude clinical details from application evidence.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Caregiver limits, respite, and
-    shared responsibility.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use an actual authorized care role or the fictional case of a caregiver who handles every appointment
+    reminder and cannot take an uninterrupted afternoon. Prepare a private coverage card with the essential
+    task, authorized competent backup, permitted scope, urgent route, start and end, and confirmation
+    signal. Exclude clinical details from application evidence.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Caregiver limits, respite, and
-    shared responsibility instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Start with a smaller task, remote administrative support or a qualified service when hands-on coverage
+    is not available. A fictional rehearsal is preparation only. Imminent unsafe care, medical deterioration,
+    abuse or a caregiver unable to maintain safety requires immediate appropriate help rather than waiting
+    for routine respite.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +84,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Caregiver limits, respite, and shared responsibility actions over ten
-    days, preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Caregiver limits, respite, and shared responsibility; copy the canonical
-    scope and evidence target into a private working note; define the action boundary, valid supports,
-    privacy limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Caregiver
-    limits, respite, and shared responsibility. Do not store private prose, names, identities, diagnoses,
-    allegations, credentials, account data, protected work information, intimate detail, artifact contents,
-    observer narrative, or another person's secrets. This source-only draft is not surveillance, professional
-    advice, treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Caregiver limits, respite, and shared
-    responsibility actions, and review; scope may be reduced or deferred for access, care, health, workload,
-    conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use an actual authorized care role or the fictional case of a caregiver who handles every appointment
+    reminder and cannot take an uninterrupted afternoon. Prepare a private coverage card with the essential
+    task, authorized competent backup, permitted scope, urgent route, start and end, and confirmation
+    signal. Exclude clinical details from application evidence. Goal: Make caregiver limits explicit and
+    distribute one care responsibility safely enough that rest does not depend on abandoning the person
+    receiving care. Scope: This is a bounded support arrangement, not a burnout diagnosis, substitute
+    for professional respite assessment or permission to stop essential care without a safe transfer.
+    Time and effort: Twenty minutes to identify the gap, one coordination conversation and one short confirmed
+    coverage period with review. Adaptation: Start with a smaller task, remote administrative support
+    or a qualified service when hands-on coverage is not available. A fictional rehearsal is preparation
+    only. Imminent unsafe care, medical deterioration, abuse or a caregiver unable to maintain safety
+    requires immediate appropriate help rather than waiting for routine respite. Keep personal working
+    notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Start with a smaller task, remote administrative support or a qualified service
+    when hands-on coverage is not available. A fictional rehearsal is preparation only. Imminent unsafe
+    care, medical deterioration, abuse or a caregiver unable to maintain safety requires immediate appropriate
+    help rather than waiting for routine respite.
+  expected_burden: Twenty minutes to identify the gap, one coordination conversation and one short confirmed
+    coverage period with review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Caregiver limits, respite, and shared responsibility protocol to rank worth, coerce participation,
@@ -104,20 +115,26 @@ intervention:
   - Treating a completed Caregiver limits, respite, and shared responsibility action, a polished artifact,
     agreement, confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Caregiver limits, respite, and shared responsibility situation involving emergency response, abuse,
-    retaliation, illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local
-    guidance.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Start with
+    a smaller task, remote administrative support or a qualified service when hands-on coverage is not
+    available. A fictional rehearsal is preparation only. Imminent unsafe care, medical deterioration,
+    abuse or a caregiver unable to maintain safety requires immediate appropriate help rather than waiting
+    for routine respite.
   actions:
   - stable_id: PRACTICE-COMP-1915-CAREGIVER-LIMITS-RESPITE-AND-SHARED-RESPONSIBILITY-01-A1
     sequence: 1
-    title: Bound the qualified question for Caregiver limits, respite, and shared responsibility
-    instructions: 'Turn Caregiver limits, respite, and shared responsibility into one educational or planning
-      question and identify the qualification and jurisdiction needed to answer it. Use the canonical
-      scope to separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Recognize burnout, resentment, role captivity, and the
-      need for support, respite, and distributed care.'
+    title: Name the limit before resentment becomes the only signal
+    instructions: 'Describe one recurring sign that the present arrangement is unsustainable, such as
+      missed sleep opportunity, repeated errors or having no protected time, without diagnosing yourself.
+      Separate exhaustion, resentment and a sense of being trapped from the recipient’s worth or need
+      for care. List essential tasks, optional extras and work that can be shared. State one bounded limit:
+      I need a two-hour coverage period, not I will disappear until people notice.
+
+
+      Observation checks: A concrete sustainability problem is identified; Caregiver feelings are separated
+      from blame or recipient worth; Essential optional and shareable tasks are distinguished; The proposed
+      limit has a safe specific scope. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -139,9 +156,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1915_a1_question_bounded
-        - c1915_a1_qualification_named
-        - c1915_a1_professional_boundary_explicit
+        - a_concrete_sustainability_problem_is_identified
+        - caregiver_feelings_are_separated_from_blame_or_recipient_worth
+        - essential_optional_and_shareable_tasks_are_distinguished
+        - the_proposed_limit_has_a_safe_specific_scope
       - measurement_id: c1915_a1_boundary
         kind: boolean
         role: supporting
@@ -158,12 +176,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1915-CAREGIVER-LIMITS-RESPITE-AND-SHARED-RESPONSIBILITY-01-A2
     sequence: 2
-    title: Prepare minimum information for Caregiver limits, respite, and shared responsibility
-    instructions: Create a privacy-minimized Caregiver limits, respite, and shared responsibility consultation
-      note containing only the question, relevant category-level facts, current constraints, and desired
-      decision. Omit diagnoses, allegations, account numbers, credentials, protected work information,
-      intimate detail, and third-party identity unless a qualified professional lawfully requires it through
-      an appropriate channel.
+    title: Find an accepting competent backup and test the information
+    instructions: 'Ask an appropriate family member, authorized service or coordinator to cover one defined
+      period or task. Check willingness, competence, authority, access and cost before counting the gap
+      as covered. Give only the necessary information through the permitted secure channel, and ask the
+      backup to explain the task, boundaries and when to seek help. If nobody can safely accept it, contact
+      an appropriate support service; do not claim the plan works or leave essential care uncovered.
+
+
+      Observation checks: The backup explicitly accepts the task and interval; Competence authority access
+      and cost are checked; A teach-back confirms limits and escalation; An unfilled gap remains visible
+      and triggers further support. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -185,9 +209,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1915_a2_minimum_information_only
-        - c1915_a2_sensitive_detail_excluded
-        - c1915_a2_decision_need_named
+        - the_backup_explicitly_accepts_the_task_and_interval
+        - competence_authority_access_and_cost_are_checked
+        - a_teach_back_confirms_limits_and_escalation
+        - an_unfilled_gap_remains_visible_and_triggers_further_support
       - measurement_id: c1915_a2_boundary
         kind: boolean
         role: supporting
@@ -204,11 +229,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1915-CAREGIVER-LIMITS-RESPITE-AND-SHARED-RESPONSIBILITY-01-A3
     sequence: 3
-    title: Record a bounded Caregiver limits, respite, and shared responsibility disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Care remains safer and more sustainable because limits and backup are explicit.'
+    title: Take the agreed break and close the transfer
+    instructions: 'After the safe handoff is confirmed, use the protected period for a freely chosen restorative
+      activity rather than monitoring every detail unless the care plan requires it. At the end, confirm
+      what occurred, any issue and who now holds responsibility. Ask whether the arrangement relieved
+      burden for the caregiver without shifting an unmanageable burden to someone else. Retain, change
+      or seek professional support for the next coverage period; one break does not establish that chronic
+      exhaustion is resolved.
+
+
+      Observation checks: A real protected period follows a confirmed safe transfer; The return handoff
+      closes responsibility clearly; Burden on both caregiver and backup is reviewed; Long-term exhaustion
+      is not declared resolved from one break. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Was the break genuinely protected, was care safely owned throughout, and what recurring
+      support is still missing?
+
+
+      Examples: Supportive: A competent backup accepted a bounded interval, the caregiver took a real
+      break and both confirmed the return handoff.
+
+
+      Mixed: The backup covered the task, but repeated unnecessary check-ins prevented rest; the communication
+      arrangement was revised.
+
+
+      Contradictory: Essential care was withdrawn to make a point or an untrained unwilling person was
+      treated as a safe replacement.
+
+
+      Inconclusive: Respite was scheduled on paper without an accepting backup or an actual safe transfer.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -224,14 +276,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1915_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1915_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - a_real_protected_period_follows_a_confirmed_safe_transfer
+        - the_return_handoff_closes_responsibility_clearly
+        - burden_on_both_caregiver_and_backup_is_reviewed
+        - long_term_exhaustion_is_not_declared_resolved_from_one_break
       - measurement_id: c1915_a3_boundary
         kind: boolean
         role: supporting
@@ -252,17 +306,19 @@ intervention:
       Caregiver limits, respite, and shared responsibility; no purchase, subscription, travel, credential,
       or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Caregiver limits, respite, and shared responsibility; assistive technology, interpretation,
-      a support person, and a deferred action are valid without penalty.
+    - Start with a smaller task, remote administrative support or a qualified service when hands-on coverage
+      is not available. A fictional rehearsal is preparation only. Imminent unsafe care, medical deterioration,
+      abuse or a caregiver unable to maintain safety requires immediate appropriate help rather than waiting
+      for routine respite.
     cultural_context:
     - Adapt the expression of Caregiver limits, respite, and shared responsibility to direct or indirect
       communication, collective or individual decision structures, local norms, faith or secular commitments,
       and role obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Caregiver limits, respite, and shared responsibility opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Start with a smaller task, remote administrative support or a qualified service when hands-on coverage
+      is not available. A fictional rehearsal is preparation only. Imminent unsafe care, medical deterioration,
+      abuse or a caregiver unable to maintain safety requires immediate appropriate help rather than waiting
+      for routine respite.
   pause_conditions:
   - Pause Caregiver limits, respite, and shared responsibility when capacity, consent, authority, privacy,
     access, care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances
@@ -295,11 +351,8 @@ evidence_and_scoring:
   - c1915_a3_boundary
   - c1915_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Caregiver limits, respite, and shared responsibility action exceeded consent, authority, privacy,
-    qualification, role, burden, or safety boundaries.
-  - The evidence contradicted the intended Caregiver limits, respite, and shared responsibility criterion,
-    depended on coercion or hidden private content, or could not distinguish the protocol from contextual
-    change.
+  - Essential care was withdrawn to make a point or an untrained unwilling person was treated as a safe
+    replacement.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Caregiver limits, respite, and shared responsibility explicitly; support can enable access and
     never reduces dignity or silently changes the typed value.
@@ -311,14 +364,22 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Caregiver limits, respite, and shared responsibility rules withhold observations
     older than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Care remains safer and more sustainable because limits and backup are explicit.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Caregiver limits, respite, and shared responsibility requires a
-    bounded context, allowlisted observations, provenance, contradiction and adverse handling, and preserved
-    uncertainty; free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Name the limit before resentment becomes the only signal. Observed checks:
+    A concrete sustainability problem is identified; Caregiver feelings are separated from blame or recipient
+    worth; Essential optional and shareable tasks are distinguished; The proposed limit has a safe specific
+    scope. Action 2: Find an accepting competent backup and test the information. Observed checks: The
+    backup explicitly accepts the task and interval; Competence authority access and cost are checked;
+    A teach-back confirms limits and escalation; An unfilled gap remains visible and triggers further
+    support. Action 3: Take the agreed break and close the transfer. Observed checks: A real protected
+    period follows a confirmed safe transfer; The return handoff closes responsibility clearly; Burden
+    on both caregiver and backup is reviewed; Long-term exhaustion is not declared resolved from one break.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Respite was scheduled on paper without an accepting
+    backup or an actual safe transfer.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Caregiver
     limits, respite, and shared responsibility contribution under typed evaluation; protocol performance
     remains distinct and is never counted twice.
@@ -329,9 +390,8 @@ evidence_and_scoring:
   - L26
   - L28
   - L34
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Caregiver limits, respite, and shared responsibility evidence.
@@ -339,12 +399,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for caregiver limits, respite, and shared responsibility action was
-    attempted or explicitly deferred.
-  - The prepare minimum information for caregiver limits, respite, and shared responsibility action was
-    attempted or explicitly deferred.
-  - The record a bounded caregiver limits, respite, and shared responsibility disposition action preserved
-    a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Name the limit before resentment becomes the only signal. Observed checks: A concrete sustainability
+    problem is identified; Caregiver feelings are separated from blame or recipient worth; Essential optional
+    and shareable tasks are distinguished; The proposed limit has a safe specific scope.'
+  - 'Action 2: Find an accepting competent backup and test the information. Observed checks: The backup
+    explicitly accepts the task and interval; Competence authority access and cost are checked; A teach-back
+    confirms limits and escalation; An unfilled gap remains visible and triggers further support.'
+  - 'Action 3: Take the agreed break and close the transfer. Observed checks: A real protected period
+    follows a confirmed safe transfer; The return handoff closes responsibility clearly; Burden on both
+    caregiver and backup is reviewed; Long-term exhaustion is not declared resolved from one break.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -353,65 +419,248 @@ completion_and_review:
     - c1915_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Caregiver limits, respite, and shared responsibility only when
-    the initial context remained safe, the evidence criteria were usable, burden was acceptable, and a
-    new context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Caregiver limits, respite, and shared responsibility
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Was the break genuinely protected, was care safely owned throughout, and what
+    recurring support is still missing?
+  transfer_limit: This is a bounded support arrangement, not a burnout diagnosis, substitute for professional
+    respite assessment or permission to stop essential care without a safe transfer.
   reflection:
-    before: What does Caregiver limits, respite, and shared responsibility require in this exact context,
-      what remains outside my role or authority, and which scope sentence or evidence criterion will keep
-      the practice honest?
-    during: Which observable Caregiver limits, respite, and shared responsibility criterion is present,
-      absent, mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Care remains safer and more sustainable because limits and
-      backup are explicit.', what contradiction or missing context matters most, and should this Caregiver
-      limits, respite, and shared responsibility design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Make caregiver limits explicit and distribute
+      one care responsibility safely enough that rest does not depend on abandoning the person receiving
+      care.'
+    during: Which checks have actually been observed? The backup covered the task, but repeated unnecessary
+      check-ins prevented rest; the communication arrangement was revised.
+    after: Was the break genuinely protected, was care safely owned throughout, and what recurring support
+      is still missing?
   review_guidance:
     repeat: Repeat the same bounded Caregiver limits, respite, and shared responsibility design only when
       the context and burden remain appropriate.
-    adapt: Change the Caregiver limits, respite, and shared responsibility medium, scope, support, timing,
-      criteria, or context while preserving provenance and the narrower evidence claim.
+    adapt: Start with a smaller task, remote administrative support or a qualified service when hands-on
+      coverage is not available. A fictional rehearsal is preparation only. Imminent unsafe care, medical
+      deterioration, abuse or a caregiver unable to maintain safety requires immediate appropriate help
+      rather than waiting for routine respite.
     stop: Stop Caregiver limits, respite, and shared responsibility when the practice becomes coercive,
       unsafe, privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Caregiver limits, respite, and shared
-      responsibility questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Caregiver limits, respite, and shared responsibility criteria were observed
-      with provenance and no adverse boundary signal in the selected context.
-    mixed: Some Caregiver limits, respite, and shared responsibility criteria were observed while burden,
-      support, contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Caregiver limits, respite, and shared responsibility
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Caregiver limits, respite, and shared responsibility action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A competent backup accepted a bounded interval, the caregiver took a real break and both
+      confirmed the return handoff.
+    mixed: The backup covered the task, but repeated unnecessary check-ins prevented rest; the communication
+      arrangement was revised.
+    contradictory: Essential care was withdrawn to make a point or an untrained unwilling person was treated
+      as a safe replacement.
+    inconclusive: Respite was scheduled on paper without an accepting backup or an actual safe transfer.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Caregiver limits, respite, and shared responsibility.
+    context_heading: Replace one exhausted-caregiver gap with a confirmed respite handoff
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Caregiver
       limits, respite, and shared responsibility.
   check_in_labels:
-    c1915_a1_primary: The bounded Caregiver limits, respite, and shared responsibility criterion for action
-      1 was observed
+    c1915_a1_primary: 'Observed checks: name the limit before resentment becomes the only signal'
     c1915_a1_boundary: Action 1 stayed inside its stated Caregiver limits, respite, and shared responsibility
       boundary
     c1915_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1915_a2_primary: The bounded Caregiver limits, respite, and shared responsibility criterion for action
-      2 was observed
+    c1915_a2_primary: 'Observed checks: find an accepting competent backup and test the information'
     c1915_a2_boundary: Action 2 stayed inside its stated Caregiver limits, respite, and shared responsibility
       boundary
     c1915_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1915_a3_primary: The bounded Caregiver limits, respite, and shared responsibility criterion for action
-      3 was observed
+    c1915_a3_primary: 'Observed checks: take the agreed break and close the transfer'
     c1915_a3_boundary: Action 3 stayed inside its stated Caregiver limits, respite, and shared responsibility
       boundary
     c1915_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Caregiver limits,
-    respite, and shared responsibility practice, including support, contradiction, defer, no result, or
-    harm.
+  completion_copy: Was the break genuinely protected, was care safely owned throughout, and what recurring
+    support is still missing? Completion is not mastery.
+  plain_language_evidence: A competent backup accepted a bounded interval, the caregiver took a real break
+    and both confirmed the return handoff.
   display_order: 262
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '19.15'
+  title: 19.15 — Caregiver limits, respite, and shared responsibility
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Contraception and Birth Control Methods](https://www.cdc.gov/contraception/about/index.html)
+
+      - [Infertility: Frequently Asked Questions](https://www.cdc.gov/reproductive-health/infertility-faq/index.html)
+
+      - [Antenatal (pregnancy) care and appointments](https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/)
+
+      - [Urgent Maternal Warning Signs and Symptoms](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
+
+      - [Miscarriage](https://www.nhs.uk/conditions/miscarriage/)
+
+      - [Adoption](https://www.childwelfare.gov/topics/permanency/adoption/)
+
+      - [Child Abuse Education Resources](https://www.azed.gov/wellness/child-abuse-education-resources)
+
+      - [Arizona Revised Statutes §13-3620](https://www.azleg.gov/ars/13/03620.htm)
+
+      - [What to do if a child reveals abuse](https://www.nspcc.org.uk/keeping-children-safe/reporting-abuse/what-to-do-child-reveals-abuse/)
+
+      - [Calling 911](https://www.911.gov/calling-911/)
+
+      - [Effective Discipline to Raise Healthy Children](https://publications.aap.org/pediatrics/article/142/6/e20183112/37452/Effective-Discipline-to-Raise-Healthy-Children)
+
+      - [Inspected correction](https://publications.aap.org/pediatrics/article/143/2/e20183609/37315/Sege-RD-Siegel-BS-Council-on-Child-Abuse-and)
+
+      - [Supported Decision Making Program](https://acl.gov/programs/consumer-control/supported-decision-making-program)
+
+      - [Lasting power of attorney for people with dementia](https://www.alzheimers.org.uk/get-support/legal-financial/lasting-power-attorney)
+
+      - [The Cognitive Dimension of Household Labor](https://journals.sagepub.com/doi/abs/10.1177/0003122419859007)
+
+      - [Communicating with your child’s other parent during separation](https://www.cafcass.gov.uk/parent-carer-or-family-member/my-family-involved-private-law-proceedings/resources-help-you-make-arrangements-are-your-childs-best-interests/communicating-your-childs-other-parent-during-separation)
+
+      - [Convention for the Safeguarding of the Intangible Cultural Heritage](https://www.unesco.org/en/legal-affairs/convention-safeguarding-intangible-cultural-heritage)
+
+      - [Cultural Documentation Guidelines](https://wwws.loc.gov/folklife/edresources/ed-trainingdocuments.html)
+
+      - [Healthy Habits: Caring for Yourself When Caring for Another](https://www.cdc.gov/caregiving/caring-for-yourself/index.html)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence.
+
+
+      Fin explicitly accepts the 14:00–16:00 interval and the established tasks. The private handoff confirms
+      access, limits and the existing escalation route. Fin correctly explains those tasks; no new clinical
+      competence is claimed. The paid service remains uncontacted, with cost and availability unknown.
+
+
+      Fin arrives at 14:10. Dara continues care until the actual start acknowledgment at 14:15, then steps
+      away. There is no uncovered interval. Fin does not extend beyond the accepted 16:00 end. At 16:00,
+      Dara returns and the handback is acknowledged. Actual coverage is 105 minutes, not the scheduled
+      120.
+
+
+      During the first ten minutes away, Dara voluntarily checks routine messages despite no required
+      update or incident. Dara then puts them aside while preserving necessary reachability. Dara describes
+      95 minutes as protected rest and says it was useful. Fin reports that the bounded interval was manageable
+      but has not accepted a recurring commitment. Record coverage, optional monitoring and reported rest
+      separately. One useful break does not establish resolved burnout, improved clinical health or permanent
+      backup. A later start plan and longer-term support still need review.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: "Create one bounded interval of relief with competent accepted coverage, then review whether\
+      \ relief actually occurred. Allow twenty minutes to identify the gap, appropriate coordination time\
+      \ and a short ordinary respite interval. Use an existing authorized care role or the supplied fiction.\
+      \ A person without that role can rehearse an administrative reminder task; they must not arrange\
+      \ live care or abandon a dependent person to test whether others will help.\n\n### Limits are information\
+      \ about the arrangement\n\nMissed sleep, repeated errors, persistent resentment, no protected time\
+      \ and a sense of being unable to leave a role can signal that the arrangement needs attention. They\
+      \ do not establish a diagnosis or say anything about the recipient's worth. Burnout and role captivity\
+      \ should not be dismissed as selfishness, but this exercise cannot diagnose them or resolve them\
+      \ with one break.\n\nCare can involve both chosen commitment and obligations that cannot be dropped\
+      \ abruptly. Distinguish essential tasks from optional standards, tasks that require particular competence\
+      \ or authority, and tasks that can safely move or stop. A caregiver may need professional, social\
+      \ or practical support to make a limit workable. Naming a limit without arranging continuity can\
+      \ leave the same person responsible in practice or create an unsafe gap.\n\nRespite means someone\
+      \ is actually relieved of agreed responsibility for a period through appropriate coverage. A kind\
+      \ offer, a booked service or a family member's presence is not enough by itself. Check willingness,\
+      \ competence, authorization, access, cost, the task scope and what to do if something changes. Do\
+      \ not infer clinical or care skills from kinship, confidence or general helpfulness.\n\nShared responsibility\
+      \ includes preparing and sustaining the handoff. The incoming caregiver needs the appropriate existing\
+      \ instructions in the proper private channel, a way to ask questions and an escalation route. A\
+      \ brief teach-back can reveal misunderstanding: ask them to explain their task and limits in their\
+      \ own words. It does not certify competence for specialized care. Start and return acknowledgments\
+      \ make responsibility at each moment explicit.\n\nA protected interval may fail to provide relief\
+      \ if the outgoing caregiver keeps doing optional monitoring, answering routine requests or taking\
+      \ on another obligatory task. At the same time, necessary contact required by the care plan must\
+      \ remain available. Review the actual interval and experience rather than assuming that being in\
+      \ another room equals rest. The backup person's burden matters as well; respite that simply exhausts\
+      \ an unconsulted relative is not a stable shared arrangement.\n\n### Worked example\n\nA caregiver\
+      \ asks for two hours off. A sibling says “I'll try to be around,” but has not accepted the care\
+      \ tasks or learned the relevant plan. Calling this coverage would hide the gap. A better next step\
+      \ is to secure a specific competent, authorized person's acceptance or seek the appropriate service.\
+      \ If no coverage is available, identify urgent help or a safe alternative while maintaining essential\
+      \ care; do not disappear to demonstrate how much work you do.\n\n### Supplied fictional case\n\n\
+      Dara provides care within an established arrangement and has had no protected afternoon for several\
+      \ weeks. Dara notices lost sleep and small organizational mistakes, with no current emergency stated.\
+      \ The case does not supply clinical details or authorize changes to treatment. The proposed respite\
+      \ is 14:00–16:00 on 12 October.\n\nFin is an already competent and authorized caregiver for the\
+      \ specific existing tasks. Fin has expressed general willingness but has not yet accepted this interval.\
+      \ A paid service is another possibility, but availability and cost are unknown. The existing plan\
+      \ specifies necessary instructions, access and escalation through private care channels. Dara wants\
+      \ to rest nearby without routine updates, while remaining reachable as that plan requires.\n\n###\
+      \ Turn a limit into accepted coverage\n\n1. Name the specific unsustainable pattern and the bounded\
+      \ relief needed. Separate essential care, optional standards and movable tasks. Output: a concrete\
+      \ interval and task scope, not a judgment about the recipient or a demand that someone feel grateful.\n\
+      2. Ask the appropriate potential backup to accept the interval and tasks. Verify competence, authority,\
+      \ access, cost and the relevant existing instructions. Output: accepted coverage or an explicit\
+      \ gap. If no one accepts, seek suitable help and maintain a safe plan; do not record a hoped-for\
+      \ helper as confirmed.\n3. Ask the incoming caregiver to explain the tasks, limits and escalation\
+      \ route. Resolve uncertainty through the proper qualified channel. Output: a handoff ready within\
+      \ existing authority, with specialized gaps still visible rather than certified by this worksheet.\n\
+      4. Confirm the actual start before stepping away and the actual return before ending coverage. Preserve\
+      \ necessary contact while removing optional routine checking where agreed. Output: real times and\
+      \ responsibility acknowledgments, distinct from the scheduled slot.\n5. Review the protected interval,\
+      \ interruptions, Dara's experience and Fin's burden. Save your account before the [later packet](?resource=file-later-packet-md).\
+      \ Output: one practical revision and any longer-term support question. A useful break is not proof\
+      \ of recovered health or permanently adequate care.\n\n### Support and transfer\n\nFor support,\
+      \ rehearse only the acceptance and handoff conversation using the fiction, with no live care. For\
+      \ a harder version, the accepted backup cancels: use the existing safe contingency or appropriate\
+      \ service instead of treating cancellation as permission to leave. Actual immediate danger or inability\
+      \ to maintain essential care needs prompt appropriate help, not the completion of a reflection exercise.\n\
+      \nFor real transfer, use an ordinary interval within a properly authorized care plan and protect\
+      \ private recipient information. Ask the caregiver and backup what actually happened, if they willingly\
+      \ share. Repeated coverage, sustainable resources and the recipient's appropriate perspective are\
+      \ needed for broader conclusions. A service inquiry is useful progress while still being only an\
+      \ inquiry.\n\n### Source limits\n\n[CDC caregiver guidance, S18](https://www.cdc.gov/caregiving/caring-for-yourself/index.html),\
+      \ supports asking for specific help and exploring respite through family or services. It does not\
+      \ guarantee a provider, funding, competence or a measured health effect from this two-hour case.\
+      \ The handoff and interval review are original teaching design. Care remains safer only to the extent\
+      \ that actual competent coverage and sustainable limits are established, not because a form is complete.\n\
+      \n### Use the result at its proper scale\n\nMedical, reproductive, child-safety, guardianship, and\
+      \ elder-care decisions require qualified local guidance.\n\n No reproductive, parenting or care\
+      \ role is compulsory. Fiction does not establish actual participant evidence. Keep identifying,\
+      \ clinical and private family information outside app records.\n\nAttempt the [practice checks](?attempt=practice-checks)\
+      \ before opening their [answers](?check=practice-answers)."
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'These questions revisit supplied examples to consolidate the reasoning. They do not independently
+      test transfer to unseen material. Any separately labeled changed-case attempt below uses different
+      facts.
+
+
+      Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A relative says “I can probably help” but has not accepted the tasks and lacks needed competence.
+      Is respite covered?
+
+      2. Coverage actually runs from 14:15 to 16:00, with ten minutes of optional monitoring by the outgoing
+      caregiver. What durations can be claimed?
+
+      3. The break felt useful, but the backup has not agreed to repeat it. What remains unresolved about
+      burnout and sustainability?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Confirm willing acceptance, competence, authorization, access, scope and the appropriate
+      handoff. An offer or family relationship is insufficient. Seek suitable help and preserve essential
+      care if coverage cannot be established; do not leave to force a response.
+
+      2. Actual coverage is 105 minutes. In the supplied case, ten minutes of optional monitoring leaves
+      95 minutes described as protected rest. The booked 120 minutes did not occur. Keep required reachability
+      distinct from unnecessary routine work, and do not infer a clinical benefit from either duration.
+
+      3. A useful interval is limited evidence of relief, not a diagnosis or cure. Recurring acceptance,
+      backup burden, resources and the underlying workload remain open. Review a sustainable arrangement
+      rather than silently assigning future care or claiming permanent recovery.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

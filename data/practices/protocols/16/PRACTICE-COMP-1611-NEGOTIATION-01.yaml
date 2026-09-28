@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1611-NEGOTIATION-01
 slug: c1611-negotiation-practice
-name: Bounded Negotiation Practice
+name: Negotiate a small shared arrangement with a genuine walk-away option
 parent_competency_id: '16.11'
 domain_id: '16'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 16.11
-      (Negotiation); canonical scope, evidence target, classification, domain boundary, and parent mapping
-      remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 16.11; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,36 +34,37 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Negotiation through a consent-respecting relational practice bounded by the canonical
-    scope: Identify interests, alternatives, leverage, constraints, fairness, trades, and walk-away conditions.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Reaches a better agreement
-    or principled refusal than reactive bargaining would produce. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Identify interests, constraints, alternatives and fair trades before proposing an agreement,
+    and distinguish a principled refusal from reactive bargaining.
+  why_recommended: Identify interests, constraints, alternatives and fair trades before proposing an agreement,
+    and distinguish a principled refusal from reactive bargaining.
   claims:
-  - statement: Using the canonical scope and evidence target for Negotiation is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: Identify interests, constraints, alternatives and fair trades before proposing an agreement,
+      and distinguish a principled refusal from reactive bargaining.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Negotiation practice fit the person's current role,
     pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Negotiation as not applicable, consciously unchosen, or deferred without
     penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Negotiation context,
-    understand the source-only status, and stop without losing safety, care, employment, housing, services,
-    relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Negotiation;
-    do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence for
-    evidence.
+  readiness_considerations: Use written proposals, more processing time or a neutral facilitator for a
+    safe voluntary case. Where rights, livelihood, legal obligations or coercion are involved, use qualified
+    advice and the appropriate formal process instead of this exercise.
+  opportunity_considerations: 'Default case: two friends want to share a hobby space for two hours; one
+    needs quiet preparation time and the other wants company while working. Each has the option to work
+    separately. Use a real willing discussion or assign the fictional roles without money or binding commitments.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Negotiation.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default case: two friends want to share a hobby space for two hours; one needs quiet preparation
+    time and the other wants company while working. Each has the option to work separately. Use a real
+    willing discussion or assign the fictional roles without money or binding commitments.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Negotiation instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use written proposals, more processing time or a neutral facilitator for a safe voluntary case. Where
+    rights, livelihood, legal obligations or coercion are involved, use qualified advice and the appropriate
+    formal process instead of this exercise.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -77,18 +77,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-RELATIONAL-CONVERSATION
   duration_days: 10
-  cadence: Complete three bounded Negotiation actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Negotiation; copy the canonical scope and evidence target into a private
-    working note; define the action boundary, valid supports, privacy limit, and stop condition before
-    beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Negotiation.
-    Do not store private prose, names, identities, diagnoses, allegations, credentials, account data,
-    protected work information, intimate detail, artifact contents, observer narrative, or another person's
-    secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Negotiation actions, and review; scope
-    may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default case: two friends want to share a hobby space for two hours; one needs quiet preparation
+    time and the other wants company while working. Each has the option to work separately. Use a real
+    willing discussion or assign the fictional roles without money or binding commitments. Goal: Identify
+    interests, constraints, alternatives and fair trades before proposing an agreement, and distinguish
+    a principled refusal from reactive bargaining. Scope: Use a low-stakes voluntary arrangement, not
+    legal settlement, employment leverage, essential care, housing, debt collection or a power-imbalanced
+    dispute. Time and effort: Fifteen minutes to prepare, a fifteen-minute conversation or role-play and
+    a ten-minute written recap. Adaptation: Use written proposals, more processing time or a neutral facilitator
+    for a safe voluntary case. Where rights, livelihood, legal obligations or coercion are involved, use
+    qualified advice and the appropriate formal process instead of this exercise. Keep personal working
+    notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use written proposals, more processing time or a neutral facilitator for a safe
+    voluntary case. Where rights, livelihood, legal obligations or coercion are involved, use qualified
+    advice and the appropriate formal process instead of this exercise.
+  expected_burden: Fifteen minutes to prepare, a fifteen-minute conversation or role-play and a ten-minute
+    written recap.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Negotiation protocol to rank worth, coerce participation, demand disclosure, override rest
@@ -96,19 +104,25 @@ intervention:
   - Treating a completed Negotiation action, a polished artifact, agreement, confidence, speed, independence,
     or output as mastery or universal transfer.
   exclusions:
-  - Any Negotiation situation involving emergency response, abuse, retaliation, illegal conduct, medical
-    treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment, or other
-    consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use written
+    proposals, more processing time or a neutral facilitator for a safe voluntary case. Where rights,
+    livelihood, legal obligations or coercion are involved, use qualified advice and the appropriate formal
+    process instead of this exercise.
   actions:
   - stable_id: PRACTICE-COMP-1611-NEGOTIATION-01-A1
     sequence: 1
-    title: Prepare a consent-safe Negotiation interaction
-    instructions: 'Choose one welcome, low-stakes relationship context for Negotiation. Translate the
-      canonical scope into one observable communication act, identify power or retaliation concerns, and
-      obtain or preserve the other person''s freedom not to participate: Identify interests, alternatives,
-      leverage, constraints, fairness, trades, and walk-away conditions.'
+    title: Separate positions from interests and alternatives
+    instructions: 'Write your preferred arrangement, the need behind it, actual time or access constraints
+      and what you will do if no agreement is reached. Imagine at least two possible interests on the
+      other side but keep them tentative until asked. Identify a fair reference such as equal usable time
+      or alternating the preferred period, and name any leverage you should not exploit, including dependency
+      or private information. Set a walk-away condition before the discussion.
+
+
+      Observation checks: Position interest constraint and alternative are separate; The other person’s
+      interests remain hypotheses until checked; A fair reference and an unacceptable leverage tactic
+      are named; A genuine walk-away condition exists before bargaining. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -130,9 +144,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1611_a1_communication_act_specific
-        - c1611_a1_consent_boundary_present
-        - c1611_a1_power_checked
+        - position_interest_constraint_and_alternative_are_separate
+        - the_other_person_s_interests_remain_hypotheses_until_checked
+        - a_fair_reference_and_an_unacceptable_leverage_tactic_are_named
+        - a_genuine_walk_away_condition_exists_before_bargaining
       - measurement_id: c1611_a1_boundary
         kind: boolean
         role: supporting
@@ -149,10 +164,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1611-NEGOTIATION-01-A2
     sequence: 2
-    title: Practice one Negotiation communication act
-    instructions: Use the prepared Negotiation act once without covert testing, pressure, diagnosis, deception
-      inference, or a demand for disclosure. Ask one direct clarification when appropriate and allow refusal,
-      delay, indirect communication, language access, or another format.
+    title: Ask, propose a trade and preserve the option to decline
+    instructions: 'Ask what matters most to the other person and reflect it back. Offer a specific package,
+      such as thirty minutes of quiet preparation followed by ninety minutes of shared work, with an agreed
+      signal for interruptions. Explain what each person gains and gives up. Invite a counterproposal
+      and consider a second package rather than splitting every issue mechanically. Do not imply that
+      friendship requires accepting your terms.
+
+
+      Observation checks: The other person’s stated interests inform the proposal; The package specifies
+      time conditions and responsibilities; Gains and concessions on both sides are explicit; A counterproposal
+      or refusal remains socially safe. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -168,12 +191,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1611_a2_primary
-        kind: boolean
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        expected: true
+        - reviewed_artifact
+        criteria:
+        - the_other_person_s_stated_interests_inform_the_proposal
+        - the_package_specifies_time_conditions_and_responsibilities
+        - gains_and_concessions_on_both_sides_are_explicit
+        - a_counterproposal_or_refusal_remains_socially_safe
       - measurement_id: c1611_a2_boundary
         kind: boolean
         role: supporting
@@ -190,11 +217,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1611-NEGOTIATION-01-A3
     sequence: 3
-    title: Review Negotiation without scoring the person
-    instructions: 'Review only the observable interaction and its boundaries. Do not infer motives or
-      store private narrative. Compare what happened with this evidence target and retain disagreement
-      or an inconclusive result: Reaches a better agreement or principled refusal than reactive bargaining
-      would produce.'
+    title: Confirm the agreement or carry out the principled refusal
+    instructions: 'Summarize the selected arrangement, who does what, when it starts and how either person
+      can request a change. Ask the other person to confirm the same understanding. If the walk-away condition
+      is reached, state the reason briefly and use the prepared alternative without punishment or last-minute
+      pressure. Review whether the outcome addressed the interests better than the initial positional
+      demand, while keeping any untested future performance visible.
+
+
+      Observation checks: The final terms or refusal are stated unambiguously; Both people understand
+      responsibilities and change conditions; A refusal uses the alternative without retaliation; Agreement
+      quality is distinguished from later follow-through. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which trade addressed the real interests, and what did your walk-away option prevent
+      you from agreeing to merely to end discomfort?
+
+
+      Examples: Supportive: The friends agreed on quiet preparation followed by shared work and both could
+      explain the interruption rule and review point.
+
+
+      Mixed: A package was accepted, but one person’s constraint was still unclear, so the agreement remained
+      provisional.
+
+
+      Contradictory: The negotiator used guilt, confidential information or dependency to make refusal
+      costly.
+
+
+      Inconclusive: The conversation ended with a vague compromise but no terms, responsibilities or alternative.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -216,9 +269,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1611_a3_observable_interaction_reviewed
-        - c1611_a3_private_narrative_excluded
-        - c1611_a3_inconclusive_allowed
+        - the_final_terms_or_refusal_are_stated_unambiguously
+        - both_people_understand_responsibilities_and_change_conditions
+        - a_refusal_uses_the_alternative_without_retaliation
+        - agreement_quality_is_distinguished_from_later_follow_through
       - measurement_id: c1611_a3_boundary
         kind: boolean
         role: supporting
@@ -238,16 +292,17 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Negotiation; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Negotiation; assistive technology, interpretation, a support person, and a deferred action
-      are valid without penalty.
+    - Use written proposals, more processing time or a neutral facilitator for a safe voluntary case.
+      Where rights, livelihood, legal obligations or coercion are involved, use qualified advice and the
+      appropriate formal process instead of this exercise.
     cultural_context:
     - Adapt the expression of Negotiation to direct or indirect communication, collective or individual
       decision structures, local norms, faith or secular commitments, and role obligations while preserving
       consent and dignity.
     resource_variants:
-    - When a real Negotiation opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use written proposals, more processing time or a neutral facilitator for a safe voluntary case.
+      Where rights, livelihood, legal obligations or coercion are involved, use qualified advice and the
+      appropriate formal process instead of this exercise.
   pause_conditions:
   - Pause Negotiation when capacity, consent, authority, privacy, access, care duties, uncertainty, distress,
     fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -277,10 +332,7 @@ evidence_and_scoring:
   - c1611_a3_boundary
   - c1611_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Negotiation action exceeded consent, authority, privacy, qualification, role, burden, or safety
-    boundaries.
-  - The evidence contradicted the intended Negotiation criterion, depended on coercion or hidden private
-    content, or could not distinguish the protocol from contextual change.
+  - The negotiator used guilt, confidential information or dependency to make refusal costly.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Negotiation explicitly; support can enable access and never reduces dignity or silently changes
     the typed value.
@@ -290,14 +342,23 @@ evidence_and_scoring:
     are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Negotiation rules withhold observations older than 90 days; no unrecorded retention
     or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Reaches a better agreement or principled refusal than reactive bargaining would produce.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Negotiation requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate positions from interests and alternatives. Observed checks:
+    Position interest constraint and alternative are separate; The other person’s interests remain hypotheses
+    until checked; A fair reference and an unacceptable leverage tactic are named; A genuine walk-away
+    condition exists before bargaining. Action 2: Ask, propose a trade and preserve the option to decline.
+    Observed checks: The other person’s stated interests inform the proposal; The package specifies time
+    conditions and responsibilities; Gains and concessions on both sides are explicit; A counterproposal
+    or refusal remains socially safe. Action 3: Confirm the agreement or carry out the principled refusal.
+    Observed checks: The final terms or refusal are stated unambiguously; Both people understand responsibilities
+    and change conditions; A refusal uses the alternative without retaliation; Agreement quality is distinguished
+    from later follow-through.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. The conversation ended with a vague compromise but
+    no terms, responsibilities or alternative.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Negotiation
     contribution under typed evaluation; protocol performance remains distinct and is never counted twice.
   canonical_lever_allocation: parent_competency_mapping
@@ -306,9 +367,8 @@ evidence_and_scoring:
   - L22
   - L23
   - L25
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Negotiation evidence.
@@ -316,10 +376,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The prepare a consent-safe negotiation interaction action was attempted or explicitly deferred.
-  - The practice one negotiation communication act action was attempted or explicitly deferred.
-  - The review negotiation without scoring the person action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Separate positions from interests and alternatives. Observed checks: Position interest
+    constraint and alternative are separate; The other person’s interests remain hypotheses until checked;
+    A fair reference and an unacceptable leverage tactic are named; A genuine walk-away condition exists
+    before bargaining.'
+  - 'Action 2: Ask, propose a trade and preserve the option to decline. Observed checks: The other person’s
+    stated interests inform the proposal; The package specifies time conditions and responsibilities;
+    Gains and concessions on both sides are explicit; A counterproposal or refusal remains socially safe.'
+  - 'Action 3: Confirm the agreement or carry out the principled refusal. Observed checks: The final terms
+    or refusal are stated unambiguously; Both people understand responsibilities and change conditions;
+    A refusal uses the alternative without retaliation; Agreement quality is distinguished from later
+    follow-through.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -328,54 +398,262 @@ completion_and_review:
     - c1611_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Negotiation only when the initial context remained safe, the
-    evidence criteria were usable, burden was acceptable, and a new context can be named without assuming
-    transfer.
-  transfer_limit: Three bounded actions do not establish Negotiation across roles, cultures, relationships,
-    seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which trade addressed the real interests, and what did your walk-away option prevent
+    you from agreeing to merely to end discomfort?
+  transfer_limit: Use a low-stakes voluntary arrangement, not legal settlement, employment leverage, essential
+    care, housing, debt collection or a power-imbalanced dispute.
   reflection:
-    before: What does Negotiation require in this exact context, what remains outside my role or authority,
-      and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Negotiation criterion is present, absent, mixed, or unknown, and are consent,
-      privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Reaches a better agreement or principled refusal than reactive
-      bargaining would produce.', what contradiction or missing context matters most, and should this
-      Negotiation design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Identify interests, constraints, alternatives
+      and fair trades before proposing an agreement, and distinguish a principled refusal from reactive
+      bargaining.'
+    during: Which checks have actually been observed? A package was accepted, but one person’s constraint
+      was still unclear, so the agreement remained provisional.
+    after: Which trade addressed the real interests, and what did your walk-away option prevent you from
+      agreeing to merely to end discomfort?
   review_guidance:
     repeat: Repeat the same bounded Negotiation design only when the context and burden remain appropriate.
-    adapt: Change the Negotiation medium, scope, support, timing, criteria, or context while preserving
-      provenance and the narrower evidence claim.
+    adapt: Use written proposals, more processing time or a neutral facilitator for a safe voluntary case.
+      Where rights, livelihood, legal obligations or coercion are involved, use qualified advice and the
+      appropriate formal process instead of this exercise.
     stop: Stop Negotiation when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Negotiation questions beyond this educational
-      source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Negotiation criteria were observed with provenance and no adverse boundary
-      signal in the selected context.
-    mixed: Some Negotiation criteria were observed while burden, support, contextual change, or a contradiction
-      limited the conclusion.
-    contradictory: The observed result opposed the intended Negotiation criterion, introduced harm or
-      coercion, or showed the design was not workable.
-    inconclusive: The Negotiation action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: The friends agreed on quiet preparation followed by shared work and both could explain
+      the interruption rule and review point.
+    mixed: A package was accepted, but one person’s constraint was still unclear, so the agreement remained
+      provisional.
+    contradictory: The negotiator used guilt, confidential information or dependency to make refusal costly.
+    inconclusive: The conversation ended with a vague compromise but no terms, responsibilities or alternative.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Negotiation.
+    context_heading: Negotiate a small shared arrangement with a genuine walk-away option
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Negotiation.
   check_in_labels:
-    c1611_a1_primary: The bounded Negotiation criterion for action 1 was observed
+    c1611_a1_primary: 'Observed checks: separate positions from interests and alternatives'
     c1611_a1_boundary: Action 1 stayed inside its stated Negotiation boundary
     c1611_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1611_a2_primary: The bounded Negotiation criterion for action 2 was observed
+    c1611_a2_primary: 'Observed checks: ask, propose a trade and preserve the option to decline'
     c1611_a2_boundary: Action 2 stayed inside its stated Negotiation boundary
     c1611_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1611_a3_primary: The bounded Negotiation criterion for action 3 was observed
+    c1611_a3_primary: 'Observed checks: confirm the agreement or carry out the principled refusal'
     c1611_a3_boundary: Action 3 stayed inside its stated Negotiation boundary
     c1611_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Negotiation practice,
-    including support, contradiction, defer, no result, or harm.
+  completion_copy: Which trade addressed the real interests, and what did your walk-away option prevent
+    you from agreeing to merely to end discomfort? Completion is not mastery.
+  plain_language_evidence: The friends agreed on quiet preparation followed by shared work and both could
+    explain the interruption rule and review point.
   display_order: 213
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '16.11'
+  title: 16.11 — Negotiate a workable package or choose a principled refusal
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [The 4 Components of Nonviolent Communication — Rosenberg framework teaching sheet](https://www.nonviolentcommunication.com/bookshare/4_components_of_NVC_4_rev_6.20.19.pdf)
+
+      - [Barrett et al. (2019), Emotional Expressions Reconsidered](https://pmc.ncbi.nlm.nih.gov/articles/PMC6640856/)
+
+      - [Publisher correction](https://journals.sagepub.com/doi/10.1177/1529100619889954)
+
+      - [Correction to Huang et al. (2017), It does not hurt to ask (2025)](https://pubmed.ncbi.nlm.nih.gov/40111841/)
+
+      - [Kluger and Malloy (2019), Question asking as a dyadic behavior](https://pubmed.ncbi.nlm.nih.gov/31714108/)
+
+      - [Eyal, Steffel and Epley (2018), Perspective mistaking](https://www.nicholasepley.com/publications)
+
+      - [GSA Digital.gov — Write for the reader](https://digital.gov/guides/plain-language/principles/write-for-reader)
+
+      - [W3C WAI — Making Events Accessible](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)
+
+      - [MIT OpenCourseWare — Giving and Receiving Feedback Activity, Christine Kelly course (2008)](https://ocw.mit.edu/courses/15-277-special-seminar-in-communications-leadership-and-personal-effectiveness-coaching-fall-2008/37362bb8a9db0e92731e53a1a2099373_guide_02.pdf)
+
+      - [Aristotle — Rhetoric, Book I, W. Rhys Roberts translation](https://classics.mit.edu/Aristotle/rhetoric.1.i.html)
+
+      - [Dahlstrom (2014), Using narratives and storytelling to communicate science with nonexpert audiences](https://pubmed.ncbi.nlm.nih.gov/25225368/)
+
+      - [MIT NSE Communication Lab — Delivery and Q&A](https://mitcommlab.mit.edu/nse/commkit/delivery-and-qa/)
+
+      - [Harvard HMS/HSDM/HSPH Ombuds — Seven Elements of Effective Negotiations, Jerome Slavik (2008)](https://hms.harvard.edu/sites/default/files/Departments/Ombuds%20Office/files/SEVEN%20ELEMENTS%20OF%20EFFECTIVE%20NEGOTIATIONS.pdf)
+
+      - [Harvard PON — BATNA Analysis Can Help You Avoid the Agreement Trap (2025)](https://www.pon.harvard.edu/daily/batna/too-eager-to-close-nb/)
+
+      - [Acas — Challenging conversations and how to manage them (July 2014)](https://www.acas.org.uk/sites/default/files/2021-04/challenging-conversations-and-how-to-manage-them.pdf)
+
+      - [Kant and Norman (2019), You Must Be Joking!](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.01380/full)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'With the original facts, quiet preparation from 14:00–14:30 followed by shared work from 14:30–15:45
+      gives A 30 quiet minutes and B 75 shared minutes. B leaves by 15:45; A may use the remaining room
+      time alone. Agree a visible end to the quiet interval and how either can request a change. This
+      is a feasible candidate, not automatic consent or observed follow-through.
+
+
+      Changed fictional fact: B now must leave at 15:00 and still needs at least 60 minutes of shared
+      work for today''s room plan to be worthwhile. After A''s initial 30 quiet minutes, only 30 shared
+      minutes remain. There is a 30-minute shortfall against B''s minimum. Splitting the quiet requirement
+      to 15 minutes would violate A''s stated constraint; extending the room would not solve B''s departure.
+
+
+      If neither freely revises a constraint, use separate plans and consider another day. Do not guilt
+      either friend into lowering a minimum to rescue agreement. State what changed and preserve the relationship
+      without punishment. Your written role-play result establishes case reasoning only; no actual booking,
+      consent or performance has occurred.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Negotiation is a joint search for terms that can serve interests within real constraints. Agreement
+      is one possible result; a reasoned refusal can be better than an arrangement that either person
+      cannot carry out. This practice uses two friends sharing a hobby room, with no money or binding
+      commitment. Allow fifteen minutes to prepare, a fifteen-minute voluntary role-play and ten minutes
+      for a recap. Do not use housing, livelihood, legal settlement, essential care or coercive dependency
+      as the practice case.
+
+
+      ### Know what you need and what you can do without a deal
+
+
+      A position states preferred terms: “I want the room quiet for the whole session.” An interest explains
+      the purpose: “I need uninterrupted preparation before I can work alongside someone.” A constraint
+      rules out some options: the room closes at 16:00. An alternative is what you can actually do if
+      no agreement is reached. BATNA means the best available alternative to a negotiated agreement; it
+      is not a threat, an imaginary option or a desired deal you have not secured.
+
+
+      A walk-away condition identifies terms you cannot accept. Fairness criteria help compare options
+      without making power the only rule: equal useful access, alternating preferred periods or a mutually
+      accepted allocation can each be relevant. Equal minutes are not always equal benefit. A package
+      trades across issues, such as quiet time, shared time and interruption rules, instead of splitting
+      every demand mechanically.
+
+
+      Harvard''s Ombuds teaching material separates interests, options, alternatives, legitimacy and implementation
+      commitments [S12](https://hms.harvard.edu/sites/default/files/Departments/Ombuds%20Office/files/SEVEN%20ELEMENTS%20OF%20EFFECTIVE%20NEGOTIATIONS.pdf).
+      This companion does not adopt its suggestion to worsen the other party''s alternative. The original
+      case instead preserves refusal without punishment. PON''s discussion of the agreement trap reinforces
+      comparing a deal with a feasible alternative [S13](https://www.pon.harvard.edu/daily/batna/too-eager-to-close-nb/);
+      no result from a business simulation guarantees a good outcome between friends.
+
+
+      ### Worked example: the display table
+
+
+      One friend wants a display table all morning to lay out work; the other wants it for a twenty-minute
+      photograph. Their positions appear incompatible until they identify the time-sensitive part. A package
+      allows setup first, a twenty-minute photo interval and then continued display, with a clear rule
+      about who moves items. Both compare this with using separate tables.
+
+
+      The package is useful only if space, time and handling permissions are real. “You can photograph
+      it later” does not work if daylight is unavailable then. A person may decline because moving fragile
+      work is unacceptable. That refusal is information about the options, not evidence that the friendship
+      lacks goodwill.
+
+
+      ### Your role cards: two hours in the hobby room
+
+
+      Shared facts: the room is available from 14:00 to 16:00, with no extension. Both people can work
+      separately at home at no cost. No one may commit the other person without agreement. This is a fictional
+      rehearsal; no booking occurs.
+
+
+      Role A: you need at least 30 uninterrupted minutes of quiet preparation at the start. Afterward
+      you would enjoy shared work. During preparation, headphones alone do not solve interruptions; you
+      need no conversation directed at you. Your alternative is to work at home, quietly, for the full
+      two hours. Your walk-away condition is a proposal that does not protect the initial 30 minutes or
+      requires staying beyond 16:00.
+
+
+      Role B: you want at least 60 minutes of shared working time, enjoy company and are willing to begin
+      with a quiet task. You must leave at 15:45. Your alternative is to work at home and arrange company
+      another day; today''s alternative does not provide company. You do not accept being responsible
+      for remembering A''s preparation time unless a visible agreed timer or written time boundary is
+      used. These preferences belong to the role, not a real person''s inferred mind.
+
+
+      1. **Prepare before making an offer.** Separate your position, interest, constraint, alternative
+      and walk-away condition. List two possible interests for the other person as hypotheses, then consult
+      their role card in rehearsal or ask them in a real willing exchange. Name a fairness reference and
+      one leverage tactic you will not use, such as making friendship conditional on assent. Output: a
+      preparation sheet that distinguishes feasible alternatives from wishful ones.
+
+      2. **Ask and build two packages.** Reflect the stated interests and propose exact times, an interruption
+      rule and responsibilities. Consider a second package or a separate-plan alternative rather than
+      demanding a midpoint. Explain gains and concessions for both people. Output: two compared options
+      with arithmetic and constraints visible.
+
+      3. **Confirm or refuse clearly.** Ask each person to restate the selected terms, who does what and
+      how a change can be requested. If a condition is not met, state the reason briefly and use the prepared
+      alternative without retaliation. Output: a plain-language agreement or refusal, with implementation
+      still unobserved.
+
+      4. **Open the [later packet](?resource=file-later-packet-md).** Recompute after a time constraint
+      changes. Do not keep a once-feasible package by silently relaxing the other person''s minimum or
+      adding nonexistent room time. Output: revised feasibility and chosen disposition.
+
+
+      ### What a better outcome means here
+
+
+      For the original facts, compare a package with reactive bargaining such as both insisting on the
+      full period. The comparison should name which interests are served, what remains sacrificed and
+      whether both can actually carry out the terms. Agreement quality and later follow-through are separate:
+      a confirmed plan does not prove the timer was used or the quiet interval respected.
+
+
+      For support, exchange written proposals, give processing time or use a mutually acceptable neutral
+      facilitator in a safe case. A person may prefer to state a constraint without its private reason.
+      For a harder attempt, a feasible alternative becomes unavailable. Reassess honestly rather than
+      pretending your leverage is unchanged. You may still decline an unsuitable agreement; an attractive
+      BATNA is not a condition of deserving respect.
+
+
+      For real transfer, choose a voluntary low-stakes shared arrangement and verify actual alternatives
+      and authority. Record the terms or principled refusal, then separately review follow-through at
+      the agreed time. Where rights, legal obligations or coercion arise, use the appropriate qualified
+      or formal process rather than expanding this rehearsal into advice. The [fresh checks](?attempt=practice-checks)
+      test whether you can recognize a respectful no-deal outcome as competent negotiation.'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A room is available 09:00–10:30. A needs the first 20 minutes quiet; B must leave at 10:00
+      and needs 45 shared minutes. Is quiet-then-shared feasible? Show the gap.
+
+      2. You list “use another venue” as your alternative, but have not checked whether it is available.
+      How should that affect your negotiation preparation?
+
+      3. Both sides clearly understand a proposed agreement, but one declines because it is worse than
+      their workable alternative. What distinguishes a principled refusal from a failed communication
+      or a threat?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Only 40 shared minutes remain from 09:20 to 10:00, so the package is 5 minutes short. The
+      room staying open later does not change B''s departure. Seek a genuinely revised option or decline;
+      do not describe the arithmetic as a fair compromise that meets both minima.
+
+      2. It is a possible alternative, not a verified available one. Check access, timing, costs and authority
+      before relying on it. If it cannot be verified, retain that uncertainty and consider another feasible
+      route rather than bluffing about guaranteed access.
+
+      3. The refusal names the unmet interest or constraint and uses an actual alternative without imposing
+      punishment. Clear understanding and no agreement can coexist. A threat instead tries to make refusal
+      costly through an imposed adverse consequence; neither comprehension nor affection obligates acceptance.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

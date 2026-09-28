@@ -1,0 +1,285 @@
+bringing up nodes...
+bringing up nodes...
+
+..............................................F......................... [  3%]
+........................................................................ [  7%]
+........................................................................ [ 11%]
+........................................................................ [ 15%]
+........................................................................ [ 19%]
+........................................................................ [ 22%]
+........................................................................ [ 26%]
+........................................................................ [ 30%]
+........................................................................ [ 34%]
+......................F................................................. [ 38%]
+........................................................................ [ 41%]
+........................................................................ [ 45%]
+..................F..................................................... [ 49%]
+...............F........................................................ [ 53%]
+.....................F........................F......................... [ 57%]
+........................................................................ [ 60%]
+........................................................................ [ 64%]
+...........................F.....
+=================================== FAILURES ===================================
+___________ test_m6d_cohort_safety_privacy_boundaries_are_permanent ____________
+[gw3] linux -- Python 3.13.14 /home/kbianco/gitg-self-host/.venv/bin/python
+
+    def test_m6d_cohort_safety_privacy_boundaries_are_permanent():
+        from growth.services import m6d_authoring_readiness as readiness
+    
+        catalog = deepcopy(load_practice_content_bundle(settings.BASE_DIR))
+        protocol = next(
+            item for item in catalog.protocols if item["stable_id"] == "PRACTICE-HOME-UPKEEP-SYSTEM-01"
+        )
+    
+        def remove_term(value):
+            if isinstance(value, str):
+                return value.replace("mold", "excluded hazard").replace("Mold", "Excluded hazard")
+            if isinstance(value, list):
+                return [remove_term(item) for item in value]
+            if isinstance(value, dict):
+                return {key: remove_term(item) for key, item in value.items()}
+            return value
+    
+        protocol.update(remove_term(protocol))
+    
+        with pytest.raises(M6DAuthoringReadinessError, match="boundary terms are missing: mold"):
+>           readiness._verify_cohort(catalog)
+
+tests/test_m6d_authoring_readiness.py:151: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+practices = PracticeContentBundle(protocols=({'schema_version': 'GG-PRACTICE-CONTENT-1.0', 'protocol_version': '0.2.0', 'stable_id... ['Compare each saved response with its matching explanation; keep revisions separate from your initial attempt.']}]}})
+
+    def _verify_cohort(practices) -> None:
+        protocols = {protocol["stable_id"]: protocol for protocol in practices.protocols}
+        expected_ids = {member.protocol_stable_id for member in M6D_COHORT}
+        typed_protocol_ids = {
+            protocol["stable_id"]
+            for protocol in practices.protocols
+            if protocol["evidence_and_scoring"]["observation_contract_version"]
+            == TYPED_EVIDENCE_RULES_VERSION
+        }
+        missing_typed_ids = expected_ids - typed_protocol_ids
+        if missing_typed_ids:
+            raise M6DAuthoringReadinessError(
+                "M6D-01 typed protocol IDs are missing: " + ", ".join(sorted(missing_typed_ids)) + "."
+            )
+        for member in M6D_COHORT:
+            protocol = protocols.get(member.protocol_stable_id)
+            if protocol is None:
+                raise M6DAuthoringReadinessError(
+                    f"M6D-01 protocol is missing: {member.protocol_stable_id}."
+                )
+            governance = protocol["governance"]
+            actions = protocol["intervention"]["actions"]
+            activation = practices.activation_entries.get(member.protocol_stable_id)
+            _require_equal(
+                f"{member.protocol_stable_id} parent competency",
+                protocol["parent_competency_id"],
+                member.competency_id,
+            )
+            _require_equal(
+                f"{member.protocol_stable_id} domain", protocol["domain_id"], member.domain_id
+            )
+            _require_equal(
+                f"{member.protocol_stable_id} family",
+                protocol["intervention"]["protocol_class"],
+                member.protocol_family_id,
+            )
+            _require_equal(
+                f"{member.protocol_stable_id} recommendation targets",
+                tuple(sorted(protocol["evidence_and_scoring"]["recommendation_target_lever_ids"])),
+                member.recommendation_target_lever_ids,
+            )
+            _require_equal(
+                f"{member.protocol_stable_id} action count", len(actions), member.action_count
+            )
+            expected_action_ids = tuple(
+                f"{member.protocol_stable_id}-A{sequence}"
+                for sequence in range(1, member.action_count + 1)
+            )
+            _require_equal(
+                f"{member.protocol_stable_id} action IDs",
+                tuple(action["stable_id"] for action in actions),
+                expected_action_ids,
+            )
+            _require_equal(
+                f"{member.protocol_stable_id} governance risk class",
+                governance["risk_class_id"],
+                "RISK-LOW",
+            )
+            _require_equal(
+                f"{member.protocol_stable_id} owner-directed runtime governance",
+                (
+                    governance["availability"],
+                    governance["editorial_status"],
+                    governance["runtime_projection"],
+                    governance["scoring_policy_id"],
+                    governance["scoring_status"],
+                ),
+                (
+                    "active",
+                    "draft",
+                    "GG-PRACTICE-RUNTIME-PROJECTION-2.0",
+                    "SP-STRUCTURED-EVIDENCE-ELIGIBLE",
+                    "active",
+                ),
+            )
+            if activation is None:
+                raise M6DAuthoringReadinessError(
+                    f"M6D-01 activation entry is missing: {member.protocol_stable_id}."
+                )
+            _require_equal(
+                f"{member.protocol_stable_id} active activation",
+                (
+                    activation["scoring_policy_id"],
+                    activation["score_active"],
+                    activation["activation_status"],
+                    activation["approved_contract"],
+                ),
+                (
+                    "SP-STRUCTURED-EVIDENCE-ELIGIBLE",
+                    True,
+                    "active",
+                    "GG-SCORE-STATE-1.0",
+                ),
+            )
+            serialized_protocol = json.dumps(protocol, ensure_ascii=False).lower()
+            missing_boundary_terms = sorted(
+                term
+                for term in _REQUIRED_SAFETY_PRIVACY_TERMS[member.protocol_stable_id]
+                if term not in serialized_protocol
+            )
+            if missing_boundary_terms:
+>               raise M6DAuthoringReadinessError(
+                    f"{member.protocol_stable_id} safety/privacy boundary terms are missing: "
+                    + ", ".join(missing_boundary_terms)
+                    + "."
+                )
+E               growth.services.m6d_authoring_readiness.M6DAuthoringReadinessError: PRACTICE-DECISION-RECORD-01 safety/privacy boundary terms are missing: legal privilege.
+
+growth/services/m6d_authoring_readiness.py:370: M6DAuthoringReadinessError
+
+During handling of the above exception, another exception occurred:
+
+    def test_m6d_cohort_safety_privacy_boundaries_are_permanent():
+        from growth.services import m6d_authoring_readiness as readiness
+    
+        catalog = deepcopy(load_practice_content_bundle(settings.BASE_DIR))
+        protocol = next(
+            item for item in catalog.protocols if item["stable_id"] == "PRACTICE-HOME-UPKEEP-SYSTEM-01"
+        )
+    
+        def remove_term(value):
+            if isinstance(value, str):
+                return value.replace("mold", "excluded hazard").replace("Mold", "Excluded hazard")
+            if isinstance(value, list):
+                return [remove_term(item) for item in value]
+            if isinstance(value, dict):
+                return {key: remove_term(item) for key, item in value.items()}
+            return value
+    
+        protocol.update(remove_term(protocol))
+    
+>       with pytest.raises(M6DAuthoringReadinessError, match="boundary terms are missing: mold"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E        Regex: 'boundary terms are missing: mold'
+E        Input: 'PRACTICE-DECISION-RECORD-01 safety/privacy boundary terms are missing: legal privilege.'
+
+tests/test_m6d_authoring_readiness.py:150: AssertionError
+______ test_cohort_reaches_runtime_with_preserved_identity_and_completion ______
+[gw3] linux -- Python 3.13.14 /home/kbianco/gitg-self-host/.venv/bin/python
+
+    def test_cohort_reaches_runtime_with_preserved_identity_and_completion():
+        selected = load_exercises(ROOT)
+        bundle = load_practice_content_bundle(ROOT)
+        canonical = {row["parent_competency_id"]: row for row in bundle.protocols}
+        runtime = {row["parent_competency_id"]: row for row in bundle.runtime_protocols}
+    
+>       assert len(selected) == 108
+E       AssertionError: assert 378 == 108
+E        +  where 378 = len({'01.01': {'actions': [{'checks': ['Three distinct reasons are explained', 'Each account has a genuine limitation', 'T...ve': 'A prior promise took precedence over optional income, with an explicit essential-expense exception.'}, ...}, ...})
+
+tests/test_m6k_guided_learning.py:26: AssertionError
+______ test_cohort_reaches_runtime_with_preserved_identity_and_completion ______
+[gw3] linux -- Python 3.13.14 /home/kbianco/gitg-self-host/.venv/bin/python
+
+    def test_cohort_reaches_runtime_with_preserved_identity_and_completion():
+        selected = load_exercises(ROOT)
+        bundle = load_practice_content_bundle(ROOT)
+        canonical = {row["parent_competency_id"]: row for row in bundle.protocols}
+        runtime = {row["parent_competency_id"]: row for row in bundle.runtime_protocols}
+    
+>       assert len(selected) == 108
+E       AssertionError: assert 378 == 108
+E        +  where 378 = len({'01.01': {'actions': [{'checks': ['Three distinct reasons are explained', 'Each account has a genuine limitation', 'T...ve': 'A prior promise took precedence over optional income, with an explicit essential-expense exception.'}, ...}, ...})
+
+tests/test_m6k_independent_teaching_breadth.py:25: AssertionError
+__ test_inquiry_cohort_reaches_runtime_with_preserved_identity_and_completion __
+[gw3] linux -- Python 3.13.14 /home/kbianco/gitg-self-host/.venv/bin/python
+
+    def test_inquiry_cohort_reaches_runtime_with_preserved_identity_and_completion():
+        selected = load_exercises(ROOT)
+        bundle = load_practice_content_bundle(ROOT)
+        canonical = {row["parent_competency_id"]: row for row in bundle.protocols}
+        runtime = {row["parent_competency_id"]: row for row in bundle.runtime_protocols}
+    
+>       assert len(selected) == 108
+E       AssertionError: assert 378 == 108
+E        +  where 378 = len({'01.01': {'actions': [{'checks': ['Three distinct reasons are explained', 'Each account has a genuine limitation', 'T...ve': 'A prior promise took precedence over optional income, with an explicit essential-expense exception.'}, ...}, ...})
+
+tests/test_m6k_inquiry_notes.py:25: AssertionError
+_ test_three_real_projections_preserve_identity_completion_and_retained_rules __
+[gw3] linux -- Python 3.13.14 /home/kbianco/gitg-self-host/.venv/bin/python
+
+    def test_three_real_projections_preserve_identity_completion_and_retained_rules():
+        bundle = load_practice_content_bundle(ROOT)
+        selected = load_exercises(ROOT)
+        runtime = {p["parent_competency_id"]: p for p in bundle.runtime_protocols}
+        canonical = {p["parent_competency_id"]: p for p in bundle.protocols}
+>       assert len(selected) == 108 and len(runtime) == 383
+E       AssertionError: assert (378 == 108)
+E        +  where 378 = len({'01.01': {'actions': [{'checks': ['Three distinct reasons are explained', 'Each account has a genuine limitation', 'T...ve': 'A prior promise took precedence over optional income, with an explicit essential-expense exception.'}, ...}, ...})
+
+tests/test_m6k_learning_craft.py:24: AssertionError
+__ test_learning_loop_reaches_runtime_with_preserved_identity_and_completion ___
+[gw3] linux -- Python 3.13.14 /home/kbianco/gitg-self-host/.venv/bin/python
+
+    def test_learning_loop_reaches_runtime_with_preserved_identity_and_completion():
+        selected = load_exercises(ROOT)
+        bundle = load_practice_content_bundle(ROOT)
+        canonical = {row["parent_competency_id"]: row for row in bundle.protocols}
+        runtime = {row["parent_competency_id"]: row for row in bundle.runtime_protocols}
+    
+>       assert len(selected) == 108
+E       AssertionError: assert 378 == 108
+E        +  where 378 = len({'01.01': {'actions': [{'checks': ['Three distinct reasons are explained', 'Each account has a genuine limitation', 'T...ve': 'A prior promise took precedence over optional income, with an explicit essential-expense exception.'}, ...}, ...})
+
+tests/test_m6k_learning_loop.py:25: AssertionError
+____ test_physical_capacity_cohort_reaches_runtime_with_preserved_identity _____
+[gw1] linux -- Python 3.13.14 /home/kbianco/gitg-self-host/.venv/bin/python
+
+    def test_physical_capacity_cohort_reaches_runtime_with_preserved_identity():
+        selected = load_exercises(ROOT)
+        bundle = load_practice_content_bundle(ROOT)
+        canonical = {row["parent_competency_id"]: row for row in bundle.protocols}
+        runtime = {row["parent_competency_id"]: row for row in bundle.runtime_protocols}
+    
+>       assert len(selected) == 108
+E       AssertionError: assert 378 == 108
+E        +  where 378 = len({'01.01': {'actions': [{'checks': ['Three distinct reasons are explained', 'Each account has a genuine limitation', 'T...ve': 'A prior promise took precedence over optional income, with an explicit essential-expense exception.'}, ...}, ...})
+
+tests/test_m6k_physical_capacity.py:25: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_m6d_authoring_readiness.py::test_m6d_cohort_safety_privacy_boundaries_are_permanent
+FAILED tests/test_m6k_guided_learning.py::test_cohort_reaches_runtime_with_preserved_identity_and_completion
+FAILED tests/test_m6k_independent_teaching_breadth.py::test_cohort_reaches_runtime_with_preserved_identity_and_completion
+FAILED tests/test_m6k_inquiry_notes.py::test_inquiry_cohort_reaches_runtime_with_preserved_identity_and_completion
+FAILED tests/test_m6k_learning_craft.py::test_three_real_projections_preserve_identity_completion_and_retained_rules
+FAILED tests/test_m6k_learning_loop.py::test_learning_loop_reaches_runtime_with_preserved_identity_and_completion
+FAILED tests/test_m6k_physical_capacity.py::test_physical_capacity_cohort_reaches_runtime_with_preserved_identity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KeyboardInterrupt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/home/kbianco/.local/share/uv/python/cpython-3.13.14-linux-x86_64-gnu/lib/python3.13/threading.py:363: KeyboardInterrupt
+(to show a full traceback on KeyboardInterrupt use --full-trace)
+7 failed, 1250 passed in 909.92s (0:15:09)

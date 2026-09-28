@@ -76,7 +76,7 @@ def test_prompt_and_key_are_absent_until_explicitly_requested():
     assert "UNSEEN_INPUT" in attempt and "ANSWER_ONLY" not in attempt
     assert "TEACHING_ONLY" not in attempt
     assert "ANSWER_ONLY" in checked and "UNSEEN_INPUT" in checked
-    with pytest.raises(ValueError, match="not both"):
+    with pytest.raises(ValueError, match="only one"):
         learner_projection(guide, "01.04", attempt="attempt", check="key")
 
 
@@ -115,6 +115,7 @@ def test_undeclared_keys_scoring_or_metadata_fields_are_rejected(defect):
 def test_compiler_round_trip_preserves_action_and_completion_rules():
     bundle = load_practice_content_bundle(ROOT)
     package = next(p for p in bundle.protocols if p["parent_competency_id"] == "01.04")
+    original = copy.deepcopy(package)
     exercise = copy.deepcopy(load_exercises(ROOT)["01.04"])
     exercise["instructional_content"] = sample_guide()
     projected = apply_exercise(package, exercise)
@@ -123,7 +124,8 @@ def test_compiler_round_trip_preserves_action_and_completion_rules():
     assert runtime["setup_copy"]["instructional_content"] == sample_guide()
     assert reloaded["intervention"]["actions"] == package["intervention"]["actions"]
     assert reloaded["completion_and_review"] == package["completion_and_review"]
-    assert "instructional_content" not in package
+    assert package == original
+    assert package["instructional_content"] != sample_guide()
 
 
 @pytest.mark.django_db
@@ -194,12 +196,11 @@ def test_manifest_bound_typed_and_frozen_guides_preserve_legacy_runtime(tmp_path
     package["instructional_content"] = sample_guide()
     package_path.write_text(yaml.safe_dump(package))
     path = root / "registries/guides/0802.yaml"
-    path.parent.mkdir(parents=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(yaml.safe_dump(sample_guide("08.02")))
     manifest_path = root / "release_manifest.yaml"
     manifest = yaml.safe_load(manifest_path.read_text())
-    manifest["instructional_guide_files"] = ["registries/guides/0802.yaml"]
-    manifest["content_files"].append("registries/guides/0802.yaml")
+    assert "registries/guides/0802.yaml" in manifest["instructional_guide_files"]
     manifest["content_hash"] = _canonical_content_hash(
         [root / p for p in manifest["content_files"]], root, manifest
     )

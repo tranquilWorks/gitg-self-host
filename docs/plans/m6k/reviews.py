@@ -209,6 +209,7 @@ def snapshot(root, cid, canonical, exercise, *, packages_by_id=None):
     renderer = [
         root / "growth/domain/instructional_content.py",
         root / "growth/views_instructional.py",
+        root / "growth/templatetags/instructional.py",
         root / "data/practices/schema/instructional_content_v1.schema.json",
         root / "templates/growth/practice_guide.html",
         root / "templates/growth/partials/instructional_link.html",
@@ -227,6 +228,12 @@ def snapshot(root, cid, canonical, exercise, *, packages_by_id=None):
     if packages_by_id is not None:
         packages = [packages_by_id[cid]]
     require(len(packages) == 1, f"Expected one runtime package for {cid}.")
+    learner_guide = packages[0].get("instructional_content")
+    companion_path = root / "data/practices/registries/guides" / f"{cid.replace('.', '')}.yaml"
+    if companion_path.exists():
+        require(learner_guide is None, f"Ambiguous learner guide for {cid}.")
+        learner_guide = load_document(companion_path)
+        require(learner_guide.get("competency_id") == cid, "Foreign companion guide.")
     scope = {k: exercise.get(k) for k in ("goal", "scope_note", "adaptation")}
     return {
         "canonical": fingerprint(canonical),
@@ -234,7 +241,9 @@ def snapshot(root, cid, canonical, exercise, *, packages_by_id=None):
         "instruction": fingerprint(
             {k: v for k, v in exercise.items() if k != "instructional_content"}
         ),
-        "materials": fingerprint(exercise.get("instructional_content")),
+        "materials": fingerprint(
+            {"authored": exercise.get("instructional_content"), "learner_guide": learner_guide}
+        ),
         "renderer": fingerprint(
             {str(p.relative_to(root)): hashlib.sha256(p.read_bytes()).hexdigest() for p in renderer}
         ),

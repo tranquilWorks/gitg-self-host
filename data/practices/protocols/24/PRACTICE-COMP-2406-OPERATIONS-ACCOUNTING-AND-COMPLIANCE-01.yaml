@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2406-OPERATIONS-ACCOUNTING-AND-COMPLIANCE-01
 slug: c2406-operations-accounting-and-compliance-practice
-name: Bounded Operations, accounting, and compliance Practice
+name: Make a small service handoff inspectable from order to record
 parent_competency_id: '24.06'
 domain_id: '24'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 24.06
-      (Operations, accounting, and compliance); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 24.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Operations, accounting, and compliance through a qualified-support preparation bounded
-    by the canonical scope: Build reliable delivery, records, controls, taxes, contracts, quality, privacy,
-    and regulatory compliance.'
-  why_recommended: 'The parent competency identifies this limited evidence target: A small operation can
-    be inspected and continued without hidden chaos. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Create a repeatable delivery and record path with clear approvals, quality checks and compliance
+    questions so another authorized person can understand what happened.
+  why_recommended: Create a repeatable delivery and record path with clear approvals, quality checks and
+    compliance questions so another authorized person can understand what happened.
   claims:
-  - statement: Using the canonical scope and evidence target for Operations, accounting, and compliance
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Create a repeatable delivery and record path with clear approvals, quality checks and compliance
+      questions so another authorized person can understand what happened.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Operations, accounting, and compliance practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Operations, accounting, and compliance as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Operations, accounting,
-    and compliance context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Operations,
-    accounting, and compliance; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use accessible forms, voice records or a paper folder with the same minimal
+    fields. A sole operator can use delayed self-review but should label independence limits. Do not process
+    actual payments, sign terms, collect sensitive customer data or perform licensed work as a test.
+  opportunity_considerations: Use a fictional approved event-notice order for 50 due on Friday. Prepare
+    an order code, approved source text, scope and price, owner, delivery date, quality checklist, invoice
+    or receipt example, correction log and retention decision. Use no actual customer identity, payment
+    details or regulated service.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Operations, accounting, and compliance.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use a fictional approved event-notice order for 50 due on Friday. Prepare an order code, approved
+    source text, scope and price, owner, delivery date, quality checklist, invoice or receipt example,
+    correction log and retention decision. Use no actual customer identity, payment details or regulated
+    service.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Operations, accounting, and compliance
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use accessible forms, voice records or a paper folder with the same minimal fields. A sole operator
+    can use delayed self-review but should label independence limits. Do not process actual payments,
+    sign terms, collect sensitive customer data or perform licensed work as a test.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Operations, accounting, and compliance actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Operations, accounting, and compliance; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Operations,
-    accounting, and compliance. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Operations, accounting, and compliance
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a fictional approved event-notice order for 50 due on Friday. Prepare an order code, approved
+    source text, scope and price, owner, delivery date, quality checklist, invoice or receipt example,
+    correction log and retention decision. Use no actual customer identity, payment details or regulated
+    service. Goal: Create a repeatable delivery and record path with clear approvals, quality checks and
+    compliance questions so another authorized person can understand what happened. Scope: A fictional
+    order packet is an operations rehearsal, not a registered enterprise, tax filing, contract drafted
+    for use or certification of legal compliance. Time and effort: Forty minutes to build the packet and
+    twenty minutes for an independent walkthrough. Adaptation: Use accessible forms, voice records or
+    a paper folder with the same minimal fields. A sole operator can use delayed self-review but should
+    label independence limits. Do not process actual payments, sign terms, collect sensitive customer
+    data or perform licensed work as a test. Keep personal working notes outside the check-in; record
+    only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use accessible forms, voice records or a paper folder with the same minimal fields.
+    A sole operator can use delayed self-review but should label independence limits. Do not process actual
+    payments, sign terms, collect sensitive customer data or perform licensed work as a test.
+  expected_burden: Forty minutes to build the packet and twenty minutes for an independent walkthrough.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Operations, accounting, and compliance protocol to rank worth, coerce participation, demand
@@ -101,20 +108,26 @@ intervention:
   - Treating a completed Operations, accounting, and compliance action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Operations, accounting, and compliance situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Business and economic education only; legal, tax, securities, employment, and regulatory questions
-    require qualified advice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use accessible
+    forms, voice records or a paper folder with the same minimal fields. A sole operator can use delayed
+    self-review but should label independence limits. Do not process actual payments, sign terms, collect
+    sensitive customer data or perform licensed work as a test.
   actions:
   - stable_id: PRACTICE-COMP-2406-OPERATIONS-ACCOUNTING-AND-COMPLIANCE-01-A1
     sequence: 1
-    title: Bound the qualified question for Operations, accounting, and compliance
-    instructions: 'Turn Operations, accounting, and compliance into one educational or planning question
-      and identify the qualification and jurisdiction needed to answer it. Use the canonical scope to
-      separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Build reliable delivery, records, controls, taxes, contracts,
-      quality, privacy, and regulatory compliance.'
+    title: Define the order and the applicable unanswered obligations
+    instructions: 'Write what will be delivered, what is excluded, who approves facts, when payment is
+      due and what happens if the requester changes the scope. Make a short register of local questions
+      about business registration, tax, employment, consumer terms, accessibility, privacy and any sector-specific
+      permission. Assign each to an official source or qualified adviser rather than marking it compliant
+      because a template exists. Record how long the fictional packet should be retained and who may see
+      it.
+
+
+      Observation checks: Scope price approval and payment terms are explicit; Change handling and delivery
+      ownership are defined; Each compliance topic has a verification route rather than an assumed answer;
+      Access and retention are decided before creating more records. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +149,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2406_a1_question_bounded
-        - c2406_a1_qualification_named
-        - c2406_a1_professional_boundary_explicit
+        - scope_price_approval_and_payment_terms_are_explicit
+        - change_handling_and_delivery_ownership_are_defined
+        - each_compliance_topic_has_a_verification_route_rather_than_an_assumed_answer
+        - access_and_retention_are_decided_before_creating_more_records
       - measurement_id: c2406_a1_boundary
         kind: boolean
         role: supporting
@@ -155,12 +169,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2406-OPERATIONS-ACCOUNTING-AND-COMPLIANCE-01-A2
     sequence: 2
-    title: Prepare minimum information for Operations, accounting, and compliance
-    instructions: Create a privacy-minimized Operations, accounting, and compliance consultation note
-      containing only the question, relevant category-level facts, current constraints, and desired decision.
-      Omit diagnoses, allegations, account numbers, credentials, protected work information, intimate
-      detail, and third-party identity unless a qualified professional lawfully requires it through an
-      appropriate channel.
+    title: Run one synthetic order through the whole workflow
+    instructions: 'Produce the notice from the approved text, check time, place, access instructions and
+      contact accuracy, and mark approval before release. Create an invoice or receipt labeled synthetic
+      and a record of whether payment is due or received. Introduce a corrected time as a test change,
+      retain the superseded version internally and issue a clear replacement. Do not erase the correction
+      or expose unnecessary customer information to make the packet seem thorough.
+
+
+      Observation checks: The output is checked against approved source information; Approval precedes
+      the simulated release; Due and received payments are not conflated; A correction remains traceable
+      without unnecessary private data. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -182,9 +202,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2406_a2_minimum_information_only
-        - c2406_a2_sensitive_detail_excluded
-        - c2406_a2_decision_need_named
+        - the_output_is_checked_against_approved_source_information
+        - approval_precedes_the_simulated_release
+        - due_and_received_payments_are_not_conflated
+        - a_correction_remains_traceable_without_unnecessary_private_data
       - measurement_id: c2406_a2_boundary
         kind: boolean
         role: supporting
@@ -201,11 +222,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2406-OPERATIONS-ACCOUNTING-AND-COMPLIANCE-01-A3
     sequence: 3
-    title: Record a bounded Operations, accounting, and compliance disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: A small operation can be inspected and continued without hidden chaos.'
+    title: Have another reader reconstruct the order without rescue
+    instructions: 'Ask a willing reader, or perform a separated self-review after a break, to identify
+      the current version, approval, amount due, delivery status and unresolved obligation. Let them use
+      the packet without verbal hints. Fix the first ambiguity and repeat the affected question. State
+      which real professional checks would still be needed before operating this service; a readable packet
+      is only one part of lawful and reliable delivery.
+
+
+      Observation checks: Five operational facts are recoverable from the packet; The walkthrough occurs
+      without author coaching; A concrete ambiguity is corrected and retested; Unverified compliance remains
+      open despite a successful workflow rehearsal. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Could someone continue or audit the order from the records alone, and which missing
+      authority or compliance check still prevents real operation?
+
+
+      Examples: Supportive: The reader found the corrected notice and unpaid invoice without help, while
+      a local tax-registration question stayed explicitly open.
+
+
+      Mixed: The order could be delivered but the approval trail was ambiguous and required a clearer
+      version marker.
+
+
+      Contradictory: A template was treated as proof of compliance or a correction was deleted to hide
+      an error.
+
+
+      Inconclusive: A checklist existed without a completed synthetic order, traceable records or a reconstruction
+      test.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -221,14 +269,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2406_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c2406_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - five_operational_facts_are_recoverable_from_the_packet
+        - the_walkthrough_occurs_without_author_coaching
+        - a_concrete_ambiguity_is_corrected_and_retested
+        - unverified_compliance_remains_open_despite_a_successful_workflow_rehearsal
       - measurement_id: c2406_a3_boundary
         kind: boolean
         role: supporting
@@ -249,17 +299,17 @@ intervention:
       Operations, accounting, and compliance; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Operations, accounting, and compliance; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use accessible forms, voice records or a paper folder with the same minimal fields. A sole operator
+      can use delayed self-review but should label independence limits. Do not process actual payments,
+      sign terms, collect sensitive customer data or perform licensed work as a test.
     cultural_context:
     - Adapt the expression of Operations, accounting, and compliance to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Operations, accounting, and compliance opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use accessible forms, voice records or a paper folder with the same minimal fields. A sole operator
+      can use delayed self-review but should label independence limits. Do not process actual payments,
+      sign terms, collect sensitive customer data or perform licensed work as a test.
   pause_conditions:
   - Pause Operations, accounting, and compliance when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -291,10 +341,7 @@ evidence_and_scoring:
   - c2406_a3_boundary
   - c2406_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Operations, accounting, and compliance action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Operations, accounting, and compliance criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A template was treated as proof of compliance or a correction was deleted to hide an error.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Operations, accounting, and compliance explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -305,14 +352,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Operations, accounting, and compliance rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—A small operation can be inspected and continued without hidden chaos.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Operations, accounting, and compliance requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Define the order and the applicable unanswered obligations. Observed
+    checks: Scope price approval and payment terms are explicit; Change handling and delivery ownership
+    are defined; Each compliance topic has a verification route rather than an assumed answer; Access
+    and retention are decided before creating more records. Action 2: Run one synthetic order through
+    the whole workflow. Observed checks: The output is checked against approved source information; Approval
+    precedes the simulated release; Due and received payments are not conflated; A correction remains
+    traceable without unnecessary private data. Action 3: Have another reader reconstruct the order without
+    rescue. Observed checks: Five operational facts are recoverable from the packet; The walkthrough occurs
+    without author coaching; A concrete ambiguity is corrected and retested; Unverified compliance remains
+    open despite a successful workflow rehearsal.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A checklist existed without a completed synthetic order,
+    traceable records or a reconstruction test.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Operations,
     accounting, and compliance contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -323,9 +379,8 @@ evidence_and_scoring:
   - L22
   - L31
   - L32
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Operations, accounting, and compliance evidence.
@@ -333,12 +388,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for operations, accounting, and compliance action was attempted or
-    explicitly deferred.
-  - The prepare minimum information for operations, accounting, and compliance action was attempted or
-    explicitly deferred.
-  - The record a bounded operations, accounting, and compliance disposition action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Define the order and the applicable unanswered obligations. Observed checks: Scope price
+    approval and payment terms are explicit; Change handling and delivery ownership are defined; Each
+    compliance topic has a verification route rather than an assumed answer; Access and retention are
+    decided before creating more records.'
+  - 'Action 2: Run one synthetic order through the whole workflow. Observed checks: The output is checked
+    against approved source information; Approval precedes the simulated release; Due and received payments
+    are not conflated; A correction remains traceable without unnecessary private data.'
+  - 'Action 3: Have another reader reconstruct the order without rescue. Observed checks: Five operational
+    facts are recoverable from the packet; The walkthrough occurs without author coaching; A concrete
+    ambiguity is corrected and retested; Unverified compliance remains open despite a successful workflow
+    rehearsal.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -347,58 +410,317 @@ completion_and_review:
     - c2406_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Operations, accounting, and compliance only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Operations, accounting, and compliance across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Could someone continue or audit the order from the records alone, and which missing
+    authority or compliance check still prevents real operation?
+  transfer_limit: A fictional order packet is an operations rehearsal, not a registered enterprise, tax
+    filing, contract drafted for use or certification of legal compliance.
   reflection:
-    before: What does Operations, accounting, and compliance require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Operations, accounting, and compliance criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'A small operation can be inspected and continued without hidden
-      chaos.', what contradiction or missing context matters most, and should this Operations, accounting,
-      and compliance design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Create a repeatable delivery and record path
+      with clear approvals, quality checks and compliance questions so another authorized person can understand
+      what happened.'
+    during: Which checks have actually been observed? The order could be delivered but the approval trail
+      was ambiguous and required a clearer version marker.
+    after: Could someone continue or audit the order from the records alone, and which missing authority
+      or compliance check still prevents real operation?
   review_guidance:
     repeat: Repeat the same bounded Operations, accounting, and compliance design only when the context
       and burden remain appropriate.
-    adapt: Change the Operations, accounting, and compliance medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use accessible forms, voice records or a paper folder with the same minimal fields. A sole
+      operator can use delayed self-review but should label independence limits. Do not process actual
+      payments, sign terms, collect sensitive customer data or perform licensed work as a test.
     stop: Stop Operations, accounting, and compliance when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Operations, accounting, and compliance
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Operations, accounting, and compliance criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Operations, accounting, and compliance criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Operations, accounting, and compliance criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Operations, accounting, and compliance action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The reader found the corrected notice and unpaid invoice without help, while a local tax-registration
+      question stayed explicitly open.
+    mixed: The order could be delivered but the approval trail was ambiguous and required a clearer version
+      marker.
+    contradictory: A template was treated as proof of compliance or a correction was deleted to hide an
+      error.
+    inconclusive: A checklist existed without a completed synthetic order, traceable records or a reconstruction
+      test.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Operations, accounting, and compliance.
+    context_heading: Make a small service handoff inspectable from order to record
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Operations,
       accounting, and compliance.
   check_in_labels:
-    c2406_a1_primary: The bounded Operations, accounting, and compliance criterion for action 1 was observed
+    c2406_a1_primary: 'Observed checks: define the order and the applicable unanswered obligations'
     c2406_a1_boundary: Action 1 stayed inside its stated Operations, accounting, and compliance boundary
     c2406_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2406_a2_primary: The bounded Operations, accounting, and compliance criterion for action 2 was observed
+    c2406_a2_primary: 'Observed checks: run one synthetic order through the whole workflow'
     c2406_a2_boundary: Action 2 stayed inside its stated Operations, accounting, and compliance boundary
     c2406_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2406_a3_primary: The bounded Operations, accounting, and compliance criterion for action 3 was observed
+    c2406_a3_primary: 'Observed checks: have another reader reconstruct the order without rescue'
     c2406_a3_boundary: Action 3 stayed inside its stated Operations, accounting, and compliance boundary
     c2406_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Operations, accounting,
-    and compliance practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Could someone continue or audit the order from the records alone, and which missing
+    authority or compliance check still prevents real operation? Completion is not mastery.
+  plain_language_evidence: The reader found the corrected notice and unpaid invoice without help, while
+    a local tax-registration question stayed explicitly open.
   display_order: 334
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '24.06'
+  title: 24.06 — Operations, accounting, and compliance
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Tips for managing family lending and borrowing](https://www.consumerfinance.gov/consumer-tools/educator-tools/adult-financial-education/tips-for-managing-family-lending-and-borrowing/)
+
+      - [Creating a cash flow budget](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_cash_flow_budget_tool_2018-11_ADA.pdf)
+
+      - [Talking to your child about financial decisions](https://www.consumerfinance.gov/consumer-tools/money-as-you-grow/talking-about-financial-decisions/)
+
+      - [Sustainable Materials Management Tools](https://www.epa.gov/smm/sustainable-materials-management-tools)
+
+      - [FRAKTA shopping bag, large, blue; article 206.111.08](https://www.ikea.com/us/en/p/frakta-shopping-bag-large-blue-20611108/)
+
+      - [Community Assistance Division](https://www.pima.gov/community-assistance-division)
+
+      - [What Are Benefits Cliffs?](https://www.atlantafed.org/what-we-study/workforce-development/advancing-careers-for-low-income-families/what-are-benefits-cliffs)
+
+      - [Secretaries and Administrative Assistants](https://www.bls.gov/ooh/office-and-administrative-support/secretaries-and-administrative-assistants.htm)
+
+      - [Project Management Specialists](https://www.bls.gov/ooh/business-and-financial/project-management-specialists.htm)
+
+      - [Plan your business](https://www.sba.gov/counseling/plan-your-business/)
+
+      - [Recordkeeping](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
+
+      - [Beginners’ Guide to Financial Statements](https://www.sec.gov/investor/pubs/begfinstmtguide.htm)
+
+      - [Protecting Personal Information: A Guide for Business](https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business)
+
+      - [Monopolization Defined](https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/single-firm-conduct/monopolization-defined)
+
+      - [Standard Setting in a Network Economy](https://www.ftc.gov/news-events/news/speeches/standard-setting-network-economy)
+
+      - [Using in-depth interviews](https://www.gov.uk/service-manual/user-research/using-in-depth-interviews)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving your first attempt. These invented events are not actual
+      participant evidence.
+
+
+      ### The right content with an ambiguous pointer
+
+
+      In the supplied later tabletop, invented authorized reader Noah receives the packet without coaching.
+      Noah discovers that v1 and v2 are both labeled “current” in a cover index, even though the underlying
+      history correctly shows v2 approved, and initially answers the time question from v1. Record that
+      failure; accurate content inside one file did not make the packet reliably navigable.
+
+
+      The corrected index names v2 as the single current version, with Ivo''s Thursday 3 p.m. approval,
+      and marks v1 superseded. History remains available to authorized readers. After correction, Noah
+      repeats the packet-only task without hints and answers five questions: current v2 at 14:00; approver
+      Ivo; next action check for payment; deadline Monday noon; amount 50 unpaid. This is supplied fictional
+      reader behavior, not actual independent cold-start evidence.
+
+
+      By Monday noon no payment evidence is supplied. Em records the invoice as outstanding and Tessa
+      plans an appropriate inquiry under the agreed process; no inquiry is sent in this lesson. Do not
+      create a synthetic “paid” receipt or infer a legal default remedy. The compliance questions also
+      remain unresolved.
+
+
+      Save the failed pointer, correction and bounded fictional retest. The revised packet is more inspectable
+      in the fiction, but an actual authorized reader, real payment reconciliation and qualified compliance
+      review remain pending.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Create a small operating packet that someone authorized could inspect and continue without
+      guessing the current order, approved facts or payment status. Allow thirty minutes for the packet
+      and ten for a later handoff check. This is an operational tabletop with synthetic records, not an
+      actual transaction or compliance certification.
+
+
+      ### A reliable operation makes its state visible
+
+
+      Delivery depends on a chain of commitments: what was ordered, who can approve it, what version is
+      current, when it is due, how quality is checked and whether payment has arrived. A folder full of
+      documents is insufficient if the next person cannot distinguish an invoice from a receipt or an
+      old draft from the approved version. Keep status and responsibility close to the record they describe.
+
+
+      Accounting records should make a transaction explainable rather than merely produce a plausible
+      total. The IRS [recordkeeping overview, S11](https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping)
+      connects business records with income, expenses and supporting documents. It does not provide this
+      case with a universal retention period or establish tax compliance. The FTC''s [personal-information
+      guide, S13](https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business)
+      supports limiting unnecessary information and controlling access. Reading it is not a security audit
+      or a legal determination.
+
+
+      Controls should fit the operation''s scale. A one-person enterprise may not have several staff,
+      but it can still separate a draft from an approval, reconcile an invoice with payment evidence and
+      arrange appropriate review for consequential matters. An informal conversation should not silently
+      change a contract, payment deadline or permission to publish.
+
+
+      ### Supplied order O9
+
+
+      The fictional customer orders one formatted activity notice for **50 units**. Owner Tessa accepts
+      a scope of one page, customer-supplied facts, one revision and delivery by **Friday 4 p.m.** Payment
+      is due **Monday at noon** after delivery. The customer approver is Ivo. Assistant Luz is authorized
+      only to format and check against the source; bookkeeper Em may view the invoice and payment status.
+      These appointments and terms exist only in the supplied case.
+
+
+      The first approved source says “Activity, Sunday at 13:00, Oak Room.” Ivo later corrects the time
+      to **14:00** before release. Version 1 contains 13:00. Version 2 contains 14:00, and Ivo explicitly
+      approves version 2 at Thursday 3 p.m. No real event, venue, person or message is represented.
+
+
+      The packet includes these complete minimal records:
+
+
+      | Record | Supplied entry | State and access |
+
+      | --- | --- | --- |
+
+      | Order | O9; one notice; 50; Friday 4 p.m.; one revision; facts require Ivo''s approval | Accepted
+      in fiction; owner and formatter need scope, approver sees relevant draft |
+
+      | Source history | v1 13:00; correction to 14:00 by Ivo; v2 approved Thursday 3 p.m. | Keep correction
+      history; v2 is the approved content |
+
+      | Quality check | Page count one; time 14:00; room Oak; no extra contact details; matches approved
+      source | Luz records check before simulated release |
+
+      | Delivery record | Version 2 delivered in the tabletop Friday 2 p.m. | Within the 4 p.m. deadline;
+      no actual dispatch |
+
+      | Invoice | O9, 50 due Monday noon; synthetic invoice; unpaid | Owner and Em can inspect; invoice
+      is not proof of receipt |
+
+      | Payment record | No receipt or payment confirmation supplied | Payment remains pending |
+
+
+      A correct invoice value does not establish cash. The operation has a 50-unit receivable under the
+      supplied terms after delivery, with no payment evidence. Do not create a receipt to make the packet
+      look finished. Likewise, a revised source does not establish approval unless the actual approver''s
+      disposition is present; this case supplies that disposition for v2 explicitly.
+
+
+      ### Add the compliance questions before claiming readiness
+
+
+      Use a question register, with topic, unresolved fact, responsible owner and appropriate qualified
+      route. For registration and permissions, Tessa needs the relevant official local business authority.
+      Tax and record obligations need the applicable tax authority or qualified adviser; the inspected
+      IRS page provides general U.S. recordkeeping context only. Employment or contractor arrangements
+      need qualified local advice about actual working terms. Contract, consumer and refund obligations
+      need review of the service and jurisdiction. Privacy requires a minimal-data purpose and the applicable
+      rules. Accessibility and sector-specific requirements need the relevant authority or qualified specialist
+      for the actual activity.
+
+
+      These seven headings identify work to resolve, not seven completed compliance checks. Only the specific
+      IRS and FTC pages were inspected; no local regulator, contract, tax form or employment determination
+      is represented as reviewed. If a material question remains unanswered, the actual operation may
+      need to pause the affected commitment. A checklist cannot grant legal permission.
+
+
+      ### Make the packet continuable
+
+
+      1. Assemble order, approved source, version history, quality check, delivery, invoice and payment
+      status from the supplied entries. Label every record synthetic and keep unpaid status visible.
+
+      2. Assign responsibility for preparing, approving, checking, delivering and reconciling. Explain
+      why Luz cannot approve a fact change and why Em''s access to invoice data does not require unrelated
+      customer information.
+
+      3. Create a single current-version pointer identifying v2 and its approval. Preserve v1 as superseded
+      rather than deleting history or presenting both versions as current.
+
+      4. Write the seven-topic question register and distinguish inspected general guidance from unresolved
+      local requirements. Assign Tessa to obtain appropriate answers before any actual operation relies
+      on them.
+
+      5. Set a limited access and retention note. For this fictional tabletop only, synthetic working
+      copies may be discarded 30 days after its review. That is an exercise housekeeping choice, not a
+      legal business-record retention rule. Real records require applicable rules, holds and authorized
+      disposal. Save the packet before the [later packet](?resource=file-later-packet-md).
+
+
+      For the handoff, ask a willing authorized reader to use only the packet, without your coaching,
+      to identify current version, approver, next action, deadline and payment status. Record the answers
+      before explaining or repairing anything, then repeat the affected task after correction. The later
+      packet supplies an invented reader’s first attempt and retest for a fully fictional route. A self-walkthrough
+      can help prepare, but it must remain labeled self-review and cannot replace an actual independent
+      reader check.
+
+
+      ### Adjust the task without hiding disorder
+
+
+      For support, use the table as the packet and answer the five handoff questions aloud. For a harder
+      pass, make the source correction arrive after delivery and identify who can authorize a correction,
+      which recipients need it and what records must persist. Do not pretend replacing a file recalls
+      every prior copy.
+
+
+      Optional actual transfer should use a small process you own or have permission to review, with redacted
+      or synthetic data. Do not access personnel files, customer identifiers or credentials to complete
+      this lesson. A clear packet plus a later authorized continuation or reconciliation check could support
+      progress. This supplied tabletop demonstrates how to inspect state while leaving actual reliable
+      operation, lawful compliance and independent continuation unproven.
+
+
+      ### Use the result at its proper scale
+
+
+      Business and economic education only; legal, tax, securities, employment, and regulatory questions
+      require qualified advice.  Use fiction or privately redacted records; keep credentials and sensitive
+      identifiers private. Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A 75-unit invoice exists but there is no receipt, bank record or customer payment confirmation.
+      Can it be marked paid?
+
+      2. A revised draft has the correct date but the facts approver has not accepted it. May the formatter
+      release it to meet the deadline?
+
+      3. Your self-walkthrough found all five handoff answers after you fixed the index. Is this an independent
+      reader review or proof of legal compliance?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Keep the invoice and payment status separate. An amount due is not evidence of cash
+      received; reconcile through the actual authorized records before changing status.
+
+      2. No authority follows from editing or urgency. Keep release pending or use a genuinely authorized
+      alternate approval process; record the delay and preserve the source history.
+
+      3. Neither. Record the self-review and correction accurately. Independent continuation and qualified
+      compliance checks need their own actual evidence; the tabletop retention choice is not a legal rule.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

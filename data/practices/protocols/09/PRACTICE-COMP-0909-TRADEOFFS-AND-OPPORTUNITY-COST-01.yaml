@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0909-TRADEOFFS-AND-OPPORTUNITY-COST-01
 slug: c0909-tradeoffs-and-opportunity-cost-practice
-name: Bounded Tradeoffs and opportunity cost Practice
+name: Choose between competing goods and name what you give up
 parent_competency_id: '09.09'
 domain_id: 09
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 09.09
-      (Tradeoffs and opportunity cost); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 09.09; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Tradeoffs and opportunity cost through a low-stakes skill rehearsal bounded by the
-    canonical scope: Compare alternatives across benefits, costs, reversibility, time, risk, affected
-    parties, and foregone options.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can justify a choice
-    while naming what was sacrificed. The protocol creates a small opportunity to examine that target
-    without treating completion as broad capability.'
+  purpose: Compare live alternatives across benefits, costs, time, reversibility, risk and affected people,
+    then make a choice with an explicit opportunity cost.
+  why_recommended: Compare live alternatives across benefits, costs, time, reversibility, risk and affected
+    people, then make a choice with an explicit opportunity cost.
   claims:
-  - statement: Using the canonical scope and evidence target for Tradeoffs and opportunity cost is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Compare live alternatives across benefits, costs, time, reversibility, risk and affected
+      people, then make a choice with an explicit opportunity cost.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Tradeoffs and opportunity cost practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Tradeoffs and opportunity cost as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Tradeoffs and opportunity
-    cost context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Tradeoffs
-    and opportunity cost; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use pictures, spoken comparisons or a trusted planning aid. The supplied case
+    can be rehearsed without money or another participant. Do not use the exercise for clinical, legal,
+    fiduciary or emergency choices that require qualified judgment.
+  opportunity_considerations: 'Default: one free two-hour block can be used for a non-urgent home task,
+    a willing friend’s shared activity, or recovery time. Use three option cards and seven headings: benefit,
+    direct cost, time, risk, reversibility, affected people and best foregone alternative. Protect essential
+    care and existing commitments first.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Tradeoffs and opportunity cost.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default: one free two-hour block can be used for a non-urgent home task, a willing friend’s shared
+    activity, or recovery time. Use three option cards and seven headings: benefit, direct cost, time,
+    risk, reversibility, affected people and best foregone alternative. Protect essential care and existing
+    commitments first.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Tradeoffs and opportunity cost
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use pictures, spoken comparisons or a trusted planning aid. The supplied case can be rehearsed without
+    money or another participant. Do not use the exercise for clinical, legal, fiduciary or emergency
+    choices that require qualified judgment.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,25 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Tradeoffs and opportunity cost actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Tradeoffs and opportunity cost; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Tradeoffs
-    and opportunity cost. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Tradeoffs and opportunity cost actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default: one free two-hour block can be used for a non-urgent home task, a willing friend’s
+    shared activity, or recovery time. Use three option cards and seven headings: benefit, direct cost,
+    time, risk, reversibility, affected people and best foregone alternative. Protect essential care and
+    existing commitments first. Goal: Compare live alternatives across benefits, costs, time, reversibility,
+    risk and affected people, then make a choice with an explicit opportunity cost. Scope: The exercise
+    supports one ordinary tradeoff. A scoring table cannot erase duties, convert another person’s rights
+    into a price or make incompatible goods simultaneously attainable. Time and effort: Twenty minutes
+    to compare options, one reversible next step, and a ten-minute review. Adaptation: Use pictures, spoken
+    comparisons or a trusted planning aid. The supplied case can be rehearsed without money or another
+    participant. Do not use the exercise for clinical, legal, fiduciary or emergency choices that require
+    qualified judgment. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use pictures, spoken comparisons or a trusted planning aid. The supplied case can
+    be rehearsed without money or another participant. Do not use the exercise for clinical, legal, fiduciary
+    or emergency choices that require qualified judgment.
+  expected_burden: Twenty minutes to compare options, one reversible next step, and a ten-minute review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Tradeoffs and opportunity cost protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +107,25 @@ intervention:
   - Treating a completed Tradeoffs and opportunity cost action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Tradeoffs and opportunity cost situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use pictures,
+    spoken comparisons or a trusted planning aid. The supplied case can be rehearsed without money or
+    another participant. Do not use the exercise for clinical, legal, fiduciary or emergency choices that
+    require qualified judgment.
   actions:
   - stable_id: PRACTICE-COMP-0909-TRADEOFFS-AND-OPPORTUNITY-COST-01-A1
     sequence: 1
-    title: Define observable criteria for Tradeoffs and opportunity cost
-    instructions: 'Select one safe, lawful, low-stakes component of Tradeoffs and opportunity cost. Build
-      a three-to-five-item rubric from this scope, including an error or stop criterion: Compare alternatives
-      across benefits, costs, reversibility, time, risk, affected parties, and foregone options.'
+    title: Separate obligations from optional alternatives
+    instructions: 'List the three options and identify any non-negotiable duty, access need or promise
+      that constrains the choice. For each feasible option, fill the seven headings using plain descriptions
+      rather than invented precision. Include doing nothing new when rest or maintenance is genuinely
+      needed. An unavailable or unaffordable option is not a meaningful alternative merely because it
+      sounds attractive.
+
+
+      Observation checks: At least three feasible alternatives are compared; Duties and access constraints
+      are explicit; Costs include time and effects on others; Unavailable options are not treated as live
+      choices. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +147,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0909_a1_skill_component_bounded
-        - c0909_a1_observable_rubric_present
-        - c0909_a1_error_or_stop_defined
+        - at_least_three_feasible_alternatives_are_compared
+        - duties_and_access_constraints_are_explicit
+        - costs_include_time_and_effects_on_others
+        - unavailable_options_are_not_treated_as_live_choices
       - measurement_id: c0909_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +167,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0909-TRADEOFFS-AND-OPPORTUNITY-COST-01-A2
     sequence: 2
-    title: Rehearse Tradeoffs and opportunity cost twice
-    instructions: Perform two bounded attempts of the selected Tradeoffs and opportunity cost component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Expose the tradeoff that the first preference hides
+    instructions: 'Choose two criteria that pull in different directions, such as connection now versus
+      completing a repair before next week. Ask what is reversible and what opportunity expires. Identify
+      the best alternative you would forgo, not the sum of every imaginable benefit. Test one changed
+      assumption, such as the friend being available next week, and note whether that would change the
+      ranking.
+
+
+      Observation checks: Two conflicting goods are named without dismissing either; Reversibility and
+      expiring opportunities are considered; Opportunity cost is the best foregone feasible alternative;
+      One assumption is varied to test the preference. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +194,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c0909_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - two_conflicting_goods_are_named_without_dismissing_either
+        - reversibility_and_expiring_opportunities_are_considered
+        - opportunity_cost_is_the_best_foregone_feasible_alternative
+        - one_assumption_is_varied_to_test_the_preference
       - measurement_id: c0909_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +220,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0909-TRADEOFFS-AND-OPPORTUNITY-COST-01-A3
     sequence: 3
-    title: Use feedback for one Tradeoffs and opportunity cost retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Can justify
-      a choice while naming what was sacrificed.'
+    title: Act on the choice and preserve the sacrificed good
+    instructions: 'Choose one option with a short reason that includes what you give up. Take its next
+      reversible step: begin the task, make the specific invitation or protect the recovery block. Tell
+      affected people about a changed commitment when necessary. Afterward, compare the actual benefit
+      and cost with your expectation and decide whether the foregone good needs a later place rather than
+      pretending it never mattered.
+
+
+      Observation checks: The decision names both its reason and its sacrifice; A real next step or explicitly
+      labeled rehearsal occurs; Affected commitments receive appropriate communication; The review retains
+      the value of the foregone option. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.
+
+
+      Final review: What worthwhile thing did this choice genuinely cost, and was that sacrifice acceptable
+      under the actual constraints?
+
+
+      Examples: Supportive: The person chose recovery after recognizing low capacity, acknowledged the
+      missed social opportunity and made a later invitation without calling rest morally superior.
+
+
+      Mixed: The choice was made deliberately, but its effect on an existing promise was discovered only
+      afterward.
+
+
+      Contradictory: A preferred option was made to win by ignoring another person’s rights, essential
+      needs or an inconvenient cost.
+
+
+      Inconclusive: Alternatives were scored but no sacrifice, changed assumption or next action was identified.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +272,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0909_a3_feedback_item_selected
-        - c0909_a3_adjustment_traceable
-        - c0909_a3_retry_result_preserved
+        - the_decision_names_both_its_reason_and_its_sacrifice
+        - a_real_next_step_or_explicitly_labeled_rehearsal_occurs
+        - affected_commitments_receive_appropriate_communication
+        - the_review_retains_the_value_of_the_foregone_option
       - measurement_id: c0909_a3_boundary
         kind: boolean
         role: supporting
@@ -245,16 +296,17 @@ intervention:
       Tradeoffs and opportunity cost; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Tradeoffs and opportunity cost; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use pictures, spoken comparisons or a trusted planning aid. The supplied case can be rehearsed without
+      money or another participant. Do not use the exercise for clinical, legal, fiduciary or emergency
+      choices that require qualified judgment.
     cultural_context:
     - Adapt the expression of Tradeoffs and opportunity cost to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Tradeoffs and opportunity cost opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use pictures, spoken comparisons or a trusted planning aid. The supplied case can be rehearsed without
+      money or another participant. Do not use the exercise for clinical, legal, fiduciary or emergency
+      choices that require qualified judgment.
   pause_conditions:
   - Pause Tradeoffs and opportunity cost when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -286,10 +338,8 @@ evidence_and_scoring:
   - c0909_a3_boundary
   - c0909_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Tradeoffs and opportunity cost action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Tradeoffs and opportunity cost criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A preferred option was made to win by ignoring another person’s rights, essential needs or an inconvenient
+    cost.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Tradeoffs and opportunity cost explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -300,14 +350,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Tradeoffs and opportunity cost rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can justify a choice while naming what was sacrificed.—not completion, confidence, conformity,
-    output, independence, or worth.
-  evidence_quality_rubric: Quality for Tradeoffs and opportunity cost requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate obligations from optional alternatives. Observed checks: At
+    least three feasible alternatives are compared; Duties and access constraints are explicit; Costs
+    include time and effects on others; Unavailable options are not treated as live choices. Action 2:
+    Expose the tradeoff that the first preference hides. Observed checks: Two conflicting goods are named
+    without dismissing either; Reversibility and expiring opportunities are considered; Opportunity cost
+    is the best foregone feasible alternative; One assumption is varied to test the preference. Action
+    3: Act on the choice and preserve the sacrificed good. Observed checks: The decision names both its
+    reason and its sacrifice; A real next step or explicitly labeled rehearsal occurs; Affected commitments
+    receive appropriate communication; The review retains the value of the foregone option.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Alternatives were scored but no sacrifice, changed
+    assumption or next action was identified.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Tradeoffs
     and opportunity cost contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -316,9 +374,8 @@ evidence_and_scoring:
   - L14
   - L22
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Tradeoffs and opportunity cost evidence.
@@ -326,11 +383,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for tradeoffs and opportunity cost action was attempted or explicitly
-    deferred.
-  - The rehearse tradeoffs and opportunity cost twice action was attempted or explicitly deferred.
-  - The use feedback for one tradeoffs and opportunity cost retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Separate obligations from optional alternatives. Observed checks: At least three feasible
+    alternatives are compared; Duties and access constraints are explicit; Costs include time and effects
+    on others; Unavailable options are not treated as live choices.'
+  - 'Action 2: Expose the tradeoff that the first preference hides. Observed checks: Two conflicting goods
+    are named without dismissing either; Reversibility and expiring opportunities are considered; Opportunity
+    cost is the best foregone feasible alternative; One assumption is varied to test the preference.'
+  - 'Action 3: Act on the choice and preserve the sacrificed good. Observed checks: The decision names
+    both its reason and its sacrifice; A real next step or explicitly labeled rehearsal occurs; Affected
+    commitments receive appropriate communication; The review retains the value of the foregone option.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -339,57 +403,498 @@ completion_and_review:
     - c0909_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Tradeoffs and opportunity cost only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Tradeoffs and opportunity cost across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What worthwhile thing did this choice genuinely cost, and was that sacrifice acceptable
+    under the actual constraints?
+  transfer_limit: The exercise supports one ordinary tradeoff. A scoring table cannot erase duties, convert
+    another person’s rights into a price or make incompatible goods simultaneously attainable.
   reflection:
-    before: What does Tradeoffs and opportunity cost require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Tradeoffs and opportunity cost criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can justify a choice while naming what was sacrificed.', what
-      contradiction or missing context matters most, and should this Tradeoffs and opportunity cost design
-      be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Compare live alternatives across benefits,
+      costs, time, reversibility, risk and affected people, then make a choice with an explicit opportunity
+      cost.'
+    during: Which checks have actually been observed? The choice was made deliberately, but its effect
+      on an existing promise was discovered only afterward.
+    after: What worthwhile thing did this choice genuinely cost, and was that sacrifice acceptable under
+      the actual constraints?
   review_guidance:
     repeat: Repeat the same bounded Tradeoffs and opportunity cost design only when the context and burden
       remain appropriate.
-    adapt: Change the Tradeoffs and opportunity cost medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use pictures, spoken comparisons or a trusted planning aid. The supplied case can be rehearsed
+      without money or another participant. Do not use the exercise for clinical, legal, fiduciary or
+      emergency choices that require qualified judgment.
     stop: Stop Tradeoffs and opportunity cost when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Tradeoffs and opportunity cost questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Tradeoffs and opportunity cost criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Tradeoffs and opportunity cost criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Tradeoffs and opportunity cost criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Tradeoffs and opportunity cost action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The person chose recovery after recognizing low capacity, acknowledged the missed social
+      opportunity and made a later invitation without calling rest morally superior.
+    mixed: The choice was made deliberately, but its effect on an existing promise was discovered only
+      afterward.
+    contradictory: A preferred option was made to win by ignoring another person’s rights, essential needs
+      or an inconvenient cost.
+    inconclusive: Alternatives were scored but no sacrifice, changed assumption or next action was identified.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Tradeoffs and opportunity cost.
+    context_heading: Choose between competing goods and name what you give up
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Tradeoffs
       and opportunity cost.
   check_in_labels:
-    c0909_a1_primary: The bounded Tradeoffs and opportunity cost criterion for action 1 was observed
+    c0909_a1_primary: 'Observed checks: separate obligations from optional alternatives'
     c0909_a1_boundary: Action 1 stayed inside its stated Tradeoffs and opportunity cost boundary
     c0909_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0909_a2_primary: The bounded Tradeoffs and opportunity cost criterion for action 2 was observed
+    c0909_a2_primary: 'Observed checks: expose the tradeoff that the first preference hides'
     c0909_a2_boundary: Action 2 stayed inside its stated Tradeoffs and opportunity cost boundary
     c0909_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0909_a3_primary: The bounded Tradeoffs and opportunity cost criterion for action 3 was observed
+    c0909_a3_primary: 'Observed checks: act on the choice and preserve the sacrificed good'
     c0909_a3_boundary: Action 3 stayed inside its stated Tradeoffs and opportunity cost boundary
     c0909_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Tradeoffs and opportunity
-    cost practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What worthwhile thing did this choice genuinely cost, and was that sacrifice acceptable
+    under the actual constraints? Completion is not mastery.
+  plain_language_evidence: The person chose recovery after recognizing low capacity, acknowledged the
+    missed social opportunity and made a later invitation without calling rest morally superior.
   display_order: 116
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '09.09'
+  title: 09.09 — Tradeoffs and opportunity cost
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Systems reasoning](https://ocw.mit.edu/courses/15-871-introduction-to-system-dynamics-fall-2013/pages/syllabus/)
+
+      - [Discriminating tests and multiple factors](https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm)
+
+      - [Discriminating tests and multiple factors](https://www.itl.nist.gov/div898/handbook/pri/section3/pri331.htm)
+
+      - [Discriminating tests and multiple factors](https://www.itl.nist.gov/div898/handbook/pri/section3/pri3331.htm)
+
+      - [Decisions among constrained alternatives](https://www.nasa.gov/reference/6-8-decision-analysis/)'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### What you are practicing
+
+
+      Choose among worthwhile alternatives while keeping the sacrificed good visible. First protect real
+      constraints; then compare benefits, costs, time, risk, reversibility, and effects on other people.
+      A table helps expose a choice. It does not make your values objective or entitle you to override
+      someone else''s needs.
+
+
+      **Canonical scope:** Compare alternatives across benefits, costs, reversibility, time, risk, affected
+      parties, and foregone options.
+
+
+      **Deliverable:** A feasibility screen, a reasoned comparison of three complete plans, the best foregone
+      alternative under your stated priorities, one sensitivity check, and a next-step/review record.
+      Allow about 30 minutes. Paper, speech, a text editor, or option cards are sufficient. All required
+      facts for the fictional route are supplied; no spending, booking, or actual social contact is required.
+
+
+      This is educational source, not personal financial advice or a general scoring algorithm. The decision-analysis
+      background in SOURCES.md supports documenting criteria, alternatives, uncertainty, and rationale.
+      The plans and numerical checks below are original examples, not a validated measure of human flourishing.
+
+
+      ### A reference for comparing without pretending everything is equivalent
+
+
+      A **constraint** determines whether an option is acceptable at all: an existing promise, essential
+      access, a time limit, or a required permission. A **preference** distinguishes acceptable options.
+      Do not allow enough preference points to compensate for violating a genuine non-negotiable constraint.
+      When a constraint is uncertain, mark the uncertainty and obtain the required information instead
+      of silently treating it as satisfied.
+
+
+      A **direct cost** is something consumed by the chosen plan, including future effort and time. An
+      **opportunity cost** is the value of the best feasible alternative you forgo under the same decision
+      boundary and priorities. It is not the sum of every appealing activity you can imagine. Without
+      a stated preference ordering, the best foregone alternative can remain unresolved; explain that
+      rather than inventing precision.
+
+
+      **Reversibility** has stages. You may be able to cancel before starting, stop after a small trial,
+      or switch later, but spent time and expired opportunities cannot always be recovered. Distinguish
+      reversing a decision from fully recovering its consequences. A cancellable invitation can still
+      impose inconvenience.
+
+
+      **Risk** concerns possible adverse outcomes and uncertainty about them. Do not assign a numerical
+      probability without a basis. Some consequences should be discussed in words or treated as constraints.
+      Affected people are stakeholders, not entries whose rights disappear when the total score is high.
+
+
+      A **dominated option** is no better on any included relevant criterion and worse on at least one,
+      compared with another feasible option. That judgment depends on the criteria and evidence being
+      complete enough. An omitted access need, obligation, or timing difference can invalidate an apparent
+      dominance claim.
+
+
+      A **sensitivity check** changes one stated assumption or preference weight and asks whether the
+      choice changes. This reveals dependence; it is not permission to change the rules solely to make
+      your favorite win. Preserve the original comparison and identify whether the change is new evidence
+      or a changed preference.
+
+
+      ### A different worked example: a short reading block
+
+
+      A person has 40 minutes. One complete plan is a 30-minute article and 10 minutes of notes; another
+      is a 40-minute conversation with a willing reading partner. Both are feasible. Reading the article
+      and taking the conversation would require 70 minutes even before notes, so that combination is not
+      a live alternative in the same block.
+
+
+      If the person''s priority is understanding the article today, the first plan may be preferred. Its
+      best foregone alternative can be the conversation, not the article plus the conversation plus every
+      other good use of time. If the partner is available only today and reading can move without cost,
+      the relevant opportunity changes. There is no universally correct ranking without the person''s
+      aims and actual constraints.
+
+
+      ### Complete practice packet: one protected two-hour block
+
+
+      All people, arrangements, and values here are fictional. You have a block from **13:00 to 15:00**.
+      You already promised a brief check-in from **14:50 to 15:00**. Keep those **10 minutes protected**,
+      leaving **110 minutes** for an optional plan. There is no emergency, required medical action, or
+      other existing duty in this packet.
+
+
+      You report enough capacity to attempt any of the three plans, while valuing recovery as a legitimate
+      good. All options are free, use resources already available, and meet the stipulated access needs.
+      A willing friend has confirmed availability for the specified visit today. A later visit is possible
+      in principle but not confirmed. The archive task has no deadline today. No physical repair, deletion
+      of originals, or hazardous tool use is involved.
+
+
+      #### Complete option cards
+
+
+      | Plan | Optional block allocation | Main benefit | Foreseeable cost or uncertainty | Reversibility
+      and affected people |
+
+      | --- | --- | --- | --- | --- |
+
+      | A — Archive | 90 minutes sorting duplicate copies; 20 minutes recovery | Progress on a personally
+      useful archive | Less recovery than C; no live connection today; amount finished uncertain | Can
+      stop after a small batch; spent time remains spent; no one else is waiting on completion |
+
+      | B — Visit | 20 minutes round-trip travel; 60 minutes visit; 10 minutes buffer; 20 minutes recovery
+      | Time with the willing friend today | Less recovery than C; no archive progress; travel may overrun
+      | Confirm timing before leaving; tell the friend promptly if changing plans; missed opportunity
+      may not recur soon |
+
+      | C — Recover | 110 minutes freely chosen quiet recovery | More protected recovery time | No archive
+      progress or visit today; restoration is not guaranteed | Can change the activity within the block;
+      elapsed time and today''s visit opportunity are not recoverable |
+
+
+      Each complete plan fills the optional 110-minute block and preserves the check-in. For B, schedule
+      travel and the visit before recovery and protect the 14:50 return boundary. The buffer is included,
+      not an extra ten minutes to add afterward. If travel uncertainty cannot be reconciled with the existing
+      promise, modify or decline that plan rather than sacrificing the promise silently.
+
+
+      Two tempting alternatives are deliberately incomplete: **D**, doing both the full archive task and
+      full visit, needs 90 + 20 + 60 + 10 = 180 minutes before any recovery; **E**, postponing the visit
+      to next week, has no confirmed agreement. D is infeasible in this block. E is a possible future
+      inquiry, not a guaranteed substitute for today''s visit.
+
+
+      #### Action 1 — Screen constraints before ranking benefits
+
+
+      Write the decision, time boundary, protected promise, access conditions, and whose agreement is
+      needed. Calculate each complete plan''s total. Keep rejected and unresolved alternatives in a small
+      record with their reasons instead of removing them without explanation.
+
+
+      Then record your initial preference and priorities. You may prefer A, B, or C, but must explain
+      what makes its benefit more important in this fictional situation. Do not invent an unmentioned
+      emergency or call recovery morally superior to connection, or connection superior to useful work.
+
+
+      For every feasible plan, fill this comparison:
+
+
+      `Benefit | direct time/effort cost | possible harm or uncertainty | reversible step | consequence
+      that cannot be recovered | affected people | information still needed`
+
+
+      Avoid double counting. The 90 archive minutes are already part of A''s 110-minute plan, not an additional
+      90-minute opportunity cost to subtract from an arbitrarily assigned score. An opportunity cost is
+      an alternative''s forgone value; mixing raw minutes, feelings, and invented points can conceal assumptions
+      rather than clarify them.
+
+
+      #### Action 2 — Name the conflicting goods and test an assumption
+
+
+      Choose the two strongest feasible candidates under your priorities. Describe the benefit each protects
+      and what the other would sacrifice. Do not make a rejected alternative look worthless to ease the
+      choice. Identify the **best foregone feasible complete plan** for your provisional choice and state
+      why it outranks the other unchosen plan for you.
+
+
+      Now perform one of these sensitivity checks, keeping the original record:
+
+
+      - The friend genuinely confirms an equally suitable visit next week. How does that affect the cost
+      of forgoing today''s visit? Does it change the ranking or only make the sacrifice easier to address?
+
+      - The archive task acquires an agreed deadline tomorrow, and no other adequate work block is available.
+      Does that create a new constraint or change a preference? State which.
+
+      - The person reports that today''s capacity has dropped so a trip is no longer manageable. Re-screen
+      feasibility before scoring the options.
+
+
+      These are separate hypothetical cases, not facts to combine opportunistically. Pick one and write
+      exactly what changed. Different conclusions can be defensible when their criteria are explicit and
+      consistent. If the choice is close, a limited information check may be more valuable than another
+      invented decimal place.
+
+
+      For an optional numerical extension, use the fully specified toy preference rule in Check A. Its
+      numbers are stipulated units for that case, not measured values for friendship or rest. A weighted
+      total never rescues an option that violates its mandatory constraints.
+
+
+      #### Action 3 — Make a bounded choice and preserve the sacrifice
+
+
+      Write a short decision statement:
+
+
+      `I choose __ because __ under these constraints: __. The best feasible alternative I forgo is __,
+      which matters because __. The assumption most likely to change this choice is __.`
+
+
+      Then record the next reversible step. For A, define the first small batch while preserving originals.
+      For B, confirm the already discussed timing before leaving and keep the promised return boundary.
+      For C, protect the block without claiming that a particular activity must restore you. For the fictional
+      route, write the step as a **rehearsal**, not an action you actually performed.
+
+
+      Use this review form after a real appropriate attempt, or as a labeled plan for this fictional one:
+
+
+      `Expected benefit and burden | actual observation or not yet observed | effect on the protected
+      promise | effect on others | what changed | whether the sacrificed good needs another opportunity`
+
+
+      Do not invent a successful outcome to close the exercise. A decision can be reasonable given the
+      evidence and still have an inconvenient outcome. Conversely, a lucky outcome does not justify having
+      ignored a promise. Record process quality and outcome separately.
+
+
+      A later place for the sacrificed good is a possibility, not a retroactive claim that the tradeoff
+      cost nothing. Seek the relevant person''s agreement before treating another visit as scheduled.
+      Do not commit another person to your revised plan without consent.
+
+
+      ### Fresh checks, Accessibility, and progression
+
+
+      Complete both checks in **check-prompts.md**, then inspect **check-answers.md**. Check A makes time,
+      benefit, feasibility, dominance, and a preference switch numerically explicit. Check B tests the
+      difference between an attractive plan and an available, permitted plan.
+
+
+      For Accessibility, use one plan per card or a spoken comparison of the strongest two after screening
+      all candidates. A helper may record your priorities, but should not replace them with their own.
+      Keep time and consent constraints visible. A calculator may support arithmetic; no speed requirement
+      applies.
+
+
+      For a more demanding route, create a staged alternative such as a brief trial followed by a decision,
+      then account for all setup and switching time. It is a new complete plan, not free flexibility.
+      Include what information the trial could actually reveal and what opportunity would expire while
+      waiting.
+
+
+      For later transfer, use one ordinary decision you control, record the initial priorities and alternatives
+      before acting, and return after the chosen opportunity. Keep high-consequence legal, medical, fiduciary,
+      or emergency choices outside this exercise and seek suitable expertise. No self-improvement target
+      authorizes overriding another person''s rights.
+
+
+      ### How to interpret your result
+
+
+      **Supportive:** The choice preserves real constraints, compares worthwhile alternatives, names a
+      best foregone plan under explicit priorities, tests an assumption, and distinguishes a planned step
+      from an actual one.
+
+
+      **Mixed:** The comparison is thoughtful, but the later visit is treated as guaranteed or travel
+      buffer is counted twice.
+
+
+      **Contradictory:** A preferred plan wins only by dropping the promise, presuming consent, or assigning
+      enough points to outweigh a mandatory access condition.
+
+
+      **Inconclusive:** A table is filled but no conflict, sacrifice, sensitivity result, or next step
+      is stated. A fictional decision does not establish actual follow-through or wise judgment across
+      contexts.
+
+
+      **Final review:** What genuine good did the decision cost, why was that sacrifice acceptable under
+      the stated priorities, and what would make you reconsider?'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Save your calculations and judgment before opening the answers. All numbers and preferences
+      are stipulated for these fictional cases.
+
+
+      ### Check A — Feasibility, dominance, and preference sensitivity
+
+
+      A person may use at most 100 future minutes for one complete plan. All plans are free, permitted,
+      and meet the same access requirements. Their risk, reversibility, and effects on others are equal
+      for this toy comparison. The only varying relevant quantities are:
+
+
+      | Plan | Future minutes | Benefit units |
+
+      | --- | --- | --- |
+
+      | P | 50 | 5 |
+
+      | Q | 70 | 8 |
+
+      | R | 80 | 6 |
+
+      | S | 130 | 10 |
+
+
+      First screen feasibility and identify any dominated feasible plan. Then use the explicitly stipulated
+      preference score **benefit minus lambda times future minutes**. Lambda is how many benefit units
+      this fictional person trades for a minute; it is not a probability or a universal human value. Evaluate
+      at lambda = 0.10 and lambda = 0.20.
+
+
+      For each value, identify the preferred feasible plan, its best foregone feasible alternative, and
+      the score difference. Find the lambda at which P and Q tie. Explain why changing lambda changes
+      a preference, not the empirical time data. Would an arbitrarily high benefit score make S feasible?
+      What omitted real-world difference could invalidate the claimed dominance outside this packet?
+
+
+      ### Check B — A good-looking plan is not necessarily available
+
+
+      You have 60 minutes before an existing commitment. Plan F is a 45-minute shared activity with a
+      friend who has **not replied** to the invitation. Plan G is 50 minutes of a solo activity you control.
+      Plan H is 70 minutes of another solo activity. Travel, setup, access, and cleanup are already included
+      in these totals. No deadline or other duty compels any optional activity.
+
+
+      Classify each as confirmed feasible, infeasible, or contingent on missing agreement. Explain the
+      difference between treating F as impossible forever and treating it as not yet confirmed. Name a
+      useful, proportionate next step that preserves the existing commitment without repeatedly contacting
+      the friend.
+
+
+      A later message confirms F, with enough time still remaining for its complete 45-minute plan. Compare
+      F and G under your stated priorities, naming the best foregone confirmed alternative for whichever
+      you choose. Explain why today''s unconfirmed invitation must not be recorded as a completed shared
+      activity or an already scheduled replacement next week.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '### Check A — Key
+
+
+      P, Q, and R meet the 100-minute constraint; S does not. Q dominates R on the stipulated relevant
+      criteria: it uses 70 rather than 80 minutes and provides 8 rather than 6 benefit units, with all
+      other relevant conditions equal. P and Q are not dominated by one another: P uses less time, Q provides
+      more benefit.
+
+
+      At lambda 0.10, scores are P = 0, Q = 1, R = -2. Q wins; P is its best foregone feasible alternative.
+      The difference is 1 benefit unit. The opportunity cost is the value of P under that stated preference,
+      not the sum of P, R, and the infeasible S. A zero net score in this toy scale does not mean the
+      alternative has no human worth.
+
+
+      At lambda 0.20, scores are P = -5, Q = -6, R = -10. P wins; Q is the best foregone feasible alternative.
+      The difference is again 1. Negative net scores do not represent moral failure, and the prompt compares
+      one of these complete plans; adding a new no-action alternative would require specifying its benefit
+      and conditions rather than silently changing the option set.
+
+
+      Set 5 - 50 lambda = 8 - 70 lambda. Thus 20 lambda = 3, or lambda = 0.15. Both scores then equal
+      -2.5. A tie does not authorize claiming a unique winner. Any tie-break must be named separately.
+
+
+      Changing lambda changes how this fictional person values future time relative to the stipulated
+      benefit scale. It does not alter the measured or given minutes. S stays infeasible regardless of
+      its score because the time constraint is mandatory. In a real comparison, an omitted access, consent,
+      risk, timing, or obligation difference could defeat the apparent Q-over-R dominance.
+
+
+      **Repair:** Screen the constraint before optimizing. Preserve the two score tables and identify
+      the exact preference change. Do not average raw minutes with benefit units unless the conversion
+      rule is explicitly supplied and appropriate.
+
+
+      ### Check B — Key
+
+
+      G is confirmed feasible within the supplied conditions. H is infeasible because 70 exceeds 60. F
+      is contingent on missing agreement: 45 minutes would fit, but willingness is not established by
+      silence. It is not necessarily impossible forever, and it is not a confirmed alternative yet.
+
+
+      A proportionate step is one ordinary clarification through the agreed channel, with a cutoff that
+      still preserves the existing commitment, or choosing G without waiting. Rest or no new activity
+      can also be considered explicitly because no optional activity is required. Do not repeatedly message
+      the friend or treat missing agreement as consent.
+
+
+      After the timely confirmation, F and G are both feasible. Either may be selected with a defensible
+      preference and an explicit sacrifice; the supplied times alone do not establish that the shorter
+      shared option is universally better. If choosing F, G can be the best foregone confirmed alternative
+      under a stated ranking; if choosing G, the reverse can apply. Keep any explicitly introduced rest
+      alternative in that ranking too.
+
+
+      A future invitation, a confirmed plan, an attempted action, and a completed activity are different
+      states. A replacement next week needs its own agreement. Do not use an imagined future replacement
+      to pretend the current sacrifice is costless.
+
+
+      **Repair:** Give missing permission its own status. Do not turn an uncertainty into either an assumed
+      yes or an unsupported permanent no.
+
+
+      ### Main-practice review
+
+
+      The optional allowance is 120 - 10 = 110 minutes. A is 90 + 20 = 110. B is 20 + 60 + 10 + 20 = 110.
+      C is 110. All preserve the protected check-in under the stipulated conditions. D needs 180 minutes
+      before recovery and exceeds the allowance by 70; E is not a confirmed replacement visit.
+
+
+      No unique winner among A, B, and C is supplied. An acceptable response preserves constraints, states
+      priorities, identifies the strongest unchosen feasible plan, and performs a consistent sensitivity
+      check. It distinguishes the time irretrievably used from a practical option to stop or reschedule.
+      A justified choice need not deny the value of the sacrificed good.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.
