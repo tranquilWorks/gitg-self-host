@@ -4,7 +4,7 @@ Learning guide — unscored
 
 Supplied five-folder rule and six slips
 
-Today is Monday. Five folders are labeled TODAY, THIS WEEK, WAITING, REFERENCE and ARCHIVE. Apply the first matching rule: (1) completed or expired → ARCHIVE; (2) explicitly waiting on another person → WAITING; (3) an open action due today → TODAY; (4) an open action due Tuesday through Sunday → THIS WEEK; (5) reusable information with no action → REFERENCE. Supplied slips: A completed receipt; B waiting for Pat’s approval, due today; C submit form, due today; D call supplier, due Thursday; E torque table, no action; F expired coupon. Correct folders are A Archive, B Waiting, C Today, D This Week, E Reference, F Archive. The precedence rule resolves B’s overlap.
+Today is Monday. Five folders are labeled TODAY, THIS WEEK, WAITING, REFERENCE and ARCHIVE. Apply the first matching rule: (1) completed or expired → ARCHIVE; (2) explicitly waiting on another person → WAITING; (3) an open action due today → TODAY; (4) an open action due Tuesday through Sunday → THIS WEEK; (5) reusable information with no action → REFERENCE. Supplied slips: A completed receipt; B waiting for Pat’s approval, due today; C submit form, due today; D call supplier, due Thursday; E torque table, no action; F expired coupon. Classify A–F and name the deciding rule before opening the part-practice check.
 
 Learning-path and handoff record
 

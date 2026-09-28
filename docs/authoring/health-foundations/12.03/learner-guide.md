@@ -53,7 +53,7 @@ The later packet supplies actual simulated preparation and repeat times. Check t
 
 Choose retain, adapt or seek support based on the repeat. Name a realistic alternative protein or preparation within the same constraints, preserving allergy verification and the existing plan. Distinguish an alternative calculated on paper from an actual second meal. If a real pattern raises adequacy concerns, restrictive eating, unwanted weight change or medical-diet uncertainty, bring a specific question to a qualified clinician or dietitian rather than escalating self-tracking.
 
-Attempt [fresh checks](check-prompts.md) before [corrective guidance](check-answers.md). A complete source artifact contains the feasible first plan, honest nutrient unknowns, storage/cash accounting and repeat decision. It does not add an application completion condition or imply whole-diet adequacy.
+Attempt [fresh checks](check-prompts.md) before [corrective guidance](check-answers.md). A complete source artifact contains the feasible first plan, honest nutrient unknowns, storage/cash accounting and repeat decision. It does not establish whole-diet adequacy.
 
 ## Access, harder work and transfer
 

@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2706-GOALS-AS-EXPERIMENTS-01
 slug: c2706-goals-as-experiments-practice
-name: Bounded Goals as experiments Practice
+name: Test a pursuit before making it an identity requirement
 parent_competency_id: '27.06'
 domain_id: '27'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 27.06
-      (Goals as experiments); canonical scope, evidence target, classification, domain boundary, and parent
-      mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 27.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,37 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Goals as experiments through a bounded audit and redesign bounded by the canonical
-    scope: Treat major pursuits as hypotheses with measures, time limits, assumptions, and learning questions.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can continue, adapt,
-    or stop without turning revision into identity failure. The protocol creates a small opportunity to
-    examine that target without treating completion as broad capability.'
+  purpose: Treat a meaningful goal as a time-bounded hypothesis with assumptions, observable learning
+    and explicit continue, adapt or stop criteria.
+  why_recommended: Treat a meaningful goal as a time-bounded hypothesis with assumptions, observable learning
+    and explicit continue, adapt or stop criteria.
   claims:
-  - statement: Using the canonical scope and evidence target for Goals as experiments is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: Treat a meaningful goal as a time-bounded hypothesis with assumptions, observable learning
+      and explicit continue, adapt or stop criteria.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Goals as experiments practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Goals as experiments as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Goals as experiments
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Goals as
-    experiments; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Shorten sessions, use text or assistive communication, or choose another low-risk
+    pursuit with an equally observable small output. A rehearsal cannot establish audience understanding.
+    Do not use this trial to self-direct hazardous training, treatment changes or irreversible life decisions.
+  opportunity_considerations: Use the supplied pursuit of learning to explain an unfamiliar everyday topic
+    clearly. The two-week trial is three short preparation sessions and one explanation to a willing adult
+    or a labeled private rehearsal. Materials are a non-sensitive page, a reliable source on the topic
+    and the participant’s existing communication tools.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Goals as experiments.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the supplied pursuit of learning to explain an unfamiliar everyday topic clearly. The two-week
+    trial is three short preparation sessions and one explanation to a willing adult or a labeled private
+    rehearsal. Materials are a non-sensitive page, a reliable source on the topic and the participant’s
+    existing communication tools.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Goals as experiments instead of
-    a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Shorten sessions, use text or assistive communication, or choose another low-risk pursuit with an
+    equally observable small output. A rehearsal cannot establish audience understanding. Do not use this
+    trial to self-direct hazardous training, treatment changes or irreversible life decisions.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -78,18 +79,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Goals as experiments actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Goals as experiments; copy the canonical scope and evidence target into
-    a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Goals as
-    experiments. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Goals as experiments actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the supplied pursuit of learning to explain an unfamiliar everyday topic clearly. The two-week
+    trial is three short preparation sessions and one explanation to a willing adult or a labeled private
+    rehearsal. Materials are a non-sensitive page, a reliable source on the topic and the participant’s
+    existing communication tools. Goal: Treat a meaningful goal as a time-bounded hypothesis with assumptions,
+    observable learning and explicit continue, adapt or stop criteria. Scope: A short experiment informs
+    a pursuit; it does not settle a career, relationship, medical treatment or major financial decision.
+    Stopping an unsuitable experiment is not a verdict on personal worth. Time and effort: Twenty minutes
+    to design a two-week trial, three 15-minute practice periods and a 15-minute review. Adaptation: Shorten
+    sessions, use text or assistive communication, or choose another low-risk pursuit with an equally
+    observable small output. A rehearsal cannot establish audience understanding. Do not use this trial
+    to self-direct hazardous training, treatment changes or irreversible life decisions. Keep personal
+    working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Shorten sessions, use text or assistive communication, or choose another low-risk
+    pursuit with an equally observable small output. A rehearsal cannot establish audience understanding.
+    Do not use this trial to self-direct hazardous training, treatment changes or irreversible life decisions.
+  expected_burden: Twenty minutes to design a two-week trial, three 15-minute practice periods and a 15-minute
+    review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Goals as experiments protocol to rank worth, coerce participation, demand disclosure, override
@@ -97,18 +107,26 @@ intervention:
   - Treating a completed Goals as experiments action, a polished artifact, agreement, confidence, speed,
     independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Goals as experiments situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Shorten sessions,
+    use text or assistive communication, or choose another low-risk pursuit with an equally observable
+    small output. A rehearsal cannot establish audience understanding. Do not use this trial to self-direct
+    hazardous training, treatment changes or irreversible life decisions.
   actions:
   - stable_id: PRACTICE-COMP-2706-GOALS-AS-EXPERIMENTS-01-A1
     sequence: 1
-    title: Audit one bounded Goals as experiments context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Goals as experiments.
-      Use the canonical scope to name observable conditions without diagnosing people or systems: Treat
-      major pursuits as hypotheses with measures, time limits, assumptions, and learning questions.'
+    title: Write the hypothesis and its honest tests
+    instructions: 'Before starting, write: I think this pursuit fits my current season because, I expect
+      to learn, and this depends on. In the example, test whether three short sessions fit available capacity
+      and whether a listener can identify the explanation’s main point. Set a two-week end date, a fixed
+      effort limit, one process measure and one learning question. Specify a continue condition, an adaptation
+      condition and a stop condition such as repeated conflict with essential duties. Do not make enjoyment
+      or flawless performance compulsory.
+
+
+      Observation checks: The pursuit is expressed as a hypothesis with assumptions; An end date and effort
+      limit are fixed beforehand; One process measure and one learning question are observable; Continue
+      adapt and stop conditions do not depend on personal worth. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -130,9 +148,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2706_a1_one_context_only
-        - c2706_a1_observable_conditions_recorded
-        - c2706_a1_hazards_excluded
+        - the_pursuit_is_expressed_as_a_hypothesis_with_assumptions
+        - an_end_date_and_effort_limit_are_fixed_beforehand
+        - one_process_measure_and_one_learning_question_are_observable
+        - continue_adapt_and_stop_conditions_do_not_depend_on_personal_worth
       - measurement_id: c2706_a1_boundary
         kind: boolean
         role: supporting
@@ -149,10 +168,20 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2706-GOALS-AS-EXPERIMENTS-01-A2
     sequence: 2
-    title: Make one reversible Goals as experiments redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Goals as experiments. Record the intended effect, cost or burden, and a rollback condition before
-      changing anything.
+    title: Run the trial while preserving inconvenient observations
+    instructions: 'Complete the three small sessions where feasible, noting actual time, interruptions
+      and one thing learned after each. Give the explanation through an accessible channel to a willing
+      person, or clearly label a solo rehearsal. Ask the listener only to state the main point, not to
+      reassure you that you are talented. Keep missed sessions, confusion, burden and changed circumstances
+      visible. Alter a safety condition immediately, but label any other mid-trial design change so the
+      final comparison remains honest.
+
+
+      Observation checks: Actual sessions and interruptions are recorded without invented adherence; A
+      willing explanation or labeled solo rehearsal occurs; Feedback concerns the predeclared learning
+      question rather than reassurance; Adverse observations and mid-trial changes remain visible. Mark
+      only what you observed. Missing, mixed and negative results are valid; a deferred action is not
+      completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -174,9 +203,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2706_a2_change_traces_to_finding
-        - c2706_a2_rollback_defined
-        - c2706_a2_burden_recorded
+        - actual_sessions_and_interruptions_are_recorded_without_invented_adherence
+        - a_willing_explanation_or_labeled_solo_rehearsal_occurs
+        - feedback_concerns_the_predeclared_learning_question_rather_than_reassurance
+        - adverse_observations_and_mid_trial_changes_remain_visible
       - measurement_id: c2706_a2_boundary
         kind: boolean
         role: supporting
@@ -193,10 +223,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2706-GOALS-AS-EXPERIMENTS-01-A3
     sequence: 3
-    title: Compare the Goals as experiments context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: Can continue,
-      adapt, or stop without turning revision into identity failure.'
+    title: Choose the next commitment from what the trial showed
+    instructions: 'At the end date compare the observations with the original assumptions and three decision
+      conditions. Choose continue at a stated sustainable level, adapt one feature and retest, or stop
+      with any needed notice. Identify which uncertainty the trial could not answer, such as long-term
+      interest or performance in public. Preserve the original hypothesis beside the decision instead
+      of rewriting it to make every outcome successful.
+
+
+      Observation checks: The review uses the original assumptions and decision conditions; Continue adapt
+      or stop has a specific evidence-based reason; An unresolved long-term or transfer question is retained;
+      The original hypothesis is preserved beside the next commitment. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: What did the trial teach about fit and feasibility, and what would be the smallest
+      justified next commitment?
+
+
+      Examples: Supportive: Two sessions and a clear explanation fit the week, while the third conflicted
+      with care; the person adapted the cadence rather than declaring either total success or failure.
+
+
+      Mixed: All sessions occurred, but the listener’s main-point check was missing, so learning transfer
+      remained uncertain.
+
+
+      Contradictory: Missed sessions were erased, a stop condition was ignored, or continuing the pursuit
+      became necessary to preserve a worthy identity.
+
+
+      Inconclusive: A goal statement was written without a time-limited trial, observations or a decision.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -218,9 +275,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2706_a3_same_context_compared
-        - c2706_a3_mixed_or_null_result_allowed
-        - c2706_a3_target_evidence_reviewed
+        - the_review_uses_the_original_assumptions_and_decision_conditions
+        - continue_adapt_or_stop_has_a_specific_evidence_based_reason
+        - an_unresolved_long_term_or_transfer_question_is_retained
+        - the_original_hypothesis_is_preserved_beside_the_next_commitment
       - measurement_id: c2706_a3_boundary
         kind: boolean
         role: supporting
@@ -240,16 +298,17 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Goals as experiments; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Goals as experiments; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Shorten sessions, use text or assistive communication, or choose another low-risk pursuit with an
+      equally observable small output. A rehearsal cannot establish audience understanding. Do not use
+      this trial to self-direct hazardous training, treatment changes or irreversible life decisions.
     cultural_context:
     - Adapt the expression of Goals as experiments to direct or indirect communication, collective or
       individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Goals as experiments opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Shorten sessions, use text or assistive communication, or choose another low-risk pursuit with an
+      equally observable small output. A rehearsal cannot establish audience understanding. Do not use
+      this trial to self-direct hazardous training, treatment changes or irreversible life decisions.
   pause_conditions:
   - Pause Goals as experiments when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -279,10 +338,8 @@ evidence_and_scoring:
   - c2706_a3_boundary
   - c2706_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Goals as experiments action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Goals as experiments criterion, depended on coercion or hidden
-    private content, or could not distinguish the protocol from contextual change.
+  - Missed sessions were erased, a stop condition was ignored, or continuing the pursuit became necessary
+    to preserve a worthy identity.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Goals as experiments explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -292,14 +349,23 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Goals as experiments rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can continue, adapt, or stop without turning revision into identity failure.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Goals as experiments requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Write the hypothesis and its honest tests. Observed checks: The pursuit
+    is expressed as a hypothesis with assumptions; An end date and effort limit are fixed beforehand;
+    One process measure and one learning question are observable; Continue adapt and stop conditions do
+    not depend on personal worth. Action 2: Run the trial while preserving inconvenient observations.
+    Observed checks: Actual sessions and interruptions are recorded without invented adherence; A willing
+    explanation or labeled solo rehearsal occurs; Feedback concerns the predeclared learning question
+    rather than reassurance; Adverse observations and mid-trial changes remain visible. Action 3: Choose
+    the next commitment from what the trial showed. Observed checks: The review uses the original assumptions
+    and decision conditions; Continue adapt or stop has a specific evidence-based reason; An unresolved
+    long-term or transfer question is retained; The original hypothesis is preserved beside the next commitment.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A goal statement was written without a time-limited
+    trial, observations or a decision.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Goals
     as experiments contribution under typed evaluation; protocol performance remains distinct and is never
     counted twice.
@@ -309,9 +375,8 @@ evidence_and_scoring:
   - L11
   - L14
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Goals as experiments evidence.
@@ -319,10 +384,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded goals as experiments context action was attempted or explicitly deferred.
-  - The make one reversible goals as experiments redesign action was attempted or explicitly deferred.
-  - The compare the goals as experiments context after the change action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Write the hypothesis and its honest tests. Observed checks: The pursuit is expressed as
+    a hypothesis with assumptions; An end date and effort limit are fixed beforehand; One process measure
+    and one learning question are observable; Continue adapt and stop conditions do not depend on personal
+    worth.'
+  - 'Action 2: Run the trial while preserving inconvenient observations. Observed checks: Actual sessions
+    and interruptions are recorded without invented adherence; A willing explanation or labeled solo rehearsal
+    occurs; Feedback concerns the predeclared learning question rather than reassurance; Adverse observations
+    and mid-trial changes remain visible.'
+  - 'Action 3: Choose the next commitment from what the trial showed. Observed checks: The review uses
+    the original assumptions and decision conditions; Continue adapt or stop has a specific evidence-based
+    reason; An unresolved long-term or transfer question is retained; The original hypothesis is preserved
+    beside the next commitment.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -331,56 +407,254 @@ completion_and_review:
     - c2706_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Goals as experiments only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Goals as experiments across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: What did the trial teach about fit and feasibility, and what would be the smallest
+    justified next commitment?
+  transfer_limit: A short experiment informs a pursuit; it does not settle a career, relationship, medical
+    treatment or major financial decision. Stopping an unsuitable experiment is not a verdict on personal
+    worth.
   reflection:
-    before: What does Goals as experiments require in this exact context, what remains outside my role
-      or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Goals as experiments criterion is present, absent, mixed, or unknown, and
-      are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can continue, adapt, or stop without turning revision into
-      identity failure.', what contradiction or missing context matters most, and should this Goals as
-      experiments design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Treat a meaningful goal as a time-bounded
+      hypothesis with assumptions, observable learning and explicit continue, adapt or stop criteria.'
+    during: Which checks have actually been observed? All sessions occurred, but the listener’s main-point
+      check was missing, so learning transfer remained uncertain.
+    after: What did the trial teach about fit and feasibility, and what would be the smallest justified
+      next commitment?
   review_guidance:
     repeat: Repeat the same bounded Goals as experiments design only when the context and burden remain
       appropriate.
-    adapt: Change the Goals as experiments medium, scope, support, timing, criteria, or context while
-      preserving provenance and the narrower evidence claim.
+    adapt: Shorten sessions, use text or assistive communication, or choose another low-risk pursuit with
+      an equally observable small output. A rehearsal cannot establish audience understanding. Do not
+      use this trial to self-direct hazardous training, treatment changes or irreversible life decisions.
     stop: Stop Goals as experiments when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Goals as experiments questions beyond
-      this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Goals as experiments criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Goals as experiments criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Goals as experiments criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Goals as experiments action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: Two sessions and a clear explanation fit the week, while the third conflicted with care;
+      the person adapted the cadence rather than declaring either total success or failure.
+    mixed: All sessions occurred, but the listener’s main-point check was missing, so learning transfer
+      remained uncertain.
+    contradictory: Missed sessions were erased, a stop condition was ignored, or continuing the pursuit
+      became necessary to preserve a worthy identity.
+    inconclusive: A goal statement was written without a time-limited trial, observations or a decision.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Goals as experiments.
+    context_heading: Test a pursuit before making it an identity requirement
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Goals as
       experiments.
   check_in_labels:
-    c2706_a1_primary: The bounded Goals as experiments criterion for action 1 was observed
+    c2706_a1_primary: 'Observed checks: write the hypothesis and its honest tests'
     c2706_a1_boundary: Action 1 stayed inside its stated Goals as experiments boundary
     c2706_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2706_a2_primary: The bounded Goals as experiments criterion for action 2 was observed
+    c2706_a2_primary: 'Observed checks: run the trial while preserving inconvenient observations'
     c2706_a2_boundary: Action 2 stayed inside its stated Goals as experiments boundary
     c2706_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2706_a3_primary: The bounded Goals as experiments criterion for action 3 was observed
+    c2706_a3_primary: 'Observed checks: choose the next commitment from what the trial showed'
     c2706_a3_boundary: Action 3 stayed inside its stated Goals as experiments boundary
     c2706_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Goals as experiments
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What did the trial teach about fit and feasibility, and what would be the smallest
+    justified next commitment? Completion is not mastery.
+  plain_language_evidence: Two sessions and a clear explanation fit the week, while the third conflicted
+    with care; the person adapted the cadence rather than declaring either total success or failure.
   display_order: 374
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '27.06'
+  title: 27.06 — Goals as experiments
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [OpenLearn — Changing priorities: the ABC model](https://www.open.edu/openlearn/mod/oucontent/view.php?id=28143&section=1)
+
+      - [NASA — Technical Assessment](https://www.nasa.gov/reference/6-7-technical-assessment/)
+
+      - [IHI — Model for Improvement](https://www.ihi.org/library/model-for-improvement)
+
+      - [CDC — How to Use the Index](https://www.cdc.gov/ccindex/tool/how-to-use.html)
+
+      - [W3C WAI — Making Events Accessible](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)
+
+      - [University of Edinburgh — What? So what? Now what?](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence. Save the initial work in the [guide](?)
+      before reading.
+
+
+      Session 1 lasts fifteen minutes; session 2 lasts twelve. Session 3 is missed because a necessary
+      responsibility takes the window. The author does not secretly add a replacement. On day 12 the willing
+      reader uses accessible text without classification hints. Fresh card D asks for a headcount reply
+      and is placed BLUE. E announces an opening time with no reply and is placed GREEN. F is an exact
+      duplicate of D, but the reader puts it BLUE rather than GREY. The author records the duplicate-precedence
+      confusion. The check takes five minutes.
+
+
+      Actual session time is 27 minutes of 45 planned; total named trial work including the check is 32
+      minutes. The continue condition is not met. A proposed adaptation is two suitable short sessions
+      and clearer precedence wording, to be agreed and retested later. No retest, long-term suitability
+      or public performance is supplied.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Test the pursuit without putting your identity on trial
+
+
+      A goal can become difficult to revise when it stands for who you are supposed to be. An experiment
+      asks a smaller question: under these conditions, does a particular way of pursuing it produce something
+      useful at a tolerable cost? The original hypothesis needs to survive beside the result so that adaptation
+      does not become retrospective self-congratulation.
+
+
+      Allow twenty minutes to design the supplied trial, fifteen to inspect its later record and ten for
+      checks. A live version would include three fifteen-minute sessions over two weeks. [IHI''s Model
+      for Improvement, S03](https://www.ihi.org/library/model-for-improvement) describes small tests,
+      observation and adaptation. This original educational case applies that limited idea outside clinical
+      work; it is not a controlled study or a treatment experiment.
+
+
+      Worked example: a learner tries early-morning writing and discovers the period regularly collides
+      with necessary transport. Moving the session tests a method; it need not mean the learner lacks
+      seriousness. Pretending all three planned mornings occurred would prevent useful learning about
+      the constraint.
+
+
+      ### Complete explanation trial E2
+
+
+      The fictional pursuit is learning to explain an unfamiliar simple filing system. The original hypothesis
+      is: “Three fifteen-minute evening sessions will fit my present week and let a willing reader use
+      the labels correctly.” The learning question is whether the explanation makes the classification
+      rule usable, not whether the reader thinks the author is talented.
+
+
+      **Complete source card.** A community table uses three temporary trays. BLUE is for a card that
+      needs a reply. GREEN is for a card needing no reply but containing information worth keeping for
+      this event. GREY is for a duplicate with no new information. Apply the rules in this order: exact
+      duplicate first, then reply needed, then keep information. The tray names have no meaning outside
+      this invented system. No real records or private messages are used.
+
+
+      **Practice cards.** A asks “Can you confirm the room?” B says “Doors open at 18:00; no reply needed.”
+      C is an exact second copy of B. Correct classifications are A BLUE, B GREEN and C GREY. The lesson
+      must explain the precedence rather than simply supply these answers.
+
+
+      The trial runs November 1–14. Sessions are planned for days 2, 6 and 10, with a maximum of fifteen
+      minutes each. A willing adult reader has agreed to one separate five-minute written check on day
+      12, with a right to decline. Continue at the same level only if all three sessions fit and the reader
+      correctly applies all three rules without instructional prompting. Adapt if access/scheduling or
+      a rule remains unclear. Stop or defer if repeated conflict with essential duties makes the trial
+      unsuitable. These are local decision conditions, not learning thresholds validated for everyone.
+
+
+      ### Preserve the comparison
+
+
+      1. Copy the hypothesis, dates, assumptions, process measure and learning question. Define the effort
+      limit separately from the reader check: 45 session minutes plus at most five for the check. Name
+      what this tiny trial cannot answer, including long-term interest or public communication skill.
+
+      2. Draft a short explanation from the complete source card. Save it and the decision conditions
+      before opening the [later packet](?resource=file-later-packet-md). Record actual sessions and any
+      alteration; do not count planned time as exposure to the material.
+
+      3. Apply the prewritten continue/adapt/stop conditions to the observations. Keep confusion and missing
+      sessions visible. Choose a bounded next design, not an identity verdict. A solo rehearsal remains
+      preparation if the reader declines.
+
+
+      ### Change one feature without hiding why
+
+
+      For support, use speech, accessible text or a reader; distinguish an access aid from a hint that
+      supplies the classification. A harder case adds a duplicate that itself asks a question. The supplied
+      precedence still makes it GREY; explain why. Do not introduce a fourth rule midway and score old
+      responses against it silently.
+
+
+      Later transfer can test one other safe pursuit with its own observable output and effort cap. Major
+      career, relationship, financial or medical choices require more evidence and appropriate support
+      than a fortnight''s trial. Curiosity, mixed results and stopping all remain legitimate. The result
+      is a reasoned next experiment, not a certificate of talent or a duty to continue.
+
+
+      ### Use the result at its proper scale
+
+
+      Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human
+      dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'These questions revisit supplied examples to consolidate the reasoning. They do not independently
+      test transfer to unseen material. Any separately labeled changed-case attempt below uses different
+      facts.
+
+
+      Attempt these before opening [answers](?check=practice-answers).
+
+
+      1. Three sessions are planned at 15 minutes each; only 15 and 12 occur. With a separate five-minute
+      check, how much actual work is recorded?
+
+
+      2. An exact duplicate also asks for a reply. Under E2''s declared rule order, which tray applies?
+
+
+      3. A solo explanation sounds clear to its author after the reader declines. Is audience understanding
+      demonstrated?
+
+
+      ### Changed-case attempt
+
+
+      Save your response before opening the matching answer. This is a new fictional case.
+
+
+      A harmless sorting trial has a predeclared continue rule: at least five of six new cards correct,
+      no hidden help, and no more than 25 total minutes including checking. The trial records five correct,
+      22 practice minutes and four checking minutes, with no help. Apply the rule and choose a next decision
+      without revising it after seeing the result.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Compare with your attempted [checks](?attempt=practice-checks); these are learning aids, not
+      a learner score.
+
+
+      1. 27 session minutes and 32 including the check, not 50. Keep the missed session visible and evaluate
+      the original conditions before proposing a new design.
+
+
+      2. GREY: exact-duplicate precedence applies first. Correct the explanation of the rule rather than
+      rewarding an answer that changes the rule after seeing the case.
+
+
+      3. No. It establishes a rehearsal, with reader transfer untested. Preserve the uncertainty and seek
+      a willing suitable check later if useful; declining is not a learner failure.
+
+
+      ### Changed-case answer
+
+
+      Accuracy and help conditions are met, but total burden is 26 minutes, one over the limit, so continue
+      is not met. Report the mixed result and choose to stop or design a smaller prospective trial with
+      newly declared limits. Do not exclude checking time or retrospectively raise the threshold.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

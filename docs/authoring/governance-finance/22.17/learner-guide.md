@@ -39,8 +39,8 @@ Repair should be assessed by affected people's practical protection, correction 
 
 For support, complete H using the worked response and then generate F independently. A harder pass makes Uma implicated; use A7's alternate oversight route and record any authority or resourcing gap. Do not turn the exercise into a simulated interrogation. Optional actual transfer is an authorized review of a blank response policy for conflicting roles and missing follow-up, without accessing case files. Real abuse concerns require appropriate professional and urgent support. A polished plan, one finding or a revised inbox does not prove that harm has ended.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. Practical safeguards do not add canonical metadata. Applicability and normative status remain role_conditional. A leadership role is not compulsory. Use actual authority and willing participation; keep protected records outside app evidence. Fiction and no attempt are legitimate. Human dignity is never scored.
+Practical safeguards do not add canonical metadata.  A leadership role is not compulsory. Use actual authority and willing participation; keep protected records private. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

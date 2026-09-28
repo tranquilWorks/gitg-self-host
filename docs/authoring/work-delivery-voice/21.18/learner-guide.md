@@ -2,6 +2,10 @@
 
 Remove an irrelevant barrier from a low-stakes information task while retaining the actual standard. Allow twenty minutes to analyze the requirement, twenty to design an alternative and a short trial. Use the fictional volunteer selection exercise. This is neither a disability assessment nor a legal accommodation or hiring decision. No diagnosis or private medical information is required to compare these task designs.
 
+## How to use the supplied outcomes
+
+The main and later packets narrate worked analysis: some explanations and outcomes are supplied. Use them to inspect reasoning, not to claim an unaided performance. Complete the changed-case attempt in the separate check-prompts file before opening its answer for a new application.
+
 ## Separate the outcome from the customary method
 
 An expectation should describe what useful work must be accomplished. “Explain five facts accurately and answer a clarification” specifies an outcome. “Speak quickly on an unannounced ninety-second video call” specifies a method and condition. Those conditions might be relevant in some jobs, but they are not essential merely because they are customary. Ask the responsible owner which constraints follow from the actual task and which can change.
@@ -28,7 +32,7 @@ The fictional owner needs a volunteer to explain five categories accurately: **p
 
 **Prompt A:** Map Table; purpose is comparing public maps; **9 November 2026, 17:00–17:30 UTC**; **Cedar Center, Rowan Room**; bring **paper and a pencil**; a printed map is optional; questions go to **Map Desk**. Clarification: “May I attend without a printed map?” Correct meaning: yes, the map is optional; paper and pencil are the stated required materials. The initial selection method is an unannounced ninety-second live call.
 
-**Fresh Prompt B:** Route Table; purpose is discussing public routes; **10 November 2026, 18:00–18:30 UTC**; **Cedar Center, Ash Room**; bring **paper and a pencil**; a printed route sheet is optional; questions go to **Route Desk**. Clarification: “Is a printed route sheet required?” Correct meaning: no; the stated requirement is paper and pencil. The same five accuracy categories and one clarification criterion apply.
+**Worked Prompt B:** Route Table; purpose is discussing public routes; **10 November 2026, 18:00–18:30 UTC**; **Cedar Center, Ash Room**; bring **paper and a pencil**; a printed route sheet is optional; questions go to **Route Desk**. Clarification: “Is a printed route sheet required?” Correct meaning: no; the stated requirement is paper and pencil. The same five accuracy categories and one clarification criterion apply.
 
 The first proposed alternative is asynchronous text through a new account-based platform. The owner can authorize a **paper rehearsal** through an existing permitted channel, but no actual recruitment or advancement policy change is approved. All people and roles are fictional. The test requires no diagnostic explanation, medical record, real applicant data or publication.
 
@@ -36,7 +40,7 @@ The first proposed alternative is asynchronous text through a new account-based 
 
 1. Separate the six required outcomes from the live-call, timer and platform conditions. Explain why the stipulated owner can vary those methods here. Output: an essential-outcome statement with method assumptions exposed.
 2. Propose an alternative with the same factual and clarification checks, and identify possible tool, language, sensory or opportunity barriers without diagnosing anyone. Output: a comparable task design and support description.
-3. Save before the [later packet](later-packet.md). Classify the first tool blockage accurately, revise the channel and use fresh B. Output: distinct process-access and task-accuracy results.
+3. Save before the [later packet](later-packet.md). Classify the first tool blockage accurately, revise the channel and use worked B. Output: distinct process-access and task-accuracy results.
 4. Ask which barrier remains and how the principle would affect training, daily communication and advancement. Output: a limited design conclusion with actual policy authority left intact.
 
 ## Support and transfer
@@ -47,8 +51,8 @@ Offer accessible text, signed/spoken response, large print or other appropriate 
 
 [EEOC's employer ADA explanation, S13](../SOURCES.md#S13), distinguishes essential functions and adjustments to methods. The page carries an explicit notice about the 2008 amendments; its old disability definitions, thresholds and procedural details are not adopted as current law. Only the narrow task-versus-method concept is used, and the original volunteer case establishes no legal accommodation ruling.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Human dignity is never scored.
+Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

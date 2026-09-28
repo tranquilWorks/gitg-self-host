@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "05.01",
+  "title": "Build a personal inventory from ordinary evidence",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "An inventory is a provisional account of evidence, not a character verdict. Strengths and limitations may depend on tools, time and support. An absent observation belongs under unknown, not zero."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional fortnight: Jo kept three appointments using reminders, arrived 12 minutes late once after an extra agreed care task, and missed one reminder because the device battery failed. A neighbor freely provided one lift; other journeys used the regular bus. Jo enjoys planning but fears disappointing people. No trauma history, health diagnosis or income facts are supplied."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Fill the nine headings with supported facts or unknowns. Rewrite “always reliable” and “hopelessly irresponsible” proportionately. Choose one practical adjustment rather than nine new goals.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person completes one task with extensive help and calls themselves either incapable or wholly self-sufficient. What more accurate account fits?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Three kept, one late and one missed reminder do not support either global label. Reminder use, care demands and transport help belong in the account; causal contributions remain tentative. Later fiction: Jo checks the battery before one new appointment and arrives on time, a single result. Partial: list only favorable evidence. Incorrect: invent painful history to fill every heading.",
+      "criteria": [
+        "Statements trace to observations",
+        "Both favorable and adverse evidence remain",
+        "Unknowns do not become identity claims"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Name the completed task, the person’s contribution and the actual help. One supported result establishes neither global incapacity nor independence in all settings.",
+      "criteria": [
+        "Statements trace to observations",
+        "Both favorable and adverse evidence remain",
+        "Unknowns do not become identity claims"
+      ]
+    }
+  ]
+}

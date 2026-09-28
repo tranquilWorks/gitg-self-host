@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1209-BODY-COMPOSITION-AND-METABOLIC-HEALTH-01
 slug: c1209-body-composition-and-metabolic-health-practice
-name: Bounded Body composition and metabolic health Practice
+name: Interpret a health-change goal without using appearance as the verdict
 parent_competency_id: '12.09'
 domain_id: '12'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 12.09
-      (Body composition and metabolic health); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 12.09; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Body composition and metabolic health through a qualified-support preparation bounded
-    by the canonical scope: Understand weight change, muscle, fat, waist, blood markers, and sustainable
-    methods.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Uses health and performance
-    evidence rather than appearance alone to guide change. The protocol creates a small opportunity to
-    examine that target without treating completion as broad capability.'
+  purpose: Distinguish body weight, muscle, fat, waist measures, function and clinical markers, then choose
+    evidence and a sustainable action that fit an actual health goal.
+  why_recommended: Distinguish body weight, muscle, fat, waist measures, function and clinical markers,
+    then choose evidence and a sustainable action that fit an actual health goal.
   claims:
-  - statement: Using the canonical scope and evidence target for Body composition and metabolic health
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Distinguish body weight, muscle, fat, waist measures, function and clinical markers, then
+      choose evidence and a sustainable action that fit an actual health goal.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Body composition and metabolic health practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Body composition and metabolic health as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Body composition
-    and metabolic health context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Body composition
-    and metabolic health; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use the fictional case throughout when body metrics are distressing or medically
+    inappropriate. Existing eating-disorder treatment, pregnancy care and condition-specific guidance
+    take precedence. A qualified clinician can choose appropriate monitoring without the app storing personal
+    values.
+  opportunity_considerations: 'Fictional case: an adult’s scale weight is unchanged, carrying groceries
+    feels easier, clothing fit changed and blood-pressure results have not been reviewed. Use four columns—measurement,
+    what it may show, what it cannot show, and who can interpret it. The aim is to avoid inferring health
+    or tissue change from a photograph or one number.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Body composition and metabolic
-    health.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Fictional case: an adult’s scale weight is unchanged, carrying groceries feels easier, clothing fit
+    changed and blood-pressure results have not been reviewed. Use four columns—measurement, what it may
+    show, what it cannot show, and who can interpret it. The aim is to avoid inferring health or tissue
+    change from a photograph or one number.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Body composition and metabolic
-    health instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use the fictional case throughout when body metrics are distressing or medically inappropriate. Existing
+    eating-disorder treatment, pregnancy care and condition-specific guidance take precedence. A qualified
+    clinician can choose appropriate monitoring without the app storing personal values.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -82,19 +82,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Body composition and metabolic health actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Body composition and metabolic health; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Body composition
-    and metabolic health. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Body composition and metabolic health
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Fictional case: an adult’s scale weight is unchanged, carrying groceries feels easier, clothing
+    fit changed and blood-pressure results have not been reviewed. Use four columns—measurement, what
+    it may show, what it cannot show, and who can interpret it. The aim is to avoid inferring health or
+    tissue change from a photograph or one number. Goal: Distinguish body weight, muscle, fat, waist measures,
+    function and clinical markers, then choose evidence and a sustainable action that fit an actual health
+    goal. Scope: This is interpretation and care planning, not body-composition measurement, metabolic
+    diagnosis or a weight-loss prescription. No weigh-in, waist measurement, calorie target or laboratory
+    test is required for the exercise. Time and effort: Twenty minutes on the supplied case and one appropriate
+    next action or qualified discussion. Adaptation: Use the fictional case throughout when body metrics
+    are distressing or medically inappropriate. Existing eating-disorder treatment, pregnancy care and
+    condition-specific guidance take precedence. A qualified clinician can choose appropriate monitoring
+    without the app storing personal values. Keep personal working notes outside the check-in; record
+    only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use the fictional case throughout when body metrics are distressing or medically
+    inappropriate. Existing eating-disorder treatment, pregnancy care and condition-specific guidance
+    take precedence. A qualified clinician can choose appropriate monitoring without the app storing personal
+    values.
+  expected_burden: Twenty minutes on the supplied case and one appropriate next action or qualified discussion.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Body composition and metabolic health protocol to rank worth, coerce participation, demand
@@ -102,19 +111,25 @@ intervention:
   - Treating a completed Body composition and metabolic health action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Body composition and metabolic health situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Health and exercise content must be adapted to the person and does not replace licensed medical care.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use the fictional
+    case throughout when body metrics are distressing or medically inappropriate. Existing eating-disorder
+    treatment, pregnancy care and condition-specific guidance take precedence. A qualified clinician can
+    choose appropriate monitoring without the app storing personal values.
   actions:
   - stable_id: PRACTICE-COMP-1209-BODY-COMPOSITION-AND-METABOLIC-HEALTH-01-A1
     sequence: 1
-    title: Bound the qualified question for Body composition and metabolic health
-    instructions: 'Turn Body composition and metabolic health into one educational or planning question
-      and identify the qualification and jurisdiction needed to answer it. Use the canonical scope to
-      separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Understand weight change, muscle, fat, waist, blood markers,
-      and sustainable methods.'
+    title: Separate the evidence types and their limitations
+    instructions: 'For the case, explain that total weight does not by itself identify muscle or fat change,
+      clothing fit is imprecise, function measures a task, and clinical markers need context and qualified
+      interpretation. Include waist as another imperfect measure rather than a compulsory target. Mark
+      which observations are missing or incomparable. Do not diagnose metabolic health from appearance
+      or treat a stable scale as proof of no progress.
+
+
+      Observation checks: Weight tissue composition waist function and clinical markers are distinguished;
+      Each measure has an explicit limitation; Missing or incomparable observations remain visible; Appearance
+      and a single number do not determine a health verdict. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +151,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1209_a1_question_bounded
-        - c1209_a1_qualification_named
-        - c1209_a1_professional_boundary_explicit
+        - weight_tissue_composition_waist_function_and_clinical_markers_are_distinguished
+        - each_measure_has_an_explicit_limitation
+        - missing_or_incomparable_observations_remain_visible
+        - appearance_and_a_single_number_do_not_determine_a_health_verdict
       - measurement_id: c1209_a1_boundary
         kind: boolean
         role: supporting
@@ -155,12 +171,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1209-BODY-COMPOSITION-AND-METABOLIC-HEALTH-01-A2
     sequence: 2
-    title: Prepare minimum information for Body composition and metabolic health
-    instructions: Create a privacy-minimized Body composition and metabolic health consultation note containing
-      only the question, relevant category-level facts, current constraints, and desired decision. Omit
-      diagnoses, allegations, account numbers, credentials, protected work information, intimate detail,
-      and third-party identity unless a qualified professional lawfully requires it through an appropriate
-      channel.
+    title: Choose a health-relevant question and a sustainable route
+    instructions: 'Select one question the evidence can reasonably address, such as whether daily carrying
+      is easier without pain or whether a clinician needs to review existing results. Choose a non-restrictive
+      action within an established plan: repeat a familiar strength session, maintain a workable meal
+      pattern or arrange the indicated clinical review. State the expected benefit, burden and what would
+      make the plan unsuitable.
+
+
+      Observation checks: The question concerns health function or an individually chosen goal; The selected
+      evidence can address that question only within its limits; The action is sustainable and does not
+      prescribe restriction or testing; Burden and a stop or review condition are explicit. Mark only
+      what you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -182,9 +204,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1209_a2_minimum_information_only
-        - c1209_a2_sensitive_detail_excluded
-        - c1209_a2_decision_need_named
+        - the_question_concerns_health_function_or_an_individually_chosen_goal
+        - the_selected_evidence_can_address_that_question_only_within_its_limits
+        - the_action_is_sustainable_and_does_not_prescribe_restriction_or_testing
+        - burden_and_a_stop_or_review_condition_are_explicit
       - measurement_id: c1209_a2_boundary
         kind: boolean
         role: supporting
@@ -201,12 +224,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1209-BODY-COMPOSITION-AND-METABOLIC-HEALTH-01-A3
     sequence: 3
-    title: Record a bounded Body composition and metabolic health disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Uses health and performance evidence rather than appearance alone to guide
-      change.'
+    title: Complete the next action and preserve uncertainty
+    instructions: 'Carry out the selected safe action or qualified contact and record only whether it
+      happened and what next step was agreed. For a functional observation, use comparable conditions;
+      for clinical results, ask what they mean together and what follow-up is warranted. Retain any mismatch
+      between appearance, function and markers. Do not report improved metabolism or changed body composition
+      from completing this practice.
+
+
+      Observation checks: A safe action or qualified contact actually occurs; Comparable conditions or
+      clinical context are preserved; Conflicting indicators are not hidden; No metabolic or tissue-change
+      claim follows from task completion. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.
+
+
+      Final review: Which evidence would actually change the health decision, and which attractive-looking
+      number is insufficient on its own?
+
+
+      Examples: Supportive: The person retained the functional improvement and arranged review of existing
+      clinical results without inventing a fat-loss conclusion.
+
+
+      Mixed: A useful activity continued, but changing test conditions made the functional comparison
+      uncertain.
+
+
+      Contradictory: A photograph or scale change was treated as proof of metabolic health and used to
+      justify severe restriction.
+
+
+      Inconclusive: Several body metrics were collected without a health question, interpretation limit
+      or sustainable next action.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,14 +271,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1209_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1209_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - a_safe_action_or_qualified_contact_actually_occurs
+        - comparable_conditions_or_clinical_context_are_preserved
+        - conflicting_indicators_are_not_hidden
+        - no_metabolic_or_tissue_change_claim_follows_from_task_completion
       - measurement_id: c1209_a3_boundary
         kind: boolean
         role: supporting
@@ -250,17 +301,17 @@ intervention:
       Body composition and metabolic health; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Body composition and metabolic health; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use the fictional case throughout when body metrics are distressing or medically inappropriate.
+      Existing eating-disorder treatment, pregnancy care and condition-specific guidance take precedence.
+      A qualified clinician can choose appropriate monitoring without the app storing personal values.
     cultural_context:
     - Adapt the expression of Body composition and metabolic health to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Body composition and metabolic health opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use the fictional case throughout when body metrics are distressing or medically inappropriate.
+      Existing eating-disorder treatment, pregnancy care and condition-specific guidance take precedence.
+      A qualified clinician can choose appropriate monitoring without the app storing personal values.
   pause_conditions:
   - Pause Body composition and metabolic health when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -291,10 +342,7 @@ evidence_and_scoring:
   - c1209_a3_boundary
   - c1209_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Body composition and metabolic health action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Body composition and metabolic health criterion, depended on
-    coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A photograph or scale change was treated as proof of metabolic health and used to justify severe restriction.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Body composition and metabolic health explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -305,14 +353,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Body composition and metabolic health rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Uses health and performance evidence rather than appearance alone to guide change.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Body composition and metabolic health requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate the evidence types and their limitations. Observed checks: Weight
+    tissue composition waist function and clinical markers are distinguished; Each measure has an explicit
+    limitation; Missing or incomparable observations remain visible; Appearance and a single number do
+    not determine a health verdict. Action 2: Choose a health-relevant question and a sustainable route.
+    Observed checks: The question concerns health function or an individually chosen goal; The selected
+    evidence can address that question only within its limits; The action is sustainable and does not
+    prescribe restriction or testing; Burden and a stop or review condition are explicit. Action 3: Complete
+    the next action and preserve uncertainty. Observed checks: A safe action or qualified contact actually
+    occurs; Comparable conditions or clinical context are preserved; Conflicting indicators are not hidden;
+    No metabolic or tissue-change claim follows from task completion.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Several body metrics were collected without a health
+    question, interpretation limit or sustainable next action.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Body composition
     and metabolic health contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -321,9 +378,8 @@ evidence_and_scoring:
   - L09
   - L13
   - L17
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Body composition and metabolic health evidence.
@@ -331,12 +387,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for body composition and metabolic health action was attempted or
-    explicitly deferred.
-  - The prepare minimum information for body composition and metabolic health action was attempted or
-    explicitly deferred.
-  - The record a bounded body composition and metabolic health disposition action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Separate the evidence types and their limitations. Observed checks: Weight tissue composition
+    waist function and clinical markers are distinguished; Each measure has an explicit limitation; Missing
+    or incomparable observations remain visible; Appearance and a single number do not determine a health
+    verdict.'
+  - 'Action 2: Choose a health-relevant question and a sustainable route. Observed checks: The question
+    concerns health function or an individually chosen goal; The selected evidence can address that question
+    only within its limits; The action is sustainable and does not prescribe restriction or testing; Burden
+    and a stop or review condition are explicit.'
+  - 'Action 3: Complete the next action and preserve uncertainty. Observed checks: A safe action or qualified
+    contact actually occurs; Comparable conditions or clinical context are preserved; Conflicting indicators
+    are not hidden; No metabolic or tissue-change claim follows from task completion.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -345,58 +409,333 @@ completion_and_review:
     - c1209_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Body composition and metabolic health only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Body composition and metabolic health across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which evidence would actually change the health decision, and which attractive-looking
+    number is insufficient on its own?
+  transfer_limit: This is interpretation and care planning, not body-composition measurement, metabolic
+    diagnosis or a weight-loss prescription. No weigh-in, waist measurement, calorie target or laboratory
+    test is required for the exercise.
   reflection:
-    before: What does Body composition and metabolic health require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Body composition and metabolic health criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Uses health and performance evidence rather than appearance
-      alone to guide change.', what contradiction or missing context matters most, and should this Body
-      composition and metabolic health design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Distinguish body weight, muscle, fat, waist
+      measures, function and clinical markers, then choose evidence and a sustainable action that fit
+      an actual health goal.'
+    during: Which checks have actually been observed? A useful activity continued, but changing test conditions
+      made the functional comparison uncertain.
+    after: Which evidence would actually change the health decision, and which attractive-looking number
+      is insufficient on its own?
   review_guidance:
     repeat: Repeat the same bounded Body composition and metabolic health design only when the context
       and burden remain appropriate.
-    adapt: Change the Body composition and metabolic health medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use the fictional case throughout when body metrics are distressing or medically inappropriate.
+      Existing eating-disorder treatment, pregnancy care and condition-specific guidance take precedence.
+      A qualified clinician can choose appropriate monitoring without the app storing personal values.
     stop: Stop Body composition and metabolic health when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Body composition and metabolic health
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Body composition and metabolic health criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Body composition and metabolic health criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Body composition and metabolic health criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Body composition and metabolic health action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The person retained the functional improvement and arranged review of existing clinical
+      results without inventing a fat-loss conclusion.
+    mixed: A useful activity continued, but changing test conditions made the functional comparison uncertain.
+    contradictory: A photograph or scale change was treated as proof of metabolic health and used to justify
+      severe restriction.
+    inconclusive: Several body metrics were collected without a health question, interpretation limit
+      or sustainable next action.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Body composition and metabolic health.
+    context_heading: Interpret a health-change goal without using appearance as the verdict
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Body composition
       and metabolic health.
   check_in_labels:
-    c1209_a1_primary: The bounded Body composition and metabolic health criterion for action 1 was observed
+    c1209_a1_primary: 'Observed checks: separate the evidence types and their limitations'
     c1209_a1_boundary: Action 1 stayed inside its stated Body composition and metabolic health boundary
     c1209_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1209_a2_primary: The bounded Body composition and metabolic health criterion for action 2 was observed
+    c1209_a2_primary: 'Observed checks: choose a health-relevant question and a sustainable route'
     c1209_a2_boundary: Action 2 stayed inside its stated Body composition and metabolic health boundary
     c1209_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1209_a3_primary: The bounded Body composition and metabolic health criterion for action 3 was observed
+    c1209_a3_primary: 'Observed checks: complete the next action and preserve uncertainty'
     c1209_a3_boundary: Action 3 stayed inside its stated Body composition and metabolic health boundary
     c1209_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Body composition and
-    metabolic health practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which evidence would actually change the health decision, and which attractive-looking
+    number is insufficient on its own? Completion is not mastery.
+  plain_language_evidence: The person retained the functional improvement and arranged review of existing
+    clinical results without inventing a fat-loss conclusion.
   display_order: 154
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '12.09'
+  title: 12.09 — Body composition and metabolic health
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [CDC, BMI Frequently Asked Questions](https://www.cdc.gov/bmi/faq/index.html)
+
+      - [MedlinePlus, How to Understand Your Lab Results](https://www.medlineplus.gov/lab-tests/how-to-understand-your-lab-results/)
+
+      - [NIAMS, Sports Injuries: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/sports-injuries/diagnosis-treatment-and-steps-to-take)
+
+      - [NIAAA, Harmful Interactions](https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/harmful-interactions-mixing-alcohol-with-medicines)
+
+      - [NIAAA, Alcohol Use Disorder: From Risk to Diagnosis to Recovery](https://www.niaaa.nih.gov/health-professionals-communities/core-resource-on-alcohol/alcohol-use-disorder-risk-diagnosis-recovery)
+
+      - [FDA, Benzodiazepine Boxed Warning update](https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class)
+
+      - [FDA, Nicotine Is Why Tobacco Products Are Addictive](https://www.fda.gov/tobacco-products/health-effects-tobacco-use/nicotine-why-tobacco-products-are-addictive)
+
+      - [NIDA, Anabolic Steroids and Other Appearance and Performance Enhancing Drugs](https://nida.nih.gov/research-topics/anabolic-steroids)
+
+      - [NHS, Consent to treatment](https://www.nhs.uk/tests-and-treatments/consent-to-treatment/)
+
+      - [CDC, About Handwashing](https://www.cdc.gov/clean-hands/about/index.html)
+
+      - [NIAMS, Exercise for Your Bone Health](https://www.niams.nih.gov/health-topics/exercise-your-bone-health)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Reveal after preserving the evidence map and decision. All events are simulated.
+
+
+      Day 1: Ellis sends the private review request. Day 2: the office acknowledges it and confirms a
+      review on day 6. No clinical interpretation has occurred yet. Day 3: a book-group trip takes 95
+      seconds, but a helper carries one of the three books. The usual aid and route remain. Ellis reports
+      usual aftermath. No body-composition or waist measurement exists.
+
+
+      The original comparable change was 120 to 100 seconds, 20 seconds quicker, with the same task conditions.
+      Day 3 is 5 seconds quicker than the previous 100-second trip, but load sharing changed. Preserve
+      this as a supported trip under different conditions; do not extend a same-condition trend. A booked
+      review does not establish interpreted markers or care completed.
+
+
+      ### Separate alternative after day 6
+
+
+      Only in this alternative branch, the review actually occurs. The clinician explains that the existing
+      report needs contextual follow-up and agrees a further review; no “metabolic improvement” conclusion
+      or treatment change is supplied. Ellis can now record review attended and a next step agreed. The
+      next review has not occurred. Keep the unchanged-scale and useful-function facts without making
+      them cancel the unresolved clinical question.
+
+
+      If the expected day-6 review instead does not occur, record that absence and the next contact needed.
+      Do not borrow the alternative''s clinical conversation into the main branch.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Choose evidence that can answer the health question
+
+
+      Body weight is a total, not a breakdown of muscle, fat and other components. A stable total does
+      not prove that nothing changed; a changed total does not identify what changed. Waist measurements,
+      clothing fit, daily function and clinical markers answer different questions and have different
+      limitations. A photograph cannot settle them.
+
+
+      This guide helps you interpret a health-change goal and choose a sustainable next action. Its default
+      is a complete fictional evidence review. Allow 15 minutes to build the evidence table, 10 for the
+      later record and 10 for fresh checks. Paper, a text editor, dictation and simple arithmetic suffice.
+      No weigh-in, photograph, tape measure, calorie target, laboratory test, purchase or private disclosure
+      is required. Health and exercise content must be adapted to the person and does not replace licensed
+      medical care.
+
+
+      ### A measure is useful within its limits
+
+
+      Weight includes tissues and other bodily contents; weight change alone cannot identify a muscle
+      or fat change. BMI relates weight to height and is a screening measure, not direct tissue measurement.
+      The [CDC''s explanation](https://www.cdc.gov/bmi/faq/index.html) distinguishes BMI from fat and
+      lean mass. This guide does not calculate BMI or assign a body category.
+
+
+      Waist can be one contextual indicator; methods and conditions matter, and it is not compulsory here.
+      Clothing can stretch or fit differently for reasons unrelated to health. Function is task-specific:
+      carrying a familiar bag more comfortably is useful evidence about that task, even if appearance
+      is unchanged. But a lighter bag, different route or extra help changes the comparison. Keep those
+      conditions visible instead of calling any faster result improvement.
+
+
+      Blood markers, blood pressure and other clinical results need their own units, methods, context
+      and appropriate interpretation. A portal flag is not a diagnosis; an in-range result does not establish
+      total health. [MedlinePlus explains lab-result context and reference ranges](https://www.medlineplus.gov/lab-tests/how-to-understand-your-lab-results/).
+      Do not combine unlike tests or compare numbers from different reports without checking what they
+      represent.
+
+
+      Sustainable methods preserve nourishment, sleep, access, relevant treatment and a personally meaningful
+      goal. They may include a familiar activity in an established plan, a workable meal pattern or review
+      of existing results. This exercise provides no weight-loss target, diet restriction, supplement
+      regimen or extra testing schedule. If body metrics are distressing or unsuitable, the fictional
+      route remains complete. Existing eating-disorder, pregnancy and condition-specific care governs
+      personal monitoring.
+
+
+      ### Worked example: the bag changed
+
+
+      Pat takes 90 seconds to move a six-book bag along a familiar route, then 60 seconds with three books
+      along the same route. The second trip is 30 seconds quicker, but it is not the same task demand.
+      The record supports a faster trip with fewer books, not increased muscle or reduced fat. A usable
+      next question is whether the lighter load makes ordinary participation easier; it need not become
+      a physical-capacity claim.
+
+
+      ### Complete materials: Ellis''s evidence folder
+
+
+      Ellis wants to keep visiting a nearby book group comfortably. Their existing care plan includes
+      a familiar supported activity and regular meals; neither needs escalation for this exercise. They
+      have existing clinical results awaiting review, with no urgent instruction or current symptom concern
+      supplied in this fictional case. That absence is not a health examination or reassurance for a real
+      concern.
+
+
+      | Evidence item | Earlier record | Current record | Context |
+
+      | --- | --- | --- | --- |
+
+      | Scale total | recorded | unchanged | Same stated device and routine; no tissue measurement |
+
+      | Muscle/fat composition | not measured | not measured | No composition method supplied |
+
+      | Waist | not recorded | not recorded | No measurement required |
+
+      | Clothing fit | familiar garment | feels looser | Garment has stretched; imprecise comparison |
+
+      | Book-group task | 120 seconds | 100 seconds | Same three-book bag, route, usual aid and helper
+      role |
+
+      | Task aftermath | ordinary function usual | ordinary function usual | Both are self-reports, not
+      independent observations |
+
+      | Existing blood-marker report | earlier report unavailable | portal says review requested | Values,
+      units and interpretation not supplied |
+
+
+      The clinician''s office offers a review request channel. Ellis can send a brief question privately
+      and ask for an accessible written explanation; the learning exercise never sends it. The sustainable
+      default is to keep the existing meal/activity plan while requesting interpretation of the existing
+      report. A new symptom or urgent report instruction in real life would override this ordinary follow-up
+      case.
+
+
+      #### Action 1 — Build the evidence map
+
+
+      For all seven rows write `what is observed | question it can address | limit or missing fact | appropriate
+      interpretation route`. Separate muscle and fat even though neither was measured. Calculate the task-time
+      difference and state what stayed comparable. Do not infer a clinical improvement from the absence
+      of a scale change, or a tissue change from the easier task.
+
+
+      #### Action 2 — Preserve one decision before more results
+
+
+      Choose the question “what does the existing clinical result mean in context, and what follow-up
+      is appropriate?” Draft a short request containing the question, the actual report availability and
+      the written-reply need. Do not invent values or attach private details to a public learning record.
+      Add a sustainable action card: keep the established routine if it remains suitable; retain nourishment
+      and support; seek relevant advice for symptoms, unwanted effects or unclear restrictions.
+
+
+      Before opening [later-packet.md](?resource=file-later-packet-md), write what would justify each
+      claim: request sent, review booked, result interpreted, actual functional comparison, body composition
+      changed. Some claims may remain unsupported throughout.
+
+
+      #### Action 3 — Integrate the later record without choosing a favorite indicator
+
+
+      Keep the original folder and add each later event. Distinguish an agreed next step from an action
+      actually performed. If later function looks worse or becomes incomparable, keep it alongside the
+      earlier favorable record. Choose repeat within the existing plan, clarify a condition, or obtain
+      qualified review; do not respond to ambiguity with more body tracking or food restriction.
+
+
+      Attempt [check-prompts.md](?attempt=practice-checks) before [check-answers.md](?check=practice-answers).
+      Completion of this source exercise means an evidence map, a bounded plan/request and an honest later
+      interpretation. Those reading outputs do not establish actual health behavior.
+
+
+      ### Access, challenge and later transfer
+
+
+      A reader can handle the records; use verbal categories rather than body numbers. Keep private clinical
+      information in the appropriate care channel. A lack of access to records or care is a barrier to
+      resolve, not a failed health character trait.
+
+
+      Harder variation: the later portal report is from another laboratory and the earlier unit is missing.
+      List the missing comparison facts—test identity, units, reference range, sampling context and qualified
+      interpretation—without trying a guessed conversion. A same-looking number does not repair missing
+      context.
+
+
+      For later real transfer, choose a meaningful health or participation question and one appropriate
+      action already in the person''s plan, or make a qualified contact about existing information. Record
+      actual action, support and agreed follow-up only after they occur. Comparable longitudinal evidence
+      may eventually support a narrower health/function claim; this artifact, two trips and author self-review
+      do not supply it. Independent observation and qualified assessment remain separate.
+
+
+      **Supportive:** Comparable function becomes easier and relevant clinical uncertainty receives a
+      real appropriate review, without inventing tissue change.
+
+
+      **Mixed:** One task improves while clinical information remains unresolved or a later task changes
+      conditions.
+
+
+      **Contradictory:** Appearance or a single body number becomes a health verdict or justification
+      for severe restriction.
+
+
+      **Inconclusive:** Metrics are collected without a question, comparison context or actual next action.
+
+
+      See scope and limits described in this guide and [source limits](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A person''s weight total is unchanged and a garment is looser, but the garment has stretched.
+      Neither muscle nor fat was measured. What changed in the record, and what tissue claim remains unsupported?
+
+      2. An unchanged task takes 150 seconds, then 130 seconds. A third trip takes 110 seconds with a
+      lighter load. Calculate both differences and identify which comparison can support a same-task observation.
+
+      3. A portal marks an existing blood result for review; the appointment is booked but not attended.
+      A friend says an in-range result elsewhere proves overall metabolic health. Correct the care status
+      and explain why neither result supplies the proposed verdict.
+
+
+      Save answers before [the key](?check=practice-answers).'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The scale total is unchanged and garment fit is reported different under changed garment
+      conditions. Muscle and fat remain unmeasured. Neither fat loss nor muscle gain follows. Keep a meaningful
+      health/function question without demanding more body measurements.
+
+      2. Both successive differences are 20 seconds. Only 150 to 130 preserves the stated task demand;
+      130 to 110 changes the load. The first is a task observation, not proof of tissue change or a causal
+      training effect. Restore the load-change note if it was omitted.
+
+      3. Review is booked, not attended or interpreted. Clinical results need their own context, and one
+      in-range result does not establish total metabolic health. Use the appropriate review channel for
+      the existing question; do not invent diagnosis, reassurance, treatment or additional tests.
+
+
+      These are reasoning checks, not body-composition or clinical assessments.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

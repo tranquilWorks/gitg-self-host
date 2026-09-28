@@ -20,10 +20,8 @@ Mika anticipates mild boredom and the urge to switch tasks, not pain or severe d
 
 For support, read the categories aloud or use large labels and a helper who does not make the decisions. For a harder case, the undated note's ownership is unknown: retain it safely without inventing certainty. The broader competency includes uncertainty, embarrassment, craving and fatigue, but this source deliberately practices only benign boredom/frustration. Temporary pain is not prescribed and clinical concerns require appropriate care. A later natural repetition can inspect usefulness, not authorize escalating duration or ignoring the body.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

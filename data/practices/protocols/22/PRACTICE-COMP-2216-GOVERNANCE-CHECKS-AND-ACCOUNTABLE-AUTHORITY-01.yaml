@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2216-GOVERNANCE-CHECKS-AND-ACCOUNTABLE-AUTHORITY-01
 slug: c2216-governance-checks-and-accountable-authority-practice
-name: Bounded Governance, checks, and accountable authority Practice
+name: Build a small governance rule that can correct the leader
 parent_competency_id: '22.16'
 domain_id: '22'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 22.16
-      (Governance, checks, and accountable authority); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 22.16; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,40 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Governance, checks, and accountable authority through a bounded audit and redesign
-    bounded by the canonical scope: Design decision rights, oversight, appeal, succession, transparency,
-    and independent review.'
-  why_recommended: 'The parent competency identifies this limited evidence target: An institution can
-    detect and correct leader error without relying on the leader''s virtue alone. The protocol creates
-    a small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Define decision rights, oversight, appeal, succession and transparent records so a group can
+    detect and correct an error without relying only on a leader’s virtue.
+  why_recommended: Define decision rights, oversight, appeal, succession and transparent records so a
+    group can detect and correct an error without relying only on a leader’s virtue.
   claims:
-  - statement: Using the canonical scope and evidence target for Governance, checks, and accountable authority
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Define decision rights, oversight, appeal, succession and transparent records so a group
+      can detect and correct an error without relying only on a leader’s virtue.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Governance, checks, and accountable authority practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Governance, checks, and accountable authority as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Governance, checks,
-    and accountable authority context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Governance,
-    checks, and accountable authority; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Use an accessible diagram, peer group or fictional tabletop. Real legal entities
+    must follow their governing documents and qualified advice for changes. Oversight should not expose
+    private personal or case information beyond legitimate need.
+  opportunity_considerations: Default to a small association approving use of a shared room. Prepare a
+    one-page governance rule with who decides, what criteria apply, what is recorded, who checks, how
+    to appeal, conflicts, temporary absence and review. Use fictional names and no actual funds or legal
+    appointments.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Governance, checks, and accountable
-    authority.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Default to a small association approving use of a shared room. Prepare a one-page governance rule
+    with who decides, what criteria apply, what is recorded, who checks, how to appeal, conflicts, temporary
+    absence and review. Use fictional names and no actual funds or legal appointments.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Governance, checks, and accountable
-    authority instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use an accessible diagram, peer group or fictional tabletop. Real legal entities must follow their
+    governing documents and qualified advice for changes. Oversight should not expose private personal
+    or case information beyond legitimate need.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -82,19 +80,25 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Governance, checks, and accountable authority actions over ten days,
-    preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Governance, checks, and accountable authority; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Governance,
-    checks, and accountable authority. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Governance, checks, and accountable authority
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default to a small association approving use of a shared room. Prepare a one-page governance
+    rule with who decides, what criteria apply, what is recorded, who checks, how to appeal, conflicts,
+    temporary absence and review. Use fictional names and no actual funds or legal appointments. Goal:
+    Define decision rights, oversight, appeal, succession and transparent records so a group can detect
+    and correct an error without relying only on a leader’s virtue. Scope: Use a fictional group or an
+    authorized low-stakes governance proposal. This is not a legal charter, fiduciary opinion or permission
+    to replace existing bylaws informally. Time and effort: Thirty minutes to draft, a 20-minute error-and-absence
+    tabletop test and a short revision. Adaptation: Use an accessible diagram, peer group or fictional
+    tabletop. Real legal entities must follow their governing documents and qualified advice for changes.
+    Oversight should not expose private personal or case information beyond legitimate need. Keep personal
+    working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use an accessible diagram, peer group or fictional tabletop. Real legal entities
+    must follow their governing documents and qualified advice for changes. Oversight should not expose
+    private personal or case information beyond legitimate need.
+  expected_burden: Thirty minutes to draft, a 20-minute error-and-absence tabletop test and a short revision.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Governance, checks, and accountable authority protocol to rank worth, coerce participation,
@@ -103,19 +107,25 @@ intervention:
   - Treating a completed Governance, checks, and accountable authority action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Governance, checks, and accountable authority situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use an accessible
+    diagram, peer group or fictional tabletop. Real legal entities must follow their governing documents
+    and qualified advice for changes. Oversight should not expose private personal or case information
+    beyond legitimate need.
   actions:
   - stable_id: PRACTICE-COMP-2216-GOVERNANCE-CHECKS-AND-ACCOUNTABLE-AUTHORITY-01-A1
     sequence: 1
-    title: Audit one bounded Governance, checks, and accountable authority context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Governance, checks,
-      and accountable authority. Use the canonical scope to name observable conditions without diagnosing
-      people or systems: Design decision rights, oversight, appeal, succession, transparency, and independent
-      review.'
+    title: Allocate authority and oversight before a dispute occurs
+    instructions: 'State which routine decisions the coordinator may make and which require a second authorized
+      review. Define the purpose-linked criteria, required information and limits of discretion. Identify
+      who can inspect the record and how privacy will be protected. Separate the decision-maker from the
+      appeal reviewer where feasible, and define what happens when either has a conflict. A title alone
+      does not explain the boundaries of legitimate authority.
+
+
+      Observation checks: Routine and higher-consequence decisions have defined rights; Criteria information
+      and discretion limits are explicit; Transparency and privacy are balanced; Independent review and
+      conflict handling are specified. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -137,9 +147,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2216_a1_one_context_only
-        - c2216_a1_observable_conditions_recorded
-        - c2216_a1_hazards_excluded
+        - routine_and_higher_consequence_decisions_have_defined_rights
+        - criteria_information_and_discretion_limits_are_explicit
+        - transparency_and_privacy_are_balanced
+        - independent_review_and_conflict_handling_are_specified
       - measurement_id: c2216_a1_boundary
         kind: boolean
         role: supporting
@@ -156,10 +167,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2216-GOVERNANCE-CHECKS-AND-ACCOUNTABLE-AUTHORITY-01-A2
     sequence: 2
-    title: Make one reversible Governance, checks, and accountable authority redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Governance, checks, and accountable authority. Record the intended effect, cost or burden, and
-      a rollback condition before changing anything.
+    title: Test a leader error and a challenge from a less powerful member
+    instructions: 'Use a fictional case where the coordinator applies the wrong booking rule and a newcomer
+      notices. Walk through how the person raises the issue, what evidence is considered, who reviews
+      it and how the result is communicated. Ensure the coordinator cannot simply veto review of their
+      own decision and that disagreement does not automatically remove the newcomer’s access. Preserve
+      fair process for the decision-maker as well as the challenger.
+
+
+      Observation checks: A concrete error can be detected and challenged; The review does not depend
+      on the leader’s permission alone; The challenger is not penalized for a good-faith concern; Both
+      affected parties receive a fair reasoned process. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -181,9 +200,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2216_a2_change_traces_to_finding
-        - c2216_a2_rollback_defined
-        - c2216_a2_burden_recorded
+        - a_concrete_error_can_be_detected_and_challenged
+        - the_review_does_not_depend_on_the_leader_s_permission_alone
+        - the_challenger_is_not_penalized_for_a_good_faith_concern
+        - both_affected_parties_receive_a_fair_reasoned_process
       - measurement_id: c2216_a2_boundary
         kind: boolean
         role: supporting
@@ -200,10 +220,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2216-GOVERNANCE-CHECKS-AND-ACCOUNTABLE-AUTHORITY-01-A3
     sequence: 3
-    title: Compare the Governance, checks, and accountable authority context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: An institution
-      can detect and correct leader error without relying on the leader''s virtue alone.'
+    title: Test absence, revise and assign maintenance
+    instructions: 'Add a second scenario in which the coordinator is unavailable or the reviewer must
+      recuse. Identify the authorized temporary replacement, what information they receive and how the
+      group learns who now decides. Revise any gap exposed by the tests and assign an owner and review
+      date for the rule. Do not call the institution accountable merely because a document exists; the
+      test should show who can actually correct an error.
+
+
+      Observation checks: Absence and recusal have authorized replacement routes; Knowledge and authority
+      transfer are communicated; The rule is revised from concrete test failures; Maintenance and future
+      review are assigned. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.
+
+
+      Final review: Who can correct the leader when the leader disagrees, and does the same mechanism
+      still work when the usual reviewer is absent or conflicted?
+
+
+      Examples: Supportive: The newcomer’s challenge reached an independent reviewer, the error was corrected
+      and a recusal backup kept the process usable.
+
+
+      Mixed: The first rule gave the leader control over appeals; the tabletop exposed that flaw and the
+      group revised it.
+
+
+      Contradictory: Appeal depended on personal favor, critics lost access or existing legal governance
+      was overridden without authority.
+
+
+      Inconclusive: Accountability was described as a value without decision rights, a tested appeal or
+      succession route.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -225,9 +273,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2216_a3_same_context_compared
-        - c2216_a3_mixed_or_null_result_allowed
-        - c2216_a3_target_evidence_reviewed
+        - absence_and_recusal_have_authorized_replacement_routes
+        - knowledge_and_authority_transfer_are_communicated
+        - the_rule_is_revised_from_concrete_test_failures
+        - maintenance_and_future_review_are_assigned
       - measurement_id: c2216_a3_boundary
         kind: boolean
         role: supporting
@@ -248,17 +297,17 @@ intervention:
       Governance, checks, and accountable authority; no purchase, subscription, travel, credential, or
       public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Governance, checks, and accountable authority; assistive technology, interpretation, a
-      support person, and a deferred action are valid without penalty.
+    - Use an accessible diagram, peer group or fictional tabletop. Real legal entities must follow their
+      governing documents and qualified advice for changes. Oversight should not expose private personal
+      or case information beyond legitimate need.
     cultural_context:
     - Adapt the expression of Governance, checks, and accountable authority to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Governance, checks, and accountable authority opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use an accessible diagram, peer group or fictional tabletop. Real legal entities must follow their
+      governing documents and qualified advice for changes. Oversight should not expose private personal
+      or case information beyond legitimate need.
   pause_conditions:
   - Pause Governance, checks, and accountable authority when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -290,10 +339,8 @@ evidence_and_scoring:
   - c2216_a3_boundary
   - c2216_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Governance, checks, and accountable authority action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Governance, checks, and accountable authority criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - Appeal depended on personal favor, critics lost access or existing legal governance was overridden
+    without authority.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Governance, checks, and accountable authority explicitly; support can enable access and never
     reduces dignity or silently changes the typed value.
@@ -304,14 +351,22 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Governance, checks, and accountable authority rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—An institution can detect and correct leader error without relying on the leader's virtue alone.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Governance, checks, and accountable authority requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Allocate authority and oversight before a dispute occurs. Observed checks:
+    Routine and higher-consequence decisions have defined rights; Criteria information and discretion
+    limits are explicit; Transparency and privacy are balanced; Independent review and conflict handling
+    are specified. Action 2: Test a leader error and a challenge from a less powerful member. Observed
+    checks: A concrete error can be detected and challenged; The review does not depend on the leader’s
+    permission alone; The challenger is not penalized for a good-faith concern; Both affected parties
+    receive a fair reasoned process. Action 3: Test absence, revise and assign maintenance. Observed checks:
+    Absence and recusal have authorized replacement routes; Knowledge and authority transfer are communicated;
+    The rule is revised from concrete test failures; Maintenance and future review are assigned.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Accountability was described as a value without decision
+    rights, a tested appeal or succession route.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Governance,
     checks, and accountable authority contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -321,9 +376,8 @@ evidence_and_scoring:
   - L14
   - L31
   - L33
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Governance, checks, and accountable authority evidence.
@@ -331,12 +385,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded governance, checks, and accountable authority context action was attempted or
-    explicitly deferred.
-  - The make one reversible governance, checks, and accountable authority redesign action was attempted
-    or explicitly deferred.
-  - The compare the governance, checks, and accountable authority context after the change action preserved
-    a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Allocate authority and oversight before a dispute occurs. Observed checks: Routine and
+    higher-consequence decisions have defined rights; Criteria information and discretion limits are explicit;
+    Transparency and privacy are balanced; Independent review and conflict handling are specified.'
+  - 'Action 2: Test a leader error and a challenge from a less powerful member. Observed checks: A concrete
+    error can be detected and challenged; The review does not depend on the leader’s permission alone;
+    The challenger is not penalized for a good-faith concern; Both affected parties receive a fair reasoned
+    process.'
+  - 'Action 3: Test absence, revise and assign maintenance. Observed checks: Absence and recusal have
+    authorized replacement routes; Knowledge and authority transfer are communicated; The rule is revised
+    from concrete test failures; Maintenance and future review are assigned.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -345,65 +406,303 @@ completion_and_review:
     - c2216_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Governance, checks, and accountable authority only when the
-    initial context remained safe, the evidence criteria were usable, burden was acceptable, and a new
-    context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Governance, checks, and accountable authority
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Who can correct the leader when the leader disagrees, and does the same mechanism
+    still work when the usual reviewer is absent or conflicted?
+  transfer_limit: Use a fictional group or an authorized low-stakes governance proposal. This is not a
+    legal charter, fiduciary opinion or permission to replace existing bylaws informally.
   reflection:
-    before: What does Governance, checks, and accountable authority require in this exact context, what
-      remains outside my role or authority, and which scope sentence or evidence criterion will keep the
-      practice honest?
-    during: Which observable Governance, checks, and accountable authority criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'An institution can detect and correct leader error without
-      relying on the leader's virtue alone.', what contradiction or missing context matters most, and
-      should this Governance, checks, and accountable authority design be repeated, adapted, deferred,
-      stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Define decision rights, oversight, appeal,
+      succession and transparent records so a group can detect and correct an error without relying only
+      on a leader’s virtue.'
+    during: Which checks have actually been observed? The first rule gave the leader control over appeals;
+      the tabletop exposed that flaw and the group revised it.
+    after: Who can correct the leader when the leader disagrees, and does the same mechanism still work
+      when the usual reviewer is absent or conflicted?
   review_guidance:
     repeat: Repeat the same bounded Governance, checks, and accountable authority design only when the
       context and burden remain appropriate.
-    adapt: Change the Governance, checks, and accountable authority medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use an accessible diagram, peer group or fictional tabletop. Real legal entities must follow
+      their governing documents and qualified advice for changes. Oversight should not expose private
+      personal or case information beyond legitimate need.
     stop: Stop Governance, checks, and accountable authority when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Governance, checks, and accountable authority
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Governance, checks, and accountable authority criteria were observed with
-      provenance and no adverse boundary signal in the selected context.
-    mixed: Some Governance, checks, and accountable authority criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Governance, checks, and accountable authority
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Governance, checks, and accountable authority action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The newcomer’s challenge reached an independent reviewer, the error was corrected and
+      a recusal backup kept the process usable.
+    mixed: The first rule gave the leader control over appeals; the tabletop exposed that flaw and the
+      group revised it.
+    contradictory: Appeal depended on personal favor, critics lost access or existing legal governance
+      was overridden without authority.
+    inconclusive: Accountability was described as a value without decision rights, a tested appeal or
+      succession route.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Governance, checks, and accountable authority.
+    context_heading: Build a small governance rule that can correct the leader
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Governance,
       checks, and accountable authority.
   check_in_labels:
-    c2216_a1_primary: The bounded Governance, checks, and accountable authority criterion for action 1
-      was observed
+    c2216_a1_primary: 'Observed checks: allocate authority and oversight before a dispute occurs'
     c2216_a1_boundary: Action 1 stayed inside its stated Governance, checks, and accountable authority
       boundary
     c2216_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2216_a2_primary: The bounded Governance, checks, and accountable authority criterion for action 2
-      was observed
+    c2216_a2_primary: 'Observed checks: test a leader error and a challenge from a less powerful member'
     c2216_a2_boundary: Action 2 stayed inside its stated Governance, checks, and accountable authority
       boundary
     c2216_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2216_a3_primary: The bounded Governance, checks, and accountable authority criterion for action 3
-      was observed
+    c2216_a3_primary: 'Observed checks: test absence, revise and assign maintenance'
     c2216_a3_boundary: Action 3 stayed inside its stated Governance, checks, and accountable authority
       boundary
     c2216_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Governance, checks,
-    and accountable authority practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Who can correct the leader when the leader disagrees, and does the same mechanism still
+    work when the usual reviewer is absent or conflicted? Completion is not mastery.
+  plain_language_evidence: The newcomer’s challenge reached an independent reviewer, the error was corrected
+    and a recusal backup kept the process usable.
   display_order: 315
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '22.16'
+  title: 22.16 — Governance, checks, and accountable authority
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Identifying and managing conflicts of interest in a charity](https://www.gov.uk/government/publications/identifying-and-managing-conflicts-of-interest-in-a-charity-cc29/conflicts-of-interest-a-guide-for-charity-trustees)
+
+      - [Preventing Policy Capture: Integrity in Public Decision Making](https://www.oecd.org/en/publications/preventing-policy-capture_9789264065239-en.html)
+
+      - [How to File a Whistleblower Complaint](https://www.whistleblowers.gov/complaint_page)
+
+      - [Decision-making for charity trustees](https://www.gov.uk/government/publications/decision-making-for-charity-trustees-cc27/decision-making-for-charity-trustees)
+
+      - [Promising Practices for Preventing Harassment](https://www.eeoc.gov/laws/guidance/promising-practices-preventing-harassment)
+
+      - [Creating a cash flow budget](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_cash_flow_budget_tool_2018-11_ADA.pdf)
+
+      - [An essential guide to building an emergency fund](https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/)
+
+      - [Is the money I keep in my payment app safe?](https://www.consumerfinance.gov/ask-cfpb/is-the-money-i-keep-in-my-payment-app-safe-en-2135/)
+
+      - [What is the difference between a loan interest rate and the APR?](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/)
+
+      - [Beginners’ Guide to Asset Allocation, Diversification, and Rebalancing](https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset)
+
+      - [How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated)
+
+      - [I would like to be able to have my friend or family member help with my bill-paying and banking.
+      What are my options?](https://www.consumerfinance.gov/ask-cfpb/i-would-like-to-be-able-to-have-my-friend-or-family-member-help-with-my-bill-paying-and-banking-what-are-my-options-en-1145/)
+
+      - [What to Know About Life Insurance Beneficiaries](https://content.naic.org/article/consumer-insight-what-know-about-life-insurance-beneficiaries)
+
+      - [Online Shopping](https://consumer.ftc.gov/articles/online-shopping)
+
+      - [Tax withholding](https://www.irs.gov/individuals/employees/tax-withholding)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving a first attempt. These events are invented learning materials,
+      not actual participant evidence.
+
+
+      ### Absence and conflict expose the real route
+
+
+      Jae is absent when A appeals. Nia discloses a close relationship with applicant B and recuses under
+      R2. Ruth, the already appointed substitute, declares no relevant interest, obtains Oli''s current
+      pack and reviews both requests. Ruth finds the three-month condition absent from R2 and corrects
+      the award to **A**, the earlier eligible request.
+
+
+      Paz, acting coordinator under the existing appointment, updates the allocation record while retaining
+      Jae''s original reason and Ruth''s correction. Notices are drafted for both applicants. The packet
+      supplies acknowledgment from A only; **B''s receipt remains unconfirmed**. Jae later disagrees but
+      has no veto over Ruth''s valid R2 correction. A proposal for a future waiting rule is referred to
+      the members, with no approval or retroactive effect.
+
+
+      Mark the exercised branches: absence substitute, conflict recusal, independent correction and retained
+      history. Mark the remaining gaps: B''s notice receipt, the monthly oversight review, both-reviewers-unavailable
+      procedure and actual use of the room. No meeting outcome is supplied.
+
+
+      If your original pack let Jae appoint the appeal reviewer or approve the correction, remove that
+      circular dependency. If it treated sending a notice as receipt, preserve the open communication
+      task. This case supports a bounded correction, not a claim that all leader errors will be detected.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Design a small decision system that can correct a leader''s error while the leader is absent
+      or disagrees. Allow twenty minutes to create the decision and appeal record, then ten to inspect
+      the later test. The aim is a usable allocation of authority rather than confidence in one person''s
+      character.
+
+
+      ### Give each decision a legitimate home
+
+
+      Decision rights state who may decide what, within which limits. Oversight checks whether those limits
+      are respected. Appeal lets an affected person challenge a decision through a route that can actually
+      change it. Succession keeps these functions available when a role-holder leaves or cannot act. Transparency
+      makes the basis of a decision understandable while protecting information that should remain private.
+      Independent review requires enough separation, competence and authority to resist the original decision-maker''s
+      preference.
+
+
+      These elements interact. An appeal address is ineffective if the leader can veto every correction.
+      An independent reviewer without the current rulebook may be free of the conflict but unable to decide.
+      A substitute with access but no appointment does not acquire authority by being helpful. Design
+      the record and the appointment process together, so correction does not depend on a leader voluntarily
+      admitting error.
+
+
+      The Charity Commission''s [decision-making guidance, S04](https://www.gov.uk/government/publications/decision-making-for-charity-trustees-cc27/decision-making-for-charity-trustees)
+      emphasizes powers, governing documents, reasoned records and accountable delegation. It applies
+      to charity trustees in England and Wales. The fictional R2 association rule below is an original
+      low-stakes example, not a legal constitution or claim of compliance with charity law.
+
+
+      ### Complete fictional rule R2
+
+
+      The Lantern Association allocates one weekly meeting room. Its members have validly adopted R2 for
+      this exercise. Eligible requests must be for a member activity, fit the room''s supplied approved
+      capacity and arrive by noon Monday. Among eligible requests, the one with the earlier recorded submission
+      wins. All supplied requests meet capacity; do not assess real building safety.
+
+
+      Coordinator **Jae** applies R2 and publishes a redacted reason code. Jae may not invent new eligibility
+      restrictions. Clerk **Oli** maintains the request log and rule version. Uninvolved reviewer **Nia**,
+      appointed by the members, may uphold, correct or return a decision for a stated missing fact. An
+      applicant may appeal through Oli within two working days of notification under this fictional process.
+      This is a service rule, not a legal limitation period. Jae cannot veto an appeal correction.
+
+
+      The members also appointed **Ruth** as Nia''s substitute for absence or conflict and **Paz** as
+      acting coordinator during Jae''s absence. Each has accepted and has access to the current redacted
+      decision pack. Reviewers must disclose relationships to applicants and recuse where R2 requires
+      it. If both review appointees are conflicted or absent, Oli records the block and calls the members''
+      authorized appointment meeting; the coordinator cannot appoint their own appeal judge. The room
+      award stays unresolved until a valid decision can be made.
+
+
+      Rule changes need a members'' vote and a stated future effective date. They cannot be silently backdated
+      to make an earlier rejection valid. The clerk reports unresolved appeals and rule deviations at
+      the monthly oversight meeting. Members review the system after two cycles for timeliness, correction
+      and burden. These authorities are supplied facts, not appointments made by the learner.
+
+
+      ### The contested allocation
+
+
+      Request A, submitted **Monday 09:00**, is from a new member''s reading group. Request B, submitted
+      **Monday 10:00**, is from a long-standing member''s craft group. Both meet all R2 criteria. Jae
+      rejects A because “new members must wait three months,” a restriction absent from R2, and awards
+      B. A''s applicant asks Oli for review the next working day. There is no misconduct finding or allegation
+      about Jae''s motive.
+
+
+      The necessary file contains R2''s version and effective date, both submission times, eligibility
+      checks, Jae''s stated reason, the appeal request and the reviewer''s authority/conflict declaration.
+      Member tenure is included only because it explains the disputed reason; unrelated personal information
+      is unnecessary. Redacted public notice can state the rule and corrected allocation without exposing
+      the full appeal correspondence.
+
+
+      ### Worked correction that does not require confession
+
+
+      An unrelated club mistakenly applies a 17:00 deadline when its current rule says 18:00. A reviewer
+      can identify the current rule, compare the timestamp and correct the eligibility judgment even if
+      the chair believes 17:00 would be better. The chair may propose a future rule change through the
+      proper process. Personal agreement with the correction is not a precondition for applying the existing
+      rule.
+
+
+      For Lantern, reason from the same distinction. The first question is whether A was eligible under
+      R2, not whether a waiting period sounds sensible. The second is which eligible request came first.
+      A defensible review addresses both applicants'' reliance and timely communication without pretending
+      the earlier award never happened. The record should show the original decision and correction, not
+      erase the error.
+
+
+      ### Write and test the governance pack
+
+
+      1. Create a rights table for coordinator, clerk, reviewer, substitutes and members. Include their
+      limits, reporting obligation and source of appointment. Give every exceptional branch an authorized
+      next step or an explicit unresolved status.
+
+      2. Produce the appeal file from the supplied facts. State the question, applicable rule, relevant
+      evidence, missing facts if any and conflict check. Do not add character judgments or assume that
+      a newcomer deserves priority for unrelated reasons.
+
+      3. Draft the review outcome and a redacted explanation to both applicants. Name who updates the
+      allocation record and who confirms notification. A drafted notice is not a receipt.
+
+      4. Test absence, conflict and leader disagreement. Can an authorized substitute obtain the same
+      current pack? Can the leader stop a correction? If all reviewers are unavailable, can the system
+      admit the block without inventing authority?
+
+      5. Save your pack before the [later packet](?resource=file-later-packet-md). Compare the actual
+      supplied path with your intended one and identify what remains untested.
+
+
+      For support, draw only the ordinary decision and single appeal first, then add the supplied substitutes.
+      For a harder attempt, make both Nia and Ruth conflicted and specify the member appointment route
+      with an unresolved allocation. Optional actual transfer is an authorized review of a group''s public
+      or blank governance procedure. Do not rewrite its constitution, appoint yourself or expose a complainant.
+      A rule can be legible yet inaccessible in practice, so actual review would also need willing users,
+      usable channels and evidence across time. One corrected room decision does not establish institutional
+      accountability.
+
+
+      ### Use the result at its proper scale
+
+
+      Practical safeguards do not add canonical metadata.  A leadership role is not compulsory. Use actual
+      authority and willing participation; keep protected records private. Fiction and no attempt are
+      legitimate. Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A leader may appoint and dismiss the reviewer for an appeal against their own decision. What
+      makes the check weak?
+
+      2. A published rule permits applications until noon. After rejecting an 11:30 application, the board
+      adopts an 11:00 deadline. Does that cure the earlier decision?
+
+      3. The appointed reviewer recuses and no authorized substitute exists. Can the clerk simply decide?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The original decision-maker controls the reviewer’s position, so independence and corrective
+      authority are doubtful. Use the actual governing process to establish a sufficiently independent
+      appointment and conflict route; a new title alone does not fix the dependency.
+
+      2. Not merely by changing the rule later. Apply the rule valid at the relevant time and use the
+      authorized correction process. Record a prospective effective date for any valid change; do not
+      erase the original error.
+
+      3. Only if the actual governing rules give that authority. Otherwise record the unresolved review,
+      protect affected people through permitted interim arrangements and use the legitimate appointment
+      route. Access to the file does not confer decision rights.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

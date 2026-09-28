@@ -47,8 +47,8 @@ Use spoken text, larger print or a shorter first session. A harder branch offers
 
 [ASQ's cost-of-quality explanation, S07](../SOURCES.md#S07), distinguishes prevention, appraisal and failure costs. Selected definitions support asking where effort is spent; no numerical optimum or certification standard is imported. The three task cards and budgets are original teaching materials, not permission to reduce required assurance.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Human dignity is never scored.
+Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

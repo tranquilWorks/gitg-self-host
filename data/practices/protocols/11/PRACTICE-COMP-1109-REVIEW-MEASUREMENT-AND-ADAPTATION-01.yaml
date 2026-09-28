@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1109-REVIEW-MEASUREMENT-AND-ADAPTATION-01
 slug: c1109-review-measurement-and-adaptation-practice
-name: Bounded Review, measurement, and adaptation Practice
+name: Make a weekly review produce one tested change in behavior
 parent_competency_id: '11.09'
 domain_id: '11'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 11.09
-      (Review, measurement, and adaptation); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 11.09; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Review, measurement, and adaptation through a bounded audit and redesign bounded
-    by the canonical scope: Compare outcomes with plans, identify causes, and revise methods rather than
-    merely judging success or failure.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Regular reviews produce
-    decisions and changed behavior. The protocol creates a small opportunity to examine that target without
-    treating completion as broad capability.'
+  purpose: Compare outcomes with plans, distinguish causes from excuses and change one method so review
+    leads to different action rather than repeated reflection.
+  why_recommended: Compare outcomes with plans, distinguish causes from excuses and change one method
+    so review leads to different action rather than repeated reflection.
   claims:
-  - statement: Using the canonical scope and evidence target for Review, measurement, and adaptation is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Compare outcomes with plans, distinguish causes from excuses and change one method so review
+      leads to different action rather than repeated reflection.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Review, measurement, and adaptation practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Review, measurement, and adaptation as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Review, measurement,
-    and adaptation context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Review, measurement,
-    and adaptation; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or
-    dependence for evidence.
+  readiness_considerations: Review one item rather than a whole week, use voice notes or a trusted planning
+    aid, and omit private narratives from application evidence. A synthetic review is useful for learning
+    the method but does not establish a changed personal routine.
+  opportunity_considerations: 'Default plan: prepare a simple lunch on three workdays; actual result:
+    one lunch prepared, one ingredient unavailable and one morning interrupted. Use four headings—planned
+    result, actual result, supported explanation and next-method change. The aim is not a score or a perfect
+    streak.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Review, measurement, and adaptation.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default plan: prepare a simple lunch on three workdays; actual result: one lunch prepared, one ingredient
+    unavailable and one morning interrupted. Use four headings—planned result, actual result, supported
+    explanation and next-method change. The aim is not a score or a perfect streak.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Review, measurement, and adaptation
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Review one item rather than a whole week, use voice notes or a trusted planning aid, and omit private
+    narratives from application evidence. A synthetic review is useful for learning the method but does
+    not establish a changed personal routine.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +80,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Review, measurement, and adaptation actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Review, measurement, and adaptation; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Review,
-    measurement, and adaptation. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Review, measurement, and adaptation actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default plan: prepare a simple lunch on three workdays; actual result: one lunch prepared, one
+    ingredient unavailable and one morning interrupted. Use four headings—planned result, actual result,
+    supported explanation and next-method change. The aim is not a score or a perfect streak. Goal: Compare
+    outcomes with plans, distinguish causes from excuses and change one method so review leads to different
+    action rather than repeated reflection. Scope: One review cannot establish a trend or prove a causal
+    explanation. Uncontrollable events, resource limits and worthwhile abandoned goals must remain visible.
+    Time and effort: Twenty minutes after one week, one comparable attempt the following week and ten
+    minutes to close the loop. Adaptation: Review one item rather than a whole week, use voice notes or
+    a trusted planning aid, and omit private narratives from application evidence. A synthetic review
+    is useful for learning the method but does not establish a changed personal routine. Keep personal
+    working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Review one item rather than a whole week, use voice notes or a trusted planning
+    aid, and omit private narratives from application evidence. A synthetic review is useful for learning
+    the method but does not establish a changed personal routine.
+  expected_burden: Twenty minutes after one week, one comparable attempt the following week and ten minutes
+    to close the loop.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Review, measurement, and adaptation protocol to rank worth, coerce participation, demand
@@ -101,19 +107,24 @@ intervention:
   - Treating a completed Review, measurement, and adaptation action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Review, measurement, and adaptation situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Review one
+    item rather than a whole week, use voice notes or a trusted planning aid, and omit private narratives
+    from application evidence. A synthetic review is useful for learning the method but does not establish
+    a changed personal routine.
   actions:
   - stable_id: PRACTICE-COMP-1109-REVIEW-MEASUREMENT-AND-ADAPTATION-01-A1
     sequence: 1
-    title: Audit one bounded Review, measurement, and adaptation context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Review, measurement,
-      and adaptation. Use the canonical scope to name observable conditions without diagnosing people
-      or systems: Compare outcomes with plans, identify causes, and revise methods rather than merely
-      judging success or failure.'
+    title: Compare the original plan with what actually happened
+    instructions: 'Keep the original target visible and record delivered, partial, missed or no-longer-needed
+      outcomes. Separate an activity count from its intended benefit: buying ingredients is not the same
+      as having lunch available. Note burden and adverse effects as well as wins. For the default, retain
+      the two different missed-day reasons rather than summarize them as laziness.
+
+
+      Observation checks: Original targets remain visible beside actual outcomes; Activities are distinguished
+      from intended benefits; Burden and adverse effects are included; Different misses retain their distinct
+      circumstances. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +146,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1109_a1_one_context_only
-        - c1109_a1_observable_conditions_recorded
-        - c1109_a1_hazards_excluded
+        - original_targets_remain_visible_beside_actual_outcomes
+        - activities_are_distinguished_from_intended_benefits
+        - burden_and_adverse_effects_are_included
+        - different_misses_retain_their_distinct_circumstances
       - measurement_id: c1109_a1_boundary
         kind: boolean
         role: supporting
@@ -154,10 +166,17 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1109-REVIEW-MEASUREMENT-AND-ADAPTATION-01-A2
     sequence: 2
-    title: Make one reversible Review, measurement, and adaptation redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Review, measurement, and adaptation. Record the intended effect, cost or burden, and a rollback
-      condition before changing anything.
+    title: Choose one explanation that suggests a testable method change
+    instructions: 'For the most useful gap, distinguish evidence from a plausible story and list one alternative
+      cause. Choose a change under your control that would address the supported explanation: prepare
+      the shelf-stable portion the evening before, not merely try harder. Define the next comparable opportunity,
+      an observable result and a cost you will watch. Keep other major conditions as similar as practical.
+
+
+      Observation checks: A supported explanation is separated from an untested story; At least one alternative
+      cause is considered; One concrete method change addresses the selected gap; The next opportunity
+      result and cost to watch are specified. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -179,9 +198,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1109_a2_change_traces_to_finding
-        - c1109_a2_rollback_defined
-        - c1109_a2_burden_recorded
+        - a_supported_explanation_is_separated_from_an_untested_story
+        - at_least_one_alternative_cause_is_considered
+        - one_concrete_method_change_addresses_the_selected_gap
+        - the_next_opportunity_result_and_cost_to_watch_are_specified
       - measurement_id: c1109_a2_boundary
         kind: boolean
         role: supporting
@@ -198,10 +218,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1109-REVIEW-MEASUREMENT-AND-ADAPTATION-01-A3
     sequence: 3
-    title: Compare the Review, measurement, and adaptation context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: Regular reviews
-      produce decisions and changed behavior.'
+    title: Run the changed method and append the result
+    instructions: 'Use the changed method at the next suitable opportunity. Record whether the intended
+      benefit occurred, what conditions differed and whether a new burden appeared. Retain, revise or
+      reject the method based on the attempt, including an unchanged or worse outcome. Put the next actual
+      action in the calendar or workspace; a review that only produces a motivational sentence is not
+      closed.
+
+
+      Observation checks: The changed method is actually attempted; Benefit differing conditions and burden
+      are recorded; Unchanged or worse outcomes can reject the method; The review ends with a concrete
+      next action or reasoned stop. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.
+
+
+      Final review: What did you do differently because of the review, and what evidence would make you
+      stop using that change?
+
+
+      Examples: Supportive: Evening preparation produced lunch on the next comparable day without delaying
+      bedtime, so the method was retained provisionally.
+
+
+      Mixed: Lunch was ready, but the evening preparation shifted a care task onto someone else and required
+      revision.
+
+
+      Contradictory: The target was rewritten after the fact so every outcome looked successful and no
+      method changed.
+
+
+      Inconclusive: A weekly reflection was completed, but the following week repeated the same plan without
+      a new action.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -223,9 +271,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1109_a3_same_context_compared
-        - c1109_a3_mixed_or_null_result_allowed
-        - c1109_a3_target_evidence_reviewed
+        - the_changed_method_is_actually_attempted
+        - benefit_differing_conditions_and_burden_are_recorded
+        - unchanged_or_worse_outcomes_can_reject_the_method
+        - the_review_ends_with_a_concrete_next_action_or_reasoned_stop
       - measurement_id: c1109_a3_boundary
         kind: boolean
         role: supporting
@@ -246,17 +295,17 @@ intervention:
       Review, measurement, and adaptation; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Review, measurement, and adaptation; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Review one item rather than a whole week, use voice notes or a trusted planning aid, and omit private
+      narratives from application evidence. A synthetic review is useful for learning the method but does
+      not establish a changed personal routine.
     cultural_context:
     - Adapt the expression of Review, measurement, and adaptation to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Review, measurement, and adaptation opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Review one item rather than a whole week, use voice notes or a trusted planning aid, and omit private
+      narratives from application evidence. A synthetic review is useful for learning the method but does
+      not establish a changed personal routine.
   pause_conditions:
   - Pause Review, measurement, and adaptation when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -288,10 +337,7 @@ evidence_and_scoring:
   - c1109_a3_boundary
   - c1109_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Review, measurement, and adaptation action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Review, measurement, and adaptation criterion, depended on
-    coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - The target was rewritten after the fact so every outcome looked successful and no method changed.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Review, measurement, and adaptation explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -302,14 +348,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Review, measurement, and adaptation rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Regular reviews produce decisions and changed behavior.—not completion, confidence, conformity,
-    output, independence, or worth.
-  evidence_quality_rubric: Quality for Review, measurement, and adaptation requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Compare the original plan with what actually happened. Observed checks:
+    Original targets remain visible beside actual outcomes; Activities are distinguished from intended
+    benefits; Burden and adverse effects are included; Different misses retain their distinct circumstances.
+    Action 2: Choose one explanation that suggests a testable method change. Observed checks: A supported
+    explanation is separated from an untested story; At least one alternative cause is considered; One
+    concrete method change addresses the selected gap; The next opportunity result and cost to watch are
+    specified. Action 3: Run the changed method and append the result. Observed checks: The changed method
+    is actually attempted; Benefit differing conditions and burden are recorded; Unchanged or worse outcomes
+    can reject the method; The review ends with a concrete next action or reasoned stop.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A weekly reflection was completed, but the following
+    week repeated the same plan without a new action.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Review,
     measurement, and adaptation contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -319,9 +373,8 @@ evidence_and_scoring:
   - L11
   - L14
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Review, measurement, and adaptation evidence.
@@ -329,12 +382,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded review, measurement, and adaptation context action was attempted or explicitly
-    deferred.
-  - The make one reversible review, measurement, and adaptation redesign action was attempted or explicitly
-    deferred.
-  - The compare the review, measurement, and adaptation context after the change action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Compare the original plan with what actually happened. Observed checks: Original targets
+    remain visible beside actual outcomes; Activities are distinguished from intended benefits; Burden
+    and adverse effects are included; Different misses retain their distinct circumstances.'
+  - 'Action 2: Choose one explanation that suggests a testable method change. Observed checks: A supported
+    explanation is separated from an untested story; At least one alternative cause is considered; One
+    concrete method change addresses the selected gap; The next opportunity result and cost to watch are
+    specified.'
+  - 'Action 3: Run the changed method and append the result. Observed checks: The changed method is actually
+    attempted; Benefit differing conditions and burden are recorded; Unchanged or worse outcomes can reject
+    the method; The review ends with a concrete next action or reasoned stop.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -343,58 +403,406 @@ completion_and_review:
     - c1109_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Review, measurement, and adaptation only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Review, measurement, and adaptation across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What did you do differently because of the review, and what evidence would make
+    you stop using that change?
+  transfer_limit: One review cannot establish a trend or prove a causal explanation. Uncontrollable events,
+    resource limits and worthwhile abandoned goals must remain visible.
   reflection:
-    before: What does Review, measurement, and adaptation require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Review, measurement, and adaptation criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Regular reviews produce decisions and changed behavior.',
-      what contradiction or missing context matters most, and should this Review, measurement, and adaptation
-      design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Compare outcomes with plans, distinguish causes
+      from excuses and change one method so review leads to different action rather than repeated reflection.'
+    during: Which checks have actually been observed? Lunch was ready, but the evening preparation shifted
+      a care task onto someone else and required revision.
+    after: What did you do differently because of the review, and what evidence would make you stop using
+      that change?
   review_guidance:
     repeat: Repeat the same bounded Review, measurement, and adaptation design only when the context and
       burden remain appropriate.
-    adapt: Change the Review, measurement, and adaptation medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Review one item rather than a whole week, use voice notes or a trusted planning aid, and omit
+      private narratives from application evidence. A synthetic review is useful for learning the method
+      but does not establish a changed personal routine.
     stop: Stop Review, measurement, and adaptation when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Review, measurement, and adaptation questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Review, measurement, and adaptation criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Review, measurement, and adaptation criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Review, measurement, and adaptation criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Review, measurement, and adaptation action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: Evening preparation produced lunch on the next comparable day without delaying bedtime,
+      so the method was retained provisionally.
+    mixed: Lunch was ready, but the evening preparation shifted a care task onto someone else and required
+      revision.
+    contradictory: The target was rewritten after the fact so every outcome looked successful and no method
+      changed.
+    inconclusive: A weekly reflection was completed, but the following week repeated the same plan without
+      a new action.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Review, measurement, and adaptation.
+    context_heading: Make a weekly review produce one tested change in behavior
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Review, measurement,
       and adaptation.
   check_in_labels:
-    c1109_a1_primary: The bounded Review, measurement, and adaptation criterion for action 1 was observed
+    c1109_a1_primary: 'Observed checks: compare the original plan with what actually happened'
     c1109_a1_boundary: Action 1 stayed inside its stated Review, measurement, and adaptation boundary
     c1109_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1109_a2_primary: The bounded Review, measurement, and adaptation criterion for action 2 was observed
+    c1109_a2_primary: 'Observed checks: choose one explanation that suggests a testable method change'
     c1109_a2_boundary: Action 2 stayed inside its stated Review, measurement, and adaptation boundary
     c1109_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1109_a3_primary: The bounded Review, measurement, and adaptation criterion for action 3 was observed
+    c1109_a3_primary: 'Observed checks: run the changed method and append the result'
     c1109_a3_boundary: Action 3 stayed inside its stated Review, measurement, and adaptation boundary
     c1109_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Review, measurement,
-    and adaptation practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What did you do differently because of the review, and what evidence would make you
+    stop using that change? Completion is not mastery.
+  plain_language_evidence: Evening preparation produced lunch on the next comparable day without delaying
+    bedtime, so the method was retained provisionally.
   display_order: 145
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '11.09'
+  title: 11.09 — Review, measurement, and adaptation
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [NASA, 6.1 Technical Planning](https://www.nasa.gov/reference/6-1-technical-planning/)
+
+      - [NASA, 6.7 Technical Assessment](https://www.nasa.gov/reference/6-7-technical-assessment/)
+
+      - [Institute for Healthcare Improvement, Model for Improvement](https://www.ihi.org/library/model-for-improvement)
+
+      - [CDC/NIOSH, Fatigue and Work](https://www.cdc.gov/niosh/fatigue/about/index.html)
+
+      - [Western Australia Centre for Clinical Interventions, Assertiveness](https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Assertiveness)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Each branch is a different fictional Week 2. Unless noted, lunch requirements, access supports,
+      shopping and care arrangements are unchanged, and records cover all three planned days. Evening
+      minutes belong to the following named day''s lunch; do not count them on two days.
+
+
+      | Branch | Monday ready; evening+morning minutes | Wednesday ready; evening+morning minutes | Friday
+      ready; evening+morning minutes | Other information |
+
+      | --- | --- | --- | --- | --- |
+
+      | A | yes; 4+3 | no; 4+3 | yes; 4+4 | No shifted care or delayed sleep; Wednesday component still
+      unavailable; Friday interruption again seven minutes |
+
+      | B | yes; 5+4 | yes; 5+4 | yes; 5+4 | No shifted care or delayed sleep; all components available;
+      material availability differs from baseline |
+
+      | C | yes; 4+4 | no; 4+4 | no; 4+4 | No shifted care or delayed sleep; Wednesday component unavailable;
+      Friday interruption again seven minutes |
+
+      | D | yes; 4+3 | yes; unknown+3 | yes; 4+3 | Evening cost missing Wednesday; other conditions not
+      recorded |
+
+      | E | yes; 4+3 | yes; 4+3 | yes; 4+3 | A care duty was shifted to another person without agreement
+      on Wednesday |
+
+      | F | yes; 5+4 | no; 5+4 | yes; 5+4 | No shifted care or delayed sleep; Wednesday component still
+      unavailable; Friday interruption again seven minutes |
+
+
+      Apply the saved comparability rule before interpreting output. A branch may expose better availability
+      while still failing to support the planned comparison. No actual lunch was made by reading this
+      packet.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Make a review change the next attempt
+
+
+      A review compares the plan you actually made with outcomes and costs, then changes a method you
+      can control. It keeps explanations provisional. A good-looking reflection is not a closed loop until
+      the changed method is tried and its result affects the next decision.
+
+
+      This guide uses a complete fictional three-day lunch-preparation record. Allow 20 minutes for comparison
+      and a trial plan, then 10 for later results and fresh checks. Use paper, dictation or a text editor.
+      No food preparation, purchase, private diary, account or participant is required. The default is
+      a desk exercise about supplied records, not evidence that your routine changed.
+
+
+      A live route concerns an ordinary low-stakes routine that fits your existing food, health, access
+      and care needs. It is not dietary or clinical advice. Keep those needs and supports in place; do
+      not sacrifice meals, sleep or essential duties to improve a metric.
+
+
+      ### Reference: outcome, cost and explanation
+
+
+      Preserve the **planned result** and its time boundary. Record the **actual outcome** against that
+      same definition, including partial work. Keep **costs** such as active effort, rework and burden
+      on others separate from the success count. An item bought is an activity; the required lunch being
+      available at departure is the outcome.
+
+
+      An explanation can be supported without being proven causal. “An ingredient was unavailable” may
+      be directly recorded. “I am lazy” is not an observation of a mechanism. Distinguish conditions you
+      can change, external events and assumptions. List at least one plausible alternative and say what
+      evidence would help distinguish it.
+
+
+      Choose **one controllable method change**, define a comparable next opportunity, state the predicted
+      result and decide in advance what will make you retain, revise or reject it. Compare as consistently
+      as practical and record changed conditions. Multiple simultaneous changes make attribution difficult.
+      A positive result in a short comparison is provisional evidence for this use, not proof of general
+      effectiveness.
+
+
+      Use an explicit **inconclusive** disposition if the follow-up or cost data are absent or the conditions
+      prevent a fair comparison. Unknown is not zero. Do not silently shrink the denominator to remove
+      missed days or alter the original target after seeing results.
+
+
+      ### A different worked example
+
+
+      A person plans to return three library cards to their folder after use. One is returned, one remains
+      on the table and one was not used. A review preserves the planned three and records the actual opportunities.
+      Moving the folder closer is one testable method change; “be more organized” is only an intention.
+      If the next record has all cards returned but a helper did the returning without that support being
+      recorded, the evidence does not establish the person''s changed behavior.
+
+
+      ### Complete baseline packet: lunch available at departure
+
+
+      The fictional plan was saved before Week 1: “Have my usual suitable lunch packed and available by
+      08:00 on Monday, Wednesday and Friday. At most eight active preparation minutes per day, no transferred
+      care work, and no delayed sleep.” The planned total active allowance is 24 minutes. Shopping time
+      is outside this bounded preparation measure and must be disclosed if a later method changes it.
+
+
+      The case uses the person''s already suitable lunch and existing safe storage arrangements. No recipe
+      or change of diet is required. The only method variable considered is when the dry, shelf-stable
+      portion is placed in its bag. All other lunch components and safe handling follow the existing arrangement.
+
+
+      | Week 1 day | Lunch by 08:00 | Active minutes | Recorded event | Other burden |
+
+      | --- | --- | --- | --- | --- |
+
+      | Monday | yes | 8 | All required components available | none recorded |
+
+      | Wednesday | no | 6 | One required component unavailable; not checked earlier | none recorded |
+
+      | Friday | no | 7 | Seven-minute unavoidable interruption in the preparation window | none recorded
+      |
+
+
+      The seven interruption minutes are elapsed disruption, not part of the seven active preparation
+      minutes on Friday. Do not add them into active cost or remove them from elapsed feasibility. There
+      are no actual meal, sleep or medical observations beyond this fictional record.
+
+
+      #### Action 1 — Compare without rewriting
+
+
+      Write the original target beside the three outcomes and costs. Calculate outcome success and active
+      effort. Preserve Wednesday and Friday as different misses. For each, distinguish supported observation,
+      inference and alternative. Example: the missing component is observed; an earlier check might have
+      exposed it, but packing an existing dry portion earlier cannot guarantee that component becomes
+      available. Friday''s interruption is recorded; assuming next Friday has the same interruption is
+      a planning assumption.
+
+
+      Use `planned outcome | actual outcome | active and other cost | supported event | possible mechanism
+      | alternative | controllable part`. Do not convert the record into a personal character verdict.
+
+
+      #### Action 2 — Prespecify one change and a fair comparison
+
+
+      The default candidate method is: place the already available dry portion in its bag the preceding
+      evening, while retaining the usual remaining morning preparation. Keep shopping, lunch requirements,
+      supports and care arrangements unchanged. This may free morning time; it cannot create a missing
+      component. Estimate four active minutes in the evening and four in the morning per day, labeling
+      those as trial assumptions rather than measurements.
+
+
+      Compare the same Monday/Wednesday/Friday departure opportunities next week. Save this prediction
+      before opening the later packet: “At least two of three lunches available by 08:00; no more than
+      24 combined evening-plus-morning active minutes; no care shifted or sleep delayed.” The original
+      aspiration of three lunches is retained; two is a provisional improvement threshold for deciding
+      whether the method deserves another trial, not retrospective completion of the original goal.
+
+
+      Also compare each lunch''s combined evening-plus-morning cost with the original eight-minute daily
+      cap. Meeting the trial''s 24-minute total does not itself meet or rewrite that daily cap. Report
+      any daily overrun separately, even when the provisional trial rule supports another attempt.
+
+
+      Apply these case decision rules:
+
+
+      - **Retain provisionally:** at least two of three lunches available, total active cost at most 24
+      minutes, no shifted care or delayed sleep, and comparable conditions with complete records.
+
+      - **Revise:** at least two available but active cost exceeds 24, with no harmful burden; change
+      one feature for the next trial. Do not call the current method successful on cost.
+
+      - **Reject this version:** at most one available under comparable fully recorded conditions, or
+      shifted care/delayed sleep occurs. Return to an appropriate prior arrangement or a different method
+      with its own trial.
+
+      - **Inconclusive:** outcome/cost records are missing or a material condition differs so this comparison
+      cannot answer the planned question. Retain the observations but repeat or redesign before an effectiveness
+      claim. A known adverse burden still stops that version even if other data are missing.
+
+
+      These are original teaching thresholds for this case, not a validated assessment or universal rule.
+      Do not average away an essential-duty violation.
+
+
+      #### Action 3 — Study results and make the next action concrete
+
+
+      Open [later-packet.md](?resource=file-later-packet-md). Analyze each branch as an alternative follow-up,
+      calculating both evening and morning costs. State whether the trial supports the prediction, apply
+      the rule and specify the next action. “Retain” means schedule another bounded comparable trial with
+      the same monitoring, not pronounce the method proven. “Revise” must name an actual changed step.
+      “Reject” must leave a usable alternative or reasoned stop, not simply judge the week.
+
+
+      Complete [check-prompts.md](?attempt=practice-checks) before [check-answers.md](?check=practice-answers).
+      Your finished desk artifact is a preserved comparison, a pre-result prediction, branch calculations
+      and concrete next actions. The supplied follow-up is simulated; no real week has elapsed because
+      you read it.
+
+
+      ### Access, deeper work and transfer
+
+
+      For a future supported trial, choose one day rather than a week when recall or writing burden is
+      too high, stating that prospective denominator and its narrower conclusion. Keep this supplied three-day
+      record intact; do not delete its missed days. An aid may total minutes or transcribe; the learner
+      can still distinguish mechanism, evidence and decision. Approximate real timings may be ranges;
+      if a range crosses the cost threshold, record the decision as uncertain rather than choosing its
+      convenient end.
+
+
+      For greater challenge, use the harder check''s differing-support case and design a second comparison
+      that preserves the access support while testing the person''s method. Do not remove necessary assistance
+      for experimental purity. Extend to several suitable cycles only if the routine remains useful and
+      the measurement burden is proportionate. Keep unchanged or worse outcomes in the record.
+
+
+      For actual transfer, choose one safe routine, save a small prediction, attempt the method at the
+      next comparable opportunity and append what happened. Record external changes. An actual supported
+      attempt differs from this simulation; independent observation differs from self-review. A real closed
+      loop can end in a justified stop or release of an obsolete target.
+
+
+      **Supportive:** A changed method is tried, its measured result and cost meet the saved rule, and
+      a specific next trial follows.
+
+
+      **Mixed:** Availability improves but total burden exceeds the plan; revise without hiding the cost.
+
+
+      **Contradictory:** The original target is rewritten, missed days vanish from the denominator or
+      harm to other duties is ignored.
+
+
+      **Inconclusive:** Reflection produces an intention but no attempted change, or follow-up information
+      cannot answer the comparison.
+
+
+      The broad small-test-and-adapt principle is discussed in [IHI background and source limits](?resource=sources).
+      These original cases do not reproduce a validated intervention or demonstrate causal improvement.'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '### Check 1 — A cost range crosses the rule
+
+
+      A three-attempt trial predicts at least two successful outputs, total active cost at most 24 minutes
+      and no displaced duty. Outcomes are yes, no, yes. Recorded costs are 7, 8–11 and 7 minutes. Conditions
+      are otherwise comparable, with no displaced duty. Calculate the possible total and choose a truthful
+      disposition. May the reviewer record 22 minutes and retain the method without acknowledging the
+      uncertainty?
+
+
+      ### Check 2 — Several things changed
+
+
+      The old method produced one accepted output from three attempts. The new record has three from three,
+      but a helper completed two outputs and a missing material also became available. The prior question
+      was whether changing the learner''s reminder alone improved their own follow-through. What is supported,
+      what causal claim is not, and what concrete next comparison would respect necessary support? Should
+      the original target or denominator be rewritten?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '### Baseline and follow-up calculations
+
+
+      Baseline: 1/3 lunches available; 8 + 6 + 7 = 21 active minutes against 24 planned. This meets the
+      active-cost allowance but misses the outcome target. The interruption contributes seven elapsed
+      minutes, not seven additional active minutes. Missing supplies and interruption remain distinct
+      explanations; evening packing does not solve every cause.
+
+
+      A: 2/3, (4+3)+(4+3)+(4+4) = 22 minutes, comparable recorded conditions and no added burden. Retain
+      provisionally: prepare the same dry portion on the next suitable evening and repeat the same outcome/cost
+      check. The original three-lunch goal is still not achieved in this branch.
+
+
+      B: 3/3 and 27 minutes, with each nine-minute lunch also exceeding the original eight-minute daily
+      cap. Availability of the previously missing component changed materially, so this is inconclusive
+      for the planned method comparison; it also exceeds the 24-minute cost target. Keep both findings.
+      Do not claim that evening packing alone caused the extra lunch. A next comparison should use comparable
+      known material availability and record all preparation cost.
+
+
+      C: 1/3 and 24 minutes under the stated comparable conditions. Reject this version for lack of improvement;
+      choose a different controllable candidate, such as a prior availability check, with its own explicit
+      trial. Do not silently add that change to the old trial or pretend it ensures supply.
+
+
+      D: 3/3 but total cost and comparability unknown. Inconclusive; missing is not zero. Recover a reliable
+      record if possible, otherwise repeat a suitably recorded comparison.
+
+
+      E: 3/3 and 21 minutes, but unagreed care displacement. Reject this version despite the attractive
+      output count; restore responsible care arrangements before another trial. No conclusion of clinical
+      harm is needed to recognize the stipulated duty violation.
+
+
+      F: 2/3 and 27 minutes, comparable and no displaced duty; each nine-minute lunch also exceeds the
+      original eight-minute daily cap. Revise: reduce the evening handling step or choose a smaller preparation
+      component, then prespecify a new trial without removing needed preparation or care. Retain the current
+      cost failure.
+
+
+      ### Check 1
+
+
+      Total is 22–25 minutes. The range crosses 24, so the cost criterion is unresolved. Outcome meets
+      the provisional threshold, but overall retention is not established. Record inconclusive cost and
+      seek a reliable measurement or repeat with proportionate recording. Selecting 22 alone manufactures
+      certainty; selecting 25 as an observed exact value would also be false.
+
+
+      ### Check 2
+
+
+      Three accepted outputs were delivered under changed support and material conditions. The learner
+      personally completed one; this does not establish the effect of their reminder alone. Preserve the
+      original three opportunities and outcome definition. A next small comparison could retain necessary
+      help and stable materials, specify who does each step, and change only the reminder within that
+      supported route. If stable comparison is impossible, describe the combined supported method and
+      limit the claim. Removing needed support or rewriting the past denominator is not a valid repair.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

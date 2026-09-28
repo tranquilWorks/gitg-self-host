@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "02.12",
+  "title": "Test whether one principle survives a change of audience",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Integrity aligns means and claims across audiences. Confidentiality can justify different public detail; it does not justify secretly claiming another person’s work as one’s own."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Contribution record: Ren wrote text; Sam designed layout. Sam permits named credit in the private committee file but wants public anonymity. Public draft says “Ren created the entire notice.” Private draft accurately lists both roles. The coordinator accepts public role credit without a name."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Revise the public sentence and explain why its difference from the private version is principled rather than self-serving. Keep the actual contribution visible.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person reports everyone’s mistake privately but removes their own from a public summary to seem reliable; no privacy difference exists. What criterion changed?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "“Text by Ren; layout by a contributor who prefers not to be named” fits the stated permissions and contributions. Later fiction: coordinator accepts that wording; Sam’s public name remains withheld. Partial: delete Sam’s name but still say Ren did everything. Incorrect: disclose Sam to prove transparency. A context difference must trace to a relevant constraint, not who might reward the speaker.",
+      "criteria": [
+        "Claims match the contribution record",
+        "Confidentiality has a concrete basis",
+        "The same standard applies to self and others"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "The treatment changed with self-interest rather than a supplied relevant constraint. Restore comparable accurate reporting through the appropriate scope; integrity does not require indiscriminate publication of private details.",
+      "criteria": [
+        "Claims match the contribution record",
+        "Confidentiality has a concrete basis",
+        "The same standard applies to self and others"
+      ]
+    }
+  ]
+}

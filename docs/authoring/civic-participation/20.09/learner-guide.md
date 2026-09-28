@@ -44,9 +44,10 @@ Real transfer can use an ordinary public service notice. Prefer direct links ove
 
 [Mike Caulfield's original SIFT explanation, S11](../SOURCES.md#S11), supports pausing, investigating source context and tracing a claim to better evidence. [SPJ's voluntary ethics code, S15](../SOURCES.md#S15), supports contextual accuracy and transparent correction. Neither page validates this exercise or guarantees truth. The closure sequence, timing and communication states are original fiction.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core; normative status is cross_tradition_core_or_broadly_recurrent. This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -56,11 +56,15 @@ meaning_and_fit:
     and seek support appropriate to the situation; repeating distress is not progress.
   opportunity_considerations: Use a manageable annoyance such as agreeing too quickly to a minor request
     or withdrawing when a plan changes. Avoid frightening, traumatic, abusive or overwhelming situations;
-    choose a neutral fictional scheduling example instead.
+    choose a neutral fictional scheduling example instead. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.
   prerequisites:
   - Use a manageable annoyance such as agreeing too quickly to a minor request or withdrawing when a plan
     changes. Avoid frightening, traumatic, abusive or overwhelming situations; choose a neutral fictional
-    scheduling example instead.
+    scheduling example instead. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Use words, icons or a trusted person's voluntary practical help. No breath control, bodily monitoring
@@ -83,15 +87,17 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use a manageable annoyance such as agreeing too quickly to a minor request or withdrawing when
     a plan changes. Avoid frightening, traumatic, abusive or overwhelming situations; choose a neutral
-    fictional scheduling example instead. Goal: Trace a recurring everyday reaction from situation through
-    early cue to consequence, then test one feasible alternative before the usual pattern completes. Scope:
-    This is a small observation of an ordinary habit, not trauma processing, exposure therapy or an explanation
-    of a mental health condition. A pattern map is a hypothesis about these occasions. Time and effort:
-    About 15 minutes to compare two past occasions, one naturally occurring opportunity, and a five-minute
-    review. Adaptation: Use words, icons or a trusted person''s voluntary practical help. No breath control,
-    bodily monitoring or eye closing is required. If the reaction is overwhelming, stop the exercise and
-    seek support appropriate to the situation; repeating distress is not progress. Keep personal working
-    notes outside the check-in; record only the listed observations.'
+    fictional scheduling example instead. The learning guide contains a complete fictional practice and
+    a separate changed-case check. Choose that route when a real situation is unavailable; its results
+    are rehearsal, not performed real-world work. Goal: Trace a recurring everyday reaction from situation
+    through early cue to consequence, then test one feasible alternative before the usual pattern completes.
+    Scope: This is a small observation of an ordinary habit, not trauma processing, exposure therapy or
+    an explanation of a mental health condition. A pattern map is a hypothesis about these occasions.
+    Time and effort: About 15 minutes to compare two past occasions, one naturally occurring opportunity,
+    and a five-minute review. Adaptation: Use words, icons or a trusted person''s voluntary practical
+    help. No breath control, bodily monitoring or eye closing is required. If the reaction is overwhelming,
+    stop the exercise and seek support appropriate to the situation; repeating distress is not progress.
+    Keep personal working notes outside the check-in; record only the listed observations.'
   privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
     contents, identifying details or another person's private information. Participation and any help
     must be voluntary. Use words, icons or a trusted person's voluntary practical help. No breath control,
@@ -441,3 +447,55 @@ presentation:
   plain_language_evidence: The person checked a calendar before accepting a request and observed less
     last-minute rescheduling on that occasion.
   display_order: 64
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '05.06'
+  title: Map an ordinary reaction and try an earlier response
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A reaction chain includes event, interpretation, body cue, urge, action and consequence. The
+      earliest usable cue is one actually noticed before action, not an earlier signal imagined afterward.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Fictional first request:09:00 message asks for help;09:00:05 Jo thinks “I must answer yes”;09:00:08
+      hand tightens;09:00:12 Jo agrees;09:05 calendar reveals a conflict. Second ordinary request:11:00
+      message;11:00:06 same thought;11:00:09 Jo notices grip;11:00:12 says “I will check and answer by
+      noon”;11:03 calendar shows no free hour. No emergency or threatening relationship is involved.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Map both sequences and choose an early response supported by actual noticing. State what changed
+      and what remains uncertain before reading the outcome.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A person notices tension only after saying yes. Can that occasion demonstrate an earlier pause?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'The noticed grip at 11:00:09 precedes the holding reply and can cue checking. Later fiction:
+      Jo declines the unavailable hour at 11:10; no reaction from the requester is supplied. The first
+      agreement still needs appropriate repair. Partial: report only the bodily cue. Incorrect: call the
+      thought a proven cause or claim a changed relationship. Rehearsal alone remains preparation.'
+    criteria:
+    - Timelines determine what was actually available
+    - An earlier response fits a real noticed cue
+    - Consequences and causal limits remain explicit
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Record late noticing and the actual agreement. A later suitable opportunity may test the
+      cue; do not backdate awareness to make the chain succeed.
+    criteria:
+    - Timelines determine what was actually available
+    - An earlier response fits a real noticed cue
+    - Consequences and causal limits remain explicit

@@ -20,10 +20,8 @@ For support, use fiction or omit a single optional visual decoration while keepi
 
 Later transfer can repeat the same modest option only if useful, with fresh consent to yourself and no automatic escalation. Religious fasting and athletic hardship have specific contexts and risks requiring appropriate guidance; this lesson supplies neither. A ten-minute limit cannot establish humility, freedom from obsession or a superior way of life. Use the result to choose more wisely, including choosing comfort.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -46,9 +46,10 @@ A real effort needs willing participants, appropriate authority and a low-risk t
 
 [Community Tool Box, S10](../SOURCES.md#S10), provides planning guidance connecting actions, responsibility, timing, resources and communication. Selected action-plan sections were inspected, not every linked chapter. The noticeboard case and its acceptance test are original. Planning guidance does not establish that a charter causes impact or that one participant represents a whole community.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core; normative status is cross_tradition_core_or_broadly_recurrent. This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

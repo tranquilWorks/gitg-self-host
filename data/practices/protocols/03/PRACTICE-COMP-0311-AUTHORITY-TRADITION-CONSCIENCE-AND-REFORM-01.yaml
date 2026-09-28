@@ -59,12 +59,16 @@ meaning_and_fit:
     with a statement of gratitude. A respected teacher proposes requiring every visitor to say the same
     words, citing unity and a valued text. One visitor wants to remain silent honestly. The written visitor
     policy permits observation, and the coordinator can review meeting procedures. No real group needs
-    to be contacted.'
+    to be contacted. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.'
   prerequisites:
   - 'Use this fictional case: a community reading circle traditionally ends with a statement of gratitude.
     A respected teacher proposes requiring every visitor to say the same words, citing unity and a valued
     text. One visitor wants to remain silent honestly. The written visitor policy permits observation,
-    and the coordinator can review meeting procedures. No real group needs to be contacted.'
+    and the coordinator can review meeting procedures. No real group needs to be contacted. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use spoken reasoning, six labeled objects or the supplied case without personal disclosure. In an
@@ -89,17 +93,19 @@ intervention:
   setup: 'Use this fictional case: a community reading circle traditionally ends with a statement of gratitude.
     A respected teacher proposes requiring every visitor to say the same words, citing unity and a valued
     text. One visitor wants to remain silent honestly. The written visitor policy permits observation,
-    and the coordinator can review meeting procedures. No real group needs to be contacted. Goal: Distinguish
-    the legitimate roles and limits of texts, teachers, institutions, inherited practice, experience and
-    conscience, then give a principled process for agreement, dissent or reform. Scope: The supplied low-stakes
-    fictional case practices discernment. It neither adjudicates a real abuse allegation nor makes this
-    app a religious, legal or safeguarding authority. A thoughtful decision is not measured by obedience
-    or dissent alone. Time and effort: Three sessions of about 20 minutes, using the supplied case or
-    a comparably safe ordinary disagreement. Adaptation: Use spoken reasoning, six labeled objects or
-    the supplied case without personal disclosure. In an actual coercive or abusive setting, do not use
-    this exercise to investigate, negotiate safety or confront an authority; use independent support appropriate
-    to the circumstances. No complaint, confession or change of belief is required. Keep personal working
-    notes outside the check-in; record only the listed observations.'
+    and the coordinator can review meeting procedures. No real group needs to be contacted. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work. Goal:
+    Distinguish the legitimate roles and limits of texts, teachers, institutions, inherited practice,
+    experience and conscience, then give a principled process for agreement, dissent or reform. Scope:
+    The supplied low-stakes fictional case practices discernment. It neither adjudicates a real abuse
+    allegation nor makes this app a religious, legal or safeguarding authority. A thoughtful decision
+    is not measured by obedience or dissent alone. Time and effort: Three sessions of about 20 minutes,
+    using the supplied case or a comparably safe ordinary disagreement. Adaptation: Use spoken reasoning,
+    six labeled objects or the supplied case without personal disclosure. In an actual coercive or abusive
+    setting, do not use this exercise to investigate, negotiate safety or confront an authority; use independent
+    support appropriate to the circumstances. No complaint, confession or change of belief is required.
+    Keep personal working notes outside the check-in; record only the listed observations.'
   privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
     contents, identifying details or another person's private information. Participation and any help
     must be voluntary. Use spoken reasoning, six labeled objects or the supplied case without personal
@@ -482,3 +488,58 @@ presentation:
   plain_language_evidence: The proposal preserved shared gratitude and honest silence, used the policy
     review route, and distinguished an open gathering from an appropriately restricted rite.
   display_order: 46
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '03.11'
+  title: Reason through authority conscience and a disputed practice
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Conscience can justify examining or refusing a demand while leaving legitimate coordination
+      and another person’s rights intact. Authority has a scope; disagreement with one demand does not
+      erase every boundary.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: The supplied reading circle permits silent observation, ends at 11:00 and prohibits recording
+      other participants. A teacher asks all visitors to say gratitude words. Jo cannot honestly affirm
+      them but is willing to remain quiet and leave on time. The coordinator accepts private procedure
+      questions and can correct the teacher’s request.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Compare the teacher’s unity reason with truthful silence, then identify which other boundaries
+      Jo must still respect. Draft a proportionate private clarification.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A visitor says conscience requires publicly streaming a private discussion despite the participants’
+      no-recording boundary. Is dissent sufficient authority?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Ask the coordinator to preserve the written observation route or choose to leave. Jo’s conscience
+      does not authorize recording participants or extending the room booking. Later fiction: coordinator
+      confirms silence is allowed and closes on time; no wider authority judgment follows. Partial: oppose
+      compulsion without acknowledging ordinary rules. Incorrect: treat every unwanted restriction as
+      an assault on conscience.'
+    criteria:
+    - The disputed authority is bounded
+    - Dissent does not erase other rights
+    - The response is proportionate and honest
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. The asserted belief does not create consent to expose others. Use a permitted account or
+      appropriate concern process while respecting privacy and safety.
+    criteria:
+    - The disputed authority is bounded
+    - Dissent does not erase other rights
+    - The response is proportionate and honest

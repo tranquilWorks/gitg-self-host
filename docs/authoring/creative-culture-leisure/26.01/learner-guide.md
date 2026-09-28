@@ -38,11 +38,11 @@ Before opening the [later packet](later-packet.md), distinguish a reserved retur
 
 With five minutes to reserve the activity, thirty for the first window, fifteen for the return and a brief five-minute final review, the supplied overall plan is fifty-five minutes within ten days. The ordinary time windows protect availability; they are not performance targets inside play. Shorter accessible practice can still be legitimate under the existing variant, with the actual duration stated instead of pretending it was thirty minutes.
 
-## Keep the existing protocol intact
+## Complete the actual practice sequence
 
-The app's existing sequence remains reserve, play and return. Its completion criteria remain: all three actions attempted, at least two actions completed, at least one period of genuinely non-instrumental engagement, and a final review submitted. Reading this companion, answering its questions or following the supplied fiction does not submit that review or complete runtime actions.
+Use the sequence: reserve time, play, then return for a second period. Its completion criteria remain: all three actions attempted, at least two actions completed, at least one period of genuinely non-instrumental engagement, and a final review submitted. Reading the story or answering its questions does not replace actual play and review.
 
-Use only the app's existing available observation fields for an actual check-in. The source companion adds no field, no enjoyment intensity score and no new completion rule. The frozen package contains a documented marker that the existing check-in does not collect; do not invent a missing answer to fill it. Exact compatibility details are preserved in the canonical map for author review, not added to the learner's play window.
+Record only what occurred during the actual play periods. Do not grade how much enjoyment you felt. Do not invent an observation that you did not make.
 
 ## Make a small actual opportunity
 
@@ -50,14 +50,14 @@ Use only the app's existing available observation fields for an actual check-in.
 2. Use the reserved time for play. Let harmless changes and unfinished activity remain possible; stop or adapt if the activity becomes pressured, unsafe or compulsive.
 3. Return once within seven days for a short period or another playful activity. Record a missed return as missed rather than counting the reservation.
 4. Compare only afterward: what supported free play, what constrained it, and whether the second period supported or contradicted the first. Do not grade enjoyment.
-5. Complete any actual app review through the existing rules, keeping the reading checks separate and completion distinct from mastery.
+5. Finish the actual review after the practice, keeping reading checks separate and completion distinct from mastery.
 
 For support, begin with the teaspoon starter or a five-minute variation under the established accessible route. Split time when needed without concealing the split. For a harder reflection, distinguish an ordinary game rule from a demand to improve, publish or prove yourself; do not make the play itself harder to earn credit. Gambling, substances, costly risks, unsafe movement and neglect of essential care are outside this activity. Rest or deferral may take priority without implying a deficit.
 
-Two windows can show only what occurred in those circumstances. They do not prove a stable capacity for spontaneity, a joyful identity or a particular amount of connection. No actual learner experience or runtime evidence has been produced by reading this example.
+Two windows can show only what occurred in those circumstances. They do not prove a stable capacity for spontaneity, a joyful identity or a particular amount of connection. Reading this example does not establish that you experienced play.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains cross_context_core and normative status cross_tradition_core_or_broadly_recurrent. Capacity, access and context still govern whether to attempt this practice. Fiction and no attempt are legitimate. Human dignity is never scored.
+Capacity, access and context still govern whether to attempt this practice. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

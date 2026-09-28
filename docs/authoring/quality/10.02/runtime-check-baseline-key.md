@@ -9,7 +9,7 @@ C2 — It excludes the unrelated value and the result cell itself.
 C3 — The first result equals the independently checked total for the original input set.
 C4 — After changing only the designated last input, the same spreadsheet formula updates to the correct new total; on paper, preserve the original and make a correct separate recalculation.
 
-Use observed / not observed / uninspected for each criterion. A correct number alone does not establish C1 or C2: inspect the formula or written addends. The recorded fraction is the number observed divided by four, with uninspected criteria excluded from the numerator. Retain uninspected separately from inspected failures; if a comparison depends on an uninspected criterion, mark that comparison inconclusive. This private checklist does not replace the application’s existing evidence fields.
+Use observed / not observed / uninspected for each criterion. A correct number alone does not establish C1 or C2: inspect the formula or written addends. The recorded fraction is the number observed divided by four, with uninspected criteria excluded from the numerator. Retain uninspected separately from inspected failures; if a comparison depends on an uninspected criterion, mark that comparison inconclusive. Use this private count to diagnose the selected component; it is not a rating of your overall ability.
 
 A record for each attempt
 

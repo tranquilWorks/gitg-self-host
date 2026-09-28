@@ -66,12 +66,16 @@ meaning_and_fit:
   opportunity_considerations: 'Use this fictional case: a much-used neighborhood meeting place closes
     after storm damage, disrupting connection despite volunteers'' sincere efforts. You may instead use
     a settled, manageable disappointment. Do not select an acute traumatic event, recent bereavement or
-    someone else''s private pain for the sake of producing evidence.'
+    someone else''s private pain for the sake of producing evidence. The learning guide contains a complete
+    fictional practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.'
   prerequisites:
   - 'Use this fictional case: a much-used neighborhood meeting place closes after storm damage, disrupting
     connection despite volunteers'' sincere efforts. You may instead use a settled, manageable disappointment.
     Do not select an acute traumatic event, recent bereavement or someone else''s private pain for the
-    sake of producing evidence.'
+    sake of producing evidence. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use a drawing, a few words or the fictional case. No public lament, theological agreement, painful
@@ -95,7 +99,9 @@ intervention:
   setup: 'Use this fictional case: a much-used neighborhood meeting place closes after storm damage, disrupting
     connection despite volunteers'' sincere efforts. You may instead use a settled, manageable disappointment.
     Do not select an acute traumatic event, recent bereavement or someone else''s private pain for the
-    sake of producing evidence. Goal: Respond to pain, injustice, tragedy or unanswered questions with
+    sake of producing evidence. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work. Goal: Respond to pain, injustice, tragedy or unanswered questions with
     truthful lament and a proportionate act of care, without requiring a tidy explanation before acting.
     Scope: This is an exercise in honest language and humane response, not a treatment for distress or
     a solution to evil. Lament may be religious, secular, spoken, written or silent; no explanation of
@@ -476,3 +482,58 @@ presentation:
   plain_language_evidence: The loss was named without a forced lesson, a wanted check-in occurred and
     uncertainty about the future remained explicit.
   display_order: 49
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '04.01'
+  title: Name suffering honestly and choose one humane response
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Acknowledgment names a particular loss without claiming a hidden benefit, complete explanation
+      or required emotional response. Practical information and emotional interpretation have different
+      evidence needs.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Official fictional venue notice, issued Monday 09:00 by its manager: “The neighborhood meeting
+      room is closed through Friday because of storm damage. All meetings there are cancelled. Do not
+      enter. A reopening update will be posted Friday 12:00.” Intended audience: the ordinary private
+      volunteer group. No replacement room, injuries or reopening certainty is supplied.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Draft the factual closure message and a separate humane acknowledgment of lost connection and
+      effort. Compare it with “At least this will make everyone stronger.”
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A listener says “You need not explain this loss to make it matter,” then accepts silence. Has
+      the listener failed because no solution was produced?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'The message preserves closure, cancellation, no-entry instruction and update time, without
+      inventing a replacement or Friday reopening. Acknowledgment can say the lost gathering matters despite
+      volunteers’ effort. The stronger-everyone claim imposes an unobserved benefit. Partial: kind acknowledgment
+      with no usable timing. Incorrect: promise reopening. Later fiction: Friday update extends closure;
+      no lesson or growth outcome is established.'
+    criteria:
+    - The loss is particular and not minimized
+    - Practical claims match the authoritative notice
+    - Meaning and emotional outcomes remain unforced
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Acknowledgment may be the requested response. Retain any practical need separately; silence
+      is not proof of recovery or failure.
+    criteria:
+    - The loss is particular and not minimized
+    - Practical claims match the authoritative notice
+    - Meaning and emotional outcomes remain unforced

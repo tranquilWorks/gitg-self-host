@@ -42,9 +42,10 @@ One smoothly completed pickup cannot establish that separation is resolved, conf
 
 [Cafcass guidance, S15](../SOURCES.md#S15), supports practical communication and keeping children out of the messenger role within its England family-justice context. This original fictional case does not transfer contact rights, legal rules or ordinary cooperative advice into unsafe circumstances. Qualified local guidance is required for changes to care, custody or safety arrangements.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local guidance.
 
-Applicability and normative status are role-conditional. No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+ No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

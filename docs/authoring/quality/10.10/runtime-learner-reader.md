@@ -35,7 +35,11 @@ Change the part linked to the confusion, such as explicitly naming the bottom ro
 - Support and remaining confusion are recorded
 - Rehearsal is not substituted for another person’s application
 
+## Adaptation
+
 Use speech, sign, AAC, tactile grids or enlarged text according to the learner’s preference. Remove unnecessary speed demands while keeping the coordinate task. Protect privacy and never record a learner without clear permission.
+
+## Review
 
 What did the learner’s attempt reveal about your explanation that their polite agreement did not?
 

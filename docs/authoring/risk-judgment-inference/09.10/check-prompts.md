@@ -13,3 +13,9 @@ Identify the hazard and affected people for both choices. Give separate entries 
 For a harmless fictional sorting process only, each pass has independent mismatch probability 1/10, constant across passes. Compare the chance of at least one mismatch across three passes and six passes. Show the complement calculation, not 3/10 or 6/10 as an exact answer.
 
 A proposed detector notices a mismatch only after all passes finish. Explain whether that detector prevents the first mismatch, supports later correction, or establishes both. What changes if passes share one common labeling fault and are not independent? What would be wrong with using these invented probabilities to certify the physical route in the guide?
+
+## Changed-case attempt
+
+Save your response before opening the matching answer. This is a new fictional case.
+
+A fictional independent-event model gives each crossing a 0.2 chance of delay. Compare the chance of at least one delay across two and four crossings. Then explain why that calculation could mislead if every crossing is delayed by the same single road closure.

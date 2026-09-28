@@ -60,10 +60,14 @@ meaning_and_fit:
     week dominated by illness or caregiving can justify a smaller expectation rather than another task.
   opportunity_considerations: Choose one stated priority and reconstruct three ordinary moments from the
     last week. Use memory or your own calendar; no surveillance, detailed diary, or productivity scoring
-    is needed.
+    is needed. The learning guide contains a complete fictional practice and a separate changed-case check.
+    Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.
   prerequisites:
   - Choose one stated priority and reconstruct three ordinary moments from the last week. Use memory or
-    your own calendar; no surveillance, detailed diary, or productivity scoring is needed.
+    your own calendar; no surveillance, detailed diary, or productivity scoring is needed. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Review aloud, with a trusted supporter, or using three calendar symbols. A week dominated by illness
@@ -84,10 +88,12 @@ intervention:
   cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Choose one stated priority and reconstruct three ordinary moments from the last week. Use memory
-    or your own calendar; no surveillance, detailed diary, or productivity scoring is needed. Goal: Turn
-    a recurring life review into a concrete revision of conduct or belief. Scope: The weekly loop connects
-    belief and conduct across several moments. A lasting philosophical revision requires later reviews
-    and evidence from more than one week. Time and effort: About 20 minutes now, one small adjustment,
+    or your own calendar; no surveillance, detailed diary, or productivity scoring is needed. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work. Goal:
+    Turn a recurring life review into a concrete revision of conduct or belief. Scope: The weekly loop
+    connects belief and conduct across several moments. A lasting philosophical revision requires later
+    reviews and evidence from more than one week. Time and effort: About 20 minutes now, one small adjustment,
     and 10 minutes at the following week''s review. Adaptation: Review aloud, with a trusted supporter,
     or using three calendar symbols. A week dominated by illness or caregiving can justify a smaller expectation
     rather than another task. Keep personal working notes outside the check-in; record only the listed
@@ -433,3 +439,59 @@ presentation:
   plain_language_evidence: A vague friendship priority became one realistic call, then was reviewed for
     fit.
   display_order: 18
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '01.09'
+  title: Compare a stated belief with an ordinary week
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A mismatch may require changing conduct, revising an overbroad belief or accepting a legitimate
+      competing duty. Three moments are a sample, not an identity verdict. A later observation should
+      test the adjustment rather than retell the intention.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Pat says “friendship means answering every message immediately.” Monday: a welcome 10-minute
+      call occurred. Wednesday: a necessary care task delayed a reply until evening. Friday: Pat browsed
+      optional videos and forgot a promised reply by 17:00. A friend agrees a Saturday 10:00 check-in
+      would work; no broader reassurance is supplied.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Classify reflected, conflicting and ambiguous moments. Decide which belief and which behavior
+      need revision. Plan an inspectable Saturday adjustment before reading the check.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A person says family matters most but declines an optional gathering to keep an urgent agreed
+      care duty elsewhere. Must the belief be false?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Monday reflects friendship; Wednesday supports revising “immediately” to fit necessary care;
+      Friday still contains a missed promise. Later fiction: the Saturday call occurs 10:00–10:10; trust
+      repair is not reported. A sound adjustment combines realistic response agreements and a reminder
+      for explicit promises. Partial: revise only the slogan. Incorrect: use Wednesday’s care duty to
+      excuse Friday’s unrelated omission.'
+    criteria:
+    - Different causes of mismatch are retained
+    - Revision targets the actual problem
+    - Later action is separate from intention
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. The event has competing duties and may express a broader care commitment. Examine actual
+      promises and alternatives before deciding whether belief or conduct needs revision; one event does
+      not settle identity.
+    criteria:
+    - Different causes of mismatch are retained
+    - Revision targets the actual problem
+    - Later action is separate from intention

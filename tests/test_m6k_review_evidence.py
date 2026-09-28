@@ -23,6 +23,7 @@ def case(tmp_path):
         "docs/plans/m6k",
         "growth/domain/instructional_content.py",
         "growth/views_instructional.py",
+        "growth/templatetags/instructional.py",
         "growth/urls.py",
         "growth/static/growth/app.css",
         "templates/growth/practice_guide.html",
@@ -441,14 +442,65 @@ def test_duplicate_yaml_keys_are_rejected(tmp_path):
         reviews.load_document(path)
 
 
-def test_repository_report_is_current_and_does_not_accept_recovered_drafts():
+def test_current_projection_does_not_promote_historical_human_review_states():
     actual = reviews.report(ROOT)
-    expected = json.loads((ROOT / reviews.QUALITY / "current-report.json").read_text())
+    historical = json.loads((ROOT / reviews.QUALITY / "current-report.json").read_text())
+    expected = json.loads(
+        (
+            ROOT / "docs/authoring/catalog-product-integration-20260928/quality-status.json"
+        ).read_text()
+    )
     assert actual == expected
     assert actual["recovered_drafts"] == 383
-    assert actual["tailored_runtime"] == 108 and actual["runtime_rewrites_pending"] == 275
+    assert historical["tailored_runtime"] == 108
+    assert historical["runtime_rewrites_pending"] == 275
+    assert actual["tailored_runtime"] == 378 and actual["runtime_rewrites_pending"] == 5
+    selected = set(
+        reviews.load_document(ROOT / "contracts/tailored-practice-authoring.yaml")[
+            "implemented_competency_ids"
+        ]
+    )
+    for cid, row in actual["rows"].items():
+        prior = historical["rows"][cid]
+        assert row["runtime"] == ("tailored" if cid in selected else "frozen_companion")
+        # Renderer/material/evidence revisions advance prospectively. No
+        # recovered draft thereby acquires a human acceptance or new finding.
+        assert {k: v for k, v in row.items() if k not in {"revision", "runtime"}} == {
+            k: v for k, v in prior.items() if k not in {"revision", "runtime"}
+        }
     assert all(n == 0 for n in actual["counts"].values())
     assert actual["invalid_current_receipts"] == 0
+
+
+@pytest.mark.parametrize("change", ["compiled_guide", "legacy_companion", "markdown_renderer"])
+def test_learner_material_and_renderer_changes_advance_review_fingerprints(case, change):
+    root, canonical, exercise, before, _anchor = case
+    path = next(
+        p for p in (root / "data/practices/protocols/10").glob("*.yaml") if "1001" in p.name
+    )
+    package = reviews.load_document(path)
+    if change == "markdown_renderer":
+        with (root / "growth/templatetags/instructional.py").open("a") as stream:
+            stream.write("\n# A prospective rendering change\n")
+        field = "renderer"
+    elif change == "compiled_guide":
+        package["instructional_content"]["sections"][0]["body"] += " A changed learner fact."
+        path.write_text(yaml.safe_dump(package))
+        field = "materials"
+    else:
+        guide = package.pop("instructional_content")
+        path.write_text(yaml.safe_dump(package))
+        companion = root / "data/practices/registries/guides/1001.yaml"
+        companion.parent.mkdir(parents=True)
+        companion.write_text(yaml.safe_dump(guide))
+        # Synthetic sidecar exercises the same snapshot path as a frozen
+        # legacy companion, without changing any actual legacy practice.
+        before = reviews.snapshot(root, CID, canonical, exercise)
+        guide["sections"][0]["body"] += " A changed companion fact."
+        companion.write_text(yaml.safe_dump(guide))
+        field = "materials"
+    after = reviews.snapshot(root, CID, canonical, exercise)
+    assert after[field] != before[field]
 
 
 def test_collection_is_not_executed_verification(case):

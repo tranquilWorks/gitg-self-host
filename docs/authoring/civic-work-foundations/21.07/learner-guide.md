@@ -46,9 +46,10 @@ Real transfer requires permission and the actual organization's controls. Keep p
 
 [NASA's interface-management section, S12](../SOURCES.md#S12), explains interface inputs, responsibilities, controlled changes and verification of compatibility. Selected sections inform the general boundary principle; this small notice card is an original analogy, not a NASA-compliant engineering control. No linked expanded guidance, technical system qualification or organizational performance estimate is claimed.
 
+## Use the result at its proper scale
 
-## Scope and evidence boundary
+The practical limits in this guide are exercise safeguards, not added canonical metadata.
 
-The canonical record has no professional_boundary field. The practical limits in this guide are exercise safeguards, not added canonical metadata.
+Paid employment, a career change or a particular work role is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private.
 
-Canonical applicability is context_sensitive. Paid employment, a career change or a particular work role is not compulsory. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

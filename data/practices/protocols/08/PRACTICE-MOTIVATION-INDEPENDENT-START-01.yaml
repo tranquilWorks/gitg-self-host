@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 1.0.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-MOTIVATION-INDEPENDENT-START-01
 slug: compare-two-motivation-independent-starts
-name: Compare Two Motivation-Independent Starts
+name: Compare Two Small Starts Without Waiting for Motivation
 parent_competency_id: '08.06'
 domain_id: 08
 governance:
@@ -16,8 +16,8 @@ governance:
   - SRC-CANONICAL-CURRICULUM-V2
   - SRC-M6D-MOTIVATION-IMPLEMENTATION-INTENTIONS
   authoring:
-    provenance: Individually authored M6D-01 source package for competency 08.06; it is not projected
-      into the runtime.
+    provenance: M6J individually authored exercise for 08.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: pending
     safety_review_status: pending_specialist_expansion_review
@@ -36,10 +36,12 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: Compare two deliberately chosen, very small starts during low-motivation windows and identify
-    whether a concrete start cue made beginning more workable.
-  why_recommended: The selected competency concerns beginning chosen necessary work without making inspiration,
-    confidence, or energy a prerequisite.
+  purpose: Compare a usual-condition start and a one-cue-supported start of the same genuinely necessary,
+    low-stakes task during two naturally occurring low-motivation windows. Evaluate the act of beginning,
+    not output, speed, stamina, or personal worth.
+  why_recommended: Compare a usual-condition start and a one-cue-supported start of the same genuinely
+    necessary, low-stakes task during two naturally occurring low-motivation windows. Evaluate the act
+    of beginning, not output, speed, stamina, or personal worth.
   claims:
   - statement: Naming a specific situation and intended response is a reasonable design basis for this
       bounded start experiment.
@@ -48,30 +50,46 @@ meaning_and_fit:
     - SRC-M6D-MOTIVATION-IMPLEMENTATION-INTENTIONS
     limitations: Implementation-intention research does not establish that this exact protocol works for
       every person, task, disability, health state, or caregiving context.
-  - statement: Low energy, rest, fatigue, pain, disability, depression, sleep need, or caregiving load
-      is context for scope and safety, not evidence of failure or reduced worth.
+  - statement: Compare a usual-condition start and a one-cue-supported start of the same genuinely necessary,
+      low-stakes task during two naturally occurring low-motivation windows. Evaluate the act of beginning,
+      not output, speed, stamina, or personal worth.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: This is a dignity and safety boundary, not a clinical assessment or a claim that all
-      starts should proceed.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Is there one safe, lawful, low-stakes, genuinely necessary task that can be
     reduced to a two-to-five-minute start in two chosen windows without sacrificing sleep, care, health,
     or recovery?
   not_applicable_behavior: Record not applicable or defer without penalty when no safe or necessary task
     fits; do not infer avoidance, laziness, low discipline, or deficit.
-  readiness_considerations: Proceed only when the person can freely choose the task, two feasible windows,
-    and a reduced start that respects current energy, pain, disability, care duties, and recovery needs.
-  opportunity_considerations: Requires two naturally occurring low-motivation windows within seven days;
-    manufactured sleep loss, distress, deprivation, pressure, or withholding support is not an opportunity.
+  readiness_considerations: Use assistive technology, a planning aid, an accessible document, a consenting
+    support person, or an ordinary household equivalent. Keep the physical start smaller when needed without
+    describing a plan alone as the target action. Do not sacrifice sleep, recovery, food, treatment, care
+    duties, or safety. No task whose delay or partial start creates a significant hazard belongs here.
+    If suitable windows do not occur, preserve the missing comparison; do not manufacture low motivation
+    or remove helpful supports.
+  opportunity_considerations: 'Use a clock and a private two-row note labeled usual and one cue. Default:
+    open a non-sensitive document you actually need to work on and type one rough heading, stopping within
+    two to five minutes. If no document is needed, put materials for one ordinary necessary household
+    task in their working position. Choose two realistic windows within seven days. Keep the first under
+    usual safe conditions and choose exactly one cue for the second, such as a calendar prompt or an agreed
+    reminder. No invented task or sleep loss is needed.'
   prerequisites:
-  - One user-chosen safe, lawful, low-stakes necessary task.
-  - A start step that can end after two to five minutes with no penalty.
+  - 'Use a clock and a private two-row note labeled usual and one cue. Default: open a non-sensitive document
+    you actually need to work on and type one rough heading, stopping within two to five minutes. If no
+    document is needed, put materials for one ordinary necessary household task in their working position.
+    Choose two realistic windows within seven days. Keep the first under usual safe conditions and choose
+    exactly one cue for the second, such as a calendar prompt or an agreed reminder. No invented task
+    or sleep loss is needed.'
   dependencies: []
   safe_alternatives:
-  - Defer the task, ask for support, or choose recovery when the window is unsafe or capacity is insufficient.
-  - Reduce the start to opening materials, naming the next physical step, or arranging a later supported
-    start.
+  - Use assistive technology, a planning aid, an accessible document, a consenting support person, or
+    an ordinary household equivalent. Keep the physical start smaller when needed without describing a
+    plan alone as the target action. Do not sacrifice sleep, recovery, food, treatment, care duties, or
+    safety. No task whose delay or partial start creates a significant hazard belongs here. If suitable
+    windows do not occur, preserve the missing comparison; do not manufacture low motivation or remove
+    helpful supports.
   role_conditions:
   - Caregiving, employment, study, and household roles do not override sleep, health, access, consent,
     or emergency responsibilities.
@@ -84,18 +102,38 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-BEHAVIORAL-EXPERIMENT
   duration_days: 7
-  cadence: Choose one baseline start and one cue-supported start in separate naturally occurring low-motivation
-    windows, then compare only the act of beginning.
-  setup: Choose a necessary low-stakes task and define a reversible two-to-five-minute start. Choose two
-    realistic windows. The second window adds one concrete cue, such as materials placed safely in view,
-    a calendar prompt, or a support person's agreed reminder.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a clock and a private two-row note labeled usual and one cue. Default: open a non-sensitive
+    document you actually need to work on and type one rough heading, stopping within two to five minutes.
+    If no document is needed, put materials for one ordinary necessary household task in their working
+    position. Choose two realistic windows within seven days. Keep the first under usual safe conditions
+    and choose exactly one cue for the second, such as a calendar prompt or an agreed reminder. No invented
+    task or sleep loss is needed. Goal: Compare a usual-condition start and a one-cue-supported start
+    of the same genuinely necessary, low-stakes task during two naturally occurring low-motivation windows.
+    Evaluate the act of beginning, not output, speed, stamina, or personal worth. Scope: The canonical
+    target is repeated starts without waiting to feel inspired, confident, or energetic. This preserves
+    the existing three-action protocol: a usual-condition start, a one-cue-supported start, and a bounded
+    comparison. The baseline boolean, duration boundary, cued-start boolean, cue-category criteria, zero-to-two
+    start count, capacity-harm indicators, and all other existing typed rules remain unchanged. The expanded
+    private checks explain those actions; they do not add measurements or treat a rehearsal as a real
+    start. Time and effort: About twenty to thirty minutes including setup, two starts of two to five
+    minutes each, and a ten-minute comparison within seven days. Continuing after a start is optional
+    and outside the measured outcome. Adaptation: Use assistive technology, a planning aid, an accessible
+    document, a consenting support person, or an ordinary household equivalent. Keep the physical start
+    smaller when needed without describing a plan alone as the target action. Do not sacrifice sleep,
+    recovery, food, treatment, care duties, or safety. No task whose delay or partial start creates a
+    significant hazard belongs here. If suitable windows do not occur, preserve the missing comparison;
+    do not manufacture low motivation or remove helpful supports. Keep personal working notes outside
+    the check-in; record only the listed observations.'
   privacy_and_boundaries: Use a private task label and structured start indicators only. Do not store
     task contents, health information, diagnoses, employer or client information, another person's identity,
     or reasons for low motivation. Do not force action through fatigue, depression, disability, caregiving
     load, pain, illness, sleep need, fear, coercion, or lack of resources. This is not treatment, diagnosis,
     productivity monitoring, or proof of character.
-  expected_burden: About 20–30 minutes across setup, two starts, and comparison; either start may end
-    after the planned two-to-five-minute step.
+  expected_burden: About twenty to thirty minutes including setup, two starts of two to five minutes each,
+    and a ten-minute comparison within seven days. Continuing after a start is optional and outside the
+    measured outcome.
   action_count_rationale: null
   foreseeable_misuse:
   - Treating every low-energy state as resistance to overcome or using the practice to demand unpaid,
@@ -109,11 +147,22 @@ intervention:
   actions:
   - stable_id: PRACTICE-MOTIVATION-INDEPENDENT-START-01-A1
     sequence: 1
-    title: Observe one chosen start without adding a cue
-    instructions: In the first feasible low-motivation window, attempt only the pre-defined two-to-five-minute
-      start under usual safe conditions. Record whether the chosen physical start occurred and whether
-      the step stayed within its time boundary. Stop at the boundary unless continuing is freely chosen
-      and safe; output after the start is not measured.
+    title: Attempt the usual-condition two-to-five-minute start
+    instructions: 'In the first feasible low-motivation window, attempt the predefined physical start
+      under your usual safe conditions without adding a new cue. For the default, open the actual needed
+      document and type one provisional heading; do not turn the trial into finishing the document. Observe
+      whether that physical start occurred and whether the scoped attempt remained within five minutes.
+      A timer, assistive technology, or help you ordinarily use remains available. Stop at the boundary
+      or earlier for changed capacity. In the app, the baseline-start observation concerns whether beginning
+      actually happened; the duration field concerns this scoped attempt, not a later freely chosen work
+      session. Record no start honestly.
+
+
+      Observation checks: A naturally occurring feasible low-motivation window was used; The predefined
+      physical start actually occurred or its absence was recorded; The scoped attempt duration was distinguished
+      from any optional later work; No new comparison cue or capacity-harming pressure was introduced.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.'
     expected_time: 5 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -155,11 +204,21 @@ intervention:
         expected: true
   - stable_id: PRACTICE-MOTIVATION-INDEPENDENT-START-01-A2
     sequence: 2
-    title: Try one cue-supported start
-    instructions: In a separate feasible low-motivation window, use the same sized start with exactly
-      one chosen cue or support. Record whether the start occurred and which allowlisted support category
-      was used, without recording private task content or another person's identity. Defer if capacity
-      or safety has changed.
+    title: Attempt the same-sized start with exactly one cue
+    instructions: 'In a separate feasible low-motivation window, use the same task and same-sized start
+      with one chosen cue or support. For example, an existing calendar reminder says open the draft and
+      type one rough heading. Do not simultaneously add a reminder, a reward, and a body double. Record
+      whether the start occurred and, in a private category-level note, which single cue was selected.
+      The existing cue artifact checks mean cue selected, one cue only, and no private content; these
+      are not new success criteria. Preserve changed capacity, access, or an absent opportunity. An ignored
+      prompt is not a start, and a deferred window is not converted into laziness or completed action.
+
+
+      Observation checks: The second window was distinct and naturally feasible; Exactly one cue or support
+      category was selected without exposing private contents; Whether the same-sized physical start occurred
+      was observed; Changed capacity and any deferral were preserved without pressure to continue. Mark
+      only what you observed. Missing, mixed and negative results are valid; a deferred action is not
+      completed.'
     expected_time: 5 minutes
     due_within_days: 6
     typed_evidence_identity:
@@ -200,11 +259,45 @@ intervention:
         expected: true
   - stable_id: PRACTICE-MOTIVATION-INDEPENDENT-START-01-A3
     sequence: 3
-    title: Compare starts without judging capacity
-    instructions: Review the two structured start records. Mark whether zero, one, or two chosen starts
-      occurred and whether the cue was more workable, less workable, or indistinguishable. Keep differences
-      in energy, pain, care duties, access, and timing as context; do not convert them into a character
-      judgment or rewrite a deferred window as failure.
+    title: Compare zero, one, or two actual starts
+    instructions: 'Review both rows and count only the chosen starts that actually occurred: zero, one,
+      or two. Compare whether the single cue was more workable, less workable, or indistinguishable, keeping
+      differences in timing, energy, access, pain, and care duties as context. The existing comparison
+      artifact means the two windows are distinguished, deferral is preserved, and capacity is not scored.
+      Do not report two starts because two times were scheduled, a reminder appeared, or a worksheet was
+      completed. Keep the start count separate from the quality of the comparison. Choose a modest repeat,
+      an adaptation, rest, or support on the basis of the observations, not a character verdict.
+
+
+      Observation checks: The actual start count was zero, one, or two rather than the number of scheduled
+      windows; The usual and cued windows were distinguished with relevant context differences; Deferral
+      and capacity were retained without a deficit or coercion interpretation; Cue workability and the
+      next decision were supported only as far as the observations allow. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: How many starts actually occurred, and what can the two windows tell you about the
+      cue without judging capacity? Preserve an indistinguishable or adverse result. Choose whether to
+      keep the cue, change one feature, obtain support, or defer. Completing a two-start experiment does
+      not prove reliable initiation across tasks or life circumstances.
+
+
+      Examples: Supportive: The predefined two-minute start happened in both feasible windows. The reminder
+      made the second start feel easier without extending its scope. The count is two; the cue’s broader
+      effectiveness remains untested.
+
+
+      Mixed: The usual start occurred, but a care need made the second window unsuitable. The observed
+      count is one and the cue comparison remains incomplete; the deferred action is not relabeled failure
+      or completion.
+
+
+      Contradictory: The reminder became pressure to work through a stated need for rest. The capacity-harm
+      concern remains adverse even if a document was opened, and the cue is removed or revised.
+
+
+      Inconclusive: Two prompts were scheduled but neither physical start was observed. There is no evidence
+      of two starts; planning and a zero-start count cannot be represented as successful behavioral initiation.'
     expected_time: 10 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -251,14 +344,22 @@ intervention:
     - Use a free calendar cue, an existing object placed safely, or a self-written non-private task label;
       no app, purchase, reward, or accountability service is required.
     accessibility:
-    - Reduce duration, change posture or medium, use assistive technology, use a planning aid or body
-      double, and treat fluctuating capacity or a deferred start as valid context.
+    - Use assistive technology, a planning aid, an accessible document, a consenting support person, or
+      an ordinary household equivalent. Keep the physical start smaller when needed without describing
+      a plan alone as the target action. Do not sacrifice sleep, recovery, food, treatment, care duties,
+      or safety. No task whose delay or partial start creates a significant hazard belongs here. If suitable
+      windows do not occur, preserve the missing comparison; do not manufacture low motivation or remove
+      helpful supports.
     cultural_context:
     - Choose a necessary task and support arrangement consistent with the person's roles, collective responsibilities,
       rest norms, and authority to decide.
     resource_variants:
-    - If two comparable windows do not occur, retain the first observation as inconclusive and defer comparison
-      rather than manufacturing low motivation.
+    - Use assistive technology, a planning aid, an accessible document, a consenting support person, or
+      an ordinary household equivalent. Keep the physical start smaller when needed without describing
+      a plan alone as the target action. Do not sacrifice sleep, recovery, food, treatment, care duties,
+      or safety. No task whose delay or partial start creates a significant hazard belongs here. If suitable
+      windows do not occur, preserve the missing comparison; do not manufacture low motivation or remove
+      helpful supports.
   pause_conditions:
   - Pause when pain, fatigue, low energy, depression symptoms, distress, care duties, access needs, illness,
     sleep need, or changed circumstances make the chosen start unwise.
@@ -289,9 +390,8 @@ evidence_and_scoring:
   - comparison_boundaries_present
   - comparison_used_for_coercion
   adverse_or_contradictory_indicators:
-  - A start displaced needed sleep, care, recovery, access support, medical guidance, or safety.
-  - The record was used to pressure, surveil, rank, shame, or demand output from the participant.
-  - The start was not freely chosen or the task was not safe, lawful, necessary, and low stakes.
+  - The reminder became pressure to work through a stated need for rest. The capacity-harm concern remains
+    adverse even if a document was opened, and the cue is removed or revised.
   independence_rule: Record self-directed, planning-aid, or guided support explicitly; support can make
     a start accessible and never reduces dignity or silently changes a typed value.
   context_transfer_rule: Evidence is limited to the chosen task, two windows, stated capacity, and cue;
@@ -300,22 +400,33 @@ evidence_and_scoring:
     explicit diminishing multipliers; duplicate origins are rejected.
   recency_rule: Rules withhold observations older than the explicit 30-day bound; no unrecorded retention
     assumption applies.
-  performance_rubric: Performance concerns whether the bounded chosen start occurred, whether its scope
-    was respected, and whether the two records could be compared—not output, endurance, speed, or suppression
-    of need.
-  evidence_quality_rubric: Quality requires structured observations for separate windows, an explicit
-    cue category, and preserved defer and capacity context; task prose, mood narrative, and productivity
-    are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Attempt the usual-condition two-to-five-minute start. Observed checks:
+    A naturally occurring feasible low-motivation window was used; The predefined physical start actually
+    occurred or its absence was recorded; The scoped attempt duration was distinguished from any optional
+    later work; No new comparison cue or capacity-harming pressure was introduced. Action 2: Attempt the
+    same-sized start with exactly one cue. Observed checks: The second window was distinct and naturally
+    feasible; Exactly one cue or support category was selected without exposing private contents; Whether
+    the same-sized physical start occurred was observed; Changed capacity and any deferral were preserved
+    without pressure to continue. Action 3: Compare zero, one, or two actual starts. Observed checks:
+    The actual start count was zero, one, or two rather than the number of scheduled windows; The usual
+    and cued windows were distinguished with relevant context differences; Deferral and capacity were
+    retained without a deficit or coercion interpretation; Cue workability and the next decision were
+    supported only as far as the observations allow.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Two prompts were scheduled but neither physical start
+    was observed. There is no evidence of two starts; planning and a zero-start count cannot be represented
+    as successful behavioral initiation.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated typed primary measurements may produce context-bound direct competency
     shadow evidence only; protocol performance remains distinct and is never counted twice.
   canonical_lever_allocation: parent_competency_mapping
   recommendation_target_lever_ids:
   - L10
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse evidence under the typed contract.
@@ -323,11 +434,22 @@ evidence_and_scoring:
     implicit motivation judgment, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - One usual-condition bounded start was attempted.
-  - One cue-supported bounded start was attempted; an explicit deferral closes the protocol without claiming
-    completion.
-  - The two structured records were compared without scoring output, energy, disability, rest, care load,
-    or worth.
+  - 'Action 1: Attempt the usual-condition two-to-five-minute start. Observed checks: A naturally occurring
+    feasible low-motivation window was used; The predefined physical start actually occurred or its absence
+    was recorded; The scoped attempt duration was distinguished from any optional later work; No new comparison
+    cue or capacity-harming pressure was introduced.'
+  - 'Action 2: Attempt the same-sized start with exactly one cue. Observed checks: The second window was
+    distinct and naturally feasible; Exactly one cue or support category was selected without exposing
+    private contents; Whether the same-sized physical start occurred was observed; Changed capacity and
+    any deferral were preserved without pressure to continue.'
+  - 'Action 3: Compare zero, one, or two actual starts. Observed checks: The actual start count was zero,
+    one, or two rather than the number of scheduled windows; The usual and cued windows were distinguished
+    with relevant context differences; Deferral and capacity were retained without a deficit or coercion
+    interpretation; Cue workability and the next decision were supported only as far as the observations
+    allow.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -336,39 +458,56 @@ completion_and_review:
     - chosen_start_count
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat with the same task only if both windows were safe and the comparison identifies
-    a freely chosen workable cue; otherwise adapt, defer, or stop.
-  transfer_limit: Two bounded starts do not establish reliability across tasks, seasons, disability states,
-    care loads, workplaces, or other contexts.
+  progression_criteria: How many starts actually occurred, and what can the two windows tell you about
+    the cue without judging capacity? Preserve an indistinguishable or adverse result. Choose whether
+    to keep the cue, change one feature, obtain support, or defer. Completing a two-start experiment does
+    not prove reliable initiation across tasks or life circumstances.
+  transfer_limit: 'The canonical target is repeated starts without waiting to feel inspired, confident,
+    or energetic. This preserves the existing three-action protocol: a usual-condition start, a one-cue-supported
+    start, and a bounded comparison. The baseline boolean, duration boundary, cued-start boolean, cue-category
+    criteria, zero-to-two start count, capacity-harm indicators, and all other existing typed rules remain
+    unchanged. The expanded private checks explain those actions; they do not add measurements or treat
+    a rehearsal as a real start.'
   reflection:
-    before: Is this task genuinely necessary, freely chosen, safely reducible, and compatible with sleep,
-      care, health, disability, pain, energy, and recovery today?
-    during: Did the chosen start occur within its boundary, and did the cue or support make access more
-      workable without pressure?
-    after: Were the two windows comparable, what remained unknown, and should this cue be repeated, adapted,
-      deferred, or discarded?
+    before: 'What would count as doing this honestly? Goal: Compare a usual-condition start and a one-cue-supported
+      start of the same genuinely necessary, low-stakes task during two naturally occurring low-motivation
+      windows. Evaluate the act of beginning, not output, speed, stamina, or personal worth.'
+    during: Which checks have actually been observed? The usual start occurred, but a care need made the
+      second window unsuitable. The observed count is one and the cue comparison remains incomplete; the
+      deferred action is not relabeled failure or completion.
+    after: How many starts actually occurred, and what can the two windows tell you about the cue without
+      judging capacity? Preserve an indistinguishable or adverse result. Choose whether to keep the cue,
+      change one feature, obtain support, or defer. Completing a two-start experiment does not prove reliable
+      initiation across tasks or life circumstances.
   review_guidance:
     repeat: Repeat only the safer, more workable start design in another naturally occurring window.
-    adapt: Reduce scope, change the cue or medium, add support, or move the window without labeling capacity
-      as failure.
+    adapt: Use assistive technology, a planning aid, an accessible document, a consenting support person,
+      or an ordinary household equivalent. Keep the physical start smaller when needed without describing
+      a plan alone as the target action. Do not sacrifice sleep, recovery, food, treatment, care duties,
+      or safety. No task whose delay or partial start creates a significant hazard belongs here. If suitable
+      windows do not occur, preserve the missing comparison; do not manufacture low motivation or remove
+      helpful supports.
     stop: Stop when the task, timing, demand, health state, care obligation, or use of the record violates
       a boundary.
-    escalate: Use appropriate qualified, workplace, educational, disability, care, or safety support for
-      barriers beyond a low-risk behavioral experiment.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: Both chosen starts occurred within scope and the structured comparison preserved capacity
-      and defer context.
-    mixed: One start occurred and one was safely deferred, or the cue helped access while adding another
-      burden.
-    contradictory: The cue made beginning less workable, the start exceeded scope, or continuing displaced
-      a needed support.
-    inconclusive: The windows were not comparable, no low-motivation window occurred, or the observation
-      state was unknown or not observed.
+    supportive: The predefined two-minute start happened in both feasible windows. The reminder made the
+      second start feel easier without extending its scope. The count is two; the cue’s broader effectiveness
+      remains untested.
+    mixed: The usual start occurred, but a care need made the second window unsuitable. The observed count
+      is one and the cue comparison remains incomplete; the deferred action is not relabeled failure or
+      completion.
+    contradictory: The reminder became pressure to work through a stated need for rest. The capacity-harm
+      concern remains adverse even if a document was opened, and the cue is removed or revised.
+    inconclusive: Two prompts were scheduled but neither physical start was observed. There is no evidence
+      of two starts; planning and a zero-start count cannot be represented as successful behavioral initiation.
 presentation:
   setup_copy:
-    context_heading: Choose one safe two-to-five-minute start.
+    context_heading: Compare Two Small Starts Without Waiting for Motivation
     boundary_heading: Capacity, rest, support needs, and defer decisions are not failure.
-    timing_hint: Use two naturally occurring feasible windows within seven days.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: One necessary low-stakes task with a reversible start
   check_in_labels:
     baseline_start_occurred: The usual-condition physical start occurred
@@ -380,8 +519,134 @@ presentation:
     chosen_start_count: Number of the two chosen starts that occurred
     comparison_boundaries_present: The comparison preserved window, defer, and capacity boundaries
     comparison_used_for_coercion: The comparison was used for pressure, surveillance, or coercion
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in two chosen start windows and whether
-    one cue was workable, including defer, no difference, or harm.
+  completion_copy: How many starts actually occurred, and what can the two windows tell you about the
+    cue without judging capacity? Preserve an indistinguishable or adverse result. Choose whether to keep
+    the cue, change one feature, obtain support, or defer. Completing a two-start experiment does not
+    prove reliable initiation across tasks or life circumstances. Completion is not mastery.
+  plain_language_evidence: The predefined two-minute start happened in both feasible windows. The reminder
+    made the second start feel easier without extending its scope. The count is two; the cue’s broader
+    effectiveness remains untested.
   display_order: 6
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '08.06'
+  title: 08.06 — Action independent of motivation
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [NIMH — Caring for Your Mental Health](https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health)
+
+      - [988 Suicide & Crisis Lifeline — What to Expect](https://988lifeline.org/get-help/what-to-expect/)
+
+      - [NHS Every Mind Matters — Staying on top of things](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/staying-on-top-of-things/)
+
+      - [NCCIH — Meditation and Mindfulness: Effectiveness and Safety](https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety)
+
+      - [NHS Every Mind Matters — Reframing unhelpful thoughts](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/reframing-unhelpful-thoughts/)
+
+      - [NHS Every Mind Matters — Tackling your to-do list](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-to-do-list/)
+
+      - [University of Edinburgh — What? So what? Now what?](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence. Save the initial work in the [guide](?)
+      before reading.
+
+
+      On day two Avery feels unenthusiastic but has capacity, opens the note and enters the heading plus
+      “water bottle.” Work lasts three minutes and stops as planned. No capacity harm is reported.
+
+
+      On day five the visual reminder is present, but a necessary caregiving task takes priority. Avery
+      defers without opening or editing the note. On day seven Avery compares the windows: one known actual
+      start, one known deferral, and no test of whether the cue helps initiation. The packing note is
+      unfinished. Avery keeps the option of a later suitable practice without claiming two starts, a failed
+      second attempt or completed practice.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: "### Start a chosen task without waiting for enthusiasm\n\nLow motivation and lack of capacity\
+      \ are different. You may not feel inspired by a necessary task while still being able to take a\
+      \ small step. Illness, exhaustion, access barriers or urgent care can instead make deferral appropriate.\
+      \ This practice tests a chosen start, not obedience to an employer, helper or internal demand to\
+      \ ignore your limits.\n\nThe existing seven-day practice compares two naturally low-motivation windows\
+      \ on the same chosen task: an ordinary start by day three, a start with one selected cue by day\
+      \ six, and a comparison by day seven. Keep each start between two and five minutes. The NHS discussion\
+      \ of manageable starts and reminders [S06](https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/self-help-cbt-techniques/tackling-your-to-do-list/)\
+      \ supports those broad ideas; it does not validate these particular evidence rules or imply that\
+      \ low mood is cured by working.\n\n### A task with a visible first action\n\nFictional Avery needs\
+      \ a usable personal packing note for a familiar daytime visit. There is no emergency or travel safety\
+      \ decision. The full required content is “water bottle, ordinary notebook, key.” Avery already knows\
+      \ any personal medical or access requirements and keeps those in the existing plan, outside this\
+      \ exercise. The bounded first action is opening a note titled “Day visit” and entering a rough heading\
+      \ or one of the three supplied items. Imagining the note or deciding to start does not count as\
+      \ beginning it.\n\nAvery chooses a three-minute limit for each window. The usual condition has no\
+      \ added cue. The single cue for the second is a visible card saying “Open Day visit and enter one\
+      \ item.” Do not also add an alarm, reward and accountability partner. The cue category is a visual\
+      \ reminder; its wording is ordinary and contains no private content.\n\n1. Before the usual window,\
+      \ check that the task is still needed, chosen and feasible. If naturally unmotivated but able, make\
+      \ the actual first edit and work within two to five minutes. Stop at the limit. Record whether a\
+      \ start occurred, its duration and any capacity cost, without treating more output as better evidence.\n\
+      2. In the separate second window, use the one chosen cue under suitable conditions. A visible card\
+      \ is not a performed action. If care or capacity requires deferral, preserve that status instead\
+      \ of marking it a failed attempt or inventing work. Save the plan before the [comparison record](?resource=file-later-packet-md).\n\
+      3. By day seven distinguish both windows, count only known actual starts from zero to two, and choose\
+      \ whether to keep the cue, adjust it later or defer the practice. Missing observations remain unknown;\
+      \ a known deferral is not proof of an attempted failure. Do not turn a comparison into a demand\
+      \ for two starts regardless of health.\n\n Keep fictional notes separate from a record of your actual\
+      \ attempt. A summary of one actual start plus a deferred second opportunity is not a claim that\
+      \ the two-start target or practice completion was met. No reward for endurance or quantity is added.\n\
+      \nFor support, use dictation, an accessible editor or the supplied fiction. The existing accessibility\
+      \ adaptations also permit reduced duration and support; record the actual adapted step and its limitation\
+      \ rather than silently calling it the standard two-to-five-minute start. For a harder case, the\
+      \ cue is noticed while an urgent duty needs attention: honor that duty and record the opportunity\
+      \ accurately. Persistent loss of motivation with impaired functioning merits appropriate qualified\
+      \ support. Later repeated starts can inform usefulness, but this small comparison cannot establish\
+      \ a durable habit, recovery or unlimited capacity.\n\n### Use the result at its proper scale\n\n\
+      Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not\
+      \ diagnose, establish mastery or score human dignity. Actual situations require appropriate access,\
+      \ consent, authority and support.\n\nAttempt the [practice checks](?attempt=practice-checks) before\
+      \ opening their [answers](?check=practice-answers)."
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt these before opening [answers](?check=practice-answers).
+
+
+      1. A reminder is seen but no task action occurs because care takes priority. Is that a cued start?
+
+
+      2. One three-minute start occurs and the second opportunity is deferred. What count is supported?
+
+
+      3. You planned a two-to-five-minute start but feel pressure to continue for fifteen minutes. Must
+      you extend it to count the attempt?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Compare with your attempted [checks](?attempt=practice-checks); these are learning aids, not
+      a learner score.
+
+
+      1. No. Seeing a cue is not starting the task. Preserve deferral and the care need without recording
+      a failed attempted action.
+
+
+      2. One known actual start. The deferred window supplies no second start or evidence about cue effectiveness;
+      it does not meet a two-start target.
+
+
+      3. No. The task''s two-to-five-minute boundary still governs. More elapsed time is not required
+      and does not establish a better start. Keep the bounded task and your actual stopping point visible.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

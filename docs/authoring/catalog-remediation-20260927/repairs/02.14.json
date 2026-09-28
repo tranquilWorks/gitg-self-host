@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "02.14",
+  "title": "Justify a principled refusal and its responsibilities",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A principled refusal questions a demand and chooses a responsible method. Disobeying an internal club rule is not necessarily breaking law. Civil-disobedience analysis additionally examines stipulated legal status, public justification, alternatives, burden on others and accountability; conscience alone does not settle these."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Case A: a club requires an insulting initiation phrase. No legal requirement applies. A member may request a respectful alternative or decline membership. Case B is a fictional analysis only: a town law prohibits any peaceful gathering in its public square. A group proposes a public nonviolent breach against unequal access. A usable review process can answer within two days, the gathering is not urgent, and uninvolved users need an open passage. No action occurs."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Compare grounds, authority, alternatives and responsibilities in both cases. Apply the same reasoning to a group whose cause you dislike; do not design an actual breach.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A conscientious refusal is private and breaches only a venue custom. Can an analyst call it legally prohibited civil disobedience without further facts?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A permits bounded conscientious refusal without calling it lawbreaking. B does stipulate a legal breach, but the unused timely review and third-party access burden weaken a necessity justification. Its morality remains reasoned, not automatic. Partial: state a cause without examining methods. Incorrect: infer immunity from sincere belief or require surrender of legal rights. Real employment or legal disputes require their own facts and appropriate advice; this paper case authorizes none.",
+      "criteria": [
+        "The authority and rule type are established",
+        "Methods and third-party burdens are examined",
+        "Conscience is not treated as automatic immunity"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Preserve its conscience rationale while leaving legal status unknown. Identify what rule and authority would need establishing before making that description.",
+      "criteria": [
+        "The authority and rule type are established",
+        "Methods and third-party burdens are examined",
+        "Conscience is not treated as automatic immunity"
+      ]
+    }
+  ]
+}

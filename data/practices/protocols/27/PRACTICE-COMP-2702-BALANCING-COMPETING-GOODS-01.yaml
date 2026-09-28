@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2702-BALANCING-COMPETING-GOODS-01
 slug: c2702-balancing-competing-goods-practice
-name: Bounded Balancing competing goods Practice
+name: Make and revisit a tradeoff without hiding the sacrificed good
 parent_competency_id: '27.02'
 domain_id: '27'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 27.02
-      (Balancing competing goods); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 27.02; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Balancing competing goods through a consent-respecting relational practice bounded
-    by the canonical scope: Choose among work, family, health, service, rest, growth, pleasure, and security
-    without pretending all can be maximized.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Makes difficult tradeoffs
-    transparently and later reviews whether they were wise. The protocol creates a small opportunity to
-    examine that target without treating completion as broad capability.'
+  purpose: Choose among legitimate competing goods within a real limit, explain what is protected and
+    sacrificed, and revisit the choice after seeing its consequences.
+  why_recommended: Choose among legitimate competing goods within a real limit, explain what is protected
+    and sacrificed, and revisit the choice after seeing its consequences.
   claims:
-  - statement: Using the canonical scope and evidence target for Balancing competing goods is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Choose among legitimate competing goods within a real limit, explain what is protected
+      and sacrificed, and revisit the choice after seeing its consequences.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Balancing competing goods practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Balancing competing goods as not applicable, consciously unchosen, or
     deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Balancing competing
-    goods context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Balancing
-    competing goods; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use two alternatives and spoken notes if comparing three is burdensome, but
+    retain the unchosen good and actual limit. A support person may help clarify options without choosing
+    for you. Defer choices involving urgent care, coercion or high consequences to the appropriate people
+    and procedures.
+  opportunity_considerations: Use the supplied example of a three-hour discretionary weekend window after
+    essential responsibilities. Possible uses are visiting a willing friend, learning a skill, volunteering
+    at an already approved short task, or resting. No option is compulsory. Use a page headed protected
+    obligations, live alternatives, sacrificed goods and review.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Balancing competing goods.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the supplied example of a three-hour discretionary weekend window after essential responsibilities.
+    Possible uses are visiting a willing friend, learning a skill, volunteering at an already approved
+    short task, or resting. No option is compulsory. Use a page headed protected obligations, live alternatives,
+    sacrificed goods and review.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Balancing competing goods instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use two alternatives and spoken notes if comparing three is burdensome, but retain the unchosen good
+    and actual limit. A support person may help clarify options without choosing for you. Defer choices
+    involving urgent care, coercion or high consequences to the appropriate people and procedures.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +82,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-RELATIONAL-CONVERSATION
   duration_days: 10
-  cadence: Complete three bounded Balancing competing goods actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Balancing competing goods; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Balancing
-    competing goods. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Balancing competing goods actions, and
-    review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the supplied example of a three-hour discretionary weekend window after essential responsibilities.
+    Possible uses are visiting a willing friend, learning a skill, volunteering at an already approved
+    short task, or resting. No option is compulsory. Use a page headed protected obligations, live alternatives,
+    sacrificed goods and review. Goal: Choose among legitimate competing goods within a real limit, explain
+    what is protected and sacrificed, and revisit the choice after seeing its consequences. Scope: This
+    concerns a low-stakes discretionary choice, not rationing essential care, overriding another person’s
+    rights or deciding a major legal, medical or financial matter. Time and effort: Twenty minutes before
+    one choice, the chosen activity and a 10-minute review within a week. Adaptation: Use two alternatives
+    and spoken notes if comparing three is burdensome, but retain the unchosen good and actual limit.
+    A support person may help clarify options without choosing for you. Defer choices involving urgent
+    care, coercion or high consequences to the appropriate people and procedures. Keep personal working
+    notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use two alternatives and spoken notes if comparing three is burdensome, but retain
+    the unchosen good and actual limit. A support person may help clarify options without choosing for
+    you. Defer choices involving urgent care, coercion or high consequences to the appropriate people
+    and procedures.
+  expected_burden: Twenty minutes before one choice, the chosen activity and a 10-minute review within
+    a week.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Balancing competing goods protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +111,26 @@ intervention:
   - Treating a completed Balancing competing goods action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Balancing competing goods situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use two alternatives
+    and spoken notes if comparing three is burdensome, but retain the unchosen good and actual limit.
+    A support person may help clarify options without choosing for you. Defer choices involving urgent
+    care, coercion or high consequences to the appropriate people and procedures.
   actions:
   - stable_id: PRACTICE-COMP-2702-BALANCING-COMPETING-GOODS-01-A1
     sequence: 1
-    title: Prepare a consent-safe Balancing competing goods interaction
-    instructions: 'Choose one welcome, low-stakes relationship context for Balancing competing goods.
-      Translate the canonical scope into one observable communication act, identify power or retaliation
-      concerns, and obtain or preserve the other person''s freedom not to participate: Choose among work,
-      family, health, service, rest, growth, pleasure, and security without pretending all can be maximized.'
+    title: Keep the alternatives genuinely live
+    instructions: 'Check what time and energy are actually discretionary before assigning the three-hour
+      window. Consider work, family, health, service, rest, growth, pleasure and security, marking each
+      as a protected obligation, relevant option or not relevant now. Write three feasible alternatives,
+      including rest or doing less. For each name one benefit, one cost, who is affected and whether the
+      choice can be reversed. Do not make the preferred option win by describing the others as laziness
+      or selfishness.
+
+
+      Observation checks: Actual discretionary capacity is established first; All eight competing goods
+      receive an honest disposition; Three feasible alternatives include doing less when appropriate;
+      Benefits costs affected people and reversibility are explicit. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +152,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2702_a1_communication_act_specific
-        - c2702_a1_consent_boundary_present
-        - c2702_a1_power_checked
+        - actual_discretionary_capacity_is_established_first
+        - all_eight_competing_goods_receive_an_honest_disposition
+        - three_feasible_alternatives_include_doing_less_when_appropriate
+        - benefits_costs_affected_people_and_reversibility_are_explicit
       - measurement_id: c2702_a1_boundary
         kind: boolean
         role: supporting
@@ -154,10 +172,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2702-BALANCING-COMPETING-GOODS-01-A2
     sequence: 2
-    title: Practice one Balancing competing goods communication act
-    instructions: Use the prepared Balancing competing goods act once without covert testing, pressure,
-      diagnosis, deception inference, or a demand for disclosure. Ask one direct clarification when appropriate
-      and allow refusal, delay, indirect communication, language access, or another format.
+    title: Choose with a reason that admits the loss
+    instructions: 'Select one alternative using two reasons you endorse and state the strongest good it
+      leaves unserved. In the supplied case, rest may take priority after a demanding week while skill
+      practice waits; a friend visit may instead fit a rare welcome opportunity. Confirm any effect on
+      a shared commitment before acting. Write a reversal condition, such as a new care duty or changed
+      safety condition, and one proportionate way to revisit the sacrificed good later without promising
+      to maximize everything.
+
+
+      Observation checks: The chosen option has two endorsed reasons; The strongest sacrificed good is
+      named fairly; Affected shared commitments are confirmed before action; A reversal condition and
+      bounded later revisit are set. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -173,12 +200,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2702_a2_primary
-        kind: boolean
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        expected: true
+        - reviewed_artifact
+        criteria:
+        - the_chosen_option_has_two_endorsed_reasons
+        - the_strongest_sacrificed_good_is_named_fairly
+        - affected_shared_commitments_are_confirmed_before_action
+        - a_reversal_condition_and_bounded_later_revisit_are_set
       - measurement_id: c2702_a2_boundary
         kind: boolean
         role: supporting
@@ -195,11 +226,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2702-BALANCING-COMPETING-GOODS-01-A3
     sequence: 3
-    title: Review Balancing competing goods without scoring the person
-    instructions: 'Review only the observable interaction and its boundaries. Do not infer motives or
-      store private narrative. Compare what happened with this evidence target and retain disagreement
-      or an inconclusive result: Makes difficult tradeoffs transparently and later reviews whether they
-      were wise.'
+    title: Review the consequences rather than defend the choice
+    instructions: 'Carry out the chosen activity or record the condition that required revision. Within
+      a week compare the actual benefits, costs and effects on others with the original reasons. Ask whether
+      the choice was reasonable from the information available, separately from whether its outcome was
+      pleasant. Keep, revise or abandon the decision rule for a similar window. An unexpected good outcome
+      does not erase a foreseeable neglected obligation, and disappointment does not by itself prove the
+      choice was unwise.
+
+
+      Observation checks: The chosen activity or explicit revision actually occurs; Observed benefits
+      costs and effects are compared with predictions; Decision quality and outcome pleasantness are examined
+      separately; A future decision rule is retained or revised with a reason. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: What made this sacrifice justified in this situation, and what later evidence would
+      make the same tradeoff unwise?
+
+
+      Examples: Supportive: The person protected existing care, chose rest over an optional lesson, informed
+      an affected friend where needed and later reviewed both recovery and the missed learning opportunity.
+
+
+      Mixed: The chosen activity occurred, but one cost to another person had not been checked and required
+      repair.
+
+
+      Contradictory: An essential obligation was relabeled optional, or a favorable result was used to
+      conceal a foreseeable harm.
+
+
+      Inconclusive: A ranking of values was written without a concrete choice, action or later comparison.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -221,9 +279,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2702_a3_observable_interaction_reviewed
-        - c2702_a3_private_narrative_excluded
-        - c2702_a3_inconclusive_allowed
+        - the_chosen_activity_or_explicit_revision_actually_occurs
+        - observed_benefits_costs_and_effects_are_compared_with_predictions
+        - decision_quality_and_outcome_pleasantness_are_examined_separately
+        - a_future_decision_rule_is_retained_or_revised_with_a_reason
       - measurement_id: c2702_a3_boundary
         kind: boolean
         role: supporting
@@ -244,16 +303,17 @@ intervention:
       Balancing competing goods; no purchase, subscription, travel, credential, or public artifact is
       required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Balancing competing goods; assistive technology, interpretation, a support person, and
-      a deferred action are valid without penalty.
+    - Use two alternatives and spoken notes if comparing three is burdensome, but retain the unchosen
+      good and actual limit. A support person may help clarify options without choosing for you. Defer
+      choices involving urgent care, coercion or high consequences to the appropriate people and procedures.
     cultural_context:
     - Adapt the expression of Balancing competing goods to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Balancing competing goods opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use two alternatives and spoken notes if comparing three is burdensome, but retain the unchosen
+      good and actual limit. A support person may help clarify options without choosing for you. Defer
+      choices involving urgent care, coercion or high consequences to the appropriate people and procedures.
   pause_conditions:
   - Pause Balancing competing goods when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -284,10 +344,8 @@ evidence_and_scoring:
   - c2702_a3_boundary
   - c2702_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Balancing competing goods action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Balancing competing goods criterion, depended on coercion or
-    hidden private content, or could not distinguish the protocol from contextual change.
+  - An essential obligation was relabeled optional, or a favorable result was used to conceal a foreseeable
+    harm.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Balancing competing goods explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -297,14 +355,23 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Balancing competing goods rules withhold observations older than 90 days; no
     unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Makes difficult tradeoffs transparently and later reviews whether they were wise.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Balancing competing goods requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Keep the alternatives genuinely live. Observed checks: Actual discretionary
+    capacity is established first; All eight competing goods receive an honest disposition; Three feasible
+    alternatives include doing less when appropriate; Benefits costs affected people and reversibility
+    are explicit. Action 2: Choose with a reason that admits the loss. Observed checks: The chosen option
+    has two endorsed reasons; The strongest sacrificed good is named fairly; Affected shared commitments
+    are confirmed before action; A reversal condition and bounded later revisit are set. Action 3: Review
+    the consequences rather than defend the choice. Observed checks: The chosen activity or explicit revision
+    actually occurs; Observed benefits costs and effects are compared with predictions; Decision quality
+    and outcome pleasantness are examined separately; A future decision rule is retained or revised with
+    a reason.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A ranking of values was written without a concrete
+    choice, action or later comparison.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Balancing
     competing goods contribution under typed evaluation; protocol performance remains distinct and is
     never counted twice.
@@ -313,9 +380,8 @@ evidence_and_scoring:
   - L02
   - L14
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Balancing competing goods evidence.
@@ -323,11 +389,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The prepare a consent-safe balancing competing goods interaction action was attempted or explicitly
-    deferred.
-  - The practice one balancing competing goods communication act action was attempted or explicitly deferred.
-  - The review balancing competing goods without scoring the person action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Keep the alternatives genuinely live. Observed checks: Actual discretionary capacity is
+    established first; All eight competing goods receive an honest disposition; Three feasible alternatives
+    include doing less when appropriate; Benefits costs affected people and reversibility are explicit.'
+  - 'Action 2: Choose with a reason that admits the loss. Observed checks: The chosen option has two endorsed
+    reasons; The strongest sacrificed good is named fairly; Affected shared commitments are confirmed
+    before action; A reversal condition and bounded later revisit are set.'
+  - 'Action 3: Review the consequences rather than defend the choice. Observed checks: The chosen activity
+    or explicit revision actually occurs; Observed benefits costs and effects are compared with predictions;
+    Decision quality and outcome pleasantness are examined separately; A future decision rule is retained
+    or revised with a reason.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -336,56 +410,257 @@ completion_and_review:
     - c2702_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Balancing competing goods only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Balancing competing goods across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: What made this sacrifice justified in this situation, and what later evidence
+    would make the same tradeoff unwise?
+  transfer_limit: This concerns a low-stakes discretionary choice, not rationing essential care, overriding
+    another person’s rights or deciding a major legal, medical or financial matter.
   reflection:
-    before: What does Balancing competing goods require in this exact context, what remains outside my
-      role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Balancing competing goods criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Makes difficult tradeoffs transparently and later reviews
-      whether they were wise.', what contradiction or missing context matters most, and should this Balancing
-      competing goods design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Choose among legitimate competing goods within
+      a real limit, explain what is protected and sacrificed, and revisit the choice after seeing its
+      consequences.'
+    during: Which checks have actually been observed? The chosen activity occurred, but one cost to another
+      person had not been checked and required repair.
+    after: What made this sacrifice justified in this situation, and what later evidence would make the
+      same tradeoff unwise?
   review_guidance:
     repeat: Repeat the same bounded Balancing competing goods design only when the context and burden
       remain appropriate.
-    adapt: Change the Balancing competing goods medium, scope, support, timing, criteria, or context while
-      preserving provenance and the narrower evidence claim.
+    adapt: Use two alternatives and spoken notes if comparing three is burdensome, but retain the unchosen
+      good and actual limit. A support person may help clarify options without choosing for you. Defer
+      choices involving urgent care, coercion or high consequences to the appropriate people and procedures.
     stop: Stop Balancing competing goods when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Balancing competing goods questions beyond
-      this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Balancing competing goods criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Balancing competing goods criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Balancing competing goods criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Balancing competing goods action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: The person protected existing care, chose rest over an optional lesson, informed an affected
+      friend where needed and later reviewed both recovery and the missed learning opportunity.
+    mixed: The chosen activity occurred, but one cost to another person had not been checked and required
+      repair.
+    contradictory: An essential obligation was relabeled optional, or a favorable result was used to conceal
+      a foreseeable harm.
+    inconclusive: A ranking of values was written without a concrete choice, action or later comparison.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Balancing competing goods.
+    context_heading: Make and revisit a tradeoff without hiding the sacrificed good
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Balancing
       competing goods.
   check_in_labels:
-    c2702_a1_primary: The bounded Balancing competing goods criterion for action 1 was observed
+    c2702_a1_primary: 'Observed checks: keep the alternatives genuinely live'
     c2702_a1_boundary: Action 1 stayed inside its stated Balancing competing goods boundary
     c2702_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2702_a2_primary: The bounded Balancing competing goods criterion for action 2 was observed
+    c2702_a2_primary: 'Observed checks: choose with a reason that admits the loss'
     c2702_a2_boundary: Action 2 stayed inside its stated Balancing competing goods boundary
     c2702_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2702_a3_primary: The bounded Balancing competing goods criterion for action 3 was observed
+    c2702_a3_primary: 'Observed checks: review the consequences rather than defend the choice'
     c2702_a3_boundary: Action 3 stayed inside its stated Balancing competing goods boundary
     c2702_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Balancing competing
-    goods practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What made this sacrifice justified in this situation, and what later evidence would
+    make the same tradeoff unwise? Completion is not mastery.
+  plain_language_evidence: The person protected existing care, chose rest over an optional lesson, informed
+    an affected friend where needed and later reviewed both recovery and the missed learning opportunity.
   display_order: 370
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '27.02'
+  title: 27.02 — Balancing competing goods
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [NPS — Trip Planning Guide](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+
+      - [Living Heritage in the UK — Community consent](https://livingheritage.unesco.org.uk/info/guidance/community-consent)
+
+      - [UNESCO — New methods to boost intercultural competencies](https://www.unesco.org/en/articles/new-methods-boost-intercultural-competencies)
+
+      - [NASA — Cosmic Distances](https://science.nasa.gov/solar-system/cosmic-distances/)
+
+      - [W3C WAI — Making Events Accessible](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)
+
+      - [NPS Pearl Harbor — Leave No Trace](https://www.nps.gov/perl/getinvolved/supportyourpark/leavenotrace.htm)
+
+      - [OpenLearn — The Language of Comedy, Track 6](https://www.open.edu/openlearn/languages/the-language-comedy?trackno=6)
+
+      - [NPS — Citizen Science: Get Involved](https://www.nps.gov/subjects/citizenscience/get-involved.htm)
+
+      - [OpenLearn — Returning to STEM, Week 5, section 3.5](https://www.open.edu/openlearn/mod/oucontent/view.php?id=28143&section=3.5)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence. Save the initial work in the [guide](?)
+      before reading.
+
+
+      At 13:30 the friend cancels the visit. Neri acknowledges the cancellation at 13:35 and does not
+      arrive uninvited. Neri uses the stated quiet-at-home fallback for the 14:00–17:00 window. The later
+      report is mixed: the afternoon felt less demanding, but Neri missed the conversation and found part
+      of the quiet time dull. No lesson or service task occurs. The friend has not agreed to another date.
+
+
+      On Sunday Neri keeps the principle of checking capacity and welcome before combining activities,
+      and revises the fallback to allow a choice among two familiar low-demand options. A future lesson
+      is considered but not scheduled. The cancellation activated a prewritten condition; disappointment
+      does not erase that sound response. No long-term balance or recovery outcome is established.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Admit the good your choice leaves out
+
+
+      Tradeoffs are hardest when more than one alternative is genuinely good. Calling the unchosen activity
+      selfish, lazy or pointless makes a decision easier by distorting it. A transparent choice names
+      what is protected, what is possible now, who is affected and which worthwhile thing will wait.
+
+
+      Allow twenty minutes for the fictional weekend decision, ten for its later outcome and ten for checks.
+      No real care, medical, legal or financial decision is requested. [OpenLearn''s wider work–life balance
+      discussion, S09](https://www.open.edu/openlearn/mod/oucontent/view.php?id=28143&section=3.5) supports
+      considering commitments beyond employment. It supplies no universal ranking of family, work, pleasure
+      or rest, and this exercise introduces none.
+
+
+      Worked example: a person chooses rest instead of an optional class after an unusually demanding
+      week. The class remains worthwhile, and the person may later regret missing a useful lesson. That
+      regret alone does not make the original decision unsound. Conversely, enjoying a class would not
+      justify ignoring a foreseeable essential care obligation.
+
+
+      ### Neri''s genuinely discretionary three hours
+
+
+      On Saturday Neri has 14:00–17:00 free after work, essential care and necessary household tasks.
+      The window is confirmed, not borrowed from sleep or someone else''s responsibility. Neri wants low
+      effort this week and values a rare invitation from a willing friend. There are no additional shared
+      commitments within the window. The following four options are feasible individually under the initial
+      facts; travel and transitions are included.
+
+
+      | Option | Time in minutes | Specific good | Cost or unserved good |
+
+      | --- | ---: | --- | --- |
+
+      | F: visit a willing friend | 90 | Rare welcome conversation | Uses some quiet recovery time |
+
+      | G: use an available self-study lesson | 120 | Skill growth and interest | Demands sustained attention
+      |
+
+      | S: already approved local service task | 150 | Requested contribution | Higher effort and less
+      private rest |
+
+      | R: stay home with quiet leisure/rest | 180 | Low demand and ordinary pleasure | Misses this rare
+      visit and today''s service opportunity |
+
+
+      A mixed option F plus 90 minutes of quiet time also fits. F + G does not. Neri has promised no attendance
+      at S and no class place at G; declining creates no cancellation debt in this case. If actual commitments
+      existed, they would belong in the protected-obligations check before using this table.
+
+
+      Give all eight goods a disposition: work, family, health, service, rest, growth, pleasure and security.
+      Here work and necessary family/health responsibilities are protected outside the window; service,
+      rest, growth and pleasure are live possibilities; security is protected through essential resources
+      with no new spending required. “Not an additional option now” does not mean an area is unimportant.
+      Do not turn the dispositions into a moral ranking or equal-time requirement.
+
+
+      ### Choose a rule you can later examine
+
+
+      1. Write three genuinely live alternatives, including doing less. For each name the benefit, cost,
+      affected people and reversibility. You may compare F plus rest, G plus spare time, and R; preserve
+      S as a considered but unselected possibility. Check the sum of any combination against 180 minutes.
+
+      2. Choose with two reasons and a fair account of the strongest sacrifice. The supplied starting
+      decision is F plus rest: a rare welcome chance and room for low effort. It sacrifices today''s learning
+      session and service opportunity. Set a reversal condition before acting: if the friend cancels,
+      do not treat the old invitation as continuing. A new care need also takes priority. The fallback
+      is quiet time at home, with no claim that all missed goods will be made up.
+
+      3. Save the choice and reasons before the [later packet](?resource=file-later-packet-md). Compare
+      the actual consequence with the prediction. Evaluate whether the decision was reasonable on the
+      information available separately from whether the outcome felt pleasant. Retain, revise or abandon
+      the rule with a reason.
+
+
+      ### A sacrifice is not a debt to maximize later
+
+
+      The output is one decision record with an honest loss and an actual review. Saying “I will do everything
+      next weekend” merely moves the impossible budget. A bounded revisit might be checking a future lesson
+      opening; it is a proposal until time, energy and any affected person agree.
+
+
+      For support, compare two alternatives with spoken notes while keeping the unchosen good visible.
+      A helper may clarify facts but should not decide the person''s priorities. For a harder variation,
+      a 45-minute new care obligation reduces the discretionary window to 135 minutes. Recheck which options
+      fit and who must be told; do not preserve the old decision by relabeling care optional.
+
+
+      Later transfer concerns one low-stakes choice and a review within a week. Coercion, urgent care
+      or major consequences call for the appropriate people and procedures, not this fictional table.
+      A good outcome can follow poor reasoning, and a careful choice can disappoint. Learning depends
+      on keeping both facts available rather than defending the original answer at any cost.
+
+
+      ### Use the result at its proper scale
+
+
+      Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human
+      dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'These questions revisit supplied examples to consolidate the reasoning. They do not independently
+      test transfer to unseen material. Any separately labeled changed-case attempt below uses different
+      facts.
+
+
+      Attempt these before opening [answers](?check=practice-answers).
+
+
+      1. A 180-minute window is reduced by a new 45-minute necessary duty. Which of F=90, G=120, S=150
+      and R=180 still fit unchanged?
+
+
+      2. A chosen class is enjoyable, but the person knowingly missed an essential duty to attend. Does
+      the pleasant outcome establish a wise tradeoff?
+
+
+      3. A friend cancels a visit, and the person follows a prewritten rest fallback but feels disappointed.
+      Must the original decision rule be abandoned?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Compare with your attempted [checks](?attempt=practice-checks); these are learning aids, not
+      a learner score.
+
+
+      1. 135 minutes remain. F and G fit individually; S and the full R do not fit unchanged. Rest can
+      be resized deliberately. Correct any total that keeps the duty outside an already reduced budget
+      or assumes F + G fits.
+
+
+      2. No. Foreseeable neglected obligations remain part of decision quality. Record the breach and
+      repair appropriately; enjoyment cannot retroactively make an obligation discretionary.
+
+
+      3. No. Distinguish the justified response to changed welcome from the emotional outcome. Retain
+      useful parts, revise a specific fallback if warranted and preserve the unserved social good. Do
+      not invent a replacement invitation.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

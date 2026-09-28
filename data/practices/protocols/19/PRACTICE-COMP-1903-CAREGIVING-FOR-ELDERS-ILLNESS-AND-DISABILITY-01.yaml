@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1903-CAREGIVING-FOR-ELDERS-ILLNESS-AND-DISABILITY-01
 slug: c1903-caregiving-for-elders-illness-and-disability-practice
-name: Bounded Caregiving for elders, illness, and disability Practice
+name: Complete one agreed care handoff without taking away agency
 parent_competency_id: '19.03'
 domain_id: '19'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 19.03
-      (Caregiving for elders, illness, and disability); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 19.03; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Caregiving for elders, illness, and disability through a qualified-support preparation
-    bounded by the canonical scope: Provide practical, emotional, financial, and advocacy support while
-    respecting agency and limits.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Care plans protect
-    the dependent person and the sustainability of the caregiver. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Coordinate a bounded practical, emotional, administrative or advocacy contribution that respects
+    the care recipient’s choices and the caregiver’s capacity.
+  why_recommended: Coordinate a bounded practical, emotional, administrative or advocacy contribution
+    that respects the care recipient’s choices and the caregiver’s capacity.
   claims:
-  - statement: Using the canonical scope and evidence target for Caregiving for elders, illness, and disability
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Coordinate a bounded practical, emotional, administrative or advocacy contribution that
+      respects the care recipient’s choices and the caregiver’s capacity.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Caregiving for elders, illness, and disability practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Caregiving for elders, illness, and disability as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Caregiving for elders,
-    illness, and disability context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Caregiving
-    for elders, illness, and disability; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Use a phone call, written preferences, an interpreter or trusted decision
+    supporter with permission. Without an appropriate care role, use the supplied transport scenario and
+    label the handoff untested. Urgent deterioration or unsafe care requires appropriate medical, safeguarding
+    or emergency help, not this exercise.
+  opportunity_considerations: Default to arranging transport and a question list for an already planned
+    appointment, not providing medical care. With permission, use a private card for the recipient’s preference,
+    task owner, access need, expense limit, backup and completion signal. Keep health details and account
+    information outside application evidence.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Caregiving for elders, illness,
-    and disability.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Default to arranging transport and a question list for an already planned appointment, not providing
+    medical care. With permission, use a private card for the recipient’s preference, task owner, access
+    need, expense limit, backup and completion signal. Keep health details and account information outside
+    application evidence.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Caregiving for elders, illness,
-    and disability instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a phone call, written preferences, an interpreter or trusted decision supporter with permission.
+    Without an appropriate care role, use the supplied transport scenario and label the handoff untested.
+    Urgent deterioration or unsafe care requires appropriate medical, safeguarding or emergency help,
+    not this exercise.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +84,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Caregiving for elders, illness, and disability actions over ten days,
-    preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Caregiving for elders, illness, and disability; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Caregiving
-    for elders, illness, and disability. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Caregiving for elders, illness, and disability
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default to arranging transport and a question list for an already planned appointment, not providing
+    medical care. With permission, use a private card for the recipient’s preference, task owner, access
+    need, expense limit, backup and completion signal. Keep health details and account information outside
+    application evidence. Goal: Coordinate a bounded practical, emotional, administrative or advocacy
+    contribution that respects the care recipient’s choices and the caregiver’s capacity. Scope: Use an
+    existing authorized care arrangement. Medication, lifting, feeding, clinical assessment, financial
+    authority and other specialist tasks must remain with appropriately authorized and trained people.
+    Time and effort: Twenty minutes to agree the handoff, one ordinary care-support task and a 15-minute
+    review. Adaptation: Use a phone call, written preferences, an interpreter or trusted decision supporter
+    with permission. Without an appropriate care role, use the supplied transport scenario and label the
+    handoff untested. Urgent deterioration or unsafe care requires appropriate medical, safeguarding or
+    emergency help, not this exercise. Keep personal working notes outside the check-in; record only the
+    listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a phone call, written preferences, an interpreter or trusted decision supporter
+    with permission. Without an appropriate care role, use the supplied transport scenario and label the
+    handoff untested. Urgent deterioration or unsafe care requires appropriate medical, safeguarding or
+    emergency help, not this exercise.
+  expected_burden: Twenty minutes to agree the handoff, one ordinary care-support task and a 15-minute
+    review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Caregiving for elders, illness, and disability protocol to rank worth, coerce participation,
@@ -104,20 +115,27 @@ intervention:
   - Treating a completed Caregiving for elders, illness, and disability action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Caregiving for elders, illness, and disability situation involving emergency response, abuse,
-    retaliation, illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local
-    guidance.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a phone
+    call, written preferences, an interpreter or trusted decision supporter with permission. Without an
+    appropriate care role, use the supplied transport scenario and label the handoff untested. Urgent
+    deterioration or unsafe care requires appropriate medical, safeguarding or emergency help, not this
+    exercise.
   actions:
   - stable_id: PRACTICE-COMP-1903-CAREGIVING-FOR-ELDERS-ILLNESS-AND-DISABILITY-01-A1
     sequence: 1
-    title: Bound the qualified question for Caregiving for elders, illness, and disability
-    instructions: 'Turn Caregiving for elders, illness, and disability into one educational or planning
-      question and identify the qualification and jurisdiction needed to answer it. Use the canonical
-      scope to separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Provide practical, emotional, financial, and advocacy
-      support while respecting agency and limits.'
+    title: Ask what support is wanted and who may decide
+    instructions: 'Ask the person how they want to participate and which part of the appointment logistics
+      they want help with. Distinguish choosing the transport, paying for it, communicating an access
+      need and speaking during the visit; authority for one is not authority for all. Identify an emotional
+      concern they want acknowledged, any practical barrier and a financial question requiring the authorized
+      person. Where decision support is needed, use the established supported-decision or legal arrangement
+      rather than assuming incapacity.
+
+
+      Observation checks: The recipient’s preference or authorized decision process is recorded; Practical
+      emotional financial and advocacy needs are separated; Authority is checked for each offered task;
+      Private clinical and account details are excluded from check-ins. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -139,9 +157,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1903_a1_question_bounded
-        - c1903_a1_qualification_named
-        - c1903_a1_professional_boundary_explicit
+        - the_recipient_s_preference_or_authorized_decision_process_is_recorded
+        - practical_emotional_financial_and_advocacy_needs_are_separated
+        - authority_is_checked_for_each_offered_task
+        - private_clinical_and_account_details_are_excluded_from_check_ins
       - measurement_id: c1903_a1_boundary
         kind: boolean
         role: supporting
@@ -158,12 +177,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1903-CAREGIVING-FOR-ELDERS-ILLNESS-AND-DISABILITY-01-A2
     sequence: 2
-    title: Prepare minimum information for Caregiving for elders, illness, and disability
-    instructions: Create a privacy-minimized Caregiving for elders, illness, and disability consultation
-      note containing only the question, relevant category-level facts, current constraints, and desired
-      decision. Omit diagnoses, allegations, account numbers, credentials, protected work information,
-      intimate detail, and third-party identity unless a qualified professional lawfully requires it through
-      an appropriate channel.
+    title: Carry out the agreed part with a backup
+    instructions: 'Confirm the chosen transport or equivalent low-risk support, accessibility arrangements,
+      expected cost and who will receive the arrival update. Rehearse what happens if the vehicle does
+      not arrive: contact the agreed backup and the appointment provider instead of improvising unsafe
+      transport. During the actual task, offer the recipient the agreed opportunity to speak and decline
+      assistance. Do not change treatment, impersonate them or promise availability beyond the stated
+      window.
+
+
+      Observation checks: One agreed practical contribution is actually performed; Access cost and completion
+      communication are confirmed; A workable backup is named without unsafe improvisation; The recipient
+      can speak choose or decline within the arrangement. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -185,9 +211,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1903_a2_minimum_information_only
-        - c1903_a2_sensitive_detail_excluded
-        - c1903_a2_decision_need_named
+        - one_agreed_practical_contribution_is_actually_performed
+        - access_cost_and_completion_communication_are_confirmed
+        - a_workable_backup_is_named_without_unsafe_improvisation
+        - the_recipient_can_speak_choose_or_decline_within_the_arrangement
       - measurement_id: c1903_a2_boundary
         kind: boolean
         role: supporting
@@ -204,11 +231,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1903-CAREGIVING-FOR-ELDERS-ILLNESS-AND-DISABILITY-01-A3
     sequence: 3
-    title: Record a bounded Caregiving for elders, illness, and disability disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Care plans protect the dependent person and the sustainability of the caregiver.'
+    title: Close the handoff and rebalance the burden
+    instructions: 'Confirm with the recipient or authorized recipient of the handoff what was completed
+      and what remains. Ask whether the help felt useful or controlling. Record time and burden broadly
+      enough to decide whether the same arrangement is sustainable, then renegotiate one overloaded or
+      unowned part. An appointment attended is not evidence that the clinical issue was resolved; an unsuccessful
+      transport attempt still needs an explicit safe next owner.
+
+
+      Observation checks: Completion and remaining tasks have named owners; Usefulness and agency are
+      reviewed separately; Caregiver burden informs one adjustment; No clinical outcome is inferred from
+      logistics. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.
+
+
+      Final review: Did the support remove a burden while preserving the person’s say, and who now owns
+      the part that remains?
+
+
+      Examples: Supportive: Transport and access were confirmed, the recipient kept control of visit questions
+      and a backup owner accepted the return trip.
+
+
+      Mixed: The journey worked, but the helper answered too quickly for the recipient and changed that
+      arrangement next time.
+
+
+      Contradictory: The helper took over treatment or finances without authority, or left a dependent
+      person without a safe handoff.
+
+
+      Inconclusive: A care checklist was written but neither an agreed task nor an actual or labeled simulated
+      handoff occurred.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -224,14 +278,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1903_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1903_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - completion_and_remaining_tasks_have_named_owners
+        - usefulness_and_agency_are_reviewed_separately
+        - caregiver_burden_informs_one_adjustment
+        - no_clinical_outcome_is_inferred_from_logistics
       - measurement_id: c1903_a3_boundary
         kind: boolean
         role: supporting
@@ -252,17 +308,19 @@ intervention:
       Caregiving for elders, illness, and disability; no purchase, subscription, travel, credential, or
       public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Caregiving for elders, illness, and disability; assistive technology, interpretation,
-      a support person, and a deferred action are valid without penalty.
+    - Use a phone call, written preferences, an interpreter or trusted decision supporter with permission.
+      Without an appropriate care role, use the supplied transport scenario and label the handoff untested.
+      Urgent deterioration or unsafe care requires appropriate medical, safeguarding or emergency help,
+      not this exercise.
     cultural_context:
     - Adapt the expression of Caregiving for elders, illness, and disability to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Caregiving for elders, illness, and disability opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use a phone call, written preferences, an interpreter or trusted decision supporter with permission.
+      Without an appropriate care role, use the supplied transport scenario and label the handoff untested.
+      Urgent deterioration or unsafe care requires appropriate medical, safeguarding or emergency help,
+      not this exercise.
   pause_conditions:
   - Pause Caregiving for elders, illness, and disability when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -294,10 +352,8 @@ evidence_and_scoring:
   - c1903_a3_boundary
   - c1903_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Caregiving for elders, illness, and disability action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Caregiving for elders, illness, and disability criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - The helper took over treatment or finances without authority, or left a dependent person without a
+    safe handoff.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Caregiving for elders, illness, and disability explicitly; support can enable access and never
     reduces dignity or silently changes the typed value.
@@ -308,14 +364,22 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Caregiving for elders, illness, and disability rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Care plans protect the dependent person and the sustainability of the caregiver.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Caregiving for elders, illness, and disability requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Ask what support is wanted and who may decide. Observed checks: The recipient’s
+    preference or authorized decision process is recorded; Practical emotional financial and advocacy
+    needs are separated; Authority is checked for each offered task; Private clinical and account details
+    are excluded from check-ins. Action 2: Carry out the agreed part with a backup. Observed checks: One
+    agreed practical contribution is actually performed; Access cost and completion communication are
+    confirmed; A workable backup is named without unsafe improvisation; The recipient can speak choose
+    or decline within the arrangement. Action 3: Close the handoff and rebalance the burden. Observed
+    checks: Completion and remaining tasks have named owners; Usefulness and agency are reviewed separately;
+    Caregiver burden informs one adjustment; No clinical outcome is inferred from logistics.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A care checklist was written but neither an agreed
+    task nor an actual or labeled simulated handoff occurred.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Caregiving
     for elders, illness, and disability contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -325,9 +389,8 @@ evidence_and_scoring:
   - L24
   - L25
   - L28
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Caregiving for elders, illness, and disability evidence.
@@ -335,12 +398,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for caregiving for elders, illness, and disability action was attempted
-    or explicitly deferred.
-  - The prepare minimum information for caregiving for elders, illness, and disability action was attempted
-    or explicitly deferred.
-  - The record a bounded caregiving for elders, illness, and disability disposition action preserved a
-    limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Ask what support is wanted and who may decide. Observed checks: The recipient’s preference
+    or authorized decision process is recorded; Practical emotional financial and advocacy needs are separated;
+    Authority is checked for each offered task; Private clinical and account details are excluded from
+    check-ins.'
+  - 'Action 2: Carry out the agreed part with a backup. Observed checks: One agreed practical contribution
+    is actually performed; Access cost and completion communication are confirmed; A workable backup is
+    named without unsafe improvisation; The recipient can speak choose or decline within the arrangement.'
+  - 'Action 3: Close the handoff and rebalance the burden. Observed checks: Completion and remaining tasks
+    have named owners; Usefulness and agency are reviewed separately; Caregiver burden informs one adjustment;
+    No clinical outcome is inferred from logistics.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -349,64 +419,294 @@ completion_and_review:
     - c1903_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Caregiving for elders, illness, and disability only when the
-    initial context remained safe, the evidence criteria were usable, burden was acceptable, and a new
-    context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Caregiving for elders, illness, and disability
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Did the support remove a burden while preserving the person’s say, and who now
+    owns the part that remains?
+  transfer_limit: Use an existing authorized care arrangement. Medication, lifting, feeding, clinical
+    assessment, financial authority and other specialist tasks must remain with appropriately authorized
+    and trained people.
   reflection:
-    before: What does Caregiving for elders, illness, and disability require in this exact context, what
-      remains outside my role or authority, and which scope sentence or evidence criterion will keep the
-      practice honest?
-    during: Which observable Caregiving for elders, illness, and disability criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Care plans protect the dependent person and the sustainability
-      of the caregiver.', what contradiction or missing context matters most, and should this Caregiving
-      for elders, illness, and disability design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Coordinate a bounded practical, emotional,
+      administrative or advocacy contribution that respects the care recipient’s choices and the caregiver’s
+      capacity.'
+    during: Which checks have actually been observed? The journey worked, but the helper answered too
+      quickly for the recipient and changed that arrangement next time.
+    after: Did the support remove a burden while preserving the person’s say, and who now owns the part
+      that remains?
   review_guidance:
     repeat: Repeat the same bounded Caregiving for elders, illness, and disability design only when the
       context and burden remain appropriate.
-    adapt: Change the Caregiving for elders, illness, and disability medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use a phone call, written preferences, an interpreter or trusted decision supporter with permission.
+      Without an appropriate care role, use the supplied transport scenario and label the handoff untested.
+      Urgent deterioration or unsafe care requires appropriate medical, safeguarding or emergency help,
+      not this exercise.
     stop: Stop Caregiving for elders, illness, and disability when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Caregiving for elders, illness, and disability
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Caregiving for elders, illness, and disability criteria were observed with
-      provenance and no adverse boundary signal in the selected context.
-    mixed: Some Caregiving for elders, illness, and disability criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Caregiving for elders, illness, and disability
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Caregiving for elders, illness, and disability action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: Transport and access were confirmed, the recipient kept control of visit questions and
+      a backup owner accepted the return trip.
+    mixed: The journey worked, but the helper answered too quickly for the recipient and changed that
+      arrangement next time.
+    contradictory: The helper took over treatment or finances without authority, or left a dependent person
+      without a safe handoff.
+    inconclusive: A care checklist was written but neither an agreed task nor an actual or labeled simulated
+      handoff occurred.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Caregiving for elders, illness, and disability.
+    context_heading: Complete one agreed care handoff without taking away agency
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Caregiving
       for elders, illness, and disability.
   check_in_labels:
-    c1903_a1_primary: The bounded Caregiving for elders, illness, and disability criterion for action
-      1 was observed
+    c1903_a1_primary: 'Observed checks: ask what support is wanted and who may decide'
     c1903_a1_boundary: Action 1 stayed inside its stated Caregiving for elders, illness, and disability
       boundary
     c1903_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1903_a2_primary: The bounded Caregiving for elders, illness, and disability criterion for action
-      2 was observed
+    c1903_a2_primary: 'Observed checks: carry out the agreed part with a backup'
     c1903_a2_boundary: Action 2 stayed inside its stated Caregiving for elders, illness, and disability
       boundary
     c1903_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1903_a3_primary: The bounded Caregiving for elders, illness, and disability criterion for action
-      3 was observed
+    c1903_a3_primary: 'Observed checks: close the handoff and rebalance the burden'
     c1903_a3_boundary: Action 3 stayed inside its stated Caregiving for elders, illness, and disability
       boundary
     c1903_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Caregiving for elders,
-    illness, and disability practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Did the support remove a burden while preserving the person’s say, and who now owns
+    the part that remains? Completion is not mastery.
+  plain_language_evidence: Transport and access were confirmed, the recipient kept control of visit questions
+    and a backup owner accepted the return trip.
   display_order: 250
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '19.03'
+  title: 19.03 — Caregiving for elders, illness, and disability
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Research on Marital Satisfaction and Stability in the 2010s: Challenging Conventional Wisdom](https://pmc.ncbi.nlm.nih.gov/articles/PMC8186435/)
+
+      - [The Cognitive Dimension of Household Labor](https://journals.sagepub.com/doi/abs/10.1177/0003122419859007)
+
+      - [An Exploration of the Structure of Effective Apologies](https://ncmr.lps.library.cmu.edu/article/id/264/)
+
+      - [Consent 101: Respect, Boundaries, and Building Trust](https://rainn.org/share-the-facts/consent-101-respect-boundaries-and-building-trust/)
+
+      - [Contraception and Birth Control Methods](https://www.cdc.gov/contraception/about/index.html)
+
+      - [Defining sexual health](https://www.who.int/teams/sexual-and-reproductive-health-and-research/key-areas-of-work/sexual-health/defining-sexual-health)
+
+      - [What are my boundaries?](https://www.loveisrespect.org/resources/what-are-my-boundaries/)
+
+      - [Get a divorce](https://www.gov.uk/divorce)
+
+      - [About the Committee on Consensual Non-Monogamy](https://www.div44cnm.org/about)
+
+      - [Planning for Pregnancy](https://www.cdc.gov/pregnancy/about/index.html)
+
+      - [Triangles](https://www.thebowencenter.org/triangles)
+
+      - [Positive Parenting Tips for Healthy Child Development: Middle Childhood (6–8 years of age)](https://stacks.cdc.gov/view/cdc/155268/cdc_155268_DS1.pdf)
+
+      - [Steps for Creating and Maintaining a Care Plan](https://www.cdc.gov/caregiving/guidelines/index.html)
+
+      - [Plan for Safety](https://www.thehotline.org/plan-for-safety/)
+
+      - [Supported Decision Making Program](https://acl.gov/programs/consumer-control/supported-decision-making-program)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence.
+
+
+      The regular pickup has not arrived at 09:45. Eli calls the provider and care coordinator as agreed.
+      At 09:50 the coordinator confirms and accepts responsibility for a suitable accessible replacement
+      arriving at 09:55, with the same 25-minute travel time and 10-unit outward fare. Maren agrees to
+      that option. Arrival is 10:20, five minutes after the 10:15 check-in target. The coordinator contacts
+      the clinic, which confirms the 10:30 appointment can still proceed. Without that confirmation, attendance
+      could not simply be assumed.
+
+
+      Maren attends and asks the private questions using the communication aid. No clinical answer is
+      disclosed. The authorized provider arranges the return after the visit; Maren arrives home and confirms
+      transport was useful and personal speaking preferences were respected. Total fare is 20 units. Eli
+      spends fifty minutes on coordination, ten beyond the available forty.
+
+
+      Credit the accepted backup, actual transport and respected voice, while preserving the late check-in
+      and overrun. The coordinator agrees to discuss more backup capacity next time; no expanded arrangement
+      has been implemented. Attendance does not establish a medical outcome or eliminate future transport
+      risk.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Prepare one bounded handoff in an existing authorized care arrangement, complete an ordinary
+      task if suitable, and review usefulness and burden. Allow twenty minutes to plan and fifteen to
+      review around the actual task. Caregiving is role-conditional, not a required identity. Without
+      an appropriate role, use the fiction; do not arrange care for an uninvolved person to obtain evidence.
+
+
+      ### Support the person, not only the schedule
+
+
+      Practical support may involve transport, an accessible reminder or an agreed errand. Emotional support
+      asks what concern or reassurance is welcome. Financial support needs authority and limits around
+      expenses; being a caregiver does not grant control over money. Advocacy helps the person raise their
+      own questions and preferences, rather than substituting your voice whenever you think you know best.
+
+
+      Age, illness or disability does not itself establish incapacity. Ask how the person wants to make
+      and communicate decisions, using established supports and relevant legal arrangements. Someone may
+      want help with transport while retaining control over appointment questions and private information.
+      Different tasks require different permissions: booking a ride, spending an agreed amount, receiving
+      an arrival update and speaking during a clinical visit are not a single bundle.
+
+
+      A care plan should identify who does what, the recipient''s preferences, access requirements, resources,
+      backup and a completion signal. A handoff is not complete because an offer was sent. The receiver
+      must accept the relevant responsibility, have what is needed and know how to report completion or
+      a problem. Unclaimed work remains unclaimed. Do not make essential care disappear from the plan
+      when a caregiver reaches a limit.
+
+
+      Sustainability includes time, rest, cost and emotional burden. An honest capacity limit is useful
+      information for planning. It does not justify an unsafe abandonment, and devotion does not make
+      unlimited labor feasible. Use appropriate services or authorized backup when needs exceed the arrangement.
+      Clinical deterioration, urgent risk and unclear authority belong with appropriate professional or
+      emergency support, not with an improvised learning task.
+
+
+      ### Worked example
+
+
+      A relative agrees to arrange an accessible ride to an existing appointment. The appointment is attended,
+      but no clinical findings are shared. The transport task can be completed while the health question
+      remains private or unresolved. If the relative also starts answering every question against the
+      person''s preference, the timely ride does not cancel that loss of agency. Usefulness and respect
+      must be reviewed separately.
+
+
+      ### Supplied fictional task
+
+
+      Maren, an adult receiving established support, has a booked appointment at 10:30 on 12 October.
+      Maren wants to ask two private questions personally and wants helper Eli to arrange transport only.
+      Maren permits Eli to receive arrival updates and use an agreed transport budget of 40 units. Eli
+      has no authority to read clinical records, change medication, manage finances generally or speak
+      for Maren at the visit. Maren uses an established communication aid and wants it available.
+
+
+      The regular authorized provider offers accessible pickup at 09:40, a 25-minute journey and a 10-unit
+      fare each way. The check-in target is 10:15. Maren wants the return arranged through the same provider
+      after the visit, not a presumed fixed clinical duration. Eli has forty minutes available for planning
+      and handoff, not an entire day. If pickup has not arrived by 09:45, the agreed route is to call
+      the provider and designated care coordinator for a safe authorized alternative; no alternative has
+      yet been confirmed. Do not invent a safe vehicle or manual transfer technique.
+
+
+      ### Make the plan operational
+
+
+      1. Confirm the task, actual authority and Maren''s preferences. Separate permission to arrange transport,
+      spend up to 40, receive logistics updates and accompany or speak at the visit. Only the first three
+      are supplied. Output: a private logistics card with no clinical details copied into the learning
+      record.
+
+      2. Calculate arrival from 09:40 plus 25 minutes and compare it with the 10:15 target. Calculate
+      the expected round-trip fare and remaining budget. Include communication-aid availability without
+      assuming Eli should operate it for Maren. Output: a feasible ordinary plan with time and cost margins,
+      not a clinical promise.
+
+      3. Write the missed-pickup trigger and contact route. A call requests an alternative; it does not
+      prove one exists. Identify who must accept any replacement handoff and how Maren''s preference will
+      be heard. Output: backup status, including anything unconfirmed, with no unsafe substitute invented.
+
+      4. Explain the emotional and advocacy part modestly: ask whether Maren wants help preparing a question
+      list or reassurance about logistics, accept a no, and preserve Maren''s voice. Set Eli''s capacity
+      limit so other needed tasks receive a named accepted owner. Output: welcome support and bounded
+      responsibilities, not a takeover.
+
+      5. Save the card before opening the [later packet](?resource=file-later-packet-md). Trace actual
+      pickup, arrival, return and expense. Check whether Maren''s choices were respected and whether any
+      work remains unowned. Output: completed logistics, remaining questions and a sustainability revision.
+
+
+      ### Adapt and transfer
+
+
+      For support, use a one-page card with three headings: person’s preference, accepted task and problem
+      contact. A familiar accessible format is preferable to a complex dashboard. For a harder fictional
+      case, let the provider miss the trigger and require an actual safe handoff or an honest statement
+      that transport remains unresolved; do not make a late promise into a completed ride.
+
+
+      For an authorized real attempt, choose an ordinary task already allowed by the care arrangement.
+      Confirm preferences, permissions and backup before acting. Ask afterward whether the help was useful
+      or controlling, and record only minimal task-level evidence. Do not change medication, feeding,
+      transfers, clinical decisions or financial control through this exercise. If the person''s needs
+      exceed the arrangement, obtain suitable qualified assistance and preserve continuity rather than
+      hiding the gap.
+
+
+      ### Source use
+
+
+      [CDC care planning, S13](https://www.cdc.gov/caregiving/guidelines/index.html) informs organized
+      responsibilities and updates; its clinical form is not copied into app evidence. [ACL supported
+      decision making, S15](https://acl.gov/programs/consumer-control/supported-decision-making-program)
+      informs person-chosen, task-specific support. Neither grants legal authority, determines capacity
+      or validates the transport plan. The schedule, budget and handoff case are original.
+
+
+      ### Use the result at its proper scale
+
+
+      Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local
+      guidance.
+
+
+      This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep
+      private identifying, intimate, medical and family details out of app records.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Try each case, then [read answers](?check=practice-answers).
+
+
+      1. A caregiver is authorized to book transport. Does that also permit accessing records or answering
+      clinical questions for the recipient?
+
+      2. The backup provider has not confirmed a suitable vehicle after a missed pickup. Can the learner
+      mark a safe handoff complete because a request was sent?
+
+      3. A recipient attends an appointment and gives positive feedback about the ride, but no clinical
+      findings are provided. What can the review claim, and what remains unknown?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Authority is task-specific. Respect the person''s chosen communication and existing
+      legal or supported-decision arrangements; obtain the relevant legitimate permission for other tasks.
+      Age or disability alone does not transfer control.
+
+      2. No. A request is not acceptance, suitability or performance. Follow the established authorized
+      escalation route, preserve the person''s agency and state the unresolved transport need honestly.
+      Do not improvise unsafe vehicles, transfers or care.
+
+      3. It can claim attended transport and the supplied feedback about usefulness, subject to actual
+      facts. Clinical outcome remains unknown or private. Review burden and remaining logistics separately;
+      a timely ride or grateful response cannot establish medical improvement.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2106-CUSTOMER-STAKEHOLDER-AND-USER-UNDERSTANDING-01
 slug: c2106-customer-stakeholder-and-user-understanding-practice
-name: Bounded Customer, stakeholder, and user understanding Practice
+name: Let a downstream user change your understanding of the problem
 parent_competency_id: '21.06'
 domain_id: '21'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 21.06
-      (Customer, stakeholder, and user understanding); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 21.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,40 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Customer, stakeholder, and user understanding through a low-stakes skill rehearsal
-    bounded by the canonical scope: Understand who is affected, what problem matters, and how success
-    is experienced downstream.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Improves work because
-    real needs—not only internal assumptions—shape decisions. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Identify who is affected by a work product, observe the problem from their side and revise
+    one requirement based on actual downstream use.
+  why_recommended: Identify who is affected by a work product, observe the problem from their side and
+    revise one requirement based on actual downstream use.
   claims:
-  - statement: Using the canonical scope and evidence target for Customer, stakeholder, and user understanding
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Identify who is affected by a work product, observe the problem from their side and revise
+      one requirement based on actual downstream use.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Customer, stakeholder, and user understanding practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Customer, stakeholder, and user understanding as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Customer, stakeholder,
-    and user understanding context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Customer,
-    stakeholder, and user understanding; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Use accessible formats, an interpreter or a fictional task with a trusted
+    peer. People may decline without affecting employment or service. Keep protected workplace, client
+    and personal data outside the exercise and follow organizational research permissions.
+  opportunity_considerations: Default to a meeting invitation that a new participant must use to find
+    the correct location and join. Use fictional details and a willing reader unfamiliar with the draft.
+    Prepare headings for primary user, downstream helper, affected nonuser, intended task, friction and
+    success.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Customer, stakeholder, and user
-    understanding.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Default to a meeting invitation that a new participant must use to find the correct location and join.
+    Use fictional details and a willing reader unfamiliar with the draft. Prepare headings for primary
+    user, downstream helper, affected nonuser, intended task, friction and success.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Customer, stakeholder, and user
-    understanding instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use accessible formats, an interpreter or a fictional task with a trusted peer. People may decline
+    without affecting employment or service. Keep protected workplace, client and personal data outside
+    the exercise and follow organizational research permissions.
   role_conditions:
   - This competency is context sensitive; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +81,25 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Customer, stakeholder, and user understanding actions over ten days,
-    preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Customer, stakeholder, and user understanding; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Customer,
-    stakeholder, and user understanding. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Customer, stakeholder, and user understanding
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default to a meeting invitation that a new participant must use to find the correct location
+    and join. Use fictional details and a willing reader unfamiliar with the draft. Prepare headings for
+    primary user, downstream helper, affected nonuser, intended task, friction and success. Goal: Identify
+    who is affected by a work product, observe the problem from their side and revise one requirement
+    based on actual downstream use. Scope: Use a willing participant and a harmless authorized artifact.
+    This is not market validation, covert research or permission to collect client, employee or personal
+    data. Time and effort: Fifteen minutes of preparation, one 20-minute observation and a short revision
+    test. Adaptation: Use accessible formats, an interpreter or a fictional task with a trusted peer.
+    People may decline without affecting employment or service. Keep protected workplace, client and personal
+    data outside the exercise and follow organizational research permissions. Keep personal working notes
+    outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use accessible formats, an interpreter or a fictional task with a trusted peer.
+    People may decline without affecting employment or service. Keep protected workplace, client and personal
+    data outside the exercise and follow organizational research permissions.
+  expected_burden: Fifteen minutes of preparation, one 20-minute observation and a short revision test.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Customer, stakeholder, and user understanding protocol to rank worth, coerce participation,
@@ -104,18 +108,25 @@ intervention:
   - Treating a completed Customer, stakeholder, and user understanding action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Customer, stakeholder, and user understanding situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use accessible
+    formats, an interpreter or a fictional task with a trusted peer. People may decline without affecting
+    employment or service. Keep protected workplace, client and personal data outside the exercise and
+    follow organizational research permissions.
   actions:
   - stable_id: PRACTICE-COMP-2106-CUSTOMER-STAKEHOLDER-AND-USER-UNDERSTANDING-01-A1
     sequence: 1
-    title: Define observable criteria for Customer, stakeholder, and user understanding
-    instructions: 'Select one safe, lawful, low-stakes component of Customer, stakeholder, and user understanding.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Understand
-      who is affected, what problem matters, and how success is experienced downstream.'
+    title: Map the people affected before asking for opinions
+    instructions: 'Identify who uses the invitation, who answers questions when it fails and who may be
+      excluded by its format or assumptions. Write the practical task from the user’s perspective: know
+      where to go, when to arrive and how to request access. State your current assumption about the main
+      problem and what observation would contradict it. Do not substitute a senior stakeholder’s preference
+      for every user’s experience.
+
+
+      Observation checks: Primary downstream and excluded stakeholders are considered; The task is written
+      in the user’s terms; An assumption and disconfirming observation are explicit; Authority or status
+      is not treated as universal user knowledge. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -137,9 +148,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2106_a1_skill_component_bounded
-        - c2106_a1_observable_rubric_present
-        - c2106_a1_error_or_stop_defined
+        - primary_downstream_and_excluded_stakeholders_are_considered
+        - the_task_is_written_in_the_user_s_terms
+        - an_assumption_and_disconfirming_observation_are_explicit
+        - authority_or_status_is_not_treated_as_universal_user_knowledge
       - measurement_id: c2106_a1_boundary
         kind: boolean
         role: supporting
@@ -156,10 +168,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2106-CUSTOMER-STAKEHOLDER-AND-USER-UNDERSTANDING-01-A2
     sequence: 2
-    title: Rehearse Customer, stakeholder, and user understanding twice
-    instructions: Perform two bounded attempts of the selected Customer, stakeholder, and user understanding
-      component under comparable safe conditions. Use self-review, a consensual observer, or a reviewed
-      artifact; do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Observe a task without coaching the answer
+    instructions: 'Ask the willing reader to use the fictional invitation to state the location, arrival
+      time and access route. Let them describe confusion in their own words and avoid explaining what
+      you meant while the task is underway. Ask a neutral follow-up about the hardest step. Record the
+      observable obstacle and their voluntary feedback privately, not identity or sensitive circumstances.
+      A compliment about the design is not equivalent to task success.
+
+
+      Observation checks: A real harmless task is attempted by a willing user; The author avoids coaching
+      during the observation; A neutral follow-up clarifies the actual obstacle; Task performance is distinguished
+      from compliments. Mark only what you observed. Missing, mixed and negative results are valid; a
+      deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -175,15 +195,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2106_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - a_real_harmless_task_is_attempted_by_a_willing_user
+        - the_author_avoids_coaching_during_the_observation
+        - a_neutral_follow_up_clarifies_the_actual_obstacle
+        - task_performance_is_distinguished_from_compliments
       - measurement_id: c2106_a2_boundary
         kind: boolean
         role: supporting
@@ -200,10 +221,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2106-CUSTOMER-STAKEHOLDER-AND-USER-UNDERSTANDING-01-A3
     sequence: 3
-    title: Use feedback for one Customer, stakeholder, and user understanding retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Improves
-      work because real needs—not only internal assumptions—shape decisions.'
+    title: Revise one requirement and verify the downstream effect
+    instructions: 'Change the artifact to address the observed obstacle, such as making the building entrance
+      explicit rather than adding more decorative detail. Explain which assumption changed and which requirement
+      now matters. Ask the reader to retry a new comparable invitation or use another willing reader,
+      and check whether the change creates a problem for a downstream helper or another access mode. Keep
+      a limited conclusion: this user’s task improved or did not, not every customer is now understood.
+
+
+      Observation checks: The revision follows an observed need; A changed assumption and requirement
+      are recorded; A comparable retry tests the change; Other downstream effects and limits of generalization
+      are checked. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.
+
+
+      Final review: What did the user need that your internal description missed, and which requirement
+      changed because you watched the task rather than asked for approval?
+
+
+      Examples: Supportive: The reader could not find the entrance, so the author revised that requirement
+      and the next task succeeded without coaching.
+
+
+      Mixed: The participant liked the invitation but still missed the time zone; the author treated the
+      task failure as more informative than praise.
+
+
+      Contradictory: The author coached success, collected private user information unnecessarily or ignored
+      the user because a senior stakeholder preferred the old version.
+
+
+      Inconclusive: Stakeholders were named without observing a downstream task or revising a requirement.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -225,9 +273,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2106_a3_feedback_item_selected
-        - c2106_a3_adjustment_traceable
-        - c2106_a3_retry_result_preserved
+        - the_revision_follows_an_observed_need
+        - a_changed_assumption_and_requirement_are_recorded
+        - a_comparable_retry_tests_the_change
+        - other_downstream_effects_and_limits_of_generalization_are_checked
       - measurement_id: c2106_a3_boundary
         kind: boolean
         role: supporting
@@ -248,17 +297,17 @@ intervention:
       Customer, stakeholder, and user understanding; no purchase, subscription, travel, credential, or
       public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Customer, stakeholder, and user understanding; assistive technology, interpretation, a
-      support person, and a deferred action are valid without penalty.
+    - Use accessible formats, an interpreter or a fictional task with a trusted peer. People may decline
+      without affecting employment or service. Keep protected workplace, client and personal data outside
+      the exercise and follow organizational research permissions.
     cultural_context:
     - Adapt the expression of Customer, stakeholder, and user understanding to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Customer, stakeholder, and user understanding opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use accessible formats, an interpreter or a fictional task with a trusted peer. People may decline
+      without affecting employment or service. Keep protected workplace, client and personal data outside
+      the exercise and follow organizational research permissions.
   pause_conditions:
   - Pause Customer, stakeholder, and user understanding when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -290,10 +339,8 @@ evidence_and_scoring:
   - c2106_a3_boundary
   - c2106_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Customer, stakeholder, and user understanding action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Customer, stakeholder, and user understanding criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - The author coached success, collected private user information unnecessarily or ignored the user because
+    a senior stakeholder preferred the old version.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Customer, stakeholder, and user understanding explicitly; support can enable access and never
     reduces dignity or silently changes the typed value.
@@ -304,14 +351,22 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Customer, stakeholder, and user understanding rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Improves work because real needs—not only internal assumptions—shape decisions.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Customer, stakeholder, and user understanding requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Map the people affected before asking for opinions. Observed checks:
+    Primary downstream and excluded stakeholders are considered; The task is written in the user’s terms;
+    An assumption and disconfirming observation are explicit; Authority or status is not treated as universal
+    user knowledge. Action 2: Observe a task without coaching the answer. Observed checks: A real harmless
+    task is attempted by a willing user; The author avoids coaching during the observation; A neutral
+    follow-up clarifies the actual obstacle; Task performance is distinguished from compliments. Action
+    3: Revise one requirement and verify the downstream effect. Observed checks: The revision follows
+    an observed need; A changed assumption and requirement are recorded; A comparable retry tests the
+    change; Other downstream effects and limits of generalization are checked.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Stakeholders were named without observing a downstream
+    task or revising a requirement.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Customer,
     stakeholder, and user understanding contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -321,9 +376,8 @@ evidence_and_scoring:
   - L23
   - L24
   - L32
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Customer, stakeholder, and user understanding evidence.
@@ -331,12 +385,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for customer, stakeholder, and user understanding action was attempted
-    or explicitly deferred.
-  - The rehearse customer, stakeholder, and user understanding twice action was attempted or explicitly
-    deferred.
-  - The use feedback for one customer, stakeholder, and user understanding retry action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Map the people affected before asking for opinions. Observed checks: Primary downstream
+    and excluded stakeholders are considered; The task is written in the user’s terms; An assumption and
+    disconfirming observation are explicit; Authority or status is not treated as universal user knowledge.'
+  - 'Action 2: Observe a task without coaching the answer. Observed checks: A real harmless task is attempted
+    by a willing user; The author avoids coaching during the observation; A neutral follow-up clarifies
+    the actual obstacle; Task performance is distinguished from compliments.'
+  - 'Action 3: Revise one requirement and verify the downstream effect. Observed checks: The revision
+    follows an observed need; A changed assumption and requirement are recorded; A comparable retry tests
+    the change; Other downstream effects and limits of generalization are checked.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -345,64 +405,290 @@ completion_and_review:
     - c2106_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Customer, stakeholder, and user understanding only when the
-    initial context remained safe, the evidence criteria were usable, burden was acceptable, and a new
-    context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Customer, stakeholder, and user understanding
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: What did the user need that your internal description missed, and which requirement
+    changed because you watched the task rather than asked for approval?
+  transfer_limit: Use a willing participant and a harmless authorized artifact. This is not market validation,
+    covert research or permission to collect client, employee or personal data.
   reflection:
-    before: What does Customer, stakeholder, and user understanding require in this exact context, what
-      remains outside my role or authority, and which scope sentence or evidence criterion will keep the
-      practice honest?
-    during: Which observable Customer, stakeholder, and user understanding criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Improves work because real needs—not only internal assumptions—shape
-      decisions.', what contradiction or missing context matters most, and should this Customer, stakeholder,
-      and user understanding design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Identify who is affected by a work product,
+      observe the problem from their side and revise one requirement based on actual downstream use.'
+    during: Which checks have actually been observed? The participant liked the invitation but still missed
+      the time zone; the author treated the task failure as more informative than praise.
+    after: What did the user need that your internal description missed, and which requirement changed
+      because you watched the task rather than asked for approval?
   review_guidance:
     repeat: Repeat the same bounded Customer, stakeholder, and user understanding design only when the
       context and burden remain appropriate.
-    adapt: Change the Customer, stakeholder, and user understanding medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use accessible formats, an interpreter or a fictional task with a trusted peer. People may
+      decline without affecting employment or service. Keep protected workplace, client and personal data
+      outside the exercise and follow organizational research permissions.
     stop: Stop Customer, stakeholder, and user understanding when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Customer, stakeholder, and user understanding
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Customer, stakeholder, and user understanding criteria were observed with
-      provenance and no adverse boundary signal in the selected context.
-    mixed: Some Customer, stakeholder, and user understanding criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Customer, stakeholder, and user understanding
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Customer, stakeholder, and user understanding action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The reader could not find the entrance, so the author revised that requirement and the
+      next task succeeded without coaching.
+    mixed: The participant liked the invitation but still missed the time zone; the author treated the
+      task failure as more informative than praise.
+    contradictory: The author coached success, collected private user information unnecessarily or ignored
+      the user because a senior stakeholder preferred the old version.
+    inconclusive: Stakeholders were named without observing a downstream task or revising a requirement.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Customer, stakeholder, and user understanding.
+    context_heading: Let a downstream user change your understanding of the problem
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Customer,
       stakeholder, and user understanding.
   check_in_labels:
-    c2106_a1_primary: The bounded Customer, stakeholder, and user understanding criterion for action 1
-      was observed
+    c2106_a1_primary: 'Observed checks: map the people affected before asking for opinions'
     c2106_a1_boundary: Action 1 stayed inside its stated Customer, stakeholder, and user understanding
       boundary
     c2106_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2106_a2_primary: The bounded Customer, stakeholder, and user understanding criterion for action 2
-      was observed
+    c2106_a2_primary: 'Observed checks: observe a task without coaching the answer'
     c2106_a2_boundary: Action 2 stayed inside its stated Customer, stakeholder, and user understanding
       boundary
     c2106_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2106_a3_primary: The bounded Customer, stakeholder, and user understanding criterion for action 3
-      was observed
+    c2106_a3_primary: 'Observed checks: revise one requirement and verify the downstream effect'
     c2106_a3_boundary: Action 3 stayed inside its stated Customer, stakeholder, and user understanding
       boundary
     c2106_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Customer, stakeholder,
-    and user understanding practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What did the user need that your internal description missed, and which requirement
+    changed because you watched the task rather than asked for approval? Completion is not mastery.
+  plain_language_evidence: The reader could not find the entrance, so the author revised that requirement
+    and the next task succeeded without coaching.
   display_order: 286
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '21.06'
+  title: 21.06 — Customer, stakeholder, and user understanding
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Identifying conspiracy theories](https://commission.europa.eu/strategy-and-policy/coronavirus-response/fighting-disinformation/identifying-conspiracy-theories_en)
+
+      - [What mediation is and how it can help — Mediation at work](https://www.acas.org.uk/mediation)
+
+      - [Letter from Birmingham Jail](https://kinginstitute.stanford.edu/letter-birmingham-jail)
+
+      - [Community Engagement and Accountability](https://www.ifrc.org/our-work/inclusion-protection-and-engagement/community-engagement-and-accountability)
+
+      - [The ILO Social Protection Floors Recommendation, 2012 (No. 202)](https://www.ilo.org/resource/news/ilo-social-protection-floors-recommendation-2012-no-202)
+
+      - [What Is Transitional Justice?](https://www.ictj.org/what-transitional-justice)
+
+      - [Decent work and the 2030 Agenda for sustainable development](https://www.ilo.org/topics-and-sectors/decent-work-and-2030-agenda-sustainable-development)
+
+      - [What is Career Readiness? — Professionalism](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)
+
+      - [Learning Principles](https://www.cmu.edu/teaching/principles/learning.html)
+
+      - [Quality Glossary](https://asq.org/quality-resources/quality-glossary)
+
+      - [Learning about users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)
+
+      - [6.3 Interface Management](https://www.nasa.gov/reference/6-3-interface-management/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence.
+
+
+      Reader A likes the invitation but chooses North because the public sign identifies it as the main
+      entrance. They correctly report 18:00 UTC and Event Desk. The author does not coach the entrance
+      answer or call the whole task successful because two other details were found.
+
+
+      The requirement becomes “identify the correct entry point and its availability for this event time.”
+      Corrected A names East Entrance from 17:45. A different willing fictional reader then uses B and
+      identifies East from 18:45, the 19:00 UTC start and Event Desk without hints. Neither person actually
+      travels or enters a building.
+
+
+      The fictional helper confirms that Event Desk is the approved public label and that plain text can
+      be handled through the existing process. No new private phone number, bespoke help duty or measured
+      support-volume reduction is supplied. The task supports a narrow improved information result. Different
+      readers and invitations limit causal comparison; other user needs, real accessibility and all-customer
+      understanding remain unverified.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Let a downstream task change one requirement in a small work product. Allow fifteen minutes
+      to prepare, a twenty-minute observation or supplied fictional equivalent, and a comparable retry.
+      Use a meeting invitation with invented facts. Compliments and senior approval can coexist with a
+      user being unable to complete the task.
+
+
+      ### Find the practical need beyond internal preferences
+
+
+      Identify who uses the artifact, who supports them when it fails and who may be affected without
+      being a direct user. A new attendee may need an entrance, while an event helper handles questions
+      caused by an omission. Someone unable to read an image may be excluded before reaching the nominal
+      task. “The requester liked it” does not represent every one of those perspectives.
+
+
+      State the need in the user''s terms before specifying a solution. “Know where to enter at the relevant
+      time” is a need. “Add a map” is one possible response that might or might not address it. A requirement
+      should follow evidence about the actual obstacle, with attention to constraints, access and downstream
+      burden. A role title or majority preference does not automatically establish everyone''s needs.
+
+
+      Observe a task rather than asking only for an opinion. Give a willing reader the harmless draft
+      and ask them to identify the location, arrival time and access-question route. Let them work without
+      explaining what you meant while the task is underway. Record the action or interpretation and ask
+      a neutral follow-up about difficulty. A warm compliment can be sincere while the location is still
+      wrong.
+
+
+      A failed attempt tests your assumption, not the user''s worth or intelligence. Familiarity, language,
+      format, context and missing information may affect the result. Ask what the artifact supplied and
+      what it forced the user to invent. Avoid demanding private history to explain the difficulty. A
+      single reader can reveal a real flaw, but cannot represent all potential users or establish a market
+      segment''s prevalence.
+
+
+      Revise a requirement, not just a cosmetic detail. If the user chose the main door because the invitation
+      omitted the evening entrance, the relevant change is explicit time-appropriate entry information.
+      A larger logo would not solve that mismatch. Tie the changed content to the observed need, check
+      it against authorized facts and preserve other correct information.
+
+
+      Test a fresh comparable invitation or ask another willing reader. The same person may remember the
+      correction, while a different person introduces another change in conditions. State those limits.
+      Check whether the solution creates new work for a helper, excludes another format or publishes a
+      contact not authorized for that purpose. A narrowly better task result is valuable without becoming
+      proof that every customer is understood.
+
+
+      ### Worked example
+
+
+      A first-time attendee praises an invitation''s appearance but selects the main entrance, which is
+      closed at the event time. The author had assumed everyone knew the evening door. They add the named
+      entry route from the owner''s information, keep a plain-text version and check a different invitation.
+      The revised requirement is usable arrival information, not more decoration.
+
+
+      ### Complete fictional invitations and owner facts
+
+
+      Draft A says: **Design Review —14 October 2026, 18:00–19:00 UTC —Cedar Center, Birch Room —access
+      questions: Event Desk**. It is plain text and has no entrance information. The building''s ordinary
+      public sign points to the North main entrance. The owner fact card states that North is closed in
+      the evening; use **East Entrance from 17:45**, with the internal sign to Birch Room. Event Desk
+      is the approved fictional public questions label, not a real address. No real travel or access guarantee
+      is supplied.
+
+
+      The learner''s initial assumption is that a brighter title is the main improvement needed. The task
+      asks a willing fictional first-time reader to identify where to enter, the start time and whom to
+      ask about access. A downstream helper can review whether the public contact label is appropriate;
+      no personal number or private condition may be added.
+
+
+      For the comparable retry, Draft B must use the supplied facts **Planning Check —15 October 2026,
+      19:00–20:00 UTC —Cedar Center, Birch Room —East Entrance from 18:45 —access questions: Event Desk**.
+      This is a new invitation, not permission to reuse A''s start or entry-opening time blindly.
+
+
+      ### Observe, change the requirement and check its effect
+
+
+      1. Map primary user, downstream helper and a potentially excluded nonuser. State the task and what
+      would contradict the brighter-title assumption. Output: a specific hypothesis and success criterion,
+      not a list of stakeholder names.
+
+      2. Present Draft A without hints. Record where the supplied reader would enter, when they would
+      arrive and the questions route. Ask what made the choice difficult. Output: observed interpretation
+      distinguished from praise and from an actual arrival.
+
+      3. Compare the obstacle with the owner fact card. Revise the requirement to state the correct entrance
+      and its opening time, keeping UTC, room and the approved contact. Output: evidence-to-requirement
+      reasoning and a corrected A.
+
+      4. Save your revision before the [later packet](?resource=file-later-packet-md). Test B using its
+      own date and times with the new supplied reader. Output: a comparable task result without coaching
+      or copied time errors.
+
+      5. Ask whether the contact and alternate format shift work or create exposure. Record the helper''s
+      limited review and what remains unknown about other users. Output: a bounded downstream result,
+      not universal validation.
+
+
+      ### Support and transfer
+
+
+      Use spoken invitations, accessible text or a trusted interpreter as appropriate. A harder case has
+      two equally plausible entrance names in conflicting records; seek owner clarification instead of
+      fabricating certainty. Users may decline without affecting service, employment or a relationship.
+
+
+      Actual research needs the organization''s permission, willing participants and minimal relevant
+      data. Do not collect protected client, employee or disability information to justify a design change.
+      Keep private notes in the approved process and broad lessons outside app evidence. Fiction supports
+      reasoning, but the prewritten response is not real user research or actual attendance evidence.
+
+
+      ### Source use
+
+
+      [GOV.UK''s user-needs guidance, S11](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs),
+      distinguishes evidence-based user problems from assumed solutions and recommends refining needs
+      as understanding improves. Only the relevant sections are used; this guide does not implement the
+      whole government service standard or validate the invitation as universally accessible. All event
+      facts, observations and revisions are original fiction.
+
+
+      ### Use the result at its proper scale
+
+
+      The practical limits in this guide are exercise safeguards, not added canonical metadata.
+
+
+      Paid employment, a career change or a particular work role is not compulsory. Fiction and no attempt
+      are legitimate. Keep private or protected records private.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A user praises an invitation but selects an entrance closed at the event time. Which result should
+      shape the revision?
+
+      2. Is “add a map” the user need, and should a fresh invitation automatically inherit the first event''s
+      times?
+
+      3. A second fictional reader succeeds and the helper approves the public contact label. Does this
+      establish universal accessibility or reduced support workload?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The observed task difficulty should challenge the design assumption. Preserve the compliment
+      as an opinion, but address missing correct entry information rather than coaching success or blaming
+      the user.
+
+      2. The need is to know how and when to enter; a map is only one possible solution. Verify each invitation
+      against its own authorized facts. B opens East at 18:45 for a 19:00 UTC start, not A''s earlier
+      times.
+
+      3. No. It supports a limited supplied task result and contact suitability. Other users, actual arrival,
+      accessibility and support volume remain unmeasured. A new reader also limits attribution of the
+      difference to wording alone.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

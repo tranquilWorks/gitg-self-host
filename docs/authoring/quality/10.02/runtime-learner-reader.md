@@ -8,8 +8,6 @@ Use a blank spreadsheet or the supplied paper route, with synthetic values only.
 
 About forty-five to sixty minutes across planning, two five-to-fifteen-minute attempts and one feedback pass within fourteen days.
 
-Use paper, slower pacing, an accessible input method, a model or a freely consenting coach. Keep adaptations present in both attempts where possible. Exclude hazardous equipment, driving, clinical rehabilitation, regulated practice and coerced public evaluation.
-
 ## 1. Define one component and fix its success criteria
 
 Choose the supplied four-cell summation component. Read the guide’s method and contrasting example, then copy criteria C1–C4 and the attempt record before opening Baseline. Choose a five-to-fifteen-minute limit and a spreadsheet or paper route. In a spreadsheet the skill is selecting a live input range, not typing a known total. On paper it is including exactly the intended addends and recalculating after a change; automatic spreadsheet updating remains untested. If the method is already routine, use the supplied harder-route plan for a future cycle instead of inventing errors or claiming this is your weak component.
@@ -21,7 +19,7 @@ Choose the supplied four-cell summation component. Read the guide’s method and
 
 ## 2. Make a baseline attempt without changing the target
 
-Open Baseline and make one attempt within the chosen interval before revealing its check. Preserve the original formula or written addition and the result before and after the input change. Then check C1–C4 individually and record observed criteria divided by four, including zero if none are observed. Keep the actual duration, aids and errors in the private attempt record. Stop at the declared limit. Use only the application’s existing bounded indicators; do not paste spreadsheet content or recordings into evidence.
+Open Baseline and make one attempt within the chosen interval before revealing its check. Preserve the original formula or written addition and the result before and after the input change. Then check C1–C4 individually and record observed criteria divided by four, including zero if none are observed. Keep the actual duration, aids and errors in the private attempt record. Stop at the declared limit. Keep the spreadsheet and any recordings private.
 
 - A real bounded baseline attempt occurs
 - The observed fraction uses the fixed criterion count
@@ -46,6 +44,14 @@ Open Comparable retry and use its new four-value dataset with the same criteria,
 - Unchanged worse and improved results are all permitted
 - The next progression decision follows the observed performance
 
+## Adaptation
+
+Use paper, slower pacing, an accessible input method, a model or a freely consenting coach. Keep adaptations present in both attempts where possible. Exclude hazardous equipment, driving, clinical rehabilitation, regulated practice and coerced public evaluation.
+
+## Review
+
+Which criterion changed after the one correction, under what support conditions, and what comparable attempt would help check whether that change lasts? If all four were already met, report maintenance rather than improvement. Choose the next-cycle challenge only when the component is controlled; time spent alone is not evidence of a skill gain.
+
 Repair one summation error and compare a fresh retry
 
 Learning guide — unscored
@@ -65,7 +71,7 @@ C2 — It excludes the unrelated value and the result cell itself.
 C3 — The first result equals the independently checked total for the original input set.
 C4 — After changing only the designated last input, the same spreadsheet formula updates to the correct new total; on paper, preserve the original and make a correct separate recalculation.
 
-Use observed / not observed / uninspected for each criterion. A correct number alone does not establish C1 or C2: inspect the formula or written addends. The recorded fraction is the number observed divided by four, with uninspected criteria excluded from the numerator. Retain uninspected separately from inspected failures; if a comparison depends on an uninspected criterion, mark that comparison inconclusive. This private checklist does not replace the application’s existing evidence fields.
+Use observed / not observed / uninspected for each criterion. A correct number alone does not establish C1 or C2: inspect the formula or written addends. The recorded fraction is the number observed divided by four, with uninspected criteria excluded from the numerator. Retain uninspected separately from inspected failures; if a comparison depends on an uninspected criterion, mark that comparison inconclusive. Use this private count to diagnose the selected component; it is not a rating of your overall ability.
 
 A record for each attempt
 
@@ -81,55 +87,7 @@ Use zoom, a screen reader, keyboard navigation or speech entry already available
 
 When and how to raise difficulty
 
-Do not increase difficulty in the scored retry. If C1–C4 are reliably met with comparable supports, plan a separate future cycle that changes only input selection: put 4, 6, 8 and 10 in A1, A3, A5 and A7; put unrelated 100s in A2, A4 and A6, and place the result in A8. Keep the same four criterion meanings and change the last intended input from 10 to 11 for C4. Before attempting, fix the same time limit and checking route; inspect each selected reference, then independently add only the four intended values on paper to check both totals. This introduces nonadjacent selection, not larger numbers, speed or more criteria at once. If the original component still fails, repeat a new comparable cycle with the specific correction instead. Stop when tired or frustrated; more elapsed practice is not itself a better result.
+Do not increase difficulty in the comparable retry. If C1–C4 are reliably met with comparable supports, plan a separate future cycle that changes only input selection: put 4, 6, 8 and 10 in A1, A3, A5 and A7; put unrelated 100s in A2, A4 and A6, and place the result in A8. Keep the same four criterion meanings and change the last intended input from 10 to 11 for C4. Before attempting, fix the same time limit and checking route; inspect each selected reference, then independently add only the four intended values on paper to check both totals. This introduces nonadjacent selection, not larger numbers, speed or more criteria at once. If the original component still fails, repeat a new comparable cycle with the specific correction instead. Stop when tired or frustrated; more elapsed practice is not itself a better result.
 
 Open the prompt in the practice guide: Baseline: include the right cells
 Open the prompt in the practice guide: Comparable retry: new values, same component
-## Prompt: Baseline: include the right cells
-
-Repair one summation error and compare a fresh retry
-
-Learning guide — unscored
-
-Four criteria fixed before the attempt
-
-C1 — The calculation includes every one of the four designated input cells or paper values exactly once.
-C2 — It excludes the unrelated value and the result cell itself.
-C3 — The first result equals the independently checked total for the original input set.
-C4 — After changing only the designated last input, the same spreadsheet formula updates to the correct new total; on paper, preserve the original and make a correct separate recalculation.
-
-Use observed / not observed / uninspected for each criterion. A correct number alone does not establish C1 or C2: inspect the formula or written addends. The recorded fraction is the number observed divided by four, with uninspected criteria excluded from the numerator. Retain uninspected separately from inspected failures; if a comparison depends on an uninspected criterion, mark that comparison inconclusive. This private checklist does not replace the application’s existing evidence fields.
-
-A record for each attempt
-
-Route and tool: __. Planned time limit (5–15 minutes): __. Actual duration: __. Access and content supports: __. Original input copy and formula/written addends: __. First result: __. Changed input and resulting calculation: __. C1 [observed / not observed / uninspected], reason: __. C2: __. C3: __. C4: __. Observed fraction: __/4. Original attempt preserved at: __. One correction chosen after the baseline: __. Retry result category and comparability limits: __. Keep this record private; do not overwrite a failed attempt with the answer key.
-
-Baseline: include the right cells
-
-In a blank sheet put 3 in A1, 5 in A2, 7 in A3 and 9 in A4. Put the unrelated value 100 in A5. Use A6 for a formula summing only A1 through A4. On paper label the same five values and write an addition using only A1–A4. Preserve the first result and formula/addends. Change only A4 from 9 to 10; record the new result without replacing a formula with a typed total. Stop at the chosen limit, keep the original attempt, then reveal the check. Do not use the worked example’s B cells.
-
-
-
-## Prompt: Comparable retry: new values, same component
-
-Repair one summation error and compare a fresh retry
-
-Learning guide — unscored
-
-Four criteria fixed before the attempt
-
-C1 — The calculation includes every one of the four designated input cells or paper values exactly once.
-C2 — It excludes the unrelated value and the result cell itself.
-C3 — The first result equals the independently checked total for the original input set.
-C4 — After changing only the designated last input, the same spreadsheet formula updates to the correct new total; on paper, preserve the original and make a correct separate recalculation.
-
-Use observed / not observed / uninspected for each criterion. A correct number alone does not establish C1 or C2: inspect the formula or written addends. The recorded fraction is the number observed divided by four, with uninspected criteria excluded from the numerator. Retain uninspected separately from inspected failures; if a comparison depends on an uninspected criterion, mark that comparison inconclusive. This private checklist does not replace the application’s existing evidence fields.
-
-A record for each attempt
-
-Route and tool: __. Planned time limit (5–15 minutes): __. Actual duration: __. Access and content supports: __. Original input copy and formula/written addends: __. First result: __. Changed input and resulting calculation: __. C1 [observed / not observed / uninspected], reason: __. C2: __. C3: __. C4: __. Observed fraction: __/4. Original attempt preserved at: __. One correction chosen after the baseline: __. Retry result category and comparability limits: __. Keep this record private; do not overwrite a failed attempt with the answer key.
-
-Comparable retry: new values, same component
-
-Start a fresh sheet or paper copy. Put 4 in A1, 6 in A2, 8 in A3 and 10 in A4; A5 is the unrelated value 100. Use A6 for the sum of A1–A4, or write those addends on paper. Apply your one recorded correction, keeping the original time limit, tool, supports and four criteria. Preserve the first result. Change only A4 from 10 to 11 and record the result. Keep both outputs before revealing the check, then compare C1–C4 with baseline individually.
-

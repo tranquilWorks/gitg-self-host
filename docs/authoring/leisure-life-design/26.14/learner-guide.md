@@ -34,8 +34,8 @@ For a harder case, the observer notices an injured animal or a sharp object. Sto
 
 Later transfer is two suitable contributions under an actual project's current method, followed by real usability feedback. Keep missed opportunities explicit and agree to a cadence you can sustain. Ending responsibly can be more reciprocal than promising weekly help and disappearing. Longer-term ecological conclusions require suitable evidence beyond two windows.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains cross_context_core and normative status cross_tradition_core_or_broadly_recurrent. Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
+Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. These source files change no runtime action, evidence field, score or completion rule. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

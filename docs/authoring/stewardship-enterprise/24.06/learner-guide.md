@@ -51,8 +51,8 @@ For support, use the table as the packet and answer the five handoff questions a
 
 Optional actual transfer should use a small process you own or have permission to review, with redacted or synthetic data. Do not access personnel files, customer identifiers or credentials to complete this lesson. A clear packet plus a later authorized continuation or reconciliation check could support progress. This supplied tabletop demonstrates how to inspect state while leaving actual reliable operation, lawful compliance and independent continuation unproven.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise role is optional. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

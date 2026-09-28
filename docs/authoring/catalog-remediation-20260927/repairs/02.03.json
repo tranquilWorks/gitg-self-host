@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "02.03",
+  "title": "Turn one virtue into an observable distinction",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Observable virtues are patterns of judgment, not heroic labels. Courage checks and raises a justified concern despite cost; honesty corrects a known falsehood; justice applies relevant standards consistently; temperance governs an optional appetite; compassion notices and responds to suffering; humility acknowledges a limit; loyalty serves a legitimate commitment without deception; patience allows needed time without neglecting urgency; wisdom weighs these goods in context."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "A notice credits Lee alone, although the signed contribution log credits Lee for text and Mo for layout. The owner welcomes private corrections until 16:00. Jo is nervous about seeming difficult but faces no stated retaliation risk. Mo permits correction of the credit, not discussion of private circumstances."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Describe courageous correction, deficiency and excess. Then choose two other virtues from the definitions and specify distinct observable conduct in this same case.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A helper waits politely while an urgent agreed task is being missed, calling this patience. Is waiting necessarily virtuous?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Check the log and request accurate joint credit privately before 16:00. Silence solely to avoid mild awkwardness misses the opportunity; a public accusation of theft exceeds known facts. Honesty preserves actual contributions; humility avoids guessing motive; justice gives neither friend preferential credit. Partial: name virtues without behavior. Next try a different low-stakes situation for one remaining virtue, recording action, competing good and correction from evidence rather than scoring character.",
+      "criteria": [
+        "Virtue is expressed as observable judgment",
+        "Deficiency and excess are distinguished",
+        "A label does not replace contextual reasoning"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Patience must fit the need; a timely respectful clarification may better serve the obligation. Neither calm appearance nor immediate intervention proves wisdom without the circumstances.",
+      "criteria": [
+        "Virtue is expressed as observable judgment",
+        "Deficiency and excess are distinguished",
+        "A label does not replace contextual reasoning"
+      ]
+    }
+  ]
+}

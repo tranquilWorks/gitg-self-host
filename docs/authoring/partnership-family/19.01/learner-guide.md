@@ -2,6 +2,10 @@
 
 Describe one observable family pattern across two occasions, preserve a valued part of it, and change one action within your own control. Use two twenty-minute passes and, only if suitable, a naturally occurring opportunity within two weeks. Family contact is not compulsory. This role-conditional task includes complete fiction and does not require contacting estranged relatives, recovering memories or disclosing private family history.
 
+## An existing contribution
+
+In this fictional case, Arun has already agreed with Leila to bring one loaf of bread to the 1 November meal. This commitment is separate from collecting other relatives’ replies. No dietary or purchasing information is supplied; do not infer that the loaf meets every guest’s needs.
+
 ## Notice a pattern without turning it into a diagnosis
 
 Family roles can include organizer, helper, peacekeeper, authority, confidant or outsider. A role may be useful, burdensome or both, and it can change with circumstances. Do not infer a person's fixed character from the role they occupied once. An alliance may simply mean two people often coordinate; observing it does not reveal their motives or prove they are conspiring against someone.
@@ -40,9 +44,10 @@ For a real attempt, select an ordinary low-stakes pattern you can observe withou
 
 [The Bowen Center's account of triangles, S11](../SOURCES.md#S11) supplies a theoretical lens on three-person communication. It is not imported as a universal causal law or a clinical diagnosis; the source's illness-causation language and family example are not used. [Safety guidance, S14](../SOURCES.md#S14) informs the separate route for unsafe contact. The two-event map and case are original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local guidance.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

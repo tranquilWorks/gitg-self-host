@@ -47,8 +47,8 @@ Use two side-by-side cards, a read-aloud comparison or neutral facilitator to re
 
 [OPM Developing Performance Standards, S05](../SOURCES.md#S05), supports clear, realistic and verifiable expectations and relevant measures. The federal appraisal rules are not imported. The fictional conversation and correction process are original, not employment advice or a validated management intervention.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability and normative status both remain role_conditional. Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records outside app evidence. Human dignity is never scored.
+Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

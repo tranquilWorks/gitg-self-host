@@ -2,6 +2,10 @@
 
 Improve one weak component against a fixed external criterion, then check whether it survives reintegration into the whole task. Allow twenty minutes to establish a baseline, two short practice attempts, a critique pass and a fresh integrated test. Use the complete paper borrowing task. One improvement does not establish mastery, talent or readiness for high-consequence work.
 
+## How to use the supplied outcomes
+
+The main and later packets narrate worked analysis: some explanations and outcomes are supplied. Use them to inspect reasoning, not to claim an unaided performance. Complete the changed-case attempt in the separate check-prompts file before opening its answer for a new application.
+
 ## Practice a discriminating weakness
 
 A vague aim such as “get better at explaining” gives little guidance. Observe a specific failure and identify a component whose correction could improve the real task. The challenge should be beyond current reliable performance while remaining safe and accessible. Repetition of what is already easy can build fluency but does not by itself address the unstable part.
@@ -26,7 +30,7 @@ The authorized paper procedure has three stages: **1. Ask the desk for approval 
 
 The fixed check asks whether a reader can identify **the action order including approval and logging, the normal return location, and the damaged-item contact/route**. These are three task criteria, not app points or a mastery score. Baseline text reads: “Ask the desk, write the ID and use the card. Return it to BLUE when finished; mention damage when convenient.” Its damage route is misleading.
 
-Baseline item B0 is a damaged map card. Practice items P1 and P2 are, respectively, an undamaged route card and a damaged map card. A fictional experienced desk steward's critique is: “The normal tray must never receive the damaged card; explain the exception before the return decision.” This is supplied critique, not an actual expert receipt. Fresh integration items will appear in the later packet.
+Baseline item B0 is a damaged map card. Practice items P1 and P2 are, respectively, an undamaged route card and a damaged map card. A fictional experienced desk steward's critique is: “The normal tray must never receive the damaged card; explain the exception before the return decision.” This is supplied critique, not an actual expert receipt. Worked integration items will appear in the later packet.
 
 ## Target, practice and reintegrate
 
@@ -46,9 +50,10 @@ In real work, choose a safe skill, legitimate standard and willing reviewer. Mai
 
 [Carnegie Mellon's Eberly Center learning principles, S09](../SOURCES.md#S09), distinguishes component learning, integration and goal-directed practice with criterion-specific feedback. These educational principles support the narrow practice structure; the linked research and any exact training dose were not evaluated. The borrowing procedure, three criteria and all cases are original, not a validated expertise assessment.
 
+## Use the result at its proper scale
 
-## Scope and evidence boundary
+The practical limits in this guide are exercise safeguards, not added canonical metadata.
 
-The canonical record has no professional_boundary field. The practical limits in this guide are exercise safeguards, not added canonical metadata.
+Paid employment, a career change or a particular work role is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private.
 
-Canonical applicability is context_sensitive. Paid employment, a career change or a particular work role is not compulsory. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

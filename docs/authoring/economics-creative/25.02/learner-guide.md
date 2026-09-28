@@ -66,8 +66,8 @@ For support, number details and draw simple arrows from two of them to each alte
 
 An actual record paired with a made miniature can show that particular details affected the work. A list of vivid adjectives alone cannot show transformation, and a polished fictional passage alone cannot establish observation. The claim stays small: richer attention supplied options that were absent from the first broad impression.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. Applicability remains elective_cultivation and normative status remains elective_but_flourishing_relevant. Creative cultivation is optional; access adaptations do not lower human worth. Fiction and no attempt are legitimate. Human dignity is never scored.
+Creative cultivation is optional; access adaptations do not lower human worth. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

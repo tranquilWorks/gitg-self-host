@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1601-ATTENTIVE-LISTENING-01
 slug: c1601-attentive-listening-practice
-name: Bounded Attentive listening Practice
+name: Check that you understood one speaker before offering your own view
 parent_competency_id: '16.01'
 domain_id: '16'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 16.01
-      (Attentive listening); canonical scope, evidence target, classification, domain boundary, and parent
-      mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 16.01; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,37 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Attentive listening through a pluralist meaning practice bounded by the canonical
-    scope: Give full attention, reflect meaning, ask clarifying questions, and resist preparing a rebuttal.'
-  why_recommended: 'The parent competency identifies this limited evidence target: The speaker agrees
-    that their position or feeling was understood before response. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Listen for the speaker’s actual meaning, clarify uncertainty and let them correct your summary
+    before you respond with advice or disagreement.
+  why_recommended: Listen for the speaker’s actual meaning, clarify uncertainty and let them correct your
+    summary before you respond with advice or disagreement.
   claims:
-  - statement: Using the canonical scope and evidence target for Attentive listening is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: Listen for the speaker’s actual meaning, clarify uncertainty and let them correct your
+      summary before you respond with advice or disagreement.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Attentive listening practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Attentive listening as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Attentive listening
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Attentive
-    listening; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use text, signing, speech-to-text, an interpreter or more processing time.
+    A partner may decline the exercise or feedback without penalty. Choose a different context when power,
+    conflict or privacy makes genuine correction unsafe.
+  opportunity_considerations: Invite a willing person to discuss an ordinary choice such as how to spend
+    a shared afternoon. Ask whether they are comfortable with you practicing a brief summary before responding.
+    Put away optional distractions while preserving communication aids. They may choose a fictional preference
+    instead of a personal concern.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Attentive listening.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Invite a willing person to discuss an ordinary choice such as how to spend a shared afternoon. Ask
+    whether they are comfortable with you practicing a brief summary before responding. Put away optional
+    distractions while preserving communication aids. They may choose a fictional preference instead of
+    a personal concern.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Attentive listening instead of
-    a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use text, signing, speech-to-text, an interpreter or more processing time. A partner may decline the
+    exercise or feedback without penalty. Choose a different context when power, conflict or privacy makes
+    genuine correction unsafe.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -78,18 +79,25 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-CONTEMPLATIVE-MEANING
   duration_days: 10
-  cadence: Complete three bounded Attentive listening actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Attentive listening; copy the canonical scope and evidence target into
-    a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Attentive
-    listening. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Attentive listening actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Invite a willing person to discuss an ordinary choice such as how to spend a shared afternoon.
+    Ask whether they are comfortable with you practicing a brief summary before responding. Put away optional
+    distractions while preserving communication aids. They may choose a fictional preference instead of
+    a personal concern. Goal: Listen for the speaker’s actual meaning, clarify uncertainty and let them
+    correct your summary before you respond with advice or disagreement. Scope: This is a willing low-stakes
+    conversation, not counseling, interrogation or an obligation to disclose personal material. Agreement
+    with the speaker is not required. Time and effort: Five minutes to prepare, a ten-minute conversation
+    and a five-minute private review. Adaptation: Use text, signing, speech-to-text, an interpreter or
+    more processing time. A partner may decline the exercise or feedback without penalty. Choose a different
+    context when power, conflict or privacy makes genuine correction unsafe. Keep personal working notes
+    outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use text, signing, speech-to-text, an interpreter or more processing time. A partner
+    may decline the exercise or feedback without penalty. Choose a different context when power, conflict
+    or privacy makes genuine correction unsafe.
+  expected_burden: Five minutes to prepare, a ten-minute conversation and a five-minute private review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Attentive listening protocol to rank worth, coerce participation, demand disclosure, override
@@ -97,19 +105,25 @@ intervention:
   - Treating a completed Attentive listening action, a polished artifact, agreement, confidence, speed,
     independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Attentive listening situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use text, signing,
+    speech-to-text, an interpreter or more processing time. A partner may decline the exercise or feedback
+    without penalty. Choose a different context when power, conflict or privacy makes genuine correction
+    unsafe.
   actions:
   - stable_id: PRACTICE-COMP-1601-ATTENTIVE-LISTENING-01-A1
     sequence: 1
-    title: Choose a declared frame for Attentive listening
-    instructions: 'Select a religious, spiritual, philosophical, cultural, or secular frame through which
-      to explore Attentive listening. State the frame, one alternative, and the limits of personal authority
-      using this canonical scope: Give full attention, reflect meaning, ask clarifying questions, and
-      resist preparing a rebuttal.'
+    title: Hear the account without building a counterargument
+    instructions: 'Let the person explain their preference and reasons without interrupting to solve the
+      problem. Notice the urge to rehearse your reply and redirect attention to their words. Keep only
+      three private anchors if needed: what they want, why it matters and what constraint they named.
+      Do not require eye contact, a particular posture or uninterrupted speech as proof of attention;
+      use the communication mode that works for both people.
+
+
+      Observation checks: The speaker chooses a welcome low-stakes topic; Preference reason and constraint
+      are heard as separate elements; Advice or rebuttal is withheld during the first account; Communication
+      supports and natural pauses remain available. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -125,15 +139,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1601_a1_primary
-        kind: conceptual
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1601_a1_frame_declared
-        - c1601_a1_alternative_acknowledged
-        - c1601_a1_authority_limited
+        - the_speaker_chooses_a_welcome_low_stakes_topic
+        - preference_reason_and_constraint_are_heard_as_separate_elements
+        - advice_or_rebuttal_is_withheld_during_the_first_account
+        - communication_supports_and_natural_pauses_remain_available
       - measurement_id: c1601_a1_boundary
         kind: boolean
         role: supporting
@@ -150,10 +165,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1601-ATTENTIVE-LISTENING-01-A2
     sequence: 2
-    title: Complete two bounded Attentive listening practices
-    instructions: Complete two short, freely chosen Attentive listening practices appropriate to the declared
-      frame, such as reading, silence, prayer, observation, ritual, dialogue, or reflection. Stop for
-      distress, coercion, altered-state risk, conscience conflict, or pressure from an authority or group.
+    title: Offer a tentative summary and one real clarification
+    instructions: 'Say the meaning in your own words: You would prefer a quiet afternoon because the week
+      was tiring, but you still want some time together; have I understood? Ask one neutral question about
+      a genuine uncertainty rather than a disguised objection. Invite correction and replace the inaccurate
+      part of your summary. Do not treat a polite yes or silence as proof of understanding when the person
+      signals uncertainty or cannot freely disagree.
+
+
+      Observation checks: The summary includes the speaker’s reason and constraint; A neutral question
+      addresses a real uncertainty; Correction is invited and incorporated without defense; Silence or
+      politeness is not automatically counted as confirmation. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -169,15 +192,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1601_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - the_summary_includes_the_speaker_s_reason_and_constraint
+        - a_neutral_question_addresses_a_real_uncertainty
+        - correction_is_invited_and_incorporated_without_defense
+        - silence_or_politeness_is_not_automatically_counted_as_confirmation
       - measurement_id: c1601_a2_boundary
         kind: boolean
         role: supporting
@@ -194,10 +218,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1601-ATTENTIVE-LISTENING-01-A3
     sequence: 3
-    title: Interpret the Attentive listening experience modestly
-    instructions: 'Review what was noticed without treating intensity, calm, certainty, group agreement,
-      or unusual experience as automatic truth. Compare the limited record with this evidence target:
-      The speaker agrees that their position or feeling was understood before response.'
+    title: Respond only after the speaker has checked the meaning
+    instructions: 'Ask whether they want your view, practical ideas or simply acknowledgment. Give the
+      chosen response and, when relevant, state your own preference without erasing theirs. At the end,
+      ask whether your summary captured what mattered and record only their broad confirmation, correction
+      or declined feedback. A fictional role-play counts as listening rehearsal, not evidence of understanding
+      this person’s real feelings.
+
+
+      Observation checks: The response mode is checked rather than assumed; Your position is distinguished
+      from the speaker’s position; The speaker’s actual feedback or refusal remains visible; Rehearsal
+      and real relational understanding are distinguished. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which part of the speaker’s meaning changed after clarification, and did your eventual
+      response address that corrected meaning?
+
+
+      Examples: Supportive: The listener discovered that the issue was exhaustion rather than disinterest
+      and changed the proposed activity while retaining their own wish for time together.
+
+
+      Mixed: The summary was mostly accurate, but one leading question pushed the speaker toward agreement
+      and needed a more neutral retry.
+
+
+      Contradictory: The listener used the summary to trap the speaker into a concession or diagnose an
+      emotion they had not reported.
+
+
+      Inconclusive: The listener waited silently but never checked meaning with the speaker before giving
+      advice.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -219,9 +271,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1601_a3_experience_and_interpretation_separated
-        - c1601_a3_alternative_explanation_retained
-        - c1601_a3_target_evidence_compared
+        - the_response_mode_is_checked_rather_than_assumed
+        - your_position_is_distinguished_from_the_speaker_s_position
+        - the_speaker_s_actual_feedback_or_refusal_remains_visible
+        - rehearsal_and_real_relational_understanding_are_distinguished
       - measurement_id: c1601_a3_boundary
         kind: boolean
         role: supporting
@@ -241,16 +294,17 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Attentive listening; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Attentive listening; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Use text, signing, speech-to-text, an interpreter or more processing time. A partner may decline
+      the exercise or feedback without penalty. Choose a different context when power, conflict or privacy
+      makes genuine correction unsafe.
     cultural_context:
     - Adapt the expression of Attentive listening to direct or indirect communication, collective or individual
       decision structures, local norms, faith or secular commitments, and role obligations while preserving
       consent and dignity.
     resource_variants:
-    - When a real Attentive listening opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use text, signing, speech-to-text, an interpreter or more processing time. A partner may decline
+      the exercise or feedback without penalty. Choose a different context when power, conflict or privacy
+      makes genuine correction unsafe.
   pause_conditions:
   - Pause Attentive listening when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -280,10 +334,8 @@ evidence_and_scoring:
   - c1601_a3_boundary
   - c1601_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Attentive listening action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Attentive listening criterion, depended on coercion or hidden
-    private content, or could not distinguish the protocol from contextual change.
+  - The listener used the summary to trap the speaker into a concession or diagnose an emotion they had
+    not reported.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Attentive listening explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -293,14 +345,23 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Attentive listening rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—The speaker agrees that their position or feeling was understood before response.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Attentive listening requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Hear the account without building a counterargument. Observed checks:
+    The speaker chooses a welcome low-stakes topic; Preference reason and constraint are heard as separate
+    elements; Advice or rebuttal is withheld during the first account; Communication supports and natural
+    pauses remain available. Action 2: Offer a tentative summary and one real clarification. Observed
+    checks: The summary includes the speaker’s reason and constraint; A neutral question addresses a real
+    uncertainty; Correction is invited and incorporated without defense; Silence or politeness is not
+    automatically counted as confirmation. Action 3: Respond only after the speaker has checked the meaning.
+    Observed checks: The response mode is checked rather than assumed; Your position is distinguished
+    from the speaker’s position; The speaker’s actual feedback or refusal remains visible; Rehearsal and
+    real relational understanding are distinguished.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. The listener waited silently but never checked meaning
+    with the speaker before giving advice.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Attentive
     listening contribution under typed evaluation; protocol performance remains distinct and is never
     counted twice.
@@ -308,9 +369,8 @@ evidence_and_scoring:
   recommendation_target_lever_ids:
   - L23
   - L24
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Attentive listening evidence.
@@ -318,10 +378,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The choose a declared frame for attentive listening action was attempted or explicitly deferred.
-  - The complete two bounded attentive listening practices action was attempted or explicitly deferred.
-  - The interpret the attentive listening experience modestly action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Hear the account without building a counterargument. Observed checks: The speaker chooses
+    a welcome low-stakes topic; Preference reason and constraint are heard as separate elements; Advice
+    or rebuttal is withheld during the first account; Communication supports and natural pauses remain
+    available.'
+  - 'Action 2: Offer a tentative summary and one real clarification. Observed checks: The summary includes
+    the speaker’s reason and constraint; A neutral question addresses a real uncertainty; Correction is
+    invited and incorporated without defense; Silence or politeness is not automatically counted as confirmation.'
+  - 'Action 3: Respond only after the speaker has checked the meaning. Observed checks: The response mode
+    is checked rather than assumed; Your position is distinguished from the speaker’s position; The speaker’s
+    actual feedback or refusal remains visible; Rehearsal and real relational understanding are distinguished.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -330,56 +399,305 @@ completion_and_review:
     - c1601_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Attentive listening only when the initial context remained safe,
-    the evidence criteria were usable, burden was acceptable, and a new context can be named without assuming
-    transfer.
-  transfer_limit: Three bounded actions do not establish Attentive listening across roles, cultures, relationships,
-    seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which part of the speaker’s meaning changed after clarification, and did your
+    eventual response address that corrected meaning?
+  transfer_limit: This is a willing low-stakes conversation, not counseling, interrogation or an obligation
+    to disclose personal material. Agreement with the speaker is not required.
   reflection:
-    before: What does Attentive listening require in this exact context, what remains outside my role
-      or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Attentive listening criterion is present, absent, mixed, or unknown, and
-      are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'The speaker agrees that their position or feeling was understood
-      before response.', what contradiction or missing context matters most, and should this Attentive
-      listening design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Listen for the speaker’s actual meaning, clarify
+      uncertainty and let them correct your summary before you respond with advice or disagreement.'
+    during: Which checks have actually been observed? The summary was mostly accurate, but one leading
+      question pushed the speaker toward agreement and needed a more neutral retry.
+    after: Which part of the speaker’s meaning changed after clarification, and did your eventual response
+      address that corrected meaning?
   review_guidance:
     repeat: Repeat the same bounded Attentive listening design only when the context and burden remain
       appropriate.
-    adapt: Change the Attentive listening medium, scope, support, timing, criteria, or context while preserving
-      provenance and the narrower evidence claim.
+    adapt: Use text, signing, speech-to-text, an interpreter or more processing time. A partner may decline
+      the exercise or feedback without penalty. Choose a different context when power, conflict or privacy
+      makes genuine correction unsafe.
     stop: Stop Attentive listening when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Attentive listening questions beyond
-      this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Attentive listening criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Attentive listening criteria were observed while burden, support, contextual change, or
-      a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Attentive listening criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Attentive listening action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: The listener discovered that the issue was exhaustion rather than disinterest and changed
+      the proposed activity while retaining their own wish for time together.
+    mixed: The summary was mostly accurate, but one leading question pushed the speaker toward agreement
+      and needed a more neutral retry.
+    contradictory: The listener used the summary to trap the speaker into a concession or diagnose an
+      emotion they had not reported.
+    inconclusive: The listener waited silently but never checked meaning with the speaker before giving
+      advice.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Attentive listening.
+    context_heading: Check that you understood one speaker before offering your own view
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Attentive
       listening.
   check_in_labels:
-    c1601_a1_primary: The bounded Attentive listening criterion for action 1 was observed
+    c1601_a1_primary: 'Observed checks: hear the account without building a counterargument'
     c1601_a1_boundary: Action 1 stayed inside its stated Attentive listening boundary
     c1601_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1601_a2_primary: The bounded Attentive listening criterion for action 2 was observed
+    c1601_a2_primary: 'Observed checks: offer a tentative summary and one real clarification'
     c1601_a2_boundary: Action 2 stayed inside its stated Attentive listening boundary
     c1601_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1601_a3_primary: The bounded Attentive listening criterion for action 3 was observed
+    c1601_a3_primary: 'Observed checks: respond only after the speaker has checked the meaning'
     c1601_a3_boundary: Action 3 stayed inside its stated Attentive listening boundary
     c1601_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Attentive listening
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which part of the speaker’s meaning changed after clarification, and did your eventual
+    response address that corrected meaning? Completion is not mastery.
+  plain_language_evidence: The listener discovered that the issue was exhaustion rather than disinterest
+    and changed the proposed activity while retaining their own wish for time together.
   display_order: 204
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '16.01'
+  title: 16.01 — Attentive listening
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [HSE — Controls to prevent violence](https://www.hse.gov.uk/violence/employer/controls-to-prevent.htm)
+
+      - [HSE — Advice for workers](https://www.hse.gov.uk/violence/worker/index.htm)
+
+      - [GOV.UK — Reasonable force against intruders](https://www.gov.uk/reasonable-force-against-intruders)
+
+      - [NPS — Ten Essentials](https://www.nps.gov/articles/10essentials.htm)
+
+      - [NPS — Trip Planning Guide](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+
+      - [American Red Cross — Water Safety](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html)
+
+      - [RNLI — Cold water shock](https://rnli.org/water-safety/know-the-risks/cold-water-shock)
+
+      - [U.S. State Department — International Travel Checklist](https://travel.state.gov/en/international-travel/planning/checklist.html)
+
+      - [FTC — Recover a hacked account](https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account)
+
+      - [FTC — What to do if scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [FTC — Identity theft](https://consumer.ftc.gov/articles/what-know-about-identity-theft)
+
+      - [NIST SP 800-34 Rev. 1 — Contingency Planning](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)
+
+      - [FEMA IS-244.B — Developing and Managing Volunteers](https://emilms.fema.gov/is_0244b/groups/223.html)
+
+      - [CDC — Preventing Respiratory Illnesses](https://www.cdc.gov/respiratory-viruses/prevention/index.html)
+
+      - [CDC — Cleaner Air](https://www.cdc.gov/respiratory-viruses/prevention/air-quality.html)
+
+      - [Right To Be — Five Ds of Bystander Intervention](https://righttobe.org/guides/bystander-intervention-training/)
+
+      - [NIOSH — Hierarchy of Controls](https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html)
+
+      - [HSE — Maintenance of work equipment](https://www.hse.gov.uk/work-equipment-machinery/maintenance.htm)
+
+      - [Weger et al. — Relative Effectiveness of Active Listening](https://stars.library.ucf.edu/scopus2010/9657/)
+
+      - [EPA — Wildfires and Indoor Air Quality](https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'The fictional speaker corrects one interpretation: “It isn’t that I hate planning. A timed
+      exhibition ticket is fine. I don''t want every hour filled. I need to be home by five, and I want
+      us to choose where to sit afterward on the day.”
+
+
+      A revised reflection should retain: wants the exhibition together; accepts a timed ticket; wants
+      an uncommitted choice afterward; needs to be home by five. “Out until five” was ambiguous if travel
+      home also takes time. Ask about the return journey before proposing a time that uses the whole window
+      away from home.
+
+
+      The fictional speaker then says, “Yes, that''s what I mean. I''d like one suggestion, not a whole
+      schedule.” A response with five competing itineraries would ignore the newly expressed request even
+      if the summary was accurate. Offer one scoped suggestion only after the confirmation step in this
+      simulated exchange.
+
+
+      Alternative outcomes matter: if the speaker declines feedback, confirmation is unknown; if the listener
+      says “you just dislike planning,” the correction was ignored; if the speaker confirms but disagrees
+      with a suggestion, understanding and agreement differ. If no real partner took part, no real speaker
+      has confirmed anything.
+
+
+      Your actual artifact is the reflection and revision you wrote or rehearsed. The supplied “yes” is
+      a learning example, never observer evidence about your real listening.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Let the speaker correct your understanding before you respond
+
+
+      Start with the fictional conversation below, or invite a willing person to discuss a low-stakes
+      shared plan for ten to fifteen minutes. You will listen for meaning, offer a tentative reflection,
+      ask a genuine clarifying question and revise before giving your view. The speaker may decline, stop
+      or withhold feedback. There is no requirement for eye contact, a particular posture, emotional disclosure
+      or agreement with you.
+
+
+      ### Attention is available room for the other person''s meaning
+
+
+      Full attention does not mean displaying one culturally preferred listening style. It means reducing
+      avoidable competing tasks and following the communication as well as your access needs allow. Keep
+      captions, interpreters, notes or communication devices that help. If you miss a point, say so and
+      ask for repetition rather than nodding to appear attentive. A shorter conversation with a clear
+      pause can be more usable than one you cannot follow.
+
+
+      Preparing a rebuttal can crowd out what is actually being said. Notice the moment you start building
+      your answer. You can mentally park one word about your response, then return to the speaker''s account.
+      You are not promising never to disagree; you are delaying your response long enough to check that
+      it addresses their real position. Listening is neither surrender nor an obligation to remain in
+      an unsafe or abusive exchange.
+
+
+      Reflection distinguishes content, importance and constraints. Content is what happened or what someone
+      proposes. Importance is why it matters to them, stated tentatively if inferred. A constraint is
+      a limit that a response should respect. Repeating words without connecting these elements may miss
+      the point; adding a diagnosis or motive can replace the person''s account with yours. “You want
+      some quiet time before the visit because the week felt full; is that close?” is checkable. “You
+      always avoid people” imports a general judgment.
+
+
+      A clarifying question should change your understanding. “Which part feels most important to keep?”
+      invites new information. “Don''t you think my plan is better?” prepares an argument in question
+      form. One useful question followed by attention can be better than a rapid interview. Reflection
+      and questions are tools for understanding, not techniques to extract agreement.
+
+
+      Research by Weger and colleagues compared active-listening responses, advice and acknowledgments
+      in initial interactions. Participants receiving active-listening responses felt more understood;
+      satisfaction did not distinguish active listening from advice in that study. This supports studying
+      listening while leaving broad relationship or therapeutic claims unproven. See S19 in [SOURCES](?resource=sources).
+      The exercise''s particular prompts are original teaching materials, not a validated instrument.
+
+
+      ### Worked example with a correction
+
+
+      Morgan says, “I want to see everyone, but I don''t want the whole afternoon scheduled.” Taylor first
+      reflects, “You don''t want to go.” Morgan corrects: “I do want to go; I want an hour without commitments
+      beforehand.” Taylor revises: “The visit matters to you, and you want a free hour first. Have I got
+      that right?” Only after Morgan confirms does Taylor ask whether a suggestion would be welcome. The
+      correction is evidence of learning, not a reason to defend the first paraphrase.
+
+
+      ### Complete fictional practice conversation
+
+
+      Speaker card: “I’d like us to visit the exhibition together on Saturday. I don’t want to book a
+      whole-day outing. Last time every hour was decided, and I came home feeling like I had rushed through
+      someone else’s plan. I can be out between two and five. I want one part of the afternoon that we
+      choose on the day.”
+
+
+      Listener''s private first impulse: “But buying timed tickets now would be more efficient. I should
+      explain why a full itinerary is sensible.” Treat this as a temptation to notice, not the correct
+      answer.
+
+
+      Before opening any later response, note three anchors: the proposed activity, why the speaker wants
+      a different kind of plan, and the stated time/choice constraints. Do not infer that the speaker
+      dislikes you, dislikes all planning or has a particular psychological trait. The fictional card
+      contains enough information to begin without requiring a personal disclosure.
+
+
+      ### Listen, clarify and revise
+
+
+      1. If using a partner, agree the topic, time and right to stop. Choose a real low-stakes preference
+      only if they freely want to share; otherwise use the fictional speaker card. Ask how they prefer
+      to communicate and what would make listening easier. Do not record audio or private details.
+
+      2. Read or hear the whole account. Notice your response impulse and park it briefly. Write only
+      the three anchors, using the speaker''s terms where possible. If this is a real conversation, notes
+      should be minimal and acceptable to the speaker.
+
+      3. Offer a tentative reflection that preserves the desire to visit and the limits on scheduling.
+      Label an inferred feeling as tentative. Avoid appending “but” and your argument. Ask whether your
+      understanding is close, leaving room for correction or no feedback.
+
+      4. Ask one neutral question whose answer would affect a plan: for example, whether the unscheduled
+      portion must be before the exhibition or can come afterward. Do not supply an answer on behalf of
+      a real speaker. In the fictional route, save your first reflection and question before opening the
+      [later packet](?resource=file-later-packet-md).
+
+      5. Revise the reflection using the actual reply or supplied fictional correction. If a speaker declines
+      confirmation, record that understanding was not confirmed and do not press for a reassuring yes.
+      If the topic is finished, respect that boundary.
+
+      6. Once understanding is confirmed in a real exchange, ask whether the person wants your view, possible
+      ideas or simply acknowledgment. Respond to that request within your own boundaries. The fictional
+      packet can illustrate this sequence but cannot produce an actual speaker''s agreement.
+
+
+      Your compact record is the initial reflection, the clarification/correction, the revised reflection
+      and feedback status. Keep only what is needed and agreed; do not save sensitive narratives to prove
+      listening. A real speaker''s “yes, that is what I meant” supports this exchange, not permanent listening
+      mastery or agreement with the plan.
+
+
+      ### Use disagreement and uncertainty well
+
+
+      If the speaker confirms the summary but rejects your proposal, understanding may have succeeded
+      while agreement did not. If they politely say “fine” and change the subject, the meaning of that
+      response can remain uncertain. Do not treat silence, a smile or lack of challenge as reliable confirmation,
+      especially where power differences make disagreement costly. Conversely, a correction can be a useful
+      sign that the process allowed the speaker''s meaning to become clearer.
+
+
+      For a lighter route, reflect the stated activity and one constraint before adding inferred meaning.
+      Use written exchange, captions, pauses or a helper/interpreter with everyone''s agreement, preserving
+      their contribution. A harder version contains two competing wishes; hold both in the summary rather
+      than resolving the tension for the speaker.
+
+
+      For real transfer, invite one ordinary planning conversation, obtain permission to try a brief summary,
+      and let the person correct it. If no one is available, complete the fictional work and keep real
+      speaker confirmation pending. Do not practice on a distressed person as an assessment exercise or
+      remain in coercive conversation to earn completion. Finish the [fresh checks](?attempt=practice-checks)
+      before the [corrective key](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A colleague says, “I want to join the project, but I cannot work evenings.” Your summary
+      is “You aren''t interested.” Correct it and give one useful clarifying question.
+
+      2. A speaker confirms your understanding and then disagrees with your proposal. Does that invalidate
+      the listening result?
+
+      3. A junior colleague smiles and says “fine” after you summarize. You did not explicitly invite
+      correction, and they change the subject. What may you record?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Preserve both interest and the limit: “You want to contribute within daytime availability.”
+      Ask, for example, “Which daytime hours could work?” Do not turn a constraint into disinterest or
+      use “Why can''t you just do evenings?” as disguised persuasion.
+
+      2. No. Confirmed understanding and agreement are different outcomes. Record the confirmation for
+      this exchange, then engage respectfully with the disagreement without claiming the speaker accepted
+      your plan.
+
+      3. Feedback is ambiguous; understanding is not clearly confirmed. You may gently allow correction
+      without pressure if the conversation remains open, or leave confirmation pending. A smile or lack
+      of challenge, especially across a power difference, is not reliable proof of agreement or understanding.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

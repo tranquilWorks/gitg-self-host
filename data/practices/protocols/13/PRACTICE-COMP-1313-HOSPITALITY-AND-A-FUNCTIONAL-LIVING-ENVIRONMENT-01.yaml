@@ -52,10 +52,15 @@ meaning_and_fit:
     or offer a brief doorstep exchange. Record which home functions the alternative does not test.
   opportunity_considerations: Choose a small space you may arrange and a real or fictional short visit.
     Consider the household's own use first; hospitality does not require a large home, expensive food
-    or access to private rooms.
+    or access to private rooms. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.
   prerequisites:
   - Choose a small space you may arrange and a real or fictional short visit. Consider the household's
     own use first; hospitality does not require a large home, expensive food or access to private rooms.
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.
   dependencies: []
   safe_alternatives:
   - Welcome someone in an accessible shared or public place, use a remote visit, or offer a brief doorstep
@@ -78,8 +83,10 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Choose a small space you may arrange and a real or fictional short visit. Consider the household''s
     own use first; hospitality does not require a large home, expensive food or access to private rooms.
-    Goal: Balance rest, practical use, privacy and welcome in one shared living area. Scope: One space
-    trial practices functional hospitality, comfort and shared use. It does not establish interior-design
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work. Goal: Balance rest, practical use, privacy and welcome in one shared living area. Scope: One
+    space trial practices functional hospitality, comfort and shared use. It does not establish interior-design
     expertise or universal aesthetic preferences. Time and effort: About 20–40 minutes to plan and make
     a reversible change, plus one ordinary use and review. Adaptation: Welcome someone in an accessible
     shared or public place, use a remote visit, or offer a brief doorstep exchange. Record which home
@@ -430,3 +437,56 @@ presentation:
   plain_language_evidence: A short visit had a clear seat, route and end time, and the room returned easily
     to ordinary use.
   display_order: 173
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '13.13'
+  title: Prepare a welcoming space without sacrificing household needs
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Hospitality creates a welcome within household capacity and boundaries. It does not require
+      money, private-room access or removing another resident’s supports.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Fictional visit: Rae is welcome Saturday 14:00–14:30, prefers a chair and quiet conversation,
+      and needs the existing clear entrance route. Resident Jo shares the room with Kim, whose reachable
+      work materials must remain in place. Two chairs and tap water are available; no food is promised.
+      Kim agrees to a 30-minute visit and no background music. No medical explanation is requested.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Plan the route, seat, simple welcome and ending. Identify one arrangement that would burden
+      the household rather than improve the visit.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A host offers a luxurious meal by spending money needed for an essential household bill. Does
+      generosity alone make the arrangement sound?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Use the available chair and clear route, offer water without pressure, keep Kim’s materials
+      and end at 14:30. Later fiction: Rae leaves 14:20 and says the quiet helped; no broader inclusion
+      outcome follows. Partial: welcome Rae but move Kim’s belongings without agreement. Incorrect: extend
+      the visit or require a reason for access preferences. A short visit is not lesser hospitality.'
+    criteria:
+    - Visitor and resident needs both shape the plan
+    - Available resources are sufficient without spectacle
+    - Access and timing follow actual agreement
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Respect actual household needs and choose a feasible welcome. Hospitality’s meaning does
+      not require an expense that undermines an existing obligation.
+    criteria:
+    - Visitor and resident needs both shape the plan
+    - Available resources are sufficient without spectacle
+    - Access and timing follow actual agreement

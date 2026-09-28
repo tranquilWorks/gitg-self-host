@@ -47,8 +47,8 @@ For support, use one outcome and calculate gross pay per work hour before adding
 
 An optional actual attempt might be a private rehearsal, a permitted portfolio summary or a small approved practice task. Job applications, employer contact and negotiations are not required to use this source companion. Real tax, employment or contract questions need qualified advice. A practice record plus later supervisor or artifact evidence could support capability growth; the supplied budget and imaginary negotiation do not establish a raise, an offer, employability or actual workplace acceptance.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise role is optional. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

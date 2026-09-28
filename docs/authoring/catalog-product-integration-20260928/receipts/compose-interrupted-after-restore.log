@@ -1,0 +1,153 @@
+./scripts/verify_compose.sh
+Docker Compose version v5.4.0
+
+==> Build and start the isolated application stack
+time="2026-09-28T03:33:07Z" level=warning msg="Docker Compose requires buildx plugin to be installed"
+ Image ggsmokelocal01279499-app Building 
+ Image ggsmokelocal01279499-app Building 
+Sending build context to Docker daemon  524.4kBSending build context to Docker daemon  1.049MBSending build context to Docker daemon  1.573MBSending build context to Docker daemon  2.098MBSending build context to Docker daemon  2.622MBSending build context to Docker daemon  3.146MBSending build context to Docker daemon  3.671MBSending build context to Docker daemon  4.195MBSending build context to Docker daemon   4.72MBSending build context to Docker daemon  5.244MBSending build context to Docker daemon  5.768MBSending build context to Docker daemon  6.293MBSending build context to Docker daemon  6.817MBSending build context to Docker daemon  7.342MBSending build context to Docker daemon  7.866MBSending build context to Docker daemon   8.39MBSending build context to Docker daemon  8.915MBSending build context to Docker daemon  9.439MBSending build context to Docker daemon  9.964MBSending build context to Docker daemon  11.01MBSending build context to Docker daemon  12.07MBSending build context to Docker daemon  12.59MBSending build context to Docker daemon  13.12MBSending build context to Docker daemon  13.64MBSending build context to Docker daemon  14.17MBSending build context to Docker daemon  14.69MBSending build context to Docker daemon  15.22MBSending build context to Docker daemon  15.74MBSending build context to Docker daemon  16.26MBSending build context to Docker daemon  16.79MBSending build context to Docker daemon  17.31MBSending build context to Docker daemon  17.84MBSending build context to Docker daemon  17.92MB
+Step 1/12 : FROM python:3.13-slim
+ ---> 9351a9a0a697
+Step 2/12 : ENV PYTHONDONTWRITEBYTECODE=1     PYTHONUNBUFFERED=1     PIP_DISABLE_PIP_VERSION_CHECK=1     APP_DATA_DIR=/data
+ ---> Using cache
+ ---> 24d47917b165
+Step 3/12 : WORKDIR /app
+ ---> Using cache
+ ---> d0c3c8de642e
+Step 4/12 : RUN groupadd --gid 10001 grounded     && useradd --uid 10001 --gid grounded --create-home --shell /usr/sbin/nologin grounded
+ ---> Using cache
+ ---> 4adadbdc96ff
+Step 5/12 : COPY requirements.txt ./
+ ---> Using cache
+ ---> 12aa61b5e8bc
+Step 6/12 : RUN python -m pip install --no-cache-dir -r requirements.txt
+ ---> Using cache
+ ---> aea3a6a28344
+Step 7/12 : COPY . .
+ ---> 19636f361614
+Step 8/12 : RUN mkdir -p /data/uploads /data/backups /app/staticfiles     && chown -R grounded:grounded /data /app
+ ---> Running in 54da225f2224
+Removing intermediate container 54da225f2224
+ ---> f57f38299133
+Step 9/12 : USER grounded
+ ---> Running in 8a94aa64e03d
+Removing intermediate container 8a94aa64e03d
+ ---> 51f163b13010
+Step 10/12 : EXPOSE 8000
+ ---> Running in e018c10b39ed
+Removing intermediate container e018c10b39ed
+ ---> 2b5ef710b52b
+Step 11/12 : ENTRYPOINT ["/app/docker-entrypoint.sh"]
+ ---> Running in 987511d22f5d
+Removing intermediate container 987511d22f5d
+ ---> 348441e7d537
+Step 12/12 : LABEL com.docker.compose.image.builder=classic
+ ---> Running in 2d25f69c78af
+Removing intermediate container 2d25f69c78af
+ ---> 6c43f606d08b
+Successfully built 6c43f606d08b
+Successfully tagged ggsmokelocal01279499-app:latest
+ Image ggsmokelocal01279499-app Built 
+ Image ggsmokelocal01279499-app Built 
+ Network ggsmokelocal01279499_default Creating 
+ Network ggsmokelocal01279499_default Creating 
+ Volume ggsmokelocal01279499_grounded_growth_data Creating 
+ Volume ggsmokelocal01279499_grounded_growth_data Creating 
+ Volume ggsmokelocal01279499_grounded_growth_data Created 
+ Volume ggsmokelocal01279499_grounded_growth_data Created 
+ Network ggsmokelocal01279499_default Created 
+ Network ggsmokelocal01279499_default Created 
+ Container ggsmokelocal01279499-app-1 Creating 
+ Container ggsmokelocal01279499-app-1 Created 
+ Container ggsmokelocal01279499-app-1 Starting 
+ Container ggsmokelocal01279499-app-1 Started 
+ Container ggsmokelocal01279499-app-1 Waiting 
+ Container ggsmokelocal01279499-app-1 Healthy 
+HTTP verification passed (success login expected).
+
+==> Verify migrations, canonical seed idempotency, and score-state replay
+Canonical seed complete: 37 levers, 383 competencies, 1403 weighted links, 383 practice protocols, 37 Pilot 002 baselines.
+Canonical seed complete: 37 levers, 383 competencies, 1403 weighted links, 383 practice protocols, 37 Pilot 002 baselines.
+Evidence verification passed: 0 events replayed for 0 submitted check-ins.
+Score-state verification passed for 1 assessment runs.
+Composite score-state verification passed for 1 assessment runs.
+composite scoring catalog verified: 383 competencies, 1151 actions, no missing dispositions
+Composite scoring readiness passed: 383 competencies, 383 practices, 1151 actions; specialist review remains pending.
+Competency-evidence reports are current.
+Pilot readiness verified (GG-PILOT-READINESS-1.0): 27 domains, 383 competencies, 37 levers, 15 archetypes, 555 archetype affinities, 1403 weighted links; 383 active protocols with 1151 actions and 383 score-active protocols; 1 Pilot 002 profile; 0 evidence events and 1 score-state runs replayed.
+Expansion readiness verified (GG-CURRICULUM-EXPANSION-READINESS-1.0): 383 canonical packages and 1151 actions project 383 runtime protocols; 0 of 383 competencies remain explicitly unauthored; 383 score-active protocols; 5 legacy-compatible projections; legacy projection hash 9eff5558607936aab20ec2adcdf4912510e9f8816cc291ae6b77918bf6711672.
+Competency-evidence software readiness verified (GG-COMPETENCY-EVIDENCE-READINESS-1.0): 383 canonical packages, 1151 actions, 0 explicitly unauthored competencies, 378 typed production protocols, 378 typed score-active protocols, and 383 total score-active protocols. Owner-directed M6F software activation is effective; the separate M6B specialist audit remains tracked as ER-M6A-003=pending and RG-M6A-002=open.
+Context readiness verified (GG-CONTEXT-READINESS-1.0): 0 assessment-context revisions and 0 practice-context revisions; recommendations, score state, and ordinary UI remain unchanged.
+Personal OS readiness verified (GG-PERSONAL-OS-READINESS-1.0): 0 private revisions across 0 assessment epochs; recommendations, score state, activation, and ordinary UI remain unchanged.
+Context-priority readiness verified (GG-CONTEXT-PRIORITY-READINESS-1.0): 383 canonical projected protocols, 383 score-active; synthetic replay passed and ordinary recommendations, score state, activation, and UI remain unchanged.
+M6C pilot readiness verified (GG-M6C-PILOT-READINESS-1.0): 6 prerequisite contracts, 5 baseline protocols, 2 authenticated browser routes, 0 Personal OS revisions, 0 assessment-context revisions, and 0 practice-context revisions. This is software readiness only; it does not approve release or deployment.
+M6D-01 source-only authoring readiness verified (GG-M6D-01-AUTHORING-READINESS-1.0): 383 source packages/1151 source actions, 383 runtime protocols/1151 runtime actions, a 4-protocol historical M6D-01 typed fixture cohort, and 383 score-active protocols. ER-M6A-003 is pending and RG-M6A-002 is open.
+Weekly execution readiness verified (GG-WEEKLY-EXECUTION-READINESS-1.0): 0 plan revisions, 0 proof reviews, and 0 exact proof events; evidence, scores, recommendations, and practice completion remain unchanged.
+M6H-02 operations readiness verified (GG-M6H-OPERATIONS-READINESS-1.0): 1 owner(s), 90 owner record(s), retention enabled=false; evidence, scores, recommendations, and completion remain unchanged.
+Assessment calibration collection verified (GG-ASSESSMENT-CALIBRATION-CONSENT-1.0): 0 active participant(s), 0 included assessment(s); zero participant evidence axes completed.
+Assessment calibration analysis readiness verified (GG-ASSESSMENT-CALIBRATION-ANALYSIS-READINESS-1.0) with 30 synthetic participants and zero completed evidence axes.
+
+==> Persist synthetic Personal OS and context revisions through public services
+38 objects imported automatically (use -v 2 for details).
+
+38 objects imported automatically (use -v 2 for details).
+
+M6C pilot readiness verified (GG-M6C-PILOT-READINESS-1.0): 6 prerequisite contracts, 5 baseline protocols, 2 authenticated browser routes, 1 Personal OS revisions, 1 assessment-context revisions, and 1 practice-context revisions. This is software readiness only; it does not approve release or deployment.
+M6D-01 source-only authoring readiness verified (GG-M6D-01-AUTHORING-READINESS-1.0): 383 source packages/1151 source actions, 383 runtime protocols/1151 runtime actions, a 4-protocol historical M6D-01 typed fixture cohort, and 383 score-active protocols. ER-M6A-003 is pending and RG-M6A-002 is open.
+Weekly execution readiness verified (GG-WEEKLY-EXECUTION-READINESS-1.0): 1 plan revisions, 1 proof reviews, and 0 exact proof events; evidence, scores, recommendations, and practice completion remain unchanged.
+M6H-02 operations readiness verified (GG-M6H-OPERATIONS-READINESS-1.0): 1 owner(s), 96 owner record(s), retention enabled=false; evidence, scores, recommendations, and completion remain unchanged.
+Assessment calibration collection verified (GG-ASSESSMENT-CALIBRATION-CONSENT-1.0): 0 active participant(s), 0 included assessment(s); zero participant evidence axes completed.
+Assessment calibration analysis readiness verified (GG-ASSESSMENT-CALIBRATION-ANALYSIS-READINESS-1.0) with 30 synthetic participants and zero completed evidence axes.
+
+==> Create and integrity-check an online SQLite backup
+backup=/data/backups/compose-smoke.sqlite3
+manifest=/data/backups/compose-smoke.sqlite3.manifest.json
+backup_verified=true migrations=28 critical_state_sha256=e5c317f827c2bf8eebebd23567efeec289c9ad0cc789d436bfdff7d5e14df1b6
+
+==> Prove volume and one-time bootstrap persistence across recreation
+38 objects imported automatically (use -v 2 for details).
+
+ Container ggsmokelocal01279499-app-1 Recreate 
+ Container ggsmokelocal01279499-app-1 Recreated 
+ Container ggsmokelocal01279499-app-1 Starting 
+ Container ggsmokelocal01279499-app-1 Started 
+ Container ggsmokelocal01279499-app-1 Waiting 
+ Container ggsmokelocal01279499-app-1 Healthy 
+HTTP verification passed (success login expected).
+HTTP verification passed (failure login expected).
+Score-state verification passed for 1 assessment runs.
+Composite score-state verification passed for 1 assessment runs.
+Composite scoring readiness passed: 383 competencies, 383 practices, 1151 actions; specialist review remains pending.
+Pilot readiness verified (GG-PILOT-READINESS-1.0): 27 domains, 383 competencies, 37 levers, 15 archetypes, 555 archetype affinities, 1403 weighted links; 383 active protocols with 1151 actions and 383 score-active protocols; 1 Pilot 002 profile; 0 evidence events and 1 score-state runs replayed.
+Expansion readiness verified (GG-CURRICULUM-EXPANSION-READINESS-1.0): 383 canonical packages and 1151 actions project 383 runtime protocols; 0 of 383 competencies remain explicitly unauthored; 383 score-active protocols; 5 legacy-compatible projections; legacy projection hash 9eff5558607936aab20ec2adcdf4912510e9f8816cc291ae6b77918bf6711672.
+Competency-evidence software readiness verified (GG-COMPETENCY-EVIDENCE-READINESS-1.0): 383 canonical packages, 1151 actions, 0 explicitly unauthored competencies, 378 typed production protocols, 378 typed score-active protocols, and 383 total score-active protocols. Owner-directed M6F software activation is effective; the separate M6B specialist audit remains tracked as ER-M6A-003=pending and RG-M6A-002=open.
+Context readiness verified (GG-CONTEXT-READINESS-1.0): 1 assessment-context revisions and 1 practice-context revisions; recommendations, score state, and ordinary UI remain unchanged.
+Personal OS readiness verified (GG-PERSONAL-OS-READINESS-1.0): 1 private revisions across 1 assessment epochs; recommendations, score state, activation, and ordinary UI remain unchanged.
+Context-priority readiness verified (GG-CONTEXT-PRIORITY-READINESS-1.0): 383 canonical projected protocols, 383 score-active; synthetic replay passed and ordinary recommendations, score state, activation, and UI remain unchanged.
+M6C pilot readiness verified (GG-M6C-PILOT-READINESS-1.0): 6 prerequisite contracts, 5 baseline protocols, 2 authenticated browser routes, 1 Personal OS revisions, 1 assessment-context revisions, and 1 practice-context revisions. This is software readiness only; it does not approve release or deployment.
+M6D-01 source-only authoring readiness verified (GG-M6D-01-AUTHORING-READINESS-1.0): 383 source packages/1151 source actions, 383 runtime protocols/1151 runtime actions, a 4-protocol historical M6D-01 typed fixture cohort, and 383 score-active protocols. ER-M6A-003 is pending and RG-M6A-002 is open.
+Weekly execution readiness verified (GG-WEEKLY-EXECUTION-READINESS-1.0): 1 plan revisions, 1 proof reviews, and 0 exact proof events; evidence, scores, recommendations, and practice completion remain unchanged.
+M6H-02 operations readiness verified (GG-M6H-OPERATIONS-READINESS-1.0): 1 owner(s), 97 owner record(s), retention enabled=false; evidence, scores, recommendations, and completion remain unchanged.
+Assessment calibration collection verified (GG-ASSESSMENT-CALIBRATION-CONSENT-1.0): 0 active participant(s), 0 included assessment(s); zero participant evidence axes completed.
+Assessment calibration analysis readiness verified (GG-ASSESSMENT-CALIBRATION-ANALYSIS-READINESS-1.0) with 30 synthetic participants and zero completed evidence axes.
+
+==> Restore the verified backup inside the isolated volume
+ Container ggsmokelocal01279499-app-1 Stopping 
+ Container ggsmokelocal01279499-app-1 Stopped 
+ Container ggsmokelocal01279499-app-1 Removing 
+ Container ggsmokelocal01279499-app-1 Removed 
+ Network ggsmokelocal01279499_default Removing 
+ Network ggsmokelocal01279499_default Removed 
+ Network ggsmokelocal01279499_default Creating 
+ Network ggsmokelocal01279499_default Creating 
+ Network ggsmokelocal01279499_default Created 
+ Network ggsmokelocal01279499_default Created 
+ Container ggsmokelocal01279499-app-run-880b87eb5791 Creating 
+ Container ggsmokelocal01279499-app-run-880b87eb5791 Created 
+ Container ggsmokelocal01279499-app-1 Creating 
+ Container ggsmokelocal01279499-app-1 Created 
+ Container ggsmokelocal01279499-app-1 Starting 
+ Container ggsmokelocal01279499-app-1 Started 
+ Container ggsmokelocal01279499-app-1 Waiting 
+ Container ggsmokelocal01279499-app-1 Healthy 
+backup_verified=true migrations=28 critical_state_sha256=e5c317f827c2bf8eebebd23567efeec289c9ad0cc789d436bfdff7d5e14df1b6

@@ -47,8 +47,8 @@ A written consultation, interpreter or neutral facilitator can support participa
 
 [GovS 002, S03](../SOURCES.md#S03), supports understanding stakeholder interests and updating engagement as facts change. The original case extends that narrow principle to transparent negotiation. It supplies no technique for covert influence and no promise that consultation produces consensus.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability and normative status both remain role_conditional. Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records outside app evidence. Human dignity is never scored.
+Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

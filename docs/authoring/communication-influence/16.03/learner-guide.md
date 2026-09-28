@@ -1,6 +1,6 @@
 # 16.03 — Notice a cue, then check what it means
 
-Nonverbal communication offers information about an interaction, but a movement is not a transparent label for an inner state. This companion helps you describe cues cautiously, adjust your own delivery and accept direct clarification. It accompanies the frozen legacy PracticeEmotionalCueDetection practice. Its existing actions, evidence fields, ten-day practice, seven-day follow-up, completion and replay stay unchanged. Use only the app's original fields if undertaking that practice; this document adds no score, completion rule or surveillance task.
+Nonverbal communication offers information about an interaction, but a movement is not a transparent label for an inner state. This companion helps you describe cues cautiously, adjust your own delivery and accept direct clarification. It supports the ten-day emotional-cue practice. Keep the ten-day practice and seven-day follow-up distinct from a short paper rehearsal. Record only what you actually observed and any direct clarification; do not monitor people to manufacture an observation.
 
 ## Read the situation without claiming a hidden answer
 

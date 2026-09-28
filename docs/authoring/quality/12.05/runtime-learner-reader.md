@@ -8,8 +8,6 @@ Use the supplied pattern map, capability screen, two-session record and separate
 
 About thirty to forty-five minutes of planning, two short sessions on separate suitable days, and a ten-minute recovery and progression review.
 
-Use seated, assisted, isometric, band, machine, bodyweight or other familiar equivalents already appropriate to the person; support is a legitimate condition, not a failed version. Use the instruction-first route when safety, technique, equipment or progression is uncertain. Preserve a rehabilitation or clinician plan and do not practice through injury, remove fall support, reveal private health information or use exercise as a test of worth.
-
 ## 1. Map the patterns and choose a capability-fit route
 
 Open the guide and map squat or rise, hinge, push, pull and carry to a familiar example, accessible equivalent, not-currently-relevant status or instruction-needed status. Complete the capability screen before selecting one pattern. Choose entry, established-plan or instruction-first; do not select by pride or peer comparison. Record the movement, support, planned dose already known to be tolerable, four technique and boundary criteria, recovery interval and stop conditions. If the route is instruction-first, complete the supplied consultation brief and do not improvise a physical test.
@@ -37,6 +35,14 @@ After a suitable recovery interval, record whether ordinary function returned to
 - One disposition follows the observed technique effort and recovery evidence
 - Progression stays inside established guidance and no strength-gain claim is inferred
 
+## Adaptation
+
+Use seated, assisted, isometric, band, machine, bodyweight or other familiar equivalents already appropriate to the person; support is a legitimate condition, not a failed version. Use the instruction-first route when safety, technique, equipment or progression is uncertain. Preserve a rehabilitation or clinician plan and do not practice through injury, remove fall support, reveal private health information or use exercise as a test of worth.
+
+## Review
+
+Which route and evidence justify repeating, regressing, progressing one variable, seeking instruction or stopping while preserving technique and recovery?
+
 Choose, observe and progress one strength pattern without guessing a program
 
 Learning guide — unscored
@@ -63,7 +69,7 @@ Prepare: the function or goal sought; current experience; the exact movement con
 
 Two-session private record
 
-Route and movement: __. Existing plan or instruction source: __. Equipment, range and support: __. Planned dose and recovery interval: __. Four observable technique or boundary criteria: T1 __; T2 __; T3 __; T4 __. Stop conditions: __. Session 1 actual work, T1-T4 [observed / mixed / not observed / unknown], ordinary-word effort, symptoms, support and early stop: __. Recovery before session 2: ordinary function returned [yes / no / unknown], delayed symptoms or unusual fatigue: __. Session 2 comparable conditions and T1-T4: __. Disposition [repeat / regress one variable / progress one variable inside plan / seek instruction / stop]: __. Evidence-limited reason: __. Keep private details here; the application check-in receives only allowlisted observations.
+Route and movement: __. Existing plan or instruction source: __. Equipment, range and support: __. Planned dose and recovery interval: __. Four observable technique or boundary criteria: T1 __; T2 __; T3 __; T4 __. Stop conditions: __. Session 1 actual work, T1-T4 [observed / mixed / not observed / unknown], ordinary-word effort, symptoms, support and early stop: __. Recovery before session 2: ordinary function returned [yes / no / unknown], delayed symptoms or unusual fatigue: __. Session 2 comparable conditions and T1-T4: __. Disposition [repeat / regress one variable / progress one variable inside plan / seek instruction / stop]: __. Evidence-limited reason: __. Keep personal symptoms and health details private; share them only with a suitable professional when needed.
 
 Worked example with no automatic progression
 
@@ -75,39 +81,3 @@ A progression decision follows the established plan or qualified instruction and
 
 Open the prompt in the practice guide: Select and justify the route
 Open the prompt in the practice guide: Decide what the evidence permits
-
-## Prompt: Select and justify the route
-
-Choose, observe and progress one strength pattern without guessing a program
-
-Learning guide — unscored
-
-Five-pattern capability map
-
-Make five rows: squat or rise | hinge | push | pull | carry. For each row record: a familiar current example or accessible equivalent | current route [entry / established plan / instruction first / not currently relevant] | equipment and support | what competent technique would require | what remains unknown. Examples are descriptive only: rising from a stable chair, moving an object from a raised surface with an already learned hinge, a wall or machine push, a band or machine pull, and carrying an ordinary object with a usual aid. Do not attempt an example merely because it appears here. The map is complete when every pattern has an honest status; it is not a requirement to train all five during this practice.
-
-Capability and boundary screen
-
-Before physical action record yes, no or unknown: the exact movement is already familiar; the equipment and environment are available and stable; required support can remain; the planned dose has been tolerated or belongs to an existing plan; technique criteria are known; a suitable recovery interval is available; and stop conditions are understood. Any no or important unknown moves the route to instruction-first or defer. Stop the attempt for chest discomfort, faintness, new or increasing pain, unusual breathlessness, loss of control, equipment instability or any existing clinician or rehabilitation stop rule. This screen does not provide medical clearance.
-
-Instruction-first consultation brief
-
-Prepare: the function or goal sought; current experience; the exact movement considered; available equipment, support and access needs; existing restrictions or plans stated only as needed; and what is unknown. Ask: Which movement or prerequisite should come first? What technique cues can be observed? What starting dose and recovery fit this person and goal? Which one variable could later change, under what criterion? What warning signs or equipment conditions require stopping or referral? Record only one category-level result: appropriate as proposed | appropriate with modification | different prerequisite first | needs another qualified route | defer. The consultation informs a plan; it is not evidence that strength improved.
-
-Select and justify the route
-
-Complete the five-pattern map and capability screen. Select entry, established-plan or instruction-first for one pattern. State the evidence supporting that route, list every no or unknown, and predeclare equipment, support, dose, four criteria, recovery interval and stop conditions. If selecting instruction-first, complete the consultation brief and do not substitute a physical attempt. Preserve the response before opening the check.
-
-## Prompt: Decide what the evidence permits
-
-Choose, observe and progress one strength pattern without guessing a program
-
-Learning guide — unscored
-
-Two-session private record
-
-Route and movement: __. Existing plan or instruction source: __. Equipment, range and support: __. Planned dose and recovery interval: __. Four observable technique or boundary criteria: T1 __; T2 __; T3 __; T4 __. Stop conditions: __. Session 1 actual work, T1-T4 [observed / mixed / not observed / unknown], ordinary-word effort, symptoms, support and early stop: __. Recovery before session 2: ordinary function returned [yes / no / unknown], delayed symptoms or unusual fatigue: __. Session 2 comparable conditions and T1-T4: __. Disposition [repeat / regress one variable / progress one variable inside plan / seek instruction / stop]: __. Evidence-limited reason: __. Keep private details here; the application check-in receives only allowlisted observations.
-
-Decide what the evidence permits
-
-Case: Session 1 used the planned familiar dose and met T1, T2 and T4, but control criterion T3 was mixed. The person repeated after ordinary recovery under the same conditions; T3 was again mixed. They feel eager to add load. Choose one disposition from repeat unchanged, regress one variable, progress one variable inside the established plan, seek instruction, or stop. Explain what evidence supports the decision and what the two sessions cannot establish. Preserve the answer before opening the check.

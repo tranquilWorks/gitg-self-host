@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "05.09",
+  "title": "Give two conflicting needs a place in one small decision",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Conflicting needs can both be intelligible. An arrangement should give each observable room while acknowledging tradeoffs and the other person’s freedom; it cannot guarantee belonging."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Jo wants independent hobby choice and some company. Jo has 45 minutes Saturday, paper and pencil. Jo chooses to draw an imaginary garden privately for 20 minutes. Friend Rae freely offers 15 minutes to look at the drawing without changing it; the remaining 10 minutes are available for a break. If Rae declines later, Jo may read a publicly shared gardening reflection, with no claim of reciprocal interaction."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Design the two parts, specify authority over the drawing and give a fallback that preserves the difference between reading and company.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person accepts help with setup while retaining their own artistic choices. Must that mean the independence need was betrayed?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "The45-minute allocation fits; Jo selects the subject and Rae controls participation. Later fiction: Rae cancels; Jo draws 20 minutes, reads 10 and rests 15. Independence was exercised, reciprocal company was not. Partial: call the public reflection a completed friendship exchange. Incorrect: pressure Rae to meet Jo’s emotional need. The unmet desire can remain without invalidating the available activity.",
+      "criteria": [
+        "Both needs receive concrete consideration",
+        "Another person is not assigned an obligation",
+        "Fallback evidence has its own honest limits"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Chosen assistance and self-directed decisions can coexist. Check what control was actually retained and whether the help was welcome, rather than equating independence with doing everything alone.",
+      "criteria": [
+        "Both needs receive concrete consideration",
+        "Another person is not assigned an obligation",
+        "Fallback evidence has its own honest limits"
+      ]
+    }
+  ]
+}

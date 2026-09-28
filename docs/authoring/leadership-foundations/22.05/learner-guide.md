@@ -45,8 +45,8 @@ A calculator, large-print topic cards or a spoken agenda can support the same re
 
 [S01](../SOURCES.md#S01) gives a narrow institutional example of pairing clear objectives with space and authority. [GovS 002, S03](../SOURCES.md#S03) supplies the principle of explicit decision roles and autonomy. The readiness conversation and fictional schedule are original adaptations, not a validated delegation instrument.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability and normative status both remain role_conditional. Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records outside app evidence. Human dignity is never scored.
+Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

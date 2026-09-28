@@ -1,149 +1,94 @@
 schema_version: 1
 batch:
-  id: M6K-ATTENTION-AGENCY-FINAL-THIRTEEN
-  title: Finish the thirteen remaining competency source companions
-  goal: Complete 07.13–07.14 and 08.01–08.11, individually review and verify, normally merge, and report
-    383/383 source coverage separately from runtime integration.
+  id: M6K-CATALOG-OWNER-RELEASE-20260928
+  title: Audit, polish and publish the owner-accepted competency product
+  goal: Verify final learner quality and startup performance, merge all catalog work, and publish a pullable
+    versioned container for owner inspection.
 sources:
-  product: products/gitg-self-host/product.yaml
+  baseline_commit: bdc092b
+  owner_instruction: Assume owner quality acceptance; perform final audit/polish, merge everything and
+    publish a Docker container for owner inspection.
   requirements:
-  - docs/plans/m6k/README.md
+  - docs/plans/m6k/program.json
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/attention-agency/SOURCES.md
-  - docs/authoring/attention-agency/cohort.json
-  - docs/authoring/attention-agency/QUALITY-REVIEW.md
-  milestone: M6K-ATTENTION-AGENCY-SOURCE-PUBLICATION
-  baseline_commit: 3d25f01efa8bee21f771917a41e76551e996ff14
-dependencies:
-- PR-102-merged
+  - docs/authoring/catalog-quality-audit-20260927/README.md
 scope:
   allowed_paths:
-  - MANIFEST.tsv
   - contracts/active-batch.yaml
-  - docs/authoring/SOURCE-CONSOLIDATION-STATUS.md
-  - docs/authoring/attention-agency/**
-  - docs/evidence/M6K-ATTENTION-AGENCY-FINAL-THIRTEEN.md
-  - tests/test_m6k_attention_agency_sources.py
-  forbidden_paths:
-  - data/**
-  - growth/**
-  - grounded_growth/**
-  - templates/**
-  - scripts/**
-  - docs/authoring/exercises/**
-  - docs/authoring/quality/**
-  - docs/authoring/reasoning-foundations/**
-  - docs/authoring/evidence-humility-forecasting/**
-  - docs/authoring/systems-causes-tradeoffs/**
-  - docs/authoring/risk-judgment-inference/**
-  - docs/authoring/models-information-execution/**
-  - tests/test_m6k_reasoning_sources.py
-  - tests/test_m6k_evidence_humility_forecasting_sources.py
-  - tests/test_m6k_systems_causes_tradeoffs_sources.py
-  - tests/test_m6k_risk_judgment_inference_sources.py
-  - tests/test_m6k_models_information_execution_sources.py
-  - docs/plans/m6k/**
   - contracts/tailored-practice-authoring.yaml
-  - requirements*.txt
-  - pyproject.toml
-  - Dockerfile
+  - contracts/catalog-guide-sources.yaml
+  - scripts/**
+  - growth/services/practice_content_reports.py
+  - growth/domain/instructional_content.py
+  - growth/views_instructional.py
+  - growth/templatetags/instructional.py
+  - templates/growth/practice_guide.html
+  - growth/static/growth/app.css
+  - data/practices/protocols/**
+  - data/practices/registries/guides/**
+  - data/practices/schema/instructional_content_v1.schema.json
+  - data/practices/release_manifest.yaml
+  - data/practices/registries/source_registry.yaml
+  - reports/**
+  - tests/**
+  - requirements.txt
   - docker-compose.yml
-  - .github/**
-  - docs/authoring/execution-capacity-closeout/**
-  - tests/test_m6k_execution_capacity_closeout_sources.py
-  - docs/authoring/health-foundations/**
-  - tests/test_m6k_health_foundations_sources.py
-  - docs/authoring/health-stewardship/**
-  - tests/test_m6k_health_stewardship_sources.py
-  - docs/authoring/adaptive-digital/**
-  - tests/test_m6k_adaptive_digital_sources.py
-  - docs/authoring/digital-judgment-preparedness/**
-  - tests/test_m6k_digital_judgment_preparedness_sources.py
-  - docs/authoring/resilience-community-listening/**
-  - tests/test_m6k_resilience_community_listening_sources.py
-  - docs/authoring/communication-influence/**
-  - tests/test_m6k_communication_influence_sources.py
-  - docs/authoring/respectful-connection/**
-  - tests/test_m6k_respectful_connection_sources.py
-  - docs/authoring/belonging-partnership/**
-  - tests/test_m6k_belonging_partnership_sources.py
-  - docs/authoring/partnership-family/**
-  - tests/test_m6k_partnership_family_sources.py
-  - docs/authoring/family-stewardship/**
-  - tests/test_m6k_family_stewardship_sources.py
-  - docs/authoring/civic-participation/**
-  - tests/test_m6k_civic_participation_sources.py
-  - docs/authoring/civic-work-foundations/**
-  - tests/test_m6k_civic_work_foundations_sources.py
-  - docs/authoring/work-delivery-voice/**
-  - tests/test_m6k_work_delivery_voice_sources.py
-  - docs/authoring/leadership-foundations/**
-  - tests/test_m6k_leadership_foundations_sources.py
-  - docs/authoring/governance-finance/**
-  - tests/test_m6k_governance_finance_sources.py
-  - docs/authoring/stewardship-enterprise/**
-  - tests/test_m6k_stewardship_enterprise_sources.py
-  - docs/authoring/economics-creative/**
-  - tests/test_m6k_economics_creative_sources.py
-  - docs/authoring/creative-culture-leisure/**
-  - tests/test_m6k_creative_culture_leisure_sources.py
-  - docs/authoring/leisure-life-design/**
-  - tests/test_m6k_leisure_life_design_sources.py
-  - docs/authoring/life-integration/**
-  - tests/test_m6k_life_integration_sources.py
-  - docs/authoring/emotional-foundations/**
-  - tests/test_m6k_emotional_foundations_sources.py
+  - docs/authoring/catalog-product-integration-20260928/**
+  - docs/plans/m6k/runtime-projections.json
+  - docs/plans/m6k/reviews.py
+  - docs/PROJECT_HANDOFF.md
+  - docs/evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md
+  - MANIFEST.tsv
+  - growth/domain/practice_content.py
+  - .github/workflows/verification.yml
+  - Dockerfile
+  - .env.example
+  - README.md
+  - docs/deployment.md
+  - docs/evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md
+  forbidden_paths:
+  - docs/authoring/catalog-quality-audit-20260927/**
+  - docs/authoring/catalog-remediation-20260927/**
+  - docs/authoring/quality/**
+  - docs/plans/m6k/recovery/**
+  - data/curriculum/**
+  - data/assessment/**
+  - data/model/**
+  - data/practices/registries/activation_ledger.yaml
 acceptance:
-- Owner requests finishing all remaining competencies under the continuing source-quality and normal-merge
-  workflow; application/browser/Compose/CI/CD deferred, not passed.
-- Preserve all 262 preceding companions and 1203 preceding source tests. Author thirteen distinct guides
-  with complete fictional materials, worked examples, ordered outputs, later records, three fresh checks
-  and corrective answers, support/harder routes and exact canonical scope maps.
-- Retain exact domain 07 professional boundaries and absent domain 08 professional_boundary fields, classification,
-  formation modes and measurement metadata. No diagnosis or qualified acceptance invented.
-- Help-seeking routes are location-bound, verified and distinguish booked from attended care; generalization
-  records unavailable and ineffective strategies separately without inducing distress.
-- Preserve the complete frozen 08.02 presence package, action IDs, six fields, three fifteen-minute windows,
-  comparison, repeat within seven days and completion rules. Preserve the complete existing 08.06 typed
-  package and all evidence semantics; validation range is not task duration permission.
-- Protect consent, access, essential needs and deferral across desire, restraint and discipline; adverse,
-  absent and incomplete outcomes remain explicit.
-- Source coverage becomes 108 implemented plus 275 additional companions equals 383/383, with zero remaining
-  IDs. Runtime stays 108 tailored / 275 pending / 383 protocols / 1151 actions.
-- Inspect official sources with dated narrow uses and retrieval limits. Review all thirteen guides and
-  39 corrective answers. Formal A/B/C, independent cold-start, actual learner, qualified and owner content
-  acceptance remain pending.
-- Run full source suite, focused Ruff, exact hashes, links, case boundaries, coverage, manifest, whitespace
-  and allowed/forbidden audit. No deployment, workflow edits or protection bypass.
+- All 383 competencies have a manifest-bound learner guide; individually authored actions replace remaining
+  270 generic typed practices.
+- Five frozen legacy projections remain byte-identical; four retained typed rules remain exact. Stable
+  IDs, action counts, completion rules, mappings, activation and scoring mathematics are unchanged.
+- Prospective primary observation criteria use the existing pure authoring compiler and immutable event
+  snapshots. No historical data write or in-flight practice replacement.
+- Preserve repaired source documents and historical reports. Explicit later packets, materials and answers
+  reach authenticated learners with safe formatting and no unrevealed key body.
+- Per-competency parity and app/browser tests distinguish software evidence from independent authorship,
+  specialist acceptance and actual learner results.
+- Owner authorizes merge and image publication after final checks. Owner product acceptance is recorded;
+  specialist, learner and formal per-competency reviews are not fabricated. No live instance is upgraded.
 validation:
   local:
-  - python -m unittest discover -s tests -p "*sources.py" -v
-  - python -m ruff format --check tests/test_m6k_attention_agency_sources.py
-  - python -m ruff check tests/test_m6k_attention_agency_sources.py
-  - python scripts/verify-manifest.py
+  - Ruff and Django checks
+  - pytest and source checks
+  - Playwright guide journeys
+  - pilot-check
+  - curriculum-check
+  - competency-evidence-check
+  - compose-smoke if available
+  - deterministic compiler and governance reports
+  - recovery invariants
+  - manifest verification
   - git diff --check
-  required_ci: []
-  focused_tests_to_add:
-  - Exact full source partition with zero remaining IDs
-  - Eight preserved input hashes and complete frozen protocol snapshots
-  - Distinct case arithmetic, missing outcomes and access boundaries
-  - Predecessor preservation, exact source hashes and local links
+  required_ci:
+  - Pilot readiness gate
 risk:
   class: moderate
-  hazards:
-  - Help-seeking guide mistaken for diagnosis or universal service routing
-  - Legacy presence or typed-start rules silently replaced
-  - Rest or deferral mislabeled as failure or completion
-  - Restraint mistaken for deprivation or clinical exposure
-  - Source coverage mistaken for runtime or qualified acceptance
   stop_conditions:
-  - Protected-path drift
-  - Unresolved material source defect or failing source verification
-  - Non-fast-forward push requiring destructive history repair
-rollback:
-  strategy: Revert this source-only batch; no participant data, migration or deployment is involved.
+  - Unexplained protected source drift
+  - Historical event or active/paused practice mutation
+  - Fabricated human acceptance
 evidence:
   output:
-  - docs/evidence/M6K-ATTENTION-AGENCY-FINAL-THIRTEEN.md
-  claim_boundary: Author editorial and source verification only; independent, actual learner, qualified
-    and owner content acceptance remain pending. CI/CD/application verification deferred, not passed.
+  - docs/evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md

@@ -55,8 +55,8 @@ For support, calculate the monthly gap first, then just the day-3 housing proble
 
 Useful progress could include an accurately limited plan and a later verified response, changed burden or continuity observation. A request, an approval, a payment and a recurring improvement are different events. One relief payment may reduce this month's deficit without addressing unstable income, housing cost or a benefits cliff. This case treats partial stabilization as partial, and human worth as entirely separate from financial circumstances.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

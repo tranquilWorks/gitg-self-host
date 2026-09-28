@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "01.11",
+  "title": "Cooperate across a real difference in priorities",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Fair representation preserves the other position’s reason and accepted cost, not merely its preferred outcome. A cooperative arrangement can protect different goods without requiring shared beliefs."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete fictional statements. Alex: “A predictable Saturday lets me keep a 16:00 care handoff; I enjoy discovery but cannot return late.” Bea: “I want one unfamiliar experience; repeating the same cafe feels limiting, but I do not need an all-day trip.” Options: familiar cafe 13:00–14:00; new nearby exhibition 13:00–14:30 plus 30-minute return; distant outing returning 16:30. Both may decline; no booking is made."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Represent both voices, ask one useful clarification and propose a shared option with its remaining cost. Save the proposal before reading the clarification.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "One person wants quiet conversation; another wants a crowded concert. Is saying “you both really want entertainment” adequate representation?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Later clarification: Alex welcomes an unfamiliar venue if home by 15:30; Bea prefers the exhibition but accepts a private no-photo visit. Nearby exhibition returns 15:00 and fits both; distant outing does not. Cafe remains feasible but does not serve Bea’s stated exploration preference as well. Partial: fit the clock while calling Alex afraid of novelty. Incorrect: invent agreement to stay late. No real consent or visit occurred.",
+      "criteria": [
+        "Both reasons and constraints are represented",
+        "The arrangement fits supplied facts",
+        "Agreement is not invented"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. It erases the different desired experiences. Ask about an actually welcome quieter shared time or separate participation; no arrangement must manufacture identical values or force agreement.",
+      "criteria": [
+        "Both reasons and constraints are represented",
+        "The arrangement fits supplied facts",
+        "Agreement is not invented"
+      ]
+    }
+  ]
+}

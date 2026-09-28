@@ -67,12 +67,16 @@ meaning_and_fit:
     special seating is available only after explaining your condition to the group. Members who overcome
     disability will be celebrated as an inspiration. Work on a private replacement, or choose a similarly
     manageable notice or invitation you have authority to change. No actual person supplies a diagnosis
-    or an inspirational story.'
+    or an inspirational story. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.'
   prerequisites:
   - 'Use this fictional club notice: Everyone must stand to introduce themselves; special seating is available
     only after explaining your condition to the group. Members who overcome disability will be celebrated
     as an inspiration. Work on a private replacement, or choose a similarly manageable notice or invitation
-    you have authority to change. No actual person supplies a diagnosis or an inspirational story.'
+    you have authority to change. No actual person supplies a diagnosis or an inspirational story. The
+    learning guide contains a complete fictional practice and a separate changed-case check. Choose that
+    route when a real situation is unavailable; its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use a private invitation, small group or fictional notice if you lack policy authority. Work in the
@@ -99,7 +103,9 @@ intervention:
     is available only after explaining your condition to the group. Members who overcome disability will
     be celebrated as an inspiration. Work on a private replacement, or choose a similarly manageable notice
     or invitation you have authority to change. No actual person supplies a diagnosis or an inspirational
-    story. Goal: Recognize ableist stereotypes, stigma, inaccessible defaults and unequal treatment, then
+    story. The learning guide contains a complete fictional practice and a separate changed-case check.
+    Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work. Goal: Recognize ableist stereotypes, stigma, inaccessible defaults and unequal treatment, then
     change language and participation arrangements within your authority. Scope: One invitation or participation
     rule is revised and checked against concrete cases. This is a bounded inclusion improvement, not a
     legal finding about discrimination or certification of an organization''s accessibility. Time and
@@ -501,3 +507,57 @@ presentation:
   plain_language_evidence: The replacement allowed seated and written participation, offered private access
     contact and removed compulsory public disclosure and inspiration framing.
   display_order: 83
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '06.13'
+  title: Replace an exclusionary default with a workable invitation
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: An inclusive invitation removes unnecessary conditions on participation while stating what can
+      actually be provided. A promise of accessibility without a delivery route is incomplete.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'New fictional invitation: “Join our free planning group. Only people who speak on camera may
+      vote; contact us privately with your diagnosis to request typed input. Everyone must explain a personal
+      obstacle they overcame.” Actual purpose: understand two proposals and communicate a preference.
+      Organizer can accept private text choices by 16:00 and circulate accessible written proposals; video
+      performance and medical details are unnecessary.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Write a replacement preserving the planning purpose and real deadline while removing the unnecessary
+      entry conditions. Mark it a proposal until adopted.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A notice says everyone may pass an introduction but requires a personal story before access
+      to the actual activity. Has the barrier been removed?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Offer the written proposals and an accepted text or willing spoken preference by 16:00; omit
+      diagnosis, camera and personal-story requirements. Later fiction: organizer adopts text voting but
+      the proposal document has not yet been sent. Access remains incomplete. Partial: remove the story
+      but retain the camera gate. Incorrect: claim universal access from welcoming words alone.'
+    criteria:
+    - The underlying purpose is preserved
+    - Unnecessary disclosure and performance gates are removed
+    - Adoption and actual delivery remain separate
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. The gate moved rather than disappeared. Preserve the activity’s legitimate prerequisites,
+      but remove unrelated compelled disclosure and confirm a workable participation route.
+    criteria:
+    - The underlying purpose is preserved
+    - Unnecessary disclosure and performance gates are removed
+    - Adoption and actual delivery remain separate

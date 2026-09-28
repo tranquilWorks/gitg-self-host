@@ -40,9 +40,10 @@ For optional real transfer, choose one small topic and ask whether a conversatio
 
 [WHO's working definition, S06](../SOURCES.md#S06) places sexual wellbeing in a respectful, coercion-free context; it does not mandate activity or pleasure outcomes. [CDC's contraception overview, S05](../SOURCES.md#S05) supports separating pregnancy prevention from infection protection and informed choice. No method regimen, efficacy percentage or treatment recommendation is imported. The agenda and dialogue are original learning tools.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

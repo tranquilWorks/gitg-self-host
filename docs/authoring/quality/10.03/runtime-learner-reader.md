@@ -35,7 +35,13 @@ Enter every question in the supplied backlog with type, exact wording, status, e
 - One refined next question has a feasible check
 - Unanswered questions remain visible without invented closure
 
+## Adaptation
+
 Use spoken questions, sketches or a private synthetic example. Curiosity about people is not permission to investigate their private lives. When no live observation is accessible, the supplied notice-board case supports question formation but not a real-world finding.
+
+## Review
+
+Did the inquiry answer the question you actually asked, or reveal a better question that the original wording hid?
 
 Observe, form and refine questions without inventing answers
 
@@ -51,7 +57,7 @@ For each candidate write: observed fact | expected pattern | contradiction or ga
 
 Synthetic notice-board evidence packet
 
-The fictional board is divided into four equal posting zones, Z1 through Z4. Twelve same-size notices are present. N1-N4 are in Z1, N5-N7 in Z2, N8-N10 in Z3 and N11-N12 in Z4. Overlap pairs are N1/N2, N2/N3, N5/N6, N8/N9 and N9/N10: five overlap pairs. Seven notices do not overlap another notice. Ten notices are fully inside a zone and two cross a zone boundary. A weekly log says expired notices were removed on schedule for four weeks. It contains no measure of readability, posting motives, board traffic or results from a board with clearer zones. This packet permits counting and question design; it does not establish why overlap occurs or what readers prefer.
+The fictional board is divided into four equal posting zones, Z1 through Z4. Twelve same-size notices are present. N1-N4 are in Z1, N5-N7 in Z2, N8-N10 in Z3 and N11-N12 in Z4. Overlap pairs are N1/N2, N2/N3, N5/N6, N8/N9 and N9/N10: five overlap pairs. Four notices—N4, N7, N11 and N12—do not overlap another notice. Count distinct notices separately from overlap pairs. Ten notices are fully inside a zone and two cross a zone boundary. A weekly log says expired notices were removed on schedule for four weeks. It contains no measure of readability, posting motives, board traffic or results from a board with clearer zones. This packet permits counting and question design; it does not establish why overlap occurs or what readers prefer.
 
 Private question backlog
 

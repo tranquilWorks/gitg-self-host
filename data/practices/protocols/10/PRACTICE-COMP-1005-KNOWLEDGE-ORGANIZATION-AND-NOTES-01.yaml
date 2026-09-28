@@ -136,7 +136,9 @@ intervention:
       title, source label, own-words explanation, worked 1-2-9 example, future-use question and retrieval
       cue. Reopen the card, correct any distorted definition or arithmetic and retain the original correction.
       Complete the note-quality prompt before revealing its rubric. Do not copy the entire card or replace
-      a missing idea with decorative formatting, links or a large tag hierarchy.
+      a missing idea with decorative formatting, links or a large tag hierarchy. After learning from the
+      averages example, complete the separate new-note prompt to practice creating a note whose finished
+      version is not supplied.
 
 
       Observation checks: The note has a findable descriptive title; Definitions and example are compressed
@@ -562,6 +564,17 @@ instructional_content:
       failures instead of reorganizing everything. This exercise observes one note, one route and one
       application. It does not establish long-term retention, broad knowledge management ability or the
       superiority of one note-taking method.
+  - id: new-note
+    kind: prompt
+    title: Create a note from a different source
+    body: 'Teaching source S2, “Comparing unit costs,” authored fictional card, revision 1: unit cost
+      is total price divided by quantity in the same unit. A smaller unit cost does not establish affordability,
+      suitability or less waste. Two pencil packs cost $6 for 4 pencils and $8 for 8 pencils. Close S2
+      and create a short own-words note with source, worked comparison, limitation, meaningful purchasing
+      connection and a retrieval cue. Reopen S2 only to verify your note, preserving corrections. Add
+      it as N4 under Shopping quantities; close it and test finding it from that cue.'
+    check_id: new-note-key
+    attempt_mode: unaided
   checks:
   - id: note-rubric
     title: Check the candidate notes
@@ -588,3 +601,13 @@ instructional_content:
     - The explanation relates the extreme value to mean and median differently.
     - Missing spread or distribution information is named.
     - The revision responds to the observed use problem and the support/delay record is honest.
+  - id: new-note-key
+    title: 'Check: Create a note from a different source'
+    body: A sound note retains S2 revision 1, computes $1.50 and $1 per pencil, distinguishes lower unit
+      cost from lower upfront cost, and names quantity needed or waste as an unresolved purchasing consideration.
+      Many titles and phrasings work. A pasted card without a useful cue is incomplete. Report the actual
+      retrieval result; the supplied calculation is not proof you found your note.
+    criteria:
+    - Accurate compression and source.
+    - A worked comparison and substantive limitation.
+    - A meaningful index connection and actual retrieval attempt.

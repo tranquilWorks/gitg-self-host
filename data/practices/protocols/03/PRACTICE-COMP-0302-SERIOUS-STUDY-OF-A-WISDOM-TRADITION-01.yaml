@@ -85,13 +85,17 @@ meaning_and_fit:
     Book One, opening entries through Rusticus; and Modern Stoicism's About Us page. The numbered passages
     and prompts below define the unit. Paper or spoken notes suffice. Another chosen tradition needs an
     accessible primary passage, historical context, an exemplar and a self-described living community
-    before substitution; otherwise use this default.
+    before substitution; otherwise use this default. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.
   prerequisites:
   - Use the linked Enchiridion sections 1, 17 and 31; Marcus Aurelius, Meditations Book One, opening entries
     through Rusticus; and Modern Stoicism's About Us page. The numbered passages and prompts below define
     the unit. Paper or spoken notes suffice. Another chosen tradition needs an accessible primary passage,
     historical context, an exemplar and a self-described living community before substitution; otherwise
-    use this default.
+    use this default. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.
   dependencies: []
   safe_alternatives:
   - Use text to speech or divide the named sections into short readings. If source access fails, use the
@@ -117,7 +121,9 @@ intervention:
     entries through Rusticus; and Modern Stoicism''s About Us page. The numbered passages and prompts
     below define the unit. Paper or spoken notes suffice. Another chosen tradition needs an accessible
     primary passage, historical context, an exemplar and a self-described living community before substitution;
-    otherwise use this default. Goal: Build an account of one tradition from primary passages, historical
+    otherwise use this default. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work. Goal: Build an account of one tradition from primary passages, historical
     setting, an exemplar, practice, internal differences and a present community''s own account. Scope:
     This is a small study unit, not completion of a tradition. The default examines ancient Stoic texts
     and a contemporary organization; one organization never represents all adherents. Study does not require
@@ -513,3 +519,60 @@ presentation:
   plain_language_evidence: The learner connected passage, setting, exemplar, a request they actually made,
     a disagreement over providence and a current organization's self-description.
   display_order: 37
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '03.02'
+  title: Study one wisdom tradition beyond its slogans
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Studying a tradition requires primary wording, historical situation, an exemplar and living
+      interpretation. One phrase cannot settle all four. A contemporary community’s self-description is
+      evidence of its own aims, not of every adherent or ancient author.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Interpretation exercise accompanying the assigned sources: learner A writes “distinguishing
+      what I choose from what happens means other people’s suffering is irrelevant.” Learner B writes
+      “I can choose my response while taking another person’s need seriously; whether help succeeds is
+      not fully mine to decide.” Neither sentence is a quotation. Keep actual passages open for the source-based
+      practice.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Compare A/B against the assigned texts, locate the relevant passage and note an interpretive
+      limit. Draft one small appropriate action; if a source cannot be accessed, label that comparison
+      unverified rather than inventing words.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A modern community page describes its own inclusive events. Can this establish that every historical
+      practitioner used the same interpretation?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'A turns a distinction about agency into a blanket moral dismissal not established by the supplied
+      sentence. B preserves agency and possible responsibility without promising outcomes. Cite what the
+      actual passage does and does not support. Partial: prefer B without textual support. Incorrect:
+      invent a quotation or treat ancient social assumptions as binding modern instructions. The live
+      action and tradition membership remain separate.'
+    criteria:
+    - Interpretations have actual textual anchors
+    - Caricature and anachronism are challenged
+    - Source access and actual practice are reported honestly
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. It establishes a self-described contemporary position. Compare dated primary/context sources
+      for the historical claim; continuity and difference both need evidence.
+    criteria:
+    - Interpretations have actual textual anchors
+    - Caricature and anachronism are challenged
+    - Source access and actual practice are reported honestly

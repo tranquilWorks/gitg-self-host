@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "06.07",
+  "title": "Design a cognitive support around an observed task difficulty",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A cognitive support should address an observed task mismatch and be evaluated through the person’s use. More prompts are not automatically more support; a diagnosis need not be inferred or disclosed."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Use1 fictional plan: time Tuesday 16:00; question “which room?”; change route omitted because the long instruction was lost midway. Use2 with three labeled entries: Thursday 15:00; question “is paper supplied?”; changes by the already agreed text channel. All three entries are present, but a new repeating alert interrupts the person four times and they ask for it to stop. No diagnosis or controlled comparison is supplied."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Compare completeness and burden, identify which support to retain provisionally and which to stop with the person’s agreement. Keep the distinct plan facts rather than declaring one universal solution.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person completes all steps using a chosen reader but the helper supplies one substantive answer. What support must the record distinguish?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "The labeled entries support a complete second plan; repeating alerts add an unwanted cost. Stop the unwanted alert and retain or revise labels according to preference. Partial: count only completed fields. Incorrect: infer a diagnosis or force more alerts to improve compliance. Different occasions prevent a clean causal claim.",
+      "criteria": [
+        "Support responds to a concrete mismatch",
+        "Benefit and new burden are recorded separately",
+        "Access and content assistance are distinguished"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Access reading and a content hint are different. Preserve both the completed task and the supplied answer; do not describe wholly independent content performance or treat ordinary reading support as failure.",
+      "criteria": [
+        "Support responds to a concrete mismatch",
+        "Benefit and new burden are recorded separately",
+        "Access and content assistance are distinguished"
+      ]
+    }
+  ]
+}

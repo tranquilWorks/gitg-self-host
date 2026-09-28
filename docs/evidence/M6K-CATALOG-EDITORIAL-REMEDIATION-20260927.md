@@ -1,0 +1,13 @@
+# M6K catalog editorial remediation
+
+Owner direction: bring every competency up to the agreed editorial standard, remove actionable editorial blockers, and use at most five passes. Scope: all 383 sources; synchronize only the existing 108 implemented lessons; preserve the original audit, canonical model, identities, scoring, retained evidence and formal review states.
+
+The [delivery report](../authoring/catalog-remediation-20260927/README.md) and [383-entry register](../authoring/catalog-remediation-20260927/register.json) record 310 repaired entries and 73 reviewed entries requiring no edit. The [desk-review record](../authoring/catalog-remediation-20260927/DESK-REVIEW.md) gives domain-specific competent, partial and adverse interpretations. Continuing-author editorial review is explicitly not independent authorship certification or formal C1 acceptance.
+
+Ninety earlier lessons now have complete structured teaching/material/prompt/key routes. Eleven existing implemented lessons also changed, for 101 revised runtime source packages. All 275 companion runtime packages remain unchanged. The existing implementation selection remains 108, including 107 structured lessons and the compact 13.16 design. No new source companion was activated.
+
+Validation is source integrity, nonblinded desk analysis and static runtime projection. The source suite passed 1,234 tests; three compiler/source tests passed and 16 application/database tests were deselected. Recovery preserved 383 protocols and 1,151 actions with prospective content; all evidence rules and the formal ledger remain unchanged. Current fingerprints, generated report checks, reveal checks, scoped-diff checks, and precise limits appear in the linked report and its verification JSON.
+
+The initial source run had 34 failures caused by stale metadata-placement expectations, source/test hashes and an exact answer-section count after a new check was added. Repairs made assertions enforce metadata in author documentation and its absence from learner copy; retained canonical/safety facts, frozen protocol checks and exact hashes remain tested. Hashes were refreshed only for authorized prospective inputs, with original records preserved in the baseline commit. A final regression caught and removed 12 remaining normative-status strings. The initial pytest invocation was interrupted to use the repository's established source-only unittest runner; it is not reported as a pass.
+
+Research and specialist gates remain open. No independent learner-only run, actual learner/physical/clinical/relational outcome, qualified sign-off, application/browser/Compose/CI/CD, merge, release or deployment is claimed. The maximum of five editorial passes is retained in the machine-readable pass register.

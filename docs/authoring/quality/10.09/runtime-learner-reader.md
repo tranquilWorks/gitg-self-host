@@ -28,14 +28,18 @@ Build rows from 000 through 111 and calculate each weighted sum. Check that the 
 
 ## 3. Explain the result and test a limited extension
 
-Without copying the reference, explain 110 as 4 plus 2. Then predict how a fourth place with value 8 would represent 9, and verify 1001 by adding its included values. State what you now understand and what remains outside the exercise, such as signed values or computer encodings. Choose the next small learning question only after preserving the checked first result.
+Without copying the reference, explain 110 as 4 plus 2. Then complete the guide’s four-bit extension before opening its check, calculating each weighted sum. State what you now understand and what remains outside the exercise, such as signed values or computer encodings. Choose the next small learning question only after preserving the checked first result.
 
 - The learner explains a row in their own words
 - A new four-place example is attempted and checked
 - Known and unlearned material are distinguished
 - The next question follows demonstrated initial work
 
-Use physical counters, large-print place values or audio explanation. An experienced learner may use the extension as the initial target and explain why 1111 is 15. Do not practice independent learning on hazardous or regulated tasks without required supervision.
+## Adaptation
+
+Use physical counters, large-print place values or audio explanation. An experienced learner may use the extension as the initial target and justify each unfamiliar row before checking it. Do not practice independent learning on hazardous or regulated tasks without required supervision.
+
+## Review
 
 Where did independent effort help, and where did a precise question or reference prevent wasted effort?
 

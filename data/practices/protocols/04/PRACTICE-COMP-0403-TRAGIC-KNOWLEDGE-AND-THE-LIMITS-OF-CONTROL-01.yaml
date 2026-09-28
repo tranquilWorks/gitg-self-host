@@ -57,12 +57,16 @@ meaning_and_fit:
   opportunity_considerations: 'Use this case: a volunteer group has one remaining quiet room and the same
     two-hour slot requested by a study group and a bereavement-support group. Both followed the rules
     and neither caused the shortage. No safe extra room or different date is currently available. Your
-    task is to reason about a fair process, not decide a real group''s access.'
+    task is to reason about a fair process, not decide a real group''s access. The learning guide contains
+    a complete fictional practice and a separate changed-case check. Choose that route when a real situation
+    is unavailable; its results are rehearsal, not performed real-world work.'
   prerequisites:
   - 'Use this case: a volunteer group has one remaining quiet room and the same two-hour slot requested
     by a study group and a bereavement-support group. Both followed the rules and neither caused the shortage.
     No safe extra room or different date is currently available. Your task is to reason about a fair process,
-    not decide a real group''s access.'
+    not decide a real group''s access. The learning guide contains a complete fictional practice and a
+    separate changed-case check. Choose that route when a real situation is unavailable; its results are
+    rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use drawings or spoken alternatives and a neutral scheduling conflict. No real vulnerable group should
@@ -86,9 +90,11 @@ intervention:
   setup: 'Use this case: a volunteer group has one remaining quiet room and the same two-hour slot requested
     by a study group and a bereavement-support group. Both followed the rules and neither caused the shortage.
     No safe extra room or different date is currently available. Your task is to reason about a fair process,
-    not decide a real group''s access. Goal: Recognize that decent people can suffer, good efforts can
-    fail and some choices preserve one good while losing another, then reason and act without denial or
-    automatic nihilism. Scope: A fictional low-stakes conflict develops tragic reasoning. It does not
+    not decide a real group''s access. The learning guide contains a complete fictional practice and a
+    separate changed-case check. Choose that route when a real situation is unavailable; its results are
+    rehearsal, not performed real-world work. Goal: Recognize that decent people can suffer, good efforts
+    can fail and some choices preserve one good while losing another, then reason and act without denial
+    or automatic nihilism. Scope: A fictional low-stakes conflict develops tragic reasoning. It does not
     equip the participant to make emergency, clinical or life-and-death allocation decisions. Some losses
     can be reduced; that does not mean every conflict has a painless resolution. Time and effort: Three
     sessions of about 20 minutes using the supplied case and one ordinary application. Adaptation: Use
@@ -174,10 +180,10 @@ intervention:
     title: Choose a process you can justify to the disadvantaged side
     instructions: 'Select a process for the stated facts, giving a reason connected to access, need, prior
       commitments or fair treatment. Explain it as if speaking to the group that loses the slot, without
-      claiming they should be grateful. Name a mitigation that is genuinely available, such as first consideration
-      at the next opening, and label it insufficient to replace the lost occasion. State who would have
-      actual authority to decide and how a factual mistake could be corrected. Acknowledging moral remainder
-      is part of the answer.
+      claiming they should be grateful. Name a mitigation that is genuinely available, such as an honest
+      notice of the next opening, without promising priority, and label it insufficient to replace the
+      lost occasion. State who would have actual authority to decide and how a factual mistake could be
+      corrected. Acknowledging moral remainder is part of the answer.
 
 
       Observation checks: A decision process has a relevant reason; The explanation acknowledges the disadvantaged
@@ -464,3 +470,57 @@ presentation:
   plain_language_evidence: The process was explained honestly, mitigation stayed proportionate and the
     ordinary trial preserved respect for the activity that could not be chosen.
   display_order: 51
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '04.03'
+  title: Face a costly choice without inventing a lossless answer
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A tragic choice can leave a real loss after a defensible decision. Fair process does not require
+      the disadvantaged people to endorse the outcome or feel grateful.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Two groups requested the only quiet room for Saturday 14–16: study and bereavement support.
+      Both are eligible and applied at the same time. Posted rule: simultaneous eligible requests go to
+      an observed lottery run by the venue coordinator. No urgency exception or alternative room/date
+      exists today. The coordinator may accept a correction to eligibility facts before the draw. The
+      next opening has no known date or priority arrangement.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Apply the rule, explain the decision to the group losing the draw and distinguish actual mitigation
+      from an unconfirmed possibility. Do not presume either group’s lesser worth.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A decision maker says “the process was fair, so nobody suffered a loss.” What is missing?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'The coordinator can run the agreed lottery after checking eligibility; the losing occasion
+      remains lost. Offer accurate future availability information when known, not invented first priority.
+      Later fiction: study wins the draw; bereavement support receives notice but no replacement. Partial:
+      cite fairness without naming the loss. Incorrect: invent urgency or promise the next slot. A different
+      case could justify another process, but not by quietly rewriting this one.'
+    criteria:
+    - The process has actual authority
+    - Unavailable mitigation is not invented
+    - The disadvantaged group’s loss remains visible
+  - id: changed-case-check
+    title: Check the changed case
+    body: Process justification and remaining harm are separate. Describe the actual lost opportunity
+      and feasible response without undoing the explanation of the decision.
+    criteria:
+    - The process has actual authority
+    - Unavailable mitigation is not invented
+    - The disadvantaged group’s loss remains visible

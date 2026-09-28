@@ -443,8 +443,8 @@ class DecisionCases(unittest.TestCase):
         t = text("09.12", "learner-guide.md")
         for phrase in (
             "does not create a reminder",
-            "existing reviewed observation fields",
-            "not production observations",
+            "Keep the detailed decision record private",
+            "do not establish that you made a prospective decision record",
         ):
             self.assertIn(phrase, t)
 

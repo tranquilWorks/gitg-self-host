@@ -46,9 +46,10 @@ Real transfer is optional and consists of applying respectful communication only
 
 [RAINN's consent guidance, S04](../SOURCES.md#S04) informs the specificity, ongoing choice and pressure distinctions. It is specialist education, not a local legal ruling. The four cases, corrective task and no-contact format are original; they have not been validated as an assessment instrument.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

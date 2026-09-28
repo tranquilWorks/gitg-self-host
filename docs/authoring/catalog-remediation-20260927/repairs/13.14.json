@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.14",
+  "title": "Trace one housing issue to documents and appropriate help",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A housing document states contractual wording; whether a term is lawful or enforceable requires the actual jurisdiction and circumstances. A factual maintenance record can be prepared without making that legal determination."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Entire fictional agreement extract: report nonemergency fixture problems through the manager’s written portal; keep a copy and access reference; manager will acknowledge within two working days. This is a training stipulation, not law. Problem: a cupboard door handle has been loose since Monday; no injury, emergency or structural damage is reported. Today Tuesday. Resident may report but has no supplied repair permission. No rent-withholding or legal remedy term exists."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Draft the dated factual request, identify the response point and prepare a question for an appropriate local housing-information service if the issue remains unresolved.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A sample lease says a repair fee applies. Can a learner conclude the term is legally enforceable everywhere?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Report the loose handle and practical difficulty, request inspection and retain the copy/reference. Later fiction: portal receipt arrives Tuesday, no acknowledgment by Thursday; use the stated follow-up route and seek applicable local information rather than inventing a legal breach or remedy. Partial: report without date or record. Incorrect: withhold payment or self-authorize repair from this excerpt.",
+      "criteria": [
+        "Document terms and law are separated",
+        "The request uses concrete dated facts",
+        "Unverified remedies are not invented"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Distinguish the wording from legal validity; check actual jurisdiction, housing arrangement and appropriate qualified/public guidance. A sample contract cannot establish universal rights or obligations.",
+      "criteria": [
+        "Document terms and law are separated",
+        "The request uses concrete dated facts",
+        "Unverified remedies are not invented"
+      ]
+    }
+  ]
+}

@@ -79,8 +79,8 @@ For support, mark only one emphasis and one pause per line. For a harder pass, h
 
 Actual progress combines making, a traceable technique choice and a reception check at its proper scale. Choosing a medium by prestige, owning equipment or imagining a performance is insufficient. A quiet marked script can demonstrate deliberate technique without proving any unperformed vocal skill.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. Applicability remains elective_cultivation and normative status remains elective_but_flourishing_relevant. Creative cultivation is optional; access adaptations do not lower human worth. Fiction and no attempt are legitimate. Human dignity is never scored.
+Creative cultivation is optional; access adaptations do not lower human worth. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

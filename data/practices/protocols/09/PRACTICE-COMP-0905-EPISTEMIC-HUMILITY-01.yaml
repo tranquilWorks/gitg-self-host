@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0905-EPISTEMIC-HUMILITY-01
 slug: c0905-epistemic-humility-practice
-name: Bounded Epistemic humility Practice
+name: Update a belief without erasing the version you held before
 parent_competency_id: '09.05'
 domain_id: 09
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 09.05
-      (Epistemic humility); canonical scope, evidence target, classification, domain boundary, and parent
-      mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 09.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,37 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Epistemic humility through a low-stakes skill rehearsal bounded by the canonical
-    scope: State confidence levels, assumptions, unknowns, limitations, and what would change a belief.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Updates a meaningful
-    belief without humiliation, evasion, or pretending the prior view was never held. The protocol creates
-    a small opportunity to examine that target without treating completion as broad capability.'
+  purpose: State confidence, assumptions and a revision condition for one meaningful low-stakes belief,
+    then make a proportionate update when new evidence arrives.
+  why_recommended: State confidence, assumptions and a revision condition for one meaningful low-stakes
+    belief, then make a proportionate update when new evidence arrives.
   claims:
-  - statement: Using the canonical scope and evidence target for Epistemic humility is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: State confidence, assumptions and a revision condition for one meaningful low-stakes belief,
+      then make a proportionate update when new evidence arrives.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Epistemic humility practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Epistemic humility as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Epistemic humility
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Epistemic
-    humility; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use a voice memo, confidence words or a trusted reader instead of percentages.
+    A fictional record demonstrates updating mechanics only. Avoid beliefs whose testing would expose
+    anyone to danger, discrimination or coerced disclosure.
+  opportunity_considerations: 'Choose a practical belief such as the local library is always too noisy
+    for reading after lunch. Use a private record with initial claim, confidence band, reasons, assumptions,
+    unknowns and revision condition. The supplied claim can also be examined with fictional observations:
+    one noisy visit, followed by two quiet visits on different days.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Epistemic humility.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Choose a practical belief such as the local library is always too noisy for reading after lunch.
+    Use a private record with initial claim, confidence band, reasons, assumptions, unknowns and revision
+    condition. The supplied claim can also be examined with fictional observations: one noisy visit, followed
+    by two quiet visits on different days.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Epistemic humility instead of a
-    live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a voice memo, confidence words or a trusted reader instead of percentages. A fictional record
+    demonstrates updating mechanics only. Avoid beliefs whose testing would expose anyone to danger, discrimination
+    or coerced disclosure.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -78,18 +79,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Epistemic humility actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Epistemic humility; copy the canonical scope and evidence target into
-    a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Epistemic
-    humility. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Epistemic humility actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose a practical belief such as the local library is always too noisy for reading after lunch.
+    Use a private record with initial claim, confidence band, reasons, assumptions, unknowns and revision
+    condition. The supplied claim can also be examined with fictional observations: one noisy visit, followed
+    by two quiet visits on different days. Goal: State confidence, assumptions and a revision condition
+    for one meaningful low-stakes belief, then make a proportionate update when new evidence arrives.
+    Scope: This practices accountable uncertainty. Humility does not require treating every claim as equally
+    plausible or surrendering well-supported conclusions under social pressure. Time and effort: Ten minutes
+    for the initial record, one safe evidence check during the next week, and fifteen minutes for the
+    update. Adaptation: Use a voice memo, confidence words or a trusted reader instead of percentages.
+    A fictional record demonstrates updating mechanics only. Avoid beliefs whose testing would expose
+    anyone to danger, discrimination or coerced disclosure. Keep personal working notes outside the check-in;
+    record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a voice memo, confidence words or a trusted reader instead of percentages.
+    A fictional record demonstrates updating mechanics only. Avoid beliefs whose testing would expose
+    anyone to danger, discrimination or coerced disclosure.
+  expected_burden: Ten minutes for the initial record, one safe evidence check during the next week, and
+    fifteen minutes for the update.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Epistemic humility protocol to rank worth, coerce participation, demand disclosure, override
@@ -97,18 +107,24 @@ intervention:
   - Treating a completed Epistemic humility action, a polished artifact, agreement, confidence, speed,
     independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Epistemic humility situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a voice
+    memo, confidence words or a trusted reader instead of percentages. A fictional record demonstrates
+    updating mechanics only. Avoid beliefs whose testing would expose anyone to danger, discrimination
+    or coerced disclosure.
   actions:
   - stable_id: PRACTICE-COMP-0905-EPISTEMIC-HUMILITY-01-A1
     sequence: 1
-    title: Define observable criteria for Epistemic humility
-    instructions: 'Select one safe, lawful, low-stakes component of Epistemic humility. Build a three-to-five-item
-      rubric from this scope, including an error or stop criterion: State confidence levels, assumptions,
-      unknowns, limitations, and what would change a belief.'
+    title: Make the belief and its uncertainty explicit
+    instructions: 'Replace always with a statement you can actually check, such as this branch is usually
+      unsuitable for my kind of reading between one and three. Select low, moderate or high confidence
+      and explain why. Distinguish one observed visit from assumptions about every weekday, every room
+      and every reader. Specify in advance what evidence would increase, decrease or leave confidence
+      unchanged.
+
+
+      Observation checks: The belief has a bounded context; Confidence has an evidential reason; Assumptions
+      and unknowns are separated; A revision condition is recorded before new information. Mark only what
+      you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -130,9 +146,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0905_a1_skill_component_bounded
-        - c0905_a1_observable_rubric_present
-        - c0905_a1_error_or_stop_defined
+        - the_belief_has_a_bounded_context
+        - confidence_has_an_evidential_reason
+        - assumptions_and_unknowns_are_separated
+        - a_revision_condition_is_recorded_before_new_information
       - measurement_id: c0905_a1_boundary
         kind: boolean
         role: supporting
@@ -149,10 +166,17 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0905-EPISTEMIC-HUMILITY-01-A2
     sequence: 2
-    title: Rehearse Epistemic humility twice
-    instructions: Perform two bounded attempts of the selected Epistemic humility component under comparable
-      safe conditions. Use self-review, a consensual observer, or a reviewed artifact; do not require
-      public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Seek a fair test instead of a humiliating contest
+    instructions: 'Collect one observation that could disagree with you, such as checking a different
+      ordinary day or asking about a designated quiet area. Do not arrange an extreme case just to win.
+      In the fictional version, compare the noisy visit with the two later quiet visits and retain the
+      different contexts. Listen to disagreement long enough to restate its actual evidence before responding.
+
+
+      Observation checks: The check could genuinely challenge the belief; Context differences remain visible;
+      Opposing evidence is restated accurately; No person must concede or disclose private experience.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -168,15 +192,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c0905_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - the_check_could_genuinely_challenge_the_belief
+        - context_differences_remain_visible
+        - opposing_evidence_is_restated_accurately
+        - no_person_must_concede_or_disclose_private_experience
       - measurement_id: c0905_a2_boundary
         kind: boolean
         role: supporting
@@ -193,10 +218,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0905-EPISTEMIC-HUMILITY-01-A3
     sequence: 3
-    title: Use feedback for one Epistemic humility retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Updates
-      a meaningful belief without humiliation, evasion, or pretending the prior view was never held.'
+    title: Append an update with an honest change log
+    instructions: 'Keep the first entry intact. Write the new claim, confidence and reason for changing
+      or retaining it. In the default, a narrower claim about one room or day may replace always noisy;
+      three visits still do not establish every future condition. State what you would now do differently
+      and acknowledge the prior view plainly rather than claiming you believed the revised version all
+      along.
+
+
+      Observation checks: The original belief remains readable; The update is proportional to the evidence;
+      The previous view is acknowledged without self-attack; A changed action or remaining test is specified.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.
+
+
+      Final review: What exactly changed your confidence, and how would someone distinguish your update
+      from merely agreeing with the last person who spoke?
+
+
+      Examples: Supportive: The participant retained the original claim, narrowed it after conflicting
+      observations and tried the quiet room rather than declaring the library universally suitable.
+
+
+      Mixed: The revised conclusion fit the evidence, but the original confidence or assumption record
+      was overwritten.
+
+
+      Contradictory: Social pressure was called evidence, or humility was used to demand equal confidence
+      in unsupported and well-supported claims.
+
+
+      Inconclusive: The person said I could be wrong but named no assumption, revision condition or actual
+      update.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -218,9 +271,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0905_a3_feedback_item_selected
-        - c0905_a3_adjustment_traceable
-        - c0905_a3_retry_result_preserved
+        - the_original_belief_remains_readable
+        - the_update_is_proportional_to_the_evidence
+        - the_previous_view_is_acknowledged_without_self_attack
+        - a_changed_action_or_remaining_test_is_specified
       - measurement_id: c0905_a3_boundary
         kind: boolean
         role: supporting
@@ -240,16 +294,17 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Epistemic humility; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Epistemic humility; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Use a voice memo, confidence words or a trusted reader instead of percentages. A fictional record
+      demonstrates updating mechanics only. Avoid beliefs whose testing would expose anyone to danger,
+      discrimination or coerced disclosure.
     cultural_context:
     - Adapt the expression of Epistemic humility to direct or indirect communication, collective or individual
       decision structures, local norms, faith or secular commitments, and role obligations while preserving
       consent and dignity.
     resource_variants:
-    - When a real Epistemic humility opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use a voice memo, confidence words or a trusted reader instead of percentages. A fictional record
+      demonstrates updating mechanics only. Avoid beliefs whose testing would expose anyone to danger,
+      discrimination or coerced disclosure.
   pause_conditions:
   - Pause Epistemic humility when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -279,10 +334,8 @@ evidence_and_scoring:
   - c0905_a3_boundary
   - c0905_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Epistemic humility action exceeded consent, authority, privacy, qualification, role, burden, or
-    safety boundaries.
-  - The evidence contradicted the intended Epistemic humility criterion, depended on coercion or hidden
-    private content, or could not distinguish the protocol from contextual change.
+  - Social pressure was called evidence, or humility was used to demand equal confidence in unsupported
+    and well-supported claims.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Epistemic humility explicitly; support can enable access and never reduces dignity or silently
     changes the typed value.
@@ -292,14 +345,21 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Epistemic humility rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Updates a meaningful belief without humiliation, evasion, or pretending the prior view was
-    never held.—not completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Epistemic humility requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Make the belief and its uncertainty explicit. Observed checks: The belief
+    has a bounded context; Confidence has an evidential reason; Assumptions and unknowns are separated;
+    A revision condition is recorded before new information. Action 2: Seek a fair test instead of a humiliating
+    contest. Observed checks: The check could genuinely challenge the belief; Context differences remain
+    visible; Opposing evidence is restated accurately; No person must concede or disclose private experience.
+    Action 3: Append an update with an honest change log. Observed checks: The original belief remains
+    readable; The update is proportional to the evidence; The previous view is acknowledged without self-attack;
+    A changed action or remaining test is specified.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. The person said I could be wrong but named no assumption,
+    revision condition or actual update.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Epistemic
     humility contribution under typed evaluation; protocol performance remains distinct and is never counted
     twice.
@@ -309,9 +369,8 @@ evidence_and_scoring:
   - L12
   - L13
   - L31
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Epistemic humility evidence.
@@ -319,10 +378,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for epistemic humility action was attempted or explicitly deferred.
-  - The rehearse epistemic humility twice action was attempted or explicitly deferred.
-  - The use feedback for one epistemic humility retry action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Make the belief and its uncertainty explicit. Observed checks: The belief has a bounded
+    context; Confidence has an evidential reason; Assumptions and unknowns are separated; A revision condition
+    is recorded before new information.'
+  - 'Action 2: Seek a fair test instead of a humiliating contest. Observed checks: The check could genuinely
+    challenge the belief; Context differences remain visible; Opposing evidence is restated accurately;
+    No person must concede or disclose private experience.'
+  - 'Action 3: Append an update with an honest change log. Observed checks: The original belief remains
+    readable; The update is proportional to the evidence; The previous view is acknowledged without self-attack;
+    A changed action or remaining test is specified.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -331,56 +398,476 @@ completion_and_review:
     - c0905_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Epistemic humility only when the initial context remained safe,
-    the evidence criteria were usable, burden was acceptable, and a new context can be named without assuming
-    transfer.
-  transfer_limit: Three bounded actions do not establish Epistemic humility across roles, cultures, relationships,
-    seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: What exactly changed your confidence, and how would someone distinguish your update
+    from merely agreeing with the last person who spoke?
+  transfer_limit: This practices accountable uncertainty. Humility does not require treating every claim
+    as equally plausible or surrendering well-supported conclusions under social pressure.
   reflection:
-    before: What does Epistemic humility require in this exact context, what remains outside my role or
-      authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Epistemic humility criterion is present, absent, mixed, or unknown, and are
-      consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Updates a meaningful belief without humiliation, evasion,
-      or pretending the prior view was never held.', what contradiction or missing context matters most,
-      and should this Epistemic humility design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: State confidence, assumptions and a revision
+      condition for one meaningful low-stakes belief, then make a proportionate update when new evidence
+      arrives.'
+    during: Which checks have actually been observed? The revised conclusion fit the evidence, but the
+      original confidence or assumption record was overwritten.
+    after: What exactly changed your confidence, and how would someone distinguish your update from merely
+      agreeing with the last person who spoke?
   review_guidance:
     repeat: Repeat the same bounded Epistemic humility design only when the context and burden remain
       appropriate.
-    adapt: Change the Epistemic humility medium, scope, support, timing, criteria, or context while preserving
-      provenance and the narrower evidence claim.
+    adapt: Use a voice memo, confidence words or a trusted reader instead of percentages. A fictional
+      record demonstrates updating mechanics only. Avoid beliefs whose testing would expose anyone to
+      danger, discrimination or coerced disclosure.
     stop: Stop Epistemic humility when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Epistemic humility questions beyond this
-      educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Epistemic humility criteria were observed with provenance and no adverse boundary
-      signal in the selected context.
-    mixed: Some Epistemic humility criteria were observed while burden, support, contextual change, or
-      a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Epistemic humility criterion, introduced harm
-      or coercion, or showed the design was not workable.
-    inconclusive: The Epistemic humility action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: The participant retained the original claim, narrowed it after conflicting observations
+      and tried the quiet room rather than declaring the library universally suitable.
+    mixed: The revised conclusion fit the evidence, but the original confidence or assumption record was
+      overwritten.
+    contradictory: Social pressure was called evidence, or humility was used to demand equal confidence
+      in unsupported and well-supported claims.
+    inconclusive: The person said I could be wrong but named no assumption, revision condition or actual
+      update.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Epistemic humility.
+    context_heading: Update a belief without erasing the version you held before
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Epistemic
       humility.
   check_in_labels:
-    c0905_a1_primary: The bounded Epistemic humility criterion for action 1 was observed
+    c0905_a1_primary: 'Observed checks: make the belief and its uncertainty explicit'
     c0905_a1_boundary: Action 1 stayed inside its stated Epistemic humility boundary
     c0905_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0905_a2_primary: The bounded Epistemic humility criterion for action 2 was observed
+    c0905_a2_primary: 'Observed checks: seek a fair test instead of a humiliating contest'
     c0905_a2_boundary: Action 2 stayed inside its stated Epistemic humility boundary
     c0905_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0905_a3_primary: The bounded Epistemic humility criterion for action 3 was observed
+    c0905_a3_primary: 'Observed checks: append an update with an honest change log'
     c0905_a3_boundary: Action 3 stayed inside its stated Epistemic humility boundary
     c0905_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Epistemic humility
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What exactly changed your confidence, and how would someone distinguish your update
+    from merely agreeing with the last person who spoke? Completion is not mastery.
+  plain_language_evidence: The participant retained the original claim, narrowed it after conflicting
+    observations and tried the quiet room rather than declaring the library universally suitable.
   display_order: 112
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '09.05'
+  title: 09.05 — Epistemic humility
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [S1 — Contextual authority](https://www.ala.org/acrl/standards/ilframework)
+
+      - [S2 — Study limitations](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-25)
+
+      - [S3 — Intellectual humility: abstract-level consultation](https://dukespace.lib.duke.edu/dspace/handle/10161/23967)
+
+      - [S3 — Intellectual humility: abstract-level consultation](https://pubmed.ncbi.nlm.nih.gov/28903672/)
+
+      - [S4 — Forecast verification](https://jwgfvr.github.io/forecastverification/)
+
+      - [S5 — Probability and decisions](https://www.metoffice.gov.uk/research/weather/ensemble-forecasting/decision-making)'
+  - id: file-evidence-update-md
+    title: Evidence update
+    body: 'Open only after preserving the initial record and revision conditions. This is supplied fictional
+      evidence, not live observation by the learner.
+
+
+      | Record | Day | Room | Time | Attempt and result |
+
+      | --- | --- | --- | --- | --- |
+
+      | L2 | Wednesday, Week 1 | Main | 13:15–13:35 | Five audible interruptions; Rowan does not finish
+      the same reading task and reports it unmanageable. |
+
+      | L3 | Thursday, Week 1 | Quiet Q | 13:15–13:35 | No audible interruptions; Rowan finishes the planned
+      reading task and reports it manageable. |
+
+      | L4 | Friday, Week 1 | Quiet Q | 13:15–13:35 | One brief interruption; Rowan finishes the planned
+      reading task and reports it manageable. |
+
+
+      **L5:** A staff member says the Main room often hosts a Tuesday craft workshop. No schedule for
+      the earlier visit or record establishing the source of its interruptions is supplied. The staff
+      member says Quiet Q can sometimes be reserved; there is no confirmation for Rowan''s next visit.
+
+
+      **L6:** A friend says, “Your difficult visits were real. I am suggesting that a different room may
+      sometimes work, not that the whole building is always quiet.”
+
+
+      Keep all three observations and both attributed reports distinct. Return to the guide to make the
+      update. Do not open the answer file until you have saved it.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### What you will produce
+
+
+      A versioned belief record: your initial claim and confidence, its assumptions and unknowns, a fair
+      evidence check, and an appended update explaining what changed or why it did not. Use about 15 minutes
+      before inspecting new evidence and 20 minutes afterward. Paper, a voice memo, or a text editor is
+      enough.
+
+
+      **Canonical scope:** State confidence levels, assumptions, unknowns, limitations, and what would
+      change a belief.
+
+
+      The fictional route supplies all evidence. The optional live route uses a meaningful but low-stakes
+      belief of your own. Fictional updating demonstrates the procedure, not that a personally held belief
+      changed. Research background S3 in SOURCES.md is limited support for the concept of recognizing
+      fallibility, not validation of this exercise.
+
+
+      ### The distinction that makes humility useful
+
+
+      Humility is not saying “anything could be true,” apologizing for knowing something, or agreeing
+      with the last speaker. It means making your confidence answerable to relevant evidence while acknowledging
+      what you do not know. Strong evidence can justify strong confidence. A demand to concede is not
+      new evidence.
+
+
+      Keep three things separate. The **claim** is what you believe. **Confidence** is how strongly the
+      available evidence supports that claim in your judgment. An **action** also depends on practical
+      consequences, duties, and alternatives. A cautious action does not necessarily mean a low estimated
+      probability; you might avoid even an unlikely large cost.
+
+
+      An **assumption** is a premise your inference relies on, such as treating one visit as representative.
+      An **unknown** is a question the record does not settle, such as whether another room is available.
+      A **limitation** identifies the boundary of your observation or ability to assess it. State them
+      specifically instead of attaching “I could be wrong” to an otherwise unchangeable verdict.
+
+
+      Confidence words are sufficient: low, moderate, or high, each with a reason. These are not calibrated
+      numerical probabilities or measured traits. Do not invent percentages to make an uncertain judgment
+      look scientific.
+
+
+      ### Different worked example — the missing blue folder
+
+
+      A person says, “The blue folder is not in either of the two drawers I just checked.” A colleague
+      replies, “It must be somewhere; be open-minded.” That reply provides no observation contradicting
+      the bounded claim. The person can retain it while admitting the folder''s location is unknown.
+
+
+      Later, the colleague opens a previously overlooked compartment in the first drawer and shows the
+      folder. Now the inspection''s completeness is undermined. An accountable update is: “I thought I
+      had checked both drawers completely. I missed that compartment. The folder is there.” Neither self-insult
+      nor pretending the first statement was never made improves the correction.
+
+
+      Notice that “I did not see it” and “it was not there” are different propositions. Preserve the wording
+      rather than silently retreating to the weaker one after challenge.
+
+
+      ### Complete initial packet — an afternoon reading place
+
+
+      All observations concern a fictional reader, Rowan, and fictional North Library. No real library
+      visit or private disclosure is required.
+
+
+      **L1, Tuesday of Week 1, 13:15–13:35:** Rowan tries to read in the Main room. Six audible interruptions
+      occur; Rowan does not finish the planned passage. Rowan reports frustration and concludes: “No room
+      at North Library is usable for my afternoon reading. It is always a waste of a trip.” No other room
+      was inspected. No other afternoon visit is recorded. The task was ordinary quiet reading, not an
+      emergency or essential appointment.
+
+
+      For this practice, a **usable attempt** means Rowan completes the planned 20-minute reading task
+      and reports the setting manageable for that task. It does not mean perfect silence, usefulness to
+      every reader, or access on every future day. A different actual reader may choose a different reasonable
+      criterion before testing it.
+
+
+      Do not open `evidence-update.md` yet. It contains the later observations. Reading them now would
+      turn the initial record into a retrospective reconstruction; record any such exposure honestly.
+
+
+      #### Action 1 — Preserve the original and set a fair revision condition
+
+
+      Copy Rowan''s original wording as V0. Identify its universal claims and the observation that motivated
+      them. Write the emotion in a separate line without treating it as proof about every room.
+
+
+      Create V1, a bounded working claim worth investigating. You might focus on which room could support
+      the same reading task during weekday afternoons. Do not report that V1 was Rowan''s original position:
+      record the change of scope explicitly.
+
+
+      Fill this form before seeing later evidence:
+
+
+      `Version and time/order | exact claim | confidence word and reason | evidence IDs | assumptions
+      | unknowns | limitations | evidence that would increase confidence | evidence that would decrease
+      it | evidence that would leave it unchanged | planned action`
+
+
+      For the original universal claim, ask what a genuine counterexample would look like. For a weaker
+      frequency claim such as “usually unsuitable,” ask what repeated observations would be needed; one
+      successful visit has a different logical role there. Avoid a revision condition that only your preferred
+      answer could satisfy.
+
+
+      #### Action 2 — Inspect a fair challenge without turning it into a contest
+
+
+      Save your first record. Now open `evidence-update.md`. List each new observation with room, date,
+      task, and result. Separate the staff member''s report from Rowan''s own attempts. Do not average
+      unlike settings and call the result a universal property of the whole building.
+
+
+      Restate the strongest relevant challenge to the initial claim in a sentence its proponent could
+      recognize. Also preserve the strongest remaining reason for caution. You are not required to agree
+      with a person, deny frustration, or prove a motive to use their relevant evidence.
+
+
+      For each item, mark whether it addresses the same proposition, a narrower one, or a different question.
+      Explain which assumption it changes. A personal judgment of usability remains about this reader
+      and task; it should not be generalized to everyone with a similar preference or identity.
+
+
+      #### Action 3 — Append a change log and a proportionate next step
+
+
+      Keep V0 and V1 readable. Append V2 rather than editing either in place:
+
+
+      `Old claim and confidence | new evidence | revised claim | revised confidence and reason | scope
+      changed or same proposition? | what remains unresolved | next action | next review condition`
+
+
+      Use plain language such as: “I previously thought __ because __. The new observation __ changes
+      __. I now think __ within __. I still do not know __.” Fill the blanks with this packet''s evidence
+      rather than a generic admission of fallibility.
+
+
+      A correct update may reject a universal claim, narrow the context, or retain a supported statement.
+      It need not jump to the opposite universal claim. If you change the proposition, do not report the
+      two confidence words as though they were measurements of the same claim.
+
+
+      Choose an action within your authority, such as another appropriate trial or asking about room availability.
+      Describe why it fits the remaining uncertainty. A precaution can remain useful even after your belief
+      changes. If you communicated an overstatement, draft a brief correction to the same relevant audience
+      without unnecessary embarrassment or public disclosure.
+
+
+      ### Fresh checks and feedback
+
+
+      Save responses to the two cases in `check-prompts.md` before opening `check-answers.md`. The checks
+      include an appropriate revision and an appropriate refusal to revise under unsupported pressure.
+      Both are part of the skill. There is no reward for changing your mind merely to satisfy the exercise.
+
+
+      ### A complete live-transfer route
+
+
+      Choose one ordinary belief whose accuracy matters to a reversible choice you actually face: a place
+      is unsuitable for a particular task, a routine never works at a particular time, or a service is
+      unavailable under stated conditions. Avoid claims about another person''s private motives, identity,
+      diagnosis, or experience of harm.
+
+
+      Record V0 before seeking new information. Set a safe discriminating check, an observation window,
+      and a return point. Inspect an accessible current record or make an ordinary authorized observation.
+      Preserve contradictory as well as supportive evidence. At the return point, append your update even
+      when no new evidence arrived; in that case mark the test unresolved rather than inventing an event.
+
+
+      This route can support the canonical indicator of updating a meaningful belief when relevant evidence
+      actually warrants change. A fictional exercise or the words “I am open-minded” alone cannot establish
+      that indicator. Do not provoke conflict or make an unnecessary commitment to obtain evidence.
+
+
+      ### Accessibility and progression
+
+
+      Use a voice recording for each version, short claim cards, or a reader who preserves your exact
+      wording. Dates may be replaced by an unambiguous sequence when precise timestamps are unnecessary.
+      Keep sufficient context to distinguish the visits. A helper can transcribe without deciding your
+      confidence.
+
+
+      For a harder route, inspect evidence that changes one assumption but leaves the main judgment reasonable.
+      Explain both parts without claiming that every new fact must produce a reversal. Later compare two
+      actual belief records for consistency in evidence standards, not just how often you conceded.
+
+
+      ### Interpreting the result
+
+
+      **Supportive:** The original remains visible, relevant evidence changes a stated assumption, the
+      revision is proportionate, and the new action fits the remaining uncertainty.
+
+
+      **Mixed:** The new conclusion is reasonable but the previous wording is overwritten, or a change
+      of scope is hidden inside a claimed confidence update.
+
+
+      **Contradictory:** Social pressure substitutes for evidence, a person is humiliated into concession,
+      or humility is used to demand equal weight for unsupported and well-supported claims.
+
+
+      **Inconclusive:** The record says “I could be wrong” without an assumption, revision condition,
+      evidence check, or accountable update.
+
+
+      **Final review:** What changed your judgment, what did not, and how could another reader distinguish
+      your update from politeness or hindsight?'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Use exact claims and preserve the previous version. Both cases are fictional. Save the answers
+      before opening the separate key.
+
+
+      ### Check A — A counterexample is not a universal reversal
+
+
+      Dara writes V0: “Every afternoon attempt in this building fails for my 20-minute reading task.”
+      The only evidence then available is two unsuccessful Main-room attempts. Before further visits,
+      Dara writes: “A completed manageable afternoon attempt anywhere in this building would contradict
+      my every-attempt claim. It would not by itself show that most future attempts succeed.”
+
+
+      Later, Dara completes the task comfortably in the Side room on Wednesday at 14:00. On Friday at
+      14:00 the Main-room attempt fails again. A friend says, “So you must admit the building is always
+      suitable.”
+
+
+      Append a revised claim and confidence with reasons. State what is contradicted, what remains uncertain,
+      and why the friend''s opposite universal claim is unsupported. Preserve the room difference and
+      propose a proportionate next action. Explain how the successful observation would matter differently
+      if V0 had instead said “more than half of attempts are unsuitable.”
+
+
+      ### Check B — Pressure, then a relevant correction
+
+
+      A dated official room notice says: “Room H closed all Day 4 for maintenance.” On Day 3, Ellis writes:
+      “According to the current official notice, Room H is scheduled to be closed on Day 4. I will not
+      plan to use it without a newer confirmation.” Confidence is high in what the notice says, not absolute
+      certainty about what will happen. Ellis records that a newer relevant notice or authorized correction
+      would change the plan.
+
+
+      First, a friend says: “You are too rigid. Believe it will be open.” The friend supplies no new observation
+      or record.
+
+
+      Then, separately, the facility issues a later official notice on Day 3: “Maintenance is postponed.
+      Room H is scheduled to be open on Day 4.” Neither notice guarantees that no unexpected closure will
+      occur.
+
+
+      Write two separate updates, one after each message. Identify whether to retain or revise the operational
+      expectation, why, and which exact proposition changes. Does the later notice make the earlier statement
+      about what the original notice said false? Write a non-humiliating acknowledgment and explain whether
+      any action should change.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Open after saving the update and fresh-check responses. There is no single mandatory confidence
+      word; the claim, evidence, context, and explanation must fit one another.
+
+
+      ### Main practice
+
+
+      L1 and L2 show difficulty in the Main room during the observed periods. L3 and L4 show usable attempts
+      by the same reader on the same kind of task in Quiet Q. Those successes contradict the original
+      claim that no room is usable or every trip is wasted. They do not establish that Quiet Q will always
+      be available or manageable, that most possible visits succeed, or that every reader will find it
+      useful.
+
+
+      L5 is a staff report about a usual workshop and possible reservations. It does not establish the
+      cause of L1''s interruptions or reserve a future visit. L6 challenges the overgeneralization without
+      denying the difficult attempts. An accurate restatement keeps that distinction.
+
+
+      A reasonable change log is: “I generalized from one Main-room visit to the whole library. Two later
+      Quiet-Q attempts met this reader''s criterion. I now consider that room a plausible option for this
+      task, subject to availability, rather than rejecting every afternoon visit. I still lack evidence
+      about other rooms, future days, and durable suitability.” State whether that is a narrower proposition
+      rather than presenting it as a numeric change in one unchanged belief.
+
+
+      A suitable next step is to check a particular future room opening or make another ordinary trial
+      while retaining an alternative. Frustration about the original visit need not disappear. The update
+      corrects an inference, not a person''s dignity. The fictional record does not establish that the
+      learner revised a personally meaningful belief.
+
+
+      **Repair:** If you wrote “the library is always fine,” replace that opposite universal claim with
+      the observed room/task scope. If you erased V0, restore it and add the revision as a later entry.
+      If you inferred a confirmed workshop cause, attribute the staff report and preserve the missing
+      historical record.
+
+
+      ### Check A
+
+
+      One genuine successful afternoon attempt contradicts “every attempt fails,” even though the later
+      Main-room failure remains real. The evidence supports acknowledging that at least one context worked.
+      It does not support “always suitable.” Retain the room distinction and choose a further Side-room
+      check or another bounded action rather than merging all rooms into one assured property.
+
+
+      The weaker claim “more than half of attempts are unsuitable” is not logically refuted by one success.
+      Evaluating that frequency claim requires a specified collection of attempts, adequate sampling,
+      and awareness of context. The observed attempts in the prompt are not a representative census of
+      future possibilities. Do not change “every” into “usually” after the fact and say nothing changed.
+
+
+      A correction could read: “I said every afternoon attempt would fail. The Side-room attempt is a
+      counterexample. I was too broad; future reliability remains uncertain.” No self-insult or forced
+      apology for the earlier discomfort is needed.
+
+
+      ### Check B
+
+
+      After the unsupported request to believe the room will open, Ellis can retain the expectation supported
+      by the current notice. The friend supplies no relevant new evidence. A fair response invites a newer
+      record without attacking the friend.
+
+
+      After the later official correction, the current operational expectation should be updated to scheduled-open,
+      retaining ordinary uncertainty about actual operation. The earlier statement that the first notice
+      scheduled a closure remains historically accurate. What changes is which schedule is current, not
+      what the old document said. Preserve both with their order and provenance.
+
+
+      A suitable acknowledgment is: “I was relying on the earlier closure notice. The facility has since
+      changed it, so I have updated the plan.” This is not a confession that reading the old notice was
+      irrational. A decision to use the room can change accordingly, with a proportionate current access
+      check if needed. Neither notice establishes a guarantee.
+
+
+      **Repair:** If both messages caused the same reversal, identify the source and relevance of each.
+      If you refused the official correction to remain consistent, distinguish consistency in evidence
+      standards from keeping an outdated conclusion. If you rewrote the original record, restore its historically
+      correct content and append the new one.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

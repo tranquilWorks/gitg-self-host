@@ -44,9 +44,10 @@ Actual conflict processes require appropriate local authority, affected people's
 
 [Acas mediation guidance, S02](../SOURCES.md#S02), describes impartial facilitation, voluntary participation and parties' control of an agreement in a workplace context. Those limited process distinctions inform this guide; its confidentiality and legal-effect statements are not generalized to every jurisdiction or civic process. The campaign comparison and Cedar case are original. UN mediation pages could not be retrieved and are not claimed as inspected.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core. Civic learning does not require political belief, affiliation, public disclosure or participation. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Civic learning does not require political belief, affiliation, public disclosure or participation. Fiction and no attempt are legitimate. Keep private or protected records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

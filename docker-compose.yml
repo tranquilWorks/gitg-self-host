@@ -1,5 +1,6 @@
 services:
   app:
+    image: "${APP_IMAGE:-ghcr.io/tranquilworks/gitg-self-host:latest}"
     build:
       context: .
     env_file:
@@ -24,7 +25,8 @@ services:
       interval: 30s
       timeout: 5s
       retries: 3
-      start_period: 20s
+      # Full-catalog validation, seeding and replay run before Gunicorn starts.
+      start_period: 180s
 
 volumes:
   grounded_growth_data:

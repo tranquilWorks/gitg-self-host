@@ -40,9 +40,10 @@ For real transfer, a small useful action might be an actual confidential inquiry
 
 [GOV.UK's divorce overview, S08](../SOURCES.md#S08) illustrates that legal ending and arrangements for money, housing and children are separate matters. It describes England and Wales, not the user's presumed jurisdiction. No eligibility rule, deadline or legal conclusion is transferred. [Safety planning guidance, S14](../SOURCES.md#S14) supports individualized help where contact is unsafe. The map and case are original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

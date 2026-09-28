@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "04.08",
+  "title": "Prepare care preferences and practice respectful accompaniment",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Respectful accompaniment follows the person’s actual preference and leaves symptoms and treatment with the care team. A conversation about future care preferences is preparation; its legal status depends on the relevant process and is not established by a worksheet."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional adult Kai asks for understandable information, relief from discomfort and control over visitors. In a permitted visit Kai says, “Five minutes of quiet would help. Please ask the nurse about this discomfort; do not invite my relative.” The nurse is reachable through the established call route. No diagnosis, medicine or prognosis is supplied."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Choose the next actions and language, preserving the refusal and the care-team role. Separate this visit from any legal advance-care documentation.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A patient ends a welcome visit early. May the visitor insist on finishing a comforting script because it was agreed before the visit?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Offer the requested quiet, use the established route for the nurse, and do not invite the relative. Later fiction: nurse receives the request; no symptom outcome is supplied. Partial: quiet company but omit the requested contact. Incorrect: promise relief, prescribe treatment or organize reconciliation. Personal preferences can be written privately for discussion with the relevant care/legal process; this exercise creates no legally effective document.",
+      "criteria": [
+        "The person’s current preferences govern accompaniment",
+        "Clinical and legal authority are not invented",
+        "Contact and outcome remain separate"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. The current preference governs continued company. End respectfully and convey any requested practical issue through the appropriate route; a script does not override withdrawal.",
+      "criteria": [
+        "The person’s current preferences govern accompaniment",
+        "Clinical and legal authority are not invented",
+        "Contact and outcome remain separate"
+      ]
+    }
+  ]
+}

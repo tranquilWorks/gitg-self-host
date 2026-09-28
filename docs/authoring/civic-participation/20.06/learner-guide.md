@@ -44,9 +44,10 @@ For real transfer, follow the organization's current onboarding and task instruc
 
 [NCVO's role-description guidance, S08](../SOURCES.md#S08), explains tasks, boundaries, access needs, support and a balanced voluntary experience. Its page was reviewed in April 2021 and has an England context; its employment-law discussion is not transferred to another jurisdiction. The notice quantities, dates, correction and repetition are original case design. No volunteering-effect estimate or universal required commitment is claimed.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core; normative status is cross_tradition_core_or_broadly_recurrent. This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

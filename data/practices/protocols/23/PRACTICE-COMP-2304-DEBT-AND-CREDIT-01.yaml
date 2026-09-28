@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2304-DEBT-AND-CREDIT-01
 slug: c2304-debt-and-credit-practice
-name: Bounded Debt and credit Practice
+name: Compare two debts by total cost and a credible exit
 parent_competency_id: '23.04'
 domain_id: '23'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 23.04
-      (Debt and credit); canonical scope, evidence target, classification, domain boundary, and parent
-      mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 23.04; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,37 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Debt and credit through a non-confrontational safety preparation bounded by the canonical
-    scope: Evaluate purpose, terms, total cost, leverage, collateral, default risk, and repayment.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can justify each debt
-    and maintain a credible exit plan. The protocol creates a small opportunity to examine that target
-    without treating completion as broad capability.'
+  purpose: Evaluate why borrowing is considered, what it costs, what could be lost and how repayment would
+    end rather than comparing advertised rates alone.
+  why_recommended: Evaluate why borrowing is considered, what it costs, what could be lost and how repayment
+    would end rather than comparing advertised rates alone.
   claims:
-  - statement: Using the canonical scope and evidence target for Debt and credit is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: Evaluate why borrowing is considered, what it costs, what could be lost and how repayment
+      would end rather than comparing advertised rates alone.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Debt and credit practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Debt and credit as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Debt and credit context,
-    understand the source-only status, and stop without losing safety, care, employment, housing, services,
-    relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Debt and
-    credit; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use counters or an educator’s calculator and retain all assumptions with the
+    numbers. Real hardship may require independent debt, legal or benefits support; verify fees and credentials
+    and be cautious about promises to erase debt. Declining an unaffordable obligation is a valid outcome,
+    not a failed exercise.
+  opportunity_considerations: Both fictional loans provide principal 1,000 for exactly one year, with
+    no interim payments and simple interest paid at the end. Loan A has nominal interest 10% plus a fee
+    of 50 paid at the end. Loan B has nominal interest 12% and no fee. Neither has collateral in the base
+    case. The borrower could set aside 94 monthly only if income remains unchanged.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Debt and credit.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Both fictional loans provide principal 1,000 for exactly one year, with no interim payments and simple
+    interest paid at the end. Loan A has nominal interest 10% plus a fee of 50 paid at the end. Loan B
+    has nominal interest 12% and no fee. Neither has collateral in the base case. The borrower could set
+    aside 94 monthly only if income remains unchanged.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Debt and credit instead of a live
-    situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use counters or an educator’s calculator and retain all assumptions with the numbers. Real hardship
+    may require independent debt, legal or benefits support; verify fees and credentials and be cautious
+    about promises to erase debt. Declining an unaffordable obligation is a valid outcome, not a failed
+    exercise.
   role_conditions:
   - This competency is context sensitive; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -78,18 +81,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Debt and credit actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Debt and credit; copy the canonical scope and evidence target into a private
-    working note; define the action boundary, valid supports, privacy limit, and stop condition before
-    beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Debt and
-    credit. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Debt and credit actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Both fictional loans provide principal 1,000 for exactly one year, with no interim payments
+    and simple interest paid at the end. Loan A has nominal interest 10% plus a fee of 50 paid at the
+    end. Loan B has nominal interest 12% and no fee. Neither has collateral in the base case. The borrower
+    could set aside 94 monthly only if income remains unchanged. Goal: Evaluate why borrowing is considered,
+    what it costs, what could be lost and how repayment would end rather than comparing advertised rates
+    alone. Scope: The case uses simple fictional loans, not current offers, APR calculations or advice
+    to borrow. Real amortization, fees, collateral, default rights and affordability require the actual
+    disclosure and qualified advice when appropriate. Time and effort: Thirty minutes for the comparison
+    and twenty minutes for a repayment stress test. Adaptation: Use counters or an educator’s calculator
+    and retain all assumptions with the numbers. Real hardship may require independent debt, legal or
+    benefits support; verify fees and credentials and be cautious about promises to erase debt. Declining
+    an unaffordable obligation is a valid outcome, not a failed exercise. Keep personal working notes
+    outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use counters or an educator’s calculator and retain all assumptions with the numbers.
+    Real hardship may require independent debt, legal or benefits support; verify fees and credentials
+    and be cautious about promises to erase debt. Declining an unaffordable obligation is a valid outcome,
+    not a failed exercise.
+  expected_burden: Thirty minutes for the comparison and twenty minutes for a repayment stress test.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Debt and credit protocol to rank worth, coerce participation, demand disclosure, override
@@ -97,19 +110,26 @@ intervention:
   - Treating a completed Debt and credit action, a polished artifact, agreement, confidence, speed, independence,
     or output as mastery or universal transfer.
   exclusions:
-  - Any Debt and credit situation involving emergency response, abuse, retaliation, illegal conduct, medical
-    treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment, or other
-    consequences beyond a reversible source-only exercise.
-  - Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed
-    or jurisdiction-specific advice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use counters
+    or an educator’s calculator and retain all assumptions with the numbers. Real hardship may require
+    independent debt, legal or benefits support; verify fees and credentials and be cautious about promises
+    to erase debt. Declining an unaffordable obligation is a valid outcome, not a failed exercise.
   actions:
   - stable_id: PRACTICE-COMP-2304-DEBT-AND-CREDIT-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Debt and credit
-    instructions: 'Define one planning-only question for Debt and credit, the hazards that must not be
-      rehearsed, and the local qualified or emergency authority that supersedes this source-only protocol.
-      Do not create, approach, or simulate danger: Evaluate purpose, terms, total cost, leverage, collateral,
-      default risk, and repayment.'
+    title: Describe the purpose and complete repayment obligation
+    instructions: 'State a worthwhile purpose, one non-borrowing alternative and the cost of delaying
+      the purchase or service. Calculate A as 1,000 plus 100 interest plus 50 fee, totaling 1,150; B totals
+      1,120. Label the percentages nominal simple-interest assumptions, not disclosed APRs. List the actual-loan
+      information still needed: payment dates, financed fees, interest method, optional products, prepayment
+      terms, late charges, collateral and default consequences. The smaller nominal rate does not win
+      this case.
+
+
+      Observation checks: Purpose and a non-borrowing alternative are considered; Total repayments equal
+      1,150 and 1,120; Nominal rates are not mislabeled as APR; Missing loan terms and adverse consequences
+      are explicitly listed. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -131,9 +151,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2304_a1_planning_scope_bounded
-        - c2304_a1_hazards_excluded
-        - c2304_a1_authority_identified
+        - purpose_and_a_non_borrowing_alternative_are_considered
+        - total_repayments_equal_1_150_and_1_120
+        - nominal_rates_are_not_mislabeled_as_apr
+        - missing_loan_terms_and_adverse_consequences_are_explicitly_listed
       - measurement_id: c2304_a1_boundary
         kind: boolean
         role: supporting
@@ -150,11 +171,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2304-DEBT-AND-CREDIT-01-A2
     sequence: 2
-    title: Prepare one safe Debt and credit support step
-    instructions: Create one non-confrontational Debt and credit step such as locating official guidance,
-      checking accessible contact information, assembling a category-level checklist, or scheduling qualified
-      instruction. Do not test emergency response, weapons, rescue, medical treatment, confrontation,
-      evasion, or hazardous equipment.
+    title: Test a repayment path against timing and income risk
+    instructions: 'Calculate 94 times twelve as 1,128, enough for the fictional 1,120 balloon with eight
+      left over if every contribution occurs. Now remove two contributions: only 940 is available, leaving
+      180 unpaid. Explain why a monthly amount that looks manageable does not eliminate balloon-payment
+      risk. For a collateral variant, name what could be lost without guessing legal recovery rights.
+      Identify the earliest month in which the shortfall would become visible and an authorized renegotiation
+      or independent counseling route.
+
+
+      Observation checks: The full contribution plan reaches 1,128; Two missed contributions leave 940
+      and a 180 shortfall; Balloon timing and any collateral risk are explained separately; A shortfall
+      response does not assume refinancing or forgiveness. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -176,9 +205,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2304_a2_step_is_preparatory
-        - c2304_a2_official_or_qualified_path_used
-        - c2304_a2_no_hazard_rehearsed
+        - the_full_contribution_plan_reaches_1_128
+        - two_missed_contributions_leave_940_and_a_180_shortfall
+        - balloon_timing_and_any_collateral_risk_are_explained_separately
+        - a_shortfall_response_does_not_assume_refinancing_or_forgiveness
       - measurement_id: c2304_a2_boundary
         kind: boolean
         role: supporting
@@ -195,10 +225,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2304-DEBT-AND-CREDIT-01-A3
     sequence: 3
-    title: Review the Debt and credit plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Can justify each debt and maintain a credible exit plan.'
+    title: Make a conditional decision and preserve the exit rule
+    instructions: 'Choose borrow, defer, seek another option or decline for the fictional case and give
+      the conditions supporting that choice. State the maximum total obligation accepted, how repayments
+      would be tracked and what change would trigger early contact with the creditor or a reputable adviser.
+      Explain how leverage magnifies the consequence of a failed assumption. Do not apply for credit,
+      guarantee someone else’s debt or move a real balance as part of this exercise.
+
+
+      Observation checks: The decision includes a reason rather than only the lowest payment; Accepted
+      total cost and tracking method are stated; The exit plan contains an early warning and legitimate
+      help route; No application guarantee or balance transfer is performed. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which term or income assumption mattered more than the advertised rate, and what would
+      make the proposed exit no longer credible?
+
+
+      Examples: Supportive: The learner preferred the lower total-cost option only conditionally and recognized
+      that two missed contributions would make the balloon unaffordable.
+
+
+      Mixed: The arithmetic was correct, but repayment depended on an uncertain income assumption that
+      led to deferral.
+
+
+      Contradictory: A loan was called affordable because approval was available, collateral loss was
+      ignored, or a real guarantee was signed to demonstrate commitment.
+
+
+      Inconclusive: Rates were compared without total repayment, purpose, payment timing or a stress-tested
+      exit.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -214,15 +272,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2304_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2304_a3_stop_conditions_present
-        - c2304_a3_escalation_path_present
-        - c2304_a3_unknowns_retained
+        - the_decision_includes_a_reason_rather_than_only_the_lowest_payment
+        - accepted_total_cost_and_tracking_method_are_stated
+        - the_exit_plan_contains_an_early_warning_and_legitimate_help_route
+        - no_application_guarantee_or_balance_transfer_is_performed
       - measurement_id: c2304_a3_boundary
         kind: boolean
         role: supporting
@@ -242,16 +301,19 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Debt and credit; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Debt and credit; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Use counters or an educator’s calculator and retain all assumptions with the numbers. Real hardship
+      may require independent debt, legal or benefits support; verify fees and credentials and be cautious
+      about promises to erase debt. Declining an unaffordable obligation is a valid outcome, not a failed
+      exercise.
     cultural_context:
     - Adapt the expression of Debt and credit to direct or indirect communication, collective or individual
       decision structures, local norms, faith or secular commitments, and role obligations while preserving
       consent and dignity.
     resource_variants:
-    - When a real Debt and credit opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use counters or an educator’s calculator and retain all assumptions with the numbers. Real hardship
+      may require independent debt, legal or benefits support; verify fees and credentials and be cautious
+      about promises to erase debt. Declining an unaffordable obligation is a valid outcome, not a failed
+      exercise.
   pause_conditions:
   - Pause Debt and credit when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -281,10 +343,8 @@ evidence_and_scoring:
   - c2304_a3_boundary
   - c2304_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Debt and credit action exceeded consent, authority, privacy, qualification, role, burden, or safety
-    boundaries.
-  - The evidence contradicted the intended Debt and credit criterion, depended on coercion or hidden private
-    content, or could not distinguish the protocol from contextual change.
+  - A loan was called affordable because approval was available, collateral loss was ignored, or a real
+    guarantee was signed to demonstrate commitment.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Debt and credit explicitly; support can enable access and never reduces dignity or silently changes
     the typed value.
@@ -294,14 +354,23 @@ evidence_and_scoring:
     are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Debt and credit rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can justify each debt and maintain a credible exit plan.—not completion, confidence, conformity,
-    output, independence, or worth.
-  evidence_quality_rubric: Quality for Debt and credit requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Describe the purpose and complete repayment obligation. Observed checks:
+    Purpose and a non-borrowing alternative are considered; Total repayments equal 1,150 and 1,120; Nominal
+    rates are not mislabeled as APR; Missing loan terms and adverse consequences are explicitly listed.
+    Action 2: Test a repayment path against timing and income risk. Observed checks: The full contribution
+    plan reaches 1,128; Two missed contributions leave 940 and a 180 shortfall; Balloon timing and any
+    collateral risk are explained separately; A shortfall response does not assume refinancing or forgiveness.
+    Action 3: Make a conditional decision and preserve the exit rule. Observed checks: The decision includes
+    a reason rather than only the lowest payment; Accepted total cost and tracking method are stated;
+    The exit plan contains an early warning and legitimate help route; No application guarantee or balance
+    transfer is performed.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Rates were compared without total repayment, purpose,
+    payment timing or a stress-tested exit.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Debt and
     credit contribution under typed evaluation; protocol performance remains distinct and is never counted
     twice.
@@ -310,9 +379,8 @@ evidence_and_scoring:
   - L09
   - L14
   - L21
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Debt and credit evidence.
@@ -320,10 +388,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for debt and credit action was attempted or explicitly deferred.
-  - The prepare one safe debt and credit support step action was attempted or explicitly deferred.
-  - The review the debt and credit plan against stop conditions action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Describe the purpose and complete repayment obligation. Observed checks: Purpose and a
+    non-borrowing alternative are considered; Total repayments equal 1,150 and 1,120; Nominal rates are
+    not mislabeled as APR; Missing loan terms and adverse consequences are explicitly listed.'
+  - 'Action 2: Test a repayment path against timing and income risk. Observed checks: The full contribution
+    plan reaches 1,128; Two missed contributions leave 940 and a 180 shortfall; Balloon timing and any
+    collateral risk are explained separately; A shortfall response does not assume refinancing or forgiveness.'
+  - 'Action 3: Make a conditional decision and preserve the exit rule. Observed checks: The decision includes
+    a reason rather than only the lowest payment; Accepted total cost and tracking method are stated;
+    The exit plan contains an early warning and legitimate help route; No application guarantee or balance
+    transfer is performed.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -332,55 +409,306 @@ completion_and_review:
     - c2304_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Debt and credit only when the initial context remained safe,
-    the evidence criteria were usable, burden was acceptable, and a new context can be named without assuming
-    transfer.
-  transfer_limit: Three bounded actions do not establish Debt and credit across roles, cultures, relationships,
-    seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which term or income assumption mattered more than the advertised rate, and what
+    would make the proposed exit no longer credible?
+  transfer_limit: The case uses simple fictional loans, not current offers, APR calculations or advice
+    to borrow. Real amortization, fees, collateral, default rights and affordability require the actual
+    disclosure and qualified advice when appropriate.
   reflection:
-    before: What does Debt and credit require in this exact context, what remains outside my role or authority,
-      and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Debt and credit criterion is present, absent, mixed, or unknown, and are
-      consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can justify each debt and maintain a credible exit plan.',
-      what contradiction or missing context matters most, and should this Debt and credit design be repeated,
-      adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Evaluate why borrowing is considered, what
+      it costs, what could be lost and how repayment would end rather than comparing advertised rates
+      alone.'
+    during: Which checks have actually been observed? The arithmetic was correct, but repayment depended
+      on an uncertain income assumption that led to deferral.
+    after: Which term or income assumption mattered more than the advertised rate, and what would make
+      the proposed exit no longer credible?
   review_guidance:
     repeat: Repeat the same bounded Debt and credit design only when the context and burden remain appropriate.
-    adapt: Change the Debt and credit medium, scope, support, timing, criteria, or context while preserving
-      provenance and the narrower evidence claim.
+    adapt: Use counters or an educator’s calculator and retain all assumptions with the numbers. Real
+      hardship may require independent debt, legal or benefits support; verify fees and credentials and
+      be cautious about promises to erase debt. Declining an unaffordable obligation is a valid outcome,
+      not a failed exercise.
     stop: Stop Debt and credit when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Debt and credit questions beyond this
-      educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Debt and credit criteria were observed with provenance and no adverse boundary
-      signal in the selected context.
-    mixed: Some Debt and credit criteria were observed while burden, support, contextual change, or a
-      contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Debt and credit criterion, introduced harm
-      or coercion, or showed the design was not workable.
-    inconclusive: The Debt and credit action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: The learner preferred the lower total-cost option only conditionally and recognized that
+      two missed contributions would make the balloon unaffordable.
+    mixed: The arithmetic was correct, but repayment depended on an uncertain income assumption that led
+      to deferral.
+    contradictory: A loan was called affordable because approval was available, collateral loss was ignored,
+      or a real guarantee was signed to demonstrate commitment.
+    inconclusive: Rates were compared without total repayment, purpose, payment timing or a stress-tested
+      exit.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Debt and credit.
+    context_heading: Compare two debts by total cost and a credible exit
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Debt and
       credit.
   check_in_labels:
-    c2304_a1_primary: The bounded Debt and credit criterion for action 1 was observed
+    c2304_a1_primary: 'Observed checks: describe the purpose and complete repayment obligation'
     c2304_a1_boundary: Action 1 stayed inside its stated Debt and credit boundary
     c2304_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2304_a2_primary: The bounded Debt and credit criterion for action 2 was observed
+    c2304_a2_primary: 'Observed checks: test a repayment path against timing and income risk'
     c2304_a2_boundary: Action 2 stayed inside its stated Debt and credit boundary
     c2304_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2304_a3_primary: The bounded Debt and credit criterion for action 3 was observed
+    c2304_a3_primary: 'Observed checks: make a conditional decision and preserve the exit rule'
     c2304_a3_boundary: Action 3 stayed inside its stated Debt and credit boundary
     c2304_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Debt and credit practice,
-    including support, contradiction, defer, no result, or harm.
+  completion_copy: Which term or income assumption mattered more than the advertised rate, and what would
+    make the proposed exit no longer credible? Completion is not mastery.
+  plain_language_evidence: The learner preferred the lower total-cost option only conditionally and recognized
+    that two missed contributions would make the balloon unaffordable.
   display_order: 320
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '23.04'
+  title: 23.04 — Debt and credit
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Identifying and managing conflicts of interest in a charity](https://www.gov.uk/government/publications/identifying-and-managing-conflicts-of-interest-in-a-charity-cc29/conflicts-of-interest-a-guide-for-charity-trustees)
+
+      - [Preventing Policy Capture: Integrity in Public Decision Making](https://www.oecd.org/en/publications/preventing-policy-capture_9789264065239-en.html)
+
+      - [How to File a Whistleblower Complaint](https://www.whistleblowers.gov/complaint_page)
+
+      - [Decision-making for charity trustees](https://www.gov.uk/government/publications/decision-making-for-charity-trustees-cc27/decision-making-for-charity-trustees)
+
+      - [Promising Practices for Preventing Harassment](https://www.eeoc.gov/laws/guidance/promising-practices-preventing-harassment)
+
+      - [Creating a cash flow budget](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_cash_flow_budget_tool_2018-11_ADA.pdf)
+
+      - [An essential guide to building an emergency fund](https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/)
+
+      - [Is the money I keep in my payment app safe?](https://www.consumerfinance.gov/ask-cfpb/is-the-money-i-keep-in-my-payment-app-safe-en-2135/)
+
+      - [What is the difference between a loan interest rate and the APR?](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/)
+
+      - [Beginners’ Guide to Asset Allocation, Diversification, and Rebalancing](https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset)
+
+      - [How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated)
+
+      - [I would like to be able to have my friend or family member help with my bill-paying and banking.
+      What are my options?](https://www.consumerfinance.gov/ask-cfpb/i-would-like-to-be-able-to-have-my-friend-or-family-member-help-with-my-bill-paying-and-banking-what-are-my-options-en-1145/)
+
+      - [What to Know About Life Insurance Beneficiaries](https://content.naic.org/article/consumer-insight-what-know-about-life-insurance-beneficiaries)
+
+      - [Online Shopping](https://consumer.ftc.gov/articles/online-shopping)
+
+      - [Tax withholding](https://www.irs.gov/individuals/employees/tax-withholding)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving a first attempt. These events are invented learning materials,
+      not actual participant evidence.
+
+
+      ### The stress path breaks the proposed exit
+
+
+      The supplied stress record has ten contributions of 94 because **months 4 and 7 are missed**. Savings
+      reach **940**; B''s balloon remains **1,120**, leaving **180 unpaid** if no other resource or agreement
+      exists. The first warning was visible at month 4, when one missed contribution projected only 1,034
+      and an 86 gap. The second miss increased that gap by another 94.
+
+
+      This is a simulated repayment path, not a loan the learner took. If the first decision was deferral,
+      the stress test supports retaining that condition; it is not a claim of actual default. If the first
+      decision was conditional borrowing, state exactly which condition failed and when contact should
+      have begun. No refinancing, creditor concession, forgiveness or extra income is supplied.
+
+
+      The collateral variant remains hypothetical. A necessary work tool would add potential livelihood
+      disruption to the cost of default, but the packet determines no enforcement rights or asset seizure.
+      Preserve that risk separately from the 180 arithmetic gap.
+
+
+      The next defensible record is a revised decision and a specified legitimate information or help
+      route. Do not turn the exercise into an application, guarantee or transfer. Correct arithmetic identifies
+      a problem; it does not pay the debt.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Compare two fictional debts by purpose, total obligation and a repayment exit that survives
+      a missed assumption. Allow thirty minutes for comparison and twenty for stress testing. No credit
+      application, guarantee, refinancing or balance transfer is part of this exercise. A decision to
+      defer can be the most accurate result.
+
+
+      ### Borrowing changes both today''s options and tomorrow''s claims
+
+
+      Credit lets a person use resources before paying for them in full. It also creates an obligation
+      with dates, conditions and consequences. Whether the purpose is worthwhile and whether repayment
+      is feasible are separate questions. A useful purchase does not automatically make its financing
+      affordable. Approval or a high credit score likewise does not show that a proposed payment fits
+      the borrower''s actual constraints.
+
+
+      Interest is one part of cost. Fees and other terms can change the comparison. The CFPB''s [interest-rate
+      and APR explanation, S09](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/)
+      distinguishes a rate of interest from a broader annual percentage measure incorporating relevant
+      fees. The inspected page is in a U.S. auto-loan context. The simple rates below are **nominal interest
+      assumptions, not disclosed APRs**. Do not calculate or claim regulatory APRs from this abbreviated
+      teaching file.
+
+
+      Leverage magnifies the consequence of an assumption failing because repayment remains due even if
+      the financed plan disappoints. A balloon loan concentrates the obligation at one date. Saving toward
+      that date can create a path, but the path fails if contributions are missed and no other dependable
+      resource closes the gap. Collateral adds a possible loss of a pledged asset; its exact enforcement
+      consequences require the actual terms and applicable law.
+
+
+      ### Complete teaching offer cards
+
+
+      Both loans provide **1,000 principal now for exactly one year**, with **no interim loan payments**.
+      Simple interest and any fee are paid at the end. No compounding or other charge is included in the
+      base arithmetic. Neither base loan has collateral. These invented cards are not current offers.
+
+
+      | Term | A | B |
+
+      | --- | --- | --- |
+
+      | Principal received | 1,000 | 1,000 |
+
+      | Nominal simple interest for the year | 10% | 12% |
+
+      | Fee due at the end | 50 | 0 |
+
+      | Interim loan payments | None | None |
+
+      | Final due date | Exactly one year | Exactly one year |
+
+
+      The fictional purpose is a 1,000-unit training course that may expand future work options, with
+      no promised job or increased earnings. A free introductory course is available now but covers fewer
+      topics. Deferring the paid course to its next intake means waiting a year; no deposit or cancellation
+      loss is supplied. The household can set aside **94 monthly** only if income and essential costs
+      remain unchanged. Those savings are not payments to the lender and do not reduce the balloon before
+      its due date.
+
+
+      ### Worked cost comparison
+
+
+      A''s interest is **1,000 × 10% = 100**, so its total is **1,000 + 100 + 50 = 1,150**. B''s interest
+      is **120**, giving **1,120** total. A has the lower nominal rate but costs **30 more** under these
+      terms. A low monthly payment would also be misleading here because neither loan requires one; the
+      whole amount is due at the end.
+
+
+      For B, twelve savings contributions give **94 × 12 = 1,128**, leaving only **8** beyond the 1,120
+      obligation. The base path works arithmetically but has little margin. It does not establish that
+      the household will make every contribution or that the course will provide a financial return. If
+      the household has no dependable way to absorb missed saving, choosing the cheaper loan still leaves
+      the central affordability concern unresolved.
+
+
+      The real-loan questions exceed these cards: exact payment dates, interest method, financed fees,
+      optional products, prepayment treatment, late charges, collateral, default consequences and any
+      conditions on the advertised offer. Do not fill these gaps from an unrelated product. An actual
+      comparison needs the applicable official disclosure, with independent qualified assistance where
+      appropriate. A claim that debt can always be refinanced or forgiven is not an exit plan.
+
+
+      ### Test the path before making a conditional decision
+
+
+      1. Write the purpose, expected benefit, uncertainty and non-borrowing alternative. State what deferral
+      costs in this case without inventing lost wages or a guaranteed career gain.
+
+      2. Calculate both total repayments and identify why the lower interest rate does not win. Label
+      each rate correctly and list the missing real-loan information separately from the complete toy
+      arithmetic.
+
+      3. Make a twelve-month contribution tracker for B. Stress it by omitting **month 4 and month 7**.
+      At month 4, the first missed contribution already reduces the projected twelve-month total to **1,034**
+      if the remaining 94 contributions occur, a projected shortfall of **86**. Do not wait for the final
+      due date to notice.
+
+      4. After the second missed contribution, compute the revised saved total and final gap. Name an
+      early contact route: the actual creditor through its official channel for possible arrangements,
+      or reputable independent debt guidance. No agreement, new loan or forgiveness is assumed.
+
+      5. Consider a separate collateral variant: B would require a necessary work tool as security. Describe
+      the asset potentially at risk and the added consequence of failure without guessing legal recovery
+      rights. Do not pledge anything.
+
+      6. Choose borrow conditionally, defer, seek another option or decline. State a maximum total obligation
+      and the conditions for accepting it. One defensible teaching decision is to **defer any new debt**,
+      with a maximum currently accepted obligation of **0**, while exploring the free course and dependable
+      funding. A conditional comparison ceiling of 1,120 is not acceptance of B. Save your decision before
+      the [later packet](?resource=file-later-packet-md).
+
+
+      ### Track an exit, not just an intention
+
+
+      If borrowing were genuinely chosen after appropriate review, an exit record would show the obligation,
+      due date, funds actually reserved, forecast gap, review dates and response to changed capacity.
+      The forecast should update after each contribution or missed contribution. An intention to work
+      more is not an earned resource. Promised help needs verification before it supports a repayment
+      claim.
+
+
+      For support, calculate interest with counters or a calculator and keep the cards alongside the totals.
+      For a harder pass, add a financed fee and explain why the original arithmetic no longer applies
+      until the charging basis is known. Optional actual transfer is a private reading of a disclosure
+      already available to you, with no transaction. Real hardship may require reputable debt, legal or
+      benefits support; verify credentials and fees. A person who declines an unaffordable obligation
+      has not failed this practice.
+
+
+      ### Use the result at its proper scale
+
+
+      Financial education only; tax, investment, insurance, estate, and benefits decisions may require
+      licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload
+      account identifiers, credentials or private financial records. Fiction and no attempt are legitimate.
+      Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. Loan X is 500 for one year at 8% simple interest plus a 30 end fee. Y is 500 at 10% with no fee.
+      What are their toy totals?
+
+      2. You plan twelve savings deposits of 60 toward a 700 balloon and miss one. What changes?
+
+      3. A secured loan has a lower rate and the lender approves it. Does that establish affordability?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. X totals 570 and Y totals 550. Y costs 20 less under the stated terms despite its higher
+      nominal rate. These are not APR calculations or current loan offers.
+
+      2. The full path would reach 720, but eleven deposits reach 660, leaving 40 short. Identify the
+      gap when the contribution is missed and seek an authorized response early; refinancing is not guaranteed.
+
+      3. No. Compare total terms, payment timing, dependable repayment capacity and the consequences for
+      the pledged asset. Approval and a lower rate do not eliminate default risk or establish personal
+      suitability.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

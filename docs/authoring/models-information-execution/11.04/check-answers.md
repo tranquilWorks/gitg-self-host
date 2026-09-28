@@ -27,3 +27,7 @@ The only single-worker orders are **A-B-C-D-E** and **A-C-B-D-E**. All tasks req
 When B becomes eight minutes, total single-worker active work is **28** and the parallel network lower bound is `5 + max(8,5) + 5 + 5 = 23`. The graph has not supplied a second worker, confirmed their availability, or measured the task durations. Those assumptions must be checked before using the figures as real commitments.
 
 Repair an overclaim by naming the resource assumption and separating calculated lower bound, active effort, observed duration, and actual milestone completion.
+
+## Changed-case answer
+
+If separate capable workers truly run A and B together, the dependency bound is max(6,9)+4=13 minutes. With one active worker, A and B must be sequential: 6+9+4=19 minutes before any transition time. A diagram’s parallel branches do not create available labor.

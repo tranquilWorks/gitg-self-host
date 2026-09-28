@@ -47,8 +47,8 @@ For E3, the scratch is a real visible feature, while its supposed effect on visi
 
 For support, compare only keep and repair first, then add the replacements. For a harder pass, discover an unlisted transport charge and revise the comparison before commitment. A support person can explain terms without steering the owner's preferences. Actual repair, if freely chosen, must be safe, ordinary and permitted; no hazardous tool or chemical experiment is required. A decision can value comfort and beauty while rejecting a pressure-driven purchase. Neither spending nor restraint establishes a person's worth.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

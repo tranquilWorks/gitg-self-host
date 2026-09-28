@@ -1,0 +1,412 @@
+schema_version: GG-PRACTICE-CONTENT-1.0
+protocol_version: 0.2.0
+stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01
+slug: c0202-moral-perception-practice
+name: Notice the ethical choices inside an ordinary announcement
+parent_competency_id: '02.02'
+domain_id: '02'
+governance:
+  availability: active
+  editorial_status: draft
+  runtime_projection: GG-PRACTICE-RUNTIME-PROJECTION-2.0
+  risk_class_id: RISK-HIGH
+  scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+  scoring_status: active
+  source_ids:
+  - SRC-CANONICAL-CURRICULUM-V2
+  authoring:
+    provenance: M6J individually authored exercise for 02.02; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
+    content_review_status: pending
+    research_review_status: internal_sources_only_external_review_required
+    safety_review_status: pending_specialist_expansion_review
+    accessibility_review_status: pending
+    originality_review_status: pending
+    ui_test_status: not_applicable
+    last_reviewed: null
+    known_gap_ids:
+    - RG-M6A-001
+    - RG-M6A-002
+    expert_review_ids:
+    - ER-M6A-003
+  legacy_compatibility_exceptions: []
+  deprecation:
+    deprecated: false
+    replaced_by: null
+meaning_and_fit:
+  purpose: Recognize consent, fairness, truth and power before making a small public or shared communication.
+  why_recommended: Recognize consent, fairness, truth and power before making a small public or shared
+    communication.
+  claims:
+  - statement: Recognize consent, fairness, truth and power before making a small public or shared communication.
+    classification: product_design_judgment
+    source_ids:
+    - SRC-CANONICAL-CURRICULUM-V2
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  applicability_question: Does a voluntary, bounded Moral perception practice fit the person's current
+    role, pathway, capacity, authority, resources, and safety conditions?
+  not_applicable_behavior: Record Moral perception as not applicable, consciously unchosen, or deferred
+    without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
+  readiness_considerations: Use an audio announcement or a purely fictional school, neighborhood or club
+    event. Publishing is unnecessary; this exercise tests pre-publication judgment.
+  opportunity_considerations: Draft a fictional notice thanking people after a shared event. Decide whether
+    to name helpers, use a group photograph and describe the event as a success. Do not upload an actual
+    photograph or identifying details.
+  prerequisites:
+  - Draft a fictional notice thanking people after a shared event. Decide whether to name helpers, use
+    a group photograph and describe the event as a success. Do not upload an actual photograph or identifying
+    details.
+  dependencies: []
+  safe_alternatives:
+  - Use an audio announcement or a purely fictional school, neighborhood or club event. Publishing is
+    unnecessary; this exercise tests pre-publication judgment.
+  role_conditions:
+  - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
+    held before the practice applies.
+  pathway_conditions:
+  - Religious, secular, cultural, disability-adapted, collective, and individual pathways may express
+    Moral perception differently while preserving consent, evidence limits, safety, and equal dignity.
+  worldview_conditions:
+  - The practice does not require one worldview or treat disagreement about Moral perception as inferiority;
+    competing reasonable interpretations and conscientious refusal remain visible.
+intervention:
+  protocol_class: PF-AUDIT-REDESIGN
+  duration_days: 10
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Draft a fictional notice thanking people after a shared event. Decide whether to name helpers,
+    use a group photograph and describe the event as a success. Do not upload an actual photograph or
+    identifying details. Goal: Recognize consent, fairness, truth and power before making a small public
+    or shared communication. Scope: One announcement practices noticing ethical dimensions before publication.
+    Moral perception in other settings requires further observation and contextual judgment. Time and
+    effort: About 20 minutes to draft, inspect and revise one short notice. Adaptation: Use an audio announcement
+    or a purely fictional school, neighborhood or club event. Publishing is unnecessary; this exercise
+    tests pre-publication judgment. Keep personal working notes outside the check-in; record only the
+    listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use an audio announcement or a purely fictional school, neighborhood or club event.
+    Publishing is unnecessary; this exercise tests pre-publication judgment.
+  expected_burden: About 20 minutes to draft, inspect and revise one short notice.
+  action_count_rationale: null
+  foreseeable_misuse:
+  - Using the Moral perception protocol to rank worth, coerce participation, demand disclosure, override
+    rest or care, certify competence, or justify decisions beyond the recorded context.
+  - Treating a completed Moral perception action, a polished artifact, agreement, confidence, speed, independence,
+    or output as mastery or universal transfer.
+  exclusions:
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use an audio
+    announcement or a purely fictional school, neighborhood or club event. Publishing is unnecessary;
+    this exercise tests pre-publication judgment.
+  actions:
+  - stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01-A1
+    sequence: 1
+    title: Map who could be affected by the notice
+    instructions: 'List contributors, attendees, people absent from the photograph, and anyone whose participation
+      may be private. Ask who gets credit, who can meaningfully decline exposure, and whose work is invisible.
+      Separate what the notice''s author knows from what they assume about others'' preferences.
+
+
+      Observation checks: Affected groups include less visible contributors; Consent and power differences
+      are noticed; Knowledge is separated from assumption. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 3
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01
+      action_stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01-A1
+      competency_stable_id: '02.02'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0202_a1_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0202_a1_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - affected_groups_include_less_visible_contributors
+        - consent_and_power_differences_are_noticed
+        - knowledge_is_separated_from_assumption
+      - measurement_id: c0202_a1_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0202_a1_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01-A2
+    sequence: 2
+    title: Locate the ethical decision in each sentence
+    instructions: 'Mark a truth question, a consent question and a fairness question in the draft. For
+      example, a photograph requires permission appropriate to its use, an attendance claim requires a
+      basis, and thanks should consider unpaid preparation. State a possible harm and a proportionate
+      way to prevent it for each.
+
+
+      Observation checks: Three ethical questions are located in the draft; Each question identifies a
+      plausible consequence; Each has a proportionate preventive step. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 7
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01
+      action_stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01-A2
+      competency_stable_id: '02.02'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0202_a2_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0202_a2_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - three_ethical_questions_are_located_in_the_draft
+        - each_question_identifies_a_plausible_consequence
+        - each_has_a_proportionate_preventive_step
+      - measurement_id: c0202_a2_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0202_a2_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01-A3
+    sequence: 3
+    title: Revise before any publication
+    instructions: 'Rewrite the notice using verified claims, non-identifying language where needed and
+      fair acknowledgment. Keep unresolved consent as a reason to omit material or wait, not as presumed
+      agreement. Compare the two drafts and name the ethical issue that ordinary proofreading would have
+      missed.
+
+
+      Observation checks: The draft changes in response to the review; Unresolved consent is respected;
+      An initially hidden ethical issue is named. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: What ethical concern became visible before anyone needed to complain?
+
+
+      Examples: Supportive: The revision credited preparation work and omitted an unapproved photograph.
+
+
+      Mixed: Privacy was considered but the announcement still credited only visible presenters.
+
+
+      Contradictory: Silence was treated as consent or an unsupported attendance claim was retained for
+      prestige.
+
+
+      Inconclusive: Only spelling and layout changed; affected people and ethical decisions were not examined.'
+    expected_time: 15-25 minutes
+    due_within_days: 10
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01
+      action_stable_id: PRACTICE-COMP-0202-MORAL-PERCEPTION-01-A3
+      competency_stable_id: '02.02'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0202_a3_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0202_a3_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - the_draft_changes_in_response_to_the_review
+        - unresolved_consent_is_respected
+        - an_initially_hidden_ethical_issue_is_named
+      - measurement_id: c0202_a3_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0202_a3_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  adaptations:
+    low_resource:
+    - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
+      Moral perception; no purchase, subscription, travel, credential, or public artifact is required.
+    accessibility:
+    - Use an audio announcement or a purely fictional school, neighborhood or club event. Publishing is
+      unnecessary; this exercise tests pre-publication judgment.
+    cultural_context:
+    - Adapt the expression of Moral perception to direct or indirect communication, collective or individual
+      decision structures, local norms, faith or secular commitments, and role obligations while preserving
+      consent and dignity.
+    resource_variants:
+    - Use an audio announcement or a purely fictional school, neighborhood or club event. Publishing is
+      unnecessary; this exercise tests pre-publication judgment.
+  pause_conditions:
+  - Pause Moral perception when capacity, consent, authority, privacy, access, care duties, uncertainty,
+    distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
+  stop_conditions:
+  - Stop the Moral perception practice for harm, coercion, retaliation risk, emergency conditions, unsafe
+    exposure, worsening symptoms, protected information, legal or policy conflict, or pressure to exceed
+    the stated boundary.
+  escalation_conditions:
+  - Use the appropriate local safeguarding, emergency, organizational, legal, medical, financial, accessibility,
+    or other qualified channel when a Moral perception situation exceeds a voluntary low-stakes practice.
+  professional_referral_conditions:
+  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
+    practice.
+evidence_and_scoring:
+  accepted_evidence_types:
+  - structured criteria observations for the bounded Moral perception actions
+  - explicit contradiction, adverse, defer, not-applicable, and unknown states
+  observation_contract_version: typed-evidence-rules-v1
+  check_in_fields:
+  - c0202_a1_primary
+  - c0202_a1_boundary
+  - c0202_a1_adverse
+  - c0202_a2_primary
+  - c0202_a2_boundary
+  - c0202_a2_adverse
+  - c0202_a3_primary
+  - c0202_a3_boundary
+  - c0202_a3_adverse
+  adverse_or_contradictory_indicators:
+  - Silence was treated as consent or an unsupported attendance claim was retained for prestige.
+  independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
+    for Moral perception explicitly; support can enable access and never reduces dignity or silently changes
+    the typed value.
+  context_transfer_rule: Evidence remains limited to the chosen Moral perception context, action, role,
+    pathway, and assessment epoch; it does not establish cross-context reliability.
+  repetition_rule: Each Moral perception observation requires a distinct immutable origin; duplicate origins
+    are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
+  recency_rule: Generated Moral perception rules withhold observations older than 90 days; no unrecorded
+    retention or carry-forward assumption applies.
+  performance_rubric: 'Action 1: Map who could be affected by the notice. Observed checks: Affected groups
+    include less visible contributors; Consent and power differences are noticed; Knowledge is separated
+    from assumption. Action 2: Locate the ethical decision in each sentence. Observed checks: Three ethical
+    questions are located in the draft; Each question identifies a plausible consequence; Each has a proportionate
+    preventive step. Action 3: Revise before any publication. Observed checks: The draft changes in response
+    to the review; Unresolved consent is respected; An initially hidden ethical issue is named.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Only spelling and layout changed; affected people and
+    ethical decisions were not examined.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
+  competency_contribution: Designated primary measurements may produce one context-bound direct Moral
+    perception contribution under typed evaluation; protocol performance remains distinct and is never
+    counted twice.
+  canonical_lever_allocation: parent_competency_mapping
+  recommendation_target_lever_ids:
+  - L02
+  - L14
+  - L24
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
+  withholding_conditions:
+  - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
+    or adverse Moral perception evidence.
+  - Withhold any record containing private narrative, artifact contents, another person's identity, unsupported
+    inference, or evidence outside its assessment epoch.
+completion_and_review:
+  completion_criteria:
+  - 'Action 1: Map who could be affected by the notice. Observed checks: Affected groups include less
+    visible contributors; Consent and power differences are noticed; Knowledge is separated from assumption.'
+  - 'Action 2: Locate the ethical decision in each sentence. Observed checks: Three ethical questions
+    are located in the draft; Each question identifies a plausible consequence; Each has a proportionate
+    preventive step.'
+  - 'Action 3: Revise before any publication. Observed checks: The draft changes in response to the review;
+    Unresolved consent is respected; An initially hidden ethical issue is named.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
+  completion_rules:
+    minimum_completed: 2
+    substantive_markers:
+    - c0202_a1_primary
+    - c0202_a2_primary
+    - c0202_a3_primary
+    marker_mode: any
+  mastery_disclaimer: Completing this practice does not establish mastery.
+  progression_criteria: What ethical concern became visible before anyone needed to complain?
+  transfer_limit: One announcement practices noticing ethical dimensions before publication. Moral perception
+    in other settings requires further observation and contextual judgment.
+  reflection:
+    before: 'What would count as doing this honestly? Goal: Recognize consent, fairness, truth and power
+      before making a small public or shared communication.'
+    during: Which checks have actually been observed? Privacy was considered but the announcement still
+      credited only visible presenters.
+    after: What ethical concern became visible before anyone needed to complain?
+  review_guidance:
+    repeat: Repeat the same bounded Moral perception design only when the context and burden remain appropriate.
+    adapt: Use an audio announcement or a purely fictional school, neighborhood or club event. Publishing
+      is unnecessary; this exercise tests pre-publication judgment.
+    stop: Stop Moral perception when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
+      professionally restricted, or harmful.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
+  evidence_examples:
+    supportive: The revision credited preparation work and omitted an unapproved photograph.
+    mixed: Privacy was considered but the announcement still credited only visible presenters.
+    contradictory: Silence was treated as consent or an unsupported attendance claim was retained for
+      prestige.
+    inconclusive: Only spelling and layout changed; affected people and ethical decisions were not examined.
+presentation:
+  setup_copy:
+    context_heading: Notice the ethical choices inside an ordinary announcement
+    boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
+    applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Moral perception.
+  check_in_labels:
+    c0202_a1_primary: 'Observed checks: map who could be affected by the notice'
+    c0202_a1_boundary: Action 1 stayed inside its stated Moral perception boundary
+    c0202_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
+    c0202_a2_primary: 'Observed checks: locate the ethical decision in each sentence'
+    c0202_a2_boundary: Action 2 stayed inside its stated Moral perception boundary
+    c0202_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
+    c0202_a3_primary: 'Observed checks: revise before any publication'
+    c0202_a3_boundary: Action 3 stayed inside its stated Moral perception boundary
+    c0202_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
+  completion_copy: What ethical concern became visible before anyone needed to complain? Completion is
+    not mastery.
+  plain_language_evidence: The revision credited preparation work and omitted an unapproved photograph.
+  display_order: 22

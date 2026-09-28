@@ -68,7 +68,7 @@ For each branch, show occupied and unallocated minutes without overlap. Keep a b
 
 Use the update to identify an estimate error, an external event and a scheduling choice; explicitly say when a category has no evidence. Write one change to the next plan, such as reserving time before the vulnerable deadline or arranging an agreed alternative before making the promise. Record any open commitment and the next useful contact. Do not rewrite a missed deadline as the original plan.
 
-Then attempt [check-prompts.md](check-prompts.md), saving answers before opening [check-answers.md](check-answers.md). A complete source learning artifact has both schedules, feasibility arithmetic, a single-use buffer ledger, the latest-start communication rule and an honest pending-work record. These are reading/practice outputs, not new application completion conditions.
+Then attempt [check-prompts.md](check-prompts.md), saving answers before opening [check-answers.md](check-answers.md). A complete source learning artifact has both schedules, feasibility arithmetic, a single-use buffer ledger, the latest-start communication rule and an honest pending-work record. Keep the paper result distinct from actual follow-through.
 
 ## Access, challenge and later transfer
 

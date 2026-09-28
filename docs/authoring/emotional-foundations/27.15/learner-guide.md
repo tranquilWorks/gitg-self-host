@@ -34,10 +34,8 @@ For support, use a public resource or accessible quiet activity without involvin
 
 In later transfer, notice one suitable good at a natural opportunity and respond proportionately. The point is neither to consume others' care without regard for them nor to earn permission to exist. One fictional day cannot establish generosity, dependence managed over time, spiritual experience or a transformed life.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

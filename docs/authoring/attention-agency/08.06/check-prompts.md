@@ -6,4 +6,4 @@ Attempt these before opening [answers](check-answers.md).
 
 2. One three-minute start occurs and the second opportunity is deferred. What count is supported?
 
-3. A duration field permits a wider validation range than the two-to-five-minute task. Does that invite a fifteen-minute start?
+3. You planned a two-to-five-minute start but feel pressure to continue for fifteen minutes. Must you extend it to count the attempt?

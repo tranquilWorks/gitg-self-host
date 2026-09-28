@@ -57,11 +57,15 @@ meaning_and_fit:
     or professional support.
   opportunity_considerations: 'Use an unanswered nonurgent invitation, a hobby plan affected by weather,
     or the supplied case: you have invited a friend to a free activity but do not yet know whether they
-    will attend. No serious loss, health concern, emergency or manufactured deprivation is needed.'
+    will attend. No serious loss, health concern, emergency or manufactured deprivation is needed. The
+    learning guide contains a complete fictional practice and a separate changed-case check. Choose that
+    route when a real situation is unavailable; its results are rehearsal, not performed real-world work.'
   prerequisites:
   - 'Use an unanswered nonurgent invitation, a hobby plan affected by weather, or the supplied case: you
     have invited a friend to a free activity but do not yet know whether they will attend. No serious
-    loss, health concern, emergency or manufactured deprivation is needed.'
+    loss, health concern, emergency or manufactured deprivation is needed. The learning guide contains
+    a complete fictional practice and a separate changed-case check. Choose that route when a real situation
+    is unavailable; its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use a solo weather-dependent plan or the fictional invitation for analysis when no suitable live uncertainty
@@ -84,16 +88,18 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use an unanswered nonurgent invitation, a hobby plan affected by weather, or the supplied case:
     you have invited a friend to a free activity but do not yet know whether they will attend. No serious
-    loss, health concern, emergency or manufactured deprivation is needed. Goal: Distinguish choice, influence
-    and uncontrollable conditions, tolerate remaining uncertainty and dependence, and act on a proportionate
-    responsibility without pretending to control the outcome. Scope: One low-stakes uncertainty practices
-    the relation between acceptance and action. It does not prescribe passivity about injustice or claim
-    that feelings, bodies and circumstances are entirely controllable. Time and effort: About 15 minutes
-    to prepare, one ordinary action, and two brief reviews within a week. Adaptation: Use a solo weather-dependent
-    plan or the fictional invitation for analysis when no suitable live uncertainty exists. Fictional
-    planning does not demonstrate release during a real wait. Prayer or secular language may frame acceptance;
-    neither replaces necessary care, advocacy or professional support. Keep personal working notes outside
-    the check-in; record only the listed observations.'
+    loss, health concern, emergency or manufactured deprivation is needed. The learning guide contains
+    a complete fictional practice and a separate changed-case check. Choose that route when a real situation
+    is unavailable; its results are rehearsal, not performed real-world work. Goal: Distinguish choice,
+    influence and uncontrollable conditions, tolerate remaining uncertainty and dependence, and act on
+    a proportionate responsibility without pretending to control the outcome. Scope: One low-stakes uncertainty
+    practices the relation between acceptance and action. It does not prescribe passivity about injustice
+    or claim that feelings, bodies and circumstances are entirely controllable. Time and effort: About
+    15 minutes to prepare, one ordinary action, and two brief reviews within a week. Adaptation: Use a
+    solo weather-dependent plan or the fictional invitation for analysis when no suitable live uncertainty
+    exists. Fictional planning does not demonstrate release during a real wait. Prayer or secular language
+    may frame acceptance; neither replaces necessary care, advocacy or professional support. Keep personal
+    working notes outside the check-in; record only the listed observations.'
   privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
     contents, identifying details or another person's private information. Participation and any help
     must be voluntary. Use a solo weather-dependent plan or the fictional invitation for analysis when
@@ -462,3 +468,58 @@ presentation:
   plain_language_evidence: The participant invited once, accepted a refusal and used the fallback while
     remaining disappointed but respectful.
   display_order: 41
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '03.06'
+  title: Release an uncontrollable outcome while taking your next step
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Releasing an outcome means acknowledging another person’s control while carrying out one’s own
+      responsibilities. It is compatible with one useful clarification; it does not require extinguishing
+      an urge or feeling.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Jo invites Rae to a free accessible reading room Saturday 14:00–15:00. The room is confirmed
+      open and suitable; either can attend alone. Jo asks for a reply by Friday 18:00 and says declining
+      is welcome. At Friday 16:00 no reply exists. Jo’s available alternative is reading an already borrowed
+      book at home. Neither has travel or care duties depending on Rae’s answer.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Write one bounded decision rule and distinguish what Jo can choose from what remains Rae’s decision.
+      Save it before the supplied outcome.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A weather cancellation arrives before an agreed decision time. Must someone ignore it to prove
+      surrender?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Wait until the stated point without repeated pressure, then choose the feasible alternative
+      if no response. Later fiction: no answer by 18:00; Jo reads at home Saturday and still feels disappointed.
+      Rae’s motive is unknown. Partial: plan a fallback without a decision point. Incorrect: infer rejection,
+      send repeated demands or report a shared visit. Actual control-release behavior would need a real
+      opportunity.'
+    criteria:
+    - Control and response choices differ
+    - The fallback and decision time are feasible
+    - Uncertainty and feeling are not rewritten as certainty
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Respond to useful new information and adjust the plan. Releasing control is not neglecting
+      an available responsible action.
+    criteria:
+    - Control and response choices differ
+    - The fallback and decision time are feasible
+    - Uncertainty and feeling are not rewritten as certainty

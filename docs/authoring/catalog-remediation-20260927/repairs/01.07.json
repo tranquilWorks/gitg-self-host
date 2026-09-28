@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "01.07",
+  "title": "Make one reversible decision with known unknowns",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A reversible experiment specifies an information question, bounded cost and stop condition. A consequential decision needs additional preparation: affected people, irreversible commitments, qualified input where needed and a decision date that does not outrun essential facts."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional study choice: Tue18:00–18:20 or Wed08:00–08:20. Both are free; usual evening noise may occur, morning transport begins 08:40. Study card: north is top, the desk is south of the hall, the shelf is east of the hall. Question: can the available setting support reading without displacing transport? Maximum cost 20 minutes; stop before required preparation."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Choose a trial and prediction, identify one missing fact and state the review decision before the outcome. Do not treat a trial as permission for a consequential commitment.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A trial subscription is reversible only before Friday, but its cancellation process is unconfirmed. Is “I can always undo it” a known fact?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Both windows can be defended with a stated uncertainty. Later fiction for morning:08:00–08:15 reading occurs,08:15 transport preparation starts unexpectedly early; session stops. This supports only 15 minutes of study and a revised preparation constraint. Partial: observe success but ignore changed timing. Incorrect: count 20 completed or generalize to all mornings. For a consequential course decision, separately gather fees, accessibility, withdrawal terms and affected commitments before agreeing; use appropriate advice for legal/financial questions.",
+      "criteria": [
+        "Known facts and assumptions differ",
+        "Cost and stop condition are workable",
+        "Next commitment respects remaining uncertainty"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Verify the actual cancellation route and deadline before relying on reversibility; defer commitment if an essential condition is unknown. A reassuring assumption is not a stop mechanism.",
+      "criteria": [
+        "Known facts and assumptions differ",
+        "Cost and stop condition are workable",
+        "Next commitment respects remaining uncertainty"
+      ]
+    }
+  ]
+}

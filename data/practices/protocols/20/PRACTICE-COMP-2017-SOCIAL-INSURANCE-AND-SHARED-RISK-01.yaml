@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2017-SOCIAL-INSURANCE-AND-SHARED-RISK-01
 slug: c2017-social-insurance-and-shared-risk-practice
-name: Bounded Social insurance and shared risk Practice
+name: Compare two risk-pooling policies without hiding who pays or is missed
 parent_competency_id: '20.17'
 domain_id: '20'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 20.17
-      (Social insurance and shared risk); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 20.17; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Social insurance and shared risk through a artifact-and-review practice bounded by
-    the canonical scope: Understand why societies pool risks related to health, unemployment, disability,
-    aging, disaster, and poverty.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can evaluate a policy
-    using adequacy, incentives, access, dignity, cost, and distribution. The protocol creates a small
-    opportunity to examine that target without treating completion as broad capability.'
+  purpose: Evaluate a social-insurance design across adequacy, incentives, access, dignity, cost and distribution
+    while distinguishing a simple model from real policy evidence.
+  why_recommended: Evaluate a social-insurance design across adequacy, incentives, access, dignity, cost
+    and distribution while distinguishing a simple model from real policy evidence.
   claims:
-  - statement: Using the canonical scope and evidence target for Social insurance and shared risk is a
-      traceable product-design basis for a source-only draft protocol.
+  - statement: Evaluate a social-insurance design across adequacy, incentives, access, dignity, cost and
+      distribution while distinguishing a simple model from real policy evidence.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Social insurance and shared risk practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Social insurance and shared risk as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Social insurance
-    and shared risk context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Social insurance
-    and shared risk; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use counters or a calculator and discuss the cases orally. No personal income,
+    health, benefit or account data are needed. For actual eligibility, contributions or appeals, consult
+    current official local guidance and qualified advice.
+  opportunity_considerations: Use a fictional group of 100 adults, each contributing 10 units to a 1,000-unit
+    fund. In one period, 10 people each need 80 units, leaving 200 before administration. Compare Policy
+    A requiring a complex proof process with Policy B using a simpler process and later review. No fraud
+    rate or administrative cost is supplied; leave them unknown.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Social insurance and shared risk.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use a fictional group of 100 adults, each contributing 10 units to a 1,000-unit fund. In one period,
+    10 people each need 80 units, leaving 200 before administration. Compare Policy A requiring a complex
+    proof process with Policy B using a simpler process and later review. No fraud rate or administrative
+    cost is supplied; leave them unknown.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Social insurance and shared risk
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use counters or a calculator and discuss the cases orally. No personal income, health, benefit or
+    account data are needed. For actual eligibility, contributions or appeals, consult current official
+    local guidance and qualified advice.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,25 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-ARTIFACT-PLAN
   duration_days: 10
-  cadence: Complete three bounded Social insurance and shared risk actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Social insurance and shared risk; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Social insurance
-    and shared risk. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Social insurance and shared risk actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a fictional group of 100 adults, each contributing 10 units to a 1,000-unit fund. In one
+    period, 10 people each need 80 units, leaving 200 before administration. Compare Policy A requiring
+    a complex proof process with Policy B using a simpler process and later review. No fraud rate or administrative
+    cost is supplied; leave them unknown. Goal: Evaluate a social-insurance design across adequacy, incentives,
+    access, dignity, cost and distribution while distinguishing a simple model from real policy evidence.
+    Scope: The numbers and policies are fictional educational cases, not benefit eligibility, actuarial
+    advice, a government budget forecast or a recommendation about an actual personal financial decision.
+    Time and effort: Two 25-minute model comparisons and a 10-minute explanation. Adaptation: Use counters
+    or a calculator and discuss the cases orally. No personal income, health, benefit or account data
+    are needed. For actual eligibility, contributions or appeals, consult current official local guidance
+    and qualified advice. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use counters or a calculator and discuss the cases orally. No personal income,
+    health, benefit or account data are needed. For actual eligibility, contributions or appeals, consult
+    current official local guidance and qualified advice.
+  expected_burden: Two 25-minute model comparisons and a 10-minute explanation.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Social insurance and shared risk protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +107,25 @@ intervention:
   - Treating a completed Social insurance and shared risk action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Social insurance and shared risk situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific
-    and can involve serious risk.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use counters
+    or a calculator and discuss the cases orally. No personal income, health, benefit or account data
+    are needed. For actual eligibility, contributions or appeals, consult current official local guidance
+    and qualified advice.
   actions:
   - stable_id: PRACTICE-COMP-2017-SOCIAL-INSURANCE-AND-SHARED-RISK-01-A1
     sequence: 1
-    title: Define a rubric for Social insurance and shared risk
-    instructions: 'Turn the canonical scope for Social insurance and shared risk into three to five inspectable
-      criteria: Understand why societies pool risks related to health, unemployment, disability, aging,
-      disaster, and poverty. Keep the rubric bounded to one current context and include one criterion
-      for uncertainty, access, or competing obligations.'
+    title: Explain what is pooled and what the model leaves out
+    instructions: 'Calculate contributions and stated needs, then list unmodeled costs, unequal ability
+      to contribute, correlated shocks and people outside the group. Give health, unemployment, disability,
+      aging, disaster and poverty separate examples of a risk or need a society might address, without
+      assuming the same insurance mechanism fits all of them. Read a social-protection framework for its
+      principles, not as a claim that a particular benefit is available in your location.
+
+
+      Observation checks: The arithmetic and unmodeled quantities are explicit; Unequal contribution capacity
+      and correlated shocks are considered; Six risk or need areas are distinguished; Framework principles
+      are not treated as local benefit eligibility. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +147,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2017_a1_criteria_trace_to_scope
-        - c2017_a1_context_bounded
-        - c2017_a1_constraint_included
+        - the_arithmetic_and_unmodeled_quantities_are_explicit
+        - unequal_contribution_capacity_and_correlated_shocks_are_considered
+        - six_risk_or_need_areas_are_distinguished
+        - framework_principles_are_not_treated_as_local_benefit_eligibility
       - measurement_id: c2017_a1_boundary
         kind: boolean
         role: supporting
@@ -154,11 +167,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2017-SOCIAL-INSURANCE-AND-SHARED-RISK-01-A2
     sequence: 2
-    title: Build one Social insurance and shared risk artifact
-    instructions: Create the smallest useful plan, checklist, diagram, record, or other artifact that
-      applies the rubric for Social insurance and shared risk. Store only category-level information and
-      omit names, secrets, credentials, diagnoses, protected work detail, and unnecessary third-party
-      information.
+    title: Compare the policies from the user and fund perspectives
+    instructions: 'For each policy, assess whether support is adequate and timely, whether eligible people
+      can navigate it, how dignity and privacy are protected, what incentives it creates and what administration
+      might cost. Identify who could be wrongly excluded or wrongly included and which evidence would
+      estimate those errors. Do not assume that simpler access means no accountability or that more paperwork
+      always prevents misuse. State a tradeoff rather than forcing every criterion to improve together.
+
+
+      Observation checks: Adequacy access dignity incentives cost and distribution are all assessed; Wrongful
+      exclusion and inclusion are both considered; Unknown administrative and behavioral effects remain
+      unknown; A genuine tradeoff is stated. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -180,9 +200,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2017_a2_artifact_matches_rubric
-        - c2017_a2_minimum_private_detail
-        - c2017_a2_usable_next_step_present
+        - adequacy_access_dignity_incentives_cost_and_distribution_are_all_assessed
+        - wrongful_exclusion_and_inclusion_are_both_considered
+        - unknown_administrative_and_behavioral_effects_remain_unknown
+        - a_genuine_tradeoff_is_stated
       - measurement_id: c2017_a2_boundary
         kind: boolean
         role: supporting
@@ -199,10 +220,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2017-SOCIAL-INSURANCE-AND-SHARED-RISK-01-A3
     sequence: 3
-    title: Stress-test and revise the Social insurance and shared risk artifact
-    instructions: 'Test the artifact against one realistic variation, counterexample, or changed constraint.
-      Revise it only where the test exposes a gap, then compare the result with this evidence target:
-      Can evaluate a policy using adequacy, incentives, access, dignity, cost, and distribution.'
+    title: Stress-test the pool and make a conditional judgment
+    instructions: 'Change the case so 20 people need 80 units: needs become 1,600 and exceed the 1,000
+      fund before administration. Compare responses such as reserves, broader funding, changed contributions
+      or benefits, identifying who bears each burden. Write a conditional preference between A and B and
+      name the missing evidence that could reverse it. Do not turn the toy calculation into a claim about
+      the solvency or fairness of an actual national system.
+
+
+      Observation checks: The correlated-need stress case is calculated correctly; Funding or benefit
+      responses identify who bears the burden; The policy judgment is conditional on missing evidence;
+      No real-system conclusion is inferred from the toy model. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Who gains access, who bears the risk and cost, and which missing quantity most changes
+      your judgment about the policy?
+
+
+      Examples: Supportive: The participant calculated the shortfall, compared access with verification
+      burden and made a conditional policy judgment rather than declaring one design universally best.
+
+
+      Mixed: The first comparison ignored administration and correlated shocks; the stress test exposed
+      both limits.
+
+
+      Contradictory: The toy model was presented as proof that a real benefit system is solvent, fraudulent
+      or available to a particular person.
+
+
+      Inconclusive: Solidarity or self-reliance was asserted without assessing adequacy, access, incentives,
+      cost and distribution.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -218,15 +267,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2017_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2017_a3_variation_tested
-        - c2017_a3_revision_traceable
-        - c2017_a3_target_evidence_compared
+        - the_correlated_need_stress_case_is_calculated_correctly
+        - funding_or_benefit_responses_identify_who_bears_the_burden
+        - the_policy_judgment_is_conditional_on_missing_evidence
+        - no_real_system_conclusion_is_inferred_from_the_toy_model
       - measurement_id: c2017_a3_boundary
         kind: boolean
         role: supporting
@@ -247,17 +297,17 @@ intervention:
       Social insurance and shared risk; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Social insurance and shared risk; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use counters or a calculator and discuss the cases orally. No personal income, health, benefit or
+      account data are needed. For actual eligibility, contributions or appeals, consult current official
+      local guidance and qualified advice.
     cultural_context:
     - Adapt the expression of Social insurance and shared risk to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Social insurance and shared risk opportunity is unavailable or inappropriate, use a
-      fictional, historical, public, simulated, or planning-only equivalent and retain the narrower evidence
-      classification.
+    - Use counters or a calculator and discuss the cases orally. No personal income, health, benefit or
+      account data are needed. For actual eligibility, contributions or appeals, consult current official
+      local guidance and qualified advice.
   pause_conditions:
   - Pause Social insurance and shared risk when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -289,10 +339,8 @@ evidence_and_scoring:
   - c2017_a3_boundary
   - c2017_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Social insurance and shared risk action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Social insurance and shared risk criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The toy model was presented as proof that a real benefit system is solvent, fraudulent or available
+    to a particular person.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Social insurance and shared risk explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -303,14 +351,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Social insurance and shared risk rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can evaluate a policy using adequacy, incentives, access, dignity, cost, and distribution.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Social insurance and shared risk requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Explain what is pooled and what the model leaves out. Observed checks:
+    The arithmetic and unmodeled quantities are explicit; Unequal contribution capacity and correlated
+    shocks are considered; Six risk or need areas are distinguished; Framework principles are not treated
+    as local benefit eligibility. Action 2: Compare the policies from the user and fund perspectives.
+    Observed checks: Adequacy access dignity incentives cost and distribution are all assessed; Wrongful
+    exclusion and inclusion are both considered; Unknown administrative and behavioral effects remain
+    unknown; A genuine tradeoff is stated. Action 3: Stress-test the pool and make a conditional judgment.
+    Observed checks: The correlated-need stress case is calculated correctly; Funding or benefit responses
+    identify who bears the burden; The policy judgment is conditional on missing evidence; No real-system
+    conclusion is inferred from the toy model.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Solidarity or self-reliance was asserted without assessing
+    adequacy, access, incentives, cost and distribution.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Social
     insurance and shared risk contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -320,9 +377,8 @@ evidence_and_scoring:
   - L22
   - L30
   - L31
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Social insurance and shared risk evidence.
@@ -330,10 +386,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define a rubric for social insurance and shared risk action was attempted or explicitly deferred.
-  - The build one social insurance and shared risk artifact action was attempted or explicitly deferred.
-  - The stress-test and revise the social insurance and shared risk artifact action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Explain what is pooled and what the model leaves out. Observed checks: The arithmetic and
+    unmodeled quantities are explicit; Unequal contribution capacity and correlated shocks are considered;
+    Six risk or need areas are distinguished; Framework principles are not treated as local benefit eligibility.'
+  - 'Action 2: Compare the policies from the user and fund perspectives. Observed checks: Adequacy access
+    dignity incentives cost and distribution are all assessed; Wrongful exclusion and inclusion are both
+    considered; Unknown administrative and behavioral effects remain unknown; A genuine tradeoff is stated.'
+  - 'Action 3: Stress-test the pool and make a conditional judgment. Observed checks: The correlated-need
+    stress case is calculated correctly; Funding or benefit responses identify who bears the burden; The
+    policy judgment is conditional on missing evidence; No real-system conclusion is inferred from the
+    toy model.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -342,57 +407,293 @@ completion_and_review:
     - c2017_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Social insurance and shared risk only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Social insurance and shared risk across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Who gains access, who bears the risk and cost, and which missing quantity most
+    changes your judgment about the policy?
+  transfer_limit: The numbers and policies are fictional educational cases, not benefit eligibility, actuarial
+    advice, a government budget forecast or a recommendation about an actual personal financial decision.
   reflection:
-    before: What does Social insurance and shared risk require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Social insurance and shared risk criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can evaluate a policy using adequacy, incentives, access,
-      dignity, cost, and distribution.', what contradiction or missing context matters most, and should
-      this Social insurance and shared risk design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Evaluate a social-insurance design across
+      adequacy, incentives, access, dignity, cost and distribution while distinguishing a simple model
+      from real policy evidence.'
+    during: Which checks have actually been observed? The first comparison ignored administration and
+      correlated shocks; the stress test exposed both limits.
+    after: Who gains access, who bears the risk and cost, and which missing quantity most changes your
+      judgment about the policy?
   review_guidance:
     repeat: Repeat the same bounded Social insurance and shared risk design only when the context and
       burden remain appropriate.
-    adapt: Change the Social insurance and shared risk medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use counters or a calculator and discuss the cases orally. No personal income, health, benefit
+      or account data are needed. For actual eligibility, contributions or appeals, consult current official
+      local guidance and qualified advice.
     stop: Stop Social insurance and shared risk when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Social insurance and shared risk questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Social insurance and shared risk criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Social insurance and shared risk criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Social insurance and shared risk criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Social insurance and shared risk action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The participant calculated the shortfall, compared access with verification burden and
+      made a conditional policy judgment rather than declaring one design universally best.
+    mixed: The first comparison ignored administration and correlated shocks; the stress test exposed
+      both limits.
+    contradictory: The toy model was presented as proof that a real benefit system is solvent, fraudulent
+      or available to a particular person.
+    inconclusive: Solidarity or self-reliance was asserted without assessing adequacy, access, incentives,
+      cost and distribution.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Social insurance and shared risk.
+    context_heading: Compare two risk-pooling policies without hiding who pays or is missed
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Social insurance
       and shared risk.
   check_in_labels:
-    c2017_a1_primary: The bounded Social insurance and shared risk criterion for action 1 was observed
+    c2017_a1_primary: 'Observed checks: explain what is pooled and what the model leaves out'
     c2017_a1_boundary: Action 1 stayed inside its stated Social insurance and shared risk boundary
     c2017_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2017_a2_primary: The bounded Social insurance and shared risk criterion for action 2 was observed
+    c2017_a2_primary: 'Observed checks: compare the policies from the user and fund perspectives'
     c2017_a2_boundary: Action 2 stayed inside its stated Social insurance and shared risk boundary
     c2017_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2017_a3_primary: The bounded Social insurance and shared risk criterion for action 3 was observed
+    c2017_a3_primary: 'Observed checks: stress-test the pool and make a conditional judgment'
     c2017_a3_boundary: Action 3 stayed inside its stated Social insurance and shared risk boundary
     c2017_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Social insurance and
-    shared risk practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Who gains access, who bears the risk and cost, and which missing quantity most changes
+    your judgment about the policy? Completion is not mastery.
+  plain_language_evidence: The participant calculated the shortfall, compared access with verification
+    burden and made a conditional policy judgment rather than declaring one design universally best.
   display_order: 279
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '20.17'
+  title: 20.17 — Social insurance and shared risk
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Identifying conspiracy theories](https://commission.europa.eu/strategy-and-policy/coronavirus-response/fighting-disinformation/identifying-conspiracy-theories_en)
+
+      - [What mediation is and how it can help — Mediation at work](https://www.acas.org.uk/mediation)
+
+      - [Letter from Birmingham Jail](https://kinginstitute.stanford.edu/letter-birmingham-jail)
+
+      - [Community Engagement and Accountability](https://www.ifrc.org/our-work/inclusion-protection-and-engagement/community-engagement-and-accountability)
+
+      - [The ILO Social Protection Floors Recommendation, 2012 (No. 202)](https://www.ilo.org/resource/news/ilo-social-protection-floors-recommendation-2012-no-202)
+
+      - [What Is Transitional Justice?](https://www.ictj.org/what-transitional-justice)
+
+      - [Decent work and the 2030 Agenda for sustainable development](https://www.ilo.org/topics-and-sectors/decent-work-and-2030-agenda-sustainable-development)
+
+      - [What is Career Readiness? — Professionalism](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)
+
+      - [Learning Principles](https://www.cmu.edu/teaching/principles/learning.html)
+
+      - [Quality Glossary](https://asq.org/quality-resources/quality-glossary)
+
+      - [Learning about users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)
+
+      - [6.3 Interface Management](https://www.nasa.gov/reference/6-3-interface-management/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence or a policy forecast.
+
+
+      In the alternative stress scenario twenty of the same 100 members each need 80 units. Contributions
+      remain 1,000 and needs total 1,600: a 600-unit shortfall before administration. The ordinary scenario''s
+      200 was a pre-cost arithmetic remainder, not an established reserve that may be spent twice.
+
+
+      Compare conditional options. An extra verified reserve of 300 would still leave 300 unpaid before
+      costs; no such reserve is actually supplied. Increasing everyone''s contribution from 10 to 16 would
+      produce 1,600 if all 100 could pay, but leaves no administrative allowance and does not establish
+      affordability. Limiting support to 50 for each of 20 recipients would use 1,000 and leave 30 of
+      each stated 80-unit need unmet, again before administration. Broader funding would require an identified
+      source and would transfer some burden elsewhere.
+
+
+      No observed processing time, fraud, take-up or administration figure for A or B arrives. The learner
+      retains a conditional preference for testing a simpler accessible process with appropriate review,
+      while acknowledging unknown cost and error effects. That preference is not a claim that either design
+      has been implemented, financed or proven fair.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Compare two fictional risk-pooling designs and stress-test their arithmetic without hiding
+      who is excluded or who pays. Use two twenty-five-minute passes and a ten-minute explanation. All
+      amounts are invented units. This is policy literacy, not benefit eligibility, actuarial analysis,
+      tax advice or a conclusion about any actual system''s solvency.
+
+
+      ### What a pool can and cannot do
+
+
+      Pooling spreads some burdens across people or periods rather than leaving every loss with one household.
+      A society may finance protection through contributions, taxes, reserves or a mixture. Social insurance
+      and tax-funded assistance can overlap in purpose while using different entitlement and funding rules.
+      Do not assume every social-protection mechanism is insurance or that poverty is simply an unpredictable
+      insured event.
+
+
+      Distinguish the needs being addressed. Health costs may be uncertain and uneven. Unemployment can
+      interrupt income. Disability may involve lasting access and support needs as well as earnings loss.
+      Aging can change income and care needs over a long period. A disaster can affect many contributors
+      simultaneously. Poverty can reflect persistent inadequate resources and structural exclusion. One
+      small equal-contribution model cannot represent all these mechanisms or contexts.
+
+
+      A large enough pool for an ordinary period may still be short when needs correlate. A local shock
+      may reduce contributions while increasing claims, although this case holds contributions fixed to
+      isolate one change. Administrative costs, delayed payments, unequal ability to contribute, people
+      outside eligibility and long-term obligations also matter. An arithmetic remainder before costs
+      is not verified profit, a funded reserve or proof of adequate protection.
+
+
+      Evaluate six dimensions separately. Adequacy asks whether support meets the relevant need and arrives
+      in time. Access asks whether entitled people can obtain it in practice. Dignity includes respectful
+      treatment, privacy and challenge routes. Incentives concern possible effects on behavior and institutional
+      effort, which need evidence rather than stereotypes. Cost includes administration and burdens shifted
+      to applicants or helpers. Distribution asks who gains, pays, is wrongly excluded or is wrongly included.
+
+
+      Verification can protect a fund, but paperwork is not free and does not automatically distinguish
+      accurate from inaccurate claims. Simpler access can reduce a barrier without meaning that accountability
+      disappears. Later review can create uncertainty or recovery burdens; a complex process can delay
+      people who qualify. Ask what data would estimate these tradeoffs, whose perspective is missing and
+      how errors could be corrected without unnecessary disclosure.
+
+
+      A conditional judgment is stronger than a perfect score built from unknowns. State which design
+      you currently favor for which purpose, what you cannot estimate and what evidence would reverse
+      that preference. Missing fraud, cost or take-up data must stay missing. A numerical total cannot
+      turn dignity, an unmet essential need or a serious exclusion into an irrelevant detail.
+
+
+      ### Worked calculation
+
+
+      If one hundred members contribute ten units, the fund receives 1,000. Ten needs of eighty total
+      800, leaving 200 before administration. If twenty members need eighty instead, needs total 1,600
+      and exceed the unchanged fund by 600. This second case is an alternative stress scenario, not an
+      additional period with an automatically accumulated 200-unit reserve.
+
+
+      ### Complete fictional policies
+
+
+      The group has 100 adults, each contributing 10 units. In the ordinary scenario ten people each need
+      80 units. Policy A requires several proof documents and a review before any payment. Policy B permits
+      a simpler initial declaration and later review under a stated challenge process. Both promise the
+      same 80-unit support to eligible applicants; neither has measured processing time, take-up, fraud,
+      erroneous denial, administration cost or later-recovery burden in the packet.
+
+
+      The case does not supply members'' incomes, actual eligibility rules or a reserve. A voluntary fictional
+      applicant reports that one document required by A is hard for them to obtain; this identifies a
+      possible access barrier, not a population exclusion rate or proof that B is sufficient. Both designs
+      can be evaluated, but no real person is advised to apply or contribute.
+
+
+      ### Compare criteria and a correlated-need shock
+
+
+      1. Calculate contributions, promised ordinary support and the pre-cost remainder. Distinguish the
+      six risk/need areas and name one the toy model represents poorly. Output: an arithmetic account
+      with missing costs and distribution visible.
+
+      2. Compare A and B across all six dimensions. Identify both wrongful inclusion and exclusion and
+      what evidence could estimate them. Output: a criterion-by-criterion comparison without invented
+      behavioral rates or moral labels for applicants.
+
+      3. Examine the supplied document difficulty and the cost it might shift to a helper. Consider a
+      usable alternative verification or appeal route, but keep feasibility unverified. Output: a specific
+      access question rather than assuming all review is oppressive or all declarations reliable.
+
+      4. Save the ordinary model before the [later packet](?resource=file-later-packet-md). Recalculate
+      for twenty needs and examine reserves, broader funding, higher contributions and smaller benefits.
+      Output: consequences for each burden-bearer, with administration still unmodeled.
+
+      5. Make a conditional preference and identify a decision-reversing measurement. Explain what the
+      calculation cannot show about a real policy. Output: a transparent judgment that remains open to
+      evidence and affected people''s experience.
+
+
+      ### Support and transfer
+
+
+      Use counters, a calculator or an oral comparison. Start with one criterion at a time rather than
+      inventing an elaborate score. A harder fictional case reduces contributions during the same shock;
+      state the new assumption before recalculating and do not present it as a forecast.
+
+
+      Actual policy work requires current jurisdiction-specific evidence, appropriate expertise and participation
+      from people affected. Personal benefit, appeal, contribution and tax questions need official local
+      guidance and qualified help where appropriate. Keep income, health, disability and account details
+      outside this exercise. A toy comparison can build understanding but cannot establish real eligibility,
+      fairness or financial sustainability.
+
+
+      ### Source use
+
+
+      [ILO''s 2012 explanation of Recommendation 202, S05](https://www.ilo.org/resource/news/ilo-social-protection-floors-recommendation-2012-no-202),
+      describes social-protection floors, adequacy, dignity, inclusion and sustainability. It is the successfully
+      inspected institutional overview; the full NORMLEX instrument could not be retrieved. These principles
+      are not local benefit rules. The equal-contribution pool, two policies and all arithmetic are original
+      and are not an ILO forecast or recommended design.
+
+
+      ### Use the result at its proper scale
+
+
+      Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific
+      and can involve serious risk.
+
+
+      Civic learning does not require political belief, affiliation, public disclosure or participation.
+      Fiction and no attempt are legitimate. Keep private or protected records private.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'These questions revisit supplied examples to consolidate the reasoning. They do not independently
+      test transfer to unseen material. Any separately labeled changed-case attempt below uses different
+      facts.
+
+
+      Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A 1,000-unit fund pays ten 80-unit needs. Is its 200-unit pre-administration remainder proof
+      of profit or an available reserve in a different stress scenario?
+
+      2. Twenty members need 80 each. What shortfall exists, and what does cutting benefits to 50 shift
+      onto recipients?
+
+      3. Does more paperwork prove lower fraud, or does a simpler process prove equal access and dignity
+      for everyone?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Contributions are 1,000, stated ordinary needs 800 and the remainder 200 before unknown
+      costs. There is no supplied reserve, and the stress case is an alternative scenario rather than
+      a later funded period.
+
+      2. Needs are 1,600, so the shortfall is 600 before administration. Twenty benefits of 50 use 1,000
+      and leave 30 of each 80-unit need unmet, with no administrative funding left. That is a burden transfer,
+      not full adequacy.
+
+      3. Neither follows. Compare actual error, access, timing, privacy, cost and distribution evidence.
+      Simpler access can retain review; complex proof can exclude people who qualify. The packet supplies
+      no measured rates and cannot establish a real system''s fairness or eligibility.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

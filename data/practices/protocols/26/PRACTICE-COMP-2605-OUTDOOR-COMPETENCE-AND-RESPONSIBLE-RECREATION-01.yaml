@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2605-OUTDOOR-COMPETENCE-AND-RESPONSIBLE-RECREATION-01
 slug: c2605-outdoor-competence-and-responsible-recreation-practice
-name: Bounded Outdoor competence and responsible recreation Practice
+name: Prepare and review a modest outing with place-specific limits
 parent_competency_id: '26.05'
 domain_id: '26'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 26.05
-      (Outdoor competence and responsible recreation); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 26.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,40 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Outdoor competence and responsible recreation through a artifact-and-review practice
-    bounded by the canonical scope: Prepare, navigate, minimize impact, respect conditions, and build
-    capability in chosen environments.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can participate safely
-    while protecting the place and other users. The protocol creates a small opportunity to examine that
-    target without treating completion as broad capability.'
+  purpose: Match a chosen outdoor activity to present capability, navigation, conditions and low-impact
+    responsibilities rather than relying on enthusiasm or generic equipment lists.
+  why_recommended: Match a chosen outdoor activity to present capability, navigation, conditions and low-impact
+    responsibilities rather than relying on enthusiasm or generic equipment lists.
   claims:
-  - statement: Using the canonical scope and evidence target for Outdoor competence and responsible recreation
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Match a chosen outdoor activity to present capability, navigation, conditions and low-impact
+      responsibilities rather than relying on enthusiasm or generic equipment lists.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Outdoor competence and responsible recreation practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Outdoor competence and responsible recreation as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Outdoor competence
-    and responsible recreation context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Outdoor competence
-    and responsible recreation; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use a seated park visit, accessible path, supported route or tabletop when
+    conditions are unsuitable. Keep prescribed and assistive supports. Do not enter heat, cold, storms,
+    unsafe terrain or water to create a challenge; qualified instruction is required for specialized environments
+    and skills.
+  opportunity_considerations: Choose a nearby permitted maintained path with a clear return point and
+    an accessible alternative. Before choosing a date, use the actual land manager’s information for access,
+    current conditions, rules and closures, plus an appropriate current weather source. Set a conservative
+    return time and arrange suitable support or companionship where needed.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Outdoor competence and responsible
-    recreation.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Choose a nearby permitted maintained path with a clear return point and an accessible alternative.
+    Before choosing a date, use the actual land manager’s information for access, current conditions,
+    rules and closures, plus an appropriate current weather source. Set a conservative return time and
+    arrange suitable support or companionship where needed.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Outdoor competence and responsible
-    recreation instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a seated park visit, accessible path, supported route or tabletop when conditions are unsuitable.
+    Keep prescribed and assistive supports. Do not enter heat, cold, storms, unsafe terrain or water to
+    create a challenge; qualified instruction is required for specialized environments and skills.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -82,19 +82,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-ARTIFACT-PLAN
   duration_days: 10
-  cadence: Complete three bounded Outdoor competence and responsible recreation actions over ten days,
-    preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Outdoor competence and responsible recreation; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Outdoor
-    competence and responsible recreation. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Outdoor competence and responsible recreation
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose a nearby permitted maintained path with a clear return point and an accessible alternative.
+    Before choosing a date, use the actual land manager’s information for access, current conditions,
+    rules and closures, plus an appropriate current weather source. Set a conservative return time and
+    arrange suitable support or companionship where needed. Goal: Match a chosen outdoor activity to present
+    capability, navigation, conditions and low-impact responsibilities rather than relying on enthusiasm
+    or generic equipment lists. Scope: The default is a short familiar maintained route or accessible
+    park area, not remote travel, technical terrain, water entry or a test of survival skills. A planning
+    exercise alone is not safe participation evidence. Time and effort: Twenty minutes of preparation,
+    a short outing only when suitable and a fifteen-minute return review. Adaptation: Use a seated park
+    visit, accessible path, supported route or tabletop when conditions are unsuitable. Keep prescribed
+    and assistive supports. Do not enter heat, cold, storms, unsafe terrain or water to create a challenge;
+    qualified instruction is required for specialized environments and skills. Keep personal working notes
+    outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a seated park visit, accessible path, supported route or tabletop when conditions
+    are unsuitable. Keep prescribed and assistive supports. Do not enter heat, cold, storms, unsafe terrain
+    or water to create a challenge; qualified instruction is required for specialized environments and
+    skills.
+  expected_burden: Twenty minutes of preparation, a short outing only when suitable and a fifteen-minute
+    return review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Outdoor competence and responsible recreation protocol to rank worth, coerce participation,
@@ -103,19 +113,26 @@ intervention:
   - Treating a completed Outdoor competence and responsible recreation action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Outdoor competence and responsible recreation situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a seated
+    park visit, accessible path, supported route or tabletop when conditions are unsuitable. Keep prescribed
+    and assistive supports. Do not enter heat, cold, storms, unsafe terrain or water to create a challenge;
+    qualified instruction is required for specialized environments and skills.
   actions:
   - stable_id: PRACTICE-COMP-2605-OUTDOOR-COMPETENCE-AND-RESPONSIBLE-RECREATION-01-A1
     sequence: 1
-    title: Define a rubric for Outdoor competence and responsible recreation
-    instructions: 'Turn the canonical scope for Outdoor competence and responsible recreation into three
-      to five inspectable criteria: Prepare, navigate, minimize impact, respect conditions, and build
-      capability in chosen environments. Keep the rubric bounded to one current context and include one
-      criterion for uncertainty, access, or competing obligations.'
+    title: Match the plan to the least-supported real requirement
+    instructions: 'Write route, start and return points, expected duration, access needs, communication
+      limits and who knows the plan. Check terrain, weather, water and shade availability, daylight and
+      local hazards through current authoritative information. Choose necessary clothing, water and other
+      support appropriate to the actual setting without imposing a universal quantity. Set no-go and turn-back
+      conditions in advance; uncertainty about an essential condition can mean choosing the accessible
+      alternative or deferring.
+
+
+      Observation checks: Route timing access and communication are explicit; Current land-manager and
+      weather information are checked; Support matches the actual setting and participants; No-go and
+      turn-back conditions are defined before departure. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -137,9 +154,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2605_a1_criteria_trace_to_scope
-        - c2605_a1_context_bounded
-        - c2605_a1_constraint_included
+        - route_timing_access_and_communication_are_explicit
+        - current_land_manager_and_weather_information_are_checked
+        - support_matches_the_actual_setting_and_participants
+        - no_go_and_turn_back_conditions_are_defined_before_departure
       - measurement_id: c2605_a1_boundary
         kind: boolean
         role: supporting
@@ -156,11 +174,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2605-OUTDOOR-COMPETENCE-AND-RESPONSIBLE-RECREATION-01-A2
     sequence: 2
-    title: Build one Outdoor competence and responsible recreation artifact
-    instructions: Create the smallest useful plan, checklist, diagram, record, or other artifact that
-      applies the rubric for Outdoor competence and responsible recreation. Store only category-level
-      information and omit names, secrets, credentials, diagnoses, protected work detail, and unnecessary
-      third-party information.
+    title: Participate within the plan and minimize impact
+    instructions: 'If the conditions fit, follow the permitted route, check position at a known junction
+      and keep the return limit. Stay within the site’s current rules for surfaces, waste, wildlife, objects
+      and other users; do not create a shortcut, collect artifacts or light a fire as part of the exercise.
+      Adapt or turn back when conditions change rather than completing the route at any cost. If the outing
+      is deferred, record the preparation without claiming outdoor performance.
+
+
+      Observation checks: An actual outing or honest deferral is recorded; Position and return limit are
+      checked during participation; Site-specific impact and other-user rules are followed; Changing conditions
+      can lead to adaptation or turning back. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -182,9 +207,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2605_a2_artifact_matches_rubric
-        - c2605_a2_minimum_private_detail
-        - c2605_a2_usable_next_step_present
+        - an_actual_outing_or_honest_deferral_is_recorded
+        - position_and_return_limit_are_checked_during_participation
+        - site_specific_impact_and_other_user_rules_are_followed
+        - changing_conditions_can_lead_to_adaptation_or_turning_back
       - measurement_id: c2605_a2_boundary
         kind: boolean
         role: supporting
@@ -201,10 +227,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2605-OUTDOOR-COMPETENCE-AND-RESPONSIBLE-RECREATION-01-A3
     sequence: 3
-    title: Stress-test and revise the Outdoor competence and responsible recreation artifact
-    instructions: 'Test the artifact against one realistic variation, counterexample, or changed constraint.
-      Revise it only where the test exposes a gap, then compare the result with this evidence target:
-      Can participate safely while protecting the place and other users.'
+    title: Review the return as a capability and responsibility check
+    instructions: 'Confirm safe return with the appropriate person, then compare planned and actual time,
+      route, effort, access and equipment usefulness. Identify one navigation or preparation gap and one
+      effect on the place or other users. Choose a specific improvement before any harder outing. A completed
+      easy route does not authorize remote, technical or water-based activity beyond training and support.
+
+
+      Observation checks: Return communication is completed where applicable; Plan and actual conditions
+      are compared; One capability and one stewardship lesson are identified; Future challenge is bounded
+      by training rather than successful completion alone. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which preparation mattered in the actual conditions, and what did you change to protect
+      both participants and the place?
+
+
+      Examples: Supportive: The participant checked a closure, used the permitted accessible route, verified
+      a junction and returned early when conditions changed.
+
+
+      Mixed: The plan was complete but weather made the outing unsuitable, so participation remained untested
+      rather than falsely completed.
+
+
+      Contradictory: A shortcut damaged vegetation or the return limit was ignored to finish despite worsening
+      conditions.
+
+
+      Inconclusive: An equipment list was made without a specific route, current conditions, navigation
+      check or return review.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -220,15 +273,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2605_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2605_a3_variation_tested
-        - c2605_a3_revision_traceable
-        - c2605_a3_target_evidence_compared
+        - return_communication_is_completed_where_applicable
+        - plan_and_actual_conditions_are_compared
+        - one_capability_and_one_stewardship_lesson_are_identified
+        - future_challenge_is_bounded_by_training_rather_than_successful_completion_alone
       - measurement_id: c2605_a3_boundary
         kind: boolean
         role: supporting
@@ -249,17 +303,17 @@ intervention:
       Outdoor competence and responsible recreation; no purchase, subscription, travel, credential, or
       public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Outdoor competence and responsible recreation; assistive technology, interpretation, a
-      support person, and a deferred action are valid without penalty.
+    - Use a seated park visit, accessible path, supported route or tabletop when conditions are unsuitable.
+      Keep prescribed and assistive supports. Do not enter heat, cold, storms, unsafe terrain or water
+      to create a challenge; qualified instruction is required for specialized environments and skills.
     cultural_context:
     - Adapt the expression of Outdoor competence and responsible recreation to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Outdoor competence and responsible recreation opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use a seated park visit, accessible path, supported route or tabletop when conditions are unsuitable.
+      Keep prescribed and assistive supports. Do not enter heat, cold, storms, unsafe terrain or water
+      to create a challenge; qualified instruction is required for specialized environments and skills.
   pause_conditions:
   - Pause Outdoor competence and responsible recreation when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -291,10 +345,7 @@ evidence_and_scoring:
   - c2605_a3_boundary
   - c2605_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Outdoor competence and responsible recreation action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Outdoor competence and responsible recreation criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A shortcut damaged vegetation or the return limit was ignored to finish despite worsening conditions.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Outdoor competence and responsible recreation explicitly; support can enable access and never
     reduces dignity or silently changes the typed value.
@@ -305,14 +356,23 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Outdoor competence and responsible recreation rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can participate safely while protecting the place and other users.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Outdoor competence and responsible recreation requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Match the plan to the least-supported real requirement. Observed checks:
+    Route timing access and communication are explicit; Current land-manager and weather information are
+    checked; Support matches the actual setting and participants; No-go and turn-back conditions are defined
+    before departure. Action 2: Participate within the plan and minimize impact. Observed checks: An actual
+    outing or honest deferral is recorded; Position and return limit are checked during participation;
+    Site-specific impact and other-user rules are followed; Changing conditions can lead to adaptation
+    or turning back. Action 3: Review the return as a capability and responsibility check. Observed checks:
+    Return communication is completed where applicable; Plan and actual conditions are compared; One capability
+    and one stewardship lesson are identified; Future challenge is bounded by training rather than successful
+    completion alone.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. An equipment list was made without a specific route,
+    current conditions, navigation check or return review.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Outdoor
     competence and responsible recreation contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -322,9 +382,8 @@ evidence_and_scoring:
   - L20
   - L34
   - L35
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Outdoor competence and responsible recreation evidence.
@@ -332,12 +391,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define a rubric for outdoor competence and responsible recreation action was attempted or explicitly
-    deferred.
-  - The build one outdoor competence and responsible recreation artifact action was attempted or explicitly
-    deferred.
-  - The stress-test and revise the outdoor competence and responsible recreation artifact action preserved
-    a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Match the plan to the least-supported real requirement. Observed checks: Route timing access
+    and communication are explicit; Current land-manager and weather information are checked; Support
+    matches the actual setting and participants; No-go and turn-back conditions are defined before departure.'
+  - 'Action 2: Participate within the plan and minimize impact. Observed checks: An actual outing or honest
+    deferral is recorded; Position and return limit are checked during participation; Site-specific impact
+    and other-user rules are followed; Changing conditions can lead to adaptation or turning back.'
+  - 'Action 3: Review the return as a capability and responsibility check. Observed checks: Return communication
+    is completed where applicable; Plan and actual conditions are compared; One capability and one stewardship
+    lesson are identified; Future challenge is bounded by training rather than successful completion alone.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -346,64 +411,254 @@ completion_and_review:
     - c2605_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Outdoor competence and responsible recreation only when the
-    initial context remained safe, the evidence criteria were usable, burden was acceptable, and a new
-    context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Outdoor competence and responsible recreation
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Which preparation mattered in the actual conditions, and what did you change to
+    protect both participants and the place?
+  transfer_limit: The default is a short familiar maintained route or accessible park area, not remote
+    travel, technical terrain, water entry or a test of survival skills. A planning exercise alone is
+    not safe participation evidence.
   reflection:
-    before: What does Outdoor competence and responsible recreation require in this exact context, what
-      remains outside my role or authority, and which scope sentence or evidence criterion will keep the
-      practice honest?
-    during: Which observable Outdoor competence and responsible recreation criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can participate safely while protecting the place and other
-      users.', what contradiction or missing context matters most, and should this Outdoor competence
-      and responsible recreation design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Match a chosen outdoor activity to present
+      capability, navigation, conditions and low-impact responsibilities rather than relying on enthusiasm
+      or generic equipment lists.'
+    during: Which checks have actually been observed? The plan was complete but weather made the outing
+      unsuitable, so participation remained untested rather than falsely completed.
+    after: Which preparation mattered in the actual conditions, and what did you change to protect both
+      participants and the place?
   review_guidance:
     repeat: Repeat the same bounded Outdoor competence and responsible recreation design only when the
       context and burden remain appropriate.
-    adapt: Change the Outdoor competence and responsible recreation medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use a seated park visit, accessible path, supported route or tabletop when conditions are unsuitable.
+      Keep prescribed and assistive supports. Do not enter heat, cold, storms, unsafe terrain or water
+      to create a challenge; qualified instruction is required for specialized environments and skills.
     stop: Stop Outdoor competence and responsible recreation when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Outdoor competence and responsible recreation
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Outdoor competence and responsible recreation criteria were observed with
-      provenance and no adverse boundary signal in the selected context.
-    mixed: Some Outdoor competence and responsible recreation criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Outdoor competence and responsible recreation
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Outdoor competence and responsible recreation action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The participant checked a closure, used the permitted accessible route, verified a junction
+      and returned early when conditions changed.
+    mixed: The plan was complete but weather made the outing unsuitable, so participation remained untested
+      rather than falsely completed.
+    contradictory: A shortcut damaged vegetation or the return limit was ignored to finish despite worsening
+      conditions.
+    inconclusive: An equipment list was made without a specific route, current conditions, navigation
+      check or return review.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Outdoor competence and responsible recreation.
+    context_heading: Prepare and review a modest outing with place-specific limits
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Outdoor competence
       and responsible recreation.
   check_in_labels:
-    c2605_a1_primary: The bounded Outdoor competence and responsible recreation criterion for action 1
-      was observed
+    c2605_a1_primary: 'Observed checks: match the plan to the least-supported real requirement'
     c2605_a1_boundary: Action 1 stayed inside its stated Outdoor competence and responsible recreation
       boundary
     c2605_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2605_a2_primary: The bounded Outdoor competence and responsible recreation criterion for action 2
-      was observed
+    c2605_a2_primary: 'Observed checks: participate within the plan and minimize impact'
     c2605_a2_boundary: Action 2 stayed inside its stated Outdoor competence and responsible recreation
       boundary
     c2605_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2605_a3_primary: The bounded Outdoor competence and responsible recreation criterion for action 3
-      was observed
+    c2605_a3_primary: 'Observed checks: review the return as a capability and responsibility check'
     c2605_a3_boundary: Action 3 stayed inside its stated Outdoor competence and responsible recreation
       boundary
     c2605_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Outdoor competence
-    and responsible recreation practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which preparation mattered in the actual conditions, and what did you change to protect
+    both participants and the place? Completion is not mastery.
+  plain_language_evidence: The participant checked a closure, used the permitted accessible route, verified
+    a junction and returned early when conditions changed.
   display_order: 359
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '26.05'
+  title: 26.05 — Outdoor competence and responsible recreation
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [NPS — Trip Planning Guide](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+
+      - [Living Heritage in the UK — Community consent](https://livingheritage.unesco.org.uk/info/guidance/community-consent)
+
+      - [UNESCO — New methods to boost intercultural competencies](https://www.unesco.org/en/articles/new-methods-boost-intercultural-competencies)
+
+      - [NASA — Cosmic Distances](https://science.nasa.gov/solar-system/cosmic-distances/)
+
+      - [W3C WAI — Making Events Accessible](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)
+
+      - [NPS Pearl Harbor — Leave No Trace](https://www.nps.gov/perl/getinvolved/supportyourpark/leavenotrace.htm)
+
+      - [OpenLearn — The Language of Comedy, Track 6](https://www.open.edu/openlearn/languages/the-language-comedy?trackno=6)
+
+      - [NPS — Citizen Science: Get Involved](https://www.nps.gov/subjects/citizenscience/get-involved.htm)
+
+      - [OpenLearn — Returning to STEM, Week 5, section 3.5](https://www.open.edu/openlearn/mod/oucontent/view.php?id=28143&section=3.5)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence. Save the initial work in the [guide](?)
+      before reading.
+
+
+      Sam and Jo reach J at 09:06. A park worker has just placed a closure sign on J–O because the surface
+      has become unsafe. They check the map and do not take the closed pond branch. They turn back together
+      at 09:08, reach E at 09:14 and send Pat the return message at 09:16; Pat acknowledges at 09:17.
+      No overlook visit occurs. At E they identify the update as a reason to check the desk immediately
+      before future departures as well as during planning. They report no impact beyond using the permitted
+      path; this is not a measured ecological outcome.
+
+
+      Compare planned and actual minutes, distinguish the two-minute junction pause from movement, and
+      retain the untested overlook segment. The report contains no evidence about harder environments.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Make the return part of the outing
+
+
+      An outdoor plan is an agreement between a particular route, current conditions and the people using
+      it. Carrying equipment is useful only when it fits those requirements and someone knows how to use
+      it. Reaching a destination while ignoring a closure or the return limit is not competent completion.
+
+
+      Use the complete fictional Alder Park file below. Allow twenty minutes to prepare, ten to review
+      the later record and ten for checks. Paper or spoken notes are enough; no outdoor attempt is required.
+      The output is a route decision, a return calculation and a review that separates preparation from
+      participation. [NPS trip planning, S01](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+      supports checking current site information, matching capability and supplies, and maintaining a
+      return contact. It does not clear this invented route or provide technical training.
+
+
+      A worked example: an experienced walker brings familiar equipment but finds the usual bridge closed.
+      Equipment does not cancel the closure. Choosing a permitted short alternative, telling the agreed
+      contact and returning within the revised plan demonstrates judgment; crossing the barrier to finish
+      the old route does not.
+
+
+      ### Alder Park file A4
+
+
+      Sam and Jo know the maintained level path and use their usual mobility supports. Both currently
+      judge this familiar outing suitable. The fictional park desk confirms today''s path is open, conditions
+      are mild and dry, and no relevant alert is active. The appropriate fictional weather report agrees.
+      These stipulations are not a live forecast. If any essential confirmation is missing at a real departure,
+      the plan needs another check or deferral.
+
+
+      | Segment | One-way minutes | Current condition |
+
+      | --- | ---: | --- |
+
+      | Entrance E to signed junction J | 6 | Open, familiar level surface |
+
+      | J to overlook O | 8 | Open, same surface |
+
+      | J to pond P | 5 | Closed for repair; no entry |
+
+
+      The permitted route reverses the same segments to return. No shortcut connects O to E. There is
+      a bench at O; the optional pause lasts five minutes. Start is 09:00, latest return to E is 09:40,
+      and the pair choose a conservative turnaround from wherever they are by 09:20. This is a case decision,
+      not a universal safety margin. A staffed desk remains at E; reception beyond E is unreliable. Pat
+      has agreed to expect a return message by 09:45 and to contact the park desk using the shared route
+      plan if no message arrives. Emergency assistance takes precedence over that ordinary check-in schedule.
+
+
+      Their familiar suitable clothing, personal supplies, water and needed supports have been checked
+      for this short route; no universal quantity is prescribed. A paper map is available. The pair stay
+      together, check J''s sign against the map, leave objects and plants alone, carry out their own waste
+      and give other users room. No wildlife approach, collection, fire, water entry or technical terrain
+      belongs in this exercise.
+
+
+      ### Decide, then compare with the actual return
+
+
+      1. Draw E–J–O with times in both directions and cross out the closed branch. Calculate the planned
+      return including the bench pause. Write the contact arrangement, support checks and what would trigger
+      earlier return: new closure, unsafe surface, changed weather, pain or unsuitable effort. An unknown
+      essential condition is not a quiet yes.
+
+      2. Save that plan before opening the [later packet](?resource=file-later-packet-md). Trace its actual
+      timestamps. Identify the moment when continuing would have depended on ignoring new information.
+      Check both arrival and the message; arriving privately does not notify Pat.
+
+      3. Write a five-line return review: planned route/time, actual route/time, navigation decision,
+      effect on place/other users, and one preparation improvement. Keep any untested segment explicit.
+      Do not describe a shortened outing as full overlook completion.
+
+
+      ### Extend capability without escalating risk
+
+
+      For support, analyze the map with a reader, use a familiar seated park location, or retain a tabletop-only
+      result. A live route needs actual current land-manager/weather information and individual access
+      checks. Keep aids and assistance. Technical, remote or water activities need their own training
+      and authorization; this small success grants none.
+
+
+      For a harder paper variation, a delay reaches J at 09:18 and staff cannot confirm the overlook segment.
+      Calculate a direct return, then explain why spare clock time cannot resolve an unknown route condition.
+      On a later suitable ordinary outing, practice checking one junction and closing the return communication.
+      Compare real effort and support needs before considering a modest change.
+
+
+      A useful record may show an early return and good stewardship. A complete plan without an outing
+      shows preparation only. Ignoring the closed pond path contradicts the purpose even if nobody is
+      injured. Missing return information stays unresolved; a pleasant report does not fill it in.
+
+
+      ### Use the result at its proper scale
+
+
+      Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human
+      dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt these before opening [answers](?check=practice-answers).
+
+
+      1. A fresh route takes 7 minutes out and 7 back with a 4-minute pause, starting 10:10 and due back
+      10:30. What return time is planned, and does two minutes of slack certify safety?
+
+
+      2. At 09:18 the only onward path has unconfirmed conditions; the known return from J takes 6 minutes.
+      What is the supported choice and projected return? No actual return record is supplied.
+
+
+      3. A participant reaches the entrance at 09:14 but the promised message is unsent. Can the contact
+      arrangement be marked complete?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Compare with your attempted [checks](?attempt=practice-checks); these are learning aids, not
+      a learner score.
+
+
+      1. 10:28: 7 + 4 + 7 = 18 minutes. The two-minute margin is arithmetic, not clearance. Correct a
+      safety claim by separately checking suitability, current conditions and return support.
+
+
+      2. Return on the known suitable permitted route, projected 09:24, or seek staff assistance if that
+      route is no longer suitable. The projection is not actual arrival. Correct any onward choice that
+      treats spare time as evidence of open conditions.
+
+
+      3. No. Physical return and communication are separate events. Send the agreed message when possible,
+      retain its actual time, and never invent receipt. Correct the record rather than changing the original
+      agreement retrospectively.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

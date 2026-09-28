@@ -44,9 +44,10 @@ Actual policy work requires current jurisdiction-specific evidence, appropriate 
 
 [ILO's 2012 explanation of Recommendation 202, S05](../SOURCES.md#S05), describes social-protection floors, adequacy, dignity, inclusion and sustainability. It is the successfully inspected institutional overview; the full NORMLEX instrument could not be retrieved. These principles are not local benefit rules. The equal-contribution pool, two policies and all arithmetic are original and are not an ILO forecast or recommended design.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core. Civic learning does not require political belief, affiliation, public disclosure or participation. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Civic learning does not require political belief, affiliation, public disclosure or participation. Fiction and no attempt are legitimate. Keep private or protected records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

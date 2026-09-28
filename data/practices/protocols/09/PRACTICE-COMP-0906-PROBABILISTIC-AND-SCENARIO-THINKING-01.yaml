@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0906-PROBABILISTIC-AND-SCENARIO-THINKING-01
 slug: c0906-probabilistic-and-scenario-thinking-practice
-name: Bounded Probabilistic and scenario thinking Practice
+name: Make bounded forecasts and review how they resolved
 parent_competency_id: '09.06'
 domain_id: 09
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 09.06
-      (Probabilistic and scenario thinking); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 09.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Probabilistic and scenario thinking through a low-stakes skill rehearsal bounded
-    by the canonical scope: Use ranges, likelihoods, base rates, scenarios, sensitivity, and expected
-    value instead of binary predictions.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Makes forecasts, records
-    them, and later evaluates calibration. The protocol creates a small opportunity to examine that target
-    without treating completion as broad capability.'
+  purpose: Use base rates, probability ranges, scenarios and a simple expected-value comparison, then
+    score resolved forecasts without claiming broad calibration from a tiny sample.
+  why_recommended: Use base rates, probability ranges, scenarios and a simple expected-value comparison,
+    then score resolved forecasts without claiming broad calibration from a tiny sample.
   claims:
-  - statement: Using the canonical scope and evidence target for Probabilistic and scenario thinking is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Use base rates, probability ranges, scenarios and a simple expected-value comparison, then
+      score resolved forecasts without claiming broad calibration from a tiny sample.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Probabilistic and scenario thinking practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Probabilistic and scenario thinking as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Probabilistic and
-    scenario thinking context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Probabilistic
-    and scenario thinking; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use frequencies such as eight in ten, a calculator or probability bands. Forecasting
+    the supplied synthetic meetings requires no calendar access. Do not apply the exercise to medical
+    prognosis, gambling, trading or safety-critical decisions.
+  opportunity_considerations: 'Default synthetic history: eight of ten comparable meetings began within
+    five minutes of the advertised time. Plan three further meetings and predict each on-time outcome
+    before seeing its result. For a live version, use only your own ordinary meetings. Keep the supplied
+    outcomes sealed or below a page fold: on time, late, on time.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Probabilistic and scenario thinking.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default synthetic history: eight of ten comparable meetings began within five minutes of the advertised
+    time. Plan three further meetings and predict each on-time outcome before seeing its result. For a
+    live version, use only your own ordinary meetings. Keep the supplied outcomes sealed or below a page
+    fold: on time, late, on time.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Probabilistic and scenario thinking
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use frequencies such as eight in ten, a calculator or probability bands. Forecasting the supplied
+    synthetic meetings requires no calendar access. Do not apply the exercise to medical prognosis, gambling,
+    trading or safety-critical decisions.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Probabilistic and scenario thinking actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Probabilistic and scenario thinking; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Probabilistic
-    and scenario thinking. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Probabilistic and scenario thinking actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default synthetic history: eight of ten comparable meetings began within five minutes of the
+    advertised time. Plan three further meetings and predict each on-time outcome before seeing its result.
+    For a live version, use only your own ordinary meetings. Keep the supplied outcomes sealed or below
+    a page fold: on time, late, on time. Goal: Use base rates, probability ranges, scenarios and a simple
+    expected-value comparison, then score resolved forecasts without claiming broad calibration from a
+    tiny sample. Scope: This is low-stakes forecasting practice. A few predictions can expose errors but
+    cannot establish reliable calibration or justify high-consequence decisions. Time and effort: Twenty
+    minutes to prepare three forecasts, brief resolution records across one week, and a twenty-minute
+    review. Adaptation: Use frequencies such as eight in ten, a calculator or probability bands. Forecasting
+    the supplied synthetic meetings requires no calendar access. Do not apply the exercise to medical
+    prognosis, gambling, trading or safety-critical decisions. Keep personal working notes outside the
+    check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use frequencies such as eight in ten, a calculator or probability bands. Forecasting
+    the supplied synthetic meetings requires no calendar access. Do not apply the exercise to medical
+    prognosis, gambling, trading or safety-critical decisions.
+  expected_burden: Twenty minutes to prepare three forecasts, brief resolution records across one week,
+    and a twenty-minute review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Probabilistic and scenario thinking protocol to rank worth, coerce participation, demand
@@ -101,18 +109,25 @@ intervention:
   - Treating a completed Probabilistic and scenario thinking action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Probabilistic and scenario thinking situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use frequencies
+    such as eight in ten, a calculator or probability bands. Forecasting the supplied synthetic meetings
+    requires no calendar access. Do not apply the exercise to medical prognosis, gambling, trading or
+    safety-critical decisions.
   actions:
   - stable_id: PRACTICE-COMP-0906-PROBABILISTIC-AND-SCENARIO-THINKING-01-A1
     sequence: 1
-    title: Define observable criteria for Probabilistic and scenario thinking
-    instructions: 'Select one safe, lawful, low-stakes component of Probabilistic and scenario thinking.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Use ranges,
-      likelihoods, base rates, scenarios, sensitivity, and expected value instead of binary predictions.'
+    title: Set the base rate and write three resolvable predictions
+    instructions: 'Calculate the observed base rate as eight out of ten, or 80 percent, while noting that
+      ten meetings are a small and possibly selective sample. Define on time exactly and assign a probability
+      or band to each future meeting using any known difference in context. Record what observation will
+      settle each forecast and when. A range such as 60–80 percent should express uncertainty, not be
+      chosen afterward to fit the result.
+
+
+      Observation checks: The base rate and its denominator are shown; The outcome and resolution time
+      are defined; Three forecasts are preserved before resolution; Context adjustments and uncertainty
+      are explained. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +149,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0906_a1_skill_component_bounded
-        - c0906_a1_observable_rubric_present
-        - c0906_a1_error_or_stop_defined
+        - the_base_rate_and_its_denominator_are_shown
+        - the_outcome_and_resolution_time_are_defined
+        - three_forecasts_are_preserved_before_resolution
+        - context_adjustments_and_uncertainty_are_explained
       - measurement_id: c0906_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +169,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0906-PROBABILISTIC-AND-SCENARIO-THINKING-01-A2
     sequence: 2
-    title: Rehearse Probabilistic and scenario thinking twice
-    instructions: Perform two bounded attempts of the selected Probabilistic and scenario thinking component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Compare scenarios and test a decision’s sensitivity
+    instructions: 'For one meeting, suppose arriving early costs five minutes but avoids a fifteen-minute
+      disruption if the meeting starts promptly. Under the simplified assumption that the disruption is
+      avoided only when it starts promptly, expected avoided disruption is 0.8 times 15, or 12 minutes,
+      against five minutes spent. Recalculate at probabilities of 0.3 and 0.9. State what this time-only
+      model omits, including access needs and obligations; do not treat expected value as a command.
+
+
+      Observation checks: At least two alternative probability scenarios are compared; The simple expected-value
+      arithmetic is visible; The decision’s sensitivity to probability is stated; Non-numeric duties and
+      omitted consequences remain explicit. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +196,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c0906_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - at_least_two_alternative_probability_scenarios_are_compared
+        - the_simple_expected_value_arithmetic_is_visible
+        - the_decision_s_sensitivity_to_probability_is_stated
+        - non_numeric_duties_and_omitted_consequences_remain_explicit
       - measurement_id: c0906_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +222,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0906-PROBABILISTIC-AND-SCENARIO-THINKING-01-A3
     sequence: 3
-    title: Use feedback for one Probabilistic and scenario thinking retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Makes forecasts,
-      records them, and later evaluates calibration.'
+    title: Resolve the forecasts without rewriting them
+    instructions: 'Record each actual outcome, or label the default sequence a simulation. Compare the
+      predicted probabilities with the two on-time outcomes out of three. Optionally compute mean squared
+      probability error using (probability minus 1 for on time or 0 for late) squared. Explain that a
+      likely event can fail to occur and that three forecasts cannot establish calibration. Choose one
+      adjustment to sampling, context or confidence for the next set.
+
+
+      Observation checks: Every resolved forecast retains its original probability; Observed outcomes
+      and simulations are distinguished; Probability quality is not reduced to right or wrong alone; The
+      next forecasting adjustment follows a specific error. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Was the largest error caused by a poor base rate, an unjustified context adjustment
+      or unavoidable uncertainty?
+
+
+      Examples: Supportive: The participant preserved three 80-percent forecasts, recorded one late start,
+      and widened uncertainty rather than pretending that the likely outcome had been guaranteed.
+
+
+      Mixed: Forecasts were dated and resolved, but the time-cost model ignored an important access requirement.
+
+
+      Contradictory: A high probability was presented as certainty, or probabilities were edited after
+      the outcomes were known.
+
+
+      Inconclusive: Only a retrospective success rate was recorded; no prospective probability, definition
+      or resolution rule existed.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +274,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0906_a3_feedback_item_selected
-        - c0906_a3_adjustment_traceable
-        - c0906_a3_retry_result_preserved
+        - every_resolved_forecast_retains_its_original_probability
+        - observed_outcomes_and_simulations_are_distinguished
+        - probability_quality_is_not_reduced_to_right_or_wrong_alone
+        - the_next_forecasting_adjustment_follows_a_specific_error
       - measurement_id: c0906_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +298,17 @@ intervention:
       Probabilistic and scenario thinking; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Probabilistic and scenario thinking; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use frequencies such as eight in ten, a calculator or probability bands. Forecasting the supplied
+      synthetic meetings requires no calendar access. Do not apply the exercise to medical prognosis,
+      gambling, trading or safety-critical decisions.
     cultural_context:
     - Adapt the expression of Probabilistic and scenario thinking to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Probabilistic and scenario thinking opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use frequencies such as eight in ten, a calculator or probability bands. Forecasting the supplied
+      synthetic meetings requires no calendar access. Do not apply the exercise to medical prognosis,
+      gambling, trading or safety-critical decisions.
   pause_conditions:
   - Pause Probabilistic and scenario thinking when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -287,10 +340,8 @@ evidence_and_scoring:
   - c0906_a3_boundary
   - c0906_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Probabilistic and scenario thinking action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Probabilistic and scenario thinking criterion, depended on
-    coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A high probability was presented as certainty, or probabilities were edited after the outcomes were
+    known.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Probabilistic and scenario thinking explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +352,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Probabilistic and scenario thinking rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Makes forecasts, records them, and later evaluates calibration.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Probabilistic and scenario thinking requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Set the base rate and write three resolvable predictions. Observed checks:
+    The base rate and its denominator are shown; The outcome and resolution time are defined; Three forecasts
+    are preserved before resolution; Context adjustments and uncertainty are explained. Action 2: Compare
+    scenarios and test a decision’s sensitivity. Observed checks: At least two alternative probability
+    scenarios are compared; The simple expected-value arithmetic is visible; The decision’s sensitivity
+    to probability is stated; Non-numeric duties and omitted consequences remain explicit. Action 3: Resolve
+    the forecasts without rewriting them. Observed checks: Every resolved forecast retains its original
+    probability; Observed outcomes and simulations are distinguished; Probability quality is not reduced
+    to right or wrong alone; The next forecasting adjustment follows a specific error.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Only a retrospective success rate was recorded; no
+    prospective probability, definition or resolution rule existed.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Probabilistic
     and scenario thinking contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -317,9 +376,8 @@ evidence_and_scoring:
   - L12
   - L14
   - L20
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Probabilistic and scenario thinking evidence.
@@ -327,11 +385,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for probabilistic and scenario thinking action was attempted or explicitly
-    deferred.
-  - The rehearse probabilistic and scenario thinking twice action was attempted or explicitly deferred.
-  - The use feedback for one probabilistic and scenario thinking retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Set the base rate and write three resolvable predictions. Observed checks: The base rate
+    and its denominator are shown; The outcome and resolution time are defined; Three forecasts are preserved
+    before resolution; Context adjustments and uncertainty are explained.'
+  - 'Action 2: Compare scenarios and test a decision’s sensitivity. Observed checks: At least two alternative
+    probability scenarios are compared; The simple expected-value arithmetic is visible; The decision’s
+    sensitivity to probability is stated; Non-numeric duties and omitted consequences remain explicit.'
+  - 'Action 3: Resolve the forecasts without rewriting them. Observed checks: Every resolved forecast
+    retains its original probability; Observed outcomes and simulations are distinguished; Probability
+    quality is not reduced to right or wrong alone; The next forecasting adjustment follows a specific
+    error.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,58 +406,507 @@ completion_and_review:
     - c0906_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Probabilistic and scenario thinking only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Probabilistic and scenario thinking across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Was the largest error caused by a poor base rate, an unjustified context adjustment
+    or unavoidable uncertainty?
+  transfer_limit: This is low-stakes forecasting practice. A few predictions can expose errors but cannot
+    establish reliable calibration or justify high-consequence decisions.
   reflection:
-    before: What does Probabilistic and scenario thinking require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Probabilistic and scenario thinking criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Makes forecasts, records them, and later evaluates calibration.',
-      what contradiction or missing context matters most, and should this Probabilistic and scenario thinking
-      design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Use base rates, probability ranges, scenarios
+      and a simple expected-value comparison, then score resolved forecasts without claiming broad calibration
+      from a tiny sample.'
+    during: Which checks have actually been observed? Forecasts were dated and resolved, but the time-cost
+      model ignored an important access requirement.
+    after: Was the largest error caused by a poor base rate, an unjustified context adjustment or unavoidable
+      uncertainty?
   review_guidance:
     repeat: Repeat the same bounded Probabilistic and scenario thinking design only when the context and
       burden remain appropriate.
-    adapt: Change the Probabilistic and scenario thinking medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Use frequencies such as eight in ten, a calculator or probability bands. Forecasting the supplied
+      synthetic meetings requires no calendar access. Do not apply the exercise to medical prognosis,
+      gambling, trading or safety-critical decisions.
     stop: Stop Probabilistic and scenario thinking when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Probabilistic and scenario thinking questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Probabilistic and scenario thinking criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Probabilistic and scenario thinking criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Probabilistic and scenario thinking criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Probabilistic and scenario thinking action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The participant preserved three 80-percent forecasts, recorded one late start, and widened
+      uncertainty rather than pretending that the likely outcome had been guaranteed.
+    mixed: Forecasts were dated and resolved, but the time-cost model ignored an important access requirement.
+    contradictory: A high probability was presented as certainty, or probabilities were edited after the
+      outcomes were known.
+    inconclusive: Only a retrospective success rate was recorded; no prospective probability, definition
+      or resolution rule existed.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Probabilistic and scenario thinking.
+    context_heading: Make bounded forecasts and review how they resolved
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Probabilistic
       and scenario thinking.
   check_in_labels:
-    c0906_a1_primary: The bounded Probabilistic and scenario thinking criterion for action 1 was observed
+    c0906_a1_primary: 'Observed checks: set the base rate and write three resolvable predictions'
     c0906_a1_boundary: Action 1 stayed inside its stated Probabilistic and scenario thinking boundary
     c0906_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0906_a2_primary: The bounded Probabilistic and scenario thinking criterion for action 2 was observed
+    c0906_a2_primary: 'Observed checks: compare scenarios and test a decision’s sensitivity'
     c0906_a2_boundary: Action 2 stayed inside its stated Probabilistic and scenario thinking boundary
     c0906_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0906_a3_primary: The bounded Probabilistic and scenario thinking criterion for action 3 was observed
+    c0906_a3_primary: 'Observed checks: resolve the forecasts without rewriting them'
     c0906_a3_boundary: Action 3 stayed inside its stated Probabilistic and scenario thinking boundary
     c0906_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Probabilistic and
-    scenario thinking practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Was the largest error caused by a poor base rate, an unjustified context adjustment
+    or unavoidable uncertainty? Completion is not mastery.
+  plain_language_evidence: The participant preserved three 80-percent forecasts, recorded one late start,
+    and widened uncertainty rather than pretending that the likely outcome had been guaranteed.
   display_order: 113
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '09.06'
+  title: 09.06 — Probabilistic and scenario thinking
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [S1 — Contextual authority](https://www.ala.org/acrl/standards/ilframework)
+
+      - [S2 — Study limitations](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-25)
+
+      - [S3 — Intellectual humility: abstract-level consultation](https://dukespace.lib.duke.edu/dspace/handle/10161/23967)
+
+      - [S3 — Intellectual humility: abstract-level consultation](https://pubmed.ncbi.nlm.nih.gov/28903672/)
+
+      - [S4 — Forecast verification](https://jwgfvr.github.io/forecastverification/)
+
+      - [S5 — Probability and decisions](https://www.metoffice.gov.uk/research/weather/ensemble-forecasting/decision-making)'
+  - id: file-outcomes-md
+    title: Outcomes
+    body: 'Open after recording F1–F3 and the decision analysis. This file is separately stored, not cryptographically
+      sealed. A reader who has already viewed it must label later forecasts retrospective or simulated
+      rather than prospective.
+
+
+      | Forecast ID | Opening record | Cancellation | Resolution evidence |
+
+      | --- | --- | --- | --- |
+
+      | F1 | 2 minutes after advertised start | No | Chair''s opening record is present and unambiguous.
+      |
+
+      | F2 | 11 minutes after advertised start | No | Chair''s opening record is present and unambiguous.
+      |
+
+      | F3 | 4 minutes after advertised start | No | Chair''s opening record is present and unambiguous.
+      |
+
+
+      Apply the event definition yourself before opening the answer file. All three are fictional records
+      supplied by this exercise. No real calendar or meeting was accessed.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### What you will produce
+
+
+      Three forecasts recorded before resolution, a base-rate calculation, a scenario and sensitivity
+      comparison, and a later review that distinguishes probability accuracy from calibration. Allow 20
+      minutes for preparation and 20 minutes for review. The fictional outcomes are in a separate file.
+      A live route needs actual later observations; they cannot be replaced by invented results.
+
+
+      **Canonical scope:** Use ranges, likelihoods, base rates, scenarios, sensitivity, and expected value
+      instead of binary predictions.
+
+
+      Use paper, a calculator, or a text editor. All arithmetic and source records are supplied. This
+      is low-stakes forecasting education, not betting, investing, medical prognosis, or safety-critical
+      planning. A forecast score helps diagnose this exercise; it does not measure personal worth. Background
+      references S4 and S5 are in SOURCES.md.
+
+
+      ### The reference you will need
+
+
+      A probability describes uncertainty about a defined event: 0.8 means eight in ten comparable instances
+      as a frequency interpretation, not a guarantee about the next one. A **base rate** is an observed
+      event proportion in a relevant reference set. Its denominator and relevance matter. Ten selected
+      cases do not reveal a precise universal probability.
+
+
+      A **probability range**, such as 0.6–0.9, expresses uncertainty about your probability judgment
+      here; it is not automatically a statistical confidence interval. A range of **outcome values**,
+      such as 0–12 minutes of delay, is a different object. Label what a range describes. Do not choose
+      or narrow either after seeing the outcome and present it as a prior forecast.
+
+
+      A **scenario** asks what follows under specified assumptions. It is not necessarily a prediction
+      or equally likely to other scenarios. **Sensitivity** asks whether a decision changes when an uncertain
+      input changes. **Expected value** averages consequences weighted by their probabilities under a
+      model; it is neither a promised result nor a command that overrides duties, access, or severe consequences.
+
+
+      For a binary event, probability accuracy can be summarized with the mean of `(p - y)^2`, where `p`
+      is the recorded probability and `y` is 1 when the event occurred and 0 when it did not. This is
+      the binary **Brier score** used here; smaller is better on the evaluated set. It is not calibration
+      by itself. Calibration compares predicted probabilities with observed event frequencies over many
+      suitably comparable forecasts. Sample size, dependence, and changes in context still matter.
+
+
+      ### Different worked example — a rehearsal handout
+
+
+      Suppose a fictional workshop has a 0.25 probability of needing extra handouts. Printing a spare
+      packet always takes 2 minutes and avoids 12 minutes of disruption only if the need occurs. Under
+      those assumptions, expected avoided disruption is 0.25 × 12 = 3 minutes, minus 2 minutes of preparation:
+      net expected saving 1 minute. In a single workshop, the net is either 10 minutes saved or 2 minutes
+      spent without use, not necessarily 1 minute.
+
+
+      The break-even probability is 2/12 = 1/6. Paper use, limited supplies, and access requirements are
+      omitted. A duty to provide an accessible handout could settle the action independently of this time-only
+      comparison. This is a model, not a recommendation to gamble with another person''s access.
+
+
+      ### Complete initial packet — meeting starts
+
+
+      All meetings below are fictional ordinary club meetings. The event is **the chair begins the first
+      agenda item no later than five minutes after the advertised start**. Use the chair''s recorded opening
+      time, not attendance or your arrival. For this packet the clock and record are stipulated accurate.
+
+
+      Ten earlier meetings at the same club and usual room have these recorded delays in minutes:
+
+
+      `H1=0, H2=2, H3=1, H4=4, H5=5, H6=0, H7=3, H8=2, H9=9, H10=12.`
+
+
+      The packet includes every meeting in that stated ten-meeting period. It supplies no earlier periods
+      or claim that conditions remain unchanged forever. Three upcoming meetings, F1, F2, and F3, use
+      the same advertised time and usual room. No additional differences are supplied. Absence of a reported
+      difference is not proof of identical future conditions.
+
+
+      **Resolution rule:** Resolve each at advertised start plus 30 minutes from the chair''s opening
+      record. A start after five minutes, or a verified failure to start by 30 minutes for a meeting that
+      was not cancelled, is `y=0`. A start by five minutes is `y=1`. A cancelled meeting is **void**,
+      and a missing or conflicting opening record is **unresolved**; retain those entries and reasons
+      but do not silently score them as late. This rule is set before the outcomes.
+
+
+      Do not open `outcomes.md` yet. Record any accidental prior exposure rather than claiming a prospective
+      forecast afterward.
+
+
+      #### Action 1 — Set the reference rate and preserve three forecasts
+
+
+      Count the successes in H1–H10 and show the fraction. Describe the reference set, threshold, denominator,
+      and one reason the future probability could differ. The observed delay range is descriptive history,
+      not a guaranteed prediction interval.
+
+
+      For each of F1–F3, write:
+
+
+      `Forecast ID | record order/time | exact event | reference set | base rate | point probability p
+      | optional probability range and meaning | context adjustment and reason | resolution rule | outcome
+      not yet viewed`
+
+
+      Use the historical rate as a starting point. Keeping it unchanged is allowed when there is no justified
+      adjustment. Do not invent different contexts merely to make the three probabilities look individualized.
+      A defensible uncertainty range is a judgment to explain, not an answer the key will declare objectively
+      correct.
+
+
+      Choose the point probability before resolution if you intend to compute the Brier score. A range
+      alone does not define one score; do not pick the most favorable point afterward. You may instead
+      retain a range-only record and state that a single-point score was not specified.
+
+
+      #### Action 2 — Compare scenarios and locate the decision threshold
+
+
+      Use this **time-only toy model** for an optional preparation action. Arriving early incurs 5 minutes
+      every time. It avoids 15 minutes of disruption if the meeting starts by the defined threshold and
+      avoids nothing otherwise. The early action does not itself affect when the meeting starts. These
+      are stipulated model inputs, not measured facts about real meetings.
+
+
+      Complete the table without opening the answers:
+
+
+      | Scenario probability p | Expected avoided disruption | Certain time cost | Net expected time saving
+      |
+
+      | --- | --- | --- | --- |
+
+      | 0.3 | Calculate 15 × p | 5 minutes | Calculate 15 × p - 5 |
+
+      | 0.8 | Calculate 15 × p | 5 minutes | Calculate 15 × p - 5 |
+
+      | 0.9 | Calculate 15 × p | 5 minutes | Calculate 15 × p - 5 |
+
+
+      Solve `15 × p = 5` for the break-even probability. Under a probability range 0.6–0.9, calculate
+      the corresponding net-saving range. State whether that range crosses the threshold. Do not assign
+      equal probabilities to the three scenarios merely because there are three rows.
+
+
+      Write at least two model limits: the cost may not be exactly 5, the avoided disruption may not be
+      15, or obligations and access requirements may override a time comparison. Compare both realized
+      possibilities as well as the expected value. Choose an action only within the toy assumptions, not
+      as a rule for every appointment.
+
+
+      #### Action 3 — Resolve, score, and review without editing history
+
+
+      Save all forecasts and scenario calculations. Open `outcomes.md`, apply the rule to each record,
+      and append the result beside the original probability. Keep the fictional route labeled **simulation**.
+      For a live route, use actual records and preserve void/unresolved cases with reasons.
+
+
+      Calculate each squared probability error and their mean for the scored cases. State the number excluded
+      and why. A likely event can fail to occur without proving its earlier probability was irrational.
+      Conversely, a fortunate outcome does not justify an unsupported confident forecast.
+
+
+      Use this review form:
+
+
+      `Original forecasts retained | resolved outcomes and sources | scored / void / unresolved counts
+      | accuracy calculation | reference-set limitation | possible explanation of errors | what cannot
+      be inferred | next recording or model improvement`
+
+
+      Do not choose a winning model or declare broad calibration from three forecasts. A missed outcome
+      could reflect chance, a poorly chosen reference set, or an unjustified adjustment; this tiny record
+      may not discriminate among them. Choose a concrete improvement such as recording all comparable
+      meetings or documenting a material context change. Do not assert which explanation caused the error
+      without evidence.
+
+
+      ### Fresh checks: resolution and calibration are different tasks
+
+
+      Complete both checks in `check-prompts.md` before opening `check-answers.md`. Check A includes a
+      genuine probability error plus void and unresolved records. Check B supplies a larger, explicitly
+      synthetic audit set so you can actually compare probabilities with frequencies. Its numbers do not
+      certify a real forecaster.
+
+
+      ### Accessibility and live progression
+
+
+      Use frequencies, a calculator, or a reader who records your chosen probabilities without suggesting
+      outcomes. There is no mental-arithmetic or speed requirement. Keep point forecasts distinguishable
+      from ranges and assistance distinguishable from independent judgment.
+
+
+      For a live continuation, choose ordinary meetings you are authorized to observe; define the event,
+      reference set, and missing/cancelled rule beforehand. Record forecasts prospectively and return
+      when they resolve. Use no private information about other attendees. More forecasts can improve
+      the basis for review, but no arbitrary count automatically proves calibration.
+
+
+      For a more demanding analysis, define probability groups before examining outcomes and report each
+      group''s count, mean forecast, and observed frequency. Inspect whether forecasts come from comparable
+      conditions and whether multiple entries share the same event. Small groups remain uncertain, and
+      repeatedly changing bins to look well-calibrated is not evidence of improvement. A new model or
+      scoring convention should begin a labeled version, not rewrite earlier predictions.
+
+
+      ### Interpreting the result
+
+
+      **Supportive:** The base-rate denominator, prospective forecasts, threshold calculation, resolution
+      rules, and later accuracy/calibration distinctions are visible and correct.
+
+
+      **Mixed:** Forecasts were preserved, but a probability range was treated as a confidence interval
+      without a method, or unresolved cases disappeared from the review.
+
+
+      **Contradictory:** Forecasts were edited after the results, a high probability was presented as
+      certainty, or expected value was used to override an important access or safety duty.
+
+
+      **Inconclusive:** There is only a retrospective success rate, without recorded probabilities, an
+      event definition, or a resolution rule. A simulated audit is not demonstrated real-world calibration.
+
+
+      **Final review:** Which part of your forecast was supported by a reference set, which part was judgment,
+      and what additional record would help distinguish poor modeling from ordinary uncertainty?'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Save your calculations and explanations before opening the answer file. These are complete
+      synthetic cases, not live forecasts.
+
+
+      ### Check A — A low-probability success and two excluded records
+
+
+      Use the guide''s definition of on-time and its predeclared cancellation/missing-record rules. Four
+      forecasts were preserved before these records appeared:
+
+
+      | ID | Original probability | Later record |
+
+      | --- | --- | --- |
+
+      | G1 | 0.75 | First agenda item begins 3 minutes after the advertised start. |
+
+      | G2 | 0.25 | First agenda item begins 5 minutes after the advertised start. |
+
+      | G3 | 0.80 | Opening record is missing; the organizer cannot confirm a time. |
+
+      | G4 | 0.80 | The meeting was cancelled. |
+
+
+      Classify every record as scored, unresolved, or void. For the scored records, assign binary outcomes,
+      compute each squared error, and compute the mean with the correct denominator. Retain reasons for
+      exclusions. Does G2 occurring prove the original 0.25 probability was impossible? Would replacing
+      G2''s probability with 0.9 after viewing the result improve the original forecast?
+
+
+      For a separate toy action costing 4 minutes and avoiding 10 minutes only if an event occurs, compute
+      its break-even probability and net expected saving at probabilities 0.2 and 0.7. Explain why the
+      sign of an expected value is not a guarantee about the realized result.
+
+
+      ### Check B — Actually inspect calibration
+
+
+      An audit packet contains twenty synthetic forecasts issued in two predeclared exact-probability
+      groups. Every outcome is resolved. Within the first group, all probabilities were 0.2 and outcomes
+      were:
+
+
+      `1, 0, 0, 0, 0, 1, 0, 0, 0, 0`.
+
+
+      Within the second group, all probabilities were 0.8 and outcomes were:
+
+
+      `1, 1, 1, 1, 0, 1, 1, 1, 1, 0`.
+
+
+      For each group, report the number of forecasts, mean predicted probability, observed event frequency,
+      and mean squared probability error. Compute the whole-set mean squared error. Explain what the group
+      comparison shows descriptively and why it does not prove perfect population calibration or independence.
+
+
+      Now compare a second complete synthetic set: one hundred forecasts all assign probability 0.01,
+      and none of the events occur. Calculate its mean squared error. Does a lower Brier score on this
+      different set prove a better forecaster or perfect calibration? Identify why event frequency, comparability,
+      uncertainty, and a suitable reference forecast matter. Do not infer a true event probability merely
+      from these finite outcomes.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Open after saving forecasts, resolutions, and check responses. Calculations evaluate the stated
+      synthetic packets only. They create no production scoring, real meeting evidence, or calibration
+      certification.
+
+
+      ### Main practice
+
+
+      Eight of ten historical delays are at most five minutes, so the observed base rate is 8/10 = 0.8.
+      H5 is included at exactly five minutes. The observed historical delay range is 0–12 minutes; it
+      is not a promised future interval. The reference set is small and may not represent changed conditions.
+
+
+      F1, F2, F3 resolve to 1, 0, 1. With three prospectively chosen probabilities of 0.8, errors are
+      0.04, 0.64, and 0.04, and their mean is 0.72/3 = 0.24. Use your actual preserved probabilities if
+      they differed; do not replace them with these example probabilities. There are three scored cases
+      and no excluded cases in the main packet.
+
+
+      Two successes in three trials is about 66.67%, not proof that the true probability is exactly two
+      thirds or that an 80% forecast was inherently wrong. The realized count is not a calibration study.
+      Do not claim that widening a range after seeing the outcomes repairs the earlier forecasts.
+
+
+      For the early-arrival toy model, net expected saving is `15p - 5`. At 0.3 it is -0.5 minutes; at
+      0.8 it is 7 minutes; at 0.9 it is 8.5 minutes. Break-even is p = 1/3. Across p = 0.6–0.9, net expected
+      saving ranges from 4 to 8.5 minutes, all positive under the stated assumptions. These scenarios
+      are sensitivity inputs, not equally weighted possibilities.
+
+
+      The realized net is 10 minutes saved when the event occurs or 5 minutes spent without that benefit
+      when it does not. It is not always the expected saving. Other costs, obligations, and access requirements
+      can change the action. Sensitivity should also inspect the cost and avoided-disruption assumptions,
+      not only probability.
+
+
+      **Repair:** Count the threshold case correctly. Preserve the actual point probabilities. Do not
+      score a probability range by selecting its best point afterward. Label the observed outcome range,
+      probability range, and missing-data treatment separately.
+
+
+      ### Check A
+
+
+      G1 and G2 are both scored with outcome 1, including G2 at exactly five minutes. G3 is unresolved,
+      not a failure; G4 is void under the predeclared rule. Preserve both exclusions and reasons.
+
+
+      G1''s error is (0.75 - 1)^2 = 0.0625. G2''s error is (0.25 - 1)^2 = 0.5625. The mean across the
+      two scored cases is 0.625/2 = 0.3125. Dividing by four would silently count missing/cancelled cases
+      as zero error and is incorrect. A probability of 0.25 allows the event to occur. One such outcome
+      does not prove that the forecast was impossible or well-calibrated.
+
+
+      Changing G2 to 0.9 afterward rewrites the record; it is not an improvement of the original forecast.
+      A new model may be recorded prospectively for new events.
+
+
+      For the separate action, net expected saving is `10p - 4`, with break-even p = 0.4. At 0.2 the net
+      is -2 minutes; at 0.7 it is 3 minutes. In a single case the realized net is either 6 minutes saved
+      or 4 minutes spent without the modeled benefit. The expectation is not a guaranteed realized outcome.
+
+
+      ### Check B
+
+
+      The 0.2 group has ten forecasts and two successes; its observed frequency is 0.2. Its total squared
+      error is 2 × 0.64 + 8 × 0.04 = 1.6, for a mean of 0.16. The 0.8 group has ten forecasts and eight
+      successes; its observed frequency is 0.8. Its total error is 8 × 0.04 + 2 × 0.64 = 1.6, again mean
+      0.16. The combined mean is 3.2/20 = 0.16.
+
+
+      Predicted and observed frequencies match in these two supplied groups. That is exact descriptive
+      agreement in a constructed finite dataset, not proof of perfect calibration in a population, independence
+      of events, or future performance. Do not extrapolate from these two groups to unobserved probability
+      levels.
+
+
+      The hundred 0.01 forecasts with no events have mean squared error 0.0001. That lower number on a
+      different event set does not establish a more skillful or perfectly calibrated forecaster. The observed
+      frequency in that set is 0, not exactly 0.01, but finite observations do not by themselves determine
+      the true event probability. Predicting 0 for every event would have zero error in this particular
+      set; choosing that reference retrospectively does not establish a valid prospective baseline.
+
+
+      Compare candidate forecasters on the same relevant events and against a reference specified without
+      outcome leakage. Inspect probability-versus-frequency groups with their counts and uncertainty.
+      Brier score concerns overall probability accuracy and is not a substitute for that calibration review.
+
+
+      **Repair:** If you equated a low score with perfect calibration, add the actual group-frequency
+      comparison and its sample boundary. If you compared unlike event sets as a ranking of people, specify
+      a common evaluation set and prospective reference before drawing that conclusion.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

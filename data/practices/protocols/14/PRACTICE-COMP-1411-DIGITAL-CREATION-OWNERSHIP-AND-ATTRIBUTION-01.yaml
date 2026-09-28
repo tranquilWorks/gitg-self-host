@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1411-DIGITAL-CREATION-OWNERSHIP-AND-ATTRIBUTION-01
 slug: c1411-digital-creation-ownership-and-attribution-practice
-name: Bounded Digital creation, ownership, and attribution Practice
+name: Prepare a small digital work with a traceable permission and credit record
 parent_competency_id: '14.11'
 domain_id: '14'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 14.11
-      (Digital creation, ownership, and attribution); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 14.11; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,40 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Digital creation, ownership, and attribution through a low-stakes skill rehearsal
-    bounded by the canonical scope: Understand copyright, licensing, plagiarism, open-source norms, data
-    ownership, and creator compensation.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Publishes or reuses
-    digital work with appropriate permission, attribution, and records. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Distinguish creating, owning, licensing and attributing digital material, then assemble a small
+    work whose reuse permissions and creator credit can be inspected.
+  why_recommended: Distinguish creating, owning, licensing and attributing digital material, then assemble
+    a small work whose reuse permissions and creator credit can be inspected.
   claims:
-  - statement: Using the canonical scope and evidence target for Digital creation, ownership, and attribution
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Distinguish creating, owning, licensing and attributing digital material, then assemble
+      a small work whose reuse permissions and creator credit can be inspected.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Digital creation, ownership, and attribution practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Digital creation, ownership, and attribution as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Digital creation,
-    ownership, and attribution context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Digital creation,
-    ownership, and attribution; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use entirely self-created text and shapes when rights are unclear, and accessible
+    alt text where appropriate. Ask a qualified legal or institutional adviser for consequential uncertainty.
+    No purchase or public upload is required, and collaborators’ work is not yours to license without
+    authority.
+  opportunity_considerations: 'Default work: a one-page hobby-event notice using your own text and either
+    your own simple drawing or a clearly licensed image from its original source. Keep a record of creator,
+    source, exact license version, permitted use, changes and required credit. Publishing is optional;
+    do not use private faces, logos, copyrighted music or unclear scraped assets merely for practice.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Digital creation, ownership, and
-    attribution.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default work: a one-page hobby-event notice using your own text and either your own simple drawing
+    or a clearly licensed image from its original source. Keep a record of creator, source, exact license
+    version, permitted use, changes and required credit. Publishing is optional; do not use private faces,
+    logos, copyrighted music or unclear scraped assets merely for practice.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Digital creation, ownership, and
-    attribution instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use entirely self-created text and shapes when rights are unclear, and accessible alt text where appropriate.
+    Ask a qualified legal or institutional adviser for consequential uncertainty. No purchase or public
+    upload is required, and collaborators’ work is not yours to license without authority.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +83,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Digital creation, ownership, and attribution actions over ten days,
-    preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Digital creation, ownership, and attribution; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Digital
-    creation, ownership, and attribution. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Digital creation, ownership, and attribution
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default work: a one-page hobby-event notice using your own text and either your own simple drawing
+    or a clearly licensed image from its original source. Keep a record of creator, source, exact license
+    version, permitted use, changes and required credit. Publishing is optional; do not use private faces,
+    logos, copyrighted music or unclear scraped assets merely for practice. Goal: Distinguish creating,
+    owning, licensing and attributing digital material, then assemble a small work whose reuse permissions
+    and creator credit can be inspected. Scope: This is rights literacy and a conservative permission
+    exercise, not legal advice or a ruling on fair use, employment ownership, AI copyright or every jurisdiction’s
+    law. Attribution alone does not supply permission. Time and effort: Twenty-five minutes to prepare
+    a private one-page draft and its rights record. Adaptation: Use entirely self-created text and shapes
+    when rights are unclear, and accessible alt text where appropriate. Ask a qualified legal or institutional
+    adviser for consequential uncertainty. No purchase or public upload is required, and collaborators’
+    work is not yours to license without authority. Keep personal working notes outside the check-in;
+    record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use entirely self-created text and shapes when rights are unclear, and accessible
+    alt text where appropriate. Ask a qualified legal or institutional adviser for consequential uncertainty.
+    No purchase or public upload is required, and collaborators’ work is not yours to license without
+    authority.
+  expected_burden: Twenty-five minutes to prepare a private one-page draft and its rights record.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Digital creation, ownership, and attribution protocol to rank worth, coerce participation,
@@ -104,18 +113,25 @@ intervention:
   - Treating a completed Digital creation, ownership, and attribution action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Digital creation, ownership, and attribution situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use entirely
+    self-created text and shapes when rights are unclear, and accessible alt text where appropriate. Ask
+    a qualified legal or institutional adviser for consequential uncertainty. No purchase or public upload
+    is required, and collaborators’ work is not yours to license without authority.
   actions:
   - stable_id: PRACTICE-COMP-1411-DIGITAL-CREATION-OWNERSHIP-AND-ATTRIBUTION-01-A1
     sequence: 1
-    title: Define observable criteria for Digital creation, ownership, and attribution
-    instructions: 'Select one safe, lawful, low-stakes component of Digital creation, ownership, and attribution.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Understand
-      copyright, licensing, plagiarism, open-source norms, data ownership, and creator compensation.'
+    title: Establish what you own and what you are only allowed to use
+    instructions: 'List every ingredient in the notice: text, image, font or template if relevant. Mark
+      created by you, permission verified or unresolved. Check whether employment, collaboration, identifiable
+      people or third-party rights affect your authority. For a licensed asset, read the exact license
+      and distinguish attribution, commercial-use, adaptation and share-alike conditions. An image appearing
+      in search results is not a permission grant.
+
+
+      Observation checks: Every ingredient has an ownership or permission disposition; Third-party employment
+      collaboration and identity issues are considered; The exact license version and relevant conditions
+      are checked; Search availability and attribution are not mistaken for permission. Mark only what
+      you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -137,9 +153,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1411_a1_skill_component_bounded
-        - c1411_a1_observable_rubric_present
-        - c1411_a1_error_or_stop_defined
+        - every_ingredient_has_an_ownership_or_permission_disposition
+        - third_party_employment_collaboration_and_identity_issues_are_considered
+        - the_exact_license_version_and_relevant_conditions_are_checked
+        - search_availability_and_attribution_are_not_mistaken_for_permission
       - measurement_id: c1411_a1_boundary
         kind: boolean
         role: supporting
@@ -156,10 +173,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1411-DIGITAL-CREATION-OWNERSHIP-AND-ATTRIBUTION-01-A2
     sequence: 2
-    title: Rehearse Digital creation, ownership, and attribution twice
-    instructions: Perform two bounded attempts of the selected Digital creation, ownership, and attribution
-      component under comparable safe conditions. Use self-review, a consensual observer, or a reviewed
-      artifact; do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Assemble the draft and make its credit inspectable
+    instructions: 'Use only ingredients with a suitable permission basis, replacing unresolved material
+      with your own simple alternative. Add a credit that identifies the creator, source, license and
+      any changes in a reasonable location. Keep required notices and do not imply endorsement. For software
+      rather than an image, use the project’s actual license and contribution rules; do not assume a Creative
+      Commons image rule covers code.
+
+
+      Observation checks: Only suitable authorized ingredients enter the draft; Credit includes creator
+      source license and changes as required; Required notices remain and endorsement is not implied;
+      Software and non-software licensing are not conflated. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -175,15 +200,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1411_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - only_suitable_authorized_ingredients_enter_the_draft
+        - credit_includes_creator_source_license_and_changes_as_required
+        - required_notices_remain_and_endorsement_is_not_implied
+        - software_and_non_software_licensing_are_not_conflated
       - measurement_id: c1411_a2_boundary
         kind: boolean
         role: supporting
@@ -200,10 +226,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1411-DIGITAL-CREATION-OWNERSHIP-AND-ATTRIBUTION-01-A3
     sequence: 3
-    title: Use feedback for one Digital creation, ownership, and attribution retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Publishes
-      or reuses digital work with appropriate permission, attribution, and records.'
+    title: Review distribution and compensation before sharing
+    instructions: 'Check the intended audience, commercial context, adaptation terms and any creator request
+      or agreed payment. Confirm that the final format preserves credit and does not add restrictions
+      incompatible with the license. Keep the permission record privately. Publish only through an authorized
+      channel after this review, or retain the draft as a completed rights-preparation exercise; do not
+      claim public distribution occurred when it did not.
+
+
+      Observation checks: The intended distribution fits the verified terms; Creator compensation or permission
+      agreements are respected; The final format retains required credit and notices; Private preparation
+      and actual publication are distinguished. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Could a later reader trace each reused ingredient to a permission basis and credit
+      without relying on your memory?
+
+
+      Examples: Supportive: The notice used an appropriately licensed image with source, license and change
+      credit, and the private record preserved the terms.
+
+
+      Mixed: The draft was ready, but a noncommercial restriction conflicted with the planned use and
+      the image had to be replaced.
+
+
+      Contradictory: A creator’s name was added while permission was absent or a license condition was
+      ignored.
+
+
+      Inconclusive: A list of copyright concepts was produced without checking any actual ingredient or
+      credit line.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -225,9 +279,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1411_a3_feedback_item_selected
-        - c1411_a3_adjustment_traceable
-        - c1411_a3_retry_result_preserved
+        - the_intended_distribution_fits_the_verified_terms
+        - creator_compensation_or_permission_agreements_are_respected
+        - the_final_format_retains_required_credit_and_notices
+        - private_preparation_and_actual_publication_are_distinguished
       - measurement_id: c1411_a3_boundary
         kind: boolean
         role: supporting
@@ -248,17 +303,17 @@ intervention:
       Digital creation, ownership, and attribution; no purchase, subscription, travel, credential, or
       public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Digital creation, ownership, and attribution; assistive technology, interpretation, a
-      support person, and a deferred action are valid without penalty.
+    - Use entirely self-created text and shapes when rights are unclear, and accessible alt text where
+      appropriate. Ask a qualified legal or institutional adviser for consequential uncertainty. No purchase
+      or public upload is required, and collaborators’ work is not yours to license without authority.
     cultural_context:
     - Adapt the expression of Digital creation, ownership, and attribution to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Digital creation, ownership, and attribution opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use entirely self-created text and shapes when rights are unclear, and accessible alt text where
+      appropriate. Ask a qualified legal or institutional adviser for consequential uncertainty. No purchase
+      or public upload is required, and collaborators’ work is not yours to license without authority.
   pause_conditions:
   - Pause Digital creation, ownership, and attribution when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -290,10 +345,7 @@ evidence_and_scoring:
   - c1411_a3_boundary
   - c1411_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Digital creation, ownership, and attribution action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Digital creation, ownership, and attribution criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A creator’s name was added while permission was absent or a license condition was ignored.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Digital creation, ownership, and attribution explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -304,14 +356,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Digital creation, ownership, and attribution rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Publishes or reuses digital work with appropriate permission, attribution, and records.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Digital creation, ownership, and attribution requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Establish what you own and what you are only allowed to use. Observed
+    checks: Every ingredient has an ownership or permission disposition; Third-party employment collaboration
+    and identity issues are considered; The exact license version and relevant conditions are checked;
+    Search availability and attribution are not mistaken for permission. Action 2: Assemble the draft
+    and make its credit inspectable. Observed checks: Only suitable authorized ingredients enter the draft;
+    Credit includes creator source license and changes as required; Required notices remain and endorsement
+    is not implied; Software and non-software licensing are not conflated. Action 3: Review distribution
+    and compensation before sharing. Observed checks: The intended distribution fits the verified terms;
+    Creator compensation or permission agreements are respected; The final format retains required credit
+    and notices; Private preparation and actual publication are distinguished.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A list of copyright concepts was produced without checking
+    any actual ingredient or credit line.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Digital
     creation, ownership, and attribution contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -321,9 +382,8 @@ evidence_and_scoring:
   - L16
   - L19
   - L31
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Digital creation, ownership, and attribution evidence.
@@ -331,12 +391,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for digital creation, ownership, and attribution action was attempted
-    or explicitly deferred.
-  - The rehearse digital creation, ownership, and attribution twice action was attempted or explicitly
-    deferred.
-  - The use feedback for one digital creation, ownership, and attribution retry action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Establish what you own and what you are only allowed to use. Observed checks: Every ingredient
+    has an ownership or permission disposition; Third-party employment collaboration and identity issues
+    are considered; The exact license version and relevant conditions are checked; Search availability
+    and attribution are not mistaken for permission.'
+  - 'Action 2: Assemble the draft and make its credit inspectable. Observed checks: Only suitable authorized
+    ingredients enter the draft; Credit includes creator source license and changes as required; Required
+    notices remain and endorsement is not implied; Software and non-software licensing are not conflated.'
+  - 'Action 3: Review distribution and compensation before sharing. Observed checks: The intended distribution
+    fits the verified terms; Creator compensation or permission agreements are respected; The final format
+    retains required credit and notices; Private preparation and actual publication are distinguished.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -345,65 +412,357 @@ completion_and_review:
     - c1411_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Digital creation, ownership, and attribution only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Digital creation, ownership, and attribution
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Could a later reader trace each reused ingredient to a permission basis and credit
+    without relying on your memory?
+  transfer_limit: This is rights literacy and a conservative permission exercise, not legal advice or
+    a ruling on fair use, employment ownership, AI copyright or every jurisdiction’s law. Attribution
+    alone does not supply permission.
   reflection:
-    before: What does Digital creation, ownership, and attribution require in this exact context, what
-      remains outside my role or authority, and which scope sentence or evidence criterion will keep the
-      practice honest?
-    during: Which observable Digital creation, ownership, and attribution criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Publishes or reuses digital work with appropriate permission,
-      attribution, and records.', what contradiction or missing context matters most, and should this
-      Digital creation, ownership, and attribution design be repeated, adapted, deferred, stopped, or
-      referred?
+    before: 'What would count as doing this honestly? Goal: Distinguish creating, owning, licensing and
+      attributing digital material, then assemble a small work whose reuse permissions and creator credit
+      can be inspected.'
+    during: Which checks have actually been observed? The draft was ready, but a noncommercial restriction
+      conflicted with the planned use and the image had to be replaced.
+    after: Could a later reader trace each reused ingredient to a permission basis and credit without
+      relying on your memory?
   review_guidance:
     repeat: Repeat the same bounded Digital creation, ownership, and attribution design only when the
       context and burden remain appropriate.
-    adapt: Change the Digital creation, ownership, and attribution medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use entirely self-created text and shapes when rights are unclear, and accessible alt text
+      where appropriate. Ask a qualified legal or institutional adviser for consequential uncertainty.
+      No purchase or public upload is required, and collaborators’ work is not yours to license without
+      authority.
     stop: Stop Digital creation, ownership, and attribution when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Digital creation, ownership, and attribution
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Digital creation, ownership, and attribution criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Digital creation, ownership, and attribution criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Digital creation, ownership, and attribution
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Digital creation, ownership, and attribution action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The notice used an appropriately licensed image with source, license and change credit,
+      and the private record preserved the terms.
+    mixed: The draft was ready, but a noncommercial restriction conflicted with the planned use and the
+      image had to be replaced.
+    contradictory: A creator’s name was added while permission was absent or a license condition was ignored.
+    inconclusive: A list of copyright concepts was produced without checking any actual ingredient or
+      credit line.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Digital creation, ownership, and attribution.
+    context_heading: Prepare a small digital work with a traceable permission and credit record
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Digital creation,
       ownership, and attribution.
   check_in_labels:
-    c1411_a1_primary: The bounded Digital creation, ownership, and attribution criterion for action 1
-      was observed
+    c1411_a1_primary: 'Observed checks: establish what you own and what you are only allowed to use'
     c1411_a1_boundary: Action 1 stayed inside its stated Digital creation, ownership, and attribution
       boundary
     c1411_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1411_a2_primary: The bounded Digital creation, ownership, and attribution criterion for action 2
-      was observed
+    c1411_a2_primary: 'Observed checks: assemble the draft and make its credit inspectable'
     c1411_a2_boundary: Action 2 stayed inside its stated Digital creation, ownership, and attribution
       boundary
     c1411_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1411_a3_primary: The bounded Digital creation, ownership, and attribution criterion for action 3
-      was observed
+    c1411_a3_primary: 'Observed checks: review distribution and compensation before sharing'
     c1411_a3_boundary: Action 3 stayed inside its stated Digital creation, ownership, and attribution
       boundary
     c1411_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Digital creation,
-    ownership, and attribution practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Could a later reader trace each reused ingredient to a permission basis and credit
+    without relying on your memory? Completion is not mastery.
+  plain_language_evidence: The notice used an appropriately licensed image with source, license and change
+    credit, and the private record preserved the terms.
   display_order: 187
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '14.11'
+  title: 14.11 — Digital creation, ownership, and attribution
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [What To Do if You Were Scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [What To Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+
+      - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
+
+      - [AI 600-1: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+      - [Content Credentials explainer v2.4](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+
+      - [Improving college students’ fact-checking strategies through lateral reading instruction in a
+      general education civics course](https://link.springer.com/article/10.1186/s41235-021-00291-4)
+
+      - [Report adult cyber abuse](https://www.esafety.gov.au/key-topics/adult-cyber-abuse/report-adult-cyber-abuse)
+
+      - [What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+      - [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+      - [deed](https://creativecommons.org/licenses/by/4.0/)
+
+      - [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+      - [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+
+      - [BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+      - [MIT License](https://opensource.org/license/mit)
+
+      - [Backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+
+      - [User rights under the Digital Services Act](https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act)
+
+      - [Developing for Web Accessibility](https://www.w3.org/WAI/tips/developing/)
+
+      - [First Aid Online Classes](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+
+      - [Learn First Aid](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+
+      - [Adult cardiac arrest](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-cardiac-arrest)
+
+      - [adult/child choking](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking)
+
+      - [Life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+      - [Shock](https://www.redcross.org/take-a-class/resources/learn-first-aid/shock)
+
+      - [Burns](https://www.redcross.org/take-a-class/resources/learn-first-aid/burns)
+
+      - [Poison exposure](https://www.redcross.org/take-a-class/resources/learn-first-aid/poison-exposure)
+
+      - [Making an Emergency Plan](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+
+      - [Make a Plan](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+
+      - [Causes and prevention: overview](https://www.hse.gov.uk/slips/preventing-overview.htm)
+
+      - [A computational reward learning account of social media engagement](https://www.nature.com/articles/s41467-020-19607-x)
+
+      - [publisher correction](https://www.nature.com/articles/s41467-021-22067-6)
+
+      - [author-hosted abstract of Exposure to ideologically diverse news and opinion on Facebook](https://solomonmg.github.io/publications/bakshy-2015-exposure/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'The company''s proposed upload terms now say, “All included artwork is exclusively ours; recipients
+      may not reuse it.” That statement cannot accurately describe the A motif under its CC BY 4.0 grant.
+      Separate claims about the company''s own contributions from rights in the reused motif and do not
+      impose restrictions that prevent exercise of its licensed rights. If the channel cannot accommodate
+      those terms, choose a suitable alternative or another channel.
+
+
+      A preview also crops away the credit line. The internal ledger survives, but the public-format credit
+      no longer accompanies the work. Repair the layout or provide a reasonable accessible attribution
+      route appropriate to the medium before distribution.
+
+
+      The company asks to add E''s attendee names “because we paid for the event database.” Payment and
+      access do not supply the missing publication authority. Exclude those personal records.
+
+
+      Sol''s voluntary support request remains optional under the supplied B offer. Paying a voluntary
+      contribution would not remove B''s NonCommercial condition. A separate suitable permission grant
+      would be needed for this stipulated commercial use. No payment or new grant has occurred.
+
+
+      Final case status: private draft prepared; distribution review found defects; actual permission
+      contact, publication and creator payment not performed. If you used only F, review your own draft
+      for the same data/credit claims rather than adding an unnecessary fictional third-party license.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### A credit line answers only one of the questions
+
+
+      Before reusing digital work, distinguish who created it, who controls relevant rights, what permission
+      covers your use, what credit is required and what compensation was agreed. Naming a creator does
+      not itself grant permission. Purchasing a copy does not automatically transfer copyright. Permission
+      also does not make presenting another person''s expression as your own good attribution practice.
+
+
+      Allow 40 minutes to prepare a private fictional event notice and its rights record. No purchase,
+      external image search or public distribution is required. Use paper or a plain-text editor. The
+      asset offers below are invented training facts, not licenses to actual third-party works. Your output
+      demonstrates permission reasoning; actual publication would require verification of actual ingredients
+      and authority.
+
+
+      ### Read the permission for the intended use
+
+
+      Copyright protects qualifying expression under the applicable law; ownership can differ from authorship,
+      including some employment arrangements. The [US Copyright Office''s overview](https://www.copyright.gov/what-is-copyright/)
+      provides a US introduction, not a ruling about every jurisdiction or this user''s work. Data can
+      involve privacy, contracts and database rights as well as copyright. Possessing a spreadsheet does
+      not settle authority to publish its personal records.
+
+
+      [CC BY 4.0''s legal code](https://creativecommons.org/licenses/by/4.0/legalcode) permits sharing
+      and adaptation subject to its conditions, including retaining supplied attribution/notices, linking
+      the license and indicating changes. It does not license every possible personality or trademark
+      right or imply endorsement. Other CC variants add conditions such as NonCommercial, NoDerivatives
+      or ShareAlike; inspect the exact version. A deed is a summary; consult the legal terms when the
+      use is consequential or uncertain.
+
+
+      Software has its own licenses and project contribution rules. For example, [MIT](https://opensource.org/license/mit)
+      requires retention of its copyright and permission notice in copies or substantial portions. A CC
+      image credit does not satisfy a code license. A repository without a clear license is not permission
+      to reuse its code just because it is public.
+
+
+      Worked example: a commissioned photo costs 40 units and the agreement allows one print flyer. Uploading
+      it to a public merchandise store is a different use. Payment fulfilled one obligation; it did not
+      silently expand the permission. Ask for additional permission or replace the image.
+
+
+      ### Complete fictional publishing brief
+
+
+      Create a private draft for a commercial company''s paid craft workshop: “Paper Shapes Workshop —
+      June 20, 14:00 — East Studio — ticket 12 units.” The intended real-world analogue would promote
+      the company''s paid service. For this exercise the use is explicitly **primarily commercial**, and
+      the company wants a blue recoloring of any reused motif. All offers below come from their purported
+      creators, whose authority is stipulated only inside this fictional case.
+
+
+      | Ingredient | Supplied offer / information |
+
+      | --- | --- |
+
+      | A: “Two Squares,” creator Mira | Original motif described completely: two equal outlined squares
+      side by side. Creator page record A, dated June 1, supplies CC BY 4.0, copyright “Mira, 2026,” source
+      record A and no other notices. Recoloring and commercial use fit the stated license if its conditions
+      are met. No people, logos or third-party content are included. |
+
+      | B: “Leaf Window,” creator Sol | CC BY-NC 4.0; no separate commercial permission. Sol requests
+      voluntary support but requires no payment under this offer. |
+
+      | C: “Folded Fan,” creator Lee | CC BY-ND 4.0. The proposed redesign changes the creative drawing,
+      not just file format. No separate permission to share that adaptation. |
+
+      | D: “Bright Star” | Found in a repost with “credit to owner”; actual creator and permission unknown.
+      |
+
+      | E: collaborator''s attendee spreadsheet | Includes names and contact details; collaborator authorized
+      event administration only. No publication or upload permission is supplied. |
+
+      | F: your new text and a simple shape you draw yourself | No copied expression, employment claim
+      or collaborator contribution is stipulated in this case. Keep it separate from actual works whose
+      ownership you have not checked. |
+
+
+      A complete fictional source record is enough for the exercise, but “record A” would be replaced
+      by the actual original-source link and preserved terms for real reuse. Do not fabricate an internet
+      URL or imply that Mira is a real rights holder you contacted.
+
+
+      #### Action 1 — Make an ingredient ledger
+
+
+      For A–F record `creator/owner | permission basis | planned use/change | conditions | include/replace/hold
+      | payment status`. A is suitable within the stipulated case; B lacks permission for the stipulated
+      commercial use; C cannot be publicly shared as the planned creative adaptation under the supplied
+      grant; D remains unresolved; E stays private; F is the self-created alternative.
+
+
+      Do not broaden those decisions into “all charging is commercial” or “all file changes are adaptations.”
+      Those questions can require legal interpretation. The case deliberately supplies the relevant facts.
+      Likewise, ShareAlike conditions concern relevant licensed adaptations; do not assume every separate
+      work placed beside an image inherits its license.
+
+
+      #### Action 2 — Assemble a traceable private draft
+
+
+      Write the event facts and draw the two-square motif as a representation of A, or use your own new
+      shape under F. If using the A scenario, add: “Two Squares — Mira, 2026, source record A; CC BY 4.0;
+      recolored blue.” Include the actual [license link](https://creativecommons.org/licenses/by/4.0/)
+      in the draft record, retain supplied notices and avoid claiming endorsement. Label the whole artifact
+      **fictional rights exercise — private draft**.
+
+
+      For F, record exactly which elements you created; do not claim ownership of E''s data or copied
+      material. Plain-text layout avoids needing an external template, decorative font asset or photograph.
+      If you add an ingredient, add its permission basis before using it. Keep an accessible text description
+      of the visual.
+
+
+      #### Action 3 — Review distribution and compensation
+
+
+      Inspect the final credit in the format a recipient would see. A credit hidden in an inaccessible
+      internal note would not reliably accompany the work. Check the intended audience, permitted changes,
+      required notices and any actual payment agreement. Voluntary support, required license fee and assignment
+      of rights are different arrangements.
+
+
+      Save your draft and ledger before reading [the later packet](?resource=file-later-packet-md). Revise
+      for the proposed distribution change and missing credit. A file prepared privately is not proof
+      of public publication or full legal clearance. For real uncertainty, use a self-created replacement
+      or appropriate legal/institutional advice rather than inventing an exception.
+
+
+      Attempt [fresh checks](?attempt=practice-checks) before [the key](?check=practice-answers). The
+      output should let someone trace every included element without relying on your memory.
+
+
+      ### Adapt and transfer
+
+
+      Use a text-only notice or your own geometric shapes when rights are unclear. A trusted reader can
+      inspect the permission ledger. Harder route: adapt a CC BY-SA work and distribute the adaptation;
+      identify the applicable version and compatible terms before assuming your preferred exclusive license
+      fits. Do not infer a rule for code from this image example.
+
+
+      For real transfer, inspect one actual ingredient in a small work you are authorized to prepare.
+      Retain the original source, date, exact terms, changes, credit and payment agreement. Check third-party/personality
+      rights and the platform''s distribution requirements. Publish only through an authorized channel;
+      this practice does not require publication.
+
+
+      **Supportive:** Every included ingredient has suitable permission and inspectable credit. **Mixed:**
+      A credit is correct but the planned use requires a replacement or further grant. **Contradictory:**
+      Attribution is substituted for permission or private data is published as “owned.” **Inconclusive:**
+      Concepts are listed without reviewing the actual draft ingredients.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A commercial advertisement uses a BY-NC image and includes impeccable credit. Does the credit
+      solve the permission issue? Would a voluntary donation automatically solve it?
+
+      2. A project copies a substantial MIT-licensed code component but keeps only the author''s name
+      and removes the copyright/permission notice. What needs repair?
+
+      3. A creator is paid for a single-use flyer image. The buyer wants to upload it to a reusable template
+      library. What evidence is needed, and what should happen while it is absent?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Suitable permission for the use and correct credit are separate requirements. A voluntary
+      donation does not alter license terms. Obtain a separate applicable grant or use a suitable replacement;
+      do not equate payment with ownership.
+
+      2. Restore the required copyright and permission notice with the substantial copied component; preserve
+      the applicable license text and disclaimers as required. An author''s name alone is insufficient.
+      Review that component''s actual version and any other included licenses rather than applying a generic
+      image-credit rule.
+
+      3. An actual grant covering the new distribution/reuse is needed unless another valid legal basis
+      applies. The stated single-use agreement does not supply it. Hold the new use or replace the asset
+      while clarification is pending. Do not claim a broader grant because the invoice was paid.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

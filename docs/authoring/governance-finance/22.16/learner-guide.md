@@ -42,8 +42,8 @@ For Lantern, reason from the same distinction. The first question is whether A w
 
 For support, draw only the ordinary decision and single appeal first, then add the supplied substitutes. For a harder attempt, make both Nia and Ruth conflicted and specify the member appointment route with an unresolved allocation. Optional actual transfer is an authorized review of a group's public or blank governance procedure. Do not rewrite its constitution, appoint yourself or expose a complainant. A rule can be legible yet inaccessible in practice, so actual review would also need willing users, usable channels and evidence across time. One corrected room decision does not establish institutional accountability.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. Practical safeguards do not add canonical metadata. Applicability and normative status remain role_conditional. A leadership role is not compulsory. Use actual authority and willing participation; keep protected records outside app evidence. Fiction and no attempt are legitimate. Human dignity is never scored.
+Practical safeguards do not add canonical metadata.  A leadership role is not compulsory. Use actual authority and willing participation; keep protected records private. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

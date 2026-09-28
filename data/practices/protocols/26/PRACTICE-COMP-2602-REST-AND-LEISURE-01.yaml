@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2602-REST-AND-LEISURE-01
 slug: c2602-rest-and-leisure-practice
-name: Bounded Rest and leisure Practice
+name: Find a form of leisure that restores rather than merely fills time
 parent_competency_id: '26.02'
 domain_id: '26'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 26.02
-      (Rest and leisure); canonical scope, evidence target, classification, domain boundary, and parent
-      mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 26.02; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,38 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Rest and leisure through a artifact-and-review practice bounded by the canonical
-    scope: Use unstructured time, recreation, Sabbath, vacation, and recovery deliberately rather than
-    defaulting to numbing consumption.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Leisure reliably restores
-    attention, relationship, or vitality. The protocol creates a small opportunity to examine that target
-    without treating completion as broad capability.'
+  purpose: Use a bounded period of rest or recreation deliberately and learn whether it restores attention,
+    relationship or vitality without making rest another achievement test.
+  why_recommended: Use a bounded period of rest or recreation deliberately and learn whether it restores
+    attention, relationship or vitality without making rest another achievement test.
   claims:
-  - statement: Using the canonical scope and evidence target for Rest and leisure is a traceable product-design
-      basis for a source-only draft protocol.
+  - statement: Use a bounded period of rest or recreation deliberately and learn whether it restores attention,
+      relationship or vitality without making rest another achievement test.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Rest and leisure practice fit the person's current
     role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Rest and leisure as not applicable, consciously unchosen, or deferred
     without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Rest and leisure
-    context, understand the source-only status, and stop without losing safety, care, employment, housing,
-    services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Rest and
-    leisure; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use shorter periods, low-sensory recreation, supported rest or accessible
+    media. Caregiving, shift work, disability and scarcity can limit options; do not shame a person for
+    those constraints. Screen-based leisure can be legitimate when freely chosen and fitting, and offline
+    leisure is not automatically superior.
+  opportunity_considerations: 'Choose two safe accessible options already available: a quiet unstructured
+    period with no task and a gentle chosen recreation such as reading for pleasure, listening to familiar
+    music or sitting with a willing person. Keep essential care and necessary access supports in place.
+    Prepare only a short after-period note about activity, fit and what felt different; no live monitoring
+    is required.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Rest and leisure.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Choose two safe accessible options already available: a quiet unstructured period with no task and
+    a gentle chosen recreation such as reading for pleasure, listening to familiar music or sitting with
+    a willing person. Keep essential care and necessary access supports in place. Prepare only a short
+    after-period note about activity, fit and what felt different; no live monitoring is required.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Rest and leisure instead of a live
-    situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use shorter periods, low-sensory recreation, supported rest or accessible media. Caregiving, shift
+    work, disability and scarcity can limit options; do not shame a person for those constraints. Screen-based
+    leisure can be legitimate when freely chosen and fitting, and offline leisure is not automatically
+    superior.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -79,18 +82,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-ARTIFACT-PLAN
   duration_days: 10
-  cadence: Complete three bounded Rest and leisure actions over ten days, preserving explicit not-applicable,
-    defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Rest and leisure; copy the canonical scope and evidence target into a
-    private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Rest and
-    leisure. Do not store private prose, names, identities, diagnoses, allegations, credentials, account
-    data, protected work information, intimate detail, artifact contents, observer narrative, or another
-    person's secrets. This source-only draft is not surveillance, professional advice, treatment, certification,
-    or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Rest and leisure actions, and review;
-    scope may be reduced or deferred for access, care, health, workload, conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose two safe accessible options already available: a quiet unstructured period with no task
+    and a gentle chosen recreation such as reading for pleasure, listening to familiar music or sitting
+    with a willing person. Keep essential care and necessary access supports in place. Prepare only a
+    short after-period note about activity, fit and what felt different; no live monitoring is required.
+    Goal: Use a bounded period of rest or recreation deliberately and learn whether it restores attention,
+    relationship or vitality without making rest another achievement test. Scope: Three ordinary leisure
+    periods provide context-bound observations, not a sleep, fatigue, mental-health or addiction treatment
+    and not proof that one activity restores everyone. Time and effort: Three twenty-minute periods over
+    a week and one ten-minute review; reduce duration to actual capacity. Adaptation: Use shorter periods,
+    low-sensory recreation, supported rest or accessible media. Caregiving, shift work, disability and
+    scarcity can limit options; do not shame a person for those constraints. Screen-based leisure can
+    be legitimate when freely chosen and fitting, and offline leisure is not automatically superior. Keep
+    personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use shorter periods, low-sensory recreation, supported rest or accessible media.
+    Caregiving, shift work, disability and scarcity can limit options; do not shame a person for those
+    constraints. Screen-based leisure can be legitimate when freely chosen and fitting, and offline leisure
+    is not automatically superior.
+  expected_burden: Three twenty-minute periods over a week and one ten-minute review; reduce duration
+    to actual capacity.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Rest and leisure protocol to rank worth, coerce participation, demand disclosure, override
@@ -98,19 +112,25 @@ intervention:
   - Treating a completed Rest and leisure action, a polished artifact, agreement, confidence, speed, independence,
     or output as mastery or universal transfer.
   exclusions:
-  - Any Rest and leisure situation involving emergency response, abuse, retaliation, illegal conduct,
-    medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous equipment,
-    or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use shorter
+    periods, low-sensory recreation, supported rest or accessible media. Caregiving, shift work, disability
+    and scarcity can limit options; do not shame a person for those constraints. Screen-based leisure
+    can be legitimate when freely chosen and fitting, and offline leisure is not automatically superior.
   actions:
   - stable_id: PRACTICE-COMP-2602-REST-AND-LEISURE-01-A1
     sequence: 1
-    title: Define a rubric for Rest and leisure
-    instructions: 'Turn the canonical scope for Rest and leisure into three to five inspectable criteria:
-      Use unstructured time, recreation, Sabbath, vacation, and recovery deliberately rather than defaulting
-      to numbing consumption. Keep the rubric bounded to one current context and include one criterion
-      for uncertainty, access, or competing obligations.'
+    title: Protect a rest window and name what it is for
+    instructions: 'Identify a realistic opening and what currently needs restoration: attention, social
+      ease, physical rest or simple freedom from demands. Reserve a short period without requiring a useful
+      output, improved mood or completed entertainment. Choose the quiet option for the first occasion
+      and state a boundary around optional interruptions while preserving urgent care or safety contact.
+      Notice whether guilt or comparison tries to turn the period into another obligation.
+
+
+      Observation checks: The intended kind of restoration is named without a required result; A realistic
+      window protects essential responsibilities; The first period has no output or improvement quota;
+      Necessary safety contact and access supports remain available. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -132,9 +152,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2602_a1_criteria_trace_to_scope
-        - c2602_a1_context_bounded
-        - c2602_a1_constraint_included
+        - the_intended_kind_of_restoration_is_named_without_a_required_result
+        - a_realistic_window_protects_essential_responsibilities
+        - the_first_period_has_no_output_or_improvement_quota
+        - necessary_safety_contact_and_access_supports_remain_available
       - measurement_id: c2602_a1_boundary
         kind: boolean
         role: supporting
@@ -151,10 +172,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2602-REST-AND-LEISURE-01-A2
     sequence: 2
-    title: Build one Rest and leisure artifact
-    instructions: Create the smallest useful plan, checklist, diagram, record, or other artifact that
-      applies the rubric for Rest and leisure. Store only category-level information and omit names, secrets,
-      credentials, diagnoses, protected work detail, and unnecessary third-party information.
+    title: Try the alternative and repeat the better-fitting condition
+    instructions: 'After the first period, note whether it felt restorative, neutral, agitating or hard
+      to interpret and why. On a second occasion try the chosen recreation, then repeat the condition
+      that seems more suitable on a third ordinary occasion. Keep differences in sleep, illness, workload
+      and setting visible; do not claim the activity caused every change. Stop or change an option that
+      becomes compulsive, costly or makes necessary recovery harder.
+
+
+      Observation checks: Two distinct leisure conditions are actually tried; A third period repeats a
+      reasoned choice; Neutral adverse and uncertain effects remain valid observations; Context and possible
+      compulsion are not ignored. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -176,9 +205,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2602_a2_artifact_matches_rubric
-        - c2602_a2_minimum_private_detail
-        - c2602_a2_usable_next_step_present
+        - two_distinct_leisure_conditions_are_actually_tried
+        - a_third_period_repeats_a_reasoned_choice
+        - neutral_adverse_and_uncertain_effects_remain_valid_observations
+        - context_and_possible_compulsion_are_not_ignored
       - measurement_id: c2602_a2_boundary
         kind: boolean
         role: supporting
@@ -195,10 +225,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2602-REST-AND-LEISURE-01-A3
     sequence: 3
-    title: Stress-test and revise the Rest and leisure artifact
-    instructions: 'Test the artifact against one realistic variation, counterexample, or changed constraint.
-      Revise it only where the test exposes a gap, then compare the result with this evidence target:
-      Leisure reliably restores attention, relationship, or vitality.'
+    title: Make room for rest without demanding proof every time
+    instructions: 'Compare the three periods and identify one practical condition that helped, such as
+      fewer optional notifications, a comfortable setting or a willing companion. Choose a sustainable
+      next opportunity and a condition for changing the plan. A Sabbath, vacation or longer recovery period
+      may express the same aim but is not required. If persistent exhaustion or severe distress remains,
+      seek appropriate care rather than concluding that you failed at leisure.
+
+
+      Observation checks: All actual periods inform the comparison; One practical enabling condition is
+      identified; A sustainable next opportunity does not require continual scoring; Persistent concerning
+      symptoms are not reduced to a leisure failure. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Which conditions made leisure restorative or not, and how can you protect that possibility
+      without demanding that every rest period earn its place?
+
+
+      Examples: Supportive: The person found that quiet music restored attention more reliably than an
+      open-ended feed and protected a modest repeat window without a productivity target.
+
+
+      Mixed: The periods were mostly neutral during a difficult week, so the plan retained rest while
+      leaving broader causes of fatigue unresolved.
+
+
+      Contradictory: Rest was withheld until enough work was done or a compulsive activity was defended
+      despite clear harm.
+
+
+      Inconclusive: A leisure ideal was described without trying an actual period or reviewing its fit.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -214,15 +271,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2602_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2602_a3_variation_tested
-        - c2602_a3_revision_traceable
-        - c2602_a3_target_evidence_compared
+        - all_actual_periods_inform_the_comparison
+        - one_practical_enabling_condition_is_identified
+        - a_sustainable_next_opportunity_does_not_require_continual_scoring
+        - persistent_concerning_symptoms_are_not_reduced_to_a_leisure_failure
       - measurement_id: c2602_a3_boundary
         kind: boolean
         role: supporting
@@ -242,16 +300,19 @@ intervention:
     - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
       Rest and leisure; no purchase, subscription, travel, credential, or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Rest and leisure; assistive technology, interpretation, a support person, and a deferred
-      action are valid without penalty.
+    - Use shorter periods, low-sensory recreation, supported rest or accessible media. Caregiving, shift
+      work, disability and scarcity can limit options; do not shame a person for those constraints. Screen-based
+      leisure can be legitimate when freely chosen and fitting, and offline leisure is not automatically
+      superior.
     cultural_context:
     - Adapt the expression of Rest and leisure to direct or indirect communication, collective or individual
       decision structures, local norms, faith or secular commitments, and role obligations while preserving
       consent and dignity.
     resource_variants:
-    - When a real Rest and leisure opportunity is unavailable or inappropriate, use a fictional, historical,
-      public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use shorter periods, low-sensory recreation, supported rest or accessible media. Caregiving, shift
+      work, disability and scarcity can limit options; do not shame a person for those constraints. Screen-based
+      leisure can be legitimate when freely chosen and fitting, and offline leisure is not automatically
+      superior.
   pause_conditions:
   - Pause Rest and leisure when capacity, consent, authority, privacy, access, care duties, uncertainty,
     distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
@@ -281,10 +342,7 @@ evidence_and_scoring:
   - c2602_a3_boundary
   - c2602_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Rest and leisure action exceeded consent, authority, privacy, qualification, role, burden, or
-    safety boundaries.
-  - The evidence contradicted the intended Rest and leisure criterion, depended on coercion or hidden
-    private content, or could not distinguish the protocol from contextual change.
+  - Rest was withheld until enough work was done or a compulsive activity was defended despite clear harm.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Rest and leisure explicitly; support can enable access and never reduces dignity or silently changes
     the typed value.
@@ -294,14 +352,23 @@ evidence_and_scoring:
     are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Rest and leisure rules withhold observations older than 90 days; no unrecorded
     retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Leisure reliably restores attention, relationship, or vitality.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Rest and leisure requires a bounded context, allowlisted observations,
-    provenance, contradiction and adverse handling, and preserved uncertainty; free text and artifact
-    contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Protect a rest window and name what it is for. Observed checks: The intended
+    kind of restoration is named without a required result; A realistic window protects essential responsibilities;
+    The first period has no output or improvement quota; Necessary safety contact and access supports
+    remain available. Action 2: Try the alternative and repeat the better-fitting condition. Observed
+    checks: Two distinct leisure conditions are actually tried; A third period repeats a reasoned choice;
+    Neutral adverse and uncertain effects remain valid observations; Context and possible compulsion are
+    not ignored. Action 3: Make room for rest without demanding proof every time. Observed checks: All
+    actual periods inform the comparison; One practical enabling condition is identified; A sustainable
+    next opportunity does not require continual scoring; Persistent concerning symptoms are not reduced
+    to a leisure failure.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A leisure ideal was described without trying an actual
+    period or reviewing its fit.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Rest and
     leisure contribution under typed evaluation; protocol performance remains distinct and is never counted
     twice.
@@ -310,9 +377,8 @@ evidence_and_scoring:
   - L17
   - L34
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Rest and leisure evidence.
@@ -320,10 +386,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define a rubric for rest and leisure action was attempted or explicitly deferred.
-  - The build one rest and leisure artifact action was attempted or explicitly deferred.
-  - The stress-test and revise the rest and leisure artifact action preserved a limited conclusion, contradiction,
-    or inconclusive result.
+  - 'Action 1: Protect a rest window and name what it is for. Observed checks: The intended kind of restoration
+    is named without a required result; A realistic window protects essential responsibilities; The first
+    period has no output or improvement quota; Necessary safety contact and access supports remain available.'
+  - 'Action 2: Try the alternative and repeat the better-fitting condition. Observed checks: Two distinct
+    leisure conditions are actually tried; A third period repeats a reasoned choice; Neutral adverse and
+    uncertain effects remain valid observations; Context and possible compulsion are not ignored.'
+  - 'Action 3: Make room for rest without demanding proof every time. Observed checks: All actual periods
+    inform the comparison; One practical enabling condition is identified; A sustainable next opportunity
+    does not require continual scoring; Persistent concerning symptoms are not reduced to a leisure failure.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -332,55 +406,305 @@ completion_and_review:
     - c2602_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Rest and leisure only when the initial context remained safe,
-    the evidence criteria were usable, burden was acceptable, and a new context can be named without assuming
-    transfer.
-  transfer_limit: Three bounded actions do not establish Rest and leisure across roles, cultures, relationships,
-    seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which conditions made leisure restorative or not, and how can you protect that
+    possibility without demanding that every rest period earn its place?
+  transfer_limit: Three ordinary leisure periods provide context-bound observations, not a sleep, fatigue,
+    mental-health or addiction treatment and not proof that one activity restores everyone.
   reflection:
-    before: What does Rest and leisure require in this exact context, what remains outside my role or
-      authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Rest and leisure criterion is present, absent, mixed, or unknown, and are
-      consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Leisure reliably restores attention, relationship, or vitality.',
-      what contradiction or missing context matters most, and should this Rest and leisure design be repeated,
-      adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Use a bounded period of rest or recreation
+      deliberately and learn whether it restores attention, relationship or vitality without making rest
+      another achievement test.'
+    during: Which checks have actually been observed? The periods were mostly neutral during a difficult
+      week, so the plan retained rest while leaving broader causes of fatigue unresolved.
+    after: Which conditions made leisure restorative or not, and how can you protect that possibility
+      without demanding that every rest period earn its place?
   review_guidance:
     repeat: Repeat the same bounded Rest and leisure design only when the context and burden remain appropriate.
-    adapt: Change the Rest and leisure medium, scope, support, timing, criteria, or context while preserving
-      provenance and the narrower evidence claim.
+    adapt: Use shorter periods, low-sensory recreation, supported rest or accessible media. Caregiving,
+      shift work, disability and scarcity can limit options; do not shame a person for those constraints.
+      Screen-based leisure can be legitimate when freely chosen and fitting, and offline leisure is not
+      automatically superior.
     stop: Stop Rest and leisure when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
       professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Rest and leisure questions beyond this
-      educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Rest and leisure criteria were observed with provenance and no adverse boundary
-      signal in the selected context.
-    mixed: Some Rest and leisure criteria were observed while burden, support, contextual change, or a
-      contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Rest and leisure criterion, introduced harm
-      or coercion, or showed the design was not workable.
-    inconclusive: The Rest and leisure action was deferred, not observed, not applicable, stale, insufficiently
-      bounded, or too confounded to interpret.
+    supportive: The person found that quiet music restored attention more reliably than an open-ended
+      feed and protected a modest repeat window without a productivity target.
+    mixed: The periods were mostly neutral during a difficult week, so the plan retained rest while leaving
+      broader causes of fatigue unresolved.
+    contradictory: Rest was withheld until enough work was done or a compulsive activity was defended
+      despite clear harm.
+    inconclusive: A leisure ideal was described without trying an actual period or reviewing its fit.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Rest and leisure.
+    context_heading: Find a form of leisure that restores rather than merely fills time
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Rest and
       leisure.
   check_in_labels:
-    c2602_a1_primary: The bounded Rest and leisure criterion for action 1 was observed
+    c2602_a1_primary: 'Observed checks: protect a rest window and name what it is for'
     c2602_a1_boundary: Action 1 stayed inside its stated Rest and leisure boundary
     c2602_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2602_a2_primary: The bounded Rest and leisure criterion for action 2 was observed
+    c2602_a2_primary: 'Observed checks: try the alternative and repeat the better-fitting condition'
     c2602_a2_boundary: Action 2 stayed inside its stated Rest and leisure boundary
     c2602_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2602_a3_primary: The bounded Rest and leisure criterion for action 3 was observed
+    c2602_a3_primary: 'Observed checks: make room for rest without demanding proof every time'
     c2602_a3_boundary: Action 3 stayed inside its stated Rest and leisure boundary
     c2602_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Rest and leisure practice,
-    including support, contradiction, defer, no result, or harm.
+  completion_copy: Which conditions made leisure restorative or not, and how can you protect that possibility
+    without demanding that every rest period earn its place? Completion is not mastery.
+  plain_language_evidence: The person found that quiet music restored attention more reliably than an
+    open-ended feed and protected a modest repeat window without a productivity target.
   display_order: 356
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '26.02'
+  title: 26.02 — Rest and leisure
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Primary source](https://www.montana.edu/writingcenter/writing_resources/feedback.html)
+
+      - [Primary source](https://writingcenter.unc.edu/tips-and-tools/revising-drafts/)
+
+      - [Primary source](https://www.uvm.edu/writingcenters/undergradwriting/group-writing-guide)
+
+      - [Primary source](https://www.open.edu/openlearn/history-the-arts/creative-writing/start-writing-fiction/content-section-3.3/?printable=1)
+
+      - [Primary source](https://www.metmuseum.org/art/collection/search/45434)
+
+      - [Primary source](https://www.metmuseum.org/art/collection/search/436535)
+
+      - [Primary source](https://www.metmuseum.org/essays/woodblock-prints-in-the-ukiyo-e-style)
+
+      - [Primary source](https://research.design.ncsu.edu/allianceforinclusivedesign/history/)
+
+      - [Primary source](https://localcontexts.org/labels/traditional-knowledge-labels/)
+
+      - [Primary source](https://www.wipo.int/en/web/traditional-knowledge/traditional-cultural-expressions/index)
+
+      - [Primary source](https://pmc.ncbi.nlm.nih.gov/articles/PMC2863117/)
+
+      - [Primary source](https://www.nps.gov/sagu/getinvolved/saguaro-flower-power-project.htm)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving your first attempt. These invented events and responses
+      are not actual participant evidence.
+
+
+      ### A neutral third period does not cancel the need for rest
+
+
+      Day six''s twenty-minute music period occurs after a harder day and less sleep than the second occasion.
+      Asha keeps essential contact available and silences the same optional notifications. The music is
+      pleasant enough, but afterward attention and energy feel mostly unchanged.
+
+
+      The complete supplied comparison is: day one, quiet and agitating; day three, music and apparently
+      restorative; day six, music and neutral. Three periods occurred. Their different contexts prevent
+      attributing every difference to the activity. No sleep, fatigue or mental-health diagnosis is established.
+
+
+      Asha chooses another twenty-minute opening the following week with familiar music available, but
+      without a required improved mood or completed album. If music begins to feel like another demand,
+      a different gentle option or a shorter period is allowed. Persistent concerning exhaustion would
+      prompt appropriate care rather than more pressure to perform rest correctly.
+
+
+      The optional-notification boundary is the practical condition retained. The next opening is a plan,
+      not a fourth completed period. Asha does not need to keep collecting leisure scores or withhold
+      rest until enough work is finished.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Try three twenty-minute leisure periods over a week, then allow ten minutes to review what
+      fit. Reduce the duration to actual capacity. The comparison is meant to help make room for rest,
+      not to require every break to produce a measurable return.
+
+
+      ### Protect a possibility, not a promised mood
+
+
+      Rest can mean freedom from demands, a quieter setting, pleasant recreation or time with a willing
+      person. Those possibilities do not restore everyone in the same way. Unstructured time may feel
+      relieving on one occasion and agitating on another. A chosen screen activity may fit better than
+      an offline option; the medium alone does not decide whether an activity is freely chosen or becomes
+      hard to stop.
+
+
+      The inspected abstract and introduction of [Pressman and colleagues, S11](https://pmc.ncbi.nlm.nih.gov/articles/PMC2863117/)
+      discuss enjoyable voluntary leisure and associations with well-being. This is not evidence that
+      a particular twenty-minute activity causes recovery or treats fatigue. The three-period comparison
+      below is an original curriculum exercise, not that study''s questionnaire or a clinical intervention.
+
+
+      Name what currently needs room: attention, social ease, physical rest or simply a period without
+      demands. Do not attach a condition such as “I must feel better afterward.” Rest can remain legitimate
+      even when the result is neutral. Workload, sleep, illness, setting and care responsibilities may
+      matter more than the selected activity, and the short record cannot isolate their effects.
+
+
+      ### Supplied week R9
+
+
+      A fictional participant, Asha, has a demanding work week and limited evening time. Asha chooses
+      two already available options: sitting quietly without a task, and listening to familiar instrumental
+      music for pleasure. The aim is some freedom from demands and a chance for attention to settle. There
+      is no requirement to meditate, finish an album, learn a piece or earn the break by completing extra
+      work.
+
+
+      Three openings are available on days one, three and six. Each is twenty minutes. Asha can silence
+      optional group notifications while keeping the agreed urgent-care contact audible. Necessary access
+      supports and care arrangements remain in place. This supplied circumstance is not a recommendation
+      to switch off every contact or an assumption that all caregivers have equivalent availability.
+
+
+      Asha prepares only an after-period note: what happened, whether the condition seemed restorative,
+      neutral, agitating or unclear, and one relevant circumstance. There is no live monitoring, repeated
+      mood scale or running comparison with an ideal restful person.
+
+
+      ### First period: quiet is not automatically soothing
+
+
+      On day one, Asha sits for twenty minutes without a selected task. Thoughts about unfinished work
+      repeatedly intrude. The period feels agitating, and Asha keeps wanting to check the next day''s
+      schedule. The quiet period actually occurs; it is not relabeled as a failure because it does not
+      produce calm.
+
+
+      The supplied note reads: “Quiet, no task, twenty minutes. Work thoughts kept returning. I had a
+      particularly rushed afternoon. I do not know whether quiet itself was the problem.” That note separates
+      the activity from a possible contextual explanation. It does not diagnose anxiety or prove that
+      unstructured rest should be avoided.
+
+
+      Asha decides to try the second option rather than extending the first period until the desired feeling
+      appears. Leaving a difficult option is not cheating. Persistent distress or exhaustion deserves
+      appropriate care and attention to circumstances, not a conclusion that someone is bad at leisure.
+
+
+      ### Second period: chosen recreation seems to fit
+
+
+      On day three, Asha listens to familiar instrumental music for twenty minutes. The album is not finished
+      when the period ends, and nothing requires continuing. Optional notifications stay quiet while essential
+      contact remains available. Asha reports that attention feels less pulled toward tasks and enjoys
+      a familiar melody.
+
+
+      The actual supplied observation is narrower than “music restores me.” The music occurred on a less
+      rushed evening, so the setting differs from day one. The outcome supports trying the condition again;
+      it does not establish causation, superiority for everyone or a health effect. No intensity score
+      is needed to say that this occasion seemed more suitable.
+
+
+      For the third period, Asha chooses the same familiar music because it felt less demanding than open-ended
+      quiet. The reason concerns actual fit, not the idea that musical leisure is more cultured or productive.
+      A new expensive subscription or equipment purchase is unnecessary.
+
+
+      ### Repeat once, then interpret all three occasions
+
+
+      Before opening the [later packet](?resource=file-later-packet-md), predict two possible outcomes
+      for day six. A repeat might feel restorative again, or a different workload and sleep context might
+      leave it neutral. Both would be usable observations. The purpose of repeating is to resist deciding
+      from one favorable occasion, not to collect enough attempts to force a positive result.
+
+
+      Compare the three periods together. “The first was agitating, the second seemed helpful and the
+      third was neutral” is a coherent account. It can still support protecting a modest leisure opportunity
+      while leaving the broader causes of fatigue unresolved. A period that does not noticeably restore
+      attention may nevertheless be freely chosen time that does not have to justify its existence.
+
+
+      A practical enabling condition can be more actionable than a claim about the perfect activity. In
+      this case, optional notifications stayed quiet without removing essential contact. A comfortable
+      setting, a predictable opening or a willing companion could matter in another case. State the condition
+      that was actually tried, and keep untested explanations tentative.
+
+
+      ### Make a sustainable next opportunity
+
+
+      1. Choose two safe accessible options already available: a quiet period without a task and a gentle
+      chosen recreation. Name the kind of restoration or freedom you hope to make possible without demanding
+      an outcome.
+
+      2. Protect a realistic first window while preserving essential contact, care and supports. Use it,
+      then make a brief after-period note.
+
+      3. Try the alternative on another occasion. Repeat the better-fitting condition once, retaining
+      relevant differences in context.
+
+      4. Compare all three actual periods, including agitation, neutrality and uncertainty. Identify one
+      practical condition that helped or would need changing.
+
+      5. Choose a modest next opportunity and a reason to adapt, pause or seek appropriate support. Stop
+      scoring or justifying every subsequent rest period.
+
+
+      For support, use shorter periods or familiar low-sensory media and keep only one brief note afterward.
+      For a harder reflection, distinguish the activity''s apparent fit from the effect of a less pressured
+      day, without turning the next break into a controlled experiment. Supported rest, shift-work timing
+      and caregiving constraints are legitimate contexts; scarcity is not a personal failure.
+
+
+      A Sabbath, vacation or longer recovery period may express the same purpose through a person''s own
+      tradition and circumstances. None is required, and no particular worldview, expense or leisure style
+      is prescribed. Stop or change an activity that becomes compulsive, costly or interferes with necessary
+      recovery. The result is a context-bound choice about rest, not a sleep treatment, productivity strategy
+      or verdict on character.
+
+
+      ### Use the result at its proper scale
+
+
+      Capacity, access and context still govern whether to attempt this practice. Fiction and no attempt
+      are legitimate. Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. Quiet time feels agitating and music feels better on a less rushed evening. What conclusion is
+      warranted?
+
+      2. The third period is neutral. Should rest now be withheld until it demonstrably improves productivity?
+
+      3. A plan turns off every contact for a caregiver and requires finishing an album. What should change?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. These two occasions had different apparent fit and different contexts. Music is a reasonable
+      condition to repeat, but the record does not isolate its causal effect or show that quiet rest is
+      bad for everyone.
+
+      2. No. Neutrality is a valid result and rest need not earn its place through output. Review fit
+      and circumstances, preserve reasonable opportunities, and address persistent concerning exhaustion
+      through appropriate care rather than self-blame.
+
+      3. Preserve necessary care and urgent contact, choose a feasible window, and remove the completion
+      quota. Optional interruptions may be limited without making leisure displace responsibilities or
+      become another task.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

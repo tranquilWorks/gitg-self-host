@@ -49,8 +49,8 @@ A conditional recommendation can favor the original only if its funding and acce
 
 For support, use ten counters for each ten-percent revenue block and separate counters for program and administration. For a harder pass, add a targeted offset with its own processing cost and identify who could miss it. Actual policy analysis needs current official fiscal information, lawful authority, qualified review and affected-community input. This model supplies none of those approvals. A well-reasoned comparison should survive a changed base and a legitimate competing equity concern without becoming an ideological loyalty test.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise or policy role is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

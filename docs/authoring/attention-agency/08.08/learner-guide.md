@@ -20,10 +20,8 @@ For support, use spoken retrieval, large type or a single accessible card. For a
 
 This exercise concerns optional personal learning. It does not authorize reducing a required safety procedure, prescribed treatment or duty owed to another person. A later review can ask whether the chosen minimum is still useful and feasible. Two sessions and one pause do not establish long-term consistency or mastery of the mappings.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

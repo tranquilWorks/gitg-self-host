@@ -52,8 +52,8 @@ The provisional decision is **pause**. Revise the tool specification to preserve
 
 For support, compare time and place in a two-column sheet before mapping the wider effects. For a harder pass, double review time while keeping draft speed constant and explain how the decision changes. A no-tool choice is legitimate. Actual progress would require an artifact plus independent observations of a permitted trial, including whose work and access changed. A hypothetical mitigation list alone does not show responsible deployment.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise or policy role is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

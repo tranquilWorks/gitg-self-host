@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1904-FERTILITY-AND-REPRODUCTIVE-HEALTH-LITERACY-01
 slug: c1904-fertility-and-reproductive-health-literacy-practice
-name: Bounded Fertility and reproductive health literacy Practice
+name: Prepare an informed reproductive-health conversation without guessing treatment
 parent_competency_id: '19.04'
 domain_id: '19'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 19.04
-      (Fertility and reproductive health literacy); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 19.04; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Fertility and reproductive health literacy through a qualified-support preparation
-    bounded by the canonical scope: Understand fertility, contraception, pregnancy, prenatal care, infertility,
-    reproductive aging, and when qualified care is needed.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can make or support
-    an informed decision using medically reliable information and explicit values. The protocol creates
-    a small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Use medically reliable information and explicit personal values to identify reproductive questions,
+    uncertainty and the appropriate qualified care route.
+  why_recommended: Use medically reliable information and explicit personal values to identify reproductive
+    questions, uncertainty and the appropriate qualified care route.
   claims:
-  - statement: Using the canonical scope and evidence target for Fertility and reproductive health literacy
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Use medically reliable information and explicit personal values to identify reproductive
+      questions, uncertainty and the appropriate qualified care route.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Fertility and reproductive health literacy practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Fertility and reproductive health literacy as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Fertility and reproductive
-    health literacy context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Fertility
-    and reproductive health literacy; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Use publicly available cases, translated clinical material or a supported
+    consultation instead of disclosing personal history. Follow local law and professional guidance. A
+    current safety concern, coercion, pregnancy complication or urgent symptom requires appropriate immediate
+    support rather than completing the study sequence.
+  opportunity_considerations: 'Use three supplied cases: an adult wants to avoid pregnancy; another is
+    considering pregnancy and prenatal care; another has questions about difficulty conceiving or reproductive
+    aging. Use current public information from a health authority or relevant clinical professional body,
+    noting country and review date. No private sexual history belongs in application evidence.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Fertility and reproductive health
-    literacy.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use three supplied cases: an adult wants to avoid pregnancy; another is considering pregnancy and
+    prenatal care; another has questions about difficulty conceiving or reproductive aging. Use current
+    public information from a health authority or relevant clinical professional body, noting country
+    and review date. No private sexual history belongs in application evidence.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Fertility and reproductive health
-    literacy instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use publicly available cases, translated clinical material or a supported consultation instead of
+    disclosing personal history. Follow local law and professional guidance. A current safety concern,
+    coercion, pregnancy complication or urgent symptom requires appropriate immediate support rather than
+    completing the study sequence.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +84,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Fertility and reproductive health literacy actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Fertility and reproductive health literacy; copy the canonical scope and
-    evidence target into a private working note; define the action boundary, valid supports, privacy limit,
-    and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Fertility
-    and reproductive health literacy. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Fertility and reproductive health literacy
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use three supplied cases: an adult wants to avoid pregnancy; another is considering pregnancy
+    and prenatal care; another has questions about difficulty conceiving or reproductive aging. Use current
+    public information from a health authority or relevant clinical professional body, noting country
+    and review date. No private sexual history belongs in application evidence. Goal: Use medically reliable
+    information and explicit personal values to identify reproductive questions, uncertainty and the appropriate
+    qualified care route. Scope: This is education and consultation preparation, not a fertility prediction,
+    contraceptive prescription, pregnancy diagnosis or obligation to pursue parenthood. Time and effort:
+    Two 20-minute source-and-question sessions, followed by a routine qualified inquiry when a real question
+    is current. Adaptation: Use publicly available cases, translated clinical material or a supported
+    consultation instead of disclosing personal history. Follow local law and professional guidance. A
+    current safety concern, coercion, pregnancy complication or urgent symptom requires appropriate immediate
+    support rather than completing the study sequence. Keep personal working notes outside the check-in;
+    record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use publicly available cases, translated clinical material or a supported consultation
+    instead of disclosing personal history. Follow local law and professional guidance. A current safety
+    concern, coercion, pregnancy complication or urgent symptom requires appropriate immediate support
+    rather than completing the study sequence.
+  expected_burden: Two 20-minute source-and-question sessions, followed by a routine qualified inquiry
+    when a real question is current.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Fertility and reproductive health literacy protocol to rank worth, coerce participation,
@@ -104,20 +115,26 @@ intervention:
   - Treating a completed Fertility and reproductive health literacy action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Fertility and reproductive health literacy situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local
-    guidance.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use publicly
+    available cases, translated clinical material or a supported consultation instead of disclosing personal
+    history. Follow local law and professional guidance. A current safety concern, coercion, pregnancy
+    complication or urgent symptom requires appropriate immediate support rather than completing the study
+    sequence.
   actions:
   - stable_id: PRACTICE-COMP-1904-FERTILITY-AND-REPRODUCTIVE-HEALTH-LITERACY-01-A1
     sequence: 1
-    title: Bound the qualified question for Fertility and reproductive health literacy
-    instructions: 'Turn Fertility and reproductive health literacy into one educational or planning question
-      and identify the qualification and jurisdiction needed to answer it. Use the canonical scope to
-      separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Understand fertility, contraception, pregnancy, prenatal
-      care, infertility, reproductive aging, and when qualified care is needed.'
+    title: Separate the decision, values and medical unknowns
+    instructions: 'For each case, identify the desired outcome, whose body and decision are involved,
+      and one value or practical constraint such as reversibility, privacy, access or timing. Write what
+      remains medically unknown rather than estimating fertility from appearance, age alone or a calendar
+      guess. Distinguish contraception, infection prevention, pregnancy care, infertility evaluation and
+      age-related questions; an answer about one does not settle the others.
+
+
+      Observation checks: All three cases have an explicit desired outcome; Bodily autonomy and relevant
+      values are identified; Medical unknowns are left unresolved rather than guessed; Five different
+      reproductive topics are not conflated. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -139,9 +156,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1904_a1_question_bounded
-        - c1904_a1_qualification_named
-        - c1904_a1_professional_boundary_explicit
+        - all_three_cases_have_an_explicit_desired_outcome
+        - bodily_autonomy_and_relevant_values_are_identified
+        - medical_unknowns_are_left_unresolved_rather_than_guessed
+        - five_different_reproductive_topics_are_not_conflated
       - measurement_id: c1904_a1_boundary
         kind: boolean
         role: supporting
@@ -158,12 +176,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1904-FERTILITY-AND-REPRODUCTIVE-HEALTH-LITERACY-01-A2
     sequence: 2
-    title: Prepare minimum information for Fertility and reproductive health literacy
-    instructions: Create a privacy-minimized Fertility and reproductive health literacy consultation note
-      containing only the question, relevant category-level facts, current constraints, and desired decision.
-      Omit diagnoses, allegations, account numbers, credentials, protected work information, intimate
-      detail, and third-party identity unless a qualified professional lawfully requires it through an
-      appropriate channel.
+    title: Build a small source-to-question record
+    instructions: 'Inspect one current official contraception source and one qualified fertility or pregnancy-care
+      source. For each, write the exact limited question it answers, its intended population and what
+      requires individualized advice. Prepare questions such as Which options fit my health and preferences,
+      What preparation or prenatal care should I discuss, and When should my situation receive evaluation.
+      Do not turn a population guideline into a personal deadline or change a method based only on this
+      worksheet.
+
+
+      Observation checks: Sources have an identifiable medical authority and date; Each source is tied
+      to a limited question; Population guidance is separated from personal suitability; No treatment
+      method or timing is prescribed by the exercise. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -185,9 +210,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1904_a2_minimum_information_only
-        - c1904_a2_sensitive_detail_excluded
-        - c1904_a2_decision_need_named
+        - sources_have_an_identifiable_medical_authority_and_date
+        - each_source_is_tied_to_a_limited_question
+        - population_guidance_is_separated_from_personal_suitability
+        - no_treatment_method_or_timing_is_prescribed_by_the_exercise
       - measurement_id: c1904_a2_boundary
         kind: boolean
         role: supporting
@@ -204,12 +230,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1904-FERTILITY-AND-REPRODUCTIVE-HEALTH-LITERACY-01-A3
     sequence: 3
-    title: Record a bounded Fertility and reproductive health literacy disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Can make or support an informed decision using medically reliable information
-      and explicit values.'
+    title: Take the appropriate information-gathering step
+    instructions: 'For a real current question, contact an appropriate licensed service through its verified
+      channel to ask about appointment type, access, confidentiality and information to bring. Use a qualified
+      interpreter or accessible format when needed. For the fictional cases, rehearse a concise question
+      and mark the referral uncontacted. Record the next step and remaining uncertainty, including the
+      legitimate choice not to pursue a reproductive pathway; urgent symptoms are not held for a routine
+      educational review.
+
+
+      Observation checks: A real inquiry or clearly labeled rehearsal occurs; Access confidentiality and
+      appropriate service type are checked; Unanswered questions have a qualified next route; No reproductive
+      role or outcome is treated as compulsory. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Which question became clearer, which remains individual and medical, and how will
+      the next decision preserve informed voluntary choice?
+
+
+      Examples: Supportive: The participant distinguished contraception from infection protection and
+      prepared an individualized consultation without choosing a method from a generic rule.
+
+
+      Mixed: The sources were reliable, but one age-related statistic was initially treated as a personal
+      prediction and corrected.
+
+
+      Contradictory: The worksheet became a prescription, a fertility guarantee or pressure for a partner
+      to accept a reproductive choice.
+
+
+      Inconclusive: Several websites were collected without evaluating scope or forming a qualified-care
+      question.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -225,14 +278,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1904_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1904_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - a_real_inquiry_or_clearly_labeled_rehearsal_occurs
+        - access_confidentiality_and_appropriate_service_type_are_checked
+        - unanswered_questions_have_a_qualified_next_route
+        - no_reproductive_role_or_outcome_is_treated_as_compulsory
       - measurement_id: c1904_a3_boundary
         kind: boolean
         role: supporting
@@ -253,17 +308,19 @@ intervention:
       Fertility and reproductive health literacy; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Fertility and reproductive health literacy; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use publicly available cases, translated clinical material or a supported consultation instead of
+      disclosing personal history. Follow local law and professional guidance. A current safety concern,
+      coercion, pregnancy complication or urgent symptom requires appropriate immediate support rather
+      than completing the study sequence.
     cultural_context:
     - Adapt the expression of Fertility and reproductive health literacy to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Fertility and reproductive health literacy opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use publicly available cases, translated clinical material or a supported consultation instead of
+      disclosing personal history. Follow local law and professional guidance. A current safety concern,
+      coercion, pregnancy complication or urgent symptom requires appropriate immediate support rather
+      than completing the study sequence.
   pause_conditions:
   - Pause Fertility and reproductive health literacy when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -295,10 +352,8 @@ evidence_and_scoring:
   - c1904_a3_boundary
   - c1904_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Fertility and reproductive health literacy action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Fertility and reproductive health literacy criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - The worksheet became a prescription, a fertility guarantee or pressure for a partner to accept a reproductive
+    choice.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Fertility and reproductive health literacy explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -309,14 +364,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Fertility and reproductive health literacy rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can make or support an informed decision using medically reliable information and explicit
-    values.—not completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Fertility and reproductive health literacy requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate the decision, values and medical unknowns. Observed checks:
+    All three cases have an explicit desired outcome; Bodily autonomy and relevant values are identified;
+    Medical unknowns are left unresolved rather than guessed; Five different reproductive topics are not
+    conflated. Action 2: Build a small source-to-question record. Observed checks: Sources have an identifiable
+    medical authority and date; Each source is tied to a limited question; Population guidance is separated
+    from personal suitability; No treatment method or timing is prescribed by the exercise. Action 3:
+    Take the appropriate information-gathering step. Observed checks: A real inquiry or clearly labeled
+    rehearsal occurs; Access confidentiality and appropriate service type are checked; Unanswered questions
+    have a qualified next route; No reproductive role or outcome is treated as compulsory.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Several websites were collected without evaluating
+    scope or forming a qualified-care question.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Fertility
     and reproductive health literacy contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -325,9 +388,8 @@ evidence_and_scoring:
   - L13
   - L17
   - L28
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Fertility and reproductive health literacy evidence.
@@ -335,12 +397,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for fertility and reproductive health literacy action was attempted
-    or explicitly deferred.
-  - The prepare minimum information for fertility and reproductive health literacy action was attempted
-    or explicitly deferred.
-  - The record a bounded fertility and reproductive health literacy disposition action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Separate the decision, values and medical unknowns. Observed checks: All three cases have
+    an explicit desired outcome; Bodily autonomy and relevant values are identified; Medical unknowns
+    are left unresolved rather than guessed; Five different reproductive topics are not conflated.'
+  - 'Action 2: Build a small source-to-question record. Observed checks: Sources have an identifiable
+    medical authority and date; Each source is tied to a limited question; Population guidance is separated
+    from personal suitability; No treatment method or timing is prescribed by the exercise.'
+  - 'Action 3: Take the appropriate information-gathering step. Observed checks: A real inquiry or clearly
+    labeled rehearsal occurs; Access confidentiality and appropriate service type are checked; Unanswered
+    questions have a qualified next route; No reproductive role or outcome is treated as compulsory.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -349,62 +417,244 @@ completion_and_review:
     - c1904_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Fertility and reproductive health literacy only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Fertility and reproductive health literacy across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which question became clearer, which remains individual and medical, and how will
+    the next decision preserve informed voluntary choice?
+  transfer_limit: This is education and consultation preparation, not a fertility prediction, contraceptive
+    prescription, pregnancy diagnosis or obligation to pursue parenthood.
   reflection:
-    before: What does Fertility and reproductive health literacy require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Fertility and reproductive health literacy criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can make or support an informed decision using medically reliable
-      information and explicit values.', what contradiction or missing context matters most, and should
-      this Fertility and reproductive health literacy design be repeated, adapted, deferred, stopped,
-      or referred?
+    before: 'What would count as doing this honestly? Goal: Use medically reliable information and explicit
+      personal values to identify reproductive questions, uncertainty and the appropriate qualified care
+      route.'
+    during: Which checks have actually been observed? The sources were reliable, but one age-related statistic
+      was initially treated as a personal prediction and corrected.
+    after: Which question became clearer, which remains individual and medical, and how will the next
+      decision preserve informed voluntary choice?
   review_guidance:
     repeat: Repeat the same bounded Fertility and reproductive health literacy design only when the context
       and burden remain appropriate.
-    adapt: Change the Fertility and reproductive health literacy medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use publicly available cases, translated clinical material or a supported consultation instead
+      of disclosing personal history. Follow local law and professional guidance. A current safety concern,
+      coercion, pregnancy complication or urgent symptom requires appropriate immediate support rather
+      than completing the study sequence.
     stop: Stop Fertility and reproductive health literacy when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Fertility and reproductive health literacy
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Fertility and reproductive health literacy criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Fertility and reproductive health literacy criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Fertility and reproductive health literacy
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Fertility and reproductive health literacy action was deferred, not observed, not
-      applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The participant distinguished contraception from infection protection and prepared an
+      individualized consultation without choosing a method from a generic rule.
+    mixed: The sources were reliable, but one age-related statistic was initially treated as a personal
+      prediction and corrected.
+    contradictory: The worksheet became a prescription, a fertility guarantee or pressure for a partner
+      to accept a reproductive choice.
+    inconclusive: Several websites were collected without evaluating scope or forming a qualified-care
+      question.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Fertility and reproductive health literacy.
+    context_heading: Prepare an informed reproductive-health conversation without guessing treatment
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Fertility
       and reproductive health literacy.
   check_in_labels:
-    c1904_a1_primary: The bounded Fertility and reproductive health literacy criterion for action 1 was
-      observed
+    c1904_a1_primary: 'Observed checks: separate the decision, values and medical unknowns'
     c1904_a1_boundary: Action 1 stayed inside its stated Fertility and reproductive health literacy boundary
     c1904_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1904_a2_primary: The bounded Fertility and reproductive health literacy criterion for action 2 was
-      observed
+    c1904_a2_primary: 'Observed checks: build a small source-to-question record'
     c1904_a2_boundary: Action 2 stayed inside its stated Fertility and reproductive health literacy boundary
     c1904_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1904_a3_primary: The bounded Fertility and reproductive health literacy criterion for action 3 was
-      observed
+    c1904_a3_primary: 'Observed checks: take the appropriate information-gathering step'
     c1904_a3_boundary: Action 3 stayed inside its stated Fertility and reproductive health literacy boundary
     c1904_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Fertility and reproductive
-    health literacy practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which question became clearer, which remains individual and medical, and how will the
+    next decision preserve informed voluntary choice? Completion is not mastery.
+  plain_language_evidence: The participant distinguished contraception from infection protection and prepared
+    an individualized consultation without choosing a method from a generic rule.
   display_order: 251
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '19.04'
+  title: 19.04 — Fertility and reproductive health literacy
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Contraception and Birth Control Methods](https://www.cdc.gov/contraception/about/index.html)
+
+      - [Infertility: Frequently Asked Questions](https://www.cdc.gov/reproductive-health/infertility-faq/index.html)
+
+      - [Antenatal (pregnancy) care and appointments](https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/)
+
+      - [Urgent Maternal Warning Signs and Symptoms](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
+
+      - [Miscarriage](https://www.nhs.uk/conditions/miscarriage/)
+
+      - [Adoption](https://www.childwelfare.gov/topics/permanency/adoption/)
+
+      - [Child Abuse Education Resources](https://www.azed.gov/wellness/child-abuse-education-resources)
+
+      - [Arizona Revised Statutes §13-3620](https://www.azleg.gov/ars/13/03620.htm)
+
+      - [What to do if a child reveals abuse](https://www.nspcc.org.uk/keeping-children-safe/reporting-abuse/what-to-do-child-reveals-abuse/)
+
+      - [Calling 911](https://www.911.gov/calling-911/)
+
+      - [Effective Discipline to Raise Healthy Children](https://publications.aap.org/pediatrics/article/142/6/e20183112/37452/Effective-Discipline-to-Raise-Healthy-Children)
+
+      - [Inspected correction](https://publications.aap.org/pediatrics/article/143/2/e20183609/37315/Sege-RD-Siegel-BS-Council-on-Child-Abuse-and)
+
+      - [Supported Decision Making Program](https://acl.gov/programs/consumer-control/supported-decision-making-program)
+
+      - [Lasting power of attorney for people with dementia](https://www.alzheimers.org.uk/get-support/legal-financial/lasting-power-attorney)
+
+      - [The Cognitive Dimension of Household Labor](https://journals.sagepub.com/doi/abs/10.1177/0003122419859007)
+
+      - [Communicating with your child’s other parent during separation](https://www.cafcass.gov.uk/parent-carer-or-family-member/my-family-involved-private-law-proceedings/resources-help-you-make-arrangements-are-your-childs-best-interests/communicating-your-childs-other-parent-during-separation)
+
+      - [Convention for the Safeguarding of the Intangible Cultural Heritage](https://www.unesco.org/en/legal-affairs/convention-safeguarding-intangible-cultural-heritage)
+
+      - [Cultural Documentation Guidelines](https://wwws.loc.gov/folklife/edresources/ed-trainingdocuments.html)
+
+      - [Healthy Habits: Caring for Yourself When Caring for Another](https://www.cdc.gov/caregiving/caring-for-yourself/index.html)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence.
+
+
+      Mara rehearses the inquiry but does not contact a service. The correct status remains uncontacted.
+      Elise sends an access inquiry and receives confirmation that a supported appointment format can
+      be discussed when booking. No appointment is booked and no pregnancy is established. Transport remains
+      only an offer from the partner.
+
+
+      Omar and Ren contact a licensed clinic. The clinic asks them to arrange an individual consultation
+      and explains what information to bring privately. They book 22 October. No clinician has assessed
+      them and no evaluation timing or fertility prognosis is supplied. The friend''s birthday rule is
+      withdrawn from their decision card, rather than replaced with another universal cutoff.
+
+
+      Compare the three statuses: rehearsal, administrative reply and booked consultation. None provides
+      a method recommendation, pregnancy diagnosis or fertility result. Write one useful next question
+      for each and retain the right to decline the offered pathway. Do not infer clinical suitability
+      from a service''s willingness to offer an appointment, or count Elise''s offered transport as a
+      completed support task.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: "Turn a reproductive question into a bounded, medically informed consultation question. Use\
+      \ two twenty-minute sessions and, only for a real current need, an appropriate qualified inquiry.\
+      \ This is literacy and decision preparation, not a fertility test or an instruction to pursue pregnancy.\
+      \ Use all three fictional cases without supplying personal sexual or medical history. A person can\
+      \ decide not to pursue a reproductive path.\n\n### Learn what kind of question you have\n\nFertility\
+      \ concerns the possibility of reproduction; an individual's situation is not readable from appearance\
+      \ or a calendar estimate. Contraception concerns preventing pregnancy. Infection prevention is a\
+      \ separate question: an answer about pregnancy prevention does not automatically answer it. Pregnancy\
+      \ care concerns an existing pregnancy and appropriate professional support; prenatal or antenatal\
+      \ care is the care provided before birth. Preparing for a possible pregnancy is different from establishing\
+      \ that someone is pregnant.\n\nInfertility and reproductive aging require attention to individual\
+      \ circumstances. Population patterns can identify useful questions but cannot supply a personal\
+      \ prognosis. Nor should a public-health definition be converted into a rule that someone must wait\
+      \ before asking for care. Information about one reproductive partner does not settle the other person's\
+      \ contribution or needs. Evaluation, diagnosis and treatment selection remain with qualified care,\
+      \ informed by the person's choices.\n\nA decision includes values as well as facts. Privacy, reversibility,\
+      \ cost, access, timing, religious commitments and willingness to undergo procedures may matter differently\
+      \ to different people. Stating a value does not make a medical claim true; a medical fact does not\
+      \ determine which acceptable option someone must choose. Separate desired outcome, relevant value,\
+      \ medical unknown and next source of information.\n\nReliable sourcing requires a named authority,\
+      \ an identifiable topic and a scope. A national health page can explain categories while leaving\
+      \ personal suitability unanswered. Check its review date and intended health system. A commercial\
+      \ testimonial may describe one experience without establishing comparative effectiveness or suitability.\
+      \ A list of bookmarks is not an evaluated source record.\n\n### Worked example\n\nAn adult wants\
+      \ to avoid pregnancy and values a reversible option. A general method overview shows that choices\
+      \ have different features. It does not establish which method fits that person's medical history\
+      \ or whether infection prevention is addressed. A good question is “Which options fit my health,\
+      \ preferences and access, and what separate infection-prevention questions should I discuss?” Choosing\
+      \ a method from the first appealing paragraph would skip the individual decision.\n\n### Three supplied\
+      \ fictional cases\n\n**A:** Mara wants to avoid pregnancy for now, values privacy and reversibility,\
+      \ and has not discussed personal medical suitability with a clinician. No method, health condition\
+      \ or sexual history is supplied.\n\n**B:** Elise is considering pregnancy and wants to know how\
+      \ pre-pregnancy advice differs from care once pregnant. Elise needs an accessible appointment format\
+      \ and has not reported a pregnancy or urgent symptoms. Elise's partner offers to help arrange transport,\
+      \ not to choose care.\n\n**C:** Omar and Ren have questions about difficulty conceiving and reproductive\
+      \ aging. No ages, duration, test results or diagnosis are supplied. They want to understand when\
+      \ their circumstances warrant evaluation and what information a licensed service needs. A friend\
+      \ claims a single birthday predicts the outcome; the case provides no support for that claim.\n\n\
+      These cases deliberately leave medical variables unknown. The task is to form useful questions and\
+      \ preserve choice, not fill the gaps with imagined clinical facts.\n\n### Make a source-to-question\
+      \ record\n\n1. For each case write the desired outcome, whose decision and body are involved, one\
+      \ stated value or access need, and the unknowns. Mark pregnancy status unknown where appropriate.\
+      \ Output: three decision cards that do not turn Mara's avoidance into future parenthood or Elise's\
+      \ consideration into a pregnancy.\n2. Read the general-choice portion of [CDC contraception guidance,\
+      \ S01](https://www.cdc.gov/contraception/about/index.html), the definition and individual-care caveat\
+      \ in [CDC infertility guidance, S02](https://www.cdc.gov/reproductive-health/infertility-faq/index.html),\
+      \ and the introductory account of [NHS antenatal care, S03](https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/).\
+      \ Record authority, country, date inspected, one question each helps answer and one it cannot answer.\
+      \ Do not import an NHS appointment schedule into another system. Output: three narrow source uses,\
+      \ in your own words.\n3. Draft one consultation question per case. Ask about suitable options for\
+      \ A, preparation versus prenatal-care access for B, and individualized evaluation for C. Include\
+      \ confidentiality, appointment type, accessibility and what information to bring. Output: concise\
+      \ questions, with no medication change, diagnosis, personal deadline or fertility guarantee.\n4.\
+      \ In fiction, rehearse an inquiry and label it uncontacted. In an authorized real situation, use\
+      \ the verified channel of an appropriate licensed service and record whether an inquiry actually\
+      \ occurred. Keep private details in the proper care channel. Output: actual status rather than a\
+      \ claim that reading resolved a clinical decision.\n5. Save your cards before the [later packet](?resource=file-later-packet-md).\
+      \ Identify which questions received administrative information and which still require individualized\
+      \ advice. Output: a supported next step with uncertainty intact.\n\n### Support and transfer\n\n\
+      For support, begin with A, use a translated official page or have a trusted chosen supporter help\
+      \ formulate questions. A qualified interpreter may be needed for care; an app translation alone\
+      \ should not settle an important clinical misunderstanding. For a harder fictional attempt, add\
+      \ a confident statistical claim and explain why its population, outcome and limitations matter before\
+      \ applying it to an individual.\n\nFor real transfer, use a current question that belongs to you\
+      \ or one you are legitimately supporting with permission. Ask a professional what is appropriate\
+      \ rather than treating this guide as a referral-timing algorithm. Current concerning symptoms, coercion\
+      \ or urgent pregnancy concerns need the appropriate prompt help; they are not held for the second\
+      \ study session. An informed choice can include declining a procedure or pathway, while acknowledging\
+      \ what is still medically unknown.\n\n### Source limits\n\nS01 supports general informed choice\
+      \ and separate prevention questions; S02 explicitly distinguishes public-health definitions from\
+      \ individual care. S03 describes an NHS care system. No treatment, dosage, screening schedule or\
+      \ personal prediction is copied into this exercise. The three cases and decision-card method are\
+      \ original teaching design, not a validated clinical instrument.\n\n### Use the result at its proper\
+      \ scale\n\nMedical, reproductive, child-safety, guardianship, and elder-care decisions require qualified\
+      \ local guidance.\n\n No reproductive, parenting or care role is compulsory. Fiction does not establish\
+      \ actual participant evidence. Keep identifying, clinical and private family information outside\
+      \ app records.\n\nAttempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers)."
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A public-health definition uses a duration threshold. May a learner treat it as a personal instruction
+      to delay asking about symptoms or reproductive concerns?
+
+      2. A pregnancy-prevention overview is medically reliable. Does it alone establish a suitable method
+      and infection protection for a particular person?
+
+      3. A clinic offers a fertility consultation. What has that established about prognosis, and what
+      decision still belongs to the person?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Definitions and population guidance have purposes and limits; current symptoms and individual
+      circumstances may need prompt qualified attention. Ask about the relevant care route instead of
+      manufacturing a personal waiting rule.
+
+      2. No. Reliability does not make a general page an individual assessment. Separate pregnancy prevention,
+      infection prevention, health suitability, preferences and access. Use the overview to prepare questions,
+      not prescribe or change a method.
+
+      3. It establishes an offered consultation, not a diagnosis, prognosis or guaranteed outcome. The
+      person retains informed choice about seeking it and any later options. A booking or attendance does
+      not supply unreported clinical findings.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

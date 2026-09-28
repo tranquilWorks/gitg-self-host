@@ -47,8 +47,8 @@ A paper timeline, text-to-speech, quiet pace and visible roles keep the task abo
 
 [CDC CERC introduction, S07](../SOURCES.md#S07), supports timely, accurate, credible, respectful communication that acknowledges people and offers useful action. Only the introductory six-principle section is adapted. It does not qualify the learner, validate a crisis plan or establish effectiveness of this tabletop.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability and normative status both remain role_conditional. Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records outside app evidence. Human dignity is never scored.
+Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

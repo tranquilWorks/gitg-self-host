@@ -1,5 +1,9 @@
 # 27.07 — Transition preparedness
 
+## Check the zero-margin handoff
+
+The supplied 07:50 pickup plus ten-minute journey reaches 08:00 with zero margin. Arithmetic fit is not a dependable real-world plan: verify pickup timing, travel conditions and the receiving person’s availability, then agree a buffer or an accepted fallback. Do not treat an unconfirmed fallback as coverage or take another person’s time for granted.
+
 ## Prepare the dependencies, not a prediction of how you will feel
 
 A foreseeable transition changes more than the headline event. A new work schedule can change transport, care coverage, meals, shared routines and the moments when people can talk. Practical readiness and emotional readiness can differ: a booked journey does not settle sadness about leaving a familiar group.
@@ -35,8 +39,8 @@ Use a visual sequence, interpreter, audio plan or chosen supporter. A fully fict
 
 Later transfer requires actual service and care arrangements, suitable access and the affected person's preferences. In transitions involving health, law, finances, safeguarding or serious loss, use the appropriate professional or responsible process. A quiet support conversation or closing ritual is optional and must fit those involved. This preparation cannot certify competence in parenting, bereavement, recovery or independent living; it can reveal what must be checked before a change is lived.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains cross_context_core and normative status cross_tradition_core_or_broadly_recurrent. Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
+Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. These source files change no runtime action, evidence field, score or completion rule. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

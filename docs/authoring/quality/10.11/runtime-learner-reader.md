@@ -35,7 +35,11 @@ Explain one insight gained by connecting the two fields and one tension that rem
 - Uninvestigated lenses are honestly identified
 - The next step names an appropriate source or expertise
 
+## Adaptation
+
 Use a spoken mind map, cards or the fictional records. A library or accessible introductory resource can replace internet access. Do not photograph or profile public-space users without appropriate consent.
+
+## Review
 
 Which connection improved the question, and where would confidence now exceed the depth of your actual study?
 
@@ -73,3 +77,4 @@ If the two-lens synthesis is supported and limited, choose one missing evidence 
 
 Open the prompt in the practice guide: Map one evidence-shaped question for every lens
 Open the prompt in the practice guide: Connect display technology and social access
+Open the prompt in the practice guide: Connect a new history and access packet

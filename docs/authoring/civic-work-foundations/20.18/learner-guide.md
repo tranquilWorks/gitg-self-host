@@ -46,9 +46,10 @@ Transfer should remain educational unless qualified, locally legitimate processe
 
 [ICTJ's first-party explanation, S06](../SOURCES.md#S06), distinguishes multiple judicial and nonjudicial responses and emphasizes affected people's rights, dignity and participation rather than a universal formula. This limited conceptual use does not validate Cedar's proposals or establish a particular legal remedy. The fictional budget, clause and later review are original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core. Civic learning does not require political belief, affiliation, public disclosure or participation. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Civic learning does not require political belief, affiliation, public disclosure or participation. Fiction and no attempt are legitimate. Keep private or protected records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

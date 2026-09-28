@@ -9,6 +9,8 @@ from pathlib import Path
 
 import yaml
 
+from tests.m6k_historical_inputs import historical_input_path
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/authoring/respectful-connection"
 COHORT = json.loads((SOURCE / "cohort.json").read_text())
@@ -56,7 +58,10 @@ class IntegrityTests(unittest.TestCase):
         self.assertEqual(len(COHORT["input_sha256"]), 7)
         for path, digest in COHORT["input_sha256"].items():
             with self.subTest(path=path):
-                self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), digest)
+                self.assertEqual(
+                    hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(),
+                    digest,
+                )
 
     def test_current_recovery_identity_for_both_domains(self):
         for domain in ("16", "17"):
@@ -70,7 +75,12 @@ class IntegrityTests(unittest.TestCase):
             (ROOT / "docs/authoring/communication-influence/cohort.json").read_text()
         )
         self.assertEqual(previous["ids"][-1], "16.13")
-        contract = yaml.safe_load((ROOT / "contracts/tailored-practice-authoring.yaml").read_text())
+        contract = yaml.safe_load(
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
+        )
         self.assertFalse(set(IDS) & set(contract["implemented_competency_ids"]))
         self.assertEqual(set(IDS) & set(contract["retained_legacy_competency_ids"]), {"17.03"})
         self.assertEqual(COHORT["legacy_companion_ids"], ["17.03"])
@@ -179,7 +189,7 @@ class IntegrityTests(unittest.TestCase):
                 "observed_reciprocity",
             ],
         )
-        self.assertIn("app's original fields", doc("17.03"))
+        self.assertIn("actual contact honest and minimal", doc("17.03"))
 
     def test_verification_hashes_cover_exact_source_set(self):
         verification = json.loads((SOURCE / "verification.json").read_text())
@@ -190,10 +200,12 @@ class IntegrityTests(unittest.TestCase):
         }
         self.assertEqual(set(verification["source_sha256"]), expected)
         for path, digest in verification["source_sha256"].items():
-            self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), digest)
+            self.assertEqual(
+                hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(), digest
+            )
         test_file = Path(__file__)
         self.assertEqual(
-            hashlib.sha256(test_file.read_bytes()).hexdigest(),
+            hashlib.sha256(historical_input_path(test_file).read_bytes()).hexdigest(),
             verification["focused_test_sha256"],
         )
 

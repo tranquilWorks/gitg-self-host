@@ -5,3 +5,9 @@
 3. You send a public manual and receive no feedback. What can you claim about contribution and usefulness?
 
 [Corrective answers](check-answers.md)
+
+## Changed-case attempt
+
+Save your response before opening the matching answer. This is a new fictional case.
+
+A contact agrees to introduce you to a librarian about accessible catalogs. They explicitly decline to endorse your unrelated job application. Draft the introduction request within that scope and say what cannot be claimed.

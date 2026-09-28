@@ -41,9 +41,10 @@ For real transfer, choose a modest specific disagreement and ask whether discuss
 
 [Lewicki, Polin and Lount, S03](../SOURCES.md#S03) studied perceived effectiveness of apology structures. The inspected abstract concerns responses to apologies, not proof of durable behavioral repair or a validated couples treatment. [Safety guidance, S14](../SOURCES.md#S14) supports a separate individualized route for abuse concerns. The trip and three-part evidence review are original design.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.08",
+  "title": "Diagnose and correct one loose cabinet handle",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A small repair begins with diagnosis and authority, not force. Measurement identifies fit; patching and assembly have their own material and load limits. One tightened handle does not establish competence with structural or electrical work."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete tabletop paper assembly: base has holes A and B30mm apart center-to-center. Supplied handle H1 has holes 30mm apart; H2 has 40mm. Required screws are the exact two labeled S supplied for H1; no alternative fastener specification is given. Diagram in words: each screw passes from the back of the base through A/B into the corresponding handle hole, with the handle supported. This is a non-load-bearing demonstration, not permission to modify actual cabinetry."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Select the matching handle and order the assembly steps. Explain why a spinning fastener or absent screw specification stops a live attempt. Keep the existing bounded handle repair as the separate practical route.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A screw spins without securing the handle. Should a power tool be used to overcome resistance?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "H1 matches 30mm; H2 does not. Align, support and engage only the specified screws gently; do not force mismatch or infer a replacement screw size. Partial: choose H1 without explaining fit. Incorrect: drill new holes to make H2 fit. To progress, measure another low-risk object against its actual assembly instructions; for patching, identify substrate and approved patch method on a scrap sample, inspect adhesion/finish, then obtain suitable guidance before consequential repair.",
+      "criteria": [
+        "Fit follows actual measurement",
+        "Assembly follows supplied parts and authority",
+        "A failed check triggers stopping rather than force"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Stop and investigate fit/damage through an appropriate safe route; more force does not establish a sound fastening. Do not use this lesson on safety-critical assemblies.",
+      "criteria": [
+        "Fit follows actual measurement",
+        "Assembly follows supplied parts and authority",
+        "A failed check triggers stopping rather than force"
+      ]
+    }
+  ]
+}

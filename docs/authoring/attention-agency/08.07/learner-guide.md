@@ -20,10 +20,8 @@ The worked choice is a single layout arrangement: place the reminder notebook be
 
 For support, use a large visible card or a digital location already accessible, choosing only one change. For a harder case, another person needs the desk: negotiate a reversible placement or use private space; do not make them enforce the routine. Accountability should specify what contact is welcome, make declining easy and avoid private task contents. A later review can test reliability under ordinary variation. Two observations cannot establish automaticity or a universal environmental cause.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

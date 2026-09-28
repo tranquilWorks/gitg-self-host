@@ -54,8 +54,8 @@ For support, use shorter periods or familiar low-sensory media and keep only one
 
 A Sabbath, vacation or longer recovery period may express the same purpose through a person's own tradition and circumstances. None is required, and no particular worldview, expense or leisure style is prescribed. Stop or change an activity that becomes compulsive, costly or interferes with necessary recovery. The result is a context-bound choice about rest, not a sleep treatment, productivity strategy or verdict on character.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains cross_context_core and normative status cross_tradition_core_or_broadly_recurrent. Capacity, access and context still govern whether to attempt this practice. Fiction and no attempt are legitimate. Human dignity is never scored.
+Capacity, access and context still govern whether to attempt this practice. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

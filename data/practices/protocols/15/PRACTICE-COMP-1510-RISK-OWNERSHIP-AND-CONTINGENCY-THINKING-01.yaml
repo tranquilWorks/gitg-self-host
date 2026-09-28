@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1510-RISK-OWNERSHIP-AND-CONTINGENCY-THINKING-01
 slug: c1510-risk-ownership-and-contingency-thinking-practice
-name: Bounded Risk ownership and contingency thinking Practice
+name: Remove one ordinary single point of failure and prove the fallback works
 parent_competency_id: '15.10'
 domain_id: '15'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 15.10
-      (Risk ownership and contingency thinking); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 15.10; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,38 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Risk ownership and contingency thinking through a non-confrontational safety preparation
-    bounded by the canonical scope: Identify dependencies, single points of failure, failure modes, reserves,
-    and recovery options.'
-  why_recommended: 'The parent competency identifies this limited evidence target: A meaningful plan includes
-    prevention, detection, response, and recovery. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Own a dependency through prevention, detection, response and recovery rather than treating
+    a backup plan as a list of reassuring possibilities.
+  why_recommended: Own a dependency through prevention, detection, response and recovery rather than treating
+    a backup plan as a list of reassuring possibilities.
   claims:
-  - statement: Using the canonical scope and evidence target for Risk ownership and contingency thinking
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Own a dependency through prevention, detection, response and recovery rather than treating
+      a backup plan as a list of reassuring possibilities.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Risk ownership and contingency thinking practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Risk ownership and contingency thinking as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Risk ownership and
-    contingency thinking context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Risk ownership
-    and contingency thinking; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use paper, audio, a trusted deputy or a simpler cancellation rule when resources
+    are limited. A person working alone can test a process against an unavailable device rather than appoint
+    an unwilling helper. Avoid storing sensitive rosters or credentials in backup copies.
+  opportunity_considerations: 'Default process: opening a weekly community reading session when the usual
+    organizer holds the only agenda and contact route. Use fictional names and no personal contact details
+    in the application. A real group’s roles, access and backup sharing must be agreed by those responsible.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Risk ownership and contingency
-    thinking.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Default process: opening a weekly community reading session when the usual organizer holds the only
+    agenda and contact route. Use fictional names and no personal contact details in the application.
+    A real group’s roles, access and backup sharing must be agreed by those responsible.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Risk ownership and contingency
-    thinking instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use paper, audio, a trusted deputy or a simpler cancellation rule when resources are limited. A person
+    working alone can test a process against an unavailable device rather than appoint an unwilling helper.
+    Avoid storing sensitive rosters or credentials in backup copies.
   role_conditions:
   - This competency is context contingent; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -82,19 +79,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Risk ownership and contingency thinking actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Risk ownership and contingency thinking; copy the canonical scope and
-    evidence target into a private working note; define the action boundary, valid supports, privacy limit,
-    and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Risk ownership
-    and contingency thinking. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Risk ownership and contingency thinking
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default process: opening a weekly community reading session when the usual organizer holds the
+    only agenda and contact route. Use fictional names and no personal contact details in the application.
+    A real group’s roles, access and backup sharing must be agreed by those responsible. Goal: Own a dependency
+    through prevention, detection, response and recovery rather than treating a backup plan as a list
+    of reassuring possibilities. Scope: Choose a low-consequence personal or volunteer process. Medical,
+    industrial, financial, emergency and regulated systems require their own qualified risk-management
+    procedures. Time and effort: Twenty minutes to map the dependency, twenty minutes to install a small
+    fallback and fifteen minutes for a harmless test. Adaptation: Use paper, audio, a trusted deputy or
+    a simpler cancellation rule when resources are limited. A person working alone can test a process
+    against an unavailable device rather than appoint an unwilling helper. Avoid storing sensitive rosters
+    or credentials in backup copies. Keep personal working notes outside the check-in; record only the
+    listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use paper, audio, a trusted deputy or a simpler cancellation rule when resources
+    are limited. A person working alone can test a process against an unavailable device rather than appoint
+    an unwilling helper. Avoid storing sensitive rosters or credentials in backup copies.
+  expected_burden: Twenty minutes to map the dependency, twenty minutes to install a small fallback and
+    fifteen minutes for a harmless test.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Risk ownership and contingency thinking protocol to rank worth, coerce participation, demand
@@ -102,19 +107,25 @@ intervention:
   - Treating a completed Risk ownership and contingency thinking action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Risk ownership and contingency thinking situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Hands-on safety, medical, aquatic, survival, and defensive skills require qualified instruction and
-    compliance with local law.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use paper,
+    audio, a trusted deputy or a simpler cancellation rule when resources are limited. A person working
+    alone can test a process against an unavailable device rather than appoint an unwilling helper. Avoid
+    storing sensitive rosters or credentials in backup copies.
   actions:
   - stable_id: PRACTICE-COMP-1510-RISK-OWNERSHIP-AND-CONTINGENCY-THINKING-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Risk ownership and contingency thinking
-    instructions: 'Define one planning-only question for Risk ownership and contingency thinking, the
-      hazards that must not be rehearsed, and the local qualified or emergency authority that supersedes
-      this source-only protocol. Do not create, approach, or simulate danger: Identify dependencies, single
-      points of failure, failure modes, reserves, and recovery options.'
+    title: Identify failure modes and who actually owns them
+    instructions: 'Draw the steps from preparation to the session starting. Mark dependencies on one person,
+      one device, one location and one communication channel. For each plausible failure, record the effect,
+      how it would be noticed, who can act and what cannot safely be shared. Select one meaningful single
+      point, such as the agenda existing only on the organizer’s phone. Do not label a person as the problem;
+      the issue is the unbacked dependency.
+
+
+      Observation checks: People devices locations and communication dependencies are considered; Failure
+      effects and detection cues are explicit; An authorized owner is assigned to the selected dependency;
+      Private access and information limits are retained. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +147,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1510_a1_planning_scope_bounded
-        - c1510_a1_hazards_excluded
-        - c1510_a1_authority_identified
+        - people_devices_locations_and_communication_dependencies_are_considered
+        - failure_effects_and_detection_cues_are_explicit
+        - an_authorized_owner_is_assigned_to_the_selected_dependency
+        - private_access_and_information_limits_are_retained
       - measurement_id: c1510_a1_boundary
         kind: boolean
         role: supporting
@@ -155,11 +167,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1510-RISK-OWNERSHIP-AND-CONTINGENCY-THINKING-01-A2
     sequence: 2
-    title: Prepare one safe Risk ownership and contingency thinking support step
-    instructions: Create one non-confrontational Risk ownership and contingency thinking step such as
-      locating official guidance, checking accessible contact information, assembling a category-level
-      checklist, or scheduling qualified instruction. Do not test emergency response, weapons, rescue,
-      medical treatment, confrontation, evasion, or hazardous equipment.
+    title: Install a bounded fallback with a trigger and reserve
+    instructions: 'For the agenda dependency, prepare a permitted minimal copy with a willing backup facilitator
+      and define the trigger: the organizer has not checked in by the agreed time. Specify what the backup
+      may do, the resources or time reserved, and when cancellation is safer than improvisation. Include
+      prevention, such as confirming attendance beforehand, without assuming it eliminates the failure.
+      Obtain consent before assigning responsibility or distributing group information.
+
+
+      Observation checks: The fallback has a concrete activation trigger; Backup authority resources and
+      time are agreed; Prevention is distinguished from response and reserve; Cancellation remains an
+      explicit safe option. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -181,9 +200,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1510_a2_step_is_preparatory
-        - c1510_a2_official_or_qualified_path_used
-        - c1510_a2_no_hazard_rehearsed
+        - the_fallback_has_a_concrete_activation_trigger
+        - backup_authority_resources_and_time_are_agreed
+        - prevention_is_distinguished_from_response_and_reserve
+        - cancellation_remains_an_explicit_safe_option
       - measurement_id: c1510_a2_boundary
         kind: boolean
         role: supporting
@@ -200,10 +220,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1510-RISK-OWNERSHIP-AND-CONTINGENCY-THINKING-01-A3
     sequence: 3
-    title: Review the Risk ownership and contingency thinking plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: A meaningful plan includes prevention, detection, response, and recovery.'
+    title: Test unavailability on paper and restore normal ownership
+    instructions: 'Announce a tabletop in which the organizer’s phone is unavailable; do not disable or
+      take it. Ask the backup to retrieve the permitted agenda and explain the start or cancellation decision.
+      Record the time or access obstacle, correct one gap and repeat that part. Finally state how the
+      original owner will be informed and how the normal arrangement resumes. A fallback that cannot be
+      retrieved is still a gap, even if a document says it exists.
+
+
+      Observation checks: The test is announced and nondestructive; The fallback is retrieved and used
+      to make a decision; An observed gap is corrected and retested; Recovery and return of ownership
+      are specified. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.
+
+
+      Final review: What could actually continue or recover when the chosen dependency disappeared, and
+      where did the fallback still rely on the same failed resource?
+
+
+      Examples: Supportive: A backup facilitator retrieved the agenda independently, applied the check-in
+      trigger and knew when to cancel and notify the organizer.
+
+
+      Mixed: The agenda copy worked but the contact route still lived on the unavailable phone, revealing
+      a second dependency.
+
+
+      Contradictory: The test disabled a production system or assigned an unconsenting person responsibility
+      for a critical service.
+
+
+      Inconclusive: A risk register named failures without an owner, activation trigger or tested recovery
+      route.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -219,15 +267,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1510_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1510_a3_stop_conditions_present
-        - c1510_a3_escalation_path_present
-        - c1510_a3_unknowns_retained
+        - the_test_is_announced_and_nondestructive
+        - the_fallback_is_retrieved_and_used_to_make_a_decision
+        - an_observed_gap_is_corrected_and_retested
+        - recovery_and_return_of_ownership_are_specified
       - measurement_id: c1510_a3_boundary
         kind: boolean
         role: supporting
@@ -248,17 +297,17 @@ intervention:
       Risk ownership and contingency thinking; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Risk ownership and contingency thinking; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use paper, audio, a trusted deputy or a simpler cancellation rule when resources are limited. A
+      person working alone can test a process against an unavailable device rather than appoint an unwilling
+      helper. Avoid storing sensitive rosters or credentials in backup copies.
     cultural_context:
     - Adapt the expression of Risk ownership and contingency thinking to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Risk ownership and contingency thinking opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use paper, audio, a trusted deputy or a simpler cancellation rule when resources are limited. A
+      person working alone can test a process against an unavailable device rather than appoint an unwilling
+      helper. Avoid storing sensitive rosters or credentials in backup copies.
   pause_conditions:
   - Pause Risk ownership and contingency thinking when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -290,10 +339,8 @@ evidence_and_scoring:
   - c1510_a3_boundary
   - c1510_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Risk ownership and contingency thinking action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Risk ownership and contingency thinking criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - The test disabled a production system or assigned an unconsenting person responsibility for a critical
+    service.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Risk ownership and contingency thinking explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -304,14 +351,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Risk ownership and contingency thinking rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—A meaningful plan includes prevention, detection, response, and recovery.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Risk ownership and contingency thinking requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Identify failure modes and who actually owns them. Observed checks: People
+    devices locations and communication dependencies are considered; Failure effects and detection cues
+    are explicit; An authorized owner is assigned to the selected dependency; Private access and information
+    limits are retained. Action 2: Install a bounded fallback with a trigger and reserve. Observed checks:
+    The fallback has a concrete activation trigger; Backup authority resources and time are agreed; Prevention
+    is distinguished from response and reserve; Cancellation remains an explicit safe option. Action 3:
+    Test unavailability on paper and restore normal ownership. Observed checks: The test is announced
+    and nondestructive; The fallback is retrieved and used to make a decision; An observed gap is corrected
+    and retested; Recovery and return of ownership are specified.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A risk register named failures without an owner, activation
+    trigger or tested recovery route.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Risk ownership
     and contingency thinking contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -320,9 +375,8 @@ evidence_and_scoring:
   - L10
   - L14
   - L20
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Risk ownership and contingency thinking evidence.
@@ -330,12 +384,19 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for risk ownership and contingency thinking action was attempted
-    or explicitly deferred.
-  - The prepare one safe risk ownership and contingency thinking support step action was attempted or
-    explicitly deferred.
-  - The review the risk ownership and contingency thinking plan against stop conditions action preserved
-    a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Identify failure modes and who actually owns them. Observed checks: People devices locations
+    and communication dependencies are considered; Failure effects and detection cues are explicit; An
+    authorized owner is assigned to the selected dependency; Private access and information limits are
+    retained.'
+  - 'Action 2: Install a bounded fallback with a trigger and reserve. Observed checks: The fallback has
+    a concrete activation trigger; Backup authority resources and time are agreed; Prevention is distinguished
+    from response and reserve; Cancellation remains an explicit safe option.'
+  - 'Action 3: Test unavailability on paper and restore normal ownership. Observed checks: The test is
+    announced and nondestructive; The fallback is retrieved and used to make a decision; An observed gap
+    is corrected and retested; Recovery and return of ownership are specified.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -344,58 +405,331 @@ completion_and_review:
     - c1510_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Risk ownership and contingency thinking only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Risk ownership and contingency thinking across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What could actually continue or recover when the chosen dependency disappeared,
+    and where did the fallback still rely on the same failed resource?
+  transfer_limit: Choose a low-consequence personal or volunteer process. Medical, industrial, financial,
+    emergency and regulated systems require their own qualified risk-management procedures.
   reflection:
-    before: What does Risk ownership and contingency thinking require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Risk ownership and contingency thinking criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'A meaningful plan includes prevention, detection, response,
-      and recovery.', what contradiction or missing context matters most, and should this Risk ownership
-      and contingency thinking design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Own a dependency through prevention, detection,
+      response and recovery rather than treating a backup plan as a list of reassuring possibilities.'
+    during: Which checks have actually been observed? The agenda copy worked but the contact route still
+      lived on the unavailable phone, revealing a second dependency.
+    after: What could actually continue or recover when the chosen dependency disappeared, and where did
+      the fallback still rely on the same failed resource?
   review_guidance:
     repeat: Repeat the same bounded Risk ownership and contingency thinking design only when the context
       and burden remain appropriate.
-    adapt: Change the Risk ownership and contingency thinking medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use paper, audio, a trusted deputy or a simpler cancellation rule when resources are limited.
+      A person working alone can test a process against an unavailable device rather than appoint an unwilling
+      helper. Avoid storing sensitive rosters or credentials in backup copies.
     stop: Stop Risk ownership and contingency thinking when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Risk ownership and contingency thinking
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Risk ownership and contingency thinking criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Risk ownership and contingency thinking criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Risk ownership and contingency thinking criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Risk ownership and contingency thinking action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A backup facilitator retrieved the agenda independently, applied the check-in trigger
+      and knew when to cancel and notify the organizer.
+    mixed: The agenda copy worked but the contact route still lived on the unavailable phone, revealing
+      a second dependency.
+    contradictory: The test disabled a production system or assigned an unconsenting person responsibility
+      for a critical service.
+    inconclusive: A risk register named failures without an owner, activation trigger or tested recovery
+      route.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Risk ownership and contingency thinking.
+    context_heading: Remove one ordinary single point of failure and prove the fallback works
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Risk ownership
       and contingency thinking.
   check_in_labels:
-    c1510_a1_primary: The bounded Risk ownership and contingency thinking criterion for action 1 was observed
+    c1510_a1_primary: 'Observed checks: identify failure modes and who actually owns them'
     c1510_a1_boundary: Action 1 stayed inside its stated Risk ownership and contingency thinking boundary
     c1510_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1510_a2_primary: The bounded Risk ownership and contingency thinking criterion for action 2 was observed
+    c1510_a2_primary: 'Observed checks: install a bounded fallback with a trigger and reserve'
     c1510_a2_boundary: Action 2 stayed inside its stated Risk ownership and contingency thinking boundary
     c1510_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1510_a3_primary: The bounded Risk ownership and contingency thinking criterion for action 3 was observed
+    c1510_a3_primary: 'Observed checks: test unavailability on paper and restore normal ownership'
     c1510_a3_boundary: Action 3 stayed inside its stated Risk ownership and contingency thinking boundary
     c1510_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Risk ownership and
-    contingency thinking practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What could actually continue or recover when the chosen dependency disappeared, and
+    where did the fallback still rely on the same failed resource? Completion is not mastery.
+  plain_language_evidence: A backup facilitator retrieved the agenda independently, applied the check-in
+    trigger and knew when to cancel and notify the organizer.
   display_order: 199
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '15.10'
+  title: 15.10 — Risk ownership and contingency thinking
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [HSE — Controls to prevent violence](https://www.hse.gov.uk/violence/employer/controls-to-prevent.htm)
+
+      - [HSE — Advice for workers](https://www.hse.gov.uk/violence/worker/index.htm)
+
+      - [GOV.UK — Reasonable force against intruders](https://www.gov.uk/reasonable-force-against-intruders)
+
+      - [NPS — Ten Essentials](https://www.nps.gov/articles/10essentials.htm)
+
+      - [NPS — Trip Planning Guide](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+
+      - [American Red Cross — Water Safety](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html)
+
+      - [RNLI — Cold water shock](https://rnli.org/water-safety/know-the-risks/cold-water-shock)
+
+      - [U.S. State Department — International Travel Checklist](https://travel.state.gov/en/international-travel/planning/checklist.html)
+
+      - [FTC — Recover a hacked account](https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account)
+
+      - [FTC — What to do if scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [FTC — Identity theft](https://consumer.ftc.gov/articles/what-know-about-identity-theft)
+
+      - [NIST SP 800-34 Rev. 1 — Contingency Planning](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)
+
+      - [FEMA IS-244.B — Developing and Managing Volunteers](https://emilms.fema.gov/is_0244b/groups/223.html)
+
+      - [CDC — Preventing Respiratory Illnesses](https://www.cdc.gov/respiratory-viruses/prevention/index.html)
+
+      - [CDC — Cleaner Air](https://www.cdc.gov/respiratory-viruses/prevention/air-quality.html)
+
+      - [Right To Be — Five Ds of Bystander Intervention](https://righttobe.org/guides/bystander-intervention-training/)
+
+      - [NIOSH — Hierarchy of Controls](https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html)
+
+      - [HSE — Maintenance of work equipment](https://www.hse.gov.uk/work-equipment-machinery/maintenance.htm)
+
+      - [Weger et al. — Relative Effectiveness of Active Listening](https://stars.library.ucf.edu/scopus2010/9657/)
+
+      - [EPA — Wildfires and Indoor Air Quality](https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'At 17:40, the fictional organizer is unavailable. Noor initially has 40 minutes from 18:00,
+      enough for the 30-minute minimum with 10 minutes spare. The 60-minute full session is not covered.
+      A reduced-session notice fits the initial facts.
+
+
+      At 17:48, Noor''s other commitment moves earlier; availability now ends at 18:20. Only 20 minutes
+      remain, a 10-minute shortfall against the minimum. No other host is confirmed. Cancel using the
+      authorized desk notice rather than claiming a viable 30-minute session or inventing a volunteer.
+      The agenda''s successful retrieval still stands.
+
+
+      At 17:55, Inez returns but says, “I have not seen the notice; what did you decide?” Handback needs
+      agreement: Noor explains cancellation and notice status; Inez confirms responsibility for any further
+      communication. A unilateral assumption could create conflicting notices. Do not silently restart
+      after people may have changed plans.
+
+
+      If neither person confirms receipt of a proposed handback, ownership is unresolved. This is inconclusive
+      handover evidence, not completion. The fictional sequence tests capacity and responsibility; it
+      does not document a real canceled event or a person''s reliability.'
+  - id: file-materials-fallback-card-txt
+    title: Fallback card
+    body: '```text
+
+      FICTIONAL TABLETOP ONLY — reading group
+
+      Starts 18:00. Minimum session 30 minutes; full session 60 minutes.
+
+      Inez check-in due 17:40. If absent, Noor verifies through agreed route; decides by 17:50.
+
+      Noor consented to host until 18:40; may use paper agenda and cancel; cannot spend money.
+
+      Room available from 17:50 by authorized staff; no learner key handling.
+
+      Notice route: staffed group desk; no private participant list needed.
+
+      Agenda: welcome/purpose; read sentence; discuss everyday example; close with unresolved assumption.
+
+      Reading sentence: A plan is useful when another person can carry out its next step.
+
+      Return of Inez requires agreed handback of owner, effective time, notices and unresolved changes.
+
+      Any changed availability or missing room/notice route requires rechecking feasibility.
+
+      ```'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Give a fallback an owner, trigger and finite reserve
+
+
+      Use the fictional reading session below. In about thirty minutes you will make a small contingency
+      plan, run an announced tabletop failure and decide whether to continue in reduced form or cancel.
+      Paper or an accessible local note is enough. Nobody needs to lose access to a real device or miss
+      an actual commitment. The skill is owning a risk through prevention, detection, response and recovery.
+
+
+      ### A dependency is something the outcome needs
+
+
+      The outcome here is a hosted reading discussion, not preserving the organizer''s preferred process.
+      An agenda, a host, access to the room and a way to notify participants all support that outcome.
+      A single point of failure exists when losing one component disables an essential function without
+      an available alternative. Two copies on the same unavailable phone may still share the same failure.
+
+
+      Name the failure mode precisely. “Technology might fail” is too broad to guide action. “The only
+      person with the room instructions cannot be contacted before opening” has a recognizable effect
+      and detection point. An owner takes responsibility for a decision or action; that does not make
+      them morally responsible for causing the failure. A backup owner must agree, have access and have
+      the necessary authority. A name in a document is not consent.
+
+
+      Prevention reduces likelihood or impact beforehand. Detection tells someone when the plan needs
+      attention. Response is what the authorized person does while the problem exists. Recovery restores
+      an agreed normal state and reconciles changes made during the fallback. These stages can have different
+      owners. NIST''s contingency-planning publication addresses requirements and priorities for federal
+      information systems; the small event exercise here is an author-created analogy, not NIST certification
+      or a mandated standard for clubs. See S12 in [SOURCES](?resource=sources).
+
+
+      Reserves are usable capacity, not hopeful labels. Money already promised elsewhere is not free reserve.
+      A volunteer who must leave before the minimum session ends cannot cover that minimum alone. Redundancy
+      can also share a dependency: two messaging apps on the same locked device do not create an independent
+      communication route. Define a cancellation threshold so the fallback does not consume essential
+      resources or quietly transfer risk to someone else.
+
+
+      ### Worked example
+
+
+      An organizer writes “backup: Noor.” Noor has never agreed and cannot access the agenda. The repair
+      is not adding Noor''s phone number to more copies. The organizer asks whether Noor can accept a
+      bounded role, provides only the material needed, confirms a rehearsal and records the stop condition.
+      If Noor declines, the plan retains an uncovered dependency and uses a cancellation route. Naming
+      an unmet need is better than assigning imaginary capacity.
+
+
+      ### Complete fictional session card
+
+
+      The reading group meets at 18:00. A minimum useful session needs a host for 30 minutes, the one-page
+      agenda and authorized room access. A reduced session is permitted; a full session would last 60
+      minutes. No unsafe physical task or essential service depends on the event.
+
+
+      | Dependency | Current fact |
+
+      | --- | --- |
+
+      | Main organizer, Inez | Owns agenda and participant-message route; expected check-in by 17:40 |
+
+      | Agreed backup, Noor | Consented to host from 18:00 until 18:40; may use the supplied paper agenda
+      and cancel; cannot spend money |
+
+      | Room | Staff confirms access for the group from 17:50; only authorized staff handle keys |
+
+      | Agenda | Opening question, 10-minute reading, discussion, close; harmless paper copy available
+      to Noor |
+
+      | Notice route | Staffed group desk can post the agreed cancellation/reduced-session notice; no
+      private participant list needed |
+
+      | Reserve | 40 minutes of Noor''s availability; no extra budget or unconfirmed volunteer |
+
+      | Trigger | No organizer check-in at 17:40: Noor verifies absence through the agreed route, then
+      decides by 17:50 |
+
+      | Recovery | Returning organizer and Noor agree who is responsible before handback; retain any notice
+      and actual session change |
+
+
+      The paper agenda is: welcome and purpose; read the supplied sentence “A plan is useful when another
+      person can carry out its next step”; discuss one everyday example; close by naming an unresolved
+      assumption. The case supplies the agenda so you need not invent a reading program. It contains no
+      confidential material.
+
+
+      ### Run an announced tabletop
+
+
+      1. Map the four essential dependencies: person, information/device, place and communication. For
+      each, state a failure, its effect, how it would be detected and who may act. Keep the room-key authority
+      with staff.
+
+      2. Identify what the current card already prevents and what it cannot prevent. The paper agenda
+      reduces dependence on Inez''s phone; it does not guarantee a host or room.
+
+      3. Use the [supplied fallback card](?resource=file-materials-fallback-card-txt) to make a separate
+      note containing the agenda, notice route, trigger, authority and time limits. Close the main case.
+      Retrieve the note and answer the opening question, minimum duration, backup''s end time and cancellation
+      authority. Record any missing field and repair it before repeating.
+
+      4. Announce the simulated failure: at 17:40 Inez and Inez''s phone are unavailable. Do not contact
+      a real person or disable a phone. Using only the fallback card, choose the reduced session or cancellation
+      by the stated decision point. Calculate the spare host time after a 30-minute session.
+
+      5. Write the notice you would authorize in this fictional case: what is happening, the time limit,
+      where to find the current decision and no unnecessary explanation of Inez''s absence. Do not publish
+      it.
+
+      6. Open the [later packet](?resource=file-later-packet-md), respond to the changed reserve and then
+      write a handback with owner, effective time, changes and remaining gaps. “Organizer returned” alone
+      is not a completed handover.
+
+
+      Keep the dependency map, retrieved card, original decision, revised decision and handback. This
+      is observable tabletop work, not proof the group has an operational continuity program.
+
+
+      ### Review and extend
+
+
+      The first fallback works only if the stated access and availability hold. A useful review can find
+      both a strength and a failure: the agenda was retrievable, yet the backup''s shortened availability
+      made the minimum session infeasible. Do not hide that defect by lowering the minimum after seeing
+      the result unless the group explicitly authorizes a new kind of event. No drama or blame is needed.
+
+
+      For a smaller start, examine only agenda access and host time, then add the notice and room. A helper
+      may read the note or assist with time arithmetic; retain the support used. A harder tabletop removes
+      the staffed notice route while leaving the paper agenda available. Identify the communication gap;
+      two good dependencies do not fix a missing third.
+
+
+      For real transfer, choose a low-stakes commitment you own, ask a willing person about a bounded
+      backup role, and test retrieval during an announced practice. Share minimal material, agree authority
+      and reserves, and record how responsibility returns. If no one can accept the role, prepare a clear
+      cancellation route rather than treating yourself as infinitely available. Complete the [fresh checks](?attempt=practice-checks)
+      before the [key](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A fallback has 50 minutes of willing host availability, but its minimum task requires 55.
+      What is the result, even if the agenda and room are ready?
+
+      2. Two backups are stored in different apps on the same lost phone. Which risk remains?
+
+      3. The main owner returns after the backup canceled. Why is “back to normal” insufficient, and what
+      belongs in handback?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. A 5-minute shortfall remains. Obtain explicitly agreed suitable capacity, change the task
+      only with appropriate authorization, or use the cancellation route. Do not round availability up
+      or treat willing effort as unlimited reserve.
+
+      2. Both copies share device access as a failure dependency. A genuinely available alternative needs
+      a different accessible route and an actual retrieval check; two app names do not prove independence.
+
+      3. The cancellation and its communication remain consequential. Agree who owns the next action,
+      when responsibility transfers, what was changed/notified and what remains unresolved. Return of
+      a person is not proof that participants received a consistent update.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

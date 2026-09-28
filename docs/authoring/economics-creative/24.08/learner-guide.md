@@ -53,8 +53,8 @@ For support, use just included closing time, additional sorting time and organiz
 
 Progress would combine an actual decision artifact with a later observation of the originally identified burden. One visible cleanup improvement cannot prove complete social accounting, fair labor conditions or environmental benefit. The strongest result may be a more explicit agreement about remaining work rather than a claim that all costs have disappeared.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise or policy role is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

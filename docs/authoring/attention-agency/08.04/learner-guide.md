@@ -20,10 +20,8 @@ For support, use only the arithmetic and supplied case. For a harder case, the f
 
 In later transfer, notice one attractive promise that narrows attention and restore one overlooked fact before choosing. Addiction, compulsive behavior, eating concerns and unsafe relationship dynamics warrant suitable qualified help rather than escalating this exercise. The lesson neither requires abstinence from ordinary pleasure nor proves freedom from craving.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

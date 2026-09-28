@@ -41,8 +41,8 @@ The inspected [Worker.gov directory, S08](../SOURCES.md#S08), routes wage, equal
 
 Use accessible agency information, an interpreter, an appropriate representative or qualified employment adviser. A harder branch changes the employer to a public body: recheck the authority and process rather than reuse a private-sector assumption. For a real current concern, verify the actual route and deadline promptly; the fictional unsent inquiry protects no right and guarantees no remedy.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Human dignity is never scored.
+Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

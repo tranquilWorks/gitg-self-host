@@ -24,10 +24,10 @@ The second occasion's complete notice concerns cardboard: “Cardboard is suppli
 
 For support, use text, AAC, an interpreter or a trusted companion if appropriate. These are not aids to strip away as proof of courage. For a harder case, the group becomes hostile or the topic gains serious consequences: reassess and stop the experiment rather than applying the old rating. Persistent, worsening or function-limiting anxiety belongs with qualified care. The supplied exercise rehearses evidence comparison, not clinical recovery.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary (unchanged): Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
+Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

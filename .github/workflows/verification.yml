@@ -107,3 +107,45 @@ jobs:
           test "$QUALITY_RESULT" = success
           test "$BROWSER_RESULT" = success
           test "$COMPOSE_RESULT" = success
+
+  publish:
+    name: Publish verified container
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: pilot-ready
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: docker/setup-qemu-action@v4
+      - uses: docker/setup-buildx-action@v4
+      - uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish the verified revision
+        id: image
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          push: true
+          platforms: linux/amd64,linux/arm64
+          tags: |
+            ghcr.io/tranquilworks/gitg-self-host:latest
+            ghcr.io/tranquilworks/gitg-self-host:sha-${{ github.sha }}
+          labels: |
+            org.opencontainers.image.revision=${{ github.sha }}
+      - name: Pull and validate the published image
+        env:
+          IMAGE: ghcr.io/tranquilworks/gitg-self-host@${{ steps.image.outputs.digest }}
+        run: |
+          docker pull "$IMAGE"
+          docker run --rm --entrypoint python \
+            -e DJANGO_SECRET_KEY=publication-probe-only-not-a-deployment-secret \
+            -e DJANGO_ALLOWED_HOSTS=localhost \
+            -e APP_DATA_DIR=/tmp/publication-check \
+            "$IMAGE" manage.py validate_canonical_content
+          printf 'Published and pulled `%s`\n' "$IMAGE" >> "$GITHUB_STEP_SUMMARY"

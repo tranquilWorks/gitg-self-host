@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1405-ONLINE-FRAUD-SCAMS-AND-SOCIAL-ENGINEERING-01
 slug: c1405-online-fraud-scams-and-social-engineering-practice
-name: Bounded Online fraud, scams, and social engineering Practice
+name: Verify a suspicious request without using the channel that delivered it
 parent_competency_id: '14.05'
 domain_id: '14'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 14.05
-      (Online fraud, scams, and social engineering); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 14.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,40 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Online fraud, scams, and social engineering through a low-stakes skill rehearsal
-    bounded by the canonical scope: Recognize phishing, impersonation, romance scams, investment fraud,
-    extortion, false urgency, and malicious links.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Verifies suspicious
-    requests through an independent channel and knows how to report a suspected incident. The protocol
-    creates a small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Recognize common social-engineering pressures and independently verify identity, purpose and
+    payment or data requests before responding.
+  why_recommended: Recognize common social-engineering pressures and independently verify identity, purpose
+    and payment or data requests before responding.
   claims:
-  - statement: Using the canonical scope and evidence target for Online fraud, scams, and social engineering
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Recognize common social-engineering pressures and independently verify identity, purpose
+      and payment or data requests before responding.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Online fraud, scams, and social engineering practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Online fraud, scams, and social engineering as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Online fraud, scams,
-    and social engineering context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Online fraud,
-    scams, and social engineering; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use printed sample messages, an interpreter or a trusted support person who
+    does not ask for codes. People of any experience level can be targeted. Extortion involving intimate
+    material or safety threats may require specialist support; do not redistribute the material as evidence
+    to friends.
+  opportunity_considerations: 'Use these fictional messages: a bank text says transfer savings now to
+    protect them; an online romantic contact asks for an urgent travel payment; a supposed support agent
+    asks for a one-time code to stop account closure. No live links or phone numbers are supplied. Use
+    a known official app, bookmarked site or independently verified contact route, not the message’s contact
+    details.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Online fraud, scams, and social
-    engineering.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use these fictional messages: a bank text says transfer savings now to protect them; an online romantic
+    contact asks for an urgent travel payment; a supposed support agent asks for a one-time code to stop
+    account closure. No live links or phone numbers are supplied. Use a known official app, bookmarked
+    site or independently verified contact route, not the message’s contact details.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Online fraud, scams, and social
-    engineering instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use printed sample messages, an interpreter or a trusted support person who does not ask for codes.
+    People of any experience level can be targeted. Extortion involving intimate material or safety threats
+    may require specialist support; do not redistribute the material as evidence to friends.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +84,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Online fraud, scams, and social engineering actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Online fraud, scams, and social engineering; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Online fraud,
-    scams, and social engineering. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Online fraud, scams, and social engineering
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use these fictional messages: a bank text says transfer savings now to protect them; an online
+    romantic contact asks for an urgent travel payment; a supposed support agent asks for a one-time code
+    to stop account closure. No live links or phone numbers are supplied. Use a known official app, bookmarked
+    site or independently verified contact route, not the message’s contact details. Goal: Recognize common
+    social-engineering pressures and independently verify identity, purpose and payment or data requests
+    before responding. Scope: This is defensive scam literacy, not an exercise in deceiving others or
+    engaging criminals. Current financial loss, threats or account compromise requires prompt official
+    help rather than prolonged investigation. Time and effort: Fifteen minutes on three supplied messages
+    and one five-minute verification-route rehearsal. Adaptation: Use printed sample messages, an interpreter
+    or a trusted support person who does not ask for codes. People of any experience level can be targeted.
+    Extortion involving intimate material or safety threats may require specialist support; do not redistribute
+    the material as evidence to friends. Keep personal working notes outside the check-in; record only
+    the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use printed sample messages, an interpreter or a trusted support person who does
+    not ask for codes. People of any experience level can be targeted. Extortion involving intimate material
+    or safety threats may require specialist support; do not redistribute the material as evidence to
+    friends.
+  expected_burden: Fifteen minutes on three supplied messages and one five-minute verification-route rehearsal.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Online fraud, scams, and social engineering protocol to rank worth, coerce participation,
@@ -104,19 +114,25 @@ intervention:
   - Treating a completed Online fraud, scams, and social engineering action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Online fraud, scams, and social engineering situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use printed
+    sample messages, an interpreter or a trusted support person who does not ask for codes. People of
+    any experience level can be targeted. Extortion involving intimate material or safety threats may
+    require specialist support; do not redistribute the material as evidence to friends.
   actions:
   - stable_id: PRACTICE-COMP-1405-ONLINE-FRAUD-SCAMS-AND-SOCIAL-ENGINEERING-01-A1
     sequence: 1
-    title: Define observable criteria for Online fraud, scams, and social engineering
-    instructions: 'Select one safe, lawful, low-stakes component of Online fraud, scams, and social engineering.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Recognize
-      phishing, impersonation, romance scams, investment fraud, extortion, false urgency, and malicious
-      links.'
+    title: Identify the request and the pressure mechanism
+    instructions: 'For each message, state what the sender wants, what authority or relationship is claimed,
+      what urgency or secrecy is imposed, and what information is independently known. Include investment
+      promises, extortion and malicious attachments as related patterns without opening anything. A familiar
+      logo, caller ID, personal detail or convincing tone does not settle authenticity; legitimate-looking
+      details may coexist with a fraudulent request.
+
+
+      Observation checks: The requested money data code or action is explicit; Claimed identity and pressure
+      or secrecy are separated; Known facts are distinguished from persuasive details; Links attachments
+      and codes are not used to investigate the request. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -138,9 +154,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1405_a1_skill_component_bounded
-        - c1405_a1_observable_rubric_present
-        - c1405_a1_error_or_stop_defined
+        - the_requested_money_data_code_or_action_is_explicit
+        - claimed_identity_and_pressure_or_secrecy_are_separated
+        - known_facts_are_distinguished_from_persuasive_details
+        - links_attachments_and_codes_are_not_used_to_investigate_the_request
       - measurement_id: c1405_a1_boundary
         kind: boolean
         role: supporting
@@ -157,10 +174,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1405-ONLINE-FRAUD-SCAMS-AND-SOCIAL-ENGINEERING-01-A2
     sequence: 2
-    title: Rehearse Online fraud, scams, and social engineering twice
-    instructions: Perform two bounded attempts of the selected Online fraud, scams, and social engineering
-      component under comparable safe conditions. Use self-review, a consensual observer, or a reviewed
-      artifact; do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Rehearse an independent verification path
+    instructions: 'For the bank case, locate the institution’s official contact route through an existing
+      trusted app or known statement, not a search advertisement or the suspicious message. State the
+      neutral question: Did you send this request, and what action is actually required? For the romance
+      or support case, decline immediate payment or code sharing and consult a trusted independent source.
+      Rehearse without calling emergency lines or submitting fake reports.
+
+
+      Observation checks: The verification route is independent of the suspicious channel; The question
+      checks the request rather than repeats the sender’s story as fact; Payment and sensitive disclosure
+      pause while uncertainty remains; No fake incident report or unnecessary emergency call is made.
+      Mark only what you observed. Missing, mixed and negative results are valid; a deferred action is
+      not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -176,15 +202,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1405_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - the_verification_route_is_independent_of_the_suspicious_channel
+        - the_question_checks_the_request_rather_than_repeats_the_sender_s_story_as_fact
+        - payment_and_sensitive_disclosure_pause_while_uncertainty_remains
+        - no_fake_incident_report_or_unnecessary_emergency_call_is_made
       - measurement_id: c1405_a2_boundary
         kind: boolean
         role: supporting
@@ -201,10 +228,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1405-ONLINE-FRAUD-SCAMS-AND-SOCIAL-ENGINEERING-01-A3
     sequence: 3
-    title: Use feedback for one Online fraud, scams, and social engineering retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Verifies
-      suspicious requests through an independent channel and knows how to report a suspected incident.'
+    title: Choose the report and recovery route for the actual situation
+    instructions: 'Mark each fictional message verified legitimate, suspected scam or unresolved based
+      only on available evidence; the supplied cases remain suspicious until independently checked. Identify
+      the service’s reporting control and the relevant local consumer or cybercrime route. If a real payment,
+      credential or code was already shared, contact the affected provider promptly through a trusted
+      channel and follow its recovery process. Do not pay a recovery scammer or confront the sender.
+
+
+      Observation checks: The disposition reflects evidence rather than confidence alone; A legitimate
+      report route is identified for the service and location; Actual exposure triggers prompt provider-led
+      recovery; No confrontation additional payment or vigilante investigation is introduced. Mark only
+      what you observed. Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which independent fact would change your decision, and what would you do first if
+      money or credentials had already been exposed?
+
+
+      Examples: Supportive: The person paused the transfer request and verified it through the known bank
+      channel rather than the text link.
+
+
+      Mixed: The pressure pattern was recognized, but the supposed verification number still came from
+      the suspicious message.
+
+
+      Contradictory: A one-time code or payment was sent to prove cooperation, or an alleged recovery
+      expert was paid without verification.
+
+
+      Inconclusive: The messages were labeled scams by intuition without an independent route or a response
+      plan for actual exposure.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -226,9 +281,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1405_a3_feedback_item_selected
-        - c1405_a3_adjustment_traceable
-        - c1405_a3_retry_result_preserved
+        - the_disposition_reflects_evidence_rather_than_confidence_alone
+        - a_legitimate_report_route_is_identified_for_the_service_and_location
+        - actual_exposure_triggers_prompt_provider_led_recovery
+        - no_confrontation_additional_payment_or_vigilante_investigation_is_introduced
       - measurement_id: c1405_a3_boundary
         kind: boolean
         role: supporting
@@ -249,17 +305,17 @@ intervention:
       Online fraud, scams, and social engineering; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Online fraud, scams, and social engineering; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use printed sample messages, an interpreter or a trusted support person who does not ask for codes.
+      People of any experience level can be targeted. Extortion involving intimate material or safety
+      threats may require specialist support; do not redistribute the material as evidence to friends.
     cultural_context:
     - Adapt the expression of Online fraud, scams, and social engineering to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Online fraud, scams, and social engineering opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use printed sample messages, an interpreter or a trusted support person who does not ask for codes.
+      People of any experience level can be targeted. Extortion involving intimate material or safety
+      threats may require specialist support; do not redistribute the material as evidence to friends.
   pause_conditions:
   - Pause Online fraud, scams, and social engineering when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -291,10 +347,8 @@ evidence_and_scoring:
   - c1405_a3_boundary
   - c1405_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Online fraud, scams, and social engineering action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Online fraud, scams, and social engineering criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A one-time code or payment was sent to prove cooperation, or an alleged recovery expert was paid without
+    verification.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Online fraud, scams, and social engineering explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -305,14 +359,24 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Online fraud, scams, and social engineering rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Verifies suspicious requests through an independent channel and knows how to report a suspected
-    incident.—not completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Online fraud, scams, and social engineering requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Identify the request and the pressure mechanism. Observed checks: The
+    requested money data code or action is explicit; Claimed identity and pressure or secrecy are separated;
+    Known facts are distinguished from persuasive details; Links attachments and codes are not used to
+    investigate the request. Action 2: Rehearse an independent verification path. Observed checks: The
+    verification route is independent of the suspicious channel; The question checks the request rather
+    than repeats the sender’s story as fact; Payment and sensitive disclosure pause while uncertainty
+    remains; No fake incident report or unnecessary emergency call is made. Action 3: Choose the report
+    and recovery route for the actual situation. Observed checks: The disposition reflects evidence rather
+    than confidence alone; A legitimate report route is identified for the service and location; Actual
+    exposure triggers prompt provider-led recovery; No confrontation additional payment or vigilante investigation
+    is introduced.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. The messages were labeled scams by intuition without
+    an independent route or a response plan for actual exposure.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Online
     fraud, scams, and social engineering contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -322,9 +386,8 @@ evidence_and_scoring:
   - L19
   - L20
   - L24
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Online fraud, scams, and social engineering evidence.
@@ -332,12 +395,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for online fraud, scams, and social engineering action was attempted
-    or explicitly deferred.
-  - The rehearse online fraud, scams, and social engineering twice action was attempted or explicitly
-    deferred.
-  - The use feedback for one online fraud, scams, and social engineering retry action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Identify the request and the pressure mechanism. Observed checks: The requested money data
+    code or action is explicit; Claimed identity and pressure or secrecy are separated; Known facts are
+    distinguished from persuasive details; Links attachments and codes are not used to investigate the
+    request.'
+  - 'Action 2: Rehearse an independent verification path. Observed checks: The verification route is independent
+    of the suspicious channel; The question checks the request rather than repeats the sender’s story
+    as fact; Payment and sensitive disclosure pause while uncertainty remains; No fake incident report
+    or unnecessary emergency call is made.'
+  - 'Action 3: Choose the report and recovery route for the actual situation. Observed checks: The disposition
+    reflects evidence rather than confidence alone; A legitimate report route is identified for the service
+    and location; Actual exposure triggers prompt provider-led recovery; No confrontation additional payment
+    or vigilante investigation is introduced.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -346,62 +418,356 @@ completion_and_review:
     - c1405_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Online fraud, scams, and social engineering only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Online fraud, scams, and social engineering across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which independent fact would change your decision, and what would you do first
+    if money or credentials had already been exposed?
+  transfer_limit: This is defensive scam literacy, not an exercise in deceiving others or engaging criminals.
+    Current financial loss, threats or account compromise requires prompt official help rather than prolonged
+    investigation.
   reflection:
-    before: What does Online fraud, scams, and social engineering require in this exact context, what
-      remains outside my role or authority, and which scope sentence or evidence criterion will keep the
-      practice honest?
-    during: Which observable Online fraud, scams, and social engineering criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Verifies suspicious requests through an independent channel
-      and knows how to report a suspected incident.', what contradiction or missing context matters most,
-      and should this Online fraud, scams, and social engineering design be repeated, adapted, deferred,
-      stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Recognize common social-engineering pressures
+      and independently verify identity, purpose and payment or data requests before responding.'
+    during: Which checks have actually been observed? The pressure pattern was recognized, but the supposed
+      verification number still came from the suspicious message.
+    after: Which independent fact would change your decision, and what would you do first if money or
+      credentials had already been exposed?
   review_guidance:
     repeat: Repeat the same bounded Online fraud, scams, and social engineering design only when the context
       and burden remain appropriate.
-    adapt: Change the Online fraud, scams, and social engineering medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use printed sample messages, an interpreter or a trusted support person who does not ask for
+      codes. People of any experience level can be targeted. Extortion involving intimate material or
+      safety threats may require specialist support; do not redistribute the material as evidence to friends.
     stop: Stop Online fraud, scams, and social engineering when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Online fraud, scams, and social engineering
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Online fraud, scams, and social engineering criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Online fraud, scams, and social engineering criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Online fraud, scams, and social engineering
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Online fraud, scams, and social engineering action was deferred, not observed, not
-      applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The person paused the transfer request and verified it through the known bank channel
+      rather than the text link.
+    mixed: The pressure pattern was recognized, but the supposed verification number still came from the
+      suspicious message.
+    contradictory: A one-time code or payment was sent to prove cooperation, or an alleged recovery expert
+      was paid without verification.
+    inconclusive: The messages were labeled scams by intuition without an independent route or a response
+      plan for actual exposure.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Online fraud, scams, and social engineering.
+    context_heading: Verify a suspicious request without using the channel that delivered it
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Online fraud,
       scams, and social engineering.
   check_in_labels:
-    c1405_a1_primary: The bounded Online fraud, scams, and social engineering criterion for action 1 was
-      observed
+    c1405_a1_primary: 'Observed checks: identify the request and the pressure mechanism'
     c1405_a1_boundary: Action 1 stayed inside its stated Online fraud, scams, and social engineering boundary
     c1405_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1405_a2_primary: The bounded Online fraud, scams, and social engineering criterion for action 2 was
-      observed
+    c1405_a2_primary: 'Observed checks: rehearse an independent verification path'
     c1405_a2_boundary: Action 2 stayed inside its stated Online fraud, scams, and social engineering boundary
     c1405_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1405_a3_primary: The bounded Online fraud, scams, and social engineering criterion for action 3 was
-      observed
+    c1405_a3_primary: 'Observed checks: choose the report and recovery route for the actual situation'
     c1405_a3_boundary: Action 3 stayed inside its stated Online fraud, scams, and social engineering boundary
     c1405_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Online fraud, scams,
-    and social engineering practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which independent fact would change your decision, and what would you do first if money
+    or credentials had already been exposed? Completion is not mastery.
+  plain_language_evidence: The person paused the transfer request and verified it through the known bank
+    channel rather than the text link.
   display_order: 181
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '14.05'
+  title: 14.05 — Online fraud, scams, and social engineering
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [What To Do if You Were Scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [What To Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+
+      - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
+
+      - [AI 600-1: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+      - [Content Credentials explainer v2.4](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+
+      - [Improving college students’ fact-checking strategies through lateral reading instruction in a
+      general education civics course](https://link.springer.com/article/10.1186/s41235-021-00291-4)
+
+      - [Report adult cyber abuse](https://www.esafety.gov.au/key-topics/adult-cyber-abuse/report-adult-cyber-abuse)
+
+      - [What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+      - [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+      - [deed](https://creativecommons.org/licenses/by/4.0/)
+
+      - [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+      - [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+
+      - [BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+      - [MIT License](https://opensource.org/license/mit)
+
+      - [Backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+
+      - [User rights under the Digital Services Act](https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act)
+
+      - [Developing for Web Accessibility](https://www.w3.org/WAI/tips/developing/)
+
+      - [First Aid Online Classes](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+
+      - [Learn First Aid](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+
+      - [Adult cardiac arrest](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-cardiac-arrest)
+
+      - [adult/child choking](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking)
+
+      - [Life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+      - [Shock](https://www.redcross.org/take-a-class/resources/learn-first-aid/shock)
+
+      - [Burns](https://www.redcross.org/take-a-class/resources/learn-first-aid/burns)
+
+      - [Poison exposure](https://www.redcross.org/take-a-class/resources/learn-first-aid/poison-exposure)
+
+      - [Making an Emergency Plan](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+
+      - [Make a Plan](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+
+      - [Causes and prevention: overview](https://www.hse.gov.uk/slips/preventing-overview.htm)
+
+      - [A computational reward learning account of social media engagement](https://www.nature.com/articles/s41467-020-19607-x)
+
+      - [publisher correction](https://www.nature.com/articles/s41467-021-22067-6)
+
+      - [author-hosted abstract of Exposure to ideologically diverse news and opinion on Facebook](https://solomonmg.github.io/publications/bakshy-2015-exposure/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Open after saving your six assessments and two scripts. All outcomes are supplied fiction.
+
+
+      The bank''s independently reached app support confirms it issued no safe-account transfer request.
+      It has no record of a transfer by the learner. This contradicts S1''s asserted authorization, without
+      proving who sent it.
+
+
+      The club portal confirms membership expires tomorrow and offers its normal renewal form. It says
+      renewal requires no downloaded program. A real renewal need does not validate S6''s attachment.
+      No renewal payment has been made.
+
+
+      There is no additional verification for S2, S4 or S5. Their harmful requests remain declined; identities
+      and S5''s claimed possession remain unverified. Do not manufacture proof of fraud or intimate material
+      from the lack of a reply.
+
+
+      **Separate exposure branch:** Before asking for help, a fictional learner gave S3''s caller a one-time
+      code. Through independently reached Postbox support, they reported the exposure. The provider revoked
+      an unfamiliar session and began its recovery process. The record does not confirm whether messages
+      were accessed, whether all recovery settings are secure, or whether recovery is complete. Describe
+      the remaining provider-led steps without inserting real credentials.
+
+
+      **Separate payment branch:** A learner sent 300 in response to S2 and asked the issuer to recover
+      it. The issuer acknowledged the report. No refund decision is recorded. The lost amount must not
+      be recorded as zero because a report was filed.
+
+
+      Revise your table with the exact supported status of each branch. Neither branch describes an action
+      you performed.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Verify the request, not the performance
+
+
+      A convincing message can still ask you to do something harmful. Social engineering uses authority,
+      affection, fear, opportunity or time pressure to move a decision outside your normal checks. Phishing
+      asks you to disclose information or follow a harmful route while impersonating a trusted source.
+      Neither requires spelling mistakes. A real name, an accurate account detail or a familiar voice
+      is evidence about what the sender knows, not permission to transfer money or reveal a code.
+
+
+      Allow 30 minutes with paper or an accessible editor. The supplied messages, institution and replies
+      are fictional. There are no live links, real accounts or actual reports to submit. Your output will
+      be six request assessments, an independent verification script and an exposure-specific response.
+      This is a defensive practice; do not engage suspected scammers to gather more material.
+
+
+      ### Independence is a property of the route
+
+
+      Calling a number inside the suspicious message asks the same channel to vouch for itself. Instead,
+      start from a previously trusted app, statement or contact record. [FTC guidance](https://consumer.ftc.gov/articles/how-avoid-scam)
+      supports resisting pressure and contacting the purported organization through a separately trusted
+      route. Do not treat the first sponsored search result as independently verified support.
+
+
+      Separate three questions: **Who is contacting me? What exact action is requested? What evidence
+      authorizes that action?** A genuine service can have an urgent issue, but it does not follow that
+      an unsolicited caller''s proposed remedy is genuine. Conversely, an odd-looking notice can describe
+      a real task that you can complete safely through the normal interface. Verification should resolve
+      the particular request, not label all future messages from an organization safe.
+
+
+      Worked example: a message says a club subscription expires tomorrow. The existing club portal independently
+      shows the same renewal date and normal payment options. You can use that portal without deciding
+      whether the message itself was authentic. You have verified the task and its legitimate route, not
+      the sender''s identity from its logo.
+
+
+      ### Complete message packet
+
+
+      For each row, extract the requested action, claimed relationship, pressure and known facts. The
+      absence of independent confirmation is deliberate.
+
+
+      | ID | Entire relevant message |
+
+      | --- | --- |
+
+      | S1 | “Harbor Bank security: move your savings to our safe account within ten minutes. Use the
+      transfer instructions in this message. Tell nobody while we investigate.” |
+
+      | S2 | “We''ve been talking for months. My flight is held up. Send 300 by gift card tonight so we
+      can finally meet. If you trusted me, you would help.” |
+
+      | S3 | “I''m Postbox support. Read me the one-time sign-in code you just received so I can stop
+      your account being closed.” |
+
+      | S4 | “Our investment group guarantees a 20% weekly return. Your friend appears in our testimonial
+      video. Deposit cryptocurrency before this invitation expires.” |
+
+      | S5 | “I have private material about you. Pay now or I''ll distribute it. Don''t ask anyone for
+      help.” No material or evidence is supplied. |
+
+      | S6 | “Your club membership may need renewal. Open the attached renewal program and disable its
+      security warning if necessary.” |
+
+
+      Available independent routes: Harbor Bank''s app was installed and used before these messages; a
+      paper bank statement is already held privately; Postbox''s help page is reachable from its existing
+      saved home page; the club''s saved member portal shows status and normal renewal controls. A testimonial,
+      a second account recommended by the sender and a caller-ID display are not additional trusted routes.
+      S2''s contact has never been met in person. None of the six requests has yet been acted on.
+
+
+      #### Action 1 — Build the request assessments
+
+
+      Use one short row per message: `request | pressure | independent fact missing | immediate boundary
+      | next route`. Include romance, investment and extortion separately; “phishing” alone loses the
+      relationship-specific pressure. For S5, distinguish the threat from proof that the claimed material
+      exists. You can take a threat seriously and seek support without accepting every claim in it.
+
+
+      Do not open an attachment, supply a code, send a small “test payment” or repeat intimate material
+      to friends. Record each initial disposition as **suspected scam / harmful request**, with any underlying
+      account or membership question still unresolved. You do not need forensic certainty to decline a
+      dangerous requested action.
+
+
+      #### Action 2 — Rehearse two independent checks
+
+
+      Write a bank question: “I received a request to transfer funds to a new account. Did your service
+      issue that request, and what action is actually required?” Specify how you reached the bank without
+      using the message. Then write a club check that examines membership status inside the existing portal
+      without opening S6''s attachment. Save both before opening [the later packet](?resource=file-later-packet-md).
+
+
+      For romance or investment pressure, a neutral trusted person can help you pause and identify official
+      consumer or financial-regulator information. They cannot authenticate a stranger merely by liking
+      the story. Do not use the suspicious sender''s recommended “verification agent.” An apparently convincing
+      live call or video does not replace checking the consequential request.
+
+
+      #### Action 3 — Respond to the exposure that actually occurred
+
+
+      Use the later facts to distinguish **requested**, **sent**, **reported**, **recovery requested**
+      and **recovered**. [The FTC''s recovery guidance](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+      recommends promptly contacting the payment provider when money was sent and using the relevant account
+      or device recovery route when those were exposed. A request for reversal is not a refund guarantee.
+
+
+      For a real incident, use the provider''s current official reporting controls and your location''s
+      consumer/cybercrime services. The FTC is a US route, not a universal authority. Immediate physical
+      danger calls for local emergency help. Extortion involving intimate material warrants appropriate
+      specialist support; avoid further payment, additional material and redistribution. Keep only the
+      lawful evidence the report needs. Do not hire an unsolicited “recovery expert” who demands an advance
+      fee.
+
+
+      Complete [three fresh checks](?attempt=practice-checks), then read [the corrective key](?check=practice-answers).
+      Your final artifact must say which action is supported now and what remains unknown.
+
+
+      ### Adapt and transfer
+
+
+      A trusted reader or interpreter can help parse pressure without taking control of your account or
+      learning secrets. Use only two messages initially if fatigue is high, then return to the remaining
+      patterns. Being targeted is not evidence of stupidity; shame can make independent help harder to
+      obtain.
+
+
+      Harder route: suppose the bank app itself cannot be trusted because the device may be compromised.
+      Identify a separately trusted device or previously held official contact route; do not keep using
+      the suspect route simply because it was once legitimate.
+
+
+      For transfer, prepare a private verification route for one service you actually use and rehearse
+      locating it. Record a real safe lookup separately from a fictional scam response. You need not wait
+      for a scam or contact an organization with a fake incident.
+
+
+      **Supportive:** The request pauses and an independent source determines the next action. **Mixed:**
+      The dangerous action stops, but account recovery remains pending. **Contradictory:** A code or test
+      payment is shared to establish trust. **Inconclusive:** “Scam” is written without a usable verification
+      or exposure-response route.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A caller knows the last four digits of an account and supplies a second number for “independent
+      security.” What does that knowledge establish, and what route would you use?
+
+      2. A genuine renewal is visible in an existing portal, while a text demands a gift-card payment.
+      Decide separately about the renewal and payment instruction.
+
+      3. A person sent 120, reported it and received a case number. An unsolicited recovery agent promises
+      a guaranteed refund for 25. What amount is confirmed recovered, and what should happen next?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The caller knows an account detail; authorization and identity remain unverified. Their
+      second number is part of the same untrusted chain. Use the already trusted app or independently
+      held official contact. If you chose the supplied number, redraw the route from a source that predates
+      the request.
+
+      2. The renewal need is independently supported. The gift-card instruction is not. Use only the portal''s
+      verified normal procedure if renewal is wanted; do not endorse the text as authentic because one
+      fact matches.
+
+      3. No recovered payment is confirmed; the 120 remains an exposed payment with recovery unresolved.
+      A case number establishes a report, not reimbursement. Follow up with the actual payment provider
+      through its trusted route and reject the unsolicited advance-fee offer. Do not pay another 25 to
+      “unlock” recovery.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

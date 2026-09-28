@@ -38,9 +38,10 @@ For support, begin with “operates, decides, funds” and add the remaining row
 
 Real transfer should concern a genuine ordinary question. Verify current meeting or submission details from the responsible body, including accessibility and public-record implications. This guide does not submit messages, register anyone to vote or direct political choices. An accurate map and a relevant reply establish navigation, not effective advocacy, legal entitlement or a completed policy change.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core; normative status is cross_tradition_core_or_broadly_recurrent. This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

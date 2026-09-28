@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "06.01",
+  "title": "Receive one useful act of help while keeping your own voice",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Receiving help can preserve the recipient’s decision and the helper’s limits. Clarification makes information usable; takeover substitutes someone else’s choice without agreement."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete fictional timetable: route A departs 09:00 and arrives 09:25; route B departs 09:20 and arrives 09:45. An appointment begins 10:00 with a 10-minute suitable walk from the stop. Both routes are confirmed suitable in the case. Jo prefers leaving later and asks Rae to explain the arrival margin, not book travel. Rae offers five minutes by text and may decline further help."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Calculate both margins, write a specific clarification request and say who chooses the route. Do not share private appointment details.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A helper can read a form aloud but starts selecting preferences for the recipient. What boundary would restore the agreed help?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A reaches the destination 09:35 with 25 minutes; B09:55 with 5. Rae can explain the difference, while Jo chooses; clock slack alone is not a guarantee. Later fiction: Rae explains and Jo selects A, but no trip occurs. Partial: choose A without acknowledging Jo’s role. Incorrect: Rae books without consent or Jo promises unlimited repayment.",
+      "criteria": [
+        "The request identifies an actual information gap",
+        "Help preserves the recipient’s choices",
+        "Preparation and travel remain separate"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Ask the helper to present the information and record the recipient’s own choices through the agreed mode. Reading access does not confer decision authority; the helper may retain a reasonable time limit.",
+      "criteria": [
+        "The request identifies an actual information gap",
+        "Help preserves the recipient’s choices",
+        "Preparation and travel remain separate"
+      ]
+    }
+  ]
+}

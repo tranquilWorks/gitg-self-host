@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2204-DECISION-MAKING-UNDER-RESPONSIBILITY-01
 slug: c2204-decision-making-under-responsibility-practice
-name: Bounded Decision-making under responsibility Practice
+name: Make a timely decision with a recorded reason to revise it
 parent_competency_id: '22.04'
 domain_id: '22'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 22.04
-      (Decision-making under responsibility); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 22.04; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Decision-making under responsibility through a bounded audit and redesign bounded
-    by the canonical scope: Make timely choices with incomplete information while considering expertise,
-    dissent, risk, and affected people.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Owns outcomes and revises
-    decisions when evidence changes. The protocol creates a small opportunity to examine that target without
-    treating completion as broad capability.'
+  purpose: Choose responsibly under incomplete information by using expertise, dissent, risk and affected-person
+    needs, then own and update the decision as evidence changes.
+  why_recommended: Choose responsibly under incomplete information by using expertise, dissent, risk and
+    affected-person needs, then own and update the decision as evidence changes.
   claims:
-  - statement: Using the canonical scope and evidence target for Decision-making under responsibility
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Choose responsibly under incomplete information by using expertise, dissent, risk and affected-person
+      needs, then own and update the decision as evidence changes.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Decision-making under responsibility practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Decision-making under responsibility as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Decision-making under
-    responsibility context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Decision-making
-    under responsibility; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use a paper tabletop case or accessible asynchronous input. If a required
+    safety, legal or professional fact is unresolved, defer that option and use the appropriate qualified
+    route. Do not stage a risky real event to test decisiveness.
+  opportunity_considerations: Default to choosing between two permitted rooms for a small workshop when
+    attendance is uncertain. Both must already meet the responsible owner’s safety and access requirements.
+    Prepare a decision card with deadline, options, known facts, unknowns, expert input, dissent, affected
+    users, risk, choice and review trigger.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Decision-making under responsibility.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Default to choosing between two permitted rooms for a small workshop when attendance is uncertain.
+    Both must already meet the responsible owner’s safety and access requirements. Prepare a decision
+    card with deadline, options, known facts, unknowns, expert input, dissent, affected users, risk, choice
+    and review trigger.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Decision-making under responsibility
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a paper tabletop case or accessible asynchronous input. If a required safety, legal or professional
+    fact is unresolved, defer that option and use the appropriate qualified route. Do not stage a risky
+    real event to test decisiveness.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Decision-making under responsibility actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Decision-making under responsibility; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Decision-making
-    under responsibility. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Decision-making under responsibility
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default to choosing between two permitted rooms for a small workshop when attendance is uncertain.
+    Both must already meet the responsible owner’s safety and access requirements. Prepare a decision
+    card with deadline, options, known facts, unknowns, expert input, dissent, affected users, risk, choice
+    and review trigger. Goal: Choose responsibly under incomplete information by using expertise, dissent,
+    risk and affected-person needs, then own and update the decision as evidence changes. Scope: Use a
+    reversible low-stakes decision or tabletop case. This is not emergency command, clinical judgment
+    or authority to override a qualified safety decision. Time and effort: Twenty minutes to frame the
+    choice, one time-bounded decision and a review after a specified new fact. Adaptation: Use a paper
+    tabletop case or accessible asynchronous input. If a required safety, legal or professional fact is
+    unresolved, defer that option and use the appropriate qualified route. Do not stage a risky real event
+    to test decisiveness. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a paper tabletop case or accessible asynchronous input. If a required safety,
+    legal or professional fact is unresolved, defer that option and use the appropriate qualified route.
+    Do not stage a risky real event to test decisiveness.
+  expected_burden: Twenty minutes to frame the choice, one time-bounded decision and a review after a
+    specified new fact.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Decision-making under responsibility protocol to rank worth, coerce participation, demand
@@ -101,19 +108,25 @@ intervention:
   - Treating a completed Decision-making under responsibility action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Decision-making under responsibility situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a paper
+    tabletop case or accessible asynchronous input. If a required safety, legal or professional fact is
+    unresolved, defer that option and use the appropriate qualified route. Do not stage a risky real event
+    to test decisiveness.
   actions:
   - stable_id: PRACTICE-COMP-2204-DECISION-MAKING-UNDER-RESPONSIBILITY-01-A1
     sequence: 1
-    title: Audit one bounded Decision-making under responsibility context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Decision-making under
-      responsibility. Use the canonical scope to name observable conditions without diagnosing people
-      or systems: Make timely choices with incomplete information while considering expertise, dissent,
-      risk, and affected people.'
+    title: Define when a decision is needed and what cannot be guessed
+    instructions: 'State the latest useful decision time and the consequence of waiting. List the two
+      viable options and the facts required before either is acceptable, including verified safety and
+      access rather than assumptions. Identify who has relevant expertise and whose experience of the
+      room matters. Separate a missing fact that blocks the decision from uncertainty that can be managed
+      through a reversible choice.
+
+
+      Observation checks: A real decision deadline and cost of delay are stated; Blocking facts are separated
+      from manageable uncertainty; Safety and access are verified by the appropriate owner; Expertise
+      and affected users are identified. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +148,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2204_a1_one_context_only
-        - c2204_a1_observable_conditions_recorded
-        - c2204_a1_hazards_excluded
+        - a_real_decision_deadline_and_cost_of_delay_are_stated
+        - blocking_facts_are_separated_from_manageable_uncertainty
+        - safety_and_access_are_verified_by_the_appropriate_owner
+        - expertise_and_affected_users_are_identified
       - measurement_id: c2204_a1_boundary
         kind: boolean
         role: supporting
@@ -154,10 +168,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2204-DECISION-MAKING-UNDER-RESPONSIBILITY-01-A2
     sequence: 2
-    title: Make one reversible Decision-making under responsibility redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Decision-making under responsibility. Record the intended effect, cost or burden, and a rollback
-      condition before changing anything.
+    title: Hear the strongest concern and make the bounded choice
+    instructions: 'Ask for the strongest reason against your preferred room and record it fairly. Compare
+      likely benefits, downside, reversibility and what support each option needs. Decide by the deadline
+      within your authority, explaining why the choice is reasonable on current evidence and what risk
+      remains. Assign the next action and communication owner. Do not wait for perfect agreement or present
+      uncertainty as certainty to look decisive.
+
+
+      Observation checks: A serious dissenting concern is considered; Risk reversibility and support needs
+      inform the choice; The decision is timely and within authority; Remaining uncertainty and the next
+      owner are communicated. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -179,9 +201,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2204_a2_change_traces_to_finding
-        - c2204_a2_rollback_defined
-        - c2204_a2_burden_recorded
+        - a_serious_dissenting_concern_is_considered
+        - risk_reversibility_and_support_needs_inform_the_choice
+        - the_decision_is_timely_and_within_authority
+        - remaining_uncertainty_and_the_next_owner_are_communicated
       - measurement_id: c2204_a2_boundary
         kind: boolean
         role: supporting
@@ -198,10 +221,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2204-DECISION-MAKING-UNDER-RESPONSIBILITY-01-A3
     sequence: 3
-    title: Compare the Decision-making under responsibility context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: Owns outcomes
-      and revises decisions when evidence changes.'
+    title: Review the outcome without rewriting the original reasoning
+    instructions: 'When the attendance estimate or another specified fact changes, compare it with the
+      recorded assumptions. Retain or revise the room choice and explain the reason to affected people.
+      Own any preventable error, while distinguishing an unlucky outcome from an unsound process. Preserve
+      the original decision record and add the update rather than editing it to make foresight look better.
+      A revision can be responsible leadership, not evidence that the initial decision should have been
+      delayed forever.
+
+
+      Observation checks: New evidence is compared with the original assumptions; Retention or revision
+      has an explicit reason; Process quality and outcome luck are distinguished; The original reasoning
+      is preserved with an added update. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.
+
+
+      Final review: What made the choice reasonable at the time, what evidence changed it, and did you
+      own the update as clearly as the original decision?
+
+
+      Examples: Supportive: The leader chose a verified suitable room by the deadline and revised the
+      plan when a recorded attendance trigger was reached.
+
+
+      Mixed: The choice was reasonable but the communication owner was missing; the review corrected that
+      handoff gap.
+
+
+      Contradictory: Dissent was suppressed, safety facts were guessed or the original record was rewritten
+      after the outcome.
+
+
+      Inconclusive: Options were analyzed indefinitely without a decision deadline, accountable choice
+      or review trigger.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -223,9 +275,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2204_a3_same_context_compared
-        - c2204_a3_mixed_or_null_result_allowed
-        - c2204_a3_target_evidence_reviewed
+        - new_evidence_is_compared_with_the_original_assumptions
+        - retention_or_revision_has_an_explicit_reason
+        - process_quality_and_outcome_luck_are_distinguished
+        - the_original_reasoning_is_preserved_with_an_added_update
       - measurement_id: c2204_a3_boundary
         kind: boolean
         role: supporting
@@ -246,17 +299,17 @@ intervention:
       Decision-making under responsibility; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Decision-making under responsibility; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use a paper tabletop case or accessible asynchronous input. If a required safety, legal or professional
+      fact is unresolved, defer that option and use the appropriate qualified route. Do not stage a risky
+      real event to test decisiveness.
     cultural_context:
     - Adapt the expression of Decision-making under responsibility to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Decision-making under responsibility opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use a paper tabletop case or accessible asynchronous input. If a required safety, legal or professional
+      fact is unresolved, defer that option and use the appropriate qualified route. Do not stage a risky
+      real event to test decisiveness.
   pause_conditions:
   - Pause Decision-making under responsibility when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -288,10 +341,7 @@ evidence_and_scoring:
   - c2204_a3_boundary
   - c2204_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Decision-making under responsibility action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Decision-making under responsibility criterion, depended on
-    coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - Dissent was suppressed, safety facts were guessed or the original record was rewritten after the outcome.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Decision-making under responsibility explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -302,14 +352,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Decision-making under responsibility rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Owns outcomes and revises decisions when evidence changes.—not completion, confidence, conformity,
-    output, independence, or worth.
-  evidence_quality_rubric: Quality for Decision-making under responsibility requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Define when a decision is needed and what cannot be guessed. Observed
+    checks: A real decision deadline and cost of delay are stated; Blocking facts are separated from manageable
+    uncertainty; Safety and access are verified by the appropriate owner; Expertise and affected users
+    are identified. Action 2: Hear the strongest concern and make the bounded choice. Observed checks:
+    A serious dissenting concern is considered; Risk reversibility and support needs inform the choice;
+    The decision is timely and within authority; Remaining uncertainty and the next owner are communicated.
+    Action 3: Review the outcome without rewriting the original reasoning. Observed checks: New evidence
+    is compared with the original assumptions; Retention or revision has an explicit reason; Process quality
+    and outcome luck are distinguished; The original reasoning is preserved with an added update.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Options were analyzed indefinitely without a decision
+    deadline, accountable choice or review trigger.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Decision-making
     under responsibility contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -319,9 +377,8 @@ evidence_and_scoring:
   - L14
   - L20
   - L33
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Decision-making under responsibility evidence.
@@ -329,12 +386,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded decision-making under responsibility context action was attempted or explicitly
-    deferred.
-  - The make one reversible decision-making under responsibility redesign action was attempted or explicitly
-    deferred.
-  - The compare the decision-making under responsibility context after the change action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Define when a decision is needed and what cannot be guessed. Observed checks: A real decision
+    deadline and cost of delay are stated; Blocking facts are separated from manageable uncertainty; Safety
+    and access are verified by the appropriate owner; Expertise and affected users are identified.'
+  - 'Action 2: Hear the strongest concern and make the bounded choice. Observed checks: A serious dissenting
+    concern is considered; Risk reversibility and support needs inform the choice; The decision is timely
+    and within authority; Remaining uncertainty and the next owner are communicated.'
+  - 'Action 3: Review the outcome without rewriting the original reasoning. Observed checks: New evidence
+    is compared with the original assumptions; Retention or revision has an explicit reason; Process quality
+    and outcome luck are distinguished; The original reasoning is preserved with an added update.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -343,58 +406,281 @@ completion_and_review:
     - c2204_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Decision-making under responsibility only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Decision-making under responsibility across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What made the choice reasonable at the time, what evidence changed it, and did
+    you own the update as clearly as the original decision?
+  transfer_limit: Use a reversible low-stakes decision or tabletop case. This is not emergency command,
+    clinical judgment or authority to override a qualified safety decision.
   reflection:
-    before: What does Decision-making under responsibility require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Decision-making under responsibility criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Owns outcomes and revises decisions when evidence changes.',
-      what contradiction or missing context matters most, and should this Decision-making under responsibility
-      design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Choose responsibly under incomplete information
+      by using expertise, dissent, risk and affected-person needs, then own and update the decision as
+      evidence changes.'
+    during: Which checks have actually been observed? The choice was reasonable but the communication
+      owner was missing; the review corrected that handoff gap.
+    after: What made the choice reasonable at the time, what evidence changed it, and did you own the
+      update as clearly as the original decision?
   review_guidance:
     repeat: Repeat the same bounded Decision-making under responsibility design only when the context
       and burden remain appropriate.
-    adapt: Change the Decision-making under responsibility medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Use a paper tabletop case or accessible asynchronous input. If a required safety, legal or
+      professional fact is unresolved, defer that option and use the appropriate qualified route. Do not
+      stage a risky real event to test decisiveness.
     stop: Stop Decision-making under responsibility when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Decision-making under responsibility
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Decision-making under responsibility criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Decision-making under responsibility criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Decision-making under responsibility criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Decision-making under responsibility action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The leader chose a verified suitable room by the deadline and revised the plan when a
+      recorded attendance trigger was reached.
+    mixed: The choice was reasonable but the communication owner was missing; the review corrected that
+      handoff gap.
+    contradictory: Dissent was suppressed, safety facts were guessed or the original record was rewritten
+      after the outcome.
+    inconclusive: Options were analyzed indefinitely without a decision deadline, accountable choice or
+      review trigger.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Decision-making under responsibility.
+    context_heading: Make a timely decision with a recorded reason to revise it
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Decision-making
       under responsibility.
   check_in_labels:
-    c2204_a1_primary: The bounded Decision-making under responsibility criterion for action 1 was observed
+    c2204_a1_primary: 'Observed checks: define when a decision is needed and what cannot be guessed'
     c2204_a1_boundary: Action 1 stayed inside its stated Decision-making under responsibility boundary
     c2204_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2204_a2_primary: The bounded Decision-making under responsibility criterion for action 2 was observed
+    c2204_a2_primary: 'Observed checks: hear the strongest concern and make the bounded choice'
     c2204_a2_boundary: Action 2 stayed inside its stated Decision-making under responsibility boundary
     c2204_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2204_a3_primary: The bounded Decision-making under responsibility criterion for action 3 was observed
+    c2204_a3_primary: 'Observed checks: review the outcome without rewriting the original reasoning'
     c2204_a3_boundary: Action 3 stayed inside its stated Decision-making under responsibility boundary
     c2204_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Decision-making under
-    responsibility practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What made the choice reasonable at the time, what evidence changed it, and did you
+    own the update as clearly as the original decision? Completion is not mastery.
+  plain_language_evidence: The leader chose a verified suitable room by the deadline and revised the plan
+    when a recorded attendance trigger was reached.
   display_order: 303
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '22.04'
+  title: 22.04 — Decision-making under responsibility
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Civil Service Leadership Statement](https://www.gov.uk/government/publications/civil-service-leadership-statement/civil-service-leadership-statement)
+
+      - [OECD Public Integrity Handbook: Leadership](https://www.oecd.org/en/publications/oecd-public-integrity-handbook_ac8ed8e8-en/full-report/leadership_1aa35fa2.html)
+
+      - [Government Functional Standard GovS 002: Project delivery (HTML)](https://projectdelivery.gov.uk/library-products/government-functional-standard-govs-002-project-delivery/)
+
+      - [Mentoring and Coaching](https://www.opm.gov/policy-data-oversight/performance-management/performance-management-and-accountability-playbook/mentoring-and-coaching/)
+
+      - [Developing Performance Standards](https://www.opm.gov/policy-data-oversight/performance-management/reference-materials/articles/developing-performance-standards/)
+
+      - [OECD Public Integrity Handbook: Openness](https://www.oecd.org/en/publications/oecd-public-integrity-handbook_ac8ed8e8-en/full-report/openness_b1c18876.html)
+
+      - [CERC: Introduction](https://www.cdc.gov/cerc/media/pdfs/CERC_Introduction.pdf)
+
+      - [Knowledge Management](https://www.nasa.gov/learning-resources/for-professionals/appel-knowledge-management/)
+
+      - [Identifying and managing conflicts of interest in a charity](https://www.gov.uk/government/publications/identifying-and-managing-conflicts-of-interest-in-a-charity-cc29/conflicts-of-interest-a-guide-for-charity-trustees)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving a first attempt. These events are invented learning materials,
+      not actual participant evidence.
+
+
+      At **14:10**, Fen reports **12 confirmed attendees**, with the previous two possible now included
+      and two additional confirmed participants. Elm is no longer acceptable for the full group: twelve
+      exceeds ten by two. Oak remains held until **15:00** and can accommodate twelve within its approved
+      sixteen.
+
+
+      Rem changes to Oak at **14:20**. Fen records the switch, still within the thirty-unit budget and
+      forty minutes before the hold expires. Uma''s fictional approved update states Oak and the unchanged
+      workshop time, and offers the printed prompt sheet. Eight of twelve recipients acknowledge the update
+      by **14:45**; four have not yet confirmed receipt. Uma retains follow-up responsibility. Do not
+      turn sending into universal receipt.
+
+
+      The revised room fits the confirmed number, with four places of capacity margin. The initial choice
+      was made for eight confirmed and at most two then-possible attendees; no known capacity breach existed
+      at noon. The workshop has not happened. The record supports timely reassessment and a remaining
+      communication dependency, not a successful event or a proof of perfect judgment.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Choose a room by a deadline, record the reasons against your preference and update the choice
+      when the relevant facts change. Allow twenty minutes for the decision and fifteen for the later
+      review. Both fictional rooms already have responsible-owner approval for the stated uses and access
+      arrangements. The exercise cannot establish real building safety or grant authority to override
+      an actual restriction.
+
+
+      ### Decide with uncertainty without concealing it
+
+
+      Frame the decision before comparing attractive features. Who has authority, by when is a choice
+      needed, which options are permitted and what happens if you wait? Some missing information blocks
+      a responsible choice: required approval cannot be guessed. Other uncertainty can be managed with
+      a reversible plan, such as a range of attendance estimates when every plausible number fits an approved
+      option.
+
+
+      Seek the expertise that matches the question. A venue steward can confirm permitted capacity; a
+      participant can describe an access need or communication difficulty; a booking coordinator can explain
+      a hold deadline. Confidence in one role does not create expertise in the others. Consultation improves
+      the information available to the decision maker but does not transfer all responsibility to advisers.
+
+
+      Invite the strongest reason against the leading option. This is more useful than asking supporters
+      to list benefits after you have effectively decided. State dissent fairly, including a condition
+      under which it should change the choice. A quieter room may aid conversation while a larger room
+      better accommodates uncertain attendance. Do not disguise a tradeoff by claiming that the preferred
+      option wins every criterion.
+
+
+      Separate constraints, estimates and preferences. A maximum approved occupancy is a boundary, not
+      a target to exceed if the group is enthusiastic. An estimated headcount is a forecast, not a confirmed
+      count. A pleasant atmosphere is a preference that may matter after essentials are satisfied. Arithmetic
+      can rule out an option without supplying the full judgment. A responsible choice explains both why
+      it fits and what remains uncertain.
+
+
+      Reversibility has a time window and a cost. Being able to edit a booking note does not guarantee
+      that another room remains available or that attendees will receive the change. Record the last useful
+      switch time and the communication owner. If the window closes, a previously reversible plan may
+      need a different response. Avoid implying that a decision is low risk merely because the document
+      is editable.
+
+
+      A review trigger is evidence that calls for reassessment, not an automatic excuse to ignore everything
+      else. Define it before the new fact arrives. Preserve the original rationale and add an update rather
+      than rewriting the first record to make yourself look prescient. You can own the consequences of
+      a decision while distinguishing a preventable error from a reasonable choice followed by new information.
+
+
+      Timeliness matters too. Waiting for perfect knowledge may forfeit both acceptable options. Make
+      the best supported choice within the deadline, identify residual risk and communicate the next step.
+      A later revision need not mean the first choice was reckless, and a lucky outcome cannot rescue
+      a process that ignored a known boundary. Evaluate the decision using information actually available
+      at the time.
+
+
+      ### Worked example
+
+
+      A coordinator chooses a room approved for ten because eight people are expected. A recorded trigger
+      requires reassessment above ten while a larger-room hold remains open. A later count of twelve activates
+      the review. Moving to the larger room can be responsible follow-through, not proof that the coordinator
+      should have predicted twelve. Keeping the small room to appear consistent would misuse the original
+      decision''s authority.
+
+
+      ### Complete fictional options and evidence
+
+
+      On **5 November 2026 at 12:00 UTC**, Rem must book a room for the next day''s paper-map workshop.
+      Rem has delegated booking authority within **30 units** of fictional budget. Elm Room costs **20**,
+      has approved capacity **10**, a quiet layout and a venue-confirmed step-free route. Oak Room costs
+      **30**, has approved capacity **16**, the same confirmed access suitability and more background
+      sound. Neither cost is actual money to spend.
+
+
+      Venue steward Tal confirms both rooms'' stated use and capacities. Facilitator Uma says the quiet
+      setting helps spoken comparisons but can use a printed prompt sheet in Oak. Participant Sol confirms
+      that the supplied access arrangement meets the needs disclosed for this fictional session; this
+      is not a universal access assessment. Booking officer Fen says the initial choice is due at **12:00**
+      and a no-fee switch between these two held rooms is possible until **15:00**, after which an unchosen
+      room may be released.
+
+
+      At **11:30**, there are **8 confirmed attendees** and **2 possible**, with no other expected arrivals.
+      Rem prefers Elm. Uma''s strongest caution is that additional confirmations beyond ten would make
+      Elm unsuitable, and a late switch could confuse attendees. Fen owns recording a booking change;
+      Uma accepts responsibility for sending the single approved attendee update in the fiction. The initial
+      decision must state what happens if the approved capacity would be exceeded or an essential approval
+      is withdrawn.
+
+
+      ### Make an accountable choice
+
+
+      1. Build a compact card separating authority, deadline, constraints, expertise, affected-person
+      input and attendance uncertainty. Output: viable options and missing facts that would block either.
+
+      2. Compare cost, capacity margin, communication usefulness and reversibility. Record Uma''s dissent
+      fairly. Output: choice by noon, residual risk and a specific attendance/switch-window review trigger.
+
+      3. Save before the [later packet](?resource=file-later-packet-md). Reassess using the new count
+      and remaining time. Output: appended decision, difference from the original assumptions and assigned
+      communication action.
+
+      4. Review whether any known constraint was ignored initially, whether the update was timely and
+      what the record cannot prove. Output: process judgment distinct from the eventual workshop outcome.
+
+
+      ### Support and harder conditions
+
+
+      Use two option cards and a calculator; arithmetic assistance does not remove decision ownership.
+      For a harder branch, let the attendance update arrive after 15:00 with Oak unavailable. Keep Elm''s
+      approved limit intact and seek an authorized alternative, rescheduling or capacity arrangement;
+      do not improvise building approval. Real transfer should concern an ordinary reversible choice within
+      actual authority. Safety, clinical and emergency decisions retain qualified processes beyond this
+      task.
+
+
+      ### Source use
+
+
+      [GovS 002, S03](https://projectdelivery.gov.uk/library-products/government-functional-standard-govs-002-project-delivery/),
+      supports timely options-based decisions within governance and consultation with relevant expertise
+      and stakeholders. Selected sections are used, not a full decision-analysis method or a guarantee
+      that the preferred room is optimal.
+
+
+      ### Use the result at its proper scale
+
+
+      Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority
+      and willing participation; keep protected records private. Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A preferred option lacks a required approval. Is this ordinary uncertainty that can be accepted
+      to meet a deadline?
+
+      2. New attendance exceeds a room limit while a permitted switch remains available. Is changing a
+      sign of weak leadership?
+
+      3. A change message was sent to twelve and eight acknowledged. What is the communication status?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. A missing essential approval is a blocking condition. A deadline does not supply it;
+      use an authorized alternative or keep the decision appropriately limited.
+
+      2. No. Reassess against the recorded assumptions, constraints and time window, append the new reason
+      and communicate the change. Consistency does not justify exceeding a limit.
+
+      3. Eight acknowledgments and four unresolved receipts. Keep follow-up ownership; do not infer that
+      all received or understood the message, or that the event succeeded.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

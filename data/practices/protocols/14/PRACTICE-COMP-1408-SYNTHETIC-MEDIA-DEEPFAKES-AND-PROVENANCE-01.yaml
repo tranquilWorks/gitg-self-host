@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1408-SYNTHETIC-MEDIA-DEEPFAKES-AND-PROVENANCE-01
 slug: c1408-synthetic-media-deepfakes-and-provenance-practice
-name: Bounded Synthetic media, deepfakes, and provenance Practice
+name: Check an alarming media clip without treating appearance as proof
 parent_competency_id: '14.08'
 domain_id: '14'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 14.08
-      (Synthetic media, deepfakes, and provenance); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 14.08; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,40 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Synthetic media, deepfakes, and provenance through a low-stakes skill rehearsal bounded
-    by the canonical scope: Recognize that audio, image, video, and documents can be generated or altered
-    convincingly.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Checks provenance and
-    corroboration before acting on consequential synthetic or uncertain media. The protocol creates a
-    small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Distinguish media provenance, alteration and factual truth, and corroborate a consequential
+    claim before acting on a convincing image, audio clip, video or document.
+  why_recommended: Distinguish media provenance, alteration and factual truth, and corroborate a consequential
+    claim before acting on a convincing image, audio clip, video or document.
   claims:
-  - statement: Using the canonical scope and evidence target for Synthetic media, deepfakes, and provenance
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Distinguish media provenance, alteration and factual truth, and corroborate a consequential
+      claim before acting on a convincing image, audio clip, video or document.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Synthetic media, deepfakes, and provenance practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Synthetic media, deepfakes, and provenance as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Synthetic media,
-    deepfakes, and provenance context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Synthetic
-    media, deepfakes, and provenance; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Use text transcripts, captions or a fully written scenario when audio or visual
+    media is inaccessible. A consented practice clip can be analyzed without identifying a real person.
+    Threatening or intimate material requires appropriate specialist reporting and must not be redistributed.
+  opportunity_considerations: 'Fictional scenario: a short voice clip apparently from a community organizer
+    says tomorrow’s venue has changed and attendees must pay a new fee. You have an existing official
+    event page and a known organizer contact route. No real person’s voice needs to be cloned, no suspicious
+    file opened and no biometric identification performed.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Synthetic media, deepfakes, and
-    provenance.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Fictional scenario: a short voice clip apparently from a community organizer says tomorrow’s venue
+    has changed and attendees must pay a new fee. You have an existing official event page and a known
+    organizer contact route. No real person’s voice needs to be cloned, no suspicious file opened and
+    no biometric identification performed.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Synthetic media, deepfakes, and
-    provenance instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use text transcripts, captions or a fully written scenario when audio or visual media is inaccessible.
+    A consented practice clip can be analyzed without identifying a real person. Threatening or intimate
+    material requires appropriate specialist reporting and must not be redistributed.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +82,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Synthetic media, deepfakes, and provenance actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Synthetic media, deepfakes, and provenance; copy the canonical scope and
-    evidence target into a private working note; define the action boundary, valid supports, privacy limit,
-    and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Synthetic
-    media, deepfakes, and provenance. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Synthetic media, deepfakes, and provenance
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Fictional scenario: a short voice clip apparently from a community organizer says tomorrow’s
+    venue has changed and attendees must pay a new fee. You have an existing official event page and a
+    known organizer contact route. No real person’s voice needs to be cloned, no suspicious file opened
+    and no biometric identification performed. Goal: Distinguish media provenance, alteration and factual
+    truth, and corroborate a consequential claim before acting on a convincing image, audio clip, video
+    or document. Scope: This is verification practice, not forensic authentication or a reliable deepfake-detection
+    test. Missing provenance does not prove fabrication, and valid credentials do not prove that a depicted
+    event or claim is true. Time and effort: Twenty minutes on a supplied scenario and one verification-route
+    rehearsal. Adaptation: Use text transcripts, captions or a fully written scenario when audio or visual
+    media is inaccessible. A consented practice clip can be analyzed without identifying a real person.
+    Threatening or intimate material requires appropriate specialist reporting and must not be redistributed.
+    Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use text transcripts, captions or a fully written scenario when audio or visual
+    media is inaccessible. A consented practice clip can be analyzed without identifying a real person.
+    Threatening or intimate material requires appropriate specialist reporting and must not be redistributed.
+  expected_burden: Twenty minutes on a supplied scenario and one verification-route rehearsal.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Synthetic media, deepfakes, and provenance protocol to rank worth, coerce participation,
@@ -104,18 +110,25 @@ intervention:
   - Treating a completed Synthetic media, deepfakes, and provenance action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Synthetic media, deepfakes, and provenance situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use text transcripts,
+    captions or a fully written scenario when audio or visual media is inaccessible. A consented practice
+    clip can be analyzed without identifying a real person. Threatening or intimate material requires
+    appropriate specialist reporting and must not be redistributed.
   actions:
   - stable_id: PRACTICE-COMP-1408-SYNTHETIC-MEDIA-DEEPFAKES-AND-PROVENANCE-01-A1
     sequence: 1
-    title: Define observable criteria for Synthetic media, deepfakes, and provenance
-    instructions: 'Select one safe, lawful, low-stakes component of Synthetic media, deepfakes, and provenance.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Recognize
-      that audio, image, video, and documents can be generated or altered convincingly.'
+    title: Separate the asset’s history from the claim it makes
+    instructions: 'Write four questions: who supplied the clip, where the original full version is, what
+      edits or credentials are available, and whether the venue or fee claim is independently supported.
+      Explain that convincing sound, a familiar face or a document logo can be altered, while obvious
+      glitches are not required. If Content Credentials exist, inspect what they attest to rather than
+      treating their presence as a truth stamp.
+
+
+      Observation checks: Supplier original context provenance and factual claim are separated; Realistic
+      appearance is not equated with authenticity; Missing or valid provenance is interpreted within its
+      limits; No identity inference from voice or appearance substitutes for verification. Mark only what
+      you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -137,9 +150,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1408_a1_skill_component_bounded
-        - c1408_a1_observable_rubric_present
-        - c1408_a1_error_or_stop_defined
+        - supplier_original_context_provenance_and_factual_claim_are_separated
+        - realistic_appearance_is_not_equated_with_authenticity
+        - missing_or_valid_provenance_is_interpreted_within_its_limits
+        - no_identity_inference_from_voice_or_appearance_substitutes_for_verification
       - measurement_id: c1408_a1_boundary
         kind: boolean
         role: supporting
@@ -156,10 +170,17 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1408-SYNTHETIC-MEDIA-DEEPFAKES-AND-PROVENANCE-01-A2
     sequence: 2
-    title: Rehearse Synthetic media, deepfakes, and provenance twice
-    instructions: Perform two bounded attempts of the selected Synthetic media, deepfakes, and provenance
-      component under comparable safe conditions. Use self-review, a consensual observer, or a reviewed
-      artifact; do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Corroborate through a known independent source
+    instructions: 'Open the previously known event page directly and contact the organizer through the
+      established route, not a number or payment link embedded in the clip. Ask about the venue and fee
+      separately. Compare dates, time zone and the full announcement if available. Do not upload private
+      media to an unknown detector or forward the clip widely while asking whether it is real.
+
+
+      Observation checks: The route is independent of the media’s embedded instructions; Venue fee date
+      and context are checked separately; Private media is not sent to an unverified detection service;
+      The uncertain clip is not amplified during checking. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -175,15 +196,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1408_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - the_route_is_independent_of_the_media_s_embedded_instructions
+        - venue_fee_date_and_context_are_checked_separately
+        - private_media_is_not_sent_to_an_unverified_detection_service
+        - the_uncertain_clip_is_not_amplified_during_checking
       - measurement_id: c1408_a2_boundary
         kind: boolean
         role: supporting
@@ -200,10 +222,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1408-SYNTHETIC-MEDIA-DEEPFAKES-AND-PROVENANCE-01-A3
     sequence: 3
-    title: Use feedback for one Synthetic media, deepfakes, and provenance retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Checks provenance
-      and corroboration before acting on consequential synthetic or uncertain media.'
+    title: Choose a proportionate action and communicate the uncertainty
+    instructions: 'Mark each claim corroborated, contradicted or unresolved. If unresolved, do not pay
+      or change a consequential plan solely on the clip; seek a verified update. Draft a neutral correction
+      for someone already affected, such as The fee claim is not confirmed by the official channel, rather
+      than accusing a named person of fabrication. Preserve only the minimum lawful evidence needed for
+      an official report.
+
+
+      Observation checks: Each consequential claim has an evidence-based disposition; Payment or other
+      consequential action waits for adequate verification; Any correction states evidence and uncertainty
+      without unsupported accusations; Evidence retention is minimal lawful and privacy-conscious. Mark
+      only what you observed. Missing, mixed and negative results are valid; a deferred action is not
+      completed.
+
+
+      Final review: What established the decision-worthy fact, and what remained unknown about how the
+      media was produced?
+
+
+      Examples: Supportive: The known organizer confirmed the original venue and no fee, so the participant
+      corrected the claim without pretending to identify the clip’s creator.
+
+
+      Mixed: The date was verified, but provenance remained incomplete and the media itself stayed unclassified.
+
+
+      Contradictory: A detector score, familiar voice or valid credential was treated as conclusive proof
+      of truth or fraud.
+
+
+      Inconclusive: The clip was forwarded to a group with an alarming caption before any independent
+      check.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -225,9 +275,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1408_a3_feedback_item_selected
-        - c1408_a3_adjustment_traceable
-        - c1408_a3_retry_result_preserved
+        - each_consequential_claim_has_an_evidence_based_disposition
+        - payment_or_other_consequential_action_waits_for_adequate_verification
+        - any_correction_states_evidence_and_uncertainty_without_unsupported_accusations
+        - evidence_retention_is_minimal_lawful_and_privacy_conscious
       - measurement_id: c1408_a3_boundary
         kind: boolean
         role: supporting
@@ -248,17 +299,17 @@ intervention:
       Synthetic media, deepfakes, and provenance; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Synthetic media, deepfakes, and provenance; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use text transcripts, captions or a fully written scenario when audio or visual media is inaccessible.
+      A consented practice clip can be analyzed without identifying a real person. Threatening or intimate
+      material requires appropriate specialist reporting and must not be redistributed.
     cultural_context:
     - Adapt the expression of Synthetic media, deepfakes, and provenance to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Synthetic media, deepfakes, and provenance opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use text transcripts, captions or a fully written scenario when audio or visual media is inaccessible.
+      A consented practice clip can be analyzed without identifying a real person. Threatening or intimate
+      material requires appropriate specialist reporting and must not be redistributed.
   pause_conditions:
   - Pause Synthetic media, deepfakes, and provenance when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -290,10 +341,7 @@ evidence_and_scoring:
   - c1408_a3_boundary
   - c1408_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Synthetic media, deepfakes, and provenance action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Synthetic media, deepfakes, and provenance criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A detector score, familiar voice or valid credential was treated as conclusive proof of truth or fraud.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Synthetic media, deepfakes, and provenance explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -304,14 +352,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Synthetic media, deepfakes, and provenance rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Checks provenance and corroboration before acting on consequential synthetic or uncertain media.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Synthetic media, deepfakes, and provenance requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate the asset’s history from the claim it makes. Observed checks:
+    Supplier original context provenance and factual claim are separated; Realistic appearance is not
+    equated with authenticity; Missing or valid provenance is interpreted within its limits; No identity
+    inference from voice or appearance substitutes for verification. Action 2: Corroborate through a known
+    independent source. Observed checks: The route is independent of the media’s embedded instructions;
+    Venue fee date and context are checked separately; Private media is not sent to an unverified detection
+    service; The uncertain clip is not amplified during checking. Action 3: Choose a proportionate action
+    and communicate the uncertainty. Observed checks: Each consequential claim has an evidence-based disposition;
+    Payment or other consequential action waits for adequate verification; Any correction states evidence
+    and uncertainty without unsupported accusations; Evidence retention is minimal lawful and privacy-conscious.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. The clip was forwarded to a group with an alarming
+    caption before any independent check.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Synthetic
     media, deepfakes, and provenance contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -320,9 +377,8 @@ evidence_and_scoring:
   - L13
   - L19
   - L31
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Synthetic media, deepfakes, and provenance evidence.
@@ -330,11 +386,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for synthetic media, deepfakes, and provenance action was attempted
-    or explicitly deferred.
-  - The rehearse synthetic media, deepfakes, and provenance twice action was attempted or explicitly deferred.
-  - The use feedback for one synthetic media, deepfakes, and provenance retry action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Separate the asset’s history from the claim it makes. Observed checks: Supplier original
+    context provenance and factual claim are separated; Realistic appearance is not equated with authenticity;
+    Missing or valid provenance is interpreted within its limits; No identity inference from voice or
+    appearance substitutes for verification.'
+  - 'Action 2: Corroborate through a known independent source. Observed checks: The route is independent
+    of the media’s embedded instructions; Venue fee date and context are checked separately; Private media
+    is not sent to an unverified detection service; The uncertain clip is not amplified during checking.'
+  - 'Action 3: Choose a proportionate action and communicate the uncertainty. Observed checks: Each consequential
+    claim has an evidence-based disposition; Payment or other consequential action waits for adequate
+    verification; Any correction states evidence and uncertainty without unsupported accusations; Evidence
+    retention is minimal lawful and privacy-conscious.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -343,61 +408,342 @@ completion_and_review:
     - c1408_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Synthetic media, deepfakes, and provenance only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Synthetic media, deepfakes, and provenance across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What established the decision-worthy fact, and what remained unknown about how
+    the media was produced?
+  transfer_limit: This is verification practice, not forensic authentication or a reliable deepfake-detection
+    test. Missing provenance does not prove fabrication, and valid credentials do not prove that a depicted
+    event or claim is true.
   reflection:
-    before: What does Synthetic media, deepfakes, and provenance require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Synthetic media, deepfakes, and provenance criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Checks provenance and corroboration before acting on consequential
-      synthetic or uncertain media.', what contradiction or missing context matters most, and should this
-      Synthetic media, deepfakes, and provenance design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Distinguish media provenance, alteration and
+      factual truth, and corroborate a consequential claim before acting on a convincing image, audio
+      clip, video or document.'
+    during: Which checks have actually been observed? The date was verified, but provenance remained incomplete
+      and the media itself stayed unclassified.
+    after: What established the decision-worthy fact, and what remained unknown about how the media was
+      produced?
   review_guidance:
     repeat: Repeat the same bounded Synthetic media, deepfakes, and provenance design only when the context
       and burden remain appropriate.
-    adapt: Change the Synthetic media, deepfakes, and provenance medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use text transcripts, captions or a fully written scenario when audio or visual media is inaccessible.
+      A consented practice clip can be analyzed without identifying a real person. Threatening or intimate
+      material requires appropriate specialist reporting and must not be redistributed.
     stop: Stop Synthetic media, deepfakes, and provenance when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Synthetic media, deepfakes, and provenance
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Synthetic media, deepfakes, and provenance criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Synthetic media, deepfakes, and provenance criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Synthetic media, deepfakes, and provenance
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Synthetic media, deepfakes, and provenance action was deferred, not observed, not
-      applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The known organizer confirmed the original venue and no fee, so the participant corrected
+      the claim without pretending to identify the clip’s creator.
+    mixed: The date was verified, but provenance remained incomplete and the media itself stayed unclassified.
+    contradictory: A detector score, familiar voice or valid credential was treated as conclusive proof
+      of truth or fraud.
+    inconclusive: The clip was forwarded to a group with an alarming caption before any independent check.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Synthetic media, deepfakes, and provenance.
+    context_heading: Check an alarming media clip without treating appearance as proof
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Synthetic
       media, deepfakes, and provenance.
   check_in_labels:
-    c1408_a1_primary: The bounded Synthetic media, deepfakes, and provenance criterion for action 1 was
-      observed
+    c1408_a1_primary: 'Observed checks: separate the asset’s history from the claim it makes'
     c1408_a1_boundary: Action 1 stayed inside its stated Synthetic media, deepfakes, and provenance boundary
     c1408_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1408_a2_primary: The bounded Synthetic media, deepfakes, and provenance criterion for action 2 was
-      observed
+    c1408_a2_primary: 'Observed checks: corroborate through a known independent source'
     c1408_a2_boundary: Action 2 stayed inside its stated Synthetic media, deepfakes, and provenance boundary
     c1408_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1408_a3_primary: The bounded Synthetic media, deepfakes, and provenance criterion for action 3 was
-      observed
+    c1408_a3_primary: 'Observed checks: choose a proportionate action and communicate the uncertainty'
     c1408_a3_boundary: Action 3 stayed inside its stated Synthetic media, deepfakes, and provenance boundary
     c1408_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Synthetic media, deepfakes,
-    and provenance practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What established the decision-worthy fact, and what remained unknown about how the
+    media was produced? Completion is not mastery.
+  plain_language_evidence: The known organizer confirmed the original venue and no fee, so the participant
+    corrected the claim without pretending to identify the clip’s creator.
   display_order: 184
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '14.08'
+  title: 14.08 — Synthetic media, deepfakes, and provenance
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [What To Do if You Were Scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [What To Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+
+      - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
+
+      - [AI 600-1: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+      - [Content Credentials explainer v2.4](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+
+      - [Improving college students’ fact-checking strategies through lateral reading instruction in a
+      general education civics course](https://link.springer.com/article/10.1186/s41235-021-00291-4)
+
+      - [Report adult cyber abuse](https://www.esafety.gov.au/key-topics/adult-cyber-abuse/report-adult-cyber-abuse)
+
+      - [What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+      - [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+      - [deed](https://creativecommons.org/licenses/by/4.0/)
+
+      - [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+      - [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+
+      - [BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+      - [MIT License](https://opensource.org/license/mit)
+
+      - [Backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+
+      - [User rights under the Digital Services Act](https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act)
+
+      - [Developing for Web Accessibility](https://www.w3.org/WAI/tips/developing/)
+
+      - [First Aid Online Classes](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+
+      - [Learn First Aid](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+
+      - [Adult cardiac arrest](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-cardiac-arrest)
+
+      - [adult/child choking](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking)
+
+      - [Life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+      - [Shock](https://www.redcross.org/take-a-class/resources/learn-first-aid/shock)
+
+      - [Burns](https://www.redcross.org/take-a-class/resources/learn-first-aid/burns)
+
+      - [Poison exposure](https://www.redcross.org/take-a-class/resources/learn-first-aid/poison-exposure)
+
+      - [Making an Emergency Plan](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+
+      - [Make a Plan](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+
+      - [Causes and prevention: overview](https://www.hse.gov.uk/slips/preventing-overview.htm)
+
+      - [A computational reward learning account of social media engagement](https://www.nature.com/articles/s41467-020-19607-x)
+
+      - [publisher correction](https://www.nature.com/articles/s41467-021-22067-6)
+
+      - [author-hosted abstract of Exposure to ideologically diverse news and opinion on Facebook](https://solomonmg.github.io/publications/bakshy-2015-exposure/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'At 10:30 on June 11, the organizer replies through the previously held contact route: “The
+      June 12 repair event is at South Hall at 10:00, free. The June 9 page remains current. We have not
+      requested payment.” This corroborates E''s arrangements and contradicts A/C''s consequential venue
+      and fee claims for this event.
+
+
+      The organizer has not examined the files and does not identify their creator. A–D could contain
+      synthetic, edited, reused or otherwise misleading material; their precise production histories are
+      not settled. D''s valid editing-tool signature remains a narrow provenance fact. It does not turn
+      its spoken event claim into truth. B''s date and event remain unknown.
+
+
+      A suitable attendee update: “For the June 12 repair event, the organizer confirmed South Hall at
+      10:00 and free entry through our established contact route at 10:30 today. The forwarded venue/payment
+      instructions conflict with that confirmation. The media''s origin remains unverified; please use
+      the established event page.”
+
+
+      Alternative branch, replacing the reply above: “Entry is free; the venue is still being confirmed.”
+      Only the fee is resolved. The old page cannot settle a current venue question once the responsible
+      organizer explicitly says it is unresolved. Draft a different update for this branch; do not combine
+      the two mutually exclusive replies.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Decide what the media can establish
+
+
+      Audio, images, video and documents can be generated, edited or placed in a misleading context. An
+      authentic recording can carry a false claim; a synthetic illustration can accurately explain something.
+      The useful task is to separate the asset''s history from the truth of the proposition you might
+      act on.
+
+
+      Allow 30 minutes for a written event case. You will inspect supplied transcripts and metadata descriptions,
+      not actual suspicious files. No voice cloning, identity recognition, detector upload or public forwarding
+      is required. Use paper or an accessible editor. Your output is a claim-by-claim decision record
+      and a neutral update for someone affected.
+
+
+      ### Four questions that should stay separate
+
+
+      **Origin:** Where did this copy come from, and is an earlier/full version available? **History:**
+      What transformations are documented? **Integrity:** What does a validated signature actually bind?
+      **Truth:** Which independent record supports the consequential claim? These questions can have different
+      answers.
+
+
+      [C2PA''s explainer](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+      describes Content Credentials as provenance information associated with an asset. Validation can
+      support statements about the recorded history and signer under the tool''s trust model. It cannot,
+      by itself, establish factual truth. Provenance may be incomplete or removed, so absent credentials
+      do not prove fabrication. A badge screenshot is also not a validation result for the file in front
+      of you.
+
+
+      Do not rely on an impression that the mouth looks wrong or a voice sounds familiar. Compression,
+      editing and ordinary recording conditions can change appearance; convincing alterations need not
+      contain obvious glitches. A detector score is an additional fallible signal, not a verdict or a
+      calibrated probability for every file.
+
+
+      Worked example: a signed photograph documents that a particular editor exported a file on Wednesday.
+      A caption says it shows a flood yesterday. The export record does not establish when the scene occurred,
+      where it was recorded, or whether the caption is accurate. Check those claims through event-specific
+      records before issuing an alarm.
+
+
+      ### Complete fictional event packet
+
+
+      It is 10:00 on June 11. All dates and times in this case are local to Cedar Town. You are deciding
+      where to attend the community repair event on June 12 and whether payment is required.
+
+
+      | Asset / record | Supplied facts |
+
+      | --- | --- |
+
+      | A — forwarded audio transcript | “Tomorrow''s repair event has moved to North Hall. Send a 15-unit
+      entry fee using the link attached.” The forwarding account says the voice is the organizer. Original
+      recording date, full context and creator are unknown. |
+
+      | B — image | A poster says “North Hall — entry 15.” It has a familiar club logo. The crop omits
+      the date, event title and source. |
+
+      | C — document | A PDF says “Repair event, June 12, 10:00, North Hall, fee 15.” A screenshot of
+      a green badge accompanies it. No validation of this PDF is supplied. |
+
+      | D — short video | A person introduces an event at North Hall. A supplied validator report says
+      a trusted-listed editing tool signed this exact video file on June 10 and recorded an export/crop.
+      No claim about the event date, speaker identity or truth of spoken claims was validated. |
+
+      | E — established event page | Directly opened from a pre-existing saved address: update June 9,
+      repair event June 12 at 10:00, South Hall, free. It may have become stale. |
+
+      | F — known organizer route | A contact method held before the forwarded media; no reply yet. |
+
+
+      The logo, familiar voice and multiple formats make the material feel coherent, but the packet supplies
+      no evidence that A–D were produced independently. The official page is stronger evidence of the
+      published arrangement, while its update date leaves room for a later change.
+
+
+      #### Action 1 — Split asset claims from event claims
+
+
+      Create one row for each asset: `known supplier | known history | missing context | claim made |
+      corroboration needed`. List venue, date/time and fee separately. For D, write the narrow proposition
+      supported by the validator report. For C, identify why the badge screenshot is insufficient. Avoid
+      converting “not validated” into “fake.”
+
+
+      Write an initial action: do not pay through the forwarded route or change the venue solely because
+      of these assets; seek a current verified update. You can suspend a consequential action without
+      declaring all media false or accusing the organizer.
+
+
+      #### Action 2 — Ask the independent questions
+
+
+      Draft a message through F: “For the June 12 repair event at 10:00, what venue and entry cost are
+      currently confirmed? Has an update superseded the June 9 page?” Name how F was established before
+      the forwarded material. Do not use A''s embedded payment/contact link as your verification route.
+
+
+      Save your initial record and request before opening [the later packet](?resource=file-later-packet-md).
+      Compare each later response only with the claims it addresses. A fee answer does not settle venue;
+      a venue correction does not identify the media''s creator. If two apparently authoritative records
+      conflict, seek explicit reconciliation and retain the conflict rather than selecting whichever looks
+      newer without context.
+
+
+      #### Action 3 — Communicate a decision without overclaiming
+
+
+      Write an update of no more than 60 words for an attendee who already saw the claim. Include event
+      date, current supported venue/cost, the known source and what remains unresolved about the media.
+      Avoid reposting the clip or inventing an accusation. If the event itself remains uncertain, say
+      what still needs confirmation and avoid making a consequential payment on that basis.
+
+
+      Attempt [fresh checks](?attempt=practice-checks), then read [the key](?check=practice-answers).
+      The completed artifact is a provenance/claim table, independent request and calibrated attendee
+      update. A paper interpretation of a supplied validator report is not an actual cryptographic validation
+      you performed.
+
+
+      ### Adapt and apply
+
+
+      The text route works without hearing or vision; no learner must identify a person by voice or face.
+      For private, threatening or intimate media, use appropriate platform and specialist support, avoid
+      unknown detector services, and preserve only necessary lawful report evidence. Do not redistribute
+      sensitive media to crowdsource a verdict.
+
+
+      Harder route: the organizer confirms North Hall but denies the fee. Revise venue and cost independently.
+      You still do not know whether a file is synthetic, selectively edited, mistaken or copied from another
+      event. Decisions about attending and paying may become possible before forensic questions are settled.
+
+
+      For real transfer, choose a harmless public announcement. Trace its original publisher and event
+      date, inspect any available provenance within its stated limits, and corroborate the actionable
+      claim through a known route. Record inaccessible information as inaccessible. No-match reverse searches
+      and absent credentials remain missing evidence, not proof of fabrication.
+
+
+      **Supportive:** Consequential claims are corroborated independently and provenance limits remain
+      visible. **Mixed:** The fee is resolved but venue or origin remains unknown. **Contradictory:**
+      Appearance, a badge or a detector score becomes a truth guarantee. **Inconclusive:** The clip is
+      circulated for opinions without an independent event check.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A valid credential records that a file was exported by an editor on July 2. Its caption
+      says a bridge collapsed on July 1. Which claims have been established?
+
+      2. An image has no credentials and a detector labels it “92% AI.” A current primary record independently
+      confirms the pictured event. How should you describe event truth and media origin?
+
+      3. A known organizer confirms a new venue but says entry remains free. A clip claims both the new
+      venue and a fee. Write a two-part verdict without naming a forger.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The credential supports its scoped export/provenance assertion under the validator''s trust
+      assumptions. It does not establish the bridge, collapse or event date. Obtain event-specific corroboration.
+      Export time and capture/event time are different.
+
+      2. The primary record supports the event within its stated scope. This does not authenticate that
+      particular image. Missing credentials and the detector label do not prove AI generation or supply
+      a universal 92% probability. State that production history remains unresolved.
+
+      3. The new venue is corroborated; the fee is contradicted by the independently contacted organizer.
+      Use the confirmed arrangement and decline the fee instruction. A partly accurate message can still
+      contain a harmful addition; no creator identity or intent has been established.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

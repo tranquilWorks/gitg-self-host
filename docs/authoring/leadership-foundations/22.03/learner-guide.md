@@ -47,8 +47,8 @@ Use a spoken private response through a willing neutral helper when writing is a
 
 [OECD leadership, S02](../SOURCES.md#S02), supports attention to integrity in leadership systems. [Charity Commission conflict guidance, S09](../SOURCES.md#S09), illustrates identifying, managing and recording conflicts. Only those conceptual principles are adapted. Its charity-specific duties are not applied as rules for every group; OP-3 and this opportunity are original fiction.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability and normative status both remain role_conditional. Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records outside app evidence. Human dignity is never scored.
+Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

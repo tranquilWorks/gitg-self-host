@@ -35,7 +35,7 @@ This sequence is original instructional prose for the fictional ordinary lesson.
 
 **Attempt 2:** a second sheet has the correct alternating directions and opens without the earlier buckle. The upper edges are uneven because the corners slipped during the initial folds. Jo's specific correction is to align the upper corners before pressing the fold and to hold them in place while beginning the crease.
 
-Tarin repeats that alignment component with two folds on spare paper. The corners meet more closely in this supplied component practice. There is no third complete fan and no independent assessment of mastery. Both whole attempts, the sequence error and the remaining alignment issue stay in the record.
+Tarin repeats that alignment component with two folds on an offcut from one of the two supplied sheets. The corners meet more closely in this supplied component practice. There is no third complete fan and no independent assessment of mastery. Both whole attempts, the sequence error and the remaining alignment issue stay in the record.
 
 Technique and responsibility belong together. A technically neater object would not authorize public teaching. Likewise, respectful credit alone would not show that the foundational fold was learned. The review needs an inspectable attempt and a truthful account of the learning relationship.
 
@@ -49,8 +49,8 @@ For your own attempt, retain the agreement, the form's purpose, the stated begin
 
 For support, work through the supplied sequence as preparation and use a larger sheet or assistance chosen by the learner. For a harder pass, explain why a count-correct fan can still buckle, then demonstrate the correction only within the actual permission given. One short lesson is an introduction to a practice and its responsibilities; it confers neither membership nor authority to teach unlearned material.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains elective_cultivation and normative status elective_but_flourishing_relevant. Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2104-DELIBERATE-MASTERY-AND-EXPERTISE-01
 slug: c2104-deliberate-mastery-and-expertise-practice
-name: Bounded Deliberate mastery and expertise Practice
+name: Improve one difficult craft component against an external check
 parent_competency_id: '21.04'
 domain_id: '21'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 21.04
-      (Deliberate mastery and expertise); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 21.04; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Deliberate mastery and expertise through a low-stakes skill rehearsal bounded by
-    the canonical scope: Target weaknesses, practice at the edge of ability, seek expert critique, and
-    integrate components.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Performance improves
-    on a meaningful external standard. The protocol creates a small opportunity to examine that target
-    without treating completion as broad capability.'
+  purpose: Target a specific weakness, use informative critique and integrate the corrected component
+    into a whole task while preserving the distinction between practice and expertise.
+  why_recommended: Target a specific weakness, use informative critique and integrate the corrected component
+    into a whole task while preserving the distinction between practice and expertise.
   claims:
-  - statement: Using the canonical scope and evidence target for Deliberate mastery and expertise is a
-      traceable product-design basis for a source-only draft protocol.
+  - statement: Target a specific weakness, use informative critique and integrate the corrected component
+      into a whole task while preserving the distinction between practice and expertise.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Deliberate mastery and expertise practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Deliberate mastery and expertise as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Deliberate mastery
-    and expertise context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Deliberate
-    mastery and expertise; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use a public answer key, accessible task simulation or a qualified mentor
+    when a live reviewer is unavailable. Mark self-comparison and external critique separately. Do not
+    expose protected work, pressure a subordinate to review you or escalate into unsafe difficulty.
+  opportunity_considerations: Default to explaining a three-step borrowing process clearly enough that
+    a willing reader can perform it without extra questions. Use fictional items and a private draft.
+    The external check is the reader’s actual ability to identify the action order, return location and
+    exception contact; the reader is not required to praise the explanation.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Deliberate mastery and expertise.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Default to explaining a three-step borrowing process clearly enough that a willing reader can perform
+    it without extra questions. Use fictional items and a private draft. The external check is the reader’s
+    actual ability to identify the action order, return location and exception contact; the reader is
+    not required to praise the explanation.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Deliberate mastery and expertise
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a public answer key, accessible task simulation or a qualified mentor when a live reviewer is
+    unavailable. Mark self-comparison and external critique separately. Do not expose protected work,
+    pressure a subordinate to review you or escalate into unsafe difficulty.
   role_conditions:
   - This competency is context sensitive; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Deliberate mastery and expertise actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Deliberate mastery and expertise; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Deliberate
-    mastery and expertise. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Deliberate mastery and expertise actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default to explaining a three-step borrowing process clearly enough that a willing reader can
+    perform it without extra questions. Use fictional items and a private draft. The external check is
+    the reader’s actual ability to identify the action order, return location and exception contact; the
+    reader is not required to praise the explanation. Goal: Target a specific weakness, use informative
+    critique and integrate the corrected component into a whole task while preserving the distinction
+    between practice and expertise. Scope: Use a safe skill within your authority and an appropriate external
+    criterion or reviewer. One improvement does not establish mastery, talent or transfer to high-stakes
+    work. Time and effort: Twenty minutes to select the component, two 10–15 minute attempts, one critique
+    pass and a short integration test. Adaptation: Use a public answer key, accessible task simulation
+    or a qualified mentor when a live reviewer is unavailable. Mark self-comparison and external critique
+    separately. Do not expose protected work, pressure a subordinate to review you or escalate into unsafe
+    difficulty. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a public answer key, accessible task simulation or a qualified mentor when
+    a live reviewer is unavailable. Mark self-comparison and external critique separately. Do not expose
+    protected work, pressure a subordinate to review you or escalate into unsafe difficulty.
+  expected_burden: Twenty minutes to select the component, two 10–15 minute attempts, one critique pass
+    and a short integration test.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Deliberate mastery and expertise protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +109,25 @@ intervention:
   - Treating a completed Deliberate mastery and expertise action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Deliberate mastery and expertise situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a public
+    answer key, accessible task simulation or a qualified mentor when a live reviewer is unavailable.
+    Mark self-comparison and external critique separately. Do not expose protected work, pressure a subordinate
+    to review you or escalate into unsafe difficulty.
   actions:
   - stable_id: PRACTICE-COMP-2104-DELIBERATE-MASTERY-AND-EXPERTISE-01-A1
     sequence: 1
-    title: Define observable criteria for Deliberate mastery and expertise
-    instructions: 'Select one safe, lawful, low-stakes component of Deliberate mastery and expertise.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Target
-      weaknesses, practice at the edge of ability, seek expert critique, and integrate components.'
+    title: Find the weak component from observed performance
+    instructions: 'Make a short baseline explanation and have the willing reader attempt the harmless
+      task or compare it with a published authoritative procedure. Identify one unstable component, such
+      as an exception instruction appearing before the main action. Choose a difficulty just beyond current
+      reliable performance while preserving safety and access supports. Record the criterion before revising
+      so success cannot be redefined after seeing the result.
+
+
+      Observation checks: A baseline uses an external task or authoritative criterion; One observable
+      weak component is selected; Difficulty is challenging but safe and supported; The success criterion
+      is fixed before revision. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +149,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2104_a1_skill_component_bounded
-        - c2104_a1_observable_rubric_present
-        - c2104_a1_error_or_stop_defined
+        - a_baseline_uses_an_external_task_or_authoritative_criterion
+        - one_observable_weak_component_is_selected
+        - difficulty_is_challenging_but_safe_and_supported
+        - the_success_criterion_is_fixed_before_revision
       - measurement_id: c2104_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +169,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2104-DELIBERATE-MASTERY-AND-EXPERTISE-01-A2
     sequence: 2
-    title: Rehearse Deliberate mastery and expertise twice
-    instructions: Perform two bounded attempts of the selected Deliberate mastery and expertise component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Seek specific critique and practice the correction
+    instructions: 'Ask an appropriately skilled reviewer or the intended reader where the explanation
+      failed and what information was missing. Distinguish a criterion-based correction from personal
+      taste or prestige. Revise only the selected component and rehearse it twice on two fictional item
+      examples. Accept a supported correction without treating the reviewer as infallible; where advice
+      conflicts with the governing procedure, verify the standard before using it.
+
+
+      Observation checks: Critique identifies a specific performance gap; A correction is distinguished
+      from preference or authority alone; The component is rehearsed on two examples; Conflicting advice
+      is checked against the governing standard. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +196,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2104_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - critique_identifies_a_specific_performance_gap
+        - a_correction_is_distinguished_from_preference_or_authority_alone
+        - the_component_is_rehearsed_on_two_examples
+        - conflicting_advice_is_checked_against_the_governing_standard
       - measurement_id: c2104_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +222,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2104-DELIBERATE-MASTERY-AND-EXPERTISE-01-A3
     sequence: 3
-    title: Use feedback for one Deliberate mastery and expertise retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Performance
-      improves on a meaningful external standard.'
+    title: Reintegrate and compare the whole task
+    instructions: 'Insert the corrected component into a full explanation and ask the reader to perform
+      a new comparable fictional task. Compare the original and new outcomes on the predeclared criterion,
+      including new confusion introduced elsewhere. Decide whether to repeat the component, seek more
+      qualified critique or increase complexity modestly. Report the observed improvement or lack of it;
+      time spent and feeling stretched are not substitutes for a better external result.
+
+
+      Observation checks: The corrected component is tested within the whole task; A new comparable task
+      checks the original criterion; Regressions elsewhere remain visible; The next practice choice follows
+      observed performance rather than effort alone. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Which correction improved the external result, and did it still work when you put
+      the component back into the whole task?
+
+
+      Examples: Supportive: The reader completed the new task with the revised exception instruction and
+      no new ambiguity, supporting a narrow improvement claim.
+
+
+      Mixed: The isolated sentence improved, but the whole explanation became confusing; the participant
+      returned to integration rather than advancing difficulty.
+
+
+      Contradictory: Effort or a prestigious reviewer’s praise was treated as proof of expertise despite
+      unchanged task performance.
+
+
+      Inconclusive: A weakness was named without a fixed external check, targeted correction or integrated
+      retry.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +275,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2104_a3_feedback_item_selected
-        - c2104_a3_adjustment_traceable
-        - c2104_a3_retry_result_preserved
+        - the_corrected_component_is_tested_within_the_whole_task
+        - a_new_comparable_task_checks_the_original_criterion
+        - regressions_elsewhere_remain_visible
+        - the_next_practice_choice_follows_observed_performance_rather_than_effort_alone
       - measurement_id: c2104_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +299,17 @@ intervention:
       Deliberate mastery and expertise; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Deliberate mastery and expertise; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a public answer key, accessible task simulation or a qualified mentor when a live reviewer is
+      unavailable. Mark self-comparison and external critique separately. Do not expose protected work,
+      pressure a subordinate to review you or escalate into unsafe difficulty.
     cultural_context:
     - Adapt the expression of Deliberate mastery and expertise to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Deliberate mastery and expertise opportunity is unavailable or inappropriate, use a
-      fictional, historical, public, simulated, or planning-only equivalent and retain the narrower evidence
-      classification.
+    - Use a public answer key, accessible task simulation or a qualified mentor when a live reviewer is
+      unavailable. Mark self-comparison and external critique separately. Do not expose protected work,
+      pressure a subordinate to review you or escalate into unsafe difficulty.
   pause_conditions:
   - Pause Deliberate mastery and expertise when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -287,10 +341,8 @@ evidence_and_scoring:
   - c2104_a3_boundary
   - c2104_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Deliberate mastery and expertise action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Deliberate mastery and expertise criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - Effort or a prestigious reviewer’s praise was treated as proof of expertise despite unchanged task
+    performance.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Deliberate mastery and expertise explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +353,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Deliberate mastery and expertise rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Performance improves on a meaningful external standard.—not completion, confidence, conformity,
-    output, independence, or worth.
-  evidence_quality_rubric: Quality for Deliberate mastery and expertise requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Find the weak component from observed performance. Observed checks: A
+    baseline uses an external task or authoritative criterion; One observable weak component is selected;
+    Difficulty is challenging but safe and supported; The success criterion is fixed before revision.
+    Action 2: Seek specific critique and practice the correction. Observed checks: Critique identifies
+    a specific performance gap; A correction is distinguished from preference or authority alone; The
+    component is rehearsed on two examples; Conflicting advice is checked against the governing standard.
+    Action 3: Reintegrate and compare the whole task. Observed checks: The corrected component is tested
+    within the whole task; A new comparable task checks the original criterion; Regressions elsewhere
+    remain visible; The next practice choice follows observed performance rather than effort alone.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A weakness was named without a fixed external check,
+    targeted correction or integrated retry.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Deliberate
     mastery and expertise contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -317,9 +377,8 @@ evidence_and_scoring:
   - L10
   - L15
   - L32
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Deliberate mastery and expertise evidence.
@@ -327,11 +386,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for deliberate mastery and expertise action was attempted or explicitly
-    deferred.
-  - The rehearse deliberate mastery and expertise twice action was attempted or explicitly deferred.
-  - The use feedback for one deliberate mastery and expertise retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Find the weak component from observed performance. Observed checks: A baseline uses an
+    external task or authoritative criterion; One observable weak component is selected; Difficulty is
+    challenging but safe and supported; The success criterion is fixed before revision.'
+  - 'Action 2: Seek specific critique and practice the correction. Observed checks: Critique identifies
+    a specific performance gap; A correction is distinguished from preference or authority alone; The
+    component is rehearsed on two examples; Conflicting advice is checked against the governing standard.'
+  - 'Action 3: Reintegrate and compare the whole task. Observed checks: The corrected component is tested
+    within the whole task; A new comparable task checks the original criterion; Regressions elsewhere
+    remain visible; The next practice choice follows observed performance rather than effort alone.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,57 +406,317 @@ completion_and_review:
     - c2104_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Deliberate mastery and expertise only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Deliberate mastery and expertise across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which correction improved the external result, and did it still work when you
+    put the component back into the whole task?
+  transfer_limit: Use a safe skill within your authority and an appropriate external criterion or reviewer.
+    One improvement does not establish mastery, talent or transfer to high-stakes work.
   reflection:
-    before: What does Deliberate mastery and expertise require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Deliberate mastery and expertise criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Performance improves on a meaningful external standard.',
-      what contradiction or missing context matters most, and should this Deliberate mastery and expertise
-      design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Target a specific weakness, use informative
+      critique and integrate the corrected component into a whole task while preserving the distinction
+      between practice and expertise.'
+    during: Which checks have actually been observed? The isolated sentence improved, but the whole explanation
+      became confusing; the participant returned to integration rather than advancing difficulty.
+    after: Which correction improved the external result, and did it still work when you put the component
+      back into the whole task?
   review_guidance:
     repeat: Repeat the same bounded Deliberate mastery and expertise design only when the context and
       burden remain appropriate.
-    adapt: Change the Deliberate mastery and expertise medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use a public answer key, accessible task simulation or a qualified mentor when a live reviewer
+      is unavailable. Mark self-comparison and external critique separately. Do not expose protected work,
+      pressure a subordinate to review you or escalate into unsafe difficulty.
     stop: Stop Deliberate mastery and expertise when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Deliberate mastery and expertise questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Deliberate mastery and expertise criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Deliberate mastery and expertise criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Deliberate mastery and expertise criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Deliberate mastery and expertise action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The reader completed the new task with the revised exception instruction and no new ambiguity,
+      supporting a narrow improvement claim.
+    mixed: The isolated sentence improved, but the whole explanation became confusing; the participant
+      returned to integration rather than advancing difficulty.
+    contradictory: Effort or a prestigious reviewer’s praise was treated as proof of expertise despite
+      unchanged task performance.
+    inconclusive: A weakness was named without a fixed external check, targeted correction or integrated
+      retry.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Deliberate mastery and expertise.
+    context_heading: Improve one difficult craft component against an external check
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Deliberate
       mastery and expertise.
   check_in_labels:
-    c2104_a1_primary: The bounded Deliberate mastery and expertise criterion for action 1 was observed
+    c2104_a1_primary: 'Observed checks: find the weak component from observed performance'
     c2104_a1_boundary: Action 1 stayed inside its stated Deliberate mastery and expertise boundary
     c2104_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2104_a2_primary: The bounded Deliberate mastery and expertise criterion for action 2 was observed
+    c2104_a2_primary: 'Observed checks: seek specific critique and practice the correction'
     c2104_a2_boundary: Action 2 stayed inside its stated Deliberate mastery and expertise boundary
     c2104_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2104_a3_primary: The bounded Deliberate mastery and expertise criterion for action 3 was observed
+    c2104_a3_primary: 'Observed checks: reintegrate and compare the whole task'
     c2104_a3_boundary: Action 3 stayed inside its stated Deliberate mastery and expertise boundary
     c2104_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Deliberate mastery
-    and expertise practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which correction improved the external result, and did it still work when you put the
+    component back into the whole task? Completion is not mastery.
+  plain_language_evidence: The reader completed the new task with the revised exception instruction and
+    no new ambiguity, supporting a narrow improvement claim.
   display_order: 284
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '21.04'
+  title: 21.04 — Deliberate mastery and expertise
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Identifying conspiracy theories](https://commission.europa.eu/strategy-and-policy/coronavirus-response/fighting-disinformation/identifying-conspiracy-theories_en)
+
+      - [What mediation is and how it can help — Mediation at work](https://www.acas.org.uk/mediation)
+
+      - [Letter from Birmingham Jail](https://kinginstitute.stanford.edu/letter-birmingham-jail)
+
+      - [Community Engagement and Accountability](https://www.ifrc.org/our-work/inclusion-protection-and-engagement/community-engagement-and-accountability)
+
+      - [The ILO Social Protection Floors Recommendation, 2012 (No. 202)](https://www.ilo.org/resource/news/ilo-social-protection-floors-recommendation-2012-no-202)
+
+      - [What Is Transitional Justice?](https://www.ictj.org/what-transitional-justice)
+
+      - [Decent work and the 2030 Agenda for sustainable development](https://www.ilo.org/topics-and-sectors/decent-work-and-2030-agenda-sustainable-development)
+
+      - [What is Career Readiness? — Professionalism](https://www.naceweb.org/career-readiness/competencies/career-readiness-defined)
+
+      - [Learning Principles](https://www.cmu.edu/teaching/principles/learning.html)
+
+      - [Quality Glossary](https://asq.org/quality-resources/quality-glossary)
+
+      - [Learning about users and their needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)
+
+      - [6.3 Interface Management](https://www.nasa.gov/reference/6-3-interface-management/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence.
+
+
+      The baseline comparison meets order and normal-location criteria but fails the damaged-item route:
+      two of three. The revised exception sends P1 to BLUE and P2 to the desk correctly. Those are two
+      component checks, not two complete independent demonstrations of expertise.
+
+
+      Worked integration item F1 is a damaged chart card. In v2 the exception is correct, but the full
+      explanation omits writing the item ID before use. The fictional reader follows that omission. Normal
+      destination knowledge and exception routing are correct; order/logging fails, so the full task still
+      meets only two of three criteria. The author does not declare improvement merely because the original
+      defect disappeared.
+
+
+      After restoring the log step, v3 is checked on fresh damaged item F2, a diagram card. The supplied
+      reader response identifies approval then logging/use, BLUE for an undamaged item, and the desk for
+      this damaged item. All three criteria are met in that case. No actual reader or expert was involved.
+      The result supports a narrow fictional integration improvement, while retention, uncoached real
+      performance, broader contexts and expertise remain untested.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Improve one weak component against a fixed external criterion, then check whether it survives
+      reintegration into the whole task. Allow twenty minutes to establish a baseline, two short practice
+      attempts, a critique pass and a fresh integrated test. Use the complete paper borrowing task. One
+      improvement does not establish mastery, talent or readiness for high-consequence work.
+
+
+      ### How to use the supplied outcomes
+
+
+      The main and later packets narrate worked analysis: some explanations and outcomes are supplied.
+      Use them to inspect reasoning, not to claim an unaided performance. Complete the changed-case attempt
+      in the separate check-prompts file before opening its answer for a new application.
+
+
+      ### Practice a discriminating weakness
+
+
+      A vague aim such as “get better at explaining” gives little guidance. Observe a specific failure
+      and identify a component whose correction could improve the real task. The challenge should be beyond
+      current reliable performance while remaining safe and accessible. Repetition of what is already
+      easy can build fluency but does not by itself address the unstable part.
+
+
+      Set the criterion before revising. An external standard may be an authoritative procedure, a meaningful
+      performance task or appropriately qualified critique. A reader''s ability to use an instruction
+      differs from whether they like its tone. A source check, self-comparison and another person''s performance
+      are different evidence types; label each honestly. This fictional task supplies a governing procedure,
+      so no missing standard has to be invented.
+
+
+      Ask for critique that identifies the gap, its consequence and a possible correction. A skilled reviewer
+      can notice patterns you miss, but expertise does not make every preference a requirement. Compare
+      advice with the actual governing rule. If a prestigious reviewer suggests a shortcut that violates
+      it, resolve that conflict before using the advice. Do not pressure a subordinate to praise you or
+      expose protected work to obtain feedback.
+
+
+      Practice the selected component on more than one example. Vary the detail that matters while holding
+      the criterion stable, then inspect each attempt. Effort, discomfort and time spent are not substitutes
+      for improvement. Retain access supports, take a pause when fatigue defeats useful feedback and choose
+      further difficulty from observed performance rather than a desire to prove toughness.
+
+
+      Component improvement is not enough. Adding a correct exception sentence can disrupt order elsewhere;
+      removing ambiguity can accidentally omit a required step. Reintegrate into the whole task and use
+      a fresh comparable case. A regression is useful evidence about the next practice need. Keep the
+      original standard rather than redefining success around whichever detail improved.
+
+
+      Expertise develops across more performance, complexity and contexts than one small exercise can
+      establish. A narrow result can justify another trial or a modest increase in challenge. It cannot
+      certify professional competence, broad transfer or an innate trait. Confidence should follow the
+      evidence rather than the reviewer''s status or the elegance of the explanation.
+
+
+      ### Worked example
+
+
+      A borrower instruction gives the normal return location but sends damaged items there too. The author
+      practices a clear exception and gets that sentence right. In the first integrated revision, however,
+      the required log step disappears. The corrected component worked; the whole instruction still fails.
+      The next revision restores the log and is checked on a fresh item before difficulty increases.
+
+
+      ### Complete fictional standard and materials
+
+
+      The authorized paper procedure has three stages: **1. Ask the desk for approval before borrowing
+      a card. 2. Write its item ID on a borrow slip, then use the card. 3. Return an undamaged card to
+      the BLUE tray; if damaged, keep it out of the tray, report it to the desk and leave it with the
+      desk.** No real borrowing, credentials or personal log is involved.
+
+
+      The fixed check asks whether a reader can identify **the action order including approval and logging,
+      the normal return location, and the damaged-item contact/route**. These are three task criteria,
+      not app points or a mastery score. Baseline text reads: “Ask the desk, write the ID and use the
+      card. Return it to BLUE when finished; mention damage when convenient.” Its damage route is misleading.
+
+
+      Baseline item B0 is a damaged map card. Practice items P1 and P2 are, respectively, an undamaged
+      route card and a damaged map card. A fictional experienced desk steward''s critique is: “The normal
+      tray must never receive the damaged card; explain the exception before the return decision.” This
+      is supplied critique, not an actual expert receipt. Worked integration items will appear in the
+      later packet.
+
+
+      ### Target, practice and reintegrate
+
+
+      1. Compare the baseline text with the standard and check the three criteria before changing them.
+      Explain why the damaged-item route is the weak component. Output: a criterion-based baseline, with
+      self-comparison labeled rather than invented reader performance.
+
+      2. Evaluate the steward''s critique against the rule. Rewrite the exception without changing approval,
+      logging or normal return. Output: one targeted correction and its reason, separated from stylistic
+      preference.
+
+      3. Rehearse the route for P1 and P2, explaining which condition changes the destination. Inspect
+      both against the fixed procedure. Output: two component attempts, not a claim that the whole instruction
+      now works.
+
+      4. Save the revision before the [later packet](?resource=file-later-packet-md). Integrate it into
+      a complete explanation, then check the new item and any regression. Output: a full-task comparison
+      on the original criteria.
+
+      5. Decide whether to repeat, seek more skilled critique or cautiously add complexity. Output: a
+      next practice choice and a bounded performance claim, with no unsupported mastery label.
+
+
+      ### Support and transfer
+
+
+      Use physical paper labels, spoken instructions, large print or a chosen helper. A harder case introduces
+      a missing item ID; stop and ask the authorized desk rather than guessing or treating uncertainty
+      as failure. Appropriate challenge includes noticing when a rule does not supply enough information.
+
+
+      In real work, choose a safe skill, legitimate standard and willing reviewer. Maintain confidentiality
+      and formal review for consequential tasks. A fictional steward and prewritten result cannot count
+      as actual observer evidence. Even a successful actual retry needs later work to establish retention,
+      wider transfer and consistent expertise.
+
+
+      ### Source use
+
+
+      [Carnegie Mellon''s Eberly Center learning principles, S09](https://www.cmu.edu/teaching/principles/learning.html),
+      distinguishes component learning, integration and goal-directed practice with criterion-specific
+      feedback. These educational principles support the narrow practice structure; the linked research
+      and any exact training dose were not evaluated. The borrowing procedure, three criteria and all
+      cases are original, not a validated expertise assessment.
+
+
+      ### Use the result at its proper scale
+
+
+      The practical limits in this guide are exercise safeguards, not added canonical metadata.
+
+
+      Paid employment, a career change or a particular work role is not compulsory. Fiction and no attempt
+      are legitimate. Keep private or protected records private.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A reviewer praises your explanation, but the reader sends a damaged card to the normal tray.
+      Which evidence governs the claimed result?
+
+      2. The exception sentence improves, but the integrated revision drops a required logging step. Is
+      the full task now successful?
+
+      3. A fresh supplied case meets all three criteria after correction. What can you claim about mastery,
+      real observer evidence and wider transfer?
+
+
+      ### Changed-case attempt
+
+
+      Save your response before opening the matching answer. This is a new fictional case.
+
+
+      A new fictional card process requires permission, recording the ID before use, and return to GREEN
+      if intact or to the desk if damaged. Draft v3 says: “Ask permission, use the card, write the ID;
+      return intact cards to GREEN and damaged cards to the desk.” A damaged card is supplied. Apply three
+      fixed criteria: correct order, normal route, exception route. Name one repair and explain what a
+      retest must cover.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The predeclared procedure and actual task result govern. Praise is not a substitute for
+      correct routing, and a reviewer''s status cannot waive the rule. Seek specific critique and distinguish
+      self-comparison from real observer evidence.
+
+      2. No. Component success has not survived full integration. Keep the original criteria, repair the
+      regression and test a new comparable case rather than redefining success around the corrected sentence.
+
+      3. A narrow fictional case meets the fixed criteria. It is not actual observer evidence, durable
+      mastery or broad transfer. Further safe real performance, repetition and suitable external review
+      are still needed.
+
+
+      ### Changed-case answer
+
+
+      Normal and exception destinations are correct, but recording occurs too late: 2/3 criteria are met.
+      Move recording before use without losing either destination. A full retest should use both intact
+      and damaged cards while checking the entire sequence. Correcting the sentence is not evidence that
+      another reader successfully used it.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

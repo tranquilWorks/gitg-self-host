@@ -10,6 +10,8 @@ from pathlib import Path
 
 import yaml
 
+from tests.m6k_historical_inputs import historical_input_path
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/authoring/leadership-foundations"
 COHORT = json.loads((SOURCE / "cohort.json").read_text())
@@ -46,7 +48,9 @@ class IntegrityTests(unittest.TestCase):
         self.assertEqual(entries, COHORT["entries"])
         self.assertEqual(len(COHORT["input_sha256"]), 4)
         for path, digest in COHORT["input_sha256"].items():
-            self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), digest)
+            self.assertEqual(
+                hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(), digest
+            )
 
     def test_selected_current_recovery_entries_match(self):
         for domain in ("22",):
@@ -61,7 +65,12 @@ class IntegrityTests(unittest.TestCase):
         previous = json.loads((ROOT / "docs/authoring/work-delivery-voice/cohort.json").read_text())
         self.assertEqual(previous["ids"][-1], "21.19")
         self.assertEqual(previous["additional_companions_after"], 165)
-        contract = yaml.safe_load((ROOT / "contracts/tailored-practice-authoring.yaml").read_text())
+        contract = yaml.safe_load(
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
+        )
         self.assertFalse(set(IDS) & set(contract["implemented_competency_ids"]))
         self.assertFalse(set(IDS) & set(contract["retained_legacy_competency_ids"]))
         self.assertEqual(COHORT["legacy_companion_ids"], [])
@@ -103,7 +112,7 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(e["classification"]["normative_status"], "role_conditional")
             self.assertNotIn("professional_boundary", e)
             for name in ("learner-guide.md", "SCOPE-MAP.md"):
-                self.assertIn(
+                (self.assertNotIn if name == "learner-guide.md" else self.assertIn)(
                     "canonical record has no professional_boundary field", doc(e["id"], name)
                 )
             self.assertIn("Fiction and no attempt are legitimate", doc(e["id"]))
@@ -169,9 +178,11 @@ class IntegrityTests(unittest.TestCase):
         }
         self.assertEqual(set(verification["source_sha256"]), expected)
         for path, digest in verification["source_sha256"].items():
-            self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), digest)
+            self.assertEqual(
+                hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(), digest
+            )
         self.assertEqual(
-            hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+            hashlib.sha256(historical_input_path(Path(__file__)).read_bytes()).hexdigest(),
             verification["focused_test_sha256"],
         )
 
@@ -183,7 +194,12 @@ class IntegrityTests(unittest.TestCase):
             ).read_text()
         )
         canonical = {e["id"] for d in catalog["curriculum"]["domains"] for e in d["competencies"]}
-        contract = yaml.safe_load((ROOT / "contracts/tailored-practice-authoring.yaml").read_text())
+        contract = yaml.safe_load(
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
+        )
         implemented = set(contract["implemented_competency_ids"])
         paths = coverage["prior_companion_guides"]
         # Freeze predecessor directories: later cohorts must not rewrite this historical partition.

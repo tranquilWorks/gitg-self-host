@@ -54,7 +54,7 @@ For each branch produce an ordered ledger: `event time | observed/supplied event
 
 When receipt is supported, record the exact agreed result and the supporting event. If receipt is uncertain, say what is unknown and choose an appropriate low-burden check. If delivery fails, acknowledge the miss and stated impact, propose a feasible repair and retain it as proposed until accepted. Carry out only the action you can actually perform on a live route; a sentence promising repair is not repair completed.
 
-Attempt [check-prompts.md](check-prompts.md) before [check-answers.md](check-answers.md). A complete learning artifact preserves the promise and all branches, distinguishes acceptance from acknowledgment, and contains a repair decision. It adds no application actions or completion rules.
+Attempt [check-prompts.md](check-prompts.md) before [check-answers.md](check-answers.md). A complete learning artifact preserves the promise and all branches, distinguishes acceptance from acknowledgment, and contains a repair decision.
 
 ## Access, challenge and later transfer
 

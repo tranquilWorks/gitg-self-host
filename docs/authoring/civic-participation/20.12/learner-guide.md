@@ -46,9 +46,10 @@ For real transfer, use public material and a low-stakes claim. Check current ins
 
 [SPJ's voluntary ethics code, S15](../SOURCES.md#S15), supports accuracy, independence and accountability in journalism. [AAPOR's Disclosure Standards, S16](../SOURCES.md#S16), identifies methodological information a survey report should disclose, including sponsorship and sample details. The inspected page identifies its April 2021 code version. These sources are not laws, guarantees of compliance or validation of the invented study; the institutional chain and calculations are original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core; normative status is cross_tradition_core_or_broadly_recurrent. This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

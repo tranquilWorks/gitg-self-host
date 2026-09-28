@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1407-AI-LITERACY-AND-APPROPRIATE-USE-01
 slug: c1407-ai-literacy-and-appropriate-use-practice
-name: Bounded AI literacy and appropriate use Practice
+name: Use an AI draft only after checking what it added or changed
 parent_competency_id: '14.07'
 domain_id: '14'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 14.07
-      (AI literacy and appropriate use); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 14.07; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice AI literacy and appropriate use through a low-stakes skill rehearsal bounded by the
-    canonical scope: Understand generative models, uncertainty, hallucination, bias, privacy, automation,
-    and human oversight.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Uses AI with verification,
-    disclosure where relevant, and clear boundaries around high-stakes decisions. The protocol creates
-    a small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Treat generative output as a draft with uncertainty, verify its claims against a source, protect
+    private data and retain human responsibility for use.
+  why_recommended: Treat generative output as a draft with uncertainty, verify its claims against a source,
+    protect private data and retain human responsibility for use.
   claims:
-  - statement: Using the canonical scope and evidence target for AI literacy and appropriate use is a
-      traceable product-design basis for a source-only draft protocol.
+  - statement: Treat generative output as a draft with uncertainty, verify its claims against a source,
+      protect private data and retain human responsibility for use.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded AI literacy and appropriate use practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record AI literacy and appropriate use as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited AI literacy and appropriate
-    use context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to AI literacy
-    and appropriate use; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use the supplied fictional draft entirely offline, an accessible editor or
+    a trusted reader. This demonstrates output auditing even without an AI account. Do not upload classmates’,
+    clients’ or employers’ information or test bias by generating degrading content.
+  opportunity_considerations: 'Source card: The fictional Cedar Club meets Tuesday at 6 p.m. in Room B.
+    Attendance is free. New members should bring a notebook. Sample unverified draft: Join Cedar Club
+    on Thursday at 6 p.m. in Room B; a ten-dollar fee includes a notebook. Use this sample without claiming
+    a real model generated it, or ask an authorized AI tool to rewrite the source without adding facts.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of AI literacy and appropriate use.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Source card: The fictional Cedar Club meets Tuesday at 6 p.m. in Room B. Attendance is free. New
+    members should bring a notebook. Sample unverified draft: Join Cedar Club on Thursday at 6 p.m. in
+    Room B; a ten-dollar fee includes a notebook. Use this sample without claiming a real model generated
+    it, or ask an authorized AI tool to rewrite the source without adding facts.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for AI literacy and appropriate use
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use the supplied fictional draft entirely offline, an accessible editor or a trusted reader. This
+    demonstrates output auditing even without an AI account. Do not upload classmates’, clients’ or employers’
+    information or test bias by generating degrading content.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded AI literacy and appropriate use actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for AI literacy and appropriate use; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for AI literacy
-    and appropriate use. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three AI literacy and appropriate use actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Source card: The fictional Cedar Club meets Tuesday at 6 p.m. in Room B. Attendance is free.
+    New members should bring a notebook. Sample unverified draft: Join Cedar Club on Thursday at 6 p.m.
+    in Room B; a ten-dollar fee includes a notebook. Use this sample without claiming a real model generated
+    it, or ask an authorized AI tool to rewrite the source without adding facts. Goal: Treat generative
+    output as a draft with uncertainty, verify its claims against a source, protect private data and retain
+    human responsibility for use. Scope: This tests one low-stakes drafting workflow, not a model’s general
+    reliability, fairness or suitability for medical, legal, financial or safety decisions. No paid AI
+    service or personal data is required. Time and effort: Twenty minutes using the supplied source and
+    sample draft, or one authorized low-stakes AI interaction. Adaptation: Use the supplied fictional
+    draft entirely offline, an accessible editor or a trusted reader. This demonstrates output auditing
+    even without an AI account. Do not upload classmates’, clients’ or employers’ information or test
+    bias by generating degrading content. Keep personal working notes outside the check-in; record only
+    the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use the supplied fictional draft entirely offline, an accessible editor or a trusted
+    reader. This demonstrates output auditing even without an AI account. Do not upload classmates’, clients’
+    or employers’ information or test bias by generating degrading content.
+  expected_burden: Twenty minutes using the supplied source and sample draft, or one authorized low-stakes
+    AI interaction.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the AI literacy and appropriate use protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +110,25 @@ intervention:
   - Treating a completed AI literacy and appropriate use action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any AI literacy and appropriate use situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use the supplied
+    fictional draft entirely offline, an accessible editor or a trusted reader. This demonstrates output
+    auditing even without an AI account. Do not upload classmates’, clients’ or employers’ information
+    or test bias by generating degrading content.
   actions:
   - stable_id: PRACTICE-COMP-1407-AI-LITERACY-AND-APPROPRIATE-USE-01-A1
     sequence: 1
-    title: Define observable criteria for AI literacy and appropriate use
-    instructions: 'Select one safe, lawful, low-stakes component of AI literacy and appropriate use. Build
-      a three-to-five-item rubric from this scope, including an error or stop criterion: Understand generative
-      models, uncertainty, hallucination, bias, privacy, automation, and human oversight.'
+    title: Set the task boundary and protect the input
+    instructions: 'State the intended audience and permitted transformation: clearer wording of the three
+      source facts, no added dates, fees or promises. Explain that a generative model produces plausible
+      content and may invent details; fluency is not verification. Use only the fictional source, check
+      the tool’s current data-use policy if using one, and exclude private or protected material. Identify
+      a human who remains responsible for publication.
+
+
+      Observation checks: The permitted transformation and factual boundary are explicit; Plausible generation
+      is distinguished from verified retrieval; Only authorized non-sensitive input is used; Human responsibility
+      and any required disclosure are identified. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +150,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1407_a1_skill_component_bounded
-        - c1407_a1_observable_rubric_present
-        - c1407_a1_error_or_stop_defined
+        - the_permitted_transformation_and_factual_boundary_are_explicit
+        - plausible_generation_is_distinguished_from_verified_retrieval
+        - only_authorized_non_sensitive_input_is_used
+        - human_responsibility_and_any_required_disclosure_are_identified
       - measurement_id: c1407_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +170,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1407-AI-LITERACY-AND-APPROPRIATE-USE-01-A2
     sequence: 2
-    title: Rehearse AI literacy and appropriate use twice
-    instructions: Perform two bounded attempts of the selected AI literacy and appropriate use component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Audit every factual claim and one framing choice
+    instructions: 'Compare the draft sentence by sentence with the source card. Mark supported, contradicted
+      or unsupported claims; in the sample, Thursday contradicts Tuesday and the fee and included notebook
+      are unsupported or contradictory. Check whether the wording excludes an audience through unnecessary
+      assumptions, such as every attendee can write by hand. Do not accept invented citations or the model’s
+      own assurance as independent evidence.
+
+
+      Observation checks: Every factual claim is checked against the source; Contradicted and unsupported
+      additions are specifically identified; One audience or bias-related framing assumption is examined;
+      Model confidence or invented citations are not used as verification. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +197,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1407_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - every_factual_claim_is_checked_against_the_source
+        - contradicted_and_unsupported_additions_are_specifically_identified
+        - one_audience_or_bias_related_framing_assumption_is_examined
+        - model_confidence_or_invented_citations_are_not_used_as_verification
       - measurement_id: c1407_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +223,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1407-AI-LITERACY-AND-APPROPRIATE-USE-01-A3
     sequence: 3
-    title: Use feedback for one AI literacy and appropriate use retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Uses AI
-      with verification, disclosure where relevant, and clear boundaries around high-stakes decisions.'
+    title: Produce a corrected draft and decide whether to use it
+    instructions: 'Rewrite the notice with the verified day, time, room, free attendance and request to
+      bring a notebook, allowing an accessible note-taking alternative without claiming the club supplies
+      one. Label AI assistance where the setting requires it and preserve a human review note. Compare
+      the time saved with correction effort; choose manual drafting when verification costs exceed the
+      benefit. Do not automate publication or a consequential decision from this test.
+
+
+      Observation checks: The final draft preserves all source facts and removes inventions; An accessibility
+      suggestion is not turned into an unverified promise; Disclosure and human review match the setting’s
+      requirements; Use or rejection considers verification effort and consequence. Mark only what you
+      observed. Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which error would have reached the audience without your source check, and was AI
+      assistance actually worth the verification effort?
+
+
+      Examples: Supportive: The wrong day and invented fee were removed before sharing, and the writer
+      retained responsibility for the final notice.
+
+
+      Mixed: The factual errors were corrected, but an accessibility accommodation was accidentally promised
+      without confirmation.
+
+
+      Contradictory: A fluent draft or fabricated citation was published without verification or private
+      data was uploaded without authority.
+
+
+      Inconclusive: AI risks were described abstractly without checking a draft or making a real use-versus-reject
+      decision.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +276,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1407_a3_feedback_item_selected
-        - c1407_a3_adjustment_traceable
-        - c1407_a3_retry_result_preserved
+        - the_final_draft_preserves_all_source_facts_and_removes_inventions
+        - an_accessibility_suggestion_is_not_turned_into_an_unverified_promise
+        - disclosure_and_human_review_match_the_setting_s_requirements
+        - use_or_rejection_considers_verification_effort_and_consequence
       - measurement_id: c1407_a3_boundary
         kind: boolean
         role: supporting
@@ -245,16 +300,17 @@ intervention:
       AI literacy and appropriate use; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for AI literacy and appropriate use; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use the supplied fictional draft entirely offline, an accessible editor or a trusted reader. This
+      demonstrates output auditing even without an AI account. Do not upload classmates’, clients’ or
+      employers’ information or test bias by generating degrading content.
     cultural_context:
     - Adapt the expression of AI literacy and appropriate use to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real AI literacy and appropriate use opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use the supplied fictional draft entirely offline, an accessible editor or a trusted reader. This
+      demonstrates output auditing even without an AI account. Do not upload classmates’, clients’ or
+      employers’ information or test bias by generating degrading content.
   pause_conditions:
   - Pause AI literacy and appropriate use when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -286,10 +342,8 @@ evidence_and_scoring:
   - c1407_a3_boundary
   - c1407_a3_adverse
   adverse_or_contradictory_indicators:
-  - The AI literacy and appropriate use action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended AI literacy and appropriate use criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A fluent draft or fabricated citation was published without verification or private data was uploaded
+    without authority.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for AI literacy and appropriate use explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -300,14 +354,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated AI literacy and appropriate use rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Uses AI with verification, disclosure where relevant, and clear boundaries around high-stakes
-    decisions.—not completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for AI literacy and appropriate use requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Set the task boundary and protect the input. Observed checks: The permitted
+    transformation and factual boundary are explicit; Plausible generation is distinguished from verified
+    retrieval; Only authorized non-sensitive input is used; Human responsibility and any required disclosure
+    are identified. Action 2: Audit every factual claim and one framing choice. Observed checks: Every
+    factual claim is checked against the source; Contradicted and unsupported additions are specifically
+    identified; One audience or bias-related framing assumption is examined; Model confidence or invented
+    citations are not used as verification. Action 3: Produce a corrected draft and decide whether to
+    use it. Observed checks: The final draft preserves all source facts and removes inventions; An accessibility
+    suggestion is not turned into an unverified promise; Disclosure and human review match the setting’s
+    requirements; Use or rejection considers verification effort and consequence.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. AI risks were described abstractly without checking
+    a draft or making a real use-versus-reject decision.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct AI literacy
     and appropriate use contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -317,9 +380,8 @@ evidence_and_scoring:
   - L13
   - L15
   - L19
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse AI literacy and appropriate use evidence.
@@ -327,11 +389,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for ai literacy and appropriate use action was attempted or explicitly
-    deferred.
-  - The rehearse ai literacy and appropriate use twice action was attempted or explicitly deferred.
-  - The use feedback for one ai literacy and appropriate use retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Set the task boundary and protect the input. Observed checks: The permitted transformation
+    and factual boundary are explicit; Plausible generation is distinguished from verified retrieval;
+    Only authorized non-sensitive input is used; Human responsibility and any required disclosure are
+    identified.'
+  - 'Action 2: Audit every factual claim and one framing choice. Observed checks: Every factual claim
+    is checked against the source; Contradicted and unsupported additions are specifically identified;
+    One audience or bias-related framing assumption is examined; Model confidence or invented citations
+    are not used as verification.'
+  - 'Action 3: Produce a corrected draft and decide whether to use it. Observed checks: The final draft
+    preserves all source facts and removes inventions; An accessibility suggestion is not turned into
+    an unverified promise; Disclosure and human review match the setting’s requirements; Use or rejection
+    considers verification effort and consequence.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,58 +412,358 @@ completion_and_review:
     - c1407_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden AI literacy and appropriate use only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish AI literacy and appropriate use across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which error would have reached the audience without your source check, and was
+    AI assistance actually worth the verification effort?
+  transfer_limit: This tests one low-stakes drafting workflow, not a model’s general reliability, fairness
+    or suitability for medical, legal, financial or safety decisions. No paid AI service or personal data
+    is required.
   reflection:
-    before: What does AI literacy and appropriate use require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable AI literacy and appropriate use criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Uses AI with verification, disclosure where relevant, and
-      clear boundaries around high-stakes decisions.', what contradiction or missing context matters most,
-      and should this AI literacy and appropriate use design be repeated, adapted, deferred, stopped,
-      or referred?
+    before: 'What would count as doing this honestly? Goal: Treat generative output as a draft with uncertainty,
+      verify its claims against a source, protect private data and retain human responsibility for use.'
+    during: Which checks have actually been observed? The factual errors were corrected, but an accessibility
+      accommodation was accidentally promised without confirmation.
+    after: Which error would have reached the audience without your source check, and was AI assistance
+      actually worth the verification effort?
   review_guidance:
     repeat: Repeat the same bounded AI literacy and appropriate use design only when the context and burden
       remain appropriate.
-    adapt: Change the AI literacy and appropriate use medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use the supplied fictional draft entirely offline, an accessible editor or a trusted reader.
+      This demonstrates output auditing even without an AI account. Do not upload classmates’, clients’
+      or employers’ information or test bias by generating degrading content.
     stop: Stop AI literacy and appropriate use when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for AI literacy and appropriate use questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded AI literacy and appropriate use criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some AI literacy and appropriate use criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended AI literacy and appropriate use criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The AI literacy and appropriate use action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The wrong day and invented fee were removed before sharing, and the writer retained responsibility
+      for the final notice.
+    mixed: The factual errors were corrected, but an accessibility accommodation was accidentally promised
+      without confirmation.
+    contradictory: A fluent draft or fabricated citation was published without verification or private
+      data was uploaded without authority.
+    inconclusive: AI risks were described abstractly without checking a draft or making a real use-versus-reject
+      decision.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for AI literacy and appropriate use.
+    context_heading: Use an AI draft only after checking what it added or changed
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for AI literacy
       and appropriate use.
   check_in_labels:
-    c1407_a1_primary: The bounded AI literacy and appropriate use criterion for action 1 was observed
+    c1407_a1_primary: 'Observed checks: set the task boundary and protect the input'
     c1407_a1_boundary: Action 1 stayed inside its stated AI literacy and appropriate use boundary
     c1407_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1407_a2_primary: The bounded AI literacy and appropriate use criterion for action 2 was observed
+    c1407_a2_primary: 'Observed checks: audit every factual claim and one framing choice'
     c1407_a2_boundary: Action 2 stayed inside its stated AI literacy and appropriate use boundary
     c1407_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1407_a3_primary: The bounded AI literacy and appropriate use criterion for action 3 was observed
+    c1407_a3_primary: 'Observed checks: produce a corrected draft and decide whether to use it'
     c1407_a3_boundary: Action 3 stayed inside its stated AI literacy and appropriate use boundary
     c1407_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited AI literacy and appropriate
-    use practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which error would have reached the audience without your source check, and was AI assistance
+    actually worth the verification effort? Completion is not mastery.
+  plain_language_evidence: The wrong day and invented fee were removed before sharing, and the writer
+    retained responsibility for the final notice.
   display_order: 183
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '14.07'
+  title: 14.07 — AI literacy and appropriate use
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [What To Do if You Were Scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [What To Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+
+      - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
+
+      - [AI 600-1: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+      - [Content Credentials explainer v2.4](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+
+      - [Improving college students’ fact-checking strategies through lateral reading instruction in a
+      general education civics course](https://link.springer.com/article/10.1186/s41235-021-00291-4)
+
+      - [Report adult cyber abuse](https://www.esafety.gov.au/key-topics/adult-cyber-abuse/report-adult-cyber-abuse)
+
+      - [What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+      - [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+      - [deed](https://creativecommons.org/licenses/by/4.0/)
+
+      - [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+      - [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+
+      - [BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+      - [MIT License](https://opensource.org/license/mit)
+
+      - [Backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+
+      - [User rights under the Digital Services Act](https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act)
+
+      - [Developing for Web Accessibility](https://www.w3.org/WAI/tips/developing/)
+
+      - [First Aid Online Classes](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+
+      - [Learn First Aid](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+
+      - [Adult cardiac arrest](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-cardiac-arrest)
+
+      - [adult/child choking](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking)
+
+      - [Life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+      - [Shock](https://www.redcross.org/take-a-class/resources/learn-first-aid/shock)
+
+      - [Burns](https://www.redcross.org/take-a-class/resources/learn-first-aid/burns)
+
+      - [Poison exposure](https://www.redcross.org/take-a-class/resources/learn-first-aid/poison-exposure)
+
+      - [Making an Emergency Plan](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+
+      - [Make a Plan](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+
+      - [Causes and prevention: overview](https://www.hse.gov.uk/slips/preventing-overview.htm)
+
+      - [A computational reward learning account of social media engagement](https://www.nature.com/articles/s41467-020-19607-x)
+
+      - [publisher correction](https://www.nature.com/articles/s41467-021-22067-6)
+
+      - [author-hosted abstract of Exposure to ideologically diverse news and opinion on Facebook](https://solomonmg.github.io/publications/bakshy-2015-exposure/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Compare with your saved version; alternative wording is acceptable if all facts and limits
+      remain.
+
+
+      “Cedar Club welcomes new and returning members on Tuesday at 18:00 in Room B, Cedar Hall. Attendance
+      is free. New members should bring a notebook. For questions about access arrangements, contact the
+      organizer through the club''s existing contact route.”
+
+
+      This example has 39 whitespace-delimited words. It promises no equipment and cites no nonexistent
+      report. It does not say an AI service was used, because the default exercise uses an authored sample.
+
+
+      Fictional effort log: manual drafting took six minutes and a source check took two. An assisted
+      attempt took one minute to request, one to receive/read, five to audit and four to correct and review.
+      Manual total: eight minutes. Assisted total: eleven minutes. The assisted route took three more
+      minutes for these attempts. Different authors, tasks and tools could produce other results; this
+      is not a benchmark.
+
+
+      A second proposed notice restores Tuesday and free attendance but says “accessible equipment provided
+      on request.” That remains unsupported. An organizer''s later acknowledgment that they received an
+      access question would still not confirm the requested arrangement.
+
+
+      Decide whether to use assistance for this task and give a reason tied to the observed correction
+      burden. No publication, actual service use or human reviewer acceptance has occurred merely because
+      you read this packet.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### The useful draft still needs an accountable reader
+
+
+      Generative models learn patterns from data and generate content conditioned on inputs. That can
+      help with wording, summarizing and exploring alternatives, but plausible output is not a guarantee
+      that a claim was retrieved or checked. A model may confidently add a fact, misread a constraint
+      or invent a citation. Tools that retrieve sources still need checks that those sources support the
+      specific statements made.
+
+
+      Allow 35 minutes with the fictional source and sample draft below. You need no AI account, subscription
+      or upload. The sample is deliberately authored for this exercise; it is not an observed output from
+      a named model. Your job is to define an acceptable task, audit claims and framing, and decide whether
+      assistance was worth using.
+
+
+      [NIST''s generative-AI risk profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) discusses
+      confabulation, privacy, harmful bias and human oversight. Those are possible risk categories, not
+      a finding that any particular error here was caused by a particular training source. This exercise
+      cannot establish a model''s general accuracy or fairness.
+
+
+      ### Task boundaries make verification possible
+
+
+      “Make this sound inviting” leaves room for invented offers. A better boundary identifies the audience,
+      authorized facts, permitted transformation and accountable reviewer. For a short notice, facts should
+      remain fixed while wording can change. When the source is silent, ask the owner or leave the claim
+      out.
+
+
+      Worked example: a source says “registration opens Monday.” A draft says “places are guaranteed for
+      everyone who registers Monday.” The day is supported; the guarantee is an addition. Asking the model
+      “are you sure?” creates another generated statement, not independent evidence. Inspect the actual
+      source or ask the responsible organizer.
+
+
+      Automation increases the consequence of an error by passing it to another step. An unverified notice
+      sent automatically to hundreds of people is harder to correct than a private draft. Set a human
+      release point before distribution. For medical, legal, financial or safety decisions, a small drafting
+      success provides no authority to automate the decision or replace qualified judgment.
+
+
+      ### Complete source packet
+
+
+      The fictional Cedar Club organizer supplies these authoritative facts for this exercise:
+
+
+      | Fact | Approved content |
+
+      | --- | --- |
+
+      | Day and time | Tuesday at 18:00 local time |
+
+      | Place | Room B, Cedar Hall |
+
+      | Cost | Attendance is free |
+
+      | Preparation | New members should bring a notebook |
+
+      | Accessibility | Arrangements have not yet been confirmed; questions may be sent to the organizer
+      through the club''s existing contact route |
+
+      | Audience | New and returning members; no age or occupation restriction is stated |
+
+
+      The authorized task is a notice of no more than 70 words. No external facts are needed. The club''s
+      invented publication rule requires a human to approve the final wording and requires disclosure
+      if a real AI tool assisted drafting. The offline sample is a training exercise, so you must not
+      claim actual tool use.
+
+
+      **Sample unverified draft:** “Young professionals: join Cedar Club on Thursday at 18:00 in Room
+      B, Cedar Hall. A ten-dollar fee includes a notebook. Our fully accessible venue guarantees suitable
+      equipment for everyone. The club welcomes new members. These details were verified in the Cedar
+      Access Report 2026.” No such report is supplied.
+
+
+      #### Action 1 — Specify the permitted work
+
+
+      Write a four-line brief: audience, fixed facts, permitted wording changes and human release point.
+      Add an input rule: only this fictional packet. If using a real service later, inspect current data-use
+      settings and organizational rules before providing material; “I have access to it” does not mean
+      “I may upload it.” Do not use private membership lists, accommodation details or workplace records
+      here.
+
+
+      State what the system may do when it cannot answer: identify the missing fact and return it to the
+      human. This is a workflow rule you will enforce, not a guarantee that a prompt prevents errors.
+
+
+      #### Action 2 — Audit claims and framing separately
+
+
+      Mark each factual unit **supported**, **contradicted**, or **unsupported**. A contradiction conflicts
+      with an explicit fact; unsupported means the packet does not settle it. The day and fee conflict
+      with the packet. Included notebooks, universal accessibility and the supposed report lack support.
+      The time, room, hall and welcome to new members have source support. Split sentences that mix categories.
+
+
+      Then inspect the audience framing. “Young professionals” unnecessarily narrows an audience for which
+      neither youth nor occupation is a requirement. This matters even if the logistical facts are repaired.
+      Conversely, you cannot cure exclusion by promising unconfirmed accommodations. Preserve the request
+      to bring a notebook and direct access questions to the organizer without claiming equipment will
+      be supplied.
+
+
+      Record why the citation cannot verify itself: its existence and contents have not been established.
+      For a real citation, open the actual record and inspect the relevant passage. A real-looking title
+      or link is not enough.
+
+
+      #### Action 3 — Correct, compare and decide
+
+
+      Write the notice within 70 words, preserving Tuesday, 18:00, Room B/Cedar Hall, free attendance
+      and the notebook request. Remove the unsupported guarantees and invented report. Include the existing
+      contact route for access questions if space permits. Review the output as the accountable publisher,
+      then save it before opening [the later packet](?resource=file-later-packet-md).
+
+
+      Use the packet''s effort records to compare manual drafting with assisted drafting **including verification
+      and correction**. The faster initial draft is not necessarily the faster usable result. Either accept
+      a reviewed draft, revise the workflow or choose manual drafting for this small task. The decision
+      should follow this use case, not a blanket opinion about AI.
+
+
+      Complete [fresh checks](?attempt=practice-checks) before [the key](?check=practice-answers). Retain
+      the brief, claim audit, corrected notice and use/reject decision. Do not publish anything as part
+      of the default exercise.
+
+
+      ### Adaptations and transfer
+
+
+      Use speech-to-text, a screen reader or a trusted reader with the same fictional facts. A supported
+      route audits the six source rows one at a time. A harder route adds a conflicting second source:
+      preserve both versions and ask which controls publication rather than silently blending them. Neither
+      majority vote among model outputs nor repeated confident assurances resolves authority.
+
+
+      For real transfer, choose an authorized, low-stakes paragraph with a short inspectable source. Record
+      actual tool involvement, check every factual addition and follow the setting''s disclosure rule.
+      Keep sensitive input out. If checking takes more effort than writing, use the manual route. A future
+      tool or model update requires renewed evaluation of the actual task and policies.
+
+
+      **Supportive:** Facts and framing are reviewed before human release. **Mixed:** Facts are corrected
+      but an access promise remains unsupported. **Contradictory:** The model''s assurance is treated
+      as evidence or publication is automated without review. **Inconclusive:** Risks are listed without
+      auditing the draft or making a use decision.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. Source: “Applications close Friday; places are limited.” Draft: “Everyone who applies Friday
+      gets a place.” Classify the deadline and guarantee separately, then repair the sentence.
+
+      2. A generated citation resolves to a real report, but the cited page discusses another town. What
+      has been verified, and what remains unsupported?
+
+      3. An assisted draft takes two minutes plus nine minutes checking/correction; manual drafting and
+      review take seven. It also includes a private attendee list in its prompt. Decide whether to use
+      this workflow and whether a disclosure note cures the input problem.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Friday is the stated deadline, not an allocation guarantee. Limited places leave the guarantee
+      unsupported and potentially misleading; they do not specify an exact allocation rule. Repair: “Applications
+      close Friday; places are limited.” If you called the guarantee a settled fact, separate timing from
+      entitlement.
+
+      2. The report exists. Support for the particular town-level claim is still absent. Check the relevant
+      primary record or omit/suspend the claim; neither a real URL nor the model''s confidence verifies
+      the proposition.
+
+      3. Eleven minutes versus seven makes this attempt four minutes slower. More seriously, the private
+      list requires authority and policy review before input; disclosure afterward does not grant permission
+      retroactively. Use the authorized fictional/minimized manual route here, and follow the organization''s
+      incident process if real protected input was exposed. Do not claim this one example proves all AI
+      drafting inefficient.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

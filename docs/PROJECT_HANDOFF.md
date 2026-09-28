@@ -1,5 +1,72 @@
 # Grounded Growth — Project Handoff
 
+## Owner-accepted catalog publication — 28 September 2026
+
+The owner accepts the product quality for inspection and explicitly authorizes a
+final audit/polish, merge and container publication. This supersedes the earlier
+local-only boundary. It does not manufacture specialist or per-competency formal
+review receipts. See [release evidence](evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md).
+
+Final polish selects PyYAML’s safe native loader, with an exact all-catalog parity
+check and a safe Python fallback. A measured cold catalog load fell from 16.035 to
+4.272 seconds with the same content hash. Published images are gated on the main
+revision’s complete CI, tagged by commit and digest, and documented for pull,
+upgrade and rollback. Existing in-progress practice protection remains intact.
+
+## Catalog product integration — 28 September 2026
+
+The owner requested implementation of the report and per-competency feedback in
+the product. All 383 practices now have learner guides: 275 compiled companion
+bundles, 107 existing structured lessons and compact 13.16. The remaining 270
+generic typed practices use their own authored actions. Five frozen legacy
+packages retain exact behavior and gain manifest-bound companion guides.
+See [the integration report](authoring/catalog-product-integration-20260928/README.md)
+and [per-competency implementation](authoring/catalog-product-integration-20260928/catalog.csv).
+
+This is a product integration stage after the completed five editorial passes.
+The historical reports below remain accurate snapshots. Current authoring
+coverage is 378 tailored plus five retained legacy practices with guides, with
+zero unintegrated competencies. Stable IDs, completion rules, mapping, activation,
+scoring mathematics and historical replay remain protected. Existing compiler
+rules update non-retained primary observation checks prospectively; active/paused
+practice imports still fail closed. No migration or live database write is part
+of this batch. Formal human acceptance and deployment remain unclaimed.
+
+Current quality fingerprints bind compiled materials, legacy companions and the
+Markdown renderer. The historical quality ledger remains unchanged; the new
+[quality snapshot](authoring/catalog-product-integration-20260928/quality-status.json)
+records zero formal human passes. See the integration verification receipts for
+local test results and preserved diagnostic failures. Full regression: 1,901
+passed and one obsolete report assertion, then repaired and verified through
+52 review tests and 30 continuation tests. Source tests: 1,234 passed; browser:
+10 distinct cases plus two updated wide-table rechecks. Pilot, curriculum,
+competency-evidence and complete fresh Compose backup/restore smoke passed.
+See [local evidence](evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md).
+
+## Catalog editorial remediation — 28 September 2026
+
+The owner authorized all 383 competency sources to be repaired in at most five
+editorial passes. The follow-up repairs 310 entries and retains 73 with no source
+change. See [the report](authoring/catalog-remediation-20260927/README.md),
+[all dispositions](authoring/catalog-remediation-20260927/catalog.csv), and
+[evidence](evidence/M6K-CATALOG-EDITORIAL-REMEDIATION-20260927.md).
+
+Ninety older lessons gained complete structured materials and separate checks;
+101 runtime source packages changed within the existing 108 implemented set.
+There are 107 structured lessons; 13.16 remains compact. The 275 source companions
+are not newly projected, and their runtime packages remain byte-identical.
+All 383 IDs, 1,151 actions, canonical mapping, activation, scoring and evidence
+rules remain protected. The original audit is immutable at `5bf1f62`.
+
+Source tests: 1,234 passed; compiler/source tests: 3 passed, 16 application tests
+deselected under the standing source priority. Recovery permits only declared
+prospective content. Formal quality passes remain zero. Independent learner-only,
+actual learner, qualified and owner acceptance remain open; the report does not
+certify independent creation, mastery or intervention validity. Browser,
+application/Compose/CI/CD, deployment and participant exposure remain deferred.
+The next evidence stage is a genuinely separate learner-only and appropriate
+qualified review of these exact artifacts, not another automatic editorial sweep.
+
 ## Guided-learning runtime cohort — 9 September 2026
 
 The post-PR #76 continuation authors **10.12 Apprenticeship and tacit knowledge**,

@@ -53,10 +53,15 @@ meaning_and_fit:
     Respect a request for no further contact.
   opportunity_considerations: Choose a minor failure within your responsibility, such as returning a borrowed
     item late. Use a fictional case if contact is unwelcome or unsafe; do not use this task to reopen
-    a prohibited or harmful relationship.
+    a prohibited or harmful relationship. The learning guide contains a complete fictional practice and
+    a separate changed-case check. Choose that route when a real situation is unavailable; its results
+    are rehearsal, not performed real-world work.
   prerequisites:
   - Choose a minor failure within your responsibility, such as returning a borrowed item late. Use a fictional
     case if contact is unwelcome or unsafe; do not use this task to reopen a prohibited or harmful relationship.
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.
   dependencies: []
   safe_alternatives:
   - Use written communication, an agreed intermediary or a clearly labeled rehearsal. Respect a request
@@ -79,12 +84,14 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Choose a minor failure within your responsibility, such as returning a borrowed item late. Use
     a fictional case if contact is unwelcome or unsafe; do not use this task to reopen a prohibited or
-    harmful relationship. Goal: Own an action and its impact, propose repair, and follow through without
-    demanding forgiveness. Scope: A small repair practices responsibility, apology and restitution. Serious
-    harms may require processes and support beyond a direct personal apology. Time and effort: About 15
-    minutes to prepare, a short permitted exchange, and the agreed repair''s actual time. Adaptation:
-    Use written communication, an agreed intermediary or a clearly labeled rehearsal. Respect a request
-    for no further contact. Keep personal working notes outside the check-in; record only the listed observations.'
+    harmful relationship. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work. Goal: Own an action and its impact, propose repair, and follow through without demanding
+    forgiveness. Scope: A small repair practices responsibility, apology and restitution. Serious harms
+    may require processes and support beyond a direct personal apology. Time and effort: About 15 minutes
+    to prepare, a short permitted exchange, and the agreed repair''s actual time. Adaptation: Use written
+    communication, an agreed intermediary or a clearly labeled rehearsal. Respect a request for no further
+    contact. Keep personal working notes outside the check-in; record only the listed observations.'
   privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
     contents, identifying details or another person's private information. Participation and any help
     must be voluntary. Use written communication, an agreed intermediary or a clearly labeled rehearsal.
@@ -421,3 +428,57 @@ presentation:
   plain_language_evidence: The item was returned, the inconvenience acknowledged and a reminder changed
     without demanding forgiveness.
   display_order: 31
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '02.11'
+  title: Offer a specific apology and proportionate repair
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: An apology owns the particular action and known effect without claiming all possible harm or
+      demanding absolution. A repair offer must be feasible, welcome and proportionate.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Ari borrowed Jo’s ruler, due Tuesday 17:00 at the staffed desk. Ari forgot and returns Wednesday
+      09:00. Jo spent 10 minutes finding an alternative Tuesday but bought nothing. Jo permits one written
+      message and asks for the ruler at the desk; no visit or gift is requested. The desk confirms Wednesday
+      receipt.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Write the apology and prevention step using action, intention, negligence and impact separately.
+      Identify what is already repaired and what remains unknown.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A repair offer is declined because the affected person has another arrangement. Is doing it
+      anyway necessary to prove remorse?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Own the late return and 10-minute burden; accidental forgetting does not erase responsibility.
+      Acknowledge desk receipt and a reminder for future loans without demanding trust. Later fiction:
+      Jo acknowledges the message but declines another loan. Partial: express regret without naming the
+      missed deadline. Incorrect: invent financial loss, insist on a visit or count acknowledgment as
+      forgiveness.'
+    criteria:
+    - Action and known impact are specific
+    - Repair fits the recipient’s stated limits
+    - Forgiveness and future trust are not presumed
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Respect the refusal and use a legitimate prevention/accountability route. The affected person
+      need not host a repair performance or supply reassurance.
+    criteria:
+    - Action and known impact are specific
+    - Repair fits the recipient’s stated limits
+    - Forgiveness and future trust are not presumed

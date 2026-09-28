@@ -42,9 +42,10 @@ For real transfer, apply the audit to a familiar safe routine in your existing r
 
 [The American Academy of Pediatrics policy, S11](../SOURCES.md#S11), supports effective teaching and age-appropriate expectations while opposing physical punishment and shaming. It does not validate this two-book exercise or provide an individual developmental diagnosis. The task distinguishes adult preference, explanation, proportional repair and changed responsibility; the separate parenting and family-teaching guides address broader care and instruction. One tidy space is not a full-domain result.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local guidance.
 
-Applicability and normative status are role-conditional. No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+ No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

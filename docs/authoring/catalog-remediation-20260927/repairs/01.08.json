@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "01.08",
+  "title": "Find one actionable responsibility inside a constraint",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Agency concerns choices one can actually make; influence is an uncertain effect on another person or system. External barriers remain real even after a responsible attempt. Support can expand available choices without making refusal illegitimate."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "A shared printer is unavailable today. Jo needs an optional flyer tomorrow, controls the wording and may send an accepted text version instead. The room manager can authorize another printer but has not replied. Jo cannot enter the locked office or require the manager to work late."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Sort direct choices, possible influence and outside control. Choose one bounded action and one respectful request, with a time to stop waiting.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A student requests an accessible copy and receives no answer. Does agency require solving the access barrier alone or accepting fault for it?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Jo can prepare accurate text and use the already accepted text route; a request may influence printer access but cannot guarantee it. Later fiction: manager declines extra access; Jo sends text. Physical printing did not occur. Partial: ask clearly but leave the feasible alternative unexamined. Incorrect: treat locked access as an obstacle to override or blame Jo for the refusal.",
+      "criteria": [
+        "Choice and influence are separated",
+        "Requests respect another person’s agency",
+        "External barriers remain in the account"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Neither. The student may use an appropriate support/escalation route, retain the unmet request and choose what is feasible now. Requesting help is an action; institutional access failure is not established as the student’s fault.",
+      "criteria": [
+        "Choice and influence are separated",
+        "Requests respect another person’s agency",
+        "External barriers remain in the account"
+      ]
+    }
+  ]
+}

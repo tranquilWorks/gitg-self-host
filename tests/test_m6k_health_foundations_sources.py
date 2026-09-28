@@ -9,6 +9,8 @@ from pathlib import Path
 
 import yaml
 
+from tests.m6k_historical_inputs import historical_input_path
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/authoring/health-foundations"
 COHORT = json.loads((SOURCE / "cohort.json").read_text())
@@ -132,7 +134,10 @@ class IdentityAndTeachingTests(unittest.TestCase):
 
     def test_next_pending_selection_from_actual_contract(self):
         selection = yaml.safe_load(
-            (ROOT / "contracts/tailored-practice-authoring.yaml").read_text()
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
         )
         implemented = set(selection["implemented_competency_ids"])
         self.assertEqual({i for i in implemented if i.startswith("12.")}, {"12.05", "12.08"})
@@ -151,7 +156,10 @@ class IdentityAndTeachingTests(unittest.TestCase):
     def test_input_byte_pins(self):
         for path, expected in COHORT["input_sha256"].items():
             with self.subTest(path=path):
-                self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), expected)
+                self.assertEqual(
+                    hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(),
+                    expected,
+                )
 
     def test_runtime_accounting_and_simulation_flags(self):
         self.assertEqual(

@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "04.05",
+  "title": "Act on a chosen responsibility while a meaning question stays open",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A local responsibility can have a reason even while an ultimate meaning question remains unanswered. Repetition does not by itself make a task futile; its beneficiary and actual use matter."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete case: a shared desk’s pencil belongs in its cup, the ruler in the flat tray and blank paper on shelf A. Jo may return these three items; no other belongings may move. A reader is expected later but has given no feedback. Ten minutes are available. Jo feels the routine is repetitive and does not expect inspiration."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Return or map the three items to their authorized places, state the local purpose and identify what would show useful conduct rather than only intention.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A recurrent task serves nobody under the current arrangement and repeatedly displaces essential rest. Must its repetition still be defended as meaningful?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "The mapping makes those items available as agreed. Later fiction: all three are returned in 4 minutes; the next reader finds the ruler but says nothing about the others. Jo’s mood is unchanged. Specific usefulness is supported for the ruler, not a universal meaning result. Partial: list the task without doing or simulating it. Incorrect: infer unchanged mood means no useful action occurred.",
+      "criteria": [
+        "The local beneficiary and purpose are concrete",
+        "Actual conduct and observed use are separate",
+        "Mood does not determine whether a duty was served"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Reassess actual need, authority to stop and who might rely on it. Chosen responsibility is not a command to preserve every repetitive demand.",
+      "criteria": [
+        "The local beneficiary and purpose are concrete",
+        "Actual conduct and observed use are separate",
+        "Mood does not determine whether a duty was served"
+      ]
+    }
+  ]
+}

@@ -77,8 +77,8 @@ For support, use the four criteria as four short notes and one reader rather tha
 
 Actual progress here needs more than a polished file: a meaningful creation reaches an appropriate audience and reception or its absence is honestly reviewed. This supplied sequence teaches that distinction but is not evidence that you released work or received feedback.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains elective_cultivation and normative status elective_but_flourishing_relevant. Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2301-PERSONAL-FINANCIAL-LITERACY-01
 slug: c2301-personal-financial-literacy-practice
-name: Bounded Personal financial literacy Practice
+name: Explain a fictional household balance and its cash vulnerabilities
 parent_competency_id: '23.01'
 domain_id: '23'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 23.01
-      (Personal financial literacy); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 23.01; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Personal financial literacy through a non-confrontational safety preparation bounded
-    by the canonical scope: Understand income, expenses, cash flow, interest, inflation, taxes, credit,
-    risk, and opportunity cost.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can explain current
-    financial position and major vulnerabilities accurately. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Distinguish income, spending, debt and cash balances, then explain how interest, inflation,
+    taxes, credit, risk and opportunity cost affect one ordinary financial position.
+  why_recommended: Distinguish income, spending, debt and cash balances, then explain how interest, inflation,
+    taxes, credit, risk and opportunity cost affect one ordinary financial position.
   claims:
-  - statement: Using the canonical scope and evidence target for Personal financial literacy is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Distinguish income, spending, debt and cash balances, then explain how interest, inflation,
+      taxes, credit, risk and opportunity cost affect one ordinary financial position.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Personal financial literacy practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Personal financial literacy as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Personal financial
-    literacy context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Personal
-    financial literacy; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use tokens, large print, spoken arithmetic or a trusted independent educator.
+    Keep real account numbers, tax identifiers and login details outside the exercise. Personal tax, debt,
+    benefits or investment decisions require current jurisdiction-specific information and suitable qualified
+    advice; use the fictional case when privacy or distress makes personal review unsuitable.
+  opportunity_considerations: Use paper or a calculator. The fictional month has gross pay 3,000, withholding
+    600, take-home pay 2,400, obligations 1,500, variable spending 500 and a debt payment 100. Opening
+    accessible cash is 400 and opening debt is 1,200. No other movements occur. Separately, compare a
+    basket priced 100 then 105 and a simple one-month interest example of 1% on 1,200 before any payment.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Personal financial literacy.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use paper or a calculator. The fictional month has gross pay 3,000, withholding 600, take-home pay
+    2,400, obligations 1,500, variable spending 500 and a debt payment 100. Opening accessible cash is
+    400 and opening debt is 1,200. No other movements occur. Separately, compare a basket priced 100 then
+    105 and a simple one-month interest example of 1% on 1,200 before any payment.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Personal financial literacy instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use tokens, large print, spoken arithmetic or a trusted independent educator. Keep real account numbers,
+    tax identifiers and login details outside the exercise. Personal tax, debt, benefits or investment
+    decisions require current jurisdiction-specific information and suitable qualified advice; use the
+    fictional case when privacy or distress makes personal review unsuitable.
   role_conditions:
   - This competency is context sensitive; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +83,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Personal financial literacy actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Personal financial literacy; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Personal
-    financial literacy. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Personal financial literacy actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use paper or a calculator. The fictional month has gross pay 3,000, withholding 600, take-home
+    pay 2,400, obligations 1,500, variable spending 500 and a debt payment 100. Opening accessible cash
+    is 400 and opening debt is 1,200. No other movements occur. Separately, compare a basket priced 100
+    then 105 and a simple one-month interest example of 1% on 1,200 before any payment. Goal: Distinguish
+    income, spending, debt and cash balances, then explain how interest, inflation, taxes, credit, risk
+    and opportunity cost affect one ordinary financial position. Scope: The supplied arithmetic is a literacy
+    exercise, not a tax return, credit assessment or recommendation for any real household. Currency units
+    and rates are fictional. Time and effort: Thirty minutes for the account and calculations, followed
+    by a ten-minute explanation and correction. Adaptation: Use tokens, large print, spoken arithmetic
+    or a trusted independent educator. Keep real account numbers, tax identifiers and login details outside
+    the exercise. Personal tax, debt, benefits or investment decisions require current jurisdiction-specific
+    information and suitable qualified advice; use the fictional case when privacy or distress makes personal
+    review unsuitable. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use tokens, large print, spoken arithmetic or a trusted independent educator. Keep
+    real account numbers, tax identifiers and login details outside the exercise. Personal tax, debt,
+    benefits or investment decisions require current jurisdiction-specific information and suitable qualified
+    advice; use the fictional case when privacy or distress makes personal review unsuitable.
+  expected_burden: Thirty minutes for the account and calculations, followed by a ten-minute explanation
+    and correction.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Personal financial literacy protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +113,26 @@ intervention:
   - Treating a completed Personal financial literacy action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Personal financial literacy situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed
-    or jurisdiction-specific advice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use tokens,
+    large print, spoken arithmetic or a trusted independent educator. Keep real account numbers, tax identifiers
+    and login details outside the exercise. Personal tax, debt, benefits or investment decisions require
+    current jurisdiction-specific information and suitable qualified advice; use the fictional case when
+    privacy or distress makes personal review unsuitable.
   actions:
   - stable_id: PRACTICE-COMP-2301-PERSONAL-FINANCIAL-LITERACY-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Personal financial literacy
-    instructions: 'Define one planning-only question for Personal financial literacy, the hazards that
-      must not be rehearsed, and the local qualified or emergency authority that supersedes this source-only
-      protocol. Do not create, approach, or simulate danger: Understand income, expenses, cash flow, interest,
-      inflation, taxes, credit, risk, and opportunity cost.'
+    title: Separate period flows from money owed or held
+    instructions: 'Make separate columns for flows during the month and balances at a point in time. Reconcile
+      gross pay less withholding to take-home pay, and take-home pay less the three spending amounts to
+      a cash surplus of 300. Add that surplus to opening cash to obtain 700. Do not subtract the entire
+      opening debt as another monthly expense or call withholding the final tax liability. The debt payment
+      alone does not reveal how much principal was retired without its interest and fee allocation.
+
+
+      Observation checks: Gross and take-home income reconcile to the supplied withholding; Monthly spending
+      totals 2,100 and cash increases by 300; Cash and debt balances remain distinct from monthly flows;
+      Unknown final tax and debt-payment allocation stay unknown. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +154,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2301_a1_planning_scope_bounded
-        - c2301_a1_hazards_excluded
-        - c2301_a1_authority_identified
+        - gross_and_take_home_income_reconcile_to_the_supplied_withholding
+        - monthly_spending_totals_2_100_and_cash_increases_by_300
+        - cash_and_debt_balances_remain_distinct_from_monthly_flows
+        - unknown_final_tax_and_debt_payment_allocation_stay_unknown
       - measurement_id: c2301_a1_boundary
         kind: boolean
         role: supporting
@@ -154,11 +174,20 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2301-PERSONAL-FINANCIAL-LITERACY-01-A2
     sequence: 2
-    title: Prepare one safe Personal financial literacy support step
-    instructions: Create one non-confrontational Personal financial literacy step such as locating official
-      guidance, checking accessible contact information, assembling a category-level checklist, or scheduling
-      qualified instruction. Do not test emergency response, weapons, rescue, medical treatment, confrontation,
-      evasion, or hazardous equipment.
+    title: Calculate three effects without inventing a forecast
+    instructions: 'Calculate the separate simple-interest example as 12 and the basket price increase
+      as 5%. Explain that the same amount of cash buys less of that basket after the increase; this is
+      not a statement of current national inflation. Compare using the 300 surplus for accessible reserves,
+      debt principal or a chosen goal. Name a benefit, a foregone alternative and an uncertainty for each.
+      Explain that borrowing adds an obligation and that credit terms must be read rather than inferred
+      from a score or advertised rate.
+
+
+      Observation checks: The separate interest example equals 12 with its assumptions stated; The basket
+      increase equals five percent rather than five currency units being a rate; Three uses of the surplus
+      include opportunity costs and uncertainty; Credit access is not treated as income or guaranteed
+      affordability. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -180,9 +209,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2301_a2_step_is_preparatory
-        - c2301_a2_official_or_qualified_path_used
-        - c2301_a2_no_hazard_rehearsed
+        - the_separate_interest_example_equals_12_with_its_assumptions_stated
+        - the_basket_increase_equals_five_percent_rather_than_five_currency_units_being_a_rate
+        - three_uses_of_the_surplus_include_opportunity_costs_and_uncertainty
+        - credit_access_is_not_treated_as_income_or_guaranteed_affordability
       - measurement_id: c2301_a2_boundary
         kind: boolean
         role: supporting
@@ -199,10 +229,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2301-PERSONAL-FINANCIAL-LITERACY-01-A3
     sequence: 3
-    title: Review the Personal financial literacy plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Can explain current financial position and major vulnerabilities accurately.'
+    title: Give a plain-language position and stress explanation
+    instructions: 'Explain the household to a willing listener or an audio note in six sentences: net
+      income, outflow, cash change, amount owed, unresolved tax or loan detail, and most important vulnerability.
+      Test a fictional next-month take-home pay of 2,000 with unchanged spending: the deficit is 100,
+      not evidence of poor character. Name the document needed to clarify one unknown and a sensible information-gathering
+      next step. Correct any confusion the explanation reveals without entering real account identifiers.
+
+
+      Observation checks: The explanation reports stocks and flows accurately; The reduced-income case
+      produces a deficit of 100; One missing document or disclosure is identified specifically; The correction
+      records understanding without claiming financial stability. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which distinction changed your understanding of what the household could afford, and
+      which unknown prevents a stronger conclusion?
+
+
+      Examples: Supportive: The learner reconciled the cash surplus, retained debt-payment uncertainty
+      and explained why a smaller income creates a deficit despite positive opening cash.
+
+
+      Mixed: The cash calculation was right, but withholding was initially described as the final tax
+      bill and corrected during explanation.
+
+
+      Contradictory: An advertised credit limit was counted as earned income or the exercise was used
+      to prescribe another person’s debt or tax strategy.
+
+
+      Inconclusive: Financial terms were repeated without reconciling the supplied numbers or explaining
+      the income stress case.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -218,15 +276,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2301_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2301_a3_stop_conditions_present
-        - c2301_a3_escalation_path_present
-        - c2301_a3_unknowns_retained
+        - the_explanation_reports_stocks_and_flows_accurately
+        - the_reduced_income_case_produces_a_deficit_of_100
+        - one_missing_document_or_disclosure_is_identified_specifically
+        - the_correction_records_understanding_without_claiming_financial_stability
       - measurement_id: c2301_a3_boundary
         kind: boolean
         role: supporting
@@ -247,16 +306,19 @@ intervention:
       Personal financial literacy; no purchase, subscription, travel, credential, or public artifact is
       required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Personal financial literacy; assistive technology, interpretation, a support person, and
-      a deferred action are valid without penalty.
+    - Use tokens, large print, spoken arithmetic or a trusted independent educator. Keep real account
+      numbers, tax identifiers and login details outside the exercise. Personal tax, debt, benefits or
+      investment decisions require current jurisdiction-specific information and suitable qualified advice;
+      use the fictional case when privacy or distress makes personal review unsuitable.
     cultural_context:
     - Adapt the expression of Personal financial literacy to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Personal financial literacy opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use tokens, large print, spoken arithmetic or a trusted independent educator. Keep real account
+      numbers, tax identifiers and login details outside the exercise. Personal tax, debt, benefits or
+      investment decisions require current jurisdiction-specific information and suitable qualified advice;
+      use the fictional case when privacy or distress makes personal review unsuitable.
   pause_conditions:
   - Pause Personal financial literacy when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -288,10 +350,8 @@ evidence_and_scoring:
   - c2301_a3_boundary
   - c2301_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Personal financial literacy action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Personal financial literacy criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - An advertised credit limit was counted as earned income or the exercise was used to prescribe another
+    person’s debt or tax strategy.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Personal financial literacy explicitly; support can enable access and never reduces dignity or
     silently changes the typed value.
@@ -302,14 +362,24 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Personal financial literacy rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can explain current financial position and major vulnerabilities accurately.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Personal financial literacy requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate period flows from money owed or held. Observed checks: Gross
+    and take-home income reconcile to the supplied withholding; Monthly spending totals 2,100 and cash
+    increases by 300; Cash and debt balances remain distinct from monthly flows; Unknown final tax and
+    debt-payment allocation stay unknown. Action 2: Calculate three effects without inventing a forecast.
+    Observed checks: The separate interest example equals 12 with its assumptions stated; The basket increase
+    equals five percent rather than five currency units being a rate; Three uses of the surplus include
+    opportunity costs and uncertainty; Credit access is not treated as income or guaranteed affordability.
+    Action 3: Give a plain-language position and stress explanation. Observed checks: The explanation
+    reports stocks and flows accurately; The reduced-income case produces a deficit of 100; One missing
+    document or disclosure is identified specifically; The correction records understanding without claiming
+    financial stability.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Financial terms were repeated without reconciling the
+    supplied numbers or explaining the income stress case.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Personal
     financial literacy contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -318,9 +388,8 @@ evidence_and_scoring:
   - L13
   - L14
   - L21
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Personal financial literacy evidence.
@@ -328,11 +397,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for personal financial literacy action was attempted or explicitly
-    deferred.
-  - The prepare one safe personal financial literacy support step action was attempted or explicitly deferred.
-  - The review the personal financial literacy plan against stop conditions action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Separate period flows from money owed or held. Observed checks: Gross and take-home income
+    reconcile to the supplied withholding; Monthly spending totals 2,100 and cash increases by 300; Cash
+    and debt balances remain distinct from monthly flows; Unknown final tax and debt-payment allocation
+    stay unknown.'
+  - 'Action 2: Calculate three effects without inventing a forecast. Observed checks: The separate interest
+    example equals 12 with its assumptions stated; The basket increase equals five percent rather than
+    five currency units being a rate; Three uses of the surplus include opportunity costs and uncertainty;
+    Credit access is not treated as income or guaranteed affordability.'
+  - 'Action 3: Give a plain-language position and stress explanation. Observed checks: The explanation
+    reports stocks and flows accurately; The reduced-income case produces a deficit of 100; One missing
+    document or disclosure is identified specifically; The correction records understanding without claiming
+    financial stability.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -341,56 +420,306 @@ completion_and_review:
     - c2301_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Personal financial literacy only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Personal financial literacy across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which distinction changed your understanding of what the household could afford,
+    and which unknown prevents a stronger conclusion?
+  transfer_limit: The supplied arithmetic is a literacy exercise, not a tax return, credit assessment
+    or recommendation for any real household. Currency units and rates are fictional.
   reflection:
-    before: What does Personal financial literacy require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Personal financial literacy criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can explain current financial position and major vulnerabilities
-      accurately.', what contradiction or missing context matters most, and should this Personal financial
-      literacy design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Distinguish income, spending, debt and cash
+      balances, then explain how interest, inflation, taxes, credit, risk and opportunity cost affect
+      one ordinary financial position.'
+    during: Which checks have actually been observed? The cash calculation was right, but withholding
+      was initially described as the final tax bill and corrected during explanation.
+    after: Which distinction changed your understanding of what the household could afford, and which
+      unknown prevents a stronger conclusion?
   review_guidance:
     repeat: Repeat the same bounded Personal financial literacy design only when the context and burden
       remain appropriate.
-    adapt: Change the Personal financial literacy medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use tokens, large print, spoken arithmetic or a trusted independent educator. Keep real account
+      numbers, tax identifiers and login details outside the exercise. Personal tax, debt, benefits or
+      investment decisions require current jurisdiction-specific information and suitable qualified advice;
+      use the fictional case when privacy or distress makes personal review unsuitable.
     stop: Stop Personal financial literacy when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Personal financial literacy questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Personal financial literacy criteria were observed with provenance and no
-      adverse boundary signal in the selected context.
-    mixed: Some Personal financial literacy criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Personal financial literacy criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Personal financial literacy action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: The learner reconciled the cash surplus, retained debt-payment uncertainty and explained
+      why a smaller income creates a deficit despite positive opening cash.
+    mixed: The cash calculation was right, but withholding was initially described as the final tax bill
+      and corrected during explanation.
+    contradictory: An advertised credit limit was counted as earned income or the exercise was used to
+      prescribe another person’s debt or tax strategy.
+    inconclusive: Financial terms were repeated without reconciling the supplied numbers or explaining
+      the income stress case.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Personal financial literacy.
+    context_heading: Explain a fictional household balance and its cash vulnerabilities
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Personal
       financial literacy.
   check_in_labels:
-    c2301_a1_primary: The bounded Personal financial literacy criterion for action 1 was observed
+    c2301_a1_primary: 'Observed checks: separate period flows from money owed or held'
     c2301_a1_boundary: Action 1 stayed inside its stated Personal financial literacy boundary
     c2301_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2301_a2_primary: The bounded Personal financial literacy criterion for action 2 was observed
+    c2301_a2_primary: 'Observed checks: calculate three effects without inventing a forecast'
     c2301_a2_boundary: Action 2 stayed inside its stated Personal financial literacy boundary
     c2301_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2301_a3_primary: The bounded Personal financial literacy criterion for action 3 was observed
+    c2301_a3_primary: 'Observed checks: give a plain-language position and stress explanation'
     c2301_a3_boundary: Action 3 stayed inside its stated Personal financial literacy boundary
     c2301_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Personal financial
-    literacy practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which distinction changed your understanding of what the household could afford, and
+    which unknown prevents a stronger conclusion? Completion is not mastery.
+  plain_language_evidence: The learner reconciled the cash surplus, retained debt-payment uncertainty
+    and explained why a smaller income creates a deficit despite positive opening cash.
   display_order: 317
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '23.01'
+  title: 23.01 — Personal financial literacy
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Identifying and managing conflicts of interest in a charity](https://www.gov.uk/government/publications/identifying-and-managing-conflicts-of-interest-in-a-charity-cc29/conflicts-of-interest-a-guide-for-charity-trustees)
+
+      - [Preventing Policy Capture: Integrity in Public Decision Making](https://www.oecd.org/en/publications/preventing-policy-capture_9789264065239-en.html)
+
+      - [How to File a Whistleblower Complaint](https://www.whistleblowers.gov/complaint_page)
+
+      - [Decision-making for charity trustees](https://www.gov.uk/government/publications/decision-making-for-charity-trustees-cc27/decision-making-for-charity-trustees)
+
+      - [Promising Practices for Preventing Harassment](https://www.eeoc.gov/laws/guidance/promising-practices-preventing-harassment)
+
+      - [Creating a cash flow budget](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_cash_flow_budget_tool_2018-11_ADA.pdf)
+
+      - [An essential guide to building an emergency fund](https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/)
+
+      - [Is the money I keep in my payment app safe?](https://www.consumerfinance.gov/ask-cfpb/is-the-money-i-keep-in-my-payment-app-safe-en-2135/)
+
+      - [What is the difference between a loan interest rate and the APR?](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/)
+
+      - [Beginners’ Guide to Asset Allocation, Diversification, and Rebalancing](https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset)
+
+      - [How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated)
+
+      - [I would like to be able to have my friend or family member help with my bill-paying and banking.
+      What are my options?](https://www.consumerfinance.gov/ask-cfpb/i-would-like-to-be-able-to-have-my-friend-or-family-member-help-with-my-bill-paying-and-banking-what-are-my-options-en-1145/)
+
+      - [What to Know About Life Insurance Beneficiaries](https://content.naic.org/article/consumer-insight-what-know-about-life-insurance-beneficiaries)
+
+      - [Online Shopping](https://consumer.ftc.gov/articles/online-shopping)
+
+      - [Tax withholding](https://www.irs.gov/individuals/employees/tax-withholding)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving a first attempt. These events are invented learning materials,
+      not actual participant evidence.
+
+
+      ### Lower income, positive cash, negative flow
+
+
+      The next fictional month has **2,000 take-home pay**, the same **2,100 outflows**, opening cash
+      carried from L1 of **700**, and no other cash movements. Its flow is **−100** and closing cash is
+      **600**. A positive remaining balance does not turn the month into a surplus; it means earlier cash
+      absorbs this supplied deficit.
+
+
+      A fictional listener initially repeats, “The household earns 2,700 because it had 700 already.”
+      The revised explanation distinguishes opening cash from new income. Another question asks how much
+      debt remains after the two payments. Allocation is still absent, so the correct answer remains unknown;
+      do not import the separate 1% example.
+
+
+      Save the calculation and a corrected six-sentence account. State that recurring deficits would erode
+      cash, without claiming a fixed runway from one stress month or assuming no future changes. The loan
+      statement remains the named missing document. No tax return, debt payoff or actual household stability
+      has been verified.
+
+
+      The supplied listener response is fiction, not evidence that a real learner explained the case independently.
+      For actual practice, a private explanation and later reconciled record could provide different evidence
+      types, with misunderstandings and help retained.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Explain one fictional household''s position without confusing the month''s movements with what
+      is owned or owed. Allow thirty minutes with paper or a calculator, then ten for a six-sentence explanation.
+      All amounts are invented currency units. You need no account access, tax identifier or personal
+      financial disclosure.
+
+
+      ### Keep a flow and a balance in different columns
+
+
+      Income and spending happen over a period. Cash and debt balances describe a point in time. The same
+      household can have a positive cash balance, owe money and spend more than it earns in a particular
+      month. These are compatible facts. A large credit limit is permission to borrow under terms; it
+      is not earned income, an asset free of obligations or proof that repayment is affordable.
+
+
+      Gross pay is the amount before deductions. Take-home pay is what enters the spending plan after
+      those deductions. Withholding is not automatically the final tax bill. The IRS''s [withholding explanation,
+      S15](https://www.irs.gov/individuals/employees/tax-withholding) describes U.S. pay-as-you-go payments
+      and possible under- or over-withholding. It is used only to explain that distinction, not to calculate
+      a tax return or recommend a withholding change. Real tax and benefits treatment requires current
+      local information.
+
+
+      A debt payment is a cash outflow, but the amount reducing principal depends on interest, fees and
+      allocation. You cannot infer the closing debt balance just by subtracting the entire payment from
+      principal unless the terms establish that treatment. Similarly, spending less than income does not
+      establish resilience if large bills, unstable pay or inaccessible savings are omitted. The [CFPB
+      cash-flow tool, S06](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_cash_flow_budget_tool_2018-11_ADA.pdf)
+      supports separating starting cash, incoming money and outgoing money before carrying a balance forward.
+      Its worksheet is an educational aid, not a credit or stability assessment.
+
+
+      ### Supplied month L1
+
+
+      | Item | Amount | Type |
+
+      | --- | --- | --- |
+
+      | Gross pay | 3,000 | Income before withholding |
+
+      | Withholding | 600 | Deduction from gross pay |
+
+      | Take-home pay | 2,400 | Cash inflow |
+
+      | Obligations | 1,500 | Cash outflow |
+
+      | Variable spending | 500 | Cash outflow |
+
+      | Debt payment | 100 | Cash outflow; allocation unknown |
+
+      | Opening accessible cash | 400 | Starting cash balance |
+
+      | Opening debt | 1,200 | Starting amount owed |
+
+
+      No other cash movements occur in L1. Payment dates within the month, final tax liability, the debt''s
+      fee and interest allocation, and other assets are not supplied. Do not invent them. Separately,
+      use a toy interest calculation of **1% for one month on 1,200 before any payment**, and a basket
+      that changes price from **100 to 105**. These independent teaching examples are not the household''s
+      actual loan terms or a current national inflation statistic.
+
+
+      ### Reconcile the position before interpreting it
+
+
+      Gross pay less withholding is **3,000 − 600 = 2,400**. Outflows are **1,500 + 500 + 100 = 2,100**.
+      The period''s surplus is **300**, and closing accessible cash is **400 + 300 = 700**. Starting cash
+      is not added to income when describing earnings. The opening 1,200 debt is not subtracted again
+      as a monthly expense. The 100 payment has already appeared once in cash outflow.
+
+
+      Closing debt remains unknown because payment allocation and any charges are not given. The separate
+      interest example is **1,200 × 0.01 = 12**. It would be wrong to silently attach that 12 to L1, assume
+      88 principal repayment and announce a closing debt of 1,112. That could be correct under additional
+      terms, but those terms are absent. A sound explanation leaves an important number unresolved rather
+      than making the table look complete.
+
+
+      The basket rises by 5 currency units, which is **5 / 100 = 5%**. The original 100 now buys less
+      of that same basket; purchasing power has fallen relative to those items. This does not show that
+      every item rose equally, that wages changed or that next year''s prices will follow the same path.
+      A percentage needs its base and period, just as an interest rate needs its charging method and timing.
+
+
+      ### Compare what the surplus could do
+
+
+      For the fictional 300 surplus, write three conditional options. Keeping it accessible could help
+      with a disruption, while forgoing an immediate debt reduction or goal purchase. Applying it to principal
+      could reduce future interest if the real terms permit, while leaving less readily available cash;
+      allocation and prepayment terms must be checked. Using it for a chosen goal could deliver a valued
+      benefit while delaying reserve growth or debt reduction. The question is what is given up, not which
+      option proves better character.
+
+
+      Risk includes both loss and the inability to meet an obligation at the needed time. A positive month-end
+      balance does not answer every timing question. An information-gathering step can therefore be more
+      responsible than selecting a product. For this case, the loan statement showing payment allocation
+      would resolve a specific debt unknown. A payslip and relevant tax information may clarify withholding,
+      but the payslip alone does not determine final tax liability.
+
+
+      ### Produce and check the explanation
+
+
+      1. Create a flow column and opening/closing balance columns. Reconcile gross to net, total outflows,
+      surplus and accessible cash. Leave closing debt explicitly unknown.
+
+      2. Show the separate 12-unit interest and 5% basket calculations with their assumptions. Mark them
+      as examples, not additional household movements.
+
+      3. Compare the three uses of 300 using benefit, foregone alternative and missing information. Name
+      why credit availability does not remove repayment risk.
+
+      4. Explain the case in six sentences: net income; outflows; cash change; amount owed and its date;
+      unresolved tax or loan detail; most material vulnerability. Use a private voice note or willing
+      listener without personal identifiers. Record any correction rather than only reporting that the
+      explanation felt clear.
+
+      5. Save your attempt before opening the [later packet](?resource=file-later-packet-md). Recompute
+      the next month from its changed income and carry forward actual supplied cash, not a desired target.
+
+
+      For support, use counters or spoken arithmetic and have a helper label stocks versus flows before
+      you calculate. For a harder pass, ask what dated bills you would need before declaring the 700 accessible
+      throughout the month. Optional actual transfer is a private, redacted review of your own figures,
+      with qualified help for tax, credit or benefits questions. Do not assess another person''s competence
+      from their income or savings. Understanding a shortfall can be progress even when resources have
+      not improved.
+
+
+      ### Use the result at its proper scale
+
+
+      Financial education only; tax, investment, insurance, estate, and benefits decisions may require
+      licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload
+      account identifiers, credentials or private financial records. Fiction and no attempt are legitimate.
+      Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. Opening cash is 200, take-home pay is 900 and outflows are 950. What are the period flow and
+      closing cash?
+
+      2. A 75 debt payment is made on an opening 800 balance. Can you report debt of 725 without the statement?
+
+      3. A toy basket rises from 80 to 84, and 40 was withheld from pay. What can you conclude?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The flow is −50 and closing cash is 150. Opening cash is a balance, not extra earnings.
+      Positive closing cash does not make the period profitable or establish future stability.
+
+      2. No. Interest, fees, new charges and allocation must be known. The 75 is a cash outflow; how much
+      reduces principal remains unresolved.
+
+      3. That basket rose 5% for the stated comparison. The withholding is a payment mechanism, not proof
+      of final tax liability. Neither figure establishes current national inflation or the person’s completed
+      tax position.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

@@ -35,7 +35,11 @@ Show or read the concise draft back to the holder. Ask what is inaccurate, missi
 - The final audience and attribution match consent
 - Unverified material is not represented as endorsed communal knowledge
 
+## Adaptation
+
 Use audio only with permission, a large-print draft, an interpreter or a jointly drawn sequence. A public archive can support source study when no holder is available, but it does not supply personal permission or verification that did not occur.
+
+## Review
 
 What would have been lost in a bare checklist, and what does your permission agreement forbid you from passing on?
 

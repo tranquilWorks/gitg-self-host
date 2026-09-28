@@ -35,7 +35,11 @@ Make another attempt using the cue, then release the bow to check that it functi
 - Remaining dependence and context limits are named
 - Recorded observation is not claimed as live guided feedback
 
+## Adaptation
+
 Choose an accessible low-risk skill with the teacher, allow assistive methods and shorten the session. Defer when no willing skilled person or suitable task is available. Never turn this exercise into rope restraint, climbing, rescue or load-bearing knot practice.
+
+## Review
 
 What judgment did the teacher make visible that the written steps did not, and when do you still need their correction?
 
@@ -70,6 +74,10 @@ Use thicker high-contrast cord or agree another accessible low-risk task with th
 Return to a guided attempt with one question
 
 Ask the teacher to observe a later safe attempt with the same supports and one question about when the cue changes. Record any continuing dependence. If only simulation was possible, the next step is arranging voluntary live guidance, not claiming apprenticeship complete. Broader community immersion and professional qualification remain outside this small encounter.
+
+Extend the encounter into a community of practice
+
+Choose an accessible local or online group that welcomes beginners in the same safe craft. Read its participation rules and ask permission to observe one ordinary session without recording people. Notice how experienced members judge an acceptable result, handle mistakes and pass work between roles. With permission, make one small useful contribution within your competence, such as sorting labeled materials. Ask for one specific correction and repeat it back. Compare the group’s convention with the teacher’s cue; neither is automatically universal. A fictional plan can rehearse an invitation, but belonging, contribution and received feedback require actual voluntary participation. If access is unavailable, keep that stage pending and use a public demonstration to formulate the question you would ask.
 
 Open the prompt in the practice guide: Separate the step from the judgment
 Open the prompt in the practice guide: Audit a corrected attempt

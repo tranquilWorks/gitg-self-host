@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1509-CYBERSECURITY-FRAUD-AND-IDENTITY-PROTECTION-01
 slug: c1509-cybersecurity-fraud-and-identity-protection-practice
-name: Bounded Cybersecurity, fraud, and identity protection Practice
+name: Rehearse a suspected account compromise without exposing credentials
 parent_competency_id: '15.09'
 domain_id: '15'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 15.09
-      (Cybersecurity, fraud, and identity protection); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 15.09; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Cybersecurity, fraud, and identity protection through a non-confrontational safety
-    preparation bounded by the canonical scope: Recognize phishing, social engineering, scams, insecure
-    access, data exposure, and financial fraud.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Uses strong account
-    security and can respond to a suspected compromise. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Combine account protection with a trustworthy response path when a message, login alert or
+    transaction may indicate fraud or identity misuse.
+  why_recommended: Combine account protection with a trustworthy response path when a message, login alert
+    or transaction may indicate fraud or identity misuse.
   claims:
-  - statement: Using the canonical scope and evidence target for Cybersecurity, fraud, and identity protection
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Combine account protection with a trustworthy response path when a message, login alert
+      or transaction may indicate fraud or identity misuse.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Cybersecurity, fraud, and identity protection practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Cybersecurity, fraud, and identity protection as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Cybersecurity, fraud,
-    and identity protection context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Cybersecurity,
-    fraud, and identity protection; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use an accessible authenticator or provider-supported recovery method, and
+    involve a trusted helper only with limited explicit permission. For work accounts, use the organization’s
+    incident channel and do not alter controls outside your authority. A real fraud event should not wait
+    for completion of this practice.
+  opportunity_considerations: 'Choose a low-stakes personal account with an available official recovery
+    route. Fictional alert: an email says a new device signed in and urges you to use its link immediately.
+    Keep passwords, one-time codes, recovery codes, account numbers and identifying documents entirely
+    out of the exercise notes and application.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Cybersecurity, fraud, and identity
-    protection.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Choose a low-stakes personal account with an available official recovery route. Fictional alert:
+    an email says a new device signed in and urges you to use its link immediately. Keep passwords, one-time
+    codes, recovery codes, account numbers and identifying documents entirely out of the exercise notes
+    and application.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Cybersecurity, fraud, and identity
-    protection instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use an accessible authenticator or provider-supported recovery method, and involve a trusted helper
+    only with limited explicit permission. For work accounts, use the organization’s incident channel
+    and do not alter controls outside your authority. A real fraud event should not wait for completion
+    of this practice.
   role_conditions:
   - This competency is context contingent; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +84,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Cybersecurity, fraud, and identity protection actions over ten days,
-    preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Cybersecurity, fraud, and identity protection; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Cybersecurity,
-    fraud, and identity protection. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Cybersecurity, fraud, and identity protection
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose a low-stakes personal account with an available official recovery route. Fictional alert:
+    an email says a new device signed in and urges you to use its link immediately. Keep passwords, one-time
+    codes, recovery codes, account numbers and identifying documents entirely out of the exercise notes
+    and application. Goal: Combine account protection with a trustworthy response path when a message,
+    login alert or transaction may indicate fraud or identity misuse. Scope: Use only accounts you own
+    or are explicitly authorized to manage. This is not penetration testing, malware analysis, financial
+    recovery advice or proof that an account is uncompromised. Time and effort: Twenty minutes to map
+    one account, fifteen minutes for a fictional alert rehearsal and one safe provider-guided security
+    correction. Adaptation: Use an accessible authenticator or provider-supported recovery method, and
+    involve a trusted helper only with limited explicit permission. For work accounts, use the organization’s
+    incident channel and do not alter controls outside your authority. A real fraud event should not wait
+    for completion of this practice. Keep personal working notes outside the check-in; record only the
+    listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use an accessible authenticator or provider-supported recovery method, and involve
+    a trusted helper only with limited explicit permission. For work accounts, use the organization’s
+    incident channel and do not alter controls outside your authority. A real fraud event should not wait
+    for completion of this practice.
+  expected_burden: Twenty minutes to map one account, fifteen minutes for a fictional alert rehearsal
+    and one safe provider-guided security correction.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Cybersecurity, fraud, and identity protection protocol to rank worth, coerce participation,
@@ -104,19 +115,25 @@ intervention:
   - Treating a completed Cybersecurity, fraud, and identity protection action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Cybersecurity, fraud, and identity protection situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Hands-on safety, medical, aquatic, survival, and defensive skills require qualified instruction and
-    compliance with local law.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use an accessible
+    authenticator or provider-supported recovery method, and involve a trusted helper only with limited
+    explicit permission. For work accounts, use the organization’s incident channel and do not alter controls
+    outside your authority. A real fraud event should not wait for completion of this practice.
   actions:
   - stable_id: PRACTICE-COMP-1509-CYBERSECURITY-FRAUD-AND-IDENTITY-PROTECTION-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Cybersecurity, fraud, and identity protection
-    instructions: 'Define one planning-only question for Cybersecurity, fraud, and identity protection,
-      the hazards that must not be rehearsed, and the local qualified or emergency authority that supersedes
-      this source-only protocol. Do not create, approach, or simulate danger: Recognize phishing, social
-      engineering, scams, insecure access, data exposure, and financial fraud.'
+    title: Check protection and recovery before changing access
+    instructions: 'Open the provider through its known official app or address, not the alert. Check whether
+      the account uses a unique password or appropriate passkey, available multifactor protection, current
+      recovery information and supported software. Note statuses only. Confirm that you can still access
+      a trusted session and know the official support route before making changes; do not log out every
+      device, remove an authenticator or reset recovery material merely to create a test.
+
+
+      Observation checks: The provider is reached independently of the suspicious message; Authentication
+      recovery and software status are reviewed; Only nonsecret status information is recorded; A working
+      access route is preserved before changes. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -138,9 +155,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1509_a1_planning_scope_bounded
-        - c1509_a1_hazards_excluded
-        - c1509_a1_authority_identified
+        - the_provider_is_reached_independently_of_the_suspicious_message
+        - authentication_recovery_and_software_status_are_reviewed
+        - only_nonsecret_status_information_is_recorded
+        - a_working_access_route_is_preserved_before_changes
       - measurement_id: c1509_a1_boundary
         kind: boolean
         role: supporting
@@ -157,11 +175,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1509-CYBERSECURITY-FRAUD-AND-IDENTITY-PROTECTION-01-A2
     sequence: 2
-    title: Prepare one safe Cybersecurity, fraud, and identity protection support step
-    instructions: Create one non-confrontational Cybersecurity, fraud, and identity protection step such
-      as locating official guidance, checking accessible contact information, assembling a category-level
-      checklist, or scheduling qualified instruction. Do not test emergency response, weapons, rescue,
-      medical treatment, confrontation, evasion, or hazardous equipment.
+    title: Route three fictional compromise signals to distinct actions
+    instructions: 'For an unsolicited login alert, an unfamiliar posted payment and a message asking for
+      a one-time code, state what you would verify through the provider or financial institution’s official
+      channel. Separate checking account activity from replying to the sender. Include a prompt reporting
+      route for actual unauthorized activity and an identity-theft assistance route appropriate to your
+      location. Do not assume every alert is genuine or that deleting the message resolves an actual compromise.
+
+
+      Observation checks: Three different signals receive distinct verification and response routes; No
+      code or credential would be sent to the message sender; Actual unauthorized activity prompts timely
+      official contact; Local reporting and identity-help routes are verified rather than guessed. Mark
+      only what you observed. Missing, mixed and negative results are valid; a deferred action is not
+      completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -183,9 +209,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1509_a2_step_is_preparatory
-        - c1509_a2_official_or_qualified_path_used
-        - c1509_a2_no_hazard_rehearsed
+        - three_different_signals_receive_distinct_verification_and_response_routes
+        - no_code_or_credential_would_be_sent_to_the_message_sender
+        - actual_unauthorized_activity_prompts_timely_official_contact
+        - local_reporting_and_identity_help_routes_are_verified_rather_than_guessed
       - measurement_id: c1509_a2_boundary
         kind: boolean
         role: supporting
@@ -202,10 +229,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1509-CYBERSECURITY-FRAUD-AND-IDENTITY-PROTECTION-01-A3
     sequence: 3
-    title: Review the Cybersecurity, fraud, and identity protection plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Uses strong account security and can respond to a suspected compromise.'
+    title: Make one supported improvement and retest ordinary access
+    instructions: 'Choose one low-risk improvement the provider explicitly supports, such as enabling
+      a usable additional sign-in factor or updating a stale recovery contact. Follow current official
+      instructions, preserve the working session and verify that the intended sign-in and recovery information
+      remain usable without exposing secrets. If the change is high-consequence or uncertain, obtain provider
+      support instead. Record the completed action or unresolved barrier; the fictional incident itself
+      is not reported to authorities as real.
+
+
+      Observation checks: The improvement follows current official provider instructions; Ordinary access
+      is checked after the change; Uncertain high-consequence changes are referred rather than improvised;
+      A fictional event is never submitted as a real fraud report. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Could you verify and report a real problem without using the suspicious message, and
+      did your protective change preserve recoverable access?
+
+
+      Examples: Supportive: The participant independently checked the account, rehearsed the financial-institution
+      contact route and enabled a usable second factor without losing the existing session.
+
+
+      Mixed: Protection improved, but the recovery route still depended on an obsolete phone and remained
+      an unresolved risk.
+
+
+      Contradictory: The person shared a one-time code, uploaded credentials to the notes or tested security
+      on someone else’s account.
+
+
+      Inconclusive: A suspicious email was deleted without checking whether actual account activity required
+      a response.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -221,15 +277,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1509_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1509_a3_stop_conditions_present
-        - c1509_a3_escalation_path_present
-        - c1509_a3_unknowns_retained
+        - the_improvement_follows_current_official_provider_instructions
+        - ordinary_access_is_checked_after_the_change
+        - uncertain_high_consequence_changes_are_referred_rather_than_improvised
+        - a_fictional_event_is_never_submitted_as_a_real_fraud_report
       - measurement_id: c1509_a3_boundary
         kind: boolean
         role: supporting
@@ -250,17 +307,19 @@ intervention:
       Cybersecurity, fraud, and identity protection; no purchase, subscription, travel, credential, or
       public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Cybersecurity, fraud, and identity protection; assistive technology, interpretation, a
-      support person, and a deferred action are valid without penalty.
+    - Use an accessible authenticator or provider-supported recovery method, and involve a trusted helper
+      only with limited explicit permission. For work accounts, use the organization’s incident channel
+      and do not alter controls outside your authority. A real fraud event should not wait for completion
+      of this practice.
     cultural_context:
     - Adapt the expression of Cybersecurity, fraud, and identity protection to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Cybersecurity, fraud, and identity protection opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use an accessible authenticator or provider-supported recovery method, and involve a trusted helper
+      only with limited explicit permission. For work accounts, use the organization’s incident channel
+      and do not alter controls outside your authority. A real fraud event should not wait for completion
+      of this practice.
   pause_conditions:
   - Pause Cybersecurity, fraud, and identity protection when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -292,10 +351,8 @@ evidence_and_scoring:
   - c1509_a3_boundary
   - c1509_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Cybersecurity, fraud, and identity protection action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Cybersecurity, fraud, and identity protection criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - The person shared a one-time code, uploaded credentials to the notes or tested security on someone
+    else’s account.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Cybersecurity, fraud, and identity protection explicitly; support can enable access and never
     reduces dignity or silently changes the typed value.
@@ -306,14 +363,23 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Cybersecurity, fraud, and identity protection rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Uses strong account security and can respond to a suspected compromise.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Cybersecurity, fraud, and identity protection requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Check protection and recovery before changing access. Observed checks:
+    The provider is reached independently of the suspicious message; Authentication recovery and software
+    status are reviewed; Only nonsecret status information is recorded; A working access route is preserved
+    before changes. Action 2: Route three fictional compromise signals to distinct actions. Observed checks:
+    Three different signals receive distinct verification and response routes; No code or credential would
+    be sent to the message sender; Actual unauthorized activity prompts timely official contact; Local
+    reporting and identity-help routes are verified rather than guessed. Action 3: Make one supported
+    improvement and retest ordinary access. Observed checks: The improvement follows current official
+    provider instructions; Ordinary access is checked after the change; Uncertain high-consequence changes
+    are referred rather than improvised; A fictional event is never submitted as a real fraud report.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A suspicious email was deleted without checking whether
+    actual account activity required a response.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Cybersecurity,
     fraud, and identity protection contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -321,9 +387,8 @@ evidence_and_scoring:
   recommendation_target_lever_ids:
   - L19
   - L20
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Cybersecurity, fraud, and identity protection evidence.
@@ -331,12 +396,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for cybersecurity, fraud, and identity protection action was
-    attempted or explicitly deferred.
-  - The prepare one safe cybersecurity, fraud, and identity protection support step action was attempted
-    or explicitly deferred.
-  - The review the cybersecurity, fraud, and identity protection plan against stop conditions action preserved
-    a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Check protection and recovery before changing access. Observed checks: The provider is
+    reached independently of the suspicious message; Authentication recovery and software status are reviewed;
+    Only nonsecret status information is recorded; A working access route is preserved before changes.'
+  - 'Action 2: Route three fictional compromise signals to distinct actions. Observed checks: Three different
+    signals receive distinct verification and response routes; No code or credential would be sent to
+    the message sender; Actual unauthorized activity prompts timely official contact; Local reporting
+    and identity-help routes are verified rather than guessed.'
+  - 'Action 3: Make one supported improvement and retest ordinary access. Observed checks: The improvement
+    follows current official provider instructions; Ordinary access is checked after the change; Uncertain
+    high-consequence changes are referred rather than improvised; A fictional event is never submitted
+    as a real fraud report.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -345,64 +418,313 @@ completion_and_review:
     - c1509_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Cybersecurity, fraud, and identity protection only when the
-    initial context remained safe, the evidence criteria were usable, burden was acceptable, and a new
-    context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Cybersecurity, fraud, and identity protection
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Could you verify and report a real problem without using the suspicious message,
+    and did your protective change preserve recoverable access?
+  transfer_limit: Use only accounts you own or are explicitly authorized to manage. This is not penetration
+    testing, malware analysis, financial recovery advice or proof that an account is uncompromised.
   reflection:
-    before: What does Cybersecurity, fraud, and identity protection require in this exact context, what
-      remains outside my role or authority, and which scope sentence or evidence criterion will keep the
-      practice honest?
-    during: Which observable Cybersecurity, fraud, and identity protection criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Uses strong account security and can respond to a suspected
-      compromise.', what contradiction or missing context matters most, and should this Cybersecurity,
-      fraud, and identity protection design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Combine account protection with a trustworthy
+      response path when a message, login alert or transaction may indicate fraud or identity misuse.'
+    during: Which checks have actually been observed? Protection improved, but the recovery route still
+      depended on an obsolete phone and remained an unresolved risk.
+    after: Could you verify and report a real problem without using the suspicious message, and did your
+      protective change preserve recoverable access?
   review_guidance:
     repeat: Repeat the same bounded Cybersecurity, fraud, and identity protection design only when the
       context and burden remain appropriate.
-    adapt: Change the Cybersecurity, fraud, and identity protection medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use an accessible authenticator or provider-supported recovery method, and involve a trusted
+      helper only with limited explicit permission. For work accounts, use the organization’s incident
+      channel and do not alter controls outside your authority. A real fraud event should not wait for
+      completion of this practice.
     stop: Stop Cybersecurity, fraud, and identity protection when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Cybersecurity, fraud, and identity protection
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Cybersecurity, fraud, and identity protection criteria were observed with
-      provenance and no adverse boundary signal in the selected context.
-    mixed: Some Cybersecurity, fraud, and identity protection criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Cybersecurity, fraud, and identity protection
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Cybersecurity, fraud, and identity protection action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The participant independently checked the account, rehearsed the financial-institution
+      contact route and enabled a usable second factor without losing the existing session.
+    mixed: Protection improved, but the recovery route still depended on an obsolete phone and remained
+      an unresolved risk.
+    contradictory: The person shared a one-time code, uploaded credentials to the notes or tested security
+      on someone else’s account.
+    inconclusive: A suspicious email was deleted without checking whether actual account activity required
+      a response.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Cybersecurity, fraud, and identity protection.
+    context_heading: Rehearse a suspected account compromise without exposing credentials
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Cybersecurity,
       fraud, and identity protection.
   check_in_labels:
-    c1509_a1_primary: The bounded Cybersecurity, fraud, and identity protection criterion for action 1
-      was observed
+    c1509_a1_primary: 'Observed checks: check protection and recovery before changing access'
     c1509_a1_boundary: Action 1 stayed inside its stated Cybersecurity, fraud, and identity protection
       boundary
     c1509_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1509_a2_primary: The bounded Cybersecurity, fraud, and identity protection criterion for action 2
-      was observed
+    c1509_a2_primary: 'Observed checks: route three fictional compromise signals to distinct actions'
     c1509_a2_boundary: Action 2 stayed inside its stated Cybersecurity, fraud, and identity protection
       boundary
     c1509_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1509_a3_primary: The bounded Cybersecurity, fraud, and identity protection criterion for action 3
-      was observed
+    c1509_a3_primary: 'Observed checks: make one supported improvement and retest ordinary access'
     c1509_a3_boundary: Action 3 stayed inside its stated Cybersecurity, fraud, and identity protection
       boundary
     c1509_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Cybersecurity, fraud,
-    and identity protection practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Could you verify and report a real problem without using the suspicious message, and
+    did your protective change preserve recoverable access? Completion is not mastery.
+  plain_language_evidence: The participant independently checked the account, rehearsed the financial-institution
+    contact route and enabled a usable second factor without losing the existing session.
   display_order: 198
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '15.09'
+  title: 15.09 — Cybersecurity, fraud, and identity protection
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [HSE — Controls to prevent violence](https://www.hse.gov.uk/violence/employer/controls-to-prevent.htm)
+
+      - [HSE — Advice for workers](https://www.hse.gov.uk/violence/worker/index.htm)
+
+      - [GOV.UK — Reasonable force against intruders](https://www.gov.uk/reasonable-force-against-intruders)
+
+      - [NPS — Ten Essentials](https://www.nps.gov/articles/10essentials.htm)
+
+      - [NPS — Trip Planning Guide](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+
+      - [American Red Cross — Water Safety](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html)
+
+      - [RNLI — Cold water shock](https://rnli.org/water-safety/know-the-risks/cold-water-shock)
+
+      - [U.S. State Department — International Travel Checklist](https://travel.state.gov/en/international-travel/planning/checklist.html)
+
+      - [FTC — Recover a hacked account](https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account)
+
+      - [FTC — What to do if scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [FTC — Identity theft](https://consumer.ftc.gov/articles/what-know-about-identity-theft)
+
+      - [NIST SP 800-34 Rev. 1 — Contingency Planning](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)
+
+      - [FEMA IS-244.B — Developing and Managing Volunteers](https://emilms.fema.gov/is_0244b/groups/223.html)
+
+      - [CDC — Preventing Respiratory Illnesses](https://www.cdc.gov/respiratory-viruses/prevention/index.html)
+
+      - [CDC — Cleaner Air](https://www.cdc.gov/respiratory-viruses/prevention/air-quality.html)
+
+      - [Right To Be — Five Ds of Bystander Intervention](https://righttobe.org/guides/bystander-intervention-training/)
+
+      - [NIOSH — Hierarchy of Controls](https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html)
+
+      - [HSE — Maintenance of work equipment](https://www.hse.gov.uk/work-equipment-machinery/maintenance.htm)
+
+      - [Weger et al. — Relative Effectiveness of Active Listening](https://stars.library.ucf.edu/scopus2010/9657/)
+
+      - [EPA — Wildfires and Indoor Air Quality](https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Independent Cedar Mail access confirms an unfamiliar session and forwarding rule. Following
+      its official process in this fictional case, the learner changes the password, removes the unknown
+      rule and revokes the listed unfamiliar session. The recovery contact is verified. These are concrete
+      account actions, not proof that every device or other account is safe.
+
+
+      The bank issues a dispute acknowledgment for 46 units but makes no reimbursement decision. Record
+      “reported; 46-unit payment still unresolved,” not “46 recovered.” The caller received no code. M4''s
+      document exposure remains real within the fictional case, while later identity misuse is unknown;
+      use the appropriate identity-recovery route without inventing a new credit account.
+
+
+      IT acknowledges M5 and asks the worker to follow its instructions. Acknowledgment is not an investigation
+      outcome, and personal-account access does not authorize work-account changes.
+
+
+      Supportive: provider-confirmed account actions. Mixed: personal access restored but financial/identity
+      questions open. Contradictory: a global “all resolved” label. Inconclusive: no information about
+      other sessions or device compromise beyond the supplied record.
+
+
+      These are simulated outcomes. Keep any actual practice-only security change separate and never save
+      a real password, recovery code, full identity document or financial record as exercise evidence.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Triage a suspected compromise without confusing recovery stages
+
+
+      Start with the fictional account packet below. In about thirty minutes you will build a short incident
+      record that separates warning signals, verified facts, containment actions and unresolved recovery.
+      No credentials, real transactions or suspicious links are needed. The optional live step uses only
+      an account you own or are authorized to manage; an actual incident requires prompt provider or organizational
+      response rather than waiting to finish practice.
+
+
+      ### An alert is a lead, not the whole incident
+
+
+      Phishing and social engineering try to make a requested action feel necessary: follow a link, reveal
+      a code, approve access or move money. A convincing alert can be forged; a genuine alert can also
+      reveal a genuine problem. Open the provider through an independently known app or address and check
+      there. Do not use the suspicious message''s phone number to verify the same message.
+
+
+      Email often supports password recovery for other accounts, so an attacker with email access may
+      affect more than the inbox. A changed password may not address every active session, recovery setting
+      or forwarding rule. Follow the provider''s own recovery process, verify contact methods and inspect
+      security settings; if unauthorized messages were sent, warn affected contacts through an appropriate
+      trusted route without spreading the malicious link or private incident details. Organizational accounts
+      belong with the authorized IT/security route. The FTC''s recovery guide describes these account
+      checks. See S09 in [SOURCES](?resource=sources). Do not improvise destructive resets or investigate
+      systems beyond your authority.
+
+
+      Separate prevention, containment and recovery. A strong unique password or supported passkey, appropriate
+      multifactor authentication, protected recovery options and supported software updates can reduce
+      exposure. NCSC guidance supports strong separate credentials, appropriate second factors and supported
+      passkeys (S21). No single setting makes an account invulnerable. Keep a viable recovery path while
+      making changes; record the type of change, never the secret. A recovery code shared with a caller
+      is exposed information even if the caller uses your name correctly. A security setting changed successfully
+      is a narrower result than proving nobody retained access.
+
+
+      Financial fraud and identity misuse need additional routes. A posted unauthorized payment needs
+      prompt contact with the relevant institution through an independently verified channel, even if
+      the email account is now secure. A dispute receipt is not a refund. Suspected misuse of identity
+      details may require a local identity-theft recovery process. FTC guidance illustrates U.S. reporting
+      and recovery routes, including IdentityTheft.gov; other jurisdictions differ. See S10–S11. Do not
+      promise reversal, deadlines or legal remedies from this exercise.
+
+
+      ### Worked example
+
+
+      Alex changes an email password, then writes “incident resolved.” Their case still lists an unfamiliar
+      recovery address and an unauthorized payment. Alex revises the status: password change complete;
+      recovery address requires provider-guided checking; bank dispute requested; reimbursement unknown.
+      This does not mean the password change was useless. It prevents a successful action from hiding
+      unresolved parts of the incident.
+
+
+      ### Original fictional account packet
+
+
+      You own the invented personal account “Cedar Mail.” Your usual device is available and believed
+      trustworthy; no malware finding is supplied. There are no real URLs or passwords to use.
+
+
+      | Signal | Information available before verification |
+
+      | --- | --- |
+
+      | M1 | Email says “new device login; click here to undo”; message authenticity unknown |
+
+      | M2 | Independently opened bank app shows a posted 46-unit payment you do not recognize |
+
+      | M3 | Caller claiming to be support asks for a one-time recovery code; you have not shared it |
+
+      | M4 | A copy of an identity document was previously sent to an unverified rental contact; later
+      use is unknown |
+
+      | M5 | A work account sends a separate alert; employer policy requires contacting IT, not changing
+      its configuration yourself |
+
+
+      The fictional Cedar Mail help card, independently obtained for this exercise, says: use its official
+      recovery route if unable to sign in; once access is verified, follow its instructions for password,
+      sessions, recovery contacts and forwarding rules; check for unauthorized messages and protect recovery
+      access. It supplies no guarantee about device cleanliness or other services. Your incident log has
+      four columns: observation/source, scoped action/owner, result actually confirmed, unresolved next
+      check.
+
+
+      ### Work the incident in stages
+
+
+      1. For M1, identify the independent verification route. For M2–M5, assign the appropriate owner
+      or institution and a concrete next action. Do not wait for M1 to become certain before reporting
+      the posted payment or work alert.
+
+      2. Distinguish code requested from code disclosed. Decline M3''s request and use the independent
+      provider route if account help is needed. Do not classify the account as compromised solely because
+      a caller asked; do not call the request harmless either.
+
+      3. Build a sequence for the personal email account using the supplied help card. Explain why working
+      recovery access matters and which settings need checking after a password change. If the device
+      is suspected compromised in a real incident, seek the provider/IT''s appropriate trusted-device
+      guidance; the packet does not establish a malware diagnosis.
+
+      4. Write the minimal information each recipient needs. Bank support needs the disputed transaction
+      through its secure process; IT needs the work alert through its incident route. A public post does
+      not need your identity document, recovery code or account number. Save only fictional labels in
+      this exercise.
+
+      5. Choose one prevention improvement. In the fictional route, describe adding a supported second
+      factor while preserving working recovery access. In an optional owned-account route, independently
+      open official help and make one low-risk supported change only if you understand its recovery implications.
+      Do not force a lockout, remove the sole recovery method or upload secrets as proof.
+
+      6. Preserve the first incident log, then open the [later packet](?resource=file-later-packet-md).
+      Update each row separately. Write a closeout statement naming what is contained, what remains unresolved
+      and who owns the next step.
+
+
+      ### Evidence and follow-through
+
+
+      The default output is a five-signal triage log and a recovery sequence. A live setting change counts
+      only if actually performed and confirmed; a hypothetical change remains a plan. Reported compromise,
+      regained sign-in, removed forwarding, revoked sessions, investigated payment and restored funds
+      are separate statuses. An unavailable provider response is unknown, not automatic resolution or
+      automatic proof of continuing attack.
+
+
+      For a smaller task, do M1–M3 first, then add identity and work boundaries. Use text or dictation,
+      hiding no recovery limitations. A trusted helper can navigate accessibility barriers without being
+      given your password or codes. If coercive monitoring or abuse is relevant, account changes can alert
+      another person; use an appropriate specialist safety route rather than applying this generic practice
+      blindly.
+
+
+      For a harder paper case, make the usual device unavailable and remove the only recovery method.
+      The sound answer is official recovery assistance with uncertainty, not inventing a bypass. For real
+      transfer, maintain an accessible private list of independent provider and institution routes and
+      review one owned account''s supported security and recovery settings. Finish the [fresh checks](?attempt=practice-checks)
+      before the [key](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. After a password change, an unknown forwarding rule remains. A learner says the successful
+      password screen closes the incident. What needs correction?
+
+      2. A bank acknowledges a dispute for 80 units and later refunds 30. What amount remains unresolved,
+      and what does the acknowledgment establish?
+
+      3. A work alert arrives during this exercise. You own the laptop but not the organizational account.
+      What is the appropriate authority boundary?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. The password change is complete, but the forwarding issue needs provider-guided resolution
+      and other relevant security checks. Do not claim full recovery from one successful screen. Use a
+      trusted independent route and preserve working recovery access.
+
+      2. 50 units remain unresolved under the stated facts. The receipt establishes reporting, while the
+      30-unit refund establishes only that amount recovered. Neither guarantees the balance will return.
+
+      3. Follow the organization''s incident reporting and IT instructions promptly. Ownership of the
+      device does not authorize changing organizational settings or conducting an investigation. Record
+      reporting separately from resolution, without exposing sensitive alert details publicly.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

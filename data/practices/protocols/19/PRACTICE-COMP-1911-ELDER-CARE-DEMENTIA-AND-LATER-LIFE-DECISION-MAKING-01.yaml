@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1911-ELDER-CARE-DEMENTIA-AND-LATER-LIFE-DECISION-MAKING-01
 slug: c1911-elder-care-dementia-and-later-life-decision-making-practice
-name: Bounded Elder care, dementia, and later-life decision-making Practice
+name: Prepare a later-life care decision without assuming loss of personhood
 parent_competency_id: '19.11'
 domain_id: '19'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 19.11
-      (Elder care, dementia, and later-life decision-making); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 19.11; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Elder care, dementia, and later-life decision-making through a non-confrontational
-    safety preparation bounded by the canonical scope: Understand changing capacity, advance planning,
-    memory loss, safety, autonomy, respite, and family conflict.'
-  why_recommended: 'The parent competency identifies this limited evidence target: A care plan balances
-    protection, dignity, legal authority, and caregiver sustainability. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Clarify the person’s preferences, available decision support, appropriate authority and sustainable
+    next step when memory or care needs change.
+  why_recommended: Clarify the person’s preferences, available decision support, appropriate authority
+    and sustainable next step when memory or care needs change.
   claims:
-  - statement: Using the canonical scope and evidence target for Elder care, dementia, and later-life
-      decision-making is a traceable product-design basis for a source-only draft protocol.
+  - statement: Clarify the person’s preferences, available decision support, appropriate authority and
+      sustainable next step when memory or care needs change.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Elder care, dementia, and later-life decision-making
     practice fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Elder care, dementia, and later-life decision-making as not applicable,
     consciously unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity,
     or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Elder care, dementia,
-    and later-life decision-making context, understand the source-only status, and stop without losing
-    safety, care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Elder care,
-    dementia, and later-life decision-making; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Use accessible communication, supported decision-making, a trusted person
+    selected by the individual and more time. Keep clinical, financial and legal records in their proper
+    secure systems. Urgent confusion, unsafe care or other current medical concerns require qualified
+    assessment rather than a planning exercise.
+  opportunity_considerations: Use the fictional case of an older adult who wants to remain involved in
+    appointments but is missing some reminders. Prepare separate headings for preference, observed change,
+    immediate safety, decision support, legal authority, care task, respite and disputed issue. Do not
+    infer incapacity from age, diagnosis or forgetfulness alone.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Elder care, dementia, and later-life
-    decision-making.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use the fictional case of an older adult who wants to remain involved in appointments but is missing
+    some reminders. Prepare separate headings for preference, observed change, immediate safety, decision
+    support, legal authority, care task, respite and disputed issue. Do not infer incapacity from age,
+    diagnosis or forgetfulness alone.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Elder care, dementia, and later-life
-    decision-making instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use accessible communication, supported decision-making, a trusted person selected by the individual
+    and more time. Keep clinical, financial and legal records in their proper secure systems. Urgent confusion,
+    unsafe care or other current medical concerns require qualified assessment rather than a planning
+    exercise.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +84,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Elder care, dementia, and later-life decision-making actions over ten
-    days, preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Elder care, dementia, and later-life decision-making; copy the canonical
-    scope and evidence target into a private working note; define the action boundary, valid supports,
-    privacy limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Elder care,
-    dementia, and later-life decision-making. Do not store private prose, names, identities, diagnoses,
-    allegations, credentials, account data, protected work information, intimate detail, artifact contents,
-    observer narrative, or another person's secrets. This source-only draft is not surveillance, professional
-    advice, treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Elder care, dementia, and later-life
-    decision-making actions, and review; scope may be reduced or deferred for access, care, health, workload,
-    conscience, or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the fictional case of an older adult who wants to remain involved in appointments but is
+    missing some reminders. Prepare separate headings for preference, observed change, immediate safety,
+    decision support, legal authority, care task, respite and disputed issue. Do not infer incapacity
+    from age, diagnosis or forgetfulness alone. Goal: Clarify the person’s preferences, available decision
+    support, appropriate authority and sustainable next step when memory or care needs change. Scope:
+    This is planning and qualified-consultation preparation, not a capacity assessment, dementia diagnosis,
+    legal directive or permission to remove someone’s autonomy. Time and effort: Two 20-minute planning
+    periods and one actual qualified or authorized coordination inquiry when relevant. Adaptation: Use
+    accessible communication, supported decision-making, a trusted person selected by the individual and
+    more time. Keep clinical, financial and legal records in their proper secure systems. Urgent confusion,
+    unsafe care or other current medical concerns require qualified assessment rather than a planning
+    exercise. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use accessible communication, supported decision-making, a trusted person selected
+    by the individual and more time. Keep clinical, financial and legal records in their proper secure
+    systems. Urgent confusion, unsafe care or other current medical concerns require qualified assessment
+    rather than a planning exercise.
+  expected_burden: Two 20-minute planning periods and one actual qualified or authorized coordination
+    inquiry when relevant.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Elder care, dementia, and later-life decision-making protocol to rank worth, coerce participation,
@@ -104,19 +114,26 @@ intervention:
   - Treating a completed Elder care, dementia, and later-life decision-making action, a polished artifact,
     agreement, confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Elder care, dementia, and later-life decision-making situation involving emergency response, abuse,
-    retaliation, illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local
-    guidance.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use accessible
+    communication, supported decision-making, a trusted person selected by the individual and more time.
+    Keep clinical, financial and legal records in their proper secure systems. Urgent confusion, unsafe
+    care or other current medical concerns require qualified assessment rather than a planning exercise.
   actions:
   - stable_id: PRACTICE-COMP-1911-ELDER-CARE-DEMENTIA-AND-LATER-LIFE-DECISION-MAKING-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Elder care, dementia, and later-life decision-making
-    instructions: 'Define one planning-only question for Elder care, dementia, and later-life decision-making,
-      the hazards that must not be rehearsed, and the local qualified or emergency authority that supersedes
-      this source-only protocol. Do not create, approach, or simulate danger: Understand changing capacity,
-      advance planning, memory loss, safety, autonomy, respite, and family conflict.'
+    title: Separate observed changes from the decision needing support
+    instructions: 'Describe only the missed reminders and what consequence followed, keeping explanations
+      open. Ask the person what matters about appointments, familiar routines and privacy, using their
+      preferred communication supports. Identify any immediate safety concern for qualified care rather
+      than diagnosing it yourself. Distinguish everyday assistance from decisions requiring a legally
+      authorized person, and note which existing care or advance-planning documents should be reviewed
+      by the appropriate professional.
+
+
+      Observation checks: Observed change is separated from a diagnosis or capacity verdict; The person’s
+      preferences are actively sought; Immediate safety concerns have a qualified route; Everyday help
+      and formal decision authority are distinguished. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -138,9 +155,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1911_a1_planning_scope_bounded
-        - c1911_a1_hazards_excluded
-        - c1911_a1_authority_identified
+        - observed_change_is_separated_from_a_diagnosis_or_capacity_verdict
+        - the_person_s_preferences_are_actively_sought
+        - immediate_safety_concerns_have_a_qualified_route
+        - everyday_help_and_formal_decision_authority_are_distinguished
       - measurement_id: c1911_a1_boundary
         kind: boolean
         role: supporting
@@ -157,11 +175,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1911-ELDER-CARE-DEMENTIA-AND-LATER-LIFE-DECISION-MAKING-01-A2
     sequence: 2
-    title: Prepare one safe Elder care, dementia, and later-life decision-making support step
-    instructions: Create one non-confrontational Elder care, dementia, and later-life decision-making
-      step such as locating official guidance, checking accessible contact information, assembling a category-level
-      checklist, or scheduling qualified instruction. Do not test emergency response, weapons, rescue,
-      medical treatment, confrontation, evasion, or hazardous equipment.
+    title: Compare a less-restrictive support with its practical burden
+    instructions: 'For the default, compare a visible reminder plus a chosen support call with another
+      person taking over all appointment communication. Ask which option preserves participation, what
+      risk remains and who can reliably provide it. Include memory support, transport, respite and family
+      disagreements as separate tasks or questions. Do not hold a family vote that substitutes for the
+      person’s rights or required authority; unresolved legal or clinical questions go to qualified local
+      guidance.
+
+
+      Observation checks: Two support options are compared for participation and risk; The less-restrictive
+      workable option is considered; Care respite and disagreement have explicit dispositions; A family
+      preference is not mistaken for legal or clinical authority. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -183,9 +209,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1911_a2_step_is_preparatory
-        - c1911_a2_official_or_qualified_path_used
-        - c1911_a2_no_hazard_rehearsed
+        - two_support_options_are_compared_for_participation_and_risk
+        - the_less_restrictive_workable_option_is_considered
+        - care_respite_and_disagreement_have_explicit_dispositions
+        - a_family_preference_is_not_mistaken_for_legal_or_clinical_authority
       - measurement_id: c1911_a2_boundary
         kind: boolean
         role: supporting
@@ -202,11 +229,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1911-ELDER-CARE-DEMENTIA-AND-LATER-LIFE-DECISION-MAKING-01-A3
     sequence: 3
-    title: Review the Elder care, dementia, and later-life decision-making plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: A care plan balances protection, dignity, legal authority, and caregiver
-      sustainability.'
+    title: Arrange the next supported decision and review point
+    instructions: 'With the appropriate permission, contact the relevant care team, planning professional
+      or authorized coordinator about the unresolved question and what information they need. Confirm
+      one ordinary support task and a review trigger such as another missed appointment or a stated change
+      in preference. A fictional case may rehearse this handoff but cannot claim a professional decision
+      was obtained. Revisit the plan when needs change; completing a document does not eliminate the need
+      to listen to the person.
+
+
+      Observation checks: A real qualified inquiry or labeled rehearsal occurs; One ordinary support task
+      has an accepting owner; Changing needs or preferences trigger review; Planning documents do not
+      replace ongoing participation. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.
+
+
+      Final review: Which choice stayed with the person, which uncertainty needs qualified judgment, and
+      who will carry the support without becoming exhausted?
+
+
+      Examples: Supportive: The person chose a reminder call, an authorized coordinator checked the planning
+      question and a respite backup was named.
+
+
+      Mixed: The family agreed on help, but the first version assumed a diagnosis removed all decision
+      rights; that assumption was corrected.
+
+
+      Contradictory: Relatives took over finances or care decisions without authority, ignored the person’s
+      wishes or treated age as incapacity.
+
+
+      Inconclusive: A dementia checklist was completed without a specific decision, preference or accountable
+      next step.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,15 +277,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1911_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1911_a3_stop_conditions_present
-        - c1911_a3_escalation_path_present
-        - c1911_a3_unknowns_retained
+        - a_real_qualified_inquiry_or_labeled_rehearsal_occurs
+        - one_ordinary_support_task_has_an_accepting_owner
+        - changing_needs_or_preferences_trigger_review
+        - planning_documents_do_not_replace_ongoing_participation
       - measurement_id: c1911_a3_boundary
         kind: boolean
         role: supporting
@@ -251,17 +307,19 @@ intervention:
       Elder care, dementia, and later-life decision-making; no purchase, subscription, travel, credential,
       or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Elder care, dementia, and later-life decision-making; assistive technology, interpretation,
-      a support person, and a deferred action are valid without penalty.
+    - Use accessible communication, supported decision-making, a trusted person selected by the individual
+      and more time. Keep clinical, financial and legal records in their proper secure systems. Urgent
+      confusion, unsafe care or other current medical concerns require qualified assessment rather than
+      a planning exercise.
     cultural_context:
     - Adapt the expression of Elder care, dementia, and later-life decision-making to direct or indirect
       communication, collective or individual decision structures, local norms, faith or secular commitments,
       and role obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Elder care, dementia, and later-life decision-making opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use accessible communication, supported decision-making, a trusted person selected by the individual
+      and more time. Keep clinical, financial and legal records in their proper secure systems. Urgent
+      confusion, unsafe care or other current medical concerns require qualified assessment rather than
+      a planning exercise.
   pause_conditions:
   - Pause Elder care, dementia, and later-life decision-making when capacity, consent, authority, privacy,
     access, care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances
@@ -294,11 +352,8 @@ evidence_and_scoring:
   - c1911_a3_boundary
   - c1911_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Elder care, dementia, and later-life decision-making action exceeded consent, authority, privacy,
-    qualification, role, burden, or safety boundaries.
-  - The evidence contradicted the intended Elder care, dementia, and later-life decision-making criterion,
-    depended on coercion or hidden private content, or could not distinguish the protocol from contextual
-    change.
+  - Relatives took over finances or care decisions without authority, ignored the person’s wishes or treated
+    age as incapacity.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Elder care, dementia, and later-life decision-making explicitly; support can enable access and
     never reduces dignity or silently changes the typed value.
@@ -309,14 +364,23 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Elder care, dementia, and later-life decision-making rules withhold observations
     older than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—A care plan balances protection, dignity, legal authority, and caregiver sustainability.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Elder care, dementia, and later-life decision-making requires a
-    bounded context, allowlisted observations, provenance, contradiction and adverse handling, and preserved
-    uncertainty; free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate observed changes from the decision needing support. Observed
+    checks: Observed change is separated from a diagnosis or capacity verdict; The person’s preferences
+    are actively sought; Immediate safety concerns have a qualified route; Everyday help and formal decision
+    authority are distinguished. Action 2: Compare a less-restrictive support with its practical burden.
+    Observed checks: Two support options are compared for participation and risk; The less-restrictive
+    workable option is considered; Care respite and disagreement have explicit dispositions; A family
+    preference is not mistaken for legal or clinical authority. Action 3: Arrange the next supported decision
+    and review point. Observed checks: A real qualified inquiry or labeled rehearsal occurs; One ordinary
+    support task has an accepting owner; Changing needs or preferences trigger review; Planning documents
+    do not replace ongoing participation.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A dementia checklist was completed without a specific
+    decision, preference or accountable next step.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Elder
     care, dementia, and later-life decision-making contribution under typed evaluation; protocol performance
     remains distinct and is never counted twice.
@@ -326,9 +390,8 @@ evidence_and_scoring:
   - L14
   - L17
   - L28
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Elder care, dementia, and later-life decision-making evidence.
@@ -336,12 +399,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for elder care, dementia, and later-life decision-making action
-    was attempted or explicitly deferred.
-  - The prepare one safe elder care, dementia, and later-life decision-making support step action was
-    attempted or explicitly deferred.
-  - The review the elder care, dementia, and later-life decision-making plan against stop conditions action
-    preserved a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Separate observed changes from the decision needing support. Observed checks: Observed
+    change is separated from a diagnosis or capacity verdict; The person’s preferences are actively sought;
+    Immediate safety concerns have a qualified route; Everyday help and formal decision authority are
+    distinguished.'
+  - 'Action 2: Compare a less-restrictive support with its practical burden. Observed checks: Two support
+    options are compared for participation and risk; The less-restrictive workable option is considered;
+    Care respite and disagreement have explicit dispositions; A family preference is not mistaken for
+    legal or clinical authority.'
+  - 'Action 3: Arrange the next supported decision and review point. Observed checks: A real qualified
+    inquiry or labeled rehearsal occurs; One ordinary support task has an accepting owner; Changing needs
+    or preferences trigger review; Planning documents do not replace ongoing participation.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -350,65 +421,238 @@ completion_and_review:
     - c1911_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Elder care, dementia, and later-life decision-making only when
-    the initial context remained safe, the evidence criteria were usable, burden was acceptable, and a
-    new context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Elder care, dementia, and later-life decision-making
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Which choice stayed with the person, which uncertainty needs qualified judgment,
+    and who will carry the support without becoming exhausted?
+  transfer_limit: This is planning and qualified-consultation preparation, not a capacity assessment,
+    dementia diagnosis, legal directive or permission to remove someone’s autonomy.
   reflection:
-    before: What does Elder care, dementia, and later-life decision-making require in this exact context,
-      what remains outside my role or authority, and which scope sentence or evidence criterion will keep
-      the practice honest?
-    during: Which observable Elder care, dementia, and later-life decision-making criterion is present,
-      absent, mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'A care plan balances protection, dignity, legal authority,
-      and caregiver sustainability.', what contradiction or missing context matters most, and should this
-      Elder care, dementia, and later-life decision-making design be repeated, adapted, deferred, stopped,
-      or referred?
+    before: 'What would count as doing this honestly? Goal: Clarify the person’s preferences, available
+      decision support, appropriate authority and sustainable next step when memory or care needs change.'
+    during: Which checks have actually been observed? The family agreed on help, but the first version
+      assumed a diagnosis removed all decision rights; that assumption was corrected.
+    after: Which choice stayed with the person, which uncertainty needs qualified judgment, and who will
+      carry the support without becoming exhausted?
   review_guidance:
     repeat: Repeat the same bounded Elder care, dementia, and later-life decision-making design only when
       the context and burden remain appropriate.
-    adapt: Change the Elder care, dementia, and later-life decision-making medium, scope, support, timing,
-      criteria, or context while preserving provenance and the narrower evidence claim.
+    adapt: Use accessible communication, supported decision-making, a trusted person selected by the individual
+      and more time. Keep clinical, financial and legal records in their proper secure systems. Urgent
+      confusion, unsafe care or other current medical concerns require qualified assessment rather than
+      a planning exercise.
     stop: Stop Elder care, dementia, and later-life decision-making when the practice becomes coercive,
       unsafe, privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Elder care, dementia, and later-life
-      decision-making questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Elder care, dementia, and later-life decision-making criteria were observed
-      with provenance and no adverse boundary signal in the selected context.
-    mixed: Some Elder care, dementia, and later-life decision-making criteria were observed while burden,
-      support, contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Elder care, dementia, and later-life decision-making
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Elder care, dementia, and later-life decision-making action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The person chose a reminder call, an authorized coordinator checked the planning question
+      and a respite backup was named.
+    mixed: The family agreed on help, but the first version assumed a diagnosis removed all decision rights;
+      that assumption was corrected.
+    contradictory: Relatives took over finances or care decisions without authority, ignored the person’s
+      wishes or treated age as incapacity.
+    inconclusive: A dementia checklist was completed without a specific decision, preference or accountable
+      next step.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Elder care, dementia, and later-life decision-making.
+    context_heading: Prepare a later-life care decision without assuming loss of personhood
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Elder care,
       dementia, and later-life decision-making.
   check_in_labels:
-    c1911_a1_primary: The bounded Elder care, dementia, and later-life decision-making criterion for action
-      1 was observed
+    c1911_a1_primary: 'Observed checks: separate observed changes from the decision needing support'
     c1911_a1_boundary: Action 1 stayed inside its stated Elder care, dementia, and later-life decision-making
       boundary
     c1911_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1911_a2_primary: The bounded Elder care, dementia, and later-life decision-making criterion for action
-      2 was observed
+    c1911_a2_primary: 'Observed checks: compare a less-restrictive support with its practical burden'
     c1911_a2_boundary: Action 2 stayed inside its stated Elder care, dementia, and later-life decision-making
       boundary
     c1911_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1911_a3_primary: The bounded Elder care, dementia, and later-life decision-making criterion for action
-      3 was observed
+    c1911_a3_primary: 'Observed checks: arrange the next supported decision and review point'
     c1911_a3_boundary: Action 3 stayed inside its stated Elder care, dementia, and later-life decision-making
       boundary
     c1911_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Elder care, dementia,
-    and later-life decision-making practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which choice stayed with the person, which uncertainty needs qualified judgment, and
+    who will carry the support without becoming exhausted? Completion is not mastery.
+  plain_language_evidence: The person chose a reminder call, an authorized coordinator checked the planning
+    question and a respite backup was named.
   display_order: 258
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '19.11'
+  title: 19.11 — Elder care, dementia, and later-life decision-making
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Contraception and Birth Control Methods](https://www.cdc.gov/contraception/about/index.html)
+
+      - [Infertility: Frequently Asked Questions](https://www.cdc.gov/reproductive-health/infertility-faq/index.html)
+
+      - [Antenatal (pregnancy) care and appointments](https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/)
+
+      - [Urgent Maternal Warning Signs and Symptoms](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
+
+      - [Miscarriage](https://www.nhs.uk/conditions/miscarriage/)
+
+      - [Adoption](https://www.childwelfare.gov/topics/permanency/adoption/)
+
+      - [Child Abuse Education Resources](https://www.azed.gov/wellness/child-abuse-education-resources)
+
+      - [Arizona Revised Statutes §13-3620](https://www.azleg.gov/ars/13/03620.htm)
+
+      - [What to do if a child reveals abuse](https://www.nspcc.org.uk/keeping-children-safe/reporting-abuse/what-to-do-child-reveals-abuse/)
+
+      - [Calling 911](https://www.911.gov/calling-911/)
+
+      - [Effective Discipline to Raise Healthy Children](https://publications.aap.org/pediatrics/article/142/6/e20183112/37452/Effective-Discipline-to-Raise-Healthy-Children)
+
+      - [Inspected correction](https://publications.aap.org/pediatrics/article/143/2/e20183609/37315/Sege-RD-Siegel-BS-Council-on-Child-Abuse-and)
+
+      - [Supported Decision Making Program](https://acl.gov/programs/consumer-control/supported-decision-making-program)
+
+      - [Lasting power of attorney for people with dementia](https://www.alzheimers.org.uk/get-support/legal-financial/lasting-power-attorney)
+
+      - [The Cognitive Dimension of Household Labor](https://journals.sagepub.com/doi/abs/10.1177/0003122419859007)
+
+      - [Communicating with your child’s other parent during separation](https://www.cafcass.gov.uk/parent-carer-or-family-member/my-family-involved-private-law-proceedings/resources-help-you-make-arrangements-are-your-childs-best-interests/communicating-your-childs-other-parent-during-separation)
+
+      - [Convention for the Safeguarding of the Intangible Cultural Heritage](https://www.unesco.org/en/legal-affairs/convention-safeguarding-intangible-cultural-heritage)
+
+      - [Cultural Documentation Guidelines](https://wwws.loc.gov/folklife/edresources/ed-trainingdocuments.html)
+
+      - [Healthy Habits: Caring for Yourself When Caring for Another](https://www.cdc.gov/caregiving/caring-for-yourself/index.html)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence.
+
+
+      Ruth chooses a large-print reminder and accepts Alex''s call before the next appointment. Alex makes
+      the agreed call, and Ruth checks the reminder and confirms the appointment time. The packet does
+      not state whether the appointment is attended or what a clinician finds. Bea agrees to postpone
+      the proposed takeover; no authority over communications, care or finances is granted.
+
+
+      With Ruth''s permission, Alex makes an administrative inquiry about arranging an appropriate clinical
+      discussion of the memory concerns. The service explains how to request an appointment. No assessment,
+      diagnosis or capacity determination occurs. The family has not obtained advice about local advance-planning
+      documents. The possible respite service remains uncontacted.
+
+
+      Ruth says the large print was useful and asks to keep the weekly call for now. Alex''s one-call
+      weekly limit remains; no additional family member has accepted backup. Another missed reminder,
+      a change in Ruth''s wishes or a new safety concern would reopen the plan through the appropriate
+      route. A successful call cannot close the unresolved clinical questions or convert a limited helper
+      into an authorized decision-maker.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: "Build a person-centered support map for one ordinary difficulty, then identify what requires\
+      \ qualified advice. Use two twenty-minute sessions and, only for an appropriate real role, an authorized\
+      \ inquiry. This is not a dementia screen, a capacity determination or a legal document. A person\
+      \ may choose a supporter; a family connection alone does not authorize control of their affairs.\n\
+      \n### Distinguish the questions before choosing a solution\n\nChanging memory, health, communication\
+      \ or mobility can affect daily tasks. An observed missed reminder is a fact about an event, not\
+      \ a diagnosis. Dementia concerns clinical conditions that require appropriate assessment; age or\
+      \ occasional forgetfulness cannot establish it. Sudden concerning changes, including acute confusion,\
+      \ need prompt qualified attention rather than this routine planning exercise. Do not use a calm-looking\
+      \ worksheet to dismiss a current urgent concern.\n\nCapacity and authority are separate from diagnosis.\
+      \ A diagnosis does not automatically settle what a person can decide, and apparent difficulty with\
+      \ one task does not establish global inability. Relevant capacity questions and legal standards\
+      \ depend on the decision and jurisdiction. A relative's confidence, family majority vote or possession\
+      \ of a phone is not legal authority to take over finances or care.\n\nSupported decision-making\
+      \ starts with the person's preferences and chosen assistance. Accessible language, a quiet discussion,\
+      \ an appropriate interpreter, communication aids or a trusted supporter can make participation more\
+      \ meaningful. Ask what the person wants help with and what they want to keep doing. Support should\
+      \ fit the task; its existence does not erase the person's choices.\n\nAdvance planning can make\
+      \ future wishes and authorized roles clearer while participation is possible. Existing documents\
+      \ need to be understood in the relevant local legal and care system. A financial authorization does\
+      \ not necessarily include health decisions; titles and powers vary. This lesson does not draft a\
+      \ directive, appoint a guardian or activate someone else's authority. Appropriate legal and clinical\
+      \ guidance addresses those matters.\n\nProtection and autonomy are not resolved by choosing the\
+      \ most restrictive arrangement imaginable. Compare the actual risk, the person's preference, feasible\
+      \ support and the conditions that would require review. Sustainability matters too: an arrangement\
+      \ that relies indefinitely on an exhausted relative may leave care unreliable. Include willing backup,\
+      \ respite questions and a way to address disagreement without making the person disappear from the\
+      \ conversation.\n\n### Worked example\n\nAn older adult misses an appointment reminder. One relative\
+      \ proposes taking over every message and bank account. Another suggests an agreed visible reminder\
+      \ plus a chosen reminder call. The narrower option may address the observed difficulty while preserving\
+      \ participation, but it still requires agreement and review. Neither proposal establishes diagnosis,\
+      \ capacity or legal authority. If the problem persists or new concerns arise, seek appropriate assessment\
+      \ rather than silently expanding control.\n\n### Supplied fictional case\n\nRuth has missed two\
+      \ appointment reminders and wants to remain involved in arrangements. No diagnosis, capacity finding,\
+      \ emergency or legal document is supplied. Ruth chooses Alex to help discuss a reminder system.\
+      \ Bea worries about safety and proposes handling all communications. Alex can make one agreed call\
+      \ each week but cannot provide continuous oversight. A potentially available respite service has\
+      \ not been contacted or accepted.\n\nThe immediate proposal is a visible reminder in Ruth's chosen\
+      \ format plus Alex's call before the next ordinary appointment. Any information shared with Alex\
+      \ must be within Ruth's permission and the actual applicable authority. No medical appointment result\
+      \ or financial transaction is part of this exercise.\n\n### Build the support and authority map\n\
+      \n1. Separate Ruth's stated preference, the two observed events, unknown clinical questions and\
+      \ unknown legal powers. Output: a map that does not turn memory concerns into a diagnosis or family\
+      \ worry into authority.\n2. Compare the limited reminder proposal with Bea's broad takeover proposal.\
+      \ Ask Ruth what assistance is welcome and make communication accessible. Output: the preferred bounded\
+      \ support, rejected assumptions and any unresolved safety concern needing qualified advice.\n3.\
+      \ Identify the authorized route for clinical questions and the local professional route for advance-planning\
+      \ or legal-authority questions. Use existing documents only in the proper private channel. Output:\
+      \ questions and inquiry status, not an invented capacity finding or new directive.\n4. Assign one\
+      \ accepted ordinary task, a clear limit, a backup question and a review trigger. Alex's weekly limit\
+      \ must remain visible. Output: who will do what, what remains uncovered and when the plan needs\
+      \ reconsideration. An uncontacted respite service is not backup coverage.\n5. Save the plan before\
+      \ the [later packet](?resource=file-later-packet-md). Review the actual reminder attempt with Ruth's\
+      \ perspective. Output: one specific result and unresolved clinical, legal and sustainability questions.\n\
+      \n### Support and transfer\n\nFor support, discuss only the next reminder with the person's chosen\
+      \ communication method and a trusted appropriate supporter. For a harder fictional version, relatives\
+      \ disagree about whether a missed call justifies broad control. Revisit the actual risk, authority\
+      \ and person-specific supports; do not resolve it with a family popularity vote. Real transfer requires\
+      \ a role the person has accepted or that is validly authorized, plus qualified help where the task\
+      \ exceeds it.\n\n[S12, ACL](https://acl.gov/programs/consumer-control/supported-decision-making-program),\
+      \ supports chosen, task-specific assistance while retaining control. [S13, Alzheimer's Society](https://www.alzheimers.org.uk/get-support/legal-financial/lasting-power-attorney),\
+      \ explains advance planning and different powers in its England and Wales context; it is not the\
+      \ law for every location. One useful reminder is not evidence that dementia is absent, that capacity\
+      \ is established or that caregiver strain is solved. Keep medical, financial and legal records outside\
+      \ app evidence.\n\n### Use the result at its proper scale\n\nMedical, reproductive, child-safety,\
+      \ guardianship, and elder-care decisions require qualified local guidance.\n\n No reproductive,\
+      \ parenting or care role is compulsory. Fiction does not establish actual participant evidence.\
+      \ Keep identifying, clinical and private family information outside app records.\n\nAttempt the\
+      \ [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers)."
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. An older adult misses two reminders. What has been established about dementia, decision-making
+      capacity and a relative''s legal powers?
+
+      2. Most relatives vote to take over all messages, although the person requests a limited reminder.
+      What should guide the next step?
+
+      3. A reminder works and a service explains appointment booking. Which claims about assessment, attendance
+      and sustainable backup remain unsupported?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Only the observed missed reminders are established. Diagnosis requires appropriate clinical
+      assessment; capacity is decision- and jurisdiction-specific; authority requires its own valid basis.
+      Attend promptly to urgent changes instead of using the exercise to diagnose or delay care.
+
+      2. Consider the person''s accessible participation, actual risks, proportionate supports and valid
+      authority. A family vote does not grant powers or erase preferences. Seek qualified help for unresolved
+      clinical, legal or safety questions.
+
+      3. There is no stated assessment, diagnosis, capacity finding or attended appointment. An administrative
+      reply is not clinical advice. Uncontacted services and unaccepted helpers do not supply coverage;
+      review the accepted helper''s limit and unresolved backup.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

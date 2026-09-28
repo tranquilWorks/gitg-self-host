@@ -4,7 +4,7 @@ Learning guide — unscored
 
 Two-session private record
 
-Route and movement: __. Existing plan or instruction source: __. Equipment, range and support: __. Planned dose and recovery interval: __. Four observable technique or boundary criteria: T1 __; T2 __; T3 __; T4 __. Stop conditions: __. Session 1 actual work, T1-T4 [observed / mixed / not observed / unknown], ordinary-word effort, symptoms, support and early stop: __. Recovery before session 2: ordinary function returned [yes / no / unknown], delayed symptoms or unusual fatigue: __. Session 2 comparable conditions and T1-T4: __. Disposition [repeat / regress one variable / progress one variable inside plan / seek instruction / stop]: __. Evidence-limited reason: __. Keep private details here; the application check-in receives only allowlisted observations.
+Route and movement: __. Existing plan or instruction source: __. Equipment, range and support: __. Planned dose and recovery interval: __. Four observable technique or boundary criteria: T1 __; T2 __; T3 __; T4 __. Stop conditions: __. Session 1 actual work, T1-T4 [observed / mixed / not observed / unknown], ordinary-word effort, symptoms, support and early stop: __. Recovery before session 2: ordinary function returned [yes / no / unknown], delayed symptoms or unusual fatigue: __. Session 2 comparable conditions and T1-T4: __. Disposition [repeat / regress one variable / progress one variable inside plan / seek instruction / stop]: __. Evidence-limited reason: __. Keep personal symptoms and health details private; share them only with a suitable professional when needed.
 
 Decide what the evidence permits
 

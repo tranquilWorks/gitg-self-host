@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-0903-COGNITIVE-AND-MOTIVATIONAL-BIAS-01
 slug: c0903-cognitive-and-motivational-bias-practice
-name: Bounded Cognitive and motivational bias Practice
+name: Change one decision process after checking for bias
 parent_competency_id: '09.03'
 domain_id: 09
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 09.03
-      (Cognitive and motivational bias); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 09.03; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,39 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Cognitive and motivational bias through a low-stakes skill rehearsal bounded by the
-    canonical scope: Recognize confirmation, availability, anchoring, sunk cost, overconfidence, tribal
-    reasoning, and self-serving bias.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Identifies a bias in
-    a real choice and changes the decision process accordingly. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Identify how a specific decision could be distorted and change the procedure before making
+    the choice, rather than merely naming a bias afterward.
+  why_recommended: Identify how a specific decision could be distorted and change the procedure before
+    making the choice, rather than merely naming a bias afterward.
   claims:
-  - statement: Using the canonical scope and evidence target for Cognitive and motivational bias is a
-      traceable product-design basis for a source-only draft protocol.
+  - statement: Identify how a specific decision could be distorted and change the procedure before making
+      the choice, rather than merely naming a bias afterward.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Cognitive and motivational bias practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Cognitive and motivational bias as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Cognitive and motivational
-    bias context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Cognitive
-    and motivational bias; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use a short spoken checklist or ask a willing person to apply the same criteria
+    without knowing your first choice. Keep names and private motives out of the record. Defer high-consequence
+    decisions to appropriate expertise rather than relying on a bias checklist.
+  opportunity_considerations: Use a reversible choice such as selecting a free community event. Default
+    options are a familiar event, an unfamiliar event with a clear schedule, and staying home for needed
+    rest. Write your initial preference before comparing them. No purchase or attendance is required for
+    the default analysis.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Cognitive and motivational bias.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use a reversible choice such as selecting a free community event. Default options are a familiar event,
+    an unfamiliar event with a clear schedule, and staying home for needed rest. Write your initial preference
+    before comparing them. No purchase or attendance is required for the default analysis.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Cognitive and motivational bias
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a short spoken checklist or ask a willing person to apply the same criteria without knowing your
+    first choice. Keep names and private motives out of the record. Defer high-consequence decisions to
+    appropriate expertise rather than relying on a bias checklist.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +80,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Cognitive and motivational bias actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Cognitive and motivational bias; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Cognitive
-    and motivational bias. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Cognitive and motivational bias actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a reversible choice such as selecting a free community event. Default options are a familiar
+    event, an unfamiliar event with a clear schedule, and staying home for needed rest. Write your initial
+    preference before comparing them. No purchase or attendance is required for the default analysis.
+    Goal: Identify how a specific decision could be distorted and change the procedure before making the
+    choice, rather than merely naming a bias afterward. Scope: The audit identifies plausible vulnerabilities,
+    not a diagnosis that a person or group is irrational. One improved process cannot establish that bias
+    has been removed. Time and effort: Fifteen minutes to record the initial preference, twenty minutes
+    for counterchecks, and a ten-minute decision review. Adaptation: Use a short spoken checklist or ask
+    a willing person to apply the same criteria without knowing your first choice. Keep names and private
+    motives out of the record. Defer high-consequence decisions to appropriate expertise rather than relying
+    on a bias checklist. Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a short spoken checklist or ask a willing person to apply the same criteria
+    without knowing your first choice. Keep names and private motives out of the record. Defer high-consequence
+    decisions to appropriate expertise rather than relying on a bias checklist.
+  expected_burden: Fifteen minutes to record the initial preference, twenty minutes for counterchecks,
+    and a ten-minute decision review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Cognitive and motivational bias protocol to rank worth, coerce participation, demand disclosure,
@@ -101,18 +107,26 @@ intervention:
   - Treating a completed Cognitive and motivational bias action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Cognitive and motivational bias situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a short
+    spoken checklist or ask a willing person to apply the same criteria without knowing your first choice.
+    Keep names and private motives out of the record. Defer high-consequence decisions to appropriate
+    expertise rather than relying on a bias checklist.
   actions:
   - stable_id: PRACTICE-COMP-0903-COGNITIVE-AND-MOTIVATIONAL-BIAS-01-A1
     sequence: 1
-    title: Define observable criteria for Cognitive and motivational bias
-    instructions: 'Select one safe, lawful, low-stakes component of Cognitive and motivational bias. Build
-      a three-to-five-item rubric from this scope, including an error or stop criterion: Recognize confirmation,
-      availability, anchoring, sunk cost, overconfidence, tribal reasoning, and self-serving bias.'
+    title: Name the choice and inspect seven distortion routes
+    instructions: 'Write your preferred option and reason. Then check: confirmation—am I seeking only
+      support; availability—am I overweighting a vivid recent story; anchoring—did the first estimate
+      set the scale; sunk cost—am I protecting past effort; overconfidence—what could I be wrong about;
+      tribal reasoning—would the organizer’s identity change my standard; self-serving bias—am I excusing
+      costs I would criticize in someone else? Mark a route relevant, unsupported or uncertain, with a
+      concrete reason.
+
+
+      Observation checks: The initial preference is preserved before the audit; All seven routes receive
+      reasoned dispositions; A plausible vulnerability is tied to this choice; The audit does not label
+      a whole person or group. Mark only what you observed. Missing, mixed and negative results are valid;
+      a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +148,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0903_a1_skill_component_bounded
-        - c0903_a1_observable_rubric_present
-        - c0903_a1_error_or_stop_defined
+        - the_initial_preference_is_preserved_before_the_audit
+        - all_seven_routes_receive_reasoned_dispositions
+        - a_plausible_vulnerability_is_tied_to_this_choice
+        - the_audit_does_not_label_a_whole_person_or_group
       - measurement_id: c0903_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +168,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0903-COGNITIVE-AND-MOTIVATIONAL-BIAS-01-A2
     sequence: 2
-    title: Rehearse Cognitive and motivational bias twice
-    instructions: Perform two bounded attempts of the selected Cognitive and motivational bias component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Install one countercheck that can change the answer
+    instructions: 'Select the most relevant route and change the method. For confirmation, search specifically
+      for a reason the preferred event will not fit. For anchoring, estimate time and access costs before
+      rereading the advertisement. For sunk cost, compare only future costs and benefits. Write one observation
+      that would reverse the preference, then perform that countercheck using available schedules or the
+      supplied synthetic facts.
+
+
+      Observation checks: One procedural correction matches the identified route; A preference-reversing
+      observation is specified in advance; The countercheck is actually performed; Contrary findings are
+      retained rather than explained away. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +195,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c0903_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - one_procedural_correction_matches_the_identified_route
+        - a_preference_reversing_observation_is_specified_in_advance
+        - the_countercheck_is_actually_performed
+        - contrary_findings_are_retained_rather_than_explained_away
       - measurement_id: c0903_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +221,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-0903-COGNITIVE-AND-MOTIVATIONAL-BIAS-01-A3
     sequence: 3
-    title: Use feedback for one Cognitive and motivational bias retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Identifies
-      a bias in a real choice and changes the decision process accordingly.'
+    title: Choose using the revised procedure and record the difference
+    instructions: 'Compare the original and revised preference. Either keep or change it, but explain
+      which evidence mattered and which uncertainty remains. For a suitable live choice, carry out the
+      reversible next step; for the default, clearly label the result a decision rehearsal. Review whether
+      the process would judge an out-group organizer or another person’s convenience by the same standard.
+
+
+      Observation checks: Original and final preferences can be compared; The decision explains the role
+      of counterevidence; Rehearsal is not reported as real-world follow-through; The standard is checked
+      for symmetric application. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.
+
+
+      Final review: What changed in how you decided, and would that change still help when the preferred
+      option belongs to someone you dislike?
+
+
+      Examples: Supportive: A sunk-cost concern was identified, future costs were compared without the
+      past effort, and the participant selected a smaller commitment.
+
+
+      Mixed: The bias vocabulary was accurate and one contrary fact was found, but the decision procedure
+      remained unchanged.
+
+
+      Contradictory: Bias labels were used only against opponents while the participant’s preferred option
+      was exempted from scrutiny.
+
+
+      Inconclusive: A list of biases was copied without an initial preference, countercheck or resulting
+      decision.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +273,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c0903_a3_feedback_item_selected
-        - c0903_a3_adjustment_traceable
-        - c0903_a3_retry_result_preserved
+        - original_and_final_preferences_can_be_compared
+        - the_decision_explains_the_role_of_counterevidence
+        - rehearsal_is_not_reported_as_real_world_follow_through
+        - the_standard_is_checked_for_symmetric_application
       - measurement_id: c0903_a3_boundary
         kind: boolean
         role: supporting
@@ -245,16 +297,17 @@ intervention:
       Cognitive and motivational bias; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Cognitive and motivational bias; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a short spoken checklist or ask a willing person to apply the same criteria without knowing
+      your first choice. Keep names and private motives out of the record. Defer high-consequence decisions
+      to appropriate expertise rather than relying on a bias checklist.
     cultural_context:
     - Adapt the expression of Cognitive and motivational bias to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Cognitive and motivational bias opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use a short spoken checklist or ask a willing person to apply the same criteria without knowing
+      your first choice. Keep names and private motives out of the record. Defer high-consequence decisions
+      to appropriate expertise rather than relying on a bias checklist.
   pause_conditions:
   - Pause Cognitive and motivational bias when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -286,10 +339,8 @@ evidence_and_scoring:
   - c0903_a3_boundary
   - c0903_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Cognitive and motivational bias action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Cognitive and motivational bias criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - Bias labels were used only against opponents while the participant’s preferred option was exempted
+    from scrutiny.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Cognitive and motivational bias explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -300,14 +351,22 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Cognitive and motivational bias rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Identifies a bias in a real choice and changes the decision process accordingly.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Cognitive and motivational bias requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Name the choice and inspect seven distortion routes. Observed checks:
+    The initial preference is preserved before the audit; All seven routes receive reasoned dispositions;
+    A plausible vulnerability is tied to this choice; The audit does not label a whole person or group.
+    Action 2: Install one countercheck that can change the answer. Observed checks: One procedural correction
+    matches the identified route; A preference-reversing observation is specified in advance; The countercheck
+    is actually performed; Contrary findings are retained rather than explained away. Action 3: Choose
+    using the revised procedure and record the difference. Observed checks: Original and final preferences
+    can be compared; The decision explains the role of counterevidence; Rehearsal is not reported as real-world
+    follow-through; The standard is checked for symmetric application.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A list of biases was copied without an initial preference,
+    countercheck or resulting decision.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Cognitive
     and motivational bias contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -317,9 +376,8 @@ evidence_and_scoring:
   - L12
   - L13
   - L14
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Cognitive and motivational bias evidence.
@@ -327,11 +385,18 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for cognitive and motivational bias action was attempted or explicitly
-    deferred.
-  - The rehearse cognitive and motivational bias twice action was attempted or explicitly deferred.
-  - The use feedback for one cognitive and motivational bias retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Name the choice and inspect seven distortion routes. Observed checks: The initial preference
+    is preserved before the audit; All seven routes receive reasoned dispositions; A plausible vulnerability
+    is tied to this choice; The audit does not label a whole person or group.'
+  - 'Action 2: Install one countercheck that can change the answer. Observed checks: One procedural correction
+    matches the identified route; A preference-reversing observation is specified in advance; The countercheck
+    is actually performed; Contrary findings are retained rather than explained away.'
+  - 'Action 3: Choose using the revised procedure and record the difference. Observed checks: Original
+    and final preferences can be compared; The decision explains the role of counterevidence; Rehearsal
+    is not reported as real-world follow-through; The standard is checked for symmetric application.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,57 +405,504 @@ completion_and_review:
     - c0903_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Cognitive and motivational bias only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Cognitive and motivational bias across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: What changed in how you decided, and would that change still help when the preferred
+    option belongs to someone you dislike?
+  transfer_limit: The audit identifies plausible vulnerabilities, not a diagnosis that a person or group
+    is irrational. One improved process cannot establish that bias has been removed.
   reflection:
-    before: What does Cognitive and motivational bias require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Cognitive and motivational bias criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Identifies a bias in a real choice and changes the decision
-      process accordingly.', what contradiction or missing context matters most, and should this Cognitive
-      and motivational bias design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Identify how a specific decision could be
+      distorted and change the procedure before making the choice, rather than merely naming a bias afterward.'
+    during: Which checks have actually been observed? The bias vocabulary was accurate and one contrary
+      fact was found, but the decision procedure remained unchanged.
+    after: What changed in how you decided, and would that change still help when the preferred option
+      belongs to someone you dislike?
   review_guidance:
     repeat: Repeat the same bounded Cognitive and motivational bias design only when the context and burden
       remain appropriate.
-    adapt: Change the Cognitive and motivational bias medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use a short spoken checklist or ask a willing person to apply the same criteria without knowing
+      your first choice. Keep names and private motives out of the record. Defer high-consequence decisions
+      to appropriate expertise rather than relying on a bias checklist.
     stop: Stop Cognitive and motivational bias when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Cognitive and motivational bias questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Cognitive and motivational bias criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Cognitive and motivational bias criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Cognitive and motivational bias criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Cognitive and motivational bias action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: A sunk-cost concern was identified, future costs were compared without the past effort,
+      and the participant selected a smaller commitment.
+    mixed: The bias vocabulary was accurate and one contrary fact was found, but the decision procedure
+      remained unchanged.
+    contradictory: Bias labels were used only against opponents while the participant’s preferred option
+      was exempted from scrutiny.
+    inconclusive: A list of biases was copied without an initial preference, countercheck or resulting
+      decision.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Cognitive and motivational bias.
+    context_heading: Change one decision process after checking for bias
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Cognitive
       and motivational bias.
   check_in_labels:
-    c0903_a1_primary: The bounded Cognitive and motivational bias criterion for action 1 was observed
+    c0903_a1_primary: 'Observed checks: name the choice and inspect seven distortion routes'
     c0903_a1_boundary: Action 1 stayed inside its stated Cognitive and motivational bias boundary
     c0903_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c0903_a2_primary: The bounded Cognitive and motivational bias criterion for action 2 was observed
+    c0903_a2_primary: 'Observed checks: install one countercheck that can change the answer'
     c0903_a2_boundary: Action 2 stayed inside its stated Cognitive and motivational bias boundary
     c0903_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c0903_a3_primary: The bounded Cognitive and motivational bias criterion for action 3 was observed
+    c0903_a3_primary: 'Observed checks: choose using the revised procedure and record the difference'
     c0903_a3_boundary: Action 3 stayed inside its stated Cognitive and motivational bias boundary
     c0903_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Cognitive and motivational
-    bias practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What changed in how you decided, and would that change still help when the preferred
+    option belongs to someone you dislike? Completion is not mastery.
+  plain_language_evidence: A sunk-cost concern was identified, future costs were compared without the
+    past effort, and the participant selected a smaller commitment.
   display_order: 110
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '09.03'
+  title: 09.03 — Cognitive and motivational bias
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Argument terminology](https://openstax.org/books/introduction-philosophy/pages/5-3-arguments)
+
+      - [Selected bias terminology](https://openstax.org/books/psychology-2e/pages/7-3-problem-solving)
+
+      - [Motivational reasoning — abstract-level consultation only](https://pubmed.ncbi.nlm.nih.gov/2270237/)'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### What you are practicing
+
+
+      Notice a specific vulnerability in a decision, install a countercheck that could matter, and actually
+      use it. Naming a bias afterward is not the same as changing the procedure. Keeping your original
+      choice can be a good result when it survives a fair check.
+
+
+      **Canonical scope:** Recognize confirmation, availability, anchoring, sunk cost, overconfidence,
+      tribal reasoning, and self-serving bias.
+
+
+      **Deliverable:** A preserved initial preference, seven reasoned vulnerability dispositions, a performed
+      countercheck, and a decision record showing what changed in the method. Allow about 35 minutes for
+      the fictional packet. A live transfer needs an actual suitable choice; no purchase, attendance,
+      or contact is required for the fictional route.
+
+
+      Use paper, a text editor, dictation, or a willing reader. Everything needed to complete the default
+      rehearsal is supplied. These materials do not diagnose irrationality or establish that bias has
+      been eliminated. They do not establish mastery.
+
+
+      ### Seven routes to inspect, not seven labels to attach to people
+
+
+      **Confirmation:** Preferentially seeking or crediting support for your favored answer. Countercheck:
+      search for a concrete fact that would make that answer fail your stated criterion.
+
+
+      **Availability:** Giving a vivid or easily recalled example more weight than its relevance warrants.
+      Countercheck: compare that example''s time, setting, and coverage with the current decision evidence.
+
+
+      **Anchoring:** Allowing an initial number or framing to pull a later estimate without adequate adjustment.
+      Countercheck: calculate from relevant components and examine sensitivity. After seeing the anchor,
+      do not claim your estimate was unexposed or independent of it.
+
+
+      **Sunk cost:** Treating irrecoverable past effort as a reason to incur further costs, apart from
+      future consequences. Countercheck: compare future costs and benefits. Past work can create a genuinely
+      reusable asset; include its future usefulness rather than mechanically discarding all history.
+
+
+      **Overconfidence:** Expressing more certainty or precision than the evidence supports. Countercheck:
+      name a plausible failure condition, missing information, and a response if it occurs. A confidence
+      number alone is not calibration.
+
+
+      **Tribal reasoning:** Applying more favorable standards to a preferred group because it is yours.
+      Countercheck: swap irrelevant group labels while preserving relevant evidence, track record, and
+      constraints. Equal standards do not require equal conclusions when the evidence actually differs.
+
+
+      **Self-serving bias:** Applying an interpretation or standard that favors your own role without
+      an evidence-based justification. Countercheck: consider the same conduct with the roles reversed
+      and check whether relevant responsibilities and constraints are really comparable.
+
+
+      These are working descriptions for this exercise. They overlap and are not seven diagnoses. Mark
+      a route **relevant**, **uncertain**, or **unsupported in this packet**, with a reason. Do not invent
+      evidence merely to fill every row. The background sources and their limits are recorded in SOURCES.md;
+      they do not validate this original checklist.
+
+
+      ### A different worked example: continue an illustration or switch?
+
+
+      A person has already spent 90 unrecoverable minutes on a draft. Their remaining task is to produce
+      a readable event sign. Finishing that draft would take 40 more minutes; a simpler alternative would
+      take 15 and meet the same stated requirement. No part of the old draft can be reused, and there
+      is no cancellation obligation or other future consequence in this toy case.
+
+
+      The countercheck is a future-only comparison: 40 versus 15, not 130 versus 15. Selecting the simpler
+      route can fit the stated requirement, while the old 90 minutes remain recorded as past effort. If
+      the old draft contained a reusable illustration that saved future work, that useful asset would
+      matter. The point is not “always abandon work”; it is to identify what can still change.
+
+
+      ### Complete practice packet: one community-event choice
+
+
+      All options, advertisements, and statements are fictional. This is a decision rehearsal, not evidence
+      that you attended an event or changed a real-life choice.
+
+
+      #### Initial card — record a preference before the detailed comparison
+
+
+      For the fictional decision-maker, the aim is to participate in one event **if** it fits these constraints:
+      at most **70 minutes door-to-door**, confirmed step-free access, and no current personal need to
+      rest instead. The decision-maker reports sufficient energy today. Once these conditions are met,
+      prefer the option with less total future time. Staying home remains the fallback when participation
+      cannot be justified under the constraints.
+
+
+      Event A is organized by a familiar club. An old advertisement calls it a “quick 35-minute activity.”
+      The person spent 60 minutes preparing an A-specific card that cannot be reused or recovered. Event
+      B has an unfamiliar organizer. A friend vividly recalls a noisy B event last year. Option C is to
+      stay home.
+
+
+      Write your initial preference, main reason, and certainty in ordinary words. If you already read
+      the detailed facts, record that exposure; do not claim a blind initial judgment.
+
+
+      #### Current detail card — now use the complete supplied facts
+
+
+      | Option | Round-trip travel | Current session duration | Total future time | Step-free access |
+      Other information |
+
+      | --- | --- | --- | --- | --- | --- |
+
+      | A | 40 minutes | 45 minutes | Calculate | Not confirmed in this packet | Old advertisement omits
+      travel and does not give the current duration |
+
+      | B | 20 minutes | 40 minutes | Calculate | Confirmed for this fictional session | Current notice
+      offers a quiet area; actual attendance and noise are not guaranteed |
+
+      | C | 0 minutes | 0 minutes | Calculate | No travel required | Does not meet the participation aim,
+      but is the fallback and rest option |
+
+
+      The 60 minutes of A-specific preparation have already occurred and cannot be recovered. There are
+      no purchases, deposits, contractual duties, or cancellation penalties in this packet. The friend''s
+      story concerns a different event last year and does not measure this session''s noise. Organizer
+      familiarity is the only group-label difference supplied; no differing safety record, competence
+      evidence, or trust history is provided.
+
+
+      #### Action 1 — Preserve the preference and audit the procedure
+
+
+      Fill one row for each of the seven routes:
+
+
+      `Route | relevant / uncertain / unsupported | specific fact or missing fact | how it might distort
+      this decision | suitable countercheck`
+
+
+      Inspect your own reasoning rather than declaring that everyone choosing A is biased. The initial
+      card contains opportunities for several vulnerabilities, but a cue''s presence does not prove it
+      caused your preference. For overconfidence and self-serving bias in particular, evidence about your
+      actual reasoning may be absent: an uncertainty or unsupported disposition can be more honest than
+      a confident label.
+
+
+      State the actual decision rule before judging the preferred option. Preserve constraints you would
+      apply to an unfamiliar organizer, and do not invent additional favorable facts for the familiar
+      one.
+
+
+      #### Action 2 — Perform one countercheck that could reverse the preference
+
+
+      Choose a vulnerability tied to a concrete reason you recorded. Write a finding that would make the
+      preferred option fail, then perform the matching check using the supplied detail card.
+
+
+      For a time-anchor or confirmation concern, compute travel plus session time for each event and compare
+      the result with 70 minutes. For a sunk-cost concern, keep the 60 past minutes in the history column
+      but exclude them from future time; explain why no reusable asset or obligation is lost in this packet.
+      For an availability concern, compare last year''s anecdote with the current notice and keep the
+      remaining noise uncertainty. For a group-label concern, swap only the organizer labels and apply
+      the same constraints again.
+
+
+      Record the actual calculation, source row, or comparison. “I considered the opposite” without showing
+      what you inspected is insufficient. An inaccessible or missing fact stays missing. Do not label
+      unconfirmed access as confirmed in order to keep a preference.
+
+
+      #### Action 3 — Decide, preserve disagreement, and distinguish the route
+
+
+      Apply the stated rule to the checked information. Record:
+
+
+      `Initial preference | initial reason | countercheck performed | result | final preference | unchanged
+      or changed, and why | remaining uncertainty | appropriate next step`
+
+
+      A procedure can improve while the answer stays the same. Conversely, switching options does not
+      prove a better procedure if the new choice is unsupported. Keep the actual reason for the decision
+      visible.
+
+
+      For this fictional packet, write a decision rehearsal only. Do not claim real-world participation
+      or bias reduction. For an optional actual low-stakes choice, record your real constraints and preference
+      first, check relevant available information, change the method, and carry out a reversible next
+      step when appropriate. Declining to act or obtaining missing information can be a reasoned outcome.
+      Do not create a purchase, confrontation, or other commitment merely to obtain evidence for this
+      exercise.
+
+
+      ### Check the method on fresh cases
+
+
+      Open **check-prompts.md**. Complete the seven short cases and the fresh choice before opening **check-answers.md**.
+      Explain the mechanism and procedural repair; do not rely on the name alone. Multiple vulnerabilities
+      can coexist, and a justified alternative classification can be acceptable.
+
+
+      The answer file is separately stored source material.
+
+
+      ### Accessibility and advanced routes
+
+
+      Use a spoken checklist or inspect one route at a time. A willing reader may present anonymized option
+      cards, preserve your first preference, and record your decisions without selecting for you. Record
+      assistance. No time-pressure task is required.
+
+
+      For a more demanding route, identify a case where familiarity or past investment conveys relevant
+      future information. Explain exactly which evidence should remain after a label swap or future-only
+      comparison. Do not turn a useful countercheck into a rigid rule that discards expertise, duty, access
+      needs, or legitimate relationships.
+
+
+      For longitudinal transfer, try a different actual low-stakes choice later. Preserve the initial
+      record and compare procedures, not just whether the final answers changed. A single before-and-after
+      result cannot establish a causal effect of this checklist or reliable judgment across contexts.
+
+
+      ### How to interpret your result
+
+
+      **Supportive:** A specific vulnerability leads to a performed calculation or evidence check, both
+      preferences remain visible, and the final action uses the same relevant standard across options.
+
+
+      **Mixed:** All seven labels are accurate but the decisive comparison is never performed, or contrary
+      information is recorded and then ignored without justification.
+
+
+      **Contradictory:** The checklist is applied only to disliked groups, missing information is invented,
+      or the user changes the rule solely to protect their preference.
+
+
+      **Inconclusive:** There is no initial preference, no visible countercheck, or only a simulated choice
+      presented as a real one. The fictional route cannot establish the canonical real-choice progress
+      indicator by itself.
+
+
+      This is not a substitute for qualified advice on high-consequence decisions. Keep the practice ordinary,
+      reversible, and within your own authority.
+
+
+      **Final review:** What changed in your procedure? Which result could have changed your preference?
+      Would the same relevant evidence receive the same treatment after a role or group-label swap?'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Save your responses before opening the separate answer file. These cases are fictional and
+      test the stated reasoning, not the actual psychology of a person.
+
+
+      ### Check A — Name the vulnerability and change the method
+
+
+      For each case, identify the most directly illustrated vulnerability, explain the mechanism, and
+      supply a countercheck that could change the decision. Do not require every real person in that situation
+      to have the same bias.
+
+
+      1. Casey wants a particular reading-group venue and reads only its favorable reviews, deliberately
+      skipping the current access notice.
+
+      2. One striking story about a crowded session dominates Drew''s judgment, although the choice concerns
+      a different session with a different capacity and booking system.
+
+      3. Ellis sees a “10-minute task” headline and keeps estimating 12 minutes even after listing five
+      non-overlapping required steps of 5 minutes each.
+
+      4. Fran plans to continue an unsuitable poster solely because 80 irrecoverable minutes have already
+      been spent; an equally suitable alternative has a smaller remaining workload, and no asset or obligation
+      would be lost.
+
+      5. Gray says “There is no possible way the outdoor event will be disrupted,” despite lacking weather,
+      access, or cancellation information.
+
+      6. Harper demands a current access confirmation from an unfamiliar club but accepts an equally unsupported
+      access claim from their own club; no relevant track-record difference is supplied.
+
+      7. Indigo calls their own late cancellation reasonable but another person''s cancellation irresponsible,
+      while admitting the same notice, responsibilities, and constraints applied in both cases.
+
+
+      State why a familiar organizer or prior effort can sometimes be relevant evidence rather than automatically
+      something to ignore.
+
+
+      ### Check B — A fair check can retain the initial choice
+
+
+      A fictional volunteer wants to participate in one session with confirmed step-free access and at
+      most 60 minutes total future time. Both options have confirmed access and otherwise meet the stated
+      requirements. Among feasible options, the rule is to minimize future time.
+
+
+      - **X:** 20 minutes round-trip travel and 30 minutes in the session.
+
+      - **Y:** 10 minutes round-trip travel and 45 minutes in the session.
+
+
+      The initial preference is X. The volunteer previously spent 80 irrecoverable minutes preparing specifically
+      for Y. Nothing can be reused and there is no duty or penalty attached. X belongs to an unfamiliar
+      group; Y belongs to a familiar group. No relevant difference in track record is supplied.
+
+
+      Preserve the first preference. Calculate both totals, perform a future-only and group-label countercheck,
+      and apply the stated rule. Explain whether retaining X can count as a successful procedure check.
+      Name one missing real-world fact that would matter outside this closed fictional packet without
+      inventing it or overturning the packet''s stipulated facts.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Open after saving your responses. These explanations concern the supplied reasoning and data.
+      They do not diagnose a participant or certify that a bias has been removed.
+
+
+      ### Main practice: current event choice
+
+
+      A requires 40 + 45 = 85 future minutes, exceeding the 70-minute limit. Its step-free access is also
+      unconfirmed. B requires 20 + 40 = 60 future minutes and has confirmed access in the fictional packet.
+      C takes no event time but does not meet the participation aim; the stipulated rule uses it as fallback
+      or rest option.
+
+
+      With the stated sufficient-energy condition and decision rule, B is the supported participation
+      choice. A''s 60 past preparation minutes do not change its future time. The old “35-minute” wording
+      is neither the current session duration nor a door-to-door total. B''s quiet-area notice is relevant
+      but does not guarantee a noise-free experience. That uncertainty should remain visible rather than
+      be converted into a promise.
+
+
+      An initial B preference may reasonably stay B after a genuine check. An initial A preference may
+      change. Neither change nor retention alone demonstrates a better procedure. The evidence is the
+      preserved initial reason, a performed relevant check, and a justified final record.
+
+
+      The packet makes confirmation, anchoring, sunk-cost, availability, and group-label vulnerabilities
+      available to inspect. Their presence is not proof that each influenced this person. Overconfidence
+      and self-serving dispositions depend on the reasoning actually recorded; “uncertain” or “unsupported”
+      can be appropriate. A complete audit does not mean assigning seven positive diagnoses.
+
+
+      ### Check A
+
+
+      1. **Confirmation:** only favorable information is inspected. Read the current access notice and
+      state the access finding that would disqualify the preferred venue.
+
+      2. **Availability:** vividness substitutes for an appropriate comparison. Check which features of
+      the earlier event differ and inspect the current session''s capacity and booking information. The
+      old story may remain relevant to a specified risk; it does not automatically describe this event.
+
+      3. **Anchoring:** the headline continues to control an estimate despite a task decomposition. Sum
+      the five non-overlapping 5-minute steps: 25 minutes. Compare that result with the headline and identify
+      whether any steps actually overlap. Do not claim the estimate was never exposed to the anchor.
+
+      4. **Sunk cost:** irrecoverable effort drives further commitment without a future benefit or obligation.
+      Compare remaining workload and suitability, keeping the 80 past minutes in the history record, not
+      as a future cost.
+
+      5. **Overconfidence:** certainty exceeds the supplied coverage. Identify plausible disruption conditions,
+      obtain proportionate information, and state a contingency rather than inventing a precise probability
+      or insisting on certainty.
+
+      6. **Tribal reasoning:** the evidence standard changes with group identity. Apply the same access-confirmation
+      requirement after swapping irrelevant labels. Preserve any genuine relevant differences if additional
+      evidence later supplies them.
+
+      7. **Self-serving bias:** equivalent constraints receive different judgments according to whose
+      conduct is evaluated. Reverse the roles while holding those constraints fixed and state a consistent
+      standard or a relevant difference that would justify different treatment.
+
+
+      Other labels may overlap, but an acceptable answer must explain the described mechanism and perform
+      or specify a matching check. A name without a procedural change is incomplete.
+
+
+      A familiar organizer''s documented reliability can matter. Past work can produce a reusable asset
+      or create a real future obligation. The packet removes those differences to isolate the exercise;
+      real decisions must inspect them rather than mechanically erase them.
+
+
+      ### Check B
+
+
+      X totals 20 + 30 = 50 minutes. Y totals 10 + 45 = 55 minutes. Both satisfy the 60-minute and access
+      constraints. X requires less future time and therefore remains the choice under the stated rule.
+
+
+      The 80 past minutes for Y are irrecoverable and create no reusable asset, duty, or penalty in this
+      packet. Exclude them from the future comparison while preserving the history. Swapping the group
+      labels does not change the supplied totals, requirements, or relevant evidence. Keeping X after
+      these checks can be a successful procedure check; forcing a switch would contradict the stated rule.
+
+
+      Outside this closed packet, actual current access, a changed schedule, personal capacity, or a real
+      commitment could matter. Name such a fact as a future verification need, not an invented problem
+      that overwrites the supplied fictional stipulations.
+
+
+      **Repair:** If you selected Y solely to show that you “overcame bias,” return to the prespecified
+      criteria. If you selected X without calculations or a countercheck, add the missing procedure rather
+      than treating the correct answer as sufficient evidence of how it was reached.
+
+
+      ### Evidence boundary
+
+
+      A fictional choice supplies a rehearsal artifact. The canonical real-choice indicator remains untested
+      until an actual appropriate decision is recorded and its procedure is changed accordingly. A before-and-after
+      choice alone is not causal evidence that this checklist reduced bias. Independent learner, specialist
+      where needed, and formal owner acceptance are still separate.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

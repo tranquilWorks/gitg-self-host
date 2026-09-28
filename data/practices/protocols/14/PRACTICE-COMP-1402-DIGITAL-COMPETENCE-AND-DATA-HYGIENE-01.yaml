@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1402-DIGITAL-COMPETENCE-AND-DATA-HYGIENE-01
 slug: c1402-digital-competence-and-data-hygiene-practice
-name: Bounded Digital competence and data hygiene Practice
+name: Organize and restore a harmless file before trusting a backup routine
 parent_competency_id: '14.02'
 domain_id: '14'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 14.02
-      (Digital competence and data hygiene); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 14.02; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Digital competence and data hygiene through a low-stakes skill rehearsal bounded
-    by the canonical scope: Manage devices, backups, accounts, passwords, files, privacy, updates, and
-    common troubleshooting.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Personal data and essential
-    services remain organized, recoverable, and reasonably secure. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Practice file organization, device maintenance, account hygiene and recovery through a small
+    reversible test that proves a copy can actually be opened.
+  why_recommended: Practice file organization, device maintenance, account hygiene and recovery through
+    a small reversible test that proves a copy can actually be opened.
   claims:
-  - statement: Using the canonical scope and evidence target for Digital competence and data hygiene is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Practice file organization, device maintenance, account hygiene and recovery through a
+      small reversible test that proves a copy can actually be opened.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Digital competence and data hygiene practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Digital competence and data hygiene as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Digital competence
-    and data hygiene context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Digital competence
-    and data hygiene; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use a plain-text, audio or accessible document and a trusted helper who does
+    not receive passwords. On managed equipment, follow organizational policy and use a training area.
+    Without a second destination, label the exercise a file-copy rehearsal and leave disaster recovery
+    untested.
+  opportunity_considerations: 'Create a new folder named practice-recovery and a new text file containing
+    three invented items: blue notebook, spare pencil, meeting at noon. Keep the original. Use an existing
+    authorized backup destination or a second local storage location; a second folder on the same device
+    tests copying only, not protection from device loss. Never delete real files or reset a device for
+    this exercise.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Digital competence and data hygiene.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Create a new folder named practice-recovery and a new text file containing three invented items:
+    blue notebook, spare pencil, meeting at noon. Keep the original. Use an existing authorized backup
+    destination or a second local storage location; a second folder on the same device tests copying only,
+    not protection from device loss. Never delete real files or reset a device for this exercise.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Digital competence and data hygiene
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a plain-text, audio or accessible document and a trusted helper who does not receive passwords.
+    On managed equipment, follow organizational policy and use a training area. Without a second destination,
+    label the exercise a file-copy rehearsal and leave disaster recovery untested.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +83,27 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SKILL-REHEARSAL
   duration_days: 10
-  cadence: Complete three bounded Digital competence and data hygiene actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Digital competence and data hygiene; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Digital
-    competence and data hygiene. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Digital competence and data hygiene actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Create a new folder named practice-recovery and a new text file containing three invented items:
+    blue notebook, spare pencil, meeting at noon. Keep the original. Use an existing authorized backup
+    destination or a second local storage location; a second folder on the same device tests copying only,
+    not protection from device loss. Never delete real files or reset a device for this exercise. Goal:
+    Practice file organization, device maintenance, account hygiene and recovery through a small reversible
+    test that proves a copy can actually be opened. Scope: This is a personal digital-hygiene exercise,
+    not a full security audit or disaster-recovery certification. Use only devices and accounts you own
+    or are authorized to administer. Time and effort: Twenty-five minutes for a harmless file test and
+    ten minutes for one maintenance check. Adaptation: Use a plain-text, audio or accessible document
+    and a trusted helper who does not receive passwords. On managed equipment, follow organizational policy
+    and use a training area. Without a second destination, label the exercise a file-copy rehearsal and
+    leave disaster recovery untested. Keep personal working notes outside the check-in; record only the
+    listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a plain-text, audio or accessible document and a trusted helper who does not
+    receive passwords. On managed equipment, follow organizational policy and use a training area. Without
+    a second destination, label the exercise a file-copy rehearsal and leave disaster recovery untested.
+  expected_burden: Twenty-five minutes for a harmless file test and ten minutes for one maintenance check.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Digital competence and data hygiene protocol to rank worth, coerce participation, demand
@@ -101,18 +111,25 @@ intervention:
   - Treating a completed Digital competence and data hygiene action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Digital competence and data hygiene situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a plain-text,
+    audio or accessible document and a trusted helper who does not receive passwords. On managed equipment,
+    follow organizational policy and use a training area. Without a second destination, label the exercise
+    a file-copy rehearsal and leave disaster recovery untested.
   actions:
   - stable_id: PRACTICE-COMP-1402-DIGITAL-COMPETENCE-AND-DATA-HYGIENE-01-A1
     sequence: 1
-    title: Define observable criteria for Digital competence and data hygiene
-    instructions: 'Select one safe, lawful, low-stakes component of Digital competence and data hygiene.
-      Build a three-to-five-item rubric from this scope, including an error or stop criterion: Manage
-      devices, backups, accounts, passwords, files, privacy, updates, and common troubleshooting.'
+    title: Map the file and the services it depends on
+    instructions: 'Give the test file a clear name and date, then identify where the original, backup
+      and account recovery information reside. Note whether both copies depend on the same device, cloud
+      login or internet connection. Review one device’s update status, screen lock and unused account
+      access using official settings without changing managed policies. Mark an unfamiliar warning for
+      qualified help rather than dismiss it.
+
+
+      Observation checks: The harmless original has a clear name and known location; Original backup and
+      access dependencies are distinguished; Same-device or same-account failure limits are recorded;
+      One device-maintenance check is completed without bypassing policy. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +151,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1402_a1_skill_component_bounded
-        - c1402_a1_observable_rubric_present
-        - c1402_a1_error_or_stop_defined
+        - the_harmless_original_has_a_clear_name_and_known_location
+        - original_backup_and_access_dependencies_are_distinguished
+        - same_device_or_same_account_failure_limits_are_recorded
+        - one_device_maintenance_check_is_completed_without_bypassing_policy
       - measurement_id: c1402_a1_boundary
         kind: boolean
         role: supporting
@@ -153,10 +171,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1402-DIGITAL-COMPETENCE-AND-DATA-HYGIENE-01-A2
     sequence: 2
-    title: Rehearse Digital competence and data hygiene twice
-    instructions: Perform two bounded attempts of the selected Digital competence and data hygiene component
-      under comparable safe conditions. Use self-review, a consensual observer, or a reviewed artifact;
-      do not require public exposure, coerced feedback, licensed work, or high-consequence performance.
+    title: Copy and restore to a new location without overwriting
+    instructions: 'Back up the test file using the chosen method, then restore or download it into a different
+      new folder. Open the restored file and compare all three lines with the untouched original. If the
+      tool reports success but the content is missing, unreadable or older, keep that failure visible.
+      Do not overwrite originals, remove existing backups or upload personal documents merely to make
+      the test realistic.
+
+
+      Observation checks: A backup or copy of the harmless file is actually made; Restoration uses a new
+      destination with originals preserved; The restored content is opened and compared line by line;
+      A failed or incomplete restore is not counted as recovery. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -172,15 +198,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1402_a2_primary
-        kind: count
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - firsthand_self_report
-        direction: at_least
-        minimum: '0'
-        target: '1'
-        maximum: '3'
+        - reviewed_artifact
+        criteria:
+        - a_backup_or_copy_of_the_harmless_file_is_actually_made
+        - restoration_uses_a_new_destination_with_originals_preserved
+        - the_restored_content_is_opened_and_compared_line_by_line
+        - a_failed_or_incomplete_restore_is_not_counted_as_recovery
       - measurement_id: c1402_a2_boundary
         kind: boolean
         role: supporting
@@ -197,10 +224,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1402-DIGITAL-COMPETENCE-AND-DATA-HYGIENE-01-A3
     sequence: 3
-    title: Use feedback for one Digital competence and data hygiene retry
-    instructions: 'Choose one rubric item that remained weak, make one specific adjustment, and retry
-      only that component. Preserve no-change or worse results and compare the evidence with: Personal
-      data and essential services remain organized, recoverable, and reasonably secure.'
+    title: Turn the result into a small maintenance routine
+    instructions: 'Record the successful recovery steps or the exact non-sensitive failure message, plus
+      who or what official help route can resolve it. Choose a sustainable review point for updates, backup
+      checks and account access, and one important category of real data that later needs protection.
+      Do not move that data until destination privacy, retention and recovery are understood. A tested
+      sample is not proof that every file is backed up.
+
+
+      Observation checks: The recovery procedure or unresolved failure is recorded; A maintenance review
+      covers updates backups and access; A real data category is identified without exposing its contents;
+      The sample test’s coverage limit remains explicit. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.
+
+
+      Final review: Could you recover the sample without the original location, and which shared dependency
+      would still defeat the plan?
+
+
+      Examples: Supportive: The three-line file was restored and opened from a separate destination, while
+      the shared cloud-login dependency remained documented.
+
+
+      Mixed: The backup job completed, but the restored file was an older version and the procedure needed
+      correction.
+
+
+      Contradictory: Real originals were deleted or confidential files uploaded to an unverified service
+      to test recovery.
+
+
+      Inconclusive: A backup-success icon was observed without opening and comparing a restored file.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,9 +276,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1402_a3_feedback_item_selected
-        - c1402_a3_adjustment_traceable
-        - c1402_a3_retry_result_preserved
+        - the_recovery_procedure_or_unresolved_failure_is_recorded
+        - a_maintenance_review_covers_updates_backups_and_access
+        - a_real_data_category_is_identified_without_exposing_its_contents
+        - the_sample_test_s_coverage_limit_remains_explicit
       - measurement_id: c1402_a3_boundary
         kind: boolean
         role: supporting
@@ -245,17 +300,17 @@ intervention:
       Digital competence and data hygiene; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Digital competence and data hygiene; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a plain-text, audio or accessible document and a trusted helper who does not receive passwords.
+      On managed equipment, follow organizational policy and use a training area. Without a second destination,
+      label the exercise a file-copy rehearsal and leave disaster recovery untested.
     cultural_context:
     - Adapt the expression of Digital competence and data hygiene to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Digital competence and data hygiene opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use a plain-text, audio or accessible document and a trusted helper who does not receive passwords.
+      On managed equipment, follow organizational policy and use a training area. Without a second destination,
+      label the exercise a file-copy rehearsal and leave disaster recovery untested.
   pause_conditions:
   - Pause Digital competence and data hygiene when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -287,10 +342,7 @@ evidence_and_scoring:
   - c1402_a3_boundary
   - c1402_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Digital competence and data hygiene action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Digital competence and data hygiene criterion, depended on
-    coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - Real originals were deleted or confidential files uploaded to an unverified service to test recovery.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Digital competence and data hygiene explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +353,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Digital competence and data hygiene rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Personal data and essential services remain organized, recoverable, and reasonably secure.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Digital competence and data hygiene requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Map the file and the services it depends on. Observed checks: The harmless
+    original has a clear name and known location; Original backup and access dependencies are distinguished;
+    Same-device or same-account failure limits are recorded; One device-maintenance check is completed
+    without bypassing policy. Action 2: Copy and restore to a new location without overwriting. Observed
+    checks: A backup or copy of the harmless file is actually made; Restoration uses a new destination
+    with originals preserved; The restored content is opened and compared line by line; A failed or incomplete
+    restore is not counted as recovery. Action 3: Turn the result into a small maintenance routine. Observed
+    checks: The recovery procedure or unresolved failure is recorded; A maintenance review covers updates
+    backups and access; A real data category is identified without exposing its contents; The sample test’s
+    coverage limit remains explicit.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A backup-success icon was observed without opening
+    and comparing a restored file.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Digital
     competence and data hygiene contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -317,9 +378,8 @@ evidence_and_scoring:
   - L10
   - L15
   - L19
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Digital competence and data hygiene evidence.
@@ -327,11 +387,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define observable criteria for digital competence and data hygiene action was attempted or explicitly
-    deferred.
-  - The rehearse digital competence and data hygiene twice action was attempted or explicitly deferred.
-  - The use feedback for one digital competence and data hygiene retry action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Map the file and the services it depends on. Observed checks: The harmless original has
+    a clear name and known location; Original backup and access dependencies are distinguished; Same-device
+    or same-account failure limits are recorded; One device-maintenance check is completed without bypassing
+    policy.'
+  - 'Action 2: Copy and restore to a new location without overwriting. Observed checks: A backup or copy
+    of the harmless file is actually made; Restoration uses a new destination with originals preserved;
+    The restored content is opened and compared line by line; A failed or incomplete restore is not counted
+    as recovery.'
+  - 'Action 3: Turn the result into a small maintenance routine. Observed checks: The recovery procedure
+    or unresolved failure is recorded; A maintenance review covers updates backups and access; A real
+    data category is identified without exposing its contents; The sample test’s coverage limit remains
+    explicit.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,58 +410,375 @@ completion_and_review:
     - c1402_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Digital competence and data hygiene only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Digital competence and data hygiene across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Could you recover the sample without the original location, and which shared dependency
+    would still defeat the plan?
+  transfer_limit: This is a personal digital-hygiene exercise, not a full security audit or disaster-recovery
+    certification. Use only devices and accounts you own or are authorized to administer.
   reflection:
-    before: What does Digital competence and data hygiene require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Digital competence and data hygiene criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Personal data and essential services remain organized, recoverable,
-      and reasonably secure.', what contradiction or missing context matters most, and should this Digital
-      competence and data hygiene design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Practice file organization, device maintenance,
+      account hygiene and recovery through a small reversible test that proves a copy can actually be
+      opened.'
+    during: Which checks have actually been observed? The backup job completed, but the restored file
+      was an older version and the procedure needed correction.
+    after: Could you recover the sample without the original location, and which shared dependency would
+      still defeat the plan?
   review_guidance:
     repeat: Repeat the same bounded Digital competence and data hygiene design only when the context and
       burden remain appropriate.
-    adapt: Change the Digital competence and data hygiene medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Use a plain-text, audio or accessible document and a trusted helper who does not receive passwords.
+      On managed equipment, follow organizational policy and use a training area. Without a second destination,
+      label the exercise a file-copy rehearsal and leave disaster recovery untested.
     stop: Stop Digital competence and data hygiene when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Digital competence and data hygiene questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Digital competence and data hygiene criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Digital competence and data hygiene criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Digital competence and data hygiene criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Digital competence and data hygiene action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The three-line file was restored and opened from a separate destination, while the shared
+      cloud-login dependency remained documented.
+    mixed: The backup job completed, but the restored file was an older version and the procedure needed
+      correction.
+    contradictory: Real originals were deleted or confidential files uploaded to an unverified service
+      to test recovery.
+    inconclusive: A backup-success icon was observed without opening and comparing a restored file.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Digital competence and data hygiene.
+    context_heading: Organize and restore a harmless file before trusting a backup routine
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Digital competence
       and data hygiene.
   check_in_labels:
-    c1402_a1_primary: The bounded Digital competence and data hygiene criterion for action 1 was observed
+    c1402_a1_primary: 'Observed checks: map the file and the services it depends on'
     c1402_a1_boundary: Action 1 stayed inside its stated Digital competence and data hygiene boundary
     c1402_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1402_a2_primary: The bounded Digital competence and data hygiene criterion for action 2 was observed
+    c1402_a2_primary: 'Observed checks: copy and restore to a new location without overwriting'
     c1402_a2_boundary: Action 2 stayed inside its stated Digital competence and data hygiene boundary
     c1402_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1402_a3_primary: The bounded Digital competence and data hygiene criterion for action 3 was observed
+    c1402_a3_primary: 'Observed checks: turn the result into a small maintenance routine'
     c1402_a3_boundary: Action 3 stayed inside its stated Digital competence and data hygiene boundary
     c1402_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Digital competence
-    and data hygiene practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Could you recover the sample without the original location, and which shared dependency
+    would still defeat the plan? Completion is not mastery.
+  plain_language_evidence: The three-line file was restored and opened from a separate destination, while
+    the shared cloud-login dependency remained documented.
   display_order: 178
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '14.02'
+  title: 14.02 — Digital competence and data hygiene
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [CDC — Chronic Conditions & Disabilities Activity](https://www.cdc.gov/physical-activity-basics/guidelines/chronic-health-conditions-and-disabilities.html)
+
+      - [CDC — Pregnant & Postpartum Activity](https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html)
+
+      - [NIAMS — Sports Injuries](https://www.niams.nih.gov/health-topics/sports-injuries)
+
+      - [MedlinePlus — Pain](https://medlineplus.gov/pain.html)
+
+      - [NHS — Back pain](https://www.nhs.uk/conditions/back-pain/)
+
+      - [University Hospitals Sussex — Low back pain A&E leaflet](https://www.uhsussex.nhs.uk/resources/low-back-pain/)
+
+      - [Cleveland Clinic — Referred Pain](https://my.clevelandclinic.org/health/symptoms/25238-referred-pain)
+
+      - [Apple — Allow or silence notifications for a Focus](https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios)
+
+      - [NCSC — Backing up your data](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data)
+
+      - [NCSC — Install the latest software and app updates](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/install-the-latest-software-and-app-updates)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)
+
+      - [FTC — How Websites and Apps Collect and Use Your Information](https://consumer.ftc.gov/articles/how-websites-and-apps-collect-and-use-your-information)
+
+      - [ICO — Your right to get your data deleted](https://ico.org.uk/for-the-public/your-right-to-get-your-data-deleted/)
+
+      - [FTC — Use Two-Factor Authentication](https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts)
+
+      - [NIST SP 800-63B-4](https://pages.nist.gov/800-63-4/sp800-63b.html)
+
+      - [Microsoft — Find your BitLocker recovery key](https://support.microsoft.com/en-us/windows/security/encryption/find-your-bitlocker-recovery-key)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'These are separate fictional attempts. Compare them with the required v2 source; do not add
+      their files together to manufacture one success.
+
+
+      | Branch | Tool message | File actually opened |
+
+      | --- | --- | --- |
+
+      | R1 | Copy complete | Community meeting; Room Birch; Bring one pencil |
+
+      | R2 | Copy complete | Community meeting; Room Cedar; Bring one pencil |
+
+      | R3 | Destination full | No file created |
+
+      | R4 | Copy complete | Community meeting; Room Birch |
+
+
+      A second scenario concerns a fictional sync service with **no retained history**. The current original
+      is accidentally deleted and that deletion is propagated to the synced folder. An independent earlier
+      backup remains readable but contains v1 only. Identify what can and cannot be recovered. Do not
+      perform this deletion in the working area or on real data.'
+  - id: file-materials-readme-md
+    title: Readme
+    body: 'Both files below contain original fictional meeting information, with no personal data or credentials.
+      Download or copy them into a new working area using [the guide](?). Keep the source copies and all
+      existing files intact.
+
+
+      - [meeting-v1.txt](?resource=file-materials-meeting-v1-txt): earlier Cedar version.
+
+      - [meeting-v2.txt](?resource=file-materials-meeting-v2-txt): required Birch version.
+
+
+      Do not use another person''s folder or upload these as part of a real account recovery request.
+      A local copy demonstrates only the route actually used.'
+  - id: file-materials-meeting-v1-txt
+    title: Meeting v1
+    body: '```text
+
+      Community meeting
+
+      Room Cedar
+
+      Bring one pencil
+
+      ```'
+  - id: file-materials-meeting-v2-txt
+    title: Meeting v2
+    body: '```text
+
+      Community meeting
+
+      Room Birch
+
+      Bring one pencil
+
+      ```'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Recover a known version, not a reassuring icon
+
+
+      Data hygiene connects ordinary organization with recoverable, usable services. You need to know
+      which file is authoritative, where copies live, which accounts and devices they depend on, and how
+      maintenance affects access. A “backup complete” message is useful information, but opening the recovered
+      content is stronger evidence that the selected file can be restored.
+
+
+      Allow 30–40 minutes with a device and an ordinary file manager, or use the supplied paper comparison
+      route. No account login, purchase, upload, deletion or command line is required. Work in a new folder
+      you own. Do not use confidential documents, managed system directories or a real restore that overwrites
+      current work.
+
+
+      ### Five distinctions worth keeping
+
+
+      **Copying** creates another instance. **Synchronization** keeps selected locations aligned and can
+      propagate an unwanted edit or deletion. **Version history** may retain earlier states, subject to
+      a service''s actual rules. A **backup** is a deliberately recoverable copy with understood location
+      and retention. A **restore** retrieves a chosen state into a usable location. A second folder on
+      one device is a useful copying rehearsal, but does not protect against losing that device.
+
+
+      The [NCSC backup guide](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data)
+      explains separate storage and recovery options. Your own coverage must be checked: files, apps,
+      account access and an entire device are different restoration targets. Protect copies according
+      to their sensitivity. Encryption needs usable key recovery; an inaccessible encrypted copy is not
+      a tested recovery.
+
+
+      Keep accounts identifiable without writing secret values into your learning notes. Record provider,
+      purpose, ownership, recovery status and where the official instructions are found. Unique credentials
+      and a suitable password manager can help; detailed authentication/recovery work is in 14.04. For
+      device updates, use official settings and the organization''s policy where applicable. [NCSC update
+      guidance](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/install-the-latest-software-and-app-updates)
+      explains their security purpose. Save work and check access/backup needs before a change; an unfamiliar
+      warning deserves investigation rather than dismissal.
+
+
+      ### Worked example: the filename lies by omission
+
+
+      Two folders contain `meeting.txt`. One says “Room Cedar”; the other says “Room Birch.” Matching
+      filenames do not establish the same version. Preserve the current source, identify the required
+      content and copy the selected version into a new destination. Renaming the stale file “latest” does
+      not make it current.
+
+
+      ### Supplied materials: a harmless meeting note
+
+
+      The [materials folder](?resource=file-materials-readme-md) contains two original synthetic files:
+
+
+      | File | Purpose | Exact lines |
+
+      | --- | --- | --- |
+
+      | meeting-v1.txt | Earlier version | Community meeting; Room Cedar; Bring one pencil |
+
+      | meeting-v2.txt | Required current version | Community meeting; Room Birch; Bring one pencil |
+
+
+      All source files use UTF-8, one line per item and a final newline. Content comparison in an ordinary
+      editor can tolerate a platform''s newline convention, but must preserve all three words/lines correctly.
+      The exercise''s byte-level test uses the supplied bytes.
+
+
+      #### Action 1 — Set up a traceable working area
+
+
+      Create a new empty folder called `practice-recovery` in an authorized location. Inside it create
+      `original`, `copy` and a **new empty** `restore-check` folder. If any already exists, choose a different
+      new parent name; do not clear existing contents. Copy both supplied files into `original`, preserving
+      the downloadable source files. Open v2 and confirm the three lines before proceeding.
+
+
+      Record where the working area resides, whether all three folders share a device, and what loss that
+      arrangement cannot withstand. Add one device-maintenance row and one account/privacy row from the
+      fictional inventory below; no real credentials are needed.
+
+
+      | Item | Supplied status | Useful next check |
+
+      | --- | --- | --- |
+
+      | Personal laptop | Official update offered; restart not yet performed | Save work, confirm sample
+      copy and follow official update guidance at a suitable time |
+
+      | Photo service | Owner account; recovery status unknown | Inspect official account settings later;
+      do not label access recoverable yet |
+
+      | Shared folder | Another collaborator has access | Do not place personal documents there merely
+      because upload works |
+
+      | Unrecognized warning | “Destination is full” during copy | Check destination capacity and copy
+      result; do not delete unrelated files to finish |
+
+
+      #### Action 2 — Perform a non-destructive copy and retrieval
+
+
+      Copy `original/meeting-v2.txt` into `copy`. Then copy it **from `copy`** into `restore-check`; do
+      not use the original as the retrieval source. Open the retrieved file and compare each line with
+      the known v2 reference. Record the source, destination, version, opened result and whether any original
+      was changed. This tests the actual copy route if you perform it. It does not test cloud recovery,
+      device-loss recovery or protection of every real file.
+
+
+      If saving/opening fails, retain the non-sensitive error and stop claiming success. For a wrong version,
+      create another new destination and retrieve the correct version; preserve the failed output as evidence.
+      Do not repair the copy by manually retyping it and then call that a successful restore.
+
+
+      #### Action 3 — Diagnose changed results and choose maintenance
+
+
+      Save your receipt before [the later records](?resource=file-later-packet-md). Assess each independent
+      branch against the required v2 content. Draft a small maintenance plan covering the important data
+      category, backup location/retention, one future restore check, official update review, account recovery
+      and unnecessary sharing. Include a trigger such as device replacement, changed recovery contact
+      or failed backup; do not claim a plan has already run.
+
+
+      Use [fresh checks](?attempt=practice-checks) before [the key](?check=practice-answers). Complete
+      output is the retrieved harmless file or explicitly labeled paper comparison, receipt, branch decisions
+      and maintenance plan. A paper route practices reasoning and leaves actual file operations untested.
+
+
+      ### Supported and harder routes
+
+
+      Use an accessible file manager, voice input or a trusted helper describing controls without taking
+      passwords. An audio document is possible for later transfer, but the supplied text case keeps the
+      exact comparison self-contained. On managed equipment, use its approved training area or the paper
+      route.
+
+
+      Harder route: with an already-authorized separate backup destination, repeat the same harmless-file
+      retrieval while preserving originals. Identify what happens if the original device or the same cloud
+      account becomes unavailable. Record whether the alternative was actually tested or only reasoned
+      through. Do not disconnect your only working recovery route to demonstrate a failure.
+
+
+      For later real transfer, select one important category, review destination privacy and retention,
+      and test one harmless representative file before moving sensitive material. Troubleshoot through
+      observation, a single reversible change and a retest; stop for suspected compromise or unexplained
+      loss and use official support. This is operational organization and recoverability; 14.04 separately
+      examines attackers and authentication failure paths.
+
+
+      **Supportive:** The selected version is retrieved from the intended source, opened and compared
+      with originals preserved.
+
+
+      **Mixed:** Retrieval works but returns an older version; the procedure is corrected and retested.
+
+
+      **Contradictory:** Real originals are deleted or private data uploaded to an unverified destination
+      for the exercise.
+
+
+      **Inconclusive:** A success icon or copy count is recorded without inspecting the recovered content.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. The required note says “Workshop / Blue door / Bring gloves.” A retrieved file with the
+      same name says “Workshop / Blue door / Bring goggles.” The tool reports success. What passed, what
+      failed, and how should a correction preserve the evidence?
+
+      2. A learner makes two folders on one laptop, then claims their files are protected if that laptop
+      is lost. Identify the shared dependency and a bounded next test that requires no deletion or device
+      reset.
+
+      3. An independent backup contains a Monday file. On Tuesday its only other copy is edited and synced,
+      then deleted by a sync service with no version history. What version is known recoverable? What
+      remains unknown, and why is a successful Monday restore not proof of Tuesday recovery?
+
+
+      Try these before [the key](?check=practice-answers).'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. A file was retrieved and opened; content verification failed at the third line. Preserve
+      both the original and failed output, identify the correct source/version, and retrieve into a new
+      destination before comparing again. Retyping “gloves” into the result would be an edit, not evidence
+      that the retrieval route worked.
+
+      2. Both copies depend on the laptop. The existing test establishes same-device copying only. With
+      an already-authorized separate destination, back up and retrieve the harmless sample into a new
+      folder, then record the access dependencies. Do not lose access deliberately, buy a service to pass,
+      or claim device-loss recovery from a paper plan.
+
+      3. The independent Monday version is known to exist. Tuesday''s changes are not established as recoverable;
+      the supplied sync service retains no history. A successful Monday restore proves that version''s
+      route, not the missing later state. Investigate any other genuine copies without inventing them
+      or overwriting surviving evidence.
+
+
+      Default R1 matches v2. R2 is readable but stale. R3 has no completed retrieval. R4 is incomplete.
+      In the sync scenario, the independent v1 backup is recoverable while v2 is not established. Real
+      testing covers only the actual harmless-file operation and environment used.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

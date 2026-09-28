@@ -54,8 +54,8 @@ For support, annotate one record at a time using the five question headings. For
 
 Optional actual transfer means three willing conversations with current or likely users and an honest count of those completed. Two interviews cannot become three through reconstruction. Keep notes minimal, avoid pressured participants and do not send outreach from this lesson without authorization. Actual user or buyer evidence that changes an offer could support the canonical progress statement; this authored practice supplies method and contrast while leaving actual discovery pending.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise role is optional. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

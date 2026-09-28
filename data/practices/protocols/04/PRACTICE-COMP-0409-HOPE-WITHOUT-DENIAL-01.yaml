@@ -56,11 +56,15 @@ meaning_and_fit:
   opportunity_considerations: 'Use this fictional case: a community garden may lose access to its site,
     and an appeal might fail. Members still value one another and the knowledge they share. Alternatively
     choose a low-stakes uncertain outcome from ordinary life. Do not use an acute medical prognosis or
-    someone else''s crisis.'
+    someone else''s crisis. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.'
   prerequisites:
   - 'Use this fictional case: a community garden may lose access to its site, and an appeal might fail.
     Members still value one another and the knowledge they share. Alternatively choose a low-stakes uncertain
-    outcome from ordinary life. Do not use an acute medical prognosis or someone else''s crisis.'
+    outcome from ordinary life. Do not use an acute medical prognosis or someone else''s crisis. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use the fictional garden, spoken columns or a neutral uncertain hobby plan. Hope need not feel positive.
@@ -83,14 +87,17 @@ intervention:
   setup: 'Use this fictional case: a community garden may lose access to its site, and an appeal might
     fail. Members still value one another and the knowledge they share. Alternatively choose a low-stakes
     uncertain outcome from ordinary life. Do not use an acute medical prognosis or someone else''s crisis.
-    Goal: Develop realistic hope through relationship, remaining possibility, faith, meaning or action
-    while acknowledging adverse evidence and outcomes you cannot promise. Scope: Hope can concern a particular
-    outcome or how people will meet it; those are different claims. This small practice does not manufacture
-    optimism, predict recovery or require a hopeful feeling. Time and effort: About 15 minutes to map
-    the situation, one small action and a 15-minute review at a natural decision point. Adaptation: Use
-    the fictional garden, spoken columns or a neutral uncertain hobby plan. Hope need not feel positive.
-    No optimistic affirmation, religious explanation, public promise or pressure on another person''s
-    grief is required. Keep personal working notes outside the check-in; record only the listed observations.'
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work. Goal: Develop realistic hope through relationship, remaining possibility, faith, meaning or
+    action while acknowledging adverse evidence and outcomes you cannot promise. Scope: Hope can concern
+    a particular outcome or how people will meet it; those are different claims. This small practice does
+    not manufacture optimism, predict recovery or require a hopeful feeling. Time and effort: About 15
+    minutes to map the situation, one small action and a 15-minute review at a natural decision point.
+    Adaptation: Use the fictional garden, spoken columns or a neutral uncertain hobby plan. Hope need
+    not feel positive. No optimistic affirmation, religious explanation, public promise or pressure on
+    another person''s grief is required. Keep personal working notes outside the check-in; record only
+    the listed observations.'
   privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
     contents, identifying details or another person's private information. Participation and any help
     must be voluntary. Use the fictional garden, spoken columns or a neutral uncertain hobby plan. Hope
@@ -454,3 +461,58 @@ presentation:
   plain_language_evidence: The appeal failed, the loss was acknowledged and a wanted connection and shared
     knowledge remained worth preserving without pretending the loss was good.
   display_order: 57
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '04.09'
+  title: Hold a reason for hope alongside the reasons for grief
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Hope can support a worthwhile action without asserting that the desired outcome is likely. Relationship,
+      meaning, faith and practical possibility are distinct possible grounds; none must be imposed on
+      others.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Fictional garden notice: site access ends June 30 unless an appeal succeeds; response expected
+      June 20, result unknown. Members permit a private copy of their jointly written note: “Label saved
+      seed packets with plant name and collection date; ask the coordinator before distributing them.”
+      No gardening safety or germination claim is supplied. Names/photos and public distribution are not
+      authorized.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Preserve the exact permitted note and explain why that action can matter even if access ends.
+      Record the appeal as unknown and wait for the checking update.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A person says “I hope the appeal succeeds, but I will preserve the permitted record either way.”
+      Is hope necessarily a probability prediction?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Private preservation retains shared knowledge within permission, not the site itself. Later
+      fiction: appeal is denied June 20; the note is saved and a member welcomes having it. Grief and
+      that limited good coexist. Partial: save the note but imply appeal success. Incorrect: invent odds
+      or promise a new garden. No actual appeal or member response occurred for the reader.'
+    criteria:
+    - Desired outcome and warranted prediction differ
+    - The action is worthwhile under either outcome
+    - Permission and grief remain visible
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. It can express desire and a reason for faithful action. Keep any factual likelihood claim
+      separate and supported by actual evidence.
+    criteria:
+    - Desired outcome and warranted prediction differ
+    - The action is worthwhile under either outcome
+    - Permission and grief remain visible

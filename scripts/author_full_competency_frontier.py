@@ -1162,6 +1162,17 @@ def _expected_documents() -> tuple[
 def _write_or_check(check: bool) -> int:
     generated_files, source_registry, activation, all_protocols = _expected_documents()
     expected_files = dict(generated_files)
+    from scripts.catalog_learning_guides import load_companion_guides
+
+    frozen = {"08.02", "11.10", "16.03", "17.03", "26.01"}
+    companion_files = {
+        f"registries/guides/{cid.replace('.', '')}.yaml": _yaml_bytes(guide)
+        for cid, guide in load_companion_guides(ROOT).items()
+        if cid in frozen
+    }
+    expected_files.update(
+        {PRACTICE_ROOT / name: content for name, content in companion_files.items()}
+    )
     expected_files[SOURCE_PATH] = _yaml_bytes(source_registry)
     expected_files[ACTIVATION_PATH] = _yaml_bytes(activation)
     report = coverage_report(load_exercises(ROOT), ROOT)
@@ -1170,12 +1181,15 @@ def _write_or_check(check: bool) -> int:
     ).encode()
 
     manifest = _load_yaml(MANIFEST_PATH)
+    manifest["instructional_guide_files"] = sorted(companion_files)
     manifest["release_id"] = "M6A-CANONICAL-PRACTICE-FOUNDATION-1"
     manifest["protocol_files"] = _canonical_protocol_paths(all_protocols)
     static_content = [
         value for value in manifest["content_files"] if not value.startswith("protocols/")
     ]
-    manifest["content_files"] = sorted(set(static_content + manifest["protocol_files"]))
+    manifest["content_files"] = sorted(
+        set(static_content + manifest["protocol_files"] + list(companion_files))
+    )
     manifest["legacy_projection_hash"] = _runtime_projection_hash(all_protocols, activation)
     manifest["content_hash"] = "PENDING"
 

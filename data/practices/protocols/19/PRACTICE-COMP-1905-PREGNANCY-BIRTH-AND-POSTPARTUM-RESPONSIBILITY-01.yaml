@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1905-PREGNANCY-BIRTH-AND-POSTPARTUM-RESPONSIBILITY-01
 slug: c1905-pregnancy-birth-and-postpartum-responsibility-practice
-name: Bounded Pregnancy, birth, and postpartum responsibility Practice
+name: Build a pregnancy-to-postpartum support handoff centered on the person receiving care
 parent_competency_id: '19.05'
 domain_id: '19'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 19.05
-      (Pregnancy, birth, and postpartum responsibility); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 19.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Pregnancy, birth, and postpartum responsibility through a non-confrontational safety
-    preparation bounded by the canonical scope: Understand bodily risk, consent, support, medical decisions,
-    recovery, infant care, and postpartum mental health.'
-  why_recommended: 'The parent competency identifies this limited evidence target: A practical support
-    and decision plan centers the pregnant or postpartum person''s safety and agency. The protocol creates
-    a small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Prepare an agreed support arrangement that protects the pregnant or postpartum person’s safety,
+    consent, recovery and access to care without transferring decision authority to helpers.
+  why_recommended: Prepare an agreed support arrangement that protects the pregnant or postpartum person’s
+    safety, consent, recovery and access to care without transferring decision authority to helpers.
   claims:
-  - statement: Using the canonical scope and evidence target for Pregnancy, birth, and postpartum responsibility
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Prepare an agreed support arrangement that protects the pregnant or postpartum person’s
+      safety, consent, recovery and access to care without transferring decision authority to helpers.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Pregnancy, birth, and postpartum responsibility practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Pregnancy, birth, and postpartum responsibility as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Pregnancy, birth,
-    and postpartum responsibility context, understand the source-only status, and stop without losing
-    safety, care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Pregnancy,
-    birth, and postpartum responsibility; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Use an accessible written plan, interpreter or trusted supporter chosen by
+    the person. A fictional plan is useful preparation but not evidence of live perinatal support. Clinical
+    instructions and local emergency services remain authoritative; no one must disclose birth experiences
+    or mental-health history to complete a rehearsal.
+  opportunity_considerations: Use an existing maternity care plan with permission, or the supplied fictional
+    case of a person returning home after birth who wants meals and visitor limits. Prepare headings for
+    care contacts, the person’s choices, recovery support, infant-care responsibilities, mental-health
+    support, visitor rules and backup coverage.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Pregnancy, birth, and postpartum
-    responsibility.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Use an existing maternity care plan with permission, or the supplied fictional case of a person returning
+    home after birth who wants meals and visitor limits. Prepare headings for care contacts, the person’s
+    choices, recovery support, infant-care responsibilities, mental-health support, visitor rules and
+    backup coverage.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Pregnancy, birth, and postpartum
-    responsibility instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use an accessible written plan, interpreter or trusted supporter chosen by the person. A fictional
+    plan is useful preparation but not evidence of live perinatal support. Clinical instructions and local
+    emergency services remain authoritative; no one must disclose birth experiences or mental-health history
+    to complete a rehearsal.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +84,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Pregnancy, birth, and postpartum responsibility actions over ten days,
-    preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Pregnancy, birth, and postpartum responsibility; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Pregnancy,
-    birth, and postpartum responsibility. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Pregnancy, birth, and postpartum responsibility
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use an existing maternity care plan with permission, or the supplied fictional case of a person
+    returning home after birth who wants meals and visitor limits. Prepare headings for care contacts,
+    the person’s choices, recovery support, infant-care responsibilities, mental-health support, visitor
+    rules and backup coverage. Goal: Prepare an agreed support arrangement that protects the pregnant
+    or postpartum person’s safety, consent, recovery and access to care without transferring decision
+    authority to helpers. Scope: This is support planning around qualified maternity and infant care,
+    not birth management, medical triage, infant-care certification or a substitute for urgent evaluation.
+    Time and effort: A 30-minute planning conversation, one 15-minute tabletop interruption and a short
+    confirmed support handoff. Adaptation: Use an accessible written plan, interpreter or trusted supporter
+    chosen by the person. A fictional plan is useful preparation but not evidence of live perinatal support.
+    Clinical instructions and local emergency services remain authoritative; no one must disclose birth
+    experiences or mental-health history to complete a rehearsal. Keep personal working notes outside
+    the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use an accessible written plan, interpreter or trusted supporter chosen by the
+    person. A fictional plan is useful preparation but not evidence of live perinatal support. Clinical
+    instructions and local emergency services remain authoritative; no one must disclose birth experiences
+    or mental-health history to complete a rehearsal.
+  expected_burden: A 30-minute planning conversation, one 15-minute tabletop interruption and a short
+    confirmed support handoff.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Pregnancy, birth, and postpartum responsibility protocol to rank worth, coerce participation,
@@ -104,19 +115,26 @@ intervention:
   - Treating a completed Pregnancy, birth, and postpartum responsibility action, a polished artifact,
     agreement, confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Pregnancy, birth, and postpartum responsibility situation involving emergency response, abuse,
-    retaliation, illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local
-    guidance.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use an accessible
+    written plan, interpreter or trusted supporter chosen by the person. A fictional plan is useful preparation
+    but not evidence of live perinatal support. Clinical instructions and local emergency services remain
+    authoritative; no one must disclose birth experiences or mental-health history to complete a rehearsal.
   actions:
   - stable_id: PRACTICE-COMP-1905-PREGNANCY-BIRTH-AND-POSTPARTUM-RESPONSIBILITY-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Pregnancy, birth, and postpartum responsibility
-    instructions: 'Define one planning-only question for Pregnancy, birth, and postpartum responsibility,
-      the hazards that must not be rehearsed, and the local qualified or emergency authority that supersedes
-      this source-only protocol. Do not create, approach, or simulate danger: Understand bodily risk,
-      consent, support, medical decisions, recovery, infant care, and postpartum mental health.'
+    title: Let the pregnant or postpartum person set the support priorities
+    instructions: 'Ask what assistance is welcome and what decisions they want protected from interference.
+      Distinguish a support person, an authorized medical decision-maker where applicable and an infant
+      caregiver; these are not interchangeable roles. Read the care team’s current instructions and an
+      official maternal warning-sign resource together when appropriate. Identify how concerns will reach
+      qualified care promptly, including mental-health or safety concerns, without asking a family helper
+      to decide whether symptoms are serious enough.
+
+
+      Observation checks: Support preferences come from the person or authorized process; Helper medical
+      and infant-care roles are distinguished; Current professional instructions are identified; Physical
+      mental-health and urgent-help routes are explicit. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -138,9 +156,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1905_a1_planning_scope_bounded
-        - c1905_a1_hazards_excluded
-        - c1905_a1_authority_identified
+        - support_preferences_come_from_the_person_or_authorized_process
+        - helper_medical_and_infant_care_roles_are_distinguished
+        - current_professional_instructions_are_identified
+        - physical_mental_health_and_urgent_help_routes_are_explicit
       - measurement_id: c1905_a1_boundary
         kind: boolean
         role: supporting
@@ -157,11 +176,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1905-PREGNANCY-BIRTH-AND-POSTPARTUM-RESPONSIBILITY-01-A2
     sequence: 2
-    title: Prepare one safe Pregnancy, birth, and postpartum responsibility support step
-    instructions: Create one non-confrontational Pregnancy, birth, and postpartum responsibility step
-      such as locating official guidance, checking accessible contact information, assembling a category-level
-      checklist, or scheduling qualified instruction. Do not test emergency response, weapons, rescue,
-      medical treatment, confrontation, evasion, or hazardous equipment.
+    title: Assign recovery and infant-support work with consent
+    instructions: 'Allocate one meal, household or transport task and the accompanying completion signal.
+      Separately identify who is qualified and willing to provide any infant care, following the established
+      care instructions rather than improvising handling, feeding or sleep arrangements. Agree visitor
+      and privacy limits, a rest opportunity and how a helper asks before touching or sharing information.
+      Keep an uncovered task visible; do not solve it by presuming the recovering person will silently
+      absorb it.
+
+
+      Observation checks: One concrete support task has an accepting owner; Infant-care responsibilities
+      follow qualified existing guidance; Visitor privacy and bodily-consent limits are stated; Uncovered
+      work is visible rather than silently reassigned. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -183,9 +210,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1905_a2_step_is_preparatory
-        - c1905_a2_official_or_qualified_path_used
-        - c1905_a2_no_hazard_rehearsed
+        - one_concrete_support_task_has_an_accepting_owner
+        - infant_care_responsibilities_follow_qualified_existing_guidance
+        - visitor_privacy_and_bodily_consent_limits_are_stated
+        - uncovered_work_is_visible_rather_than_silently_reassigned
       - measurement_id: c1905_a2_boundary
         kind: boolean
         role: supporting
@@ -202,11 +230,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1905-PREGNANCY-BIRTH-AND-POSTPARTUM-RESPONSIBILITY-01-A3
     sequence: 3
-    title: Review the Pregnancy, birth, and postpartum responsibility plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: A practical support and decision plan centers the pregnant or postpartum
-      person''s safety and agency.'
+    title: Test one disruption and confirm the real handoff
+    instructions: 'Use a spoken scenario: the planned helper becomes unavailable and the person reports
+      feeling unexpectedly unwell. Rehearse contacting the agreed qualified care route and backup; do
+      not simulate symptoms, interrupt treatment or call an emergency line for practice. Then confirm
+      one actual support arrangement and its review time. Ask whether the plan reduces burden and preserves
+      agency. If concerning symptoms are present now, seek appropriate care immediately instead of treating
+      the scenario as a rehearsal.
+
+
+      Observation checks: A helper-unavailable disruption is rehearsed without false emergency calls;
+      Current symptoms trigger real qualified help rather than practice; One actual support handoff is
+      confirmed; Safety agency and burden are reviewed together. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which decision stayed with the pregnant or postpartum person, which burden gained
+      a reliable owner, and what happens before the next helper fails to arrive?
+
+
+      Examples: Supportive: The person chose visitor limits, a meal owner confirmed the handoff and the
+      backup knew how to contact the maternity team promptly.
+
+
+      Mixed: Tasks were assigned, but the first plan treated infant care and medical authority as the
+      same role; they were separated.
+
+
+      Contradictory: Helpers overrode consent, dismissed concerning symptoms or delayed real urgent care
+      to finish the planning exercise.
+
+
+      Inconclusive: A birth checklist was copied without the person’s preferences, confirmed task owners
+      or an interruption test.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,15 +278,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1905_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1905_a3_stop_conditions_present
-        - c1905_a3_escalation_path_present
-        - c1905_a3_unknowns_retained
+        - a_helper_unavailable_disruption_is_rehearsed_without_false_emergency_calls
+        - current_symptoms_trigger_real_qualified_help_rather_than_practice
+        - one_actual_support_handoff_is_confirmed
+        - safety_agency_and_burden_are_reviewed_together
       - measurement_id: c1905_a3_boundary
         kind: boolean
         role: supporting
@@ -251,17 +308,19 @@ intervention:
       Pregnancy, birth, and postpartum responsibility; no purchase, subscription, travel, credential,
       or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Pregnancy, birth, and postpartum responsibility; assistive technology, interpretation,
-      a support person, and a deferred action are valid without penalty.
+    - Use an accessible written plan, interpreter or trusted supporter chosen by the person. A fictional
+      plan is useful preparation but not evidence of live perinatal support. Clinical instructions and
+      local emergency services remain authoritative; no one must disclose birth experiences or mental-health
+      history to complete a rehearsal.
     cultural_context:
     - Adapt the expression of Pregnancy, birth, and postpartum responsibility to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Pregnancy, birth, and postpartum responsibility opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use an accessible written plan, interpreter or trusted supporter chosen by the person. A fictional
+      plan is useful preparation but not evidence of live perinatal support. Clinical instructions and
+      local emergency services remain authoritative; no one must disclose birth experiences or mental-health
+      history to complete a rehearsal.
   pause_conditions:
   - Pause Pregnancy, birth, and postpartum responsibility when capacity, consent, authority, privacy,
     access, care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances
@@ -293,11 +352,8 @@ evidence_and_scoring:
   - c1905_a3_boundary
   - c1905_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Pregnancy, birth, and postpartum responsibility action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Pregnancy, birth, and postpartum responsibility criterion,
-    depended on coercion or hidden private content, or could not distinguish the protocol from contextual
-    change.
+  - Helpers overrode consent, dismissed concerning symptoms or delayed real urgent care to finish the
+    planning exercise.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Pregnancy, birth, and postpartum responsibility explicitly; support can enable access and never
     reduces dignity or silently changes the typed value.
@@ -308,14 +364,23 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Pregnancy, birth, and postpartum responsibility rules withhold observations
     older than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—A practical support and decision plan centers the pregnant or postpartum person's safety and
-    agency.—not completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Pregnancy, birth, and postpartum responsibility requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Let the pregnant or postpartum person set the support priorities. Observed
+    checks: Support preferences come from the person or authorized process; Helper medical and infant-care
+    roles are distinguished; Current professional instructions are identified; Physical mental-health
+    and urgent-help routes are explicit. Action 2: Assign recovery and infant-support work with consent.
+    Observed checks: One concrete support task has an accepting owner; Infant-care responsibilities follow
+    qualified existing guidance; Visitor privacy and bodily-consent limits are stated; Uncovered work
+    is visible rather than silently reassigned. Action 3: Test one disruption and confirm the real handoff.
+    Observed checks: A helper-unavailable disruption is rehearsed without false emergency calls; Current
+    symptoms trigger real qualified help rather than practice; One actual support handoff is confirmed;
+    Safety agency and burden are reviewed together.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A birth checklist was copied without the person’s preferences,
+    confirmed task owners or an interruption test.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Pregnancy,
     birth, and postpartum responsibility contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -325,9 +390,8 @@ evidence_and_scoring:
   - L20
   - L21
   - L28
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Pregnancy, birth, and postpartum responsibility evidence.
@@ -335,12 +399,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for pregnancy, birth, and postpartum responsibility action
-    was attempted or explicitly deferred.
-  - The prepare one safe pregnancy, birth, and postpartum responsibility support step action was attempted
-    or explicitly deferred.
-  - The review the pregnancy, birth, and postpartum responsibility plan against stop conditions action
-    preserved a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Let the pregnant or postpartum person set the support priorities. Observed checks: Support
+    preferences come from the person or authorized process; Helper medical and infant-care roles are distinguished;
+    Current professional instructions are identified; Physical mental-health and urgent-help routes are
+    explicit.'
+  - 'Action 2: Assign recovery and infant-support work with consent. Observed checks: One concrete support
+    task has an accepting owner; Infant-care responsibilities follow qualified existing guidance; Visitor
+    privacy and bodily-consent limits are stated; Uncovered work is visible rather than silently reassigned.'
+  - 'Action 3: Test one disruption and confirm the real handoff. Observed checks: A helper-unavailable
+    disruption is rehearsed without false emergency calls; Current symptoms trigger real qualified help
+    rather than practice; One actual support handoff is confirmed; Safety agency and burden are reviewed
+    together.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -349,65 +421,244 @@ completion_and_review:
     - c1905_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Pregnancy, birth, and postpartum responsibility only when the
-    initial context remained safe, the evidence criteria were usable, burden was acceptable, and a new
-    context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Pregnancy, birth, and postpartum responsibility
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Which decision stayed with the pregnant or postpartum person, which burden gained
+    a reliable owner, and what happens before the next helper fails to arrive?
+  transfer_limit: This is support planning around qualified maternity and infant care, not birth management,
+    medical triage, infant-care certification or a substitute for urgent evaluation.
   reflection:
-    before: What does Pregnancy, birth, and postpartum responsibility require in this exact context, what
-      remains outside my role or authority, and which scope sentence or evidence criterion will keep the
-      practice honest?
-    during: Which observable Pregnancy, birth, and postpartum responsibility criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'A practical support and decision plan centers the pregnant
-      or postpartum person's safety and agency.', what contradiction or missing context matters most,
-      and should this Pregnancy, birth, and postpartum responsibility design be repeated, adapted, deferred,
-      stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Prepare an agreed support arrangement that
+      protects the pregnant or postpartum person’s safety, consent, recovery and access to care without
+      transferring decision authority to helpers.'
+    during: Which checks have actually been observed? Tasks were assigned, but the first plan treated
+      infant care and medical authority as the same role; they were separated.
+    after: Which decision stayed with the pregnant or postpartum person, which burden gained a reliable
+      owner, and what happens before the next helper fails to arrive?
   review_guidance:
     repeat: Repeat the same bounded Pregnancy, birth, and postpartum responsibility design only when the
       context and burden remain appropriate.
-    adapt: Change the Pregnancy, birth, and postpartum responsibility medium, scope, support, timing,
-      criteria, or context while preserving provenance and the narrower evidence claim.
+    adapt: Use an accessible written plan, interpreter or trusted supporter chosen by the person. A fictional
+      plan is useful preparation but not evidence of live perinatal support. Clinical instructions and
+      local emergency services remain authoritative; no one must disclose birth experiences or mental-health
+      history to complete a rehearsal.
     stop: Stop Pregnancy, birth, and postpartum responsibility when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Pregnancy, birth, and postpartum responsibility
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Pregnancy, birth, and postpartum responsibility criteria were observed with
-      provenance and no adverse boundary signal in the selected context.
-    mixed: Some Pregnancy, birth, and postpartum responsibility criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Pregnancy, birth, and postpartum responsibility
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Pregnancy, birth, and postpartum responsibility action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The person chose visitor limits, a meal owner confirmed the handoff and the backup knew
+      how to contact the maternity team promptly.
+    mixed: Tasks were assigned, but the first plan treated infant care and medical authority as the same
+      role; they were separated.
+    contradictory: Helpers overrode consent, dismissed concerning symptoms or delayed real urgent care
+      to finish the planning exercise.
+    inconclusive: A birth checklist was copied without the person’s preferences, confirmed task owners
+      or an interruption test.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Pregnancy, birth, and postpartum responsibility.
+    context_heading: Build a pregnancy-to-postpartum support handoff centered on the person receiving
+      care
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Pregnancy,
       birth, and postpartum responsibility.
   check_in_labels:
-    c1905_a1_primary: The bounded Pregnancy, birth, and postpartum responsibility criterion for action
-      1 was observed
+    c1905_a1_primary: 'Observed checks: let the pregnant or postpartum person set the support priorities'
     c1905_a1_boundary: Action 1 stayed inside its stated Pregnancy, birth, and postpartum responsibility
       boundary
     c1905_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1905_a2_primary: The bounded Pregnancy, birth, and postpartum responsibility criterion for action
-      2 was observed
+    c1905_a2_primary: 'Observed checks: assign recovery and infant-support work with consent'
     c1905_a2_boundary: Action 2 stayed inside its stated Pregnancy, birth, and postpartum responsibility
       boundary
     c1905_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1905_a3_primary: The bounded Pregnancy, birth, and postpartum responsibility criterion for action
-      3 was observed
+    c1905_a3_primary: 'Observed checks: test one disruption and confirm the real handoff'
     c1905_a3_boundary: Action 3 stayed inside its stated Pregnancy, birth, and postpartum responsibility
       boundary
     c1905_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Pregnancy, birth,
-    and postpartum responsibility practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which decision stayed with the pregnant or postpartum person, which burden gained a
+    reliable owner, and what happens before the next helper fails to arrive? Completion is not mastery.
+  plain_language_evidence: The person chose visitor limits, a meal owner confirmed the handoff and the
+    backup knew how to contact the maternity team promptly.
   display_order: 252
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '19.05'
+  title: 19.05 — Pregnancy, birth, and postpartum responsibility
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Contraception and Birth Control Methods](https://www.cdc.gov/contraception/about/index.html)
+
+      - [Infertility: Frequently Asked Questions](https://www.cdc.gov/reproductive-health/infertility-faq/index.html)
+
+      - [Antenatal (pregnancy) care and appointments](https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/)
+
+      - [Urgent Maternal Warning Signs and Symptoms](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
+
+      - [Miscarriage](https://www.nhs.uk/conditions/miscarriage/)
+
+      - [Adoption](https://www.childwelfare.gov/topics/permanency/adoption/)
+
+      - [Child Abuse Education Resources](https://www.azed.gov/wellness/child-abuse-education-resources)
+
+      - [Arizona Revised Statutes §13-3620](https://www.azleg.gov/ars/13/03620.htm)
+
+      - [What to do if a child reveals abuse](https://www.nspcc.org.uk/keeping-children-safe/reporting-abuse/what-to-do-child-reveals-abuse/)
+
+      - [Calling 911](https://www.911.gov/calling-911/)
+
+      - [Effective Discipline to Raise Healthy Children](https://publications.aap.org/pediatrics/article/142/6/e20183112/37452/Effective-Discipline-to-Raise-Healthy-Children)
+
+      - [Inspected correction](https://publications.aap.org/pediatrics/article/143/2/e20183609/37315/Sege-RD-Siegel-BS-Council-on-Child-Abuse-and)
+
+      - [Supported Decision Making Program](https://acl.gov/programs/consumer-control/supported-decision-making-program)
+
+      - [Lasting power of attorney for people with dementia](https://www.alzheimers.org.uk/get-support/legal-financial/lasting-power-attorney)
+
+      - [The Cognitive Dimension of Household Labor](https://journals.sagepub.com/doi/abs/10.1177/0003122419859007)
+
+      - [Communicating with your child’s other parent during separation](https://www.cafcass.gov.uk/parent-carer-or-family-member/my-family-involved-private-law-proceedings/resources-help-you-make-arrangements-are-your-childs-best-interests/communicating-your-childs-other-parent-during-separation)
+
+      - [Convention for the Safeguarding of the Intangible Cultural Heritage](https://www.unesco.org/en/legal-affairs/convention-safeguarding-intangible-cultural-heritage)
+
+      - [Cultural Documentation Guidelines](https://wwws.loc.gov/folklife/edresources/ed-trainingdocuments.html)
+
+      - [Healthy Habits: Caring for Yourself When Caring for Another](https://www.cdc.gov/caregiving/caring-for-yourself/index.html)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence.
+
+
+      In the tabletop rehearsal, the learner identifies prompt qualified care as the first response to
+      Tessa''s unexpected concern, with emergency help if appropriate. No real call is made and no symptom
+      or clinical outcome is established by the rehearsal.
+
+
+      For the ordinary fictional evening, Ivo cancels at 16:00. Tessa accepts Dev''s specific offer to
+      collect an already agreed prepared meal and leave it at the door at 17:45. Dev accepts and completes
+      that task. Dev does not enter or provide infant care. Sal confirms the 18:00 handoff and remains
+      responsible under the existing care instructions until 19:00, when responsibility is explicitly
+      returned. Tessa reports that the quiet hour was useful. No visitors arrive and no images are shared.
+
+
+      The meal was fifteen minutes later than the original plan but was changed by agreement. Credit the
+      actual accepted alternative and protected interval, not Dev''s earlier unspecified offer. No next-day
+      coverage is arranged, and the packet provides no medical recovery or mental-health assessment. Keep
+      that uncertainty separate from the useful evening support.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: "Build a support handoff that centers the pregnant or postpartum person's choices and recovery.\
+      \ Allow thirty minutes to plan, fifteen for a tabletop interruption, and a brief confirmed handoff.\
+      \ A real route requires permission and an appropriate existing support role. Otherwise use this\
+      \ fiction. Do not simulate symptoms, make a practice emergency call, manage a birth or seek private\
+      \ experiences to complete the task.\n\n### Separate support from authority\n\nPregnancy, birth and\
+      \ postpartum recovery involve bodily demands and potential risks that ordinary helpers cannot assess\
+      \ through a worksheet. Consent to help with a meal is not consent to touch, attend a consultation,\
+      \ post a photograph or make a medical decision. A support person, an infant caregiver and a legally\
+      \ authorized decision-maker have different roles. Clarify the particular task and existing authority\
+      \ rather than treating family membership as permission for everything.\n\nA birth preference or\
+      \ support plan helps people communicate what matters. It is not a guarantee that clinical circumstances\
+      \ will unfold as hoped or a reason to override the person's ongoing choices. Qualified care teams\
+      \ handle medical questions and changing clinical needs. A helper can make it easier to ask questions,\
+      \ obtain accessible communication and reach care without speaking over the person or deciding that\
+      \ their concern is exaggerated.\n\nRecovery support may include food, household work, transport,\
+      \ visitor management and a real chance to rest. Infant care is a separate responsibility requiring\
+      \ an appropriate competent caregiver and established professional instructions. Do not improvise\
+      \ feeding, handling, sleep arrangements or treatment here. A meal delivery does not establish infant-care\
+      \ competence, and a willing visitor does not become a safe substitute merely because the schedule\
+      \ has a gap.\n\nPostpartum mental health belongs in the plan alongside physical health. Ask what\
+      \ contact and support are welcome and how concerns reach qualified help. [CDC's warning-sign resource,\
+      \ S04](https://www.cdc.gov/hearher/maternal-warning-signs/index.html) identifies urgent concerns\
+      \ during pregnancy and afterward, including serious physical symptoms and thoughts of harm. The\
+      \ list is not exhaustive. Actual concerning symptoms require prompt appropriate care, not a helper's\
+      \ reassurance or completion of this exercise.\n\n### Worked example\n\nA recovering parent requests\
+      \ a meal left at the door and no visitors. A helper cooks, enters without asking and invites relatives\
+      \ to see the baby. The food arrived, but the agreed support was not fulfilled as specified. A better\
+      \ handoff confirms the time, delivery location and completion signal, while respecting the visitor\
+      \ limit. Good intentions cannot substitute for the recipient's actual permission.\n\n### Supplied\
+      \ fictional task\n\nTessa has recently returned home after birth and has an existing maternity-team\
+      \ plan and infant-care instructions. The task does not reproduce those clinical records. Tessa wants\
+      \ a meal delivered at 17:30 on 8 October, no visitors that evening, no photographs shared, and a\
+      \ rest opportunity from 18:00 to 19:00. Tessa can change these preferences.\n\nFriend Ivo accepts\
+      \ meal delivery but has no infant-care role or medical decision authority. Co-parent Sal is an established\
+      \ competent infant caregiver under the existing instructions and accepts the 18:00–19:00 interval.\
+      \ Neighbor Dev offers to help but has not been accepted for any task. The qualified maternity contact\
+      \ and local urgent-care route are available in the private care plan; do not invent phone numbers.\
+      \ No actual symptom is supplied at the starting point.\n\nFor the tabletop disruption only, imagine\
+      \ Ivo becomes unavailable and Tessa says something feels unexpectedly wrong physically. This hypothetical\
+      \ branch does not say what condition exists. It asks who should be contacted and how support continuity\
+      \ is handled without delaying care.\n\n### Create and challenge the handoff\n\n1. Make seven headings:\
+      \ qualified contacts, Tessa's choices, recovery support, infant care, mental-health support, visitors/privacy\
+      \ and backup. Use the supplied roles and preferences. Output: a role map that leaves Dev's offer\
+      \ unassigned and retains the private professional instructions as authoritative.\n2. Write the meal\
+      \ and rest arrangements with accepting owners, time windows, permission limits and completion signals.\
+      \ Identify any necessary task not covered. Do not silently assign it to Tessa. Output: two bounded\
+      \ handoffs, not a general “family will help” statement.\n3. Read the warning-sign resource and identify\
+      \ the established route for contacting qualified care. Do not turn the resource into a checklist\
+      \ that rules out concern when a symptom is not listed. Output: a care-contact route and a separate\
+      \ practical backup question, without diagnosing or sharing clinical details.\n4. Rehearse the tabletop\
+      \ disruption aloud or on paper. Pause ordinary planning and contact the appropriate qualified route\
+      \ in the scenario; use local emergency services for an actual emergency. Seek an accepted meal alternative\
+      \ and preserve safe infant coverage as appropriate. Output: an action order that does not wait for\
+      \ dinner or a family vote before seeking care. Make no real practice calls.\n5. Save the plan and\
+      \ read the [later packet](?resource=file-later-packet-md). Separate the tabletop response from the\
+      \ ordinary handoff that actually occurs within the fiction. Output: support delivered, choices respected,\
+      \ burden remaining and the status of future coverage.\n\n### Adapt and apply\n\nFor support, work\
+      \ only with the meal task and the existing care-contact route, using a translated or accessible\
+      \ note. No one must tell a birth story or disclose mental-health history. For a harder case, remove\
+      \ the accepted infant caregiver and explain why an available untrained visitor cannot simply fill\
+      \ that role. An unresolved safe-coverage gap needs appropriate help, not optimistic relabeling.\n\
+      \nFor an authorized real attempt, ask the person what would reduce burden, confirm one practical\
+      \ arrangement and follow the current professional plan. Check whether the help was welcome afterward\
+      \ without demanding gratitude. A successful meal or rest interval supports that limited claim; it\
+      \ does not certify medical recovery, infant safety across all settings or the absence of postpartum\
+      \ distress.\n\n### Source use\n\n[S03, NHS antenatal care](https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/),\
+      \ supports person-specific discussion with maternity professionals, within its own health system.\
+      \ S04 supports prompt attention to urgent concerns; no symptom list or diagnosis is used as a gate\
+      \ to help. The role map, times and fictional interruption are original and do not certify birth\
+      \ or infant-care skills.\n\n### Use the result at its proper scale\n\nMedical, reproductive, child-safety,\
+      \ guardianship, and elder-care decisions require qualified local guidance.\n\n No reproductive,\
+      \ parenting or care role is compulsory. Fiction does not establish actual participant evidence.\
+      \ Keep identifying, clinical and private family information outside app records.\n\nAttempt the\
+      \ [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers)."
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Try first; then [check answers](?check=practice-answers).
+
+
+      1. A postpartum person reports a concerning symptom while helpers finish a support worksheet. Should
+      the worksheet be completed before contacting care?
+
+      2. A meal volunteer is available during an infant-care gap. Does availability alone make them the
+      accepted competent caregiver?
+
+      3. One quiet rest interval occurs and is appreciated. What broader conclusions about recovery or
+      postpartum mental health remain unsupported?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Stop the exercise and use the appropriate prompt qualified or emergency route. A helper
+      should not diagnose, dismiss the concern or use a checklist to deny care. The worksheet serves support,
+      not triage authority.
+
+      2. No. Permission, competence, the existing care instructions and an explicit accepted handoff matter.
+      Keep the gap visible and obtain appropriate coverage; a meal role does not transfer infant or medical
+      authority.
+
+      3. The interval supports a limited claim of useful support. It does not establish clinical recovery,
+      absence of distress or sustainable future coverage. Respect the person''s report without converting
+      gratitude into a health assessment.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

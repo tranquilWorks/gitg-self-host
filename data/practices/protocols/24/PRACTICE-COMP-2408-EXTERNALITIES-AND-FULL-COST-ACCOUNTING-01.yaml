@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2408-EXTERNALITIES-AND-FULL-COST-ACCOUNTING-01
 slug: c2408-externalities-and-full-cost-accounting-practice
-name: Bounded Externalities and full-cost accounting Practice
+name: Find and reduce one cost shifted outside a transaction
 parent_competency_id: '24.08'
 domain_id: '24'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 24.08
-      (Externalities and full-cost accounting); canonical scope, evidence target, classification, domain
-      boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 24.08; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Externalities and full-cost accounting through a qualified-support preparation bounded
-    by the canonical scope: Identify costs shifted to workers, communities, public systems, future generations,
-    or the environment.'
-  why_recommended: 'The parent competency identifies this limited evidence target: A decision includes
-    meaningful external costs and mitigation rather than revenue alone. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Identify effects on workers, neighbors, public systems, future people or the environment that
+    are not fully reflected in a private price, then propose a meaningful mitigation.
+  why_recommended: Identify effects on workers, neighbors, public systems, future people or the environment
+    that are not fully reflected in a private price, then propose a meaningful mitigation.
   claims:
-  - statement: Using the canonical scope and evidence target for Externalities and full-cost accounting
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Identify effects on workers, neighbors, public systems, future people or the environment
+      that are not fully reflected in a private price, then propose a meaningful mitigation.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Externalities and full-cost accounting practice fit
     the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Externalities and full-cost accounting as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Externalities and
-    full-cost accounting context, understand the source-only status, and stop without losing safety, care,
-    employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Externalities
-    and full-cost accounting; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use a tabletop when no real event or authority exists; label the actual mitigation
+    untested. A remote event may have different energy, access and labor effects. Do not impose fees,
+    alter public infrastructure or make environmental claims beyond reliable evidence and appropriate
+    permission.
+  opportunity_considerations: Default to a permitted small meeting that benefits attendees but leaves
+    avoidable disposable material and cleanup for venue staff. Prepare a map of organizer, attendee, worker,
+    neighbor, public service and future/environmental effects. Use actual non-sensitive observations with
+    permission or a labeled fictional case.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Externalities and full-cost accounting.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Default to a permitted small meeting that benefits attendees but leaves avoidable disposable material
+    and cleanup for venue staff. Prepare a map of organizer, attendee, worker, neighbor, public service
+    and future/environmental effects. Use actual non-sensitive observations with permission or a labeled
+    fictional case.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Externalities and full-cost accounting
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a tabletop when no real event or authority exists; label the actual mitigation untested. A remote
+    event may have different energy, access and labor effects. Do not impose fees, alter public infrastructure
+    or make environmental claims beyond reliable evidence and appropriate permission.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +82,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Externalities and full-cost accounting actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Externalities and full-cost accounting; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Externalities
-    and full-cost accounting. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Externalities and full-cost accounting
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Default to a permitted small meeting that benefits attendees but leaves avoidable disposable
+    material and cleanup for venue staff. Prepare a map of organizer, attendee, worker, neighbor, public
+    service and future/environmental effects. Use actual non-sensitive observations with permission or
+    a labeled fictional case. Goal: Identify effects on workers, neighbors, public systems, future people
+    or the environment that are not fully reflected in a private price, then propose a meaningful mitigation.
+    Scope: One small externality analysis does not measure a complete social footprint or prove a policy
+    is optimal. The practical action must remain safe, permitted and proportionate. Time and effort: Twenty
+    minutes to map the case, one small permitted mitigation and a later fifteen-minute review. Adaptation:
+    Use a tabletop when no real event or authority exists; label the actual mitigation untested. A remote
+    event may have different energy, access and labor effects. Do not impose fees, alter public infrastructure
+    or make environmental claims beyond reliable evidence and appropriate permission. Keep personal working
+    notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a tabletop when no real event or authority exists; label the actual mitigation
+    untested. A remote event may have different energy, access and labor effects. Do not impose fees,
+    alter public infrastructure or make environmental claims beyond reliable evidence and appropriate
+    permission.
+  expected_burden: Twenty minutes to map the case, one small permitted mitigation and a later fifteen-minute
+    review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Externalities and full-cost accounting protocol to rank worth, coerce participation, demand
@@ -101,20 +111,25 @@ intervention:
   - Treating a completed Externalities and full-cost accounting action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Externalities and full-cost accounting situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Business and economic education only; legal, tax, securities, employment, and regulatory questions
-    require qualified advice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a tabletop
+    when no real event or authority exists; label the actual mitigation untested. A remote event may have
+    different energy, access and labor effects. Do not impose fees, alter public infrastructure or make
+    environmental claims beyond reliable evidence and appropriate permission.
   actions:
   - stable_id: PRACTICE-COMP-2408-EXTERNALITIES-AND-FULL-COST-ACCOUNTING-01-A1
     sequence: 1
-    title: Bound the qualified question for Externalities and full-cost accounting
-    instructions: 'Turn Externalities and full-cost accounting into one educational or planning question
-      and identify the qualification and jurisdiction needed to answer it. Use the canonical scope to
-      separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Identify costs shifted to workers, communities, public
-      systems, future generations, or the environment.'
+    title: Locate benefits and costs beyond the payer
+    instructions: 'State what the organizer and attendees receive and what the venue is paid. Identify
+      labor, waste, noise, energy, access or public-service burdens that may fall elsewhere. Separate
+      a transfer already agreed and compensated from an unaccounted external effect. Mark unknown size
+      and avoid inventing environmental quantities. Include a possible positive spillover, such as publicly
+      useful information, so the analysis does not assume every indirect effect is harmful.
+
+
+      Observation checks: Private benefits and agreed payments are identified; At least three potentially
+      affected groups are considered; Unaccounted effects are distinguished from agreed costs; Unknown
+      magnitude and possible positive spillovers remain visible. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +151,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2408_a1_question_bounded
-        - c2408_a1_qualification_named
-        - c2408_a1_professional_boundary_explicit
+        - private_benefits_and_agreed_payments_are_identified
+        - at_least_three_potentially_affected_groups_are_considered
+        - unaccounted_effects_are_distinguished_from_agreed_costs
+        - unknown_magnitude_and_possible_positive_spillovers_remain_visible
       - measurement_id: c2408_a1_boundary
         kind: boolean
         role: supporting
@@ -155,12 +171,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2408-EXTERNALITIES-AND-FULL-COST-ACCOUNTING-01-A2
     sequence: 2
-    title: Prepare minimum information for Externalities and full-cost accounting
-    instructions: Create a privacy-minimized Externalities and full-cost accounting consultation note
-      containing only the question, relevant category-level facts, current constraints, and desired decision.
-      Omit diagnoses, allegations, account numbers, credentials, protected work information, intimate
-      detail, and third-party identity unless a qualified professional lawfully requires it through an
-      appropriate channel.
+    title: Choose mitigation with the affected people rather than for them
+    instructions: 'Ask the appropriate venue contact which avoidable burden actually matters. Compare
+      reducing materials, changing the meeting setup, providing an agreed cleanup role or compensating
+      a legitimate added service. Check that the remedy does not shift work onto an unwilling volunteer
+      or exclude someone who needs a particular format. Select one permitted change and state who does
+      it, when and how its effect will be observed.
+
+
+      Observation checks: An affected person or responsible contact informs the priority; At least two
+      mitigations and their shifted burdens are compared; The chosen action has an owner timing and observation;
+      Access and voluntary participation are preserved. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -182,9 +204,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2408_a2_minimum_information_only
-        - c2408_a2_sensitive_detail_excluded
-        - c2408_a2_decision_need_named
+        - an_affected_person_or_responsible_contact_informs_the_priority
+        - at_least_two_mitigations_and_their_shifted_burdens_are_compared
+        - the_chosen_action_has_an_owner_timing_and_observation
+        - access_and_voluntary_participation_are_preserved
       - measurement_id: c2408_a2_boundary
         kind: boolean
         role: supporting
@@ -201,12 +224,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2408-EXTERNALITIES-AND-FULL-COST-ACCOUNTING-01-A3
     sequence: 3
-    title: Record a bounded Externalities and full-cost accounting disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: A decision includes meaningful external costs and mitigation rather than
-      revenue alone.'
+    title: Check whether the burden was reduced or merely moved
+    instructions: 'Carry out the agreed small change and compare the next meeting’s actual cleanup or
+      material use with the prior observation. Record new effort or costs and ask the venue contact whether
+      the change helped. Keep the conclusion narrow: a smaller visible cleanup burden does not establish
+      total environmental benefit. Retain, revise or stop the mitigation and identify a larger policy
+      question beyond this small experiment.
+
+
+      Observation checks: The agreed mitigation actually occurs; A later observation checks the originally
+      identified burden; New costs and effects on other people are retained; The conclusion distinguishes
+      a local improvement from a full social-impact claim. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Whose cost became visible only after looking beyond the transaction, and did the remedy
+      reduce it without making someone else silently absorb it?
+
+
+      Examples: Supportive: The venue identified cleanup as the main burden and an agreed reusable setup
+      reduced it without shifting unpaid work to a reluctant attendee.
+
+
+      Mixed: Waste fell but washing work increased, so the next plan explicitly allocated that burden.
+
+
+      Contradictory: The organizer declared the event sustainable from one visible change while ignoring
+      worker time and accessibility.
+
+
+      Inconclusive: Externalities were listed without an affected-person check, permitted mitigation or
+      later observation.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -222,14 +270,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2408_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c2408_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - the_agreed_mitigation_actually_occurs
+        - a_later_observation_checks_the_originally_identified_burden
+        - new_costs_and_effects_on_other_people_are_retained
+        - the_conclusion_distinguishes_a_local_improvement_from_a_full_social_impact_claim
       - measurement_id: c2408_a3_boundary
         kind: boolean
         role: supporting
@@ -250,17 +300,17 @@ intervention:
       Externalities and full-cost accounting; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Externalities and full-cost accounting; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use a tabletop when no real event or authority exists; label the actual mitigation untested. A remote
+      event may have different energy, access and labor effects. Do not impose fees, alter public infrastructure
+      or make environmental claims beyond reliable evidence and appropriate permission.
     cultural_context:
     - Adapt the expression of Externalities and full-cost accounting to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Externalities and full-cost accounting opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use a tabletop when no real event or authority exists; label the actual mitigation untested. A remote
+      event may have different energy, access and labor effects. Do not impose fees, alter public infrastructure
+      or make environmental claims beyond reliable evidence and appropriate permission.
   pause_conditions:
   - Pause Externalities and full-cost accounting when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -292,10 +342,8 @@ evidence_and_scoring:
   - c2408_a3_boundary
   - c2408_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Externalities and full-cost accounting action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Externalities and full-cost accounting criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - The organizer declared the event sustainable from one visible change while ignoring worker time and
+    accessibility.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Externalities and full-cost accounting explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -306,14 +354,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Externalities and full-cost accounting rules withhold observations older than
     90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—A decision includes meaningful external costs and mitigation rather than revenue alone.—not
-    completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Externalities and full-cost accounting requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Locate benefits and costs beyond the payer. Observed checks: Private
+    benefits and agreed payments are identified; At least three potentially affected groups are considered;
+    Unaccounted effects are distinguished from agreed costs; Unknown magnitude and possible positive spillovers
+    remain visible. Action 2: Choose mitigation with the affected people rather than for them. Observed
+    checks: An affected person or responsible contact informs the priority; At least two mitigations and
+    their shifted burdens are compared; The chosen action has an owner timing and observation; Access
+    and voluntary participation are preserved. Action 3: Check whether the burden was reduced or merely
+    moved. Observed checks: The agreed mitigation actually occurs; A later observation checks the originally
+    identified burden; New costs and effects on other people are retained; The conclusion distinguishes
+    a local improvement from a full social-impact claim.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Externalities were listed without an affected-person
+    check, permitted mitigation or later observation.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Externalities
     and full-cost accounting contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -323,9 +380,8 @@ evidence_and_scoring:
   - L22
   - L31
   - L35
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Externalities and full-cost accounting evidence.
@@ -333,12 +389,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for externalities and full-cost accounting action was attempted or
-    explicitly deferred.
-  - The prepare minimum information for externalities and full-cost accounting action was attempted or
-    explicitly deferred.
-  - The record a bounded externalities and full-cost accounting disposition action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Locate benefits and costs beyond the payer. Observed checks: Private benefits and agreed
+    payments are identified; At least three potentially affected groups are considered; Unaccounted effects
+    are distinguished from agreed costs; Unknown magnitude and possible positive spillovers remain visible.'
+  - 'Action 2: Choose mitigation with the affected people rather than for them. Observed checks: An affected
+    person or responsible contact informs the priority; At least two mitigations and their shifted burdens
+    are compared; The chosen action has an owner timing and observation; Access and voluntary participation
+    are preserved.'
+  - 'Action 3: Check whether the burden was reduced or merely moved. Observed checks: The agreed mitigation
+    actually occurs; A later observation checks the originally identified burden; New costs and effects
+    on other people are retained; The conclusion distinguishes a local improvement from a full social-impact
+    claim.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -347,58 +411,319 @@ completion_and_review:
     - c2408_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Externalities and full-cost accounting only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Externalities and full-cost accounting across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Whose cost became visible only after looking beyond the transaction, and did the
+    remedy reduce it without making someone else silently absorb it?
+  transfer_limit: One small externality analysis does not measure a complete social footprint or prove
+    a policy is optimal. The practical action must remain safe, permitted and proportionate.
   reflection:
-    before: What does Externalities and full-cost accounting require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Externalities and full-cost accounting criterion is present, absent, mixed,
-      or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'A decision includes meaningful external costs and mitigation
-      rather than revenue alone.', what contradiction or missing context matters most, and should this
-      Externalities and full-cost accounting design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Identify effects on workers, neighbors, public
+      systems, future people or the environment that are not fully reflected in a private price, then
+      propose a meaningful mitigation.'
+    during: Which checks have actually been observed? Waste fell but washing work increased, so the next
+      plan explicitly allocated that burden.
+    after: Whose cost became visible only after looking beyond the transaction, and did the remedy reduce
+      it without making someone else silently absorb it?
   review_guidance:
     repeat: Repeat the same bounded Externalities and full-cost accounting design only when the context
       and burden remain appropriate.
-    adapt: Change the Externalities and full-cost accounting medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use a tabletop when no real event or authority exists; label the actual mitigation untested.
+      A remote event may have different energy, access and labor effects. Do not impose fees, alter public
+      infrastructure or make environmental claims beyond reliable evidence and appropriate permission.
     stop: Stop Externalities and full-cost accounting when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Externalities and full-cost accounting
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Externalities and full-cost accounting criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Externalities and full-cost accounting criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Externalities and full-cost accounting criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Externalities and full-cost accounting action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The venue identified cleanup as the main burden and an agreed reusable setup reduced it
+      without shifting unpaid work to a reluctant attendee.
+    mixed: Waste fell but washing work increased, so the next plan explicitly allocated that burden.
+    contradictory: The organizer declared the event sustainable from one visible change while ignoring
+      worker time and accessibility.
+    inconclusive: Externalities were listed without an affected-person check, permitted mitigation or
+      later observation.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Externalities and full-cost accounting.
+    context_heading: Find and reduce one cost shifted outside a transaction
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Externalities
       and full-cost accounting.
   check_in_labels:
-    c2408_a1_primary: The bounded Externalities and full-cost accounting criterion for action 1 was observed
+    c2408_a1_primary: 'Observed checks: locate benefits and costs beyond the payer'
     c2408_a1_boundary: Action 1 stayed inside its stated Externalities and full-cost accounting boundary
     c2408_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2408_a2_primary: The bounded Externalities and full-cost accounting criterion for action 2 was observed
+    c2408_a2_primary: 'Observed checks: choose mitigation with the affected people rather than for them'
     c2408_a2_boundary: Action 2 stayed inside its stated Externalities and full-cost accounting boundary
     c2408_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2408_a3_primary: The bounded Externalities and full-cost accounting criterion for action 3 was observed
+    c2408_a3_primary: 'Observed checks: check whether the burden was reduced or merely moved'
     c2408_a3_boundary: Action 3 stayed inside its stated Externalities and full-cost accounting boundary
     c2408_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Externalities and
-    full-cost accounting practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Whose cost became visible only after looking beyond the transaction, and did the remedy
+    reduce it without making someone else silently absorb it? Completion is not mastery.
+  plain_language_evidence: The venue identified cleanup as the main burden and an agreed reusable setup
+    reduced it without shifting unpaid work to a reluctant attendee.
   display_order: 336
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '24.08'
+  title: 24.08 — Externalities and full-cost accounting
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Externalities: Prices Do Not Capture All Costs](https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/externalities)
+
+      - [What is macroeconomics?](https://www.federalreserve.gov/faqs/what-is-macroeconomics.htm)
+
+      - [Monetary Policy: Stabilizing Prices and Output](https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/monetary-policy)
+
+      - [Fiscal Policy: Taking and Giving Away](https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/fiscal-policy)
+
+      - [Negative Interest Rates: A Tax in Sheep’s Clothing](https://www.stlouisfed.org/on-the-economy/2016/may/negative-interest-rates-tax-sheep-clothing)
+
+      - [Social protection](https://www.ilo.org/topics-and-sectors/social-protection)
+
+      - [Launch your business — Choose a business structure](https://www.sba.gov/counseling/launch-your-business/)
+
+      - [Employee Ownership Initiative](https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/programs-and-initiatives/employee-ownership-initiative)
+
+      - [Professional and active SOE ownership](https://www.oecd.org/en/publications/ownership-and-governance-of-state-owned-enterprises-2024_395c9956-en/full-report/component-4.html)
+
+      - [Framework for responsible research and innovation](https://www.ukri.org/who-we-are/epsrc/our-policies-and-standards/framework-for-responsible-innovation/)
+
+      - [International Trade: Commerce among Nations](https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/trade)
+
+      - [Basic Information on OFAC and Sanctions](https://ofac.treasury.gov/faqs/topic/1501)
+
+      - [Export Compliance Programs (ECPs)](https://www.bis.gov/developing-an-export-compliance-program)
+
+      - [Start writing fiction](https://www.open.edu/openlearn/history-the-arts/creative-writing/start-writing-fiction/content-section-3.3/?printable=1)
+
+      - [See, Think, Wonder](https://pz.harvard.edu/resources/see-think-wonder)
+
+      - [Reading Aloud](https://writingcenter.unc.edu/tips-and-tools/reading-aloud/)
+
+      - [Considerations for licensors and licensees](https://creativecommons.org/share-your-work/licensing-considerations/version4/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving your first attempt. These invented events and responses
+      are not actual participant evidence.
+
+
+      ### Less sorting, with a new cost still counted
+
+
+      At the supplied next meeting, ten sheets are printed, eight are used and two remain. Additional
+      venue sorting takes **7 minutes**, compared with 18 before. The included ten-minute closing service
+      is unchanged. Organizer preparation takes **4 additional minutes**, as agreed.
+
+
+      Extra venue burden falls by **11 minutes**. Counting the new organizer work, the recorded additional
+      effort is **7 + 4 = 11 minutes**, compared with 18: a **7-minute net reduction** across these two
+      measured tasks. This limited aggregate does not price either person''s work or capture every event
+      cost. Twenty fewer sheets were printed; disposal and carbon effects remain unmeasured.
+
+
+      Leni reports that preparation for the next booking was easier. A paper user reports that one spare
+      copy needed larger type. Access therefore needs a revision even though copies were available. The
+      organizer proposes one larger-type spare after checking the user''s preference and actual print
+      cost; the next version has not been tested.
+
+
+      Keep the mitigation provisionally, with an access check and the same time categories next meeting.
+      Neighbor effects, waste-service cost and positive public-summary spillovers remain unknown. These
+      are supplied observations, not an actual staff review or a complete social-impact result.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Find a cost that a transaction leaves with someone outside its price, then test a permitted
+      way to reduce it. Allow twenty minutes to map the case, one small permitted mitigation and fifteen
+      minutes for later review. Your output is a benefit-and-burden account that includes affected people
+      rather than a declaration that an event is sustainable.
+
+
+      ### Follow the effect beyond the invoice
+
+
+      The organizer receives a room and attendees receive a useful meeting. The price may cover the venue''s
+      agreed services while leaving noise, waste or additional demands elsewhere. An external effect matters
+      because another person''s opportunity or well-being changes without that effect being fully accounted
+      for in the decision. Not every cost outside the organizer''s ledger is an externality: an agreed,
+      adequately priced service is part of the transaction. A wage paid to a worker does not prove that
+      unexpected extra work has no opportunity cost.
+
+
+      The IMF''s [externalities explanation, S01](https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/externalities)
+      distinguishes private and wider costs and benefits. Its examples do not measure this meeting. A
+      full-cost account can begin with separate quantities such as minutes, discarded sheets and access
+      consequences. Do not add unlike units or assign a money value to another person''s time without
+      a justified basis. Unknown costs should remain unknown rather than conveniently zero.
+
+
+      Positive effects also belong in the map. An open meeting might produce a useful public explanation
+      that helps nonattendees. That benefit needs its own evidence; saying it could happen is not the
+      same as observing it. Considering spillovers in both directions makes the analysis more accurate
+      without excusing an avoidable burden.
+
+
+      ### Supplied meeting file X4
+
+
+      Twenty people attend a fictional local-history discussion. The organizer pays **60 units** for a
+      room, with ten minutes of ordinary closing work included in the agreed venue service. The organizer
+      prints **30 one-page handouts** without checking demand. Eight are taken, leaving **22 unused sheets**.
+      Venue coordinator Leni reports **18 additional minutes** sorting the abandoned materials beyond
+      the ten-minute included closing task. The extra work delays preparation for another booking; its
+      price or staffing adjustment was not agreed.
+
+
+      Leni is authorized to approve the meeting setup and speaks to the venue burden within this fictional
+      case. No actual staff member was interviewed. Participants have different access needs: eight want
+      paper, while others can use an existing readable digital copy or listen. No one has agreed to bring
+      a device, wash shared items or volunteer for cleanup.
+
+
+      | Affected party | Benefit or agreed exchange | Additional effect or uncertainty |
+
+      | --- | --- | --- |
+
+      | Organizer and attendees | Room access and discussion for the 60-unit fee | Printing effort and
+      access to the material need checking |
+
+      | Venue workers and next group | Ten minutes of closing work is already included | Extra sorting
+      delays the next group''s preparation |
+
+      | Nearby residents | No direct role in the transaction | Noise after closing is possible but not
+      observed in this file |
+
+      | Public service | Existing waste collection serves the area | Incremental handling and disposal
+      cost are unknown |
+
+      | Future people and environment | Resources remain available when used carefully | Paper, energy
+      and waste impacts are unmeasured |
+
+      | Nonattendees | A public summary might be useful | No summary use or wider learning benefit has
+      been recorded |
+
+
+      The evidence supports extra sorting as a concrete priority. It does not establish that neighbors
+      were disturbed, that all discarded material was recyclable or that the room fee was unfair. Keep
+      a report, an inference and an unmeasured possibility in different fields.
+
+
+      ### Compare remedies before assigning somebody work
+
+
+      One option is to ask which formats people want and print only ten copies: eight requested and two
+      spare. This preserves paper access and may reduce abandoned material. The organizer accepts up to
+      four extra preparation minutes to count requests. Leni agrees to the setup and a later sorting-time
+      check. The digital copy remains optional and uses an existing permitted channel; no new signup or
+      attendee data collection is needed.
+
+
+      A second option is a reusable display and shared materials. It might reduce paper but would require
+      an accessible sight line and an agreed person to arrange and clean the materials. The proposed helper
+      has not consented, and actual cleaning time is unknown. A third option is paying for an additional
+      agreed venue service; its price and staff capacity need confirmation. Paying can account for a burden,
+      but does not necessarily remove the waste itself.
+
+
+      Choose the first option for the supplied trial because it addresses the reported source of sorting
+      without removing the requested paper format. The decision is conditional on availability of the
+      same readable material, no access complaint and the organizer''s four-minute capacity. It is not
+      authority to impose a fee, assign a volunteer or change public infrastructure.
+
+
+      ### Work the initial resource account
+
+
+      Reducing planned printing from 30 to ten would mean **20 fewer sheets produced for the meeting**,
+      if that plan is carried out. It would not by itself establish 20 fewer sheets sent to landfill,
+      a measured carbon reduction or a net environmental benefit. Printing method, transport, reuse and
+      disposal pathways are not supplied.
+
+
+      The ten-minute included closing task stays in the account on both occasions. It must not be relabeled
+      as a newly discovered external burden just to make the intervention look larger. Compare the same
+      additional sorting task before and after. Keep organizer preparation as an added cost even if it
+      is willingly undertaken; consent changes who agrees to bear work, not whether that work exists.
+
+
+      ### Produce the full-cost decision record
+
+
+      1. Record the room fee, included service and private benefit. Map at least the six groups in X4,
+      distinguishing observed burden from possible effects and agreed costs.
+
+      2. Name Leni''s reported priority and the limits of that perspective. In an actual attempt, ask
+      the appropriate affected contact rather than deciding their needs for them.
+
+      3. Compare the three remedies for access, resources, new labor, consent and cost. Explain why a
+      narrower printing change is feasible while the reusable option remains unapproved.
+
+      4. Write the owner, next-meeting timing, ten-copy limit and observation method. Save an initial
+      forecast with unknown effects still visible, then open the [later packet](?resource=file-later-packet-md).
+
+      5. Reconcile the later count and time record before choosing retain, revise or stop. Name one larger
+      question, such as how venue agreements should price extra services, that this local trial cannot
+      settle.
+
+
+      For support, use just included closing time, additional sorting time and organizer preparation as
+      separate counters. For a harder pass, make two more attendees require paper and revise the print
+      limit without treating access as waste. A real attempt requires an ordinary permitted event and
+      willing participation. An observation-only map is legitimate when there is no authority to change
+      a setup.
+
+
+      Progress would combine an actual decision artifact with a later observation of the originally identified
+      burden. One visible cleanup improvement cannot prove complete social accounting, fair labor conditions
+      or environmental benefit. The strongest result may be a more explicit agreement about remaining
+      work rather than a claim that all costs have disappeared.
+
+
+      ### Use the result at its proper scale
+
+
+      Business and economic education only; legal, tax, securities, employment, and regulatory questions
+      require qualified advice.  Fiction and no attempt are legitimate. Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. A venue price already includes a stated ten-minute cleanup service. Is that entire service automatically
+      an unpriced externality?
+
+      2. A change saves staff 12 minutes but adds 17 minutes of unagreed volunteer work. Can you call
+      it an uncomplicated improvement?
+
+      3. You reduced printed sheets from 40 to 25. What environmental claim is supported?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Distinguish the agreed transaction from an additional effect or uncompensated burden.
+      Inspect the actual scope and consequences instead of treating every cost outside the organizer ledger
+      as external.
+
+      2. No. It shifts work and raises recorded effort by five minutes; consent is also absent. Rework
+      the plan with affected people and retain access, cost and environmental uncertainties.
+
+      3. Fifteen fewer sheets were printed under the recorded conditions. Landfill, water or carbon reductions
+      require additional reliable evidence; printing count alone cannot establish a full footprint.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

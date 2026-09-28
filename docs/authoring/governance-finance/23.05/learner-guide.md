@@ -48,8 +48,8 @@ Review rules should react to changed goals, capacity, access and costs, not just
 
 For support, use a calculator and two separate goal cards. For a harder pass, move L's date forward and ask whether the previous capacity assumption still holds. Optional actual transfer is to read official education or a public disclosure privately, recording uncertainties without publishing holdings or opening an account. No purchase, sale or account transfer demonstrates completion. Having no investable surplus is compatible with learning the distinctions.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

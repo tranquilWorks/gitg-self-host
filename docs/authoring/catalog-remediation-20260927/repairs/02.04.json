@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "02.04",
+  "title": "Communicate a difficult truth accurately and respectfully",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Honesty includes relevant omissions and uncertainty, not only literally true sentences. Respectful communication can be direct while protecting unrelated confidential information."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Ari promised a draft by 14:00. It is 14:20; the outline exists but the required final paragraph does not. Ari can finish by 15:00 and send then. The recipient needs it for a 15:30 meeting and asks “Is the complete draft ready?” An unrelated colleague’s private problem is not needed to explain the status."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Answer the exact question, acknowledge lateness, give a feasible next step and leave the recipient free to choose another arrangement. Do not invent a cause or completed work.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person sent a file but has not checked that the attachment opens. Asked “can you use it now?”, may they answer “yes, definitely”?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "“No. I missed 14:00; the final paragraph is unfinished. I can send the complete draft by 15:00. Does that still work for your meeting?” is suitable. Later fiction: recipient asks for the outline now and final at 15:00; that is a new agreed arrangement, not a completed delivery. Partial: accurate estimate but evade the direct question. Incorrect: say “nearly ready” to imply complete or expose private details.",
+      "criteria": [
+        "The direct question is answered accurately",
+        "Relevant uncertainty and omission are visible",
+        "Privacy and a feasible correction are preserved"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Say it was sent and usability is unconfirmed; check through a suitable route. Sending and usable receipt are different facts.",
+      "criteria": [
+        "The direct question is answered accurately",
+        "Relevant uncertainty and omission are visible",
+        "Privacy and a feasible correction are preserved"
+      ]
+    }
+  ]
+}

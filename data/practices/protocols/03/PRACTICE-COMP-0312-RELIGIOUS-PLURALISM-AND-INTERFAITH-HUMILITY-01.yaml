@@ -76,12 +76,16 @@ meaning_and_fit:
     using the provided references. The first affirms a divine creator; the second presents a nonreligious
     account centered on reason and human welfare. Neither summary is a complete tradition. Use the fictional
     shared-library event below or a willing person's own account; never assign someone's beliefs from
-    a group label.
+    a group label. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.
   prerequisites:
   - Read the Vatican-hosted Nicene Creed and Humanists UK's Humanism introduction using the provided references.
     The first affirms a divine creator; the second presents a nonreligious account centered on reason
     and human welfare. Neither summary is a complete tradition. Use the fictional shared-library event
-    below or a willing person's own account; never assign someone's beliefs from a group label.
+    below or a willing person's own account; never assign someone's beliefs from a group label. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Read the sources with text to speech or use an accurate accessible edition. If access is missing,
@@ -107,16 +111,18 @@ intervention:
     references. The first affirms a divine creator; the second presents a nonreligious account centered
     on reason and human welfare. Neither summary is a complete tradition. Use the fictional shared-library
     event below or a willing person''s own account; never assign someone''s beliefs from a group label.
-    Goal: Describe another tradition accurately from its own account, state a genuine disagreement without
-    contempt and define shared conduct that does not require deceptive consensus. Scope: The default compares
-    two identified accounts, not every Christian or every humanist. A dialogue rehearsal tests understanding
-    and cooperation design; it does not establish interfaith relationship skill until a real voluntary
-    exchange occurs. Time and effort: About 20 minutes of reading, a 15-minute rehearsal or voluntary
-    conversation and a 15-minute cooperation review. Adaptation: Read the sources with text to speech
-    or use an accurate accessible edition. If access is missing, the supplied summaries support rehearsal
-    only; source-accuracy checks remain unverified. No debate, religious disclosure, interfaith event
-    or contact with an unwilling person is required. Unchosen participation is N/A, not deficient tolerance.
-    Keep personal working notes outside the check-in; record only the listed observations.
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work. Goal: Describe another tradition accurately from its own account, state a genuine disagreement
+    without contempt and define shared conduct that does not require deceptive consensus. Scope: The default
+    compares two identified accounts, not every Christian or every humanist. A dialogue rehearsal tests
+    understanding and cooperation design; it does not establish interfaith relationship skill until a
+    real voluntary exchange occurs. Time and effort: About 20 minutes of reading, a 15-minute rehearsal
+    or voluntary conversation and a 15-minute cooperation review. Adaptation: Read the sources with text
+    to speech or use an accurate accessible edition. If access is missing, the supplied summaries support
+    rehearsal only; source-accuracy checks remain unverified. No debate, religious disclosure, interfaith
+    event or contact with an unwilling person is required. Unchosen participation is N/A, not deficient
+    tolerance. Keep personal working notes outside the check-in; record only the listed observations.
 
 
     Reference support:
@@ -503,3 +509,59 @@ presentation:
     people cooperate while prayer and assent remained voluntary; live cooperation was not claimed from
     rehearsal.
   display_order: 47
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '03.12'
+  title: Cooperate across a real worldview difference without false agreement
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Worldview literacy represents a claim and its reasons without assuming every member of a group
+      holds the same interpretation. Cooperative conduct can be shared while a metaphysical disagreement
+      remains real.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Fictional library volunteers: Alex believes in a divine creator and asks for an optional private
+      prayer before setup; Bea holds a nonreligious view and does not want to be included or described
+      as endorsing prayer. Venue rule: shared setup begins 10:00; a separate quiet room is available 9:45–9:55
+      for voluntary use; nobody must attend. Both agree the public notice should describe the library
+      event, not their personal beliefs.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Compare each person’s own claim with the separately assigned source texts, then draft an arrangement
+      and two fair summaries without inventing shared assent.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A nonreligious volunteer values human welfare. Someone summarizes this as “nothing matters because
+      you reject God.” What is the error?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'The voluntary separate period can fit the supplied venue rule, followed by shared setup. Bea
+      is not enrolled by silence; Alex need not renounce prayer. Source texts inform comparison but do
+      not replace these persons’ statements. Partial: a feasible schedule described as everyone’s prayer.
+      Incorrect: make attendance a condition of volunteering or call Bea incapable of moral concern.'
+    criteria:
+    - Actual claims are represented without caricature
+    - The arrangement preserves both permissions
+    - Cooperation is not false doctrinal agreement
+  - id: changed-case-check
+    title: Check the changed case
+    body: The summary contradicts the supplied commitment and imposes a conclusion the speaker did not
+      state. Correct the claim and ask a sincere clarifying question without requiring agreement about
+      its foundation.
+    criteria:
+    - Actual claims are represented without caricature
+    - The arrangement preserves both permissions
+    - Cooperation is not false doctrinal agreement

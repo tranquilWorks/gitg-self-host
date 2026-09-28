@@ -1,0 +1,70 @@
+{
+  "baseline_commit": "5bf1f629d7419ed320042eca0f3547a5f11508b6",
+  "completed_date_utc": "2026-09-28",
+  "passes_completed": 5,
+  "source_integrity": {
+    "competencies": 383,
+    "editorial_followups_resolved": 310,
+    "unchanged_after_review": 73,
+    "structured_lessons": 107,
+    "prompt_check_projections": 223,
+    "local_links": 2892,
+    "protocols": 383,
+    "actions": 1151,
+    "revised_protocols": 101,
+    "unprojected_companions_preserved": 275,
+    "all_evidence_rules_unchanged": true,
+    "canonical_and_formal_ledger_unchanged": true,
+    "normalized_exact_duplicates": 0,
+    "pairwise_comparisons": 73153,
+    "formal_acceptance": false,
+    "independent_authorship_certified": false,
+    "validation_level": "Source integrity, reveal projections, reproduced factual corrections and protected invariants; not empirical or independent review."
+  },
+  "recovery": {
+    "recovered_sources": 383,
+    "protocols": 383,
+    "actions": 1151,
+    "quality_passes": 0,
+    "protected_baseline": "preserved_with_prospective_content"
+  },
+  "source_tests": {
+    "passed": 1234,
+    "seconds": 20.658,
+    "command": ".venv/bin/python -m unittest discover -s tests -p '*sources.py'"
+  },
+  "compiler_source_tests": {
+    "passed": 3,
+    "application_tests_deselected": 16,
+    "command": ".venv/bin/python -m pytest tests/test_tailored_practice_authoring.py -m 'not django_db' -q"
+  },
+  "deterministic_compiler": "passed",
+  "practice_reports": "regenerated and checked current",
+  "catalog_governance_reports": "regenerated and checked current",
+  "research_gap_registry": "reviewed and byte-identical; all existing open gates retained",
+  "ruff": "check and format --check passed for 31 source/test scripts",
+  "whitespace": "git diff --check passed",
+  "scope": "allowed/forbidden paths checked against the active batch",
+  "formal_acceptance": false,
+  "deferred": [
+    "separate learner-only run",
+    "actual learner and live physical/relational/clinical/longitudinal evidence",
+    "qualified and owner acceptance",
+    "application/browser/Compose/CI/CD",
+    "participant exposure/release/deployment"
+  ],
+  "receipt_sha256": {
+    "source-tests.txt": "1d1b33ece3cd0d3ff58c816fd3fe7ef2bfcbf0fe1330523082dded37f73759bc",
+    "compiler-source-tests.txt": "6049e279a828a176f8d49f3219936cbef743fd9898ff8049f719183ae2bfcd74",
+    "recovery.json": "87569ee5b521691d0d1f0a086d34726bf7b95ef88023651cccbb48ea53c2a37c",
+    "source-verification.json": "1837cdb4ca0f7dae59d20d29307b8d5c8e00d97ace3509f85185fe410b6ec418",
+    "compiler-check.txt": "dfdd1672f060f3865df6844be3b192f5bca29ddbdf07d08e2a2c9599c1f40eaa",
+    "reports-check.txt": "cd98bfbabd4de5425745829545fddce4282f9e271ac159b51f2941e01df55a28",
+    "governance-check.txt": "24e0ba224746791c63d8ec7bb707ac6ed681862e55577bc441d62f0bb3957196"
+  },
+  "manifest": {
+    "command": ".venv/bin/python scripts/verify-manifest.py",
+    "status": "passed",
+    "entries": 3048
+  }
+}

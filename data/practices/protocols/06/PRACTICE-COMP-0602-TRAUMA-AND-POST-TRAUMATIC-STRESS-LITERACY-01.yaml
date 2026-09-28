@@ -77,12 +77,16 @@ meaning_and_fit:
   opportunity_considerations: 'Read the NIMH PTSD overview through the reference. Use this fictional case:
     following a frightening accident, someone startles at noises, has unwanted recollections, avoids a
     familiar route and finds it harder to trust others. No account of the accident is needed. Do not substitute
-    an active personal trauma for this case.'
+    an active personal trauma for this case. The learning guide contains a complete fictional practice
+    and a separate changed-case check. Choose that route when a real situation is unavailable; its results
+    are rehearsal, not performed real-world work.'
   prerequisites:
   - 'Read the NIMH PTSD overview through the reference. Use this fictional case: following a frightening
     accident, someone startles at noises, has unwanted recollections, avoids a familiar route and finds
     it harder to trust others. No account of the accident is needed. Do not substitute an active personal
-    trauma for this case.'
+    trauma for this case. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.'
   dependencies: []
   safe_alternatives:
   - Use a short spoken glossary or a reader's help with public information. Skip distressing detail and
@@ -108,9 +112,11 @@ intervention:
   setup: 'Read the NIMH PTSD overview through the reference. Use this fictional case: following a frightening
     accident, someone startles at noises, has unwanted recollections, avoids a familiar route and finds
     it harder to trust others. No account of the accident is needed. Do not substitute an active personal
-    trauma for this case. Goal: Understand possible trauma-related responses, distinguish observations
-    from diagnoses, and prepare to seek qualified help without forcing disclosure or exposure. Scope:
-    This is literacy and support preparation using a fictional case. It is not a symptom screen, diagnosis,
+    trauma for this case. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work. Goal: Understand possible trauma-related responses, distinguish observations from
+    diagnoses, and prepare to seek qualified help without forcing disclosure or exposure. Scope: This
+    is literacy and support preparation using a fictional case. It is not a symptom screen, diagnosis,
     trauma narrative, memory-recovery exercise or treatment. Time and effort: Three sessions of up to
     15 minutes, with reading split or deferred as needed. Adaptation: Use a short spoken glossary or a
     reader''s help with public information. Skip distressing detail and retain the fictional case. This
@@ -508,3 +514,57 @@ presentation:
   plain_language_evidence: The case was described without a diagnosis, missing experiences stayed unknown,
     and a local clinical entry point and consent questions were identified.
   display_order: 72
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '06.02'
+  title: Recognize possible trauma effects and prepare a suitable support route
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Possible trauma-related effects are not a diagnosis. A supportive peer can listen, offer ordinary
+      practical help and assist access to qualified assessment, without requiring retelling or conducting
+      exposure exercises.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'New fictional person: after a frightening event, Kai reports disturbed sleep and difficulty
+      concentrating. Duration, medical history and other causes are unknown. Kai wants help locating a
+      clinician but does not want to describe the event. Friend Jo is available ten minutes to find the
+      existing clinic’s public booking route; no treatment or appointment is yet agreed.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Draft a response that respects disclosure choice and distinguishes possible explanation, assessment
+      and practical help. Identify what would exceed Jo’s role.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A peer says “you seem calm, so trauma cannot be relevant” and asks for a detailed retelling
+      to prove otherwise. What is wrong?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Acknowledge the difficulty and help with the requested route while keeping causes unknown.
+      Later fiction: a request reaches the clinic; no assessment has occurred. Partial: kind words but
+      pressure for details. Incorrect: diagnose PTSD from two symptoms or tell Kai to confront reminders
+      alone. Current danger or rapidly worsening needs take priority over the exercise and a future appointment.'
+    criteria:
+    - Possible effects are not converted to diagnosis
+    - Disclosure remains voluntary
+    - Peer help and professional assessment differ
+  - id: changed-case-check
+    title: Check the changed case
+    body: Appearance does not settle cause or diagnosis, and disclosure is not a credibility test. Respect
+      refusal, offer appropriate support and leave assessment to qualified care.
+    criteria:
+    - Possible effects are not converted to diagnosis
+    - Disclosure remains voluntary
+    - Peer help and professional assessment differ

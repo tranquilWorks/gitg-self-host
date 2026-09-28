@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.03",
+  "title": "Clean one surface with the right method",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Cleaning method follows both surface and product instructions. Cleaning removes ordinary soil; a disinfecting claim needs the particular product’s authorized use and directions. Smell or visible shine does not establish sanitation."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional surface card: sealed washable table, use a water-damp soft cloth with a small amount of compatible mild detergent; wipe away residue and dry; no abrasive powder. Product A card: mild detergent for this sealed surface, dilute only as its actual label directs. Product B card: abrasive powder, not for this surface. No disinfection claim or contamination incident is supplied. These cards are paper-comparison materials, not labels for an unidentified real product."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Choose a compatible comparison method, identify the missing real-world dilution detail and explain why B is unsuitable. Plan the clean/dirty cloth separation.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A product permits one surface but the furniture maker prohibits that ingredient. Does either instruction alone clear use?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A matches the supplied surface category; before real use obtain the actual dilution/directions, not an invented ratio. B contradicts the no-abrasive requirement. Keep the used cloth away from clean food-contact items. Partial: choose A but invent a concentration. Incorrect: mix products or claim disinfection from fragrance. No actual cleaning occurred in the paper route.",
+      "criteria": [
+        "Both surface and product conditions are respected",
+        "Missing directions are not invented",
+        "Cleaning and disinfection claims remain distinct"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Both must be compatible; choose an actually supported method or obtain appropriate clarification. Do not test an incompatible chemical to resolve the conflict.",
+      "criteria": [
+        "Both surface and product conditions are respected",
+        "Missing directions are not invented",
+        "Cleaning and disinfection claims remain distinct"
+      ]
+    }
+  ]
+}

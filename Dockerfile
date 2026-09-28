@@ -1,5 +1,8 @@
 FROM python:3.13-slim
 
+LABEL org.opencontainers.image.source="https://github.com/tranquilWorks/gitg-self-host"
+LABEL org.opencontainers.image.description="Grounded Growth self-hosted guided development"
+
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \

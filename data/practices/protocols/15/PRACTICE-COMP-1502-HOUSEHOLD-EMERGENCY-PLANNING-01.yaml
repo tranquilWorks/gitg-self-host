@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1502-HOUSEHOLD-EMERGENCY-PLANNING-01
 slug: c1502-household-emergency-planning-practice
-name: Bounded Household emergency planning Practice
+name: Walk through one household disruption without creating an emergency
 parent_competency_id: '15.02'
 domain_id: '15'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 15.02
-      (Household emergency planning); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 15.02; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Household emergency planning through a non-confrontational safety preparation bounded
-    by the canonical scope: Prepare for fire, power loss, evacuation, severe weather, medical emergencies,
-    and unavailable services.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Maintains supplies,
-    contacts, documents, roles, and practiced response plans. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Make a household plan usable when people, power, transport or communication are unavailable,
+    then test one safe part and correct a discovered gap.
+  why_recommended: Make a household plan usable when people, power, transport or communication are unavailable,
+    then test one safe part and correct a discovered gap.
   claims:
-  - statement: Using the canonical scope and evidence target for Household emergency planning is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Make a household plan usable when people, power, transport or communication are unavailable,
+      then test one safe part and correct a discovered gap.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Household emergency planning practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Household emergency planning as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Household emergency
-    planning context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Household
-    emergency planning; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: A person living alone can use an agreed contact and verified building assistance
+    plan; do not assume a neighbor has consented to help. Use accessible print, audio, symbols and duplicate
+    paper copies. Required medical-device continuity and evacuation assistance need the relevant professional
+    or building plan, not improvised workarounds.
+  opportunity_considerations: 'Use a household sketch, paper contacts and the local emergency-management
+    guidance. Default scenario: a storm interrupts electricity and phone charging for an evening while
+    one household member is away. Include pets, mobility or communication needs, medication or powered-equipment
+    dependencies and the possibility that the usual helper is unavailable.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Household emergency planning.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use a household sketch, paper contacts and the local emergency-management guidance. Default scenario:
+    a storm interrupts electricity and phone charging for an evening while one household member is away.
+    Include pets, mobility or communication needs, medication or powered-equipment dependencies and the
+    possibility that the usual helper is unavailable.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Household emergency planning instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - A person living alone can use an agreed contact and verified building assistance plan; do not assume
+    a neighbor has consented to help. Use accessible print, audio, symbols and duplicate paper copies.
+    Required medical-device continuity and evacuation assistance need the relevant professional or building
+    plan, not improvised workarounds.
   role_conditions:
   - This competency is context contingent; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +83,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Household emergency planning actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Household emergency planning; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Household
-    emergency planning. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Household emergency planning actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a household sketch, paper contacts and the local emergency-management guidance. Default
+    scenario: a storm interrupts electricity and phone charging for an evening while one household member
+    is away. Include pets, mobility or communication needs, medication or powered-equipment dependencies
+    and the possibility that the usual helper is unavailable. Goal: Make a household plan usable when
+    people, power, transport or communication are unavailable, then test one safe part and correct a discovered
+    gap. Scope: This is a planning and access check, not a fire, smoke, electrical, medical or evacuation
+    stunt. Local emergency instructions and building requirements govern real incidents. Time and effort:
+    Thirty minutes to prepare, a fifteen-minute announced tabletop walk-through and ten minutes to fix
+    and retest one gap. Adaptation: A person living alone can use an agreed contact and verified building
+    assistance plan; do not assume a neighbor has consented to help. Use accessible print, audio, symbols
+    and duplicate paper copies. Required medical-device continuity and evacuation assistance need the
+    relevant professional or building plan, not improvised workarounds. Keep personal working notes outside
+    the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. A person living alone can use an agreed contact and verified building assistance
+    plan; do not assume a neighbor has consented to help. Use accessible print, audio, symbols and duplicate
+    paper copies. Required medical-device continuity and evacuation assistance need the relevant professional
+    or building plan, not improvised workarounds.
+  expected_burden: Thirty minutes to prepare, a fifteen-minute announced tabletop walk-through and ten
+    minutes to fix and retest one gap.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Household emergency planning protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +113,27 @@ intervention:
   - Treating a completed Household emergency planning action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Household emergency planning situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Hands-on safety, medical, aquatic, survival, and defensive skills require qualified instruction and
-    compliance with local law.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. A person living
+    alone can use an agreed contact and verified building assistance plan; do not assume a neighbor has
+    consented to help. Use accessible print, audio, symbols and duplicate paper copies. Required medical-device
+    continuity and evacuation assistance need the relevant professional or building plan, not improvised
+    workarounds.
   actions:
   - stable_id: PRACTICE-COMP-1502-HOUSEHOLD-EMERGENCY-PLANNING-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Household emergency planning
-    instructions: 'Define one planning-only question for Household emergency planning, the hazards that
-      must not be rehearsed, and the local qualified or emergency authority that supersedes this source-only
-      protocol. Do not create, approach, or simulate danger: Prepare for fire, power loss, evacuation,
-      severe weather, medical emergencies, and unavailable services.'
+    title: Assign a safe route for six disruption types
+    instructions: 'For fire, power loss, evacuation, severe weather, urgent illness and unavailable services,
+      state the official warning source, immediate safe action, who needs assistance and a meeting or
+      contact route. Separate leaving the building from sheltering where local guidance calls for it.
+      Identify existing water, food, lighting, documents and essential-care arrangements without prescribing
+      a universal stock quantity. Give each gap an owner; do not store identifying documents or medical
+      details in the application.
+
+
+      Observation checks: All six disruption types have a distinct response disposition; Assistance and
+      essential-care dependencies are included; Leaving and sheltering are not treated as interchangeable;
+      Supply and document gaps have named owners outside the app. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +155,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1502_a1_planning_scope_bounded
-        - c1502_a1_hazards_excluded
-        - c1502_a1_authority_identified
+        - all_six_disruption_types_have_a_distinct_response_disposition
+        - assistance_and_essential_care_dependencies_are_included
+        - leaving_and_sheltering_are_not_treated_as_interchangeable
+        - supply_and_document_gaps_have_named_owners_outside_the_app
       - measurement_id: c1502_a1_boundary
         kind: boolean
         role: supporting
@@ -154,11 +175,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1502-HOUSEHOLD-EMERGENCY-PLANNING-01-A2
     sequence: 2
-    title: Prepare one safe Household emergency planning support step
-    instructions: Create one non-confrontational Household emergency planning step such as locating official
-      guidance, checking accessible contact information, assembling a category-level checklist, or scheduling
-      qualified instruction. Do not test emergency response, weapons, rescue, medical treatment, confrontation,
-      evasion, or hazardous equipment.
+    title: Run an announced tabletop with one unavailable dependency
+    instructions: 'Tell everyone this is practice. Read the storm scenario and ask each willing participant
+      to locate the plan and explain their first action. Make the ordinary phone-charging route unavailable
+      on paper only. Check whether contacts and lighting can be found without searching a locked online
+      account, and whether the absent person has an agreed check-in route. Walk an ordinary clear exit
+      only if it is safe and accessible; do not turn off utilities, block exits, discharge equipment or
+      trigger alarms.
+
+
+      Observation checks: Participants know the exercise is not a real emergency; One dependency is removed
+      only in the scenario; The plan and contact route are retrieved rather than merely described; No
+      utility alarm exit or safety system is disturbed. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -180,9 +209,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1502_a2_step_is_preparatory
-        - c1502_a2_official_or_qualified_path_used
-        - c1502_a2_no_hazard_rehearsed
+        - participants_know_the_exercise_is_not_a_real_emergency
+        - one_dependency_is_removed_only_in_the_scenario
+        - the_plan_and_contact_route_are_retrieved_rather_than_merely_described
+        - no_utility_alarm_exit_or_safety_system_is_disturbed
       - measurement_id: c1502_a2_boundary
         kind: boolean
         role: supporting
@@ -199,11 +229,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1502-HOUSEHOLD-EMERGENCY-PLANNING-01-A3
     sequence: 3
-    title: Review the Household emergency planning plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Maintains supplies, contacts, documents, roles, and practiced response
-      plans.'
+    title: Repair and retest the most consequential failure
+    instructions: 'Choose the gap that would most interfere with safe action, such as an unreadable contact
+      card, unreachable flashlight or an assistance role with no backup. Make a proportionate correction
+      using existing resources where possible, then repeat the failed retrieval or explanation. Record
+      what now works and what still requires the landlord, care provider or emergency-management office.
+      Agree a review trigger such as a move, new care dependency or changed household membership.
+
+
+      Observation checks: A consequential observed gap is selected; A real correction is installed or
+      an unresolved external dependency is retained; The failed part is tested again after the correction;
+      A concrete change trigger prompts the next review. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.
+
+
+      Final review: What failed when a normal convenience was unavailable, and what evidence shows that
+      the correction can be used under the same constraint?
+
+
+      Examples: Supportive: The household could not retrieve its contacts without a phone, installed a
+      private paper copy and successfully repeated the tabletop with the phone unavailable.
+
+
+      Mixed: The exit and contacts were clear, but powered medical equipment still lacked a professionally
+      agreed outage plan and remained an urgent unresolved dependency.
+
+
+      Contradictory: The drill disabled electricity, blocked an exit or assumed an unwilling person would
+      carry someone down stairs.
+
+
+      Inconclusive: A supply checklist was saved online but nobody tried to locate or use the plan.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -219,15 +275,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1502_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1502_a3_stop_conditions_present
-        - c1502_a3_escalation_path_present
-        - c1502_a3_unknowns_retained
+        - a_consequential_observed_gap_is_selected
+        - a_real_correction_is_installed_or_an_unresolved_external_dependency_is_retained
+        - the_failed_part_is_tested_again_after_the_correction
+        - a_concrete_change_trigger_prompts_the_next_review
       - measurement_id: c1502_a3_boundary
         kind: boolean
         role: supporting
@@ -248,16 +305,19 @@ intervention:
       Household emergency planning; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Household emergency planning; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - A person living alone can use an agreed contact and verified building assistance plan; do not assume
+      a neighbor has consented to help. Use accessible print, audio, symbols and duplicate paper copies.
+      Required medical-device continuity and evacuation assistance need the relevant professional or building
+      plan, not improvised workarounds.
     cultural_context:
     - Adapt the expression of Household emergency planning to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Household emergency planning opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - A person living alone can use an agreed contact and verified building assistance plan; do not assume
+      a neighbor has consented to help. Use accessible print, audio, symbols and duplicate paper copies.
+      Required medical-device continuity and evacuation assistance need the relevant professional or building
+      plan, not improvised workarounds.
   pause_conditions:
   - Pause Household emergency planning when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -289,10 +349,8 @@ evidence_and_scoring:
   - c1502_a3_boundary
   - c1502_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Household emergency planning action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Household emergency planning criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The drill disabled electricity, blocked an exit or assumed an unwilling person would carry someone
+    down stairs.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Household emergency planning explicitly; support can enable access and never reduces dignity or
     silently changes the typed value.
@@ -303,14 +361,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Household emergency planning rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Maintains supplies, contacts, documents, roles, and practiced response plans.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Household emergency planning requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Assign a safe route for six disruption types. Observed checks: All six
+    disruption types have a distinct response disposition; Assistance and essential-care dependencies
+    are included; Leaving and sheltering are not treated as interchangeable; Supply and document gaps
+    have named owners outside the app. Action 2: Run an announced tabletop with one unavailable dependency.
+    Observed checks: Participants know the exercise is not a real emergency; One dependency is removed
+    only in the scenario; The plan and contact route are retrieved rather than merely described; No utility
+    alarm exit or safety system is disturbed. Action 3: Repair and retest the most consequential failure.
+    Observed checks: A consequential observed gap is selected; A real correction is installed or an unresolved
+    external dependency is retained; The failed part is tested again after the correction; A concrete
+    change trigger prompts the next review.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A supply checklist was saved online but nobody tried
+    to locate or use the plan.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Household
     emergency planning contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -319,9 +386,8 @@ evidence_and_scoring:
   - L18
   - L20
   - L28
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Household emergency planning evidence.
@@ -329,12 +395,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for household emergency planning action was attempted or explicitly
-    deferred.
-  - The prepare one safe household emergency planning support step action was attempted or explicitly
-    deferred.
-  - The review the household emergency planning plan against stop conditions action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Assign a safe route for six disruption types. Observed checks: All six disruption types
+    have a distinct response disposition; Assistance and essential-care dependencies are included; Leaving
+    and sheltering are not treated as interchangeable; Supply and document gaps have named owners outside
+    the app.'
+  - 'Action 2: Run an announced tabletop with one unavailable dependency. Observed checks: Participants
+    know the exercise is not a real emergency; One dependency is removed only in the scenario; The plan
+    and contact route are retrieved rather than merely described; No utility alarm exit or safety system
+    is disturbed.'
+  - 'Action 3: Repair and retest the most consequential failure. Observed checks: A consequential observed
+    gap is selected; A real correction is installed or an unresolved external dependency is retained;
+    The failed part is tested again after the correction; A concrete change trigger prompts the next review.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -343,56 +417,364 @@ completion_and_review:
     - c1502_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Household emergency planning only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Household emergency planning across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: What failed when a normal convenience was unavailable, and what evidence shows
+    that the correction can be used under the same constraint?
+  transfer_limit: This is a planning and access check, not a fire, smoke, electrical, medical or evacuation
+    stunt. Local emergency instructions and building requirements govern real incidents.
   reflection:
-    before: What does Household emergency planning require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Household emergency planning criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Maintains supplies, contacts, documents, roles, and practiced
-      response plans.', what contradiction or missing context matters most, and should this Household
-      emergency planning design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Make a household plan usable when people,
+      power, transport or communication are unavailable, then test one safe part and correct a discovered
+      gap.'
+    during: Which checks have actually been observed? The exit and contacts were clear, but powered medical
+      equipment still lacked a professionally agreed outage plan and remained an urgent unresolved dependency.
+    after: What failed when a normal convenience was unavailable, and what evidence shows that the correction
+      can be used under the same constraint?
   review_guidance:
     repeat: Repeat the same bounded Household emergency planning design only when the context and burden
       remain appropriate.
-    adapt: Change the Household emergency planning medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: A person living alone can use an agreed contact and verified building assistance plan; do not
+      assume a neighbor has consented to help. Use accessible print, audio, symbols and duplicate paper
+      copies. Required medical-device continuity and evacuation assistance need the relevant professional
+      or building plan, not improvised workarounds.
     stop: Stop Household emergency planning when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Household emergency planning questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Household emergency planning criteria were observed with provenance and no
-      adverse boundary signal in the selected context.
-    mixed: Some Household emergency planning criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Household emergency planning criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Household emergency planning action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The household could not retrieve its contacts without a phone, installed a private paper
+      copy and successfully repeated the tabletop with the phone unavailable.
+    mixed: The exit and contacts were clear, but powered medical equipment still lacked a professionally
+      agreed outage plan and remained an urgent unresolved dependency.
+    contradictory: The drill disabled electricity, blocked an exit or assumed an unwilling person would
+      carry someone down stairs.
+    inconclusive: A supply checklist was saved online but nobody tried to locate or use the plan.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Household emergency planning.
+    context_heading: Walk through one household disruption without creating an emergency
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Household
       emergency planning.
   check_in_labels:
-    c1502_a1_primary: The bounded Household emergency planning criterion for action 1 was observed
+    c1502_a1_primary: 'Observed checks: assign a safe route for six disruption types'
     c1502_a1_boundary: Action 1 stayed inside its stated Household emergency planning boundary
     c1502_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1502_a2_primary: The bounded Household emergency planning criterion for action 2 was observed
+    c1502_a2_primary: 'Observed checks: run an announced tabletop with one unavailable dependency'
     c1502_a2_boundary: Action 2 stayed inside its stated Household emergency planning boundary
     c1502_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1502_a3_primary: The bounded Household emergency planning criterion for action 3 was observed
+    c1502_a3_primary: 'Observed checks: repair and retest the most consequential failure'
     c1502_a3_boundary: Action 3 stayed inside its stated Household emergency planning boundary
     c1502_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Household emergency
-    planning practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What failed when a normal convenience was unavailable, and what evidence shows that
+    the correction can be used under the same constraint? Completion is not mastery.
+  plain_language_evidence: The household could not retrieve its contacts without a phone, installed a
+    private paper copy and successfully repeated the tabletop with the phone unavailable.
   display_order: 191
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '15.02'
+  title: 15.02 — Household emergency planning
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [How To Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
+
+      - [What To Do if You Were Scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [What To Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+
+      - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
+
+      - [AI 600-1: Generative Artificial Intelligence Profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf)
+
+      - [Content Credentials explainer v2.4](https://spec.c2pa.org/specifications/specifications/2.4/explainer/Explainer.html)
+
+      - [Improving college students’ fact-checking strategies through lateral reading instruction in a
+      general education civics course](https://link.springer.com/article/10.1186/s41235-021-00291-4)
+
+      - [Report adult cyber abuse](https://www.esafety.gov.au/key-topics/adult-cyber-abuse/report-adult-cyber-abuse)
+
+      - [What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+      - [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+      - [deed](https://creativecommons.org/licenses/by/4.0/)
+
+      - [BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+      - [BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+
+      - [BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+      - [MIT License](https://opensource.org/license/mit)
+
+      - [Backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data)
+
+      - [User rights under the Digital Services Act](https://digital-strategy.ec.europa.eu/en/factpages/user-rights-under-digital-services-act)
+
+      - [Developing for Web Accessibility](https://www.w3.org/WAI/tips/developing/)
+
+      - [First Aid Online Classes](https://www.redcross.org/take-a-class/first-aid/first-aid-training/first-aid-online)
+
+      - [Learn First Aid](https://www.redcross.org/take-a-class/resources/learn-first-aid)
+
+      - [Adult cardiac arrest](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-cardiac-arrest)
+
+      - [adult/child choking](https://www.redcross.org/take-a-class/resources/learn-first-aid/adult-child-choking)
+
+      - [Life-threatening external bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+      - [Shock](https://www.redcross.org/take-a-class/resources/learn-first-aid/shock)
+
+      - [Burns](https://www.redcross.org/take-a-class/resources/learn-first-aid/burns)
+
+      - [Poison exposure](https://www.redcross.org/take-a-class/resources/learn-first-aid/poison-exposure)
+
+      - [Making an Emergency Plan](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+
+      - [Make a Plan](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+
+      - [Causes and prevention: overview](https://www.hse.gov.uk/slips/preventing-overview.htm)
+
+      - [A computational reward learning account of social media engagement](https://www.nature.com/articles/s41467-020-19607-x)
+
+      - [publisher correction](https://www.nature.com/articles/s41467-021-22067-6)
+
+      - [author-hosted abstract of Exposure to ideologically diverse news and opinion on Facebook](https://solomonmg.github.io/publications/bakshy-2015-exposure/)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'These are supplied fictional results. Preserve your own actual practice-card result separately.
+
+
+      Initial tabletop: Imani finds the lantern, but it does not light. Dev''s contact cannot be retrieved
+      because it exists only in the unavailable phone. Imani can name the interior shelter room. The document
+      folder is located but its needed contents are not checked. Jo is away and has never agreed to the
+      assigned assistance role. No medical-equipment outage plan or accessible transport is confirmed.
+
+
+      Repairs in the fictional record: Rae replaces the lantern''s cells using its ordinary instructions
+      and Imani successfully switches it on. A readable private paper contact card is placed with the
+      plan. Imani retrieves it during a second rehearsal with the phone still unavailable. No actual call
+      is attempted, so network/contact success is not established. Jo''s assumed role is removed; a request
+      for a suitable backup arrangement is pending.
+
+
+      The care provider acknowledges receipt of a question about equipment continuity. It supplies no
+      instructions, battery duration or confirmed arrangement yet. The plan therefore still has a consequential
+      unresolved dependency. Acknowledgment must not become “care continuity secured.” In real circumstances,
+      follow up with the provider and appropriate support according to urgency.
+
+
+      No evacuation, supply-duration test, animal transport or medication continuity check occurred. These
+      remain separate from the successful lantern and contact-card retests. Agree to review the plan when
+      the provider responds and whenever care needs, residence or household contacts change.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### A plan must be findable when ordinary conveniences disappear
+
+
+      An emergency plan joins people, information, supplies and assistance into a usable response. A shopping
+      list alone cannot decide whether to leave or shelter, contact an absent person or keep essential
+      care available. Plan for the household that actually exists, including changing capacity, pets,
+      communication needs and helpers who may be unavailable.
+
+
+      Allow 40 minutes for this fictional household tabletop, including a short retrieval retest. Use
+      paper or an accessible local document. A tabletop means talking through decisions under stated assumptions.
+      Everyone participating must know it is practice. Do not turn off power, block an exit, trigger an
+      alarm, discharge equipment or create smoke. Local emergency instructions and individual care/building
+      plans govern actual incidents.
+
+
+      [CDC''s planning guidance](https://www.cdc.gov/disability-emergency-preparedness/people-with-disabilities/make-a-plan.html)
+      emphasizes individual needs, communication, support and practice. [Red Cross planning guidance](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html)
+      distinguishes shelter and evacuation scenarios and includes household roles and separated members.
+      Neither makes an unconfirmed helper or untested device arrangement reliable simply because it appears
+      on a worksheet.
+
+
+      ### Different hazards require different decisions
+
+
+      Fire, power loss, severe weather, evacuation, urgent illness and service loss may overlap, but they
+      are not interchangeable. A severe-weather instruction to shelter does not override a fire requiring
+      safe escape. An outage may be inconvenient for one household and threaten essential care for another.
+      The plan should identify the warning source, trigger, first response, assistance and contact/meeting
+      route for each hazard.
+
+
+      Worked example: all contact numbers are stored in a phone that cannot be charged. Saying “call the
+      contact list” assumes the failed dependency away. A private accessible paper list may solve information
+      retrieval, but still does not establish a working phone network. Test both what you can know and
+      what you can actually do.
+
+
+      ### Complete fictional household packet
+
+
+      Rae and Imani live in a single-level home. Imani uses a mobility aid and prescribed powered equipment;
+      its outage continuity must follow a care-provider plan. The equipment''s safe battery duration is
+      **not supplied**. Rae is away until evening. Their cat has a carrier in the hall cupboard. Neighbor
+      Jo has not agreed to provide assistance. An out-of-area contact, Dev, has agreed to receive check-ins,
+      but Dev''s contact details exist only in the usual phone. Do not invent real contact details; use
+      a paper “Dev — practice contact record” card.
+
+
+      The following **invented local/building instructions** are supplied for case reasoning only:
+
+
+      | Disruption | Case instruction / information |
+
+      | --- | --- |
+
+      | Fire | Use a safe clear exit under the building fire plan; meet at the designated front-tree point
+      if safe; summon emergency help and do not re-enter. Both ordinary doors are level, but current availability
+      must be checked. |
+
+      | Power loss | Use the battery lantern; preserve communication; follow the equipment provider''s
+      outage plan. That care plan is currently missing from the household packet. |
+
+      | Evacuation order | The verified local alert identifies the community center as destination; use
+      confirmed accessible transport. No transport booking or helper acceptance is supplied. |
+
+      | Severe-weather shelter alert | For this case, the official alert directs shelter in the interior
+      room away from windows; do not substitute the evacuation destination unless instructions change.
+      |
+
+      | Medical emergency | Use the local emergency route and provide the household''s actual location/access
+      and observed condition; follow dispatcher guidance. The exercise uses only placeholders. |
+
+      | Water/shops unavailable | Consult the relevant official service notice; inspect stored water/food
+      and household-specific needs, record gaps and a verified assistance route. No universal quantity
+      is stipulated. |
+
+
+      Existing inventory: lantern on an accessible shelf, battery condition unknown; food for some ordinary
+      meals, household suitability/duration not checked; water containers present, volume/current usability
+      not checked; documents in a private folder known to Rae, retrieval by Imani not tested; cat carrier
+      found but not practiced; medication list private and care continuity not yet agreed. “Present” is
+      not “adequate,” and unknown quantities are not zero or sufficient by default.
+
+
+      #### Action 1 — Build six response rows
+
+
+      For every disruption record `trigger/source | first response | person/animal needs | contact/meeting
+      route | gap owner`. Use the supplied instructions and mark the unresolved care plan, transport and
+      helper consent explicitly. Keep sensitive documents and medical detail out of the learning record;
+      generic locations and statuses suffice.
+
+
+      Assign a responsible household decision-maker for each gap without assuming that assigning Jo a
+      role creates Jo''s consent. Prioritize the powered-equipment plan as an external dependency requiring
+      the care provider, not something solved by guessing battery hours or borrowing an unspecified generator.
+      A real person whose essential care is threatened should seek appropriate help promptly rather than
+      continue the drill.
+
+
+      #### Action 2 — Run the announced outage tabletop
+
+
+      Say “this is practice.” On paper, make the usual charging route unavailable while Rae is away. Retrieve
+      your actual practice plan and Dev placeholder card without opening the normal online record. Explain
+      Imani''s first response, how Rae and Dev would be contacted, and what happens if communications
+      also fail. A card can establish retrievable information; successful contact remains untested.
+
+
+      If alone, speak both decision roles and label them as self-rehearsal, not participation by Rae or
+      Imani. Do not move or test a real person''s care equipment. Do not walk an exit if conditions are
+      unsafe; an ordinary safe access check is optional and separate from an emergency evacuation.
+
+
+      Save what you could actually retrieve and what remained unknown, then open [the later packet](?resource=file-later-packet-md)
+      for the fictional household''s outcomes. Those supplied outcomes are not your own drill evidence.
+
+
+      #### Action 3 — Correct and repeat one failed part
+
+
+      Choose a safe, proportionate repair you can actually make in the practice materials: put the contact
+      card with the plan, use readable print, or add a second accessible location. Put the normal source
+      away again and repeat the same retrieval. Record first failure, correction and retest result. Merely
+      planning the repair is not installing it.
+
+
+      Separately list unresolved external actions: obtaining the care-provider continuity plan, confirming
+      accessible transport and obtaining consent from a backup helper. Keep the gap open until a relevant
+      confirmation or test exists. A lantern repair does not close medical continuity.
+
+
+      Complete [fresh checks](?attempt=practice-checks) before [the key](?check=practice-answers). Your
+      finished artifact is a six-hazard plan, an actual harmless retrieval result and an honest list of
+      external dependencies. Set a review trigger such as a move, changed care need, changed contact or
+      new household member.
+
+
+      ### Adapt and transfer
+
+
+      Use large print, symbols, audio available offline or a consented helper. A person living alone can
+      use agreed contacts and verified building assistance; living alone does not imply someone nearby
+      has agreed to carry or transport them. Plan pets and service animals with the appropriate destination
+      rules rather than assuming every site accommodates them.
+
+
+      Harder route: Rae, Jo and mobile service are all unavailable. Identify which routes remain known
+      and which require official/building/care-provider arrangements. Do not turn missing capacity into
+      a dramatic improvisation.
+
+
+      For real transfer, obtain your locality''s current hazard guidance and household-specific plans,
+      then announce a small safe tabletop. Test one ordinary retrieval or explanation, fix a discovered
+      gap and repeat it. Do not interpret a successful card retrieval as a full evacuation, adequate supply
+      reserve or demonstrated clinical continuity.
+
+
+      **Supportive:** A real safe repair passes the same retrieval constraint while care gaps remain visible.
+      **Mixed:** Contacts and lighting work but transport or essential-care arrangements remain unresolved.
+      **Contradictory:** A drill disables equipment or assumes unwilling physical assistance. **Inconclusive:**
+      A plan is saved but never retrieved or used.
+
+
+      See scope and limits described in this guide and [sources](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A paper contact card is retrieved during an outage rehearsal, but no call is made. What
+      succeeded and what remains untested?
+
+      2. A provider acknowledges a request about powered medical equipment; a neighbor has been named
+      as backup without consent. May the care and assistance gaps be closed?
+
+      3. A household''s severe-weather plan says shelter indoors. A separate fire alarm occurs. Should
+      the shelter instruction automatically govern? What sources and constraints should determine the
+      response?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Information retrieval under the stated constraint succeeded. Network availability, reaching
+      the person and agreed assistance were not tested by that retrieval. Keep those as separate statuses
+      rather than calling the whole communication plan proved.
+
+      2. No. Receipt of a question is not an agreed care plan, and assignment is not helper consent. Obtain
+      the relevant provider arrangement and a willing, suitable support route. Do not guess battery duration
+      or improvise a physical transfer to make the plan appear complete.
+
+      3. No. Hazard-specific instructions must be reconciled with the actual immediate danger, building
+      fire plan and emergency guidance. A shelter instruction for one weather scenario does not authorize
+      remaining in fire danger. Follow the actual safe response and seek emergency help as needed; never
+      create either hazard for rehearsal.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

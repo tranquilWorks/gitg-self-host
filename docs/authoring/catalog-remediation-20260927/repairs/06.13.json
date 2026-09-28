@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "06.13",
+  "title": "Replace an exclusionary default with a workable invitation",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "An inclusive invitation removes unnecessary conditions on participation while stating what can actually be provided. A promise of accessibility without a delivery route is incomplete."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "New fictional invitation: “Join our free planning group. Only people who speak on camera may vote; contact us privately with your diagnosis to request typed input. Everyone must explain a personal obstacle they overcame.” Actual purpose: understand two proposals and communicate a preference. Organizer can accept private text choices by 16:00 and circulate accessible written proposals; video performance and medical details are unnecessary."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Write a replacement preserving the planning purpose and real deadline while removing the unnecessary entry conditions. Mark it a proposal until adopted.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A notice says everyone may pass an introduction but requires a personal story before access to the actual activity. Has the barrier been removed?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Offer the written proposals and an accepted text or willing spoken preference by 16:00; omit diagnosis, camera and personal-story requirements. Later fiction: organizer adopts text voting but the proposal document has not yet been sent. Access remains incomplete. Partial: remove the story but retain the camera gate. Incorrect: claim universal access from welcoming words alone.",
+      "criteria": [
+        "The underlying purpose is preserved",
+        "Unnecessary disclosure and performance gates are removed",
+        "Adoption and actual delivery remain separate"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. The gate moved rather than disappeared. Preserve the activity’s legitimate prerequisites, but remove unrelated compelled disclosure and confirm a workable participation route.",
+      "criteria": [
+        "The underlying purpose is preserved",
+        "Unnecessary disclosure and performance gates are removed",
+        "Adoption and actual delivery remain separate"
+      ]
+    }
+  ]
+}

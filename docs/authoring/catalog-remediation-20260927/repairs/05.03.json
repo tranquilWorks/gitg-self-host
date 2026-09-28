@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "05.03",
+  "title": "Find where a strength works and a limit needs support",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A useful strength/limit comparison keeps a visible task standard and records help. A better result after a support change suggests fit; it does not isolate a cause if other conditions also changed."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete text A: “The reading circle meets Tuesday at 16:00 in Room C. Bring a pencil. The previous Room B notice is cancelled.” Target: accurately preserve day/time, current room and required preparation. Text B for another attempt: “The repair discussion meets Thursday at 10:00 in Room F. Read the one-page agenda first. The previous Room E notice is cancelled.” Use an accessible reading mode; no speed target."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Summarize A in three factual points, then use a checklist for B. Keep the two outputs, help used and any context difference before checking.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "Text C: “Map exchange: Friday 12:00, Hall J. Bring nothing; the host supplies paper.” Give the three required points and reject one likely carryover error.",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A: Tuesday 16:00, Room C, pencil. B: Thursday 10:00, Room F, agenda first. Grouping day/time as one point is allowed. Partial: retain two facts but omit preparation. Incorrect: keep the cancelled room. Later fiction: A omitted preparation, B included all three with the checklist; different text prevents isolating its effect. No aid needs removal to make learning count.",
+      "criteria": [
+        "All target facts are preserved",
+        "Superseded or imported details are rejected",
+        "Support and context remain in the comparison"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Friday 12:00; Hall J; no materials required from the participant. A pencil or pre-read agenda requirement imported from A/B is wrong. This checks the new text, not general intelligence.",
+      "criteria": [
+        "All target facts are preserved",
+        "Superseded or imported details are rejected",
+        "Support and context remain in the comparison"
+      ]
+    }
+  ]
+}

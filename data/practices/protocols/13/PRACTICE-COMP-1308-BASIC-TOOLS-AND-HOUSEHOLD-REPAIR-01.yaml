@@ -56,11 +56,15 @@ meaning_and_fit:
     person directs diagnosis and checks; note that supported role.
   opportunity_considerations: Use a non-structural handle you own or have permission to service, adequate
     light and a correctly fitting hand screwdriver. Exclude doors used for fire safety, electrical equipment,
-    sharp machinery, drilling and load-bearing repairs.
+    sharp machinery, drilling and load-bearing repairs. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.
   prerequisites:
   - Use a non-structural handle you own or have permission to service, adequate light and a correctly
     fitting hand screwdriver. Exclude doors used for fire safety, electrical equipment, sharp machinery,
-    drilling and load-bearing repairs.
+    drilling and load-bearing repairs. The learning guide contains a complete fictional practice and a
+    separate changed-case check. Choose that route when a real situation is unavailable; its results are
+    rehearsal, not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Use a tabletop assembly or demonstrate tool fit with an unpowered practice fastener if no suitable
@@ -83,8 +87,10 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use a non-structural handle you own or have permission to service, adequate light and a correctly
     fitting hand screwdriver. Exclude doors used for fire safety, electrical equipment, sharp machinery,
-    drilling and load-bearing repairs. Goal: Use observation, tool selection and a reversible repair to
-    solve a minor fastener problem within clear limits. Scope: A non-structural handle practices diagnosis,
+    drilling and load-bearing repairs. The learning guide contains a complete fictional practice and a
+    separate changed-case check. Choose that route when a real situation is unavailable; its results are
+    rehearsal, not performed real-world work. Goal: Use observation, tool selection and a reversible repair
+    to solve a minor fastener problem within clear limits. Scope: A non-structural handle practices diagnosis,
     tool fit and testing. Plumbing, wiring, structural work and damaged mounting materials remain outside
     this minor repair. Time and effort: About 10 minutes to inspect and 10–20 minutes to adjust, test
     and put tools away. Adaptation: Use a tabletop assembly or demonstrate tool fit with an unpowered
@@ -431,3 +437,59 @@ presentation:
   plain_language_evidence: A fitting screwdriver secured the loose handle and repeated ordinary use produced
     no wobble.
   display_order: 168
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '13.08'
+  title: Diagnose and correct one loose cabinet handle
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A small repair begins with diagnosis and authority, not force. Measurement identifies fit; patching
+      and assembly have their own material and load limits. One tightened handle does not establish competence
+      with structural or electrical work.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Complete tabletop paper assembly: base has holes A and B30mm apart center-to-center. Supplied
+      handle H1 has holes 30mm apart; H2 has 40mm. Required screws are the exact two labeled S supplied
+      for H1; no alternative fastener specification is given. Diagram in words: each screw passes from
+      the back of the base through A/B into the corresponding handle hole, with the handle supported.
+      This is a non-load-bearing demonstration, not permission to modify actual cabinetry.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Select the matching handle and order the assembly steps. Explain why a spinning fastener or
+      absent screw specification stops a live attempt. Keep the existing bounded handle repair as the
+      separate practical route.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A screw spins without securing the handle. Should a power tool be used to overcome resistance?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'H1 matches 30mm; H2 does not. Align, support and engage only the specified screws gently; do
+      not force mismatch or infer a replacement screw size. Partial: choose H1 without explaining fit.
+      Incorrect: drill new holes to make H2 fit. To progress, measure another low-risk object against
+      its actual assembly instructions; for patching, identify substrate and approved patch method on
+      a scrap sample, inspect adhesion/finish, then obtain suitable guidance before consequential repair.'
+    criteria:
+    - Fit follows actual measurement
+    - Assembly follows supplied parts and authority
+    - A failed check triggers stopping rather than force
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Stop and investigate fit/damage through an appropriate safe route; more force does not establish
+      a sound fastening. Do not use this lesson on safety-critical assemblies.
+    criteria:
+    - Fit follows actual measurement
+    - Assembly follows supplied parts and authority
+    - A failed check triggers stopping rather than force

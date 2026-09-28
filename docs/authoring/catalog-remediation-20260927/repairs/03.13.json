@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "03.13",
+  "title": "Interpret an intense experience with reason conduct and time",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "An intense experience can matter without proving an interpretation or granting authority over others. Examine ordinary causes, uncertainty, subsequent conduct and whether a proposed action respects consent. Distressing or disruptive experiences call for appropriate support rather than intensified self-testing."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional Neri feels unusually connected after music and a striking sky. Neri considers sending a kind message, but also wonders whether everyone must follow Neri’s advice. No prediction, special knowledge, clinical assessment or invitation to lead exists. A trusted peer is willing to discuss uncertainty; no unusual practice is required."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Separate experience, possible meanings and proposed actions. Choose what can be done responsibly now and what must remain unestablished.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A quiet meaningful dream inspires private art, while its maker explicitly says it predicts no event and gives no right to direct others. Must the meaning be dismissed because it is not independently verified?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A welcome ordinary kind message may be reasonable without proving its cosmic explanation. Authority over others is unsupported. Later fiction: Neri keeps the interpretation tentative, sends one welcome message and returns to ordinary duties; no reply or lasting transformation is supplied. Partial: acknowledge uncertainty but claim leadership anyway. Incorrect: treat intensity or the peer’s agreement as proof.",
+      "criteria": [
+        "Experience and explanation are separated",
+        "Proposed conduct respects evidence and consent",
+        "Benign meaning is not confused with unsupported authority"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Personal artistic meaning can remain while factual prediction and authority claims are withheld. Evaluate the actual claim and conduct; do not invent either pathology or special knowledge.",
+      "criteria": [
+        "Experience and explanation are separated",
+        "Proposed conduct respects evidence and consent",
+        "Benign meaning is not confused with unsupported authority"
+      ]
+    }
+  ]
+}

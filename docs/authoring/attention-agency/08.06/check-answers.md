@@ -6,4 +6,4 @@ Compare with your attempted [checks](check-prompts.md); these are learning aids,
 
 2. One known actual start. The deferred window supplies no second start or evidence about cue effectiveness; it does not meet a two-start target.
 
-3. No. The task's two-to-five-minute boundary still governs. A schema's validation range is not permission to expand the exercise or score endurance.
+3. No. The task's two-to-five-minute boundary still governs. More elapsed time is not required and does not establish a better start. Keep the bounded task and your actual stopping point visible.

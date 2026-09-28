@@ -44,9 +44,10 @@ Real transfer can involve an ordinary shared good with a willing neighbor, colle
 
 [Living Room Conversations' published agreements, S07](../SOURCES.md#S07), support listening, respect, acknowledging common ground and differences, and responsibility for one's participation. Its broader program and claimed effects are not evaluated here. The original two-person notice task is not presented as an official LRC session or validated intervention. A supplied fictional correction is not actual participant feedback; in real work, appropriate freely given correction and a completed task provide different evidence from self-report alone.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core; normative status is cross_tradition_core_or_broadly_recurrent. This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

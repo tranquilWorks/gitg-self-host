@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1506-OUTDOOR-SURVIVAL-FUNDAMENTALS-01
 slug: c1506-outdoor-survival-fundamentals-practice
-name: Bounded Outdoor survival fundamentals Practice
+name: Complete a supervised outdoor readiness exercise with a turnaround rule
 parent_competency_id: '15.06'
 domain_id: '15'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 15.06
-      (Outdoor survival fundamentals); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 15.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,38 +34,42 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Outdoor survival fundamentals through a non-confrontational safety preparation bounded
-    by the canonical scope: Secure shelter, water, warmth, navigation, signaling, fire, and food priorities.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can complete a safe
-    supervised exercise and explain survival priorities. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Prioritize exposure protection, communication, navigation and safe water arrangements before
+    a minor outdoor problem becomes a survival emergency.
+  why_recommended: Prioritize exposure protection, communication, navigation and safe water arrangements
+    before a minor outdoor problem becomes a survival emergency.
   claims:
-  - statement: Using the canonical scope and evidence target for Outdoor survival fundamentals is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Prioritize exposure protection, communication, navigation and safe water arrangements before
+      a minor outdoor problem becomes a survival emergency.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Outdoor survival fundamentals practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Outdoor survival fundamentals as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Outdoor survival
-    fundamentals context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Outdoor survival
-    fundamentals; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or
-    dependence for evidence.
+  readiness_considerations: Use an accessible outdoor route or indoor instructor-led equipment session
+    when terrain, weather, disability or cost makes the default unsuitable. An indoor session can establish
+    equipment familiarity but not outdoor performance. Cancel rather than create cold, heat, thirst, exhaustion
+    or isolation for realism.
+  opportunity_considerations: 'Use a local outdoor program or qualified instructor and a safe daytime
+    setting with normal services nearby. Fictional scenario: a short walk takes longer than expected and
+    the weather worsens. Bring ordinary clothing, a map, communication method, safe drinking water, food
+    and instructor-approved shelter or warmth items; never deliberately deprive yourself of them.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Outdoor survival fundamentals.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use a local outdoor program or qualified instructor and a safe daytime setting with normal services
+    nearby. Fictional scenario: a short walk takes longer than expected and the weather worsens. Bring
+    ordinary clothing, a map, communication method, safe drinking water, food and instructor-approved
+    shelter or warmth items; never deliberately deprive yourself of them.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Outdoor survival fundamentals instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use an accessible outdoor route or indoor instructor-led equipment session when terrain, weather,
+    disability or cost makes the default unsuitable. An indoor session can establish equipment familiarity
+    but not outdoor performance. Cancel rather than create cold, heat, thirst, exhaustion or isolation
+    for realism.
   role_conditions:
   - This competency is context contingent; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -80,19 +83,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Outdoor survival fundamentals actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Outdoor survival fundamentals; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Outdoor
-    survival fundamentals. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Outdoor survival fundamentals actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a local outdoor program or qualified instructor and a safe daytime setting with normal services
+    nearby. Fictional scenario: a short walk takes longer than expected and the weather worsens. Bring
+    ordinary clothing, a map, communication method, safe drinking water, food and instructor-approved
+    shelter or warmth items; never deliberately deprive yourself of them. Goal: Prioritize exposure protection,
+    communication, navigation and safe water arrangements before a minor outdoor problem becomes a survival
+    emergency. Scope: This is a benign supervised preparation exercise near ordinary support, not an unsupervised
+    survival test. It does not teach fire-making, wild-food identification or improvised water treatment.
+    Time and effort: Thirty minutes to prepare, a qualified instructor-led session of suitable length
+    and a fifteen-minute equipment and decision review. Adaptation: Use an accessible outdoor route or
+    indoor instructor-led equipment session when terrain, weather, disability or cost makes the default
+    unsuitable. An indoor session can establish equipment familiarity but not outdoor performance. Cancel
+    rather than create cold, heat, thirst, exhaustion or isolation for realism. Keep personal working
+    notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use an accessible outdoor route or indoor instructor-led equipment session when
+    terrain, weather, disability or cost makes the default unsuitable. An indoor session can establish
+    equipment familiarity but not outdoor performance. Cancel rather than create cold, heat, thirst, exhaustion
+    or isolation for realism.
+  expected_burden: Thirty minutes to prepare, a qualified instructor-led session of suitable length and
+    a fifteen-minute equipment and decision review.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Outdoor survival fundamentals protocol to rank worth, coerce participation, demand disclosure,
@@ -100,19 +113,25 @@ intervention:
   - Treating a completed Outdoor survival fundamentals action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Outdoor survival fundamentals situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Hands-on safety, medical, aquatic, survival, and defensive skills require qualified instruction and
-    compliance with local law.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use an accessible
+    outdoor route or indoor instructor-led equipment session when terrain, weather, disability or cost
+    makes the default unsuitable. An indoor session can establish equipment familiarity but not outdoor
+    performance. Cancel rather than create cold, heat, thirst, exhaustion or isolation for realism.
   actions:
   - stable_id: PRACTICE-COMP-1506-OUTDOOR-SURVIVAL-FUNDAMENTALS-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Outdoor survival fundamentals
-    instructions: 'Define one planning-only question for Outdoor survival fundamentals, the hazards that
-      must not be rehearsed, and the local qualified or emergency authority that supersedes this source-only
-      protocol. Do not create, approach, or simulate danger: Secure shelter, water, warmth, navigation,
-      signaling, fire, and food priorities.'
+    title: Rank the scenario’s needs and set a no-go threshold
+    instructions: 'For the delayed walk, distinguish immediate exposure and location problems from less
+      immediate comfort or food concerns. Identify a known route back, a weather-information source, a
+      person who knows the plan and a time or condition for turning around. Give shelter, warmth, water,
+      navigation, signaling, fire and food a disposition: carried, learned with supervision, unnecessary
+      here or not authorized. A phone is one tool, not the only route or communication plan.
+
+
+      Observation checks: Immediate exposure and location needs are distinguished from optional comfort;
+      A turnaround time or changing-condition threshold is explicit; All seven survival topics have an
+      honest disposition; The plan does not depend on a phone alone. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -134,9 +153,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1506_a1_planning_scope_bounded
-        - c1506_a1_hazards_excluded
-        - c1506_a1_authority_identified
+        - immediate_exposure_and_location_needs_are_distinguished_from_optional_comfort
+        - a_turnaround_time_or_changing_condition_threshold_is_explicit
+        - all_seven_survival_topics_have_an_honest_disposition
+        - the_plan_does_not_depend_on_a_phone_alone
       - measurement_id: c1506_a1_boundary
         kind: boolean
         role: supporting
@@ -153,11 +173,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1506-OUTDOOR-SURVIVAL-FUNDAMENTALS-01-A2
     sequence: 2
-    title: Prepare one safe Outdoor survival fundamentals support step
-    instructions: Create one non-confrontational Outdoor survival fundamentals step such as locating official
-      guidance, checking accessible contact information, assembling a category-level checklist, or scheduling
-      qualified instruction. Do not test emergency response, weapons, rescue, medical treatment, confrontation,
-      evasion, or hazardous equipment.
+    title: Demonstrate safe tasks under suitable supervision
+    instructions: 'With the instructor’s agreement, orient the map to the actual setting, identify the
+      return route and demonstrate how your carried warmth or shelter item is used without creating entrapment
+      or exposure. Rehearse a clear location-and-help message without transmitting a false distress call.
+      Use supplied safe water and ordinary food; any fire, water-treatment or other specialist demonstration
+      belongs to the instructor’s lawful program and is not required by this exercise.
+
+
+      Observation checks: A qualified supervised session actually occurs; Navigation and a carried exposure-protection
+      item are demonstrated; A help message is rehearsed without a false emergency signal; No unsafe deprivation
+      ingestion fire or treatment experiment is introduced. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -179,9 +206,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1506_a2_step_is_preparatory
-        - c1506_a2_official_or_qualified_path_used
-        - c1506_a2_no_hazard_rehearsed
+        - a_qualified_supervised_session_actually_occurs
+        - navigation_and_a_carried_exposure_protection_item_are_demonstrated
+        - a_help_message_is_rehearsed_without_a_false_emergency_signal
+        - no_unsafe_deprivation_ingestion_fire_or_treatment_experiment_is_introduced
       - measurement_id: c1506_a2_boundary
         kind: boolean
         role: supporting
@@ -198,10 +226,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1506-OUTDOOR-SURVIVAL-FUNDAMENTALS-01-A3
     sequence: 3
-    title: Review the Outdoor survival fundamentals plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Can complete a safe supervised exercise and explain survival priorities.'
+    title: Use the turnaround decision and correct one readiness gap
+    instructions: 'When the instructor presents the fictional worsening-weather cue, explain and follow
+      the agreed return or stop decision in the safe exercise area. Afterward inspect what was difficult
+      to retrieve, understand or use. Correct one real gap, such as an unreadable map copy or inaccessible
+      warm layer, and demonstrate that part again. Record the environment, support and untested hazards;
+      a successful near-home session does not establish remote or winter survival competence.
+
+
+      Observation checks: The preset condition produces a stop or return decision; An observed equipment
+      or decision gap is corrected; The corrected component is demonstrated again; Remote severe-weather
+      and unsupervised transfer remain unclaimed. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Which decision prevented the scenario from becoming a survival problem, and what equipment
+      or skill still cannot be relied on without further instruction?
+
+
+      Examples: Supportive: The participant located the return route, used a carried layer and turned
+      back at the agreed weather cue, then repacked the item that had been inaccessible.
+
+
+      Mixed: Map use was sound near the trailhead, but independent navigation and water-treatment skills
+      remained untested.
+
+
+      Contradictory: The person intentionally went without water, started an unauthorized fire or ate
+      a wild plant to make the exercise authentic.
+
+
+      Inconclusive: A packing list was completed without a supervised demonstration or a practiced turnaround
+      decision.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -217,15 +273,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1506_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1506_a3_stop_conditions_present
-        - c1506_a3_escalation_path_present
-        - c1506_a3_unknowns_retained
+        - the_preset_condition_produces_a_stop_or_return_decision
+        - an_observed_equipment_or_decision_gap_is_corrected
+        - the_corrected_component_is_demonstrated_again
+        - remote_severe_weather_and_unsupervised_transfer_remain_unclaimed
       - measurement_id: c1506_a3_boundary
         kind: boolean
         role: supporting
@@ -246,16 +303,19 @@ intervention:
       Outdoor survival fundamentals; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Outdoor survival fundamentals; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use an accessible outdoor route or indoor instructor-led equipment session when terrain, weather,
+      disability or cost makes the default unsuitable. An indoor session can establish equipment familiarity
+      but not outdoor performance. Cancel rather than create cold, heat, thirst, exhaustion or isolation
+      for realism.
     cultural_context:
     - Adapt the expression of Outdoor survival fundamentals to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Outdoor survival fundamentals opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use an accessible outdoor route or indoor instructor-led equipment session when terrain, weather,
+      disability or cost makes the default unsuitable. An indoor session can establish equipment familiarity
+      but not outdoor performance. Cancel rather than create cold, heat, thirst, exhaustion or isolation
+      for realism.
   pause_conditions:
   - Pause Outdoor survival fundamentals when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -287,10 +347,8 @@ evidence_and_scoring:
   - c1506_a3_boundary
   - c1506_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Outdoor survival fundamentals action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Outdoor survival fundamentals criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - The person intentionally went without water, started an unauthorized fire or ate a wild plant to make
+    the exercise authentic.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Outdoor survival fundamentals explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -301,14 +359,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Outdoor survival fundamentals rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can complete a safe supervised exercise and explain survival priorities.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Outdoor survival fundamentals requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Rank the scenario’s needs and set a no-go threshold. Observed checks:
+    Immediate exposure and location needs are distinguished from optional comfort; A turnaround time or
+    changing-condition threshold is explicit; All seven survival topics have an honest disposition; The
+    plan does not depend on a phone alone. Action 2: Demonstrate safe tasks under suitable supervision.
+    Observed checks: A qualified supervised session actually occurs; Navigation and a carried exposure-protection
+    item are demonstrated; A help message is rehearsed without a false emergency signal; No unsafe deprivation
+    ingestion fire or treatment experiment is introduced. Action 3: Use the turnaround decision and correct
+    one readiness gap. Observed checks: The preset condition produces a stop or return decision; An observed
+    equipment or decision gap is corrected; The corrected component is demonstrated again; Remote severe-weather
+    and unsupervised transfer remain unclaimed.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A packing list was completed without a supervised demonstration
+    or a practiced turnaround decision.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Outdoor
     survival fundamentals contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -317,9 +384,8 @@ evidence_and_scoring:
   - L17
   - L20
   - L35
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Outdoor survival fundamentals evidence.
@@ -327,12 +393,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for outdoor survival fundamentals action was attempted or
-    explicitly deferred.
-  - The prepare one safe outdoor survival fundamentals support step action was attempted or explicitly
-    deferred.
-  - The review the outdoor survival fundamentals plan against stop conditions action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Rank the scenario’s needs and set a no-go threshold. Observed checks: Immediate exposure
+    and location needs are distinguished from optional comfort; A turnaround time or changing-condition
+    threshold is explicit; All seven survival topics have an honest disposition; The plan does not depend
+    on a phone alone.'
+  - 'Action 2: Demonstrate safe tasks under suitable supervision. Observed checks: A qualified supervised
+    session actually occurs; Navigation and a carried exposure-protection item are demonstrated; A help
+    message is rehearsed without a false emergency signal; No unsafe deprivation ingestion fire or treatment
+    experiment is introduced.'
+  - 'Action 3: Use the turnaround decision and correct one readiness gap. Observed checks: The preset
+    condition produces a stop or return decision; An observed equipment or decision gap is corrected;
+    The corrected component is demonstrated again; Remote severe-weather and unsupervised transfer remain
+    unclaimed.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -341,56 +416,295 @@ completion_and_review:
     - c1506_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Outdoor survival fundamentals only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Outdoor survival fundamentals across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which decision prevented the scenario from becoming a survival problem, and what
+    equipment or skill still cannot be relied on without further instruction?
+  transfer_limit: This is a benign supervised preparation exercise near ordinary support, not an unsupervised
+    survival test. It does not teach fire-making, wild-food identification or improvised water treatment.
   reflection:
-    before: What does Outdoor survival fundamentals require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Outdoor survival fundamentals criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can complete a safe supervised exercise and explain survival
-      priorities.', what contradiction or missing context matters most, and should this Outdoor survival
-      fundamentals design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Prioritize exposure protection, communication,
+      navigation and safe water arrangements before a minor outdoor problem becomes a survival emergency.'
+    during: Which checks have actually been observed? Map use was sound near the trailhead, but independent
+      navigation and water-treatment skills remained untested.
+    after: Which decision prevented the scenario from becoming a survival problem, and what equipment
+      or skill still cannot be relied on without further instruction?
   review_guidance:
     repeat: Repeat the same bounded Outdoor survival fundamentals design only when the context and burden
       remain appropriate.
-    adapt: Change the Outdoor survival fundamentals medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use an accessible outdoor route or indoor instructor-led equipment session when terrain, weather,
+      disability or cost makes the default unsuitable. An indoor session can establish equipment familiarity
+      but not outdoor performance. Cancel rather than create cold, heat, thirst, exhaustion or isolation
+      for realism.
     stop: Stop Outdoor survival fundamentals when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Outdoor survival fundamentals questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Outdoor survival fundamentals criteria were observed with provenance and no
-      adverse boundary signal in the selected context.
-    mixed: Some Outdoor survival fundamentals criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Outdoor survival fundamentals criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Outdoor survival fundamentals action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The participant located the return route, used a carried layer and turned back at the
+      agreed weather cue, then repacked the item that had been inaccessible.
+    mixed: Map use was sound near the trailhead, but independent navigation and water-treatment skills
+      remained untested.
+    contradictory: The person intentionally went without water, started an unauthorized fire or ate a
+      wild plant to make the exercise authentic.
+    inconclusive: A packing list was completed without a supervised demonstration or a practiced turnaround
+      decision.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Outdoor survival fundamentals.
+    context_heading: Complete a supervised outdoor readiness exercise with a turnaround rule
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Outdoor survival
       fundamentals.
   check_in_labels:
-    c1506_a1_primary: The bounded Outdoor survival fundamentals criterion for action 1 was observed
+    c1506_a1_primary: 'Observed checks: rank the scenario’s needs and set a no-go threshold'
     c1506_a1_boundary: Action 1 stayed inside its stated Outdoor survival fundamentals boundary
     c1506_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1506_a2_primary: The bounded Outdoor survival fundamentals criterion for action 2 was observed
+    c1506_a2_primary: 'Observed checks: demonstrate safe tasks under suitable supervision'
     c1506_a2_boundary: Action 2 stayed inside its stated Outdoor survival fundamentals boundary
     c1506_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1506_a3_primary: The bounded Outdoor survival fundamentals criterion for action 3 was observed
+    c1506_a3_primary: 'Observed checks: use the turnaround decision and correct one readiness gap'
     c1506_a3_boundary: Action 3 stayed inside its stated Outdoor survival fundamentals boundary
     c1506_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Outdoor survival fundamentals
-    practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which decision prevented the scenario from becoming a survival problem, and what equipment
+    or skill still cannot be relied on without further instruction? Completion is not mastery.
+  plain_language_evidence: The participant located the return route, used a carried layer and turned back
+    at the agreed weather cue, then repacked the item that had been inaccessible.
   display_order: 195
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '15.06'
+  title: 15.06 — Outdoor survival fundamentals
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [HSE — Controls to prevent violence](https://www.hse.gov.uk/violence/employer/controls-to-prevent.htm)
+
+      - [HSE — Advice for workers](https://www.hse.gov.uk/violence/worker/index.htm)
+
+      - [GOV.UK — Reasonable force against intruders](https://www.gov.uk/reasonable-force-against-intruders)
+
+      - [NPS — Ten Essentials](https://www.nps.gov/articles/10essentials.htm)
+
+      - [NPS — Trip Planning Guide](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+
+      - [American Red Cross — Water Safety](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html)
+
+      - [RNLI — Cold water shock](https://rnli.org/water-safety/know-the-risks/cold-water-shock)
+
+      - [U.S. State Department — International Travel Checklist](https://travel.state.gov/en/international-travel/planning/checklist.html)
+
+      - [FTC — Recover a hacked account](https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account)
+
+      - [FTC — What to do if scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [FTC — Identity theft](https://consumer.ftc.gov/articles/what-know-about-identity-theft)
+
+      - [NIST SP 800-34 Rev. 1 — Contingency Planning](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)
+
+      - [FEMA IS-244.B — Developing and Managing Volunteers](https://emilms.fema.gov/is_0244b/groups/223.html)
+
+      - [CDC — Preventing Respiratory Illnesses](https://www.cdc.gov/respiratory-viruses/prevention/index.html)
+
+      - [CDC — Cleaner Air](https://www.cdc.gov/respiratory-viruses/prevention/air-quality.html)
+
+      - [Right To Be — Five Ds of Bystander Intervention](https://righttobe.org/guides/bystander-intervention-training/)
+
+      - [NIOSH — Hierarchy of Controls](https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html)
+
+      - [HSE — Maintenance of work equipment](https://www.hse.gov.uk/work-equipment-machinery/maintenance.htm)
+
+      - [Weger et al. — Relative Effectiveness of Active Listening](https://stars.library.ucf.edu/scopus2010/9657/)
+
+      - [EPA — Wildfires and Indoor Air Quality](https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'The case clock is 10:22 at J; the return to V takes the stated 10 minutes. Expected return
+      is 10:32 under these assumptions. Continuing to P would disregard the session''s 10:20 continuation
+      limit and worsening-weather cue. The rule is a case-specific decision aid, not a promise that the
+      route is always safe.
+
+
+      One learner retrieves the map but discovers the layer is in someone else''s locked vehicle. Navigation
+      preparation is supported; warmth access is unresolved. “Owned” did not mean “available.” Repair
+      the access problem before a real departure.
+
+
+      A second learner writes “stream looks clear; refill there.” No safe-water assessment supports that
+      claim. Use the case''s carried drinking water and confirm suitability with the instructor; do not
+      perform a water-treatment experiment.
+
+
+      An instructor cancels the real session before departure. Respecting cancellation supports the decision
+      boundary, but no outdoor performance occurred. A supplied fictional instructor approval cannot replace
+      actual supervision.
+
+
+      Record supported, mixed, contradicted or unobserved elements separately. Correcting the route on
+      paper does not qualify anyone in shelter construction, firecraft, water treatment or rescue.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Plan a short outdoor session that can safely end early
+
+
+      Begin indoors with the fictional park card below. In about thirty minutes you will allocate seven
+      survival priorities, trace a return route and respond to an announced change. Use paper, ordinary
+      clothing and closed drinking-water containers if available; no purchase is required. This default
+      is planning practice. The real transfer route includes qualified supervision and an actual benign
+      outdoor task before any claim of demonstrated outdoor skill.
+
+
+      ### Priorities follow conditions
+
+
+      Survival priorities are not a rigid countdown or a competition to tolerate deprivation. Exposure,
+      injury, weather, terrain, water access and the group''s needs change what matters first. For this
+      short session, warmth and a reliable return route can matter more immediately than finding food
+      in the wild. Do not use “rules of three” as permission to wait for a medical problem or continue
+      without water.
+
+
+      Shelter reduces environmental exposure; it is only useful if suitable, accessible and available.
+      A distant cabin with unknown opening hours is a question, not a shelter plan. Warmth includes suitable
+      layers and staying dry, not simply carrying a fire starter. Water must be safe and adequate for
+      the actual trip and personal needs. Clear-looking stream water is not established as drinkable;
+      treatment methods require instruction appropriate to the hazard. This exercise uses carried drinking
+      water and does not teach purification.
+
+
+      Navigation joins your position, a route and a destination. Naming a landmark without knowing how
+      it relates to the map is incomplete. A phone map needs battery and availability; a paper map also
+      needs interpretation. Signaling is a plan for reaching help with location and circumstances. Merely
+      carrying a whistle or phone does not establish that a message will be heard. Make no false distress
+      calls or signals during rehearsal.
+
+
+      Fire may support warmth or signaling in some settings, but brings burn and wildfire risks and may
+      be prohibited. It is not required here. Food means carrying ordinary suitable supplies, not foraging
+      or trapping. The NPS Ten Essentials supports trip-specific equipment preparation; its trip guide
+      emphasizes conditions, skills and shared plans. Neither resource makes this page a wilderness qualification.
+      See S04–S05 in [SOURCES](?resource=sources).
+
+
+      ### Worked example
+
+
+      Sam plans a short supervised walk near a staffed visitor building. Their initial note says “warmth:
+      fire.” The site''s rule prohibits fires, and Sam has no fire training. Sam replaces that dependency
+      with appropriate carried layers and a return-to-building option, then asks the instructor to confirm
+      suitability before departure. Fire stays “not authorized for this session.” This is a resolved disposition,
+      not a claim to know firecraft.
+
+
+      ### Fictional park and equipment card
+
+
+      The session starts at Visitor Building V at 10:00. A marked level path reaches Junction J in 10
+      minutes at this fictional group''s assessed pace. The same path returns from J to V in 10 minutes.
+      A farther viewpoint P adds 20 minutes each way from J. No other routes are established. The instructor''s
+      session rule is: do not continue beyond J after 10:20; cancel or return earlier for changed conditions,
+      unsuitable equipment, discomfort or an instructor decision. Times are case facts, not universal
+      outdoor limits.
+
+
+      V is staffed until noon and has drinking water. The map is available on paper. J has no building
+      or confirmed mobile signal. The forecast on the card says mild and dry, but the instructor must
+      recheck actual conditions before any real departure. A small stream near J has no established treatment
+      assessment. Fires are prohibited. The group has ordinary food, carried drinking water, suitable
+      dry layers, a charged phone, a paper route card, and an instructor-approved emergency shelter item.
+      A trusted contact knows the route, expected return and agreed response to an overdue group. No actual
+      contact is made in this fictional exercise.
+
+
+      ### Rehearse with all seven priorities
+
+
+      1. Draw V–J–P with the stated times. Trace the return from J. Explain why reaching J does not commit
+      anyone to continuing to P.
+
+      2. Give shelter, water, warmth, navigation, signaling, fire and food a specific disposition. Use
+      “carried and checked,” “qualified supervised practice needed,” “not needed for this session,” or
+      “not authorized,” with the relevant item or reason. Do not mark an item checked if you only read
+      its name.
+
+      3. Rehearse one harmless retrieval indoors: locate your paper route card or an ordinary suitable
+      layer you already own. If none is available, record missing rather than imagining successful retrieval.
+      Do not construct a shelter around your body, use heat, or test exposure indoors.
+
+      4. At fictional J, read this announced cue: it is 10:22 and the instructor reports worsening weather.
+      Decide whether to continue, return with the instructor using the established route, or seek a different
+      supported action if the route is no longer safe. Under the supplied facts the return route remains
+      suitable. Trace it and update the expected arrival and contact message.
+
+      5. Say a practice-only help description without dialing: location reference, group situation, relevant
+      conditions and callback route if available. Distinguish information known from missing. If a real
+      emergency occurs, use local emergency instructions; the rehearsal is over.
+
+      6. Identify one weakness: inaccessible layer, unlocated map, unverified contact arrangement, or
+      a plan depending on the prohibited fire. Correct only a harmless authorized item and repeat that
+      check. Save what was actually retrieved and what still needs instruction.
+
+
+      Open the [later packet](?resource=file-later-packet-md) after committing your route decision. Your
+      output is a seven-priority disposition card, return calculation, help-message rehearsal and one
+      honest retrieval result. It can show preparedness reasoning, not survival performance.
+
+
+      ### Supervised and adapted routes
+
+
+      For a smaller first step, work V–J only with a large-print or tactile route representation; a support
+      person may read the card. Preserve their contribution. A harder paper version removes mobile coverage
+      and asks what the trusted contact knows. The response is to resolve the communication arrangement
+      before the trip, not to wander toward imagined reception.
+
+
+      For real transfer, arrange a qualified instructor-led benign session near established support, with
+      consent, accessibility, local rules, weather and individual needs checked beforehand. Agree on a
+      stop/return rule and what the instructor will observe: map orientation, safe use of the approved
+      warmth/shelter equipment, carried safe water/food arrangements, and a practice-only location message.
+      The instructor selects and supervises any physical task; no fire, untreated water, fasting, cold
+      exposure, remote overnight stay or navigation challenge is required by this guide. Record the actual
+      task and correction, supervision and conditions. An indoor alternative remains indoor evidence.
+      Complete the [fresh checks](?attempt=practice-checks) before the [key](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. You have an emergency shelter item but have never used it. A trip partner says ownership
+      proves preparedness. What is missing?
+
+      2. A fictional route takes 12 minutes to return from a checkpoint. At 14:18 the leader activates
+      the return rule; the route remains suitable. What arrival time can you estimate, and what can that
+      estimate not guarantee?
+
+      3. A fire ban removes your only planned warmth source. Should you practice secretly, omit warmth,
+      or revise the trip? Explain a complete response.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Suitability, accessibility and instructed use remain unverified. Arrange qualified, benign
+      supervised familiarization before relying on it. Record ownership separately from observed use;
+      avoid an improvised exposure test.
+
+      2. 14:30 under the supplied pace and route assumptions. Conditions, delays and individual needs
+      can change that estimate. It is not permission to continue despite new danger or a guaranteed rescue
+      deadline.
+
+      3. Revise or defer the trip until safe warmth and shelter arrangements fit conditions and are confirmed
+      with the qualified leader. Respect the ban; do not test fire privately or claim the priority disappears.
+      A carried layer and accessible supported return may fit some benign sessions, but suitability still
+      needs checking.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

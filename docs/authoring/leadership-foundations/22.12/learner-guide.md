@@ -51,8 +51,8 @@ Readable cards, a checklist, an interpreter or extra preparation time can remain
 
 [NASA knowledge management, S08](../SOURCES.md#S08), emphasizes critical knowledge, context and continuity. Only the overview and identification of continuity resources were inspected, not the linked templates or policy. The original G4 pack is not NASA-compliant, a governance instrument for a real group or evidence of institutional resilience.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability and normative status both remain role_conditional. Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records outside app evidence. Human dignity is never scored.
+Taking a leadership role is not compulsory. Fiction and no attempt are legitimate. Use actual authority and willing participation; keep protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -42,9 +42,10 @@ Real transfer can begin by reading an organization's actual published participat
 
 S05 is the original declaration reproduced by the Council of Europe, with the relevant articles inspected. Direct UN and OHCHR routes returned access errors; the successful official reproduction is identified in the register. The room cases, capacity numbers and review process are original teaching design. General principles neither determine local enforceability nor remove duties to respond appropriately to real safety concerns.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core; normative status is cross_tradition_core_or_broadly_recurrent. This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

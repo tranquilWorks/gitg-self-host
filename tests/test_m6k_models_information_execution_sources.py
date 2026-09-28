@@ -183,7 +183,10 @@ class SourceStructure(unittest.TestCase):
             prompts = text(cid, "check-prompts.md")
             answers = text(cid, "check-answers.md")
             self.assertEqual(len(re.findall(r"^## Check [AB]", prompts, re.M)), 2)
-            self.assertEqual(len(re.findall(r"^## ", answers, re.M)), 3)
+            self.assertEqual(len(re.findall(r"^## ", answers, re.M)), 4 if cid == "11.04" else 3)
+            if cid == "11.04":
+                self.assertIn("## Changed-case attempt", prompts)
+                self.assertIn("## Changed-case answer", answers)
             self.assertNotIn(answers, text(cid))
 
     def test_five_separate_later_packets(self):

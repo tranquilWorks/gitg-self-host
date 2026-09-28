@@ -52,10 +52,15 @@ meaning_and_fit:
   readiness_considerations: Use a written hypothetical response. Real dissent should account for safety
     and power; the exercise does not require exposing wrongdoing publicly.
   opportunity_considerations: 'Use this fictional case: a club wants to describe an event as fully attended
-    although several seats were empty. You value the club and have been asked to help write its summary.'
+    although several seats were empty. You value the club and have been asked to help write its summary.
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.'
   prerequisites:
   - 'Use this fictional case: a club wants to describe an event as fully attended although several seats
-    were empty. You value the club and have been asked to help write its summary.'
+    were empty. You value the club and have been asked to help write its summary. The learning guide contains
+    a complete fictional practice and a separate changed-case check. Choose that route when a real situation
+    is unavailable; its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use a written hypothetical response. Real dissent should account for safety and power; the exercise
@@ -76,7 +81,9 @@ intervention:
   cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use this fictional case: a club wants to describe an event as fully attended although several
-    seats were empty. You value the club and have been asked to help write its summary. Goal: Distinguish
+    seats were empty. You value the club and have been asked to help write its summary. The learning guide
+    contains a complete fictional practice and a separate changed-case check. Choose that route when a
+    real situation is unavailable; its results are rehearsal, not performed real-world work. Goal: Distinguish
     legitimate loyalty from complicity and express a principled disagreement constructively. Scope: An
     ordinary reporting case tests loyalty and dissent. Whistleblowing, employment disputes and serious
     wrongdoing need additional local and professional guidance. Time and effort: About 25 minutes to analyze
@@ -152,9 +159,9 @@ intervention:
     sequence: 2
     title: Draft dissent with a usable alternative
     instructions: 'Write a respectful objection that names the inaccurate wording and offers a truthful
-      version, such as noting strong discussion without claiming full attendance. Explain how the alternative
-      serves the shared aim. Avoid attacking motives you cannot know or presenting personal preference
-      as a moral requirement.
+      version, such as stating the documented attendance without claiming full attendance or unobserved
+      enjoyment. Explain how the alternative serves the shared aim. Avoid attacking motives you cannot
+      know or presenting personal preference as a moral requirement.
 
 
       Observation checks: The objection states a concrete principle; A truthful alternative serves the
@@ -418,3 +425,56 @@ presentation:
   plain_language_evidence: The objection preserved the club's legitimate aim while replacing its inaccurate
     attendance claim.
   display_order: 30
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '02.10'
+  title: Support a group while refusing one misleading claim
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Loyalty can protect a group’s legitimate purpose by correcting a misleading claim. Replacing
+      one unsupported boast with another is still misleading; truthful alternatives need their own evidence.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Club record:24 seats were offered,18 attended, and the event took place as scheduled. No satisfaction
+      survey, discussion-quality observation or photograph permission exists. Draft: “Our fully attended
+      event inspired everyone.” The editor invites factual corrections; you support the club’s continuing
+      work.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Write a respectful objection and a publishable factual alternative. Identify both claims that
+      lack support and one constructive way to learn about reception later.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A teammate says accuracy will make the club look less successful. Does that establish a legitimate
+      duty to retain the false number?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: '“The event took place as scheduled, with 18 attendees” is supported. Full attendance and universal
+      inspiration are not. Asking willing participants for optional feedback later could inform a narrower
+      attributed statement, but has not occurred. Partial: fix full attendance while leaving “inspired
+      everyone.” Incorrect: substitute “strong discussion” without evidence or allege dishonest motives.'
+    criteria:
+    - Each alternative claim has evidence
+    - The objection addresses conduct not invented motive
+    - Legitimate loyalty is separated from complicity
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Serve the shared purpose with accurate reporting and an appropriate correction process.
+      An unwanted accurate figure is not disloyal merely because it is less flattering.
+    criteria:
+    - Each alternative claim has evidence
+    - The objection addresses conduct not invented motive
+    - Legitimate loyalty is separated from complicity

@@ -1,5 +1,7 @@
 # Later packet
 
+Open only after saving both inventory A and B attempts from the learner guide.
+
 Supplied fiction. Open after saving a first attempt. These events are invented learning materials, not actual participant evidence.
 
 The first revised A report correctly shows **20 + 30 − 18 = 32 packs on hand; 32 − 5 = 27 available**, but labels 27 as “total stock” in its heading. The calculation alone does not satisfy the distinction criterion. The author changes the heading to “Available packs after reservations” and retains both figures.

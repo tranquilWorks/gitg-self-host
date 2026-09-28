@@ -46,8 +46,8 @@ Use a shorter interval, an accessible leisure activity or a private fictional re
 
 [HSE's Management Standards on Demands, S14](../SOURCES.md#S14), relates achievable demands to agreed work hours and systems for responding to concerns. It supplies a narrow organizational principle, not a universal legal right to disconnect, a clinical intervention or proof that one protected interval resolves work-life conflict.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Human dignity is never scored.
+Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

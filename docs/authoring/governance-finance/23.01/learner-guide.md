@@ -49,8 +49,8 @@ Risk includes both loss and the inability to meet an obligation at the needed ti
 
 For support, use counters or spoken arithmetic and have a helper label stocks versus flows before you calculate. For a harder pass, ask what dated bills you would need before declaring the 700 accessible throughout the month. Optional actual transfer is a private, redacted review of your own figures, with qualified help for tax, credit or benefits questions. Do not assess another person's competence from their income or savings. Understanding a shortfall can be progress even when resources have not improved.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

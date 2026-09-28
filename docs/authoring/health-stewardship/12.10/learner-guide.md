@@ -52,7 +52,7 @@ Use `planned session | actual decision | reason | protected resources | care cha
 
 Use only the later packet's ordinary observations. Compare symptoms and function with baseline, preserve unknowns and follow any actual qualified advice. Write the next disposition and a future method change, such as avoiding simultaneous unagreed changes in duration and frequency. That is a planning lesson, not an injury-prevention guarantee.
 
-Attempt [fresh checks](check-prompts.md) before [the corrective key](check-answers.md). The source artifact requires the load arithmetic, five-part record, changed session and later disposition. These companion outputs do not alter the existing application practice or its evidence/completion semantics.
+Attempt [fresh checks](check-prompts.md) before [the corrective key](check-answers.md). The source artifact requires the load arithmetic, five-part record, changed session and later disposition. Keep these case-analysis outputs separate from an actual health inquiry.
 
 ## Access, challenge and transfer
 

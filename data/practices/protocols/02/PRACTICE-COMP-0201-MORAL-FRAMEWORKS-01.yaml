@@ -86,10 +86,14 @@ meaning_and_fit:
     participation without revealing private beliefs or confronting a real authority.
   opportunity_considerations: 'Use this case: a shared camera was promised to a friend, but a community
     group now requests it for a useful event at the same time. No emergency or uniquely correct answer
-    is assumed.'
+    is assumed. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.'
   prerequisites:
   - 'Use this case: a shared camera was promised to a friend, but a community group now requests it for
-    a useful event at the same time. No emergency or uniquely correct answer is assumed.'
+    a useful event at the same time. No emergency or uniquely correct answer is assumed. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Compare four spoken explanations or use cards. The fictional case permits participation without revealing
@@ -109,7 +113,9 @@ intervention:
   cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use this case: a shared camera was promised to a friend, but a community group now requests
-    it for a useful event at the same time. No emergency or uniquely correct answer is assumed. Goal:
+    it for a useful event at the same time. No emergency or uniquely correct answer is assumed. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work. Goal:
     Explain how different moral frameworks identify reasons, obligations and unresolved costs in one choice.
     Scope: One case introduces several moral frameworks. Religious ethics, natural law, rights, justice
     and particularism require further study; the comparison does not make every framework interchangeable.
@@ -460,3 +466,62 @@ presentation:
   plain_language_evidence: The decision preserved the promise while explaining the lost community benefit
     and a possible agreed alternative.
   display_order: 21
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '02.01'
+  title: Analyze a shared-resource dilemma through different moral lenses
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Virtue asks what a good practical disposition would do; deontology examines duties; consequentialism
+      compares outcomes; care attends to relationships and dependency. Rights ask whose protected claim
+      is at stake; justice examines fair allocation. Natural-law approaches reason from accounts of human
+      goods; religious ethics may also invoke revelation and tradition, interpreted differently. Particularism
+      asks how a reason changes with context instead of assuming an exceptionless rule. These introductory
+      questions do not exhaust any tradition.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Jo owns a camera and promised it to Rae Saturday 10–12. A community group requests it 11–13
+      for a useful event; another camera can be borrowed with a 30-minute trip by a willing organizer.
+      Rae’s occasion cannot be repeated. Nobody has released Jo from the promise; no emergency exists.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Write one question from each framework, distinguish questions from conclusions, and defend an
+      allocation under at least two lenses. Explain what new fact could alter it.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: The original borrower freely releases a promise; the new requester is the owner’s friend. Does
+      friendship alone justify giving that requester preference over another equally eligible applicant?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Keeping the promise has strong duty and relationship reasons; the group alternative reduces
+      the consequence-based case for breaking it. Rights do not mean the owner has no obligations. Justice
+      asks whether the alternative’s travel burden is fair. Particularism examines why an irreplaceable
+      event differs from routine use. Partial: list labels without reasons. Incorrect: invent Rae’s consent.
+      To deepen one lens, compare a primary argument and a serious objection, then revisit the same case
+      before claiming expertise.'
+    criteria:
+    - Frameworks generate distinct questions
+    - Claims use only supplied facts
+    - Competing reasons and limits remain visible
+  - id: changed-case-check
+    title: Check the changed case
+    body: Release removes that specific promise constraint, not the fairness question. State an allocation
+      reason that survives exchanging names; relevant need or a previously accepted queue can matter.
+      No single school label settles all facts.
+    criteria:
+    - Frameworks generate distinct questions
+    - Claims use only supplied facts
+    - Competing reasons and limits remain visible

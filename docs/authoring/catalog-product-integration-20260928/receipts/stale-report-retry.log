@@ -1,0 +1,172 @@
+FF.
+=================================== FAILURES ===================================
+_________ test_m6d_authoring_readiness_is_exact_additive_and_read_only _________
+
+seeded = ImportSummary(curriculum_versions=1, levers=37, competencies=383, competency_lever_links=1403, practice_protocols=383, pilot_assessment_runs=1, pilot_lever_baselines=37)
+
+    @pytest.mark.django_db
+    def test_m6d_authoring_readiness_is_exact_additive_and_read_only(seeded):
+        before = _persisted_counts()
+    
+>       summary = verify_m6d_authoring_readiness()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_m6d_authoring_readiness.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+growth/services/m6d_authoring_readiness.py:433: in verify_m6d_authoring_readiness
+    report, report_sha256 = _verify_report(settings.BASE_DIR.resolve(), practices.content_hash)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+base_dir = PosixPath('/home/kbianco/gitg-self-host')
+catalog_hash = 'b975869208df2651130fc965f4473d9e69ac7eac45034b35ad98a43d669b6464'
+
+    def _verify_report(base_dir: Path, catalog_hash: str) -> tuple[dict[str, Any], str]:
+        try:
+            outputs = build_competency_evidence_report_outputs(base_dir)
+        except (CompetencyEvidenceReportError, PracticeContentError, ValueError) as exc:
+            raise M6DAuthoringReadinessError(
+                f"Deterministic cohort-report generation failed: {exc}"
+            ) from exc
+        expected = outputs.get(M6D_REPORT_PATH)
+        if expected is None:
+            raise M6DAuthoringReadinessError(
+                "Deterministic competency-evidence reports do not include the M6D-01 cohort report."
+            )
+        report_path = base_dir / M6D_REPORT_PATH
+        report, actual = _read_json_object(report_path, label="M6D-01 cohort report")
+        if actual != expected:
+>           raise M6DAuthoringReadinessError(
+                f"M6D-01 cohort report is missing or stale: {M6D_REPORT_PATH.as_posix()}."
+            )
+E           growth.services.m6d_authoring_readiness.M6DAuthoringReadinessError: M6D-01 cohort report is missing or stale: reports/practice-content/m6d_01_cohort_readiness_v1.json.
+
+growth/services/m6d_authoring_readiness.py:187: M6DAuthoringReadinessError
+___________ test_m6d_authoring_readiness_executes_no_database_writes ___________
+
+    def verify_expansion_readiness() -> ExpansionReadinessSummary:
+        """Verify M6A additively while retaining the independent M4E gate."""
+    
+        try:
+            pilot_summary = verify_pilot_readiness()
+        except PilotReadinessError as exc:
+            raise ExpansionReadinessError(
+                f"Preserved pilot-readiness verification failed: {exc}"
+            ) from exc
+        _require_equal(
+            "Preserved pilot contract",
+            pilot_summary.contract_version,
+            PILOT_READINESS_CONTRACT_VERSION,
+        )
+    
+        try:
+            canonical = load_and_validate_bundle()
+            practices = load_practice_content_bundle(settings.BASE_DIR)
+            validate_practice_content_mapping(practices, canonical)
+>           write_or_check_practice_reports(check=True)
+
+growth/services/expansion_readiness.py:90: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def write_or_check_practice_reports(
+        *,
+        base_dir: Path | None = None,
+        check: bool,
+    ) -> tuple[Path, ...]:
+        resolved_base = (base_dir or settings.BASE_DIR).resolve()
+        outputs = build_practice_report_outputs(resolved_base)
+        changed: list[Path] = []
+        for relative, expected in outputs.items():
+            path = resolved_base / relative
+            actual = path.read_bytes() if path.exists() else None
+            if actual == expected:
+                continue
+            changed.append(relative)
+            if not check:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(expected)
+        if check and changed:
+>           raise PracticeReportError(
+                "Generated practice-content reports are missing or stale: "
+                + ", ".join(path.as_posix() for path in changed)
+            )
+E           growth.services.practice_content_reports.PracticeReportError: Generated practice-content reports are missing or stale: reports/practice-content/competency_coverage_v1.csv, reports/practice-content/coverage_summary_v1.json, reports/practice-content/content_originality_v1.json
+
+growth/services/practice_content_reports.py:966: PracticeReportError
+
+The above exception was the direct cause of the following exception:
+
+    def verify_m6d_authoring_readiness() -> M6DAuthoringReadinessSummary:
+        """Verify the exact M6D-01 source cohort without writing application state."""
+    
+        try:
+>           expansion = verify_expansion_readiness()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+growth/services/m6d_authoring_readiness.py:409: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def verify_expansion_readiness() -> ExpansionReadinessSummary:
+        """Verify M6A additively while retaining the independent M4E gate."""
+    
+        try:
+            pilot_summary = verify_pilot_readiness()
+        except PilotReadinessError as exc:
+            raise ExpansionReadinessError(
+                f"Preserved pilot-readiness verification failed: {exc}"
+            ) from exc
+        _require_equal(
+            "Preserved pilot contract",
+            pilot_summary.contract_version,
+            PILOT_READINESS_CONTRACT_VERSION,
+        )
+    
+        try:
+            canonical = load_and_validate_bundle()
+            practices = load_practice_content_bundle(settings.BASE_DIR)
+            validate_practice_content_mapping(practices, canonical)
+            write_or_check_practice_reports(check=True)
+        except (CanonicalDataError, PracticeContentError, PracticeReportError) as exc:
+>           raise ExpansionReadinessError(f"M6A source validation failed: {exc}") from exc
+E           growth.services.expansion_readiness.ExpansionReadinessError: M6A source validation failed: Generated practice-content reports are missing or stale: reports/practice-content/competency_coverage_v1.csv, reports/practice-content/coverage_summary_v1.json, reports/practice-content/content_originality_v1.json
+
+growth/services/expansion_readiness.py:92: ExpansionReadinessError
+
+The above exception was the direct cause of the following exception:
+
+seeded = ImportSummary(curriculum_versions=1, levers=37, competencies=383, competency_lever_links=1403, practice_protocols=383, pilot_assessment_runs=1, pilot_lever_baselines=37)
+
+    @pytest.mark.django_db
+    def test_m6d_authoring_readiness_executes_no_database_writes(seeded):
+        with CaptureQueriesContext(connection) as queries:
+>           summary = verify_m6d_authoring_readiness()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_m6d_authoring_readiness.py:71: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def verify_m6d_authoring_readiness() -> M6DAuthoringReadinessSummary:
+        """Verify the exact M6D-01 source cohort without writing application state."""
+    
+        try:
+            expansion = verify_expansion_readiness()
+            competency = verify_competency_evidence_readiness()
+            practices = load_practice_content_bundle(settings.BASE_DIR.resolve())
+        except (
+            ExpansionReadinessError,
+            CompetencyEvidenceReadinessError,
+            PracticeContentError,
+        ) as exc:
+>           raise M6DAuthoringReadinessError(
+                f"Preserved readiness or canonical source verification failed: {exc}"
+            ) from exc
+E           growth.services.m6d_authoring_readiness.M6DAuthoringReadinessError: Preserved readiness or canonical source verification failed: M6A source validation failed: Generated practice-content reports are missing or stale: reports/practice-content/competency_coverage_v1.csv, reports/practice-content/coverage_summary_v1.json, reports/practice-content/content_originality_v1.json
+
+growth/services/m6d_authoring_readiness.py:417: M6DAuthoringReadinessError
+=========================== short test summary info ============================
+FAILED tests/test_m6d_authoring_readiness.py::test_m6d_authoring_readiness_is_exact_additive_and_read_only
+FAILED tests/test_m6d_authoring_readiness.py::test_m6d_authoring_readiness_executes_no_database_writes
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KeyboardInterrupt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/home/kbianco/gitg-self-host/growth/services/practice_content_reports.py:448: KeyboardInterrupt
+(to show a full traceback on KeyboardInterrupt use --full-trace)
+2 failed, 1 passed in 323.72s (0:05:23)

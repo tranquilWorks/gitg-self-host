@@ -26,9 +26,10 @@ def practice_guide(request, slug):
     if guide is None:
         raise Http404("This practice has no learning guide.")
     attempt, check = request.GET.get("attempt"), request.GET.get("check")
+    resource = request.GET.get("resource")
     try:
         projection = learner_projection(
-            guide, protocol.parent_competency_id, attempt=attempt, check=check
+            guide, protocol.parent_competency_id, attempt=attempt, check=check, resource=resource
         )
     except ValueError as exc:
         raise Http404(str(exc)) from exc
@@ -44,6 +45,8 @@ def practice_guide(request, slug):
             selection["attempt"] = attempt
         if check:
             selection["check"] = check
+        if resource:
+            selection["resource"] = resource
         response = render(
             request,
             "growth/practice_guide.html",

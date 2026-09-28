@@ -42,8 +42,8 @@ A useful follow-up question is whether the resource met the requested need or cr
 
 For support, work just the three monetary dates and the time ledger, with a helper reading the PDF introduction aloud if desired. For a harder pass, imagine a request for weekly account reviews and decide which terms exceed the original offer. A responsible refusal can leave the public resource available without promising replacement professional support. Evidence of growth would combine an actual bounded offer or delivery artifact with a later burden or use observation. This supplied story provides neither actual adherence nor proof that Dev's financial position improved.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

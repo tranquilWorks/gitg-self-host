@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "01.01",
+  "title": "Compare three good lives through one ordinary choice",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Character accounts ask what habits a choice cultivates; duty accounts ask what is owed; consequence accounts compare benefits and burdens. A freedom account protects meaningful choice; care attends to particular dependency; contentment asks what is enough. Faith traditions may locate flourishing in relationship to the sacred, with differing interpretations. These are lenses, not exhaustive summaries or personality types."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Neri has 180 discretionary minutes, no spending and no urgent duty. A previously promised neighbor call takes 20 minutes; the neighbor expects it today. Rest could use 60–160 minutes; an available reading lesson takes 50. Neri slept poorly but has no supplied medical concern. No one has agreed to cancel the call."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Compare three accounts, then one additional lens. Allocate 180 minutes or less, name what each reason protects and what it leaves out. Reconsider if an essential care duty takes 70 minutes.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person has 90 minutes, a promised 15-minute call and optional 60-minute class. They choose call 15/rest 75. Explain two genuinely different reasons and a cost; does missing the class establish a worse life?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A defensible first plan is call 20, rest 100, lesson 50, spare 10. Duty explains the promise; character may emphasize reliable habits; consequences compare fatigue and benefit. These reasons need not select different plans. After care 70 only 110 discretionary minutes remain: call 20/rest 90 is defensible, with learning forgone. Partial: totals fit but all reasons say only “best.” Incorrect: add care without reducing 180. Other allocations can meet the same responsibilities.",
+      "criteria": [
+        "Distinct reasons are explained",
+        "Time and commitments fit the facts",
+        "A legitimate forgone good remains visible"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Duty can support the promised call; care or contentment can support room for recovery. The class opportunity is lost, not worthless. No global life ranking follows; a sound alternative may use the class if capacity fits.",
+      "criteria": [
+        "Distinct reasons are explained",
+        "Time and commitments fit the facts",
+        "A legitimate forgone good remains visible"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "06.11",
+  "title": "Prepare for a setback without erasing earlier progress",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Needing more help later does not erase an earlier supported achievement. A recurrence plan specifies real support capacity and preserves existing clinical instructions; it cannot predict recovery or diagnose a cause."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional support card: Jo’s existing care service accepts ordinary coordination messages weekdays 09–17; actual urgent instructions are already held privately and unchanged. Helper Rae agrees to confirm transport Tuesday, not provide care. If Rae is unavailable, the service’s staffed coordinator accepts transport queries through accessible text during those hours. An optional club meeting can be cancelled without another person depending on it. No emergency scenario is supplied."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Plan a reduced week and a backup for the transport question. Keep clinical concerns with the existing care route and identify what has not yet been confirmed.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A support person agrees to check availability but gives no answer yet. Can the plan say the journey is covered?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Cancel or shorten optional participation and use the agreed logistics route. Later fiction: Rae becomes unavailable; coordinator acknowledges the text but transport is still unconfirmed. Do not call acknowledgment coverage. Partial: name a helper without checking their role. Incorrect: invent a recovery date or substitute this exercise for urgent instructions. Earlier successful routine remains an earlier result.",
+      "criteria": [
+        "Earlier progress and present need coexist",
+        "Backup roles and availability are specified",
+        "An inquiry is not confirmed support"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. The inquiry is underway, not the arrangement. Keep the dependency open and use the established appropriate alternative or defer the optional activity.",
+      "criteria": [
+        "Earlier progress and present need coexist",
+        "Backup roles and availability are specified",
+        "An inquiry is not confirmed support"
+      ]
+    }
+  ]
+}

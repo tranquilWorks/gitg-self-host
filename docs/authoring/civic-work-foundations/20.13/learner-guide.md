@@ -48,9 +48,10 @@ A real transfer can use a benign public claim without naming private people. You
 
 [European Commission/UNESCO educational guidance, S01](../SOURCES.md#S01), discusses scapegoating, immunity to contrary evidence, self-scrutiny and non-ridiculing responses. Only these general sections are used. Its pandemic examples, clinical claims and credential-based shortcuts are not adopted as current facts or a truth test. The invented messages, consistency exercise and later record are original; no efficacy claim is made.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core. Civic learning does not require political belief, affiliation, public disclosure or participation. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Civic learning does not require political belief, affiliation, public disclosure or participation. Fiction and no attempt are legitimate. Keep private or protected records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

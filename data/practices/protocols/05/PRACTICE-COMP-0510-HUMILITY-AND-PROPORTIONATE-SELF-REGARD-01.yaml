@@ -56,11 +56,15 @@ meaning_and_fit:
     and feedback then remain untested. No deference to mistreatment is required.
   opportunity_considerations: 'Choose a shared household, study, hobby or volunteer task. Use a private
     note with three headings: my contribution, other contributions, and limits. No status loss, humiliation
-    or public confession is required.'
+    or public confession is required. The learning guide contains a complete fictional practice and a
+    separate changed-case check. Choose that route when a real situation is unavailable; its results are
+    rehearsal, not performed real-world work.'
   prerequisites:
   - 'Choose a shared household, study, hobby or volunteer task. Use a private note with three headings:
     my contribution, other contributions, and limits. No status loss, humiliation or public confession
-    is required.'
+    is required. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.'
   dependencies: []
   safe_alternatives:
   - Use a private collaborative task or a consented written exchange. If no safe partner is available,
@@ -84,8 +88,10 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Choose a shared household, study, hobby or volunteer task. Use a private note with three headings:
     my contribution, other contributions, and limits. No status loss, humiliation or public confession
-    is required. Goal: Acknowledge your contribution and dependence while responding to correction, help,
-    praise and a lack of recognition without inflation or self-erasure. Scope: A small set of exchanges
+    is required. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work. Goal: Acknowledge your contribution and dependence while responding to correction,
+    help, praise and a lack of recognition without inflation or self-erasure. Scope: A small set of exchanges
     practices proportion, not a humility score. Rehearsed responses remain distinct from live responses,
     and obscurity is not inherently virtuous. Time and effort: About 15 minutes of preparation, two brief
     ordinary occasions, and a 10-minute review. Adaptation: Use a private collaborative task or a consented
@@ -442,3 +448,57 @@ presentation:
   plain_language_evidence: The participant credited their preparation, used a helpful correction, and
     recognized a colleague's contribution without denying their own.
   display_order: 68
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '05.10'
+  title: Practice proportionate self-regard in ordinary exchanges
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Proportionate self-regard recognizes real contribution, help and limits. Accepting a sound correction
+      is different from agreeing with every criticism; humility does not require pretending to have contributed
+      nothing.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Label draft: “Return here later.” Authorized rule: borrowed paper maps go in the blue folder
+      on shelf A before the room closes 18:00; damaged maps go to the staffed desk. Jo wrote the draft,
+      Rae supplied the rule and Kim notices that “here” has no fixed referent. No other contribution or
+      intention is supplied.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Judge Kim’s correction against the rule, revise the label and credit contributions accurately.
+      Keep your own actual work in the account.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A critic recommends removing a necessary return deadline to make the label prettier. Does humility
+      require agreement?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'A corrected label specifies blue folder/shelf A/before 18:00 and the damage exception. Kim’s
+      location criticism is sound but does not itself cover timing or damage. Later fiction: one reader
+      follows the correct destination but no real return occurs. Partial: accept praise/criticism without
+      checking the rule. Incorrect: claim sole authorship or deny writing the original text.'
+    criteria:
+    - Contributions and limits are accurately named
+    - Correction is checked against the standard
+    - Humility does not mean automatic agreement
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Explain the deadline’s actual function and seek a clearer design that preserves it. Respectful
+      evidence-based disagreement can be proportionate self-regard.
+    criteria:
+    - Contributions and limits are accurately named
+    - Correction is checked against the standard
+    - Humility does not mean automatic agreement

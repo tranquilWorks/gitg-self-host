@@ -41,9 +41,10 @@ For real transfer, select a low-stakes responsibility both want to revisit. Agre
 
 [Daminger, S02](../SOURCES.md#S02) distinguishes cognitive household work from visible execution. The inspected empirical abstract informs the attention to planning and monitoring, not a universal distribution by gender or a validated fairness score. The meal, numbers and ownership map are original exercises.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

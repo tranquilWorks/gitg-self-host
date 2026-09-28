@@ -71,13 +71,17 @@ meaning_and_fit:
     the plan would be used. Work with fictional categories rather than a real person's private symptoms.
     If a concern is occurring now, contact suitable support promptly instead of completing the exercise.
     In the US, call 911 for life-threatening emergencies and call or text 988 for suicide or emotional-crisis
-    support; outside the US use local emergency and crisis services.
+    support; outside the US use local emergency and crisis services. The learning guide contains a complete
+    fictional practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.
   prerequisites:
   - Use the linked NIMH help page and official services for the country where the plan would be used.
     Work with fictional categories rather than a real person's private symptoms. If a concern is occurring
     now, contact suitable support promptly instead of completing the exercise. In the US, call 911 for
     life-threatening emergencies and call or text 988 for suicide or emotional-crisis support; outside
-    the US use local emergency and crisis services.
+    the US use local emergency and crisis services. The learning guide contains a complete fictional practice
+    and a separate changed-case check. Choose that route when a real situation is unavailable; its results
+    are rehearsal, not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Prepare text or communication-aid wording and a locally appropriate accessible contact route. A trusted
@@ -103,7 +107,9 @@ intervention:
     used. Work with fictional categories rather than a real person''s private symptoms. If a concern is
     occurring now, contact suitable support promptly instead of completing the exercise. In the US, call
     911 for life-threatening emergencies and call or text 988 for suicide or emotional-crisis support;
-    outside the US use local emergency and crisis services. Goal: Recognize the limits of peer and self-guided
+    outside the US use local emergency and crisis services. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work. Goal: Recognize the limits of peer and self-guided
     support across trauma, suicidality, abuse, psychosis, addiction, severe functional decline and medical
     concerns, and identify appropriate professional or emergency routes. Scope: This is resource preparation
     and fictional response rehearsal, not diagnosis, a risk score, emergency-response certification or
@@ -507,3 +513,61 @@ presentation:
   plain_language_evidence: The card contained verified local routes and the rehearsal distinguished an
     ordinary appointment from prompt crisis contact and a life-threatening emergency.
   display_order: 84
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '06.14'
+  title: Prepare a clear handoff when a concern exceeds self-help
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A support handoff identifies the current need, urgency, location and usable route. Knowing a
+      number is not evidence of service availability in another jurisdiction, and a future appointment
+      does not cover an immediate emergency.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Use official US source cards linked in the lesson:911 is the emergency route for life-threatening
+      emergencies;988 offers suicide or emotional-crisis support. They are not interchangeable with routine
+      appointments or a universal safeguarding service. Fictional nonurgent clinic card for this paper
+      exercise only: routine questions accepted weekdays 09–17 by text or phone; no out-of-hours response
+      promised. No actual call or report is made.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: For a fictional person with a routine nonurgent appointment question at 18:00, record the closed
+      clinic and a next-open inquiry. Explain how the choice changes if immediate life-threatening danger
+      is actually present; do not wait to finish a worksheet in a real emergency.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A person outside the US has an urgent concern and only a US card. May the plan assume 988 operates
+      there, or rely on a routine clinic’s next-week appointment for immediate danger?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'The nonurgent question can await the ordinary route if circumstances remain nonurgent; do not
+      invent an18:00 reply. Immediate life-threatening danger calls for the actual local emergency route.
+      Partial: name a service without jurisdiction or usable mode. Incorrect: use a crisis line to test
+      whether it works or treat every ordinary question as an emergency. Real safeguarding and clinical
+      entry points require verified local scope.'
+    criteria:
+    - Urgency and service scope match
+    - Jurisdiction and access are checked
+    - Fictional rehearsal creates no actual contact evidence
+  - id: changed-case-check
+    title: Check the changed case
+    body: Neither assumption is supported. Use verified local emergency/crisis routes appropriate to the
+      current urgency and accessible mode. In a real immediate emergency, seek local emergency assistance
+      promptly; the hypothetical card supplies no foreign coverage.
+    criteria:
+    - Urgency and service scope match
+    - Jurisdiction and access are checked
+    - Fictional rehearsal creates no actual contact evidence

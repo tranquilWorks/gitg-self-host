@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "05.04",
+  "title": "Test a personality label against two ordinary situations",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A preference is what someone tends to choose; skill is what they can perform under stated conditions; an access constraint limits the available mode or opportunity. A personality label cannot substitute for those distinctions."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional Jo says “I am a quiet person.” In a familiar meeting with an agenda Jo speaks twice accurately after preparation. In a new meeting without a readable agenda Jo contributes nothing aloud but later sends an accurate written question. Jo says writing is preferred and that the missing readable agenda was a barrier. No test score or diagnosis is supplied."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Compare a prediction from the label with both records. Separate preference, demonstrated performance and the reported access issue; name a new bounded question to investigate.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person prefers written feedback but gives a clear spoken explanation when asked in a suitable setting. Is the preference disproved?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "The global prediction “never contributes” fails. Speaking occurred with preparation; writing is a stated preference; unreadable information is a specific barrier. Silence does not establish lack of interest or ability. Partial: identify the exception but ignore access. Incorrect: diagnose from two meetings. Later compare another willingly chosen accessible setting, keeping the prediction modest.",
+      "criteria": [
+        "Preference skill and access are separated",
+        "Predictions are checked against exceptions",
+        "A label is not a diagnosis or destiny"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Preference is not inability. Preserve the successful spoken example and the person’s stated preferred route without forcing future performance in that mode.",
+      "criteria": [
+        "Preference skill and access are separated",
+        "Predictions are checked against exceptions",
+        "A label is not a diagnosis or destiny"
+      ]
+    }
+  ]
+}

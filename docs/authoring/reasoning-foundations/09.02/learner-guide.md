@@ -8,7 +8,7 @@ Reconstruct what an argument actually claims, test whether its conclusion follow
 
 **Deliverable:** Two supplied argument maps, a counterexample or explanation of entailment for each, a premise-evidence record, and one fresh application. Allow three 15-minute sessions. Paper, a text editor, dictation, or premise cards are sufficient. All required data for the fictional route are provided. No purchase, research subscription, or live dispute is required.
 
-This is educational practice, not legal or scientific adjudication. It creates no new scoring rule. Completion is not mastery.
+This is educational practice, not legal or scientific adjudication.  Completion is not mastery.
 
 ## Eight concepts, one procedure
 

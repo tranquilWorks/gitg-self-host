@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1403-DIGITAL-IDENTITY-PRIVACY-AND-DATA-RIGHTS-01
 slug: c1403-digital-identity-privacy-and-data-rights-practice
-name: Bounded Digital identity, privacy, and data rights Practice
+name: Align one account’s data sharing with a stated privacy priority
 parent_competency_id: '14.03'
 domain_id: '14'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 14.03
-      (Digital identity, privacy, and data rights); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 14.03; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Digital identity, privacy, and data rights through a qualified-support preparation
-    bounded by the canonical scope: Understand data collection, tracking, identity linkage, consent, platform
-    policies, and the persistence of online records.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can audit major accounts
-    and change settings, sharing, or services to match stated privacy priorities. The protocol creates
-    a small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Trace what an account collects, links, shares and retains, then make one informed privacy choice
+    rather than assume a toggle guarantees anonymity or deletion.
+  why_recommended: Trace what an account collects, links, shares and retains, then make one informed privacy
+    choice rather than assume a toggle guarantees anonymity or deletion.
   claims:
-  - statement: Using the canonical scope and evidence target for Digital identity, privacy, and data rights
-      is a traceable product-design basis for a source-only draft protocol.
+  - statement: Trace what an account collects, links, shares and retains, then make one informed privacy
+      choice rather than assume a toggle guarantees anonymity or deletion.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Digital identity, privacy, and data rights practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Digital identity, privacy, and data rights as not applicable, consciously
     unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity, or
     safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Digital identity,
-    privacy, and data rights context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Digital identity,
-    privacy, and data rights; do not manufacture conflict, deprivation, exposure, disclosure, danger,
-    urgency, or dependence for evidence.
+  readiness_considerations: Use one setting at a time, an accessible privacy dashboard or a trusted helper
+    without sharing credentials. In stalking or abuse concerns, changing settings can have safety implications;
+    use a safe device and appropriate specialist support rather than a public confrontation or surprise
+    account change.
+  opportunity_considerations: 'Choose an ordinary account you control, not a workplace system or another
+    person’s profile. Default priority: a hobby profile should not publicly reveal a precise location
+    or link automatically to unrelated contacts. Use four headings—data supplied, data observed, identity
+    links and retention or sharing—and the service’s current official privacy information.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Digital identity, privacy, and
-    data rights.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Choose an ordinary account you control, not a workplace system or another person’s profile. Default
+    priority: a hobby profile should not publicly reveal a precise location or link automatically to unrelated
+    contacts. Use four headings—data supplied, data observed, identity links and retention or sharing—and
+    the service’s current official privacy information.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Digital identity, privacy, and
-    data rights instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use one setting at a time, an accessible privacy dashboard or a trusted helper without sharing credentials.
+    In stalking or abuse concerns, changing settings can have safety implications; use a safe device and
+    appropriate specialist support rather than a public confrontation or surprise account change.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +83,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Digital identity, privacy, and data rights actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Digital identity, privacy, and data rights; copy the canonical scope and
-    evidence target into a private working note; define the action boundary, valid supports, privacy limit,
-    and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Digital
-    identity, privacy, and data rights. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Digital identity, privacy, and data rights
-    actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose an ordinary account you control, not a workplace system or another person’s profile.
+    Default priority: a hobby profile should not publicly reveal a precise location or link automatically
+    to unrelated contacts. Use four headings—data supplied, data observed, identity links and retention
+    or sharing—and the service’s current official privacy information. Goal: Trace what an account collects,
+    links, shares and retains, then make one informed privacy choice rather than assume a toggle guarantees
+    anonymity or deletion. Scope: This is a bounded account audit, not a legal determination of data rights
+    or a guarantee that previously shared information disappears. Applicable rights and procedures vary
+    by location and service. Time and effort: Twenty minutes to inspect one account and ten minutes to
+    make and verify one chosen change. Adaptation: Use one setting at a time, an accessible privacy dashboard
+    or a trusted helper without sharing credentials. In stalking or abuse concerns, changing settings
+    can have safety implications; use a safe device and appropriate specialist support rather than a public
+    confrontation or surprise account change. Keep personal working notes outside the check-in; record
+    only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use one setting at a time, an accessible privacy dashboard or a trusted helper
+    without sharing credentials. In stalking or abuse concerns, changing settings can have safety implications;
+    use a safe device and appropriate specialist support rather than a public confrontation or surprise
+    account change.
+  expected_burden: Twenty minutes to inspect one account and ten minutes to make and verify one chosen
+    change.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Digital identity, privacy, and data rights protocol to rank worth, coerce participation,
@@ -104,20 +114,25 @@ intervention:
   - Treating a completed Digital identity, privacy, and data rights action, a polished artifact, agreement,
     confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Digital identity, privacy, and data rights situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use one setting
+    at a time, an accessible privacy dashboard or a trusted helper without sharing credentials. In stalking
+    or abuse concerns, changing settings can have safety implications; use a safe device and appropriate
+    specialist support rather than a public confrontation or surprise account change.
   actions:
   - stable_id: PRACTICE-COMP-1403-DIGITAL-IDENTITY-PRIVACY-AND-DATA-RIGHTS-01-A1
     sequence: 1
-    title: Bound the qualified question for Digital identity, privacy, and data rights
-    instructions: 'Turn Digital identity, privacy, and data rights into one educational or planning question
-      and identify the qualification and jurisdiction needed to answer it. Use the canonical scope to
-      separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Understand data collection, tracking, identity linkage,
-      consent, platform policies, and the persistence of online records.'
+    title: Trace the data from collection to visible audience
+    instructions: 'Inspect the profile and official privacy settings for the chosen priority. Identify
+      one supplied item, one activity or device signal the policy says may be collected, an identity-linking
+      feature and a retention or deletion statement. Separate public visibility from collection by the
+      provider. Mark unclear policy language as unknown; do not assume a private profile means no tracking
+      or that consent is all-or-nothing.
+
+
+      Observation checks: Supplied observed and linked data are distinguished; The visible audience is
+      separate from provider collection; Retention or deletion information is checked in current official
+      material; Unknowns are retained rather than replaced with privacy guarantees. Mark only what you
+      observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -139,9 +154,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1403_a1_question_bounded
-        - c1403_a1_qualification_named
-        - c1403_a1_professional_boundary_explicit
+        - supplied_observed_and_linked_data_are_distinguished
+        - the_visible_audience_is_separate_from_provider_collection
+        - retention_or_deletion_information_is_checked_in_current_official_material
+        - unknowns_are_retained_rather_than_replaced_with_privacy_guarantees
       - measurement_id: c1403_a1_boundary
         kind: boolean
         role: supporting
@@ -158,12 +174,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1403-DIGITAL-IDENTITY-PRIVACY-AND-DATA-RIGHTS-01-A2
     sequence: 2
-    title: Prepare minimum information for Digital identity, privacy, and data rights
-    instructions: Create a privacy-minimized Digital identity, privacy, and data rights consultation note
-      containing only the question, relevant category-level facts, current constraints, and desired decision.
-      Omit diagnoses, allegations, account numbers, credentials, protected work information, intimate
-      detail, and third-party identity unless a qualified professional lawfully requires it through an
-      appropriate channel.
+    title: Choose one proportionate change with its tradeoff
+    instructions: 'Decide whether to remove a precise profile location, restrict an audience, disable
+      optional contact discovery or stop using a feature. Check the effect on recovery, accessibility
+      and legitimate shared use before changing it. Save only a private note of the setting name and reason,
+      not screenshots containing contacts. If a deletion or access request is appropriate, use the service’s
+      verified process and understand that processing may take time.
+
+
+      Observation checks: The change addresses the stated privacy priority; Recovery accessibility and
+      shared-use effects are considered; Only authorized account settings or official request routes are
+      used; The privacy benefit and lost convenience are both stated. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -185,9 +207,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1403_a2_minimum_information_only
-        - c1403_a2_sensitive_detail_excluded
-        - c1403_a2_decision_need_named
+        - the_change_addresses_the_stated_privacy_priority
+        - recovery_accessibility_and_shared_use_effects_are_considered
+        - only_authorized_account_settings_or_official_request_routes_are_used
+        - the_privacy_benefit_and_lost_convenience_are_both_stated
       - measurement_id: c1403_a2_boundary
         kind: boolean
         role: supporting
@@ -204,12 +227,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1403-DIGITAL-IDENTITY-PRIVACY-AND-DATA-RIGHTS-01-A3
     sequence: 3
-    title: Record a bounded Digital identity, privacy, and data rights disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Can audit major accounts and change settings, sharing, or services to match
-      stated privacy priorities.'
+    title: Verify the visible result and record what remains outside control
+    instructions: 'Check the profile through the service’s preview or another authorized view without
+      impersonation. Confirm the setting persisted, and note whether linked apps or old posts need separate
+      review. Record that copies, recipients and provider retention may remain outside the tested change.
+      Set a review trigger such as a policy update or new linked service; do not claim the account is
+      anonymous or fully erased.
+
+
+      Observation checks: The selected change is checked after saving; Linked services and older content
+      are considered separately; Residual collection retention and copied-content limits are explicit;
+      A concrete future review trigger is recorded. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.
+
+
+      Final review: Which data flow changed, and which privacy concern remains unresolved despite the
+      visible setting?
+
+
+      Examples: Supportive: The precise location was removed and contact discovery disabled, while provider
+      activity collection remained an explicit limit.
+
+
+      Mixed: The profile audience changed, but an old public post still exposed the location and required
+      separate review.
+
+
+      Contradictory: A private-profile toggle was treated as proof that tracking stopped or all copies
+      had been deleted.
+
+
+      Inconclusive: A privacy policy was skimmed without connecting any data flow or setting to an actual
+      priority.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -225,14 +274,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1403_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1403_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - the_selected_change_is_checked_after_saving
+        - linked_services_and_older_content_are_considered_separately
+        - residual_collection_retention_and_copied_content_limits_are_explicit
+        - a_concrete_future_review_trigger_is_recorded
       - measurement_id: c1403_a3_boundary
         kind: boolean
         role: supporting
@@ -253,17 +304,17 @@ intervention:
       Digital identity, privacy, and data rights; no purchase, subscription, travel, credential, or public
       artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Digital identity, privacy, and data rights; assistive technology, interpretation, a support
-      person, and a deferred action are valid without penalty.
+    - Use one setting at a time, an accessible privacy dashboard or a trusted helper without sharing credentials.
+      In stalking or abuse concerns, changing settings can have safety implications; use a safe device
+      and appropriate specialist support rather than a public confrontation or surprise account change.
     cultural_context:
     - Adapt the expression of Digital identity, privacy, and data rights to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Digital identity, privacy, and data rights opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use one setting at a time, an accessible privacy dashboard or a trusted helper without sharing credentials.
+      In stalking or abuse concerns, changing settings can have safety implications; use a safe device
+      and appropriate specialist support rather than a public confrontation or surprise account change.
   pause_conditions:
   - Pause Digital identity, privacy, and data rights when capacity, consent, authority, privacy, access,
     care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make
@@ -295,10 +346,7 @@ evidence_and_scoring:
   - c1403_a3_boundary
   - c1403_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Digital identity, privacy, and data rights action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Digital identity, privacy, and data rights criterion, depended
-    on coercion or hidden private content, or could not distinguish the protocol from contextual change.
+  - A private-profile toggle was treated as proof that tracking stopped or all copies had been deleted.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Digital identity, privacy, and data rights explicitly; support can enable access and never reduces
     dignity or silently changes the typed value.
@@ -309,14 +357,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Digital identity, privacy, and data rights rules withhold observations older
     than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can audit major accounts and change settings, sharing, or services to match stated privacy
-    priorities.—not completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Digital identity, privacy, and data rights requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Trace the data from collection to visible audience. Observed checks:
+    Supplied observed and linked data are distinguished; The visible audience is separate from provider
+    collection; Retention or deletion information is checked in current official material; Unknowns are
+    retained rather than replaced with privacy guarantees. Action 2: Choose one proportionate change with
+    its tradeoff. Observed checks: The change addresses the stated privacy priority; Recovery accessibility
+    and shared-use effects are considered; Only authorized account settings or official request routes
+    are used; The privacy benefit and lost convenience are both stated. Action 3: Verify the visible result
+    and record what remains outside control. Observed checks: The selected change is checked after saving;
+    Linked services and older content are considered separately; Residual collection retention and copied-content
+    limits are explicit; A concrete future review trigger is recorded.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A privacy policy was skimmed without connecting any
+    data flow or setting to an actual priority.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Digital
     identity, privacy, and data rights contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -325,9 +382,8 @@ evidence_and_scoring:
   - L19
   - L20
   - L31
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Digital identity, privacy, and data rights evidence.
@@ -335,12 +391,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for digital identity, privacy, and data rights action was attempted
-    or explicitly deferred.
-  - The prepare minimum information for digital identity, privacy, and data rights action was attempted
-    or explicitly deferred.
-  - The record a bounded digital identity, privacy, and data rights disposition action preserved a limited
-    conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Trace the data from collection to visible audience. Observed checks: Supplied observed
+    and linked data are distinguished; The visible audience is separate from provider collection; Retention
+    or deletion information is checked in current official material; Unknowns are retained rather than
+    replaced with privacy guarantees.'
+  - 'Action 2: Choose one proportionate change with its tradeoff. Observed checks: The change addresses
+    the stated privacy priority; Recovery accessibility and shared-use effects are considered; Only authorized
+    account settings or official request routes are used; The privacy benefit and lost convenience are
+    both stated.'
+  - 'Action 3: Verify the visible result and record what remains outside control. Observed checks: The
+    selected change is checked after saving; Linked services and older content are considered separately;
+    Residual collection retention and copied-content limits are explicit; A concrete future review trigger
+    is recorded.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -349,62 +414,364 @@ completion_and_review:
     - c1403_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Digital identity, privacy, and data rights only when the initial
-    context remained safe, the evidence criteria were usable, burden was acceptable, and a new context
-    can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Digital identity, privacy, and data rights across
-    roles, cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which data flow changed, and which privacy concern remains unresolved despite
+    the visible setting?
+  transfer_limit: This is a bounded account audit, not a legal determination of data rights or a guarantee
+    that previously shared information disappears. Applicable rights and procedures vary by location and
+    service.
   reflection:
-    before: What does Digital identity, privacy, and data rights require in this exact context, what remains
-      outside my role or authority, and which scope sentence or evidence criterion will keep the practice
-      honest?
-    during: Which observable Digital identity, privacy, and data rights criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can audit major accounts and change settings, sharing, or
-      services to match stated privacy priorities.', what contradiction or missing context matters most,
-      and should this Digital identity, privacy, and data rights design be repeated, adapted, deferred,
-      stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Trace what an account collects, links, shares
+      and retains, then make one informed privacy choice rather than assume a toggle guarantees anonymity
+      or deletion.'
+    during: Which checks have actually been observed? The profile audience changed, but an old public
+      post still exposed the location and required separate review.
+    after: Which data flow changed, and which privacy concern remains unresolved despite the visible setting?
   review_guidance:
     repeat: Repeat the same bounded Digital identity, privacy, and data rights design only when the context
       and burden remain appropriate.
-    adapt: Change the Digital identity, privacy, and data rights medium, scope, support, timing, criteria,
-      or context while preserving provenance and the narrower evidence claim.
+    adapt: Use one setting at a time, an accessible privacy dashboard or a trusted helper without sharing
+      credentials. In stalking or abuse concerns, changing settings can have safety implications; use
+      a safe device and appropriate specialist support rather than a public confrontation or surprise
+      account change.
     stop: Stop Digital identity, privacy, and data rights when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Digital identity, privacy, and data rights
-      questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Digital identity, privacy, and data rights criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Digital identity, privacy, and data rights criteria were observed while burden, support,
-      contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Digital identity, privacy, and data rights
-      criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Digital identity, privacy, and data rights action was deferred, not observed, not
-      applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The precise location was removed and contact discovery disabled, while provider activity
+      collection remained an explicit limit.
+    mixed: The profile audience changed, but an old public post still exposed the location and required
+      separate review.
+    contradictory: A private-profile toggle was treated as proof that tracking stopped or all copies had
+      been deleted.
+    inconclusive: A privacy policy was skimmed without connecting any data flow or setting to an actual
+      priority.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Digital identity, privacy, and data rights.
+    context_heading: Align one account’s data sharing with a stated privacy priority
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Digital identity,
       privacy, and data rights.
   check_in_labels:
-    c1403_a1_primary: The bounded Digital identity, privacy, and data rights criterion for action 1 was
-      observed
+    c1403_a1_primary: 'Observed checks: trace the data from collection to visible audience'
     c1403_a1_boundary: Action 1 stayed inside its stated Digital identity, privacy, and data rights boundary
     c1403_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1403_a2_primary: The bounded Digital identity, privacy, and data rights criterion for action 2 was
-      observed
+    c1403_a2_primary: 'Observed checks: choose one proportionate change with its tradeoff'
     c1403_a2_boundary: Action 2 stayed inside its stated Digital identity, privacy, and data rights boundary
     c1403_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1403_a3_primary: The bounded Digital identity, privacy, and data rights criterion for action 3 was
-      observed
+    c1403_a3_primary: 'Observed checks: verify the visible result and record what remains outside control'
     c1403_a3_boundary: Action 3 stayed inside its stated Digital identity, privacy, and data rights boundary
     c1403_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Digital identity,
-    privacy, and data rights practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which data flow changed, and which privacy concern remains unresolved despite the visible
+    setting? Completion is not mastery.
+  plain_language_evidence: The precise location was removed and contact discovery disabled, while provider
+    activity collection remained an explicit limit.
   display_order: 179
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '14.03'
+  title: 14.03 — Digital identity, privacy, and data rights
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [CDC — Chronic Conditions & Disabilities Activity](https://www.cdc.gov/physical-activity-basics/guidelines/chronic-health-conditions-and-disabilities.html)
+
+      - [CDC — Pregnant & Postpartum Activity](https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html)
+
+      - [NIAMS — Sports Injuries](https://www.niams.nih.gov/health-topics/sports-injuries)
+
+      - [MedlinePlus — Pain](https://medlineplus.gov/pain.html)
+
+      - [NHS — Back pain](https://www.nhs.uk/conditions/back-pain/)
+
+      - [University Hospitals Sussex — Low back pain A&E leaflet](https://www.uhsussex.nhs.uk/resources/low-back-pain/)
+
+      - [Cleveland Clinic — Referred Pain](https://my.clevelandclinic.org/health/symptoms/25238-referred-pain)
+
+      - [Apple — Allow or silence notifications for a Focus](https://support.apple.com/guide/iphone/allow-or-silence-notifications-for-a-focus-iph21d43af5b/ios)
+
+      - [NCSC — Backing up your data](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/always-back-up-your-most-important-data)
+
+      - [NCSC — Install the latest software and app updates](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/install-the-latest-software-and-app-updates)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)
+
+      - [FTC — How Websites and Apps Collect and Use Your Information](https://consumer.ftc.gov/articles/how-websites-and-apps-collect-and-use-your-information)
+
+      - [ICO — Your right to get your data deleted](https://ico.org.uk/for-the-public/your-right-to-get-your-data-deleted/)
+
+      - [FTC — Use Two-Factor Authentication](https://consumer.ftc.gov/articles/use-two-factor-authentication-protect-your-accounts)
+
+      - [NIST SP 800-63B-4](https://pages.nist.gov/800-63-4/sp800-63b.html)
+
+      - [Microsoft — Find your BitLocker recovery key](https://support.microsoft.com/en-us/windows/security/encryption/find-your-bitlocker-recovery-key)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: '| Observation | Actual supplied status |
+
+      | --- | --- |
+
+      | Profile location | Cleared, saved, and absent in the service''s public preview |
+
+      | Audience | Private setting persisted after reopening settings |
+
+      | Contact discovery | Off after saving; future matching disabled under P3 |
+
+      | Stored contact list | Request sent; acknowledgement received; deletion not yet confirmed |
+
+      | Old caption | Location removed from the provider-hosted caption and checked in its authorized
+      preview |
+
+      | Recovery email | Still linked and unchanged; no recovery drill performed |
+
+      | Sign-in records | Still collected under P4; no deletion requested or confirmed |
+
+      | Downloaded drawing | Follower''s copy remains outside this inspection; no deletion evidence |
+
+
+      An **alternative later reply**, to consider separately, says: “We have deleted the stored contact
+      list associated with this request.” If that reply is supplied, update only the contact-list row
+      to provider-confirmed deletion. It is not independent inspection of every internal copy, and says
+      nothing about sign-in records or the downloaded drawing.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Follow the information beyond the visible profile
+
+
+      Privacy choices concern what information is collected, how identities are linked, who can use it,
+      for what purpose and for how long. Hiding a public profile field changes an audience; it may not
+      change the provider''s collection or erase a recipient''s copy. A useful audit names the specific
+      data flow that changed and the uncertainty that remains.
+
+
+      The default uses a complete fictional service packet and takes about 30 minutes. You need only a
+      notes tool. No real account, legal request, private screenshot or contact upload is required. The
+      optional real route is limited to an account you control and current official instructions. This
+      is privacy literacy, not a legal determination or a guarantee of anonymity.
+
+
+      ### A practical vocabulary
+
+
+      **Supplied data** are entered or uploaded by a person. **Observed data** come from activity or device
+      interactions. **Inferences** are conclusions drawn from those records; they can be wrong. **Identity
+      linkage** connects records through a login, address, device signal or shared identifier. A pseudonym
+      does not necessarily break those links. **Audience** concerns who sees something; **purpose** concerns
+      what may be done with it. Consent to one purpose should not be silently treated as agreement to
+      every other use.
+
+
+      The [FTC''s tracking explanation](https://consumer.ftc.gov/articles/how-websites-and-apps-collect-and-use-your-information)
+      distinguishes collection and settings; private browsing does not make activity invisible to websites.
+      For a real service, inspect current policy and settings, retain dates, and mark ambiguous language
+      unknown. A privacy setting, a deletion request and verified processing are three different states.
+
+
+      Legal rights depend on applicable law and circumstances. The [UK ICO''s erasure guidance](https://ico.org.uk/for-the-public/your-right-to-get-your-data-deleted/)
+      describes a right with conditions and exceptions. Do not import its rules or deadlines into another
+      jurisdiction, or treat a fictional policy below as a real legal promise. Use the relevant regulator/service''s
+      verified process and appropriate qualified advice for a disputed case.
+
+
+      ### Worked example: the consent changed, but a copy remains
+
+
+      Someone allowed a club to publish a picture on its own page, but did not agree to advertising use.
+      Removing the club post can change future visibility without retrieving a copy already downloaded
+      by a viewer. Record the request, the page result and the outside copy separately. A useful follow-up
+      asks the responsible party about the additional use; it does not claim the person became anonymous
+      after one toggle.
+
+
+      ### Complete fictional packet: Mira''s Sketchyard account
+
+
+      Mira''s purpose is to show drawings to approved hobby contacts without publicly revealing a precise
+      location or inviting automated contact matching. Mira needs email access for recovery. **Sketchyard
+      is invented.** The following six records are the entire policy/control packet for this exercise,
+      dated 1 September 2026:
+
+
+      | Record | Current fact or stipulated policy |
+
+      | --- | --- |
+
+      | P1 — Profile | Mira supplied nickname MiraDraws and location “Cedar House, Unit 4”; profile currently
+      public. Location can be cleared without deleting the account. |
+
+      | P2 — Audience | Private mode limits future profile/post viewing to approved followers. It does
+      not remove already downloaded copies. |
+
+      | P3 — Contacts | Contact discovery is on and a list was previously uploaded. Turning it off stops
+      future uploads/matching; deleting the stored list requires a separate request. |
+
+      | P4 — Collection | Provider stores sign-in device/time records for its stated security purpose;
+      the private-profile setting does not stop that collection. Optional personalized recommendations
+      are a separate switch. |
+
+      | P5 — Deletion | The service accepts a specific stored-contact-list deletion request and reports
+      its status. The packet supplies no processing deadline or promise to remove recipients'' copies.
+      |
+
+      | P6 — Identity | Recovery email is linked to the account; clearing public location does not alter
+      recovery. An old public drawing included the same location in its caption. |
+
+
+      One approved follower has already downloaded that drawing. No statement about this follower deleting
+      it is available. No real people, addresses or service terms are represented by the invented names.
+
+
+      #### Action 1 — Draw a data-flow ledger
+
+
+      Use `item | supplied/observed/inferred | identity link | audience/recipient | purpose | available
+      control | retention unknown`. Fill rows for profile location, uploaded contacts, sign-in records,
+      recovery email and the old caption. Note which record supports each conclusion. No inference model
+      is described in the packet, so do not claim one was inspected; the general concept does not establish
+      a specific practice.
+
+
+      #### Action 2 — Choose changes that match the purpose
+
+
+      Write a minimal sequence that removes the precise public location, limits future audience, stops
+      contact discovery and addresses the old caption/stored list separately. Preserve recovery email.
+      State the tradeoffs: new viewers will need approval and automatic contact finding is lost. Use this
+      request template: “For this account, please explain the status and process for deleting the previously
+      uploaded contact list. Please identify any retained categories, reasons and further steps.” Do not
+      include actual contact details or secret values.
+
+
+      Mark each proposed change **planned** until the supplied record establishes it was performed. Save
+      the ledger before [the later packet](?resource=file-later-packet-md). A request about contacts is
+      not a request to delete the whole account.
+
+
+      #### Action 3 — Verify each claim at its own boundary
+
+
+      Apply the later observations to the ledger. Distinguish the public preview, persisted settings,
+      request acknowledgement, provider response and outside copy. Write a short truthful result using
+      “changed,” “requested,” “confirmed by provider” and “unknown” precisely. Choose a future trigger
+      such as adding a linked app or a policy change. Attempt [fresh checks](?attempt=practice-checks)
+      before [the separate key](?check=practice-answers).
+
+
+      A complete output includes all five data rows, policy references, the change/request sequence, tradeoffs,
+      later status and residual-copy statement. “Private now” without these distinctions is incomplete
+      even if the public preview looks correct.
+
+
+      ### Access, harder work and real transfer
+
+
+      Use an accessible dashboard or one setting at a time. A helper can read explanations without receiving
+      credentials or seeing contacts. On a shared account, separate your authority from another person''s
+      choices. In a stalking or coercion situation, settings changes may have consequences; use a safe
+      device and suitable specialist support instead of this ordinary-account exercise.
+
+
+      Harder case: a linked drawing app retains a copy under its own account. Add a separate recipient,
+      control and policy row; revoking future access does not establish deletion of earlier transfers.
+      If policy is vague, write a focused question rather than invent a retention period.
+
+
+      Later, choose one real privacy priority and one account you own. Inspect the current official settings/policy,
+      make a reversible authorized change if appropriate, and verify through the service''s own preview
+      or another authorized view. Keep a private minimized receipt without names or identifiers. Record
+      any rights request as pending until its response is known. This is distinct from 14.02''s data recovery
+      and 14.04''s protection against unauthorized access: a service may securely retain information you
+      prefer it not to collect.
+
+
+      **Supportive:** Specific flows change as intended; collection and copies outside the tested control
+      remain explicit.
+
+
+      **Mixed:** Future sharing is reduced, but older material needs another request or recipient review.
+
+
+      **Contradictory:** Private mode is represented as anonymity or a request acknowledgement as universal
+      erasure.
+
+
+      **Inconclusive:** A policy was skimmed without linking its statements to an item, control or observed
+      result.
+
+
+      See scope and limits described in this guide and [source limits](?resource=sources).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A fictional service''s private mode restricts the public profile but its policy still permits
+      the described security log collection. A learner says “No one collects my activity now.” Correct
+      that claim and identify the two separate controls or questions needed.
+
+      2. A contact-upload switch is off. The service explicitly says this stops future uploads but existing
+      records require a separate deletion request. The learner receives “Request received.” Which states
+      are known, and which remain unconfirmed?
+
+      3. An old public post was removed from the provider''s page. A recipient saved a copy earlier, and
+      another app received the post under its own account. Write a bounded result and a next audit action
+      without claiming universal erasure or a particular legal deadline.
+
+
+      Save responses before [the key](?check=practice-answers).
+
+
+      ### Changed-case attempt
+
+
+      Save your response before opening the matching answer. This is a new fictional case.
+
+
+      Fictional app policy V2: location is collected only while navigation is on; route history is stored
+      for 14 days; deleting history removes route records but not the separate account; diagnostic sharing
+      is optional and initially on. An offline map is available. Choose settings for someone who needs
+      a map but wants no route history or optional diagnostics. Identify one uncertainty.'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Public audience is restricted; the described provider collection continues. Inspect the
+      visibility control and the separate policy/control governing collection and retention. Do not turn
+      absence from public preview into absence from provider systems or a promise of anonymity.
+
+      2. Future uploading is disabled under the stipulated policy, and the deletion request was received.
+      Existing-record deletion is **unconfirmed**. Retain the request scope and seek its actual disposition
+      through the verified process. Acknowledgement is progress in a request, not evidence the data disappeared.
+
+      3. The provider-hosted post is no longer visible in the checked location. The recipient''s copy
+      and linked app''s records are separate and unresolved. Inspect the linked app''s official controls/policy
+      and, where appropriate, request a specific action from its responsible party. Do not infer an applicable
+      legal right, response deadline or guaranteed retrieval of every copy from this fictional case.
+
+
+      For Mira, the public location, audience, future discovery and hosted caption changed. Stored-list
+      deletion remains pending in the initial later packet. The alternative provider reply supports only
+      a provider-confirmed contact-list result. Recovery remains linked; security logs continue; the outside
+      drawing is unverified. These are educational status distinctions, not a legal opinion or independent
+      provider audit.
+
+
+      ### Changed-case answer
+
+
+      Use the offline map if it meets the need, keep navigation off when unnecessary, disable diagnostic
+      sharing and use the stated history deletion control for existing route records. Account deletion
+      is a separate issue. The policy does not specify backups or whether offline use records anything
+      else: ask rather than promise zero collection. Do not import the earlier policy’s retention or controls.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

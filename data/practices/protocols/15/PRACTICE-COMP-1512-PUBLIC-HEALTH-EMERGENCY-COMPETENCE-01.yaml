@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1512-PUBLIC-HEALTH-EMERGENCY-COMPETENCE-01
 slug: c1512-public-health-emergency-competence-practice
-name: Bounded Public-health emergency competence Practice
+name: Translate one current public-health notice into a proportionate shared plan
 parent_competency_id: '15.12'
 domain_id: '15'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 15.12
-      (Public-health emergency competence); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 15.12; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Public-health emergency competence through a non-confrontational safety preparation
-    bounded by the canonical scope: Understand infection control, credible health guidance, risk communication,
-    isolation, vaccination, and support for vulnerable people.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can follow and explain
-    proportionate protective measures during an outbreak or environmental hazard. The protocol creates
-    a small opportunity to examine that target without treating completion as broad capability.'
+  purpose: Use dated credible guidance to protect yourself and others during a respiratory outbreak or
+    environmental-health warning without inventing rules or shaming affected people.
+  why_recommended: Use dated credible guidance to protect yourself and others during a respiratory outbreak
+    or environmental-health warning without inventing rules or shaming affected people.
   claims:
-  - statement: Using the canonical scope and evidence target for Public-health emergency competence is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Use dated credible guidance to protect yourself and others during a respiratory outbreak
+      or environmental-health warning without inventing rules or shaming affected people.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Public-health emergency competence practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Public-health emergency competence as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Public-health emergency
-    competence context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Public-health
-    emergency competence; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use plain language, translation, accessible remote participation and trusted
+    community channels. Lack of paid leave, space or resources may limit a person’s options; route those
+    constraints to support rather than blame. Immediate medical danger takes priority over finishing a
+    communication exercise.
+  opportunity_considerations: Choose a current local public-health notice relevant to an ordinary shared
+    activity. When none is active, use a clearly labeled hypothetical indoor club meeting during increased
+    respiratory illness and consult current official general prevention guidance. Keep personal diagnoses,
+    vaccination status and other people’s medical information out of the record.
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Public-health emergency competence.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - Choose a current local public-health notice relevant to an ordinary shared activity. When none is
+    active, use a clearly labeled hypothetical indoor club meeting during increased respiratory illness
+    and consult current official general prevention guidance. Keep personal diagnoses, vaccination status
+    and other people’s medical information out of the record.
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Public-health emergency competence
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use plain language, translation, accessible remote participation and trusted community channels. Lack
+    of paid leave, space or resources may limit a person’s options; route those constraints to support
+    rather than blame. Immediate medical danger takes priority over finishing a communication exercise.
   role_conditions:
   - This competency is context contingent; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +82,29 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-SAFETY-PREPARATION
   duration_days: 10
-  cadence: Complete three bounded Public-health emergency competence actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Public-health emergency competence; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Public-health
-    emergency competence. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Public-health emergency competence actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose a current local public-health notice relevant to an ordinary shared activity. When none
+    is active, use a clearly labeled hypothetical indoor club meeting during increased respiratory illness
+    and consult current official general prevention guidance. Keep personal diagnoses, vaccination status
+    and other people’s medical information out of the record. Goal: Use dated credible guidance to protect
+    yourself and others during a respiratory outbreak or environmental-health warning without inventing
+    rules or shaming affected people. Scope: This is a guidance-verification and communication exercise,
+    not diagnosis or individualized advice about vaccination, treatment, isolation duration or medical
+    vulnerability. Time and effort: Twenty minutes to inspect one official notice, fifteen minutes to
+    make a small plan and a ten-minute teach-back or revision. Adaptation: Use plain language, translation,
+    accessible remote participation and trusted community channels. Lack of paid leave, space or resources
+    may limit a person’s options; route those constraints to support rather than blame. Immediate medical
+    danger takes priority over finishing a communication exercise. Keep personal working notes outside
+    the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use plain language, translation, accessible remote participation and trusted community
+    channels. Lack of paid leave, space or resources may limit a person’s options; route those constraints
+    to support rather than blame. Immediate medical danger takes priority over finishing a communication
+    exercise.
+  expected_burden: Twenty minutes to inspect one official notice, fifteen minutes to make a small plan
+    and a ten-minute teach-back or revision.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Public-health emergency competence protocol to rank worth, coerce participation, demand
@@ -101,20 +112,26 @@ intervention:
   - Treating a completed Public-health emergency competence action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Public-health emergency competence situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Hands-on safety, medical, aquatic, survival, and defensive skills require qualified instruction and
-    compliance with local law.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use plain language,
+    translation, accessible remote participation and trusted community channels. Lack of paid leave, space
+    or resources may limit a person’s options; route those constraints to support rather than blame. Immediate
+    medical danger takes priority over finishing a communication exercise.
   actions:
   - stable_id: PRACTICE-COMP-1512-PUBLIC-HEALTH-EMERGENCY-COMPETENCE-01-A1
     sequence: 1
-    title: Identify the non-emergency boundary for Public-health emergency competence
-    instructions: 'Define one planning-only question for Public-health emergency competence, the hazards
-      that must not be rehearsed, and the local qualified or emergency authority that supersedes this
-      source-only protocol. Do not create, approach, or simulate danger: Understand infection control,
-      credible health guidance, risk communication, isolation, vaccination, and support for vulnerable
-      people.'
+    title: Check the notice’s authority date scope and uncertainty
+    instructions: 'Find the original notice from the relevant public-health or environmental authority
+      rather than a forwarded image. Record its date, location, affected settings, recommended actions
+      and any update trigger. For the hypothetical respiratory case, separate routine prevention, additional
+      precautions when risk is higher, staying away when ill and prompt clinical advice for concerning
+      symptoms or higher-risk people. Check current local guidance for specifics instead of copying a
+      fixed isolation period into the plan.
+
+
+      Observation checks: The original issuing authority and date are verified; Location and setting limits
+      are recorded; Routine and higher-risk actions are distinguished; Uncertain or changing medical details
+      are referred to current guidance. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +153,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1512_a1_planning_scope_bounded
-        - c1512_a1_hazards_excluded
-        - c1512_a1_authority_identified
+        - the_original_issuing_authority_and_date_are_verified
+        - location_and_setting_limits_are_recorded
+        - routine_and_higher_risk_actions_are_distinguished
+        - uncertain_or_changing_medical_details_are_referred_to_current_guidance
       - measurement_id: c1512_a1_boundary
         kind: boolean
         role: supporting
@@ -155,11 +173,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1512-PUBLIC-HEALTH-EMERGENCY-COMPETENCE-01-A2
     sequence: 2
-    title: Prepare one safe Public-health emergency competence support step
-    instructions: Create one non-confrontational Public-health emergency competence step such as locating
-      official guidance, checking accessible contact information, assembling a category-level checklist,
-      or scheduling qualified instruction. Do not test emergency response, weapons, rescue, medical treatment,
-      confrontation, evasion, or hazardous equipment.
+    title: Design one activity change that protects access as well as health
+    instructions: 'For the club meeting, consider cleaner air, hygiene, a remote or postponed option,
+      appropriate masking guidance and a way for an ill person to stay away without losing participation.
+      Note where current immunization or individual medical questions belong with the person’s clinician.
+      Choose one feasible change with the organizer’s permission and identify who bears its cost or burden.
+      Do not demand health disclosure or treat a person’s need for additional protection as an inconvenience
+      to dismiss.
+
+
+      Observation checks: Air hygiene attendance and additional precautions are considered; One feasible
+      organizer-approved change is selected; Individual medical and immunization decisions remain with
+      appropriate care; Access cost and privacy burdens are explicitly considered. Mark only what you
+      observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -181,9 +207,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1512_a2_step_is_preparatory
-        - c1512_a2_official_or_qualified_path_used
-        - c1512_a2_no_hazard_rehearsed
+        - air_hygiene_attendance_and_additional_precautions_are_considered
+        - one_feasible_organizer_approved_change_is_selected
+        - individual_medical_and_immunization_decisions_remain_with_appropriate_care
+        - access_cost_and_privacy_burdens_are_explicitly_considered
       - measurement_id: c1512_a2_boundary
         kind: boolean
         role: supporting
@@ -200,11 +227,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1512-PUBLIC-HEALTH-EMERGENCY-COMPETENCE-01-A3
     sequence: 3
-    title: Review the Public-health emergency competence plan against stop conditions
-    instructions: 'Check whether the plan identifies when to stop, leave, call emergency services, contact
-      a qualified professional, or follow local authority. Mark unknown requirements rather than inventing
-      them and compare only with: Can follow and explain proportionate protective measures during an outbreak
-      or environmental hazard.'
+    title: Communicate the plan with a source and a revision trigger
+    instructions: 'Draft or send, where authorized, a short message saying what will change, when it applies,
+      how to participate another way and where the current official guidance can be checked. Ask a willing
+      reader to explain the action back, or review it after a delay. Correct ambiguity without adding
+      certainty the source does not provide. State when the plan will be reviewed or withdrawn; for a
+      hypothetical case, do not imply that an actual outbreak has been announced.
+
+
+      Observation checks: The message states the action timing alternative and official source; A teach-back
+      or delayed comprehension check occurs; Ambiguity is corrected without overstating certainty; A revision
+      trigger and hypothetical status remain visible. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.
+
+
+      Final review: Could someone follow the message without disclosing private health information, and
+      what change in official guidance or local conditions would require you to revise it?
+
+
+      Examples: Supportive: The organizer verified the local notice, improved the meeting’s participation
+      alternative and sent a dated message that a reader could accurately explain.
+
+
+      Mixed: The guidance was credible, but the proposed remote option was inaccessible to some participants
+      and needed another route.
+
+
+      Contradictory: A person announced an unverified outbreak, demanded private diagnoses or substituted
+      the exercise for urgent medical care.
+
+
+      Inconclusive: A forwarded warning was shared without checking its date, location or issuing authority.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -220,15 +273,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1512_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1512_a3_stop_conditions_present
-        - c1512_a3_escalation_path_present
-        - c1512_a3_unknowns_retained
+        - the_message_states_the_action_timing_alternative_and_official_source
+        - a_teach_back_or_delayed_comprehension_check_occurs
+        - ambiguity_is_corrected_without_overstating_certainty
+        - a_revision_trigger_and_hypothetical_status_remain_visible
       - measurement_id: c1512_a3_boundary
         kind: boolean
         role: supporting
@@ -249,17 +303,19 @@ intervention:
       Public-health emergency competence; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Public-health emergency competence; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use plain language, translation, accessible remote participation and trusted community channels.
+      Lack of paid leave, space or resources may limit a person’s options; route those constraints to
+      support rather than blame. Immediate medical danger takes priority over finishing a communication
+      exercise.
     cultural_context:
     - Adapt the expression of Public-health emergency competence to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Public-health emergency competence opportunity is unavailable or inappropriate, use
-      a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use plain language, translation, accessible remote participation and trusted community channels.
+      Lack of paid leave, space or resources may limit a person’s options; route those constraints to
+      support rather than blame. Immediate medical danger takes priority over finishing a communication
+      exercise.
   pause_conditions:
   - Pause Public-health emergency competence when capacity, consent, authority, privacy, access, care
     duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the
@@ -291,10 +347,8 @@ evidence_and_scoring:
   - c1512_a3_boundary
   - c1512_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Public-health emergency competence action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Public-health emergency competence criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A person announced an unverified outbreak, demanded private diagnoses or substituted the exercise
+    for urgent medical care.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Public-health emergency competence explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -305,14 +359,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Public-health emergency competence rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can follow and explain proportionate protective measures during an outbreak or environmental
-    hazard.—not completion, confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Public-health emergency competence requires a bounded context,
-    allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Check the notice’s authority date scope and uncertainty. Observed checks:
+    The original issuing authority and date are verified; Location and setting limits are recorded; Routine
+    and higher-risk actions are distinguished; Uncertain or changing medical details are referred to current
+    guidance. Action 2: Design one activity change that protects access as well as health. Observed checks:
+    Air hygiene attendance and additional precautions are considered; One feasible organizer-approved
+    change is selected; Individual medical and immunization decisions remain with appropriate care; Access
+    cost and privacy burdens are explicitly considered. Action 3: Communicate the plan with a source and
+    a revision trigger. Observed checks: The message states the action timing alternative and official
+    source; A teach-back or delayed comprehension check occurs; Ambiguity is corrected without overstating
+    certainty; A revision trigger and hypothetical status remain visible.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A forwarded warning was shared without checking its
+    date, location or issuing authority.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Public-health
     emergency competence contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -322,9 +385,8 @@ evidence_and_scoring:
   - L17
   - L20
   - L30
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Public-health emergency competence evidence.
@@ -332,12 +394,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The identify the non-emergency boundary for public-health emergency competence action was attempted
-    or explicitly deferred.
-  - The prepare one safe public-health emergency competence support step action was attempted or explicitly
-    deferred.
-  - The review the public-health emergency competence plan against stop conditions action preserved a
-    limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Check the notice’s authority date scope and uncertainty. Observed checks: The original
+    issuing authority and date are verified; Location and setting limits are recorded; Routine and higher-risk
+    actions are distinguished; Uncertain or changing medical details are referred to current guidance.'
+  - 'Action 2: Design one activity change that protects access as well as health. Observed checks: Air
+    hygiene attendance and additional precautions are considered; One feasible organizer-approved change
+    is selected; Individual medical and immunization decisions remain with appropriate care; Access cost
+    and privacy burdens are explicitly considered.'
+  - 'Action 3: Communicate the plan with a source and a revision trigger. Observed checks: The message
+    states the action timing alternative and official source; A teach-back or delayed comprehension check
+    occurs; Ambiguity is corrected without overstating certainty; A revision trigger and hypothetical
+    status remain visible.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -346,57 +416,301 @@ completion_and_review:
     - c1512_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Public-health emergency competence only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Public-health emergency competence across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Could someone follow the message without disclosing private health information,
+    and what change in official guidance or local conditions would require you to revise it?
+  transfer_limit: This is a guidance-verification and communication exercise, not diagnosis or individualized
+    advice about vaccination, treatment, isolation duration or medical vulnerability.
   reflection:
-    before: What does Public-health emergency competence require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Public-health emergency competence criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can follow and explain proportionate protective measures during
-      an outbreak or environmental hazard.', what contradiction or missing context matters most, and should
-      this Public-health emergency competence design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Use dated credible guidance to protect yourself
+      and others during a respiratory outbreak or environmental-health warning without inventing rules
+      or shaming affected people.'
+    during: Which checks have actually been observed? The guidance was credible, but the proposed remote
+      option was inaccessible to some participants and needed another route.
+    after: Could someone follow the message without disclosing private health information, and what change
+      in official guidance or local conditions would require you to revise it?
   review_guidance:
     repeat: Repeat the same bounded Public-health emergency competence design only when the context and
       burden remain appropriate.
-    adapt: Change the Public-health emergency competence medium, scope, support, timing, criteria, or
-      context while preserving provenance and the narrower evidence claim.
+    adapt: Use plain language, translation, accessible remote participation and trusted community channels.
+      Lack of paid leave, space or resources may limit a person’s options; route those constraints to
+      support rather than blame. Immediate medical danger takes priority over finishing a communication
+      exercise.
     stop: Stop Public-health emergency competence when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Public-health emergency competence questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Public-health emergency competence criteria were observed with provenance
-      and no adverse boundary signal in the selected context.
-    mixed: Some Public-health emergency competence criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Public-health emergency competence criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Public-health emergency competence action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The organizer verified the local notice, improved the meeting’s participation alternative
+      and sent a dated message that a reader could accurately explain.
+    mixed: The guidance was credible, but the proposed remote option was inaccessible to some participants
+      and needed another route.
+    contradictory: A person announced an unverified outbreak, demanded private diagnoses or substituted
+      the exercise for urgent medical care.
+    inconclusive: A forwarded warning was shared without checking its date, location or issuing authority.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Public-health emergency competence.
+    context_heading: Translate one current public-health notice into a proportionate shared plan
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Public-health
       emergency competence.
   check_in_labels:
-    c1512_a1_primary: The bounded Public-health emergency competence criterion for action 1 was observed
+    c1512_a1_primary: 'Observed checks: check the notice’s authority date scope and uncertainty'
     c1512_a1_boundary: Action 1 stayed inside its stated Public-health emergency competence boundary
     c1512_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1512_a2_primary: The bounded Public-health emergency competence criterion for action 2 was observed
+    c1512_a2_primary: 'Observed checks: design one activity change that protects access as well as health'
     c1512_a2_boundary: Action 2 stayed inside its stated Public-health emergency competence boundary
     c1512_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1512_a3_primary: The bounded Public-health emergency competence criterion for action 3 was observed
+    c1512_a3_primary: 'Observed checks: communicate the plan with a source and a revision trigger'
     c1512_a3_boundary: Action 3 stayed inside its stated Public-health emergency competence boundary
     c1512_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Public-health emergency
-    competence practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Could someone follow the message without disclosing private health information, and
+    what change in official guidance or local conditions would require you to revise it? Completion is
+    not mastery.
+  plain_language_evidence: The organizer verified the local notice, improved the meeting’s participation
+    alternative and sent a dated message that a reader could accurately explain.
   display_order: 201
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '15.12'
+  title: 15.12 — Public-health emergency competence
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [HSE — Controls to prevent violence](https://www.hse.gov.uk/violence/employer/controls-to-prevent.htm)
+
+      - [HSE — Advice for workers](https://www.hse.gov.uk/violence/worker/index.htm)
+
+      - [GOV.UK — Reasonable force against intruders](https://www.gov.uk/reasonable-force-against-intruders)
+
+      - [NPS — Ten Essentials](https://www.nps.gov/articles/10essentials.htm)
+
+      - [NPS — Trip Planning Guide](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+
+      - [American Red Cross — Water Safety](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html)
+
+      - [RNLI — Cold water shock](https://rnli.org/water-safety/know-the-risks/cold-water-shock)
+
+      - [U.S. State Department — International Travel Checklist](https://travel.state.gov/en/international-travel/planning/checklist.html)
+
+      - [FTC — Recover a hacked account](https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account)
+
+      - [FTC — What to do if scammed](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed)
+
+      - [FTC — Identity theft](https://consumer.ftc.gov/articles/what-know-about-identity-theft)
+
+      - [NIST SP 800-34 Rev. 1 — Contingency Planning](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)
+
+      - [FEMA IS-244.B — Developing and Managing Volunteers](https://emilms.fema.gov/is_0244b/groups/223.html)
+
+      - [CDC — Preventing Respiratory Illnesses](https://www.cdc.gov/respiratory-viruses/prevention/index.html)
+
+      - [CDC — Cleaner Air](https://www.cdc.gov/respiratory-viruses/prevention/air-quality.html)
+
+      - [Right To Be — Five Ds of Bystander Intervention](https://righttobe.org/guides/bystander-intervention-training/)
+
+      - [NIOSH — Hierarchy of Controls](https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html)
+
+      - [HSE — Maintenance of work equipment](https://www.hse.gov.uk/work-equipment-machinery/maintenance.htm)
+
+      - [Weger et al. — Relative Effectiveness of Active Listening](https://stars.library.ucf.edu/scopus2010/9657/)
+
+      - [EPA — Wildfires and Indoor Air Quality](https://www.epa.gov/emergencies-iaq/wildfires-and-indoor-air-quality-iaq)
+
+      - [NCSC — Managing your passwords](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Fictional R2 arrives Day 2 at 12:00 from the same training authority: outdoor smoke now affects
+      the district; consult the current smoke guidance and venue operator before using outdoor-air measures.
+      R2 does not say respiratory illness has ended or that every building has the same air quality.
+
+
+      The venue operator cannot confirm a suitable in-person arrangement before 18:00. The organizer chooses
+      the established telephone/online alternatives and removes the attendance penalty. Opening windows
+      automatically would conflict with the new uncertainty. Record the format decision and its limits;
+      do not claim a measured reduction in illness or pollutant exposure.
+
+
+      A reader''s teach-back says, “Only people with a diagnosis can phone in.” That contradicts the stated
+      access rule. Revise the notice to say the telephone option is available to everyone without health
+      disclosure, then check understanding again. Their corrected reply is simulated here; only feedback
+      you actually obtained can be recorded as actual.
+
+
+      A member does not respond. Reach and understanding remain unknown for that member. Do not mark all
+      twelve informed from one reply. The original R1 remains part of the chronology, but the relevant
+      outdoor-air action needs the R2 review. No fixed isolation duration or vaccine regimen can be inferred
+      from either fictional notice.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Turn a health notice into a proportionate, accessible plan
+
+
+      Use the clearly fictional club notice below. In about thirty minutes you will identify its authority
+      and scope, choose practical measures within an organizer''s role, and correct a misunderstanding.
+      Do not diagnose participants, collect health histories, announce an actual outbreak or invent an
+      isolation schedule. The default exercise is planning and communication; current local public-health
+      and individual clinical guidance govern real situations.
+
+
+      ### Read the recommendation in its setting
+
+
+      A health message needs an issuing authority, date, affected place or population, recommended action
+      and review trigger. A screenshot missing those details can be old, partial or intended for another
+      setting. Healthcare, schools and ordinary community gatherings may have different guidance. Check
+      the underlying current source rather than applying the strictest remembered rule everywhere or assuming
+      that no new headline means no risk.
+
+
+      Infection-control measures reduce opportunities for spread; they do not guarantee that nobody will
+      become ill. CDC''s respiratory-illness guidance describes immunization, hygiene, cleaner air and
+      precautions while sick as core strategies, with additional measures for relevant circumstances.
+      Immunization recommendations depend on the person and current guidance; discuss individual questions
+      with a qualified clinician. This guide does not prescribe a vaccine, medication or schedule. See
+      S14 in [SOURCES](?resource=sources).
+
+
+      Staying away from others when ill can protect people, but a usable plan also addresses the costs
+      of absence. Remote participation, a postponed activity, food or supply support through an agreed
+      route, and avoiding penalties can make protective choices more feasible. Do not require someone
+      to reveal a diagnosis to use the alternative. When a pathogen-specific instruction uses isolation
+      or exclusion, read its start, end and exception criteria in the current relevant guidance; do not
+      fill gaps from memory. Emergency symptoms or urgent clinical concerns need appropriate medical help,
+      not a club organizer''s assessment.
+
+
+      Cleaner air can involve outdoor air, filtration or a suitable alternate setting. Opening windows
+      is not automatically appropriate during smoke, poor outdoor air, extreme temperatures or a building
+      safety issue. Use the building operator and current hazard-specific guidance; do not adjust equipment
+      beyond your authority. CDC''s cleaner-air page supplies general respiratory prevention options,
+      not a universal design specification or a guarantee for this room. See S15 and EPA’s smoke-specific
+      context in S20. A mask instruction also needs appropriate current context and access; it should
+      not become a reason to shame or exclude someone from all participation.
+
+
+      Risk communication should say what is known, what action follows, what remains uncertain and when
+      the decision will be checked. Avoid labeling individuals as sources of danger. People at higher
+      risk may need different protections and private clinical advice; the group can support access without
+      making them disclose medical details publicly.
+
+
+      ### Worked example
+
+
+      An organizer drafts, “Everyone must prove they are healthy to attend.” There is no reliable simple
+      proof, and the wording pressures disclosure. They revise to a dated plan linked to the relevant
+      notice, a clear remote option without diagnosis requirements, and a request to follow current stay-away
+      guidance when ill. They ask the venue about cleaner-air measures instead of declaring the room safe.
+      The revision reduces both unsupported certainty and an access barrier.
+
+
+      ### Original fictional materials
+
+
+      **Training notice R1 — fictional municipal public-health desk, Day 1 at 09:00:** Increased respiratory
+      illness is being monitored in the district. For ordinary indoor clubs, review cleaner-air arrangements
+      with the venue, support staying away when ill under current guidance, make a remote or postponed
+      option available, and consult current official advice on additional precautions and immunizations.
+      Review before the next gathering or when the desk updates this notice. This is not a diagnosis,
+      a real outbreak alert or an isolation timetable.
+
+
+      Your fictional club has twelve participants and a meeting planned tomorrow at 18:00. The organizer
+      may change the meeting format and send a group notice. Only the venue operator may assess or change
+      ventilation equipment. A no-cost telephone participation option is available for all twelve; no
+      diagnosis is needed to use it. The usual online link supports captions but depends on internet access.
+      A member privately asks for an option with less exposure and no explanation of their health. Another
+      says they cannot miss the session without losing their role; the organizer has authority to remove
+      that penalty. No one has provided an actual illness or exposure history.
+
+
+      ### Make the plan and test its meaning
+
+
+      1. Extract R1''s issuer, fictional date/time, setting, actions and update trigger. Mark what it
+      does not supply: a diagnosis, individual vaccine recommendation, ventilation measurement or fixed
+      isolation duration.
+
+      2. Choose an action for each of six areas: cleaner air, hygiene, staying away/isolation guidance,
+      current immunization information, additional precautions and support for people needing an alternative.
+      Name the responsible person or source. Do not make the organizer a clinician or an HVAC specialist.
+
+      3. Use the supplied resources to remove at least one access burden. Explain how the telephone route
+      and removal of the attendance penalty help without collecting health details. An available remote
+      option still needs a working way to join.
+
+      4. Draft a short practice-only notice saying what the club will do, where guidance comes from, how
+      to participate another way and when the decision will be reviewed. Label it fictional. Keep personal
+      requests out of the group notice. Do not send it.
+
+      5. Ask a willing reader to explain the action and alternative in their own words. Alone, close the
+      draft and reconstruct them later; label this self-recall, not recipient feedback. Correct one ambiguous
+      line and check again. Record the wording change without storing anyone''s health information.
+
+      6. Open the [later packet](?resource=file-later-packet-md), which introduces a different environmental
+      constraint. Recheck the affected action, source and format. Do not keep an earlier recommendation
+      merely because you already wrote it neatly.
+
+
+      Your output is a scoped notice extraction, a feasible club action/owner list, revised communication
+      and actual rehearsal result. There is no clinical evaluation or verified reduction in infection
+      here. A clear notice supports communication; it does not establish that everyone followed it or
+      that the meeting was safe.
+
+
+      ### Adapt and use a real source
+
+
+      For a shorter route, focus on setting, action and review trigger, then add the six areas. Use translation,
+      captions, plain text, audio or an agreed communication aid; ask what worked rather than testing
+      literacy. A harder paper case removes both internet and the telephone option. Leave participation
+      unresolved until a feasible alternative or postponement is arranged; “go remote” is not complete
+      when people cannot connect.
+
+
+      For real transfer, retrieve the current dated guidance from the relevant local public-health authority
+      for your actual setting and hazard. Check whether more specific instructions apply, including current
+      isolation/exclusion and vaccination guidance. With the responsible organizer, make one feasible
+      improvement or communication correction within your authority and ask for teach-back. Individual
+      health decisions remain with the person and their clinician. Do not infer an outbreak from this
+      lesson. Finish the [fresh checks](?attempt=practice-checks) and [key](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: '1. A healthcare-facility notice is forwarded to an ordinary club without its date. What should
+      you verify before applying it?
+
+      2. A smoke alert arrives after you planned to open all windows for a respiratory-illness precaution.
+      What changes?
+
+      3. Three of twelve recipients confirm understanding. Can you record all twelve informed, and should
+      you require diagnoses to offer a remote option?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Retrieve the current underlying authority, date, setting, affected group and actions; check
+      the club''s applicable guidance. Healthcare instructions may have a different scope. Do not invent
+      missing dates or isolation criteria from memory.
+
+      2. Reassess outdoor-air measures using current smoke guidance and the responsible venue operator.
+      Use a confirmed suitable alternative or postpone/change format if unresolved. Neither the respiratory
+      concern nor the smoke concern disappears because the other exists.
+
+      3. Only three confirmations are established; the other nine remain unconfirmed. Offer the agreed
+      accessible alternative without requiring private diagnoses. Delivery, understanding and actual adherence
+      are distinct, and none alone proves health outcomes.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

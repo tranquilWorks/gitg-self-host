@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.01",
+  "title": "Build and test a small life-administration inbox",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "An administration inbox separates action, deadline, dependency and confirmation. Filing a notice is not fulfilling it, and an unclear form should be routed for explanation before submission."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete fictional notices, today June 3: A—library renewal due June 8 at 17:00 through the existing account; confirmation screen appears after successful renewal. B—appointment June 6 at 10:00, confirm by June 4 at 12:00 through the clinic’s established message route. C—optional club newsletter with no reply required. No account credentials or clinical detail is supplied. Confirmation takes two minutes; renewal five."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Sort all three, schedule the real deadlines and prepare the smallest due action. Name the one location for confirmations before reading the result.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A renewal is prepared but the submit step fails. What status belongs in the inbox?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "B needs confirmation first, A needs renewal later, C may be read/filed/deleted by preference. Later fiction: B’s request is sent June 3 and receipt arrives, but appointment confirmation is still pending; A has not been attempted. Partial: calendar dates without response deadlines. Incorrect: mark receipt as confirmed or invent renewal. A folder can organize the trail without completing the work.",
+      "criteria": [
+        "Action and deadline match each notice",
+        "Dependencies remain visible",
+        "Confirmation evidence determines closure"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Prepared, submission failed, obligation still open. Preserve the deadline and use the service’s appropriate help/retry route; do not file it as completed because the form is filled.",
+      "criteria": [
+        "Action and deadline match each notice",
+        "Dependencies remain visible",
+        "Confirmation evidence determines closure"
+      ]
+    }
+  ]
+}

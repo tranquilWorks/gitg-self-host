@@ -4,7 +4,7 @@ Learning guide — unscored
 
 Synthetic notice-board evidence packet
 
-The fictional board is divided into four equal posting zones, Z1 through Z4. Twelve same-size notices are present. N1-N4 are in Z1, N5-N7 in Z2, N8-N10 in Z3 and N11-N12 in Z4. Overlap pairs are N1/N2, N2/N3, N5/N6, N8/N9 and N9/N10: five overlap pairs. Seven notices do not overlap another notice. Ten notices are fully inside a zone and two cross a zone boundary. A weekly log says expired notices were removed on schedule for four weeks. It contains no measure of readability, posting motives, board traffic or results from a board with clearer zones. This packet permits counting and question design; it does not establish why overlap occurs or what readers prefer.
+The fictional board is divided into four equal posting zones, Z1 through Z4. Twelve same-size notices are present. N1-N4 are in Z1, N5-N7 in Z2, N8-N10 in Z3 and N11-N12 in Z4. Overlap pairs are N1/N2, N2/N3, N5/N6, N8/N9 and N9/N10: five overlap pairs. Four notices—N4, N7, N11 and N12—do not overlap another notice. Count distinct notices separately from overlap pairs. Ten notices are fully inside a zone and two cross a zone boundary. A weekly log says expired notices were removed on schedule for four weeks. It contains no measure of readability, posting motives, board traffic or results from a board with clearer zones. This packet permits counting and question design; it does not establish why overlap occurs or what readers prefer.
 
 Private question backlog
 

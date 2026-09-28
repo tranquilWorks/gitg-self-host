@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "04.04",
+  "title": "Find a small next orientation after a major disruption",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "After disruption, orientation can begin with one known need and a bounded support request. Immediate safety comes first; a practical request cannot settle identity, grief or long-term recovery."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Workshop-loss fiction: immediate safety and shelter are arranged. Peer Ren has offered a 15-minute call Tuesday 18:00 to discuss two workspace notices, not money or tools. Notice A: public table suitable for paper drawing Wednesday 10–11, booking required through the librarian. Notice B: locked workshop, access unknown. Librarian accepts text inquiries; no booking is yet confirmed. If Ren cannot speak, the inquiry can still be sent privately."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Draft the peer request and a fallback inquiry using only these facts. Separate loss of tools, routine, community and role from what either helper can actually address.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A helper cannot supply tools but freely offers company. Does accepting company mean the material loss is solved?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Ren can discuss notices; the librarian can clarify the specific table booking. Neither has promised workshop replacement. Later fiction: Ren cancels; the librarian acknowledges the request without confirming a place. Only the request is performed in the story. Partial: call acknowledgment access. Incorrect: assume B is open or ask Ren to resolve financial/legal questions outside the offer. Identity reconstruction can remain open while practical preparation proceeds.",
+      "criteria": [
+        "Needs are matched to actual roles and access",
+        "Fallbacks are feasible rather than imagined",
+        "Practical support does not erase disruption"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Company and tools address different needs. Accept if welcome, keep the material need unresolved and seek an appropriate separate route without blaming the helper.",
+      "criteria": [
+        "Needs are matched to actual roles and access",
+        "Fallbacks are feasible rather than imagined",
+        "Practical support does not erase disruption"
+      ]
+    }
+  ]
+}

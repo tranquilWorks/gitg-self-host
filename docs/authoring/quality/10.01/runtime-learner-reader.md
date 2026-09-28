@@ -8,8 +8,6 @@ Use the supplied learning guide, paper or an accessible note tool. It contains s
 
 Fifteen minutes on day one, ten minutes on day two, and fifteen minutes about a week later.
 
-Use audio cards, large print, tactile counters or supported recall. Adjust the spacing to available capacity and report the actual delay. A same-day repetition is useful practice but must not be labeled a week-delayed retention test.
-
 ## 1. Study an example and retrieve before looking again
 
 Read the six definitions and both worked examples in the learning guide. Explain why the mean uses the count and why the median can differ from it. Close the teaching, open First recall and application, and answer all six ideas plus the application before opening its check. Preserve your original attempt, compare it with the supplied key, and write the corrected reasoning for a specific mistake. Record any cues or lookups honestly.
@@ -36,6 +34,14 @@ About a week after the first session, open Delayed recall and new application wi
 - A new application differs from the worked example
 - Unaided cued and looked-up answers are distinguished
 - The next review is based on specific retention or transfer errors
+
+## Adaptation
+
+Use audio cards, large print, tactile counters or supported recall. Adjust the spacing to available capacity and report the actual delay. A same-day repetition is useful practice but must not be labeled a week-delayed retention test.
+
+## Review
+
+Which idea felt familiar yet could not be recalled or applied, and how will that change the next study session?
 
 Learn, retrieve, correct and check a new application
 
@@ -78,70 +84,3 @@ Privately note idea, original response, support, check result, corrected reasoni
 Open the prompt in the practice guide: First recall and application
 Open the prompt in the practice guide: Second mixed practice
 Open the prompt in the practice guide: Delayed recall and new application
-## Prompt: First recall and application
-
-Learn, retrieve, correct and check a new application
-
-Learning guide — unscored
-
-Private session record
-
-Use one copy per session. Session: [first / second / delayed]. Actual date and interval since first and previous attempt: __. Intended next session: __. For each of the six ideas record: original explanation | unaided / cued / looked-up / open explanation | correct / partial / incorrect / unattempted | correction with reason. For each application keep calculation, unit and explanation before checking. Access aids used: __. Content help used: __. Specific unresolved error: __. Next question or example to try, and planned interval: __. A blank is unattempted, a wrong answer is an attempt, and a corrected answer does not erase the first result.
-
-First recall and application
-
-1. Explain mean.
-2. Explain median, including what happens with an even count.
-3. Explain range.
-4. Identify and explain a numerator.
-5. Identify and explain a denominator, including its nonzero condition.
-6. Explain why a unit belongs with a measured number.
-
-Apply: for 2, 4 and 6 minutes, find the mean, median and range. Explain your method. Then explain why mean and median need not be equal in every dataset. Keep this response before opening the check.
-
-
-
-## Prompt: Second mixed practice
-
-Learn, retrieve, correct and check a new application
-
-Learning guide — unscored
-
-Private session record
-
-Use one copy per session. Session: [first / second / delayed]. Actual date and interval since first and previous attempt: __. Intended next session: __. For each of the six ideas record: original explanation | unaided / cued / looked-up / open explanation | correct / partial / incorrect / unattempted | correction with reason. For each application keep calculation, unit and explanation before checking. Access aids used: __. Content help used: __. Specific unresolved error: __. Next question or example to try, and planned interval: __. A blank is unattempted, a wrong answer is an attempt, and a corrected answer does not erase the first result.
-
-Second mixed practice
-
-1. Explain range, then find it for 3, 5 and 8 minutes.
-2. Explain numerator and denominator; identify both in 3/7 and state the denominator restriction.
-3. Explain mean and how its operation differs from range.
-4. Explain why five minutes and five meters cannot be added as one measured quantity.
-5. Explain median, including an even count, and why it can differ from the mean.
-6. Explain why units belong with measured numbers.
-
-Switch between definitions and applications without reopening the teaching. Record the actual interval and keep your original responses before checking.
-
-
-
-## Prompt: Delayed recall and new application
-
-Learn, retrieve, correct and check a new application
-
-Learning guide — unscored
-
-Private session record
-
-Use one copy per session. Session: [first / second / delayed]. Actual date and interval since first and previous attempt: __. Intended next session: __. For each of the six ideas record: original explanation | unaided / cued / looked-up / open explanation | correct / partial / incorrect / unattempted | correction with reason. For each application keep calculation, unit and explanation before checking. Access aids used: __. Content help used: __. Specific unresolved error: __. Next question or example to try, and planned interval: __. A blank is unattempted, a wrong answer is an attempt, and a corrected answer does not erase the first result.
-
-Delayed recall and new application
-
-1. Explain mean.
-2. Explain median, including what happens with an even count.
-3. Explain range.
-4. Identify and explain a numerator.
-5. Identify and explain a denominator, including its nonzero condition.
-6. Explain why a unit belongs with a measured number.
-
-New application: three waiting times are 2, 5 and 11 minutes. Find the mean, median and range. Now change only the largest time from 11 to 17 minutes. Recalculate all three summaries, state each change in minutes, and explain which summary changes most and why. Record the actual delay and any help. Keep the attempt before opening its check.
-

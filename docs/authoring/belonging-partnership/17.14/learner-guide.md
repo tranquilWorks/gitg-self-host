@@ -2,6 +2,10 @@
 
 Contribute to a group you value while handling one important disagreement honestly. Allow fifteen minutes to clarify the issue, time for one actual contribution and an authorized concern, then ten minutes to review. This is not a requirement to dissent publicly. Where refusal risks retaliation, use the fiction or appropriate safe support instead.
 
+## Complete inventory card
+
+For the fictional inventory, expected contents are four labeled practice mats, two instruction folders, one roll of removable tape and one pack of blank cards. Counted contents: all four mats and both folders; tape and cards are absent. Record quantities present and the two missing consumables. Do not buy replacements without authority. This paper count is preparation; the later packet narrates a fictional completed inventory.
+
 ## Loyalty and conscience together
 
 A group can provide meaning, continuity, practical cooperation and a place to belong. Loyalty can include maintaining its useful practices, doing agreed work and considering other members' needs. It does not require every preference or judgment to become identical. Conscience concerns a considered limit or conviction; it should not be reduced to whichever choice is most convenient today.

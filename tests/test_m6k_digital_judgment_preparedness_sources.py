@@ -12,6 +12,8 @@ from pathlib import Path
 
 import yaml
 
+from tests.m6k_historical_inputs import historical_input_path
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/authoring/digital-judgment-preparedness"
 COHORT = json.loads((SOURCE / "cohort.json").read_text())
@@ -68,13 +70,19 @@ class IntegrityTests(unittest.TestCase):
         self.assertEqual(COHORT["entries"], entries)
         for path, digest in COHORT["input_sha256"].items():
             with self.subTest(path=path):
-                self.assertEqual(hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), digest)
+                self.assertEqual(
+                    hashlib.sha256(historical_input_path(ROOT / path).read_bytes()).hexdigest(),
+                    digest,
+                )
 
     def test_sequence_and_runtime_selection_are_distinct(self):
         previous = json.loads((ROOT / "docs/authoring/adaptive-digital/cohort.json").read_text())
         self.assertEqual(previous["ids"][-1], "14.04")
         implemented = yaml.safe_load(
-            (ROOT / "contracts/tailored-practice-authoring.yaml").read_text()
+            (
+                ROOT / "docs/authoring/catalog-product-integration-20260928/"
+                "authoring-selection-baseline.yaml"
+            ).read_text()
         )["implemented_competency_ids"]
         self.assertFalse(set(IDS) & set(implemented))
 

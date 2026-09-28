@@ -27,10 +27,10 @@ The examples guide routing, not self-diagnosis. Overlap is possible; uncertainty
 
 For support, use only the fictional routing table or dictate the card. For a harder case, the first clinic is unavailable: preserve the original concern and ask about an appropriate alternative; do not lower the threshold because access is difficult. Recheck real contact details when circumstances or location change. Keep sensitive history off shared worksheets. This rehearsal cannot establish clinical improvement or that any real person has received help.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary (unchanged): Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
+Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

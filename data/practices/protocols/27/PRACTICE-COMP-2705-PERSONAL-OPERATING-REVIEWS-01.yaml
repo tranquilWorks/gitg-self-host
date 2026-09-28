@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2705-PERSONAL-OPERATING-REVIEWS-01
 slug: c2705-personal-operating-reviews-practice
-name: Bounded Personal operating reviews Practice
+name: Run a short operating review that changes the next week
 parent_competency_id: '27.05'
 domain_id: '27'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 27.05
-      (Personal operating reviews); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 27.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,40 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Personal operating reviews through a bounded audit and redesign bounded by the canonical
-    scope: Review commitments, health, relationships, money, learning, work, service, and direction at
-    sustainable intervals.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Reviews produce decisions,
-    scheduled actions, and removed obligations. The protocol creates a small opportunity to examine that
-    target without treating completion as broad capability.'
+  purpose: Review major life areas at a sustainable interval and turn the review into one completed action,
+    one scheduled commitment and one responsibly removed demand.
+  why_recommended: Review major life areas at a sustainable interval and turn the review into one completed
+    action, one scheduled commitment and one responsibly removed demand.
   claims:
-  - statement: Using the canonical scope and evidence target for Personal operating reviews is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Review major life areas at a sustainable interval and turn the review into one completed
+      action, one scheduled commitment and one responsibly removed demand.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Personal operating reviews practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Personal operating reviews as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Personal operating
-    reviews context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Personal
-    operating reviews; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency,
-    or dependence for evidence.
+  readiness_considerations: Use a voice checklist, accessible reminder or a ten-minute supported conversation.
+    During constrained periods scan only urgent safety and binding obligations, labeling the rest unreviewed
+    rather than satisfactory. A synthetic page tests review mechanics but not actual follow-through.
+  opportunity_considerations: 'Use a private page with eight headings: commitments, health, relationships,
+    money, learning, work, service and direction. Under each permit only stable, needs action, not applicable
+    or uncertain, followed by at most one note. The supplied default is a missed routine administrative
+    task, an unanswered welcome message and an optional learning project that no longer fits.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Personal operating reviews.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use a private page with eight headings: commitments, health, relationships, money, learning, work,
+    service and direction. Under each permit only stable, needs action, not applicable or uncertain, followed
+    by at most one note. The supplied default is a missed routine administrative task, an unanswered welcome
+    message and an optional learning project that no longer fits.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Personal operating reviews instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a voice checklist, accessible reminder or a ten-minute supported conversation. During constrained
+    periods scan only urgent safety and binding obligations, labeling the rest unreviewed rather than
+    satisfactory. A synthetic page tests review mechanics but not actual follow-through.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +81,26 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-AUDIT-REDESIGN
   duration_days: 10
-  cadence: Complete three bounded Personal operating reviews actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Personal operating reviews; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Personal
-    operating reviews. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Personal operating reviews actions, and
-    review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use a private page with eight headings: commitments, health, relationships, money, learning,
+    work, service and direction. Under each permit only stable, needs action, not applicable or uncertain,
+    followed by at most one note. The supplied default is a missed routine administrative task, an unanswered
+    welcome message and an optional learning project that no longer fits. Goal: Review major life areas
+    at a sustainable interval and turn the review into one completed action, one scheduled commitment
+    and one responsibly removed demand. Scope: This is a practical coordination review, not a comprehensive
+    health, financial or relationship assessment. It should reduce forgotten obligations rather than create
+    a new administrative burden. Time and effort: Two 15-minute weekly reviews and one small action between
+    them. Adaptation: Use a voice checklist, accessible reminder or a ten-minute supported conversation.
+    During constrained periods scan only urgent safety and binding obligations, labeling the rest unreviewed
+    rather than satisfactory. A synthetic page tests review mechanics but not actual follow-through. Keep
+    personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a voice checklist, accessible reminder or a ten-minute supported conversation.
+    During constrained periods scan only urgent safety and binding obligations, labeling the rest unreviewed
+    rather than satisfactory. A synthetic page tests review mechanics but not actual follow-through.
+  expected_burden: Two 15-minute weekly reviews and one small action between them.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Personal operating reviews protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +108,25 @@ intervention:
   - Treating a completed Personal operating reviews action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Personal operating reviews situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a voice
+    checklist, accessible reminder or a ten-minute supported conversation. During constrained periods
+    scan only urgent safety and binding obligations, labeling the rest unreviewed rather than satisfactory.
+    A synthetic page tests review mechanics but not actual follow-through.
   actions:
   - stable_id: PRACTICE-COMP-2705-PERSONAL-OPERATING-REVIEWS-01-A1
     sequence: 1
-    title: Audit one bounded Personal operating reviews context
-    instructions: 'Inspect one user-controlled, low-consequence context relevant to Personal operating
-      reviews. Use the canonical scope to name observable conditions without diagnosing people or systems:
-      Review commitments, health, relationships, money, learning, work, service, and direction at sustainable
-      intervals.'
+    title: Scan for decisions rather than narrate the week
+    instructions: 'Give each heading an honest disposition based on available records or firsthand observation.
+      Do not pull private account, medical or other people’s data into the application. Identify one overdue
+      action, one upcoming commitment and one optional demand to stop or defer. Distinguish a matter needing
+      qualified help from an ordinary task; the review is not permission to reinterpret a treatment plan,
+      contract or shared agreement.
+
+
+      Observation checks: All eight areas receive a bounded disposition; Available evidence is distinguished
+      from uncertainty; One action one commitment and one removable demand are identified; Qualified or
+      shared decisions remain outside unilateral review authority. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +148,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2705_a1_one_context_only
-        - c2705_a1_observable_conditions_recorded
-        - c2705_a1_hazards_excluded
+        - all_eight_areas_receive_a_bounded_disposition
+        - available_evidence_is_distinguished_from_uncertainty
+        - one_action_one_commitment_and_one_removable_demand_are_identified
+        - qualified_or_shared_decisions_remain_outside_unilateral_review_authority
       - measurement_id: c2705_a1_boundary
         kind: boolean
         role: supporting
@@ -154,10 +168,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2705-PERSONAL-OPERATING-REVIEWS-01-A2
     sequence: 2
-    title: Make one reversible Personal operating reviews redesign
-    instructions: Choose one small, lawful, reversible change that addresses a specific audit finding
-      for Personal operating reviews. Record the intended effect, cost or burden, and a rollback condition
-      before changing anything.
+    title: Make the three decisions operational
+    instructions: 'Complete the small overdue action now or at a specific time within the next week. Put
+      the upcoming commitment in the planning method actually used, with a cue and necessary materials.
+      Remove or defer the optional demand, notifying anyone who relied on it and preserving any agreed
+      handoff. For the default, submit the ordinary form through its established route, answer the willing
+      contact and pause the elective project; do not count deleting a task as fulfilling its original
+      promise.
+
+
+      Observation checks: The overdue item becomes a real action with a near date; The upcoming commitment
+      has a usable cue and materials; The optional demand is removed with any necessary notice or handoff;
+      Removing a task is not reported as completing the promised work. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -179,9 +202,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2705_a2_change_traces_to_finding
-        - c2705_a2_rollback_defined
-        - c2705_a2_burden_recorded
+        - the_overdue_item_becomes_a_real_action_with_a_near_date
+        - the_upcoming_commitment_has_a_usable_cue_and_materials
+        - the_optional_demand_is_removed_with_any_necessary_notice_or_handoff
+        - removing_a_task_is_not_reported_as_completing_the_promised_work
       - measurement_id: c2705_a2_boundary
         kind: boolean
         role: supporting
@@ -198,10 +222,37 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2705-PERSONAL-OPERATING-REVIEWS-01-A3
     sequence: 3
-    title: Compare the Personal operating reviews context after the change
-    instructions: 'Reinspect the same bounded context after the change. Record improvement, no difference,
-      mixed effects, harm, or insufficient observation and compare only with this target: Reviews produce
-      decisions, scheduled actions, and removed obligations.'
+    title: Use the next review to test the review itself
+    instructions: 'At the second weekly review, check whether the action occurred and the scheduled commitment
+      was remembered. Verify that removing the optional demand caused no unaddressed reliance or burden.
+      Record how long the review actually took and whether the eight-heading scan was useful; simplify
+      its format or adjust the interval if it crowded out the life it was meant to support. Select no
+      more than one next action rather than rebuilding the entire system.
+
+
+      Observation checks: The next review checks actual action and remembered commitment; Consequences
+      of the removed demand are examined; Actual review burden is compared with its usefulness; The format
+      or interval is retained or simplified with one next action. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which decision changed the week, and what part of the review can be removed without
+      losing an important responsibility?
+
+
+      Examples: Supportive: The review led to a completed form, a remembered commitment and an agreed
+      project pause; the second review shortened unnecessary notes.
+
+
+      Mixed: The page was concise, but the chosen action remained unscheduled and was still overdue a
+      week later.
+
+
+      Contradictory: Private records were uploaded unnecessarily, a shared promise was silently deleted,
+      or the review became a substitute for taking action.
+
+
+      Inconclusive: All headings were marked good without evidence, decisions or a second review.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -223,9 +274,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2705_a3_same_context_compared
-        - c2705_a3_mixed_or_null_result_allowed
-        - c2705_a3_target_evidence_reviewed
+        - the_next_review_checks_actual_action_and_remembered_commitment
+        - consequences_of_the_removed_demand_are_examined
+        - actual_review_burden_is_compared_with_its_usefulness
+        - the_format_or_interval_is_retained_or_simplified_with_one_next_action
       - measurement_id: c2705_a3_boundary
         kind: boolean
         role: supporting
@@ -246,16 +298,17 @@ intervention:
       Personal operating reviews; no purchase, subscription, travel, credential, or public artifact is
       required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Personal operating reviews; assistive technology, interpretation, a support person, and
-      a deferred action are valid without penalty.
+    - Use a voice checklist, accessible reminder or a ten-minute supported conversation. During constrained
+      periods scan only urgent safety and binding obligations, labeling the rest unreviewed rather than
+      satisfactory. A synthetic page tests review mechanics but not actual follow-through.
     cultural_context:
     - Adapt the expression of Personal operating reviews to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Personal operating reviews opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use a voice checklist, accessible reminder or a ten-minute supported conversation. During constrained
+      periods scan only urgent safety and binding obligations, labeling the rest unreviewed rather than
+      satisfactory. A synthetic page tests review mechanics but not actual follow-through.
   pause_conditions:
   - Pause Personal operating reviews when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -287,10 +340,8 @@ evidence_and_scoring:
   - c2705_a3_boundary
   - c2705_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Personal operating reviews action exceeded consent, authority, privacy, qualification, role, burden,
-    or safety boundaries.
-  - The evidence contradicted the intended Personal operating reviews criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - Private records were uploaded unnecessarily, a shared promise was silently deleted, or the review
+    became a substitute for taking action.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Personal operating reviews explicitly; support can enable access and never reduces dignity or
     silently changes the typed value.
@@ -300,14 +351,23 @@ evidence_and_scoring:
     origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
   recency_rule: Generated Personal operating reviews rules withhold observations older than 90 days; no
     unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Reviews produce decisions, scheduled actions, and removed obligations.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Personal operating reviews requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Scan for decisions rather than narrate the week. Observed checks: All
+    eight areas receive a bounded disposition; Available evidence is distinguished from uncertainty; One
+    action one commitment and one removable demand are identified; Qualified or shared decisions remain
+    outside unilateral review authority. Action 2: Make the three decisions operational. Observed checks:
+    The overdue item becomes a real action with a near date; The upcoming commitment has a usable cue
+    and materials; The optional demand is removed with any necessary notice or handoff; Removing a task
+    is not reported as completing the promised work. Action 3: Use the next review to test the review
+    itself. Observed checks: The next review checks actual action and remembered commitment; Consequences
+    of the removed demand are examined; Actual review burden is compared with its usefulness; The format
+    or interval is retained or simplified with one next action.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. All headings were marked good without evidence, decisions
+    or a second review.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Personal
     operating reviews contribution under typed evaluation; protocol performance remains distinct and is
     never counted twice.
@@ -317,9 +377,8 @@ evidence_and_scoring:
   - L10
   - L14
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Personal operating reviews evidence.
@@ -327,10 +386,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The audit one bounded personal operating reviews context action was attempted or explicitly deferred.
-  - The make one reversible personal operating reviews redesign action was attempted or explicitly deferred.
-  - The compare the personal operating reviews context after the change action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Scan for decisions rather than narrate the week. Observed checks: All eight areas receive
+    a bounded disposition; Available evidence is distinguished from uncertainty; One action one commitment
+    and one removable demand are identified; Qualified or shared decisions remain outside unilateral review
+    authority.'
+  - 'Action 2: Make the three decisions operational. Observed checks: The overdue item becomes a real
+    action with a near date; The upcoming commitment has a usable cue and materials; The optional demand
+    is removed with any necessary notice or handoff; Removing a task is not reported as completing the
+    promised work.'
+  - 'Action 3: Use the next review to test the review itself. Observed checks: The next review checks
+    actual action and remembered commitment; Consequences of the removed demand are examined; Actual review
+    burden is compared with its usefulness; The format or interval is retained or simplified with one
+    next action.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -339,56 +409,246 @@ completion_and_review:
     - c2705_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Personal operating reviews only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Personal operating reviews across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: Which decision changed the week, and what part of the review can be removed without
+    losing an important responsibility?
+  transfer_limit: This is a practical coordination review, not a comprehensive health, financial or relationship
+    assessment. It should reduce forgotten obligations rather than create a new administrative burden.
   reflection:
-    before: What does Personal operating reviews require in this exact context, what remains outside my
-      role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Personal operating reviews criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Reviews produce decisions, scheduled actions, and removed
-      obligations.', what contradiction or missing context matters most, and should this Personal operating
-      reviews design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Review major life areas at a sustainable interval
+      and turn the review into one completed action, one scheduled commitment and one responsibly removed
+      demand.'
+    during: Which checks have actually been observed? The page was concise, but the chosen action remained
+      unscheduled and was still overdue a week later.
+    after: Which decision changed the week, and what part of the review can be removed without losing
+      an important responsibility?
   review_guidance:
     repeat: Repeat the same bounded Personal operating reviews design only when the context and burden
       remain appropriate.
-    adapt: Change the Personal operating reviews medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use a voice checklist, accessible reminder or a ten-minute supported conversation. During constrained
+      periods scan only urgent safety and binding obligations, labeling the rest unreviewed rather than
+      satisfactory. A synthetic page tests review mechanics but not actual follow-through.
     stop: Stop Personal operating reviews when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Personal operating reviews questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Personal operating reviews criteria were observed with provenance and no adverse
-      boundary signal in the selected context.
-    mixed: Some Personal operating reviews criteria were observed while burden, support, contextual change,
-      or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Personal operating reviews criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Personal operating reviews action was deferred, not observed, not applicable, stale,
-      insufficiently bounded, or too confounded to interpret.
+    supportive: The review led to a completed form, a remembered commitment and an agreed project pause;
+      the second review shortened unnecessary notes.
+    mixed: The page was concise, but the chosen action remained unscheduled and was still overdue a week
+      later.
+    contradictory: Private records were uploaded unnecessarily, a shared promise was silently deleted,
+      or the review became a substitute for taking action.
+    inconclusive: All headings were marked good without evidence, decisions or a second review.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Personal operating reviews.
+    context_heading: Run a short operating review that changes the next week
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Personal
       operating reviews.
   check_in_labels:
-    c2705_a1_primary: The bounded Personal operating reviews criterion for action 1 was observed
+    c2705_a1_primary: 'Observed checks: scan for decisions rather than narrate the week'
     c2705_a1_boundary: Action 1 stayed inside its stated Personal operating reviews boundary
     c2705_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2705_a2_primary: The bounded Personal operating reviews criterion for action 2 was observed
+    c2705_a2_primary: 'Observed checks: make the three decisions operational'
     c2705_a2_boundary: Action 2 stayed inside its stated Personal operating reviews boundary
     c2705_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2705_a3_primary: The bounded Personal operating reviews criterion for action 3 was observed
+    c2705_a3_primary: 'Observed checks: use the next review to test the review itself'
     c2705_a3_boundary: Action 3 stayed inside its stated Personal operating reviews boundary
     c2705_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Personal operating
-    reviews practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which decision changed the week, and what part of the review can be removed without
+    losing an important responsibility? Completion is not mastery.
+  plain_language_evidence: The review led to a completed form, a remembered commitment and an agreed project
+    pause; the second review shortened unnecessary notes.
   display_order: 373
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '27.05'
+  title: 27.05 — Personal operating reviews
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [OpenLearn — Changing priorities: the ABC model](https://www.open.edu/openlearn/mod/oucontent/view.php?id=28143&section=1)
+
+      - [NASA — Technical Assessment](https://www.nasa.gov/reference/6-7-technical-assessment/)
+
+      - [IHI — Model for Improvement](https://www.ihi.org/library/model-for-improvement)
+
+      - [CDC — How to Use the Index](https://www.cdc.gov/ccindex/tool/how-to-use.html)
+
+      - [W3C WAI — Making Events Accessible](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)
+
+      - [University of Edinburgh — What? So what? Now what?](https://reflection.ed.ac.uk/reflectors-toolkit/reflecting-on-experience/what-so-what-now-what)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence. Save the initial work in the [guide](?)
+      before reading.
+
+
+      The first review actually takes fifteen minutes. Ari submits the club form at 18:08 and sees a receipt;
+      the missed original deadline remains recorded. Ari accepts the invitation, receives confirmation
+      and schedules the call. The solo reading challenge is removed. On October 10 the ten-minute call
+      occurs. At the October 13 review, Ari spends twelve minutes checking these outcomes. The transport
+      cost is still unconfirmed, so Ari sends one question through the established provider contact route;
+      no reply is supplied.
+
+
+      Two reviews total 27 minutes. The form was late but accepted; the call was performed; the optional
+      challenge had no external reliance. The unresolved cost is neither a hidden failure of every heading
+      nor a reason to invent a number.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Let the review end in fewer loose ends
+
+
+      A review is useful when it changes what happens next. It is easy to spend the whole period rearranging
+      a task list and leave every commitment untouched. The purpose is a modest decision cycle: notice
+      a real loose end, choose a proportionate action, schedule something that needs remembering and release
+      one genuinely optional demand.
+
+
+      Use the complete fictional review file. Allow two fifteen-minute reviews one week apart in a live
+      route; for the supplied case, allow twenty minutes to inspect both records and ten for checks. [NASA''s
+      technical-assessment discussion, S02](https://www.nasa.gov/reference/6-7-technical-assessment/)
+      distinguishes reported status from analysis that informs corrective decisions. The application here
+      is an analogy to personal coordination, not a NASA-approved life assessment.
+
+
+      Worked example: a person marks an overdue form “urgent” at three consecutive reviews but never opens
+      its normal submission route. A five-minute submission with receipt changes the situation; a brighter
+      label does not. Conversely, deleting the form would remove a reminder, not fulfill the obligation.
+
+
+      ### Review one: October 6, 18:00–18:15
+
+
+      Ari uses eight headings and only the supplied ordinary records. The file contains no clinical findings,
+      account credentials or other people''s private data.
+
+
+      | Heading | Disposition | Available fact |
+
+      | --- | --- | --- |
+
+      | Commitments | Needs action | An ordinary club form was due October 5; standard late submission
+      is still accepted |
+
+      | Health | Stable for coordination only | Existing care appointments remain scheduled; no clinical
+      status inferred |
+
+      | Relationships | Needs action | A welcome invitation awaits a reply by October 9 |
+
+      | Money | Uncertain | October transport cost is not yet confirmed; no purchase needed now |
+
+      | Learning | Needs action | An optional solo reading challenge no longer fits |
+
+      | Work | Stable | Next agreed deadline is already in the work calendar |
+
+      | Service | Not applicable now | No current service promise or dependent task is supplied |
+
+      | Direction | Stable | Keep existing care and ordinary work reliable this week |
+
+
+      The club form takes five minutes and has a standard receipt screen. The invitation requires a two-minute
+      response and proposes a welcome ten-minute call October 10 at 19:00. Ari may accept or decline;
+      do not infer a meeting from the incoming invitation. The reading challenge is solo, free and carries
+      no promise to another person. Removing it does not require inventing a cancellation agreement.
+
+
+      Within the first fifteen minutes, use three to scan, five to submit the form, two to reply, two
+      to schedule any accepted call with a reminder, one to remove the optional challenge and two to close
+      the review. If a task takes longer, preserve the limit by scheduling it honestly; do not fill a
+      late form with guesses to meet the timer. The uncertain transport cost belongs in an information
+      request, not an invented satisfactory result.
+
+
+      ### Close the loop next week
+
+
+      1. Give all eight headings a disposition using only available facts. State what “stable” means here:
+      no new coordination issue identified, not a comprehensive health or financial clearance. Select
+      the overdue form, the invitation and the optional challenge as the concrete decisions.
+
+      2. Save the first review and inspect the [later packet](?resource=file-later-packet-md). Distinguish
+      submitted, acknowledged, scheduled, performed and removed. Check whether anyone actually relied
+      on the released item.
+
+      3. At the second review, compare those decisions with outcomes and the review''s actual burden.
+      Keep an unresolved cost question open and choose no more than one next information action. Simplify
+      the format if the administration crowds out the activity it was meant to support.
+
+
+      ### Sustainable does not mean every heading is always green
+
+
+      A voice checklist, accessible reminder or supported conversation is suitable. During a constrained
+      period, scan urgent safety and binding duties first; label omitted areas unreviewed rather than
+      stable. For a harder case, the supposedly solo challenge includes a promised reading-group summary.
+      Pause only after an appropriate notice or handoff; deleting its reminder is not release from reliance.
+
+
+      At a later real weekly review, use minimal private information, one performed action and one subsequent
+      check. Qualified questions stay with the relevant professional or process. The useful evidence is
+      an actual decision and follow-through with a manageable review burden, not eight optimistic labels
+      or a newly elaborate personal dashboard.
+
+
+      ### Use the result at its proper scale
+
+
+      Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human
+      dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'These questions revisit supplied examples to consolidate the reasoning. They do not independently
+      test transfer to unseen material. Any separately labeled changed-case attempt below uses different
+      facts.
+
+
+      Attempt these before opening [answers](?check=practice-answers).
+
+
+      1. Two reviews take 15 and 12 minutes. A ten-minute call occurs between them. What is review time,
+      and is the call included?
+
+
+      2. A care heading is marked stable because appointments are scheduled. Does that establish good
+      health?
+
+
+      3. Deleting a task that someone else relied on makes a list shorter. What is still needed?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Compare with your attempted [checks](?attempt=practice-checks); these are learning aids, not
+      a learner score.
+
+
+      1. Review time is 27 minutes; the separate call makes 37 minutes for those named activities together.
+      Keep categories distinct and do not count review-contained tasks twice.
+
+
+      2. No. It is a coordination status, not clinical evidence. Preserve any actual concern for appropriate
+      care and avoid upgrading calendar information into a health conclusion.
+
+
+      3. Appropriate notice, renegotiation or accepted handoff is still needed. The original obligation
+      is not performed by deletion. Correct the release status rather than crediting a cleaner list.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

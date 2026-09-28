@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2606-TRAVEL-GEOGRAPHY-AND-PLACE-01
 slug: c2606-travel-geography-and-place-practice
-name: Bounded Travel, geography, and place Practice
+name: Visit or study a place as someone’s home rather than a backdrop
 parent_competency_id: '26.06'
 domain_id: '26'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 26.06
-      (Travel, geography, and place); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 26.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending
@@ -35,39 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Travel, geography, and place through a artifact-and-review practice bounded by the
-    canonical scope: Understand geography, local history, customs, language basics, etiquette, and the
-    effects of tourism.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Travels with curiosity
-    and respect rather than consuming places as backdrops. The protocol creates a small opportunity to
-    examine that target without treating completion as broad capability.'
+  purpose: Connect geography, history, language, etiquette and the effects of visiting to respectful curiosity
+    about a specific place.
+  why_recommended: Connect geography, history, language, etiquette and the effects of visiting to respectful
+    curiosity about a specific place.
   claims:
-  - statement: Using the canonical scope and evidence target for Travel, geography, and place is a traceable
-      product-design basis for a source-only draft protocol.
+  - statement: Connect geography, history, language, etiquette and the effects of visiting to respectful
+      curiosity about a specific place.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Travel, geography, and place practice fit the person's
     current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Travel, geography, and place as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Travel, geography,
-    and place context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Travel, geography,
-    and place; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or dependence
-    for evidence.
+  readiness_considerations: Use a free local site or accessible official virtual exhibit. A person can
+    learn respectfully without travel, photography or spending. International journeys need current official
+    document, health and safety checks; this exercise does not replace them or require contact with unsafe
+    people or settings.
+  opportunity_considerations: 'Choose a local public museum, library history display, neighborhood heritage
+    site or an official online exhibit. Use the site’s own visitor information and one locally authored
+    historical or community source. Prepare a simple map and five headings: geography, historical change,
+    everyday use, visitor etiquette and visitor effects. No paid travel is required.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Travel, geography, and place.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Choose a local public museum, library history display, neighborhood heritage site or an official
+    online exhibit. Use the site’s own visitor information and one locally authored historical or community
+    source. Prepare a simple map and five headings: geography, historical change, everyday use, visitor
+    etiquette and visitor effects. No paid travel is required.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Travel, geography, and place instead
-    of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a free local site or accessible official virtual exhibit. A person can learn respectfully without
+    travel, photography or spending. International journeys need current official document, health and
+    safety checks; this exercise does not replace them or require contact with unsafe people or settings.
   role_conditions:
   - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +82,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-ARTIFACT-PLAN
   duration_days: 10
-  cadence: Complete three bounded Travel, geography, and place actions over ten days, preserving explicit
-    not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Travel, geography, and place; copy the canonical scope and evidence target
-    into a private working note; define the action boundary, valid supports, privacy limit, and stop condition
-    before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Travel,
-    geography, and place. Do not store private prose, names, identities, diagnoses, allegations, credentials,
-    account data, protected work information, intimate detail, artifact contents, observer narrative,
-    or another person's secrets. This source-only draft is not surveillance, professional advice, treatment,
-    certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Travel, geography, and place actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose a local public museum, library history display, neighborhood heritage site or an official
+    online exhibit. Use the site’s own visitor information and one locally authored historical or community
+    source. Prepare a simple map and five headings: geography, historical change, everyday use, visitor
+    etiquette and visitor effects. No paid travel is required. Goal: Connect geography, history, language,
+    etiquette and the effects of visiting to respectful curiosity about a specific place. Scope: A modest
+    local visit or a labeled virtual study is not a complete travel plan, cultural expertise or assurance
+    of personal safety. Current access and travel requirements remain separate checks. Time and effort:
+    Thirty minutes of preparation, a short permitted visit or virtual study and a fifteen-minute reflection.
+    Adaptation: Use a free local site or accessible official virtual exhibit. A person can learn respectfully
+    without travel, photography or spending. International journeys need current official document, health
+    and safety checks; this exercise does not replace them or require contact with unsafe people or settings.
+    Keep personal working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a free local site or accessible official virtual exhibit. A person can learn
+    respectfully without travel, photography or spending. International journeys need current official
+    document, health and safety checks; this exercise does not replace them or require contact with unsafe
+    people or settings.
+  expected_burden: Thirty minutes of preparation, a short permitted visit or virtual study and a fifteen-minute
+    reflection.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Travel, geography, and place protocol to rank worth, coerce participation, demand disclosure,
@@ -101,19 +111,26 @@ intervention:
   - Treating a completed Travel, geography, and place action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Travel, geography, and place situation involving emergency response, abuse, retaliation, illegal
-    conduct, medical treatment, legal representation, financial-loss decisions, safeguarding, hazardous
-    equipment, or other consequences beyond a reversible source-only exercise.
-  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
-    practice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a free
+    local site or accessible official virtual exhibit. A person can learn respectfully without travel,
+    photography or spending. International journeys need current official document, health and safety
+    checks; this exercise does not replace them or require contact with unsafe people or settings.
   actions:
   - stable_id: PRACTICE-COMP-2606-TRAVEL-GEOGRAPHY-AND-PLACE-01-A1
     sequence: 1
-    title: Define a rubric for Travel, geography, and place
-    instructions: 'Turn the canonical scope for Travel, geography, and place into three to five inspectable
-      criteria: Understand geography, local history, customs, language basics, etiquette, and the effects
-      of tourism. Keep the rubric bounded to one current context and include one criterion for uncertainty,
-      access, or competing obligations.'
+    title: Learn enough context to arrive considerately
+    instructions: 'Locate the place on a map and identify a geographical feature or transport connection
+      that shapes its use. Read one sourced historical account and note what changed and whose perspective
+      it represents. Verify current opening or online access, physical or sensory access needs and rules
+      for photos, dress, quiet or participation. Learn a relevant greeting or courtesy from a reliable
+      local source when another language is used; do not invent a phrase or expect local people to teach
+      you on demand.
+
+
+      Observation checks: The place is located geographically rather than only by attraction name; One
+      sourced historical change and perspective are identified; Current access and visitor etiquette are
+      checked; Any language preparation is accurate and not demanded from unwilling people. Mark only
+      what you observed. Missing, mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -135,9 +152,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2606_a1_criteria_trace_to_scope
-        - c2606_a1_context_bounded
-        - c2606_a1_constraint_included
+        - the_place_is_located_geographically_rather_than_only_by_attraction_name
+        - one_sourced_historical_change_and_perspective_are_identified
+        - current_access_and_visitor_etiquette_are_checked
+        - any_language_preparation_is_accurate_and_not_demanded_from_unwilling_people
       - measurement_id: c2606_a1_boundary
         kind: boolean
         role: supporting
@@ -154,10 +172,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2606-TRAVEL-GEOGRAPHY-AND-PLACE-01-A2
     sequence: 2
-    title: Build one Travel, geography, and place artifact
-    instructions: Create the smallest useful plan, checklist, diagram, record, or other artifact that
-      applies the rubric for Travel, geography, and place. Store only category-level information and omit
-      names, secrets, credentials, diagnoses, protected work detail, and unnecessary third-party information.
+    title: Attend to ordinary use and ask only welcome questions
+    instructions: 'During the permitted visit, notice how residents, workers or regular users use the
+      place in addition to visitors. Follow posted and communicated rules, ask permission before photographing
+      people and avoid blocking access for a picture. Ask one welcome factual question or use the official
+      exhibit to investigate it. For a virtual study, record what cannot be learned about embodied access
+      or everyday interaction rather than pretending to have visited.
+
+
+      Observation checks: Actual visit and virtual study are labeled correctly; Ordinary local use receives
+      attention; Photography questions and movement respect consent and access; One question is investigated
+      without extracting unpaid personal testimony. Mark only what you observed. Missing, mixed and negative
+      results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -179,9 +205,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2606_a2_artifact_matches_rubric
-        - c2606_a2_minimum_private_detail
-        - c2606_a2_usable_next_step_present
+        - actual_visit_and_virtual_study_are_labeled_correctly
+        - ordinary_local_use_receives_attention
+        - photography_questions_and_movement_respect_consent_and_access
+        - one_question_is_investigated_without_extracting_unpaid_personal_testimony
       - measurement_id: c2606_a2_boundary
         kind: boolean
         role: supporting
@@ -198,10 +225,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2606-TRAVEL-GEOGRAPHY-AND-PLACE-01-A3
     sequence: 3
-    title: Stress-test and revise the Travel, geography, and place artifact
-    instructions: 'Test the artifact against one realistic variation, counterexample, or changed constraint.
-      Revise it only where the test exposes a gap, then compare the result with this evidence target:
-      Travels with curiosity and respect rather than consuming places as backdrops.'
+    title: Review what visiting gives and what it costs
+    instructions: 'Identify one learned detail, one assumption corrected and one continuing misunderstanding.
+      Consider crowding, worker burden, local spending, housing or environmental effects where relevant,
+      distinguishing observations from claims needing evidence. Choose one proportionate response such
+      as following a less disruptive route, crediting a local source or sharing an accurate correction.
+      Do not reduce the place to a personal transformation story or claim a visit automatically benefits
+      residents.
+
+
+      Observation checks: Learning corrected assumptions and remaining uncertainty are recorded; Visitor
+      benefits and burdens are considered separately; A proportionate respectful response is chosen; The
+      place is not treated only as a setting for the visitor’s identity. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: What became visible when you treated the place as part of other people’s ordinary
+      lives, and what did you change about your own way of visiting?
+
+
+      Examples: Supportive: The visitor learned how the site’s geography shaped local work, respected
+      a photo restriction and corrected an inaccurate story in their own notes.
+
+
+      Mixed: The online exhibit added historical context but left current everyday use uncertain, which
+      remained explicit.
+
+
+      Contradictory: People were photographed without permission or the place was reduced to an exotic
+      backdrop for self-presentation.
+
+
+      Inconclusive: Attractions were listed without geography, history, etiquette, local perspective or
+      visitor-impact reflection.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -217,15 +273,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2606_a3_primary
-        kind: scenario
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2606_a3_variation_tested
-        - c2606_a3_revision_traceable
-        - c2606_a3_target_evidence_compared
+        - learning_corrected_assumptions_and_remaining_uncertainty_are_recorded
+        - visitor_benefits_and_burdens_are_considered_separately
+        - a_proportionate_respectful_response_is_chosen
+        - the_place_is_not_treated_only_as_a_setting_for_the_visitor_s_identity
       - measurement_id: c2606_a3_boundary
         kind: boolean
         role: supporting
@@ -246,16 +303,17 @@ intervention:
       Travel, geography, and place; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Travel, geography, and place; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a free local site or accessible official virtual exhibit. A person can learn respectfully without
+      travel, photography or spending. International journeys need current official document, health and
+      safety checks; this exercise does not replace them or require contact with unsafe people or settings.
     cultural_context:
     - Adapt the expression of Travel, geography, and place to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Travel, geography, and place opportunity is unavailable or inappropriate, use a fictional,
-      historical, public, simulated, or planning-only equivalent and retain the narrower evidence classification.
+    - Use a free local site or accessible official virtual exhibit. A person can learn respectfully without
+      travel, photography or spending. International journeys need current official document, health and
+      safety checks; this exercise does not replace them or require contact with unsafe people or settings.
   pause_conditions:
   - Pause Travel, geography, and place when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -287,10 +345,7 @@ evidence_and_scoring:
   - c2606_a3_boundary
   - c2606_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Travel, geography, and place action exceeded consent, authority, privacy, qualification, role,
-    burden, or safety boundaries.
-  - The evidence contradicted the intended Travel, geography, and place criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - People were photographed without permission or the place was reduced to an exotic backdrop for self-presentation.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Travel, geography, and place explicitly; support can enable access and never reduces dignity or
     silently changes the typed value.
@@ -301,14 +356,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Travel, geography, and place rules withhold observations older than 90 days;
     no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Travels with curiosity and respect rather than consuming places as backdrops.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Travel, geography, and place requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Learn enough context to arrive considerately. Observed checks: The place
+    is located geographically rather than only by attraction name; One sourced historical change and perspective
+    are identified; Current access and visitor etiquette are checked; Any language preparation is accurate
+    and not demanded from unwilling people. Action 2: Attend to ordinary use and ask only welcome questions.
+    Observed checks: Actual visit and virtual study are labeled correctly; Ordinary local use receives
+    attention; Photography questions and movement respect consent and access; One question is investigated
+    without extracting unpaid personal testimony. Action 3: Review what visiting gives and what it costs.
+    Observed checks: Learning corrected assumptions and remaining uncertainty are recorded; Visitor benefits
+    and burdens are considered separately; A proportionate respectful response is chosen; The place is
+    not treated only as a setting for the visitor’s identity.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Attractions were listed without geography, history,
+    etiquette, local perspective or visitor-impact reflection.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Travel,
     geography, and place contribution under typed evaluation; protocol performance remains distinct and
     is never counted twice.
@@ -318,9 +382,8 @@ evidence_and_scoring:
   - L20
   - L31
   - L35
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Travel, geography, and place evidence.
@@ -328,10 +391,21 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The define a rubric for travel, geography, and place action was attempted or explicitly deferred.
-  - The build one travel, geography, and place artifact action was attempted or explicitly deferred.
-  - The stress-test and revise the travel, geography, and place artifact action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Learn enough context to arrive considerately. Observed checks: The place is located geographically
+    rather than only by attraction name; One sourced historical change and perspective are identified;
+    Current access and visitor etiquette are checked; Any language preparation is accurate and not demanded
+    from unwilling people.'
+  - 'Action 2: Attend to ordinary use and ask only welcome questions. Observed checks: Actual visit and
+    virtual study are labeled correctly; Ordinary local use receives attention; Photography questions
+    and movement respect consent and access; One question is investigated without extracting unpaid personal
+    testimony.'
+  - 'Action 3: Review what visiting gives and what it costs. Observed checks: Learning corrected assumptions
+    and remaining uncertainty are recorded; Visitor benefits and burdens are considered separately; A
+    proportionate respectful response is chosen; The place is not treated only as a setting for the visitor’s
+    identity.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -340,56 +414,254 @@ completion_and_review:
     - c2606_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Travel, geography, and place only when the initial context remained
-    safe, the evidence criteria were usable, burden was acceptable, and a new context can be named without
-    assuming transfer.
-  transfer_limit: Three bounded actions do not establish Travel, geography, and place across roles, cultures,
-    relationships, seasons, stress levels, disability states, institutions, or high-consequence settings.
+  progression_criteria: What became visible when you treated the place as part of other people’s ordinary
+    lives, and what did you change about your own way of visiting?
+  transfer_limit: A modest local visit or a labeled virtual study is not a complete travel plan, cultural
+    expertise or assurance of personal safety. Current access and travel requirements remain separate
+    checks.
   reflection:
-    before: What does Travel, geography, and place require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Travel, geography, and place criterion is present, absent, mixed, or unknown,
-      and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Travels with curiosity and respect rather than consuming places
-      as backdrops.', what contradiction or missing context matters most, and should this Travel, geography,
-      and place design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Connect geography, history, language, etiquette
+      and the effects of visiting to respectful curiosity about a specific place.'
+    during: Which checks have actually been observed? The online exhibit added historical context but
+      left current everyday use uncertain, which remained explicit.
+    after: What became visible when you treated the place as part of other people’s ordinary lives, and
+      what did you change about your own way of visiting?
   review_guidance:
     repeat: Repeat the same bounded Travel, geography, and place design only when the context and burden
       remain appropriate.
-    adapt: Change the Travel, geography, and place medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use a free local site or accessible official virtual exhibit. A person can learn respectfully
+      without travel, photography or spending. International journeys need current official document,
+      health and safety checks; this exercise does not replace them or require contact with unsafe people
+      or settings.
     stop: Stop Travel, geography, and place when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Travel, geography, and place questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Travel, geography, and place criteria were observed with provenance and no
-      adverse boundary signal in the selected context.
-    mixed: Some Travel, geography, and place criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Travel, geography, and place criterion, introduced
-      harm or coercion, or showed the design was not workable.
-    inconclusive: The Travel, geography, and place action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The visitor learned how the site’s geography shaped local work, respected a photo restriction
+      and corrected an inaccurate story in their own notes.
+    mixed: The online exhibit added historical context but left current everyday use uncertain, which
+      remained explicit.
+    contradictory: People were photographed without permission or the place was reduced to an exotic backdrop
+      for self-presentation.
+    inconclusive: Attractions were listed without geography, history, etiquette, local perspective or
+      visitor-impact reflection.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Travel, geography, and place.
+    context_heading: Visit or study a place as someone’s home rather than a backdrop
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Travel, geography,
       and place.
   check_in_labels:
-    c2606_a1_primary: The bounded Travel, geography, and place criterion for action 1 was observed
+    c2606_a1_primary: 'Observed checks: learn enough context to arrive considerately'
     c2606_a1_boundary: Action 1 stayed inside its stated Travel, geography, and place boundary
     c2606_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2606_a2_primary: The bounded Travel, geography, and place criterion for action 2 was observed
+    c2606_a2_primary: 'Observed checks: attend to ordinary use and ask only welcome questions'
     c2606_a2_boundary: Action 2 stayed inside its stated Travel, geography, and place boundary
     c2606_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2606_a3_primary: The bounded Travel, geography, and place criterion for action 3 was observed
+    c2606_a3_primary: 'Observed checks: review what visiting gives and what it costs'
     c2606_a3_boundary: Action 3 stayed inside its stated Travel, geography, and place boundary
     c2606_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Travel, geography,
-    and place practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: What became visible when you treated the place as part of other people’s ordinary lives,
+    and what did you change about your own way of visiting? Completion is not mastery.
+  plain_language_evidence: The visitor learned how the site’s geography shaped local work, respected a
+    photo restriction and corrected an inaccurate story in their own notes.
   display_order: 360
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '26.06'
+  title: 26.06 — Travel, geography, and place
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [NPS — Trip Planning Guide](https://www.nps.gov/subjects/healthandsafety/trip-planning-guide.htm)
+
+      - [Living Heritage in the UK — Community consent](https://livingheritage.unesco.org.uk/info/guidance/community-consent)
+
+      - [UNESCO — New methods to boost intercultural competencies](https://www.unesco.org/en/articles/new-methods-boost-intercultural-competencies)
+
+      - [NASA — Cosmic Distances](https://science.nasa.gov/solar-system/cosmic-distances/)
+
+      - [W3C WAI — Making Events Accessible](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)
+
+      - [NPS Pearl Harbor — Leave No Trace](https://www.nps.gov/perl/getinvolved/supportyourpark/leavenotrace.htm)
+
+      - [OpenLearn — The Language of Comedy, Track 6](https://www.open.edu/openlearn/languages/the-language-comedy?trackno=6)
+
+      - [NPS — Citizen Science: Get Involved](https://www.nps.gov/subjects/citizenscience/get-involved.htm)
+
+      - [OpenLearn — Returning to STEM, Week 5, section 3.5](https://www.open.edu/openlearn/mod/oucontent/view.php?id=28143&section=3.5)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence. Save the initial work in the [guide](?)
+      before reading.
+
+
+      Ari reaches H at 10:16 and reads until 10:28. Ari initially steps into the doorway to frame a photo,
+      notices the clear-entry request and moves to the designated side space without photographing people.
+      At 10:30 the desk volunteer welcomes one question: “Did the bridge make the hall unnecessary?” The
+      volunteer says the room remains useful for waiting and local work; they cannot speak for former
+      ferry workers. The exchange ends at 10:33. Ari returns to S at 10:39 and does not visit M.
+
+
+      The original hall-only schedule would have returned at 10:34 without the question. The actual five
+      additional minutes comprise two minutes waiting and a three-minute exchange beyond the original
+      10:28 departure. Count the actual sequence once: 6 travel + 12 reading + 2 waiting + 3 exchange
+      + 6 return = 29 minutes. The changed use is established in fiction; local economic or social impacts
+      remain unmeasured.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: '### Read a place in more than one direction
+
+
+      A destination is also a home, workplace, transport link or remembered loss. Geography helps explain
+      why it is where it is; history shows that its present use was made rather than inevitable. Respectful
+      visiting connects those facts to conduct instead of treating them as trivia for a photograph.
+
+
+      Allow twenty-five minutes for the supplied fictional town file, ten for its later visit and ten
+      for checks. No trip, purchase or conversation is required. Make a five-part place note: geography,
+      historical change, everyday use, etiquette and visitor effects. [Living Heritage community consent,
+      S02](https://livingheritage.unesco.org.uk/info/guidance/community-consent) illustrates that a public
+      heritage process can still require community authorization. Its UK inventory guidance is not a universal
+      visitor law or permission to reuse a local practice.
+
+
+      Worked example: a former ferry building is now a weekday waiting room. Its picturesque doorway is
+      also an access route. Learning that fact should change where a visitor stands, not merely enrich
+      the caption. A worker declining a question is not evidence of local hostility.
+
+
+      ### Complete fictional place file: Bellwater
+
+
+      **Map.** The river runs north–south. Station S is west of the river. Public hall H is six minutes
+      east of S, still on the west bank. Bridge B is four minutes north of H; the small east-bank market
+      M is five minutes beyond B. All named paths are permitted, level and confirmed suitable for this
+      case. A private riverside yard is not a shortcut. No actual town or people are represented.
+
+
+      **History card, town archive display.** A ferry operated before a bridge opened in 1962. The hall,
+      previously a ticket office, became a community waiting room in 1980. The archive card explains transport
+      change from the municipal perspective; it contains no workers'' oral histories or account of displacement.
+      Do not invent those perspectives or assume there were no costs.
+
+
+      **Present-use card, hall committee.** H opens 10:00–12:00 today. Its entrance must remain clear.
+      A quiet work table is for residents using the room, not a visitor photo set. Text copies of the
+      display are available at the desk. Photos of the empty display are permitted; people and private
+      notes require separate consent. Staff invite factual questions only during the 10:30–10:40 question
+      period. Visitors may otherwise read independently.
+
+
+      **Courtesy card.** The committee uses English in this supplied case: “Hello; is this a good time
+      for one question?” and “Thank you; I will leave the entrance clear.” These are complete ordinary
+      phrases, not invented translations or claims about a national language. For another language, use
+      a reliable local pronunciation/meaning source and accept that nobody owes coaching.
+
+
+      **Visit limits.** Ari arrives at S at 10:10 and must return to S by 11:00. An independent hall visit
+      uses twelve minutes inside. Market browsing would add ten minutes at M, plus the route from H and
+      back. Ari has no duty to spend; buying something cannot purchase access to people or private space.
+
+
+      ### Turn context into a considerate visit
+
+
+      1. Sketch the river, station, hall, bridge and market. Compute a hall-only return and a combined
+      hall/market return without hiding travel time. Identify the opening and invitation windows separately.
+      Reaching the hall does not make a staff question welcome immediately.
+
+      2. For each of the five headings write one supplied fact, one limitation and one conduct implication.
+      Include the possibility that visitors create noise, access obstruction or extra staff work. Do not
+      invent revenue, displacement or tourism-impact estimates.
+
+      3. Save the plan and then read the [later packet](?resource=file-later-packet-md). Record which
+      visit and question actually occurred, who supplied the explanation and what remains unrepresented.
+      Revise one initial assumption without converting one person''s account into the town''s unanimous
+      view.
+
+
+      The meaningful output is a small place note that changed a route, question or behavior. Photographs
+      and spending are optional; a missed attraction is not failure to understand a place.
+
+
+      ### Local, virtual and later routes
+
+
+      Use the text file with a reader or make a clearly labeled virtual study of an official exhibit.
+      A virtual page cannot establish a building''s current sensory or physical access. For a live visit,
+      verify the site''s current rules, local history, transport and individual requirements; these invented
+      timings cannot be reused as travel advice.
+
+
+      A harder reading asks which historical perspective is missing and where a willing, locally authored
+      account might be found. Do not turn a worker into an unpaid interview subject. On a later suitable
+      visit, verify one geographical connection, ask only a welcome question, and review one actual visitor
+      burden. Retain uncertain effects rather than calling any purchase sustainable tourism.
+
+
+      ### Use the result at its proper scale
+
+
+      Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human
+      dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'These questions revisit supplied examples to consolidate the reasoning. They do not independently
+      test transfer to unseen material. Any separately labeled changed-case attempt below uses different
+      facts.
+
+
+      Attempt these before opening [answers](?check=practice-answers).
+
+
+      1. With arrival at S at 10:10, travel S–H 6, reading 12, H–M 9, browsing 10, M–H 9 and H–S 6 minutes,
+      when is return? Does it meet 11:00?
+
+
+      2. A hall permits display photos, but a resident sits in the frame. Does public access or buying
+      a postcard authorize the image?
+
+
+      3. One local guide says the new bridge helped their family. Can the place note say it benefited
+      every resident? What next source would improve the account?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: 'Compare with your attempted [checks](?attempt=practice-checks); these are learning aids, not
+      a learner score.
+
+
+      1. 11:02: the itinerary totals 52 minutes. Correct by shortening or dropping an optional stop, not
+      using the private yard or pretending the return takes no time. The hall-only route takes 24 minutes
+      before any welcome question.
+
+
+      2. No. The display permission does not include people or private notes; a purchase adds no permission.
+      Reframe, ask only where appropriate, or omit the photograph. Do not require consent as a price of
+      occupying public space.
+
+
+      3. No. Attribute that experience to the speaker. Seek an available locally authored account from
+      another affected perspective, without assuming it must disagree or demanding testimony. Keep costs
+      unknown until supported.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

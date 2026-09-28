@@ -2,278 +2,1275 @@ schema_version: GG-TAILORED-PRACTICE-AUTHORING-1.0
 domain_id: '05'
 exercises:
   '05.01':
-    title: "Build a personal inventory from ordinary evidence"
-    goal: "Describe present strengths, difficulties, supports and responsibilities using concrete observations instead of a flattering or condemning identity verdict."
-    scope_note: "This is a current-life sample, not a diagnosis or complete autobiography. Sensitive history can remain undescribed; an unknown or private entry does not mean that part of life is absent."
-    burden: "Two 15-minute sessions and one brief check during the next ordinary week."
-    setup: "Use a private page with nine headings: strengths, limitations, fears, past difficulties, advantages, habits, obligations, dependencies, and recurring outcomes. Use the last two weeks and an ordinary example such as keeping appointments; no painful memory retrieval is needed."
+    title: Build a personal inventory from ordinary evidence
+    goal: Describe present strengths, difficulties, supports and responsibilities using concrete observations
+      instead of a flattering or condemning identity verdict.
+    scope_note: This is a current-life sample, not a diagnosis or complete autobiography. Sensitive history
+      can remain undescribed; an unknown or private entry does not mean that part of life is absent.
+    burden: Two 15-minute sessions and one brief check during the next ordinary week.
+    setup: 'Use a private page with nine headings: strengths, limitations, fears, past difficulties, advantages,
+      habits, obligations, dependencies, and recurring outcomes. Use the last two weeks and an ordinary example
+      such as keeping appointments; no painful memory retrieval is needed. The learning guide contains a complete
+      fictional practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+      its results are rehearsal, not performed real-world work.'
     actions:
-      - title: "Separate a description from its evidence"
-        instructions: "Put one observation, unknown, or deliberately private entry under each heading. For observations, record an event and its limits: I arrived on time twice when reminders were set, rather than I am always dependable. Include one thing that went well, one that did not, and help or access that mattered. Describe fear as your present experience, not proof that its prediction is true."
-        checks: [All nine headings have a disposition, Positive and difficult events are both represented, Observations are distinguished from interpretations]
-      - title: "Challenge an overstatement in each direction"
-        instructions: "Find the most flattering and most condemning sentence. For each, identify an exception, missing context, or uncertainty and rewrite it proportionately. Connect a recurring result to a habit, obligation, resource or dependency without assuming that connection proves causation. Example: lateness after an extra care task suggests a scheduling constraint, not total irresponsibility."
-        checks: [A flattering overstatement is qualified, A condemning overstatement is qualified, One recurring outcome has a tentative contextual explanation]
-      - title: "Check one inventory claim against the next occasion"
-        instructions: "Choose one ordinary claim that has an upcoming opportunity. Before it occurs, write what you expect and what would count against it. At the opportunity, use normal supports and record what actually happened; then retain, narrow or revise the claim. If no occasion occurs, leave the claim untested instead of counting a prediction as observation."
-        checks: [A prediction and possible counterexample precede the occasion, An actual outcome or missing opportunity is recorded, The claim is retained or revised with a reason]
-    adaptation: "Dictate privately or use brief symbols. You may omit identifying details and use an invented appointment case for rehearsal; that does not establish a personal inventory. Stop if reflection becomes distressing and choose a neutral topic or appropriate support."
-    review: "Which statement became more accurate, what remains unknown, and what practical support does this inventory suggest?"
+    - title: Separate a description from its evidence
+      instructions: 'Put one observation, unknown, or deliberately private entry under each heading. For observations,
+        record an event and its limits: I arrived on time twice when reminders were set, rather than I am always
+        dependable. Include one thing that went well, one that did not, and help or access that mattered. Describe
+        fear as your present experience, not proof that its prediction is true.'
+      checks:
+      - All nine headings have a disposition
+      - Positive and difficult events are both represented
+      - Observations are distinguished from interpretations
+    - title: Challenge an overstatement in each direction
+      instructions: 'Find the most flattering and most condemning sentence. For each, identify an exception,
+        missing context, or uncertainty and rewrite it proportionately. Connect a recurring result to a habit,
+        obligation, resource or dependency without assuming that connection proves causation. Example: lateness
+        after an extra care task suggests a scheduling constraint, not total irresponsibility.'
+      checks:
+      - A flattering overstatement is qualified
+      - A condemning overstatement is qualified
+      - One recurring outcome has a tentative contextual explanation
+    - title: Check one inventory claim against the next occasion
+      instructions: Choose one ordinary claim that has an upcoming opportunity. Before it occurs, write what
+        you expect and what would count against it. At the opportunity, use normal supports and record what
+        actually happened; then retain, narrow or revise the claim. If no occasion occurs, leave the claim
+        untested instead of counting a prediction as observation.
+      checks:
+      - A prediction and possible counterexample precede the occasion
+      - An actual outcome or missing opportunity is recorded
+      - The claim is retained or revised with a reason
+    adaptation: Dictate privately or use brief symbols. You may omit identifying details and use an invented
+      appointment case for rehearsal; that does not establish a personal inventory. Stop if reflection becomes
+      distressing and choose a neutral topic or appropriate support.
+    review: Which statement became more accurate, what remains unknown, and what practical support does this
+      inventory suggest?
     examples:
-      supportive: "The claim about unreliability was narrowed to appointments without travel time, and the next recorded appointment tested that distinction."
-      mixed: "The inventory includes strengths and difficulties, but a recurring outcome still has several plausible explanations."
-      contradictory: "One mistake was converted into a verdict of worthlessness, or an advantage was hidden to make success appear entirely self-made."
-      inconclusive: "Nine labels were filled in without examples or an observed follow-up opportunity."
+      supportive: The claim about unreliability was narrowed to appointments without travel time, and the next
+        recorded appointment tested that distinction.
+      mixed: The inventory includes strengths and difficulties, but a recurring outcome still has several plausible
+        explanations.
+      contradictory: One mistake was converted into a verdict of worthlessness, or an advantage was hidden
+        to make success appear entirely self-made.
+      inconclusive: Nine labels were filled in without examples or an observed follow-up opportunity.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.01'
+      title: Build a personal inventory from ordinary evidence
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: An inventory is a provisional account of evidence, not a character verdict. Strengths and limitations
+          may depend on tools, time and support. An absent observation belongs under unknown, not zero.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: 'Fictional fortnight: Jo kept three appointments using reminders, arrived 12 minutes late once
+          after an extra agreed care task, and missed one reminder because the device battery failed. A neighbor
+          freely provided one lift; other journeys used the regular bus. Jo enjoys planning but fears disappointing
+          people. No trauma history, health diagnosis or income facts are supplied.'
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Fill the nine headings with supported facts or unknowns. Rewrite “always reliable” and “hopelessly
+          irresponsible” proportionately. Choose one practical adjustment rather than nine new goals.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A person completes one task with extensive help and calls themselves either incapable or wholly
+          self-sufficient. What more accurate account fits?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'Three kept, one late and one missed reminder do not support either global label. Reminder use,
+          care demands and transport help belong in the account; causal contributions remain tentative. Later
+          fiction: Jo checks the battery before one new appointment and arrives on time, a single result. Partial:
+          list only favorable evidence. Incorrect: invent painful history to fill every heading.'
+        criteria:
+        - Statements trace to observations
+        - Both favorable and adverse evidence remain
+        - Unknowns do not become identity claims
+      - id: changed-case-check
+        title: Check the changed case
+        body: Name the completed task, the person’s contribution and the actual help. One supported result
+          establishes neither global incapacity nor independence in all settings.
+        criteria:
+        - Statements trace to observations
+        - Both favorable and adverse evidence remain
+        - Unknowns do not become identity claims
   '05.02':
-    title: "Retell a life chapter with agency and circumstance"
-    goal: "Create a balanced account of one life chapter that includes choices, help, constraints, chance and change without forcing a heroic or failed-self story."
-    scope_note: "A short chapter practices narrative balance; it cannot verify uncertain memories, recover hidden history or explain an entire identity. There is no required redemptive ending."
-    burden: "About 25 minutes to draft and revise, then a 10-minute reread on another day."
-    setup: "Choose a manageable chapter such as learning a hobby, moving rooms, or joining a group. Draw three points: before, turning point, and now. Use a fictional learner if personal history feels too exposed."
+    title: Retell a life chapter with agency and circumstance
+    goal: Create a balanced account of one life chapter that includes choices, help, constraints, chance and
+      change without forcing a heroic or failed-self story.
+    scope_note: A short chapter practices narrative balance; it cannot verify uncertain memories, recover hidden
+      history or explain an entire identity. There is no required redemptive ending.
+    burden: About 25 minutes to draft and revise, then a 10-minute reread on another day.
+    setup: 'Choose a manageable chapter such as learning a hobby, moving rooms, or joining a group. Draw three
+      points: before, turning point, and now. Use a fictional learner if personal history feels too exposed.
+      The learning guide contains a complete fictional practice and a separate changed-case check. Choose that
+      route when a real situation is unavailable; its results are rehearsal, not performed real-world work.'
     actions:
-      - title: "Write the chapter without a final verdict"
-        instructions: "Describe what happened at each of the three points. Mark remembered events, interpretation, and uncertain details separately. Include a choice you made, a circumstance you did not choose, help received, and something that went differently than hoped. Harm may be acknowledged without detail; do not invent harm or require gratitude for it."
-        checks: [Three moments have concrete events, Memory and interpretation are separated, Agency help and unchosen circumstances are included]
-      - title: "Restore what the first telling left out"
-        instructions: "Underline places where the narrator becomes only a hero, victim, failure or exceptional case. Add one omitted fact that complicates that role without denying responsibility or real harm. For example, I taught myself the instrument can become I practiced persistently using a borrowed instrument and a friend's corrections. Keep an unresolved loss unresolved."
-        checks: [A one-sided role is identified, An omitted fact changes the account, Responsibility and real constraints remain visible]
-      - title: "Let the ending stay revisable"
-        instructions: "Reread the account on another day. Write what changed in your conduct or understanding, what has not changed, and one next ordinary choice the chapter informs. If the story now sounds too neat, restore the uncertainty. Finish with a possible next chapter rather than a prediction that your identity is fixed."
-        checks: [A later reread informs the ending, Change and continuity are both named, A next choice leaves room for revision]
-    adaptation: "Use a three-picture sequence or a private voice note. No public storytelling, confrontation, forgiveness, disclosure of harm, or positive reinterpretation of adversity is required. Fiction exercises interpretation only."
-    review: "What became more truthful when you included both your choices and the conditions around them?"
+    - title: Write the chapter without a final verdict
+      instructions: Describe what happened at each of the three points. Mark remembered events, interpretation,
+        and uncertain details separately. Include a choice you made, a circumstance you did not choose, help
+        received, and something that went differently than hoped. Harm may be acknowledged without detail;
+        do not invent harm or require gratitude for it.
+      checks:
+      - Three moments have concrete events
+      - Memory and interpretation are separated
+      - Agency help and unchosen circumstances are included
+    - title: Restore what the first telling left out
+      instructions: Underline places where the narrator becomes only a hero, victim, failure or exceptional
+        case. Add one omitted fact that complicates that role without denying responsibility or real harm.
+        For example, I taught myself the instrument can become I practiced persistently using a borrowed instrument
+        and a friend's corrections. Keep an unresolved loss unresolved.
+      checks:
+      - A one-sided role is identified
+      - An omitted fact changes the account
+      - Responsibility and real constraints remain visible
+    - title: Let the ending stay revisable
+      instructions: Reread the account on another day. Write what changed in your conduct or understanding,
+        what has not changed, and one next ordinary choice the chapter informs. If the story now sounds too
+        neat, restore the uncertainty. Finish with a possible next chapter rather than a prediction that your
+        identity is fixed.
+      checks:
+      - A later reread informs the ending
+      - Change and continuity are both named
+      - A next choice leaves room for revision
+    adaptation: Use a three-picture sequence or a private voice note. No public storytelling, confrontation,
+      forgiveness, disclosure of harm, or positive reinterpretation of adversity is required. Fiction exercises
+      interpretation only.
+    review: What became more truthful when you included both your choices and the conditions around them?
     examples:
-      supportive: "A learning story retained persistence, acknowledged instruction and access, and included an unresolved setback."
-      mixed: "The revised story includes help but still treats every later event as inevitable."
-      contradictory: "The story excuses a harmful choice by deleting agency or pressures its author to call mistreatment a gift."
-      inconclusive: "A polished slogan replaced the chapter without examining any event."
+      supportive: A learning story retained persistence, acknowledged instruction and access, and included
+        an unresolved setback.
+      mixed: The revised story includes help but still treats every later event as inevitable.
+      contradictory: The story excuses a harmful choice by deleting agency or pressures its author to call
+        mistreatment a gift.
+      inconclusive: A polished slogan replaced the chapter without examining any event.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.02'
+      title: Retell a life chapter with agency and circumstance
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: A life narrative selects events and meaning. A fair revision adds agency, constraint and received
+          help without turning every loss into growth or every contribution into solitary heroism.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: 'Complete fictional chapter: before joining a drawing group, Rae practiced alone using a borrowed
+          pencil and free library pages. At the turning point a friend offered two specific shading corrections;
+          Rae practiced them for three evenings. Now Rae can shade one simple form but still finds proportion
+          difficult. One exhibition invitation was missed because transport was unavailable. No award or further
+          feedback exists.'
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Write before/turning-point/now, separating events from interpretation. Correct “I mastered drawing
+          alone” without erasing Rae’s effort or the missed opportunity.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A narrative accurately names a structural barrier but omits the person’s actual preparation and
+          request for help. What can be added without blaming them for the barrier?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'A fair account credits practice, borrowed materials and feedback, limits the skill to one form
+          and retains the transport loss. Partial: add help but still claim mastery. Incorrect: recast the
+          missed exhibition as necessary for growth without evidence. Later fiction: Rae accepts an accessible
+          text demonstration and makes one improved form; long-term development remains unknown.'
+        criteria:
+        - Events and interpretation are distinguishable
+        - Agency and received support coexist
+        - Remaining difficulty or loss is retained
+      - id: changed-case-check
+        title: Check the changed case
+        body: Add those actions as agency within the constraint. They neither caused nor removed every external
+          condition; a richer narrative need not choose between total hero and total victim.
+        criteria:
+        - Events and interpretation are distinguishable
+        - Agency and received support coexist
+        - Remaining difficulty or loss is retained
   '05.03':
-    title: "Find where a strength works and a limit needs support"
-    goal: "Use a small performance comparison to distinguish capability, energy, environment and support, then adapt one role or task accordingly."
-    scope_note: "Two ordinary sessions can suggest a better fit; they do not establish a stable trait, disability, career verdict or causal effect. Accommodations and assistance remain legitimate parts of performance."
-    burden: "Two 10–20 minute task sessions on different occasions and a 10-minute comparison."
-    setup: "Choose a harmless repeatable task, such as summarizing a short text or arranging a shelf. Keep necessary aids. Define one visible result, such as three accurate points or items easy to retrieve, and note available time and energy."
+    title: Find where a strength works and a limit needs support
+    goal: Use a small performance comparison to distinguish capability, energy, environment and support, then
+      adapt one role or task accordingly.
+    scope_note: Two ordinary sessions can suggest a better fit; they do not establish a stable trait, disability,
+      career verdict or causal effect. Accommodations and assistance remain legitimate parts of performance.
+    burden: Two 10–20 minute task sessions on different occasions and a 10-minute comparison.
+    setup: Choose a harmless repeatable task, such as summarizing a short text or arranging a shelf. Keep necessary
+      aids. Define one visible result, such as three accurate points or items easy to retrieve, and note available
+      time and energy. The learning guide contains a complete fictional practice and a separate changed-case
+      check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+      real-world work.
     actions:
-      - title: "Describe the task and its operating conditions"
-        instructions: "Name a capability the task uses, a part you find harder, and one constraint such as interruptions, reach, language or fatigue. Before the first session, state the visible result you will check. Complete the short session and record the result, effort and help used, including a strength that contributed."
-        checks: [A visible task result is defined before the session, Capability and constraint are distinguished, First-session result effort and help are recorded]
-      - title: "Try a supported version of the difficult part"
-        instructions: "Keep the same kind of task and change one feasible support: a quieter time, a written checklist, accessible placement or a smaller step. Practice the difficult component once with that support. Record the same result and effort checks, plus anything else that differed between sessions. Do not remove a needed aid to prove independence."
-        checks: [One deliberate support change is tried, The difficult component receives a bounded attempt, Comparable results and other changed conditions are recorded]
-      - title: "Write a usable fit recommendation"
-        instructions: "Compare both attempts. Write I can contribute X under conditions Y; I need support Z; I will develop W through this small next step. Name one alternative explanation for the difference and the next opportunity that could test the recommendation. Keep it provisional if the sessions disagree."
-        checks: [The recommendation connects contribution and conditions, A supported development step is specified, An alternative explanation limits the conclusion]
-    adaptation: "Use seated, spoken, tactile or assisted work suited to you. Scale the task down rather than pushing through pain or exhaustion. Planning an inaccessible task is preparation and cannot substitute for the two performance observations."
-    review: "What should you use deliberately, what should you design around, and what deserves another supported attempt?"
+    - title: Describe the task and its operating conditions
+      instructions: Name a capability the task uses, a part you find harder, and one constraint such as interruptions,
+        reach, language or fatigue. Before the first session, state the visible result you will check. Complete
+        the short session and record the result, effort and help used, including a strength that contributed.
+      checks:
+      - A visible task result is defined before the session
+      - Capability and constraint are distinguished
+      - First-session result effort and help are recorded
+    - title: Try a supported version of the difficult part
+      instructions: 'Keep the same kind of task and change one feasible support: a quieter time, a written
+        checklist, accessible placement or a smaller step. Practice the difficult component once with that
+        support. Record the same result and effort checks, plus anything else that differed between sessions.
+        Do not remove a needed aid to prove independence.'
+      checks:
+      - One deliberate support change is tried
+      - The difficult component receives a bounded attempt
+      - Comparable results and other changed conditions are recorded
+    - title: Write a usable fit recommendation
+      instructions: Compare both attempts. Write I can contribute X under conditions Y; I need support Z; I
+        will develop W through this small next step. Name one alternative explanation for the difference and
+        the next opportunity that could test the recommendation. Keep it provisional if the sessions disagree.
+      checks:
+      - The recommendation connects contribution and conditions
+      - A supported development step is specified
+      - An alternative explanation limits the conclusion
+    adaptation: Use seated, spoken, tactile or assisted work suited to you. Scale the task down rather than
+      pushing through pain or exhaustion. Planning an inaccessible task is preparation and cannot substitute
+      for the two performance observations.
+    review: What should you use deliberately, what should you design around, and what deserves another supported
+      attempt?
     examples:
-      supportive: "A checklist reduced missing steps while a verbal explanation used an existing strength; the participant kept both supports for another trial."
-      mixed: "The second result improved, but better sleep and a simpler text make the reason uncertain."
-      contradictory: "A necessary aid was removed or one difficult session was used to declare permanent incapacity."
-      inconclusive: "A preferred role was chosen without trying or observing the task."
+      supportive: A checklist reduced missing steps while a verbal explanation used an existing strength; the
+        participant kept both supports for another trial.
+      mixed: The second result improved, but better sleep and a simpler text make the reason uncertain.
+      contradictory: A necessary aid was removed or one difficult session was used to declare permanent incapacity.
+      inconclusive: A preferred role was chosen without trying or observing the task.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.03'
+      title: Find where a strength works and a limit needs support
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: A useful strength/limit comparison keeps a visible task standard and records help. A better result
+          after a support change suggests fit; it does not isolate a cause if other conditions also changed.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: 'Complete text A: “The reading circle meets Tuesday at 16:00 in Room C. Bring a pencil. The previous
+          Room B notice is cancelled.” Target: accurately preserve day/time, current room and required preparation.
+          Text B for another attempt: “The repair discussion meets Thursday at 10:00 in Room F. Read the one-page
+          agenda first. The previous Room E notice is cancelled.” Use an accessible reading mode; no speed
+          target.'
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Summarize A in three factual points, then use a checklist for B. Keep the two outputs, help used
+          and any context difference before checking.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: 'Text C: “Map exchange: Friday 12:00, Hall J. Bring nothing; the host supplies paper.” Give the
+          three required points and reject one likely carryover error.'
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'A: Tuesday 16:00, Room C, pencil. B: Thursday 10:00, Room F, agenda first. Grouping day/time
+          as one point is allowed. Partial: retain two facts but omit preparation. Incorrect: keep the cancelled
+          room. Later fiction: A omitted preparation, B included all three with the checklist; different text
+          prevents isolating its effect. No aid needs removal to make learning count.'
+        criteria:
+        - All target facts are preserved
+        - Superseded or imported details are rejected
+        - Support and context remain in the comparison
+      - id: changed-case-check
+        title: Check the changed case
+        body: Friday 12:00; Hall J; no materials required from the participant. A pencil or pre-read agenda
+          requirement imported from A/B is wrong. This checks the new text, not general intelligence.
+        criteria:
+        - All target facts are preserved
+        - Superseded or imported details are rejected
+        - Support and context remain in the comparison
   '05.04':
-    title: "Test a personality label against two ordinary situations"
-    goal: "Turn a personality description into a revisable prediction, seek a counterexample and practice one capacity the label might otherwise discourage."
-    scope_note: "This tests one practical prediction, not the validity of a personality instrument. Different models are not interchangeable; no type, attachment label or trait score establishes destiny or diagnosis."
-    burden: "About 15 minutes of preparation, two ordinary opportunities, and a 10-minute comparison."
-    setup: "Choose a label you already use, or the ordinary statement I prefer to prepare before speaking. No paid questionnaire is needed. Use low-stakes settings such as a familiar discussion and a short planning conversation."
+    title: Test a personality label against two ordinary situations
+    goal: Turn a personality description into a revisable prediction, seek a counterexample and practice one
+      capacity the label might otherwise discourage.
+    scope_note: This tests one practical prediction, not the validity of a personality instrument. Different
+      models are not interchangeable; no type, attachment label or trait score establishes destiny or diagnosis.
+    burden: About 15 minutes of preparation, two ordinary opportunities, and a 10-minute comparison.
+    setup: Choose a label you already use, or the ordinary statement I prefer to prepare before speaking. No
+      paid questionnaire is needed. Use low-stakes settings such as a familiar discussion and a short planning
+      conversation. The learning guide contains a complete fictional practice and a separate changed-case check.
+      Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+      work.
     actions:
-      - title: "Make the label risk being wrong"
-        instructions: "Translate the label into a specific prediction and name the context: without notes I expect to struggle to make one useful contribution. Write what an observer could notice and what would contradict the prediction. Distinguish a preference, a learned skill, and a constraint; the label alone cannot decide which explains the behavior."
-        checks: [A label becomes a context-specific prediction, An observable counterexample is stated, Preference skill and constraint are distinguished]
-      - title: "Observe a usual and a contrasting opportunity"
-        instructions: "Use two safe everyday opportunities with different demands. In each, record whether the predicted behavior occurred, what preparation or support was available, and one exception. Do not manipulate others or force unwanted social exposure. If the opportunities do not differ meaningfully, say that the contrast remains untested."
-        checks: [Two opportunities are described with their conditions, Predicted behavior and exceptions are recorded, Limits of the comparison are explicit]
-      - title: "Practice a capacity outside the label"
-        instructions: "Choose one modest opposite capacity suggested by the comparison. A habitual preparer might ask one unplanned clarifying question; an improviser might use three written points. Try it once, record usefulness and cost, and rewrite the label as a conditional description that includes what you can practice. An uncomfortable attempt need not be repeated."
-        checks: [A contrasting capacity receives an actual attempt, Usefulness and cost are considered, The identity description becomes conditional]
-    adaptation: "Use writing instead of speech or a trusted person's consented role-play. Role-play tests rehearsal only. Do not reinterpret disability, access needs, distress or a clinician's advice as a personality obstacle to overcome."
-    review: "Where did the label help you predict, where did it fail, and what option does the revised description leave open?"
+    - title: Make the label risk being wrong
+      instructions: 'Translate the label into a specific prediction and name the context: without notes I expect
+        to struggle to make one useful contribution. Write what an observer could notice and what would contradict
+        the prediction. Distinguish a preference, a learned skill, and a constraint; the label alone cannot
+        decide which explains the behavior.'
+      checks:
+      - A label becomes a context-specific prediction
+      - An observable counterexample is stated
+      - Preference skill and constraint are distinguished
+    - title: Observe a usual and a contrasting opportunity
+      instructions: Use two safe everyday opportunities with different demands. In each, record whether the
+        predicted behavior occurred, what preparation or support was available, and one exception. Do not manipulate
+        others or force unwanted social exposure. If the opportunities do not differ meaningfully, say that
+        the contrast remains untested.
+      checks:
+      - Two opportunities are described with their conditions
+      - Predicted behavior and exceptions are recorded
+      - Limits of the comparison are explicit
+    - title: Practice a capacity outside the label
+      instructions: Choose one modest opposite capacity suggested by the comparison. A habitual preparer might
+        ask one unplanned clarifying question; an improviser might use three written points. Try it once, record
+        usefulness and cost, and rewrite the label as a conditional description that includes what you can
+        practice. An uncomfortable attempt need not be repeated.
+      checks:
+      - A contrasting capacity receives an actual attempt
+      - Usefulness and cost are considered
+      - The identity description becomes conditional
+    adaptation: Use writing instead of speech or a trusted person's consented role-play. Role-play tests rehearsal
+      only. Do not reinterpret disability, access needs, distress or a clinician's advice as a personality
+      obstacle to overcome.
+    review: Where did the label help you predict, where did it fail, and what option does the revised description
+      leave open?
     examples:
-      supportive: "The preparer contributed a useful question without notes and changed always need preparation to prefer notes for unfamiliar presentations."
-      mixed: "The label predicted one situation but noise and familiarity may explain the other."
-      contradictory: "A type was used to excuse dismissing others or to require an inaccessible activity."
-      inconclusive: "A quiz result was repeated without a prediction, comparison or attempted contrasting capacity."
+      supportive: The preparer contributed a useful question without notes and changed always need preparation
+        to prefer notes for unfamiliar presentations.
+      mixed: The label predicted one situation but noise and familiarity may explain the other.
+      contradictory: A type was used to excuse dismissing others or to require an inaccessible activity.
+      inconclusive: A quiz result was repeated without a prediction, comparison or attempted contrasting capacity.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.04'
+      title: Test a personality label against two ordinary situations
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: A preference is what someone tends to choose; skill is what they can perform under stated conditions;
+          an access constraint limits the available mode or opportunity. A personality label cannot substitute
+          for those distinctions.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: Fictional Jo says “I am a quiet person.” In a familiar meeting with an agenda Jo speaks twice
+          accurately after preparation. In a new meeting without a readable agenda Jo contributes nothing aloud
+          but later sends an accurate written question. Jo says writing is preferred and that the missing readable
+          agenda was a barrier. No test score or diagnosis is supplied.
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Compare a prediction from the label with both records. Separate preference, demonstrated performance
+          and the reported access issue; name a new bounded question to investigate.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A person prefers written feedback but gives a clear spoken explanation when asked in a suitable
+          setting. Is the preference disproved?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'The global prediction “never contributes” fails. Speaking occurred with preparation; writing
+          is a stated preference; unreadable information is a specific barrier. Silence does not establish
+          lack of interest or ability. Partial: identify the exception but ignore access. Incorrect: diagnose
+          from two meetings. Later compare another willingly chosen accessible setting, keeping the prediction
+          modest.'
+        criteria:
+        - Preference skill and access are separated
+        - Predictions are checked against exceptions
+        - A label is not a diagnosis or destiny
+      - id: changed-case-check
+        title: Check the changed case
+        body: No. Preference is not inability. Preserve the successful spoken example and the person’s stated
+          preferred route without forcing future performance in that mode.
+        criteria:
+        - Preference skill and access are separated
+        - Predictions are checked against exceptions
+        - A label is not a diagnosis or destiny
   '05.05':
-    title: "Catch one excuse before it replaces an honest response"
-    goal: "Notice a possible avoidance or self-protective explanation in an ordinary moment and choose a more accurate, responsible response."
-    scope_note: "This examines one observable habit of explanation. It does not diagnose an unconscious defense, expose hidden motives or require you to accept someone else's accusation."
-    burden: "About 15 minutes of preparation, one natural opportunity, and a brief private review."
-    setup: "Choose a low-stakes unfinished task or minor correction. Use the default case of delaying a short message while repeatedly polishing it. Keep legitimate constraints such as safety, access, care and workload visible."
+    title: Catch one excuse before it replaces an honest response
+    goal: Notice a possible avoidance or self-protective explanation in an ordinary moment and choose a more
+      accurate, responsible response.
+    scope_note: This examines one observable habit of explanation. It does not diagnose an unconscious defense,
+      expose hidden motives or require you to accept someone else's accusation.
+    burden: About 15 minutes of preparation, one natural opportunity, and a brief private review.
+    setup: Choose a low-stakes unfinished task or minor correction. Use the default case of delaying a short
+      message while repeatedly polishing it. Keep legitimate constraints such as safety, access, care and workload
+      visible. The learning guide contains a complete fictional practice and a separate changed-case check.
+      Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+      work.
     actions:
-      - title: "Compare the explanation with the sequence of actions"
-        instructions: "Write the task, what you did instead, and the explanation you gave yourself. Ask what facts support it and what facts it leaves out. In the message case, distinguishing an unclear request from fear of an imperfect reply prevents both unfair self-blame and an automatic excuse. Offer two possible explanations rather than claiming to know a hidden motive."
-        checks: [Actions and explanation are recorded separately, Supporting and omitted facts are considered, Two plausible explanations remain distinguishable]
-      - title: "Use an honest sentence at the next cue"
-        instructions: "Choose a visible cue, such as opening the draft for another unnecessary rewrite. At the next natural occurrence, pause and state the narrower truth privately: I have enough information for a short reply, but I am reluctant to send it. Then send a reasonable reply, ask one necessary question, or state an actual capacity limit. Do not manufacture a conflict to obtain evidence."
-        checks: [A natural cue is noticed during an attempt, A narrower honest statement replaces the first explanation, A proportionate response is taken]
-      - title: "Review the response without creating a new excuse"
-        instructions: "Record what happened after your response and whether the original explanation still fits. If someone was affected, consider a brief correction or repair within your responsibility; do not demand reassurance. Identify the next early cue and one condition under which pausing or declining would be reasonable rather than avoidance."
-        checks: [The response has an observed consequence, Responsibility is considered without demanding reassurance, Legitimate limits are distinguished from the repeated excuse]
-    adaptation: "Use an impersonal scheduling task and private shorthand. Rehearse the supplied draft-message case if no real cue occurs, labeling it rehearsal. Stop if the task invites rumination, forced confession or unsafe disclosure."
-    review: "What became more honest at the cue, and how can you keep both accountability and legitimate limits?"
+    - title: Compare the explanation with the sequence of actions
+      instructions: Write the task, what you did instead, and the explanation you gave yourself. Ask what facts
+        support it and what facts it leaves out. In the message case, distinguishing an unclear request from
+        fear of an imperfect reply prevents both unfair self-blame and an automatic excuse. Offer two possible
+        explanations rather than claiming to know a hidden motive.
+      checks:
+      - Actions and explanation are recorded separately
+      - Supporting and omitted facts are considered
+      - Two plausible explanations remain distinguishable
+    - title: Use an honest sentence at the next cue
+      instructions: 'Choose a visible cue, such as opening the draft for another unnecessary rewrite. At the
+        next natural occurrence, pause and state the narrower truth privately: I have enough information for
+        a short reply, but I am reluctant to send it. Then send a reasonable reply, ask one necessary question,
+        or state an actual capacity limit. Do not manufacture a conflict to obtain evidence.'
+      checks:
+      - A natural cue is noticed during an attempt
+      - A narrower honest statement replaces the first explanation
+      - A proportionate response is taken
+    - title: Review the response without creating a new excuse
+      instructions: Record what happened after your response and whether the original explanation still fits.
+        If someone was affected, consider a brief correction or repair within your responsibility; do not demand
+        reassurance. Identify the next early cue and one condition under which pausing or declining would be
+        reasonable rather than avoidance.
+      checks:
+      - The response has an observed consequence
+      - Responsibility is considered without demanding reassurance
+      - Legitimate limits are distinguished from the repeated excuse
+    adaptation: Use an impersonal scheduling task and private shorthand. Rehearse the supplied draft-message
+      case if no real cue occurs, labeling it rehearsal. Stop if the task invites rumination, forced confession
+      or unsafe disclosure.
+    review: What became more honest at the cue, and how can you keep both accountability and legitimate limits?
     examples:
-      supportive: "The writer noticed a fourth cosmetic edit, sent a concise accurate reply, and retained a genuine boundary on additional work."
-      mixed: "An excuse was noticed only afterward; the next cue is clearer but the real-time alternative remains untested."
-      contradictory: "Every reluctance was labeled cowardice or another person's criticism was treated as certain knowledge of hidden motives."
-      inconclusive: "A defense was named in general without an observable moment or different response."
+      supportive: The writer noticed a fourth cosmetic edit, sent a concise accurate reply, and retained a
+        genuine boundary on additional work.
+      mixed: An excuse was noticed only afterward; the next cue is clearer but the real-time alternative remains
+        untested.
+      contradictory: Every reluctance was labeled cowardice or another person's criticism was treated as certain
+        knowledge of hidden motives.
+      inconclusive: A defense was named in general without an observable moment or different response.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.05'
+      title: Catch one excuse before it replaces an honest response
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: Self-deception substitutes a convenient account for a checkable one. Perfectionistic delay endlessly
+          polishes sufficient work; blame ignores one’s available action; control disguises preference as necessity;
+          withdrawal avoids a safe owed response; intellectualization discusses principles instead of the concrete
+          task; performative humility seeks reassurance instead of correction. These are hypotheses about behavior,
+          not diagnoses or proof of hidden motives.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: 'Request received 09:00: “Can you attend the optional planning call Friday 14:00? Please answer
+          by 16:00 today.” Jo knows a prior appointment conflicts. Draft at 10:00: “Thank you; I cannot attend
+          Friday 14:00.” Jo rewrites it six times without adding information. No safety, privacy or access
+          barrier is supplied.'
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Identify the narrow observable problem, an alternative explanation you would check in a real
+          case, and a truthful response. Do not infer character from one delay.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A person says “I am so useless; reassure me” after a correctable typo, but never checks the correction.
+          What task-focused response would help?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'The draft already answers accurately; send it through the normal route or state a real newly
+          discovered constraint. Later fiction: Jo sends 10:10, still feels awkward, and receives no reply.
+          Partial: recognize delay but keep rewriting. Incorrect: blame the recipient for an unreadable request
+          or invent attendance. For another pattern, pick its observable cue and an equally concrete honest
+          alternative; do not label every hesitation avoidance.'
+        criteria:
+        - Observable behavior is separated from motive claims
+        - The honest alternative addresses the actual request
+        - Legitimate constraints remain possible
+      - id: changed-case-check
+        title: Check the changed case
+        body: Acknowledge the feeling without endorsing the global verdict; check and correct the typo, with
+          proportionate responsibility. Reassurance alone does not perform the correction, and one exchange
+          does not prove a personality pattern.
+        criteria:
+        - Observable behavior is separated from motive claims
+        - The honest alternative addresses the actual request
+        - Legitimate constraints remain possible
   '05.06':
-    title: "Map an ordinary reaction and try an earlier response"
-    goal: "Trace a recurring everyday reaction from situation through early cue to consequence, then test one feasible alternative before the usual pattern completes."
-    scope_note: "This is a small observation of an ordinary habit, not trauma processing, exposure therapy or an explanation of a mental health condition. A pattern map is a hypothesis about these occasions."
-    burden: "About 15 minutes to compare two past occasions, one naturally occurring opportunity, and a five-minute review."
-    setup: "Use a manageable annoyance such as agreeing too quickly to a minor request or withdrawing when a plan changes. Avoid frightening, traumatic, abusive or overwhelming situations; choose a neutral fictional scheduling example instead."
+    title: Map an ordinary reaction and try an earlier response
+    goal: Trace a recurring everyday reaction from situation through early cue to consequence, then test one
+      feasible alternative before the usual pattern completes.
+    scope_note: This is a small observation of an ordinary habit, not trauma processing, exposure therapy or
+      an explanation of a mental health condition. A pattern map is a hypothesis about these occasions.
+    burden: About 15 minutes to compare two past occasions, one naturally occurring opportunity, and a five-minute
+      review.
+    setup: Use a manageable annoyance such as agreeing too quickly to a minor request or withdrawing when a
+      plan changes. Avoid frightening, traumatic, abusive or overwhelming situations; choose a neutral fictional
+      scheduling example instead. The learning guide contains a complete fictional practice and a separate
+      changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+      not performed real-world work.
     actions:
-      - title: "Locate the earliest observable link"
-        instructions: "For two ordinary occasions, record the situation, earliest noticed thought or bodily cue, action, immediate result and later cost. Include a non-triggering exception if available. For a rushed request, the cue might be typing yes before checking the calendar. Keep uncertain sensations or motives marked uncertain."
-        checks: [Two occasions include cue action and consequences, An exception or lack of one is recorded, The earliest usable cue is identified]
-      - title: "Prepare and try a smaller alternative"
-        instructions: "At that cue, use one concrete alternative: check availability before replying, ask for the request in writing, or say I will answer after checking. Rehearse the sentence once, then try it only at a naturally occurring safe opportunity. Record whether the cue was noticed in time and what you actually did; do not deliberately provoke the reaction."
-        checks: [An alternative is rehearsed in concrete terms, A safe natural opportunity is attempted or remains unavailable, Timing and actual response are recorded]
-      - title: "Revise the map using what happened"
-        instructions: "Compare the alternative's immediate and later results with the earlier occasions. Keep, simplify or replace the response, and name a resource or condition that made it easier or harder. If the cue was missed, move the reminder earlier; if no opportunity occurred, retain an untested plan rather than claiming a successful change."
-        checks: [Immediate and later consequences are compared, A response revision follows the observation, Untested or missed opportunities remain explicit]
-    adaptation: "Use words, icons or a trusted person's voluntary practical help. No breath control, bodily monitoring or eye closing is required. If the reaction is overwhelming, stop the exercise and seek support appropriate to the situation; repeating distress is not progress."
-    review: "Which earlier cue gives you a usable choice, and what remains uncertain about the pattern?"
+    - title: Locate the earliest observable link
+      instructions: For two ordinary occasions, record the situation, earliest noticed thought or bodily cue,
+        action, immediate result and later cost. Include a non-triggering exception if available. For a rushed
+        request, the cue might be typing yes before checking the calendar. Keep uncertain sensations or motives
+        marked uncertain.
+      checks:
+      - Two occasions include cue action and consequences
+      - An exception or lack of one is recorded
+      - The earliest usable cue is identified
+    - title: Prepare and try a smaller alternative
+      instructions: 'At that cue, use one concrete alternative: check availability before replying, ask for
+        the request in writing, or say I will answer after checking. Rehearse the sentence once, then try it
+        only at a naturally occurring safe opportunity. Record whether the cue was noticed in time and what
+        you actually did; do not deliberately provoke the reaction.'
+      checks:
+      - An alternative is rehearsed in concrete terms
+      - A safe natural opportunity is attempted or remains unavailable
+      - Timing and actual response are recorded
+    - title: Revise the map using what happened
+      instructions: Compare the alternative's immediate and later results with the earlier occasions. Keep,
+        simplify or replace the response, and name a resource or condition that made it easier or harder. If
+        the cue was missed, move the reminder earlier; if no opportunity occurred, retain an untested plan
+        rather than claiming a successful change.
+      checks:
+      - Immediate and later consequences are compared
+      - A response revision follows the observation
+      - Untested or missed opportunities remain explicit
+    adaptation: Use words, icons or a trusted person's voluntary practical help. No breath control, bodily
+      monitoring or eye closing is required. If the reaction is overwhelming, stop the exercise and seek support
+      appropriate to the situation; repeating distress is not progress.
+    review: Which earlier cue gives you a usable choice, and what remains uncertain about the pattern?
     examples:
-      supportive: "The person checked a calendar before accepting a request and observed less last-minute rescheduling on that occasion."
-      mixed: "The pause occurred after agreement; the person renegotiated honestly but has not yet tested an earlier pause."
-      contradictory: "A distressing situation was deliberately recreated or the map was used to blame someone for an involuntary response."
-      inconclusive: "Only an emotion name was recorded, without a situation, sequence or attempted alternative."
+      supportive: The person checked a calendar before accepting a request and observed less last-minute rescheduling
+        on that occasion.
+      mixed: The pause occurred after agreement; the person renegotiated honestly but has not yet tested an
+        earlier pause.
+      contradictory: A distressing situation was deliberately recreated or the map was used to blame someone
+        for an involuntary response.
+      inconclusive: Only an emotion name was recorded, without a situation, sequence or attempted alternative.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.06'
+      title: Map an ordinary reaction and try an earlier response
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: A reaction chain includes event, interpretation, body cue, urge, action and consequence. The
+          earliest usable cue is one actually noticed before action, not an earlier signal imagined afterward.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: Fictional first request:09:00 message asks for help;09:00:05 Jo thinks “I must answer yes”;09:00:08
+          hand tightens;09:00:12 Jo agrees;09:05 calendar reveals a conflict. Second ordinary request:11:00
+          message;11:00:06 same thought;11:00:09 Jo notices grip;11:00:12 says “I will check and answer by
+          noon”;11:03 calendar shows no free hour. No emergency or threatening relationship is involved.
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Map both sequences and choose an early response supported by actual noticing. State what changed
+          and what remains uncertain before reading the outcome.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A person notices tension only after saying yes. Can that occasion demonstrate an earlier pause?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'The noticed grip at 11:00:09 precedes the holding reply and can cue checking. Later fiction:
+          Jo declines the unavailable hour at 11:10; no reaction from the requester is supplied. The first
+          agreement still needs appropriate repair. Partial: report only the bodily cue. Incorrect: call the
+          thought a proven cause or claim a changed relationship. Rehearsal alone remains preparation.'
+        criteria:
+        - Timelines determine what was actually available
+        - An earlier response fits a real noticed cue
+        - Consequences and causal limits remain explicit
+      - id: changed-case-check
+        title: Check the changed case
+        body: No. Record late noticing and the actual agreement. A later suitable opportunity may test the
+          cue; do not backdate awareness to make the chain succeed.
+        criteria:
+        - Timelines determine what was actually available
+        - An earlier response fits a real noticed cue
+        - Consequences and causal limits remain explicit
   '05.07':
-    title: "Use one specific piece of feedback without instant rebuttal"
-    goal: "Compare intended and observed impact, represent another person's feedback accurately and test a bounded change while retaining your judgment."
-    scope_note: "One person's observation supplies a perspective on one interaction. It is not an objective identity verdict, and accurately hearing feedback does not require accepting abuse or agreeing with every interpretation."
-    burden: "A voluntary 10-minute exchange, one later interaction, and a five-minute review."
-    setup: "Choose a safe person who can disagree with you and one low-stakes shared event, such as explaining directions or coordinating a plan. Ask whether they are willing to give one concrete observation; a refusal ends the request."
+    title: Use one specific piece of feedback without instant rebuttal
+    goal: Compare intended and observed impact, represent another person's feedback accurately and test a bounded
+      change while retaining your judgment.
+    scope_note: One person's observation supplies a perspective on one interaction. It is not an objective
+      identity verdict, and accurately hearing feedback does not require accepting abuse or agreeing with every
+      interpretation.
+    burden: A voluntary 10-minute exchange, one later interaction, and a five-minute review.
+    setup: Choose a safe person who can disagree with you and one low-stakes shared event, such as explaining
+      directions or coordinating a plan. Ask whether they are willing to give one concrete observation; a refusal
+      ends the request. The learning guide contains a complete fictional practice and a separate changed-case
+      check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+      real-world work.
     actions:
-      - title: "Ask about an event rather than your worth"
-        instructions: "State the event and ask: what did I do that helped, and what made the task harder? Request an example rather than a trait label. Before asking, note your intention privately. Listen to the described behavior and effect without preparing a defense; do not record or upload the person's words or identity."
-        checks: [Feedback is voluntary and about one shared event, An observable example is requested, Intended effect is distinguished from reported impact]
-      - title: "Check understanding before judging the advice"
-        instructions: "Summarize what you heard in your own words and ask whether the summary is accurate. Example: my directions were detailed, but you could not tell which step came first. Separate the observation from an inferred motive or proposed solution. Identify what you accept, question or need to check, without requiring the person to reassure you."
-        checks: [The giver can correct the summary, Observation and interpretation are distinguished, Agreement and uncertainty are both permitted]
-      - title: "Test a small change against the reported effect"
-        instructions: "Choose one change responsive to the example, such as leading with the first step before adding detail. Try it in a comparable ordinary interaction. Check an observable result, and ask for brief follow-up only if welcomed. Retain, revise or reject the change with a reason; missing follow-up is not evidence of success."
-        checks: [A change addresses the specific feedback, A comparable interaction contains an actual attempt, An observed result informs the next decision]
-    adaptation: "Use an accessible written exchange. Without a safe willing person, use the supplied directions example to rehearse listening and revision; label it rehearsal and leave actual interpersonal feedback untested. Never solicit criticism from a coercive person for this exercise."
-    review: "What did you learn about the gap between intention and impact, and which part still needs checking?"
+    - title: Ask about an event rather than your worth
+      instructions: 'State the event and ask: what did I do that helped, and what made the task harder? Request
+        an example rather than a trait label. Before asking, note your intention privately. Listen to the described
+        behavior and effect without preparing a defense; do not record or upload the person''s words or identity.'
+      checks:
+      - Feedback is voluntary and about one shared event
+      - An observable example is requested
+      - Intended effect is distinguished from reported impact
+    - title: Check understanding before judging the advice
+      instructions: 'Summarize what you heard in your own words and ask whether the summary is accurate. Example:
+        my directions were detailed, but you could not tell which step came first. Separate the observation
+        from an inferred motive or proposed solution. Identify what you accept, question or need to check,
+        without requiring the person to reassure you.'
+      checks:
+      - The giver can correct the summary
+      - Observation and interpretation are distinguished
+      - Agreement and uncertainty are both permitted
+    - title: Test a small change against the reported effect
+      instructions: Choose one change responsive to the example, such as leading with the first step before
+        adding detail. Try it in a comparable ordinary interaction. Check an observable result, and ask for
+        brief follow-up only if welcomed. Retain, revise or reject the change with a reason; missing follow-up
+        is not evidence of success.
+      checks:
+      - A change addresses the specific feedback
+      - A comparable interaction contains an actual attempt
+      - An observed result informs the next decision
+    adaptation: Use an accessible written exchange. Without a safe willing person, use the supplied directions
+      example to rehearse listening and revision; label it rehearsal and leave actual interpersonal feedback
+      untested. Never solicit criticism from a coercive person for this exercise.
+    review: What did you learn about the gap between intention and impact, and which part still needs checking?
     examples:
-      supportive: "The summary was corrected, the speaker led with the first step next time, and the listener could begin without another explanation."
-      mixed: "The feedback was summarized accurately, but the next interaction differed too much to assess the change."
-      contradictory: "The giver was pressured to retract feedback, or a demeaning identity label was accepted as established fact."
-      inconclusive: "Advice was collected but no accurate summary or later behavioral attempt occurred."
+      supportive: The summary was corrected, the speaker led with the first step next time, and the listener
+        could begin without another explanation.
+      mixed: The feedback was summarized accurately, but the next interaction differed too much to assess the
+        change.
+      contradictory: The giver was pressured to retract feedback, or a demeaning identity label was accepted
+        as established fact.
+      inconclusive: Advice was collected but no accurate summary or later behavioral attempt occurred.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.07'
+      title: Use one specific piece of feedback without instant rebuttal
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: Feedback can contain an observation, an interpretation and a proposed remedy. Confirm the observation
+          before accepting the remedy, and retain the listener’s actual correction rather than assuming understanding.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: 'Original directions: “The box is near the desk; after returning the key, collect it. The key
+          comes from the staffed desk.” Listener task: collect the empty blue box from shelf A, then return
+          the borrowed key to the staffed desk. Fictional listener says “I cannot tell what I should do first.”
+          The authorized task order above is complete; no real building visit is required.'
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Summarize the feedback, identify the order problem and rewrite the directions. Save the revised
+          wording before inspecting the follow-up.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: Feedback says “your date was wrong” but the dated source confirms it. Must receptivity require
+          accepting the correction?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: '“Collect the empty blue box from shelf A, then return the key to the staffed desk” fits the
+          supplied task. Later fiction: listener confirms the order is clear but asks which shelf in another
+          room; that new room is not supplied and remains unknown. Partial: sympathize without fixing the order.
+          Incorrect: argue that detail proves clarity or invent a shelf for the new room.'
+        criteria:
+        - Observation and interpretation are distinguished
+        - Revision follows the task standard
+        - Accurate disagreement remains possible
+      - id: changed-case-check
+        title: Check the changed case
+        body: No. Check both sources respectfully and identify the discrepancy. Receptivity means examining
+          evidence, not automatic agreement or a defensive claim that all feedback is useless.
+        criteria:
+        - Observation and interpretation are distinguished
+        - Revision follows the task standard
+        - Accurate disagreement remains possible
   '05.08':
-    title: "Respond to an outcome without making it your worth"
-    goal: "Separate an ordinary success or setback from a total judgment of dignity, while preserving realistic responsibility and needed care."
-    scope_note: "This rehearses a response to one outcome. It does not measure self-worth, promise an emotional change or treat persistent distress. Dignity is not an earned score."
-    burden: "About 15 minutes after a manageable outcome and one short later check."
-    setup: "Use a low-stakes event such as receiving praise for a meal or making an error in a hobby. Create two headings: what happened, and what I am making it mean about me. A fictional missed deadline is available if personal reflection feels unsafe."
+    title: Respond to an outcome without making it your worth
+    goal: Separate an ordinary success or setback from a total judgment of dignity, while preserving realistic
+      responsibility and needed care.
+    scope_note: This rehearses a response to one outcome. It does not measure self-worth, promise an emotional
+      change or treat persistent distress. Dignity is not an earned score.
+    burden: About 15 minutes after a manageable outcome and one short later check.
+    setup: 'Use a low-stakes event such as receiving praise for a meal or making an error in a hobby. Create
+      two headings: what happened, and what I am making it mean about me. A fictional missed deadline is available
+      if personal reflection feels unsafe. The learning guide contains a complete fictional practice and a
+      separate changed-case check. Choose that route when a real situation is unavailable; its results are
+      rehearsal, not performed real-world work.'
     actions:
-      - title: "Keep the result smaller than the person"
-        instructions: "Describe the outcome and its concrete consequences without always, never, superior or worthless. Under the second heading, write any total judgment you notice and identify the jump from event to identity. For a success, distinguish satisfaction from entitlement; for an error, distinguish responsibility from condemnation. Noticing no global judgment is also a valid observation."
-        checks: [The outcome has a bounded factual description, A global judgment or its absence is identified, Consequences are separated from dignity]
-      - title: "Choose accountability and ordinary care together"
-        instructions: "Write the response you would consider fair for another person in the same circumstances, then apply that standard to yourself. Take one proportionate action: correct an error, thank someone who helped, or accept praise plainly. Keep an ordinary need such as rest, food or connection available regardless of the result; care is not a reward for achievement."
-        checks: [The same standard can apply to another person, A proportionate responsible action is taken, An ordinary need is not made conditional on achievement]
-      - title: "Check what you did while feelings remained unsettled"
-        instructions: "Later that day or the next, review the action and the remaining feeling separately. Record whether you continued ordinary care and whether any repair remains. Rewrite the conclusion as I did or experienced X; I can respond with Y, leaving your whole worth out of it. Persistent disappointment or pride does not make the practice a failure."
-        checks: [Conduct and remaining feelings are distinguished, Care and any unfinished responsibility are reviewed, The conclusion avoids a total worth verdict]
-    adaptation: "Speak the two headings privately or use a neutral fictional case. No affirmations, disclosure, forced positive feeling or comparison of human value is required. Stop if the topic becomes overwhelming and use support suited to your needs."
-    review: "Can you acknowledge the real result and choose a responsible next action without putting your dignity on trial?"
+    - title: Keep the result smaller than the person
+      instructions: Describe the outcome and its concrete consequences without always, never, superior or worthless.
+        Under the second heading, write any total judgment you notice and identify the jump from event to identity.
+        For a success, distinguish satisfaction from entitlement; for an error, distinguish responsibility
+        from condemnation. Noticing no global judgment is also a valid observation.
+      checks:
+      - The outcome has a bounded factual description
+      - A global judgment or its absence is identified
+      - Consequences are separated from dignity
+    - title: Choose accountability and ordinary care together
+      instructions: 'Write the response you would consider fair for another person in the same circumstances,
+        then apply that standard to yourself. Take one proportionate action: correct an error, thank someone
+        who helped, or accept praise plainly. Keep an ordinary need such as rest, food or connection available
+        regardless of the result; care is not a reward for achievement.'
+      checks:
+      - The same standard can apply to another person
+      - A proportionate responsible action is taken
+      - An ordinary need is not made conditional on achievement
+    - title: Check what you did while feelings remained unsettled
+      instructions: Later that day or the next, review the action and the remaining feeling separately. Record
+        whether you continued ordinary care and whether any repair remains. Rewrite the conclusion as I did
+        or experienced X; I can respond with Y, leaving your whole worth out of it. Persistent disappointment
+        or pride does not make the practice a failure.
+      checks:
+      - Conduct and remaining feelings are distinguished
+      - Care and any unfinished responsibility are reviewed
+      - The conclusion avoids a total worth verdict
+    adaptation: Speak the two headings privately or use a neutral fictional case. No affirmations, disclosure,
+      forced positive feeling or comparison of human value is required. Stop if the topic becomes overwhelming
+      and use support suited to your needs.
+    review: Can you acknowledge the real result and choose a responsible next action without putting your dignity
+      on trial?
     examples:
-      supportive: "A hobby mistake was corrected, ordinary rest continued, and disappointment remained a feeling rather than a verdict on the person."
-      mixed: "The practical response was fair, but a global self-judgment still recurred and was recorded honestly."
-      contradictory: "Care was withheld as punishment or dignity was used as a reason to avoid repairing a real mistake."
-      inconclusive: "A reassuring sentence was copied without examining an outcome or taking a proportionate action."
+      supportive: A hobby mistake was corrected, ordinary rest continued, and disappointment remained a feeling
+        rather than a verdict on the person.
+      mixed: The practical response was fair, but a global self-judgment still recurred and was recorded honestly.
+      contradictory: Care was withheld as punishment or dignity was used as a reason to avoid repairing a real
+        mistake.
+      inconclusive: A reassuring sentence was copied without examining an outcome or taking a proportionate
+        action.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.08'
+      title: Respond to an outcome without making it your worth
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: An outcome can require accountability without determining worth. Equal dignity leaves ordinary
+          care available and also leaves real obligations intact; self-respect is not an exemption from repair.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: Fictional Ari promised a draft by 15:00, forgot, and sends it 16:00. Jo had to delay their own
+          review 30 minutes; no financial loss is supplied. Jo accepts a short acknowledgment and does not
+          request a gift. Ari has an ordinary evening meal and rest planned. A next task is not due until tomorrow.
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Separate event, known impact and identity story. Draft a proportionate response and preserve
+          ordinary care without claiming the mistake did not matter.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A person says “my worth is unconditional, so I need not return the borrowed tool.” What should
+          be corrected?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'Own the missed time and 30-minute impact, acknowledge it and use a suitable future reminder.
+          Later fiction: acknowledgment is received; forgiveness is not reported. Meal and rest remain legitimate.
+          Partial: affirm dignity but omit the missed promise. Incorrect: withhold food or use worth language
+          to deny the effect.'
+        criteria:
+        - Event and identity claims are separated
+        - Accountability remains proportionate
+        - Basic care is not earned through success
+      - id: changed-case-check
+        title: Check the changed case
+        body: Worth is not conditional on the tool, but the actual borrowing obligation remains. Return or
+          appropriately renegotiate it; accountability does not require self-condemnation.
+        criteria:
+        - Event and identity claims are separated
+        - Accountability remains proportionate
+        - Basic care is not earned through success
   '05.09':
-    title: "Give two conflicting needs a place in one small decision"
-    goal: "Recognize the legitimate concern on both sides of an internal tension and try a practical arrangement that does not silence either side."
-    scope_note: "Parts means competing concerns in ordinary language, not a clinical model or separate identities. One arrangement explores one tension; some values cannot be fully satisfied together."
-    burden: "About 20 minutes to design an arrangement, one ordinary trial, and a 10-minute review."
-    setup: "Use the default tension between doing a hobby independently and wanting companionship. Alternatively choose a manageable conflict such as ambition and rest. Draw two columns named for the concerns rather than good self and bad self."
+    title: Give two conflicting needs a place in one small decision
+    goal: Recognize the legitimate concern on both sides of an internal tension and try a practical arrangement
+      that does not silence either side.
+    scope_note: Parts means competing concerns in ordinary language, not a clinical model or separate identities.
+      One arrangement explores one tension; some values cannot be fully satisfied together.
+    burden: About 20 minutes to design an arrangement, one ordinary trial, and a 10-minute review.
+    setup: Use the default tension between doing a hobby independently and wanting companionship. Alternatively
+      choose a manageable conflict such as ambition and rest. Draw two columns named for the concerns rather
+      than good self and bad self. The learning guide contains a complete fictional practice and a separate
+      changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+      not performed real-world work.
     actions:
-      - title: "State each concern in its strongest fair form"
-        instructions: "For each side, write what it protects, what it fears losing, and how it can become excessive. In the hobby case, independence protects choice but can become isolation; belonging protects connection but can become constant permission-seeking. Identify one legitimate need on each side and any non-negotiable practical limit."
-        checks: [Both concerns have a legitimate need, Each concern has a possible excess, Practical limits are explicit]
-      - title: "Build a trial with room for both"
-        instructions: "Design a small arrangement with separate observable room for each need. For example, choose the project privately, then invite a willing friend for one agreed session with an easy refusal. State what is being sacrificed, how much time is available, and when you will stop or revise the trial. Do not make another person responsible for resolving the tension."
-        checks: [The arrangement gives each need a concrete place, A real tradeoff is acknowledged, Consent and a revision point are included]
-      - title: "Try it and listen for the neglected side"
-        instructions: "Carry out the arrangement once. Compare what each side actually received with what you intended, noting effort, resentment or a remaining unmet need without treating those feelings as proof. Change one part of the arrangement for a future attempt, or conclude that a clearer choice is needed rather than a compromise."
-        checks: [The arrangement receives an actual trial, Both needs are reviewed against the experience, The next decision follows the unresolved tradeoff]
-    adaptation: "Use two objects or spoken sentences instead of columns. A solo arrangement can combine independent choice with reading or listening to a community contribution. A fictional trial is design rehearsal, not evidence of an integrated routine."
-    review: "Which concern was easy to dismiss, and what did the trial reveal about a fairer arrangement?"
+    - title: State each concern in its strongest fair form
+      instructions: For each side, write what it protects, what it fears losing, and how it can become excessive.
+        In the hobby case, independence protects choice but can become isolation; belonging protects connection
+        but can become constant permission-seeking. Identify one legitimate need on each side and any non-negotiable
+        practical limit.
+      checks:
+      - Both concerns have a legitimate need
+      - Each concern has a possible excess
+      - Practical limits are explicit
+    - title: Build a trial with room for both
+      instructions: Design a small arrangement with separate observable room for each need. For example, choose
+        the project privately, then invite a willing friend for one agreed session with an easy refusal. State
+        what is being sacrificed, how much time is available, and when you will stop or revise the trial. Do
+        not make another person responsible for resolving the tension.
+      checks:
+      - The arrangement gives each need a concrete place
+      - A real tradeoff is acknowledged
+      - Consent and a revision point are included
+    - title: Try it and listen for the neglected side
+      instructions: Carry out the arrangement once. Compare what each side actually received with what you
+        intended, noting effort, resentment or a remaining unmet need without treating those feelings as proof.
+        Change one part of the arrangement for a future attempt, or conclude that a clearer choice is needed
+        rather than a compromise.
+      checks:
+      - The arrangement receives an actual trial
+      - Both needs are reviewed against the experience
+      - The next decision follows the unresolved tradeoff
+    adaptation: Use two objects or spoken sentences instead of columns. A solo arrangement can combine independent
+      choice with reading or listening to a community contribution. A fictional trial is design rehearsal,
+      not evidence of an integrated routine.
+    review: Which concern was easy to dismiss, and what did the trial reveal about a fairer arrangement?
     examples:
-      supportive: "The participant chose a project independently and shared one welcomed session, then reduced the session length to preserve quiet work."
-      mixed: "Both needs received time, but the transition cost made the arrangement difficult to repeat."
-      contradictory: "One concern was labeled weak or another person was pressured into supplying belonging."
-      inconclusive: "Both needs were named but no arrangement was tried or observed."
+      supportive: The participant chose a project independently and shared one welcomed session, then reduced
+        the session length to preserve quiet work.
+      mixed: Both needs received time, but the transition cost made the arrangement difficult to repeat.
+      contradictory: One concern was labeled weak or another person was pressured into supplying belonging.
+      inconclusive: Both needs were named but no arrangement was tried or observed.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.09'
+      title: Give two conflicting needs a place in one small decision
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: Conflicting needs can both be intelligible. An arrangement should give each observable room while
+          acknowledging tradeoffs and the other person’s freedom; it cannot guarantee belonging.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: Jo wants independent hobby choice and some company. Jo has 45 minutes Saturday, paper and pencil.
+          Jo chooses to draw an imaginary garden privately for 20 minutes. Friend Rae freely offers 15 minutes
+          to look at the drawing without changing it; the remaining 10 minutes are available for a break. If
+          Rae declines later, Jo may read a publicly shared gardening reflection, with no claim of reciprocal
+          interaction.
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Design the two parts, specify authority over the drawing and give a fallback that preserves the
+          difference between reading and company.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A person accepts help with setup while retaining their own artistic choices. Must that mean the
+          independence need was betrayed?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'The45-minute allocation fits; Jo selects the subject and Rae controls participation. Later fiction:
+          Rae cancels; Jo draws 20 minutes, reads 10 and rests 15. Independence was exercised, reciprocal company
+          was not. Partial: call the public reflection a completed friendship exchange. Incorrect: pressure
+          Rae to meet Jo’s emotional need. The unmet desire can remain without invalidating the available activity.'
+        criteria:
+        - Both needs receive concrete consideration
+        - Another person is not assigned an obligation
+        - Fallback evidence has its own honest limits
+      - id: changed-case-check
+        title: Check the changed case
+        body: No. Chosen assistance and self-directed decisions can coexist. Check what control was actually
+          retained and whether the help was welcome, rather than equating independence with doing everything
+          alone.
+        criteria:
+        - Both needs receive concrete consideration
+        - Another person is not assigned an obligation
+        - Fallback evidence has its own honest limits
   '05.10':
-    title: "Practice proportionate self-regard in ordinary exchanges"
-    goal: "Acknowledge your contribution and dependence while responding to correction, help, praise and a lack of recognition without inflation or self-erasure."
-    scope_note: "A small set of exchanges practices proportion, not a humility score. Rehearsed responses remain distinct from live responses, and obscurity is not inherently virtuous."
-    burden: "About 15 minutes of preparation, two brief ordinary occasions, and a 10-minute review."
-    setup: "Choose a shared household, study, hobby or volunteer task. Use a private note with three headings: my contribution, other contributions, and limits. No status loss, humiliation or public confession is required."
+    title: Practice proportionate self-regard in ordinary exchanges
+    goal: Acknowledge your contribution and dependence while responding to correction, help, praise and a lack
+      of recognition without inflation or self-erasure.
+    scope_note: A small set of exchanges practices proportion, not a humility score. Rehearsed responses remain
+      distinct from live responses, and obscurity is not inherently virtuous.
+    burden: About 15 minutes of preparation, two brief ordinary occasions, and a 10-minute review.
+    setup: 'Choose a shared household, study, hobby or volunteer task. Use a private note with three headings:
+      my contribution, other contributions, and limits. No status loss, humiliation or public confession is
+      required. The learning guide contains a complete fictional practice and a separate changed-case check.
+      Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+      work.'
     actions:
-      - title: "Account for your part without claiming the whole result"
-        instructions: "Describe what you actually contributed, one limit or mistake, and help, tools or circumstances that mattered. Practice saying thank you, I did spend time on that when praised, without exaggerating or erasing your work. Also practice acknowledging one specific correction without appending a defense. Mark these sentences as rehearsal."
-        checks: [Your contribution is stated accurately, Dependencies and a limit remain visible, Praise and correction responses are explicitly rehearsed]
-      - title: "Receive correction or useful help in a real task"
-        instructions: "At a safe ordinary opportunity, ask for a concrete check or accept a welcomed offer of help. Clarify what is useful, act on one sound correction or use the help, and acknowledge the contribution. You may question an inaccurate correction or refuse unsuitable help politely; agreement is not the objective."
-        checks: [A real exchange concerns useful help or a concrete check, Your response preserves both judgment and acknowledgment, One practical consequence of the exchange is observed]
-      - title: "Do useful work without using recognition as the verdict"
-        instructions: "Complete one modest appropriate contribution whether or not anyone notices. Record its actual value and cost, then review how you responded to any praise, silence or correction. Do not conceal work needed for fair credit or tolerate exploitation. Name one place where you can claim your part plainly and one where you can recognize dependence."
-        checks: [A bounded contribution is completed, Recognition and actual value are distinguished, Both fair self-credit and dependence appear in the review]
-    adaptation: "Use a private collaborative task or a consented written exchange. If no safe partner is available, rehearse with a supplied correction such as this label is unclear; live help and feedback then remain untested. No deference to mistreatment is required."
-    review: "Where did you inflate or erase your part, and what would a proportionate response sound like next time?"
+    - title: Account for your part without claiming the whole result
+      instructions: Describe what you actually contributed, one limit or mistake, and help, tools or circumstances
+        that mattered. Practice saying thank you, I did spend time on that when praised, without exaggerating
+        or erasing your work. Also practice acknowledging one specific correction without appending a defense.
+        Mark these sentences as rehearsal.
+      checks:
+      - Your contribution is stated accurately
+      - Dependencies and a limit remain visible
+      - Praise and correction responses are explicitly rehearsed
+    - title: Receive correction or useful help in a real task
+      instructions: At a safe ordinary opportunity, ask for a concrete check or accept a welcomed offer of
+        help. Clarify what is useful, act on one sound correction or use the help, and acknowledge the contribution.
+        You may question an inaccurate correction or refuse unsuitable help politely; agreement is not the
+        objective.
+      checks:
+      - A real exchange concerns useful help or a concrete check
+      - Your response preserves both judgment and acknowledgment
+      - One practical consequence of the exchange is observed
+    - title: Do useful work without using recognition as the verdict
+      instructions: Complete one modest appropriate contribution whether or not anyone notices. Record its
+        actual value and cost, then review how you responded to any praise, silence or correction. Do not conceal
+        work needed for fair credit or tolerate exploitation. Name one place where you can claim your part
+        plainly and one where you can recognize dependence.
+      checks:
+      - A bounded contribution is completed
+      - Recognition and actual value are distinguished
+      - Both fair self-credit and dependence appear in the review
+    adaptation: Use a private collaborative task or a consented written exchange. If no safe partner is available,
+      rehearse with a supplied correction such as this label is unclear; live help and feedback then remain
+      untested. No deference to mistreatment is required.
+    review: Where did you inflate or erase your part, and what would a proportionate response sound like next
+      time?
     examples:
-      supportive: "The participant credited their preparation, used a helpful correction, and recognized a colleague's contribution without denying their own."
-      mixed: "Help was used, but disappointment about missing praise remained and was acknowledged."
-      contradictory: "Humility became accepting humiliation, hiding deserved credit or making others reassure the participant."
-      inconclusive: "A modest-sounding statement was rehearsed but neither a real exchange nor a contribution occurred."
+      supportive: The participant credited their preparation, used a helpful correction, and recognized a colleague's
+        contribution without denying their own.
+      mixed: Help was used, but disappointment about missing praise remained and was acknowledged.
+      contradictory: Humility became accepting humiliation, hiding deserved credit or making others reassure
+        the participant.
+      inconclusive: A modest-sounding statement was rehearsed but neither a real exchange nor a contribution
+        occurred.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.10'
+      title: Practice proportionate self-regard in ordinary exchanges
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: Proportionate self-regard recognizes real contribution, help and limits. Accepting a sound correction
+          is different from agreeing with every criticism; humility does not require pretending to have contributed
+          nothing.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: 'Label draft: “Return here later.” Authorized rule: borrowed paper maps go in the blue folder
+          on shelf A before the room closes 18:00; damaged maps go to the staffed desk. Jo wrote the draft,
+          Rae supplied the rule and Kim notices that “here” has no fixed referent. No other contribution or
+          intention is supplied.'
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Judge Kim’s correction against the rule, revise the label and credit contributions accurately.
+          Keep your own actual work in the account.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A critic recommends removing a necessary return deadline to make the label prettier. Does humility
+          require agreement?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'A corrected label specifies blue folder/shelf A/before 18:00 and the damage exception. Kim’s
+          location criticism is sound but does not itself cover timing or damage. Later fiction: one reader
+          follows the correct destination but no real return occurs. Partial: accept praise/criticism without
+          checking the rule. Incorrect: claim sole authorship or deny writing the original text.'
+        criteria:
+        - Contributions and limits are accurately named
+        - Correction is checked against the standard
+        - Humility does not mean automatic agreement
+      - id: changed-case-check
+        title: Check the changed case
+        body: No. Explain the deadline’s actual function and seek a clearer design that preserves it. Respectful
+          evidence-based disagreement can be proportionate self-regard.
+        criteria:
+        - Contributions and limits are accurately named
+        - Correction is checked against the standard
+        - Humility does not mean automatic agreement
   '05.11':
-    title: "Map personal choice and context in one ordinary route"
-    goal: "Explain how access, embodiment, social position and institutions shape a concrete experience while identifying real agency without blaming or reducing a person to a category."
-    scope_note: "One route or process offers a situated example. It does not establish what every member of a group experiences or require disclosure of protected or sensitive identity information."
-    burden: "About 25 minutes to trace a familiar process and one small accessible trial or information check."
-    setup: "Choose an ordinary process you know, such as reaching a library, joining a free event or using a public form. Use a private sketch. Consider time, body and access needs, language, cost, transport, rules and social expectations; unknown is acceptable."
+    title: Map personal choice and context in one ordinary route
+    goal: Explain how access, embodiment, social position and institutions shape a concrete experience while
+      identifying real agency without blaming or reducing a person to a category.
+    scope_note: One route or process offers a situated example. It does not establish what every member of
+      a group experiences or require disclosure of protected or sensitive identity information.
+    burden: About 25 minutes to trace a familiar process and one small accessible trial or information check.
+    setup: Choose an ordinary process you know, such as reaching a library, joining a free event or using a
+      public form. Use a private sketch. Consider time, body and access needs, language, cost, transport, rules
+      and social expectations; unknown is acceptable. The learning guide contains a complete fictional practice
+      and a separate changed-case check. Choose that route when a real situation is unavailable; its results
+      are rehearsal, not performed real-world work.
     actions:
-      - title: "Trace where conditions change the experience"
-        instructions: "Walk through the process on paper from start to finish. At each step note a choice you can make and a condition you do not individually control. Consider whether age, disability, sex, race, class, culture or geography matters in this case without inferring anyone's identity or inventing a barrier. Distinguish observed conditions from questions needing information."
-        checks: [The process has concrete steps, Personal choices and external conditions are distinguished, Observed barriers and unknowns are labeled separately]
-      - title: "Compare a changed condition without impersonating a group"
-        instructions: "Change one condition in the case: the bus does not run at that hour, instructions are unfamiliar, or the entrance requires stairs. Explain how the route changes and what remains possible. Use actual public access information where available, and do not simulate a disability or claim to know a group's lived experience from this thought experiment."
-        checks: [One changed condition has a concrete consequence, Available information and assumptions are separated, The comparison avoids claims about an entire group]
-      - title: "Act where you have agency and name the remaining barrier"
-        instructions: "Try one feasible response: check accessible opening information, request an alternate format, or choose a suitable route. Record the result and anything the individual choice could not resolve. Write a short account linking effort, support and structure; do not turn success into proof that everyone can overcome the same condition."
-        checks: [A feasible response is actually tried, The result and remaining barrier are recorded, The account preserves agency support and structural limits]
-    adaptation: "Use a familiar process from home, public information, dictation or voluntary assistance. No travel, demographic disclosure, discriminatory encounter or test of physical endurance is needed. A wholly fictional case demonstrates analysis only."
-    review: "Which part was yours to choose, which depended on access or institutions, and what would improve the process beyond your individual workaround?"
+    - title: Trace where conditions change the experience
+      instructions: Walk through the process on paper from start to finish. At each step note a choice you
+        can make and a condition you do not individually control. Consider whether age, disability, sex, race,
+        class, culture or geography matters in this case without inferring anyone's identity or inventing a
+        barrier. Distinguish observed conditions from questions needing information.
+      checks:
+      - The process has concrete steps
+      - Personal choices and external conditions are distinguished
+      - Observed barriers and unknowns are labeled separately
+    - title: Compare a changed condition without impersonating a group
+      instructions: 'Change one condition in the case: the bus does not run at that hour, instructions are
+        unfamiliar, or the entrance requires stairs. Explain how the route changes and what remains possible.
+        Use actual public access information where available, and do not simulate a disability or claim to
+        know a group''s lived experience from this thought experiment.'
+      checks:
+      - One changed condition has a concrete consequence
+      - Available information and assumptions are separated
+      - The comparison avoids claims about an entire group
+    - title: Act where you have agency and name the remaining barrier
+      instructions: 'Try one feasible response: check accessible opening information, request an alternate
+        format, or choose a suitable route. Record the result and anything the individual choice could not
+        resolve. Write a short account linking effort, support and structure; do not turn success into proof
+        that everyone can overcome the same condition.'
+      checks:
+      - A feasible response is actually tried
+      - The result and remaining barrier are recorded
+      - The account preserves agency support and structural limits
+    adaptation: Use a familiar process from home, public information, dictation or voluntary assistance. No
+      travel, demographic disclosure, discriminatory encounter or test of physical endurance is needed. A wholly
+      fictional case demonstrates analysis only.
+    review: Which part was yours to choose, which depended on access or institutions, and what would improve
+      the process beyond your individual workaround?
     examples:
-      supportive: "A later opening time made one library route possible, while the review retained the transport barrier for people on other schedules."
-      mixed: "Public information suggested an accessible entrance, but actual access remained unverified."
-      contradictory: "One successful workaround was used to blame others or a presumed identity was treated as the whole explanation."
-      inconclusive: "Identity categories were listed without tracing a process or checking any condition."
+      supportive: A later opening time made one library route possible, while the review retained the transport
+        barrier for people on other schedules.
+      mixed: Public information suggested an accessible entrance, but actual access remained unverified.
+      contradictory: One successful workaround was used to blame others or a presumed identity was treated
+        as the whole explanation.
+      inconclusive: Identity categories were listed without tracing a process or checking any condition.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.11'
+      title: Map personal choice and context in one ordinary route
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: A route combines personal choices with transport, cost, language, access and rules. A thought
+          experiment can expose a dependency without claiming another group’s lived experience.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: 'Complete fictional library route: bus leaves home stop 09:00, arrives 09:20; suitable step-free
+          entrance is 5 minutes away; library opens 09:30. Return bus leaves 10:30, arrives home 10:50. Fare
+          2 units each way; Jo has 5 discretionary units and needs to be home 11:00. A public notice says the
+          borrowed book can be returned at the staffed desk; online renewal is unavailable for this item. No
+          alternative transport is confirmed.'
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: 'Trace time, cost, access and the rule. Then change one fact: the 09:00 bus is cancelled. Identify
+          what can be chosen and what needs new information.'
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A form is free but only available in an unreadable format for its user. Does zero price establish
+          equal access?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'Original route reaches the entrance 09:25, waits 5 minutes, costs 4 with 1 remaining, and arrives
+          home 10 minutes before the duty. Cancellation removes the known outward route; another bus or helper
+          must be verified, not invented. Partial: know the library hours but omit travel. Incorrect: blame
+          lack of determination or assume stairs are a suitable substitute.'
+        criteria:
+        - The complete route uses supplied dependencies
+        - Changed conditions reopen feasibility
+        - Structural constraint is not recast as personal fault
+      - id: changed-case-check
+        title: Check the changed case
+        body: No. Format, language, support and an accepted submission route still matter. Record the barrier
+          and seek an actual suitable alternative rather than claiming universal exclusion or universal accessibility
+          from price alone.
+        criteria:
+        - The complete route uses supplied dependencies
+        - Changed conditions reopen feasibility
+        - Structural constraint is not recast as personal fault
   '05.12':
-    title: "Examine an inherited norm through a respectful comparison"
-    goal: "Identify an assumption that feels natural through familiarity, compare a different situated account and choose a reasoned present stance."
-    scope_note: "One comparison examines a particular norm, not a whole culture. People disagree within cultures, and neither unfamiliarity nor tradition automatically makes a practice better."
-    burden: "About 30 minutes of reflection and comparison, plus one small low-stakes application."
-    setup: "Use the default norm that a guest should immediately decline an offer before accepting it, or choose a familiar norm about privacy, authority, emotion or success. Find a voluntary first-person account or public source describing a different practice; retain its context privately."
+    title: Examine an inherited norm through a respectful comparison
+    goal: Identify an assumption that feels natural through familiarity, compare a different situated account
+      and choose a reasoned present stance.
+    scope_note: One comparison examines a particular norm, not a whole culture. People disagree within cultures,
+      and neither unfamiliarity nor tradition automatically makes a practice better.
+    burden: About 30 minutes of reflection and comparison, plus one small low-stakes application.
+    setup: Use the default norm that a guest should immediately decline an offer before accepting it, or choose
+      a familiar norm about privacy, authority, emotion or success. Find a voluntary first-person account or
+      public source describing a different practice; retain its context privately. The learning guide contains
+      a complete fictional practice and a separate changed-case check. Choose that route when a real situation
+      is unavailable; its results are rehearsal, not performed real-world work.
     actions:
-      - title: "Make the familiar rule visible"
-        instructions: "State the rule as a behavior and expectation, not everyone knows. Record where you learned it, what good it protects, how it is enforced, and someone within your own setting who follows it differently. In the guest case, polite refusal may signal restraint but may also leave a host uncertain about a real preference."
-        checks: [A familiar assumption becomes an explicit behavioral rule, Its origin and protected good are considered, Variation within the familiar setting is acknowledged]
-      - title: "Understand a different rule on its own terms"
-        instructions: "Read or listen to the selected account. Note who is describing which setting, what behavior they consider appropriate, and why. Separate their actual description from your interpretation. Compare one real difference and one shared concern, and identify what the account cannot tell you about other people in that culture. Do not request intimate cultural explanations from an unwilling person."
-        checks: [The comparison account has a specific perspective and setting, A real difference and shared concern are explained, Limits on cultural generalization are explicit]
-      - title: "Choose and try a context-sensitive response"
-        instructions: "Retain, revise or hold the original norm provisionally, giving a reason. Try one respectful clarification in an ordinary context, such as saying I would enjoy some, thank you instead of expecting a host to decode repeated refusal. Notice the response and revise your assumption if needed; ask preferences rather than assigning a rule based on identity."
-        checks: [The norm has a reasoned present disposition, A clarification receives an ordinary attempt, The response is reviewed without assigning identity-based preferences]
-    adaptation: "Use a public first-person written or audio account and avoid naming people. If none is accessible, compare the two supplied guest rules as fictional cases and label the cultural comparison unverified. No travel, religious change or disclosure of family conflict is required."
-    review: "Which assumption stopped being invisible, and what can you now ask instead of treating familiarity as universality?"
+    - title: Make the familiar rule visible
+      instructions: State the rule as a behavior and expectation, not everyone knows. Record where you learned
+        it, what good it protects, how it is enforced, and someone within your own setting who follows it differently.
+        In the guest case, polite refusal may signal restraint but may also leave a host uncertain about a
+        real preference.
+      checks:
+      - A familiar assumption becomes an explicit behavioral rule
+      - Its origin and protected good are considered
+      - Variation within the familiar setting is acknowledged
+    - title: Understand a different rule on its own terms
+      instructions: Read or listen to the selected account. Note who is describing which setting, what behavior
+        they consider appropriate, and why. Separate their actual description from your interpretation. Compare
+        one real difference and one shared concern, and identify what the account cannot tell you about other
+        people in that culture. Do not request intimate cultural explanations from an unwilling person.
+      checks:
+      - The comparison account has a specific perspective and setting
+      - A real difference and shared concern are explained
+      - Limits on cultural generalization are explicit
+    - title: Choose and try a context-sensitive response
+      instructions: Retain, revise or hold the original norm provisionally, giving a reason. Try one respectful
+        clarification in an ordinary context, such as saying I would enjoy some, thank you instead of expecting
+        a host to decode repeated refusal. Notice the response and revise your assumption if needed; ask preferences
+        rather than assigning a rule based on identity.
+      checks:
+      - The norm has a reasoned present disposition
+      - A clarification receives an ordinary attempt
+      - The response is reviewed without assigning identity-based preferences
+    adaptation: Use a public first-person written or audio account and avoid naming people. If none is accessible,
+      compare the two supplied guest rules as fictional cases and label the cultural comparison unverified.
+      No travel, religious change or disclosure of family conflict is required.
+    review: Which assumption stopped being invisible, and what can you now ask instead of treating familiarity
+      as universality?
     examples:
-      supportive: "The participant understood two meanings of polite refusal, asked a host's preference, and retained uncertainty about wider cultural norms."
-      mixed: "The account clarified a difference, but the participant has not yet tried a respectful clarification."
-      contradictory: "The comparison ranked entire cultures or assumed someone's preferred behavior from their identity."
-      inconclusive: "An unfamiliar custom was collected as trivia without examining a personal norm or its application."
+      supportive: The participant understood two meanings of polite refusal, asked a host's preference, and
+        retained uncertainty about wider cultural norms.
+      mixed: The account clarified a difference, but the participant has not yet tried a respectful clarification.
+      contradictory: The comparison ranked entire cultures or assumed someone's preferred behavior from their
+        identity.
+      inconclusive: An unfamiliar custom was collected as trivia without examining a personal norm or its application.
+    instructional_content:
+      schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+      competency_id: '05.12'
+      title: Examine an inherited norm through a respectful comparison
+      scored: false
+      sections:
+      - id: purpose-and-method
+        kind: concept
+        title: Understand the distinction
+        body: A norm has a setting, purpose and participants who may differ. Compare an attributed account
+          with your interpretation; neither a fictional household nor one real speaker represents an entire
+          culture. For a live source choose a named or clearly situated voluntary first-person account, identify
+          its audience/date and avoid treating outsider summaries as universal rules.
+      - id: supplied-case
+        kind: material
+        title: Complete fictional practice material
+        body: 'Two original fictional first-person accounts. Ren: “At our weekly family table, I often decline
+          the first offer so the host can keep enough. The host usually offers again, but visitors may answer
+          directly.” Sol: “In my shared household we ask once and take the answer literally because repeated
+          offers feel pressuring. We tell new guests this before the meal.” Neither names a nation, religion
+          or ethnicity.'
+      - id: case-attempt
+        kind: prompt
+        title: Work through the supplied case
+        body: Compare the same offer under both stated settings. Represent each reason, one shared concern
+          and one limit on generalization. Keep this constructed comparison separate from an actual cultural
+          encounter.
+        references:
+        - supplied-case
+        check_id: case-check
+        attempt_mode: practice
+      - id: changed-case
+        kind: prompt
+        title: Try a different case before checking
+        body: A guest says no after the host explicitly explains that offers are made once. May the host assume
+          hidden assent because a different household uses repeated offers?
+        check_id: changed-case-check
+        attempt_mode: unaided
+      checks:
+      - id: case-check
+        title: Compare reasoning and review the supplied result
+        body: 'Ren’s account manages perceived scarcity; Sol’s manages pressure and clarity. Both can concern
+          care for others while producing different conduct. A visitor should use the actual host’s stated
+          meaning rather than infer refusal is insincere. Partial: state the different rules without reasons.
+          Incorrect: conclude an entire culture always refuses or always pressures. Next consult an accessible
+          situated first-person account and check whether it changes the constructed comparison.'
+        criteria:
+        - Accounts remain attributed to their settings
+        - A shared concern does not erase a real difference
+        - Generalization never overrides actual consent
+      - id: changed-case-check
+        title: Check the changed case
+        body: No. Respect the stated local meaning and actual answer. Ask a neutral clarification only if appropriate;
+          do not let a cultural generalization erase the person’s choice.
+        criteria:
+        - Accounts remain attributed to their settings
+        - A shared concern does not erase a real difference
+        - Generalization never overrides actual consent

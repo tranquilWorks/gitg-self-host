@@ -2,6 +2,10 @@
 
 Study two particular works before making a claim about a tradition. Use two twenty-minute studies and a twenty-minute comparison. This route uses museum catalogue text and a transcript; no artwork image or audio was inspected for these supplied observations. Direct looking or listening is an optional route when accessible, and must be labeled separately from reading someone else's description.
 
+## Route beyond the two visual works
+
+Use one additional medium at a time. For literature, choose one lawfully accessible short text with its author, language, date and translation credit; distinguish what the narrator says from a historical claim about the author’s community. For music, use an authorized recording or score with performer, composer or tradition attribution where known; compare one audible or described feature with a documented account of its use rather than guessing emotion from nationality. For ritual or everyday custom, start with a community member’s public explanation that expressly welcomes outsiders; observation does not authorize reenactment, recording or sacred access. For each route, retain two inspectable details, one contextual source, an alternative interpretation and a question the sources cannot answer. Ask who made, transmitted, adapted or was excluded from the account. A next study is ready only when the actual text, recording or account and access route are identified; until then it remains a plan. The two supplied museum works establish an initial visual comparison, not completed study of every medium.
+
 ## Separate the object, the account and your interpretation
 
 A title, date range, medium and collection number help identify which object you mean. A museum's interpretation helps situate it, but does not exhaust its meanings or include every maker, audience and history. Keep three kinds of statement distinct: a documented catalogue fact, an observation from a specified access route, and your own interpretation or unanswered question.
@@ -55,8 +59,8 @@ For support, use the supplied catalogue facts and detail records; no new image a
 
 The next proposed study is an attributed everyday textile documented with its makers' own account of learning and use. The question is how transmission and collective labor appear when the finished object is not explained through one famous name. No textile or account has yet been selected or inspected. This is a bounded next step, not a claim that all omissions are repaired.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains elective_cultivation and normative status elective_but_flourishing_relevant. Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-1906-MISCARRIAGE-INFERTILITY-AND-REPRODUCTIVE-GRIEF-01
 slug: c1906-miscarriage-infertility-and-reproductive-grief-practice
-name: Bounded Miscarriage, infertility, and reproductive grief Practice
+name: Offer reproductive-grief support without fixing its meaning
 parent_competency_id: '19.06'
 domain_id: '19'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 19.06
-      (Miscarriage, infertility, and reproductive grief); canonical scope, evidence target, classification,
-      domain boundary, and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 19.06; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,40 +34,41 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Miscarriage, infertility, and reproductive grief through a qualified-support preparation
-    bounded by the canonical scope: Recognize grief, ambiguity, medical burden, relationship strain, and
-    differing meanings around reproductive loss.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Can offer or receive
-    support without minimizing, moralizing, or forcing disclosure. The protocol creates a small opportunity
-    to examine that target without treating completion as broad capability.'
+  purpose: Provide a specific, consented form of support after miscarriage, infertility or another reproductive
+    loss while respecting privacy, ambiguity and differences in grief.
+  why_recommended: Provide a specific, consented form of support after miscarriage, infertility or another
+    reproductive loss while respecting privacy, ambiguity and differences in grief.
   claims:
-  - statement: Using the canonical scope and evidence target for Miscarriage, infertility, and reproductive
-      grief is a traceable product-design basis for a source-only draft protocol.
+  - statement: Provide a specific, consented form of support after miscarriage, infertility or another
+      reproductive loss while respecting privacy, ambiguity and differences in grief.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Miscarriage, infertility, and reproductive grief practice
     fit the person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Miscarriage, infertility, and reproductive grief as not applicable,
     consciously unchosen, or deferred without penalty when the role, pathway, capacity, authority, opportunity,
     or safe context is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Miscarriage, infertility,
-    and reproductive grief context, understand the source-only status, and stop without losing safety,
-    care, employment, housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Miscarriage,
-    infertility, and reproductive grief; do not manufacture conflict, deprivation, exposure, disclosure,
-    danger, urgency, or dependence for evidence.
+  readiness_considerations: Use a note, practical errand or quiet presence instead of conversation. A
+    supporter without a live opportunity can rehearse the supplied case; no fabricated loss or emotional
+    disclosure is needed. Use qualified reproductive-health, grief or crisis support when the situation
+    exceeds ordinary friendship care.
+  opportunity_considerations: 'Use the default of someone mentioning that fertility treatment or a pregnancy
+    did not go as hoped. Prepare three possible offers: quiet listening, a meal or transport, and help
+    finding a qualified support resource. Do not seek out someone’s private loss to create a practice
+    opportunity.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Miscarriage, infertility, and reproductive
-    grief.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use the default of someone mentioning that fertility treatment or a pregnancy did not go as hoped.
+    Prepare three possible offers: quiet listening, a meal or transport, and help finding a qualified
+    support resource. Do not seek out someone’s private loss to create a practice opportunity.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Miscarriage, infertility, and reproductive
-    grief instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a note, practical errand or quiet presence instead of conversation. A supporter without a live
+    opportunity can rehearse the supplied case; no fabricated loss or emotional disclosure is needed.
+    Use qualified reproductive-health, grief or crisis support when the situation exceeds ordinary friendship
+    care.
   role_conditions:
   - This competency is role conditional; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -83,19 +83,28 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Miscarriage, infertility, and reproductive grief actions over ten days,
-    preserving explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Miscarriage, infertility, and reproductive grief; copy the canonical scope
-    and evidence target into a private working note; define the action boundary, valid supports, privacy
-    limit, and stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Miscarriage,
-    infertility, and reproductive grief. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Miscarriage, infertility, and reproductive
-    grief actions, and review; scope may be reduced or deferred for access, care, health, workload, conscience,
-    or resource reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use the default of someone mentioning that fertility treatment or a pregnancy did not go as
+    hoped. Prepare three possible offers: quiet listening, a meal or transport, and help finding a qualified
+    support resource. Do not seek out someone’s private loss to create a practice opportunity. Goal: Provide
+    a specific, consented form of support after miscarriage, infertility or another reproductive loss
+    while respecting privacy, ambiguity and differences in grief. Scope: The practice concerns the supporter’s
+    behavior, not a grief timetable, medical recovery, the cause of a loss or whether another pregnancy
+    would resolve it. Time and effort: Fifteen minutes to prepare, one brief welcome contact and one agreed
+    follow-up; use a fictional case when contact is not appropriate. Adaptation: Use a note, practical
+    errand or quiet presence instead of conversation. A supporter without a live opportunity can rehearse
+    the supplied case; no fabricated loss or emotional disclosure is needed. Use qualified reproductive-health,
+    grief or crisis support when the situation exceeds ordinary friendship care. Keep personal working
+    notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a note, practical errand or quiet presence instead of conversation. A supporter
+    without a live opportunity can rehearse the supplied case; no fabricated loss or emotional disclosure
+    is needed. Use qualified reproductive-health, grief or crisis support when the situation exceeds ordinary
+    friendship care.
+  expected_burden: Fifteen minutes to prepare, one brief welcome contact and one agreed follow-up; use
+    a fictional case when contact is not appropriate.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Miscarriage, infertility, and reproductive grief protocol to rank worth, coerce participation,
@@ -104,20 +113,25 @@ intervention:
   - Treating a completed Miscarriage, infertility, and reproductive grief action, a polished artifact,
     agreement, confidence, speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Miscarriage, infertility, and reproductive grief situation involving emergency response, abuse,
-    retaliation, illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local
-    guidance.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a note,
+    practical errand or quiet presence instead of conversation. A supporter without a live opportunity
+    can rehearse the supplied case; no fabricated loss or emotional disclosure is needed. Use qualified
+    reproductive-health, grief or crisis support when the situation exceeds ordinary friendship care.
   actions:
   - stable_id: PRACTICE-COMP-1906-MISCARRIAGE-INFERTILITY-AND-REPRODUCTIVE-GRIEF-01-A1
     sequence: 1
-    title: Bound the qualified question for Miscarriage, infertility, and reproductive grief
-    instructions: 'Turn Miscarriage, infertility, and reproductive grief into one educational or planning
-      question and identify the qualification and jurisdiction needed to answer it. Use the canonical
-      scope to separate general learning from diagnosis, treatment, legal advice, financial advice, safeguarding
-      decisions, or other professional judgment: Recognize grief, ambiguity, medical burden, relationship
-      strain, and differing meanings around reproductive loss.'
+    title: Remove assumptions before choosing your words
+    instructions: 'Write a short acknowledgment such as I am sorry this has been difficult; you do not
+      have to explain. Identify three assumptions to avoid: that you know the meaning of the loss, that
+      partners grieve identically, and that a future child or positive lesson cancels it. Notice possible
+      medical burden and relationship strain without asking for details. Choose a message that permits
+      silence and does not attach blame, spiritual explanation or a demand for disclosure.
+
+
+      Observation checks: The acknowledgment does not presume the meaning of the loss; Different grief
+      responses remain legitimate; Medical burden and privacy are recognized without interrogation; Blame
+      replacement and forced-positive explanations are excluded. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -139,9 +153,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1906_a1_question_bounded
-        - c1906_a1_qualification_named
-        - c1906_a1_professional_boundary_explicit
+        - the_acknowledgment_does_not_presume_the_meaning_of_the_loss
+        - different_grief_responses_remain_legitimate
+        - medical_burden_and_privacy_are_recognized_without_interrogation
+        - blame_replacement_and_forced_positive_explanations_are_excluded
       - measurement_id: c1906_a1_boundary
         kind: boolean
         role: supporting
@@ -158,12 +173,18 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1906-MISCARRIAGE-INFERTILITY-AND-REPRODUCTIVE-GRIEF-01-A2
     sequence: 2
-    title: Prepare minimum information for Miscarriage, infertility, and reproductive grief
-    instructions: Create a privacy-minimized Miscarriage, infertility, and reproductive grief consultation
-      note containing only the question, relevant category-level facts, current constraints, and desired
-      decision. Omit diagnoses, allegations, account numbers, credentials, protected work information,
-      intimate detail, and third-party identity unless a qualified professional lawfully requires it through
-      an appropriate channel.
+    title: Ask once what kind of support is welcome
+    instructions: 'In an appropriate existing relationship, offer one or two concrete choices: I could
+      leave a meal Tuesday, listen, or give you space. Accept a refusal or no answer without repeated
+      probing. If they want to talk, follow their language, listen without comparing losses and ask before
+      suggesting a resource. Keep practical help independent of whether they share details or express
+      gratitude. A fictional rehearsal must include a declined offer and a response that respects it.
+
+
+      Observation checks: Contact is welcome or clearly labeled as rehearsal; Support choices are concrete
+      and limited; A decline silence or different preference is respected; Practical care is not conditional
+      on disclosure or gratitude. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -185,9 +206,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c1906_a2_minimum_information_only
-        - c1906_a2_sensitive_detail_excluded
-        - c1906_a2_decision_need_named
+        - contact_is_welcome_or_clearly_labeled_as_rehearsal
+        - support_choices_are_concrete_and_limited
+        - a_decline_silence_or_different_preference_is_respected
+        - practical_care_is_not_conditional_on_disclosure_or_gratitude
       - measurement_id: c1906_a2_boundary
         kind: boolean
         role: supporting
@@ -204,12 +226,38 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-1906-MISCARRIAGE-INFERTILITY-AND-REPRODUCTIVE-GRIEF-01-A3
     sequence: 3
-    title: Record a bounded Miscarriage, infertility, and reproductive grief disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Can offer or receive support without minimizing, moralizing, or forcing
-      disclosure.'
+    title: Deliver the promised support and review your assumptions
+    instructions: 'Carry out the accepted low-risk offer at the agreed time or send one appropriate update
+      if you cannot. Follow up only as welcomed, asking whether the support should continue, change or
+      stop. Note what you learned about your own tendency to minimize, solve or impose meaning, not the
+      person’s private story. Current medical concerns, severe distress or safety concerns call for appropriate
+      qualified help; this exercise does not require waiting for a particular duration.
+
+
+      Observation checks: An accepted promise is fulfilled or explicitly renegotiated; Follow-up follows
+      the recipient’s preference; The review concerns the supporter’s conduct not private grief details;
+      Current medical or safety concerns are not delayed. Mark only what you observed. Missing, mixed
+      and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Did your support leave room for the person’s own meaning and pace, and what did you
+      refrain from saying that would have made the burden heavier?
+
+
+      Examples: Supportive: The supporter accepted a request for a meal and no discussion, delivered it
+      and did not treat a later pregnancy as erasing the loss.
+
+
+      Mixed: The initial message offered reassurance too quickly; the supporter acknowledged that and
+      asked what would actually help.
+
+
+      Contradictory: The loss was blamed on the person, minimized, moralized or used to pressure treatment
+      or future parenthood.
+
+
+      Inconclusive: A sympathy script was drafted but not rehearsed or connected to a concrete support
+      action.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -225,14 +273,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c1906_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c1906_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - an_accepted_promise_is_fulfilled_or_explicitly_renegotiated
+        - follow_up_follows_the_recipient_s_preference
+        - the_review_concerns_the_supporter_s_conduct_not_private_grief_details
+        - current_medical_or_safety_concerns_are_not_delayed
       - measurement_id: c1906_a3_boundary
         kind: boolean
         role: supporting
@@ -253,17 +303,19 @@ intervention:
       Miscarriage, infertility, and reproductive grief; no purchase, subscription, travel, credential,
       or public artifact is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Miscarriage, infertility, and reproductive grief; assistive technology, interpretation,
-      a support person, and a deferred action are valid without penalty.
+    - Use a note, practical errand or quiet presence instead of conversation. A supporter without a live
+      opportunity can rehearse the supplied case; no fabricated loss or emotional disclosure is needed.
+      Use qualified reproductive-health, grief or crisis support when the situation exceeds ordinary friendship
+      care.
     cultural_context:
     - Adapt the expression of Miscarriage, infertility, and reproductive grief to direct or indirect communication,
       collective or individual decision structures, local norms, faith or secular commitments, and role
       obligations while preserving consent and dignity.
     resource_variants:
-    - When a real Miscarriage, infertility, and reproductive grief opportunity is unavailable or inappropriate,
-      use a fictional, historical, public, simulated, or planning-only equivalent and retain the narrower
-      evidence classification.
+    - Use a note, practical errand or quiet presence instead of conversation. A supporter without a live
+      opportunity can rehearse the supplied case; no fabricated loss or emotional disclosure is needed.
+      Use qualified reproductive-health, grief or crisis support when the situation exceeds ordinary friendship
+      care.
   pause_conditions:
   - Pause Miscarriage, infertility, and reproductive grief when capacity, consent, authority, privacy,
     access, care duties, uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances
@@ -296,11 +348,7 @@ evidence_and_scoring:
   - c1906_a3_boundary
   - c1906_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Miscarriage, infertility, and reproductive grief action exceeded consent, authority, privacy,
-    qualification, role, burden, or safety boundaries.
-  - The evidence contradicted the intended Miscarriage, infertility, and reproductive grief criterion,
-    depended on coercion or hidden private content, or could not distinguish the protocol from contextual
-    change.
+  - The loss was blamed on the person, minimized, moralized or used to pressure treatment or future parenthood.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Miscarriage, infertility, and reproductive grief explicitly; support can enable access and never
     reduces dignity or silently changes the typed value.
@@ -311,14 +359,22 @@ evidence_and_scoring:
     diminishing multipliers.
   recency_rule: Generated Miscarriage, infertility, and reproductive grief rules withhold observations
     older than 90 days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Can offer or receive support without minimizing, moralizing, or forcing disclosure.—not completion,
-    confidence, conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Miscarriage, infertility, and reproductive grief requires a bounded
-    context, allowlisted observations, provenance, contradiction and adverse handling, and preserved uncertainty;
-    free text and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Remove assumptions before choosing your words. Observed checks: The acknowledgment
+    does not presume the meaning of the loss; Different grief responses remain legitimate; Medical burden
+    and privacy are recognized without interrogation; Blame replacement and forced-positive explanations
+    are excluded. Action 2: Ask once what kind of support is welcome. Observed checks: Contact is welcome
+    or clearly labeled as rehearsal; Support choices are concrete and limited; A decline silence or different
+    preference is respected; Practical care is not conditional on disclosure or gratitude. Action 3: Deliver
+    the promised support and review your assumptions. Observed checks: An accepted promise is fulfilled
+    or explicitly renegotiated; Follow-up follows the recipient’s preference; The review concerns the
+    supporter’s conduct not private grief details; Current medical or safety concerns are not delayed.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. A sympathy script was drafted but not rehearsed or
+    connected to a concrete support action.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Miscarriage,
     infertility, and reproductive grief contribution under typed evaluation; protocol performance remains
     distinct and is never counted twice.
@@ -328,9 +384,8 @@ evidence_and_scoring:
   - L07
   - L24
   - L28
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Miscarriage, infertility, and reproductive grief evidence.
@@ -338,12 +393,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for miscarriage, infertility, and reproductive grief action was attempted
-    or explicitly deferred.
-  - The prepare minimum information for miscarriage, infertility, and reproductive grief action was attempted
-    or explicitly deferred.
-  - The record a bounded miscarriage, infertility, and reproductive grief disposition action preserved
-    a limited conclusion, contradiction, or inconclusive result.
+  - 'Action 1: Remove assumptions before choosing your words. Observed checks: The acknowledgment does
+    not presume the meaning of the loss; Different grief responses remain legitimate; Medical burden and
+    privacy are recognized without interrogation; Blame replacement and forced-positive explanations are
+    excluded.'
+  - 'Action 2: Ask once what kind of support is welcome. Observed checks: Contact is welcome or clearly
+    labeled as rehearsal; Support choices are concrete and limited; A decline silence or different preference
+    is respected; Practical care is not conditional on disclosure or gratitude.'
+  - 'Action 3: Deliver the promised support and review your assumptions. Observed checks: An accepted
+    promise is fulfilled or explicitly renegotiated; Follow-up follows the recipient’s preference; The
+    review concerns the supporter’s conduct not private grief details; Current medical or safety concerns
+    are not delayed.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -352,64 +415,241 @@ completion_and_review:
     - c1906_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Miscarriage, infertility, and reproductive grief only when the
-    initial context remained safe, the evidence criteria were usable, burden was acceptable, and a new
-    context can be named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Miscarriage, infertility, and reproductive grief
-    across roles, cultures, relationships, seasons, stress levels, disability states, institutions, or
-    high-consequence settings.
+  progression_criteria: Did your support leave room for the person’s own meaning and pace, and what did
+    you refrain from saying that would have made the burden heavier?
+  transfer_limit: The practice concerns the supporter’s behavior, not a grief timetable, medical recovery,
+    the cause of a loss or whether another pregnancy would resolve it.
   reflection:
-    before: What does Miscarriage, infertility, and reproductive grief require in this exact context,
-      what remains outside my role or authority, and which scope sentence or evidence criterion will keep
-      the practice honest?
-    during: Which observable Miscarriage, infertility, and reproductive grief criterion is present, absent,
-      mixed, or unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Can offer or receive support without minimizing, moralizing,
-      or forcing disclosure.', what contradiction or missing context matters most, and should this Miscarriage,
-      infertility, and reproductive grief design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Provide a specific, consented form of support
+      after miscarriage, infertility or another reproductive loss while respecting privacy, ambiguity
+      and differences in grief.'
+    during: Which checks have actually been observed? The initial message offered reassurance too quickly;
+      the supporter acknowledged that and asked what would actually help.
+    after: Did your support leave room for the person’s own meaning and pace, and what did you refrain
+      from saying that would have made the burden heavier?
   review_guidance:
     repeat: Repeat the same bounded Miscarriage, infertility, and reproductive grief design only when
       the context and burden remain appropriate.
-    adapt: Change the Miscarriage, infertility, and reproductive grief medium, scope, support, timing,
-      criteria, or context while preserving provenance and the narrower evidence claim.
+    adapt: Use a note, practical errand or quiet presence instead of conversation. A supporter without
+      a live opportunity can rehearse the supplied case; no fabricated loss or emotional disclosure is
+      needed. Use qualified reproductive-health, grief or crisis support when the situation exceeds ordinary
+      friendship care.
     stop: Stop Miscarriage, infertility, and reproductive grief when the practice becomes coercive, unsafe,
       privacy-invasive, role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Miscarriage, infertility, and reproductive
-      grief questions beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Miscarriage, infertility, and reproductive grief criteria were observed with
-      provenance and no adverse boundary signal in the selected context.
-    mixed: Some Miscarriage, infertility, and reproductive grief criteria were observed while burden,
-      support, contextual change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Miscarriage, infertility, and reproductive
-      grief criterion, introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Miscarriage, infertility, and reproductive grief action was deferred, not observed,
-      not applicable, stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The supporter accepted a request for a meal and no discussion, delivered it and did not
+      treat a later pregnancy as erasing the loss.
+    mixed: The initial message offered reassurance too quickly; the supporter acknowledged that and asked
+      what would actually help.
+    contradictory: The loss was blamed on the person, minimized, moralized or used to pressure treatment
+      or future parenthood.
+    inconclusive: A sympathy script was drafted but not rehearsed or connected to a concrete support action.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Miscarriage, infertility, and reproductive grief.
+    context_heading: Offer reproductive-grief support without fixing its meaning
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Miscarriage,
       infertility, and reproductive grief.
   check_in_labels:
-    c1906_a1_primary: The bounded Miscarriage, infertility, and reproductive grief criterion for action
-      1 was observed
+    c1906_a1_primary: 'Observed checks: remove assumptions before choosing your words'
     c1906_a1_boundary: Action 1 stayed inside its stated Miscarriage, infertility, and reproductive grief
       boundary
     c1906_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c1906_a2_primary: The bounded Miscarriage, infertility, and reproductive grief criterion for action
-      2 was observed
+    c1906_a2_primary: 'Observed checks: ask once what kind of support is welcome'
     c1906_a2_boundary: Action 2 stayed inside its stated Miscarriage, infertility, and reproductive grief
       boundary
     c1906_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c1906_a3_primary: The bounded Miscarriage, infertility, and reproductive grief criterion for action
-      3 was observed
+    c1906_a3_primary: 'Observed checks: deliver the promised support and review your assumptions'
     c1906_a3_boundary: Action 3 stayed inside its stated Miscarriage, infertility, and reproductive grief
       boundary
     c1906_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Miscarriage, infertility,
-    and reproductive grief practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Did your support leave room for the person’s own meaning and pace, and what did you
+    refrain from saying that would have made the burden heavier? Completion is not mastery.
+  plain_language_evidence: The supporter accepted a request for a meal and no discussion, delivered it
+    and did not treat a later pregnancy as erasing the loss.
   display_order: 253
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '19.06'
+  title: 19.06 — Miscarriage, infertility, and reproductive grief
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Contraception and Birth Control Methods](https://www.cdc.gov/contraception/about/index.html)
+
+      - [Infertility: Frequently Asked Questions](https://www.cdc.gov/reproductive-health/infertility-faq/index.html)
+
+      - [Antenatal (pregnancy) care and appointments](https://www.nhs.uk/pregnancy/your-pregnancy-care/your-antenatal-care-and-appointments/)
+
+      - [Urgent Maternal Warning Signs and Symptoms](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)
+
+      - [Miscarriage](https://www.nhs.uk/conditions/miscarriage/)
+
+      - [Adoption](https://www.childwelfare.gov/topics/permanency/adoption/)
+
+      - [Child Abuse Education Resources](https://www.azed.gov/wellness/child-abuse-education-resources)
+
+      - [Arizona Revised Statutes §13-3620](https://www.azleg.gov/ars/13/03620.htm)
+
+      - [What to do if a child reveals abuse](https://www.nspcc.org.uk/keeping-children-safe/reporting-abuse/what-to-do-child-reveals-abuse/)
+
+      - [Calling 911](https://www.911.gov/calling-911/)
+
+      - [Effective Discipline to Raise Healthy Children](https://publications.aap.org/pediatrics/article/142/6/e20183112/37452/Effective-Discipline-to-Raise-Healthy-Children)
+
+      - [Inspected correction](https://publications.aap.org/pediatrics/article/143/2/e20183609/37315/Sege-RD-Siegel-BS-Council-on-Child-Abuse-and)
+
+      - [Supported Decision Making Program](https://acl.gov/programs/consumer-control/supported-decision-making-program)
+
+      - [Lasting power of attorney for people with dementia](https://www.alzheimers.org.uk/get-support/legal-financial/lasting-power-attorney)
+
+      - [The Cognitive Dimension of Household Labor](https://journals.sagepub.com/doi/abs/10.1177/0003122419859007)
+
+      - [Communicating with your child’s other parent during separation](https://www.cafcass.gov.uk/parent-carer-or-family-member/my-family-involved-private-law-proceedings/resources-help-you-make-arrangements-are-your-childs-best-interests/communicating-your-childs-other-parent-during-separation)
+
+      - [Convention for the Safeguarding of the Intangible Cultural Heritage](https://www.unesco.org/en/legal-affairs/convention-safeguarding-intangible-cultural-heritage)
+
+      - [Cultural Documentation Guidelines](https://wwws.loc.gov/folklife/edresources/ed-trainingdocuments.html)
+
+      - [Healthy Habits: Caring for Yourself When Caring for Another](https://www.cdc.gov/caregiving/caring-for-yourself/index.html)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction, not actual participant evidence.
+
+
+      Emery declines the call and accepts a meal left at the door at 18:00 on 8 October. Leena confirms
+      the necessary food information privately and makes no further request for treatment details. At
+      18:00 the meal is delivered and the agreed brief delivery message is sent. Leena leaves without
+      waiting for conversation.
+
+
+      Emery replies the next morning that the meal helped and asks for no check-in messages for two weeks.
+      Leena acknowledges that request. Leena drafts a possible future message but does not send it or
+      schedule it automatically; the request for space does not promise that a later conversation will
+      be welcome. Ash''s experience remains unknown, and no independent offer to Ash has been made through
+      this exchange.
+
+
+      Credit the kept promise, respected refusal and useful practical feedback. Do not claim that grief
+      lessened, treatment decisions changed or both partners were supported. A draft future message is
+      not an agreed follow-up. Review which impulse to reassure, compare or solve Leena restrained and
+      how that reduced the burden of receiving help.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: "Practice one specific offer of support that leaves the meaning and pace of grief with the person\
+      \ affected. Allow fifteen minutes to prepare, one brief welcome contact and a follow-up only if\
+      \ agreed. Use the complete fiction when contact is unwanted or unavailable. Do not seek out a private\
+      \ loss to obtain practice evidence, invent a loss or require anyone to describe reproductive experiences.\n\
+      \n### Make room for meanings you do not know\n\nMiscarriage, difficulty conceiving, unsuccessful\
+      \ treatment and other reproductive losses can involve grief, uncertainty, physical recovery, administrative\
+      \ work and financial strain. They are not interchangeable experiences, and the same event may have\
+      \ different meanings for different people. Someone may grieve a pregnancy, an imagined future, repeated\
+      \ uncertainty, bodily trust or several things at once. You do not need to assign the correct meaning\
+      \ before offering ordinary care.\n\nAmbiguity can be especially difficult: a treatment outcome may\
+      \ be known while future possibilities remain open, or a person may not know whether they want another\
+      \ attempt. Do not resolve that tension with a prediction or an instruction to be hopeful. A future\
+      \ pregnancy or another life path does not erase an earlier loss, and declining further treatment\
+      \ is not a failure of commitment.\n\nPartners and relatives may respond differently. Silence, conversation,\
+      \ distraction and a wish for practical help do not reveal how much someone cared. Do not compare\
+      \ grief, rank losses or demand synchronized feelings. Relationship strain can be acknowledged without\
+      \ making the supporter an investigator or mediator. Medical burden may be present, but a friend\
+      \ need not know the diagnosis, procedure or cause to honor a meal request.\n\nSupport has its own\
+      \ boundaries. Acknowledgment recognizes difficulty without imposing blame, a spiritual explanation\
+      \ or a lesson. Listening follows the person's language and stops when they want to stop. Practical\
+      \ help should be independent of disclosure and gratitude. A resource may be useful when wanted,\
+      \ but sending a stack of treatments or success stories can add work and pressure.\n\n### Worked\
+      \ example\n\nA friend says an expected pregnancy did not continue. “At least you can try again”\
+      \ shifts attention to an imagined replacement and assumes both ability and desire. A more open response\
+      \ is “I'm sorry. You don't have to explain. I can bring dinner or give you space.” If dinner is\
+      \ accepted without conversation, fulfilling that request is the task. Feeling useful is not a reason\
+      \ to stay at the door until the person talks.\n\n### Supplied fictional task\n\nOn 6 October adult\
+      \ friend Emery tells Leena: “The treatment did not work out as we hoped. I don't want to discuss\
+      \ the details.” Leena knows nothing further about diagnosis, procedures, pregnancy status or future\
+      \ plans. Emery's partner, Ash, has not spoken to Leena about their own experience. Do not treat\
+      \ Emery as authorized to reveal Ash's private feelings or assume both want the same support.\n\n\
+      Leena can offer a simple agreed meal on 8 October at 18:00 or a short quiet call. Leena cannot provide\
+      \ transport that week. Emery's message permits a brief reply in their existing friendship, not repeated\
+      \ probing. No immediate medical or safety concern is supplied. If one arises in a real situation,\
+      \ appropriate qualified help should not wait for this support sequence.\n\n### Prepare words and\
+      \ dependable conduct\n\n1. Write the known facts and three assumptions to remove: the loss's exact\
+      \ meaning, the partner's response and the idea that another attempt would resolve it. Notice possible\
+      \ medical or practical burden without filling in details. Output: a short preparation note about\
+      \ your assumptions, not an account of someone else's private history.\n2. Draft a brief acknowledgment\
+      \ with one or two feasible offers: the 8 October meal or a short call. Space remains an option without\
+      \ requiring a menu or reply. Do not offer unavailable transport or promise unlimited availability.\
+      \ Output: a message that permits no answer and contains no demand for explanation.\n3. Rehearse\
+      \ Emery declining the call while accepting a meal without conversation. Write the acceptance response\
+      \ and the delivery details that actually need agreement, such as food requirements, time and location.\
+      \ Ask only what is necessary; do not use a practical question to reopen the treatment story. Output:\
+      \ a bounded promise and a respectful response to the declined part.\n4. State how you will handle\
+      \ inability to deliver: one timely appropriate update and an accepted alternative if available.\
+      \ Do not leave the person to manage a series of rescuers or invite others into their private situation.\
+      \ Output: a contingency that does not turn help into extra coordination work.\n5. Save the draft\
+      \ and open the [later packet](?resource=file-later-packet-md). Check delivery and follow-up against\
+      \ Emery's choices. Separate the supporter's conduct from assumptions about grief or clinical recovery.\
+      \ Output: what was fulfilled, what was declined and what remains unknown.\n\n### Support, challenge\
+      \ and transfer\n\nFor support, rehearse a written acknowledgment and one practical offer, without\
+      \ imagining emotional disclosure. A trusted reader can check whether your language imposes meaning.\
+      \ For a harder fictional attempt, let the person decline everything. The appropriate result may\
+      \ be respectful space; do not manufacture a completed care action just to make the attempt appear\
+      \ productive.\n\nFor real transfer, use an existing appropriate relationship and a naturally shared\
+      \ need. Ask once what support is welcome, carry out accepted promises and follow up only within\
+      \ the person's preference. If you initially minimize, briefly acknowledge the misstep without making\
+      \ the person comfort you. When medical concerns, severe distress or safety concerns exceed ordinary\
+      \ friendship support, help reach suitable qualified care if appropriate. There is no required grief\
+      \ duration before help is allowed and no timetable by which grief must be finished.\n\n### Source\
+      \ use\n\n[The NHS miscarriage page, S05](https://www.nhs.uk/conditions/miscarriage/), recognizes\
+      \ different physical and emotional experiences and available support, including for partners. Only\
+      \ those sections are used; treatment instructions, thresholds and predictions are not imported.\
+      \ Its miscarriage discussion does not establish a universal account of infertility or every reproductive\
+      \ loss. The fictional declined-call/accepted-meal design applies the canonical non-minimizing support\
+      \ boundary without claiming a grief intervention effect.\n\n### Use the result at its proper scale\n\
+      \nMedical, reproductive, child-safety, guardianship, and elder-care decisions require qualified\
+      \ local guidance.\n\n No reproductive, parenting or care role is compulsory. Fiction does not establish\
+      \ actual participant evidence. Keep identifying, clinical and private family information outside\
+      \ app records.\n\nAttempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers)."
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [answers](?check=practice-answers).
+
+
+      1. A person accepts a meal but declines conversation. Is it reasonable to require a short discussion
+      so the supporter can know the help worked?
+
+      2. Two partners react differently to an unsuccessful treatment. Can a quiet response be treated
+      as evidence of lesser grief or care?
+
+      3. Someone later becomes pregnant. Does that justify telling them the earlier loss no longer needs
+      acknowledgment?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. No. Fulfill the accepted practical offer within its terms. Feedback is welcome only if freely
+      given; discussion, disclosure and gratitude are not payment for care. The supporter can review their
+      own conduct without accessing the private story.
+
+      2. No. Different expressions do not establish the meaning or intensity of grief. Preserve each person''s
+      privacy and preferences without comparison or forced synchronization. Appropriate qualified support
+      may be useful if wanted or needed.
+
+      3. No. A later event does not determine the meaning of an earlier loss. Follow the person''s language
+      and wishes rather than imposing replacement or closure. Do not turn the new pregnancy into a medical
+      or emotional guarantee.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

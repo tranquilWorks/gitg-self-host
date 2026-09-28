@@ -20,7 +20,7 @@ A family passes around an old measuring spoon and tells how a relative taught ca
 
 ## Supplied fictional case
 
-Ren brings a description of a well-used household spoon to a willing gathering. The inherited story concerns taking care with ordinary work. A short word in an older relative's language expresses patient attention, but not everyone speaks that language. The old telling included the hurtful cooking joke. No participant has agreed to recording, and a proposed photograph contains another person's private context whose sharing permission is unknown.
+Ren brings a description of a well-used household spoon to a willing gathering. The inherited story concerns taking care with ordinary work. The older relative uses the Spanish word ‘paciencia’—‘patience’ in this case’s plain English translation. Ren connects it to taking time with the task; the word alone does not establish a whole cultural tradition. Not everyone speaks Spanish. The old telling included the hurtful cooking joke. No participant has agreed to recording, and a proposed photograph contains another person's private context whose sharing permission is unknown.
 
 Options are listening, explaining the word with a translation, offering a different memory, showing a harmless measuring gesture with empty utensils, or opting out. There is no food preparation or requirement to affirm a belief. Ren proposes preserving patient attention and removing the joke. Participants can suggest another revision before a second short telling.
 
@@ -42,9 +42,10 @@ Real transfer can be a welcome, a seasonal gathering or a practical demonstratio
 
 [UNESCO's convention, S16](../SOURCES.md#S16), describes living heritage as transmitted and recreated, with respect for human rights. It is not a mandate for household participation. [Library of Congress guidance, S17](../SOURCES.md#S17), supports respectful listening and permission in cultural documentation. Only its guidance page was inspected; no linked release form or archival-rights template is adopted. The spoon case and revision process are original, not a validated belonging intervention.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local guidance.
 
-Applicability and normative status are role-conditional. No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+ No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

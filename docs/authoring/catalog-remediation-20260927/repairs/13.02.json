@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.02",
+  "title": "Make one home upkeep routine easy to repeat",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Upkeep combines readiness, condition and stock. A reset restores a known usable state; an inspection asks whether that state is still suitable; an inventory helps avoid missing or excessive supplies. A reminder does not prove any of them occurred."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional bag station: two reusable bags are owned. A is clean and intact; B has a torn handle and is set aside, not counted ready. The household wants one ready bag at the reachable hook before each planned shop; both residents approve the hook. No new purchase is needed now. The next inspection is after use or visible damage, not an assumption of permanent condition."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Plan one reversible readiness change and record ready, unavailable and unknown stock separately. Specify a reset trigger and a check that would stop counting a bag as ready.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A shelf contains three containers, one cracked and one lent out. How many usable containers are presently available there?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Place A on the agreed hook; B remains unavailable until appropriately repaired or retired. Later fiction: A is used but left elsewhere, so the next departure has zero bags at the station despite owning two. Partial: inventory count without condition/location. Incorrect: count B ready or buy more solely because reset failed. Progress to one other safe household supply by setting a use-based minimum, condition check and responsible replenishment route.",
+      "criteria": [
+        "Readiness includes condition and location",
+        "Inventory excludes unavailable items",
+        "Reset and inspection are distinct performed actions"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "One, under the stated condition and location facts. Ownership, stock, safe usability and readiness are different counts; keep the paper exercise separate from an actual inspection of your belongings.",
+      "criteria": [
+        "Readiness includes condition and location",
+        "Inventory excludes unavailable items",
+        "Reset and inspection are distinct performed actions"
+      ]
+    }
+  ]
+}

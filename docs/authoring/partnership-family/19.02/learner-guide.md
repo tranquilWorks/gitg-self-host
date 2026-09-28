@@ -40,9 +40,10 @@ For an authorized real attempt, choose a familiar, safe routine already within y
 
 [CDC's ages 6–8 parenting sheet, S12](../SOURCES.md#S12) informs small achievable tasks, clear expectations, modeling and supportive guidance. It is a 2015 educational resource, not an individualized current assessment. Its dated lifestyle quantities and milestone claims are not imported. The two-opportunity routine and evidence distinctions are original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local guidance.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

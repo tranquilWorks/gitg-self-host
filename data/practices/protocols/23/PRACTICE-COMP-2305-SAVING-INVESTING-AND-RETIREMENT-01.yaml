@@ -1,8 +1,8 @@
 schema_version: GG-PRACTICE-CONTENT-1.0
-protocol_version: 0.1.0
+protocol_version: 0.2.0
 stable_id: PRACTICE-COMP-2305-SAVING-INVESTING-AND-RETIREMENT-01
 slug: c2305-saving-investing-and-retirement-practice
-name: Bounded Saving, investing, and retirement Practice
+name: Write a bounded saving and investing policy before choosing products
 parent_competency_id: '23.05'
 domain_id: '23'
 governance:
@@ -15,9 +15,8 @@ governance:
   source_ids:
   - SRC-CANONICAL-CURRICULUM-V2
   authoring:
-    provenance: Individually materialized source-only frontier package for canonical competency 23.05
-      (Saving, investing, and retirement); canonical scope, evidence target, classification, domain boundary,
-      and parent mapping remain explicit and reviewable.
+    provenance: M6J individually authored exercise for 23.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
     content_review_status: pending
     research_review_status: internal_sources_only_external_review_required
     safety_review_status: pending_specialist_expansion_review
@@ -35,39 +34,44 @@ governance:
     deprecated: false
     replaced_by: null
 meaning_and_fit:
-  purpose: 'Practice Saving, investing, and retirement through a qualified-support preparation bounded
-    by the canonical scope: Understand diversification, fees, taxes, compounding, volatility, horizon,
-    and the limits of prediction.'
-  why_recommended: 'The parent competency identifies this limited evidence target: Uses a simple long-term
-    strategy appropriate to goals and risk tolerance. The protocol creates a small opportunity to examine
-    that target without treating completion as broad capability.'
+  purpose: Relate a goal and time horizon to liquidity, risk capacity, diversification, costs, taxes and
+    review rules without relying on a return prediction.
+  why_recommended: Relate a goal and time horizon to liquidity, risk capacity, diversification, costs,
+    taxes and review rules without relying on a return prediction.
   claims:
-  - statement: Using the canonical scope and evidence target for Saving, investing, and retirement is
-      a traceable product-design basis for a source-only draft protocol.
+  - statement: Relate a goal and time horizon to liquidity, risk capacity, diversification, costs, taxes
+      and review rules without relying on a return prediction.
     classification: product_design_judgment
     source_ids:
     - SRC-CANONICAL-CURRICULUM-V2
-    limitations: The canonical curriculum is not empirical intervention validation, a professional standard,
-      a diagnosis, a universal prescription, or evidence that this exact protocol improves the competency.
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
   applicability_question: Does a voluntary, bounded Saving, investing, and retirement practice fit the
     person's current role, pathway, capacity, authority, resources, and safety conditions?
   not_applicable_behavior: Record Saving, investing, and retirement as not applicable, consciously unchosen,
     or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
     is absent.
-  readiness_considerations: Proceed only when the person can freely choose a limited Saving, investing,
-    and retirement context, understand the source-only status, and stop without losing safety, care, employment,
-    housing, services, relationship access, or dignity.
-  opportunity_considerations: Use one naturally available low-stakes opportunity relevant to Saving, investing,
-    and retirement; do not manufacture conflict, deprivation, exposure, disclosure, danger, urgency, or
-    dependence for evidence.
+  readiness_considerations: Use a simple written or spoken policy and public educational material without
+    sharing holdings or account numbers. A person with no current investable surplus can use the fictional
+    case. Favor comprehension over adding products; disability, benefits, debt, dependents and local rules
+    can materially change an actual plan.
+  opportunity_considerations: 'Use two fictional goals: a necessary payment in six months and optional
+    spending twenty years away. Assume an illustrative 1,000 starting amount. For arithmetic only, compare
+    two years at constant net annual growth of 5% and 4%, with no deposits, withdrawals or taxes. Prepare
+    a policy page with goal, deadline, loss tolerance and capacity, liquidity, diversification, fees,
+    tax questions and review trigger.'
   prerequisites:
-  - One user-chosen context that genuinely fits the canonical scope of Saving, investing, and retirement.
-  - Enough authority, consent, capacity, and resources to stop or defer safely.
+  - 'Use two fictional goals: a necessary payment in six months and optional spending twenty years away.
+    Assume an illustrative 1,000 starting amount. For arithmetic only, compare two years at constant net
+    annual growth of 5% and 4%, with no deposits, withdrawals or taxes. Prepare a policy page with goal,
+    deadline, loss tolerance and capacity, liquidity, diversification, fees, tax questions and review
+    trigger.'
   dependencies: []
   safe_alternatives:
-  - Use a fictional, public, retrospective, or category-level case for Saving, investing, and retirement
-    instead of a live situation.
-  - Defer, reduce scope, use an accessible equivalent, or seek appropriate support without a deficit interpretation.
+  - Use a simple written or spoken policy and public educational material without sharing holdings or
+    account numbers. A person with no current investable surplus can use the fictional case. Favor comprehension
+    over adding products; disability, benefits, debt, dependents and local rules can materially change
+    an actual plan.
   role_conditions:
   - This competency is context sensitive; roles, duties, and authority must be explicitly chosen or actually
     held before the practice applies.
@@ -81,19 +85,30 @@ meaning_and_fit:
 intervention:
   protocol_class: PF-QUALIFIED-CONSULTATION
   duration_days: 10
-  cadence: Complete three bounded Saving, investing, and retirement actions over ten days, preserving
-    explicit not-applicable, defer, interruption, adverse, and unknown outcomes.
-  setup: Choose one context for Saving, investing, and retirement; copy the canonical scope and evidence
-    target into a private working note; define the action boundary, valid supports, privacy limit, and
-    stop condition before beginning.
-  privacy_and_boundaries: Store only allowlisted criteria and category-level observations for Saving,
-    investing, and retirement. Do not store private prose, names, identities, diagnoses, allegations,
-    credentials, account data, protected work information, intimate detail, artifact contents, observer
-    narrative, or another person's secrets. This source-only draft is not surveillance, professional advice,
-    treatment, certification, or proof of character.
-  expected_burden: About 45-75 minutes total across setup, three Saving, investing, and retirement actions,
-    and review; scope may be reduced or deferred for access, care, health, workload, conscience, or resource
-    reasons.
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use two fictional goals: a necessary payment in six months and optional spending twenty years
+    away. Assume an illustrative 1,000 starting amount. For arithmetic only, compare two years at constant
+    net annual growth of 5% and 4%, with no deposits, withdrawals or taxes. Prepare a policy page with
+    goal, deadline, loss tolerance and capacity, liquidity, diversification, fees, tax questions and review
+    trigger. Goal: Relate a goal and time horizon to liquidity, risk capacity, diversification, costs,
+    taxes and review rules without relying on a return prediction. Scope: This is a fictional policy and
+    disclosure-reading exercise, not a personal asset allocation, retirement sufficiency calculation or
+    instruction to trade. Illustrative returns are not forecasts or guarantees. Time and effort: Forty
+    minutes to compare two goals and costs, then fifteen minutes to review the policy against a loss scenario.
+    Adaptation: Use a simple written or spoken policy and public educational material without sharing
+    holdings or account numbers. A person with no current investable surplus can use the fictional case.
+    Favor comprehension over adding products; disability, benefits, debt, dependents and local rules can
+    materially change an actual plan. Keep personal working notes outside the check-in; record only the
+    listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a simple written or spoken policy and public educational material without sharing
+    holdings or account numbers. A person with no current investable surplus can use the fictional case.
+    Favor comprehension over adding products; disability, benefits, debt, dependents and local rules can
+    materially change an actual plan.
+  expected_burden: Forty minutes to compare two goals and costs, then fifteen minutes to review the policy
+    against a loss scenario.
   action_count_rationale: null
   foreseeable_misuse:
   - Using the Saving, investing, and retirement protocol to rank worth, coerce participation, demand disclosure,
@@ -101,20 +116,25 @@ intervention:
   - Treating a completed Saving, investing, and retirement action, a polished artifact, agreement, confidence,
     speed, independence, or output as mastery or universal transfer.
   exclusions:
-  - Any Saving, investing, and retirement situation involving emergency response, abuse, retaliation,
-    illegal conduct, medical treatment, legal representation, financial-loss decisions, safeguarding,
-    hazardous equipment, or other consequences beyond a reversible source-only exercise.
-  - Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed
-    or jurisdiction-specific advice.
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a simple
+    written or spoken policy and public educational material without sharing holdings or account numbers.
+    A person with no current investable surplus can use the fictional case. Favor comprehension over adding
+    products; disability, benefits, debt, dependents and local rules can materially change an actual plan.
   actions:
   - stable_id: PRACTICE-COMP-2305-SAVING-INVESTING-AND-RETIREMENT-01-A1
     sequence: 1
-    title: Bound the qualified question for Saving, investing, and retirement
-    instructions: 'Turn Saving, investing, and retirement into one educational or planning question and
-      identify the qualification and jurisdiction needed to answer it. Use the canonical scope to separate
-      general learning from diagnosis, treatment, legal advice, financial advice, safeguarding decisions,
-      or other professional judgment: Understand diversification, fees, taxes, compounding, volatility,
-      horizon, and the limits of prediction.'
+    title: Separate the money’s job from an attractive return story
+    instructions: 'For each goal, describe when funds are needed and the consequence of a loss or access
+      delay. Distinguish willingness to tolerate price changes from actual capacity to absorb a loss while
+      meeting obligations. State what must remain accessible and which retirement or tax-advantaged arrangements
+      require current eligibility and withdrawal-rule verification. Do not choose percentages until these
+      constraints are understood, and do not assume a long horizon makes every investment suitable.
+
+
+      Observation checks: Both goals have a deadline and loss consequence; Risk willingness and financial
+      loss capacity are distinguished; Liquidity and account-rule questions are explicit; No universal
+      allocation is inferred from age or horizon alone. Mark only what you observed. Missing, mixed and
+      negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 3
     typed_evidence_identity:
@@ -136,9 +156,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2305_a1_question_bounded
-        - c2305_a1_qualification_named
-        - c2305_a1_professional_boundary_explicit
+        - both_goals_have_a_deadline_and_loss_consequence
+        - risk_willingness_and_financial_loss_capacity_are_distinguished
+        - liquidity_and_account_rule_questions_are_explicit
+        - no_universal_allocation_is_inferred_from_age_or_horizon_alone
       - measurement_id: c2305_a1_boundary
         kind: boolean
         role: supporting
@@ -155,12 +176,19 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2305-SAVING-INVESTING-AND-RETIREMENT-01-A2
     sequence: 2
-    title: Prepare minimum information for Saving, investing, and retirement
-    instructions: Create a privacy-minimized Saving, investing, and retirement consultation note containing
-      only the question, relevant category-level facts, current constraints, and desired decision. Omit
-      diagnoses, allegations, account numbers, credentials, protected work information, intimate detail,
-      and third-party identity unless a qualified professional lawfully requires it through an appropriate
-      channel.
+    title: Inspect diversification and the compounding cost example
+    instructions: 'Calculate 1,000 times 1.05 squared as 1,102.50 and 1,000 times 1.04 squared as 1,081.60,
+      a 20.90 difference under the stated assumptions. Explain why ongoing costs reduce what remains to
+      compound without treating either path as an expected result. Inspect an official educational example
+      or a real public fund disclosure for holdings concentration, overlapping exposures and fees. Two
+      funds holding the same assets are not automatically well diversified, and diversification does not
+      eliminate market loss.
+
+
+      Observation checks: The two hypothetical balances and 20.90 difference are correct; Assumed constant
+      returns are not presented as a forecast; Holdings overlap and fee disclosures are actually inspected;
+      Diversification is not described as a guarantee against loss. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
     expected_time: 15-25 minutes
     due_within_days: 7
     typed_evidence_identity:
@@ -182,9 +210,10 @@ intervention:
         allowed_provenance:
         - reviewed_artifact
         criteria:
-        - c2305_a2_minimum_information_only
-        - c2305_a2_sensitive_detail_excluded
-        - c2305_a2_decision_need_named
+        - the_two_hypothetical_balances_and_20_90_difference_are_correct
+        - assumed_constant_returns_are_not_presented_as_a_forecast
+        - holdings_overlap_and_fee_disclosures_are_actually_inspected
+        - diversification_is_not_described_as_a_guarantee_against_loss
       - measurement_id: c2305_a2_boundary
         kind: boolean
         role: supporting
@@ -201,11 +230,39 @@ intervention:
         expected: true
   - stable_id: PRACTICE-COMP-2305-SAVING-INVESTING-AND-RETIREMENT-01-A3
     sequence: 3
-    title: Record a bounded Saving, investing, and retirement disposition
-    instructions: 'Use an appropriately qualified source or consultation to record only a next-step category:
-      proceed within stated limits, seek a different qualification, gather missing information, defer,
-      or use urgent support. Do not store professional narrative or convert the disposition into mastery.
-      Target evidence remains: Uses a simple long-term strategy appropriate to goals and risk tolerance.'
+    title: Stress the policy before any implementation
+    instructions: 'Write a provisional policy for each goal using constraints rather than product names:
+      acceptable access, kinds of risk excluded, information required, cost comparison and a review schedule.
+      Test an adverse scenario in which a risky holding loses value just before money is needed. State
+      whether the policy would still serve the goal and what should be changed before implementation.
+      Use a qualified, appropriately regulated adviser for unresolved personal suitability, tax or retirement
+      questions; no purchase or account transfer is part of completion.
+
+
+      Observation checks: Each policy connects permitted risk to the goal and deadline; A near-deadline
+      loss scenario changes or confirms the policy explicitly; Unresolved suitability tax and retirement
+      questions remain open; The exercise ends without an investment transaction. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which constraint would prevent an appealing product from serving the goal, and which
+      cost or tax question must be resolved before acting?
+
+
+      Examples: Supportive: The short-term goal retained an access-first constraint, the learner detected
+      overlapping holdings and explained the hypothetical fee effect without predicting wealth.
+
+
+      Mixed: The policy covered risk tolerance but initially omitted the inability to absorb a loss and
+      was revised.
+
+
+      Contradictory: A positive return was guaranteed, an allocation was prescribed from age alone or
+      a trade was made without resolving suitability and access.
+
+
+      Inconclusive: Investment vocabulary was listed without a goal-linked policy, disclosure check, arithmetic
+      or adverse scenario.'
     expected_time: 15-25 minutes
     due_within_days: 10
     typed_evidence_identity:
@@ -221,14 +278,16 @@ intervention:
       transfer_disposition: context_bound
       measurements:
       - measurement_id: c2305_a3_primary
-        kind: attestation
+        kind: artifact
         role: primary
         weight: '1'
         allowed_provenance:
-        - qualified_attestation
-        allowed_attestation_ids:
-        - c2305_a3_qualified_disposition
-        consent_required: true
+        - reviewed_artifact
+        criteria:
+        - each_policy_connects_permitted_risk_to_the_goal_and_deadline
+        - a_near_deadline_loss_scenario_changes_or_confirms_the_policy_explicitly
+        - unresolved_suitability_tax_and_retirement_questions_remain_open
+        - the_exercise_ends_without_an_investment_transaction
       - measurement_id: c2305_a3_boundary
         kind: boolean
         role: supporting
@@ -249,17 +308,19 @@ intervention:
       Saving, investing, and retirement; no purchase, subscription, travel, credential, or public artifact
       is required.
     accessibility:
-    - Change timing, duration, medium, language, sensory load, location, posture, response mode, or support
-      level for Saving, investing, and retirement; assistive technology, interpretation, a support person,
-      and a deferred action are valid without penalty.
+    - Use a simple written or spoken policy and public educational material without sharing holdings or
+      account numbers. A person with no current investable surplus can use the fictional case. Favor comprehension
+      over adding products; disability, benefits, debt, dependents and local rules can materially change
+      an actual plan.
     cultural_context:
     - Adapt the expression of Saving, investing, and retirement to direct or indirect communication, collective
       or individual decision structures, local norms, faith or secular commitments, and role obligations
       while preserving consent and dignity.
     resource_variants:
-    - When a real Saving, investing, and retirement opportunity is unavailable or inappropriate, use a
-      fictional, historical, public, simulated, or planning-only equivalent and retain the narrower evidence
-      classification.
+    - Use a simple written or spoken policy and public educational material without sharing holdings or
+      account numbers. A person with no current investable surplus can use the fictional case. Favor comprehension
+      over adding products; disability, benefits, debt, dependents and local rules can materially change
+      an actual plan.
   pause_conditions:
   - Pause Saving, investing, and retirement when capacity, consent, authority, privacy, access, care duties,
     uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
@@ -291,10 +352,8 @@ evidence_and_scoring:
   - c2305_a3_boundary
   - c2305_a3_adverse
   adverse_or_contradictory_indicators:
-  - The Saving, investing, and retirement action exceeded consent, authority, privacy, qualification,
-    role, burden, or safety boundaries.
-  - The evidence contradicted the intended Saving, investing, and retirement criterion, depended on coercion
-    or hidden private content, or could not distinguish the protocol from contextual change.
+  - A positive return was guaranteed, an allocation was prescribed from age alone or a trade was made
+    without resolving suitability and access.
   independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
     for Saving, investing, and retirement explicitly; support can enable access and never reduces dignity
     or silently changes the typed value.
@@ -305,14 +364,23 @@ evidence_and_scoring:
     multipliers.
   recency_rule: Generated Saving, investing, and retirement rules withhold observations older than 90
     days; no unrecorded retention or carry-forward assumption applies.
-  performance_rubric: Performance concerns only the action-specific criteria derived from the canonical
-    target—Uses a simple long-term strategy appropriate to goals and risk tolerance.—not completion, confidence,
-    conformity, output, independence, or worth.
-  evidence_quality_rubric: Quality for Saving, investing, and retirement requires a bounded context, allowlisted
-    observations, provenance, contradiction and adverse handling, and preserved uncertainty; free text
-    and artifact contents are excluded.
-  scoring_eligibility: Replay-verified structured evidence is score eligible under the explicit activation
-    ledger; action-specific provenance and withholding rules still apply.
+  performance_rubric: 'Action 1: Separate the money’s job from an attractive return story. Observed checks:
+    Both goals have a deadline and loss consequence; Risk willingness and financial loss capacity are
+    distinguished; Liquidity and account-rule questions are explicit; No universal allocation is inferred
+    from age or horizon alone. Action 2: Inspect diversification and the compounding cost example. Observed
+    checks: The two hypothetical balances and 20.90 difference are correct; Assumed constant returns are
+    not presented as a forecast; Holdings overlap and fee disclosures are actually inspected; Diversification
+    is not described as a guarantee against loss. Action 3: Stress the policy before any implementation.
+    Observed checks: Each policy connects permitted risk to the goal and deadline; A near-deadline loss
+    scenario changes or confirms the policy explicitly; Unresolved suitability tax and retirement questions
+    remain open; The exercise ends without an investment transaction.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Investment vocabulary was listed without a goal-linked
+    policy, disclosure check, arithmetic or adverse scenario.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
   competency_contribution: Designated primary measurements may produce one context-bound direct Saving,
     investing, and retirement contribution under typed evaluation; protocol performance remains distinct
     and is never counted twice.
@@ -321,9 +389,8 @@ evidence_and_scoring:
   - L14
   - L21
   - L36
-  minimum_evidence_before_state_update: One submitted replay-verified event with an observed competency
-    measurement and no applicable withholding condition may update current state; completion alone never
-    does.
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
   withholding_conditions:
   - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
     or adverse Saving, investing, and retirement evidence.
@@ -331,12 +398,20 @@ evidence_and_scoring:
     inference, or evidence outside its assessment epoch.
 completion_and_review:
   completion_criteria:
-  - The bound the qualified question for saving, investing, and retirement action was attempted or explicitly
-    deferred.
-  - The prepare minimum information for saving, investing, and retirement action was attempted or explicitly
-    deferred.
-  - The record a bounded saving, investing, and retirement disposition action preserved a limited conclusion,
-    contradiction, or inconclusive result.
+  - 'Action 1: Separate the money’s job from an attractive return story. Observed checks: Both goals have
+    a deadline and loss consequence; Risk willingness and financial loss capacity are distinguished; Liquidity
+    and account-rule questions are explicit; No universal allocation is inferred from age or horizon alone.'
+  - 'Action 2: Inspect diversification and the compounding cost example. Observed checks: The two hypothetical
+    balances and 20.90 difference are correct; Assumed constant returns are not presented as a forecast;
+    Holdings overlap and fee disclosures are actually inspected; Diversification is not described as a
+    guarantee against loss.'
+  - 'Action 3: Stress the policy before any implementation. Observed checks: Each policy connects permitted
+    risk to the goal and deadline; A near-deadline loss scenario changes or confirms the policy explicitly;
+    Unresolved suitability tax and retirement questions remain open; The exercise ends without an investment
+    transaction.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
   completion_rules:
     minimum_completed: 2
     substantive_markers:
@@ -345,57 +420,309 @@ completion_and_review:
     - c2305_a3_primary
     marker_mode: any
   mastery_disclaimer: Completing this practice does not establish mastery.
-  progression_criteria: Repeat or broaden Saving, investing, and retirement only when the initial context
-    remained safe, the evidence criteria were usable, burden was acceptable, and a new context can be
-    named without assuming transfer.
-  transfer_limit: Three bounded actions do not establish Saving, investing, and retirement across roles,
-    cultures, relationships, seasons, stress levels, disability states, institutions, or high-consequence
-    settings.
+  progression_criteria: Which constraint would prevent an appealing product from serving the goal, and
+    which cost or tax question must be resolved before acting?
+  transfer_limit: This is a fictional policy and disclosure-reading exercise, not a personal asset allocation,
+    retirement sufficiency calculation or instruction to trade. Illustrative returns are not forecasts
+    or guarantees.
   reflection:
-    before: What does Saving, investing, and retirement require in this exact context, what remains outside
-      my role or authority, and which scope sentence or evidence criterion will keep the practice honest?
-    during: Which observable Saving, investing, and retirement criterion is present, absent, mixed, or
-      unknown, and are consent, privacy, access, burden, and stop conditions still intact?
-    after: How did the result compare with 'Uses a simple long-term strategy appropriate to goals and
-      risk tolerance.', what contradiction or missing context matters most, and should this Saving, investing,
-      and retirement design be repeated, adapted, deferred, stopped, or referred?
+    before: 'What would count as doing this honestly? Goal: Relate a goal and time horizon to liquidity,
+      risk capacity, diversification, costs, taxes and review rules without relying on a return prediction.'
+    during: Which checks have actually been observed? The policy covered risk tolerance but initially
+      omitted the inability to absorb a loss and was revised.
+    after: Which constraint would prevent an appealing product from serving the goal, and which cost or
+      tax question must be resolved before acting?
   review_guidance:
     repeat: Repeat the same bounded Saving, investing, and retirement design only when the context and
       burden remain appropriate.
-    adapt: Change the Saving, investing, and retirement medium, scope, support, timing, criteria, or context
-      while preserving provenance and the narrower evidence claim.
+    adapt: Use a simple written or spoken policy and public educational material without sharing holdings
+      or account numbers. A person with no current investable surplus can use the fictional case. Favor
+      comprehension over adding products; disability, benefits, debt, dependents and local rules can materially
+      change an actual plan.
     stop: Stop Saving, investing, and retirement when the practice becomes coercive, unsafe, privacy-invasive,
       role-inappropriate, professionally restricted, or harmful.
-    escalate: Use appropriate qualified or emergency support for Saving, investing, and retirement questions
-      beyond this educational source-only boundary.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
   evidence_examples:
-    supportive: The bounded Saving, investing, and retirement criteria were observed with provenance and
-      no adverse boundary signal in the selected context.
-    mixed: Some Saving, investing, and retirement criteria were observed while burden, support, contextual
-      change, or a contradiction limited the conclusion.
-    contradictory: The observed result opposed the intended Saving, investing, and retirement criterion,
-      introduced harm or coercion, or showed the design was not workable.
-    inconclusive: The Saving, investing, and retirement action was deferred, not observed, not applicable,
-      stale, insufficiently bounded, or too confounded to interpret.
+    supportive: The short-term goal retained an access-first constraint, the learner detected overlapping
+      holdings and explained the hypothetical fee effect without predicting wealth.
+    mixed: The policy covered risk tolerance but initially omitted the inability to absorb a loss and
+      was revised.
+    contradictory: A positive return was guaranteed, an allocation was prescribed from age alone or a
+      trade was made without resolving suitability and access.
+    inconclusive: Investment vocabulary was listed without a goal-linked policy, disclosure check, arithmetic
+      or adverse scenario.
 presentation:
   setup_copy:
-    context_heading: Choose one bounded context for Saving, investing, and retirement.
+    context_heading: Write a bounded saving and investing policy before choosing products
     boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
-    timing_hint: Use three short actions over ten days; do not manufacture an opportunity.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
     applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Saving, investing,
       and retirement.
   check_in_labels:
-    c2305_a1_primary: The bounded Saving, investing, and retirement criterion for action 1 was observed
+    c2305_a1_primary: 'Observed checks: separate the money’s job from an attractive return story'
     c2305_a1_boundary: Action 1 stayed inside its stated Saving, investing, and retirement boundary
     c2305_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
-    c2305_a2_primary: The bounded Saving, investing, and retirement criterion for action 2 was observed
+    c2305_a2_primary: 'Observed checks: inspect diversification and the compounding cost example'
     c2305_a2_boundary: Action 2 stayed inside its stated Saving, investing, and retirement boundary
     c2305_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
-    c2305_a3_primary: The bounded Saving, investing, and retirement criterion for action 3 was observed
+    c2305_a3_primary: 'Observed checks: stress the policy before any implementation'
     c2305_a3_boundary: Action 3 stayed inside its stated Saving, investing, and retirement boundary
     c2305_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
-  completion_copy: Review the bounded evidence without claiming mastery, broad transfer, professional
-    validation, identity, dignity, or human worth.
-  plain_language_evidence: The structured record shows what happened in one limited Saving, investing,
-    and retirement practice, including support, contradiction, defer, no result, or harm.
+  completion_copy: Which constraint would prevent an appealing product from serving the goal, and which
+    cost or tax question must be resolved before acting? Completion is not mastery.
+  plain_language_evidence: The short-term goal retained an access-first constraint, the learner detected
+    overlapping holdings and explained the hypothetical fee effect without predicting wealth.
   display_order: 321
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '23.05'
+  title: 23.05 — Saving, investing, and retirement
+  scored: false
+  body_format: markdown
+  resources:
+  - id: sources
+    title: Sources and further reading
+    body: 'These references support the bounded concepts described in the guide. They do not validate
+      the fictional case or establish personal results.
+
+
+      - [Identifying and managing conflicts of interest in a charity](https://www.gov.uk/government/publications/identifying-and-managing-conflicts-of-interest-in-a-charity-cc29/conflicts-of-interest-a-guide-for-charity-trustees)
+
+      - [Preventing Policy Capture: Integrity in Public Decision Making](https://www.oecd.org/en/publications/preventing-policy-capture_9789264065239-en.html)
+
+      - [How to File a Whistleblower Complaint](https://www.whistleblowers.gov/complaint_page)
+
+      - [Decision-making for charity trustees](https://www.gov.uk/government/publications/decision-making-for-charity-trustees-cc27/decision-making-for-charity-trustees)
+
+      - [Promising Practices for Preventing Harassment](https://www.eeoc.gov/laws/guidance/promising-practices-preventing-harassment)
+
+      - [Creating a cash flow budget](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_cash_flow_budget_tool_2018-11_ADA.pdf)
+
+      - [An essential guide to building an emergency fund](https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/)
+
+      - [Is the money I keep in my payment app safe?](https://www.consumerfinance.gov/ask-cfpb/is-the-money-i-keep-in-my-payment-app-safe-en-2135/)
+
+      - [What is the difference between a loan interest rate and the APR?](https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/)
+
+      - [Beginners’ Guide to Asset Allocation, Diversification, and Rebalancing](https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset)
+
+      - [How Fees and Expenses Affect Your Investment Portfolio – Investor Bulletin](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated)
+
+      - [I would like to be able to have my friend or family member help with my bill-paying and banking.
+      What are my options?](https://www.consumerfinance.gov/ask-cfpb/i-would-like-to-be-able-to-have-my-friend-or-family-member-help-with-my-bill-paying-and-banking-what-are-my-options-en-1145/)
+
+      - [What to Know About Life Insurance Beneficiaries](https://content.naic.org/article/consumer-insight-what-know-about-life-insurance-beneficiaries)
+
+      - [Online Shopping](https://consumer.ftc.gov/articles/online-shopping)
+
+      - [Tax withholding](https://www.irs.gov/individuals/employees/tax-withholding)'
+  - id: file-later-packet-md
+    title: Later packet
+    body: 'Supplied fiction. Open after saving a first attempt. These events are invented learning materials,
+      not actual participant evidence.
+
+
+      ### The date and the capacity matter
+
+
+      The supplied market stress makes a hypothetical risky 1,000 holding worth **800**, a **200 shortfall**
+      against N''s six-month necessary payment. No rescue return, extra resource or payment extension
+      is supplied. An N policy that relied on selling that holding at 1,000 fails its own purpose; revise
+      the risk and access constraints before any implementation.
+
+
+      L initially permitted optional delay, but a separate new fact says the household''s essential-care
+      costs have risen. The amount that could absorb investment loss now needs reassessment. A twenty-year
+      label cannot settle that question. The record supports a policy review, not an automatic sale, a
+      new allocation or a conclusion that all long-term investing is unsuitable.
+
+
+      The holdings check still gives 60% Alpha and 40% Beta even across two fund names. No diversification
+      benefit is established merely by adding Q. The constant-net-growth arithmetic remains 1,102.50 versus
+      1,081.60; it was never the supplied market path and should not be substituted for the loss.
+
+
+      Save the changed constraints, unresolved account/tax questions and a qualified information route.
+      There is no actual trade, retirement sufficiency finding, verified product recommendation or learner
+      investment outcome.'
+  sections:
+  - id: teaching
+    kind: concept
+    title: Learn and try
+    body: 'Write two provisional policies before choosing any product. Allow forty minutes for goals,
+      disclosures and arithmetic, then fifteen to test a loss scenario. This is financial education using
+      original fictional figures, not personal asset allocation, retirement sufficiency analysis or an
+      instruction to trade.
+
+
+      ### Give each amount a job and a deadline
+
+
+      Money needed for a necessary payment in six months has a different job from money for optional spending
+      twenty years away. A person may feel comfortable with price fluctuations yet be unable to absorb
+      a loss before rent, care or another obligation. Risk willingness describes preference; loss capacity
+      describes what the financial position can withstand. A long horizon does not remove all risk, guarantee
+      recovery or make every investment suitable.
+
+
+      The SEC''s [asset-allocation guide, S10](https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset)
+      relates investment choices to horizon and risk and distinguishes diversification within and between
+      asset categories. Its educational example contrasts a broadly held stock fund with a narrowly focused
+      sector fund. Owning a fund does not automatically remove concentration. No numeric allocation formula,
+      historical return prediction or particular fund recommendation is adopted here.
+
+
+      An account and the assets inside it are also different. A retirement or tax-advantaged account may
+      have eligibility, contribution, tax and withdrawal rules; a familiar account name does not answer
+      which holdings it contains or when money can be accessed. Actual rules depend on jurisdiction and
+      circumstances. Keep those questions open for current official information and appropriately qualified
+      advice.
+
+
+      ### Supplied goals and original disclosure cards
+
+
+      For comparison, use **1,000 starting units for each separate hypothetical goal**, not a real combined
+      portfolio. Goal N is a necessary **1,000 payment in six months**, with no other supplied resource
+      to absorb a shortfall. Goal L is **optional spending twenty years away**; its amount and date can
+      be revised. Both require a policy page covering deadline, loss consequences, liquidity, diversification,
+      fees, tax questions and review triggers.
+
+
+      The original teaching cards below contain all holdings in two toy sector funds. They are **not actual
+      products or regulatory disclosures**. The inspected SEC educational example supplies the general
+      concentration principle; these cards make the overlap calculation self-contained.
+
+
+      | Feature | Fund P | Fund Q |
+
+      | --- | --- | --- |
+
+      | Holdings by value | Alpha 60%; Beta 40% | Alpha 60%; Beta 40% |
+
+      | Exposure | Two firms in one sector | The same two firms in the same sector |
+
+      | Annual fund operating expense | 0.20% of assets | 0.80% of assets |
+
+      | Account maintenance | 0 in this sample | 0 in this sample |
+
+      | Purchase/sale fee | 0 in this sample | 0 in this sample |
+
+      | Taxes, dealing spread and settlement/access terms | Not supplied | Not supplied |
+
+
+      Splitting 1,000 equally across P and Q still leaves **600 in Alpha and 400 in Beta**. It doubles
+      the number of fund labels without broadening the underlying holdings. On a frozen 1,000 balance
+      for a one-year fee illustration, the respective operating-expense amounts would be **2 and 8**.
+      Actual dollar charges change with asset values and terms. The unprovided costs and access rules
+      remain questions, not assumed zeros. Neither fund is recommended.
+
+
+      The SEC''s [fees bulletin, S11](https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated)
+      explains ongoing and transaction charges and the importance of checking disclosures. Its general
+      cost mechanism supports this comparison; no actual prospectus, adviser fee agreement or account
+      statement was inspected. A cheaper concentrated holding remains concentrated. Cost is one constraint
+      alongside suitability, access and risk.
+
+
+      ### Separate compounding arithmetic from a forecast
+
+
+      For arithmetic only, compare two years of constant **net** annual growth at 5% and 4%, with no additions,
+      withdrawals or taxes. The results are **1,000 × 1.05² = 1,102.50** and **1,000 × 1.04² = 1,081.60**,
+      a **20.90 difference**. Each second year''s growth applies to the first year''s closing amount.
+      Net means the assumed return already reflects whatever costs are embedded in that rate; do not subtract
+      the toy funds'' expense ratios again.
+
+
+      These paths are independent examples, not projections for P or Q and not a twenty-year retirement
+      forecast. The one-percentage-point difference illustrates how less retained growth leaves less to
+      compound. Actual returns may be negative or variable, and taxes can change results. A neat curve
+      does not establish a dependable future balance.
+
+
+      ### Produce two bounded policies
+
+
+      1. For N and L, state the deadline, consequence of loss and access need. Distinguish willingness
+      from capacity. N cannot assume it can replace a shortfall; L has flexibility but still needs an
+      explicit understanding of possible loss.
+
+      2. Inspect the source''s broad-versus-sector example and the complete toy holdings and fee cards.
+      Calculate the combined Alpha/Beta exposure and identify all unverified disclosure fields. Explain
+      why two names do not create diversification and why diversification cannot guarantee against market
+      loss.
+
+      3. Show both compound calculations and the 20.90 difference. Keep net rates, time horizon and excluded
+      taxes beside the results. Do not imply either rate is expected.
+
+      4. Write a constraints-first N policy: preserve ability to meet the required amount by its date,
+      require verified access and relevant protection, and reject reliance on uncertain market appreciation.
+      Do not name a product or declare an unverified account safe.
+
+      5. Write an L policy: assess capacity before taking investment risk, seek understandable diversified
+      exposure, compare complete costs, resolve account and tax questions, and review on an agreed schedule
+      or material life change. Leave allocation percentages undecided because suitability inputs are incomplete.
+
+      6. Stress both policies with a **20% loss just before the required date**. A risky 1,000 holding
+      would become 800; ask which goal can absorb the 200 loss or delay and what would need revision before
+      implementation. Save your policies before the [later packet](?resource=file-later-packet-md).
+
+
+      Review rules should react to changed goals, capacity, access and costs, not just recent performance
+      or a confident prediction. Retirement planning also involves future needs and account rules that
+      this small case does not establish. A simple policy can be a useful starting point while those questions
+      remain unresolved.
+
+
+      For support, use a calculator and two separate goal cards. For a harder pass, move L''s date forward
+      and ask whether the previous capacity assumption still holds. Optional actual transfer is to read
+      official education or a public disclosure privately, recording uncertainties without publishing
+      holdings or opening an account. No purchase, sale or account transfer demonstrates completion. Having
+      no investable surplus is compatible with learning the distinctions.
+
+
+      ### Use the result at its proper scale
+
+
+      Financial education only; tax, investment, insurance, estate, and benefits decisions may require
+      licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload
+      account identifiers, credentials or private financial records. Fiction and no attempt are legitimate.
+      Human dignity is never scored.
+
+
+      Attempt the [practice checks](?attempt=practice-checks) before opening their [answers](?check=practice-answers).'
+  - id: practice-checks
+    kind: prompt
+    title: Practice checks
+    body: 'Attempt before [reading answers](?check=practice-answers).
+
+
+      1. Two funds each hold 70% X and 30% Y. You divide your money equally between them. What is the
+      combined exposure?
+
+      2. A two-year illustration uses net growth of 3% on 500. Should you subtract a separate imagined
+      fee again?
+
+      3. Someone welcomes volatility but needs the full amount in four months for an essential payment.
+      Which distinction matters?'
+    check_id: practice-answers
+    attempt_mode: practice
+  checks:
+  - id: practice-answers
+    title: Compare your responses
+    body: '1. Still 70% X and 30% Y. Two labels have not diversified the underlying holdings. Other categories
+      or exposures require examination; diversification itself never guarantees no loss.
+
+      2. No. Under the stated net-rate assumptions the balance is 500 × 1.03² = 530.45. Do not double-count
+      costs or attach unrelated fees; the illustration is not a forecast and excludes any unprovided tax
+      effects.
+
+      3. Willingness to experience price movement is not capacity to absorb loss or delayed access. The
+      required amount and date constrain the policy; no age-based allocation or expected rebound resolves
+      the mismatch.'
+    criteria:
+    - Compare each saved response with its matching explanation; keep revisions separate from your initial
+      attempt.

@@ -47,7 +47,7 @@ Save your summary and draft before opening [later-packet.md](later-packet.md). P
 
 Apply each later branch separately. Preserve day 1 facts, add the dated event, write a teach-back and name the next actor and follow-up. Use `drafted → authorized → sent → acknowledged → record received → clinically interpreted` only when that exact event is supplied. These stages are evidence distinctions for this case, not a universal linear clinical workflow. Booking and attending care remain separate tracks. Missing answers stay open.
 
-Attempt [check-prompts.md](check-prompts.md), then use the [corrective key](check-answers.md). The source artifact is complete with all six areas, the limited draft, both reply reconciliations and a next-step record. These reading outputs add no application action, evidence field or completion rule.
+Attempt [check-prompts.md](check-prompts.md), then use the [corrective key](check-answers.md). The source artifact is complete with all six areas, the limited draft, both reply reconciliations and a next-step record. These reading outputs do not establish actual health behavior.
 
 ## Access, deeper work and transfer
 

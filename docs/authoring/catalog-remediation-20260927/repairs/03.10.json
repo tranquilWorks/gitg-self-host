@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "03.10",
+  "title": "Join a shared sacred practice with understanding and consent",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Shared participation requires a real willing other person and the relevant invitation. Observation can be valuable without being membership or participation in a restricted rite. No ritual requires words one cannot sincerely affirm merely to finish an exercise."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional public remembrance invitation: visitors may sit, listen and offer an optional ordinary recollection; no recording. A separate members’ rite afterward is closed to visitors. Rae welcomes a 10-minute shared secular remembrance with Jo if both prefer that alternative. They may each pass and end early. No actual event or consent exists for the reader."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Choose an allowed route and describe its meaning, permission and participation limits. Identify what a solitary recorded-video study could and could not show.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A host permits observation but asks a visitor to recite a belief they do not hold. Can the visitor remain respectfully silent?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Observe the public remembrance or use an actually agreed shared fallback; do not enter the closed rite. A solitary video can support study, not shared participation. Later fiction: Jo listens, passes on speaking and leaves before the members’ rite; observation occurred, not membership. Partial: follow conduct without understanding the invitation. Incorrect: claim restricted participation from public access.",
+      "criteria": [
+        "Participation matches the actual invitation",
+        "Shared practice is not inferred from solitary viewing",
+        "Sincerity and the right to decline remain intact"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Under that observation invitation, yes. Clarify or leave if the actual conditions change; neither false assent nor pressure on others is needed.",
+      "criteria": [
+        "Participation matches the actual invitation",
+        "Shared practice is not inferred from solitary viewing",
+        "Sincerity and the right to decline remain intact"
+      ]
+    }
+  ]
+}

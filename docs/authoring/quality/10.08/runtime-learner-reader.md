@@ -35,7 +35,13 @@ Use a green slip labeled due today or another equivalent synthetic item. Ask the
 - Remaining errors are retained
 - The final version reflects observed feedback rather than approval alone
 
+## Adaptation
+
 Use pictures, tactile labels, accessible text or a spoken procedure. Self-review is legitimate but should not be described as independent user testing. Keep reviewers free to decline and avoid public criticism or protected workplace material.
+
+## Review
+
+What changed because of the feedback that would not have changed through more time polishing alone?
 
 Expose one instruction error and verify a targeted repair
 
@@ -51,7 +57,7 @@ Folders: TODAY, LATER and REFERENCE, arranged left to right. Objects: one blue s
 
 Example on a different object and location
 
-Intended result: place the red card on shelf 2 and leave the black card on the desk. Version A says “Put the red one away and leave that one.” A literal tester pauses at “away” and cannot resolve what “that one” names. The author records location and reference as the two gaps, selects location first, and revises only to “Place the red card on shelf 2; leave the black card on the desk.” A fresh green card/gray card case reaches the intended locations. “The tester liked it” would not test either gap.
+Intended result: place the red card on shelf 2 and leave the black card on the desk. Version A says “Put the red one away and leave that one.” A literal tester pauses at “away” and cannot resolve what “that one” names. The author records location and reference as the two gaps, selects one combined clarity correction—explicit objects and locations—and revises to “Place the red card on shelf 2; leave the black card on the desk.” A fresh green card/gray card case reaches the intended locations. “The tester liked it” would not test either gap.
 
 Error-correction record
 

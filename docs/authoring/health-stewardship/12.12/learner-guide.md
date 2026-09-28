@@ -48,7 +48,7 @@ Use `time | actor | specific proposal | response | current permission | action a
 
 Apply the later branches. Preserve an overstep when it occurred rather than rewriting the earlier response. A stop takes effect before repair discussion; do not continue unwanted contact to finish an apology. For the medical card, produce four questions: what will happen and why; what options and consequences should be understood; who will be present and how privacy/support works; how to ask for a pause or discuss a changed decision under the applicable process. You do not need an actual examination to finish this companion exercise.
 
-Attempt [fresh checks](check-prompts.md) before [the key](check-answers.md). Complete source output includes all three rehearsals, the later permission/repair record and medical questions. These are additional reading tasks, not changes to runtime actions, completion or the separate frozen 11.10 boundary protocol.
+Attempt [fresh checks](check-prompts.md) before [the key](check-answers.md). Complete source output includes all three rehearsals, the later permission/repair record and medical questions. These rehearsals do not establish a stated or maintained real boundary.
 
 ## Access, harder work and real transfer
 

@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.10",
+  "title": "Make a household utility response card",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A utility response card separates extent of disruption, authoritative service information, permitted user action and a stop point. It does not authorize opening equipment or improvising safety tests."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional internet case: laptop cannot load pages, but a phone on the same home Wi-Fi can. Provider status page reports no known area outage, not a guarantee. Exact fictional laptop help card permits checking Wi-Fi selection and toggling that device’s Wi-Fi once; it does not authorize router reset or opening hardware. Laptop shows it is connected to an old guest network. No smoke, heat or electrical concern is present."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Draw a decision sequence using these states and the one permitted user action. State what would remain unknown if it fails.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "Every device loses connection and the provider confirms an outage with no restoration time. Can a local reboot be reported as restoring service before a check?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "The working phone narrows the known issue to the laptop/route, not necessarily the provider. Select the correct authorized network without disclosing credentials; the help card allows one device-level toggle if needed. Later fiction: connection still fails; contact appropriate support with the observed states, not repeated resets. Partial: inspect outage status only. Incorrect: reset shared equipment without authority or open covers.",
+      "criteria": [
+        "The fault sequence follows actual observations",
+        "Only authorized user-level actions are chosen",
+        "Stop and escalation conditions are concrete"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Preserve the outage and unknown restoration, use a suitable available alternative if needed and verify actual return. A plan or reboot attempt is not restored service.",
+      "criteria": [
+        "The fault sequence follows actual observations",
+        "Only authorized user-level actions are chosen",
+        "Stop and escalation conditions are concrete"
+      ]
+    }
+  ]
+}

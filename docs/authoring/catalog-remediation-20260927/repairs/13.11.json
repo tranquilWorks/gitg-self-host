@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.11",
+  "title": "Match one plant to its actual growing conditions",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Plant care depends on identified species, medium, light and actual guidance. One symptom can have multiple causes; watering on a schedule alone cannot diagnose the need. A growing cycle includes preparation, establishment, monitoring and an appropriate end or harvest, not only one watering."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional supplier trial card for a nonfood ornamental seed: use the supplied clean medium and labeled container in bright indirect light; check the surface daily; add a small amount of water only when the card’s stated dry-surface condition is present, avoiding standing water. The packet gives germination 7–14 days; no fertilizer/pesticide instruction. Day 3 surface is wet; day 8 still wet with no shoot. Species identity/toxicity for a real home is not supplied, so this is a paper case only."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Compare wetness, time window and missing identification. Plan the next observation and a supplier question rather than diagnosing or adding treatments.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "Two plants have yellow leaves, one with dry medium and one persistently wet. Is a single automatic watering remedy justified?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Day 8 lies within the supplied germination window; lack of a shoot is not alone failure. Continued wetness gives no basis to add more water under this card. Ask about the actual medium/drainage and identification before a live trial. Partial: wait but ignore wetness. Incorrect: add pesticide or declare disease. Next record germination date, establishment and later condition under an identified plant’s guidance, with a planned responsible end to the trial.",
+      "criteria": [
+        "Care follows an identified applicable guide",
+        "Competing explanations remain possible",
+        "A cycle has observations beyond one action"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. The same appearance does not establish the same cause or treatment. Check species-specific guidance and actual conditions; retain uncertainty and seek suitable expertise instead of escalating products.",
+      "criteria": [
+        "Care follows an identified applicable guide",
+        "Competing explanations remain possible",
+        "A cycle has observations beyond one action"
+      ]
+    }
+  ]
+}

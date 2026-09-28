@@ -149,7 +149,9 @@ class PracticeContentBundle:
 
 def _read_yaml(path: Path) -> dict[str, Any]:
     try:
-        document = yaml.safe_load(path.read_text(encoding="utf-8"))
+        document = yaml.load(
+            path.read_text(encoding="utf-8"), Loader=getattr(yaml, "CSafeLoader", yaml.SafeLoader)
+        )
     except (OSError, yaml.YAMLError) as exc:
         raise PracticeContentError(f"{path}: could not read valid YAML: {exc}") from exc
     if not isinstance(document, dict):

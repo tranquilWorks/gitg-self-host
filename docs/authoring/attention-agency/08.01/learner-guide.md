@@ -27,10 +27,8 @@ The full learning card says: “For this fictional index, blue means a book, gre
 
 For support, use one accurately remembered window and treat the two-day audit as incomplete, or work entirely from this table. For a harder case, the news shortcut is needed for a genuine duty: choose another optional cue or retain it. Never remove emergency, accessibility or caregiving access. A later natural review can test recurrence, but four morning samples cannot establish a stable attention trait or prove causation.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

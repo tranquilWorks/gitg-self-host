@@ -24,10 +24,10 @@ The chosen planned variable is task scope: table only instead of table plus shel
 
 For support, use a six-box visual form, dictation or help with permission questions. A harder case gives no authority to move Bo's envelope: leave it appropriately and ask, rather than opening it to speed the task. In later transfer, choose a manageable setback and a visible renewed action. Recent trauma, bereavement or medical crisis calls for stabilization and suitable care, not a rushed experiment. A supplied household restart cannot establish recovery from those experiences.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary (unchanged): Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
+Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

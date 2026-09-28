@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 from django.conf import settings
+from rapidfuzz.distance import LCSseq
 
 from growth.domain.practice_content import (
     FROZEN_LEGACY_PROTOCOL_IDS,
@@ -437,6 +438,23 @@ def _near_duplicate_pairs(
         items = sorted(grouped[group_key])
         for index, (left_key, left_value) in enumerate(items):
             for right_key, right_value in items[index + 1 :]:
+                # SequenceMatcher's ordered matching blocks form a common
+                # subsequence. The exact LCS length is therefore an upper
+                # bound on its matching characters, never an alternative
+                # similarity decision. Reject only mathematically impossible
+                # candidates before the expensive Python alignment. Keep the
+                # original ratio, ordering, threshold and queue limit below.
+                length = len(left_value) + len(right_value)
+                if length:
+                    if 2.0 * min(len(left_value), len(right_value)) / length < threshold:
+                        continue
+                    # A conservative integer cutoff lets the exact LCS
+                    # implementation abandon impossible alignments early.
+                    matches = LCSseq.similarity(
+                        left_value, right_value, score_cutoff=max(0, int(threshold * length / 2))
+                    )
+                    if 2.0 * matches / length < threshold:
+                        continue
                 matcher = SequenceMatcher(None, left_value, right_value)
                 if matcher.real_quick_ratio() < threshold:
                     continue

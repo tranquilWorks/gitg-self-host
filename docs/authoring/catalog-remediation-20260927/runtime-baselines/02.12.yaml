@@ -1,0 +1,427 @@
+schema_version: GG-PRACTICE-CONTENT-1.0
+protocol_version: 0.2.0
+stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01
+slug: c0212-integrity-across-contexts-practice
+name: Test whether one principle survives a change of audience
+parent_competency_id: '02.12'
+domain_id: '02'
+governance:
+  availability: active
+  editorial_status: draft
+  runtime_projection: GG-PRACTICE-RUNTIME-PROJECTION-2.0
+  risk_class_id: RISK-MODERATE
+  scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+  scoring_status: active
+  source_ids:
+  - SRC-CANONICAL-CURRICULUM-V2
+  authoring:
+    provenance: M6J individually authored exercise for 02.12; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
+    content_review_status: pending
+    research_review_status: internal_sources_only_external_review_required
+    safety_review_status: pending
+    accessibility_review_status: pending
+    originality_review_status: pending
+    ui_test_status: not_applicable
+    last_reviewed: null
+    known_gap_ids:
+    - RG-M6A-001
+    - RG-M6A-002
+    expert_review_ids:
+    - ER-M6A-003
+  legacy_compatibility_exceptions: []
+  deprecation:
+    deprecated: false
+    replaced_by: null
+meaning_and_fit:
+  purpose: Identify and correct a gap between publicly claimed principles and private or rewarded conduct.
+  why_recommended: Identify and correct a gap between publicly claimed principles and private or rewarded
+    conduct.
+  claims:
+  - statement: Identify and correct a gap between publicly claimed principles and private or rewarded
+      conduct.
+    classification: product_design_judgment
+    source_ids:
+    - SRC-CANONICAL-CURRICULUM-V2
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  applicability_question: Does a voluntary, bounded Integrity across contexts practice fit the person's
+    current role, pathway, capacity, authority, resources, and safety conditions?
+  not_applicable_behavior: Record Integrity across contexts as not applicable, consciously unchosen, or
+    deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
+    is absent.
+  readiness_considerations: Use a private example, an audio comparison or a fictional document. Confidentiality
+    can justify different public wording while the underlying principle remains consistent.
+  opportunity_considerations: Choose a principle relevant to a small action, such as giving accurate credit
+    for shared work. Use your own non-sensitive notes or a fictional comparison; do not monitor another
+    person's private behavior.
+  prerequisites:
+  - Choose a principle relevant to a small action, such as giving accurate credit for shared work. Use
+    your own non-sensitive notes or a fictional comparison; do not monitor another person's private behavior.
+  dependencies: []
+  safe_alternatives:
+  - Use a private example, an audio comparison or a fictional document. Confidentiality can justify different
+    public wording while the underlying principle remains consistent.
+  role_conditions:
+  - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
+    held before the practice applies.
+  pathway_conditions:
+  - Religious, secular, cultural, disability-adapted, collective, and individual pathways may express
+    Integrity across contexts differently while preserving consent, evidence limits, safety, and equal
+    dignity.
+  worldview_conditions:
+  - The practice does not require one worldview or treat disagreement about Integrity across contexts
+    as inferiority; competing reasonable interpretations and conscientious refusal remain visible.
+intervention:
+  protocol_class: PF-AUDIT-REDESIGN
+  duration_days: 10
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose a principle relevant to a small action, such as giving accurate credit for shared work.
+    Use your own non-sensitive notes or a fictional comparison; do not monitor another person''s private
+    behavior. Goal: Identify and correct a gap between publicly claimed principles and private or rewarded
+    conduct. Scope: One audience comparison examines consistency in a bounded setting. Integrity across
+    pressure, incentives and unobserved conduct depends on a sustained pattern. Time and effort: About
+    20 minutes to compare cases, one small correction, and a later 5-minute check. Adaptation: Use a private
+    example, an audio comparison or a fictional document. Confidentiality can justify different public
+    wording while the underlying principle remains consistent. Keep personal working notes outside the
+    check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a private example, an audio comparison or a fictional document. Confidentiality
+    can justify different public wording while the underlying principle remains consistent.
+  expected_burden: About 20 minutes to compare cases, one small correction, and a later 5-minute check.
+  action_count_rationale: null
+  foreseeable_misuse:
+  - Using the Integrity across contexts protocol to rank worth, coerce participation, demand disclosure,
+    override rest or care, certify competence, or justify decisions beyond the recorded context.
+  - Treating a completed Integrity across contexts action, a polished artifact, agreement, confidence,
+    speed, independence, or output as mastery or universal transfer.
+  exclusions:
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a private
+    example, an audio comparison or a fictional document. Confidentiality can justify different public
+    wording while the underlying principle remains consistent.
+  actions:
+  - stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01-A1
+    sequence: 1
+    title: Compare public, private and rewarded versions
+    instructions: 'Describe how you would apply the principle when others can see, when nobody is checking
+      and when ignoring it offers an advantage. For credit, compare a public thank-you, a private draft
+      and a summary where claiming sole authorship would impress someone. Identify the exact behavior
+      that changes.
+
+
+      Observation checks: Three incentive or audience conditions are compared; The principle has an observable
+      expression; Any behavioral difference is identified precisely. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 3
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01
+      action_stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01-A1
+      competency_stable_id: '02.12'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0212_a1_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0212_a1_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - three_incentive_or_audience_conditions_are_compared
+        - the_principle_has_an_observable_expression
+        - any_behavioral_difference_is_identified_precisely
+      - measurement_id: c0212_a1_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0212_a1_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01-A2
+    sequence: 2
+    title: Examine the excuse and choose a consistent rule
+    instructions: 'Write the strongest justification for the inconsistent behavior and test whether you
+      would accept it from someone else. Distinguish a legitimate contextual difference, such as required
+      confidentiality, from self-serving convenience. Specify the smallest correction that aligns the
+      means with the professed end.
+
+
+      Observation checks: The justification faces a reciprocal test; Relevant context is distinguished
+      from convenience; A specific consistency correction is chosen. Mark only what you observed. Missing,
+      mixed and negative results are valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 7
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01
+      action_stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01-A2
+      competency_stable_id: '02.12'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0212_a2_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0212_a2_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - the_justification_faces_a_reciprocal_test
+        - relevant_context_is_distinguished_from_convenience
+        - a_specific_consistency_correction_is_chosen
+      - measurement_id: c0212_a2_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0212_a2_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01-A3
+    sequence: 3
+    title: Apply the correction where recognition is unnecessary
+    instructions: 'Make the permitted correction in your own work or rehearse it in the supplied case.
+      At a later similar opportunity, check whether the rule still guided the action without an audience.
+      Do not create publicity about the correction merely to transform private integrity into another
+      reward.
+
+
+      Observation checks: A correction is enacted or explicitly rehearsed; A later opportunity is checked
+      when available; Recognition is not treated as the criterion of success. Mark only what you observed.
+      Missing, mixed and negative results are valid; a deferred action is not completed.
+
+
+      Final review: Which incentive made the principle hardest to keep, and what concrete rule survived
+      that pressure?
+
+
+      Examples: Supportive: A private draft accurately credited shared work even though claiming sole
+      authorship would have been easier.
+
+
+      Mixed: The first correction was made but a later rewarded opportunity remains untested.
+
+
+      Contradictory: A convenient exception was defended for oneself while condemning the same conduct
+      in others.
+
+
+      Inconclusive: Integrity was affirmed without comparing behavior across any different conditions.'
+    expected_time: 15-25 minutes
+    due_within_days: 10
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01
+      action_stable_id: PRACTICE-COMP-0212-INTEGRITY-ACROSS-CONTEXTS-01-A3
+      competency_stable_id: '02.12'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0212_a3_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0212_a3_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - a_correction_is_enacted_or_explicitly_rehearsed
+        - a_later_opportunity_is_checked_when_available
+        - recognition_is_not_treated_as_the_criterion_of_success
+      - measurement_id: c0212_a3_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0212_a3_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  adaptations:
+    low_resource:
+    - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
+      Integrity across contexts; no purchase, subscription, travel, credential, or public artifact is
+      required.
+    accessibility:
+    - Use a private example, an audio comparison or a fictional document. Confidentiality can justify
+      different public wording while the underlying principle remains consistent.
+    cultural_context:
+    - Adapt the expression of Integrity across contexts to direct or indirect communication, collective
+      or individual decision structures, local norms, faith or secular commitments, and role obligations
+      while preserving consent and dignity.
+    resource_variants:
+    - Use a private example, an audio comparison or a fictional document. Confidentiality can justify
+      different public wording while the underlying principle remains consistent.
+  pause_conditions:
+  - Pause Integrity across contexts when capacity, consent, authority, privacy, access, care duties, uncertainty,
+    distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
+  stop_conditions:
+  - Stop the Integrity across contexts practice for harm, coercion, retaliation risk, emergency conditions,
+    unsafe exposure, worsening symptoms, protected information, legal or policy conflict, or pressure
+    to exceed the stated boundary.
+  escalation_conditions:
+  - Use the appropriate local safeguarding, emergency, organizational, legal, medical, financial, accessibility,
+    or other qualified channel when a Integrity across contexts situation exceeds a voluntary low-stakes
+    practice.
+  professional_referral_conditions:
+  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
+    practice.
+evidence_and_scoring:
+  accepted_evidence_types:
+  - structured criteria observations for the bounded Integrity across contexts actions
+  - explicit contradiction, adverse, defer, not-applicable, and unknown states
+  observation_contract_version: typed-evidence-rules-v1
+  check_in_fields:
+  - c0212_a1_primary
+  - c0212_a1_boundary
+  - c0212_a1_adverse
+  - c0212_a2_primary
+  - c0212_a2_boundary
+  - c0212_a2_adverse
+  - c0212_a3_primary
+  - c0212_a3_boundary
+  - c0212_a3_adverse
+  adverse_or_contradictory_indicators:
+  - A convenient exception was defended for oneself while condemning the same conduct in others.
+  independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
+    for Integrity across contexts explicitly; support can enable access and never reduces dignity or silently
+    changes the typed value.
+  context_transfer_rule: Evidence remains limited to the chosen Integrity across contexts context, action,
+    role, pathway, and assessment epoch; it does not establish cross-context reliability.
+  repetition_rule: Each Integrity across contexts observation requires a distinct immutable origin; duplicate
+    origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
+  recency_rule: Generated Integrity across contexts rules withhold observations older than 90 days; no
+    unrecorded retention or carry-forward assumption applies.
+  performance_rubric: 'Action 1: Compare public, private and rewarded versions. Observed checks: Three
+    incentive or audience conditions are compared; The principle has an observable expression; Any behavioral
+    difference is identified precisely. Action 2: Examine the excuse and choose a consistent rule. Observed
+    checks: The justification faces a reciprocal test; Relevant context is distinguished from convenience;
+    A specific consistency correction is chosen. Action 3: Apply the correction where recognition is unnecessary.
+    Observed checks: A correction is enacted or explicitly rehearsed; A later opportunity is checked when
+    available; Recognition is not treated as the criterion of success.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Integrity was affirmed without comparing behavior across
+    any different conditions.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
+  competency_contribution: Designated primary measurements may produce one context-bound direct Integrity
+    across contexts contribution under typed evaluation; protocol performance remains distinct and is
+    never counted twice.
+  canonical_lever_allocation: parent_competency_mapping
+  recommendation_target_lever_ids:
+  - L02
+  - L05
+  - L10
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
+  withholding_conditions:
+  - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
+    or adverse Integrity across contexts evidence.
+  - Withhold any record containing private narrative, artifact contents, another person's identity, unsupported
+    inference, or evidence outside its assessment epoch.
+completion_and_review:
+  completion_criteria:
+  - 'Action 1: Compare public, private and rewarded versions. Observed checks: Three incentive or audience
+    conditions are compared; The principle has an observable expression; Any behavioral difference is
+    identified precisely.'
+  - 'Action 2: Examine the excuse and choose a consistent rule. Observed checks: The justification faces
+    a reciprocal test; Relevant context is distinguished from convenience; A specific consistency correction
+    is chosen.'
+  - 'Action 3: Apply the correction where recognition is unnecessary. Observed checks: A correction is
+    enacted or explicitly rehearsed; A later opportunity is checked when available; Recognition is not
+    treated as the criterion of success.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
+  completion_rules:
+    minimum_completed: 2
+    substantive_markers:
+    - c0212_a1_primary
+    - c0212_a2_primary
+    - c0212_a3_primary
+    marker_mode: any
+  mastery_disclaimer: Completing this practice does not establish mastery.
+  progression_criteria: Which incentive made the principle hardest to keep, and what concrete rule survived
+    that pressure?
+  transfer_limit: One audience comparison examines consistency in a bounded setting. Integrity across
+    pressure, incentives and unobserved conduct depends on a sustained pattern.
+  reflection:
+    before: 'What would count as doing this honestly? Goal: Identify and correct a gap between publicly
+      claimed principles and private or rewarded conduct.'
+    during: Which checks have actually been observed? The first correction was made but a later rewarded
+      opportunity remains untested.
+    after: Which incentive made the principle hardest to keep, and what concrete rule survived that pressure?
+  review_guidance:
+    repeat: Repeat the same bounded Integrity across contexts design only when the context and burden
+      remain appropriate.
+    adapt: Use a private example, an audio comparison or a fictional document. Confidentiality can justify
+      different public wording while the underlying principle remains consistent.
+    stop: Stop Integrity across contexts when the practice becomes coercive, unsafe, privacy-invasive,
+      role-inappropriate, professionally restricted, or harmful.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
+  evidence_examples:
+    supportive: A private draft accurately credited shared work even though claiming sole authorship would
+      have been easier.
+    mixed: The first correction was made but a later rewarded opportunity remains untested.
+    contradictory: A convenient exception was defended for oneself while condemning the same conduct in
+      others.
+    inconclusive: Integrity was affirmed without comparing behavior across any different conditions.
+presentation:
+  setup_copy:
+    context_heading: Test whether one principle survives a change of audience
+    boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
+    applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Integrity
+      across contexts.
+  check_in_labels:
+    c0212_a1_primary: 'Observed checks: compare public, private and rewarded versions'
+    c0212_a1_boundary: Action 1 stayed inside its stated Integrity across contexts boundary
+    c0212_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
+    c0212_a2_primary: 'Observed checks: examine the excuse and choose a consistent rule'
+    c0212_a2_boundary: Action 2 stayed inside its stated Integrity across contexts boundary
+    c0212_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
+    c0212_a3_primary: 'Observed checks: apply the correction where recognition is unnecessary'
+    c0212_a3_boundary: Action 3 stayed inside its stated Integrity across contexts boundary
+    c0212_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
+  completion_copy: Which incentive made the principle hardest to keep, and what concrete rule survived
+    that pressure? Completion is not mastery.
+  plain_language_evidence: A private draft accurately credited shared work even though claiming sole authorship
+    would have been easier.
+  display_order: 32
