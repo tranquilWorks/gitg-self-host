@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "06.12",
+  "title": "Give a care recipient a usable voice and an independent help route",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A care handover must preserve the recipient’s communication, preferences and essential agreed needs. An independent concern route must be accessible and genuinely separate from the person involved; it is not a promise of absolute secrecy."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional flawed handover: “Visitor at 14:00; helper will answer; afternoon water setup probably done.” Recipient uses a communication device, wants 13:30 or no visit, and wants a private concern heard. Existing care plan requires an accessible water cup set out at 13:00; this is ordinary setup, not a new clinical instruction. Backup worker is on duty and authorized to confirm setup. Independent service advocate accepts device-supported text at 13:15; if unavailable, a separate duty supervisor accepts the same mode. Neither is implicated in the concern."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Rewrite the handover with confirmed/pending states, recipient-led communication and an immediate check of the agreed missed setup. Draft the private route without investigating or diagnosing neglect.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "The only suggested complaint contact is the helper whose conduct is questioned. Is writing the number enough for an independent route?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Use the recipient’s chosen visit preference and let them answer with their device. Ask the authorized worker to verify/carry out the existing setup promptly; “probably” is not confirmation. Later fiction: worker confirms setup 13:05; advocate appointment is requested, not held. Partial: provide a complaint route while leaving the current need unaddressed. Incorrect: let the helper answer instead or promise secrecy regardless of actual duties.",
+      "criteria": [
+        "Recipient choice and communication are preserved",
+        "Current needs and independent concerns have distinct routes",
+        "Pending and confirmed actions are not conflated"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Identify an appropriate genuinely separate service route and a usable communication mode; immediate danger needs local emergency assistance. Do not require confrontation with someone controlling essential support.",
+      "criteria": [
+        "Recipient choice and communication are preserved",
+        "Current needs and independent concerns have distinct routes",
+        "Pending and confirmed actions are not conflated"
+      ]
+    }
+  ]
+}

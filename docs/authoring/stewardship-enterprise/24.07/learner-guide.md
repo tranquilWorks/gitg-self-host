@@ -46,8 +46,8 @@ None of these suggestions is a legal order, an instruction to bypass access cont
 
 For support, classify one row at a time and use “known,” “inferred” and “unknown” explicitly. For a harder pass, imagine exclusivity lasting one event versus five years and identify why duration could alter effects without asserting a legal result. Optional actual transfer can use public terms you are entitled to inspect, with current sources and qualified advice where needed. No scraping, customer contact, internal data access or competitor coordination is required. A reasoned analysis plus a later evidence check could support progress; this fictional comparison establishes neither an actual monopoly nor the effectiveness of a proposed intervention.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise role is optional. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

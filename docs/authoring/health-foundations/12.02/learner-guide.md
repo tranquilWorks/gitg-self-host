@@ -46,7 +46,7 @@ Separate exposure (whether the change occurred) from the outcome (functioning). 
 
 Choose retain provisionally, revise one method, reject an unwanted change or seek qualified help for a relevant concern. State exactly what happens next and what would change that choice. “Sleep improved” without a comparable observation is not enough. A real follow-up uses similar shifts and unchanged supports; if opportunity is constrained by care or work, address access/support rather than blame.
 
-Attempt [check-prompts.md](check-prompts.md) before the [key](check-answers.md). The source learning artifact includes the preserved rule, baseline and trial arithmetic, missingness, burden and next decision. It does not change the application's existing seven-day exercise, completion rules or evidence fields.
+Attempt [check-prompts.md](check-prompts.md) before the [key](check-answers.md). The source learning artifact includes the preserved rule, baseline and trial arithmetic, missingness, burden and next decision. The actual seven-day practice remains distinct from this case analysis.
 
 ## Access, challenge and transfer
 

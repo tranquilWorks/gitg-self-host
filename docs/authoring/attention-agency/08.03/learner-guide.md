@@ -18,10 +18,8 @@ The first cue is reaching toward a tab titled â€œFive surprising desk objects.â€
 
 For support, use fiction or a silent cue word; no timer or bodily monitoring is required. For a harder case, an urgent message arrives during the interval: answer the urgent need without finishing the pause. Other domains such as speech, spending, eating, sex, anger and quitting are part of the competency's breadth, but this lesson does not license provoking or self-treating those risks. A later natural transfer should preserve consent and essential needs. Two small cases cannot establish general impulse control.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -27,7 +27,7 @@ On 6 October Noor receives a message from former partner Eden asking to meet for
 1. Create three columns: explicit agreement, personal assumption and needs discussion. Place exclusivity, prior notification and no account-sharing agreement accurately. Put the assumption about never naming Eden in its own column. Output: an agreement map that neither invents a prohibition nor hides an applicable promise.
 2. Identify the pending decision and its timing. Noor has time to communicate before arranging the proposed 11 October meeting. Draft a truthful, modest disclosure and question about the actual boundary. Do not copy Eden's private messages or share unrelated information. Output: an authorized conversation proposal, not a surveillance report.
 3. Consider three routes: decline the invitation, follow the existing agreement while clarifying its application, or propose a change and wait for a freely accepted answer before contrary action. Name any genuine incompatibility if a promise cannot be accepted. Output: a decision with the still-operative agreement visible.
-4. Write what would count as follow-through at this opportunity: for example, no booking before the required discussion and an accurate account of the eventual decision. Distinguish temptation recognized from a breach committed. Output: a behavioral check tied to the promise, not a test of inner purity.
+4. Write what would count as follow-through at this opportunity: for example, notification before booking, with any further discussion requirement identified rather than assumed and an accurate account of the eventual decision. Distinguish temptation recognized from a breach committed. Output: a behavioral check tied to the promise, not a test of inner purity.
 5. Read the [later packet](later-packet.md). Determine whether the conduct matches the existing promise and whether a proposed change was ever accepted. Output: a narrow conclusion about this opportunity, plus any unresolved expectation.
 
 ## Support, difficulty and transfer
@@ -40,9 +40,10 @@ For optional real transfer, review one ambiguous expectation at a calm time with
 
 [love is respect's boundaries guidance, S07](../SOURCES.md#S07) informs the distinction between personal limits and control, including digital privacy. [Specialist safety guidance, S14](../SOURCES.md#S14) informs the route for coercion concerns. Neither defines the correct relationship form for everyone or validates this promise map. The fictional agreement and decision cases are original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

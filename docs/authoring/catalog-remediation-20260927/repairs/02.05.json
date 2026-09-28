@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "02.05",
+  "title": "Make, track and close one realistic promise",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A promise has a recipient, deliverable and deadline. Tracking supports action; a private calendar edit changes none of the recipient’s expectations. A renegotiation needs an actual response or an established alternative procedure."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "On Monday Jo promises a two-paragraph room notice by Thursday 16:00. Drafting takes 20 minutes; Jo has Thursday 15:00–15:30. The room owner must confirm the room name. Wednesday 12:00 reminder reveals no reply. Jo may send an accurate draft with room marked pending, but final publication needs confirmation."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Write the commitment and early-check decision. Draft a status request that identifies the unresolved dependency and proposes a bounded alternative without assuming agreement.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A recipient has not answered a request to move Friday’s deadline to Monday. Which deadline is currently agreed?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Jo should contact the owner before the deadline and preserve the pending room. Later fiction: owner agrees Wednesday 17:00 to a draft Thursday 16:00 and final Friday 10:00; room arrives Thursday 18:00. The change is agreed, but neither draft nor final is performed merely by agreement. Partial: set a reminder without reviewing dependency. Incorrect: silently move the deadline or invent the room.",
+      "criteria": [
+        "The commitment has an explicit boundary",
+        "Threatened delivery prompts timely communication",
+        "Proposed, agreed and performed states differ"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Friday remains the known agreement. Communicate actual risk, use any legitimate escalation route and record an unresolved request; silence is not acceptance.",
+      "criteria": [
+        "The commitment has an explicit boundary",
+        "Threatened delivery prompts timely communication",
+        "Proposed, agreed and performed states differ"
+      ]
+    }
+  ]
+}

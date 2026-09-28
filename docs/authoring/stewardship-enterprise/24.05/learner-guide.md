@@ -46,8 +46,8 @@ For support, use a single-unit card and twenty counters before moving to the cas
 
 Evidence of progress would explain whether a real offer creates and captures enough value under its actual conditions, using artifacts and later observations. A forecast, a break-even number and a fictional campaign cannot supply repeat demand, retention, scalable delivery or commercial viability.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise role is optional. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

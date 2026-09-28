@@ -5,3 +5,9 @@
 3. An old public post was removed from the provider's page. A recipient saved a copy earlier, and another app received the post under its own account. Write a bounded result and a next audit action without claiming universal erasure or a particular legal deadline.
 
 Save responses before [the key](check-answers.md).
+
+## Changed-case attempt
+
+Save your response before opening the matching answer. This is a new fictional case.
+
+Fictional app policy V2: location is collected only while navigation is on; route history is stored for 14 days; deleting history removes route records but not the separate account; diagnostic sharing is optional and initially on. An offline map is available. Choose settings for someone who needs a map but wants no route history or optional diagnostics. Identify one uncertainty.

@@ -1,0 +1,419 @@
+schema_version: GG-PRACTICE-CONTENT-1.0
+protocol_version: 0.2.0
+stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01
+slug: c0103-chosen-and-inherited-values-practice
+name: Trace and deliberately choose three values
+parent_competency_id: '01.03'
+domain_id: '01'
+governance:
+  availability: active
+  editorial_status: draft
+  runtime_projection: GG-PRACTICE-RUNTIME-PROJECTION-2.0
+  risk_class_id: RISK-LOW
+  scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+  scoring_status: active
+  source_ids:
+  - SRC-CANONICAL-CURRICULUM-V2
+  authoring:
+    provenance: M6J individually authored exercise for 01.03; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
+    content_review_status: pending
+    research_review_status: internal_sources_only_external_review_required
+    safety_review_status: pending
+    accessibility_review_status: pending
+    originality_review_status: pending
+    ui_test_status: not_applicable
+    last_reviewed: null
+    known_gap_ids:
+    - RG-M6A-001
+    - RG-M6A-002
+    expert_review_ids:
+    - ER-M6A-003
+  legacy_compatibility_exceptions: []
+  deprecation:
+    deprecated: false
+    replaced_by: null
+meaning_and_fit:
+  purpose: Distinguish inherited commitments from values consciously reaffirmed, revised, or declined.
+  why_recommended: Distinguish inherited commitments from values consciously reaffirmed, revised, or declined.
+  claims:
+  - statement: Distinguish inherited commitments from values consciously reaffirmed, revised, or declined.
+    classification: product_design_judgment
+    source_ids:
+    - SRC-CANONICAL-CURRICULUM-V2
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  applicability_question: Does a voluntary, bounded Chosen and inherited values practice fit the person's
+    current role, pathway, capacity, authority, resources, and safety conditions?
+  not_applicable_behavior: Record Chosen and inherited values as not applicable, consciously unchosen,
+    or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
+    is absent.
+  readiness_considerations: Use broad labels such as family or school without naming anyone. Keep the
+    exercise private where disagreeing could threaten safety, housing, employment, or belonging.
+  opportunity_considerations: Choose three values affecting a small decision, such as reliability, independence,
+    generosity, privacy, or achievement. Use a private page; identifying relatives or communities is unnecessary.
+  prerequisites:
+  - Choose three values affecting a small decision, such as reliability, independence, generosity, privacy,
+    or achievement. Use a private page; identifying relatives or communities is unnecessary.
+  dependencies: []
+  safe_alternatives:
+  - Use broad labels such as family or school without naming anyone. Keep the exercise private where disagreeing
+    could threaten safety, housing, employment, or belonging.
+  role_conditions:
+  - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
+    held before the practice applies.
+  pathway_conditions:
+  - Religious, secular, cultural, disability-adapted, collective, and individual pathways may express
+    Chosen and inherited values differently while preserving consent, evidence limits, safety, and equal
+    dignity.
+  worldview_conditions:
+  - The practice does not require one worldview or treat disagreement about Chosen and inherited values
+    as inferiority; competing reasonable interpretations and conscientious refusal remain visible.
+intervention:
+  protocol_class: PF-BEHAVIORAL-EXPERIMENT
+  duration_days: 10
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Choose three values affecting a small decision, such as reliability, independence, generosity,
+    privacy, or achievement. Use a private page; identifying relatives or communities is unnecessary.
+    Goal: Distinguish inherited commitments from values consciously reaffirmed, revised, or declined.
+    Scope: Three values provide a sample of family, cultural and personal influences. Deliberate endorsement
+    requires later conduct as well as this initial historical account. Time and effort: About 25 minutes
+    of reflection, one small ordinary choice, and a brief review. Adaptation: Use broad labels such as
+    family or school without naming anyone. Keep the exercise private where disagreeing could threaten
+    safety, housing, employment, or belonging. Keep personal working notes outside the check-in; record
+    only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use broad labels such as family or school without naming anyone. Keep the exercise
+    private where disagreeing could threaten safety, housing, employment, or belonging.
+  expected_burden: About 25 minutes of reflection, one small ordinary choice, and a brief review.
+  action_count_rationale: null
+  foreseeable_misuse:
+  - Using the Chosen and inherited values protocol to rank worth, coerce participation, demand disclosure,
+    override rest or care, certify competence, or justify decisions beyond the recorded context.
+  - Treating a completed Chosen and inherited values action, a polished artifact, agreement, confidence,
+    speed, independence, or output as mastery or universal transfer.
+  exclusions:
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use broad labels
+    such as family or school without naming anyone. Keep the exercise private where disagreeing could
+    threaten safety, housing, employment, or belonging.
+  actions:
+  - stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01-A1
+    sequence: 1
+    title: Draw each value's history
+    instructions: 'For each value, note where you encountered it, an experience that strengthened or challenged
+      it, and a current behavior it influences. Separate admiration or belonging from fear of disapproval.
+      Example: reliability came from a household expectation and now affects how quickly you accept requests.
+
+
+      Observation checks: Three origins are traced; Experiences are distinguished from assumptions; Each
+      value connects to behavior. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 3
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01
+      action_stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01-A1
+      competency_stable_id: '01.03'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0103_a1_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0103_a1_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - three_origins_are_traced
+        - experiences_are_distinguished_from_assumptions
+        - each_value_connects_to_behavior
+      - measurement_id: c0103_a1_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0103_a1_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01-A2
+    sequence: 2
+    title: Decide what you actually endorse
+    instructions: 'Mark each value retain, reinterpret, question, or decline. Give a reason you endorse
+      today and a boundary against its excess. Reliability might mean making fewer realistic promises
+      rather than accepting every request. Inherited values may be freely reaffirmed; rejecting tradition
+      earns no extra credit.
+
+
+      Observation checks: Each value has a present disposition; Endorsement has a current reason; An excess
+      or boundary is identified. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 7
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01
+      action_stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01-A2
+      competency_stable_id: '01.03'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0103_a2_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0103_a2_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - each_value_has_a_present_disposition
+        - endorsement_has_a_current_reason
+        - an_excess_or_boundary_is_identified
+      - measurement_id: c0103_a2_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0103_a2_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01-A3
+    sequence: 3
+    title: Act on one deliberate interpretation
+    instructions: 'Apply one revised interpretation to a low-stakes request, purchase, schedule, or conversation.
+      Record the choice and its cost privately, then check whether it reflects your reason rather than
+      merely reversing an old expectation. A role-play can rehearse the decision but does not demonstrate
+      changed conduct.
+
+
+      Observation checks: A specific choice is made; The choice traces to a stated value; Real action
+      and rehearsal are distinguished. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.
+
+
+      Final review: What did you choose freely to retain, and what behavior will reveal whether the reinterpretation
+      lasts?
+
+
+      Examples: Supportive: Reliability was reaffirmed and one unrealistic promise was renegotiated before
+      its deadline.
+
+
+      Mixed: The reasoning changed but the first opportunity to act has not occurred.
+
+
+      Contradictory: The exercise became an accusation against relatives or pressure to reject a tradition.
+
+
+      Inconclusive: Values were listed without origins, present reasons, or a decision.'
+    expected_time: 15-25 minutes
+    due_within_days: 10
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01
+      action_stable_id: PRACTICE-COMP-0103-CHOSEN-AND-INHERITED-VALUES-01-A3
+      competency_stable_id: '01.03'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0103_a3_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0103_a3_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - a_specific_choice_is_made
+        - the_choice_traces_to_a_stated_value
+        - real_action_and_rehearsal_are_distinguished
+      - measurement_id: c0103_a3_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0103_a3_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  adaptations:
+    low_resource:
+    - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
+      Chosen and inherited values; no purchase, subscription, travel, credential, or public artifact is
+      required.
+    accessibility:
+    - Use broad labels such as family or school without naming anyone. Keep the exercise private where
+      disagreeing could threaten safety, housing, employment, or belonging.
+    cultural_context:
+    - Adapt the expression of Chosen and inherited values to direct or indirect communication, collective
+      or individual decision structures, local norms, faith or secular commitments, and role obligations
+      while preserving consent and dignity.
+    resource_variants:
+    - Use broad labels such as family or school without naming anyone. Keep the exercise private where
+      disagreeing could threaten safety, housing, employment, or belonging.
+  pause_conditions:
+  - Pause Chosen and inherited values when capacity, consent, authority, privacy, access, care duties,
+    uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
+    unwise.
+  stop_conditions:
+  - Stop the Chosen and inherited values practice for harm, coercion, retaliation risk, emergency conditions,
+    unsafe exposure, worsening symptoms, protected information, legal or policy conflict, or pressure
+    to exceed the stated boundary.
+  escalation_conditions:
+  - Use the appropriate local safeguarding, emergency, organizational, legal, medical, financial, accessibility,
+    or other qualified channel when a Chosen and inherited values situation exceeds a voluntary low-stakes
+    practice.
+  professional_referral_conditions:
+  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
+    practice.
+evidence_and_scoring:
+  accepted_evidence_types:
+  - structured criteria observations for the bounded Chosen and inherited values actions
+  - explicit contradiction, adverse, defer, not-applicable, and unknown states
+  observation_contract_version: typed-evidence-rules-v1
+  check_in_fields:
+  - c0103_a1_primary
+  - c0103_a1_boundary
+  - c0103_a1_adverse
+  - c0103_a2_primary
+  - c0103_a2_boundary
+  - c0103_a2_adverse
+  - c0103_a3_primary
+  - c0103_a3_boundary
+  - c0103_a3_adverse
+  adverse_or_contradictory_indicators:
+  - The exercise became an accusation against relatives or pressure to reject a tradition.
+  independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
+    for Chosen and inherited values explicitly; support can enable access and never reduces dignity or
+    silently changes the typed value.
+  context_transfer_rule: Evidence remains limited to the chosen Chosen and inherited values context, action,
+    role, pathway, and assessment epoch; it does not establish cross-context reliability.
+  repetition_rule: Each Chosen and inherited values observation requires a distinct immutable origin;
+    duplicate origins are rejected and later repetitions use the typed contract's explicit diminishing
+    multipliers.
+  recency_rule: Generated Chosen and inherited values rules withhold observations older than 90 days;
+    no unrecorded retention or carry-forward assumption applies.
+  performance_rubric: 'Action 1: Draw each value''s history. Observed checks: Three origins are traced;
+    Experiences are distinguished from assumptions; Each value connects to behavior. Action 2: Decide
+    what you actually endorse. Observed checks: Each value has a present disposition; Endorsement has
+    a current reason; An excess or boundary is identified. Action 3: Act on one deliberate interpretation.
+    Observed checks: A specific choice is made; The choice traces to a stated value; Real action and rehearsal
+    are distinguished.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Values were listed without origins, present reasons,
+    or a decision.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
+  competency_contribution: Designated primary measurements may produce one context-bound direct Chosen
+    and inherited values contribution under typed evaluation; protocol performance remains distinct and
+    is never counted twice.
+  canonical_lever_allocation: parent_competency_mapping
+  recommendation_target_lever_ids:
+  - L02
+  - L05
+  - L31
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
+  withholding_conditions:
+  - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
+    or adverse Chosen and inherited values evidence.
+  - Withhold any record containing private narrative, artifact contents, another person's identity, unsupported
+    inference, or evidence outside its assessment epoch.
+completion_and_review:
+  completion_criteria:
+  - 'Action 1: Draw each value''s history. Observed checks: Three origins are traced; Experiences are
+    distinguished from assumptions; Each value connects to behavior.'
+  - 'Action 2: Decide what you actually endorse. Observed checks: Each value has a present disposition;
+    Endorsement has a current reason; An excess or boundary is identified.'
+  - 'Action 3: Act on one deliberate interpretation. Observed checks: A specific choice is made; The choice
+    traces to a stated value; Real action and rehearsal are distinguished.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
+  completion_rules:
+    minimum_completed: 2
+    substantive_markers:
+    - c0103_a1_primary
+    - c0103_a2_primary
+    - c0103_a3_primary
+    marker_mode: any
+  mastery_disclaimer: Completing this practice does not establish mastery.
+  progression_criteria: What did you choose freely to retain, and what behavior will reveal whether the
+    reinterpretation lasts?
+  transfer_limit: Three values provide a sample of family, cultural and personal influences. Deliberate
+    endorsement requires later conduct as well as this initial historical account.
+  reflection:
+    before: 'What would count as doing this honestly? Goal: Distinguish inherited commitments from values
+      consciously reaffirmed, revised, or declined.'
+    during: Which checks have actually been observed? The reasoning changed but the first opportunity
+      to act has not occurred.
+    after: What did you choose freely to retain, and what behavior will reveal whether the reinterpretation
+      lasts?
+  review_guidance:
+    repeat: Repeat the same bounded Chosen and inherited values design only when the context and burden
+      remain appropriate.
+    adapt: Use broad labels such as family or school without naming anyone. Keep the exercise private
+      where disagreeing could threaten safety, housing, employment, or belonging.
+    stop: Stop Chosen and inherited values when the practice becomes coercive, unsafe, privacy-invasive,
+      role-inappropriate, professionally restricted, or harmful.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
+  evidence_examples:
+    supportive: Reliability was reaffirmed and one unrealistic promise was renegotiated before its deadline.
+    mixed: The reasoning changed but the first opportunity to act has not occurred.
+    contradictory: The exercise became an accusation against relatives or pressure to reject a tradition.
+    inconclusive: Values were listed without origins, present reasons, or a decision.
+presentation:
+  setup_copy:
+    context_heading: Trace and deliberately choose three values
+    boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
+    applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Chosen and
+      inherited values.
+  check_in_labels:
+    c0103_a1_primary: 'Observed checks: draw each value''s history'
+    c0103_a1_boundary: Action 1 stayed inside its stated Chosen and inherited values boundary
+    c0103_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
+    c0103_a2_primary: 'Observed checks: decide what you actually endorse'
+    c0103_a2_boundary: Action 2 stayed inside its stated Chosen and inherited values boundary
+    c0103_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
+    c0103_a3_primary: 'Observed checks: act on one deliberate interpretation'
+    c0103_a3_boundary: Action 3 stayed inside its stated Chosen and inherited values boundary
+    c0103_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
+  completion_copy: What did you choose freely to retain, and what behavior will reveal whether the reinterpretation
+    lasts? Completion is not mastery.
+  plain_language_evidence: Reliability was reaffirmed and one unrealistic promise was renegotiated before
+    its deadline.
+  display_order: 12

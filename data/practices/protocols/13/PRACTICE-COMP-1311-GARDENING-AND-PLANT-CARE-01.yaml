@@ -64,11 +64,15 @@ meaning_and_fit:
     plant was sustained.
   opportunity_considerations: Choose an existing plant or a small seed trial that fits your space. Identify
     the species and obtain guidance from a local extension service, botanic garden or reliable supplier.
-    Check toxicity where children or animals have access.
+    Check toxicity where children or animals have access. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.
   prerequisites:
   - Choose an existing plant or a small seed trial that fits your space. Identify the species and obtain
     guidance from a local extension service, botanic garden or reliable supplier. Check toxicity where
-    children or animals have access.
+    children or animals have access. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Observe an existing shared plant with permission, use accessible raised placement, or build a species-specific
@@ -90,9 +94,11 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Choose an existing plant or a small seed trial that fits your space. Identify the species and
     obtain guidance from a local extension service, botanic garden or reliable supplier. Check toxicity
-    where children or animals have access. Goal: Use plant-specific information and observations to plan
-    care and respond to a small growing trial. Scope: A small plant trial connects species, place, care
-    and observation. Early observations are not a completed growing cycle or proof of long-term cultivation
+    where children or animals have access. The learning guide contains a complete fictional practice and
+    a separate changed-case check. Choose that route when a real situation is unavailable; its results
+    are rehearsal, not performed real-world work. Goal: Use plant-specific information and observations
+    to plan care and respond to a small growing trial. Scope: A small plant trial connects species, place,
+    care and observation. Early observations are not a completed growing cycle or proof of long-term cultivation
     skill. Time and effort: About 30 minutes to identify conditions and set up, then brief observations
     over a suitable week; a full growing cycle may take much longer. Adaptation: Observe an existing shared
     plant with permission, use accessible raised placement, or build a species-specific care plan without
@@ -441,3 +447,61 @@ presentation:
   plain_language_evidence: A light mismatch was corrected and subsequent observations informed the next
     care decision.
   display_order: 171
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '13.11'
+  title: Match one plant to its actual growing conditions
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Plant care depends on identified species, medium, light and actual guidance. One symptom can
+      have multiple causes; watering on a schedule alone cannot diagnose the need. A growing cycle includes
+      preparation, establishment, monitoring and an appropriate end or harvest, not only one watering.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Fictional supplier trial card for a nonfood ornamental seed: use the supplied clean medium
+      and labeled container in bright indirect light; check the surface daily; add a small amount of water
+      only when the card’s stated dry-surface condition is present, avoiding standing water. The packet
+      gives germination 7–14 days; no fertilizer/pesticide instruction. Day 3 surface is wet; day 8 still
+      wet with no shoot. Species identity/toxicity for a real home is not supplied, so this is a paper
+      case only.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Compare wetness, time window and missing identification. Plan the next observation and a supplier
+      question rather than diagnosing or adding treatments.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: Two plants have yellow leaves, one with dry medium and one persistently wet. Is a single automatic
+      watering remedy justified?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Day 8 lies within the supplied germination window; lack of a shoot is not alone failure. Continued
+      wetness gives no basis to add more water under this card. Ask about the actual medium/drainage and
+      identification before a live trial. Partial: wait but ignore wetness. Incorrect: add pesticide or
+      declare disease. Next record germination date, establishment and later condition under an identified
+      plant’s guidance, with a planned responsible end to the trial.'
+    criteria:
+    - Care follows an identified applicable guide
+    - Competing explanations remain possible
+    - A cycle has observations beyond one action
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. The same appearance does not establish the same cause or treatment. Check species-specific
+      guidance and actual conditions; retain uncertainty and seek suitable expertise instead of escalating
+      products.
+    criteria:
+    - Care follows an identified applicable guide
+    - Competing explanations remain possible
+    - A cycle has observations beyond one action

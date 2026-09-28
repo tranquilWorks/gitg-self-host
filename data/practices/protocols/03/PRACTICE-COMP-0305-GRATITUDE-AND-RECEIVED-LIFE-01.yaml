@@ -57,12 +57,16 @@ meaning_and_fit:
   opportunity_considerations: Use a skill someone taught you, a book available to you, a useful tool or
     an ordinary meal. The default is a learned household skill such as mending a loose button or organizing
     a cupboard. No purchase, public thanks or religious interpretation is needed. Keep names and personal
-    histories in your private notes.
+    histories in your private notes. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.
   prerequisites:
   - Use a skill someone taught you, a book available to you, a useful tool or an ordinary meal. The default
     is a learned household skill such as mending a loose button or organizing a cupboard. No purchase,
     public thanks or religious interpretation is needed. Keep names and personal histories in your private
-    notes.
+    notes. The learning guide contains a complete fictional practice and a separate changed-case check.
+    Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.
   dependencies: []
   safe_alternatives:
   - Use spoken recollection or a simple object instead of writing. Choose an impersonal public good or
@@ -86,15 +90,17 @@ intervention:
   setup: 'Use a skill someone taught you, a book available to you, a useful tool or an ordinary meal.
     The default is a learned household skill such as mending a loose button or organizing a cupboard.
     No purchase, public thanks or religious interpretation is needed. Keep names and personal histories
-    in your private notes. Goal: Recognize dependence, gifts, contingency, sacrifice and inheritance in
-    an ordinary good, then express gratitude through appropriate care, remembrance or generosity. Scope:
-    Gratitude concerns a specific received good, not a duty to feel grateful for harm. Recognizing help
-    does not erase your work, create unlimited debt or require contact with an unsafe benefactor. Time
-    and effort: About 20 minutes to trace a good, one modest response, and a 15-minute review after a
-    later use. Adaptation: Use spoken recollection or a simple object instead of writing. Choose an impersonal
-    public good or a safe historical contribution when direct relationships are difficult. A private acknowledgment
-    can replace contact; do not give money or labor you cannot reasonably spare. Keep personal working
-    notes outside the check-in; record only the listed observations.'
+    in your private notes. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work. Goal: Recognize dependence, gifts, contingency, sacrifice and inheritance in an ordinary
+    good, then express gratitude through appropriate care, remembrance or generosity. Scope: Gratitude
+    concerns a specific received good, not a duty to feel grateful for harm. Recognizing help does not
+    erase your work, create unlimited debt or require contact with an unsafe benefactor. Time and effort:
+    About 20 minutes to trace a good, one modest response, and a 15-minute review after a later use. Adaptation:
+    Use spoken recollection or a simple object instead of writing. Choose an impersonal public good or
+    a safe historical contribution when direct relationships are difficult. A private acknowledgment can
+    replace contact; do not give money or labor you cannot reasonably spare. Keep personal working notes
+    outside the check-in; record only the listed observations.'
   privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
     contents, identifying details or another person's private information. Participation and any help
     must be voluntary. Use spoken recollection or a simple object instead of writing. Choose an impersonal
@@ -461,3 +467,59 @@ presentation:
   plain_language_evidence: The learner credited a teacher and their own practice, maintained a tool and
     later shared the skill with someone who had requested help.
   display_order: 40
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '03.05'
+  title: Trace a received good and answer it through conduct
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Received goods can include knowledge, material labor and shared infrastructure. Acknowledging
+      a limited good does not impose unlimited debt or erase harm. A response should fit the actual good
+      and any existing agreement.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Complete fictional chain: volunteers wrote a cupboard guide, a librarian lent it until Friday
+      17:00, and Jo used its instruction to keep labels facing outward on Jo’s own shelf. The guide is
+      intact. Jo has a Thursday 16:00 opportunity to return it to the staffed desk. No money, public thanks
+      or future volunteer work was requested. One former volunteer also behaved hurtfully toward Jo; contact
+      is not required.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Trace at least three contributions and Jo’s own action. Choose a proportionate response, preserving
+      the loan obligation and a boundary around unwanted contact.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A helper says a freely given past favor now entitles them to private account access. Is this
+      a gratitude obligation?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Writing, lending and using are distinct contributions; the safe supplied skill is simply label
+      orientation, not an invented repair technique. Returning the guide is an actual obligation; private
+      remembrance or thanks can be optional. Later fiction: desk accepts the guide Thursday 16:00. Partial:
+      thank generally but forget return. Incorrect: require reconciliation with the harmful person as
+      payment for the useful text.'
+    criteria:
+    - The chain includes others and one’s own contribution
+    - Response fits the good and agreement
+    - Gratitude is not coerced repayment
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Appreciation does not confer that access. Decline the new condition and keep any genuine
+      separate agreement clear; receiving help does not surrender agency.
+    criteria:
+    - The chain includes others and one’s own contribution
+    - Response fits the good and agreement
+    - Gratitude is not coerced repayment

@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "02.07",
+  "title": "Take a proportionate stand on one small unfairness",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Moral courage concerns a justified action under a real cost or fear. Analyzing what courage means is preparation; making a stand requires an actual appropriate act and its consequences, which fiction cannot supply for the reader."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete private document extract: “Lee wrote and designed the notice.” Contribution log: Lee wrote; Mo designed. Mo consents to accurate credit, not public confrontation. Editor Uma invites corrections by 16:00. Jo fears mild disagreement but has authority only to request a correction, not edit the published file."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Write the evidence-based request and a proportionate follow-up if declined. Record the actual social cost only in a real route; use the supplied response as case analysis.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person privately rehearses a justified objection but never has a safe opportunity to raise it. What can they report?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Ask Uma to compare the log and change the credit to text by Lee/layout by Mo. Later fiction: Uma first says it is not worth changing; Jo restates the documented contribution once, and Uma corrects it at 15:50. That depicts a bounded stand, not a real action by the learner. Partial: silently revise one’s private copy. Incorrect: publicly accuse Lee of intentional theft. Higher risk requires another suitable route, not compulsory confrontation.",
+      "criteria": [
+        "The stand rests on verified case facts",
+        "Method fits authority and affected preferences",
+        "Preparation is not credited as performed courage"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Prepared wording and reasoning, with the actual stand unperformed. Lack of safe opportunity is not proof of cowardice; seek a suitable supported route or defer.",
+      "criteria": [
+        "The stand rests on verified case facts",
+        "Method fits authority and affected preferences",
+        "Preparation is not credited as performed courage"
+      ]
+    }
+  ]
+}

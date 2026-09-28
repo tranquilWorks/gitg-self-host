@@ -66,12 +66,16 @@ meaning_and_fit:
   opportunity_considerations: 'Use the supplied fictional case: after music and a striking sky, a person
     feels deeply connected to others and wonders whether they have been given a special mission. No unusual
     experience is required. A settled, non-distressing memory may replace the case if freely chosen. Do
-    not seek substances, deprivation, hyperventilation, intense meditation or sensory overload.'
+    not seek substances, deprivation, hyperventilation, intense meditation or sensory overload. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work.'
   prerequisites:
   - 'Use the supplied fictional case: after music and a striking sky, a person feels deeply connected
     to others and wonders whether they have been given a special mission. No unusual experience is required.
     A settled, non-distressing memory may replace the case if freely chosen. Do not seek substances, deprivation,
-    hyperventilation, intense meditation or sensory overload.'
+    hyperventilation, intense meditation or sensory overload. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use the fictional case, spoken notes or a simple three-column diagram. Do not re-enter an upsetting
@@ -96,7 +100,9 @@ intervention:
   setup: 'Use the supplied fictional case: after music and a striking sky, a person feels deeply connected
     to others and wonders whether they have been given a special mission. No unusual experience is required.
     A settled, non-distressing memory may replace the case if freely chosen. Do not seek substances, deprivation,
-    hyperventilation, intense meditation or sensory overload. Goal: Separate a vivid experience from claims
+    hyperventilation, intense meditation or sensory overload. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work. Goal: Separate a vivid experience from claims
     about its meaning and integrate it through careful reasoning, an appropriate outside perspective,
     ordinary conduct and later review. Scope: Awe, unity, devotion, revelation and transcendence describe
     different experiences and interpretations. Intensity does not automatically establish truth or authority.
@@ -489,3 +495,60 @@ presentation:
   plain_language_evidence: The person retained a sense of connection, kept an ordinary promise, welcomed
     a questioning perspective and left the proposed special mission unproven after later review.
   display_order: 48
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '03.13'
+  title: Interpret an intense experience with reason conduct and time
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: An intense experience can matter without proving an interpretation or granting authority over
+      others. Examine ordinary causes, uncertainty, subsequent conduct and whether a proposed action respects
+      consent. Distressing or disruptive experiences call for appropriate support rather than intensified
+      self-testing.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Fictional Neri feels unusually connected after music and a striking sky. Neri considers sending
+      a kind message, but also wonders whether everyone must follow Neri’s advice. No prediction, special
+      knowledge, clinical assessment or invitation to lead exists. A trusted peer is willing to discuss
+      uncertainty; no unusual practice is required.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Separate experience, possible meanings and proposed actions. Choose what can be done responsibly
+      now and what must remain unestablished.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A quiet meaningful dream inspires private art, while its maker explicitly says it predicts no
+      event and gives no right to direct others. Must the meaning be dismissed because it is not independently
+      verified?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'A welcome ordinary kind message may be reasonable without proving its cosmic explanation. Authority
+      over others is unsupported. Later fiction: Neri keeps the interpretation tentative, sends one welcome
+      message and returns to ordinary duties; no reply or lasting transformation is supplied. Partial:
+      acknowledge uncertainty but claim leadership anyway. Incorrect: treat intensity or the peer’s agreement
+      as proof.'
+    criteria:
+    - Experience and explanation are separated
+    - Proposed conduct respects evidence and consent
+    - Benign meaning is not confused with unsupported authority
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Personal artistic meaning can remain while factual prediction and authority claims are withheld.
+      Evaluate the actual claim and conduct; do not invent either pathology or special knowledge.
+    criteria:
+    - Experience and explanation are separated
+    - Proposed conduct respects evidence and consent
+    - Benign meaning is not confused with unsupported authority

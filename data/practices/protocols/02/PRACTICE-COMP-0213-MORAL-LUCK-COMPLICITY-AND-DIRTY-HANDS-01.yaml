@@ -63,11 +63,15 @@ meaning_and_fit:
     rather than reenacting a morally distressing event.
   opportunity_considerations: Use two fictional volunteers who ignore the same instruction to cover borrowed
     equipment before rain. One item happens to stay dry; the other is damaged. The event organizer also
-    omitted an available shelter from the plan.
+    omitted an available shelter from the plan. The learning guide contains a complete fictional practice
+    and a separate changed-case check. Choose that route when a real situation is unavailable; its results
+    are rehearsal, not performed real-world work.
   prerequisites:
   - Use two fictional volunteers who ignore the same instruction to cover borrowed equipment before rain.
     One item happens to stay dry; the other is damaged. The event organizer also omitted an available
-    shelter from the plan.
+    shelter from the plan. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.
   dependencies: []
   safe_alternatives:
   - Use a diagram, tokens or spoken roles. Stay with the fictional equipment case rather than reenacting
@@ -90,7 +94,9 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use two fictional volunteers who ignore the same instruction to cover borrowed equipment before
     rain. One item happens to stay dry; the other is damaged. The event organizer also omitted an available
-    shelter from the plan. Goal: Distinguish intention, control, negligence, benefit and residual responsibility
+    shelter from the plan. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work. Goal: Distinguish intention, control, negligence, benefit and residual responsibility
     when outcomes are partly outside anyone''s control. Scope: The case illustrates moral luck and shared
     responsibility. It does not quantify blame or resolve legal liability, trauma or every no-win moral
     conflict. Time and effort: About 30 minutes to compare responsibility and formulate a proportionate
@@ -445,3 +451,60 @@ presentation:
   plain_language_evidence: The analysis distinguished equal carelessness, unequal damage and the organizer's
     separate planning responsibility.
   display_order: 33
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '02.13'
+  title: Separate luck, complicity and responsibility in a hard case
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Moral luck separates an action’s foreseeable risk from its eventual consequence. Complicity
+      asks how participation, benefit or omission connects someone to a harmful arrangement. A dirty-hands
+      case has no feasible harmless option; ordinary avoidable negligence is different.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Two volunteers each ignore an available cover instruction. One borrowed item stays dry by chance;
+      the other suffers 20 units of damage. Both had time and a cover. The organizer omitted a known nearby
+      shelter from the plan. Separately, a room closure forces a coordinator to cancel either a promised
+      youth meeting or a promised adult support meeting; only one equally suitable accessible room remains,
+      both groups rely on it, and no rescheduling option exists today. Both groups can be told immediately.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Compare culpable conduct and actual repair in the rain case, then analyze the unavoidable conflict
+      without calling either group worthless. Identify whose role controls each decision.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A member benefits from a rule excluding newcomers but neither made it nor can change it alone.
+      Are total innocence and total responsibility the only options?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Both volunteers neglected the same precaution, but only one item needs the supplied damage
+      repair; the organizer’s omission is separate. The closure case retains an unavoidable broken expectation
+      even after a defensible selection and prompt notice. A fair prior allocation rule or reasoned urgent-need
+      distinction may help, but no supplied fact chooses a unique winner. Partial: report only outcomes.
+      Incorrect: say the lucky volunteer acted well or every participant bears equal blame.'
+    criteria:
+    - Conduct and outcome are distinguished
+    - Role-specific responsibility is explained
+    - Unavoidable residual harm is not erased
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Examine knowledge, actual benefit, available influence and cost of refusal. The member may
+      raise a reasoned change or stop an avoidable contribution to harm; receiving a benefit does not
+      alone establish equal responsibility with the rule-maker.
+    criteria:
+    - Conduct and outcome are distinguished
+    - Role-specific responsibility is explained
+    - Unavoidable residual harm is not erased

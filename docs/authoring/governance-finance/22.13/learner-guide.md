@@ -46,8 +46,8 @@ For support, use one row per supplied fact and highlight eligibility before pric
 
 For optional actual transfer, review a low-stakes policy or blank procurement template you are entitled to see. Identify one missing separation of duties and propose a question to its owner. Do not create a conflict, solicit a gift, upload vendor records or contact a suspected wrongdoer. Evidence could be an authorized, redacted disposition and a later control check. One well-written plan does not establish that corruption was prevented.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. Practical safeguards do not add canonical metadata. Applicability and normative status remain role_conditional. A leadership role is not compulsory. Use actual authority and willing participation; keep protected records outside app evidence. Fiction and no attempt are legitimate. Human dignity is never scored.
+Practical safeguards do not add canonical metadata.  A leadership role is not compulsory. Use actual authority and willing participation; keep protected records private. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

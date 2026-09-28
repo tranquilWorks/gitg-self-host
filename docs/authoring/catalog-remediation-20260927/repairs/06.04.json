@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "06.04",
+  "title": "Plan a meaningful day with room for changing capacity",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A capacity plan protects essential arrangements and treats energy as uncertain. Immediate tolerance does not establish later sustainability; an activity can be meaningful and still need reduction or support."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete fictional day: existing care appointment 10:00–10:30 with confirmed transport; no treatment change. Household task: fold four clean towels, normally ten minutes, optional today. Friend offers a ten-minute text exchange at 15:00, with a shorter message welcome. Helper Ren freely offers to fold the towels tonight but no other task. The person wants contact and may defer optional work; no numerical energy budget is assumed."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Prepare full, reduced and deferred optional plans, keeping the appointment and existing care unchanged. Write the actual communication to the friend and helper before seeing the later record.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A short activity feels manageable immediately, but the next day is harder. Must the later observation be excluded because it was not the target window?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A reduced plan may accept Ren’s towel help and send one short message; neither person owes more. Later fiction: the message and appointment occur, towels are folded by Ren, and next-day fatigue is greater for unknown reasons. Do not call same-day fit proof of sustainable capacity or diagnose its cause. Partial: record only successes. Incorrect: promise a visit despite uncertainty or assign Ren additional work.",
+      "criteria": [
+        "Essential and optional demands are distinct",
+        "Helper availability is explicit",
+        "Later effects and causal uncertainty remain visible"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Retain timing and other possible influences; use existing individualized guidance and appropriate care to review the plan. The record cannot isolate cause or justify pushing harder.",
+      "criteria": [
+        "Essential and optional demands are distinct",
+        "Helper availability is explicit",
+        "Later effects and causal uncertainty remain visible"
+      ]
+    }
+  ]
+}

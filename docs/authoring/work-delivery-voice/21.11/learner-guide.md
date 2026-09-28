@@ -2,6 +2,10 @@
 
 Turn a changing work demand into a small demonstration of transferable skill. Allow two twenty-five-minute reviews and thirty minutes for a sample. Use the fictional notices and inventory below. You do not need to buy training, change jobs, predict an industry or use confidential employer work. The question is what you can now demonstrate under a new requirement, with your existing strengths and constraints kept visible.
 
+## Save both attempts before the combined answer packet
+
+Work inventory A and inventory B from the supplied input cards and save both calculations before opening the later packet. That packet contains both answers and a fictional reader outcome. In the numbered workflow, prepare the B attempt before following action 3’s later-packet link; action 4 then compares the already saved B attempt. Reading either answer first makes the corresponding attempt supported practice.
+
 ## Distinguish a signal from a forecast
 
 A vacancy notice describes one organization's stated demand at one time. It may contain a firm requirement, a preference, an aspirational list or an advertisement. A practitioner's account describes experience from a particular position. Neither is the whole labor market. Record source, date, claim type and scope before translating a signal into a learning priority. Contradictory sources are useful because they show where a conclusion is fragile.
@@ -46,8 +50,8 @@ Use a calculator, spoken arithmetic or a simple table; the criterion is reproduc
 
 [ILO's lifelong-learning article, S04](../SOURCES.md#S04), discusses changing demands alongside foundational capabilities and unequal access to learning. Only the article was read, not the linked full report or datasets. Its statistics and projections are not imported into this fictional exercise or used as a personal employability forecast.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Human dignity is never scored.
+Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

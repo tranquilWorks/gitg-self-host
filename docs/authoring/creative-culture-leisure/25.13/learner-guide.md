@@ -54,8 +54,8 @@ The alternative removes the unsupported material rather than merely adding a cre
 
 For support, use the cards without investigating real restricted material. For a harder pass, explain how two community members could reasonably disagree and what their actual authority would allow you to conclude. An accessible conversation or authorized description may inform a real case, but neither pressure nor unnecessary disclosure is justified to finish the exercise. The product is a bounded permission analysis, not a universal rule about who may create.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains elective_cultivation and normative status elective_but_flourishing_relevant. Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -24,10 +24,10 @@ A worked fact check is the published four-place open-table rule; it establishes 
 
 For support, use this invented showcase or an anonymized public example. With no willing interaction, keep learning private and mark relationship transfer untested. For a harder case, all four places are filled: preserve actual scarcity and choose another proportionate route without concluding there is no future possibility. Where jealousy involves coercion, stalking, abuse risk or severe distress, use safety and qualified support rather than a comparison exercise. No amount of feeling authorizes surveillance or possession.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary (unchanged): Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
+Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

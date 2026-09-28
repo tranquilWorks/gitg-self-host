@@ -58,7 +58,7 @@ Write `chosen items | actual requirements | unchecked movement | hygiene action 
 
 Review actual comfort, access, temperature, participation and verified rule issues. Record compliments, if present, separately; they cannot cancel pain or restriction. Keep one preparation step and change one avoidable obstacle. If a real condition cannot be met within available time, ask for a practical adjustment or arrive late honestly; do not use painful posture, identity concealment or an unsafe shortcut.
 
-Attempt [fresh checks](check-prompts.md) before [corrective guidance](check-answers.md). The source artifact is complete with the requirement/timing card, provisional selection, movement correction and occasion review. It adds no application observation, action or completion criterion.
+Attempt [fresh checks](check-prompts.md) before [corrective guidance](check-answers.md). The source artifact is complete with the requirement/timing card, provisional selection, movement correction and occasion review.
 
 ## Access, harder practice and later transfer
 

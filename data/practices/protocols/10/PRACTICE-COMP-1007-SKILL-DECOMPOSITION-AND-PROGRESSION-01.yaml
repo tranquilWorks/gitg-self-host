@@ -187,7 +187,8 @@ intervention:
       demonstrate it on one slip without skipping a step; then ask a new filing question and correct one
       confusion. Attempt the first weak milestone now and compare it with the stated criterion. Increase
       complexity only after the criterion is met, or reduce the component while keeping its purpose when
-      it is not.
+      it is not. Use the guide’s milestones for the six supplied classification slips; a step list describes
+      your plan, whereas the five-of-six criterion checks performance.
 
 
       Observation checks: Each milestone has an observable criterion; At least one component exercise
@@ -494,8 +495,8 @@ instructional_content:
       person → WAITING; (3) an open action due today → TODAY; (4) an open action due Tuesday through Sunday
       → THIS WEEK; (5) reusable information with no action → REFERENCE. Supplied slips: A completed receipt;
       B waiting for Pat’s approval, due today; C submit form, due today; D call supplier, due Thursday;
-      E torque table, no action; F expired coupon. Correct folders are A Archive, B Waiting, C Today,
-      D This Week, E Reference, F Archive. The precedence rule resolves B’s overlap.'
+      E torque table, no action; F expired coupon. Classify A–F and name the deciding rule before opening
+      the part-practice check.'
   - id: worked-path
     kind: worked_example
     title: Example decomposition on a different sorting rule
@@ -568,6 +569,15 @@ instructional_content:
       slip. If representation blocked access, change the medium while retaining the decision criterion.
       Record demonstrated, partial, adverse or inconclusive; do not advance from confidence or component
       count.
+  - id: part-practice
+    kind: prompt
+    title: Classify the six slips
+    body: Use the folder-system material to classify A–F before checking. Preserve each answer and deciding
+      rule.
+    check_id: part-practice-key
+    attempt_mode: unaided
+    references:
+    - folder-system
   checks:
   - id: dependency-map-key
     title: Check the minimum dependency structure
@@ -595,3 +605,11 @@ instructional_content:
     - Correct destination and correct reason are checked separately
     - Prompts and rescues remain visible
     - Learner evidence and self-review are not conflated
+  - id: part-practice-key
+    title: 'Check: Classify the six slips'
+    body: A ARCHIVE; B WAITING; C TODAY; D THIS WEEK; E REFERENCE; F ARCHIVE. Count correct classifications
+      out of six, while recording explanation gaps separately. Five correct classifications with an unexplained
+      precedence error calls for precedence practice before a new whole-task test.
+    criteria:
+    - Use first-match precedence.
+    - Keep classification and explanation evidence distinct.

@@ -8,7 +8,7 @@ Notice a specific vulnerability in a decision, install a countercheck that could
 
 **Deliverable:** A preserved initial preference, seven reasoned vulnerability dispositions, a performed countercheck, and a decision record showing what changed in the method. Allow about 35 minutes for the fictional packet. A live transfer needs an actual suitable choice; no purchase, attendance, or contact is required for the fictional route.
 
-Use paper, a text editor, dictation, or a willing reader. Everything needed to complete the default rehearsal is supplied. These materials do not diagnose irrationality or establish that bias has been eliminated. They add no scoring rule or claim of mastery.
+Use paper, a text editor, dictation, or a willing reader. Everything needed to complete the default rehearsal is supplied. These materials do not diagnose irrationality or establish that bias has been eliminated. They do not establish mastery.
 
 ## Seven routes to inspect, not seven labels to attach to people
 
@@ -88,7 +88,7 @@ For this fictional packet, write a decision rehearsal only. Do not claim real-wo
 
 Open **check-prompts.md**. Complete the seven short cases and the fresh choice before opening **check-answers.md**. Explain the mechanism and procedural repair; do not rely on the name alone. Multiple vulnerabilities can coexist, and a justified alternative classification can be acceptable.
 
-The answer file is separately stored source material. Browser reveal behavior and application integration still require their own verification.
+The answer file is separately stored source material.
 
 ## Accessibility and advanced routes
 

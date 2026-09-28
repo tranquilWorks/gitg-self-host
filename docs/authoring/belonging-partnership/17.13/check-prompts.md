@@ -5,3 +5,9 @@
 3. A proposed discussion requires a friend to defend their basic dignity while enduring insults. Should they continue to demonstrate openness?
 
 [Corrective answers](check-answers.md)
+
+## Changed-case attempt
+
+Save your response before opening the matching answer. This is a new fictional case.
+
+A friend has changed from weekly religious services to a secular community group and says they still value your friendship. You prefer to continue your own practice. Propose one shared activity and one honest limit without interpreting the change as rejection.

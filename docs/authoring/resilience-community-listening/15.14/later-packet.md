@@ -1,6 +1,6 @@
 # 15.14 — Later observations — original fictional case
 
-A learner safely relocates their own sheets within reach and completes the actual harmless task. On cleanup, they notice the discarded sleeve would obstruct their route and put it in the designated container. Record the specific task, adjustment and recheck. Do not claim that every activity in the room is safe.
+In this supplied fictional example, a learner safely relocates their own sheets within reach and completes the harmless task. Record your own attempted result separately; the story is not evidence that you performed it. On cleanup, they notice the discarded sleeve would obstruct their route and put it in the designated container. Record the specific task, adjustment and recheck. Do not claim that every activity in the room is safe.
 
 In the fictional W3 case, the learner stops retrieval and reports the unstable cabinet. No repair or safe access confirmation follows. Stopping/reporting is complete; the underlying hazard remains unresolved. Reaching behind it to finish the assignment would contradict the boundary.
 

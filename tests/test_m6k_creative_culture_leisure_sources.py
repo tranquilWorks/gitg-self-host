@@ -110,7 +110,9 @@ class IntegrityTests(unittest.TestCase):
             )
             self.assertNotIn("professional_boundary", e)
             for name in ("learner-guide.md", "SCOPE-MAP.md"):
-                self.assertIn("no professional_boundary field", doc(e["id"], name))
+                (self.assertNotIn if name == "learner-guide.md" else self.assertIn)(
+                    "no professional_boundary field", doc(e["id"], name)
+                )
         self.assertEqual(COHORT["skipped_implemented_ids"], [])
 
     def test_local_links_and_source_anchors(self):

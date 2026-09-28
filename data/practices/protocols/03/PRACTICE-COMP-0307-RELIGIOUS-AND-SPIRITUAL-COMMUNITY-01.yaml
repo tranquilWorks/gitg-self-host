@@ -59,13 +59,17 @@ meaning_and_fit:
     meditation circle, philosophical discussion group or mutual-care gathering. The default contribution
     is helping prepare or restore the space for an open gathering after asking the organizer. Confirm
     visitor access, an exit route and that participation does not require a donation, confession, private
-    disclosure or agreement you do not hold.
+    disclosure or agreement you do not hold. The learning guide contains a complete fictional practice
+    and a separate changed-case check. Choose that route when a real situation is unavailable; its results
+    are rehearsal, not performed real-world work.
   prerequisites:
   - Choose an existing community you can approach safely, such as a faith group, meditation circle, philosophical
     discussion group or mutual-care gathering. The default contribution is helping prepare or restore
     the space for an open gathering after asking the organizer. Confirm visitor access, an exit route
     and that participation does not require a donation, confession, private disclosure or agreement you
-    do not hold.
+    do not hold. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.
   dependencies: []
   safe_alternatives:
   - A suitable online group may offer a small accessible task. If no safe community is available, use
@@ -91,7 +95,9 @@ intervention:
     philosophical discussion group or mutual-care gathering. The default contribution is helping prepare
     or restore the space for an open gathering after asking the organizer. Confirm visitor access, an
     exit route and that participation does not require a donation, confession, private disclosure or agreement
-    you do not hold. Goal: Take part in a freely chosen community''s shared practice, service, care and
+    you do not hold. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work. Goal: Take part in a freely chosen community''s shared practice, service, care and
     accountability, then examine whether belonging and celebration coexist with boundaries against coercion.
     Scope: One community contact and contribution can begin participation; they do not establish a trustworthy
     institution or lasting belonging. A secular ethical or contemplative community is a legitimate chosen
@@ -473,3 +479,59 @@ presentation:
   plain_language_evidence: The visitor helped restore a room, observed a shared reading, received a clear
     answer about concerns and left at the agreed time without pressure.
   display_order: 42
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '03.07'
+  title: Contribute to a chosen community while keeping conscience intact
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A community contribution can be bounded and freely chosen. Visitor permission, a safe exit and
+      an accountable organizer matter independently of how welcoming a group sounds. Contribution is not
+      consent to indefinite membership or authority.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Complete fictional public notice: Elm Reading Circle meets Saturday 10–11 in an accessible
+      ground-floor room. Visitors may observe or read; silence is allowed. No fee, confession or belief
+      statement is required. Organizer Ren takes private concerns; venue staff receive unresolved conduct
+      concerns. Help setting six paper cards on a table 9:50–10:00 is optional and ends at 10:00. No photos
+      or visitor contact list are requested.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Check access, visitor role, contribution and accountability from the notice. Propose a 10-minute
+      contribution and explain what remains unknown about actual welcome.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: At an open event a host adds compulsory public confession despite a written observation option.
+      Should the visitor comply to honor the prior help agreement?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'The notice supplies a bounded authorized task, observation route, exit and concern routes;
+      it does not prove conduct. Later fiction: Ren confirms cards go face up, corrects one placement,
+      and respects Jo leaving at 10:20. That is one supplied encounter, not a reader’s participation or
+      evidence of all future safety. Partial: infer unlimited trust from friendly copy. Incorrect: treat
+      helping as consent to membership.'
+    criteria:
+    - Permission and actual conduct are distinguished
+    - Contribution has an accepted limit
+    - Conscience and a usable exit remain protected
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. That new demand exceeds the agreed scope. Decline or leave through a suitable safe route
+      and use an appropriate concern channel if welcome; the visitor need not test a threatening authority.
+    criteria:
+    - Permission and actual conduct are distinguished
+    - Contribution has an accepted limit
+    - Conscience and a usable exit remain protected

@@ -46,8 +46,8 @@ Use spoken text, accessible print or a fictional reader if actual feedback is di
 
 [CDC's program-description guidance, S05](../SOURCES.md#S05), distinguishes activities, outputs, intended outcomes and context. Only that section was used; a simple contribution chain is an original adaptation, not an evaluation proving causality or a public-health intervention.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Human dignity is never scored.
+Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

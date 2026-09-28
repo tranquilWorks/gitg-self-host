@@ -28,10 +28,10 @@ For support, use a chosen object, a short audio note, an accessible quiet ritual
 
 Later review may notice changed routines or continuing waves of feeling without a timetable. Function-impairing, severe or persistent symptoms, traumatic loss or safety concerns merit appropriate qualified support. This fictional closure of a hobby group is not evidence that a learner has processed personal grief or can manage every kind of loss.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary (unchanged): Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
+Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

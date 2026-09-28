@@ -72,10 +72,14 @@ meaning_and_fit:
     is required.
   opportunity_considerations: Use paper or an offline note. Work with a free afternoon divided between
     rest, keeping a promise, and learning something useful; substitute an equally small real choice if
-    preferred.
+    preferred. The learning guide contains a complete fictional practice and a separate changed-case check.
+    Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.
   prerequisites:
   - Use paper or an offline note. Work with a free afternoon divided between rest, keeping a promise,
-    and learning something useful; substitute an equally small real choice if preferred.
+    and learning something useful; substitute an equally small real choice if preferred. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Explain the comparison aloud or with three symbols. Rest and receiving care may be the whole appropriate
@@ -96,9 +100,11 @@ intervention:
   cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use paper or an offline note. Work with a free afternoon divided between rest, keeping a promise,
-    and learning something useful; substitute an equally small real choice if preferred. Goal: Explain
-    competing accounts of flourishing and use their differences to make one defensible choice. Scope:
-    This compares three lenses on one choice. Wider flourishing includes faith, freedom, relationships,
+    and learning something useful; substitute an equally small real choice if preferred. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work. Goal:
+    Explain competing accounts of flourishing and use their differences to make one defensible choice.
+    Scope: This compares three lenses on one choice. Wider flourishing includes faith, freedom, relationships,
     service and contentment; the optional fourth lens begins that extension without settling every account.
     Time and effort: About 30 minutes of comparison, one ordinary choice, and a 10-minute review. Adaptation:
     Explain the comparison aloud or with three symbols. Rest and receiving care may be the whole appropriate
@@ -445,3 +451,62 @@ presentation:
   plain_language_evidence: The allocation protected a promise and rest, and its author explained why urgent
     care would change it.
   display_order: 10
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '01.01'
+  title: Compare three good lives through one ordinary choice
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Character accounts ask what habits a choice cultivates; duty accounts ask what is owed; consequence
+      accounts compare benefits and burdens. A freedom account protects meaningful choice; care attends
+      to particular dependency; contentment asks what is enough. Faith traditions may locate flourishing
+      in relationship to the sacred, with differing interpretations. These are lenses, not exhaustive
+      summaries or personality types.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Neri has 180 discretionary minutes, no spending and no urgent duty. A previously promised neighbor
+      call takes 20 minutes; the neighbor expects it today. Rest could use 60–160 minutes; an available
+      reading lesson takes 50. Neri slept poorly but has no supplied medical concern. No one has agreed
+      to cancel the call.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Compare three accounts, then one additional lens. Allocate 180 minutes or less, name what each
+      reason protects and what it leaves out. Reconsider if an essential care duty takes 70 minutes.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A person has 90 minutes, a promised 15-minute call and optional 60-minute class. They choose
+      call 15/rest 75. Explain two genuinely different reasons and a cost; does missing the class establish
+      a worse life?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'A defensible first plan is call 20, rest 100, lesson 50, spare 10. Duty explains the promise;
+      character may emphasize reliable habits; consequences compare fatigue and benefit. These reasons
+      need not select different plans. After care 70 only 110 discretionary minutes remain: call 20/rest
+      90 is defensible, with learning forgone. Partial: totals fit but all reasons say only “best.” Incorrect:
+      add care without reducing 180. Other allocations can meet the same responsibilities.'
+    criteria:
+    - Distinct reasons are explained
+    - Time and commitments fit the facts
+    - A legitimate forgone good remains visible
+  - id: changed-case-check
+    title: Check the changed case
+    body: Duty can support the promised call; care or contentment can support room for recovery. The class
+      opportunity is lost, not worthless. No global life ranking follows; a sound alternative may use
+      the class if capacity fits.
+    criteria:
+    - Distinct reasons are explained
+    - Time and commitments fit the facts
+    - A legitimate forgone good remains visible

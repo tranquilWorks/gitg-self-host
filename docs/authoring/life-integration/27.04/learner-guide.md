@@ -39,8 +39,8 @@ Use culturally fitting role names, spoken cards or a trusted adviser. An adviser
 
 A harder case gives Alex an actual on-call duty during the friend slot. The nonurgent assumption no longer applies: arrange coverage or renegotiate the personal commitment rather than ignoring duty. Later transfer is one low-stakes role repair with an actual response and a check that the louder role remains adequately served. Unequal time can be responsible; a tidy role map without action cannot demonstrate that.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains cross_context_core and normative status cross_tradition_core_or_broadly_recurrent. Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
+Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. These source files change no runtime action, evidence field, score or completion rule. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

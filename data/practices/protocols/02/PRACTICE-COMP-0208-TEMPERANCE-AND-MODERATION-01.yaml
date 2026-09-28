@@ -55,11 +55,15 @@ meaning_and_fit:
     Restful or supported leisure is as eligible as an active hobby.
   opportunity_considerations: Choose a familiar low-stakes leisure activity, such as a puzzle, game or
     entertainment session. Use ordinary access; do not experiment with food restriction, substance use,
-    medication or activities associated with serious harm.
+    medication or activities associated with serious harm. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.
   prerequisites:
   - Choose a familiar low-stakes leisure activity, such as a puzzle, game or entertainment session. Use
     ordinary access; do not experiment with food restriction, substance use, medication or activities
-    associated with serious harm.
+    associated with serious harm. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Use a natural activity boundary instead of a timer when timing creates stress. Restful or supported
@@ -81,7 +85,9 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Choose a familiar low-stakes leisure activity, such as a puzzle, game or entertainment session.
     Use ordinary access; do not experiment with food restriction, substance use, medication or activities
-    associated with serious harm. Goal: Practice enjoying a discretionary good without letting it displace
+    associated with serious harm. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work. Goal: Practice enjoying a discretionary good without letting it displace
     an obligation or turn into a purity test. Scope: One leisure session tests moderation in a bounded
     context. Compulsion, dependence and other high-consequence patterns require support beyond a recreational
     trial. Time and effort: About 5 minutes to choose a boundary, one ordinary leisure session, and a
@@ -424,3 +430,60 @@ presentation:
   plain_language_evidence: A game ended at the agreed point and remained enjoyable without displacing
     a promised call.
   display_order: 28
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '02.08'
+  title: Enjoy a chosen pleasure within a flexible boundary
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Temperance governs a good without making pleasure shameful. Across entertainment, spending,
+      comfort and status, ask what purpose the activity serves and what it displaces. Food and sexual
+      life involve nourishment, health, consent and personal circumstances; restriction, deprivation or
+      enduring unwanted contact are not practice goals.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Kai has 30 free minutes for a familiar word game, then an agreed call. The game is free and
+      can pause at any turn. Kai chooses a 25-minute window plus 5 minutes to prepare. A cosmetic upgrade
+      costs 12 discretionary units but changes no play feature; Kai’s optional budget is 10. No purchase
+      or restriction of essentials is required.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Choose a stop/exception rule, then compare the time and purchase decisions. Name how you would
+      carry the same purpose check to another optional pleasure without transferring an unsafe method.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A person is offered an expensive badge that confers no access or skill and exceeds their discretionary
+      budget. Must rejecting all recognition become the new goal?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Stop by 25 minutes to prepare; no game condition supplied justifies missing the call. The12-unit
+      cosmetic purchase exceeds 10 and is optional. Later fiction: Kai stops at 27, still makes the call,
+      and declines the purchase; the personal window overran even though the duty was met. Partial: hide
+      the overrun. Incorrect: withhold food as punishment. For comfort/status, try an available modest
+      alternative; for food or sexual questions, preserve nourishment, freely revocable consent and appropriate
+      individual guidance rather than inventing a quota.'
+    criteria:
+    - Pleasure remains legitimate
+    - Boundaries protect actual duties and resources
+    - Transfer preserves nourishment consent and individual needs
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Decline or defer this purchase on its cost and purpose. Useful professional recognition
+      can remain legitimate; the criterion is its actual role and tradeoff, not a universal ban on visibility.
+    criteria:
+    - Pleasure remains legitimate
+    - Boundaries protect actual duties and resources
+    - Transfer preserves nourishment consent and individual needs

@@ -48,7 +48,7 @@ This paper script is not a sent statement. Save it, then open [later-packet.md](
 
 In each fictional branch record `notice event | agreed work result | limit maintained | key route/receipt | open duty | next action`. If the agreed work is incomplete, retain that fact and propose an appropriate repair without pretending the promise vanished. If a resource return is unknown, leave that obligation open. Emerging danger overrides the exercise and calls for appropriate support; a completed worksheet is never more important than safety.
 
-On the optional live route, the existing boundary practice spans ten days, with about 20–40 minutes plus the naturally occurring interaction. Define, state and follow through within its existing action windows: define within three days and follow through within seven days when the relevant situation arises. Do not invent an opportunity or reset dates to manufacture follow-through. The actual application retains its own existing instructions and evidence requirements; these reading checks neither replace them nor add new requirements.
+On the optional live route, the existing boundary practice spans ten days, with about 20–40 minutes plus the naturally occurring interaction. Define, state and follow through within its existing action windows: define within three days and follow through within seven days when the relevant situation arises. Do not invent an opportunity or reset dates to manufacture follow-through. Use the actual practice sequence for a real boundary attempt; a reading check is rehearsal.
 
 ## Complete mini-case: release an obsolete project
 
@@ -62,7 +62,7 @@ Two fictional adults, you and Sam, have an optional monthly puzzle exchange. The
 
 Draft a clear ending of the exchange and preserve the return: “I am ending the monthly puzzle exchange. I will return your puzzle Saturday at eleven as agreed; I won't arrange another exchange.” You need not obtain permission to stop future optional meetings. You do need to keep or properly address the existing return arrangement. Do not demand a reply, forgiveness or a matching explanation. A missing reply leaves any new proposed return method unaccepted, but does not create an obligation to keep the optional exchange going. A real emotionally consequential ending deserves context-specific care beyond this bounded example.
 
-Attempt [check-prompts.md](check-prompts.md) before [check-answers.md](check-answers.md). Finish with distinct closure records for setup, obsolete tickets and the exchange, including what remains open. These are unscored learning materials and add no completion rules or action IDs.
+Attempt [check-prompts.md](check-prompts.md) before [check-answers.md](check-answers.md). Finish with distinct closure records for setup, obsolete tickets and the exchange, including what remains open. These reading checks do not establish that an actual boundary was stated or maintained.
 
 ## Supported routes, challenge and later transfer
 
@@ -80,4 +80,4 @@ For transfer, use one naturally occurring safe optional request or one obsolete 
 
 **Inconclusive:** Only a private script exists, no suitable live opportunity arose or safety uncertainty prevents use.
 
-See [source and frozen-protocol compatibility notes](../SOURCES.md). This companion is not a new clinical, relationship-safety or scoring protocol.
+See [source notes](../SOURCES.md). This companion is not a new clinical, relationship-safety or scoring protocol.

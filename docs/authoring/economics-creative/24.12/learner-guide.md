@@ -58,8 +58,8 @@ For support, compare just the two supplied cards after reading the seven-form ma
 
 Progress is an analysis that connects an institutional form to actual rights and consequences. Selecting the most appealing label does not demonstrate capital adequacy, fair governance or mission achievement. The later failure matters precisely because a good intention cannot substitute for a decision procedure that works.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise or policy role is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

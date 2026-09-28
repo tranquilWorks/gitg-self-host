@@ -50,10 +50,10 @@ Use accessible official summaries and distinguish an agency's remit from a union
 
 ## Source use
 
-[NLRB Employee Rights, S11](../SOURCES.md#S11), and [Concerted Activity, S12](../SOURCES.md#S12), supply a U.S. coverage example and conduct limits. Their selected public explanations are not a ruling on the fictional team or a survey of public-sector law. The retrieved site also announces a forthcoming maintenance window; that notice is not evidence that a filing deadline changes.
+[NLRB Employee Rights, S11](../SOURCES.md#S11), and [Concerted Activity, S12](../SOURCES.md#S12), supply a U.S. coverage example and conduct limits. Their selected public explanations are not a ruling on the fictional team or a survey of public-sector law. Check current official procedures and deadlines before an actual filing; a site notice does not itself extend a deadline.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Human dignity is never scored.
+Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

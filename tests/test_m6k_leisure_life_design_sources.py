@@ -118,7 +118,9 @@ class IntegrityTests(unittest.TestCase):
             )
             self.assertEqual(entry["classification"]["formation_modes"], expected)
             for name in ("learner-guide.md", "SCOPE-MAP.md"):
-                self.assertIn("no professional_boundary field", doc(entry["id"], name))
+                (self.assertNotIn if name == "learner-guide.md" else self.assertIn)(
+                    "no professional_boundary field", doc(entry["id"], name)
+                )
 
     def test_source_coverage_is_disjoint_and_complete(self):
         cov = COHORT["source_coverage"]

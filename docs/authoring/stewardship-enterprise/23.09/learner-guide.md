@@ -47,8 +47,8 @@ A polite response is not evidence that a plan strengthens future agency. Look fo
 
 For support, use the four table rows and mark each as proposed, checked or committed. For greater difficulty, introduce a rising need without enlarging the 600-unit pot. The first thing to revise may be timing or the uncommitted balance; an urgent request does not silently authorize disposing of someone else's asset. Over time, an actual allocation record plus a later use or teaching observation could support progress. The fictional meeting and teaching response here remain authored materials, not family agreement or longitudinal evidence.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

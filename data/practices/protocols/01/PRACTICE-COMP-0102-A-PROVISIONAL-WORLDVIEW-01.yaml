@@ -60,10 +60,14 @@ meaning_and_fit:
     unsafe. No conversion, debate, trauma disclosure, or resolution of every philosophical question is
     needed.
   opportunity_considerations: 'Use six headings: reality, human nature, knowledge, morality, suffering,
-    and freedom/responsibility. Uncertainty is an acceptable entry under every heading.'
+    and freedom/responsibility. Uncertainty is an acceptable entry under every heading. The learning guide
+    contains a complete fictional practice and a separate changed-case check. Choose that route when a
+    real situation is unavailable; its results are rehearsal, not performed real-world work.'
   prerequisites:
   - 'Use six headings: reality, human nature, knowledge, morality, suffering, and freedom/responsibility.
-    Uncertainty is an acceptable entry under every heading.'
+    Uncertainty is an acceptable entry under every heading. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Keep this private, dictate it, or use fictional positions if disclosure is unsafe. No conversion,
@@ -83,7 +87,9 @@ intervention:
   cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use six headings: reality, human nature, knowledge, morality, suffering, and freedom/responsibility.
-    Uncertainty is an acceptable entry under every heading. Goal: Articulate present convictions, unresolved
+    Uncertainty is an acceptable entry under every heading. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work. Goal: Articulate present convictions, unresolved
     questions, and conditions for revising them. Scope: The six headings connect the principal worldview
     questions. One tension check develops coherence; it cannot establish the truth of every belief or
     replace sustained philosophical study. Time and effort: About 30 minutes to draft and examine one
@@ -426,3 +432,60 @@ presentation:
   plain_language_evidence: Responsibility was retained while the decision rule explicitly accounted for
     resources and constraints.
   display_order: 11
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '01.02'
+  title: Write a worldview that can be questioned
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: 'A contradiction affirms and denies the same claim under the same conditions. Different levels
+      of explanation can coexist: a person can choose while resources constrain which choices are available.
+      Coherence alone does not establish truth.'
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Fictional worldview A: reality includes material processes; people can learn; testimony is
+      useful but fallible; promises matter; suffering sometimes has preventable causes; responsibility
+      depends partly on available choices. B shares these positions except that it says every adult always
+      has exactly the same opportunities. Case: two learners can study, but one has an accessible library
+      and the other has no available transport or accessible copy.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Use all six headings to compare A/B. Identify the tension, a strong objection, a justified revision
+      condition and one practical implication. Keep unresolved metaphysical questions unresolved.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A position says testimony is always unreliable but treats one admired speaker’s testimony as
+      conclusive without corroboration. What needs examination, and what would a narrower position allow?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'A can retain agency while recognizing unequal options. B’s equal-opportunity claim conflicts
+      with the stipulated access difference; revise that claim rather than deny the learner’s agency.
+      At a fictional later review an accessible copy arrives but transport remains unavailable: update
+      the particular options, not a universal equality claim. Partial: identify unfairness without locating
+      the proposition. Incorrect: announce all responsibility impossible.'
+    criteria:
+    - Claims are represented fairly
+    - Contradiction is distinguished from different explanatory levels
+    - Revision follows a stated reason
+  - id: changed-case-check
+    title: Check the changed case
+    body: The exception conflicts with “always” unless independently justified. A narrower view treats
+      testimony as fallible and checks source access, reasons and corroboration. Agreement with the admired
+      speaker does not settle reliability.
+    criteria:
+    - Claims are represented fairly
+    - Contradiction is distinguished from different explanatory levels
+    - Revision follows a stated reason

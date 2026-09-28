@@ -54,7 +54,7 @@ Draft the pharmacist/prescriber question privately: what does the actual product
 
 Apply both later branches separately. Track `decline/rehearsal | transport planned | pickup occurred | arrived | qualified question sent | reply received | treatment completed`. Only supplied events can advance a status. A sober ride does not resolve dependence or medication questions, and a booked consultation is not treatment completed. If actual use is becoming unsafe, compulsive or difficult to control, use an appropriate confidential qualified service; support is not contingent on a moral judgment.
 
-Attempt [fresh checks](check-prompts.md) before [the key](check-answers.md). The default completes a risk record, refusal/transport rehearsal, update and help plan. It does not establish actual contact, altered-state experience or a changed real-world choice, and adds no application evidence rule.
+Attempt [fresh checks](check-prompts.md) before [the key](check-answers.md). The default completes a risk record, refusal/transport rehearsal, update and help plan. It does not establish actual contact, altered-state experience or a changed real-world choice.
 
 ## Access, challenge and transfer
 

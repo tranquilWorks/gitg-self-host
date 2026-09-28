@@ -46,9 +46,10 @@ For actual transfer, choose a harmless authorized document and preserve real saf
 
 [ASQ's quality glossary, S10](../SOURCES.md#S10), connects quality with meeting needs and absence of deficiencies, including fitness for use. Only the relevant definitions were read, not a certification standard or the whole glossary as a training program. The three effort categories, grid and trials are original design and supply no actual-room approval.
 
+## Use the result at its proper scale
 
-## Scope and evidence boundary
+The practical limits in this guide are exercise safeguards, not added canonical metadata.
 
-The canonical record has no professional_boundary field. The practical limits in this guide are exercise safeguards, not added canonical metadata.
+Paid employment, a career change or a particular work role is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private.
 
-Canonical applicability is context_sensitive. Paid employment, a career change or a particular work role is not compulsory. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

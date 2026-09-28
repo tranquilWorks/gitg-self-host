@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "04.07",
+  "title": "Distinguish moral distress responsibility and the support needed",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Moral distress can include guilt, betrayal and uncertainty about responsibility. A story alone cannot establish a diagnosis or legal liability. Clarify what was known, what authority existed and which kind of support can answer which question."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional coordinator Ari allocates an ordinary access slot using the current list. A supervisor withheld a corrected eligibility note; Ari learned this only after Jo missed the slot. Ari had no access to that note beforehand and may request an independent process review, but cannot promise compensation. Jo permits a written acknowledgment, not a personal visit. Ari reports continuing distress without a supplied clinical assessment."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Separate Ari’s action, knowledge, institutional omission and unknown consequences. Choose proportionate accountability and distinct support roles without diagnosing either person.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A friend says guilt proves a clinical disorder and orders a legal admission. Which authority has been exceeded?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Acknowledge the decision and known missed access, request review of the withheld information and respect Jo’s contact limit. Qualified mental-health support can address concerning distress; an appropriate independent adviser can examine institutional/legal responsibility; a willing trusted person can offer company. None automatically settles the others. Partial: choose support without acknowledging the impact. Incorrect: assign all blame or none before examining the process.",
+      "criteria": [
+        "Knowledge and role limit the responsibility account",
+        "Support roles are not conflated",
+        "Known harm and unresolved questions both remain"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "The friend has no supplied basis to diagnose or decide legal responsibility. Retain the feeling, seek suitable qualified assessment or advice where needed, and do not turn reassurance into a binding determination.",
+      "criteria": [
+        "Knowledge and role limit the responsibility account",
+        "Support roles are not conflated",
+        "Known harm and unresolved questions both remain"
+      ]
+    }
+  ]
+}

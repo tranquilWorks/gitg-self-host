@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "05.06",
+  "title": "Map an ordinary reaction and try an earlier response",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A reaction chain includes event, interpretation, body cue, urge, action and consequence. The earliest usable cue is one actually noticed before action, not an earlier signal imagined afterward."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional first request:09:00 message asks for help;09:00:05 Jo thinks “I must answer yes”;09:00:08 hand tightens;09:00:12 Jo agrees;09:05 calendar reveals a conflict. Second ordinary request:11:00 message;11:00:06 same thought;11:00:09 Jo notices grip;11:00:12 says “I will check and answer by noon”;11:03 calendar shows no free hour. No emergency or threatening relationship is involved."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Map both sequences and choose an early response supported by actual noticing. State what changed and what remains uncertain before reading the outcome.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person notices tension only after saying yes. Can that occasion demonstrate an earlier pause?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "The noticed grip at 11:00:09 precedes the holding reply and can cue checking. Later fiction: Jo declines the unavailable hour at 11:10; no reaction from the requester is supplied. The first agreement still needs appropriate repair. Partial: report only the bodily cue. Incorrect: call the thought a proven cause or claim a changed relationship. Rehearsal alone remains preparation.",
+      "criteria": [
+        "Timelines determine what was actually available",
+        "An earlier response fits a real noticed cue",
+        "Consequences and causal limits remain explicit"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Record late noticing and the actual agreement. A later suitable opportunity may test the cue; do not backdate awareness to make the chain succeed.",
+      "criteria": [
+        "Timelines determine what was actually available",
+        "An earlier response fits a real noticed cue",
+        "Consequences and causal limits remain explicit"
+      ]
+    }
+  ]
+}

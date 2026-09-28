@@ -8,7 +8,7 @@ Turn a recurring failure into an observable question, compare explanations that 
 
 **Deliverable:** A problem definition, competing-hypothesis table, four-condition paper test, fresh verification record, and maintenance decision. Allow about 40 minutes. Use paper cards, a text editor, a calculator, or dictation. You need no electrical equipment, live service, other participant, or private data.
 
-The default is a deterministic simulation. It can establish what the specified routing rules do, but not that an actual person's routine improved. The canonical progress indicator concerning a recurring real problem remains untested until a suitable real process is observed. This material is unscored educational source, not a new production evidence contract.
+The default is a deterministic simulation. It can establish what the specified routing rules do, but not that an actual person's routine improved. The canonical progress indicator concerning a recurring real problem remains untested until a suitable real process is observed. Use this material to practice the reasoning and inspect your answer.
 
 ## A reference for causal investigation
 

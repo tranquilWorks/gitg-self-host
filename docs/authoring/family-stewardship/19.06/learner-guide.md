@@ -40,9 +40,10 @@ For real transfer, use an existing appropriate relationship and a naturally shar
 
 [The NHS miscarriage page, S05](../SOURCES.md#S05), recognizes different physical and emotional experiences and available support, including for partners. Only those sections are used; treatment instructions, thresholds and predictions are not imported. Its miscarriage discussion does not establish a universal account of infertility or every reproductive loss. The fictional declined-call/accepted-meal design applies the canonical non-minimizing support boundary without claiming a grief intervention effect.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local guidance.
 
-Applicability and normative status are role-conditional. No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+ No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

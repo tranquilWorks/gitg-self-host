@@ -40,7 +40,7 @@ Keep care independent of changing appearance, earning food, extra exercise or ma
 
 Record whether the care action occurred, whether distress remains, whether support was requested and whether any response arrived. These are separate facts. Use the branch to select one next step: retain the practical rule, ask the agreed support person, or use qualified care for current concerning behavior. Do not label a person noncompliant or morally better based on the case outcome.
 
-Attempt [fresh checks](check-prompts.md) before the [key](check-answers.md). The source artifact is complete with the four-way distinction, bounded care card, both branch reviews and a concrete support threshold. These are reading checks, not new application evidence or completion requirements.
+Attempt [fresh checks](check-prompts.md) before the [key](check-answers.md). The source artifact is complete with the four-way distinction, bounded care card, both branch reviews and a concrete support threshold. These are reading checks, not evidence of an actual health action.
 
 ## Access, harder practice and later transfer
 

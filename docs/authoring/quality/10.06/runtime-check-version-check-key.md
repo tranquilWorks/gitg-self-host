@@ -8,7 +8,7 @@ Target V1, revision 1, 8 September 2026: (1) enter at the west door; (2) check i
 
 Preserve the attempt before correction
 
-Target version: __. Encoding route and supports: __. Encoding ended at: __. Recall began at: __. Actual delay: __. First response in order: __. For each position mark U [unaided], C [specific cue used], L [full item looked up], O [omitted] or W [wrong]: 1 __ 2 __ 3 __ 4 __ 5 __ 6 __. Exact-position correct count: __/6. First error or uncertainty: __. Reference checked after the attempt [yes/no]. Exact cue repair: __. Keep the first response; do not replace it with the key.
+Target version: __. Encoding route and supports: __. Encoding ended at: __. Recall began at: __. Actual delay: __. First response in order: __. For each position record two separate dimensions. Assistance: U [unaided], C [specific cue], or L [full item looked up]. Accuracy: correct, O [omitted], or W [wrong]. Positions: 1 assistance __ accuracy __; 2 __ __; 3 __ __; 4 __ __; 5 __ __; 6 __ __. An unaided response can still be wrong. Exact-position correct count: __/6. First error or uncertainty: __. Reference checked after the attempt [yes/no]. Exact cue repair: __. Keep the first response; do not replace it with the key.
 
 Delayed retrieval and one controlled version change
 

@@ -55,10 +55,14 @@ meaning_and_fit:
     the tracking process, but only real follow-through demonstrates keeping a promise.
   opportunity_considerations: Select one small commitment within your control, such as returning a borrowed
     item or supplying a short note. Use a calendar or paper reminder and avoid promising on another person's
-    behalf.
+    behalf. The learning guide contains a complete fictional practice and a separate changed-case check.
+    Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.
   prerequisites:
   - Select one small commitment within your control, such as returning a borrowed item or supplying a
-    short note. Use a calendar or paper reminder and avoid promising on another person's behalf.
+    short note. Use a calendar or paper reminder and avoid promising on another person's behalf. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Use an accessible reminder or agreed helper. A fictional commitment can rehearse the tracking process,
@@ -79,12 +83,14 @@ intervention:
   cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Select one small commitment within your control, such as returning a borrowed item or supplying
-    a short note. Use a calendar or paper reminder and avoid promising on another person''s behalf. Goal:
-    Make a commitment another person can reasonably rely on, and fulfill or renegotiate it before failure.
-    Scope: One completed commitment demonstrates a bounded instance of reliability. Trust across changing
-    conditions depends on a longer pattern and honest repair after failures. Time and effort: About 10
-    minutes to agree scope, the ordinary work involved, and 5 minutes to close the loop. Adaptation: Use
-    an accessible reminder or agreed helper. A fictional commitment can rehearse the tracking process,
+    a short note. Use a calendar or paper reminder and avoid promising on another person''s behalf. The
+    learning guide contains a complete fictional practice and a separate changed-case check. Choose that
+    route when a real situation is unavailable; its results are rehearsal, not performed real-world work.
+    Goal: Make a commitment another person can reasonably rely on, and fulfill or renegotiate it before
+    failure. Scope: One completed commitment demonstrates a bounded instance of reliability. Trust across
+    changing conditions depends on a longer pattern and honest repair after failures. Time and effort:
+    About 10 minutes to agree scope, the ordinary work involved, and 5 minutes to close the loop. Adaptation:
+    Use an accessible reminder or agreed helper. A fictional commitment can rehearse the tracking process,
     but only real follow-through demonstrates keeping a promise. Keep personal working notes outside the
     check-in; record only the listed observations.'
   privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
@@ -421,3 +427,58 @@ presentation:
     more dependable? Completion is not mastery.
   plain_language_evidence: The item was returned on the agreed day and receipt was confirmed.
   display_order: 25
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '02.05'
+  title: Make, track and close one realistic promise
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A promise has a recipient, deliverable and deadline. Tracking supports action; a private calendar
+      edit changes none of the recipient’s expectations. A renegotiation needs an actual response or an
+      established alternative procedure.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: On Monday Jo promises a two-paragraph room notice by Thursday 16:00. Drafting takes 20 minutes;
+      Jo has Thursday 15:00–15:30. The room owner must confirm the room name. Wednesday 12:00 reminder
+      reveals no reply. Jo may send an accurate draft with room marked pending, but final publication
+      needs confirmation.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Write the commitment and early-check decision. Draft a status request that identifies the unresolved
+      dependency and proposes a bounded alternative without assuming agreement.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A recipient has not answered a request to move Friday’s deadline to Monday. Which deadline is
+      currently agreed?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Jo should contact the owner before the deadline and preserve the pending room. Later fiction:
+      owner agrees Wednesday 17:00 to a draft Thursday 16:00 and final Friday 10:00; room arrives Thursday
+      18:00. The change is agreed, but neither draft nor final is performed merely by agreement. Partial:
+      set a reminder without reviewing dependency. Incorrect: silently move the deadline or invent the
+      room.'
+    criteria:
+    - The commitment has an explicit boundary
+    - Threatened delivery prompts timely communication
+    - Proposed, agreed and performed states differ
+  - id: changed-case-check
+    title: Check the changed case
+    body: Friday remains the known agreement. Communicate actual risk, use any legitimate escalation route
+      and record an unresolved request; silence is not acceptance.
+    criteria:
+    - The commitment has an explicit boundary
+    - Threatened delivery prompts timely communication
+    - Proposed, agreed and performed states differ

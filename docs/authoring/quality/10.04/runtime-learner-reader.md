@@ -35,7 +35,13 @@ Write the supplied answer template with confirmed rules, bounded interpretation,
 - The answer includes its checking date and scope
 - One unresolved issue has a concrete clarification route
 
+## Adaptation
+
 Use a librarian, screen reader, printed policy or accessible official phone channel. Keep the same source-to-claim trace when using AI to summarize; generated citations must be checked directly. The offline case is research rehearsal, not advice about an actual service.
+
+## Review
+
+Could another reader follow your source trail and discover the same limitation without trusting your confidence or writing style?
 
 Plan, trace and audit a bounded research answer
 
@@ -79,3 +85,4 @@ Transfer the same research plan, matrix and audit to a different low-stakes deci
 
 Open the prompt in the practice guide: Assign source roles and identify missing evidence
 Open the prompt in the practice guide: Resolve the dates and conflicting claims
+Open the prompt in the practice guide: Audit an unseen effective-date conflict

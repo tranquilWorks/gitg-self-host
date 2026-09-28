@@ -2,6 +2,10 @@
 
 Make the work behind one family event visible, transfer one complete unit by agreement, and review the next occurrence. Allow twenty minutes to map, twenty for a willing discussion and a short review after the work. Use the fictional multigeneration meal unless real participants want to examine an ordinary shared responsibility. Do not use the exercise to invoice affection or withdraw essential care.
 
+## Headcount, preferences, access and prices
+
+The fictional meal has six confirmed guests. Four request still water and two request apple juice; these are ordinary preferences, with no dietary restriction supplied. A water pack provides four 250 mL servings for 4 units; a juice carton provides four 250 mL servings for 4 units. Six washable cups are available without cost. A reusable table covering costs 6 units. The agreed table arrangement keeps the entry-side place clear for a mobility aid and the route unobstructed; nobody has authorized a change. Obtain one water pack, one juice carton and one covering, or justify another option that meets the stated needs within 18 units. This card supplies case facts, not a universal serving recommendation.
+
 ## Look beyond who performs the visible step
 
 Domestic labor includes preparing, cleaning and maintaining the setting. Logistical labor includes noticing deadlines, arranging access and keeping different people's needs aligned. Financial provision includes paying, budgeting and managing the limits of available resources. Caregiving includes tasks that depend on competence and authorization, not merely willingness. Emotional labor can include welcoming someone, managing tension or remembering whose participation needs gentle accommodation. These forms interact, but they are not interchangeable currencies.
@@ -40,9 +44,10 @@ A person living alone can examine a service handoff or use fiction; they need no
 
 [Daminger's research abstract, S14](../SOURCES.md#S14), identifies cognitive dimensions of household labor beyond execution. Its interview sample does not establish a universal family allocation rule or validate this multigeneration exercise. The whole-unit design, resource limit and rework review are original applications. The task asks who is doing the work, who can choose and what actually changed; it does not turn a study pattern into gender destiny.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local guidance.
 
-Applicability and normative status are role-conditional. No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+ No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

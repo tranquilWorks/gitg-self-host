@@ -28,10 +28,10 @@ For support, use icons, dictation, a word bank or just event–urge–response. 
 
 Later transfer requires a manageable natural episode and a safe actual response. An observer may describe behavior but cannot certify your private feeling from appearance. Severe or persistent symptoms belong with qualified care. This classification rehearsal establishes no personal emotional change.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary (unchanged): Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
+Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

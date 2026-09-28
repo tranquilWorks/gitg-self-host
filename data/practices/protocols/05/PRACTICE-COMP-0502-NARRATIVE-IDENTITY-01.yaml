@@ -55,10 +55,15 @@ meaning_and_fit:
     Fiction exercises interpretation only.
   opportunity_considerations: 'Choose a manageable chapter such as learning a hobby, moving rooms, or
     joining a group. Draw three points: before, turning point, and now. Use a fictional learner if personal
-    history feels too exposed.'
+    history feels too exposed. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.'
   prerequisites:
   - 'Choose a manageable chapter such as learning a hobby, moving rooms, or joining a group. Draw three
-    points: before, turning point, and now. Use a fictional learner if personal history feels too exposed.'
+    points: before, turning point, and now. Use a fictional learner if personal history feels too exposed.
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.'
   dependencies: []
   safe_alternatives:
   - Use a three-picture sequence or a private voice note. No public storytelling, confrontation, forgiveness,
@@ -80,7 +85,9 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Choose a manageable chapter such as learning a hobby, moving rooms, or joining a group. Draw
     three points: before, turning point, and now. Use a fictional learner if personal history feels too
-    exposed. Goal: Create a balanced account of one life chapter that includes choices, help, constraints,
+    exposed. The learning guide contains a complete fictional practice and a separate changed-case check.
+    Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work. Goal: Create a balanced account of one life chapter that includes choices, help, constraints,
     chance and change without forcing a heroic or failed-self story. Scope: A short chapter practices
     narrative balance; it cannot verify uncertain memories, recover hidden history or explain an entire
     identity. There is no required redemptive ending. Time and effort: About 25 minutes to draft and revise,
@@ -427,3 +434,57 @@ presentation:
   plain_language_evidence: A learning story retained persistence, acknowledged instruction and access,
     and included an unresolved setback.
   display_order: 60
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '05.02'
+  title: Retell a life chapter with agency and circumstance
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A life narrative selects events and meaning. A fair revision adds agency, constraint and received
+      help without turning every loss into growth or every contribution into solitary heroism.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Complete fictional chapter: before joining a drawing group, Rae practiced alone using a borrowed
+      pencil and free library pages. At the turning point a friend offered two specific shading corrections;
+      Rae practiced them for three evenings. Now Rae can shade one simple form but still finds proportion
+      difficult. One exhibition invitation was missed because transport was unavailable. No award or further
+      feedback exists.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Write before/turning-point/now, separating events from interpretation. Correct “I mastered drawing
+      alone” without erasing Rae’s effort or the missed opportunity.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A narrative accurately names a structural barrier but omits the person’s actual preparation
+      and request for help. What can be added without blaming them for the barrier?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'A fair account credits practice, borrowed materials and feedback, limits the skill to one form
+      and retains the transport loss. Partial: add help but still claim mastery. Incorrect: recast the
+      missed exhibition as necessary for growth without evidence. Later fiction: Rae accepts an accessible
+      text demonstration and makes one improved form; long-term development remains unknown.'
+    criteria:
+    - Events and interpretation are distinguishable
+    - Agency and received support coexist
+    - Remaining difficulty or loss is retained
+  - id: changed-case-check
+    title: Check the changed case
+    body: Add those actions as agency within the constraint. They neither caused nor removed every external
+      condition; a richer narrative need not choose between total hero and total victim.
+    criteria:
+    - Events and interpretation are distinguishable
+    - Agency and received support coexist
+    - Remaining difficulty or loss is retained

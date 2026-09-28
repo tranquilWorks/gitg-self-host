@@ -8,7 +8,7 @@ Preserve what you knew before choosing, then append what happened without rewrit
 
 **Deliverable:** A prospective-style decision record, a preserved choice-time copy, a separate review, and one specific improvement to the next decision process. Allow roughly 35 minutes for the fictional route. A real route uses a genuinely undecided low-stakes choice and an actual later review within 30 days. Writing a suggested review date in this lesson does not create a reminder or schedule anything in your accounts.
 
-**Compatibility boundary:** 09.12 already has retained typed-evidence rules. This source does not alter its action IDs, observation allowlist, completion logic, scoring, or replay. Keep private record contents out of application evidence. Do not upload names, narratives, quotes from others, secrets, or the record itself merely to demonstrate this exercise.
+Keep the detailed decision record private. Do not upload names, narratives, quotes from others, secrets, or the record itself merely to demonstrate this exercise.
 
 ## A compact record can retain disagreement without retaining identities
 
@@ -49,7 +49,7 @@ Use this private template:
 
 For the supplied packet, category is reading, options are A/B, and the allowed prediction statuses are completed, partly completed, or not completed. Unresolved is a possible review status, not a claim that a completed outcome was observed. Record what would count as the objective being met: an uninterrupted 30-minute section in the defined block.
 
-Add a short private reason for your confidence only where your chosen local record method permits it; do not copy that reason into any application observation field. The machine fixture supplied with this lesson uses neutral codes only. It is a teaching fixture, not a substitute or extension for production typed evidence.
+Add a short private reason for your confidence only where your chosen local record method permits it; do not copy that reason into any application observation field. The machine fixture supplied with this lesson uses neutral codes only. It is an optional teaching example, not a record of an actual decision.
 
 Before proceeding, explain how A2 could matter. A record that lists only supporting assumptions can conceal a known weakness even when its final choice is reasonable. Do not invent a probability unsupported by the packet.
 
@@ -57,7 +57,7 @@ Before proceeding, explain how A2 could matter. A record that lists only support
 
 At the actual choice point, add the selected code and choice date without changing the original expectation. Preserve that version separately using a dated paper copy or an appropriate local snapshot. For the fictional route, write “Day 0, 10:05; A selected; rehearsal.” That is simulated chronology, not evidence of actual elapsed time.
 
-For a real route, use an actual permitted calendar or local reminder method and verify it exists. For the fictional route, record only the intended Day 7 review. The application has not been instructed by this lesson to schedule it.
+For a real route, use an actual permitted calendar or local reminder method and verify it exists. For the fictional route, record only the intended Day 7 review. Arrange your own feasible reminder if needed.
 
 A clerical correction should identify the original field, corrected value, reason code, and date in a separate layer. If “A chosen” was accidentally transcribed as B, preserve both entries and identify it as a correction. Do not use a clerical correction to change a prediction because the outcome became known. A late reconstruction must be labeled late.
 
@@ -77,7 +77,7 @@ Choose one concrete change such as “recheck room availability on the session d
 
 Use neutral labels; keep third-party content, identity, and consequential matters outside this exercise. A simple assumption code can preserve a concern without exposing a person. The action is preserving and reviewing the record, not collecting more private detail.
 
-Only the application's existing reviewed observation fields may be submitted when this material is eventually integrated. The supplied JSON, local validator, and snapshot digest are not production observations and must not be imported as if they were. They test the example's structure. Do not infer that passing them grants completion credit or changes any historical score.
+ The supplied example and its technical checks do not establish that you made a prospective decision record. They test the example's structure. Do not infer that passing them grants completion credit or changes any historical score.
 
 ## Accessibility and progression
 

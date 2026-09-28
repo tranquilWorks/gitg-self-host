@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "03.04",
+  "title": "Turn reverence into attentive and responsible conduct",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Reverence can mean attentive respect without endorsing an explanation one believes false. Responsible care requires actual ownership or permission; appreciating an object does not authorize altering it."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "From a permitted window Rae sees an ordinary potted plant: three broad leaves, one curled edge and light on one side. Species and watering needs are unknown. Rae owns the nearby reading table and may clear their own papers from it, but does not own or care for the plant. A host calls the plant a sign of divine favor; Rae does not share that conclusion."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Separate observation, meaning and uncertainty. Choose an authorized care response and a sincere respectful reply without diagnosing the plant or changing its care.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A visitor declines a spoken belief while following a sacred site’s quiet and no-photo rules. Does sincerity require either false assent or disrespect?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Rae may attend to the visible details, ask a welcome factual question and clear their own table. Watering the unknown plant is not authorized. “I notice its shape and value the care given to it” need not affirm divine favor. Partial: respectful language with no concrete attention. Incorrect: say the host’s belief is proven or secretly alter the plant. Later fiction: table papers are put away; plant condition is unchanged and unmeasured.",
+      "criteria": [
+        "Observed features and interpretation differ",
+        "Care stays within authority",
+        "Respect does not require false assent"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Neither. Respect legitimate conduct boundaries and decline unendorsed words honestly. If attendance itself requires a commitment the visitor cannot make, choose a permitted observation route or leave.",
+      "criteria": [
+        "Observed features and interpretation differ",
+        "Care stays within authority",
+        "Respect does not require false assent"
+      ]
+    }
+  ]
+}

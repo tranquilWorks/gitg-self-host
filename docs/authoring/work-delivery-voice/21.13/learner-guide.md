@@ -2,6 +2,10 @@
 
 Leave a small notice-updating process usable when its original author is absent. Allow thirty minutes to document, fifteen for a successor attempt and fifteen to revise. Use the paper process below. There are no real credentials, accounts or confidential records to share. A useful handover transfers understandable work and upkeep responsibility; it does not merely preserve files or give someone a pleasant tour.
 
+## How to use the supplied outcomes
+
+The main and later packets narrate worked analysis: some explanations and outcomes are supplied. Use them to inspect reasoning, not to claim an unaided performance. Complete the changed-case attempt in the separate check-prompts file before opening its answer for a new application.
+
 ## Document the decisions hidden behind the artifact
 
 A successor needs purpose, authority and limits before steps. “Copy the new details into the notice” does not explain which details are authoritative, what may change or what to do when the source is incomplete. Record the permitted source, necessary inputs and who can resolve uncertainty. If the process depends on the original worker's personal account or memory, the dependency remains even when the instructions look complete.
@@ -48,8 +52,8 @@ Use audio instructions, large print or a private two-role rehearsal. A harder ca
 
 [NASA's knowledge-management overview, S06](../SOURCES.md#S06), emphasizes critical knowledge, context, reuse and continuity. The overview was inspected, not its linked templates, reports or policy. This paper task is an original exercise and makes no claim of NASA compliance or operational readiness.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Human dignity is never scored.
+Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

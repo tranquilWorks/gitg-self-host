@@ -8,8 +8,6 @@ Use the supplied component cards, route matrix, prerequisite screen and session 
 
 About thirty minutes for classification and route planning plus two five-to-ten-minute bounded sessions on separate suitable days, or one instruction-first consultation.
 
-Use eye gaze, a switch, larger targets, verbal selection, slower cues or an existing therapist-approved movement for the coordination route. Use a seated or equipment-supported route when it preserves the selected component. A support changes conditions but does not reduce dignity. Never simulate disability, catch a falling person, improvise a sprint, jump, loaded explosive movement or rapid direction change. Existing clinical, rehabilitation and sport plans control physical progression.
-
 ## 1. Classify the four capacities and select one honest route
 
 Open the component cards and classify the supplied cases before revealing the key. Map the chosen real-world goal to coordination, reaction, speed, power or agility without assuming they are interchangeable. Complete the prerequisite screen. Select tabletop coordination, existing-plan speed, existing-plan power, existing-plan agility, or instruction-first. Fix the exact component, materials, environment, support, known dose, accuracy or technique criteria, recovery and stop conditions. The tabletop route cannot be relabeled as athletic testing, and missing prerequisites require instruction or defer.
@@ -36,6 +34,14 @@ After suitable recovery, repeat the tabletop sequence with only the label order 
 - Evidence is interpreted only for the selected component
 - One next step follows accuracy technique recovery and prerequisite evidence
 - Every untested capacity remains explicit rather than inferred
+
+## Adaptation
+
+Use eye gaze, a switch, larger targets, verbal selection, slower cues or an existing therapist-approved movement for the coordination route. Use a seated or equipment-supported route when it preserves the selected component. A support changes conditions but does not reduce dignity. Never simulate disability, catch a falling person, improvise a sprint, jump, loaded explosive movement or rapid direction change. Existing clinical, rehabilitation and sport plans control physical progression.
+
+## Review
+
+Which capacity was actually practiced, what prerequisite and recovery evidence supports the next step, and which capacities remain untested?
 
 Classify and practice one movement capacity without scope inflation
 
@@ -76,57 +82,3 @@ Repeat when the selected criteria need another comparable exposure. Regress when
 Open the prompt in the practice guide: Classify five movement cases
 Open the prompt in the practice guide: Select a route and declare its prerequisites
 Open the prompt in the practice guide: Interpret a changed-condition comparison
-
-## Prompt: Classify five movement cases
-
-Classify and practice one movement capacity without scope inflation
-
-Learning guide — unscored
-
-Component-specific comparison record
-
-Goal and selected component: __. Route and source of authority: __. Materials, surface, equipment and support: __. Prerequisite screen unknowns: __. Fixed dose, recovery and stop conditions: __. Four accuracy or technique criteria: __. Exposure 1 observations, exact errors and early stop: __. One cue or authorized change: __. Recovery before exposure 2: __. Exposure 2 conditions and observations: __. Next step [repeat / regress / plan-authorized progression / instruction / stop] and reason: __. Capacities not tested: __. Do not place recordings, identities, private health detail or another person's comments in the application evidence.
-
-Classify five movement cases
-
-Classify the main observed capacity in each case and state one capacity the case does not establish. A: touch L-C-R-C in the correct order at a comfortable pace. B: begin the correct touch after an unpredictable L, C or R cue. C: cover a fixed straight distance in less time under comparable conditions. D: move a known resistance rapidly with established technique. E: change whole-body direction in response to an opponent or unpredictable signal. Explain why a quick tabletop sequence cannot by itself establish D or E. Preserve the answers before opening the check.
-
-## Prompt: Select a route and declare its prerequisites
-
-Classify and practice one movement capacity without scope inflation
-
-Learning guide — unscored
-
-Five route choices
-
-Tabletop coordination and reaction: use the supplied cards, comfortable reach, accuracy criteria and unhurried cues; no athletic claim. Existing-plan speed: use only a movement, surface, dose, recovery and timing method already established for the person; no maximal trial is added. Existing-plan power: use only a qualified or competently established power exercise with its strength, technique, equipment, landing or force-absorption prerequisites already met; this guide supplies no load or jump. Existing-plan agility: use only an established task with known deceleration, surface, footwear, space and cue rules; do not infer reactive agility from a preplanned route. Instruction-first: prepare the supplied brief and obtain a route decision without performing the uncertain movement.
-
-Prerequisite and boundary screen
-
-Record yes, no or unknown for: the selected component is defined; the movement and technique are already familiar; the environment, surface and equipment are suitable; required mobility, strength, balance, deceleration or force-absorption prerequisites are established where relevant; the dose and recovery come from an existing plan; ordinary access support remains; and stop conditions are known. A no or important unknown means instruction-first or defer. Stop for pain, faintness, chest discomfort, unusual breathlessness, loss of control, unsafe surface or equipment, collision risk, or the existing plan's stop rule. This screen is educational and is not medical or sport clearance.
-
-Speed, power or agility instruction brief
-
-Prepare: the exact goal and component; current training experience; relevant movement and equipment; surface, space and access conditions; existing dose and recovery; known technique; and each unknown prerequisite. Ask: Is the goal actually speed, power, coordination, reaction, change of direction or reactive agility? Which prerequisites and technique criteria should be established first? What starting task and dose fit the current plan? What recovery and stop rules apply? Which single variable could progress, and what evidence would permit it? Record only: appropriate as proposed | modify | prerequisite first | another qualified route | defer. The answer prepares training; it does not prove capacity.
-
-Component-specific comparison record
-
-Goal and selected component: __. Route and source of authority: __. Materials, surface, equipment and support: __. Prerequisite screen unknowns: __. Fixed dose, recovery and stop conditions: __. Four accuracy or technique criteria: __. Exposure 1 observations, exact errors and early stop: __. One cue or authorized change: __. Recovery before exposure 2: __. Exposure 2 conditions and observations: __. Next step [repeat / regress / plan-authorized progression / instruction / stop] and reason: __. Capacities not tested: __. Do not place recordings, identities, private health detail or another person's comments in the application evidence.
-
-Select a route and declare its prerequisites
-
-Choose one current goal and name its component. Complete the prerequisite screen, select one of the five routes, and state the materials, environment, support, source of plan authority, fixed dose, four criteria, recovery and stop conditions. For an instruction-first route, complete the speed, power or agility brief instead of inventing a physical attempt. State which other capacities will remain untested. Preserve the response before opening the check.
-
-## Prompt: Interpret a changed-condition comparison
-
-Classify and practice one movement capacity without scope inflation
-
-Learning guide — unscored
-
-Component-specific comparison record
-
-Goal and selected component: __. Route and source of authority: __. Materials, surface, equipment and support: __. Prerequisite screen unknowns: __. Fixed dose, recovery and stop conditions: __. Four accuracy or technique criteria: __. Exposure 1 observations, exact errors and early stop: __. One cue or authorized change: __. Recovery before exposure 2: __. Exposure 2 conditions and observations: __. Next step [repeat / regress / plan-authorized progression / instruction / stop] and reason: __. Capacities not tested: __. Do not place recordings, identities, private health detail or another person's comments in the application evidence.
-
-Interpret a changed-condition comparison
-
-Case: An existing-plan change-of-direction task met three of four technique criteria on the first exposure. On the second exposure the athlete changed shoes and surface, received extra cueing, and completed it faster while still missing the same deceleration criterion. Decide whether the evidence supports progression and explain what is comparable, what is confounded and which capacities remain untested. Preserve the answer before opening the check.

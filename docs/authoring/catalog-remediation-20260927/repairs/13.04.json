@@ -1,0 +1,68 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.04",
+  "title": "Take one garment through a complete care cycle",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A care cycle includes label selection, washing, drying, condition inspection and storage. Mending restores a small defect; alteration changes fit and needs measurements, wearer agreement and a suitable method. Neither should be inferred from merely laundering an item."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Paper care card for a fictional cotton shirt: machine wash 30°C, compatible detergent per its label, line dry, no bleach; store only dry. For an optional ordinary loose two-hole button practice, use low-value scrap cloth, a matching button, hand needle, thread and scissors, with suitable handling ability or willing experienced supervision. Never use protective clothing or safety equipment. No repair is necessary to complete the paper comparison."
+    },
+    {
+      "id": "button-teaching",
+      "kind": "material",
+      "title": "Optional guided scrap-cloth practice",
+      "body": "Button guide: thread the needle, knot the free thread ends, place the button at the existing mark, bring the needle from the cloth’s back through one hole, pass down the other, and repeat several stitches through both cloth and holes while keeping the button flat. On the back, pass the needle through a small final stitch loop to secure; repeat, trim loose ends and gently check that the button is held. Stop for snagging, damaged cloth or unsafe handling and ask a competent helper. Inspect movement/fit without force; this ordinary repair is not an alteration or protective-equipment certification. Keep the needle and scissors under control, never hold a needle in your mouth, and secure all tools away from children or animals afterward. This flat attachment on scrap is a first hand-stitching practice; garment closures may require a thread shank and clearance for the buttonhole layer. Use garment-specific instruction or a competent helper before transferring it to a wearable repair."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Plan the shirt’s cycle. For the optional repair, read the visible button-teaching material first as instruction, then practice; do not treat copying those steps as an unseen skill test. If needle handling is unsuitable, identify the sequence on paper and label it planning.",
+      "references": [
+        "supplied-case",
+        "button-teaching"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A washed shirt is damp at the seams. Its owner wants a shorter sleeve but has no measurement or agreed alteration method. What may be completed now?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Keep 30°C/line-dry/no-bleach and confirm actual detergent instructions.  For the optional button demonstration, compare with the visible teaching guide; it is guided practice, not an unseen repair test.",
+      "criteria": [
+        "Care follows the supplied garment limits",
+        "Repair and alteration require their own material and method",
+        "Actual condition governs storage and next action"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Continue the permitted drying until actually dry before storage. Keep sleeve alteration unperformed; measure the desired change with wearer agreement and use a suitable learned/supervised method before any irreversible cut. Dry appearance alone does not establish dry seams.",
+      "criteria": [
+        "Care follows the supplied garment limits",
+        "Repair and alteration require their own material and method",
+        "Actual condition governs storage and next action"
+      ]
+    }
+  ]
+}

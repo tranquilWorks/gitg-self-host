@@ -35,7 +35,11 @@ Ask whether the instructions became usable and check the actual route result. A 
 - The retained adaptation has a specific reason
 - One trial is not presented as a universal accessibility solution
 
+## Adaptation
+
 Use the learner’s chosen communication method and allow stopping without penalty. A self-test is valid for your own access barrier but not an independent test with another learner. Seek qualified educational or accessibility support for persistent or complex needs.
+
+## Review
 
 Which demand was an unnecessary barrier, and what evidence shows that the real skill—not a lowered or different target—was practiced?
 

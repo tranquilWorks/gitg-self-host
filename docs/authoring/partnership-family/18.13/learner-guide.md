@@ -2,6 +2,10 @@
 
 Practice stating your own commitments while describing other adults' consensual choices without contempt or invented assumptions. Allow twenty minutes for four fictional cases and ten for a statement and review. No relationship form is assigned as a learning requirement. Single life, partnership and declining personal disclosure remain legitimate. You do not have to change religious or ethical convictions to perform the reasoning task.
 
+## Picnic information available to share
+
+The fictional picnic is Sunday 18 October, 12:00–13:30, at Cedar Park’s east picnic tables beside the Oak Street entrance. The organizer’s note describes a step-free paved route from that entrance and benches with space beside them; toilet access has not been checked. Guests may bring their own lunch, join briefly or decline. Organizer Sam accepts access questions through the group’s existing private message thread. Share these supplied details without promising universal accessibility or requesting Rae’s intimate information.
+
 ## Distinguish identity, structure and conduct
 
 Orientation concerns patterns of attraction and identity; it does not by itself specify exclusivity, commitment or household organization. Relationship structure concerns how people arrange their relationships, such as being single, choosing an exclusive partnership or agreeing to a consensually nonexclusive form. Conduct concerns what people actually do: honesty, respect for choice, keeping promises, protecting privacy and meeting real responsibilities. One category cannot answer every question in the others.
@@ -45,9 +49,10 @@ For real transfer, respond to a naturally occurring, welcome conversation or cor
 
 [APA Division 44's CNM committee, S09](../SOURCES.md#S09) supplies an educational distinction between consensual nonmonogamy and infidelity. Only that definition-level use is made; no prevalence or comparative relationship-quality claim is imported. [Consent guidance, S04](../SOURCES.md#S04) informs the requirement that participation remain free. The four-way comparison and responses are original design.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

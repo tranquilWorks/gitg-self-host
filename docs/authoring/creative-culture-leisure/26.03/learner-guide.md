@@ -72,8 +72,8 @@ For support, use the supplied five-word sets and explain the relation aloud, in 
 
 The source product contains four supplied sessions and a reasoned continuation choice. An actual learner's record would need actual participation. Neither buying equipment nor adopting a hobby label supplies that evidence, and none of it rates the person's worth.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains cross_context_core and normative status cross_tradition_core_or_broadly_recurrent. Capacity, access and context still govern whether to attempt this practice. Fiction and no attempt are legitimate. Human dignity is never scored.
+Capacity, access and context still govern whether to attempt this practice. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

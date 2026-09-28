@@ -46,7 +46,7 @@ The later packet separates initial access from a second occasion. Identify which
 
 Choose retain the useful arrangement, adapt another task feature within familiar safe limits, or seek appropriate qualified assessment. Preserve the accessible option while any training need is considered. Better access and persistent limitation may coexist. Ask a useful question: is the unresolved feature grip, range, balance, stability, tolerance or something that needs evaluation before choosing training? A worksheet cannot answer that clinical question from shelf geometry.
 
-Complete [fresh checks](check-prompts.md) before [the key](check-answers.md). A complete source artifact has the geometry comparison, observed criteria, repeat interpretation and an honest next step. These are companion reading outputs, not replacement application evidence or a flexibility score.
+Complete [fresh checks](check-prompts.md) before [the key](check-answers.md). A complete source artifact has the geometry comparison, observed criteria, repeat interpretation and an honest next step. These reading outputs do not measure your flexibility.
 
 ## Access, challenge and transfer
 

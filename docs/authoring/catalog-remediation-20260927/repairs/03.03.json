@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "03.03",
+  "title": "Build a short contemplative practice and examine its effects",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A contemplative sequence can be executable without being beneficial every time. Record missed attempts, adverse effects and ordinary circumstances before interpreting a pattern; a short personal sequence is not a controlled causal study."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Five fictional opportunities: Monday three minutes, next task started with fewer interruptions; Tuesday missed because of necessary care; Wednesday three minutes, no noticeable change; Thursday stopped after one minute because focusing increased unease, then returned to an ordinary supported activity; Friday three minutes, next task interrupted by a delivery. No other observations exist."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Classify actual full, partial and missed practice. Compare the chosen next-task marker while preserving the adverse response and outside interruption. Choose a bounded next step.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person completes a quiet pause but feels more agitated, then writes “successful because I finished.” What two dimensions must remain separate?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Three full attempts, one stopped attempt and one missed opportunity are recorded. Only Monday suggests improved fit; no causal effect or general calm is established. Do not repeat a distressing method to complete a quota. Partial: report only full attempts. Incorrect: call five planned occasions five completed practices or hide Thursday. A shorter or different ordinary practice, support or deferral can be appropriate.",
+      "criteria": [
+        "Attempt status follows actual events",
+        "Adverse and neutral outcomes remain visible",
+        "A short sequence does not establish causation"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Completion and suitability differ. Retain both the performed sequence and adverse response; stop or change an unsuitable exercise and seek appropriate support for concerning distress. Finishing is not evidence of benefit.",
+      "criteria": [
+        "Attempt status follows actual events",
+        "Adverse and neutral outcomes remain visible",
+        "A short sequence does not establish causation"
+      ]
+    }
+  ]
+}

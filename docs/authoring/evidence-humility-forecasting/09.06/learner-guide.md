@@ -6,7 +6,7 @@ Three forecasts recorded before resolution, a base-rate calculation, a scenario 
 
 **Canonical scope:** Use ranges, likelihoods, base rates, scenarios, sensitivity, and expected value instead of binary predictions.
 
-Use paper, a calculator, or a text editor. All arithmetic and source records are supplied. This is low-stakes forecasting education, not betting, investing, medical prognosis, or safety-critical planning. A forecast score is an exercise diagnostic, not a score of personal worth or a new application scoring rule. Background references S4 and S5 are in SOURCES.md.
+Use paper, a calculator, or a text editor. All arithmetic and source records are supplied. This is low-stakes forecasting education, not betting, investing, medical prognosis, or safety-critical planning. A forecast score helps diagnose this exercise; it does not measure personal worth. Background references S4 and S5 are in SOURCES.md.
 
 ## The reference you will need
 

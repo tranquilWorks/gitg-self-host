@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "03.08",
+  "title": "Make a sustainable commitment to a good beyond yourself",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Devotion to a shared good is expressed through useful, sustainable work, not merely intensity. A reusable artifact needs accurate source instructions, an intended user and authority for placement and change."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Authorized item card for a shared paper map: keep in the blue folder on shelf A; users with room permission may unfold it on the clear table; do not write on it; refold along existing creases and return to the blue folder before leaving. If torn, tell the room steward using the message book. Steward Jo permits a plain-text instruction card beside the folder. No technical or emergency procedure is involved."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Make the care/return card, then check its facts against the source and plan a short willing-user check within two 15-minute work periods.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A useful guide is handed to a volunteer who never agreed to maintain it. Is ongoing stewardship secured?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A complete card retains location, allowed use, no writing, return and damage route. Later fiction: a reader initially misses “before leaving”; the author places it beside the return step, and the reader identifies it on retry. That is supplied usability evidence, not a performed test by the learner. Partial: attractive card missing return timing. Incorrect: invent cleaning instructions or place it without permission. Sustained service requires a later agreed review, not a grand pledge.",
+      "criteria": [
+        "The artifact follows exact authorized instructions",
+        "Usability and maintenance are separate",
+        "The commitment fits actual capacity"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Agree a responsible review/change or retirement route; a recipient’s thanks is not maintenance acceptance. Keep the present artifact’s usefulness separate from future sustainability.",
+      "criteria": [
+        "The artifact follows exact authorized instructions",
+        "Usability and maintenance are separate",
+        "The commitment fits actual capacity"
+      ]
+    }
+  ]
+}

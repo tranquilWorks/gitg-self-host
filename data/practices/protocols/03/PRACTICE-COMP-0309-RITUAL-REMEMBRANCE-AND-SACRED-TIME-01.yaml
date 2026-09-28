@@ -57,12 +57,16 @@ meaning_and_fit:
   opportunity_considerations: 'The default is a weekly closing ritual using an ordinary object you own:
     set it down, name one received good, acknowledge one unfinished matter, state one next action, then
     begin a short period of rest. No flame, food restriction, purchase, sacred object or public performance
-    is required. Use private notes if speaking aloud is unsuitable.'
+    is required. Use private notes if speaking aloud is unsuitable. The learning guide contains a complete
+    fictional practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.'
   prerequisites:
   - 'The default is a weekly closing ritual using an ordinary object you own: set it down, name one received
     good, acknowledge one unfinished matter, state one next action, then begin a short period of rest.
     No flame, food restriction, purchase, sacred object or public performance is required. Use private
-    notes if speaking aloud is unsuitable.'
+    notes if speaking aloud is unsuitable. The learning guide contains a complete fictional practice and
+    a separate changed-case check. Choose that route when a real situation is unavailable; its results
+    are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use a tactile cue, a brief written line or a silent accessible pause. For grief or repentance, choose
@@ -86,9 +90,11 @@ intervention:
   setup: 'The default is a weekly closing ritual using an ordinary object you own: set it down, name one
     received good, acknowledge one unfinished matter, state one next action, then begin a short period
     of rest. No flame, food restriction, purchase, sacred object or public performance is required. Use
-    private notes if speaking aloud is unsuitable. Goal: Create or freely adopt a meaningful sequence
-    for a transition, remembrance or shared value, then examine whether its repetition supports memory,
-    identity and practical conduct. Scope: Beginnings, endings, grief, gratitude, rest, commitment, repentance,
+    private notes if speaking aloud is unsuitable. The learning guide contains a complete fictional practice
+    and a separate changed-case check. Choose that route when a real situation is unavailable; its results
+    are rehearsal, not performed real-world work. Goal: Create or freely adopt a meaningful sequence for
+    a transition, remembrance or shared value, then examine whether its repetition supports memory, identity
+    and practical conduct. Scope: Beginnings, endings, grief, gratitude, rest, commitment, repentance,
     celebration and belonging have different purposes. One appropriate ritual is practiced; painful loss
     or religious obligation need not be introduced to cover every possible use. Time and effort: About
     20 minutes to prepare, two five-minute occasions and a 15-minute review. Adaptation: Use a tactile
@@ -457,3 +463,57 @@ presentation:
   plain_language_evidence: The weekly pause recalled help received, prompted return of a borrowed item
     and made room for rest; the second observance removed an empty flourish.
   display_order: 44
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '03.09'
+  title: Use a small ritual to connect remembrance with action
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A ritual can organize attention through a repeated symbolic form. Its meaning, actual enactment
+      and any promised later action are separate. A missed action does not prove the participant’s inner
+      sincerity was false, but it remains missed.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Original fictional closing ritual: Jo places an owned smooth stone on the desk, names a friend’s
+      welcome help, acknowledges an overdue borrowed card, chooses to return it Thursday 16:00 and begins
+      10 minutes of rest. The friend is not present; no sacred tradition is claimed. The desk accepts
+      returns at that time.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Identify each element’s function and what would count as performed ritual versus completed repair.
+      Choose an accessible private version without requiring disclosure.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A participant uses silent written recollection and declines sharing a loss. Does that make the
+      ritual invalid?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Object, acknowledgment, unresolved matter, next action and rest have distinct roles. Later
+      fiction: the ritual and rest occur, but Thursday’s return is missed. Preserve both; revise the return
+      arrangement without calling the ritual a completed repair or diagnosing empty faith. Partial: report
+      only the meaningful feeling. Incorrect: say speaking the intention returned the card.'
+    criteria:
+    - Symbolic act and later conduct differ
+    - Privacy and optional participation remain real
+    - A missed action is retained without judging inner worth
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. An agreed accessible/private form can preserve remembrance and intention. Do not require
+      grief disclosure or an emotional display as proof of meaning.
+    criteria:
+    - Symbolic act and later conduct differ
+    - Privacy and optional participation remain real
+    - A missed action is retained without judging inner worth

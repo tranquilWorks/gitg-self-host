@@ -49,8 +49,8 @@ For support, begin with the two-row comparison and use a separate color for “d
 
 Optional actual transfer is a willing, low-stakes conversation about one shared expense. Do not send an agreement on someone else's behalf or demand private proof to finish a competency. If no shared arrangement applies, use the fictional case and mark real transfer unattempted. An actual agreement artifact plus a later record of a decision or revision could support progress; neither a hypothetical signature nor a balanced table proves trust, consent or a safe financial relationship.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

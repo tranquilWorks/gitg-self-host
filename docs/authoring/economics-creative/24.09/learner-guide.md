@@ -51,8 +51,8 @@ For a first response comparison, demand restraint may reduce inflation pressure 
 
 For support, begin with the basket and labor force using counters, then add output per hour. For a harder pass, let hours fall as well as output and ask why productivity and total activity can move differently. Actual economic commentary requires dated official series and definitions, including revisions; no live market data or trading decision is required here. A supplied listener correction practices explanation but cannot establish actual public-policy expertise or learner understanding.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise or policy role is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

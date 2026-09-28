@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "03.05",
+  "title": "Trace a received good and answer it through conduct",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Received goods can include knowledge, material labor and shared infrastructure. Acknowledging a limited good does not impose unlimited debt or erase harm. A response should fit the actual good and any existing agreement."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete fictional chain: volunteers wrote a cupboard guide, a librarian lent it until Friday 17:00, and Jo used its instruction to keep labels facing outward on Jo’s own shelf. The guide is intact. Jo has a Thursday 16:00 opportunity to return it to the staffed desk. No money, public thanks or future volunteer work was requested. One former volunteer also behaved hurtfully toward Jo; contact is not required."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Trace at least three contributions and Jo’s own action. Choose a proportionate response, preserving the loan obligation and a boundary around unwanted contact.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A helper says a freely given past favor now entitles them to private account access. Is this a gratitude obligation?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Writing, lending and using are distinct contributions; the safe supplied skill is simply label orientation, not an invented repair technique. Returning the guide is an actual obligation; private remembrance or thanks can be optional. Later fiction: desk accepts the guide Thursday 16:00. Partial: thank generally but forget return. Incorrect: require reconciliation with the harmful person as payment for the useful text.",
+      "criteria": [
+        "The chain includes others and one’s own contribution",
+        "Response fits the good and agreement",
+        "Gratitude is not coerced repayment"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Appreciation does not confer that access. Decline the new condition and keep any genuine separate agreement clear; receiving help does not surrender agency.",
+      "criteria": [
+        "The chain includes others and one’s own contribution",
+        "Response fits the good and agreement",
+        "Gratitude is not coerced repayment"
+      ]
+    }
+  ]
+}

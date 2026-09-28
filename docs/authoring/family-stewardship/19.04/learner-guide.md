@@ -44,9 +44,10 @@ For real transfer, use a current question that belongs to you or one you are leg
 
 S01 supports general informed choice and separate prevention questions; S02 explicitly distinguishes public-health definitions from individual care. S03 describes an NHS care system. No treatment, dosage, screening schedule or personal prediction is copied into this exercise. The three cases and decision-card method are original teaching design, not a validated clinical instrument.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local guidance.
 
-Applicability and normative status are role-conditional. No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+ No reproductive, parenting or care role is compulsory. Fiction does not establish actual participant evidence. Keep identifying, clinical and private family information outside app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

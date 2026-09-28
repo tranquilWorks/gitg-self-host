@@ -458,7 +458,7 @@ class ConsentTests(unittest.TestCase):
     def test_medical_questions_and_frozen_runtime_are_separate(self):
         guide = document("12.12")
         self.assertIn("produce four questions", guide)
-        self.assertIn("frozen 11.10 boundary protocol", guide)
+        self.assertIn("do not establish a stated or maintained real boundary", guide)
         self.assertIn("does not determine medical capacity", document("12.12", "check-answers.md"))
 
 

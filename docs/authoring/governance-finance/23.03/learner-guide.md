@@ -53,8 +53,8 @@ The repair purpose permits use for the supplied unexpected essential repair; it 
 
 For support, use a six-field access card and a calculator. For a harder variant, make the affordable contribution irregular and identify the earliest unmet need without inventing a payday. Optional actual transfer is to inspect a real official disclosure privately and locate its access instructions without a transaction. Use qualified benefits or banking help where rules or accessibility matter. A reserve can be modest and useful without proving financial security, and inability to fund one is not a moral failure.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "02.15",
+  "title": "Make a hidden care burden visible and share it fairly",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Care obligations arise through actual reliance and unequal capacity as well as explicit contracts. Sharing a task includes its noticing, planning and follow-up; an accepted handoff differs from merely assigning work."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional care recipient Sam chooses their own appointment questions and permits only arrival logistics to be shared. Lee currently spends 10 minutes checking times,5 sending reminders and 15 confirming transport weekly. Pat freely offers 15 minutes Tuesday to confirm already-booked transport and report the result, but cannot change appointments or provide travel. Existing care remains in place; no clinical decision is involved."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Propose a whole bounded handoff with minimal information, recipient choice, confirmation and backup if Pat cannot do it. Calculate potential relief without assuming it occurred.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A helper agrees to receive a note but not to perform the task. May the coordinator remove their own reminder and count the handoff complete?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Pat can own the 15-minute confirmation with Sam’s permitted logistics, report to Lee and alert early if unavailable; Lee retains the other 15 minutes unless separately agreed. Later fiction: Pat confirms transport in 12 minutes but Lee sends two additional reminders of unknown duration. Some work moved; net relief cannot be quantified from the missing reminder time. Partial: count only visible confirmation. Incorrect: give Pat private questions or assume transport provision.",
+      "criteria": [
+        "Actual dependency and capacity guide the plan",
+        "Recipient preferences and privacy are preserved",
+        "Handoff and relief require observed evidence"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Receipt is not responsibility acceptance. Preserve continuity and seek explicit suitable agreement; do not solve overload by silently assigning someone else the duty.",
+      "criteria": [
+        "Actual dependency and capacity guide the plan",
+        "Recipient preferences and privacy are preserved",
+        "Handoff and relief require observed evidence"
+      ]
+    }
+  ]
+}

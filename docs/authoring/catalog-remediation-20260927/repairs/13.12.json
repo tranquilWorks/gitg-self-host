@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.12",
+  "title": "Decide whether to maintain, repair or replace one item",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Repair decisions compare money, time, remaining useful service and actual suitability. Repair is not always cheaper, and an estimate of remaining life is uncertain rather than guaranteed."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional ordinary shopping bag: one non-load-critical side seam is open; it is not used for heavy or safety-related loads. A competent repair service quotes 6 units and two 15-minute trips, estimates another year of ordinary use without guarantee. Replacement costs 10 with one 15-minute trip and similar estimated life. Budget 12; the owner has 20 discretionary travel minutes this week. No home sewing skill or willing unpaid helper is supplied. Deferral is possible because another intact bag is available."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Compare repair now, replacement now and defer with the existing bag. Include time and uncertain service life without assigning invisible labor.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A repair quote is 8, replacement 9, but repair requires a tool costing 12 that will not be reused. What belongs in the comparison?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Repair costs less money but 30 travel minutes exceed 20; replacement fits money/time; deferral also fits because another bag is available. A later repair might become feasible, but timing is unconfirmed. Partial: choose only the lowest price. Incorrect: assume free home repair or guaranteed life. The values of waste reduction and scarce time both remain legitimate.",
+      "criteria": [
+        "All material costs and time are included",
+        "Remaining service is an estimate",
+        "A defensible decision acknowledges its tradeoff"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Include the actual total 20 if that tool is necessary, plus time and suitability. Do not omit acquisition cost to make repair appear cheaper; a borrowed tool would require a real agreement.",
+      "criteria": [
+        "All material costs and time are included",
+        "Remaining service is an estimate",
+        "A defensible decision acknowledges its tradeoff"
+      ]
+    }
+  ]
+}

@@ -52,8 +52,8 @@ For support, change only the location of the book and container while retaining 
 
 The result can show deliberate aesthetic choices that respond to use, identity and welcome. It cannot show that the maker has superior taste, that a visitor feels at home in every circumstance, or that the setting is accessible to everyone.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains elective_cultivation and normative status elective_but_flourishing_relevant. Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.07",
+  "title": "Plan three meals that share ingredients without wasting them",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A shopping plan starts with usable quantities and actual storage, not package count. A cheap item that cannot be used or stored is not automatically a saving. Follow the relevant product and local food-safety instructions in a real kitchen."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete fictional three-meal unit for one adult with confirmed suitable diet and equipment: each meal uses one 250 g ready-to-use bean portion, one 200 g vegetable portion and one bread portion. Inventory: beans 250 g, vegetables 400 g, bread 1 portion, all within labeled use/storage conditions. Prices: beans 250 g=2 units, vegetables 200 g=1, bread 2 portions=2. Budget 8. Fridge space fits one vegetable portion; unopened beans/bread follow their labels. No extra food need or nutrition claim is supplied."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Calculate total requirements, subtract usable stock, price the gaps and choose a storage-feasible list. If vegetables are unavailable, the shop offers an equally suitable 200 g alternative for 2 units.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A two-portion pack costs 3 units; a five-portion pack costs 6 but only two portions can be used or safely stored. Which comparison matters?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Require 750 g beans,600 g vegetables,3 bread portions. Buy beans 500 g=4, vegetables 200 g=1, bread 2=2: total 7, leaving 1. Alternative vegetables raise total to 8. Partial: correct costs but buy all requirements again. Incorrect: call a bulk bargain usable without storage or invent dietary suitability beyond the case. Actual shopping and food handling remain unperformed.",
+      "criteria": [
+        "Inventory is subtracted in compatible units",
+        "Budget and storage both constrain the list",
+        "Substitution preserves actual suitability"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "The smaller pack costs 3 for the two usable portions; the larger costs 6 for the same usable outcome with three unallocated portions. Unit price alone does not establish value; a real sharing/storage option would need confirmation.",
+      "criteria": [
+        "Inventory is subtracted in compatible units",
+        "Budget and storage both constrain the list",
+        "Substitution preserves actual suitability"
+      ]
+    }
+  ]
+}

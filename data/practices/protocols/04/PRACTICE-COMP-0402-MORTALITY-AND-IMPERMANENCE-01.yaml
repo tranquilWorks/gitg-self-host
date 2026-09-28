@@ -57,11 +57,15 @@ meaning_and_fit:
   opportunity_considerations: Use a familiar object that has aged, a photograph you can comfortably view,
     or the supplied case of a favorite book whose pages are wearing out. No graphic material, illness
     scenario, cemetery visit or death countdown is needed. Keep the focus on an ordinary choice you can
-    make safely.
+    make safely. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work.
   prerequisites:
   - Use a familiar object that has aged, a photograph you can comfortably view, or the supplied case of
     a favorite book whose pages are wearing out. No graphic material, illness scenario, cemetery visit
-    or death countdown is needed. Keep the focus on an ordinary choice you can make safely.
+    or death countdown is needed. Keep the focus on an ordinary choice you can make safely. The learning
+    guide contains a complete fictional practice and a separate changed-case check. Choose that route
+    when a real situation is unavailable; its results are rehearsal, not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Use a neutral object, a supplied fictional example or spoken reflection. Rest may be the right priority.
@@ -84,9 +88,11 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use a familiar object that has aged, a photograph you can comfortably view, or the supplied
     case of a favorite book whose pages are wearing out. No graphic material, illness scenario, cemetery
-    visit or death countdown is needed. Keep the focus on an ordinary choice you can make safely. Goal:
-    Recognize impermanence in bodies, relationships, possessions and achievements, and translate that
-    recognition into one concrete priority or appropriate reconciliation. Scope: This considers finitude
+    visit or death countdown is needed. Keep the focus on an ordinary choice you can make safely. The
+    learning guide contains a complete fictional practice and a separate changed-case check. Choose that
+    route when a real situation is unavailable; its results are rehearsal, not performed real-world work.
+    Goal: Recognize impermanence in bodies, relationships, possessions and achievements, and translate
+    that recognition into one concrete priority or appropriate reconciliation. Scope: This considers finitude
     without predicting your death or assigning an expiry date to someone else. One changed priority is
     evidence of conduct, not proof of peace with mortality. Time and effort: About 20 minutes to reflect,
     one small action within a week and a 15-minute review. Adaptation: Use a neutral object, a supplied
@@ -455,3 +461,57 @@ presentation:
   plain_language_evidence: The participant reduced an optional distraction, spent attentive time with
     a willing friend and kept one unfinished ambition in proportion.
   display_order: 50
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '04.02'
+  title: Let finite time change one ordinary priority
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Awareness of finitude can clarify a modest present choice without creating a countdown or urgency
+      to control others. A priority changes through performed conduct, not through the intensity of its
+      intention.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Jo owns a worn favorite book and has 30 discretionary minutes tonight. Reading and writing a
+      private memory note need 20; optional browsing could use all 30. The book can be handled ordinarily
+      and needs no repair in this case. A friend has not agreed to a call, and no urgent reconciliation
+      is required.
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Choose an available action and its opportunity cost, then identify what a later record would
+      need to show. Keep another person’s availability separate.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A person promises to reconnect someday after thinking about mortality, but takes no step. May
+      the review describe a repaired relationship?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'Reading and a private note can fit 20 minutes with 10 spare, displacing browsing. Later fiction:
+      Jo writes the note but does not read; only the note occurred. Partial: record the full intended
+      20 as done. Incorrect: demand an immediate friend call because time is finite. A smaller fulfilled
+      choice may matter without proving transformed priorities.'
+    criteria:
+    - Finitude informs a feasible present choice
+    - Others’ consent is preserved
+    - Intention and changed conduct are distinguished
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. It records reflection and an intention only. A welcome bounded invitation might be a later
+      action, with response and repair still separate.
+    criteria:
+    - Finitude informs a feasible present choice
+    - Others’ consent is preserved
+    - Intention and changed conduct are distinguished

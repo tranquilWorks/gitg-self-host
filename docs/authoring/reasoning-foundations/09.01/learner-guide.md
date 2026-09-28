@@ -8,7 +8,7 @@ Separate what a record shows, what someone reports, and what you infer. Then ask
 
 **Deliverable:** An initial claim record, one clarification or explicitly labeled rehearsal, and an appended revision with a proportionate next action. Allow about 25 minutes for the supplied case. A live clarification may require a later return; do not invent a reply to finish on schedule.
 
-Use paper, a text editor, dictation, or a willing neutral reader. Everything needed for the fictional route appears here and in the separate check prompts. No account, purchase, personal disclosure, or actual recipient is required. This is an unscored learning source, not a new scoring rule or a measure of your worth.
+Use paper, a text editor, dictation, or a willing neutral reader. Everything needed for the fictional route appears here and in the separate check prompts. No account, purchase, personal disclosure, or actual recipient is required. This exercise is for learning, not a measure of your worth.
 
 ## A small reference you can use while working
 
@@ -75,7 +75,7 @@ Record what Alex's worry still points to: a count is needed and the earlier expe
 
 ## Check your understanding without copying the worked example
 
-Open **check-prompts.md** and write both attempts before opening **check-answers.md**. The answer file is separate source material, not a claim that the application already hides or serves it. A reviewer may accept a different label when the sentence's evidential role and limits are explained correctly.
+Open **check-prompts.md** and write both attempts before opening **check-answers.md**. Save your response before opening the separate answer file. A reviewer may accept a different label when the sentence's evidential role and limits are explained correctly.
 
 Your minimum useful artifact preserves the first account, identifies provenance, distinguishes the different claim types, asks a discriminating question, and appends a revision. Correct vocabulary without those operations is not enough.
 

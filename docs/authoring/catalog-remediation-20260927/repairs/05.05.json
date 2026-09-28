@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "05.05",
+  "title": "Catch one excuse before it replaces an honest response",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Self-deception substitutes a convenient account for a checkable one. Perfectionistic delay endlessly polishes sufficient work; blame ignores one’s available action; control disguises preference as necessity; withdrawal avoids a safe owed response; intellectualization discusses principles instead of the concrete task; performative humility seeks reassurance instead of correction. These are hypotheses about behavior, not diagnoses or proof of hidden motives."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Request received 09:00: “Can you attend the optional planning call Friday 14:00? Please answer by 16:00 today.” Jo knows a prior appointment conflicts. Draft at 10:00: “Thank you; I cannot attend Friday 14:00.” Jo rewrites it six times without adding information. No safety, privacy or access barrier is supplied."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Identify the narrow observable problem, an alternative explanation you would check in a real case, and a truthful response. Do not infer character from one delay.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person says “I am so useless; reassure me” after a correctable typo, but never checks the correction. What task-focused response would help?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "The draft already answers accurately; send it through the normal route or state a real newly discovered constraint. Later fiction: Jo sends 10:10, still feels awkward, and receives no reply. Partial: recognize delay but keep rewriting. Incorrect: blame the recipient for an unreadable request or invent attendance. For another pattern, pick its observable cue and an equally concrete honest alternative; do not label every hesitation avoidance.",
+      "criteria": [
+        "Observable behavior is separated from motive claims",
+        "The honest alternative addresses the actual request",
+        "Legitimate constraints remain possible"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Acknowledge the feeling without endorsing the global verdict; check and correct the typo, with proportionate responsibility. Reassurance alone does not perform the correction, and one exchange does not prove a personality pattern.",
+      "criteria": [
+        "Observable behavior is separated from motive claims",
+        "The honest alternative addresses the actual request",
+        "Legitimate constraints remain possible"
+      ]
+    }
+  ]
+}

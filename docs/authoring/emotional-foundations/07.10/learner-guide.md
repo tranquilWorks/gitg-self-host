@@ -8,13 +8,13 @@ Use two fifteen-minute passes and one twenty-minute renewed attempt in the suppl
 
 ## A missed preparation commitment
 
-Fictional Dana planned a sixty-minute study session on Tuesday from 20:00 to 21:00 and promised partner Rem a three-card summary by Wednesday 09:00. Dana had overfilled Tuesday with optional errands and missed the study session. Rem had expected the summary for a joint practice at 09:30 and can still use a shorter accurate version if warned before 09:00. No safety, exam or employment consequence is involved.
+Fictional Dana planned a sixty-minute study session on Tuesday from 20:00 to 21:00 and promised partner Rem a three-card summary with a rule, a worked example and two practice questions on each card by Wednesday 09:00. Dana had overfilled Tuesday with optional errands and missed the study session. Rem had expected the summary for a joint practice at 09:30 and can still use a shorter accurate version if warned before 09:00. No safety, exam or employment consequence is involved.
 
 The complete study material is a fictional sorting rule: cards naming a future date go to NEXT; cards naming today go to TODAY; earlier dates go to PAST; a missing date goes to ASK. For this task today is May 10. The intended summary has one rule sentence and these three examples: May 11 → NEXT; May 10 → TODAY; no date → ASK. No external textbook or private record is needed.
 
 Dana's punishing line is, “I do not deserve sleep until I make up all sixty minutes.” The indulgent line is, “Missing preparation has no effect and Rem should adapt without notice.” Both distort the situation. A worked accountable-care line is: “I overfilled the evening and missed promised preparation. I still need rest, and Rem needs a truthful update and usable material.” The real consequence may be a shorter joint practice; it is not a reason to remove care.
 
-Dana's plan distinguishes three actions. Care: retain the ordinary planned sleep instead of a punitive late session. Repair: send a brief accurate update through the already welcome message channel at 08:00. Revised effort: use an available 08:15–08:35 window for the three-card summary. The new twenty-minute limit is a feasible task boundary, not a clinical sleep or study prescription. Rem remains free to decline the shorter arrangement.
+Dana's plan distinguishes three actions. Care: retain the ordinary planned sleep instead of a punitive late session. Repair: send a brief accurate update through the already welcome message channel at 08:00. Revised effort: use an available 08:15–08:35 window for a reduced three-card summary containing only the rule and one worked example on each card, omitting all six practice questions. The new twenty-minute limit is a feasible task boundary, not a clinical sleep or study prescription. Rem remains free to decline the shorter arrangement.
 
 ## Observe what the renewed action actually supports
 
@@ -26,10 +26,10 @@ For support, use dictation, a checklist or the supplied sorting task. In a real 
 
 Later transfer can check whether another commitment is realistically sized and actually kept. Severe persistent self-criticism, impairment or self-harm risk needs qualified or urgent support as appropriate. Fictional follow-through cannot establish psychological recovery, self-esteem or a person's deservingness.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary (unchanged): Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
+Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

@@ -1,4 +1,4 @@
-# Fresh checks
+# Consolidation checks
 
 Attempt before [reading answers](check-answers.md).
 

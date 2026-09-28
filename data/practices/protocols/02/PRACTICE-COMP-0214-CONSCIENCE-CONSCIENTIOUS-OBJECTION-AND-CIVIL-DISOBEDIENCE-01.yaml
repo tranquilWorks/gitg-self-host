@@ -55,10 +55,15 @@ meaning_and_fit:
     may need a safer route or an advocate; direct confrontation is not a completion requirement.
   opportunity_considerations: Use a fictional club policy requiring an insulting initiation phrase that
     a member refuses to repeat. Draft a response; no actual lawbreaking, protest, employment dispute or
-    confrontation is required.
+    confrontation is required. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.
   prerequisites:
   - Use a fictional club policy requiring an insulting initiation phrase that a member refuses to repeat.
     Draft a response; no actual lawbreaking, protest, employment dispute or confrontation is required.
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.
   dependencies: []
   safe_alternatives:
   - Use the fictional case or a written statement. People dependent on a group may need a safer route
@@ -81,13 +86,15 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Use a fictional club policy requiring an insulting initiation phrase that a member refuses to
     repeat. Draft a response; no actual lawbreaking, protest, employment dispute or confrontation is required.
-    Goal: Explain a conscientious objection using reasons others can examine, proportionate methods and
-    accountability. Scope: The case practices principled refusal within a group. Civil disobedience involves
-    further questions about law, legitimacy, public action and consequences that this rehearsal does not
-    settle. Time and effort: About 30 minutes to write the objection, compare methods and review accountability.
-    Adaptation: Use the fictional case or a written statement. People dependent on a group may need a
-    safer route or an advocate; direct confrontation is not a completion requirement. Keep personal working
-    notes outside the check-in; record only the listed observations.'
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work. Goal: Explain a conscientious objection using reasons others can examine, proportionate methods
+    and accountability. Scope: The case practices principled refusal within a group. Civil disobedience
+    involves further questions about law, legitimacy, public action and consequences that this rehearsal
+    does not settle. Time and effort: About 30 minutes to write the objection, compare methods and review
+    accountability. Adaptation: Use the fictional case or a written statement. People dependent on a group
+    may need a safer route or an advocate; direct confrontation is not a completion requirement. Keep
+    personal working notes outside the check-in; record only the listed observations.'
   privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
     contents, identifying details or another person's private information. Participation and any help
     must be voluntary. Use the fictional case or a written statement. People dependent on a group may
@@ -439,3 +446,60 @@ presentation:
   plain_language_evidence: The member proposed a respectful replacement and explained a principled limit
     without demanding universal agreement.
   display_order: 34
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '02.14'
+  title: Justify a principled refusal and its responsibilities
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A principled refusal questions a demand and chooses a responsible method. Disobeying an internal
+      club rule is not necessarily breaking law. Civil-disobedience analysis additionally examines stipulated
+      legal status, public justification, alternatives, burden on others and accountability; conscience
+      alone does not settle these.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Case A: a club requires an insulting initiation phrase. No legal requirement applies. A member
+      may request a respectful alternative or decline membership. Case B is a fictional analysis only:
+      a town law prohibits any peaceful gathering in its public square. A group proposes a public nonviolent
+      breach against unequal access. A usable review process can answer within two days, the gathering
+      is not urgent, and uninvolved users need an open passage. No action occurs.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Compare grounds, authority, alternatives and responsibilities in both cases. Apply the same
+      reasoning to a group whose cause you dislike; do not design an actual breach.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A conscientious refusal is private and breaches only a venue custom. Can an analyst call it
+      legally prohibited civil disobedience without further facts?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'A permits bounded conscientious refusal without calling it lawbreaking. B does stipulate a
+      legal breach, but the unused timely review and third-party access burden weaken a necessity justification.
+      Its morality remains reasoned, not automatic. Partial: state a cause without examining methods.
+      Incorrect: infer immunity from sincere belief or require surrender of legal rights. Real employment
+      or legal disputes require their own facts and appropriate advice; this paper case authorizes none.'
+    criteria:
+    - The authority and rule type are established
+    - Methods and third-party burdens are examined
+    - Conscience is not treated as automatic immunity
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Preserve its conscience rationale while leaving legal status unknown. Identify what rule
+      and authority would need establishing before making that description.
+    criteria:
+    - The authority and rule type are established
+    - Methods and third-party burdens are examined
+    - Conscience is not treated as automatic immunity

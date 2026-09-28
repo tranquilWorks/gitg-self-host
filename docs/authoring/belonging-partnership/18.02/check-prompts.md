@@ -5,3 +5,9 @@
 3. An invitation receives “Maybe, I am not sure,” with no later response. May the asker book a date and send reminders?
 
 [Corrective answers](check-answers.md)
+
+## Changed-case attempt
+
+Save your response before opening the matching answer. This is a new fictional case.
+
+An acquaintance declines a date but says a group walk is welcome. A week later they send a friendly message about the walk. What invitation, if any, fits the facts, and what does the message not reopen?

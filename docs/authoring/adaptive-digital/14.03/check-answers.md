@@ -5,3 +5,7 @@
 3. The provider-hosted post is no longer visible in the checked location. The recipient's copy and linked app's records are separate and unresolved. Inspect the linked app's official controls/policy and, where appropriate, request a specific action from its responsible party. Do not infer an applicable legal right, response deadline or guaranteed retrieval of every copy from this fictional case.
 
 For Mira, the public location, audience, future discovery and hosted caption changed. Stored-list deletion remains pending in the initial later packet. The alternative provider reply supports only a provider-confirmed contact-list result. Recovery remains linked; security logs continue; the outside drawing is unverified. These are educational status distinctions, not a legal opinion or independent provider audit.
+
+## Changed-case answer
+
+Use the offline map if it meets the need, keep navigation off when unnecessary, disable diagnostic sharing and use the stated history deletion control for existing route records. Account deletion is a separate issue. The policy does not specify backups or whether offline use records anything else: ask rather than promise zero collection. Do not import the earlier policy’s retention or controls.

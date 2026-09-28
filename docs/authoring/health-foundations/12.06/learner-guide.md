@@ -1,5 +1,9 @@
 # 12.06 — Cardiovascular endurance
 
+## Higher intensity: instruction before participation
+
+Higher intensity changes the effort and recovery demand; it is not established by finishing the same route faster. This lesson’s easy-effort trial does not teach interval technique or authorize increasing exertion. If higher-intensity activity is an appropriate goal, begin with an existing individualized plan or a qualified instructor who can assess suitability, explain the intended effort and recovery cues, demonstrate the chosen activity and observe an accessible first attempt. Bring the actual activity, current supports, prior response and recovery questions; keep medical details with the appropriate clinician. Before any such attempt, confirm the prescribed work/recovery limits, stop conditions and who may change them. A missing dose, uncertain technique or unresolved recovery problem means preparation or consultation, not an improvised interval. After an authorized attempt, record actual effort, assistance, recovery and any early stop, then seek the agreed review before progression. This is a preparation pathway; exact physical instruction and suitability remain matters for qualified review.
+
 ## Ask whether an effort is repeatable, including its aftermath
 
 Cardiovascular endurance concerns sustaining activity and recovering appropriately for the person's health and goals. A faster time can come from greater effort, an easier route or changed assistance; it does not automatically show improved capacity. Easy aerobic participation, higher-intensity training and a maximal test are different tasks with different preparation needs.
@@ -50,7 +54,7 @@ Apply the later observations without changing the original limit. Compare effort
 
 Choose repeat unchanged, reduce or adapt within existing guidance, seek qualified advice, or stop and use appropriate care. No disposition is a reward for finishing. Cite the observation that controls the decision and what remains uncertain. If the goal later requires higher intensity, name the individualized instruction/preparation needed; do not append intervals to this easy trial.
 
-Complete [fresh checks](check-prompts.md) before [the key](check-answers.md). The source artifact needs the route calculation, preserved plan, session comparison and next disposition. It does not replace the existing two-outing application exercise or create evidence of aerobic adaptation.
+Complete [fresh checks](check-prompts.md) before [the key](check-answers.md). The source artifact needs the route calculation, preserved plan, session comparison and next disposition. The actual two-outing practice is separate; reading the case does not demonstrate aerobic adaptation.
 
 ## Access, harder practice and later transfer
 

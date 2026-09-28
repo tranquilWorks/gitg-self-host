@@ -68,12 +68,16 @@ meaning_and_fit:
   opportunity_considerations: 'Use paper, dictation or a private note. No religious affiliation or previous
     philosophy study is required. Start with the supplied question: does the feeling that a helpful coincidence
     was meant to happen justify believing it was providential? Use the constructed viewpoints below as
-    starting positions, not descriptions of every believer or nonbeliever.'
+    starting positions, not descriptions of every believer or nonbeliever. The learning guide contains
+    a complete fictional practice and a separate changed-case check. Choose that route when a real situation
+    is unavailable; its results are rehearsal, not performed real-world work.'
   prerequisites:
   - 'Use paper, dictation or a private note. No religious affiliation or previous philosophy study is
     required. Start with the supplied question: does the feeling that a helpful coincidence was meant
     to happen justify believing it was providential? Use the constructed viewpoints below as starting
-    positions, not descriptions of every believer or nonbeliever.'
+    positions, not descriptions of every believer or nonbeliever. The learning guide contains a complete
+    fictional practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Use the supplied coincidence instead of personal religious experiences. Definitions can be read aloud;
@@ -97,12 +101,14 @@ intervention:
   setup: 'Use paper, dictation or a private note. No religious affiliation or previous philosophy study
     is required. Start with the supplied question: does the feeling that a helpful coincidence was meant
     to happen justify believing it was providential? Use the constructed viewpoints below as starting
-    positions, not descriptions of every believer or nonbeliever. Goal: Compare religious, spiritual,
-    philosophical and naturalistic accounts of ultimate questions, then state a reasoned position or uncertainty
-    that represents alternatives fairly. Scope: The six-question map covers God, consciousness, soul,
-    freedom, providence and transcendence; one comparison receives deeper examination. A reasoned position
-    is an inquiry result, not a proof, conversion, or comprehensive survey of traditions. Time and effort:
-    Three sessions of about 20 minutes, with an optional later return to an unresolved question. Adaptation:
+    positions, not descriptions of every believer or nonbeliever. The learning guide contains a complete
+    fictional practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work. Goal: Compare religious, spiritual, philosophical
+    and naturalistic accounts of ultimate questions, then state a reasoned position or uncertainty that
+    represents alternatives fairly. Scope: The six-question map covers God, consciousness, soul, freedom,
+    providence and transcendence; one comparison receives deeper examination. A reasoned position is an
+    inquiry result, not a proof, conversion, or comprehensive survey of traditions. Time and effort: Three
+    sessions of about 20 minutes, with an optional later return to an unresolved question. Adaptation:
     Use the supplied coincidence instead of personal religious experiences. Definitions can be read aloud;
     a drawing can separate observation from explanation. A chosen faith commitment and principled nonbelief
     are both possible outcomes. Leave questions open or use N/A if this pathway is consciously unchosen.
@@ -489,3 +495,63 @@ presentation:
   plain_language_evidence: The inquiry separated a meaningful experience from an explanation, represented
     four alternatives, and retained uncertainty about providence while identifying a reasoned next question.
   display_order: 36
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '03.01'
+  title: Examine an ultimate question without manufacturing certainty
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: The same experience can have personal meaning without uniquely identifying its cause. A providential
+      argument may interpret a welcome event within prior trust in a personal God; its difficulty is explaining
+      why this event rather than painful coincidences supports that reading. An impersonal-order account
+      may find meaningful connectedness without a personal planner; it still needs reasons for its metaphysical
+      inference. Skepticism withholds a conclusion when alternatives fit; it must explain what evidence
+      would be sufficient. Naturalism asks about ordinary causal chains and selective attention; explaining
+      a mechanism does not itself settle every question of meaning.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Original fiction: Jo misses one bus and meets a friend at the next stop. The friend gives welcome
+      encouragement. Jo knows both usually use that route; no prediction was recorded beforehand. No medical,
+      financial or other consequential direction is requested.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Compare the four constructed arguments, identify shared observations and different interpretations,
+      and retain one serious question for each. Relate the separately assigned primary passage only to
+      its actual author, not every believer.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A person predicted that any kind message this month would prove a special mission. They receive
+      one and ignore several unkind exchanges. What evidential problem remains even if the message mattered?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'The missed bus, shared route and encouragement are facts within the fiction. Ordinary causes
+      are available; intention or providence is not independently established. Personal significance can
+      remain. Partial: describe only the favored view fairly. Incorrect: claim either kindness or coincidence
+      proves one metaphysics. Further inquiry can compare a chosen tradition’s actual argument and a counterargument
+      without demanding experimental settlement of every ultimate question.'
+    criteria:
+    - Observation and interpretation differ
+    - Competing accounts receive reasons and objections
+    - Uncertainty does not erase personal meaning
+  - id: changed-case-check
+    title: Check the changed case
+    body: The broad prediction and selective treatment of outcomes do not discriminate a mission from
+      ordinary events. Preserve the meaningful interaction while withholding the unsupported authority
+      claim.
+    criteria:
+    - Observation and interpretation differ
+    - Competing accounts receive reasons and objections
+    - Uncertainty does not erase personal meaning

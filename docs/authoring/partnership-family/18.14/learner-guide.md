@@ -40,9 +40,10 @@ For optional real transfer, invite a calm discussion only if welcome and safe. U
 
 [CDC pregnancy planning, S10](../SOURCES.md#S10) supports preparing individualized questions for a clinician; this guide imports no supplement dose, testing schedule or treatment recommendation. [CDC contraception guidance, S05](../SOURCES.md#S05) informs voluntary informed choice, not a prescribed method. [Safety guidance, S14](../SOURCES.md#S14) supports an individualized help route for coercion. The intentions map is original and does not predict outcomes.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Consent, health, abuse, and legal concerns require appropriate medical, legal, or safeguarding resources.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

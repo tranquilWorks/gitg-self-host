@@ -32,8 +32,8 @@ For support, use AAC, interpretation, accessible text or a harmless familiar ski
 
 For a harder notice, one required fact is absent. Asking the responsible organizer is competent handling of uncertainty, not failure to memorize. At later actual contacts, use new materials and a suitable delay; avoid making the learner depend on your approval to apply the method. A preserved reminder and corrected teacher assumption can support future opportunity, but only real sustained follow-through could substantiate wider generativity.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains cross_context_core and normative status cross_tradition_core_or_broadly_recurrent. Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
+Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. These source files change no runtime action, evidence field, score or completion rule. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

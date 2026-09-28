@@ -49,8 +49,8 @@ For support, make the map with one sentence per stage and select a safe intact i
 
 In an actual transfer, another household member's task needs their agreement. Do not treat their labor as a free resource or change shared storage without checking access needs. Repeated use, a care log and a later condition or burden observation could support progress. One clean object cannot establish that a household reduced total consumption or that a purchase achieved ecological justice. Material stewardship remains a practice of proportionate, revisable decisions with effects beyond possession.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

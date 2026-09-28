@@ -572,6 +572,17 @@ instructional_content:
       adjacent summaries, rewrite how one finding changes the other question. If a value judgment is hidden
       as a measurement, label it and identify whose reasons matter. Transfer the seven-lens map to another
       harmless decision without claiming disciplinary mastery.
+  - id: new-synthesis
+    kind: prompt
+    title: Connect a new history and access packet
+    body: 'Fictional H2, council minute dated 4 June: the waiting area moved from a shaded courtyard to
+      a street entrance to shorten the route to the clinic; no consultation record is attached. Fictional
+      U2, access walk-through dated 10 June: three willing visitors used the shorter route; one could
+      not pass a fixed narrow gate using their mobility aid. Combine the records into a bounded design
+      question, a next inquiry, and limits. Which five of the seven lenses remain uninvestigated by this
+      pair?'
+    check_id: new-synthesis-key
+    attempt_mode: unaided
   checks:
   - id: seven-lens-key
     title: Check the seven questions against evidence type and scope
@@ -596,10 +607,22 @@ instructional_content:
       and testing a bounded high-contrast or larger-character alternative. They do not show that character
       size caused the failures, represent other users, identify an applicable standard or choose the best
       redesign. E1 introduces a $2,400 allocation tension between signs and shade but omits maintenance
-      and mixed-option performance. History, economics, humanities, arts and society remain only mapped
+      and mixed-option performance. Science, history, economics, humanities and arts remain only mapped
       unless separately investigated; a correct synthesis names those limits and the next fitting expertise.
     criteria:
     - Technical and access claims cite D1 and U1 separately
     - The connection changes a bounded design question
     - Causation population and standard gaps remain explicit
     - Budget tension and five uninvestigated lenses stay visible
+  - id: new-synthesis-key
+    title: 'Check: Connect a new history and access packet'
+    body: The documented relocation rationale and the observed gate barrier create a question about preserving
+      a shorter route while providing usable entry. Verify the gate and consult affected users before
+      choosing a design. The minute supplies a stated reason, not proof of all motives; three visitors
+      do not represent everyone. These records engage history and society/access; science, technology,
+      economics, humanities and arts remain uninvestigated here. They do not establish an applicable design
+      standard.
+    criteria:
+    - Make one record change the interpretation or question raised by the other.
+    - Keep sampling, motive and technical-standard gaps visible.
+    - Name the five remaining lenses consistently.

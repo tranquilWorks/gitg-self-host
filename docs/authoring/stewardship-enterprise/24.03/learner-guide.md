@@ -53,8 +53,8 @@ For support, begin with the four customer invoices and mark paid or unpaid, then
 
 An optional actual transfer is a redacted explanation of a small operation you own or are authorized to inspect, or a public business model with missing figures labeled unknown. Do not obtain private books, investigate an employer or make legal determinations. A balanced toy ledger demonstrates reasoning about supplied inputs; it is not an audit, a tax filing, proof of customer demand or evidence that a real business can continue. Useful progress combines an inspectable account with a later check against authorized operating or financial evidence.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice. Applicability and normative status remain role_conditional; an enterprise role is optional. Use fiction or privately redacted records; keep credentials and sensitive identifiers outside app evidence. Human dignity is never scored.
+Business and economic education only; legal, tax, securities, employment, and regulatory questions require qualified advice.  Use fiction or privately redacted records; keep credentials and sensitive identifiers private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

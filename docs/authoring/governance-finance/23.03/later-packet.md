@@ -2,7 +2,7 @@
 
 Supplied fiction. Open after saving a first attempt. These events are invented learning materials, not actual participant evidence.
 
-## One contribution, one missed capacity check
+## One contribution, one unaffordable contribution withheld
 
 The supplied follow-up records one **50 contribution** to the proposed pot, then a month in which essential costs leave no affordable contribution. Total reserved money is **250**, consisting of the existing 200 and the contributed 50. Only 200 is immediately accessible under the supplied facts. The missed contribution is a resource constraint, not evidence of irresponsibility. The fictional contribution does not endorse D4 while its protection and deadline suitability remain unresolved.
 

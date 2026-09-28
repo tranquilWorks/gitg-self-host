@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "01.06",
+  "title": "Test a goal without its audience",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Intrinsic interest, useful outcomes and recognition can coexist. An audience-free trial asks what remains when optional display is removed; it does not make necessary collaboration or professional credit suspect."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete novice activity: arrange the words cloud, pocket, rain, key into a two-sentence imaginary scene on existing paper. There is no correct story, purchase or publication. Fictional Mira wants the title “writer,” likes surprising images and dislikes revising. Mira has 10 free minutes and no deadline. Compare trying the scene privately with buying an impressive notebook."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Make one scene, identify which parts of the goal depend on an audience and choose what to inspect after 10 minutes. Do not grade artistic talent from this trial.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A musician needs a willing ensemble to practice coordination. Does an audience-free motive test require abandoning the ensemble?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A scene such as a cloud storing rain in a pocket with a lost key meets the material constraint, but other scenes work. Later fiction: Mira writes for 7 minutes, enjoys one image and finds revision tedious; no public post occurs. Keeping a small private writing opportunity is defensible; a book purchase would not test writing interest. Partial: report enjoyment without actual activity. Incorrect: declare all recognition vain or one mixed session proof of inability.",
+      "criteria": [
+        "An executable underlying activity is attempted or explicitly simulated",
+        "Mixed motives remain visible",
+        "The revision follows the trial rather than status pressure"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Collaboration serves the activity’s actual purpose. Remove an unnecessary status condition, not the partners needed to exercise the skill. Record what publicity adds separately.",
+      "criteria": [
+        "An executable underlying activity is attempted or explicitly simulated",
+        "Mixed motives remain visible",
+        "The revision follows the trial rather than status pressure"
+      ]
+    }
+  ]
+}

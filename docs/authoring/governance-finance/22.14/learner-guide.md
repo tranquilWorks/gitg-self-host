@@ -42,8 +42,8 @@ For a supported attempt, use the hall model to label the five columns, then gene
 
 Optional actual transfer is a review of public governing documents for a low-stakes group. Report only document features and unanswered questions. Do not infer personal corruption, collect private political affiliations or pressure members to disclose relationships. A record of a real challenge reaching an independent authorized review would be stronger than a tidy diagram, but even that would not establish whole-institution freedom from capture. Actual legal, regulatory or governance reform needs responsible authority and qualified advice.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. Practical safeguards do not add canonical metadata. Applicability and normative status remain role_conditional. A leadership role is not compulsory. Use actual authority and willing participation; keep protected records outside app evidence. Fiction and no attempt are legitimate. Human dignity is never scored.
+Practical safeguards do not add canonical metadata.  A leadership role is not compulsory. Use actual authority and willing participation; keep protected records private. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

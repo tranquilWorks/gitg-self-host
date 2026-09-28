@@ -20,10 +20,8 @@ The first work window copies the first two instructions. A plateau arrives when 
 
 For support, dictate the three supplied sentences or rehearse only the status decisions. For a harder case, someone is relying on a real task: negotiate changes through the agreed channel and preserve unresolved obligations until settled. Finishing after the task loses value is not automatically admirable. Later review can ask whether parked work should restart or end, but today's closure does not prove lifelong perseverance.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

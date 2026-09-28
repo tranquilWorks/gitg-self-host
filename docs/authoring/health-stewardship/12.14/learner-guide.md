@@ -48,7 +48,7 @@ Save the map and timing before [later-packet.md](later-packet.md). The packet co
 
 Set a provisional recurrence at the next ordinary weekly opportunity only while the existing plan remains suitable. Review in one month or sooner if health, ordinary function, recovery, transport, environment or consented support changes. Preserve a qualified question about any unaddressed function, including appropriate bone-health considerations. Name an access improvement available now and a fallback for changed capacity, such as a confirmed accessible meeting place or a conversation at home with consent. A proposed alternative is not already agreed.
 
-Attempt [fresh checks](check-prompts.md) before [corrective guidance](check-answers.md). A complete source artifact is a whole function/support map, round-trip plan, honest two-opportunity review and a recurring plan with triggers. These outputs do not add application actions, typed evidence or completion requirements.
+Attempt [fresh checks](check-prompts.md) before [corrective guidance](check-answers.md). A complete source artifact is a whole function/support map, round-trip plan, honest two-opportunity review and a recurring plan with triggers. Keep the paper interpretation separate from an actual inquiry or action.
 
 ## Access, harder practice and real transfer
 

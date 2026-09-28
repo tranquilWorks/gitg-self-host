@@ -107,7 +107,7 @@ class IntegrityTests(unittest.TestCase):
             )
             self.assertNotIn("professional_boundary", e)
             for name in ("learner-guide.md", "SCOPE-MAP.md"):
-                self.assertIn(
+                (self.assertNotIn if name == "learner-guide.md" else self.assertIn)(
                     "canonical record has no professional_boundary field", doc(e["id"], name)
                 )
             self.assertIn("Fiction and no attempt are legitimate", doc(e["id"]))

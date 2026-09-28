@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "04.01",
+  "title": "Name suffering honestly and choose one humane response",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Acknowledgment names a particular loss without claiming a hidden benefit, complete explanation or required emotional response. Practical information and emotional interpretation have different evidence needs."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Official fictional venue notice, issued Monday 09:00 by its manager: “The neighborhood meeting room is closed through Friday because of storm damage. All meetings there are cancelled. Do not enter. A reopening update will be posted Friday 12:00.” Intended audience: the ordinary private volunteer group. No replacement room, injuries or reopening certainty is supplied."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Draft the factual closure message and a separate humane acknowledgment of lost connection and effort. Compare it with “At least this will make everyone stronger.”",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A listener says “You need not explain this loss to make it matter,” then accepts silence. Has the listener failed because no solution was produced?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "The message preserves closure, cancellation, no-entry instruction and update time, without inventing a replacement or Friday reopening. Acknowledgment can say the lost gathering matters despite volunteers’ effort. The stronger-everyone claim imposes an unobserved benefit. Partial: kind acknowledgment with no usable timing. Incorrect: promise reopening. Later fiction: Friday update extends closure; no lesson or growth outcome is established.",
+      "criteria": [
+        "The loss is particular and not minimized",
+        "Practical claims match the authoritative notice",
+        "Meaning and emotional outcomes remain unforced"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Acknowledgment may be the requested response. Retain any practical need separately; silence is not proof of recovery or failure.",
+      "criteria": [
+        "The loss is particular and not minimized",
+        "Practical claims match the authoritative notice",
+        "Meaning and emotional outcomes remain unforced"
+      ]
+    }
+  ]
+}

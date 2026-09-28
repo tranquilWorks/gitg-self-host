@@ -179,7 +179,7 @@ class IntegrityTests(unittest.TestCase):
                 "observed_reciprocity",
             ],
         )
-        self.assertIn("app's original fields", doc("17.03"))
+        self.assertIn("actual contact honest and minimal", doc("17.03"))
 
     def test_verification_hashes_cover_exact_source_set(self):
         verification = json.loads((SOURCE / "verification.json").read_text())

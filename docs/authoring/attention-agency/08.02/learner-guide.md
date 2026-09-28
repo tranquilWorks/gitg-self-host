@@ -1,5 +1,13 @@
 # 08.02 — Mindfulness and present attention
 
+## Optional extensions to the same route-card activity
+
+Use the same complete packet in each window. Besides the four original relations, the fictional courtyard contains a bench at its center, a tree beside the west water point and a noticeboard just inside the south entrance. The east reading room has a public desk; the north staff door remains unavailable. At an ordinary pace, draw or describe the layout, trace the south-entrance-to-reading-room route, describe the return route and inspect whether any imagined shortcut used the staff door. You may compare a verbal description with a simple sketch or reread the whole card. These are optional ways to stay with the activity, not outputs to finish or score. Keep task material and access supports comparable across usual, changed-condition and repeat windows.
+
+## Optional material for the existing attention window
+
+For the existing fifteen-minute attention experiment, choose one ordinary anchor: contact with a supported chair, ambient sound at a comfortable level, or visual details of a familiar object. Use a harmless object already available; do not seek distracting or distressing sensations. If the first observation feels complete, revisit it slowly: notice color or texture, then notice what has changed in attention, then return to the chosen anchor. No minimum number of details, uninterrupted-focus target or written product is required. Pause or stop when needed and record what actually happened. These optional prompts fill out the task without extending its window, adding an action or turning distraction into failure.
+
 ## Return to one present activity under workable conditions
 
 Present attention means noticing when attention has moved away and returning to the current task, body, person or surroundings. It does not demand an empty mind, perfect stillness or uninterrupted concentration. Catching drift earlier may be a private observation; counting distractions can itself become another task. NCCIH [S04](../SOURCES.md#S04) notes uncertainty and safety limits in mindfulness research. This ordinary attention experiment is not meditation treatment or a substitute for care.
@@ -20,10 +28,8 @@ Other appropriate anchors can be an ordinary external sensation, a consenting pe
 
 For support, use accessible text, dictation, movement or a different suitable activity. The existing protocol also permits consistently shortened windows when fifteen minutes is not workable: choose a comparable shorter duration for all windows and record that limitation, without relabeling them full fifteen-minute windows. Deferral or another practice remains available. For a harder case, a necessary call interrupts the changed window: preserve the interruption and compare only what was observed. No productivity ranking, surveillance or clinical claim follows from the result. Broader presence with people or under stress remains future work, not established by one paper task.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

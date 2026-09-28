@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "05.07",
+  "title": "Use one specific piece of feedback without instant rebuttal",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Feedback can contain an observation, an interpretation and a proposed remedy. Confirm the observation before accepting the remedy, and retain the listener’s actual correction rather than assuming understanding."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Original directions: “The box is near the desk; after returning the key, collect it. The key comes from the staffed desk.” Listener task: collect the empty blue box from shelf A, then return the borrowed key to the staffed desk. Fictional listener says “I cannot tell what I should do first.” The authorized task order above is complete; no real building visit is required."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Summarize the feedback, identify the order problem and rewrite the directions. Save the revised wording before inspecting the follow-up.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "Feedback says “your date was wrong” but the dated source confirms it. Must receptivity require accepting the correction?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "“Collect the empty blue box from shelf A, then return the key to the staffed desk” fits the supplied task. Later fiction: listener confirms the order is clear but asks which shelf in another room; that new room is not supplied and remains unknown. Partial: sympathize without fixing the order. Incorrect: argue that detail proves clarity or invent a shelf for the new room.",
+      "criteria": [
+        "Observation and interpretation are distinguished",
+        "Revision follows the task standard",
+        "Accurate disagreement remains possible"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Check both sources respectfully and identify the discrepancy. Receptivity means examining evidence, not automatic agreement or a defensive claim that all feedback is useless.",
+      "criteria": [
+        "Observation and interpretation are distinguished",
+        "Revision follows the task standard",
+        "Accurate disagreement remains possible"
+      ]
+    }
+  ]
+}

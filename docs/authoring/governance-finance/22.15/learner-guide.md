@@ -39,8 +39,8 @@ For support, label the three supplied evidence rows with a helper before draftin
 
 Optional actual transfer is to locate a public reporting policy and list questions about its remit and confidentiality. Do not use a real suspected violation as practice, collect new evidence or contact implicated people. If an actual concern is present, use responsible professional support rather than this simulated script. A good plan respects affected people, possible respondents and the integrity of records. One acknowledgment does not prove protected dissent is safe or that an institution acted correctly.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. Practical safeguards do not add canonical metadata. Applicability and normative status remain role_conditional. A leadership role is not compulsory. Use actual authority and willing participation; keep protected records outside app evidence. Fiction and no attempt are legitimate. Human dignity is never scored.
+Practical safeguards do not add canonical metadata.  A leadership role is not compulsory. Use actual authority and willing participation; keep protected records private. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

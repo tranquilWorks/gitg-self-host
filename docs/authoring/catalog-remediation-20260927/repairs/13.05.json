@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.05",
+  "title": "Prepare and improve one simple bean skillet",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Cooking methods manage heat and moisture differently: simmering uses gently moving liquid, sautéing uses a small amount of fat and direct pan contact, steaming uses vapor, and baking surrounds food with heated air. A bean skillet exercises only part of that range. Knife choice, stable work surface, controlled hand position and suitability of the ingredient matter before cutting."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Paper method comparison: A is canned ready-to-eat beans and frozen vegetables whose package requires cooking; B is a raw ingredient with unknown preparation requirements; C is a soft peeled banana for optional low-risk cutting with a suitable ordinary table knife on a stable board. No sharp-knife drill is required. For actual heat use keep the original recipe and package instructions; B lacks enough information for a cooking decision."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Choose which materials support the skillet and which need more guidance. For C, if suitable, place the board stably, keep the supporting fingers out of the cutting path and divide one piece slowly; otherwise analyze the setup without pretending to cut.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A learner can stir a skillet safely but has never handled the required sharp knife for another recipe. Does skillet completion establish knife competence?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A supports the recipe once the actual vegetable package requirement is followed; beans’ ready-to-eat status does not cancel it. B needs identification and appropriate guidance. C can practice controlled placement with a low-risk tool, not general chef-knife competence. Partial: name methods without explaining heat/moisture. Incorrect: assume all canned/frozen ingredients need identical treatment. Next learn one different method from a complete recipe and, for a sharper tool, a competent demonstration followed by observed safe handling and correction before independent use.",
+      "criteria": [
+        "Method and ingredient requirements match",
+        "Existing tool and heat limits are preserved",
+        "Progression identifies a distinct practiced skill"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Keep pre-cut ingredients or suitable help, or obtain a proper demonstration and observed practice for that tool and task. Method selection and tool skill require separate evidence.",
+      "criteria": [
+        "Method and ingredient requirements match",
+        "Existing tool and heat limits are preserved",
+        "Progression identifies a distinct practiced skill"
+      ]
+    }
+  ]
+}

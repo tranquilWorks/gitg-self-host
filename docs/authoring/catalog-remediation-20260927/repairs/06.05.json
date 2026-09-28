@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "06.05",
+  "title": "Prepare a pain-care conversation around sustainable participation",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Preparing a care conversation is different from approving an activity or changing treatment. A peer’s confidence cannot replace individualized guidance; existing guidance also has a defined scope."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional guidance card: the person has an existing clinician-agreed option to join an ordinary seated conversation for up to the duration already specified in their private plan, with the plan’s stop/contact instructions unchanged. The card intentionally does not disclose that duration. A new standing event is not covered. The person wants to ask whether any suitable adaptation exists and how to review concerns; no actual clinical answer is supplied."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Write an agenda about the valued participation, the uncovered standing demand, access and follow-up. Mark which decisions need the care team rather than filling the missing private details.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A peer recommends doubling an activity because the first attempt seemed fine. Does this lesson authorize that change?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "The agenda can request clarification without approving the new event or inventing minutes. Later fiction: the clinic acknowledges the question; no plan change exists. Partial: a good question but an assumed trial before reply. Incorrect: use a peer’s “it is safe” as clearance or change medication. A real existing-guidance trial must follow that actual guidance, not this fictional card.",
+      "criteria": [
+        "An agenda is not clinical approval",
+        "Existing guidance is not extended beyond its scope",
+        "Unknowns are not replaced by invented prescriptions"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Immediate tolerance and peer reassurance do not supply an individualized progression decision. Keep existing guidance and bring the question to the appropriate qualified route.",
+      "criteria": [
+        "An agenda is not clinical approval",
+        "Existing guidance is not extended beyond its scope",
+        "Unknowns are not replaced by invented prescriptions"
+      ]
+    }
+  ]
+}

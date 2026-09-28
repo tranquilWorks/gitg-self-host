@@ -47,8 +47,8 @@ If borrowing were genuinely chosen after appropriate review, an exit record woul
 
 For support, calculate interest with counters or a calculator and keep the cards alongside the totals. For a harder pass, add a financed fee and explain why the original arithmetic no longer applies until the charging basis is known. Optional actual transfer is a private reading of a disclosure already available to you, with no transaction. Real hardship may require reputable debt, legal or benefits support; verify credentials and fees. A person who declines an unaffordable obligation has not failed this practice.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

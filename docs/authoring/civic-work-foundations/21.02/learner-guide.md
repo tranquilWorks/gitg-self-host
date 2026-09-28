@@ -6,7 +6,7 @@ Make one small commitment that another person can plan around, give an early evi
 
 The receiver needs to know what will arrive, when, in which usable form and what they can do with it. Confirm the recipient, purpose, version, acceptance criteria and deadline, including time zone where relevant. Inspect your capacity and required inputs before saying yes. An enthusiastic promise is not more reliable than a smaller specific commitment that can be kept.
 
-Preparedness means arranging the permitted materials and a place to track the next step. Organization should reduce uncertainty rather than create a elaborate system no one uses. Put the checkpoint early enough to act on a missing input. Identify who can supply it, what you can finish without it and when you will raise the risk. Do not make the recipient discover an obvious gap only at the deadline.
+Preparedness means arranging the permitted materials and a place to track the next step. Organization should reduce uncertainty rather than create an elaborate system no one uses. Put the checkpoint early enough to act on a missing input. Identify who can supply it, what you can finish without it and when you will raise the risk. Do not make the recipient discover an obvious gap only at the deadline.
 
 Status labels should describe evidence. “Drafted” means text exists, not that facts or usability are confirmed. “Blocked” should identify the missing dependency and a next owner or question. “Untested” protects the distinction between an artifact and demonstrated use. “Done” requires the agreed endpoint, not merely effort or a sent file. A changed forecast should arrive while the receiver still has choices.
 
@@ -44,9 +44,10 @@ Real transfer can use a volunteer or household collaboration where employment in
 
 [NACE's professionalism description, S08](../SOURCES.md#S08), includes preparation, dependability, task completion, detail and accountability. Only that section is used; personal branding is not an outcome measure here. The specific deadline, acceptance states and agenda are original teaching design, not a validated reliability score or employment standard.
 
+## Use the result at its proper scale
 
-## Scope and evidence boundary
+The practical limits in this guide are exercise safeguards, not added canonical metadata.
 
-The canonical record has no professional_boundary field. The practical limits in this guide are exercise safeguards, not added canonical metadata.
+Paid employment, a career change or a particular work role is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private.
 
-Canonical applicability is context_sensitive. Paid employment, a career change or a particular work role is not compulsory. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

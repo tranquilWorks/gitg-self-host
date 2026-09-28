@@ -44,8 +44,8 @@ The most consequential unresolved question in C7 is how essential payments and d
 
 For support, use large-print location cards or an independent interpreter without sharing secrets. A harder variant makes the willing helper unavailable; identify both an information backup and a legally valid appointment question rather than merely adding another name. Optional actual transfer is an appropriate provider inquiry or professional appointment for a real gap, using secure channels and genuine authorization. No beneficiary change, signature or property transfer is needed to complete learning. Suspected exploitation, coercion or disputed capacity needs qualified independent support. A usable map can reveal that protection is still incomplete.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary: Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
+Financial education only; tax, investment, insurance, estate, and benefits decisions may require licensed or jurisdiction-specific advice.  Use fictional or privately redacted figures. Do not upload account identifiers, credentials or private financial records. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md). Attempt the [fresh checks](check-prompts.md) before opening their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

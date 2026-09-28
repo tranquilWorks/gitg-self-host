@@ -21,3 +21,7 @@ Three passes: 1 − (9/10)^3 = 271/1000 = 27.1%. Six: 1 − (9/10)^6 = 468559/10
 An end-of-process detector can identify a mismatch for correction; it does not prevent its first occurrence. Whether correction succeeds needs a separate observation. With one common fault, the independence product is unjustified; dependence might change the combined probability and the packet does not specify enough to replace it with a new number.
 
 These are invented probabilities about token mismatches. They supply no measured injury rate, safe load, or professional clearance. If you used the arithmetic to select a real carrying method, retract that conclusion and identify the missing exposure, capability, and consequence evidence.
+
+## Changed-case answer
+
+With independence, complements give 1−0.8²=0.36 and 1−0.8⁴=0.5904. The four-crossing route has greater modeled exposure. A shared closure violates independence, so multiplying complements is not justified by the marginal 0.2 alone. These are stipulated model probabilities, not measured local travel risk.

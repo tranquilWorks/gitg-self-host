@@ -19,7 +19,7 @@ Define done as a listener or reader being able to file a new labeled slip correc
 
 ## 2. Create a progression with supplied component exercises
 
-Use three milestones: write a four-step sequence with no missing object or location; demonstrate it on one slip without skipping a step; then ask a new filing question and correct one confusion. Attempt the first weak milestone now and compare it with the stated criterion. Increase complexity only after the criterion is met, or reduce the component while keeping its purpose when it is not.
+Use three milestones: write a four-step sequence with no missing object or location; demonstrate it on one slip without skipping a step; then ask a new filing question and correct one confusion. Attempt the first weak milestone now and compare it with the stated criterion. Increase complexity only after the criterion is met, or reduce the component while keeping its purpose when it is not. Use the guide’s milestones for the six supplied classification slips; a step list describes your plan, whereas the five-of-six criterion checks performance.
 
 - Each milestone has an observable criterion
 - At least one component exercise is attempted
@@ -35,7 +35,13 @@ Combine the components into a three-minute explanation or equivalent short writt
 - Learner feedback and self-review are distinguished
 - An integration failure changes the next practice step
 
+## Adaptation
+
 Use written, signed, visual or AAC-supported explanation and an untimed version when timing is not part of the real skill. A willing reviewer is optional, but independent learner success must not be claimed from self-review.
+
+## Review
+
+Which component looked adequate alone but failed when connected to the rest, and what prerequisite did that reveal?
 
 Decompose one filing explanation and reconnect it in a new case
 
@@ -47,7 +53,7 @@ Decomposition turns a complex performance into observable components without pre
 
 Supplied five-folder rule and six slips
 
-Today is Monday. Five folders are labeled TODAY, THIS WEEK, WAITING, REFERENCE and ARCHIVE. Apply the first matching rule: (1) completed or expired → ARCHIVE; (2) explicitly waiting on another person → WAITING; (3) an open action due today → TODAY; (4) an open action due Tuesday through Sunday → THIS WEEK; (5) reusable information with no action → REFERENCE. Supplied slips: A completed receipt; B waiting for Pat’s approval, due today; C submit form, due today; D call supplier, due Thursday; E torque table, no action; F expired coupon. Correct folders are A Archive, B Waiting, C Today, D This Week, E Reference, F Archive. The precedence rule resolves B’s overlap.
+Today is Monday. Five folders are labeled TODAY, THIS WEEK, WAITING, REFERENCE and ARCHIVE. Apply the first matching rule: (1) completed or expired → ARCHIVE; (2) explicitly waiting on another person → WAITING; (3) an open action due today → TODAY; (4) an open action due Tuesday through Sunday → THIS WEEK; (5) reusable information with no action → REFERENCE. Supplied slips: A completed receipt; B waiting for Pat’s approval, due today; C submit form, due today; D call supplier, due Thursday; E torque table, no action; F expired coupon. Classify A–F and name the deciding rule before opening the part-practice check.
 
 Example decomposition on a different sorting rule
 
@@ -71,3 +77,4 @@ If G is classified and explained correctly without rescue, test one new non-over
 
 Open the prompt in the practice guide: Build the dependency map before seeing the key
 Open the prompt in the practice guide: Reconnect the parts on an unseen overlap case
+Open the prompt in the practice guide: Classify the six slips

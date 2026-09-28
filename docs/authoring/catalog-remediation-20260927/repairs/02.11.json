@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "02.11",
+  "title": "Offer a specific apology and proportionate repair",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "An apology owns the particular action and known effect without claiming all possible harm or demanding absolution. A repair offer must be feasible, welcome and proportionate."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Ari borrowed Jo’s ruler, due Tuesday 17:00 at the staffed desk. Ari forgot and returns Wednesday 09:00. Jo spent 10 minutes finding an alternative Tuesday but bought nothing. Jo permits one written message and asks for the ruler at the desk; no visit or gift is requested. The desk confirms Wednesday receipt."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Write the apology and prevention step using action, intention, negligence and impact separately. Identify what is already repaired and what remains unknown.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A repair offer is declined because the affected person has another arrangement. Is doing it anyway necessary to prove remorse?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Own the late return and 10-minute burden; accidental forgetting does not erase responsibility. Acknowledge desk receipt and a reminder for future loans without demanding trust. Later fiction: Jo acknowledges the message but declines another loan. Partial: express regret without naming the missed deadline. Incorrect: invent financial loss, insist on a visit or count acknowledgment as forgiveness.",
+      "criteria": [
+        "Action and known impact are specific",
+        "Repair fits the recipient’s stated limits",
+        "Forgiveness and future trust are not presumed"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Respect the refusal and use a legitimate prevention/accountability route. The affected person need not host a repair performance or supply reassurance.",
+      "criteria": [
+        "Action and known impact are specific",
+        "Repair fits the recipient’s stated limits",
+        "Forgiveness and future trust are not presumed"
+      ]
+    }
+  ]
+}

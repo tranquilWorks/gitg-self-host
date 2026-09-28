@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "05.11",
+  "title": "Map personal choice and context in one ordinary route",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A route combines personal choices with transport, cost, language, access and rules. A thought experiment can expose a dependency without claiming another group’s lived experience."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Complete fictional library route: bus leaves home stop 09:00, arrives 09:20; suitable step-free entrance is 5 minutes away; library opens 09:30. Return bus leaves 10:30, arrives home 10:50. Fare 2 units each way; Jo has 5 discretionary units and needs to be home 11:00. A public notice says the borrowed book can be returned at the staffed desk; online renewal is unavailable for this item. No alternative transport is confirmed."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Trace time, cost, access and the rule. Then change one fact: the 09:00 bus is cancelled. Identify what can be chosen and what needs new information.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A form is free but only available in an unreadable format for its user. Does zero price establish equal access?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Original route reaches the entrance 09:25, waits 5 minutes, costs 4 with 1 remaining, and arrives home 10 minutes before the duty. Cancellation removes the known outward route; another bus or helper must be verified, not invented. Partial: know the library hours but omit travel. Incorrect: blame lack of determination or assume stairs are a suitable substitute.",
+      "criteria": [
+        "The complete route uses supplied dependencies",
+        "Changed conditions reopen feasibility",
+        "Structural constraint is not recast as personal fault"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Format, language, support and an accepted submission route still matter. Record the barrier and seek an actual suitable alternative rather than claiming universal exclusion or universal accessibility from price alone.",
+      "criteria": [
+        "The complete route uses supplied dependencies",
+        "Changed conditions reopen feasibility",
+        "Structural constraint is not recast as personal fault"
+      ]
+    }
+  ]
+}

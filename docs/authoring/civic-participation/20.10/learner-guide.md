@@ -2,6 +2,10 @@
 
 Improve one permitted shared resource and check whether another person can use it. Allow twenty minutes to inspect and agree the task, a small reversible repair and a later usability check. Use a community borrowing shelf or the supplied fiction. Caring for a commons includes how responsibilities are shared; it is not permission to alter anything that appears neglected.
 
+## Inspectable shelf layout
+
+Eight fictional items have marked slots: two blue trays B1/B2, two green boxes G1/G2, two red folders R1/R2 and two yellow baskets Y1/Y2. Observed positions: B1 in B1, B2 in G1, G1 in B2, G2 in G2, R1 in R1, R2 in Y2, Y1 in Y1, and Y2 temporarily on loan with an authorized record. Thus B2, G1 and R2 are misplaced; the loan is not a fourth placement error. Quinn permits the return label, not changes to borrowing rules. Describe the correct return destination and preserve the damaged-item instruction.
+
 ## Care for the resource and its arrangement
 
 A shared system joins a resource, users, rules and maintenance. A borrowing shelf may need sound items, clear return instructions and someone who checks condition. A public space may involve access, habitat, safety and multiple authorities. Shared knowledge needs accuracy, provenance and understandable organization. Institutional trust depends partly on people keeping commitments and responding fairly to mistakes. These are related forms of stewardship, but they do not all behave like the same resource.
@@ -44,9 +48,10 @@ Real transfer requires the actual owner's permission, appropriate safety and a w
 
 [The Ostrom Workshop teaching overview, S12](../SOURCES.md#S12), introduces institutions developed by resource users for shared-resource governance. It is an overview, not the full book or a universal recipe. [EPA's materials hierarchy, S13](../SOURCES.md#S13), supplies the narrow consideration of source reduction and reuse while noting that one approach does not fit all circumstances. Neither source measures this shelf's ecological effect; the case is original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core; normative status is cross_tradition_core_or_broadly_recurrent. This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

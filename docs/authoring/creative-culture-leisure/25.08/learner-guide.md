@@ -70,8 +70,8 @@ For support, work asynchronously with one visible proposal and one response at a
 
 An actual joint artifact plus each participant's account of influence can support a bounded collaboration claim. The invented case provides no real collaborator, consent or attribution receipt. A solo learner may rehearse every decision while leaving actual shared authorship pending.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains elective_cultivation and normative status elective_but_flourishing_relevant. Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
+Creative cultivation is optional. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

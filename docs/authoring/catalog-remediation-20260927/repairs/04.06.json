@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "04.06",
+  "title": "Sustain humane care when improvement is not the assignment",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Endurance can mean preserving humane care under an unresolved constraint. It does not require passivity toward an available remedy or denying a need to stop an unsafe situation."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional ordinary repair delay: a household reading lamp is being repaired; safe existing room lighting remains available. Provider promised an update Friday and accepts one status inquiry. Jo’s care floor is normal meals, existing care arrangements and one protected rest opening; no treatment change is involved. Monday rest occurs, Wednesday a necessary errand displaces it, Friday a wanted friend call occurs. Repair completion is unknown."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Review the three points, identify missed care and choose between waiting, a proportionate inquiry and practical support. Do not set an improvement quota.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person calls ignoring an urgent accessible help route “patience.” Does endurance require continued waiting?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Waiting for the promised update can be reasonable; an inquiry is also within the offered route. Wednesday’s missed rest remains a support/capacity question. Friday company does not repair the lamp. Partial: call all planned care completed. Incorrect: insist endurance forbids asking or that a small comfort solves every strain. If essential safety were affected, this nonurgent waiting case would no longer fit.",
+      "criteria": [
+        "Care and unresolved outcome are tracked separately",
+        "Available remedies remain legitimate",
+        "Missed care informs support rather than character judgment"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Respond to the actual urgency through suitable help. The value of patient care does not override an immediate need or turn avoidable neglect into virtue.",
+      "criteria": [
+        "Care and unresolved outcome are tracked separately",
+        "Available remedies remain legitimate",
+        "Missed care informs support rather than character judgment"
+      ]
+    }
+  ]
+}

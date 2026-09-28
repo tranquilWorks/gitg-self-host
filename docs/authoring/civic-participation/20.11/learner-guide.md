@@ -44,9 +44,10 @@ A real shared-use change needs the owner's authority, affected people's input an
 
 [UNESCO's declaration, S14](../SOURCES.md#S14), links plural participation with coexistence and limits cultural justifications that infringe human rights. [The UDHR reproduction, S05](../SOURCES.md#S05), supplies general dignity and rights principles. These narrow conceptual sources are not local legal tests or proof that the invented room rule will work. The four cases and revision are original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core; normative status is cross_tradition_core_or_broadly_recurrent. This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This does not compel a belief, affiliation, public disclosure or live participation. Use fiction or no attempt where appropriate. Keep private identities and sensitive records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

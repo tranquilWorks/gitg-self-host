@@ -34,10 +34,10 @@ A worked private statement is: “I am declining entrepreneurship at present. I 
 
 For support, work with the supplied cards without personal disclosure, use a trusted interpreter or write only “not chosen.” Without enough facts, leave a role undecided. For a harder case, someone wants to decline parenthood while already responsible for a dependent: separate future role preference from current care duties and seek appropriate local guidance where needed. This guide supplies no legal determination.
 
-Later, apply the same distinction to a different optional role such as committee chair. An honest choice may be yes, no, exploration or no decision. A good outcome is a plan consistent with endorsed commitments and actual obligations, not convergence on Avery's life. This source exercise cannot change application applicability, scores or completion rules, and it cannot prove freedom from coercion merely because a checkbox says “chosen.”
+Later, apply the same distinction to a different optional role such as committee chair. An honest choice may be yes, no, exploration or no decision. A good outcome is a plan consistent with endorsed commitments and actual obligations, not convergence on Avery's life. Calling a role “chosen” does not by itself establish freedom from coercion.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field; its absence is preserved. Applicability remains cross_context_core and normative status cross_tradition_core_or_broadly_recurrent. Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
+Capacity, access and context govern actual attempts. Fiction and no attempt are legitimate. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. These source files change no runtime action, evidence field, score or completion rule. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

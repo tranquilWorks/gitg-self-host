@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "01.04",
+  "title": "Resolve one conflict between worthwhile goods",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "A priority is a reason for this decision under these conditions, not a permanent ranking of people or goods. An exception should identify a relevant changed need rather than favor whoever benefits from it."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Lee has promised a 60-minute family visit on Saturday. An optional extra shift conflicts with it and pays 40 units. Essentials are covered this week;40 would increase a repair reserve, with no urgent repair. The relative welcomes asking about Sunday, but has not agreed. Lee values both reliability and financial security."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Compare keeping Saturday with asking to move the visit. State what must happen before either plan is settled, a reversal condition and the strongest cost of your preference.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "An optional event conflicts with an agreed care shift. The organizer says “your contribution matters.” Does that remove the care obligation?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Keeping Saturday protects an existing promise and forgoes 40. Asking about Sunday can be responsible if the shift is not accepted on assumed consent. Later fiction: Sunday is declined, so the original promise remains unless genuinely renegotiated. A newly essential uncovered expense could justify revisiting the balance, not silently erasing the promise. Partial: choose plausibly but omit the lost good. Incorrect: call the unconfirmed Sunday visit agreed.",
+      "criteria": [
+        "Actual obligations and optional goods differ",
+        "Alternatives depend on real agreement",
+        "Reversal conditions are relevant and reciprocal"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. The event’s good is real, but suitable accepted coverage or an appropriate renegotiation is needed before relying on release from care. Praise does not provide coverage.",
+      "criteria": [
+        "Actual obligations and optional goods differ",
+        "Alternatives depend on real agreement",
+        "Reversal conditions are relevant and reciprocal"
+      ]
+    }
+  ]
+}

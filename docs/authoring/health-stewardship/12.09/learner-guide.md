@@ -50,7 +50,7 @@ Before opening [later-packet.md](later-packet.md), write what would justify each
 
 Keep the original folder and add each later event. Distinguish an agreed next step from an action actually performed. If later function looks worse or becomes incomparable, keep it alongside the earlier favorable record. Choose repeat within the existing plan, clarify a condition, or obtain qualified review; do not respond to ambiguity with more body tracking or food restriction.
 
-Attempt [check-prompts.md](check-prompts.md) before [check-answers.md](check-answers.md). Completion of this source exercise means an evidence map, a bounded plan/request and an honest later interpretation. Those reading outputs do not change application actions or completion rules and do not establish actual health behavior.
+Attempt [check-prompts.md](check-prompts.md) before [check-answers.md](check-answers.md). Completion of this source exercise means an evidence map, a bounded plan/request and an honest later interpretation. Those reading outputs do not establish actual health behavior.
 
 ## Access, challenge and later transfer
 

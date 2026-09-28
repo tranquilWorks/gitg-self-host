@@ -10,7 +10,7 @@ Twenty minutes to make one note and fifteen minutes to retrieve and apply it sev
 
 ## 1. Capture only enough to answer a future question
 
-Read the supplied source card, then close it and draft one note with a descriptive title, source label, own-words explanation, worked 1-2-9 example, future-use question and retrieval cue. Reopen the card, correct any distorted definition or arithmetic and retain the original correction. Complete the note-quality prompt before revealing its rubric. Do not copy the entire card or replace a missing idea with decorative formatting, links or a large tag hierarchy.
+Read the supplied source card, then close it and draft one note with a descriptive title, source label, own-words explanation, worked 1-2-9 example, future-use question and retrieval cue. Reopen the card, correct any distorted definition or arithmetic and retain the original correction. Complete the note-quality prompt before revealing its rubric. Do not copy the entire card or replace a missing idea with decorative formatting, links or a large tag hierarchy. After learning from the averages example, complete the separate new-note prompt to practice creating a note whose finished version is not supplied.
 
 - The note has a findable descriptive title
 - Definitions and example are compressed accurately
@@ -35,7 +35,13 @@ After an actual delay when feasible, use the index to find the note before openi
 - The note’s limitation is identified during use
 - A specific revision improves future retrieval or application
 
+## Adaptation
+
 Use an audio note, large print, a tactile index or a single accessible document. External supports are legitimate; distinguish finding a note from unaided recall. Use non-sensitive examples and avoid automatically syncing confidential material.
+
+## Review
+
+What did the later task reveal that your original note captured poorly or made hard to find?
 
 Make a small knowledge system prove itself through reuse
 
@@ -71,3 +77,4 @@ Reuse the same note in another genuine task, or create one new note with a diffe
 
 Open the prompt in the practice guide: Diagnose three candidate notes
 Open the prompt in the practice guide: Apply the retrieved note to a new dataset
+Open the prompt in the practice guide: Create a note from a different source

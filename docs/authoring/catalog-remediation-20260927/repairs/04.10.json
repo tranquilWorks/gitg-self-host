@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "04.10",
+  "title": "Continue responsibility when an important consequence cannot be undone",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Irreversibility can concern an object, an opportunity or an effect of harm. Repair may still help while remaining incomplete. Continuing responsibility does not require obtaining absolution or pretending a substitute is identical."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional Jo discarded Rae’s unique handwritten note without permission; it cannot be recovered. Rae permits one short written acknowledgment and declines a replacement. Jo also missed an optional final exhibition whose closing date cannot change; nobody else relied on attendance. These are different losses: a wrong to another person and a missed personal opportunity."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Compare responsibility and possible next conduct in both cases. Draft the acknowledgment within Rae’s limit and a handling rule that can actually be applied.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A person pays an agreed repair cost but an irreplaceable memory remains lost. Is restitution necessarily either worthless or complete?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Own the discarded note, accept the declined replacement and never discard others’ papers without permission. The exhibition needs acknowledgment of a missed opportunity, not an invented apology debt to a victim. Later fiction: Jo places an uncertain paper in an agreed holding tray; the lost note remains lost. Partial: prevention without owning impact. Incorrect: demand forgiveness or claim the tray restores the note.",
+      "criteria": [
+        "Different irreversible losses carry different responsibilities",
+        "Partial repair is neither erased nor inflated",
+        "Future conduct does not demand absolution"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "Neither. The agreed payment can be a real partial repair while the irreparable loss remains. Do not force gratitude, restored trust or a claim that nothing further matters.",
+      "criteria": [
+        "Different irreversible losses carry different responsibilities",
+        "Partial repair is neither erased nor inflated",
+        "Future conduct does not demand absolution"
+      ]
+    }
+  ]
+}

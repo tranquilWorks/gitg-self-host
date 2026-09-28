@@ -67,12 +67,17 @@ meaning_and_fit:
   opportunity_considerations: 'Use this fictional case: a trusted person shared private correspondence
     after repeatedly pressuring its owner; the owner wants privacy and support but does not want physical
     comfort or a detailed retelling. Do not invent additional violence. Read RAINN''s explanation of its
-    approach to choice and support as one provider''s example, not as a service for every kind of betrayal.'
+    approach to choice and support as one provider''s example, not as a service for every kind of betrayal.
+    The learning guide contains a complete fictional practice and a separate changed-case check. Choose
+    that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.'
   prerequisites:
   - 'Use this fictional case: a trusted person shared private correspondence after repeatedly pressuring
     its owner; the owner wants privacy and support but does not want physical comfort or a detailed retelling.
     Do not invent additional violence. Read RAINN''s explanation of its approach to choice and support
-    as one provider''s example, not as a service for every kind of betrayal.'
+    as one provider''s example, not as a service for every kind of betrayal. The learning guide contains
+    a complete fictional practice and a separate changed-case check. Choose that route when a real situation
+    is unavailable; its results are rehearsal, not performed real-world work.'
   dependencies: []
   safe_alternatives:
   - Keep the exercise fictional or work with a qualified support person. Use a neutral written response
@@ -97,7 +102,9 @@ intervention:
   setup: 'Use this fictional case: a trusted person shared private correspondence after repeatedly pressuring
     its owner; the owner wants privacy and support but does not want physical comfort or a detailed retelling.
     Do not invent additional violence. Read RAINN''s explanation of its approach to choice and support
-    as one provider''s example, not as a service for every kind of betrayal. Goal: Identify protective
+    as one provider''s example, not as a service for every kind of betrayal. The learning guide contains
+    a complete fictional practice and a separate changed-case check. Choose that route when a real situation
+    is unavailable; its results are rehearsal, not performed real-world work. Goal: Identify protective
     supports and survivor-chosen steps that address safety, agency, trust, bodily ownership, boundaries
     and meaning without blaming the harmed person. Scope: The supplied case supports planning and response
     rehearsal. It does not demonstrate recovery from assault, abuse, coercion or betrayal, and it does
@@ -496,3 +503,58 @@ presentation:
   plain_language_evidence: The plan covered privacy, bodily choice and trust, and the rehearsal accepted
     a refusal of touch while identifying an appropriate support route.
   display_order: 73
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '06.03'
+  title: Build a choice-preserving support plan after a violation
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: Choice-preserving support responds to the person’s actual request and the service’s actual scope.
+      Consent to one task does not authorize contact, touch, reporting or disclosure beyond it.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Fictional privacy breach: Ren wants a quiet text exchange, declines touch and retelling, and
+      asks only for help finding the venue’s independent privacy-complaint route. The venue publishes
+      an accessible written route to a privacy coordinator who was not involved. A general counseling
+      service also exists but its eligibility and confidentiality details are unverified. No immediate
+      danger or reporting duty is established by these facts.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Offer the requested help, identify which route matches it and preserve questions that need verification.
+      Do not infer that one provider serves every kind of betrayal.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A recipient accepts help finding a service, then asks the helper not to send the prepared message.
+      Does the earlier agreement authorize sending?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'The independent privacy route fits the requested procedural help; counseling may be an optional
+      separate need after scope is checked. Later fiction: Ren saves the public route but chooses not
+      to submit. No complaint or recovery occurred. Partial: locate help but imply a duty to use it. Incorrect:
+      contact the person who breached privacy or promise absolute secrecy without knowing applicable limits.'
+    criteria:
+    - Help matches the stated need
+    - Permission is task-specific and revisable
+    - Unknown service and confidentiality details stay unknown
+  - id: changed-case-check
+    title: Check the changed case
+    body: No. Respect the current choice within actual legal/safety duties; preserve the unsent draft
+      and explain any genuine limit honestly rather than inventing one. Finding a route is not permission
+      to disclose.
+    criteria:
+    - Help matches the stated need
+    - Permission is task-specific and revisable
+    - Unknown service and confidentiality details stay unknown

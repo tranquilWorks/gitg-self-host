@@ -4,7 +4,7 @@ Supplied fiction. Open after saving your first attempt. These invented events ar
 
 ## Remembered once, inconvenient once
 
-In the supplied week-later record, the bag was used once for dry books. On the next trip it was left in its drying place and forgotten. The learner spent **8 active minutes** finding and relocating it later; this is a separate later burden, not a replacement for the original 4-minute care log. Total recorded active effort across the two entries is **12 minutes**. No number of disposable bags avoided was measured.
+In the supplied week-later record, the bag was used once for dry books. After that use, an ordinary dirt mark prompted another label-consistent wipe. Its active duration was not recorded. On the next trip it was still in its unobstructed drying place and forgotten. The learner spent **8 active minutes** finding and relocating it later; this is a separate later burden, not a replacement for the original 4-minute care log. The two timed entries total **12 minutes**; the additional untimed wipe means full active effort is greater and unknown. No number of disposable bags avoided was measured.
 
 The first proposed storage hook obstructed another person's shelf access. That person declined the change. The learner instead selected an existing free shelf space after agreement, without buying a hook or shifting the obstruction elsewhere. Whether this improves the next trip is still unknown.
 

@@ -112,7 +112,9 @@ class IntegrityTests(unittest.TestCase):
                 if clinical:
                     self.assertIn(entry["professional_boundary"], doc(entry["id"], name))
                 else:
-                    self.assertIn("no professional_boundary field", doc(entry["id"], name))
+                    (self.assertNotIn if name == "learner-guide.md" else self.assertIn)(
+                        "no professional_boundary field", doc(entry["id"], name)
+                    )
             expected_evidence = (
                 ["self_report", "behavioral_adherence", "observer_feedback", "longitudinal_review"]
                 if clinical

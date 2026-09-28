@@ -48,8 +48,8 @@ Use large-print cards or spoken candidate/status pairs; accessibility does not r
 
 [IHI's testing-changes guidance, S03](../SOURCES.md#S03), supports small planned tests, observation, comparison with predictions and revision. Healthcare examples and any permission to bypass approval are not imported. The four file sets are original and do not validate a production improvement.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-The canonical record has no professional_boundary field. These practical safeguards do not add canonical metadata. Applicability remains context_sensitive; normative status remains cross_tradition_core_or_broadly_recurrent. Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Human dignity is never scored.
+Paid employment, a role change or public disclosure is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private. Human dignity is never scored.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and attempt the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

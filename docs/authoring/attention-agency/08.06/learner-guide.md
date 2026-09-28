@@ -16,14 +16,12 @@ Avery chooses a three-minute limit for each window. The usual condition has no a
 2. In the separate second window, use the one chosen cue under suitable conditions. A visible card is not a performed action. If care or capacity requires deferral, preserve that status instead of marking it a failed attempt or inventing work. Save the plan before the [comparison record](later-packet.md).
 3. By day seven distinguish both windows, count only known actual starts from zero to two, and choose whether to keep the cue, adjust it later or defer the practice. Missing observations remain unknown; a known deferral is not proof of an attempted failure. Do not turn a comparison into a demand for two starts regardless of health.
 
-The application's existing typed fields, permitted values and completion criteria remain unchanged. Private fictional notes here do not populate them. A summary of one actual start plus a deferred second opportunity is not a claim that the two-start target or practice completion was met. No reward for endurance or quantity is added.
+ Keep fictional notes separate from a record of your actual attempt. A summary of one actual start plus a deferred second opportunity is not a claim that the two-start target or practice completion was met. No reward for endurance or quantity is added.
 
 For support, use dictation, an accessible editor or the supplied fiction. The existing accessibility adaptations also permit reduced duration and support; record the actual adapted step and its limitation rather than silently calling it the standard two-to-five-minute start. For a harder case, the cue is noticed while an urgent duty needs attention: honor that duty and record the opportunity accurately. Persistent loss of motivation with impaired functioning merits appropriate qualified support. Later repeated starts can inform usefulness, but this small comparison cannot establish a durable habit, recovery or unlimited capacity.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

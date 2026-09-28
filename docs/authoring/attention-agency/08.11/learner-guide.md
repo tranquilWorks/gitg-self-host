@@ -22,10 +22,8 @@ For support, use the complete fictional note without changing a real rule. For a
 
 Later transfer should ask whether the revised structure supports meaningful action while leaving rest and ordinary imperfection possible. Keeping a useful rule, retiring an unnecessary one or pausing the experiment are all possible outcomes. One small note test cannot establish recovery from perfectionism or a wholly undominated life.
 
-## Scope and evidence boundary
-
-The canonical record has no professional_boundary field; its absence is preserved.
+## Use the result at its proper scale
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

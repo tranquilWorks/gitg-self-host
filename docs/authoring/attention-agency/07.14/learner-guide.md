@@ -1,5 +1,9 @@
 # 07.14 — Chronic dysregulation and skill generalization
 
+## A bounded next context
+
+After the two scheduling contexts, try the method only in an ordinary manageable delay. Supplied practice: a routine service queue is moving slowly, your nonurgent question can wait, and leaving to return another day is allowed. One option is to write the exact question and choose whether to remain; another is to ask the desk politely about an estimated wait, accepting that it may be unknown. Compare these with the earlier rereading and pause strategies: a spoken pause needs another person’s cooperation, whereas writing your question need not. Name the actual cue, chosen strategy and observed effect without requiring calm. For live transfer, keep the question low stakes, retain a stop option and compare a later naturally occurring opportunity; do not manufacture distress or generalize to crisis regulation.
+
 ## Carry a strategy into a second ordinary setting
 
 A skill that works only in a quiet room may be unavailable during a conversation or under time pressure. Generalization means trying a suitable strategy across naturally occurring contexts and noticing its limits. It does not mean making yourself more distressed to prove resilience. Keep existing treatment, medication and safety plans intact.
@@ -22,10 +26,10 @@ The worked desk answer is “Thursday afternoon.” The worked spoken answer is 
 
 For support, rehearse both requests alone using dictation or large print. For a harder case, the partner cannot pause: respect that, seek a later suitable moment and keep required access needs clear. Switching strategies is allowed; pushing through worsening is not a success condition. A real later review should include more than one strategy and context before claiming broader usefulness. Four fictional uses do not establish durable regulation across relationships or high stress.
 
-## Scope and evidence boundary
+## Use the result at its proper scale
 
-Canonical professional boundary (unchanged): Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
+Not therapy or diagnosis; severe or persistent symptoms require qualified mental-health or medical care.
 
 Fiction and no attempt are legitimate. Subjective ratings, source exercises and completion do not diagnose, establish mastery or score human dignity. Actual situations require appropriate access, consent, authority and support.
 
-Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. No runtime action, evidence field, scoring or completion rule changes. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their [corrective answers](check-answers.md).
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

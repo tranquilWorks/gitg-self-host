@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "02.09",
+  "title": "Respond humanely to a minor wrong without erasing a boundary",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Compassion recognizes another person’s humanity; accountability identifies action and repair; forgiveness is a freely chosen relation to the wrong. None automatically restores access, trust or a loan privilege."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "A book owner finds a torn removable cover after a loan. Borrower acknowledges the accidental tear and offers the agreed replacement cover costing 3 units. Owner wants the cover replaced and future lending paused. No other damage or malicious intention is supplied; private communication is welcome."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Write a humane response preserving truth, the repair request and the lending limit. Distinguish these from humiliation or a demand for emotional reassurance.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "An owner refuses a new loan while speaking respectfully and seeking no revenge. Does that alone prove a failure to forgive?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Accept or discuss the proportionate cover repair and state the future lending limit without an insult. Later fiction: the cover is replaced; the owner still declines another loan. Repair occurred, trust restoration is not established. Partial: be kind but omit the actual boundary. Incorrect: publish the borrower’s private details or demand an expensive unrelated gift.",
+      "criteria": [
+        "Humanity and accountability coexist",
+        "Repair is proportionate to supplied harm",
+        "Boundaries do not require restored trust"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. A lending boundary can remain even if forgiveness is freely chosen. The record cannot diagnose the owner’s internal state from the refusal alone.",
+      "criteria": [
+        "Humanity and accountability coexist",
+        "Repair is proportionate to supplied harm",
+        "Boundaries do not require restored trust"
+      ]
+    }
+  ]
+}

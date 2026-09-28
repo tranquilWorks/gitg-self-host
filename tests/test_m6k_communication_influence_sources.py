@@ -81,7 +81,7 @@ class IntegrityTests(unittest.TestCase):
             "follow_up_within_seven_days", actions[-1]["evidence_rules"]["primary_markers"]
         )
         self.assertIn("existing seven-day follow-up", doc("16.03"))
-        self.assertIn("app's original fields", doc("16.03"))
+        self.assertIn("Record only what you actually observed", doc("16.03"))
 
     def test_five_complete_files_and_three_separate_checks_per_id(self):
         for cid in IDS:

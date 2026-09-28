@@ -1,0 +1,429 @@
+schema_version: GG-PRACTICE-CONTENT-1.0
+protocol_version: 0.2.0
+stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01
+slug: c1301-independent-living-administration-practice
+name: Build and test a small life-administration inbox
+parent_competency_id: '13.01'
+domain_id: '13'
+governance:
+  availability: active
+  editorial_status: draft
+  runtime_projection: GG-PRACTICE-RUNTIME-PROJECTION-2.0
+  risk_class_id: RISK-MODERATE
+  scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+  scoring_status: active
+  source_ids:
+  - SRC-CANONICAL-CURRICULUM-V2
+  authoring:
+    provenance: M6J individually authored exercise for 13.01; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
+    content_review_status: pending
+    research_review_status: internal_sources_only_external_review_required
+    safety_review_status: pending
+    accessibility_review_status: pending
+    originality_review_status: pending
+    ui_test_status: not_applicable
+    last_reviewed: null
+    known_gap_ids:
+    - RG-M6A-001
+    - RG-M6A-002
+    expert_review_ids:
+    - ER-M6A-003
+  legacy_compatibility_exceptions: []
+  deprecation:
+    deprecated: false
+    replaced_by: null
+meaning_and_fit:
+  purpose: Retrieve an essential record and handle one obligation before it becomes a crisis.
+  why_recommended: Retrieve an essential record and handle one obligation before it becomes a crisis.
+  claims:
+  - statement: Retrieve an essential record and handle one obligation before it becomes a crisis.
+    classification: product_design_judgment
+    source_ids:
+    - SRC-CANONICAL-CURRICULUM-V2
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  applicability_question: Does a voluntary, bounded Independent-living administration practice fit the
+    person's current role, pathway, capacity, authority, resources, and safety conditions?
+  not_applicable_behavior: Record Independent-living administration as not applicable, consciously unchosen,
+    or deferred without penalty when the role, pathway, capacity, authority, opportunity, or safe context
+    is absent.
+  readiness_considerations: Use a single envelope and paper calendar, dictation, translated labels or
+    a trusted supporter. If documents are inaccessible, work with fictional appointment and renewal notices;
+    this tests the system rather than resolving the real obligation.
+  opportunity_considerations: Use three non-sensitive examples of mail, appointments, forms or renewals,
+    a folder or envelope, and a calendar you already use. Keep identity numbers and document contents
+    out of the application.
+  prerequisites:
+  - Use three non-sensitive examples of mail, appointments, forms or renewals, a folder or envelope, and
+    a calendar you already use. Keep identity numbers and document contents out of the application.
+  dependencies: []
+  safe_alternatives:
+  - Use a single envelope and paper calendar, dictation, translated labels or a trusted supporter. If
+    documents are inaccessible, work with fictional appointment and renewal notices; this tests the system
+    rather than resolving the real obligation.
+  role_conditions:
+  - This competency is context sensitive; roles, duties, and authority must be explicitly chosen or actually
+    held before the practice applies.
+  pathway_conditions:
+  - Religious, secular, cultural, disability-adapted, collective, and individual pathways may express
+    Independent-living administration differently while preserving consent, evidence limits, safety, and
+    equal dignity.
+  worldview_conditions:
+  - The practice does not require one worldview or treat disagreement about Independent-living administration
+    as inferiority; competing reasonable interpretations and conscientious refusal remain visible.
+intervention:
+  protocol_class: PF-AUDIT-REDESIGN
+  duration_days: 10
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'Use three non-sensitive examples of mail, appointments, forms or renewals, a folder or envelope,
+    and a calendar you already use. Keep identity numbers and document contents out of the application.
+    Goal: Retrieve an essential record and handle one obligation before it becomes a crisis. Scope: Three
+    obligations test capture, action and retrieval. A complete administration system also needs secure
+    records, recurring renewals and handling of complex obligations over time. Time and effort: About
+    30 minutes to sort and handle an item, then 5 minutes for a separate retrieval check. Adaptation:
+    Use a single envelope and paper calendar, dictation, translated labels or a trusted supporter. If
+    documents are inaccessible, work with fictional appointment and renewal notices; this tests the system
+    rather than resolving the real obligation. Keep personal working notes outside the check-in; record
+    only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Use a single envelope and paper calendar, dictation, translated labels or a trusted
+    supporter. If documents are inaccessible, work with fictional appointment and renewal notices; this
+    tests the system rather than resolving the real obligation.
+  expected_burden: About 30 minutes to sort and handle an item, then 5 minutes for a separate retrieval
+    check.
+  action_count_rationale: null
+  foreseeable_misuse:
+  - Using the Independent-living administration protocol to rank worth, coerce participation, demand disclosure,
+    override rest or care, certify competence, or justify decisions beyond the recorded context.
+  - Treating a completed Independent-living administration action, a polished artifact, agreement, confidence,
+    speed, independence, or output as mastery or universal transfer.
+  exclusions:
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Use a single
+    envelope and paper calendar, dictation, translated labels or a trusted supporter. If documents are
+    inaccessible, work with fictional appointment and renewal notices; this tests the system rather than
+    resolving the real obligation.
+  actions:
+  - stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01-A1
+    sequence: 1
+    title: Sort three obligations by next action
+    instructions: 'For each item identify the sender, required action, due date, and where confirmation
+      will be kept. Use these categories: act, waiting for someone, keep as a record, or safely discard.
+      Example: an appointment letter needs a calendar entry, travel preparation, and a confirmation location;
+      it is not merely a document to file.
+
+
+      Observation checks: Three items have next actions; Dates or absence of a deadline are explicit;
+      Sensitive contents remain private. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 3
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01
+      action_stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01-A1
+      competency_stable_id: '13.01'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c1301_a1_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c1301_a1_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - three_items_have_next_actions
+        - dates_or_absence_of_a_deadline_are_explicit
+        - sensitive_contents_remain_private
+      - measurement_id: c1301_a1_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c1301_a1_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01-A2
+    sequence: 2
+    title: Complete one action and file its proof
+    instructions: 'Handle the smallest due item within your authority: confirm an appointment, cancel
+      an unwanted reminder, or prepare a form for checking. Store the confirmation in one named location
+      and record the next dependency. Do not submit a legal or financial form whose meaning you do not
+      understand.
+
+
+      Observation checks: One authorized action is completed; Confirmation has a retrieval location; The
+      next dependency is identified. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 7
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01
+      action_stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01-A2
+      competency_stable_id: '13.01'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c1301_a2_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c1301_a2_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - one_authorized_action_is_completed
+        - confirmation_has_a_retrieval_location
+        - the_next_dependency_is_identified
+      - measurement_id: c1301_a2_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c1301_a2_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01-A3
+    sequence: 3
+    title: Test retrieval and the next review
+    instructions: 'After putting the materials away, find the confirmation and next deadline without reconstructing
+      the whole process. Check whether another reminder is necessary and reserve a short recurring inbox
+      review. If retrieval fails, rename or simplify the folder before adding more records.
+
+
+      Observation checks: The confirmation can be found; The deadline can be found; A sustainable review
+      cue is chosen. Mark only what you observed. Missing, mixed and negative results are valid; a deferred
+      action is not completed.
+
+
+      Final review: Which obligation became easier to act on, and where could an item still disappear?
+
+
+      Examples: Supportive: An appointment was confirmed and its confirmation and travel reminder were
+      found on the next check.
+
+
+      Mixed: The records are searchable but the calendar reminder was set for the wrong day.
+
+
+      Contradictory: Sensitive identification details were copied into a shared task list or an unread
+      form was submitted.
+
+
+      Inconclusive: Folders were created but no obligation was handled or retrieved.'
+    expected_time: 15-25 minutes
+    due_within_days: 10
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01
+      action_stable_id: PRACTICE-COMP-1301-INDEPENDENT-LIVING-ADMINISTRATION-01-A3
+      competency_stable_id: '13.01'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c1301_a3_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c1301_a3_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - the_confirmation_can_be_found
+        - the_deadline_can_be_found
+        - a_sustainable_review_cue_is_chosen
+      - measurement_id: c1301_a3_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c1301_a3_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  adaptations:
+    low_resource:
+    - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
+      Independent-living administration; no purchase, subscription, travel, credential, or public artifact
+      is required.
+    accessibility:
+    - Use a single envelope and paper calendar, dictation, translated labels or a trusted supporter. If
+      documents are inaccessible, work with fictional appointment and renewal notices; this tests the
+      system rather than resolving the real obligation.
+    cultural_context:
+    - Adapt the expression of Independent-living administration to direct or indirect communication, collective
+      or individual decision structures, local norms, faith or secular commitments, and role obligations
+      while preserving consent and dignity.
+    resource_variants:
+    - Use a single envelope and paper calendar, dictation, translated labels or a trusted supporter. If
+      documents are inaccessible, work with fictional appointment and renewal notices; this tests the
+      system rather than resolving the real obligation.
+  pause_conditions:
+  - Pause Independent-living administration when capacity, consent, authority, privacy, access, care duties,
+    uncertainty, distress, fatigue, pain, resource scarcity, or changed circumstances make the next action
+    unwise.
+  stop_conditions:
+  - Stop the Independent-living administration practice for harm, coercion, retaliation risk, emergency
+    conditions, unsafe exposure, worsening symptoms, protected information, legal or policy conflict,
+    or pressure to exceed the stated boundary.
+  escalation_conditions:
+  - Use the appropriate local safeguarding, emergency, organizational, legal, medical, financial, accessibility,
+    or other qualified channel when a Independent-living administration situation exceeds a voluntary
+    low-stakes practice.
+  professional_referral_conditions:
+  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
+    practice.
+evidence_and_scoring:
+  accepted_evidence_types:
+  - structured criteria observations for the bounded Independent-living administration actions
+  - explicit contradiction, adverse, defer, not-applicable, and unknown states
+  observation_contract_version: typed-evidence-rules-v1
+  check_in_fields:
+  - c1301_a1_primary
+  - c1301_a1_boundary
+  - c1301_a1_adverse
+  - c1301_a2_primary
+  - c1301_a2_boundary
+  - c1301_a2_adverse
+  - c1301_a3_primary
+  - c1301_a3_boundary
+  - c1301_a3_adverse
+  adverse_or_contradictory_indicators:
+  - Sensitive identification details were copied into a shared task list or an unread form was submitted.
+  independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
+    for Independent-living administration explicitly; support can enable access and never reduces dignity
+    or silently changes the typed value.
+  context_transfer_rule: Evidence remains limited to the chosen Independent-living administration context,
+    action, role, pathway, and assessment epoch; it does not establish cross-context reliability.
+  repetition_rule: Each Independent-living administration observation requires a distinct immutable origin;
+    duplicate origins are rejected and later repetitions use the typed contract's explicit diminishing
+    multipliers.
+  recency_rule: Generated Independent-living administration rules withhold observations older than 90
+    days; no unrecorded retention or carry-forward assumption applies.
+  performance_rubric: 'Action 1: Sort three obligations by next action. Observed checks: Three items have
+    next actions; Dates or absence of a deadline are explicit; Sensitive contents remain private. Action
+    2: Complete one action and file its proof. Observed checks: One authorized action is completed; Confirmation
+    has a retrieval location; The next dependency is identified. Action 3: Test retrieval and the next
+    review. Observed checks: The confirmation can be found; The deadline can be found; A sustainable review
+    cue is chosen.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. Folders were created but no obligation was handled
+    or retrieved.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
+  competency_contribution: Designated primary measurements may produce one context-bound direct Independent-living
+    administration contribution under typed evaluation; protocol performance remains distinct and is never
+    counted twice.
+  canonical_lever_allocation: parent_competency_mapping
+  recommendation_target_lever_ids:
+  - L10
+  - L18
+  - L21
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
+  withholding_conditions:
+  - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
+    or adverse Independent-living administration evidence.
+  - Withhold any record containing private narrative, artifact contents, another person's identity, unsupported
+    inference, or evidence outside its assessment epoch.
+completion_and_review:
+  completion_criteria:
+  - 'Action 1: Sort three obligations by next action. Observed checks: Three items have next actions;
+    Dates or absence of a deadline are explicit; Sensitive contents remain private.'
+  - 'Action 2: Complete one action and file its proof. Observed checks: One authorized action is completed;
+    Confirmation has a retrieval location; The next dependency is identified.'
+  - 'Action 3: Test retrieval and the next review. Observed checks: The confirmation can be found; The
+    deadline can be found; A sustainable review cue is chosen.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
+  completion_rules:
+    minimum_completed: 2
+    substantive_markers:
+    - c1301_a1_primary
+    - c1301_a2_primary
+    - c1301_a3_primary
+    marker_mode: any
+  mastery_disclaimer: Completing this practice does not establish mastery.
+  progression_criteria: Which obligation became easier to act on, and where could an item still disappear?
+  transfer_limit: Three obligations test capture, action and retrieval. A complete administration system
+    also needs secure records, recurring renewals and handling of complex obligations over time.
+  reflection:
+    before: 'What would count as doing this honestly? Goal: Retrieve an essential record and handle one
+      obligation before it becomes a crisis.'
+    during: Which checks have actually been observed? The records are searchable but the calendar reminder
+      was set for the wrong day.
+    after: Which obligation became easier to act on, and where could an item still disappear?
+  review_guidance:
+    repeat: Repeat the same bounded Independent-living administration design only when the context and
+      burden remain appropriate.
+    adapt: Use a single envelope and paper calendar, dictation, translated labels or a trusted supporter.
+      If documents are inaccessible, work with fictional appointment and renewal notices; this tests the
+      system rather than resolving the real obligation.
+    stop: Stop Independent-living administration when the practice becomes coercive, unsafe, privacy-invasive,
+      role-inappropriate, professionally restricted, or harmful.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
+  evidence_examples:
+    supportive: An appointment was confirmed and its confirmation and travel reminder were found on the
+      next check.
+    mixed: The records are searchable but the calendar reminder was set for the wrong day.
+    contradictory: Sensitive identification details were copied into a shared task list or an unread form
+      was submitted.
+    inconclusive: Folders were created but no obligation was handled or retrieved.
+presentation:
+  setup_copy:
+    context_heading: Build and test a small life-administration inbox
+    boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
+    applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Independent-living
+      administration.
+  check_in_labels:
+    c1301_a1_primary: 'Observed checks: sort three obligations by next action'
+    c1301_a1_boundary: Action 1 stayed inside its stated Independent-living administration boundary
+    c1301_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
+    c1301_a2_primary: 'Observed checks: complete one action and file its proof'
+    c1301_a2_boundary: Action 2 stayed inside its stated Independent-living administration boundary
+    c1301_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
+    c1301_a3_primary: 'Observed checks: test retrieval and the next review'
+    c1301_a3_boundary: Action 3 stayed inside its stated Independent-living administration boundary
+    c1301_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
+  completion_copy: Which obligation became easier to act on, and where could an item still disappear?
+    Completion is not mastery.
+  plain_language_evidence: An appointment was confirmed and its confirmation and travel reminder were
+    found on the next check.
+  display_order: 162

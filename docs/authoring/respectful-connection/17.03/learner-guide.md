@@ -18,7 +18,7 @@ Depth does not require a traumatic disclosure. A hobby goal, a busy season, good
 
 **A3, Follow up:** within seven days, refer to something the person actually shared and ask how it developed. The existing seven-day follow-up remains intact. A follow-up can welcome ordinary news without demanding progress or explanation. Set yourself a private reminder that contains no sensitive detail.
 
-Use the app's original fields honestly; this companion adds no evidence field, completion rule or score. In particular, user initiation does not establish reciprocity, and a specific proposal does not establish the original “future interaction scheduled” marker. Internal resistance, expected reciprocity and observed reciprocity remain separate. Completing the practice never establishes mastery or the quality of the friendship.
+Keep the account of actual contact honest and minimal. In particular, user initiation does not establish reciprocity, and a specific proposal does not establish the original “future interaction scheduled” marker. Internal resistance, expected reciprocity and observed reciprocity remain separate. Completing the practice never establishes mastery or the quality of the friendship.
 
 ## Worked example: interest without an invoice
 

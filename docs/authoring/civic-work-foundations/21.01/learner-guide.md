@@ -46,9 +46,10 @@ For actual transfer, use public or permitted information and a willing contact. 
 
 [ILO's decent-work overview, S07](../SOURCES.md#S07), includes productive work, income, security, development, voice and fair treatment. It supports considering conditions beyond status; it is not a role-ranking algorithm or career prediction. The eight-criterion comparison comes from canonical scope, and all options, numbers and later responses are original fiction.
 
+## Use the result at its proper scale
 
-## Scope and evidence boundary
+The practical limits in this guide are exercise safeguards, not added canonical metadata.
 
-The canonical record has no professional_boundary field. The practical limits in this guide are exercise safeguards, not added canonical metadata.
+Paid employment, a career change or a particular work role is not compulsory. Fiction and no attempt are legitimate. Keep private or protected records private.
 
-Canonical applicability is context_sensitive. Paid employment, a career change or a particular work role is not compulsory. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

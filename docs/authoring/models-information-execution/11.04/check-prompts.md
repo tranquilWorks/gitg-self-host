@@ -13,3 +13,9 @@ Identify the dependency cycle and the missing external evidence separately. Repa
 A paper-index project uses A=5 minutes, B=10, C=5, D=5, E=5. A has no prerequisites; B and C require A; D requires both B and C; E requires D. Tasks cannot be interrupted, and transitions take zero minutes in this toy calculation.
 
 List all valid task orders for a single worker. Calculate total active work and the earliest possible completion with enough independent workers. Now B is revised to 8 minutes while all other facts stay fixed; recalculate both figures. Explain why the dependency graph does not, on its own, establish the availability of multiple workers or validate the duration estimates.
+
+## Changed-case attempt
+
+Save your response before opening the matching answer. This is a new fictional case.
+
+A task network has A=6 minutes and B=9 minutes that can run independently. C=4 minutes requires both A and B. One person must actively perform every task; no task can run unattended. Contrast the logical dependency lower bound with the one-person feasible duration.

@@ -46,9 +46,10 @@ Transfer remains a source-based or fictional analysis. Real civil-disobedience d
 
 [Stanford's King Institute entry, S03](../SOURCES.md#S03), places King's letter within the historical Birmingham campaign and explains his distinction between justice and simply obeying imposed restrictions. The institutional entry and its excerpts were read, not the full letter or the cited books. It supplies historical context, not a complete theory or current legal advice. All Cedar facts and comparison questions are original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Political and civic education only; protest, civil disobedience, and legal rights are jurisdiction-specific and can involve serious risk.
 
-Canonical applicability is cross_context_core. Civic learning does not require political belief, affiliation, public disclosure or participation. Normative status remains cross_tradition_core_or_broadly_recurrent. Fiction and no attempt are legitimate. Keep private or protected records outside app evidence. Formal M6K A/B/C, independent cold-start, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md), and try the [fresh checks](check-prompts.md) before the answers.
+Civic learning does not require political belief, affiliation, public disclosure or participation. Fiction and no attempt are legitimate. Keep private or protected records private.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

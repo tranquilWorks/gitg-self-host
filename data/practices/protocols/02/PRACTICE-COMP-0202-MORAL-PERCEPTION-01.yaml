@@ -52,11 +52,15 @@ meaning_and_fit:
     event. Publishing is unnecessary; this exercise tests pre-publication judgment.
   opportunity_considerations: Draft a fictional notice thanking people after a shared event. Decide whether
     to name helpers, use a group photograph and describe the event as a success. Do not upload an actual
-    photograph or identifying details.
+    photograph or identifying details. The learning guide contains a complete fictional practice and a
+    separate changed-case check. Choose that route when a real situation is unavailable; its results are
+    rehearsal, not performed real-world work.
   prerequisites:
   - Draft a fictional notice thanking people after a shared event. Decide whether to name helpers, use
     a group photograph and describe the event as a success. Do not upload an actual photograph or identifying
-    details.
+    details. The learning guide contains a complete fictional practice and a separate changed-case check.
+    Choose that route when a real situation is unavailable; its results are rehearsal, not performed real-world
+    work.
   dependencies: []
   safe_alternatives:
   - Use an audio announcement or a purely fictional school, neighborhood or club event. Publishing is
@@ -77,8 +81,10 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Draft a fictional notice thanking people after a shared event. Decide whether to name helpers,
     use a group photograph and describe the event as a success. Do not upload an actual photograph or
-    identifying details. Goal: Recognize consent, fairness, truth and power before making a small public
-    or shared communication. Scope: One announcement practices noticing ethical dimensions before publication.
+    identifying details. The learning guide contains a complete fictional practice and a separate changed-case
+    check. Choose that route when a real situation is unavailable; its results are rehearsal, not performed
+    real-world work. Goal: Recognize consent, fairness, truth and power before making a small public or
+    shared communication. Scope: One announcement practices noticing ethical dimensions before publication.
     Moral perception in other settings requires further observation and contextual judgment. Time and
     effort: About 20 minutes to draft, inspect and revise one short notice. Adaptation: Use an audio announcement
     or a purely fictional school, neighborhood or club event. Publishing is unnecessary; this exercise
@@ -410,3 +416,57 @@ presentation:
     not mastery.
   plain_language_evidence: The revision credited preparation work and omitted an unapproved photograph.
   display_order: 22
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '02.02'
+  title: Notice the ethical choices inside an ordinary announcement
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: An ordinary announcement can affect truth, consent, recognition and the use of a shared resource.
+      A positive intention does not establish permission or evidence for its claims.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: Event record:18 people attended in a 24-seat room. Kim prepared materials remotely and permits
+      first-name thanks in a private group message only. Ari hosted and permits the same. Bea attended
+      but declines photographs. No consent to a public group photograph exists. The organizers recorded
+      no participant satisfaction data. The draft says “A full house loved our perfect event—photo attached.”
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Produce a private thank-you notice from the record, then mark truth, consent, fairness and stewardship
+      decisions. Specify what would need checking before any public version.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A volunteer permits a name in an internal report but not social media. A public post says “everyone
+      agreed.” What must change?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'A suitable private notice thanks Kim’s preparation and Ari’s hosting and accurately says 18
+      attended if attendance is relevant. Omit the photo and unsupported enjoyment/perfection claims.
+      Public names need new permission. Partial: fix attendance but omit remote labor. Incorrect: infer
+      photograph consent from attendance or enjoyment from turnout. Later fiction: both named helpers
+      approve the private wording; no public permission arrives.'
+    criteria:
+    - Factual claims have a supplied basis
+    - Permission matches the actual audience
+    - Less visible contributions are considered
+  - id: changed-case-check
+    title: Check the changed case
+    body: Remove the unsupported consensus and the unpermitted naming; ask about a separately scoped public
+      use if appropriate. Permission to one audience does not establish permission to another.
+    criteria:
+    - Factual claims have a supplied basis
+    - Permission matches the actual audience
+    - Less visible contributions are considered

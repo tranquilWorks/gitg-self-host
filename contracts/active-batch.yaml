@@ -1,68 +1,74 @@
 schema_version: 1
 batch:
-  id: M6K-CATALOG-QUALITY-AUDIT-20260927
-  title: Audit all 383 competency sources against original quality corrections
-  goal: Produce a revision-bound per-competency quality and distinctness evidence audit, report defects candidly, and distinguish documentary coverage from independently demonstrated instructional quality.
+  id: M6K-CATALOG-EDITORIAL-REMEDIATION-20260927
+  title: Repair all 383 competency sources in at most five editorial passes
+  goal: Resolve evidenced editorial defects and verify complete contextual materials against the original
+    criteria without inventing independent, qualified or participant acceptance.
 sources:
-  product: products/gitg-self-host/product.yaml
+  baseline_commit: 5bf1f629d7419ed320042eca0f3547a5f11508b6
+  owner_instruction: All competencies fully up to par; editorial follow-up and blocker removal; maximum
+    five passes.
   requirements:
-  - docs/plans/m6k/README.md
-  - docs/plans/m6k/AUDIT.md
+  - docs/plans/m6k/program.json
   - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/plans/m6k/REVIEW_IMPLEMENTATION.md
-  - docs/authoring/quality/ledger.json
-  milestone: M6K-CATALOG-QUALITY-AUDIT
-  baseline_commit: 8377d21e348eda14dd5e66153637293aeaca1a5b
-dependencies:
-- PR-103-merged
+  - docs/authoring/catalog-quality-audit-20260927/README.md
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
-  - docs/authoring/catalog-quality-audit-20260927/**
-  - docs/evidence/M6K-CATALOG-QUALITY-AUDIT-20260927.md
+  - docs/authoring/**
+  - docs/evidence/M6K-CATALOG-EDITORIAL-REMEDIATION-20260927.md
+  - docs/PROJECT_HANDOFF.md
+  - docs/plans/m6k/runtime-projections.json
+  - data/practices/protocols/**
+  - data/practices/release_manifest.yaml
+  - data/practices/registries/source_registry.yaml
+  - reports/practice-content/**
+  - tests/test_m6k_*sources.py
+  - tests/test_tailored_practice_authoring.py
   - MANIFEST.tsv
   forbidden_paths:
-  - data/**
+  - docs/authoring/catalog-quality-audit-20260927/**
+  - docs/authoring/quality/ledger.json
+  - docs/authoring/quality/*/receipts/**
+  - docs/plans/m6k/recovery/**
+  - data/curriculum/**
+  - data/assessment/**
+  - data/model/**
+  - data/practices/registries/activation_ledger.yaml
   - growth/**
   - grounded_growth/**
   - templates/**
   - scripts/**
-  - tests/**
-  - docs/authoring/exercises/**
-  - docs/authoring/quality/**
-  - docs/plans/m6k/**
-  - requirements*.txt
-  - pyproject.toml
-  - Dockerfile
-  - docker-compose.yml
   - .github/**
 acceptance:
-- Cover every canonical competency with exact source identity, domain, evidence and current-review status; do not infer professional quality from coverage, uniqueness, length or tests.
-- Separate mechanical checks, direct full-primary reading, targeted excerpt inspection, independent cold-start, actual learner, qualified and owner acceptance.
-- Audit the original five correction examples and record reproducible material defects with exact source anchors.
-- Compare source text for duplication and retain contextual evidence without claiming proof of independent authorship or plagiarism clearance.
-- Do not revise lessons, runtime packages, formal review receipts, scoring or completion semantics as part of the audit.
-- Application, browser, Compose and CI/CD remain deferred under the standing source-quality instruction, not passed. No deployment or merge-protection bypass.
+- Track at most five complete editorial passes with exact per-competency repairs and verification; do
+  not equate follow-up closure with formal acceptance.
+- Preserve all 383 stable protocol IDs, 1151 action IDs, canonical definitions, mappings, activation,
+  scoring/completion and historical replay.
+- No changes to frozen legacy packages or retained evidence rules; no runtime projection of the 275 companions
+  in this content-quality scope.
+- Retain original audit as a historical snapshot; superseding source changes make its current-tree hash
+  checks stale by design.
+- Keep source-only, simulated, desk, actual learner, qualified and owner evidence separate.
+- Use existing source tests; revise literal wording checks only to enforce the corrected substantive requirement,
+  never waive a failing gate.
+- Application/browser/Compose/CI/CD remain deferred under the standing content priority.
 validation:
   local:
-  - python docs/authoring/catalog-quality-audit-20260927/verify.py
-  - python scripts/verify-manifest.py
+  - source unit suite
+  - tailored authoring deterministic check
+  - catalog and recovery invariants
+  - remediation per-ID verification
+  - manifest verification
   - git diff --check
   required_ci: []
-  focused_tests_to_add: []
 risk:
   class: moderate
-  hazards:
-  - Audit coverage mistaken for full semantic acceptance or independent professional review
-  - Textual differences mistaken for proof of independent creation
-  - Mechanical source tests mistaken for learner or clinical evidence
   stop_conditions:
-  - Protected source drift
-  - Missing or duplicated canonical IDs in the report
-  - Unsupported pass or review provenance claim
-rollback:
-  strategy: Remove the audit-only artifacts and restore the preceding contract; no curriculum or runtime change.
+  - Unexplained protected source drift
+  - A sixth editorial pass
+  - Fabricated acceptance or hidden unresolved defect
 evidence:
   output:
-  - docs/evidence/M6K-CATALOG-QUALITY-AUDIT-20260927.md
-  claim_boundary: Documentary and editorial audit only. Exact review depth is recorded per competency. No blinded, participant, qualified or owner acceptance is invented.
+  - docs/authoring/catalog-remediation-20260927/README.md
+  - docs/evidence/M6K-CATALOG-EDITORIAL-REMEDIATION-20260927.md

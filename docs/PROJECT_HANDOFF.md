@@ -1,5 +1,29 @@
 # Grounded Growth — Project Handoff
 
+## Catalog editorial remediation — 28 September 2026
+
+The owner authorized all 383 competency sources to be repaired in at most five
+editorial passes. The follow-up repairs 310 entries and retains 73 with no source
+change. See [the report](authoring/catalog-remediation-20260927/README.md),
+[all dispositions](authoring/catalog-remediation-20260927/catalog.csv), and
+[evidence](evidence/M6K-CATALOG-EDITORIAL-REMEDIATION-20260927.md).
+
+Ninety older lessons gained complete structured materials and separate checks;
+101 runtime source packages changed within the existing 108 implemented set.
+There are 107 structured lessons; 13.16 remains compact. The 275 source companions
+are not newly projected, and their runtime packages remain byte-identical.
+All 383 IDs, 1,151 actions, canonical mapping, activation, scoring and evidence
+rules remain protected. The original audit is immutable at `5bf1f62`.
+
+Source tests: 1,234 passed; compiler/source tests: 3 passed, 16 application tests
+deselected under the standing source priority. Recovery permits only declared
+prospective content. Formal quality passes remain zero. Independent learner-only,
+actual learner, qualified and owner acceptance remain open; the report does not
+certify independent creation, mastery or intervention validity. Browser,
+application/Compose/CI/CD, deployment and participant exposure remain deferred.
+The next evidence stage is a genuinely separate learner-only and appropriate
+qualified review of these exact artifacts, not another automatic editorial sweep.
+
 ## Guided-learning runtime cohort — 9 September 2026
 
 The post-PR #76 continuation authors **10.12 Apprenticeship and tacit knowledge**,

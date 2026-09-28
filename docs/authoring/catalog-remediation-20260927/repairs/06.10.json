@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "06.10",
+  "title": "Preserve dignity and connection when a valued role changes",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Belonging need not be earned through productivity or inspiring others. A changed role can involve real grief while ordinary connection remains welcome without a substitute performance."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Fictional former organizer receives two invitations. A: “Come for tea Wednesday 15:00 for 20 minutes; no tasks or story needed, and leaving early is fine.” B: “You are always welcome if you mentor two new members each week and tell us how you overcame this.” The person wants company, cannot promise mentoring and does not want public narration. Both are drafts; no gathering has happened."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Compare the terms, revise B into an offer that preserves actual choice and keep what cannot be promised unknown.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "A group says “no work required,” then excludes the person from all invitations when they decline a task. What evidence matters?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "A fits the stated wish and capacity. B makes belonging conditional on labor/disclosure; remove those conditions rather than praise them as empowerment. Later fiction: the person accepts A for ten minutes and still misses organizing. Contact does not erase role loss. Partial: shorten mentoring but keep it mandatory. Incorrect: require an inspiring story as the price of welcome.",
+      "criteria": [
+        "Role grief is not denied",
+        "Connection is not conditional on usefulness",
+        "Actual conduct is checked against invitation language"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "The actual exclusion contradicts the stated unconditional welcome. Record behavior and its limits; friendly wording alone does not establish belonging. Seek a suitable chosen connection without making the person prove usefulness.",
+      "criteria": [
+        "Role grief is not denied",
+        "Connection is not conditional on usefulness",
+        "Actual conduct is checked against invitation language"
+      ]
+    }
+  ]
+}

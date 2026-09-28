@@ -53,11 +53,15 @@ meaning_and_fit:
     people and institutions.
   opportunity_considerations: Work with your present resources or a fictional constrained week. Consider
     safe shelter, food, hygiene, essential transport, communication and document access. This is not an
-    exercise in deprivation or proof of self-sufficiency.
+    exercise in deprivation or proof of self-sufficiency. The learning guide contains a complete fictional
+    practice and a separate changed-case check. Choose that route when a real situation is unavailable;
+    its results are rehearsal, not performed real-world work.
   prerequisites:
   - Work with your present resources or a fictional constrained week. Consider safe shelter, food, hygiene,
     essential transport, communication and document access. This is not an exercise in deprivation or
-    proof of self-sufficiency.
+    proof of self-sufficiency. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work.
   dependencies: []
   safe_alternatives:
   - Use a fictional case if current hardship makes planning burdensome. A supporter can help make calls
@@ -80,7 +84,9 @@ intervention:
     point specified in the instructions and defer if the context is unsuitable.
   setup: 'Work with your present resources or a fictional constrained week. Consider safe shelter, food,
     hygiene, essential transport, communication and document access. This is not an exercise in deprivation
-    or proof of self-sufficiency. Goal: Prioritize immediate domestic needs using actual resources and
+    or proof of self-sufficiency. The learning guide contains a complete fictional practice and a separate
+    changed-case check. Choose that route when a real situation is unavailable; its results are rehearsal,
+    not performed real-world work. Goal: Prioritize immediate domestic needs using actual resources and
     reachable support. Scope: One constrained-week plan tests provisioning and contingency choices. A
     feasible paper plan is distinct from actually obtaining food, shelter, utilities and support. Time
     and effort: About 30 minutes to map needs and options, then one realistic resource check and a brief
@@ -433,3 +439,66 @@ presentation:
   plain_language_evidence: A reachable service confirmed assistance and the plan was updated without assuming
     unavailable transport.
   display_order: 175
+instructional_content:
+  schema_version: GG-INSTRUCTIONAL-CONTENT-1.0
+  competency_id: '13.15'
+  title: Make a realistic minimum-function plan for a difficult week
+  scored: false
+  sections:
+  - id: purpose-and-method
+    kind: concept
+    title: Understand the distinction
+    body: A minimum-function plan starts with actual resources, access and dependencies. Scarcity is not
+      a test of moral worth or self-sufficiency; nominal service availability is not confirmed receipt.
+  - id: supplied-case
+    kind: material
+    title: Complete fictional practice material
+    body: 'Complete fictional week: safe shelter and existing essential care are secured. Jo has 12 units
+      after protected bills, enough usual food through Tuesday and a working phone with text access. Wednesday
+      food service accepts adults in the stated local catchment, where Jo lives, from 10–12; no fee, same-day
+      supply not guaranteed. Round-trip accessible bus costs 4 and takes 60 minutes total; collection
+      may take 30. Jo is free 09:30–12:30. Backup service accepts text inquiries Thursday 09–11 but has
+      not confirmed eligibility or stock. Laundry can wait this week without a supplied urgent hygiene
+      issue. Fictional bus timetable: leave home stop 09:30, arrive at the service entrance 10:00; return
+      from that entrance 11:00, arrive home 11:30. These times include the local access route; allow a
+      10:00–10:30 collection if there is no extra queue. The public service notice lists text contact
+      Service Desk for operation and document questions; this is a fictional role, not a real number.'
+  - id: case-attempt
+    kind: prompt
+    title: Work through the supplied case
+    body: Plan the first inquiry/visit, cost, time and remaining uncertainty. Protect communication and
+      document access; do not assume a food collection succeeded.
+    references:
+    - supplied-case
+    check_id: case-check
+    attempt_mode: practice
+  - id: changed-case
+    kind: prompt
+    title: Try a different case before checking
+    body: A service is free but requires a journey that exceeds available accessible transport. Is it
+      currently a usable resource?
+    check_id: changed-case-check
+    attempt_mode: unaided
+  checks:
+  - id: case-check
+    title: Compare reasoning and review the supplied result
+    body: 'The 90-minute minimum travel/collection estimate fits the 180-minute window, costs 4 and leaves
+      8; actual waiting may differ. Confirm current operation and required documents through the stated
+      public route before relying on it. Later fiction: Wednesday service is closed unexpectedly; no supplies
+      received, backup inquiry sent but unanswered. Partial: budget only money. Incorrect: report food
+      obtained or invent the backup’s eligibility. A real urgent need requires timely actual support,
+      not waiting for this exercise. The supplied scheduled route actually occupies 120 minutes from 09:30
+      to 11:30, including 30 minutes waiting for the return bus, leaving 60 minutes before 12:30. The
+      90-minute figure is movement plus collection, not the full timetable burden.'
+    criteria:
+    - The plan fits actual money time and access
+    - Essential resources stay protected
+    - Nominal availability and received support differ
+  - id: changed-case-check
+    title: Check the changed case
+    body: Not yet. Verify a feasible transport, delivery or alternative route without assigning an unwilling
+      helper. Free price alone does not establish access or receipt.
+    criteria:
+    - The plan fits actual money time and access
+    - Essential resources stay protected
+    - Nominal availability and received support differ

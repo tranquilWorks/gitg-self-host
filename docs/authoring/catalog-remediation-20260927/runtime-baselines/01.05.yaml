@@ -1,0 +1,418 @@
+schema_version: GG-PRACTICE-CONTENT-1.0
+protocol_version: 0.2.0
+stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01
+slug: c0105-purpose-and-calling-practice
+name: Turn a possible calling into a small commitment
+parent_competency_id: '01.05'
+domain_id: '01'
+governance:
+  availability: active
+  editorial_status: draft
+  runtime_projection: GG-PRACTICE-RUNTIME-PROJECTION-2.0
+  risk_class_id: RISK-LOW
+  scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+  scoring_status: active
+  source_ids:
+  - SRC-CANONICAL-CURRICULUM-V2
+  authoring:
+    provenance: M6J individually authored exercise for 01.05; compiled from explicit instructions, observation
+      checks, adaptations and worked examples. Editorial and specialist acceptance remain pending.
+    content_review_status: pending
+    research_review_status: internal_sources_only_external_review_required
+    safety_review_status: pending
+    accessibility_review_status: pending
+    originality_review_status: pending
+    ui_test_status: not_applicable
+    last_reviewed: null
+    known_gap_ids:
+    - RG-M6A-001
+    - RG-M6A-002
+    expert_review_ids:
+    - ER-M6A-003
+  legacy_compatibility_exceptions: []
+  deprecation:
+    deprecated: false
+    replaced_by: null
+meaning_and_fit:
+  purpose: Explore purpose through a useful contribution and honest reflection on its fit and demands.
+  why_recommended: Explore purpose through a useful contribution and honest reflection on its fit and
+    demands.
+  claims:
+  - statement: Explore purpose through a useful contribution and honest reflection on its fit and demands.
+    classification: product_design_judgment
+    source_ids:
+    - SRC-CANONICAL-CURRICULUM-V2
+    limitations: Original educational practice design, not evidence of effectiveness, specialist acceptance
+      or comprehensive competency coverage.
+  applicability_question: Does a voluntary, bounded Purpose and calling practice fit the person's current
+    role, pathway, capacity, authority, resources, and safety conditions?
+  not_applicable_behavior: Record Purpose and calling as not applicable, consciously unchosen, or deferred
+    without penalty when the role, pathway, capacity, authority, opportunity, or safe context is absent.
+  readiness_considerations: Receiving care, maintaining a home, or offering attentive presence can be
+    meaningful contributions. Use a fictional service plan if a real opportunity is unavailable; label
+    it preparation.
+  opportunity_considerations: List one responsibility you hold, one problem you care about, and one ability
+    or form of presence you can offer. Reserve a small amount of time that does not displace essential
+    obligations.
+  prerequisites:
+  - List one responsibility you hold, one problem you care about, and one ability or form of presence
+    you can offer. Reserve a small amount of time that does not displace essential obligations.
+  dependencies: []
+  safe_alternatives:
+  - Receiving care, maintaining a home, or offering attentive presence can be meaningful contributions.
+    Use a fictional service plan if a real opportunity is unavailable; label it preparation.
+  role_conditions:
+  - This competency is cross context core; roles, duties, and authority must be explicitly chosen or actually
+    held before the practice applies.
+  pathway_conditions:
+  - Religious, secular, cultural, disability-adapted, collective, and individual pathways may express
+    Purpose and calling differently while preserving consent, evidence limits, safety, and equal dignity.
+  worldview_conditions:
+  - The practice does not require one worldview or treat disagreement about Purpose and calling as inferiority;
+    competing reasonable interpretations and conscientious refusal remain visible.
+intervention:
+  protocol_class: PF-COMMUNITY-CONTRIBUTION
+  duration_days: 10
+  cadence: Work through the numbered actions at a sustainable pace. Preserve their order; use the review
+    point specified in the instructions and defer if the context is unsuitable.
+  setup: 'List one responsibility you hold, one problem you care about, and one ability or form of presence
+    you can offer. Reserve a small amount of time that does not displace essential obligations. Goal:
+    Explore purpose through a useful contribution and honest reflection on its fit and demands. Scope:
+    One contribution tests the fit of a possible calling. Sustained vocation also involves repeated service,
+    changing responsibilities and long-term costs that this trial cannot establish. Time and effort: About
+    15 minutes to plan, a contribution small enough for current capacity, and a 10-minute review. Adaptation:
+    Receiving care, maintaining a home, or offering attentive presence can be meaningful contributions.
+    Use a fictional service plan if a real opportunity is unavailable; label it preparation. Keep personal
+    working notes outside the check-in; record only the listed observations.'
+  privacy_and_boundaries: Keep working notes private. Record only the listed observation checks, not document
+    contents, identifying details or another person's private information. Participation and any help
+    must be voluntary. Receiving care, maintaining a home, or offering attentive presence can be meaningful
+    contributions. Use a fictional service plan if a real opportunity is unavailable; label it preparation.
+  expected_burden: About 15 minutes to plan, a contribution small enough for current capacity, and a 10-minute
+    review.
+  action_count_rationale: null
+  foreseeable_misuse:
+  - Using the Purpose and calling protocol to rank worth, coerce participation, demand disclosure, override
+    rest or care, certify competence, or justify decisions beyond the recorded context.
+  - Treating a completed Purpose and calling action, a polished artifact, agreement, confidence, speed,
+    independence, or output as mastery or universal transfer.
+  exclusions:
+  - Follow the material, equipment, consent and scope limits in the setup and each action. Receiving care,
+    maintaining a home, or offering attentive presence can be meaningful contributions. Use a fictional
+    service plan if a real opportunity is unavailable; label it preparation.
+  actions:
+  - stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01-A1
+    sequence: 1
+    title: Form a contribution hypothesis
+    instructions: 'Complete this sentence: I may contribute to this person, community, craft, or problem
+      by doing this specific useful act. Include who defines usefulness and what permission or competence
+      is needed. Example: help a willing neighbor organize a shared notice, rather than decide what the
+      neighbor needs without asking.
+
+
+      Observation checks: A contribution and recipient are specified; Usefulness has a way to be checked;
+      Permission and limits are considered. Mark only what you observed. Missing, mixed and negative results
+      are valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 3
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01
+      action_stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01-A1
+      competency_stable_id: '01.05'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0105_a1_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0105_a1_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - a_contribution_and_recipient_are_specified
+        - usefulness_has_a_way_to_be_checked
+        - permission_and_limits_are_considered
+      - measurement_id: c0105_a1_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0105_a1_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01-A2
+    sequence: 2
+    title: Deliver a modest piece of useful work
+    instructions: 'Offer and, if welcomed, complete one bounded contribution. It may be listening, repairing
+      a small document, sharing a resource, or doing an existing responsibility more attentively. Keep
+      the recipient free to decline. Record what was delivered and the actual demand on time, energy,
+      and other duties.
+
+
+      Observation checks: An agreed contribution is attempted; Its actual demands are recorded; The recipient
+      can decline or redirect it. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.'
+    expected_time: 15-25 minutes
+    due_within_days: 7
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01
+      action_stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01-A2
+      competency_stable_id: '01.05'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0105_a2_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0105_a2_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - an_agreed_contribution_is_attempted
+        - its_actual_demands_are_recorded
+        - the_recipient_can_decline_or_redirect_it
+      - measurement_id: c0105_a2_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0105_a2_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  - stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01-A3
+    sequence: 3
+    title: Decide whether to deepen the commitment
+    instructions: 'Compare expected meaning with what the contribution actually required. Seek brief feedback
+      if appropriate without demanding gratitude. Choose continue, change role, or stop; name a realistic
+      next commitment and a review point. One unpleasant attempt neither disproves a calling nor obliges
+      lifelong persistence.
+
+
+      Observation checks: Fit and cost are both reviewed; A next disposition is chosen; The commitment
+      has a bounded review point. Mark only what you observed. Missing, mixed and negative results are
+      valid; a deferred action is not completed.
+
+
+      Final review: Did the work serve something you value, and what would make continued commitment sustainable?
+
+
+      Examples: Supportive: A welcomed contribution was delivered and followed by a realistic recurring
+      commitment.
+
+
+      Mixed: The work mattered but its time cost requires a smaller role.
+
+
+      Contradictory: Help was imposed despite refusal or essential personal care was sacrificed to prove
+      purpose.
+
+
+      Inconclusive: An inspiring mission sentence was written without testing a contribution.'
+    expected_time: 15-25 minutes
+    due_within_days: 10
+    typed_evidence_identity:
+      protocol_stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01
+      action_stable_id: PRACTICE-COMP-0105-PURPOSE-AND-CALLING-01-A3
+      competency_stable_id: '01.05'
+      scoring_policy_id: SP-STRUCTURED-EVIDENCE-ELIGIBLE
+    evidence_rules:
+      schema_version: typed-evidence-rules-v1
+      max_age_days: 90
+      competency_measurement_ids:
+      - c0105_a3_primary
+      transfer_disposition: context_bound
+      measurements:
+      - measurement_id: c0105_a3_primary
+        kind: artifact
+        role: primary
+        weight: '1'
+        allowed_provenance:
+        - reviewed_artifact
+        criteria:
+        - fit_and_cost_are_both_reviewed
+        - a_next_disposition_is_chosen
+        - the_commitment_has_a_bounded_review_point
+      - measurement_id: c0105_a3_boundary
+        kind: boolean
+        role: supporting
+        weight: '0.5'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+      - measurement_id: c0105_a3_adverse
+        kind: boolean
+        role: adverse
+        weight: '0'
+        allowed_provenance:
+        - firsthand_self_report
+        expected: true
+  adaptations:
+    low_resource:
+    - Use paper, an offline note, a library resource, a public example, or a no-cost conversation for
+      Purpose and calling; no purchase, subscription, travel, credential, or public artifact is required.
+    accessibility:
+    - Receiving care, maintaining a home, or offering attentive presence can be meaningful contributions.
+      Use a fictional service plan if a real opportunity is unavailable; label it preparation.
+    cultural_context:
+    - Adapt the expression of Purpose and calling to direct or indirect communication, collective or individual
+      decision structures, local norms, faith or secular commitments, and role obligations while preserving
+      consent and dignity.
+    resource_variants:
+    - Receiving care, maintaining a home, or offering attentive presence can be meaningful contributions.
+      Use a fictional service plan if a real opportunity is unavailable; label it preparation.
+  pause_conditions:
+  - Pause Purpose and calling when capacity, consent, authority, privacy, access, care duties, uncertainty,
+    distress, fatigue, pain, resource scarcity, or changed circumstances make the next action unwise.
+  stop_conditions:
+  - Stop the Purpose and calling practice for harm, coercion, retaliation risk, emergency conditions,
+    unsafe exposure, worsening symptoms, protected information, legal or policy conflict, or pressure
+    to exceed the stated boundary.
+  escalation_conditions:
+  - Use the appropriate local safeguarding, emergency, organizational, legal, medical, financial, accessibility,
+    or other qualified channel when a Purpose and calling situation exceeds a voluntary low-stakes practice.
+  professional_referral_conditions:
+  - Use qualified, local, or emergency support whenever the situation exceeds a voluntary low-stakes developmental
+    practice.
+evidence_and_scoring:
+  accepted_evidence_types:
+  - structured criteria observations for the bounded Purpose and calling actions
+  - explicit contradiction, adverse, defer, not-applicable, and unknown states
+  observation_contract_version: typed-evidence-rules-v1
+  check_in_fields:
+  - c0105_a1_primary
+  - c0105_a1_boundary
+  - c0105_a1_adverse
+  - c0105_a2_primary
+  - c0105_a2_boundary
+  - c0105_a2_adverse
+  - c0105_a3_primary
+  - c0105_a3_boundary
+  - c0105_a3_adverse
+  adverse_or_contradictory_indicators:
+  - Help was imposed despite refusal or essential personal care was sacrificed to prove purpose.
+  independence_rule: Record self-directed, planning-aid, guided, artifact, observer, or qualified support
+    for Purpose and calling explicitly; support can enable access and never reduces dignity or silently
+    changes the typed value.
+  context_transfer_rule: Evidence remains limited to the chosen Purpose and calling context, action, role,
+    pathway, and assessment epoch; it does not establish cross-context reliability.
+  repetition_rule: Each Purpose and calling observation requires a distinct immutable origin; duplicate
+    origins are rejected and later repetitions use the typed contract's explicit diminishing multipliers.
+  recency_rule: Generated Purpose and calling rules withhold observations older than 90 days; no unrecorded
+    retention or carry-forward assumption applies.
+  performance_rubric: 'Action 1: Form a contribution hypothesis. Observed checks: A contribution and recipient
+    are specified; Usefulness has a way to be checked; Permission and limits are considered. Action 2:
+    Deliver a modest piece of useful work. Observed checks: An agreed contribution is attempted; Its actual
+    demands are recorded; The recipient can decline or redirect it. Action 3: Decide whether to deepen
+    the commitment. Observed checks: Fit and cost are both reviewed; A next disposition is chosen; The
+    commitment has a bounded review point.'
+  evidence_quality_rubric: Record the listed checks only after reviewing the actual work or a privately
+    kept record of the attempt. A participant's checked criteria remain self-attested observations, not
+    an independent assessment or proof of mastery. An inspiring mission sentence was written without testing
+    a contribution.
+  scoring_eligibility: Check-ins capture immutable evidence only for composite-version practices. Completion
+    credit requires an explicit human final closeout. Historical event-level scoring retains its own versioned
+    contract.
+  competency_contribution: Designated primary measurements may produce one context-bound direct Purpose
+    and calling contribution under typed evaluation; protocol performance remains distinct and is never
+    counted twice.
+  canonical_lever_allocation: parent_competency_mapping
+  recommendation_target_lever_ids:
+  - L01
+  - L32
+  - L36
+  minimum_evidence_before_state_update: Composite-version practices require the configured completed-action
+    minimum, meaningful-attempt criterion and explicit final closeout; check-ins award no credit.
+  withholding_conditions:
+  - Withhold unattempted, unknown, not-observed, not-applicable, deferred, inconclusive, stale, duplicate-origin,
+    or adverse Purpose and calling evidence.
+  - Withhold any record containing private narrative, artifact contents, another person's identity, unsupported
+    inference, or evidence outside its assessment epoch.
+completion_and_review:
+  completion_criteria:
+  - 'Action 1: Form a contribution hypothesis. Observed checks: A contribution and recipient are specified;
+    Usefulness has a way to be checked; Permission and limits are considered.'
+  - 'Action 2: Deliver a modest piece of useful work. Observed checks: An agreed contribution is attempted;
+    Its actual demands are recorded; The recipient can decline or redirect it.'
+  - 'Action 3: Decide whether to deepen the commitment. Observed checks: Fit and cost are both reviewed;
+    A next disposition is chosen; The commitment has a bounded review point.'
+  - For minimum completion, finish at least 2 of these 3 actions and record a meaningful observation,
+    then explicitly submit your final review. Finish every action for full completion. Deferral and N/A
+    are not completed actions.
+  completion_rules:
+    minimum_completed: 2
+    substantive_markers:
+    - c0105_a1_primary
+    - c0105_a2_primary
+    - c0105_a3_primary
+    marker_mode: any
+  mastery_disclaimer: Completing this practice does not establish mastery.
+  progression_criteria: Did the work serve something you value, and what would make continued commitment
+    sustainable?
+  transfer_limit: One contribution tests the fit of a possible calling. Sustained vocation also involves
+    repeated service, changing responsibilities and long-term costs that this trial cannot establish.
+  reflection:
+    before: 'What would count as doing this honestly? Goal: Explore purpose through a useful contribution
+      and honest reflection on its fit and demands.'
+    during: Which checks have actually been observed? The work mattered but its time cost requires a smaller
+      role.
+    after: Did the work serve something you value, and what would make continued commitment sustainable?
+  review_guidance:
+    repeat: Repeat the same bounded Purpose and calling design only when the context and burden remain
+      appropriate.
+    adapt: Receiving care, maintaining a home, or offering attentive presence can be meaningful contributions.
+      Use a fictional service plan if a real opportunity is unavailable; label it preparation.
+    stop: Stop Purpose and calling when the practice becomes coercive, unsafe, privacy-invasive, role-inappropriate,
+      professionally restricted, or harmful.
+    escalate: Obtain appropriate help if the next action exceeds the setup's limits, your authority or
+      safe access.
+  evidence_examples:
+    supportive: A welcomed contribution was delivered and followed by a realistic recurring commitment.
+    mixed: The work mattered but its time cost requires a smaller role.
+    contradictory: Help was imposed despite refusal or essential personal care was sacrificed to prove
+      purpose.
+    inconclusive: An inspiring mission sentence was written without testing a contribution.
+presentation:
+  setup_copy:
+    context_heading: Turn a possible calling into a small commitment
+    boundary_heading: Not applicable, defer, support, and stop decisions carry no deficit.
+    timing_hint: Work through the numbered actions at a sustainable pace. Preserve their order; use the
+      review point specified in the instructions and defer if the context is unsuitable.
+    applicability_heading: Confirm role, pathway, authority, consent, access, and safety for Purpose and
+      calling.
+  check_in_labels:
+    c0105_a1_primary: 'Observed checks: form a contribution hypothesis'
+    c0105_a1_boundary: Action 1 stayed inside its stated Purpose and calling boundary
+    c0105_a1_adverse: Action 1 produced harm, pressure, or a boundary violation
+    c0105_a2_primary: 'Observed checks: deliver a modest piece of useful work'
+    c0105_a2_boundary: Action 2 stayed inside its stated Purpose and calling boundary
+    c0105_a2_adverse: Action 2 produced harm, pressure, or a boundary violation
+    c0105_a3_primary: 'Observed checks: decide whether to deepen the commitment'
+    c0105_a3_boundary: Action 3 stayed inside its stated Purpose and calling boundary
+    c0105_a3_adverse: Action 3 produced harm, pressure, or a boundary violation
+  completion_copy: Did the work serve something you value, and what would make continued commitment sustainable?
+    Completion is not mastery.
+  plain_language_evidence: A welcomed contribution was delivered and followed by a realistic recurring
+    commitment.
+  display_order: 14

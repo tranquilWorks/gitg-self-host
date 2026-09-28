@@ -40,9 +40,10 @@ For an authorized real attempt, choose an ordinary task already allowed by the c
 
 [CDC care planning, S13](../SOURCES.md#S13) informs organized responsibilities and updates; its clinical form is not copied into app evidence. [ACL supported decision making, S15](../SOURCES.md#S15) informs person-chosen, task-specific support. Neither grants legal authority, determines capacity or validates the transport plan. The schedule, budget and handoff case are original.
 
-
-## Scope and evidence boundary
+## Use the result at its proper scale
 
 Medical, reproductive, child-safety, guardianship, and elder-care decisions require qualified local guidance.
 
-This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records. Formal M6K A/B/C, independent, actual learner, qualified and owner content acceptance remain pending. See the [canonical map](SCOPE-MAP.md) and attempt the [fresh checks](check-prompts.md) before their answers.
+This is role-conditional learning. Fiction is preparation, not actual participant evidence. Keep private identifying, intimate, medical and family details out of app records.
+
+Attempt the [practice checks](check-prompts.md) before opening their [answers](check-answers.md).

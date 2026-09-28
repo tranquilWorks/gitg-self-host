@@ -1,0 +1,61 @@
+{
+  "schema_version": "GG-INSTRUCTIONAL-CONTENT-1.0",
+  "competency_id": "13.06",
+  "title": "Compare two small flatbreads and explain the difference",
+  "scored": false,
+  "sections": [
+    {
+      "id": "purpose-and-method",
+      "kind": "concept",
+      "title": "Understand the distinction",
+      "body": "Flour-water mixtures change with hydration and handling. Wheat gluten develops through hydrated proteins and mixing; other flours do not necessarily behave the same way. Chemical leavening can release gas under its specified conditions; yeast fermentation is a different process. An emulsion disperses one normally nonmixing liquid through another and may separate without a suitable stabilizing system."
+    },
+    {
+      "id": "supplied-case",
+      "kind": "material",
+      "title": "Complete fictional practice material",
+      "body": "Paper records: equal wheat-flour flatbread portions, same water and pan, one with the measured baking powder specified by the baseline formula and one without; the first is thicker after cooking, but heat was not measured. Separate nonfood-consumption demonstration record: water 20 mL plus oil 5 mL in a closed suitable container appears dispersed immediately after shaking and separates later. No emulsifier is added. These observations do not identify exact mechanisms by themselves."
+    },
+    {
+      "id": "case-attempt",
+      "kind": "prompt",
+      "title": "Work through the supplied case",
+      "body": "Explain a plausible mechanism for each comparison, retain the uncontrolled heat and distinguish temporary dispersion from a stable emulsion. Follow the original raw-flour precautions for any actual cooking.",
+      "references": [
+        "supplied-case"
+      ],
+      "check_id": "case-check",
+      "attempt_mode": "practice"
+    },
+    {
+      "id": "changed-case",
+      "kind": "prompt",
+      "title": "Try a different case before checking",
+      "body": "Two doughs differ in flour, water and mixing time, and one rises more. Can the result isolate mixing as the cause?",
+      "check_id": "changed-case-check",
+      "attempt_mode": "unaided"
+    }
+  ],
+  "checks": [
+    {
+      "id": "case-check",
+      "title": "Compare reasoning and review the supplied result",
+      "body": "Gas retention/leavening is plausible for the flatbread difference, not isolated because heat is uncontrolled. Oil/water separation contradicts calling shaking alone permanent stabilization. Partial: label both “mixing” without mechanism. Incorrect: infer every flour forms gluten or taste raw dough to check it. Next compare one ingredient variable in a suitable complete formula, then examine a separately sourced emulsified dressing method; identify its stabilizer and separation check before claiming transfer.",
+      "criteria": [
+        "Ingredient and process mechanisms are distinguished",
+        "Confounds limit causal conclusions",
+        "Emulsion is not confused with any mixed liquid"
+      ]
+    },
+    {
+      "id": "changed-case-check",
+      "title": "Check the changed case",
+      "body": "No. Multiple factors changed. Keep the observation and design a bounded comparison that varies one factor while recording the others; do not invent exact chemical causation from appearance.",
+      "criteria": [
+        "Ingredient and process mechanisms are distinguished",
+        "Confounds limit causal conclusions",
+        "Emulsion is not confused with any mixed liquid"
+      ]
+    }
+  ]
+}
