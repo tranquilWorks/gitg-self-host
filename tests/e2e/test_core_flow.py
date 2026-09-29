@@ -287,6 +287,8 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     ):
         page.get_by_label(label).select_option("")
     page.get_by_role("button", name="Save practice context").click()
+    expect(page.locator("#form-errors")).to_be_focused()
+    page.locator('#form-errors a[href="#id_applicability"]').click()
     expect(page.get_by_label("Fit with your present role and situation")).to_be_focused()
 
     page.goto(f"{live_server.url}/")
