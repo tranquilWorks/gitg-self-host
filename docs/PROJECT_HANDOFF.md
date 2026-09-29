@@ -3,9 +3,15 @@
 ## M6L guided product follow-up — 29 September 2026
 
 The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
-cover eight non-competency batches. The owner requested the next after Batch 1;
-M6L-02 is implemented and locally verified on `codex/m6l-02-context-alternatives`, stacked
-on `1274ff1`. Batches 03–08 remain planned.
+cover eight non-competency batches. The owner explicitly requested Batch 3.
+M6L-03 is implemented and under verification on `codex/m6l-03-direction-connection`,
+stacked on M6L-02 head `80faeac`. Batches 04–08 remain planned. See
+[Batch 3 evidence](evidence/M6L-03-DIRECTION-CONNECTION-20260929.md) and the
+[explicit connection contract](practice-direction-contract.md). It adds one
+append-only table (migration 0014), owner archive v4, current setup/weekly
+connections and a concise direction review. No merge/publication is authorized
+for this batch. Next: complete local full profile, browser artifact review,
+migration/backup verification, and create a stacked draft PR.
 
 M6L-01 is locally and CI verified: 1,918 nonbrowser tests, all local readiness,
 full hosted browser and Compose, aggregate Pilot readiness gate passed in
@@ -23,9 +29,10 @@ is stacked on #105. All 1,926 nonbrowser cases have passing coverage across the
 initial run and repaired continuation; all 17 readiness commands pass. The
 catalog-fingerprint routing issue was repaired by restoring `growth/urls.py`
 and registering the new route in the application URL configuration. Final
-route/browser and Home error-state checks pass. Hosted checks on the final
-commit remain pending; neither draft is merged or published. Next: inspect the
-latest PR #106 gate and artifacts; M6L-03 is the next planned implementation.
+route/browser and Home error-state checks pass. The exact `80faeac` head passed
+all hosted quality, browser, Compose and aggregate gates in
+[run 36527658512](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36527658512).
+Neither draft is merged or published.
 
 ## Owner-accepted catalog publication — 28 September 2026
 

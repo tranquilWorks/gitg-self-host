@@ -10,6 +10,7 @@ from typing import Any
 from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.contrib.sessions.models import Session
+from django.core.exceptions import ValidationError
 from django.core.serializers.json import DjangoJSONEncoder
 from django.db import models, transaction
 from django.utils import timezone
@@ -31,6 +32,7 @@ from growth.models import (
     PilotFeedback,
     PracticeCheckIn,
     PracticeContext,
+    PracticeDirectionRevision,
     PracticeReview,
     PracticeSprint,
     ScoreSnapshot,
@@ -39,8 +41,9 @@ from growth.models import (
 )
 from growth.services.assessment_calibration import build_assessment_calibration_export
 from growth.services.evidence import build_privacy_safe_evidence_export
+from growth.services.practice_direction import direction_history
 
-OWNER_ARCHIVE_SCHEMA_VERSION = "grounded-growth-owner-private-archive-v3"
+OWNER_ARCHIVE_SCHEMA_VERSION = "grounded-growth-owner-private-archive-v4"
 DELETION_POLICY_VERSION = "GG-OWNER-DELETION-1.0"
 RETENTION_POLICY_VERSION = "GG-OWNER-RETENTION-1.0"
 
@@ -138,6 +141,7 @@ def _owned_querysets(user) -> dict[str, models.QuerySet]:
         "assessment_context": AssessmentContext.objects.filter(user=user),
         "practice_context": PracticeContext.objects.filter(user=user),
         "personal_os_revisions": PersonalOSRevision.objects.filter(user=user),
+        "practice_direction_revisions": PracticeDirectionRevision.objects.filter(user=user),
         "weekly_execution_plans": WeeklyExecutionPlan.objects.filter(user=user),
         "weekly_execution_reviews": WeeklyExecutionReview.objects.filter(user=user),
     }
@@ -159,6 +163,17 @@ def _owned_session_keys(user) -> tuple[str, ...]:
 def build_owner_archive(user) -> dict[str, Any]:
     """Build one deterministic, explicit, owner-private archive without database keys."""
 
+    scopes = set()
+    for row in PracticeDirectionRevision.objects.filter(user=user).select_related(
+        "assessment_run", "protocol"
+    ):
+        scope = (row.assessment_run_id, row.protocol_id)
+        if scope not in scopes:
+            try:
+                direction_history(user, row.assessment_run, row.protocol)
+            except (ValidationError, ValueError, TypeError):
+                raise DataLifecycleError("Practice connection verification failed.") from None
+            scopes.add(scope)
     build_privacy_safe_evidence_export(user)
     build_assessment_calibration_export(users=[user])
 
@@ -633,6 +648,27 @@ def build_owner_archive(user) -> dict[str, Any]:
                 "assessment_run__created_at", "assessment_run_id", "revision"
             )
         ],
+        "practice_direction_revisions": [
+            _record(
+                item,
+                (
+                    "contract_version",
+                    "revision",
+                    "state",
+                    "priority_index",
+                    "intended_outcome",
+                    "canonical_snapshot",
+                    "content_hash",
+                    "created_at",
+                ),
+                assessment_ref=assessment_refs[item.assessment_run_id],
+                protocol_stable_id=item.protocol_id,
+                personal_os_revision=item.personal_os.revision if item.personal_os_id else None,
+            )
+            for item in PracticeDirectionRevision.objects.filter(user=user)
+            .select_related("personal_os")
+            .order_by("assessment_run__created_at", "assessment_run_id", "protocol_id", "revision")
+        ],
         "weekly_execution_plans": [
             _record(
                 item,
@@ -751,6 +787,7 @@ def delete_owner_account(*, user, expected_preview_hash: str) -> int:
         PracticeSprint.objects.filter(user=locked_user),
         LeverState.objects.filter(user=locked_user),
         LeverBaseline.objects.filter(user=locked_user),
+        PracticeDirectionRevision.objects.filter(user=locked_user),
         PersonalOSRevision.objects.filter(user=locked_user),
         PracticeContext.objects.filter(user=locked_user),
         AssessmentContext.objects.filter(user=locked_user),

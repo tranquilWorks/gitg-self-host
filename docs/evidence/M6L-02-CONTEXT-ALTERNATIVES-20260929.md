@@ -95,3 +95,10 @@ Revert this batch's browser service, forms, routes and templates. No migration
 or data restore is required; newly saved partial contexts remain valid under
 the existing `GG-CONTEXT-1.0` contract. Reverting presentation restores the prior
 fallback limitation, so keep explicit exclusions visible during operator review.
+
+## Successor verification update
+
+On 29 September, the exact final head `80faeac57c183ce9038d3479a60f0ec0a6a59e97`
+passed hosted quality, browser, Docker Compose and aggregate Pilot readiness
+gates in [run 36527658512](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36527658512).
+PR #106 remains a draft; publish was correctly skipped.

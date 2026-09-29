@@ -24,6 +24,7 @@ from growth.services.assessment_calibration import (
     render_assessment_calibration_export,
 )
 from growth.services.data_lifecycle import (
+    OWNER_ARCHIVE_SCHEMA_VERSION,
     DataLifecycleError,
     apply_retention,
     build_deletion_preview,
@@ -94,6 +95,7 @@ def _deletion_groups(counts: dict[str, int]) -> tuple[tuple[str, int], ...]:
                 "assessment_context",
                 "practice_context",
                 "personal_os_revisions",
+                "practice_direction_revisions",
                 "weekly_execution_plans",
                 "weekly_execution_reviews",
             ),
@@ -114,9 +116,7 @@ def owner_archive(request):
             content_type="text/plain; charset=utf-8",
         )
     response = HttpResponse(content, content_type="application/json; charset=utf-8")
-    response["Content-Disposition"] = (
-        'attachment; filename="grounded-growth-owner-private-archive-v3.json"'
-    )
+    response["Content-Disposition"] = f'attachment; filename="{OWNER_ARCHIVE_SCHEMA_VERSION}.json"'
     response["Cache-Control"] = "no-store, private"
     response["X-Content-Type-Options"] = "nosniff"
     return response

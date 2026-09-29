@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Practice connection · Grounded Growth{% endblock %}
+{% block content %}
+<section class="page-heading"><div>
+  <p class="eyebrow">{{ protocol.name }}</p>
+  <h1>What would you like this practice to serve?</h1>
+  <p class="lede">Choose one saved priority or describe a small intended outcome. Leaving this unknown or declining is equally valid.</p>
+</div></section>
+<div class="status-note"><p>Your choice stays private in this account, its archive and database backups. It is not analyzed or scored. Saving a change preserves earlier choices.</p></div>
+{% if latest %}<section class="panel" aria-label="Saved connection">
+  <h2>Current choice</h2>
+  <p>{{ latest.get_state_display }}</p>
+  {% if latest.chosen_text %}<p class="preserve-lines">{{ latest.chosen_text }}</p>{% endif %}
+  {% if old_priority %}<p>Your direction has changed. To change this connection, choose a priority from the current list or another connection type. Cancel to keep your original choice.</p>{% endif %}
+</section>{% endif %}
+<form method="post" class="panel staged-form section-block" novalidate>
+  {% csrf_token %}
+  {% for field in form.hidden_fields %}{{ field }}{{ field.errors }}{% endfor %}
+  {{ form.non_field_errors }}
+  {% for field in form.visible_fields %}<div class="form-field">
+    {{ field.label_tag }}{{ field }}
+    {% if field.help_text %}<small id="{{ field.id_for_label }}_helptext">{{ field.help_text }}</small>{% endif %}
+    {{ field.errors }}
+  </div>{% endfor %}
+  <div class="button-row"><button class="button" type="submit">Save connection</button><a class="button button-secondary" href="{{ back_url }}">Cancel</a></div>
+</form>
+<p><a class="text-link" href="{% url 'direction-review' %}">Review mission, anti-goals, priorities and direction</a>. Save or cancel this choice before leaving.</p>
+<section class="section-block" aria-labelledby="connection-history-heading">
+  <h2 id="connection-history-heading">Earlier choices</h2>
+  {% for row in history %}<details class="stage-panel"><summary>Choice {{ row.revision }} · {{ row.created_at|date:'M j, Y' }} · {{ row.get_state_display }}</summary><div class="stage-panel-body"><p class="preserve-lines">{{ row.chosen_text|default:row.get_state_display }}</p></div></details>
+  {% empty %}<p>No earlier choices in this assessment period.</p>{% endfor %}
+  {% if history.has_previous %}<a href="?return={{ destination }}&amp;page={{ history.previous_page_number }}">Newer choices</a>{% endif %}
+  {% if history.has_next %}<a href="?return={{ destination }}&amp;page={{ history.next_page_number }}">Older choices</a>{% endif %}
+</section>
+{% endblock %}

@@ -93,3 +93,32 @@ def test_backup_live_comparison_rejects_critical_state_drift(tmp_path, user):
     user.save(update_fields=["email"])
     with pytest.raises(CommandError, match="critical state"):
         call_command("verify_database_backup", output, "--compare-live")
+
+
+@pytest.mark.django_db(transaction=True)
+def test_backup_preserves_and_fingerprints_practice_connections(tmp_path, user, seeded):
+    from growth.models import PracticeProtocol
+    from growth.services.practice_direction import record_connection
+
+    row = record_connection(
+        user=user,
+        run=user.assessment_runs.first(),
+        protocol=PracticeProtocol.objects.get(slug="deepen-one-existing-friendship"),
+        expected_revision=0,
+        expected_personal_os=0,
+        state="outcome",
+        intended_outcome="PRIVATE-BACKUP-INTENTION",
+    )
+    output = tmp_path / "with-direction.sqlite3"
+    call_command("backup_database", output=output)
+    call_command("verify_database_backup", output, "--compare-live")
+    manifest = json.loads(manifest_path_for(output).read_text())
+    assert (
+        manifest["inspection"]["critical_tables"]["growth_practicedirectionrevision"]["rows"] == 1
+    )
+    assert "PRIVATE-BACKUP-INTENTION" not in manifest_path_for(output).read_text()
+    with sqlite3.connect(output) as backup:
+        saved = backup.execute(
+            "SELECT intended_outcome, content_hash FROM growth_practicedirectionrevision"
+        ).fetchone()
+    assert saved == ("PRIVATE-BACKUP-INTENTION", row.content_hash)

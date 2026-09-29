@@ -10,8 +10,8 @@ excluded. The executable action register is [actions.yaml](actions.yaml).
 | Batch | Outcome | Dependencies | Status |
 | --- | --- | --- | --- |
 | M6L-01 | Guided entry, explicit demonstration labeling, concise recommendations and searchable exploration, immediate copy repairs | Published catalog | CI verified; draft PR #105 |
-| M6L-02 | Easier explicit context collection and dependable N/A/defer/alternative journeys | 01 | Locally verified; hosted CI pending |
-| M6L-03 | User-chosen links between direction, priority and practice | 01 | Planned |
+| M6L-02 | Easier explicit context collection and dependable N/A/defer/alternative journeys | 01 | CI verified; draft PR #106 |
+| M6L-03 | User-chosen links between direction, priority and practice | 01 | Implemented; verification in progress |
 | M6L-04 | Review-to-next-week handoff, recovery after missed plans, upcoming-action support | 02, 03 | Planned |
 | M6L-05 | Readable history and deliberate continuity across reassessment | 03, 04 | Planned |
 | M6L-06 | Whole-application language, navigation and accessibility consistency | 02–05 | Planned |
@@ -58,9 +58,9 @@ consented observations, qualified analysis and review. Existing tests and the
 owner's product acceptance cannot close empirical axes. Record unsuccessful
 and inconclusive observations as well as successful ones.
 
-Current authorization covers planning the entire program and implementing 01 and 02.
-The owner requested the next batch after the M6L-01 draft.
-Batches 03–08 remain planned. Publication of the catalog
+Current authorization covers planning the entire program and implementing 01–03.
+The owner explicitly requested Batch 3 after the M6L-02 draft.
+Batches 04–08 remain planned. Publication of the catalog
 was completed under the previous authorization; this new batch's merge and
 publication are separate from implementation.
 

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Review your direction · Grounded Growth{% endblock %}
+{% block content %}
+<section class="page-heading"><div><p class="eyebrow">Personal OS</p><h1>Does this direction still fit?</h1>
+<p class="lede">Review this when your season changes or you want to reconsider what matters. Keep what still fits; revise only what you choose.</p></div></section>
+<div class="status-note"><p>Your reflections are private and are never interpreted or scored. Saving preserves previous revisions, your principles and your audit responses. Existing practice connections keep their original priority until you change them.</p></div>
+<form method="post" class="panel staged-form" novalidate>
+  {% csrf_token %}{% for field in form.hidden_fields %}{{ field }}{{ field.errors }}{% endfor %}
+  {{ form.non_field_errors }}
+  {% for section in sections %}<fieldset class="reflection-fieldset">
+    <legend>{{ section.title }}</legend>
+    <div class="form-field">{{ section.state.label_tag }}{{ section.state }}{{ section.state.errors }}</div>
+    <div class="form-field">{{ section.value.label_tag }}{{ section.value }}<small id="{{ section.value.id_for_label }}_helptext">{{ section.value.help_text }}</small>{{ section.value.errors }}</div>
+  </fieldset>{% endfor %}
+  <p class="fine-print">Choose “Provide a value” for text you want to save. Clear the text when choosing unknown, not applicable or deferred.</p>
+  <div class="button-row"><button class="button" type="submit">Save direction review</button><a class="button button-secondary" href="{% url 'growth:weekly-execution' %}">Back to this week</a></div>
+</form>
+<p><a class="text-link" href="{% url 'growth:personal-os' %}">Open full Personal OS</a> to review principles, audit responses, season and capacity.</p>
+<section class="section-block" aria-labelledby="direction-history-heading">
+  <h2 id="direction-history-heading">Earlier direction revisions</h2>
+  {% if latest %}<p>Current Personal OS revision: {{ latest.revision }}. History below belongs to this assessment period.</p>{% endif %}
+  {% for row in history_rows %}<details class="stage-panel"><summary>Revision {{ row.record.revision }} · {{ row.record.created_at|date:'M j, Y' }}</summary><div class="stage-panel-body">
+    {% for section in row.sections %}<h3>{{ section.label }}</h3>
+      {% if section.state == 'provided' %}{% if section.is_list %}<ol>{% for item in section.value %}<li>{{ item }}</li>{% endfor %}</ol>{% else %}<p class="preserve-lines">{{ section.value }}</p>{% endif %}
+      {% else %}<p>{{ section.state|capfirst }}</p>{% endif %}
+    {% endfor %}
+  </div></details>{% empty %}<p>No earlier direction revisions in this assessment period.</p>{% endfor %}
+  {% if history.has_previous %}<a href="?page={{ history.previous_page_number }}">Newer revisions</a>{% endif %}
+  {% if history.has_next %}<a href="?page={{ history.next_page_number }}">Older revisions</a>{% endif %}
+</section>
+{% endblock %}

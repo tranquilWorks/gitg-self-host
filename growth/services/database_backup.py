@@ -27,6 +27,7 @@ CRITICAL_STATE_TABLES = (
     "growth_assessmentcontext",
     "growth_practicecontext",
     "personal_os_revision",
+    "growth_practicedirectionrevision",
     "growth_weeklyexecutionplan",
     "growth_weeklyexecutionreview",
 )
