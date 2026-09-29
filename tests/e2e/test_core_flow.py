@@ -509,7 +509,9 @@ def test_play_protocol_setup_is_specific_and_score_active(live_server, page: Pag
     assert page.get_by_label("Expected reciprocity").count() == 0
     page.set_viewport_size({"width": 390, "height": 844})
     page.get_by_role("button", name="Submit check-in").click()
-    page.get_by_text("Submit evidence only after a real attempt.").wait_for()
+    expect(page.locator("#id_action_attempted_error")).to_contain_text(
+        "Submit evidence only after a real attempt."
+    )
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "mobile-action-specific-check-in")
 

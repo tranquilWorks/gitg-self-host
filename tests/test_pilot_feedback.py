@@ -183,12 +183,12 @@ def test_feedback_questions_are_scoped_to_the_selected_journey_stage(client, use
     response = client.post(reverse("growth:pilot-feedback"), invalid)
 
     assert response.status_code == 200
-    assert (
-        response.content.decode().count(
-            "This question does not apply to the selected part of the experience."
-        )
-        == 4
-    )
+    message = "This question does not apply to the selected part of the experience."
+    fields = ("protocol", "applicability", "time_to_start", "time_to_check_in")
+    assert response.context["form"].errors == {field: [message] for field in fields}
+    for field in fields:
+        assert f'href="#id_{field}"' in response.content.decode()
+        assert f'id="id_{field}_error"' in response.content.decode()
     assert not PilotFeedback.objects.exists()
 
     with pytest.raises(PilotFeedbackError, match="does not apply"):
