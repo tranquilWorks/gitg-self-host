@@ -109,3 +109,10 @@ is shown during preview, without a new persistent copy-receipt table.
 After Batch 5, three batches / ten actions remain planned: 06 whole-application
 consistency, 07 operator convenience and 08 empirical product validation. Batch 08
 still requires real consented observations and qualified analysis.
+
+## Final-head CI follow-up
+
+Final head `a51b1214f91e5dc4756aebc1e57aca99e48503b4` passed quality, all hosted
+browser journeys, Docker Compose and aggregate Pilot readiness in
+[run 36625034044](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36625034044).
+Publication was skipped. Draft PR #109 remains unmerged.

@@ -106,7 +106,7 @@ def test_direct_not_applicable_action_is_immediate_revisable_and_score_neutral(
     body = profile.content.decode()
     assert "Personal-applicable coverage view" in body
     assert "382" in body
-    assert "canonical all-competency coverage, unchanged" in body
+    assert "all-competency coverage, unchanged" in body
 
     assert (
         client.post(

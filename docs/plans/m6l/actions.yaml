@@ -149,42 +149,42 @@ batches:
     - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
 - id: M6L-05
   title: History and reassessment continuity
-  status: locally_verified
+  status: ci_verified
   depends_on:
   - M6L-03
   - M6L-04
   actions:
   - id: M6L-05-01
     title: Readable longitudinal history
-    status: locally_verified
+    status: ci_verified
     acceptance: Owner can navigate past practices, weekly reviews and assessment periods, with provenance
       and completion/mastery distinctions.
     evidence:
     - docs/evidence/M6L-05-HISTORY-CONTINUITY-20260929.md
   - id: M6L-05-02
     title: Explain retake consequences
-    status: locally_verified
+    status: ci_verified
     acceptance: Before retaking, explain new context/coverage boundaries and any current practice still
       attached to the old assessment.
     evidence:
     - docs/evidence/M6L-05-HISTORY-CONTINUITY-20260929.md
   - id: M6L-05-03
     title: Explicit review-and-reuse intentions
-    status: locally_verified
+    status: ci_verified
     acceptance: Offer a user-confirmed copy of selected Personal OS/context intentions into a new period;
       never transfer evidence or scoring implicitly.
     evidence:
     - docs/evidence/M6L-05-HISTORY-CONTINUITY-20260929.md
   - id: M6L-05-04
     title: Resolve active-practice transitions
-    status: locally_verified
+    status: ci_verified
     acceptance: Old-assessment active/paused practices have clear completion/stop/navigation paths; new
       weekly plans cannot silently mix periods.
     evidence:
     - docs/evidence/M6L-05-HISTORY-CONTINUITY-20260929.md
 - id: M6L-06
   title: Whole-application consistency
-  status: planned
+  status: in_progress
   depends_on:
   - M6L-02
   - M6L-03
@@ -193,19 +193,19 @@ batches:
   actions:
   - id: M6L-06-01
     title: Audit all user-facing copy
-    status: planned
+    status: in_progress
     acceptance: Remove milestone/slice/backend jargon and misleading old claims across forms, completion,
       empty/error states and help; retain accurate privacy boundaries.
     evidence: []
   - id: M6L-06-02
     title: Simplify navigation and recovery
-    status: planned
+    status: in_progress
     acceptance: Each screen has a clear purpose and next action; errors provide safe recovery; secondary
       diagnostics remain available without dominating.
     evidence: []
   - id: M6L-06-03
     title: Accessibility and layout review
-    status: planned
+    status: in_progress
     acceptance: Verify keyboard, focus, labels, screen-reader-oriented structure, mobile, zoom and reduced-motion
       paths; retain screenshots and document limits.
     evidence: []

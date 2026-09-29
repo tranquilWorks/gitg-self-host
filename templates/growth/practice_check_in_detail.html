@@ -16,28 +16,27 @@
         describes one observation; it does not establish mastery.
       </p>
     </div>
-    <span class="status-pill">Immutable</span>
+    <span class="status-pill">Submitted · cannot be edited</span>
   </section>
 
   <div class="mastery-notice" role="note">
     {% if sprint.scoring_contract_version == "GG-COMPOSITE-CLOSEOUT-SCORING-1.0" %}
       <strong>This observation is proof, not a global score update.</strong>
       <p>
-        It remains immutable and can support the action-completion record. Only
+        It stays in your permanent record and can support action completion. Only
         an explicit final closeout updates bounded completion credit, coverage,
         and recommendation priority.
       </p>
     {% elif sprint.protocol.score_active %}
-      <strong>This observation has a versioned score disposition.</strong>
+      <strong>This observation follows the earlier scoring rules.</strong>
       <p>
-        This historical sprint retains its original event-level scoring
-        disposition. One observation remains provisional and does not establish mastery.
+        This earlier practice keeps the scoring rules used when it began. One observation remains provisional and does not establish mastery.
       </p>
     {% else %}
-      <strong>This protocol is not score-active.</strong>
+      <strong>This practice does not update scores.</strong>
       <p>
         The observation remains available in your evidence ledger, but it
-        created no score snapshot and did not change your current profile,
+        created no score update and did not change your current profile,
         confidence, need, or recommendation order.
       </p>
     {% endif %}
@@ -77,7 +76,7 @@
         <dd>{{ event.explanation.repetition.label }}</dd>
       </div>
       <div>
-        <dt>Protocol observation</dt>
+        <dt>Action observation</dt>
         <dd>
           {% if check_in.action_completed %}
             Completed

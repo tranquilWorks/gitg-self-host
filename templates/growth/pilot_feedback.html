@@ -7,7 +7,7 @@
   <section class="page-heading feedback-heading">
     <div>
       <p class="eyebrow">Optional product feedback</p>
-      <h1>Tell the pilot what got in the way.</h1>
+      <h1>Tell us what got in the way.</h1>
       <p class="lede">
         This is usability feedback, not developmental evidence. Nothing here
         changes your assessment, working profile, recommendation order,
@@ -27,7 +27,7 @@
       <h2 id="feedback-boundary-heading">No automatic timing or remote telemetry</h2>
       <p>
         Answer only what is useful. Time choices are rough estimates selected
-        by you; this application does not time, record, or send your activity
+        by you; this feedback form does not time, record, or send your activity
         anywhere. Submitted feedback remains in this self-hosted database.
       </p>
     </div>
@@ -54,13 +54,13 @@
           <div class="form-field">
             {{ field.label_tag }}
             {{ field }}
-            {% if field.help_text %}<p class="helptext">{{ field.help_text }}</p>{% endif %}
-            {% for error in field.errors %}<p class="form-error">{{ error }}</p>{% endfor %}
+            {% if field.help_text %}<p class="helptext" id="{{ field.auto_id }}_helptext">{{ field.help_text }}</p>{% endif %}
+            {{ field.errors }}
           </div>
         {% endfor %}
         <div class="button-row">
           <button class="button" type="submit">Submit optional feedback</button>
-          <a class="button button-quiet" href="{% url 'password_change' %}">Back to account</a>
+          <a class="button button-quiet" href="{% url 'growth:data-management' %}">Back to account</a>
         </div>
       </form>
     </section>
@@ -69,7 +69,7 @@
       <p class="eyebrow">Local record</p>
       <h2 id="feedback-history-heading">{{ summary.total }} submitted entr{{ summary.total|pluralize:"y,ies" }}</h2>
       <p>
-        Entries are append-only. They never appear in evidence history and are
+        Submitted entries cannot be edited. They never appear in evidence history and are
         excluded from all scoring and recommendation calculations.
       </p>
       {% if summary.recent %}

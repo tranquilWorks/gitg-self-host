@@ -93,6 +93,7 @@ class AssessmentCalibrationWithdrawalForm(forms.Form):
     )
 
     def __init__(self, *args, user, **kwargs):
+        kwargs.setdefault("auto_id", "withdraw_%s")
         super().__init__(*args, **kwargs)
         latest = {}
         for row in AssessmentCalibrationConsent.objects.filter(user=user).order_by(
@@ -111,6 +112,10 @@ class AssessmentCalibrationWithdrawalForm(forms.Form):
 
 
 class RetentionConfirmationForm(forms.Form):
+    def __init__(self, *args, **kwargs):
+        kwargs.setdefault("auto_id", "retention_%s")
+        super().__init__(*args, **kwargs)
+
     preview_token = forms.CharField(widget=forms.HiddenInput)
     confirmation = forms.CharField(
         label=f'Type "{APPLY_RETENTION_CONFIRMATION}" to apply this preview',
@@ -173,7 +178,7 @@ class PersonalOSForm(forms.Form):
         for section_id in (*IDENTITY_SECTION_IDS, *AUDIT_PROMPT_IDS):
             definition = definitions[section_id]
             self.fields[f"{section_id}_state"] = forms.ChoiceField(
-                label=f"Response state for: {definition.prompt}",
+                label=f"How would you like to answer: {definition.prompt}",
                 choices=EXPLICIT_STATE_CHOICES,
                 initial="unknown",
             )
@@ -254,10 +259,12 @@ class PersonalOSForm(forms.Form):
 
 
 class AssessmentPriorityContextForm(forms.Form):
-    assessment_epoch = forms.CharField(widget=forms.HiddenInput)
+    assessment_epoch = forms.CharField(
+        widget=forms.HiddenInput(attrs={"id": "id_context_assessment_epoch"})
+    )
     season_state = forms.ChoiceField(
-        label="Current season response state",
-        choices=(("", "Choose a state"), *EXPLICIT_STATE_CHOICES),
+        label="How would you like to describe this season?",
+        choices=(("", "Choose a response"), *EXPLICIT_STATE_CHOICES),
     )
     season_value = forms.ChoiceField(
         label="Current season",
@@ -269,8 +276,8 @@ class AssessmentPriorityContextForm(forms.Form):
         help_text="Descriptive context only; it does not change priority or measure performance.",
     )
     capacity_state = forms.ChoiceField(
-        label="Capacity response state",
-        choices=(("", "Choose a state"), *EXPLICIT_STATE_CHOICES),
+        label="How would you like to describe your capacity?",
+        choices=(("", "Choose a response"), *EXPLICIT_STATE_CHOICES),
     )
     capacity_value = forms.TypedChoiceField(
         label="Room for one additional bounded practice",
@@ -864,7 +871,7 @@ class PracticeCheckInForm(forms.ModelForm):
         )
         allowed_provenance = tuple(rule["allowed_provenance"])
         self.fields[provenance_name] = forms.ChoiceField(
-            label=f"{label} — provenance",
+            label=f"{label} — evidence source",
             choices=tuple(
                 (value, TYPED_PROVENANCE_LABELS.get(value, value.replace("_", " ").title()))
                 for value in allowed_provenance
@@ -1076,13 +1083,13 @@ class PilotFeedbackForm(forms.ModelForm):
         label="Roughly how long did setup take before you could begin?",
         choices=(("", "Not answered"), *PilotFeedback.StartTimeBand.choices),
         required=False,
-        help_text="Choose an estimate. The application does not time you.",
+        help_text="Choose an estimate. This feedback form does not time you.",
     )
     time_to_check_in = forms.ChoiceField(
         label="Roughly how long did a check-in take?",
         choices=(("", "Not answered"), *PilotFeedback.CheckInTimeBand.choices),
         required=False,
-        help_text="Choose an estimate. The application does not time you.",
+        help_text="Choose an estimate. This feedback form does not time you.",
     )
     confusing_step = forms.ChoiceField(
         label="Which step was most confusing?",

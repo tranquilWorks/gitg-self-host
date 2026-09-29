@@ -53,3 +53,8 @@ urlpatterns = [
     path("personal-os/practices/", context_review, name="context-review"),
     path("", include("growth.urls")),
 ]
+
+handler400 = "growth.views_errors.bad_request"
+handler403 = "growth.views_errors.forbidden"
+handler404 = "growth.views_errors.not_found"
+handler500 = "growth.views_errors.server_error"

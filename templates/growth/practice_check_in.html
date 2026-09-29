@@ -31,12 +31,12 @@
     explainable.
     {% if sprint.scoring_contract_version == "GG-COMPOSITE-CLOSEOUT-SCORING-1.0" %}
       Submitting this check-in does not change global scores. Marking an action
-      complete is staged here; completion credit is calculated only if you later
+      complete is recorded here; completion credit is calculated only if you later
       choose to close the whole practice.
     {% elif sprint.protocol.score_active %}
-      This historical sprint retains its original event-level score contract.
+      This earlier practice keeps the scoring rules used when it began.
     {% else %}
-      This protocol is score-inactive.
+      This practice does not update scores.
     {% endif %}
   </div>
 
@@ -51,8 +51,8 @@
         <fieldset class="form-field checkbox-group">
           <legend>{{ field.label }}</legend>
           {{ field }}
-          {% if field.help_text %}<p class="helptext">{{ field.help_text }}</p>{% endif %}
-          {% for error in field.errors %}<p class="form-error">{{ error }}</p>{% endfor %}
+          {% if field.help_text %}<p class="helptext" id="{{ field.auto_id }}_helptext">{{ field.help_text }}</p>{% endif %}
+          {{ field.errors }}
         </fieldset>
       {% else %}
       <div class="form-field{% if field.field.widget.input_type == 'checkbox' %} checkbox-field{% endif %}">
@@ -63,8 +63,8 @@
           <label for="{{ field.id_for_label }}">{{ field.label }}</label>
           {{ field }}
         {% endif %}
-        {% if field.help_text %}<p class="helptext">{{ field.help_text }}</p>{% endif %}
-        {% for error in field.errors %}<p class="form-error">{{ error }}</p>{% endfor %}
+        {% if field.help_text %}<p class="helptext" id="{{ field.auto_id }}_helptext">{{ field.help_text }}</p>{% endif %}
+        {{ field.errors }}
       </div>
       {% endif %}
     {% endfor %}
@@ -77,9 +77,8 @@
       </button>
     </div>
     <p class="fine-print">
-      Submitted check-ins and their versioned evidence reading become
-      immutable. A draft remains private working state and does not appear in
-      submitted history.
+      Submitted check-ins become a permanent record and cannot be edited.
+      You can still edit a saved draft; it does not appear in submitted history.
     </p>
   </form>
   {{ form.action_observation_map|json_script:"check-in-action-observations" }}

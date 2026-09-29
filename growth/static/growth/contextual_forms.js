@@ -10,7 +10,7 @@
     if (!wrapper) {
       return;
     }
-    const hasError = Boolean(wrapper.querySelector(".form-error"));
+    const hasError = Boolean(wrapper.querySelector(".form-error, .errorlist"));
     wrapper.hidden = !available && !hasError;
   }
 

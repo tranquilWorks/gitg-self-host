@@ -39,7 +39,7 @@
           The explicit final closeout recorded bounded completion credit;
           check-ins did not update that credit on their own.
         {% else %}
-          This historical sprint retains its original score contract.
+          This earlier practice keeps the scoring rules used when it began.
         {% endif %}
       </p>
     </div>
@@ -57,7 +57,7 @@
         <p>Submitted evidence remains in your history; drafts remain excluded.</p>
       {% elif sprint.status == "completed" %}
         <h2>Final review submitted.</h2>
-        <p>The protocol is complete; completion remains separate from mastery.</p>
+        <p>The practice is complete; completion remains separate from mastery.</p>
         <a class="button button-secondary" href="{% url 'growth:practice-review-complete' sprint.pk %}">
           Read practice review
         </a>
@@ -121,7 +121,7 @@
   <section class="panel protocol-preview">
     <div class="panel-heading">
       <div>
-        <p class="eyebrow">Protocol progress</p>
+        <p class="eyebrow">Practice progress</p>
         <h2>{{ evidence.total_actions }} defined action{{ evidence.total_actions|pluralize }}</h2>
       </div>
       <span>{{ evidence.actions_completed }} of {{ evidence.total_actions }} completed</span>

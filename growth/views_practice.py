@@ -3,7 +3,7 @@ from datetime import date, timedelta
 from django.contrib import messages
 from django.core.exceptions import ValidationError
 from django.db import IntegrityError, OperationalError
-from django.http import Http404, HttpResponse
+from django.http import Http404
 from django.shortcuts import get_object_or_404, redirect, render
 from django.utils import timezone
 from django.views.decorators.http import require_http_methods, require_POST
@@ -30,6 +30,7 @@ from growth.models import (
     PracticeReview,
     PracticeSprint,
 )
+from growth.presentation import recovery
 from growth.services.context import ContextServiceError, PracticeContextInput, record_context_bundle
 from growth.services.context_review import build_context_review
 from growth.services.personal_os_browser import (
@@ -207,7 +208,8 @@ def practice_priority_context(request, slug):
     try:
         current = _practice_context_record(run, protocol)
     except (ValidationError, ValueError, TypeError):
-        return HttpResponse(
+        return recovery(
+            request,
             "Saved practice context could not be verified. No value is displayed.",
             status=409,
         )
@@ -222,7 +224,8 @@ def practice_priority_context(request, slug):
         if current is None or (
             current.applicability_state != "not_applicable" and current.disposition != "deferred"
         ):
-            return HttpResponse(
+            return recovery(
+                request,
                 "An alternative requires a saved not-applicable or deferred review.",
                 status=400,
             )
@@ -236,8 +239,9 @@ def practice_priority_context(request, slug):
         )
     if request.method == "POST" and form.is_valid():
         if form.cleaned_data["assessment_epoch"] != run.pk:
-            return HttpResponse(
-                "The assessment epoch changed. Reload before saving; no value is displayed.",
+            return recovery(
+                request,
+                "The assessment period changed. Reload before saving; no value is displayed.",
                 status=409,
             )
         if (
@@ -258,7 +262,8 @@ def practice_priority_context(request, slug):
         try:
             assessment_context = _assessment_context_record(run)
         except (ValidationError, ValueError, TypeError):
-            return HttpResponse(
+            return recovery(
+                request,
                 "Saved season and capacity context could not be verified. No value is displayed.",
                 status=409,
             )
@@ -279,8 +284,9 @@ def practice_priority_context(request, slug):
                 ),
             )
         except (OperationalError, IntegrityError):
-            return HttpResponse(
-                "The local store is busy. Reload and retry; no value is displayed.",
+            return recovery(
+                request,
+                "The application is busy. Reload and retry; no value is displayed.",
                 status=409,
             )
         except (ContextServiceError, ValidationError, ValueError, TypeError):

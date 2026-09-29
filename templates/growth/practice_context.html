@@ -89,7 +89,7 @@
       {% if priority.alternative_protocol %}
         <p>
           <strong>{{ priority.alternative_protocol.name }}</strong> — {{ priority.alternative_message }}
-          <a href="{% url 'growth:practice-recommendation' priority.alternative_protocol.slug %}">Review protocol</a>
+          <a href="{% url 'growth:practice-recommendation' priority.alternative_protocol.slug %}">Review practice</a>
         </p>
       {% elif priority.alternative_message %}
         <p>{{ priority.alternative_message }}</p>

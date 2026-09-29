@@ -33,6 +33,8 @@ def test_history_reuse_and_old_practice_continuity(live_server, page, width):
     transition_sprint(sprint, "paused")
     target, _ = persist_assessment_run(user, golden_payload())
     log_in(live_server, page)
+    if not page.get_by_role("link", name="Assessment", exact=True).is_visible():
+        page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Assessment", exact=True).click()
     page.get_by_role("heading", name="What changes when you reassess").wait_for()
     assert_no_horizontal_overflow(page)

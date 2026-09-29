@@ -36,7 +36,7 @@
     <section class="definition-grid" aria-label="How to read this profile">
       <article>
         <h2>Starting estimate</h2>
-        <p>The immutable assessment-derived estimate used to bias weaker areas.</p>
+        <p>Your original assessment estimate, used to suggest areas for practice.</p>
       </article>
       <article>
         <h2>Completion credit</h2>
@@ -160,19 +160,19 @@
     <section class="panel shadow-projection" aria-labelledby="current-state-heading">
       <div class="panel-heading">
         <div>
-          <p class="eyebrow">Human-closeout working state</p>
+          <p class="eyebrow">Completion record</p>
           <h2 id="current-state-heading">What completed practices have changed</h2>
         </div>
         {% if summary.composite_state_active %}
-          <span class="status-pill">Closeout contract · versioned</span>
+          <span class="status-pill">Final-review credit</span>
         {% else %}
           <span class="status-pill">Baseline only</span>
         {% endif %}
       </div>
       <p class="panel-intro">
-        Check-ins remain immutable proof but do not change this state. A final
-        human closeout records 75% credit at the configured minimum or 100% when
-        every action is complete. Every transition is hashed and replayable.
+        Check-ins preserve what happened. Your final practice review records 75% credit
+        when the minimum requirements are met, or 100% when every action is complete.
+        Earlier records stay available for review.
       </p>
 
       {% if not summary.composite_state_active %}
@@ -198,7 +198,7 @@
         <div class="shadow-summary" aria-label="Completion credit summary">
           <div>
             <strong>{{ summary.canonical_completion_coverage|percentage }}</strong>
-            <span>canonical competency coverage</span>
+            <span>all-competency coverage</span>
           </div>
           <div>
             <strong>{{ summary.full_credit_competencies }}</strong>
@@ -210,7 +210,7 @@
           </div>
           <div>
             <strong>{{ summary.composite_snapshot_count }}</strong>
-            <span>immutable closeout snapshot{{ summary.composite_snapshot_count|pluralize }}</span>
+            <span>saved completion update{{ summary.composite_snapshot_count|pluralize }}</span>
           </div>
         </div>
 
@@ -231,11 +231,11 @@
           {% endfor %}
         </div>
 
-        <p class="fine-print">
+        <details class="audit-details"><summary>How credit is allocated</summary><p class="fine-print">
           Relationship allocation is half canonical relevance weight and half
           equal mapped-lever share. Repeated practice uses the highest active
           closeout credit rather than adding attempts together.
-        </p>
+        </p></details>
       {% endif %}
 
       {% if summary.personal_coverage_error %}
@@ -253,7 +253,7 @@
             </div>
             <div>
               <strong>{{ summary.personal_applicable_competency_count }}</strong>
-              <span>competencies in the personal denominator</span>
+              <span>competencies currently included</span>
             </div>
             <div>
               <strong>{{ summary.personally_not_applicable_competencies }}</strong>
@@ -261,13 +261,13 @@
             </div>
             <div>
               <strong>{{ summary.canonical_completion_coverage|percentage }}</strong>
-              <span>canonical all-competency coverage, unchanged</span>
+              <span>all-competency coverage, unchanged</span>
             </div>
           </div>
           <p class="fine-print">
-            “Not applicable” removes a competency only from this separately labeled personal
-            denominator for the current assessment. It creates no deficit or completion credit,
-            and never changes canonical coverage, score history, or mastery claims.
+            “Not applicable” removes a competency only from this personal coverage view
+            for the current assessment. It creates no deficit or completion credit,
+            and does not change overall coverage, score history, or mastery claims.
           </p>
         </div>
       {% endif %}
@@ -285,12 +285,12 @@
     <section class="panel" aria-labelledby="weekly-profile-heading">
       <div class="panel-heading">
         <div>
-          <p class="eyebrow">Operating loop</p>
+          <p class="eyebrow">Your week</p>
           <h2 id="weekly-profile-heading">Weekly execution and proof review</h2>
         </div>
       </div>
       <div class="shadow-summary">
-        <div><strong>{{ weekly_plan_count }}</strong><span>immutable plan revision{{ weekly_plan_count|pluralize }}</span></div>
+        <div><strong>{{ weekly_plan_count }}</strong><span>saved plan revision{{ weekly_plan_count|pluralize }}</span></div>
         <div><strong>{{ weekly_review_count }}</strong><span>proof review{{ weekly_review_count|pluralize }}</span></div>
         <div><strong>0</strong><span>scores created by planning or review</span></div>
       </div>

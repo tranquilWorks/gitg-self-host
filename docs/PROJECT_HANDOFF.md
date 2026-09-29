@@ -3,20 +3,26 @@
 ## M6L guided product follow-up — 29 September 2026
 
 The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
-cover eight non-competency batches. The owner requested “go for 5”. M6L-05 is
-implemented on `codex/m6l-05-history-continuity`, based on final M6L-04 head
-`3cfa88d`; all 1,968 nonbrowser tests, 17 readiness commands, six distinct browser
-journeys, final polish rechecks and isolated Docker recreation/backup/restore pass.
-[Draft PR #109](https://github.com/tranquilWorks/gitg-self-host/pull/109) is stacked
-on #108. Final-head CI is pending; implementation `23be1a5` has green hosted
-browser and Docker checks. See
+cover eight non-competency batches. The owner requested the next batch after 05.
+M6L-06 is implemented on `codex/m6l-06-application-consistency`, based on final
+M6L-05 head `a51b121`. Verification is in progress. It adds shared navigation,
+HTML recovery, linked form-error summaries, assessment keyboard/focus support,
+copy cleanup and additive reflow/focus styles. See [behavior and audit](application-consistency.md)
+and [Batch 6 evidence](evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md).
+No migration, canonical competency change or historical service change. Batches
+07–08 remain planned: operator convenience and empirical validation (two batches /
+seven actions). This batch is for implementation, verification and a stacked draft
+PR; no merge or publication.
+
+M6L-05 final head `a51b1214f91e5dc4756aebc1e57aca99e48503b4` passed every hosted
+quality, browser, Docker Compose and aggregate Pilot readiness check in
+[run 36625034044](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36625034044).
+[Draft PR #109](https://github.com/tranquilWorks/gitg-self-host/pull/109) remains
+unmerged, stacked on #108; publish was skipped. Local verification passed 1,968
+nonbrowser tests, all 17 readiness commands, six distinct browser journeys and
+the isolated Docker recreation/backup/restore drill. See
 [Batch 5 evidence](evidence/M6L-05-HISTORY-CONTINUITY-20260929.md) and
-[history and reuse behavior](history-continuity.md). It adds owner-only period,
-practice and weekly-review history, reassessment consequences, selected intention
-preview/confirmation and clear older-practice continuation. No migration or
-historical contract changes. Batches 06–08 remain planned: consistency, operator
-convenience and empirical validation (three batches / ten actions). No merge or
-publication is authorized for this batch.
+[history and reuse behavior](history-continuity.md).
 
 M6L-04 final head `3cfa88dc9a8dbcbc25ba6ad59f171bd4f5cd285e` passed all hosted
 quality, browser, Docker Compose and aggregate Pilot readiness gates in
