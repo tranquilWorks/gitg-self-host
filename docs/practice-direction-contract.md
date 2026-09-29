@@ -35,6 +35,8 @@ review schedule, telemetry or prose analysis is introduced.
 ## Private data and operations
 
 Migration `0014_practice_direction_revision` adds one table and no backfill.
+The model is registered from `growth/models_direction.py` during Django’s
+model-loading phase; the historical `growth/models.py` stays byte-preserved.
 The owner-only archive becomes `grounded-growth-owner-private-archive-v4` with
 `practice_direction_revisions`. Source references use the existing archive
 assessment reference and Personal OS revision number, not opaque record IDs.

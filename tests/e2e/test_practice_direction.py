@@ -5,7 +5,8 @@ from django.contrib.auth import get_user_model
 from django.utils import timezone
 from playwright.sync_api import expect
 
-from growth.models import PersonalOSRevision, PracticeDirectionRevision, PracticeProtocol
+from growth.models import PersonalOSRevision, PracticeProtocol
+from growth.models_direction import PracticeDirectionRevision
 from growth.services.canonical_import import seed_canonical_data
 from growth.services.practice import start_practice
 

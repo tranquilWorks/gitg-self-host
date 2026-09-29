@@ -51,6 +51,7 @@ def test_direction_migration_round_trip_keeps_existing_data(tmp_path):
         assert db.execute("SELECT * FROM growth_curriculumversion").fetchall() == original
     migrate("0013")
     with sqlite3.connect(database) as db:
+        assert db.execute("SELECT * FROM growth_curriculumversion").fetchall() == original
         assert (
             db.execute("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name").fetchall()
             == tables_before
@@ -60,3 +61,8 @@ def test_direction_migration_round_trip_keeps_existing_data(tmp_path):
             == migrations_before
         )
     migrate("0014")
+    with sqlite3.connect(database) as db:
+        assert db.execute("SELECT * FROM growth_curriculumversion").fetchall() == original
+        assert db.execute("SELECT COUNT(*) FROM growth_practicedirectionrevision").fetchone() == (
+            0,
+        )

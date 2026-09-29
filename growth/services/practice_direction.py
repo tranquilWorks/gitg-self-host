@@ -3,7 +3,8 @@ from django.db import transaction
 
 from growth.domain.personal_os import AUDIT_PROMPT_IDS, IDENTITY_SECTION_IDS
 from growth.domain.practice_direction import direction_snapshot
-from growth.models import AssessmentRun, PersonalOSRevision, PracticeDirectionRevision
+from growth.models import AssessmentRun, PersonalOSRevision
+from growth.models_direction import PracticeDirectionRevision
 from growth.services.personal_os import record_personal_os_revision
 
 DIRECTION_SECTIONS = ("mission", "anti_goals", "priority_stack", "twelve_month_direction")

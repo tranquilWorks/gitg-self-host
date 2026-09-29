@@ -87,27 +87,27 @@ batches:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
 - id: M6L-03
   title: Direction-to-practice connection
-  status: implemented
+  status: locally_verified
   depends_on:
   - M6L-01
   actions:
   - id: M6L-03-01
     title: Choose the priority a practice serves
-    status: implemented
+    status: locally_verified
     acceptance: User explicitly selects a priority/intended outcome; no interpretation or analysis of
       private prose.
     evidence:
     - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
   - id: M6L-03-02
     title: Make the connection visible
-    status: implemented
+    status: locally_verified
     acceptance: Setup and weekly planning show the chosen connection and a reversible way to revise it;
       unknown or declined is supported.
     evidence:
     - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
   - id: M6L-03-03
     title: Review direction periodically
-    status: implemented
+    status: locally_verified
     acceptance: Provide a concise user-initiated review of mission, anti-goals, priorities and direction
       with prior revisions preserved.
     evidence:

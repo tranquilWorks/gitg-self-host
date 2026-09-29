@@ -11,9 +11,9 @@ from growth.domain.personal_os import AUDIT_PROMPT_IDS, IDENTITY_SECTION_IDS
 from growth.models import (
     AssessmentRun,
     PersonalOSRevision,
-    PracticeDirectionRevision,
     PracticeProtocol,
 )
+from growth.models_direction import PracticeDirectionRevision
 from growth.services.data_lifecycle import (
     build_deletion_preview,
     delete_owner_account,

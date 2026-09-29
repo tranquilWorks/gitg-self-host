@@ -32,13 +32,13 @@ from growth.models import (
     PilotFeedback,
     PracticeCheckIn,
     PracticeContext,
-    PracticeDirectionRevision,
     PracticeReview,
     PracticeSprint,
     ScoreSnapshot,
     WeeklyExecutionPlan,
     WeeklyExecutionReview,
 )
+from growth.models_direction import PracticeDirectionRevision
 from growth.services.assessment_calibration import build_assessment_calibration_export
 from growth.services.evidence import build_privacy_safe_evidence_export
 from growth.services.practice_direction import direction_history

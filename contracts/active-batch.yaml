@@ -22,7 +22,6 @@ scope:
   - docs/evidence/M6L-0*-*.md
   - docs/PROJECT_HANDOFF.md
   - docs/practice-direction-contract.md
-  - growth/models.py
   - growth/migrations/0014_*.py
   - growth/domain/practice_direction.py
   - growth/services/practice_direction.py
@@ -44,6 +43,8 @@ scope:
   - tests/**
   - MANIFEST.tsv
   - growth/views_data.py
+  - growth/models_direction.py
+  - growth/apps.py
   forbidden_paths:
   - data/**
   - reports/**
@@ -56,6 +57,7 @@ scope:
   - docker-compose.yml
   - growth/static/growth/app.css
   - growth/urls.py
+  - growth/models.py
 acceptance:
 - Explicitly select a saved priority or authored intended outcome, or record unknown/declined; no private-prose
   interpretation, ranking or scoring change.

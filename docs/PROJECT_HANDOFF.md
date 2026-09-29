@@ -4,14 +4,22 @@
 
 The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
 cover eight non-competency batches. The owner explicitly requested Batch 3.
-M6L-03 is implemented and under verification on `codex/m6l-03-direction-connection`,
+M6L-03 is implemented and locally verified on `codex/m6l-03-direction-connection`,
 stacked on M6L-02 head `80faeac`. Batches 04–08 remain planned. See
 [Batch 3 evidence](evidence/M6L-03-DIRECTION-CONNECTION-20260929.md) and the
 [explicit connection contract](practice-direction-contract.md). It adds one
 append-only table (migration 0014), owner archive v4, current setup/weekly
 connections and a concise direction review. No merge/publication is authorized
-for this batch. Next: complete local full profile, browser artifact review,
-migration/backup verification, and create a stacked draft PR.
+for this batch. [Draft PR #107](https://github.com/tranquilWorks/gitg-self-host/pull/107)
+is stacked on #106. All 1,939 nonbrowser cases have passing coverage across the
+initial run and repaired continuations; five distinct local browser journeys
+pass, with desktop/mobile screenshots inspected. Final registration rechecks
+passed 29 integration tests and both new browser journeys. Recovery byte-pins
+`growth/models.py`: it is restored exactly, with the additive model registered
+from `growth/models_direction.py`. Two older migration tests now exclude that
+new table when comparing older schemas. All 17 readiness commands and final contract checks pass. The final PR head
+still requires its aggregate hosted gate before merge. M6L-04 is the next planned
+batch and has not been started.
 
 M6L-01 is locally and CI verified: 1,918 nonbrowser tests, all local readiness,
 full hosted browser and Compose, aggregate Pilot readiness gate passed in

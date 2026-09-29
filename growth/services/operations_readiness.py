@@ -10,7 +10,7 @@ from django.contrib.auth import get_user_model
 from django.core.exceptions import ValidationError
 from django.core.serializers.json import DjangoJSONEncoder
 
-from growth.models import PracticeDirectionRevision
+from growth.models_direction import PracticeDirectionRevision
 from growth.services.data_lifecycle import (
     OWNER_ARCHIVE_SCHEMA_VERSION,
     RETENTION_POLICY_VERSION,
