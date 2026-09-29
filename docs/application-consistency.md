@@ -41,7 +41,9 @@ Tab and native button Enter/Space activation remain available. Native Enter on a
 answer selects it without also advancing. Optional character shortcuts start off,
 operate only inside the focused question, and ignore editable controls, modifier
 combinations and composition. Answers, timing capture, score calculations, local
-storage, imports and save payloads use their unchanged code paths.
+storage, imports and save payloads use their unchanged code paths. With scripting disabled,
+a visible notice explains the assessment requirement and which other pages remain
+usable.
 
 ## Copy and screen inventory
 
@@ -69,6 +71,10 @@ visible field labels/descriptions, unique IDs, one main heading, current navigat
 Conditional forms and existing end-to-end journeys supplement the ordinary-page
 matrix. A setup URL reached with an active practice correctly returns to that
 practice; the existing lifecycle journey exercises actual setup steps.
+
+Shared palette inspection gives these contrast ratios: body text/paper 14.13:1,
+secondary text/paper 5.82:1, accent/surface 7.36:1, control border/surface 3.73:1,
+and error text/surface 8.16:1. This samples shared styles, not every possible state.
 
 The checks draw on W3C guidance, retrieved 29 September 2026:
 [reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html),

@@ -168,11 +168,10 @@ def test_navigation_and_form_recovery_without_javascript(live_server, browser):
         expect(page.locator('#form-errors a[href="#id_old_password"]')).to_be_visible()
         assert_no_horizontal_overflow(page)
         page.goto(live_server.url + "/assessment/")
-        expect(
-            page.get_by_text(
-                "The assessment runs on this device and needs JavaScript.", exact=False
-            )
-        ).to_be_visible()
+        expect(page.locator("noscript .status-note")).to_be_visible()
+        expect(page.locator("noscript .status-note")).to_contain_text(
+            "The assessment runs on this device and needs JavaScript."
+        )
         page.goto(live_server.url + "/personal-os/")
         page.locator("details.stage-panel").last.locator("summary").click()
         page.locator("#id_current_truth_state").select_option("provided")

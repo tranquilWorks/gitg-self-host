@@ -30,6 +30,13 @@ draft PR only; no merge, publication or live-data action.
   omitted Django's trailing colon; repaired the selector. Its page exposed both
   expected consent controls. An additional expected weekly heading was corrected
   before rerun; neither required a product behavior change.
+- The first complete-browser attempt stopped after eight passes at an old Personal
+  OS label selector; updated it to the new label. The next attempt exposed a text
+  locator that did not match the visible `<noscript>` message. An explicit element
+  selector passed in the dedicated no-JavaScript rerun (`/tmp/m6l06-noscript.xml`,
+  one passed). These selector corrections preserve the intended journey checks.
+- Draft [PR #110](https://github.com/tranquilWorks/gitg-self-host/pull/110) is stacked
+  on #109. Implementation commit `dc2e9e2`; hosted CI is in progress.
 - Final full browser suite, nonbrowser/full readiness profile and isolated Docker
   drill are pending. Initial mobile Home and desktop assessment screenshots were
   inspected; final screenshots will be reviewed after polish.
