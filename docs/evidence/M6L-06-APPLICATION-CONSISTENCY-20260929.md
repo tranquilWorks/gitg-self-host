@@ -44,8 +44,19 @@ draft PR only; no merge, publication or live-data action.
   (`/tmp/m6l06-error-contract.xml`). Updated the profile-copy expectation while
   preserving all scoring/baseline invariants. The complete profile is rerunning.
 - Final full browser suite, nonbrowser/full readiness profile and isolated Docker
-  drill are pending. Initial mobile Home and desktop assessment screenshots were
-  inspected; final screenshots will be reviewed after polish.
+  drill are pending. Browser regression also found two prior assumptions affected
+  by shared summaries: immediate invalid-field focus, and a globally unique error
+  message. Updated the context journey to follow the summary link, and the account
+  deletion journey to select the exact inline error and verify summary focus. Its
+  wrong-confirmation account-preservation assertion remains in place; keyboard
+  entry is checked on a fresh GET. Receipts: `/tmp/m6l06-all-browser-focus.xml`
+  (eight passes, one failure), `/tmp/m6l06-all-browser-deletion.xml` (ten passes,
+  one failure). Full browser coverage is rerunning.
+- Inspected final narrow Home, conflict recovery, conditional consent, linked
+  form-error and 200% text screenshots, alongside the initial desktop assessment
+  screenshot. The active badge, navigation, recovery links and form content remain
+  readable. Screenshots are retained under `test-results/pilot-walkthrough/`
+  with the `consistency-` prefix (synthetic data only).
 
 Shared-form inspection also repaired duplicate hidden/context and optional
 withdrawal/cleanup IDs, missing replan help targets and the closed invalid audit

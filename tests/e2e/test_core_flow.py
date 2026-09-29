@@ -391,10 +391,13 @@ def test_owner_data_management_is_private_accessible_and_requires_exact_confirma
     page.get_by_label("Current password").fill("Browser-Test-Password-2047!")
     page.get_by_label(re.compile(r'Type "DELETE MY ACCOUNT"')).fill("DO NOT DELETE")
     page.get_by_role("button", name="Permanently delete account").click()
-    page.get_by_text("The account-deletion confirmation text does not match.").wait_for()
+    page.get_by_text(
+        "The account-deletion confirmation text does not match.", exact=True
+    ).wait_for()
+    expect(page.locator("#form-errors")).to_be_focused()
     assert get_user_model().objects.filter(pk=user.pk).exists()
 
-    page.keyboard.press("Control+Home")
+    page.goto(f"{live_server.url}/account/data/")
     page.keyboard.press("Tab")
     expect(page.get_by_role("link", name="Skip to main content")).to_be_focused()
     page.keyboard.press("Enter")
