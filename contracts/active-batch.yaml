@@ -26,7 +26,6 @@ scope:
   - growth/services/context_review.py
   - growth/views_practice.py
   - growth/forms.py
-  - growth/urls.py
   - growth/static/growth/personal_os.js
   - templates/growth/practice_context.html
   - templates/growth/context_review.html
@@ -35,6 +34,7 @@ scope:
   - templates/growth/personal_os.html
   - tests/**
   - MANIFEST.tsv
+  - grounded_growth/urls.py
   forbidden_paths:
   - data/**
   - reports/**
@@ -49,6 +49,7 @@ scope:
   - Dockerfile
   - docker-compose.yml
   - growth/static/growth/app.css
+  - growth/urls.py
 acceptance:
 - Document and test no-context, partial-context, all-deferred and all-N/A flows; explicitly excluded
   choices are not presented as personalized recommendations.

@@ -104,7 +104,7 @@
   <section class="section-block" aria-labelledby="cohort-heading">
     <h2 id="cohort-heading">Your saved context</h2>
     <p>You have reviewed {{ priority.reviewed_count }} practice{{ priority.reviewed_count|pluralize }} since your latest assessment. There is no need to review the whole catalog.</p>
-    <a href="{% url 'growth:context-review' %}">Review saved and deferred choices</a>
+    <a href="{% url 'context-review' %}">Review saved and deferred choices</a>
     {% if priority.partial_cohort %}<p class="fine-print">Any ordering is only among this partial reviewed cohort.</p>{% endif %}
   </section>
 {% endblock %}

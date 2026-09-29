@@ -2,6 +2,7 @@ from django.contrib.auth import views as auth_views
 from django.urls import include, path
 
 from growth.views import health
+from growth.views_practice import context_review
 
 urlpatterns = [
     path("health/", health, name="health"),
@@ -26,5 +27,6 @@ urlpatterns = [
         ),
         name="password_change_done",
     ),
+    path("personal-os/practices/", context_review, name="context-review"),
     path("", include("growth.urls")),
 ]

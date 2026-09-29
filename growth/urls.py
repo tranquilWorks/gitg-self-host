@@ -57,7 +57,6 @@ urlpatterns = [
         views_assessment.save_assessment,
         name="assessment-save",
     ),
-    path("personal-os/practices/", views_practice.context_review, name="context-review"),
     path("practices/", views_practice.practice_list, name="practice-list"),
     path("practices/<slug:slug>/guide/", views_instructional.practice_guide, name="practice-guide"),
     path(

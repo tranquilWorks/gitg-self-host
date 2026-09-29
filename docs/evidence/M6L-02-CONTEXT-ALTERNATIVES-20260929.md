@@ -43,7 +43,16 @@ checks remain authoritative. Batches 03–08 remain planned.
   distinct-reviewed-alternative journey. Final card-layout recheck: **2 passed** in 68.46s.
   Initial browser invocation used the wrong cache path; rerun uses the existing
   project `.playwright-browsers` installation.
-- Full local gate: running with 1,926 nonbrowser tests and all readiness gates;
+- First broad local run: **1,881 passed, 1 failed**, stopped after the catalog
+  review-projection failure in 1,044.87s. The complete `growth/urls.py` file is
+  included in the catalog renderer fingerprint. Restored it byte-identically
+  to baseline and registered the new route in `grounded_growth/urls.py` instead;
+  its URL and authentication behavior remain the same. No reports or review
+  gates were weakened. Targeted repair: **60 passed** (all eight new cases plus 52 catalog
+  review tests) in 61.33s. The 45 unfinished/failed cases are selected by matching
+  JUnit class/name IDs against the complete 1,926-case collection; continuation
+  is running. Readiness commands run separately after the repaired contract gate.
+- Full local verification covers 1,926 nonbrowser tests and all readiness gates;
   detached log `/tmp/m6l02-full.log`, exit sentinel `/tmp/m6l02-full.exit`, JUnit
   `/tmp/m6l02-full.xml`. Hosted aggregate pending.
 - Schema and 23-file scope check passed. Manifest, Ruff, Django and migration

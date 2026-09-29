@@ -138,7 +138,7 @@ def test_review_horizon_does_not_expire_or_mutate_and_reconsider_requires_save(
         "growth.services.context_review.timezone.localdate",
         return_value=timezone.localdate() + timedelta(days=3),
     ):
-        page = client.get(reverse("growth:context-review"))
+        page = client.get(reverse("context-review"))
     row = page.context["review"]["page"][0]
     assert row["record"] == original
     assert row["due"]
@@ -156,7 +156,7 @@ def test_review_horizon_does_not_expire_or_mutate_and_reconsider_requires_save(
         == 302
     )
     assert PracticeContext.objects.filter(protocol=protocol).count() == 2
-    assert len(client.get(reverse("growth:context-review")).context["review"]["page"]) == 0
+    assert len(client.get(reverse("context-review")).context["review"]["page"]) == 0
     original.refresh_from_db()
     assert before == (
         original.content_hash,
@@ -173,7 +173,7 @@ def test_review_is_owner_and_assessment_scoped_and_requires_auth(client, user, s
     from growth.services.assessment import persist_assessment_run
     from tests.test_assessment_integration import golden_payload
 
-    url = reverse("growth:context-review")
+    url = reverse("context-review")
     assert client.get(url).status_code == 302
     client.force_login(user)
     summary = build_profile_summary(user)
@@ -223,7 +223,7 @@ def test_review_pages_are_bounded_and_bad_filters_recover(client, user, seeded):
         ),
     )
     client.force_login(user)
-    url = reverse("growth:context-review")
+    url = reverse("context-review")
     first = client.get(url).context["review"]["page"]
     second = client.get(url, {"page": "2"}).context["review"]["page"]
     assert len(first) == 12 and len(second) == 1

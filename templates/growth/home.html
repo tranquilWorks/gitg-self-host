@@ -194,7 +194,7 @@
           {% if summary.assessment_run %}
             <p>Your current choices have no available suggestion. Explore another practice or explicitly revise saved context.</p>
             <a href="{% url 'growth:practice-list' %}?browse=1#explore-heading">Explore practices</a>
-            <a href="{% url 'growth:context-review' %}">Review saved choices</a>
+            <a href="{% url 'context-review' %}">Review saved choices</a>
           {% else %}
             <p>Take or import an assessment to establish a provisional starting point.</p>
           {% endif %}
