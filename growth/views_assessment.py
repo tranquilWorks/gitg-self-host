@@ -6,12 +6,14 @@ from django.urls import reverse
 from django.views.decorators.cache import never_cache
 from django.views.decorators.http import require_GET, require_POST
 
+from growth.models import AssessmentRun
 from growth.services.assessment import (
     AssessmentPayloadError,
     assessment_scorer_path,
     load_assessment_assets,
     persist_assessment_run,
 )
+from growth.services.practice import current_sprint_for
 
 
 @never_cache
@@ -22,6 +24,8 @@ def assessment(request):
         request,
         "growth/assessment.html",
         {
+            "previous_assessment": AssessmentRun.objects.filter(user=request.user).first(),
+            "current_practice": current_sprint_for(request.user),
             "assessment_spec": assets.spec,
             "assessment_model": assets.model,
             "assessment_storage_key": f"gga_v1_1_state_user_{request.user.pk}",

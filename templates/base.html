@@ -26,6 +26,7 @@
           <a href="{% url 'growth:evidence-ledger' %}" {% if '/evidence/' in request.path %}aria-current="page"{% endif %}>Evidence</a>
           <a href="{% url 'growth:profile' %}" {% if request.path == '/profile/' %}aria-current="page"{% endif %}>Profile</a>
           <a href="{% url 'growth:data-management' %}" {% if '/account' in request.path %}aria-current="page"{% endif %}>Account</a>
+          <a href="{% url 'history' %}" {% if '/history/' in request.path %}aria-current="page"{% endif %}>History</a>
           <form method="post" action="{% url 'logout' %}">
             {% csrf_token %}
             <button class="nav-button" type="submit">Sign out</button>

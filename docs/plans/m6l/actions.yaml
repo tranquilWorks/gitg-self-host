@@ -114,67 +114,67 @@ batches:
     - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
 - id: M6L-04
   title: Recurring weekly execution
-  status: locally_verified
+  status: ci_verified
   depends_on:
   - M6L-02
   - M6L-03
   actions:
   - id: M6L-04-01
     title: Act on review choices
-    status: locally_verified
+    status: ci_verified
     acceptance: Continue, adjust, pause and choose-another lead to the relevant next step; never perform
       a hidden state transition.
     evidence:
     - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
   - id: M6L-04-02
     title: Recover from missed plans
-    status: locally_verified
+    status: ci_verified
     acceptance: User can replan deliberately after a missed week or changed capacity; preserve original
       dates/evidence and avoid inferred failure.
     evidence:
     - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
   - id: M6L-04-03
     title: Show previous-week context
-    status: locally_verified
+    status: ci_verified
     acceptance: Present prior proof, adjustment and intended next step while planning the new week; distinguish
       no evidence from adverse evidence.
     evidence:
     - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
   - id: M6L-04-04
     title: Support upcoming actions
-    status: locally_verified
+    status: ci_verified
     acceptance: Choose and implement one non-coercive optional reminder/calendar approach with clear timing,
       privacy and disable behavior; no automatic score credit.
     evidence:
     - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
 - id: M6L-05
   title: History and reassessment continuity
-  status: planned
+  status: in_progress
   depends_on:
   - M6L-03
   - M6L-04
   actions:
   - id: M6L-05-01
     title: Readable longitudinal history
-    status: planned
+    status: in_progress
     acceptance: Owner can navigate past practices, weekly reviews and assessment periods, with provenance
       and completion/mastery distinctions.
     evidence: []
   - id: M6L-05-02
     title: Explain retake consequences
-    status: planned
+    status: in_progress
     acceptance: Before retaking, explain new context/coverage boundaries and any current practice still
       attached to the old assessment.
     evidence: []
   - id: M6L-05-03
     title: Explicit review-and-reuse intentions
-    status: planned
+    status: in_progress
     acceptance: Offer a user-confirmed copy of selected Personal OS/context intentions into a new period;
       never transfer evidence or scoring implicitly.
     evidence: []
   - id: M6L-05-04
     title: Resolve active-practice transitions
-    status: planned
+    status: in_progress
     acceptance: Old-assessment active/paused practices have clear completion/stop/navigation paths; new
       weekly plans cannot silently mix periods.
     evidence: []

@@ -1,0 +1,99 @@
+schema_version: 1
+batch:
+  id: M6L-04-RECURRING-WEEKLY
+  title: Connect weekly review to deliberate next action
+  goal: Replan after changed or missed weeks, carry forward previous proof and choices, and offer an optional
+    private-minimized calendar file.
+sources:
+  product: gitg-self-host
+  requirements:
+  - docs/PRODUCT_DECISIONS.md#decision-046
+  - docs/plans/m6l/README.md
+  - docs/plans/m6l/actions.yaml
+  milestone: M6 Phase F / M6L-04
+  baseline_commit: 10b040f3976f06e4e7fa53fe07b928ef4b60931a
+dependencies:
+- M6L-02
+- M6L-03
+scope:
+  allowed_paths:
+  - contracts/active-batch.yaml
+  - docs/plans/m6l/**
+  - docs/evidence/M6L-0*-*.md
+  - docs/PROJECT_HANDOFF.md
+  - docs/weekly-followup.md
+  - growth/services/weekly_followup.py
+  - growth/forms_weekly_followup.py
+  - growth/views_weekly.py
+  - growth/views_weekly_followup.py
+  - grounded_growth/urls.py
+  - templates/growth/weekly_execution.html
+  - templates/growth/weekly_plan_detail.html
+  - templates/growth/weekly_replan.html
+  - templates/growth/weekly_transition.html
+  - templates/growth/partials/weekly_proof.html
+  - templates/growth/partials/weekly_next_step.html
+  - tests/**
+  - MANIFEST.tsv
+  forbidden_paths:
+  - data/**
+  - reports/**
+  - docs/authoring/**
+  - growth/services/canonical_import.py
+  - growth/services/profile.py
+  - growth/services/context_priority.py
+  - .github/**
+  - Dockerfile
+  - docker-compose.yml
+  - growth/static/growth/app.css
+  - growth/urls.py
+  - growth/models.py
+  - growth/migrations/**
+  - growth/domain/**
+  - growth/services/weekly_execution.py
+  - growth/services/practice.py
+acceptance:
+- Saved continue, next-action, pause and choose-another review decisions have clear links to explicit
+  user-confirmed next steps; saving a review never changes practice state.
+- Replan a prior or changed current-week action using a deliberate save into the current week; preserve
+  original plan dates, proof and reviews, and reject stale forms.
+- Show the last planned prior week and its submitted proof, saved adjustment and next-step choice; distinguish
+  no evidence from adverse evidence and identify gaps honestly.
+- Provide an optional all-day calendar download with a generic title, no private narrative, no automatic
+  app reminder or score credit, and clear deletion/reimport behavior.
+- Validate ownership, latest assessment, plan revisions, proof and practice status; preserve all canonical
+  content, existing contracts, model files and historical records.
+validation:
+  local:
+  - Focused Django and browser journeys
+  - scripts/agent-verify.sh full
+  - MANIFEST and scope checks
+  - Desktop/mobile screenshot inspection
+  focused_tests_to_add:
+  - Reviewed and unreviewed past weeks, missed plans, explicit replanning and stale window/revision/assessment
+    errors
+  - All four next steps, deliberate pause/stop confirmation, paused/completed/replaced sprint handling
+    and no hidden score/evidence mutation
+  - Calendar format, day boundaries, private-text exclusion, authentication and stale/expired-plan refusal
+  - Desktop/mobile review-to-replan and calendar journey
+  required_ci:
+  - Pilot readiness gate
+risk:
+  class: moderate
+  hazards:
+  - A saved recommendation could silently pause or stop a practice.
+  - Replanning could erase prior proof or falsely label a missed date as failure.
+  - A calendar file could disclose private text or imply synchronization/reminders.
+  stop_conditions:
+  - Protected source or historical data drift
+  - Private authored text exposed outside existing surfaces
+  - Changed assessment, context-priority or scoring mathematics
+rollback:
+  strategy: Revert new routes, follow-up service/forms and weekly templates. No migration; all newly appended
+    plans/reviews remain valid under the unchanged weekly execution contract. Explicit practice transitions
+    retain their existing semantics. Imported calendar entries must be removed in the chosen calendar.
+evidence:
+  output:
+  - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
+  claim_boundary: Software and synthetic browser validation only; no new participant or specialist evidence,
+    merge, release or live data operation.

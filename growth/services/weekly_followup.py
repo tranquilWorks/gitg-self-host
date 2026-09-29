@@ -41,6 +41,13 @@ def _current_run(user, run_id, *, lock=False):
 
 def verified_plan(user, plan, *, require_latest=True):
     _current_run(user, plan.assessment_run_id)
+    return historical_plan(user, plan, require_latest=require_latest)
+
+
+def historical_plan(user, plan, *, require_latest=False):
+    """Read-only proof presentation; never authorizes current-period writes."""
+    if not user.is_authenticated or plan.assessment_run.user_id != user.pk:
+        raise ValidationError("Plan ownership could not be verified.")
     if plan.user_id != user.pk:
         raise ValidationError("Plan ownership could not be verified.")
     rows = list(

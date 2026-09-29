@@ -106,7 +106,7 @@
         </form>
       </div>
     {% elif active_sprint %}
-      <div class="panel"><h3>Review your current practice</h3><p>This practice is paused or belongs to an earlier assessment period. Review its status before planning another action.</p><a href="{% url 'growth:practice-sprint' active_sprint.pk %}">Open current practice</a></div>
+      <div class="panel"><h3>Review your current practice</h3><p>{% if active_sprint.assessment_run_id != summary.assessment_run.pk %}This practice belongs to an earlier assessment period. Its evidence and closeout stay there. Continue and complete it, or stop it before starting a current-period practice. New weekly plans cannot mix these periods.{% else %}This practice is paused. Resume it from the practice page when ready to plan another action.{% endif %}</p><a href="{% url 'growth:practice-sprint' active_sprint.pk %}">Open current practice</a></div>
     {% else %}
       <div class="empty-state">
         <h3>No active practice</h3>
