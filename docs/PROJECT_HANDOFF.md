@@ -5,7 +5,11 @@
 The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
 cover eight non-competency batches. The owner requested “go for 5”. M6L-05 is
 implemented on `codex/m6l-05-history-continuity`, based on final M6L-04 head
-`3cfa88d`; verification is in progress. See
+`3cfa88d`; all 1,968 nonbrowser tests, 17 readiness commands, six distinct browser
+journeys, final polish rechecks and isolated Docker recreation/backup/restore pass.
+[Draft PR #109](https://github.com/tranquilWorks/gitg-self-host/pull/109) is stacked
+on #108. Final-head CI is pending; implementation `23be1a5` has green hosted
+browser and Docker checks. See
 [Batch 5 evidence](evidence/M6L-05-HISTORY-CONTINUITY-20260929.md) and
 [history and reuse behavior](history-continuity.md). It adds owner-only period,
 practice and weekly-review history, reassessment consequences, selected intention
