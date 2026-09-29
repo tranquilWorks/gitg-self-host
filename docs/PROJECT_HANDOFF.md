@@ -1,5 +1,20 @@
 # Grounded Growth — Project Handoff
 
+## M6L guided product follow-up — 29 September 2026
+
+The owner requested every non-competency design gap be captured as actionable
+batches and the first begun. [M6L program](plans/m6l/README.md) and its
+[31-action register](plans/m6l/actions.yaml) cover eight batches: guided entry,
+context/alternatives, direction-to-practice links, recurring weekly execution,
+history/reassessment, consistency/accessibility, operator convenience and
+empirical validation. M6L-01 is implemented with final verification in progress; later batches remain planned.
+
+Branch `codex/m6l-01-guided-entry` starts from published merge `c0208be`.
+It provides action-led Home/demo guidance and concise suggestions with explicit
+searchable/paginated browsing, plus immediate product-copy repairs. It preserves
+canonical competencies, scoring, ranking, existing data and private text
+boundaries. See [verification checkpoint](evidence/M6L-01-GUIDED-ENTRY-20260929.md).
+
 ## Owner-accepted catalog publication — 28 September 2026
 
 The owner accepts the product quality for inspection and explicitly authorizes a

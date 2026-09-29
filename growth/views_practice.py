@@ -46,6 +46,7 @@ from growth.services.practice import (
     start_practice,
     transition_sprint,
 )
+from growth.services.practice_discovery import build_practice_explorer
 from growth.services.profile import build_profile_summary
 
 
@@ -70,23 +71,12 @@ def practice_list(request):
     summary = build_profile_summary(request.user)
     priority = build_browser_priority_presentation(user=request.user, summary=summary)
     recommended_ids = {protocol.pk for protocol in priority.recommendations}
-    protocols = list(
-        PracticeProtocol.objects.prefetch_related("target_levers").order_by("display_order")
-    )
-    ranked_protocols = list(priority.recommendations) if priority.context_aware else protocols
-    ranked_ids = {protocol.pk for protocol in ranked_protocols}
-    not_context_ranked = (
-        [protocol for protocol in protocols if protocol.pk not in ranked_ids]
-        if priority.context_aware
-        else []
-    )
     return render(
         request,
         "growth/practice_list.html",
         {
-            "protocols": protocols,
-            "ranked_protocols": ranked_protocols,
-            "not_context_ranked": not_context_ranked,
+            "ranked_protocols": priority.recommendations,
+            "explorer": build_practice_explorer(request.GET),
             "recommended_ids": recommended_ids,
             "current_sprint": current_sprint_for(request.user),
             "priority": priority,

@@ -1,0 +1,256 @@
+schema_version: 1
+program: M6L
+baseline_commit: c0208be6c031b37c75657f8190e50305a691c463
+owner_request: Capture all non-competency gaps into actions and batches; begin the first batch.
+batches:
+- id: M6L-01
+  title: Guided entry and discovery
+  status: in_progress
+  depends_on: []
+  actions:
+  - id: M6L-01-01
+    title: Home and first-use guidance
+    status: implemented
+    acceptance: Home leads with direction, this week and a concrete next action; no archetype headline;
+      no-assessment path reaches the existing assessment.
+    evidence:
+    - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+  - id: M6L-01-02
+    title: Explicit demonstration state
+    status: implemented
+    acceptance: Seeded users see an unambiguous demonstration notice and their own assessment CTA;
+      real-assessment users do not; existing seed data is preserved.
+    evidence:
+    - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+  - id: M6L-01-03
+    title: Concise recommendation and explorer views
+    status: implemented
+    acceptance: Default shows at most three existing recommendations; explicit browsing/search/domain
+      filters yield deterministic twelve-item pages, accessible links and a useful empty state without
+      ranking changes.
+    evidence:
+    - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+  - id: M6L-01-04
+    title: Immediate language repairs
+    status: implemented
+    acceptance: Personal OS accurately links account archive/deletion; generic practice completion
+      never claims a substantive interaction unconditionally; visible context messages use ordinary
+      language.
+    evidence:
+    - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+  - id: M6L-01-05
+    title: Verify and retain the first journey
+    status: in_progress
+    acceptance: Fresh/demo/real-user, filtered/paginated, keyboard/mobile and no-state-mutation coverage
+      passes; review screenshots and record exact verification.
+    evidence:
+    - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+- id: M6L-02
+  title: Explicit context and alternatives
+  status: planned
+  depends_on:
+  - M6L-01
+  actions:
+  - id: M6L-02-01
+    title: Reproduce exclusion and fallback cases
+    status: planned
+    acceptance: Document and test no-context, partial-context, all-deferred and all-N/A flows; explicitly
+      excluded choices are not presented as personalized recommendations.
+    evidence: []
+  - id: M6L-02-02
+    title: Reduce context-entry burden
+    status: planned
+    acceptance: Guide a small shortlist through explicit factors progressively; unknown remains unknown;
+      avoid a six-factor-times-383 worksheet.
+    evidence: []
+  - id: M6L-02-03
+    title: Offer useful alternatives
+    status: planned
+    acceptance: If no reviewed alternative exists, offer deliberate exploration and context review
+      of another candidate without silently imputing context or expanding the ranked cohort.
+    evidence: []
+  - id: M6L-02-04
+    title: Make deferral reviewable
+    status: planned
+    acceptance: Show a private list of deferred choices and review horizons; reconsidering requires
+      an explicit revision and produces no penalty.
+    evidence: []
+  - id: M6L-02-05
+    title: Version changed presentation/selection policy
+    status: planned
+    acceptance: Record accepted behavior and preserve scoring, prior context snapshots and deterministic
+      replay; add edge-case and browser coverage.
+    evidence: []
+- id: M6L-03
+  title: Direction-to-practice connection
+  status: planned
+  depends_on:
+  - M6L-01
+  actions:
+  - id: M6L-03-01
+    title: Choose the priority a practice serves
+    status: planned
+    acceptance: User explicitly selects a priority/intended outcome; no interpretation or analysis
+      of private prose.
+    evidence: []
+  - id: M6L-03-02
+    title: Make the connection visible
+    status: planned
+    acceptance: Setup and weekly planning show the chosen connection and a reversible way to revise
+      it; unknown or declined is supported.
+    evidence: []
+  - id: M6L-03-03
+    title: Review direction periodically
+    status: planned
+    acceptance: Provide a concise user-initiated review of mission, anti-goals, priorities and direction
+      with prior revisions preserved.
+    evidence: []
+- id: M6L-04
+  title: Recurring weekly execution
+  status: planned
+  depends_on:
+  - M6L-02
+  - M6L-03
+  actions:
+  - id: M6L-04-01
+    title: Act on review choices
+    status: planned
+    acceptance: Continue, adjust, pause and choose-another lead to the relevant next step; never
+      perform a hidden state transition.
+    evidence: []
+  - id: M6L-04-02
+    title: Recover from missed plans
+    status: planned
+    acceptance: User can replan deliberately after a missed week or changed capacity; preserve original
+      dates/evidence and avoid inferred failure.
+    evidence: []
+  - id: M6L-04-03
+    title: Show previous-week context
+    status: planned
+    acceptance: Present prior proof, adjustment and intended next step while planning the new week;
+      distinguish no evidence from adverse evidence.
+    evidence: []
+  - id: M6L-04-04
+    title: Support upcoming actions
+    status: planned
+    acceptance: Choose and implement one non-coercive optional reminder/calendar approach with clear
+      timing, privacy and disable behavior; no automatic score credit.
+    evidence: []
+- id: M6L-05
+  title: History and reassessment continuity
+  status: planned
+  depends_on:
+  - M6L-03
+  - M6L-04
+  actions:
+  - id: M6L-05-01
+    title: Readable longitudinal history
+    status: planned
+    acceptance: Owner can navigate past practices, weekly reviews and assessment periods, with provenance
+      and completion/mastery distinctions.
+    evidence: []
+  - id: M6L-05-02
+    title: Explain retake consequences
+    status: planned
+    acceptance: Before retaking, explain new context/coverage boundaries and any current practice
+      still attached to the old assessment.
+    evidence: []
+  - id: M6L-05-03
+    title: Explicit review-and-reuse intentions
+    status: planned
+    acceptance: Offer a user-confirmed copy of selected Personal OS/context intentions into a new
+      period; never transfer evidence or scoring implicitly.
+    evidence: []
+  - id: M6L-05-04
+    title: Resolve active-practice transitions
+    status: planned
+    acceptance: Old-assessment active/paused practices have clear completion/stop/navigation paths;
+      new weekly plans cannot silently mix periods.
+    evidence: []
+- id: M6L-06
+  title: Whole-application consistency
+  status: planned
+  depends_on:
+  - M6L-02
+  - M6L-03
+  - M6L-04
+  - M6L-05
+  actions:
+  - id: M6L-06-01
+    title: Audit all user-facing copy
+    status: planned
+    acceptance: Remove milestone/slice/backend jargon and misleading old claims across forms, completion,
+      empty/error states and help; retain accurate privacy boundaries.
+    evidence: []
+  - id: M6L-06-02
+    title: Simplify navigation and recovery
+    status: planned
+    acceptance: Each screen has a clear purpose and next action; errors provide safe recovery; secondary
+      diagnostics remain available without dominating.
+    evidence: []
+  - id: M6L-06-03
+    title: Accessibility and layout review
+    status: planned
+    acceptance: Verify keyboard, focus, labels, screen-reader-oriented structure, mobile, zoom and
+      reduced-motion paths; retain screenshots and document limits.
+    evidence: []
+- id: M6L-07
+  title: Operator convenience
+  status: planned
+  depends_on:
+  - M6L-01
+  actions:
+  - id: M6L-07-01
+    title: Installation and demo choice
+    status: planned
+    acceptance: Provide explicit demo versus personal-start guidance and a safe opt-in demo configuration;
+      preserve existing users and historical demonstration data.
+    evidence: []
+  - id: M6L-07-02
+    title: Version and update visibility
+    status: planned
+    acceptance: Show installed revision and reproducible update/pin instructions; no silent updates
+      or unsolicited remote telemetry.
+    evidence: []
+  - id: M6L-07-03
+    title: Guided operational recovery
+    status: planned
+    acceptance: Document authentication, configuration checks, backup verification, active-practice
+      upgrade constraints and restore/rollback with tested failure cases.
+    evidence: []
+- id: M6L-08
+  title: Empirical product validation
+  status: planned
+  depends_on:
+  - M6L-02
+  - M6L-03
+  - M6L-04
+  - M6L-05
+  - M6L-06
+  - M6L-07
+  actions:
+  - id: M6L-08-01
+    title: Prepare a consented multi-cycle pilot
+    status: planned
+    acceptance: Define tasks, consent, collection/retention boundaries and recruitment diversity
+      before any participant activity; keep feedback separate from developmental scoring.
+    evidence: []
+  - id: M6L-08-02
+    title: Evaluate real product use
+    status: planned
+    acceptance: Collect actual observations of recommendation fit, burden, abandonment, repeated-week
+      use and accessibility; report sample and limitations honestly.
+    evidence: []
+  - id: M6L-08-03
+    title: Complete assessment evidence work
+    status: planned
+    acceptance: 'Plan and collect evidence for all eight existing axes: distributions, missingness/N-A,
+      retest, convergent/discriminant validity, fairness, burden/abandonment, recommendation fit
+      and longitudinal association.'
+    evidence: []
+  - id: M6L-08-04
+    title: Qualified analysis and versioned corrections
+    status: planned
+    acceptance: Have suitable reviewers assess the collected evidence; track warranted fixes as follow-on
+      batches; close no axis from synthetic tests alone.
+    evidence: []

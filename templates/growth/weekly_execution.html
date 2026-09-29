@@ -29,7 +29,7 @@
       {% if personal_os and personal_os.twelve_month_direction_state == "provided" %}
         <p class="preserve-lines">{{ personal_os.twelve_month_direction_value }}</p>
       {% else %}
-        <p>No twelve-month direction is provided for this assessment epoch.</p>
+        <p>You have not provided a twelve-month direction since your latest assessment.</p>
       {% endif %}
       {% if personal_os and personal_os.priority_stack_state == "provided" %}
         <h3>Current priority stack</h3>

@@ -1,0 +1,11 @@
+<article class="practice-card" data-availability="{{ protocol.availability }}">
+  <div class="card-meta">
+    <span>{{ protocol.duration_days }} days</span>
+    {% if recommended %}<span class="status-pill status-pill-ready">{% if priority.context_aware %}Context fit{% else %}Suggested{% endif %}</span>{% endif %}
+  </div>
+  <h3>{{ protocol.name }}</h3>
+  {% if protocol.parent_competency %}<p class="fine-print">{{ protocol.parent_competency.domain_name }}</p>{% endif %}
+  {% if recommended and protocol.recommendation_reason %}<p>{{ protocol.recommendation_reason }}</p>{% endif %}
+  <a class="text-link" href="{% url 'growth:practice-recommendation' protocol.slug %}">Review practice <span aria-hidden="true">→</span></a>
+  <p><a class="text-link" href="{% url 'growth:practice-context' protocol.slug %}">Review current context</a></p>
+</article>

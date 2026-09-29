@@ -259,11 +259,11 @@ def build_browser_priority_presentation(
     partial = bool(reviewed) and len(reviewed) < active_count
     if assessment_context is None:
         message = (
-            "Add season and capacity before asking for context-aware ordering. "
-            "The provisional need order remains unchanged."
+            "Add your current season and capacity to tailor these suggestions. "
+            "The assessment-based order remains unchanged."
             if reviewed
             else (
-                "No current-epoch context has been reviewed; provisional need order "
+                "You have not reviewed current fit since your latest assessment; assessment order "
                 "remains unchanged."
             )
         )
@@ -290,8 +290,8 @@ def build_browser_priority_presentation(
             active_count,
             False,
             False,
-            "Review at least one practice before asking for context-aware ordering. "
-            "Provisional need order remains unchanged.",
+            "Review the fit of at least one practice to tailor these suggestions. "
+            "The assessment-based order remains unchanged.",
         )
     try:
         result = build_context_priority_for_epoch(
@@ -342,7 +342,7 @@ def build_browser_priority_presentation(
             active_count,
             partial,
             False,
-            "Capacity must be explicitly provided before context-aware ordering. "
+            "Tell us your available capacity to tailor these suggestions. "
             "It remains missing, not zero.",
             alternative_protocol,
             alternative_message,
@@ -358,8 +358,8 @@ def build_browser_priority_presentation(
             active_count,
             partial,
             False,
-            "No explicitly reviewed practice has all required context. Provisional "
-            "need order remains unchanged and is not context-aware.",
+            "None of the practices you reviewed has complete information about fit. Assessment "
+            "order remains unchanged and does not yet reflect current fit.",
             alternative_protocol,
             alternative_message,
         )
@@ -373,8 +373,8 @@ def build_browser_priority_presentation(
         active_count,
         partial,
         True,
-        "Ordered only among the explicitly reviewed practices with complete eligible "
-        "context. This separates provisional need from current context fit.",
+        "Suggestions compare only the practices whose fit you have reviewed. Complete "
+        "context helps distinguish assessment need from what fits your life now.",
         alternative_protocol,
         alternative_message,
     )

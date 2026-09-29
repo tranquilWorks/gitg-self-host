@@ -108,7 +108,7 @@ def assert_login(
 ) -> None:
     final_url, body, cookies = login(base_url, username, password)
     if expect_success:
-        if normalized_base_url(final_url) != base_url or "Welcome back." not in body:
+        if normalized_base_url(final_url) != base_url or 'id="home-heading"' not in body:
             raise RuntimeError(f"Login did not reach the authenticated home page: {final_url}")
         session_cookies = [cookie for cookie in cookies if cookie.name == "sessionid"]
         if len(session_cookies) != 1:
