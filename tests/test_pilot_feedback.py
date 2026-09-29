@@ -183,7 +183,10 @@ def test_feedback_questions_are_scoped_to_the_selected_journey_stage(client, use
     response = client.post(reverse("growth:pilot-feedback"), invalid)
 
     assert response.status_code == 200
-    message = "This question does not apply to the selected part of the experience."
+    message = (
+        "This question does not apply to the selected part of the experience. "
+        "Choose a practice-related part or leave it unanswered."
+    )
     fields = ("protocol", "applicability", "time_to_start", "time_to_check_in")
     assert response.context["form"].errors == {field: [message] for field in fields}
     for field in fields:

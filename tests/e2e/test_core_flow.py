@@ -816,7 +816,7 @@ def test_complete_assessment_and_save_canonical_outputs(live_server, page: Page)
     open_assessment(live_server, page)
     page.get_by_role("button", name="Begin assessment").click()
     for index in range(50):
-        expect(page.locator("#assessment-count")).to_have_text(f"{index + 1} of 50")
+        expect(page.locator("#assessment-count")).to_have_text(f"Question {index + 1} of 50")
         answer = ("1" if index % 2 == 0 else "5") if index < 12 else "4"
         page.get_by_role("button", name=re.compile(rf"^{answer} —")).click()
         page.get_by_role(

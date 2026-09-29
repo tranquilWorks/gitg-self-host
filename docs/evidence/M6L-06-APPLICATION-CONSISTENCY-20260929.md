@@ -43,8 +43,13 @@ draft PR only; no merge, publication or live-data action.
   and adding safe-link/no-cache/no-attachment checks; both focused cases passed
   (`/tmp/m6l06-error-contract.xml`). Updated the profile-copy expectation while
   preserving all scoring/baseline invariants. The complete profile is rerunning.
-- Final full browser suite, nonbrowser/full readiness profile and isolated Docker
-  drill are pending. Browser regression also found two prior assumptions affected
+- Final full browser suite and nonbrowser/full readiness profile are pending.
+  `make compose-smoke` passed (`/tmp/m6l06-compose.log`, exit zero), including
+  fresh isolated deployment, mapped-port health/authentication, idempotent seed,
+  saved synthetic context, recreation, backup/restore, all applicable replay and
+  readiness contracts, and clean shutdown. Image construction preceded the final
+  no-JavaScript notice copy; the final notice is covered by browser verification.
+  Browser regression also found two prior assumptions affected
   by shared summaries: immediate invalid-field focus, and a globally unique error
   message. Updated the context journey to follow the summary link, and the account
   deletion journey to select the exact inline error and verify summary focus. Its
@@ -52,6 +57,14 @@ draft PR only; no merge, publication or live-data action.
   entry is checked on a fresh GET. Receipts: `/tmp/m6l06-all-browser-focus.xml`
   (eight passes, one failure), `/tmp/m6l06-all-browser-deletion.xml` (ten passes,
   one failure). Full browser coverage is rerunning.
+- A subsequent full regression stopped after 216 passes at a feedback assertion
+  that counted four error messages across the whole document. Shared summaries
+  intentionally duplicate inline messages. The replacement checks the exact four
+  form errors, their inline IDs and summary links, preserving rejection/no-write
+  and valid-submission assertions. An existing practice browser selector similarly
+  now targets its inline action-attempt error. Receipts:
+  `/tmp/m6l06-full-summary.xml`, `/tmp/m6l06-all-browser-attempt.xml` (12 passes,
+  one failure). Both complete suites rerun without first-failure interruption.
 - Inspected final narrow Home, conflict recovery, conditional consent, linked
   form-error and 200% text screenshots, alongside the initial desktop assessment
   screenshot. The active badge, navigation, recovery links and form content remain
