@@ -3,7 +3,8 @@
 Owner request: “nexst batch” after M6L-05. Baseline:
 `a51b1214f91e5dc4756aebc1e57aca99e48503b4`. Branch:
 `codex/m6l-06-application-consistency`. Implementation, verification and stacked
-draft PR only; no merge, publication or live-data action.
+[draft PR #110](https://github.com/tranquilWorks/gitg-self-host/pull/110) only;
+no merge, publication or live-data action.
 
 ## Acceptance and implementation
 
@@ -20,60 +21,61 @@ draft PR only; no merge, publication or live-data action.
   state and scoped opt-in shortcuts, stronger control boundaries, reduced motion,
   narrow reflow and text resizing. No scoring or lifecycle service changes.
 
-## Verification in progress
-
-- Focused regression: 43 passed (`/tmp/m6l06-focused.xml`, 176.03 seconds).
-- Initial new browser coverage: five passed (`/tmp/m6l06-browser.xml`, 82.59 seconds):
-  23 route entries at each of 320/390/1280px, text resizing/reduced motion,
-  keyboard assessment/form recovery and non-JavaScript navigation/password errors.
-- The conditional-form test initially failed on an exact label selector that
-  omitted Django's trailing colon; repaired the selector. Its page exposed both
-  expected consent controls. An additional expected weekly heading was corrected
-  before rerun; neither required a product behavior change.
-- The first complete-browser attempt stopped after eight passes at an old Personal
-  OS label selector; updated it to the new label. The next attempt exposed a text
-  locator that did not match the visible `<noscript>` message. An explicit element
-  selector passed in the dedicated no-JavaScript rerun (`/tmp/m6l06-noscript.xml`,
-  one passed). These selector corrections preserve the intended journey checks.
-- Draft [PR #110](https://github.com/tranquilWorks/gitg-self-host/pull/110) is stacked
-  on #109. Implementation commit `dc2e9e2`; hosted CI is in progress.
-- The initial full regression stopped at one obsolete plaintext export-error
-  assertion after 112 passes (`/tmp/m6l06-full-initial.xml`). Updated the evidence
-  and feedback export assertions for HTML recovery, keeping privacy/status checks
-  and adding safe-link/no-cache/no-attachment checks; both focused cases passed
-  (`/tmp/m6l06-error-contract.xml`). Updated the profile-copy expectation while
-  preserving all scoring/baseline invariants. The complete profile is rerunning.
-- Final full browser suite and nonbrowser/full readiness profile are pending.
-  `make compose-smoke` passed (`/tmp/m6l06-compose.log`, exit zero), including
-  fresh isolated deployment, mapped-port health/authentication, idempotent seed,
-  saved synthetic context, recreation, backup/restore, all applicable replay and
-  readiness contracts, and clean shutdown. Image construction preceded the final
-  no-JavaScript notice copy; the final notice is covered by browser verification.
-  Browser regression also found two prior assumptions affected
-  by shared summaries: immediate invalid-field focus, and a globally unique error
-  message. Updated the context journey to follow the summary link, and the account
-  deletion journey to select the exact inline error and verify summary focus. Its
-  wrong-confirmation account-preservation assertion remains in place; keyboard
-  entry is checked on a fresh GET. Receipts: `/tmp/m6l06-all-browser-focus.xml`
-  (eight passes, one failure), `/tmp/m6l06-all-browser-deletion.xml` (ten passes,
-  one failure). Full browser coverage is rerunning.
-- A subsequent full regression stopped after 216 passes at a feedback assertion
-  that counted four error messages across the whole document. Shared summaries
-  intentionally duplicate inline messages. The replacement checks the exact four
-  form errors, their inline IDs and summary links, preserving rejection/no-write
-  and valid-submission assertions. An existing practice browser selector similarly
-  now targets its inline action-attempt error. Receipts:
-  `/tmp/m6l06-full-summary.xml`, `/tmp/m6l06-all-browser-attempt.xml` (12 passes,
-  one failure). Both complete suites rerun without first-failure interruption.
-- Inspected final narrow Home, conflict recovery, conditional consent, linked
-  form-error and 200% text screenshots, alongside the initial desktop assessment
-  screenshot. The active badge, navigation, recovery links and form content remain
-  readable. Screenshots are retained under `test-results/pilot-walkthrough/`
-  with the `consistency-` prefix (synthetic data only).
-
-Shared-form inspection also repaired duplicate hidden/context and optional
+Shared-form inspection repaired duplicate hidden/context and optional
 withdrawal/cleanup IDs, missing replan help targets and the closed invalid audit
 section without JavaScript. New assets keep protected renderer inputs intact.
+
+## Verification
+
+| Check | Actual result |
+| --- | --- |
+| Nonbrowser regression | All 1,986 cases have passing coverage: 1,985 passed in the complete run (1,195.39 seconds), one corrected assertion passed in its exact-case rerun (12.88 seconds). |
+| Complete browser suite | All 52 cases have passing coverage: 51 passed in the complete run (651.23 seconds), one corrected assessment-counter assertion passed in its complete assessment/save journey rerun (23.23 seconds). |
+| Full readiness commands | All 17 exact commands from `contracts/verification.commands` passed in contract order, exit zero, including pilot/curriculum/evidence, scoring, calibration, context, weekly and operations readiness. |
+| Docker Compose | `make compose-smoke` passed, exit zero: isolated deployment, mapped-port health/authentication, idempotent seed, synthetic saved context, recreation, backup/restore, all applicable replay/readiness contracts and clean shutdown. |
+| Contract and scope | Contract schema and all 61 changed paths passed; no forbidden paths. Manifest has 3,467 entries. Ruff formatting/lint, Django check, no-migration check and whitespace check passed. Final code contract log: `docs/evidence/local/verify-contract-20260929T232258Z.log`; documentation-only refresh rechecked manifest/schema/scope. |
+| Visual inspection | Narrow Home, conflict recovery, conditional consent, linked form errors, 200% text and desktop assessment screenshots inspected. Badge, navigation, recovery links and form content remain readable. |
+
+The required cumulative command was:
+`PYTEST_ADDOPTS='-n 4 --dist=load --maxschedchunk=1 --output=/tmp/m6l06-full-artifacts --junitxml=/tmp/m6l06-full.xml' ./scripts/agent-verify.sh full`.
+Its nonzero exit records the obsolete assertion; it is not represented as a clean
+full-harness pass. The exact 17 remaining `scope:full` commands were replayed in
+contract order by `/tmp/m6l06-readiness.py`. No gate is removed or weakened.
+
+Browser command:
+`PLAYWRIGHT_BROWSERS_PATH="$PWD/.playwright-browsers" .venv/bin/pytest tests/e2e -q --output=/tmp/m6l06-all-browser-artifacts --junitxml=/tmp/m6l06-all-browser.xml`.
+Coverage includes 23 route entries at each of 320/390/1280px, enlarged text and
+reduced motion, keyboard assessment/form recovery, no-JavaScript navigation and
+validation, conditional consent/reuse, conflict recovery, and all existing journeys.
+The actual setup sequence and complete assessment/clarifier/canonical-save journey
+remain exercised. XML node identities were compared: each failed broad-run case
+matches its passing rerun exactly; neither broad suite skipped cases.
+
+Receipts: `/tmp/m6l06-full.xml`, `/tmp/m6l06-feedback-summary-fixed.xml`,
+`/tmp/m6l06-all-browser.xml`, `/tmp/m6l06-assessment-browser.xml`,
+`/tmp/m6l06-readiness.log`, `/tmp/m6l06-compose.log`. Focused regression also
+passed 43 cases (`/tmp/m6l06-focused.xml`) and two export-error contract cases
+(`/tmp/m6l06-error-contract.xml`). Screenshots remain under
+`test-results/pilot-walkthrough/consistency-*.png`, with synthetic data only.
+Docker image construction preceded the final no-JavaScript notice copy; the final
+notice passed dedicated and complete browser coverage.
+
+## Verification corrections
+
+Earlier attempts exposed old Personal OS labels, the assessment counter label,
+a `<noscript>` text locator, exact labels missing Django's colon, immediate-field
+focus assumptions, and message uniqueness assumptions invalidated by the new
+summary. Tests now select the exact field/inline error and verify summary-to-field
+focus. Wrong-confirmation account preservation, attempted-action rejection,
+feedback no-write/valid-submission behavior and canonical assessment outputs remain
+checked. The feedback assertion was additionally corrected to include the full
+existing two-sentence validation message. No product validation rule changed.
+
+Export-error assertions now expect HTML recovery while retaining status/privacy
+checks and adding safe GET links, no-cache and no-attachment checks. Profile-copy
+assertions changed without removing scoring/baseline invariants. Initial interrupted
+receipts are retained as `/tmp/m6l06-full-initial.xml`,
+`/tmp/m6l06-full-summary.xml`, and `/tmp/m6l06-all-browser-*.xml`.
 
 ## Invariants and limits
 
@@ -86,5 +88,6 @@ No fingerprints or required gates are weakened.
 Browser semantics, layout and keyboard checks do not establish actual
 assistive-technology usability, universal accessibility or WCAG certification.
 No participant evidence, specialist acceptance or empirical axis is closed.
+Hosted CI is pending; PR #110 remains draft, stacked on #109, unmerged/unpublished.
 After Batch 6, **two batches / seven actions** remain: 07 operator convenience
 (three actions), and 08 empirical product validation (four actions).

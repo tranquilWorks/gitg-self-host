@@ -4,15 +4,19 @@
 
 The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
 cover eight non-competency batches. The owner requested the next batch after 05.
-M6L-06 is implemented on `codex/m6l-06-application-consistency`, based on final
-M6L-05 head `a51b121`. Verification is in progress. It adds shared navigation,
+M6L-06 is locally verified on `codex/m6l-06-application-consistency`, based on
+final M6L-05 head `a51b121`. [Draft PR #110](https://github.com/tranquilWorks/gitg-self-host/pull/110)
+is stacked on #109; final hosted CI is pending. It adds shared navigation, safe
 HTML recovery, linked form-error summaries, assessment keyboard/focus support,
-copy cleanup and additive reflow/focus styles. See [behavior and audit](application-consistency.md)
-and [Batch 6 evidence](evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md).
+copy cleanup and additive reflow/focus styles. All 1,986 nonbrowser cases and 52
+browser cases have passing coverage across complete runs and exact-case assertion
+reruns; all 17 readiness commands and the Docker recreation/backup/restore drill
+passed. See [behavior and audit](application-consistency.md) and
+[exact results and limitations](evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md).
 No migration, canonical competency change or historical service change. Batches
 07–08 remain planned: operator convenience and empirical validation (two batches /
-seven actions). This batch is for implementation, verification and a stacked draft
-PR; no merge or publication.
+seven actions). No merge or publication; actual assistive-technology and participant
+validation remain distinct from software checks.
 
 M6L-05 final head `a51b1214f91e5dc4756aebc1e57aca99e48503b4` passed every hosted
 quality, browser, Docker Compose and aggregate Pilot readiness check in

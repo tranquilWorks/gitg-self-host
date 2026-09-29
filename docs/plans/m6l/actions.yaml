@@ -184,7 +184,7 @@ batches:
     - docs/evidence/M6L-05-HISTORY-CONTINUITY-20260929.md
 - id: M6L-06
   title: Whole-application consistency
-  status: in_progress
+  status: locally_verified
   depends_on:
   - M6L-02
   - M6L-03
@@ -193,22 +193,25 @@ batches:
   actions:
   - id: M6L-06-01
     title: Audit all user-facing copy
-    status: in_progress
+    status: locally_verified
     acceptance: Remove milestone/slice/backend jargon and misleading old claims across forms, completion,
       empty/error states and help; retain accurate privacy boundaries.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md
   - id: M6L-06-02
     title: Simplify navigation and recovery
-    status: in_progress
+    status: locally_verified
     acceptance: Each screen has a clear purpose and next action; errors provide safe recovery; secondary
       diagnostics remain available without dominating.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md
   - id: M6L-06-03
     title: Accessibility and layout review
-    status: in_progress
+    status: locally_verified
     acceptance: Verify keyboard, focus, labels, screen-reader-oriented structure, mobile, zoom and reduced-motion
       paths; retain screenshots and document limits.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md
 - id: M6L-07
   title: Operator convenience
   status: planned
