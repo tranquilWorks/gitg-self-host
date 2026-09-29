@@ -92,12 +92,14 @@ The first implementation head `d1f669a` passed the complete hosted browser suite
 and Docker Compose migration/persistence/backup/restore drill in
 [run 36580437479](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36580437479).
 Its quality job predates the migration-test corrections and model isolation;
-those early successes are **not** final-head aggregate verification. The final
-head requires its own Pilot readiness gate before any merge. PR #107 remains a
-draft, and no image is published by this batch.
+those early successes are **not** final-head aggregate verification.
+
+Final-head update, 29 September 2026: `10b040f3976f06e4e7fa53fe07b928ef4b60931a`
+passed all hosted quality, browser, Compose and aggregate Pilot readiness checks
+in [run 36583693381](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36583693381).
+PR #107 remains draft and unmerged; publication was skipped.
 
 Software and synthetic-browser evidence only. No new participant observations,
-specialist acceptance or empirical validation is claimed. Batches 04–08 remain
-planned.
-
-Final-head update, 29 September 2026: `10b040f3976f06e4e7fa53fe07b928ef4b60931a` passed all hosted quality, browser, Compose and aggregate Pilot readiness checks in [run 36583693381](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36583693381). PR #107 remains draft and unmerged; publication was skipped.
+specialist acceptance or empirical validation is claimed. The owner has since
+authorized M6L-04; see its evidence and the action register for current status.
+Batches 05–08 remain planned.

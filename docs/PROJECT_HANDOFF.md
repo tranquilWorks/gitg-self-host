@@ -6,11 +6,20 @@ The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/action
 cover eight non-competency batches. The owner requested the next batch after
 M6L-03, authorizing M6L-04 and a remaining-batch update. M6L-04 is implemented on
 `codex/m6l-04-recurring-weekly`, based on Batch 3 final head `10b040f`.
-Verification is in progress; see [Batch 4 evidence](evidence/M6L-04-RECURRING-WEEKLY-20260929.md)
-and [weekly follow-up behavior](weekly-followup.md). It adds actionable review
+[Draft PR #108](https://github.com/tranquilWorks/gitg-self-host/pull/108) is stacked
+on #107. All 1,954 nonbrowser tests, 17 readiness commands and the isolated Docker
+Compose recreation/backup/restore drill pass. Three local browser journeys passed
+and passed again after route/button polish; desktop/mobile screenshots were
+inspected. Final contract, schema, scope and manifest checks pass. The final PR
+head still needs its own hosted aggregate gate before merge. See
+[Batch 4 evidence](evidence/M6L-04-RECURRING-WEEKLY-20260929.md) and
+[weekly follow-up behavior](weekly-followup.md). It adds actionable review
 choices, explicit replanning, previous planned-week context and an optional
 private-minimized calendar download. No migration or contract changes. Batches
-05–08 remain planned. No merge/publication is authorized for this batch.
+05–08 remain planned: history/reassessment (next), whole-application consistency,
+operator convenience and empirical product validation. Four batches / 14 actions
+remain; the empirical batch needs real participant evidence. No merge/publication
+is authorized for this batch.
 
 M6L-03 is locally and CI verified. [Draft PR #107](https://github.com/tranquilWorks/gitg-self-host/pull/107)
 is stacked on #106 and remains unmerged. Its final head `10b040f` passed all

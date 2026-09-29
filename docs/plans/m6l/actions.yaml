@@ -114,35 +114,39 @@ batches:
     - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
 - id: M6L-04
   title: Recurring weekly execution
-  status: in_progress
+  status: locally_verified
   depends_on:
   - M6L-02
   - M6L-03
   actions:
   - id: M6L-04-01
     title: Act on review choices
-    status: in_progress
+    status: locally_verified
     acceptance: Continue, adjust, pause and choose-another lead to the relevant next step; never perform
       a hidden state transition.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
   - id: M6L-04-02
     title: Recover from missed plans
-    status: in_progress
+    status: locally_verified
     acceptance: User can replan deliberately after a missed week or changed capacity; preserve original
       dates/evidence and avoid inferred failure.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
   - id: M6L-04-03
     title: Show previous-week context
-    status: in_progress
+    status: locally_verified
     acceptance: Present prior proof, adjustment and intended next step while planning the new week; distinguish
       no evidence from adverse evidence.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
   - id: M6L-04-04
     title: Support upcoming actions
-    status: in_progress
+    status: locally_verified
     acceptance: Choose and implement one non-coercive optional reminder/calendar approach with clear timing,
       privacy and disable behavior; no automatic score credit.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
 - id: M6L-05
   title: History and reassessment continuity
   status: planned

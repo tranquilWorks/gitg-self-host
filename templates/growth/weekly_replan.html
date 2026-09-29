@@ -7,6 +7,6 @@
 <form method="post" novalidate>{% csrf_token %}{% for field in form.hidden_fields %}{{ field }}{{ field.errors }}{% endfor %}{{ form.non_field_errors }}
 <div class="form-field">{{ form.action.label_tag }}{{ form.action }}{{ form.action.errors }}</div>
 <div class="form-field">{{ form.intended_on.label_tag }}{{ form.intended_on }}{{ form.intended_on.errors }}</div>
-<button class="button" type="submit">Save replanned action</button> <a href="{% url 'weekly-plan-detail' plan.pk %}">Cancel</a>
+<div class="button-row"><button class="button" type="submit">Save replanned action</button> <a href="{% url 'weekly-plan-detail' plan.pk %}">Cancel</a></div>
 </form></div></section>
 {% endblock %}

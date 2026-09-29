@@ -62,6 +62,7 @@ def test_weekly_recovery_calendar_and_explicit_pause(live_server, page, width):
     page.get_by_label("Pause and reconsider").check()
     page.get_by_role("button", name="Save proof-based weekly review").click()
     page.get_by_role("link", name="Review pause", exact=True).click()
+    expect(page.locator("nav a[aria-current=page]")).to_have_count(1)
     sprint.refresh_from_db()
     assert sprint.status == "active"
     assert_no_horizontal_overflow(page)

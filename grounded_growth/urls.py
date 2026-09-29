@@ -15,7 +15,7 @@ urlpatterns = [
     path("weekly/plans/<uuid:plan_id>/", weekly_plan_detail, name="weekly-plan-detail"),
     path("weekly/plans/<uuid:plan_id>/replan/", weekly_replan, name="weekly-replan"),
     path(
-        "weekly/plans/<uuid:plan_id>/practice/<str:decision>/",
+        "weekly/plans/<uuid:plan_id>/decision/<str:decision>/",
         weekly_transition,
         name="weekly-transition",
     ),
