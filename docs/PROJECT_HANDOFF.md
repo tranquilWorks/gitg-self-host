@@ -4,7 +4,7 @@
 
 The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
 cover eight non-competency batches. The owner requested the next after Batch 1;
-M6L-02 is now in implementation on `codex/m6l-02-context-alternatives`, stacked
+M6L-02 is implemented and locally verified on `codex/m6l-02-context-alternatives`, stacked
 on `1274ff1`. Batches 03–08 remain planned.
 
 M6L-01 is locally and CI verified: 1,918 nonbrowser tests, all local readiness,
@@ -19,10 +19,13 @@ and provides an owner-only saved/deferred review page. Its [selection policy](co
 is separately versioned; scoring/context mathematics, canonical content and
 immutable history remain unchanged. See [Batch 2 evidence](evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md)
 for verification status. [Draft PR #106](https://github.com/tranquilWorks/gitg-self-host/pull/106)
-is stacked on #105. Eight new behavior tests, 22 selected integration tests and
-the three distinct browser journeys pass; final desktop/mobile screenshots are
-reviewed. Full local and hosted gates remain pending. Next: finish those checks
-and record the results; M6L-03 is the next planned implementation.
+is stacked on #105. All 1,926 nonbrowser cases have passing coverage across the
+initial run and repaired continuation; all 17 readiness commands pass. The
+catalog-fingerprint routing issue was repaired by restoring `growth/urls.py`
+and registering the new route in the application URL configuration. Final
+route/browser and Home error-state checks pass. Hosted checks on the final
+commit remain pending; neither draft is merged or published. Next: inspect the
+latest PR #106 gate and artifacts; M6L-03 is the next planned implementation.
 
 ## Owner-accepted catalog publication — 28 September 2026
 

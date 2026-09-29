@@ -139,10 +139,10 @@
     </div>
   {% endif %}
 
-  {% if priority.reviewed_count %}
+  {% if priority.reviewed_count or priority.status == "unavailable" %}
     <div class="context-summary" role="note">
       <div>
-        <strong>{% if priority.context_aware %}Suggestions reflect the fit you reviewed.{% else %}Check what fits your life now.{% endif %}</strong>
+        <strong>{% if priority.status == "unavailable" %}Suggestions are paused.{% elif priority.context_aware %}Suggestions reflect the fit you reviewed.{% else %}Check what fits your life now.{% endif %}</strong>
         <p>{{ priority.message }}</p>
         {% if priority.reviewed_count %}
           <small>You have reviewed the fit of {{ priority.reviewed_count }} practices since your latest assessment.</small>

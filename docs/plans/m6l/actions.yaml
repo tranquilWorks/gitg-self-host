@@ -47,41 +47,41 @@ batches:
     - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
 - id: M6L-02
   title: Explicit context and alternatives
-  status: implemented_verification_pending
+  status: locally_verified
   depends_on:
   - M6L-01
   actions:
   - id: M6L-02-01
     title: Reproduce exclusion and fallback cases
-    status: implemented
+    status: locally_verified
     acceptance: Document and test no-context, partial-context, all-deferred and all-N/A flows; explicitly
       excluded choices are not presented as personalized recommendations.
     evidence:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
   - id: M6L-02-02
     title: Reduce context-entry burden
-    status: implemented
+    status: locally_verified
     acceptance: Guide a small shortlist through explicit factors progressively; unknown remains unknown;
       avoid a six-factor-times-383 worksheet.
     evidence:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
   - id: M6L-02-03
     title: Offer useful alternatives
-    status: implemented
+    status: locally_verified
     acceptance: If no reviewed alternative exists, offer deliberate exploration and context review
       of another candidate without silently imputing context or expanding the ranked cohort.
     evidence:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
   - id: M6L-02-04
     title: Make deferral reviewable
-    status: implemented
+    status: locally_verified
     acceptance: Show a private list of deferred choices and review horizons; reconsidering requires
       an explicit revision and produces no penalty.
     evidence:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
   - id: M6L-02-05
     title: Version changed presentation/selection policy
-    status: in_progress
+    status: locally_verified
     acceptance: Record accepted behavior and preserve scoring, prior context snapshots and deterministic
       replay; add edge-case and browser coverage.
     evidence:

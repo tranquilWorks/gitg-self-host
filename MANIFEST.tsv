@@ -33,7 +33,7 @@ Dockerfile	737
 HANDOFF_PROMPT.md	10887
 Makefile	5864
 README.md	41319
-contracts/active-batch.yaml	3783
+contracts/active-batch.yaml	3806
 contracts/assessment-calibration-analysis.schema.json	8367
 contracts/assessment-calibration-analysis.yaml	2771
 contracts/assessment-calibration-consent.yaml	1882
@@ -499,7 +499,7 @@ docker-entrypoint.sh	563
 docs/CURRENT_STATE.md	7751
 docs/HANDOFF.md	1676
 docs/PRODUCT_DECISIONS.md	41502
-docs/PROJECT_HANDOFF.md	97969
+docs/PROJECT_HANDOFF.md	98212
 docs/SCORING_DESIGN.md	9023
 docs/architecture/0001-django-monolith-and-sqlite.md	3070
 docs/architecture/0002-shadow-scoring-before-mutation.md	1989
@@ -2888,7 +2888,7 @@ docs/evidence/M6K-SOURCE-CONSOLIDATION-RETRY.md	23049
 docs/evidence/M6K-STEWARDSHIP-ENTERPRISE-TWELVE.md	5298
 docs/evidence/M6K-WORK-DELIVERY-VOICE-TWELVE.md	6028
 docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md	4860
-docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md	4553
+docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md	5977
 docs/evidence/local/.gitignore	14
 docs/evidence/m6k-2026-09-08/browser-collection.txt	251
 docs/evidence/m6k-2026-09-08/contract.txt	1055
@@ -3011,8 +3011,8 @@ docs/plans/m6k/runtime-projections.json	35589
 docs/plans/m6k/schemas/ledger.schema.json	863
 docs/plans/m6k/schemas/receipt.schema.json	14746
 docs/plans/m6k/schemas/scope-plan.schema.json	4875
-docs/plans/m6l/README.md	4433
-docs/plans/m6l/actions.yaml	9909
+docs/plans/m6l/README.md	4431
+docs/plans/m6l/actions.yaml	9918
 docs/plans/m6l/m6l-01-active-batch.yaml	3617
 docs/plans/m6l/previous-active-batch.yaml	3769
 docs/practice-content.md	6143
@@ -3275,7 +3275,7 @@ templates/growth/context_review.html	3986
 templates/growth/data_management.html	7303
 templates/growth/evidence_audit_error.html	900
 templates/growth/evidence_ledger.html	5426
-templates/growth/home.html	12038
+templates/growth/home.html	12140
 templates/growth/partials/instructional_link.html	248
 templates/growth/partials/setup_form.html	857
 templates/growth/personal_os.html	6583
@@ -3337,7 +3337,7 @@ tests/test_composite_score_state.py	16953
 tests/test_composite_scoring.py	5534
 tests/test_composite_scoring_catalog.py	3988
 tests/test_composite_scoring_readiness.py	1381
-tests/test_context_discovery.py	9669
+tests/test_context_discovery.py	9889
 tests/test_context_models.py	8923
 tests/test_context_priority.py	10695
 tests/test_context_priority_readiness.py	19283

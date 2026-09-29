@@ -89,7 +89,7 @@ def test_missing_capacity_and_partial_review_keep_exclusions(client, user, seede
 
 
 @pytest.mark.django_db
-def test_unverified_context_suppresses_suggestions(user, seeded):
+def test_unverified_context_suppresses_suggestions(client, user, seeded):
     from growth.services.context_priority import ContextPriorityServiceError
 
     summary = build_profile_summary(user)
@@ -98,6 +98,10 @@ def test_unverified_context_suppresses_suggestions(user, seeded):
         side_effect=ContextPriorityServiceError("synthetic"),
     ):
         result = build_browser_priority_presentation(user=user, summary=summary)
+        client.force_login(user)
+        home = client.get(reverse("growth:home"))
+        assert b"Suggestions are paused." in home.content
+        assert b"Saved context could not be verified." in home.content
     assert result.status == "unavailable"
     assert result.recommendations == ()
     assert result.recommended_ids == frozenset()

@@ -85,7 +85,7 @@ risk:
   stop_conditions:
   - Protected source or historical data drift
   - Private authored text exposed outside existing surfaces
-  - Changed ranking or scoring semantics
+  - Changed assessment, context-priority or scoring mathematics
 rollback:
   strategy: Revert browser selection/form/template code; no migration. Existing partial and excluded
     snapshots remain valid and immutable under the unchanged context contract.

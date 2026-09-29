@@ -10,7 +10,7 @@ excluded. The executable action register is [actions.yaml](actions.yaml).
 | Batch | Outcome | Dependencies | Status |
 | --- | --- | --- | --- |
 | M6L-01 | Guided entry, explicit demonstration labeling, concise recommendations and searchable exploration, immediate copy repairs | Published catalog | CI verified; draft PR #105 |
-| M6L-02 | Easier explicit context collection and dependable N/A/defer/alternative journeys | 01 | Implemented; verification in progress |
+| M6L-02 | Easier explicit context collection and dependable N/A/defer/alternative journeys | 01 | Locally verified; hosted CI pending |
 | M6L-03 | User-chosen links between direction, priority and practice | 01 | Planned |
 | M6L-04 | Review-to-next-week handoff, recovery after missed plans, upcoming-action support | 02, 03 | Planned |
 | M6L-05 | Readable history and deliberate continuity across reassessment | 03, 04 | Planned |
