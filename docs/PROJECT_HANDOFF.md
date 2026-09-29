@@ -3,23 +3,25 @@
 ## M6L guided product follow-up — 29 September 2026
 
 The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
-cover eight non-competency batches. The owner explicitly requested Batch 3.
-M6L-03 is implemented and locally verified on `codex/m6l-03-direction-connection`,
-stacked on M6L-02 head `80faeac`. Batches 04–08 remain planned. See
-[Batch 3 evidence](evidence/M6L-03-DIRECTION-CONNECTION-20260929.md) and the
-[explicit connection contract](practice-direction-contract.md). It adds one
-append-only table (migration 0014), owner archive v4, current setup/weekly
-connections and a concise direction review. No merge/publication is authorized
-for this batch. [Draft PR #107](https://github.com/tranquilWorks/gitg-self-host/pull/107)
-is stacked on #106. All 1,939 nonbrowser cases have passing coverage across the
-initial run and repaired continuations; five distinct local browser journeys
-pass, with desktop/mobile screenshots inspected. Final registration rechecks
-passed 29 integration tests and both new browser journeys. Recovery byte-pins
-`growth/models.py`: it is restored exactly, with the additive model registered
-from `growth/models_direction.py`. Two older migration tests now exclude that
-new table when comparing older schemas. All 17 readiness commands and final contract checks pass. The final PR head
-still requires its aggregate hosted gate before merge. M6L-04 is the next planned
-batch and has not been started.
+cover eight non-competency batches. The owner requested the next batch after
+M6L-03, authorizing M6L-04 and a remaining-batch update. M6L-04 is implemented on
+`codex/m6l-04-recurring-weekly`, based on Batch 3 final head `10b040f`.
+Verification is in progress; see [Batch 4 evidence](evidence/M6L-04-RECURRING-WEEKLY-20260929.md)
+and [weekly follow-up behavior](weekly-followup.md). It adds actionable review
+choices, explicit replanning, previous planned-week context and an optional
+private-minimized calendar download. No migration or contract changes. Batches
+05–08 remain planned. No merge/publication is authorized for this batch.
+
+M6L-03 is locally and CI verified. [Draft PR #107](https://github.com/tranquilWorks/gitg-self-host/pull/107)
+is stacked on #106 and remains unmerged. Its final head `10b040f` passed all
+hosted quality, browser, Docker Compose and aggregate Pilot readiness checks in
+[run 36583693381](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36583693381).
+Local evidence covers all 1,939 nonbrowser cases, all 17 readiness commands,
+five distinct browser journeys and final integration rechecks. It adds the
+explicit direction connection, migration 0014 and owner archive v4. Recovery
+byte-pins `growth/models.py`; the additive model lives in
+`growth/models_direction.py`. See [Batch 3 evidence](evidence/M6L-03-DIRECTION-CONNECTION-20260929.md)
+and the [connection contract](practice-direction-contract.md).
 
 M6L-01 is locally and CI verified: 1,918 nonbrowser tests, all local readiness,
 full hosted browser and Compose, aggregate Pilot readiness gate passed in

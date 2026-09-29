@@ -388,11 +388,12 @@ def test_weekly_browser_loop_is_authenticated_private_and_no_proof_is_explicit(
         url,
         {
             "form_type": "weekly_plan",
+            "expected_revision": 0,
             "assessment_epoch": run.pk,
             "sprint_id": sprint.pk,
             "week_start": week_start.isoformat(),
             "action": action.pk,
-            "intended_on": week_start.isoformat(),
+            "intended_on": timezone.localdate().isoformat(),
         },
     )
     assert saved.status_code == 302
@@ -417,11 +418,12 @@ def test_weekly_browser_loop_is_authenticated_private_and_no_proof_is_explicit(
         url,
         {
             "form_type": "weekly_plan",
+            "expected_revision": 0,
             "assessment_epoch": "ASSESSMENT-STALE",
             "sprint_id": sprint.pk,
             "week_start": week_start.isoformat(),
             "action": action.pk,
-            "intended_on": week_start.isoformat(),
+            "intended_on": timezone.localdate().isoformat(),
         },
     )
     assert stale.status_code == 409

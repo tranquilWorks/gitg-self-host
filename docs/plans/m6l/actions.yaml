@@ -87,59 +87,59 @@ batches:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
 - id: M6L-03
   title: Direction-to-practice connection
-  status: locally_verified
+  status: ci_verified
   depends_on:
   - M6L-01
   actions:
   - id: M6L-03-01
     title: Choose the priority a practice serves
-    status: locally_verified
+    status: ci_verified
     acceptance: User explicitly selects a priority/intended outcome; no interpretation or analysis of
       private prose.
     evidence:
     - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
   - id: M6L-03-02
     title: Make the connection visible
-    status: locally_verified
+    status: ci_verified
     acceptance: Setup and weekly planning show the chosen connection and a reversible way to revise it;
       unknown or declined is supported.
     evidence:
     - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
   - id: M6L-03-03
     title: Review direction periodically
-    status: locally_verified
+    status: ci_verified
     acceptance: Provide a concise user-initiated review of mission, anti-goals, priorities and direction
       with prior revisions preserved.
     evidence:
     - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
 - id: M6L-04
   title: Recurring weekly execution
-  status: planned
+  status: in_progress
   depends_on:
   - M6L-02
   - M6L-03
   actions:
   - id: M6L-04-01
     title: Act on review choices
-    status: planned
+    status: in_progress
     acceptance: Continue, adjust, pause and choose-another lead to the relevant next step; never perform
       a hidden state transition.
     evidence: []
   - id: M6L-04-02
     title: Recover from missed plans
-    status: planned
+    status: in_progress
     acceptance: User can replan deliberately after a missed week or changed capacity; preserve original
       dates/evidence and avoid inferred failure.
     evidence: []
   - id: M6L-04-03
     title: Show previous-week context
-    status: planned
+    status: in_progress
     acceptance: Present prior proof, adjustment and intended next step while planning the new week; distinguish
       no evidence from adverse evidence.
     evidence: []
   - id: M6L-04-04
     title: Support upcoming actions
-    status: planned
+    status: in_progress
     acceptance: Choose and implement one non-coercive optional reminder/calendar approach with clear timing,
       privacy and disable behavior; no automatic score credit.
     evidence: []

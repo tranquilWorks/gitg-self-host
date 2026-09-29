@@ -63,16 +63,23 @@
       {% if current_plan %}<span class="status-pill">Revision {{ current_plan.revision }}</span>{% endif %}
     </div>
 
-    {% if active_sprint %}
+    {% if plan_form %}
       {% include "growth/partials/practice_direction.html" %}
       <div class="panel">
         <p><strong>{{ active_sprint.protocol.name }}</strong></p>
-        {% if current_plan %}
+        {% if current_plan and current_plan.sprint_id == active_sprint.pk %}
           <p>
             Current plan: <strong>{{ current_plan.action.title }}</strong> on
             <time datetime="{{ current_plan.intended_on|date:'Y-m-d' }}">{{ current_plan.intended_on|date:"l, M j" }}</time>.
           </p>
           <p class="fine-print">Saving a changed action or day appends a revision; it does not rewrite this one.</p>
+        {% endif %}
+        {% if current_plan and current_plan.sprint_id == active_sprint.pk %}
+          <p><a href="{% url 'weekly-plan-detail' current_plan.pk %}">Open plan and review</a> · <a href="{% url 'weekly-replan' current_plan.pk %}">Replan this action</a></p>
+          {% if current_plan.intended_on >= today %}
+            <p><a href="{% url 'weekly-calendar' current_plan.pk %}">Download calendar entry</a></p>
+            <p class="fine-print">Optional all-day entry with a generic label and no private reflections. The app sends no reminders; your calendar may apply its own alerts. Delete the imported entry in your calendar to disable it. If you replan, remove the old entry and download the new one.</p>
+          {% else %}<p>The planned day has passed. Replan when ready; no failure is inferred.</p>{% endif %}
         {% endif %}
         <form method="post" novalidate>
           {% csrf_token %}
@@ -80,6 +87,8 @@
           {{ plan_form.assessment_epoch }}
           {{ plan_form.sprint_id }}
           {{ plan_form.week_start }}
+          {{ plan_form.expected_revision }}
+          {% for field in plan_form.hidden_fields %}{{ field.errors }}{% endfor %}
           {% if plan_form.non_field_errors %}<div class="form-error" role="alert">{{ plan_form.non_field_errors }}</div>{% endif %}
           <div class="form-field">
             {{ plan_form.action.label_tag }}
@@ -96,6 +105,8 @@
           <button class="button" type="submit">Save weekly plan</button>
         </form>
       </div>
+    {% elif active_sprint %}
+      <div class="panel"><h3>Review your current practice</h3><p>This practice is paused or belongs to an earlier assessment period. Review its status before planning another action.</p><a href="{% url 'growth:practice-sprint' active_sprint.pk %}">Open current practice</a></div>
     {% else %}
       <div class="empty-state">
         <h3>No active practice</h3>
@@ -170,6 +181,7 @@
           {{ current_review.get_adjustment_display|lower }}.
         </p>
         <p class="fine-print">The review created no new evidence or score contribution.</p>
+        <a href="{% url 'weekly-plan-detail' current_plan.pk %}">Act on your review</a>
       </div>
     {% else %}
       <div class="empty-state compact">
@@ -178,6 +190,16 @@
     {% endif %}
   </section>
 
+  {% if previous %}
+    <section class="section-block" aria-labelledby="previous-heading"><div class="panel">
+      <p class="eyebrow">Previous planned week · {{ previous.weeks_ago }} week{{ previous.weeks_ago|pluralize }} ago</p>
+      <h2 id="previous-heading">Carry forward what you learned</h2>
+      <p>{{ previous.plan.action.title }} · planned for {{ previous.plan.intended_on|date:"M j, Y" }}.</p>
+      {% include "growth/partials/weekly_proof.html" with proof_rows=previous.proof_rows %}
+      {% if previous.review %}<p>Next step: {{ previous.review.get_next_step_display }}. Adjustment: {{ previous.review.get_adjustment_display }}.</p>{% else %}<p>This plan has not been reviewed.</p>{% endif %}
+      <a href="{% url 'weekly-plan-detail' previous.plan.pk %}">Open previous plan and next step</a>
+    </div></section>
+  {% endif %}
   <aside class="mastery-notice">
     <strong>Weekly completion is not mastery</strong>
     <p>

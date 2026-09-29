@@ -1,0 +1,14 @@
+<h2>Your next step</h2>
+<p>{{ review.get_next_step_display }}. {{ adjustment_help }}</p>
+{% if review.adjustment == "context" %}<p><a href="{% url 'growth:practice-context' plan.sprint.protocol.slug %}">Review practice fit</a></p>{% elif review.adjustment == "recovery" %}<p><a href="{% url 'growth:personal-os' %}">Review season and capacity</a></p>{% endif %}
+{% if review.next_step == "continue_current" %}
+  {% if can_replan %}<p><a class="button" href="{% url 'weekly-replan' plan.pk %}">Plan this action again</a></p>{% endif %}
+  <a href="{% url 'growth:practice-sprint' plan.sprint_id %}">Open practice and action guide</a>
+{% elif review.next_step == "plan_next_action" %}
+  {% if can_replan %}<a class="button" href="{% url 'weekly-replan' plan.pk %}?mode=next">Choose the next action</a>{% else %}<a href="{% url 'growth:weekly-execution' %}">Review your current week</a>{% endif %}
+{% elif review.next_step == "pause_reconsider" %}
+  {% if can_pause %}<a class="button button-secondary" href="{% url 'weekly-transition' plan.pk 'pause' %}">Review pause</a>{% else %}<p>This review can no longer change the current practice.</p><a href="{% url 'growth:practice-sprint' plan.sprint_id %}">Review practice status</a>{% endif %}
+{% elif review.next_step == "choose_different_practice" %}
+  {% if can_stop %}<a class="button button-secondary" href="{% url 'weekly-transition' plan.pk 'stop' %}">Review stopping and choosing another practice</a>{% else %}<a href="{% url 'context-review' %}">Explore practice choices</a>{% endif %}
+{% endif %}
+<p class="fine-print">Saving a review does not pause, stop, or start a practice. Follow-up actions are your choice.</p>

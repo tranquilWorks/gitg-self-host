@@ -99,3 +99,5 @@ draft, and no image is published by this batch.
 Software and synthetic-browser evidence only. No new participant observations,
 specialist acceptance or empirical validation is claimed. Batches 04–08 remain
 planned.
+
+Final-head update, 29 September 2026: `10b040f3976f06e4e7fa53fe07b928ef4b60931a` passed all hosted quality, browser, Compose and aggregate Pilot readiness checks in [run 36583693381](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36583693381). PR #107 remains draft and unmerged; publication was skipped.
