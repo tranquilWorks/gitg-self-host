@@ -221,7 +221,8 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     page.get_by_text("included in normal database backups").wait_for()
     assert_no_horizontal_overflow(page)
     page.get_by_label(
-        "How would you like to answer: What purpose or contribution do you choose to orient toward for now?"
+        "How would you like to answer: "
+        "What purpose or contribution do you choose to orient toward for now?"
     ).select_option("provided")
     page.get_by_label(
         "What purpose or contribution do you choose to orient toward for now?",
