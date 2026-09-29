@@ -10,7 +10,7 @@ each period paginates practices and weekly plan revisions independently by twelv
 Dates, assessment source/version, original practice status and weekly revision
 provenance remain visible. Demonstration periods are labeled. Periods display
 the latest verified Personal OS and season/capacity values on demand, with their
-revision/date/version. This is a record of each period, not a retrospective score
+revision and date. This is a record of each period, not a retrospective score
 comparison or a claim that completion established mastery.
 
 Historical weekly detail is GET-only. It verifies owner, assessment ownership,

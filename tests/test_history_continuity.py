@@ -327,6 +327,9 @@ def test_paused_older_practice_can_close_without_transferring_credit(client, per
     assert response.status_code == 302
     sprint.refresh_from_db()
     assert sprint.status == "completed"
+    completed_page = client.get(reverse("growth:practice-sprint", args=[sprint.pk]))
+    assert b"This attempt is completed." in completed_page.content
+    assert b"You can continue it and close it" not in completed_page.content
     assert sprint.assessment_run_id == source.pk
     assert CompletionCreditEvent.objects.get(sprint=sprint).assessment_run_id == source.pk
     assert not CompletionCreditEvent.objects.filter(assessment_run=target).exists()

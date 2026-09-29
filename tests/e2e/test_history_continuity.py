@@ -75,4 +75,5 @@ def test_history_reuse_and_old_practice_continuity(live_server, page, width):
     page.get_by_role("button", name="Stop practice", exact=True).click()
     sprint.refresh_from_db()
     assert sprint.status == "stopped"
+    expect(page.get_by_text("This attempt is stopped.", exact=False)).to_be_visible()
     assert sprint.assessment_run_id == source.pk
