@@ -31,6 +31,7 @@ from growth.models import (
     PracticeSprint,
 )
 from growth.services.context import ContextServiceError, PracticeContextInput, record_context_bundle
+from growth.services.context_review import build_context_review
 from growth.services.personal_os_browser import (
     active_projected_protocol_ids,
     assessment_factors_from_record,
@@ -109,6 +110,23 @@ def practice_recommendation(request, slug):
     )
 
 
+@require_http_methods(["GET"])
+def context_review(request):
+    summary = build_profile_summary(request.user)
+    if summary.assessment_run is None:
+        return redirect("growth:assessment")
+    priority = build_browser_priority_presentation(user=request.user, summary=summary)
+    review = build_context_review(
+        user=request.user, assessment_run=summary.assessment_run, params=request.GET
+    )
+    return render(
+        request,
+        "growth/context_review.html",
+        {"priority": priority, "review": review},
+        status=409 if review["error"] else 200,
+    )
+
+
 def _practice_context_record(run, protocol):
     rows = tuple(
         PracticeContext.objects.filter(assessment_run=run, protocol=protocol).order_by("revision")
@@ -153,6 +171,14 @@ def _render_practice_context(
             "form": form,
             "current_context": current,
             "priority": priority,
+            "factor_groups": tuple(
+                (title, tuple(form[key] for key in keys))
+                for title, keys in (
+                    ("1. Does this fit your life?", ("applicability", "importance")),
+                    ("2. Is now a workable time?", ("readiness", "urgency")),
+                    ("3. What would it take?", ("opportunity_resources", "burden")),
+                )
+            ),
         },
         status=status,
     )

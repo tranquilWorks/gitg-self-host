@@ -22,6 +22,8 @@ from growth.services.context_priority import (
     build_context_priority_for_epoch,
 )
 
+BROWSER_SELECTION_POLICY_VERSION = "GG-BROWSER-CONTEXT-SELECTION-2.0"
+
 EXPLANATION_COPY = {
     "context_complete": "All six practice factors and current capacity were explicitly provided.",
     "explicit_zero_factor": "At least one factor was explicitly 0; it was not treated as missing.",
@@ -67,6 +69,7 @@ class BrowserPriorityPresentation:
     message: str
     alternative_protocol: PracticeProtocol | None = None
     alternative_message: str = ""
+    policy_version: str = BROWSER_SELECTION_POLICY_VERSION
 
 
 def personal_os_initial(
@@ -103,7 +106,7 @@ def assessment_context_initial(
 def practice_context_initial(
     record: PracticeContext | None, *, assessment_epoch: str
 ) -> dict[str, Any]:
-    initial: dict[str, Any] = {"assessment_epoch": assessment_epoch}
+    initial: dict[str, Any] = {"assessment_epoch": assessment_epoch, "mode": "partial"}
     if record is None:
         return initial
     if record.applicability_state == "not_applicable":
@@ -124,12 +127,19 @@ def practice_context_initial(
                 "review_horizon_days": record.review_horizon_days,
             }
         )
-    elif all(
-        getattr(record, f"{factor_id}_state") == "provided" for factor_id in PRACTICE_FACTOR_IDS
-    ):
-        initial["mode"] = "provide"
+    else:
+        initial["mode"] = (
+            "provide"
+            if all(getattr(record, f"{key}_state") == "provided" for key in PRACTICE_FACTOR_IDS)
+            else "partial"
+        )
         initial.update(
-            {factor_id: getattr(record, f"{factor_id}_value") for factor_id in PRACTICE_FACTOR_IDS}
+            {
+                factor_id: getattr(record, f"{factor_id}_value")
+                if getattr(record, f"{factor_id}_state") == "provided"
+                else None
+                for factor_id in PRACTICE_FACTOR_IDS
+            }
         )
     return initial
 
@@ -157,7 +167,9 @@ def active_projected_protocol_ids() -> tuple[str, ...]:
     return tuple(item["stable_id"] for item in bundle.runtime_protocols)
 
 
-def _reviewed_protocols(user, assessment_run: AssessmentRun, active_ids: tuple[str, ...]):
+def verified_practice_contexts(user, assessment_run: AssessmentRun, active_ids: tuple[str, ...]):
+    if assessment_run.user_id != user.pk:
+        raise ContextPriorityServiceError("The assessment must belong to its owner.")
     latest_by_protocol: dict[str, PracticeContext] = {}
     rows = (
         PracticeContext.objects.filter(
@@ -182,12 +194,7 @@ def _reviewed_protocols(user, assessment_run: AssessmentRun, active_ids: tuple[s
         raise ContextPriorityServiceError(
             "Saved practice context revisions failed browser verification."
         )
-    protocols = tuple(
-        PracticeProtocol.objects.filter(stable_id__in=latest_by_protocol)
-        .select_related("parent_competency")
-        .order_by("stable_id")
-    )
-    return protocols
+    return latest_by_protocol
 
 
 def _verified_assessment_context(assessment_run: AssessmentRun) -> AssessmentContext | None:
@@ -226,15 +233,16 @@ def build_browser_priority_presentation(
     except PracticeContentError:
         return BrowserPriorityPresentation(
             "unavailable",
-            legacy,
-            legacy_ids,
+            (),
+            frozenset(),
             (),
             (),
             0,
             0,
             False,
             False,
-            "Context review is temporarily unavailable. Provisional need order is unchanged.",
+            "Context review is temporarily unavailable. "
+            "Suggestions are paused until it can be verified.",
         )
     active_count = PracticeProtocol.objects.filter(
         stable_id__in=active_ids,
@@ -242,21 +250,34 @@ def build_browser_priority_presentation(
     ).count()
     try:
         assessment_context = _verified_assessment_context(run)
-        reviewed = _reviewed_protocols(user, run, active_ids)
+        latest = verified_practice_contexts(user, run, active_ids)
+        reviewed = tuple(latest[key].protocol for key in sorted(latest))
     except ContextPriorityServiceError:
         return BrowserPriorityPresentation(
             "unavailable",
-            legacy,
-            legacy_ids,
+            (),
+            frozenset(),
             (),
             (),
             0,
             active_count,
             False,
             False,
-            "Saved context could not be verified. Provisional need order is unchanged.",
+            "Saved context could not be verified. Suggestions are paused until it can be verified.",
         )
+    excluded = {
+        key
+        for key, row in latest.items()
+        if row.applicability_state == "not_applicable" or row.disposition == "deferred"
+    }
+    legacy = tuple(protocol for protocol in legacy if protocol.stable_id not in excluded)
+    legacy_ids = frozenset(protocol.stable_id for protocol in legacy)
     partial = bool(reviewed) and len(reviewed) < active_count
+    exclusion_note = (
+        " Choices you marked not applicable or deferred stay out of suggestions."
+        if excluded
+        else ""
+    )
     if assessment_context is None:
         message = (
             "Add your current season and capacity to tailor these suggestions. "
@@ -277,7 +298,7 @@ def build_browser_priority_presentation(
             active_count,
             partial,
             False,
-            message,
+            message + exclusion_note,
         )
     if not reviewed:
         return BrowserPriorityPresentation(
@@ -303,15 +324,16 @@ def build_browser_priority_presentation(
     except ContextPriorityServiceError:
         return BrowserPriorityPresentation(
             "unavailable",
-            legacy,
-            legacy_ids,
+            (),
+            frozenset(),
             reviewed,
             (),
             len(reviewed),
             active_count,
             partial,
             False,
-            "Verified context is temporarily unavailable. Provisional need order is unchanged.",
+            "Verified context is temporarily unavailable. "
+            "Suggestions are paused until it can be verified.",
         )
     protocol_map = {protocol.stable_id: protocol for protocol in reviewed}
     candidates = tuple(
@@ -343,7 +365,7 @@ def build_browser_priority_presentation(
             partial,
             False,
             "Tell us your available capacity to tailor these suggestions. "
-            "It remains missing, not zero.",
+            "It remains missing, not zero." + exclusion_note,
             alternative_protocol,
             alternative_message,
         )
@@ -359,7 +381,7 @@ def build_browser_priority_presentation(
             partial,
             False,
             "None of the practices you reviewed has complete information about fit. Assessment "
-            "order remains unchanged and does not yet reflect current fit.",
+            "order remains unchanged and does not yet reflect current fit." + exclusion_note,
             alternative_protocol,
             alternative_message,
         )

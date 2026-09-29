@@ -39,9 +39,11 @@ those remaining tasks from this presentation slice.
   state hash both `a73cfc00a1d9362671f70a4943975d03a1311c39d5d7e3bd31236a4e1adc5609`.
   Its image predates the final stylesheet isolation only; the final styling is
   browser-tested. Hosted CI must check the committed image.
-- Full final local verification: **running**, 1,918 nonbrowser tests followed by
-  all readiness commands in `contracts/verification.commands`.
-- Required hosted **Pilot readiness gate**: pending; no merge or publication.
+- Full final local verification: **passed**, 1,918 nonbrowser tests in 1,067.01s,
+  followed by all readiness commands; exit 0, completed 2026-09-29 03:33:24 UTC.
+- Required hosted **Pilot readiness gate**: **passed** at commit `1274ff1`,
+  [run 36515667838](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36515667838),
+  including full browser and exact-commit Compose checks. No merge or publication.
 
 Reproducible commands: `scripts/agent-verify.sh full` (local pytest used four
 workers), `make compose-smoke`, and focused pytest runs of
@@ -52,14 +54,12 @@ browser artifact workflow. Local diagnostic logs are `/tmp/m6l-full-final.log`,
 `/tmp/m6l-final-focus.log`, `/tmp/m6l-browser-isolated.log`, and
 `/tmp/m6l-compose-final.log`; these are temporary, not committed receipts.
 
-## Pending verification handoff
+## Verification closeout
 
-The detached full gate writes `/tmp/m6l-full-final.exit` on completion and
-`/tmp/m6l-full-final.xml` for pytest. Read that exit sentinel and the log rather
-than infer success from progress dots. PID is stored in
-`/tmp/m6l-full-final.pid`. Hosted PR checks run the complete browser suite and
-exact committed Compose image. Keep verification action M6L-01-05 in progress
-until the results have been reviewed. No later batch has been started.
+The detached full gate exited 0. Hosted checks for `1274ff1` all passed;
+publication was correctly skipped on the draft PR. The owner subsequently
+requested M6L-02. This status update is recorded on that successor branch so
+PR #105's verified implementation remains unchanged.
 
 ## Audit and limitations
 

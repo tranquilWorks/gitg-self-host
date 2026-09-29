@@ -32,17 +32,21 @@
       {{ form.mode.errors }}
     </fieldset>
 
-    <section data-context-mode="provide" aria-labelledby="factor-heading"{% if form.mode.value != "provide" %} hidden{% endif %}>
-      <h2 id="factor-heading">Provide all six factors</h2>
-      <p class="fine-print">0 is a valid explicit response. It is never a default.</p>
-      {% for field in form %}
-        {% if field.name == "applicability" or field.name == "importance" or field.name == "readiness" or field.name == "urgency" or field.name == "opportunity_resources" or field.name == "burden" %}
-          <div class="form-field">
-            {{ field.label_tag }}
-            {{ field }}
-            {{ field.errors }}
+    <section data-context-mode="provide partial" aria-labelledby="factor-heading"{% if form.mode.value != "provide" and form.mode.value != "partial" %} hidden{% endif %}>
+      <h2 id="factor-heading">Review what you know now</h2>
+      <p>Start with fit, then consider timing and effort. With “Review a little at a time,” you can save after any group and return later. Blank answers stay unknown.</p>
+      <p class="fine-print">0 is a valid explicit response. It is never a default. Context-based ordering requires all six factors and your current capacity.</p>
+      {% for title, fields in factor_groups %}
+        <details class="stage-panel"{% if form.mode.value == "provide" or forloop.first or fields.0.errors or fields.1.errors or fields.0.value != None and fields.0.value != "" or fields.1.value != None and fields.1.value != "" %} open{% endif %}>
+          <summary>{{ title }}</summary>
+          <div class="stage-panel-body">
+            {% for field in fields %}
+              <div class="form-field">
+                {{ field.label_tag }}{{ field }}{{ field.errors }}
+              </div>
+            {% endfor %}
           </div>
-        {% endif %}
+        </details>
       {% endfor %}
     </section>
 
@@ -77,7 +81,7 @@
   {% if current_context and current_context.applicability_state == "not_applicable" or current_context and current_context.disposition == "deferred" %}
     <section class="section-block panel" aria-labelledby="alternative-heading">
       <h2 id="alternative-heading">Ask for a distinct reviewed alternative</h2>
-      <p>The alternative can come only from the current-epoch practices you explicitly reviewed.</p>
+      <p>A suggested alternative must come from practices whose fit you have already reviewed since your latest assessment.</p>
       <form method="post">
         {% csrf_token %}
         <button class="button button-secondary" type="submit" name="intent" value="request_alternative">Request alternative</button>
@@ -90,12 +94,17 @@
       {% elif priority.alternative_message %}
         <p>{{ priority.alternative_message }}</p>
       {% endif %}
+      {% if not priority.alternative_protocol %}
+        <p>If none of your reviewed choices fits, explore another practice and review its context. Browsing does not make it a personalized recommendation.</p>
+        <a class="button button-secondary" href="{% url 'growth:practice-list' %}?browse=1#explore-heading">Explore another practice</a>
+      {% endif %}
     </section>
   {% endif %}
 
   <section class="section-block" aria-labelledby="cohort-heading">
-    <h2 id="cohort-heading">Current reviewed cohort</h2>
-    <p>{{ priority.reviewed_count }} of {{ priority.active_count }} active canonical practices reviewed for this assessment epoch.</p>
+    <h2 id="cohort-heading">Your saved context</h2>
+    <p>You have reviewed {{ priority.reviewed_count }} practice{{ priority.reviewed_count|pluralize }} since your latest assessment. There is no need to review the whole catalog.</p>
+    <a href="{% url 'growth:context-review' %}">Review saved and deferred choices</a>
     {% if priority.partial_cohort %}<p class="fine-print">Any ordering is only among this partial reviewed cohort.</p>{% endif %}
   </section>
 {% endblock %}

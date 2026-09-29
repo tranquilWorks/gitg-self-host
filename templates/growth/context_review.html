@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}Saved practice context · Grounded Growth{% endblock %}
+{% block content %}
+  <section class="page-heading">
+    <div>
+      <p class="eyebrow">What fits now</p>
+      <h1>Review a little at a time.</h1>
+      <p class="lede">Start with one of these choices. Save only what you know; return when your situation changes.</p>
+    </div>
+    <a href="{% url 'growth:personal-os' %}">Review direction and capacity</a>
+  </section>
+  {% if review.error %}
+    <p class="status-note" role="alert">{{ review.error }}</p>
+  {% else %}
+    <section class="section-block" aria-labelledby="shortlist-heading">
+      <h2 id="shortlist-heading">A small shortlist</h2>
+      <p>{{ priority.message }}</p>
+      <div class="card-grid" id="context-shortlist">
+        {% for protocol in priority.recommendations %}
+          <article class="panel">
+            <h3>{{ protocol.name }}</h3>
+            <a href="{% url 'growth:practice-context' protocol.slug %}">Review current fit</a>
+          </article>
+        {% empty %}
+          <p>No suggestion is available from your current choices. Your exclusions remain in place.</p>
+        {% endfor %}
+      </div>
+      <p><a href="{% url 'growth:practice-list' %}?browse=1#explore-heading">Explore another practice</a> to review its fit. Exploring does not record a choice or change your context.</p>
+    </section>
+    <section class="section-block" aria-labelledby="saved-heading">
+      <h2 id="saved-heading">Saved and deferred choices</h2>
+      <p>These are your latest saved choices since your latest assessment. A review date is a prompt, never an expiry or penalty. Reconsidering opens the context form; only saving a revision changes your choice.</p>
+      <form method="get" class="panel">
+        <div class="form-field">
+          <label for="review-status">Show saved choices</label>
+          <select id="review-status" name="status">
+            <option value="deferred"{% if review.selected == "deferred" %} selected{% endif %}>Deferred</option>
+            <option value="not_applicable"{% if review.selected == "not_applicable" %} selected{% endif %}>Not applicable</option>
+            <option value="all"{% if review.selected == "all" %} selected{% endif %}>All reviewed choices</option>
+          </select>
+        </div>
+        <div class="button-row"><button class="button" type="submit">Show choices</button></div>
+      </form>
+      <div class="card-grid" id="saved-context">
+        {% for item in review.page %}
+          <article class="panel">
+            <h3>{{ item.record.protocol.name }}</h3>
+            <p>{% if item.status == "deferred" %}Deferred · {{ item.record.get_defer_reason_display }}{% elif item.status == "not_applicable" %}Not applicable{% else %}Considering{% endif %}</p>
+            {% if item.review_on %}
+              <p>Review on {{ item.review_on|date:"M j, Y" }}{% if item.due %} · Ready to revisit{% endif %}. Your choice stays deferred until you save a revision.</p>
+            {% elif item.status == "deferred" %}
+              <p>No review date chosen. Revisit whenever it is useful.</p>
+            {% endif %}
+            <a href="{% url 'growth:practice-context' item.record.protocol.slug %}">Reconsider this choice</a>
+          </article>
+        {% empty %}
+          <p>No saved choices in this view.</p>
+        {% endfor %}
+      </div>
+      {% if review.page.paginator.num_pages > 1 %}
+        <nav class="button-row" aria-label="Saved context pages">
+          {% if review.page.has_previous %}<a href="?status={{ review.selected }}&amp;page={{ review.page.previous_page_number }}">Previous page</a>{% endif %}
+          <span>Page {{ review.page.number }} of {{ review.page.paginator.num_pages }}</span>
+          {% if review.page.has_next %}<a href="?status={{ review.selected }}&amp;page={{ review.page.next_page_number }}">Next page</a>{% endif %}
+        </nav>
+      {% endif %}
+    </section>
+  {% endif %}
+{% endblock %}
