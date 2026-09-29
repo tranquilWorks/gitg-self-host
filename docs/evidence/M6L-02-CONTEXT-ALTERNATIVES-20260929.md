@@ -6,6 +6,8 @@ verification passed: 1,918 tests and all readiness commands; hosted run
 [36515667838](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36515667838)
 passed the aggregate Pilot readiness gate, including all browser and Compose
 checks. Neither batch is merged or published by this action.
+Batch 2 is [draft PR #106](https://github.com/tranquilWorks/gitg-self-host/pull/106),
+based on PR #105 rather than main.
 
 ## Implemented acceptance
 
@@ -38,7 +40,7 @@ checks remain authoritative. Batches 03–08 remain planned.
   selection: **22 passed** in 189.69s (includes the original three new cases).
 - Browser journeys: **3 passed** in 101.08s: desktop/mobile partial save,
   deferral, explore and explicit reconsideration; existing private context and
-  distinct-reviewed-alternative journey. Final card-layout recheck is running.
+  distinct-reviewed-alternative journey. Final card-layout recheck: **2 passed** in 68.46s.
   Initial browser invocation used the wrong cache path; rerun uses the existing
   project `.playwright-browsers` installation.
 - Full local gate: running with 1,926 nonbrowser tests and all readiness gates;
@@ -46,8 +48,9 @@ checks remain authoritative. Batches 03–08 remain planned.
   `/tmp/m6l02-full.xml`. Hosted aggregate pending.
 - Schema and 23-file scope check passed. Manifest, Ruff, Django and migration
   drift checks passed at the start of the full gate; repeat manifest after the
-  final evidence update. Desktop and mobile screenshots inspected; final card
-  spacing recheck pending.
+  final evidence update. Desktop and mobile screenshots inspected after the final card
+  spacing recheck. Artifacts: `context-partial-{1280,390}.png` and
+  `context-deferred-{1280,390}.png` in `test-results/pilot-walkthrough/`.
 
 Synthetic checks cannot establish participant or specialist acceptance. No
 merge, publication or live deployment is claimed.

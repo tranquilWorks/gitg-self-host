@@ -18,7 +18,11 @@ fit review, offers deliberate exploration when reviewed alternatives are absent,
 and provides an owner-only saved/deferred review page. Its [selection policy](context-discovery-policy.md)
 is separately versioned; scoring/context mathematics, canonical content and
 immutable history remain unchanged. See [Batch 2 evidence](evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md)
-for verification status. Next: finish Batch 2 checks and retain the results.
+for verification status. [Draft PR #106](https://github.com/tranquilWorks/gitg-self-host/pull/106)
+is stacked on #105. Eight new behavior tests, 22 selected integration tests and
+the three distinct browser journeys pass; final desktop/mobile screenshots are
+reviewed. Full local and hosted gates remain pending. Next: finish those checks
+and record the results; M6L-03 is the next planned implementation.
 
 ## Owner-accepted catalog publication — 28 September 2026
 
