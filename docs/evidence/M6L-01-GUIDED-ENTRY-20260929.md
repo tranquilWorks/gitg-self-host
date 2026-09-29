@@ -5,7 +5,8 @@
 Owner requested all non-competency design gaps be captured as actions/batches
 and the first batch begun. [Program](../plans/m6l/README.md): eight batches,
 31 actions. Baseline `c0208be6c031b37c75657f8190e50305a691c463`;
-branch `codex/m6l-01-guided-entry`.
+branch `codex/m6l-01-guided-entry`, draft
+[PR #105](https://github.com/tranquilWorks/gitg-self-host/pull/105).
 
 Implemented a direction/action-led Home and first-use guide; explicit seed/demo
 notice; three existing recommendations by default; explicit public-metadata
@@ -21,8 +22,8 @@ those remaining tasks from this presentation slice.
 
 ## Verification checkpoint
 
-- Active contract validated against the existing vendored batch schema; final
-  scope and manifest checks are repeated before committing.
+- Active contract/schema and 23-file scope audit passed; manifest (3,406 files),
+  Ruff formatting/lint, Django checks and no-migration check passed.
 - Exact final focused Django run: **60 passed** (8 guided-entry/discovery tests
   and 52 catalog quality/review-record tests). Covers no-assessment, demo and
   real-assessment entry; all 383 browse results without duplicates; safe composed
@@ -50,6 +51,15 @@ browser screenshots are retained under `test-results/pilot-walkthrough/` by the
 browser artifact workflow. Local diagnostic logs are `/tmp/m6l-full-final.log`,
 `/tmp/m6l-final-focus.log`, `/tmp/m6l-browser-isolated.log`, and
 `/tmp/m6l-compose-final.log`; these are temporary, not committed receipts.
+
+## Pending verification handoff
+
+The detached full gate writes `/tmp/m6l-full-final.exit` on completion and
+`/tmp/m6l-full-final.xml` for pytest. Read that exit sentinel and the log rather
+than infer success from progress dots. PID is stored in
+`/tmp/m6l-full-final.pid`. Hosted PR checks run the complete browser suite and
+exact committed Compose image. Keep verification action M6L-01-05 in progress
+until the results have been reviewed. No later batch has been started.
 
 ## Audit and limitations
 
