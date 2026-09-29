@@ -37,6 +37,12 @@ draft PR only; no merge, publication or live-data action.
   one passed). These selector corrections preserve the intended journey checks.
 - Draft [PR #110](https://github.com/tranquilWorks/gitg-self-host/pull/110) is stacked
   on #109. Implementation commit `dc2e9e2`; hosted CI is in progress.
+- The initial full regression stopped at one obsolete plaintext export-error
+  assertion after 112 passes (`/tmp/m6l06-full-initial.xml`). Updated the evidence
+  and feedback export assertions for HTML recovery, keeping privacy/status checks
+  and adding safe-link/no-cache/no-attachment checks; both focused cases passed
+  (`/tmp/m6l06-error-contract.xml`). Updated the profile-copy expectation while
+  preserving all scoring/baseline invariants. The complete profile is rerunning.
 - Final full browser suite, nonbrowser/full readiness profile and isolated Docker
   drill are pending. Initial mobile Home and desktop assessment screenshots were
   inspected; final screenshots will be reviewed after polish.

@@ -418,9 +418,14 @@ def test_pilot_export_fails_closed_without_partial_data(client, user, seeded):
     response = client.get(reverse("growth:pilot-feedback-export"))
 
     assert response.status_code == 409
-    assert response.content == (
+    assert (
         b"Pilot feedback export stopped because stored feedback failed validation."
+        in response.content
     )
+    assert response["Content-Type"].startswith("text/html")
+    assert b'href="/account/data/"' in response.content
+    assert "no-store" in response["Cache-Control"]
+    assert "Content-Disposition" not in response
     assert str(record.pk).encode() not in response.content
 
 
