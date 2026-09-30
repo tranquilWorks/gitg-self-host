@@ -8,7 +8,8 @@ from django.shortcuts import redirect, render
 from django.utils import timezone
 from django.views.decorators.http import require_http_methods
 
-from growth.forms import WeeklyExecutionPlanForm, WeeklyExecutionReviewForm
+from growth.forms import WeeklyExecutionReviewForm
+from growth.forms_weekly_followup import RecurringWeeklyPlanForm
 from growth.models import PersonalOSRevision, PracticeCheckIn
 from growth.services.personal_os_browser import build_browser_priority_presentation
 from growth.services.practice import current_sprint_for
@@ -21,8 +22,12 @@ from growth.services.weekly_execution import (
     latest_unreviewed_plan,
     latest_weekly_plan,
     proof_events_for_plan,
-    record_weekly_plan,
-    record_weekly_review,
+)
+from growth.services.weekly_followup import (
+    previous_week_context,
+    save_current_plan,
+    save_plan_review,
+    verified_plan,
 )
 
 
@@ -105,6 +110,8 @@ def _render(
         request,
         "growth/weekly_execution.html",
         {
+            "previous": previous_week_context(request.user, summary.assessment_run, week_start),
+            "today": timezone.localdate(),
             "summary": summary,
             "priority": priority,
             "week_start": week_start,
@@ -150,7 +157,7 @@ def weekly_execution(request):
         personal_os = _latest_personal_os(run)
         for row in (current_plan, review_target):
             if row is not None:
-                row.full_clean()
+                verified_plan(request.user, row)
         if current_plan is not None and current_plan.user_id != request.user.pk:
             raise ValidationError("Weekly plan ownership failed.")
     except (ValidationError, ValueError, TypeError, WeeklyExecutionServiceError):
@@ -169,24 +176,27 @@ def weekly_execution(request):
             "assessment_epoch": run.pk,
             "sprint_id": active_sprint.pk,
             "week_start": week_start,
+            "expected_revision": current_plan.revision if current_plan else 0,
             "action": (
                 current_plan.action_id
                 if current_plan is not None and current_plan.sprint_id == active_sprint.pk
                 else getattr(next_action, "pk", None)
             ),
             "intended_on": (
-                current_plan.intended_on
+                max(current_plan.intended_on, timezone.localdate())
                 if current_plan is not None and current_plan.sprint_id == active_sprint.pk
                 else max(week_start, min(week_end, timezone.localdate()))
             ),
         }
     plan_form = (
-        WeeklyExecutionPlanForm(
+        RecurringWeeklyPlanForm(
             request.POST if form_type == "weekly_plan" else None,
             sprint=active_sprint,
             initial=plan_initial,
         )
         if active_sprint is not None
+        and active_sprint.status == "active"
+        and active_sprint.assessment_run_id == run.pk
         else None
     )
     review_form = (
@@ -212,13 +222,14 @@ def weekly_execution(request):
                 status=409,
             )
         try:
-            result = record_weekly_plan(
+            result = save_current_plan(
                 user=request.user,
                 assessment_run=run,
                 sprint=active_sprint,
                 action=plan_form.cleaned_data["action"],
                 week_start=plan_form.cleaned_data["week_start"],
                 intended_on=plan_form.cleaned_data["intended_on"],
+                expected_revision=plan_form.cleaned_data["expected_revision"],
             )
         except (WeeklyExecutionWriteConflictError, OperationalError, IntegrityError):
             return HttpResponse(
@@ -241,7 +252,7 @@ def weekly_execution(request):
                 "The weekly review target changed. Reload before submitting.", status=409
             )
         try:
-            result = record_weekly_review(
+            result = save_plan_review(
                 user=request.user,
                 plan=review_target,
                 next_step=review_form.cleaned_data["next_step"],
@@ -261,7 +272,7 @@ def weekly_execution(request):
                 if result.created
                 else "The weekly proof review was unchanged.",
             )
-            return redirect("growth:weekly-execution")
+            return redirect("weekly-plan-detail", plan_id=review_target.pk)
 
     try:
         return _render(

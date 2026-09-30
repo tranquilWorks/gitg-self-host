@@ -1,0 +1,7 @@
+{% if proof_rows %}
+  <ul class="history-list">
+    {% for proof in proof_rows %}<li><div><strong>{{ proof.direction_label }}</strong><p>{% if proof.action_completed %}Action completed{% elif proof.action_attempted %}Action attempted{% else %}No attempt recorded{% endif %}{% if proof.adverse %} · adverse outcome flagged{% endif %}</p>{% if proof.withholding_labels %}<small>Withheld: {{ proof.withholding_labels|join:", " }}</small>{% endif %}</div></li>{% endfor %}
+  </ul>
+{% else %}
+  <div class="inline-note"><strong>No submitted proof for this plan</strong><p>This is a no-evidence state, not a penalty or inferred failure.</p></div>
+{% endif %}

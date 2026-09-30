@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Weekly plan and review · Grounded Growth{% endblock %}
+{% block content %}
+<section class="page-heading"><div><p class="eyebrow">Week of {{ plan.week_start|date:"M j, Y" }} · revision {{ plan.revision }}</p><h1>Your plan and proof</h1><p class="lede">{{ plan.sprint.protocol.name }}</p></div><a href="{% url 'growth:weekly-execution' %}">Back to Weekly</a></section>
+<section class="panel"><h2>{{ plan.action.title }}</h2><p>Planned for {{ plan.intended_on|date:"l, M j, Y" }}.</p><p>Only submitted evidence after this revision was created and within its planned week appears here. A saved review keeps its original proof cutoff.</p>
+{% include "growth/partials/weekly_proof.html" %}
+{% if review %}
+  <p>Outcome: {{ review.get_outcome_display }}. Adjustment: {{ review.get_adjustment_display }}.</p>
+  <p class="fine-print">The review created no new evidence or score contribution.</p>
+  {% include "growth/partials/weekly_next_step.html" %}
+{% elif is_latest %}
+  <form method="post" novalidate>{% csrf_token %}{{ form.plan_id }}{{ form.plan_id.errors }}{{ form.non_field_errors }}
+    <fieldset class="reflection-fieldset"><legend>{{ form.next_step.label }}</legend>{{ form.next_step }}{{ form.next_step.errors }}</fieldset>
+    <div class="form-field">{{ form.adjustment.label_tag }}{{ form.adjustment }}{{ form.adjustment.errors }}</div>
+    <button class="button" type="submit">Save proof-based weekly review</button>
+  </form>
+{% else %}<p>This revision was replaced. Its original plan and proof are preserved; open the latest revision to act.</p>{% endif %}
+{% if can_replan %}<p><a href="{% url 'weekly-replan' plan.pk %}">Replan for this week</a></p>{% endif %}
+</section>
+{% if revisions|length > 1 %}<section class="section-block"><h2>Plan revisions for this week</h2><ul>{% for revision in revisions %}<li><a href="{% url 'weekly-plan-detail' revision.pk %}">Revision {{ revision.revision }} · {{ revision.intended_on|date:"M j" }}</a></li>{% endfor %}</ul></section>{% endif %}
+{% endblock %}

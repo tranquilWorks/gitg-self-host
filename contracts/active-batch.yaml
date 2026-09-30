@@ -1,50 +1,40 @@
 schema_version: 1
 batch:
-  id: M6L-03-DIRECTION-CONNECTION
-  title: Connect a practice to an explicitly chosen direction
-  goal: Choose and revise a private practice intention, display it in setup and weekly planning, and offer
-    a concise direction review with preserved history.
+  id: M6L-04-RECURRING-WEEKLY
+  title: Connect weekly review to deliberate next action
+  goal: Replan after changed or missed weeks, carry forward previous proof and choices, and offer an optional
+    private-minimized calendar file.
 sources:
   product: gitg-self-host
   requirements:
   - docs/PRODUCT_DECISIONS.md#decision-046
   - docs/plans/m6l/README.md
   - docs/plans/m6l/actions.yaml
-  milestone: M6 Phase F / M6L-03
-  baseline_commit: 80faeac57c183ce9038d3479a60f0ec0a6a59e97
+  milestone: M6 Phase F / M6L-04
+  baseline_commit: 10b040f3976f06e4e7fa53fe07b928ef4b60931a
 dependencies:
-- M6L-01
 - M6L-02
+- M6L-03
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
   - docs/plans/m6l/**
   - docs/evidence/M6L-0*-*.md
   - docs/PROJECT_HANDOFF.md
-  - docs/practice-direction-contract.md
-  - growth/migrations/0014_*.py
-  - growth/domain/practice_direction.py
-  - growth/services/practice_direction.py
-  - growth/services/personal_os.py
-  - growth/services/data_lifecycle.py
-  - growth/services/database_backup.py
-  - growth/services/operations_readiness.py
-  - growth/views_direction.py
-  - growth/forms_direction.py
-  - growth/views_practice.py
+  - docs/weekly-followup.md
+  - growth/services/weekly_followup.py
+  - growth/forms_weekly_followup.py
   - growth/views_weekly.py
+  - growth/views_weekly_followup.py
   - grounded_growth/urls.py
-  - templates/growth/practice_setup.html
   - templates/growth/weekly_execution.html
-  - templates/growth/personal_os.html
-  - templates/growth/direction_review.html
-  - templates/growth/practice_direction.html
-  - templates/growth/partials/practice_direction.html
+  - templates/growth/weekly_plan_detail.html
+  - templates/growth/weekly_replan.html
+  - templates/growth/weekly_transition.html
+  - templates/growth/partials/weekly_proof.html
+  - templates/growth/partials/weekly_next_step.html
   - tests/**
   - MANIFEST.tsv
-  - growth/views_data.py
-  - growth/models_direction.py
-  - growth/apps.py
   forbidden_paths:
   - data/**
   - reports/**
@@ -58,17 +48,21 @@ scope:
   - growth/static/growth/app.css
   - growth/urls.py
   - growth/models.py
+  - growth/migrations/**
+  - growth/domain/**
+  - growth/services/weekly_execution.py
+  - growth/services/practice.py
 acceptance:
-- Explicitly select a saved priority or authored intended outcome, or record unknown/declined; no private-prose
-  interpretation, ranking or scoring change.
-- Setup and weekly planning display the current user-chosen connection, allow revision, and preserve every
-  prior choice in its own assessment/practice scope.
-- Concise owner-initiated review edits mission, anti-goals, priorities and twelve-month direction while
-  retaining principles, audit responses and prior revisions.
-- Validate ownership, epoch, stale forms, immutable revisions, source priority provenance and corrupt
-  records; private narrative stays out of shared exports and recommendations.
-- Add new records to owner archive/deletion and backup integrity, with an additive migration and operational
-  rollback guidance.
+- Saved continue, next-action, pause and choose-another review decisions have clear links to explicit
+  user-confirmed next steps; saving a review never changes practice state.
+- Replan a prior or changed current-week action using a deliberate save into the current week; preserve
+  original plan dates, proof and reviews, and reject stale forms.
+- Show the last planned prior week and its submitted proof, saved adjustment and next-step choice; distinguish
+  no evidence from adverse evidence and identify gaps honestly.
+- Provide an optional all-day calendar download with a generic title, no private narrative, no automatic
+  app reminder or score credit, and clear deletion/reimport behavior.
+- Validate ownership, latest assessment, plan revisions, proof and practice status; preserve all canonical
+  content, existing contracts, model files and historical records.
 validation:
   local:
   - Focused Django and browser journeys
@@ -76,26 +70,30 @@ validation:
   - MANIFEST and scope checks
   - Desktop/mobile screenshot inspection
   focused_tests_to_add:
-  - Choice states, saved priority provenance, revision history and stale writes
-  - Concise review preserves other Personal OS fields; owner/epoch isolation and corruption fail closed
-  - Setup and weekly integration, lifecycle, desktop/mobile browser journey
+  - Reviewed and unreviewed past weeks, missed plans, explicit replanning and stale window/revision/assessment
+    errors
+  - All four next steps, deliberate pause/stop confirmation, paused/completed/replaced sprint handling
+    and no hidden score/evidence mutation
+  - Calendar format, day boundaries, private-text exclusion, authentication and stale/expired-plan refusal
+  - Desktop/mobile review-to-replan and calendar journey
   required_ci:
   - Pilot readiness gate
 risk:
   class: moderate
   hazards:
-  - Changing a priority silently retargets a practice.
-  - "Concurrent edits overwrite intentions or disclose another owner\u2019s private text."
-  - New records are omitted from archive, deletion or backup checks.
+  - A saved recommendation could silently pause or stop a practice.
+  - Replanning could erase prior proof or falsely label a missed date as failure.
+  - A calendar file could disclose private text or imply synchronization/reminders.
   stop_conditions:
   - Protected source or historical data drift
   - Private authored text exposed outside existing surfaces
   - Changed assessment, context-priority or scoring mathematics
 rollback:
-  strategy: Revert UI and service callers; retain additive table and private revisions. Before migration
-    rollback export/backup new data; do not drop the table with retained owner records.
+  strategy: Revert new routes, follow-up service/forms and weekly templates. No migration; all newly appended
+    plans/reviews remain valid under the unchanged weekly execution contract. Explicit practice transitions
+    retain their existing semantics. Imported calendar entries must be removed in the chosen calendar.
 evidence:
   output:
-  - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
+  - docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md
   claim_boundary: Software and synthetic browser validation only; no new participant or specialist evidence,
     merge, release or live data operation.

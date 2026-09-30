@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Confirm your next step · Grounded Growth{% endblock %}
+{% block content %}
+<section class="page-heading"><div><p class="eyebrow">Your review choice</p><h1>{% if decision == "pause" %}Pause this practice?{% else %}Stop this practice and explore another?{% endif %}</h1><p class="lede">{{ plan.sprint.protocol.name }}</p></div></section>
+<section class="panel">{% if decision == "pause" %}<p>Pausing keeps your plan, proof and review. You can resume from the practice page when ready.</p>{% else %}<p>Stopping ends this attempt. It cannot be resumed, but its plan, proof and review remain in your history. You can then choose and explicitly start another practice.</p>{% endif %}<p>This does not award completion credit or change your scores.</p>
+<form method="post" novalidate>{% csrf_token %}{{ form.as_p }}<div class="button-row"><button class="button" type="submit">{% if decision == "pause" %}Confirm pause{% else %}Confirm stop and explore{% endif %}</button> <a href="{% url 'weekly-plan-detail' plan.pk %}">Keep current practice</a></div></form></section>
+{% endblock %}

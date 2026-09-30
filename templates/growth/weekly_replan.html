@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Replan an action · Grounded Growth{% endblock %}
+{% block content %}
+<section class="page-heading"><div><p class="eyebrow">A deliberate next step</p><h1>Make a workable plan for this week</h1><p class="lede">Choose one action and a day from today through {{ week_end|date:"l, M j" }}.</p></div></section>
+<section class="panel"><h2>What you are carrying forward</h2><p>{{ plan.action.title }} · originally planned for {{ plan.intended_on|date:"M j, Y" }}.</p>{% include "growth/partials/weekly_proof.html" %}{% if review %}<p>{{ review.get_next_step_display }}. {{ adjustment_help }}</p>{% endif %}<p>A missed day or changed capacity does not imply failure. Review the action guide for allowed adaptations; planning does not change the action's evidence requirements.</p><p><a href="{% url 'growth:practice-sprint' plan.sprint_id %}">Open action guide</a></p></section>
+<section class="section-block"><div class="panel"><h2>Your next plan</h2>{% if target %}<p>Saving a different action or day adds a revision to this week's plan. The original dates, proof and saved reviews remain available.</p>{% else %}<p>Saving starts this week's plan. The previous week remains unchanged.</p>{% endif %}
+<form method="post" novalidate>{% csrf_token %}{% for field in form.hidden_fields %}{{ field }}{{ field.errors }}{% endfor %}{{ form.non_field_errors }}
+<div class="form-field">{{ form.action.label_tag }}{{ form.action }}{{ form.action.errors }}</div>
+<div class="form-field">{{ form.intended_on.label_tag }}{{ form.intended_on }}{{ form.intended_on.errors }}</div>
+<div class="button-row"><button class="button" type="submit">Save replanned action</button> <a href="{% url 'weekly-plan-detail' plan.pk %}">Cancel</a></div>
+</form></div></section>
+{% endblock %}

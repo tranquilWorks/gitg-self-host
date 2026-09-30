@@ -1,0 +1,101 @@
+schema_version: 1
+batch:
+  id: M6L-03-DIRECTION-CONNECTION
+  title: Connect a practice to an explicitly chosen direction
+  goal: Choose and revise a private practice intention, display it in setup and weekly planning, and offer
+    a concise direction review with preserved history.
+sources:
+  product: gitg-self-host
+  requirements:
+  - docs/PRODUCT_DECISIONS.md#decision-046
+  - docs/plans/m6l/README.md
+  - docs/plans/m6l/actions.yaml
+  milestone: M6 Phase F / M6L-03
+  baseline_commit: 80faeac57c183ce9038d3479a60f0ec0a6a59e97
+dependencies:
+- M6L-01
+- M6L-02
+scope:
+  allowed_paths:
+  - contracts/active-batch.yaml
+  - docs/plans/m6l/**
+  - docs/evidence/M6L-0*-*.md
+  - docs/PROJECT_HANDOFF.md
+  - docs/practice-direction-contract.md
+  - growth/migrations/0014_*.py
+  - growth/domain/practice_direction.py
+  - growth/services/practice_direction.py
+  - growth/services/personal_os.py
+  - growth/services/data_lifecycle.py
+  - growth/services/database_backup.py
+  - growth/services/operations_readiness.py
+  - growth/views_direction.py
+  - growth/forms_direction.py
+  - growth/views_practice.py
+  - growth/views_weekly.py
+  - grounded_growth/urls.py
+  - templates/growth/practice_setup.html
+  - templates/growth/weekly_execution.html
+  - templates/growth/personal_os.html
+  - templates/growth/direction_review.html
+  - templates/growth/practice_direction.html
+  - templates/growth/partials/practice_direction.html
+  - tests/**
+  - MANIFEST.tsv
+  - growth/views_data.py
+  - growth/models_direction.py
+  - growth/apps.py
+  forbidden_paths:
+  - data/**
+  - reports/**
+  - docs/authoring/**
+  - growth/services/canonical_import.py
+  - growth/services/profile.py
+  - growth/services/context_priority.py
+  - .github/**
+  - Dockerfile
+  - docker-compose.yml
+  - growth/static/growth/app.css
+  - growth/urls.py
+  - growth/models.py
+acceptance:
+- Explicitly select a saved priority or authored intended outcome, or record unknown/declined; no private-prose
+  interpretation, ranking or scoring change.
+- Setup and weekly planning display the current user-chosen connection, allow revision, and preserve every
+  prior choice in its own assessment/practice scope.
+- Concise owner-initiated review edits mission, anti-goals, priorities and twelve-month direction while
+  retaining principles, audit responses and prior revisions.
+- Validate ownership, epoch, stale forms, immutable revisions, source priority provenance and corrupt
+  records; private narrative stays out of shared exports and recommendations.
+- Add new records to owner archive/deletion and backup integrity, with an additive migration and operational
+  rollback guidance.
+validation:
+  local:
+  - Focused Django and browser journeys
+  - scripts/agent-verify.sh full
+  - MANIFEST and scope checks
+  - Desktop/mobile screenshot inspection
+  focused_tests_to_add:
+  - Choice states, saved priority provenance, revision history and stale writes
+  - Concise review preserves other Personal OS fields; owner/epoch isolation and corruption fail closed
+  - Setup and weekly integration, lifecycle, desktop/mobile browser journey
+  required_ci:
+  - Pilot readiness gate
+risk:
+  class: moderate
+  hazards:
+  - Changing a priority silently retargets a practice.
+  - "Concurrent edits overwrite intentions or disclose another owner\u2019s private text."
+  - New records are omitted from archive, deletion or backup checks.
+  stop_conditions:
+  - Protected source or historical data drift
+  - Private authored text exposed outside existing surfaces
+  - Changed assessment, context-priority or scoring mathematics
+rollback:
+  strategy: Revert UI and service callers; retain additive table and private revisions. Before migration
+    rollback export/backup new data; do not drop the table with retained owner records.
+evidence:
+  output:
+  - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
+  claim_boundary: Software and synthetic browser validation only; no new participant or specialist evidence,
+    merge, release or live data operation.
