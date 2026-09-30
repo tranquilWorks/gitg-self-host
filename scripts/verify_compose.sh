@@ -203,8 +203,11 @@ test "$(browser_slice_state)" = "$expected_browser_slice_state"
 
 printf '\n==> Restore the verified backup inside the isolated volume\n'
 compose down
+compose run --rm --no-deps --entrypoint python app manage.py verify_database_backup "$backup_path"
 compose run --rm --no-deps --entrypoint python app -c \
     'from pathlib import Path; import shutil; source = Path("/data/backups/compose-smoke.sqlite3"); target = Path("/data/grounded_growth.sqlite3"); shutil.copy2(source, target); target.with_name(target.name + "-wal").unlink(missing_ok=True); target.with_name(target.name + "-shm").unlink(missing_ok=True)'
+compose run --rm --no-deps --entrypoint python app manage.py verify_database_backup \
+    "$backup_path" --compare-live
 compose up -d --wait --wait-timeout 180
 compose exec -T app python manage.py migrate --check
 compose exec -T app python manage.py verify_database_backup "$backup_path" --compare-live

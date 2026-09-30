@@ -25,7 +25,25 @@ Focused operator/deployment/bootstrap/backup checks: 29 passed (38.73 seconds),
 settings overrides. Initial browser checks found a test reading innerText from a
 collapsed native menu; corrected to check its text content and the visible
 More · Account summary. No product behavior changed for that selector correction.
-Final browser, full required profile and expanded Compose drill are pending.
+Focused browser rerun: two passed at 320/1280px (18.82 seconds),
+`/tmp/m6l07-browser-fixed.xml`, including keyboard disclosure, current navigation,
+revision display and enlarged text. Final complete browser, full required profile
+and expanded Compose drill are running on `fa7794e`.
+
+Initial broad runs hit a full host filesystem: SQLite I/O errors and a Chromium
+crash invalidate those attempts. Stopped the affected regression and reclaimed
+inactive synthetic pytest databases and five untagged images from this project's
+prior disposable drills; no user volume or unrelated image was removed. Retained
+receipts: `/tmp/m6l07-full-initial.log`, `/tmp/m6l07-browser-initial.log` and XML.
+
+The first Compose attempt correctly reached a personal account with no assessment.
+Its existing Personal OS HTTP probe expected no redirect, so the personal-mode
+probe now uses the authenticated installation page. After explicit demo opt-in,
+all original Personal OS/replay/recovery probes remain. Failure receipt:
+`/tmp/m6l07-compose-initial.log`. No application behavior was weakened.
+
+[Draft PR #111](https://github.com/tranquilWorks/gitg-self-host/pull/111) is stacked
+on #110. Hosted CI is pending; no merge or publication.
 
 ## Invariants and limits
 

@@ -103,6 +103,8 @@ def test_repeatable_compose_acceptance_is_wired_into_make_and_ci():
     assert "verify_database_backup" in smoke_script
     assert "--compare-live" in smoke_script
     restore_steps = smoke_script.split("==> Restore the verified backup", 1)[1]
+    assert restore_steps.index("verify_database_backup") < restore_steps.index("shutil.copy2")
+    assert restore_steps.index("--compare-live") < restore_steps.index("compose up")
     assert restore_steps.index("verify_database_backup") < restore_steps.index(
         'http_probe "$original_password" success'
     )
