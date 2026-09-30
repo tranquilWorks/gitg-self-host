@@ -24,8 +24,10 @@ With your permission, an observer records which product task you tried, the
 study week, whether you completed, could not complete, stopped or skipped it,
 whether help was offered, a broad time band you choose, optional recommendation
 fit, and a broad barrier category. We use a random study reference to connect
-these observations across weeks. This is pseudonymous, not anonymous. There is
-no audio/video recording, automatic activity tracking or remote telemetry.
+these observations across weeks. This is pseudonymous, not anonymous. This
+observation study adds no audio/video recording, automatic activity tracking or
+remote telemetry. Normal assessment timing remains part of the product's private
+assessment record; its optional calibration reuse is described below.
 We do not copy your assessment answers, private notes, contacts, share codes,
 practice evidence, developmental scores or details of real-world interactions.
 

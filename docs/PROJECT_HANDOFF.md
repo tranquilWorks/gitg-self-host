@@ -8,7 +8,14 @@ entry plus three weekly cycles, separate consent and retention, structured
 private observations, all eight assessment evidence plans and qualified-review
 records. A new local CLI creates empty private files and deterministic suppressed
 summaries without database/network access. It never closes evidence axes.
-Focused CLI verification passed 25 tests; full required verification is running.
+Local verification passed: 27 focused CLI cases, all 2,031 nonbrowser tests and
+17 readiness commands through the complete full-profile harness, seven relevant
+browser journeys with inspected mobile/desktop artifacts, and isolated Docker
+recreation/backup/restore. A documented synthetic CLI rehearsal also passed.
+[Draft PR #112](https://github.com/tranquilWorks/gitg-self-host/pull/112) is stacked
+on #111; final-head CI remains pending. Preparation action 08-01 is locally
+verified; 08-02/03 await participant evidence and 08-04 awaits qualified review.
+The overall batch remains prepared/awaiting evidence, not empirically complete.
 No new consented participant dataset or named reviewer receipts were supplied.
 Actual observations, assessment evidence and qualified analysis remain open.
 No runtime, content, scoring, migration, participant contact or live-data change.

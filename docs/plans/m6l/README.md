@@ -16,7 +16,7 @@ excluded. The executable action register is [actions.yaml](actions.yaml).
 | M6L-05 | Readable history and deliberate continuity across reassessment | 03, 04 | CI verified; draft PR #109 |
 | M6L-06 | Whole-application language, navigation and accessibility consistency | 02–05 | CI verified; draft PR #110 |
 | M6L-07 | Installation, version visibility and operator recovery convenience | 01, 06 | CI verified; draft PR #111 |
-| M6L-08 | Real-user multi-cycle evaluation and assessment calibration evidence | 02–06; operator readiness for pilot | Preparation in progress; empirical evidence remains open |
+| M6L-08 | Real-user multi-cycle evaluation and assessment calibration evidence | 02–06; operator readiness for pilot | Preparation verified; draft PR #112; three empirical actions open |
 
 ## Batch 1 boundary
 
