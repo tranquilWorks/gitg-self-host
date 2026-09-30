@@ -18,8 +18,8 @@ batches:
   - id: M6L-01-02
     title: Explicit demonstration state
     status: ci_verified
-    acceptance: Seeded users see an unambiguous demonstration notice and their own assessment CTA;
-      real-assessment users do not; existing seed data is preserved.
+    acceptance: Seeded users see an unambiguous demonstration notice and their own assessment CTA; real-assessment
+      users do not; existing seed data is preserved.
     evidence:
     - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
   - id: M6L-01-03
@@ -33,9 +33,8 @@ batches:
   - id: M6L-01-04
     title: Immediate language repairs
     status: ci_verified
-    acceptance: Personal OS accurately links account archive/deletion; generic practice completion
-      never claims a substantive interaction unconditionally; visible context messages use ordinary
-      language.
+    acceptance: Personal OS accurately links account archive/deletion; generic practice completion never
+      claims a substantive interaction unconditionally; visible context messages use ordinary language.
     evidence:
     - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
   - id: M6L-01-05
@@ -47,69 +46,72 @@ batches:
     - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
 - id: M6L-02
   title: Explicit context and alternatives
-  status: locally_verified
+  status: ci_verified
   depends_on:
   - M6L-01
   actions:
   - id: M6L-02-01
     title: Reproduce exclusion and fallback cases
-    status: locally_verified
+    status: ci_verified
     acceptance: Document and test no-context, partial-context, all-deferred and all-N/A flows; explicitly
       excluded choices are not presented as personalized recommendations.
     evidence:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
   - id: M6L-02-02
     title: Reduce context-entry burden
-    status: locally_verified
+    status: ci_verified
     acceptance: Guide a small shortlist through explicit factors progressively; unknown remains unknown;
       avoid a six-factor-times-383 worksheet.
     evidence:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
   - id: M6L-02-03
     title: Offer useful alternatives
-    status: locally_verified
-    acceptance: If no reviewed alternative exists, offer deliberate exploration and context review
-      of another candidate without silently imputing context or expanding the ranked cohort.
+    status: ci_verified
+    acceptance: If no reviewed alternative exists, offer deliberate exploration and context review of
+      another candidate without silently imputing context or expanding the ranked cohort.
     evidence:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
   - id: M6L-02-04
     title: Make deferral reviewable
-    status: locally_verified
-    acceptance: Show a private list of deferred choices and review horizons; reconsidering requires
-      an explicit revision and produces no penalty.
+    status: ci_verified
+    acceptance: Show a private list of deferred choices and review horizons; reconsidering requires an
+      explicit revision and produces no penalty.
     evidence:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
   - id: M6L-02-05
     title: Version changed presentation/selection policy
-    status: locally_verified
+    status: ci_verified
     acceptance: Record accepted behavior and preserve scoring, prior context snapshots and deterministic
       replay; add edge-case and browser coverage.
     evidence:
     - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
 - id: M6L-03
   title: Direction-to-practice connection
-  status: planned
+  status: locally_verified
   depends_on:
   - M6L-01
   actions:
   - id: M6L-03-01
     title: Choose the priority a practice serves
-    status: planned
-    acceptance: User explicitly selects a priority/intended outcome; no interpretation or analysis
-      of private prose.
-    evidence: []
+    status: locally_verified
+    acceptance: User explicitly selects a priority/intended outcome; no interpretation or analysis of
+      private prose.
+    evidence:
+    - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
   - id: M6L-03-02
     title: Make the connection visible
-    status: planned
-    acceptance: Setup and weekly planning show the chosen connection and a reversible way to revise
-      it; unknown or declined is supported.
-    evidence: []
+    status: locally_verified
+    acceptance: Setup and weekly planning show the chosen connection and a reversible way to revise it;
+      unknown or declined is supported.
+    evidence:
+    - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
   - id: M6L-03-03
     title: Review direction periodically
-    status: planned
+    status: locally_verified
     acceptance: Provide a concise user-initiated review of mission, anti-goals, priorities and direction
       with prior revisions preserved.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md
 - id: M6L-04
   title: Recurring weekly execution
   status: planned
@@ -120,8 +122,8 @@ batches:
   - id: M6L-04-01
     title: Act on review choices
     status: planned
-    acceptance: Continue, adjust, pause and choose-another lead to the relevant next step; never
-      perform a hidden state transition.
+    acceptance: Continue, adjust, pause and choose-another lead to the relevant next step; never perform
+      a hidden state transition.
     evidence: []
   - id: M6L-04-02
     title: Recover from missed plans
@@ -132,14 +134,14 @@ batches:
   - id: M6L-04-03
     title: Show previous-week context
     status: planned
-    acceptance: Present prior proof, adjustment and intended next step while planning the new week;
-      distinguish no evidence from adverse evidence.
+    acceptance: Present prior proof, adjustment and intended next step while planning the new week; distinguish
+      no evidence from adverse evidence.
     evidence: []
   - id: M6L-04-04
     title: Support upcoming actions
     status: planned
-    acceptance: Choose and implement one non-coercive optional reminder/calendar approach with clear
-      timing, privacy and disable behavior; no automatic score credit.
+    acceptance: Choose and implement one non-coercive optional reminder/calendar approach with clear timing,
+      privacy and disable behavior; no automatic score credit.
     evidence: []
 - id: M6L-05
   title: History and reassessment continuity
@@ -157,20 +159,20 @@ batches:
   - id: M6L-05-02
     title: Explain retake consequences
     status: planned
-    acceptance: Before retaking, explain new context/coverage boundaries and any current practice
-      still attached to the old assessment.
+    acceptance: Before retaking, explain new context/coverage boundaries and any current practice still
+      attached to the old assessment.
     evidence: []
   - id: M6L-05-03
     title: Explicit review-and-reuse intentions
     status: planned
-    acceptance: Offer a user-confirmed copy of selected Personal OS/context intentions into a new
-      period; never transfer evidence or scoring implicitly.
+    acceptance: Offer a user-confirmed copy of selected Personal OS/context intentions into a new period;
+      never transfer evidence or scoring implicitly.
     evidence: []
   - id: M6L-05-04
     title: Resolve active-practice transitions
     status: planned
-    acceptance: Old-assessment active/paused practices have clear completion/stop/navigation paths;
-      new weekly plans cannot silently mix periods.
+    acceptance: Old-assessment active/paused practices have clear completion/stop/navigation paths; new
+      weekly plans cannot silently mix periods.
     evidence: []
 - id: M6L-06
   title: Whole-application consistency
@@ -196,8 +198,8 @@ batches:
   - id: M6L-06-03
     title: Accessibility and layout review
     status: planned
-    acceptance: Verify keyboard, focus, labels, screen-reader-oriented structure, mobile, zoom and
-      reduced-motion paths; retain screenshots and document limits.
+    acceptance: Verify keyboard, focus, labels, screen-reader-oriented structure, mobile, zoom and reduced-motion
+      paths; retain screenshots and document limits.
     evidence: []
 - id: M6L-07
   title: Operator convenience
@@ -214,14 +216,14 @@ batches:
   - id: M6L-07-02
     title: Version and update visibility
     status: planned
-    acceptance: Show installed revision and reproducible update/pin instructions; no silent updates
-      or unsolicited remote telemetry.
+    acceptance: Show installed revision and reproducible update/pin instructions; no silent updates or
+      unsolicited remote telemetry.
     evidence: []
   - id: M6L-07-03
     title: Guided operational recovery
     status: planned
-    acceptance: Document authentication, configuration checks, backup verification, active-practice
-      upgrade constraints and restore/rollback with tested failure cases.
+    acceptance: Document authentication, configuration checks, backup verification, active-practice upgrade
+      constraints and restore/rollback with tested failure cases.
     evidence: []
 - id: M6L-08
   title: Empirical product validation
@@ -237,8 +239,8 @@ batches:
   - id: M6L-08-01
     title: Prepare a consented multi-cycle pilot
     status: planned
-    acceptance: Define tasks, consent, collection/retention boundaries and recruitment diversity
-      before any participant activity; keep feedback separate from developmental scoring.
+    acceptance: Define tasks, consent, collection/retention boundaries and recruitment diversity before
+      any participant activity; keep feedback separate from developmental scoring.
     evidence: []
   - id: M6L-08-02
     title: Evaluate real product use
@@ -250,8 +252,8 @@ batches:
     title: Complete assessment evidence work
     status: planned
     acceptance: 'Plan and collect evidence for all eight existing axes: distributions, missingness/N-A,
-      retest, convergent/discriminant validity, fairness, burden/abandonment, recommendation fit
-      and longitudinal association.'
+      retest, convergent/discriminant validity, fairness, burden/abandonment, recommendation fit and longitudinal
+      association.'
     evidence: []
   - id: M6L-08-04
     title: Qualified analysis and versioned corrections

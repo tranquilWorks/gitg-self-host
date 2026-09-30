@@ -47,6 +47,7 @@ from growth.services.practice import (
     start_practice,
     transition_sprint,
 )
+from growth.services.practice_direction import connection_presentation
 from growth.services.practice_discovery import build_practice_explorer
 from growth.services.profile import build_profile_summary
 
@@ -440,6 +441,10 @@ def practice_setup(request, slug, step):
             "form": form,
             "setup": setup,
             "start_date": setup.get("start_date"),
+            "connection": connection_presentation(
+                request.user, AssessmentRun.objects.filter(user=request.user).first(), protocol
+            ),
+            "connection_return": "setup7" if step == 7 else "setup1",
         },
     )
 

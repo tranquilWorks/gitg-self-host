@@ -12,6 +12,7 @@ from growth.forms import WeeklyExecutionPlanForm, WeeklyExecutionReviewForm
 from growth.models import PersonalOSRevision, PracticeCheckIn
 from growth.services.personal_os_browser import build_browser_priority_presentation
 from growth.services.practice import current_sprint_for
+from growth.services.practice_direction import connection_presentation
 from growth.services.profile import build_profile_summary
 from growth.services.weekly_execution import (
     WeeklyExecutionServiceError,
@@ -117,6 +118,14 @@ def _render(
             "plan_form": plan_form,
             "review_form": review_form,
             "proof_rows": proof_rows,
+            "connection": (
+                connection_presentation(
+                    request.user, summary.assessment_run, active_sprint.protocol
+                )
+                if active_sprint and active_sprint.assessment_run_id == summary.assessment_run.pk
+                else {"unavailable": True}
+            ),
+            "connection_return": "weekly",
         },
         status=status,
     )

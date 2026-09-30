@@ -7,8 +7,10 @@ from typing import Any
 
 from django.conf import settings
 from django.contrib.auth import get_user_model
+from django.core.exceptions import ValidationError
 from django.core.serializers.json import DjangoJSONEncoder
 
+from growth.models_direction import PracticeDirectionRevision
 from growth.services.data_lifecycle import (
     OWNER_ARCHIVE_SCHEMA_VERSION,
     RETENTION_POLICY_VERSION,
@@ -16,6 +18,7 @@ from growth.services.data_lifecycle import (
     build_owner_archive,
     build_retention_preview,
 )
+from growth.services.practice_direction import direction_history
 
 OPERATIONS_READINESS_CONTRACT_VERSION = "GG-M6H-OPERATIONS-READINESS-1.0"
 
@@ -53,6 +56,19 @@ def _canonical_hash(value: Any) -> str:
 
 
 def verify_operations_readiness() -> OperationsReadinessSummary:
+    verified_scopes = set()
+    for record in PracticeDirectionRevision.objects.select_related(
+        "user", "assessment_run", "protocol"
+    ):
+        scope = (record.assessment_run_id, record.protocol_id)
+        if scope not in verified_scopes:
+            try:
+                direction_history(record.user, record.assessment_run, record.protocol)
+            except (ValidationError, ValueError, TypeError):
+                raise OperationsReadinessError(
+                    "A practice connection failed verification."
+                ) from None
+            verified_scopes.add(scope)
     users = list(get_user_model().objects.order_by("pk"))
     archive_hashes: list[str] = []
     owner_records = 0

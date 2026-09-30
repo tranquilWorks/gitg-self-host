@@ -503,6 +503,7 @@ def test_weekly_migration_round_trip_preserves_preexisting_growth_state(seeded):
     original_leaves = executor.loader.graph.leaf_nodes()
     excluded = {
         "growth_assessmentcalibrationconsent",
+        "growth_practicedirectionrevision",
         "growth_completioncreditevent",
         "growth_compositeassessmentsnapshot",
         "growth_compositescoresnapshot",

@@ -1,0 +1,19 @@
+<section class="panel section-block" aria-labelledby="practice-direction-heading">
+  <p class="eyebrow">Chosen by you</p>
+  <h2 id="practice-direction-heading">Current practice connection</h2>
+  {% if connection.unavailable %}
+    <p>This connection could not be verified for this assessment period. No saved intention is displayed.</p>
+  {% else %}
+    {% if connection.record.state == 'priority' or connection.record.state == 'outcome' %}
+      <p class="preserve-lines">{{ connection.record.chosen_text }}</p>
+      <p class="fine-print">{{ connection.record.get_state_display }} · choice {{ connection.record.revision }}</p>
+    {% elif connection.record.state == 'declined' %}
+      <p>You chose not to connect this practice to a priority or outcome.</p>
+    {% else %}
+      <p>No connection chosen yet. You can leave this unknown and still begin.</p>
+    {% endif %}
+    {% if connection.prior_direction %}<p>Your direction has changed since this choice. The original priority is preserved until you explicitly revise the connection.</p>{% endif %}
+    <a class="text-link" href="{% url 'practice-direction' connection.protocol.slug %}?return={{ connection_return }}">Choose or revise the connection</a>
+  {% endif %}
+  <p class="fine-print">This is your current intention for this practice in this assessment period. It does not rewrite past plans or reviews, or affect recommendations and scores.</p>
+</section>

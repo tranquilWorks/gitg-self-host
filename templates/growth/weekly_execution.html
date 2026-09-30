@@ -12,7 +12,7 @@
         Planning is not evidence, and a weekly review does not establish mastery.
       </p>
     </div>
-    <a class="text-link" href="{% url 'growth:personal-os' %}">Review Personal OS <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{% url 'direction-review' %}">Review direction <span aria-hidden="true">→</span></a>
   </section>
 
   <div class="status-note" role="note">
@@ -64,6 +64,7 @@
     </div>
 
     {% if active_sprint %}
+      {% include "growth/partials/practice_direction.html" %}
       <div class="panel">
         <p><strong>{{ active_sprint.protocol.name }}</strong></p>
         {% if current_plan %}

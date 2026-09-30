@@ -49,6 +49,7 @@ from growth.services.operations_readiness import verify_operations_readiness
 from growth.services.personal_os import record_personal_os_revision
 from growth.services.pilot_feedback import build_privacy_safe_pilot_export, submit_pilot_feedback
 from growth.services.practice import complete_with_review, save_check_in, start_practice
+from growth.services.practice_direction import record_connection
 from growth.services.weekly_execution import (
     current_window,
     record_weekly_plan,
@@ -145,6 +146,15 @@ def _create_private_state(user):
         ),
     )
     personal = record_personal_os_revision(user=user, assessment_run=run, **_personal_values())
+    record_connection(
+        user=user,
+        run=run,
+        protocol=protocol,
+        expected_revision=0,
+        expected_personal_os=personal.revision.revision,
+        state="outcome",
+        intended_outcome="Private practice intention",
+    )
     return {
         "run": run,
         "sprint": sprint,
@@ -237,6 +247,7 @@ def test_owner_archive_is_complete_deterministic_private_and_cross_user_isolated
         "pilot_feedback",
         "practice_check_ins",
         "practice_context",
+        "practice_direction_revisions",
         "practice_reviews",
         "practice_sprints",
         "score_snapshots",
@@ -279,10 +290,10 @@ def test_owner_archive_download_and_deletion_groups_include_composite_state(clie
     archive = client.get(reverse("growth:owner-archive"))
     assert archive.status_code == 200
     assert archive["Content-Disposition"] == (
-        'attachment; filename="grounded-growth-owner-private-archive-v3.json"'
+        'attachment; filename="grounded-growth-owner-private-archive-v4.json"'
     )
     assert json.loads(archive.content)["schema_version"] == (
-        "grounded-growth-owner-private-archive-v3"
+        "grounded-growth-owner-private-archive-v4"
     )
 
     management = client.get(reverse("growth:data-management"))
