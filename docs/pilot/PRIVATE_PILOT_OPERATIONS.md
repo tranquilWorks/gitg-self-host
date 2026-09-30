@@ -1,5 +1,9 @@
 # Private pilot operations
 
+For the current M6L multi-cycle evaluation, use the
+[study kit](m6l08/README.md) alongside these session operations. It separates
+observation consent, assessment reuse, missing sessions and qualified review.
+
 ## Scope
 
 This guide runs one bounded private-pilot session against a self-hosted

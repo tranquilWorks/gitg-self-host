@@ -15,8 +15,8 @@ excluded. The executable action register is [actions.yaml](actions.yaml).
 | M6L-04 | Review-to-next-week handoff, recovery after missed plans, upcoming-action support | 02, 03 | CI verified; draft PR #108 |
 | M6L-05 | Readable history and deliberate continuity across reassessment | 03, 04 | CI verified; draft PR #109 |
 | M6L-06 | Whole-application language, navigation and accessibility consistency | 02–05 | CI verified; draft PR #110 |
-| M6L-07 | Installation, version visibility and operator recovery convenience | 01, 06 | Locally verified; draft PR #111; final CI pending |
-| M6L-08 | Real-user multi-cycle evaluation and assessment calibration evidence | 02–06; operator readiness for pilot | Planned; empirical evidence remains open |
+| M6L-07 | Installation, version visibility and operator recovery convenience | 01, 06 | CI verified; draft PR #111 |
+| M6L-08 | Real-user multi-cycle evaluation and assessment calibration evidence | 02–06; operator readiness for pilot | Preparation verified; draft PR #112; three empirical actions open |
 
 ## Batch 1 boundary
 
@@ -58,9 +58,10 @@ consented observations, qualified analysis and review. Existing tests and the
 owner's product acceptance cannot close empirical axes. Record unsuccessful
 and inconclusive observations as well as successful ones.
 
-Current authorization covers planning the entire program and implementing 01–07.
-The owner explicitly requested Batch 07 on 30 September 2026.
-Batch 08 remains planned. Publication of the catalog
+Current authorization covers planning the entire program and implementing 01–08.
+The owner explicitly requested Batch 08 on 30 September 2026. Its
+[study kit](../../pilot/m6l08/README.md) prepares actual collection and review;
+no participant evidence has been supplied for this implementation. Publication of the catalog
 was completed under the previous authorization; this new batch's merge and
 publication are separate from implementation.
 

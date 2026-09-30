@@ -214,35 +214,35 @@ batches:
     - docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md
 - id: M6L-07
   title: Operator convenience
-  status: locally_verified
+  status: ci_verified
   depends_on:
   - M6L-01
   - M6L-06
   actions:
   - id: M6L-07-01
     title: Installation and demo choice
-    status: locally_verified
+    status: ci_verified
     acceptance: Provide explicit demo versus personal-start guidance and a safe opt-in demo configuration;
       preserve existing users and historical demonstration data.
     evidence:
     - docs/evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md
   - id: M6L-07-02
     title: Version and update visibility
-    status: locally_verified
+    status: ci_verified
     acceptance: Show installed revision and reproducible update/pin instructions; no silent updates or
       unsolicited remote telemetry.
     evidence:
     - docs/evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md
   - id: M6L-07-03
     title: Guided operational recovery
-    status: locally_verified
+    status: ci_verified
     acceptance: Document authentication, configuration checks, backup verification, active-practice upgrade
       constraints and restore/rollback with tested failure cases.
     evidence:
     - docs/evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md
 - id: M6L-08
   title: Empirical product validation
-  status: planned
+  status: prepared_awaiting_evidence
   depends_on:
   - M6L-02
   - M6L-03
@@ -253,26 +253,30 @@ batches:
   actions:
   - id: M6L-08-01
     title: Prepare a consented multi-cycle pilot
-    status: planned
+    status: locally_verified
     acceptance: Define tasks, consent, collection/retention boundaries and recruitment diversity before
       any participant activity; keep feedback separate from developmental scoring.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-08-EMPIRICAL-VALIDATION-20260930.md
   - id: M6L-08-02
     title: Evaluate real product use
-    status: planned
+    status: awaiting_participant_evidence
     acceptance: Collect actual observations of recommendation fit, burden, abandonment, repeated-week
       use and accessibility; report sample and limitations honestly.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-08-EMPIRICAL-VALIDATION-20260930.md
   - id: M6L-08-03
     title: Complete assessment evidence work
-    status: planned
+    status: awaiting_participant_evidence
     acceptance: 'Plan and collect evidence for all eight existing axes: distributions, missingness/N-A,
       retest, convergent/discriminant validity, fairness, burden/abandonment, recommendation fit and longitudinal
       association.'
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-08-EMPIRICAL-VALIDATION-20260930.md
   - id: M6L-08-04
     title: Qualified analysis and versioned corrections
-    status: planned
+    status: awaiting_qualified_review
     acceptance: Have suitable reviewers assess the collected evidence; track warranted fixes as follow-on
       batches; close no axis from synthetic tests alone.
-    evidence: []
+    evidence:
+    - docs/evidence/M6L-08-EMPIRICAL-VALIDATION-20260930.md

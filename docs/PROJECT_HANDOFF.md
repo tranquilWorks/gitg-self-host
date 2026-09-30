@@ -1,5 +1,31 @@
 # Grounded Growth — Project Handoff
 
+## M6L-08 empirical validation preparation — 30 September 2026
+
+The owner requested Batch 08. Branch `codex/m6l-08-empirical-validation`
+is based on Batch 07 final head `941fb78`. The source-only study kit defines
+entry plus three weekly cycles, separate consent and retention, structured
+private observations, all eight assessment evidence plans and qualified-review
+records. A new local CLI creates empty private files and deterministic suppressed
+summaries without database/network access. It never closes evidence axes.
+Local verification passed: 27 focused CLI cases, all 2,031 nonbrowser tests and
+17 readiness commands through the complete full-profile harness, seven relevant
+browser journeys with inspected mobile/desktop artifacts, and isolated Docker
+recreation/backup/restore. A documented synthetic CLI rehearsal also passed.
+[Draft PR #112](https://github.com/tranquilWorks/gitg-self-host/pull/112) is stacked
+on #111; final-head CI remains pending. Preparation action 08-01 is locally
+verified; 08-02/03 await participant evidence and 08-04 awaits qualified review.
+The overall batch remains prepared/awaiting evidence, not empirically complete.
+The owner subsequently requested execution of the remaining actions. Invitation,
+screening, reviewer and Day 0/7/14/21 fieldwork drafts are now included. The
+coordinator/recruitment route, actual participants, reviewers and any approved
+existing evidence paths have been requested; none have yet been supplied.
+No new consented participant dataset or named reviewer receipts were supplied.
+Actual observations, assessment evidence and qualified analysis remain open.
+No runtime, content, scoring, migration, participant contact or live-data change.
+See [study kit](pilot/m6l08/README.md) and
+[Batch 08 evidence](evidence/M6L-08-EMPIRICAL-VALIDATION-20260930.md).
+
 ## M6L-07 operator convenience — 30 September 2026
 
 The owner explicitly requested Batch 07. Work is on
@@ -12,7 +38,7 @@ two final installation-page reruns, and the complete isolated Docker recovery
 drill passed. The historical importer is restored byte-for-byte; a separate
 library-only orchestrator preserves its validation and active/paused guard.
 [Draft PR #111](https://github.com/tranquilWorks/gitg-self-host/pull/111) is stacked
-on #110. Final-head hosted CI remains pending; no merge or publication.
+on #110. Final-head hosted CI passed in [run 36666899420](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36666899420); no merge or publication.
 After 07, only Batch 08 / four empirical-validation actions remain.
 See [operator guide](operator-convenience.md) and
 [Batch 07 evidence](evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md).
