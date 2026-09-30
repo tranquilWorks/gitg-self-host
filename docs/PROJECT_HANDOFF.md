@@ -16,6 +16,10 @@ recreation/backup/restore. A documented synthetic CLI rehearsal also passed.
 on #111; final-head CI remains pending. Preparation action 08-01 is locally
 verified; 08-02/03 await participant evidence and 08-04 awaits qualified review.
 The overall batch remains prepared/awaiting evidence, not empirically complete.
+The owner subsequently requested execution of the remaining actions. Invitation,
+screening, reviewer and Day 0/7/14/21 fieldwork drafts are now included. The
+coordinator/recruitment route, actual participants, reviewers and any approved
+existing evidence paths have been requested; none have yet been supplied.
 No new consented participant dataset or named reviewer receipts were supplied.
 Actual observations, assessment evidence and qualified analysis remain open.
 No runtime, content, scoring, migration, participant contact or live-data change.

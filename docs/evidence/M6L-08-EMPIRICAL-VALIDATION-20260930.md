@@ -92,7 +92,22 @@ preparation, owner acceptance or synthetic rehearsal substitutes for that work.
 The existing specialist governance and all eight assessment axes remain open.
 
 Final contract/schema, scope, manifest, Ruff, Django and migration checks passed.
-All 18 changed files are allowed; zero forbidden runtime/content paths changed.
-MANIFEST contains 3,487 entries. Study-kit local links were checked. Final prose
+All 19 changed files are allowed; zero forbidden runtime/content paths changed.
+MANIFEST contains 3,488 entries. Study-kit local links were checked. Final prose
 clarifies that normal private assessment timing already exists while the new
 observation study adds no tracking; calibration reuse stays separately optional.
+
+## Execution follow-up
+
+The owner requested execution of the remaining actions. Added the
+[fieldwork packet](../pilot/m6l08/fieldwork.md): invitation, neutral screening,
+reviewer brief and relative Day 0/7/14/21 task/deliverable sequence. These are
+unsent drafts; no people, consent, dates or findings were invented. Requested the
+coordinator/recruitment route, reviewer assignments and any authorized existing
+evidence paths. Those inputs remain unavailable, so participant collection and
+qualified review have not begun. The three empirical actions remain open.
+
+This follow-up changes documentation only. Verified local links, batch scope,
+manifest and the repository contract checks; prior full runtime/test evidence
+remains applicable. No new runtime tests or Docker run were needed for these
+reversible prose additions. Final-head CI status remains separate.

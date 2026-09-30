@@ -12,7 +12,9 @@ Start with the [protocol](protocol.md), give participants the completed
 [assessment evidence plan](assessment-evidence-plan.md) identifies what the
 existing consented export can and cannot answer. Complete the
 [review and correction record](review-and-corrections.md) before launch and at
-closeout. Reviewer identities, participant contacts and data stay outside Git.
+closeout. Use the [fieldwork packet](fieldwork.md) for invitation and screening
+drafts, a reviewer brief, and the relative Day 0/7/14/21 schedule. Reviewer
+identities, participant contacts and data stay outside Git.
 
 ## Prepare a private workspace
 
