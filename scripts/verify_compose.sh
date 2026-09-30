@@ -91,7 +91,7 @@ http_probe() {
         --username "$username" \
         --password "$password" \
         --expect "$expectation" \
-        --authenticated-path "/personal-os/" \
+        --authenticated-path "${3:-/personal-os/}" \
         "${boundary_option[@]}"
 }
 
@@ -113,7 +113,7 @@ container_id="$(compose ps -q app)"
 test -n "$container_id"
 test "$(docker inspect --format '{{.State.Health.Status}}' "$container_id")" = "healthy"
 test "$(compose exec -T app id -u | tr -d '\r')" = "10001"
-http_probe "$original_password" success
+http_probe "$original_password" success "/account/installation/"
 
 printf '\n==> Verify personal startup, local diagnostics and embedded revision\n'
 test "$(canonical_counts)" = "37,383,1403,383,383,383,0"
