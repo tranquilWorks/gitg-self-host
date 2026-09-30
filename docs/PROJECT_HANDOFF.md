@@ -6,9 +6,14 @@ The owner explicitly requested Batch 07. Work is on
 `codex/m6l-07-operator-convenience`, based on Batch 06 final head `7078f97`.
 The bounded contract covers personal/demo startup choice, embedded revision,
 authenticated installation help, read-only local diagnostics and ordered recovery
-guidance. No content, scoring or migration change. Implementation and focused
-verification are in progress; this is a stacked draft-PR batch, with no merge or
-publication. After 07, only Batch 08 / four empirical-validation actions remain.
+guidance. No content, scoring or migration change. All three actions are locally
+verified: 2,004 nonbrowser tests, all 17 readiness commands, 54 browser cases plus
+two final installation-page reruns, and the complete isolated Docker recovery
+drill passed. The historical importer is restored byte-for-byte; a separate
+library-only orchestrator preserves its validation and active/paused guard.
+[Draft PR #111](https://github.com/tranquilWorks/gitg-self-host/pull/111) is stacked
+on #110. Final-head hosted CI remains pending; no merge or publication.
+After 07, only Batch 08 / four empirical-validation actions remain.
 See [operator guide](operator-convenience.md) and
 [Batch 07 evidence](evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md).
 
@@ -29,10 +34,10 @@ browser cases have passing coverage across complete runs and exact-case assertio
 reruns; all 17 readiness commands and the Docker recreation/backup/restore drill
 passed. See [behavior and audit](application-consistency.md) and
 [exact results and limitations](evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md).
-No migration, canonical competency change or historical service change. Batches
-07–08 remain planned: operator convenience and empirical validation (two batches /
-seven actions). No merge or publication; actual assistive-technology and participant
-validation remain distinct from software checks.
+No migration, canonical competency change or historical service change. At that
+checkpoint, batches 07–08 remained planned; Batch 07 is now locally verified as
+recorded above. No merge or publication; actual assistive-technology and
+participant validation remain distinct from software checks.
 
 M6L-05 final head `a51b1214f91e5dc4756aebc1e57aca99e48503b4` passed every hosted
 quality, browser, Docker Compose and aggregate Pilot readiness check in

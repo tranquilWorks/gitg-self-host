@@ -15,7 +15,7 @@ excluded. The executable action register is [actions.yaml](actions.yaml).
 | M6L-04 | Review-to-next-week handoff, recovery after missed plans, upcoming-action support | 02, 03 | CI verified; draft PR #108 |
 | M6L-05 | Readable history and deliberate continuity across reassessment | 03, 04 | CI verified; draft PR #109 |
 | M6L-06 | Whole-application language, navigation and accessibility consistency | 02–05 | CI verified; draft PR #110 |
-| M6L-07 | Installation, version visibility and operator recovery convenience | 01, 06 | Implementation in progress |
+| M6L-07 | Installation, version visibility and operator recovery convenience | 01, 06 | Locally verified; draft PR #111; final CI pending |
 | M6L-08 | Real-user multi-cycle evaluation and assessment calibration evidence | 02–06; operator readiness for pilot | Planned; empirical evidence remains open |
 
 ## Batch 1 boundary
