@@ -1,0 +1,7 @@
+{% if form_errors %}
+<section class="error-summary" id="form-errors" tabindex="-1" aria-labelledby="form-errors-heading">
+  <h2 id="form-errors-heading">Check the highlighted answers</h2>
+  <p>Your changes have not been saved. Choose an item below to review it.</p>
+  <ul>{% for error in form_errors %}<li>{% if error.target %}<a href="#{{ error.target }}">{{ error.label }}: {{ error.message }}</a>{% else %}{{ error.message }}{% endif %}</li>{% endfor %}</ul>
+</section>
+{% endif %}

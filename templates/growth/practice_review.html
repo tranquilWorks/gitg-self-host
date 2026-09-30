@@ -21,14 +21,14 @@
     {% if evidence.uses_composite_closeout %}
       <p>
         Check-ins have not changed your completion score. Submitting this final
-        review is the human closeout that records
+        review closes the practice and records
         {{ evidence.projected_closeout_credit|percentage }} completion credit.
         Assessment answers, orientations, and archetypes remain unchanged.
       </p>
     {% else %}
       <p>
-        This historical sprint retains its original event-level scoring contract.
-        The final review itself creates no additional evidence event.
+        This earlier practice keeps the scoring rules used when it began.
+        The final review adds no new observation.
       </p>
     {% endif %}
   </div>
@@ -73,8 +73,8 @@
         <div class="form-field">
           <label for="{{ field.id_for_label }}">{{ field.label }}</label>
           {{ field }}
-          {% if field.help_text %}<p class="helptext">{{ field.help_text }}</p>{% endif %}
-          {% for error in field.errors %}<p class="form-error">{{ error }}</p>{% endfor %}
+          {% if field.help_text %}<p class="helptext" id="{{ field.auto_id }}_helptext">{{ field.help_text }}</p>{% endif %}
+          {{ field.errors }}
         </div>
       {% endfor %}
       <button class="button" type="submit">

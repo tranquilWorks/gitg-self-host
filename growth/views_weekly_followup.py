@@ -11,6 +11,7 @@ from django.views.decorators.http import require_GET, require_http_methods
 from growth.forms import WeeklyExecutionReviewForm
 from growth.forms_weekly_followup import RecurringWeeklyPlanForm, WeeklyTransitionForm
 from growth.models import WeeklyExecutionPlan
+from growth.presentation import recovery
 from growth.services.practice import current_sprint_for
 from growth.services.weekly_execution import current_window
 from growth.services.weekly_followup import (
@@ -26,8 +27,9 @@ from growth.services.weekly_followup import (
 ERRORS = (ValidationError, ValueError, TypeError, OperationalError, IntegrityError)
 
 
-def _conflict():
-    return HttpResponse(
+def _conflict(request):
+    return recovery(
+        request,
         "This plan, practice or assessment changed, or could not be verified. "
         "Return to Weekly and reload before acting. No private value is displayed.",
         status=409,
@@ -52,14 +54,14 @@ def weekly_plan_detail(request, plan_id):
     try:
         context = verified_plan(request.user, plan, require_latest=False)
     except ERRORS:
-        return _conflict()
+        return _conflict(request)
     form = WeeklyExecutionReviewForm(
         request.POST if request.method == "POST" else None,
         initial={"plan_id": plan.pk, "next_step": "continue_current", "adjustment": "none"},
     )
     if request.method == "POST" and form.is_valid():
         if form.cleaned_data["plan_id"] != plan.pk:
-            return _conflict()
+            return _conflict(request)
         try:
             save_plan_review(
                 user=request.user,
@@ -68,7 +70,7 @@ def weekly_plan_detail(request, plan_id):
                 adjustment=form.cleaned_data["adjustment"],
             )
         except ERRORS:
-            return _conflict()
+            return _conflict(request)
         messages.success(request, "Weekly review saved. Choose the next step when you are ready.")
         return redirect("weekly-plan-detail", plan_id=plan.pk)
     context.update(
@@ -96,7 +98,7 @@ def weekly_replan(request, plan_id):
     try:
         context = verified_plan(request.user, plan)
     except ERRORS:
-        return _conflict()
+        return _conflict(request)
     if not can_replan(request.user, plan):
         messages.info(
             request, "Replanning needs this practice to be active in the current assessment period."
@@ -132,7 +134,7 @@ def weekly_replan(request, plan_id):
     if request.method == "POST" and form.is_valid():
         data = form.cleaned_data
         if data["assessment_epoch"] != plan.assessment_run_id:
-            return _conflict()
+            return _conflict(request)
         try:
             save_current_plan(
                 user=request.user,
@@ -145,7 +147,7 @@ def weekly_replan(request, plan_id):
                 source=plan,
             )
         except ERRORS:
-            return _conflict()
+            return _conflict(request)
         messages.success(
             request, "This week's plan is saved. The original plan and proof are preserved."
         )
@@ -164,14 +166,14 @@ def weekly_replan(request, plan_id):
 @require_http_methods(["GET", "POST"])
 def weekly_transition(request, plan_id, decision):
     if decision not in {"pause", "stop"}:
-        return HttpResponse("Unknown next step.", status=404)
+        return recovery(request, "Unknown next step.", status=404)
     plan = _plan(request, plan_id)
     try:
         context = verified_plan(request.user, plan)
     except ERRORS:
-        return _conflict()
+        return _conflict(request)
     if not transition_available(request.user, plan, context["review"], decision):
-        return _conflict()
+        return _conflict(request)
     form = WeeklyTransitionForm(
         request.POST if request.method == "POST" else None,
         initial={"expected_status": plan.sprint.status, "expected_week": current_window()[0]},
@@ -182,7 +184,7 @@ def weekly_transition(request, plan_id, decision):
                 user=request.user, plan=plan, decision=decision, **form.cleaned_data
             )
         except ERRORS:
-            return _conflict()
+            return _conflict(request)
         messages.success(
             request,
             "Practice paused."
@@ -207,7 +209,7 @@ def weekly_calendar(request, plan_id):
     try:
         content = calendar_file(request.user, plan)
     except ERRORS:
-        return _conflict()
+        return _conflict(request)
     response = HttpResponse(content, content_type="text/calendar; charset=utf-8")
     response["Content-Disposition"] = (
         f'attachment; filename="grounded-growth-{plan.intended_on.isoformat()}.ics"'

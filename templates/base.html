@@ -1,4 +1,4 @@
-{% load static %}
+{% load static presentation %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,6 +8,7 @@
     <title>{% block title %}Grounded Growth{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'growth/app.css' %}">
     {% block extra_styles %}{% endblock %}
+    <link rel="stylesheet" href="{% static 'growth/application.css' %}">
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -17,21 +18,7 @@
           <span class="brand-mark" aria-hidden="true">G</span>
           <span>Grounded Growth</span>
         </a>
-        <nav class="site-nav" aria-label="Primary navigation">
-          <a href="{% url 'growth:home' %}" {% if request.path == '/' %}aria-current="page"{% endif %}>Home</a>
-          <a href="{% url 'growth:assessment' %}" {% if '/assessment/' in request.path %}aria-current="page"{% endif %}>Assessment</a>
-          <a href="{% url 'growth:personal-os' %}" {% if '/personal-os/' in request.path %}aria-current="page"{% endif %}>Personal OS</a>
-          <a href="{% url 'growth:weekly-execution' %}" {% if '/weekly/' in request.path %}aria-current="page"{% endif %}>Weekly</a>
-          <a href="{% url 'growth:practice-list' %}" {% if '/practice' in request.path %}aria-current="page"{% endif %}>Practices</a>
-          <a href="{% url 'growth:evidence-ledger' %}" {% if '/evidence/' in request.path %}aria-current="page"{% endif %}>Evidence</a>
-          <a href="{% url 'growth:profile' %}" {% if request.path == '/profile/' %}aria-current="page"{% endif %}>Profile</a>
-          <a href="{% url 'growth:data-management' %}" {% if '/account' in request.path %}aria-current="page"{% endif %}>Account</a>
-          <a href="{% url 'history' %}" {% if '/history/' in request.path %}aria-current="page"{% endif %}>History</a>
-          <form method="post" action="{% url 'logout' %}">
-            {% csrf_token %}
-            <button class="nav-button" type="submit">Sign out</button>
-          </form>
-        </nav>
+        {% application_navigation %}
       </header>
     {% endif %}
 
@@ -44,6 +31,7 @@
     {% endif %}
 
     <main id="main-content" class="{% block main_class %}page-shell{% endblock %}" tabindex="-1">
+      {% form_error_summary %}
       {% block content %}{% endblock %}
     </main>
 
@@ -51,5 +39,6 @@
       <p>Scores are provisional evidence estimates, not measures of human worth.</p>
     </footer>
     {% block extra_scripts %}{% endblock %}
+    <script src="{% static 'growth/application.js' %}" defer></script>
   </body>
 </html>

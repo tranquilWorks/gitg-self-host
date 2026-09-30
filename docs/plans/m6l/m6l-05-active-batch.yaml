@@ -1,0 +1,102 @@
+schema_version: 1
+batch:
+  id: M6L-05-HISTORY-CONTINUITY
+  title: Readable history and deliberate reassessment continuity
+  goal: Navigate prior assessment periods and deliberately reuse selected intentions while preserving
+    original practices, proof and scores.
+sources:
+  product: gitg-self-host
+  requirements:
+  - docs/PRODUCT_DECISIONS.md#decision-046
+  - docs/plans/m6l/README.md
+  - docs/plans/m6l/actions.yaml
+  milestone: M6 Phase F / M6L-05
+  baseline_commit: 3cfa88dc9a8dbcbc25ba6ad59f171bd4f5cd285e
+dependencies:
+- M6L-03
+- M6L-04
+scope:
+  allowed_paths:
+  - contracts/active-batch.yaml
+  - docs/plans/m6l/**
+  - docs/evidence/M6L-0*-*.md
+  - docs/PROJECT_HANDOFF.md
+  - docs/history-continuity.md
+  - growth/services/history.py
+  - growth/forms_history.py
+  - growth/views_history.py
+  - growth/services/weekly_followup.py
+  - growth/views_assessment.py
+  - growth/views_practice.py
+  - grounded_growth/urls.py
+  - templates/base.html
+  - templates/growth/history*.html
+  - templates/growth/assessment.html
+  - templates/growth/profile.html
+  - templates/growth/personal_os.html
+  - templates/growth/weekly_execution.html
+  - templates/growth/practice_sprint.html
+  - tests/**
+  - MANIFEST.tsv
+  forbidden_paths:
+  - data/**
+  - reports/**
+  - docs/authoring/**
+  - growth/services/canonical_import.py
+  - growth/services/profile.py
+  - growth/services/context_priority.py
+  - .github/**
+  - Dockerfile
+  - docker-compose.yml
+  - growth/static/growth/app.css
+  - growth/urls.py
+  - growth/models.py
+  - growth/migrations/**
+  - growth/domain/**
+  - growth/services/weekly_execution.py
+  - growth/services/practice.py
+acceptance:
+- Owner can navigate paginated assessment periods, practices, plan revisions and immutable weekly reviews
+  with original period/date/version provenance and completion/mastery distinctions.
+- Reassessment entry explains new baseline, context and completion coverage boundaries and names any active
+  or paused older practice without moving it.
+- Selected provided Personal OS identity fields and season/capacity can be previewed and explicitly confirmed
+  into the latest period; preserve unselected target fields and all source data. Audit observations, practice
+  fit, connections, evidence, scores and plans are not copied.
+- Older active/paused practices retain working check-in, closeout, stop/resume and navigation paths; current
+  weekly planning continues to reject mixed periods.
+- Owner isolation, current/source/target revision conflicts, signed confirmation expiry, historical proof
+  replay and no GET mutation are verified. No schema or historical contract changes.
+validation:
+  local:
+  - Focused Django and browser journeys
+  - scripts/agent-verify.sh full
+  - MANIFEST and scope checks
+  - Desktop/mobile screenshot inspection
+  focused_tests_to_add:
+  - History owner isolation, pagination, old-period review replay and corruption refusal
+  - Preview/confirm selected reuse, unknown/declined preservation, stale source/target/assessment, tampered/expired
+    tokens and unchanged scores/evidence
+  - Reassessment notices, old active/paused practice continuation and mixed-period weekly refusal
+  - Desktop/mobile history and reuse journeys plus existing assessment, weekly and lifecycle browser coverage
+  required_ci:
+  - Pilot readiness gate
+risk:
+  class: moderate
+  hazards:
+  - Old evidence or credit could silently move into a new assessment period.
+  - Reused intentions could overwrite current edits or copy stale practice fit.
+  - Private history could leak across owners or display corrupt snapshots.
+  stop_conditions:
+  - Protected source or historical data drift
+  - Private authored text exposed outside existing surfaces
+  - Changed assessment, context-priority or scoring mathematics
+rollback:
+  strategy: Revert additive history/reuse routes, services, forms and presentation. No migration. Confirmed
+    values remain ordinary valid revisions under the existing Personal OS/context contracts; no historical
+    records are rewritten.
+evidence:
+  output:
+  - docs/evidence/M6L-05-HISTORY-CONTINUITY-20260929.md
+  claim_boundary: Software and synthetic browser validation only; no new participant or specialist evidence,
+    merge, release or live data operation.

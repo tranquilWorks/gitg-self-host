@@ -14,16 +14,16 @@
       </p>
     </div>
     <a class="button button-secondary" href="{% url 'growth:evidence-export' %}">
-      Download privacy-safe JSON
+      Download minimized evidence JSON
     </a>
   </section>
 
   <div class="mastery-notice" role="note">
     <strong>Check-ins are evidence; closeout credit is separate.</strong>
     <p>
-      Current-version check-ins do not update global completion coverage.
-      Historical event-level dispositions remain replayable, and inconclusive
-      records remain visible. Only an explicit whole-practice closeout creates
+      New check-ins do not update overall completion coverage.
+      Earlier scoring records stay available for review, including inconclusive
+      observations. Only an explicit whole-practice closeout creates
       new completion credit; that credit is not mastery.
     </p>
   </div>
@@ -62,11 +62,11 @@
       <p>
         The JSON download excludes your identity, record IDs, exact dates,
         person or context labels, notes, contradiction detail, assessment
-        answers, and share codes. It contains stable protocol/action IDs and
-        replayable structured values only.
+        answers, and share codes. It contains practice and action identifiers and
+        structured observations that can be checked again.
       </p>
     </div>
-    <p class="fine-print">The same unchanged records produce the same export bytes.</p>
+    <p class="fine-print">Unchanged records produce the same download.</p>
   </section>
 
   <section class="section-block" aria-labelledby="ledger-events-heading">

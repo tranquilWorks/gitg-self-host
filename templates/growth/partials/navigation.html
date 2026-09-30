@@ -1,0 +1,10 @@
+<nav class="site-nav" aria-label="Primary navigation">
+  {% for link in primary %}<a href="{{ link.url }}" {% if link.current %}aria-current="page"{% endif %}>{{ link.label }}</a>{% endfor %}
+  <details class="nav-more">
+    <summary>More{% if more_current %} · {{ more_current }}{% endif %}</summary>
+    <div class="nav-secondary">
+      {% for link in secondary %}<a href="{{ link.url }}" {% if link.current %}aria-current="page"{% endif %}>{{ link.label }}</a>{% endfor %}
+      <form method="post" action="{% url 'logout' %}">{% csrf_token %}<button class="nav-button" type="submit">Sign out</button></form>
+    </div>
+  </details>
+</nav>

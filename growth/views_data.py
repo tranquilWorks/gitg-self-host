@@ -17,6 +17,7 @@ from growth.forms import (
     RetentionConfirmationForm,
 )
 from growth.models import AssessmentCalibrationConsent
+from growth.presentation import recovery
 from growth.services.assessment_calibration import (
     AssessmentCalibrationError,
     build_assessment_calibration_export,
@@ -110,10 +111,10 @@ def owner_archive(request):
     try:
         content = render_owner_archive(request.user)
     except (DataLifecycleError, ValueError):
-        return HttpResponse(
-            "Owner archive stopped because stored records failed deterministic verification.",
+        return recovery(
+            request,
+            "Owner archive stopped because saved records could not be verified.",
             status=409,
-            content_type="text/plain; charset=utf-8",
         )
     response = HttpResponse(content, content_type="application/json; charset=utf-8")
     response["Content-Disposition"] = f'attachment; filename="{OWNER_ARCHIVE_SCHEMA_VERSION}.json"'
@@ -128,10 +129,10 @@ def assessment_calibration_preview(request):
     try:
         content = render_assessment_calibration_export(users=[request.user])
     except AssessmentCalibrationError:
-        return HttpResponse(
+        return recovery(
+            request,
             "Calibration preview stopped because consent or assessment data failed verification.",
             status=409,
-            content_type="text/plain; charset=utf-8",
         )
     response = HttpResponse(content, content_type="application/json; charset=utf-8")
     response["Content-Disposition"] = (

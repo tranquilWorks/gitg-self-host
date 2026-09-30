@@ -3,7 +3,6 @@ from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ValidationError
 from django.core.paginator import Paginator
 from django.db import IntegrityError, OperationalError
-from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
 from django.views.decorators.cache import never_cache
@@ -12,6 +11,7 @@ from django.views.decorators.http import require_http_methods
 from growth.domain.personal_os import IDENTITY_SECTION_DEFINITIONS
 from growth.forms_direction import DirectionReviewForm, PracticeDirectionForm
 from growth.models import AssessmentRun, PracticeProtocol
+from growth.presentation import recovery
 from growth.services.personal_os_browser import personal_os_initial
 from growth.services.practice_direction import (
     DIRECTION_SECTIONS,
@@ -22,8 +22,9 @@ from growth.services.practice_direction import (
 )
 
 
-def _conflict():
-    return HttpResponse(
+def _conflict(request):
+    return recovery(
+        request,
         "Your saved direction or assessment changed, or could not be verified. "
         "Reload this page before saving. No private value is displayed.",
         status=409,
@@ -52,14 +53,14 @@ def direction_review(request):
     try:
         rows = verified_personal_os(request.user, run)
     except (ValidationError, ValueError, TypeError):
-        return _conflict()
+        return _conflict(request)
     latest = rows[-1] if rows else None
     initial = personal_os_initial(latest, assessment_epoch=str(run.pk))
     initial["expected_revision"] = latest.revision if latest else 0
     form = DirectionReviewForm(request.POST if request.method == "POST" else None, initial=initial)
     if request.method == "POST" and form.is_valid():
         if form.cleaned_data["assessment_epoch"] != str(run.pk):
-            return _conflict()
+            return _conflict(request)
         try:
             result = record_direction_review(
                 user=request.user,
@@ -68,7 +69,7 @@ def direction_review(request):
                 changes=form.contract_values(DIRECTION_SECTIONS),
             )
         except (ValidationError, ValueError, TypeError, OperationalError, IntegrityError):
-            return _conflict()
+            return _conflict(request)
         messages.success(
             request, "Direction review saved." if result.created else "Your direction is unchanged."
         )
@@ -109,7 +110,7 @@ def practice_direction(request, slug):
         personal_rows = verified_personal_os(request.user, run)
         rows = direction_history(request.user, run, protocol)
     except (ValidationError, ValueError, TypeError, IndexError):
-        return _conflict()
+        return _conflict(request)
     latest = rows[-1] if rows else None
     personal_os = personal_rows[-1] if personal_rows else None
     old_priority = bool(
@@ -141,11 +142,11 @@ def practice_direction(request, slug):
     if request.method == "POST" and form.is_valid():
         values = form.cleaned_data.copy()
         if values.pop("assessment_epoch") != str(run.pk):
-            return _conflict()
+            return _conflict(request)
         try:
             record_connection(user=request.user, run=run, protocol=protocol, **values)
         except (ValidationError, ValueError, TypeError, OperationalError, IntegrityError):
-            return _conflict()
+            return _conflict(request)
         messages.success(request, "Practice connection saved. Earlier choices are preserved.")
         return redirect(back_url)
     history = Paginator(list(reversed(rows[:-1])), 5).get_page(request.GET.get("page"))

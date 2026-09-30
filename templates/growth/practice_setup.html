@@ -54,7 +54,7 @@
         <p class="eyebrow">Timing</p>
         <h1>Choose a start date.</h1>
         <p class="lede">
-          The protocol runs for {{ protocol.duration_days }} days. Choose a date
+          The practice runs for {{ protocol.duration_days }} days.
           {{ protocol.setup_copy.timing_hint|default:"Choose a date when the practice is realistic." }}
         </p>
         {% include "growth/partials/setup_form.html" with submit_label="Continue" %}
@@ -62,7 +62,7 @@
         <p class="eyebrow">Review the intervention</p>
         <h1>{{ protocol.actions.count }} actions, already defined.</h1>
         <p class="lede">
-          The protocol is specific on purpose. Adapt timing to consent and
+          The actions are specific on purpose. Adapt timing to consent and
           circumstance, but do not turn it into an open-ended worksheet.
         </p>
         <ol class="protocol-actions">
@@ -93,7 +93,7 @@
             <dd>{{ setup.start_date }}</dd>
           </div>
           <div>
-            <dt>Protocol</dt>
+            <dt>Practice</dt>
             <dd>{{ protocol.name }} · {{ protocol.duration_days }} days</dd>
           </div>
         </dl>

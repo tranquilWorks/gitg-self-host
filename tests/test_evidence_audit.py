@@ -369,7 +369,11 @@ def test_export_stops_without_leaking_when_event_coverage_is_incomplete(client, 
     ledger = client.get(reverse("growth:evidence-ledger"))
 
     assert response.status_code == 409
-    assert response.content == b"Evidence export stopped because replay verification failed."
+    assert b"Evidence export stopped because replay verification failed." in response.content
+    assert response["Content-Type"].startswith("text/html")
+    assert b'href="/evidence/"' in response.content
+    assert "no-store" in response["Cache-Control"]
+    assert "Content-Disposition" not in response
     assert str(missing.pk).encode() not in response.content
     assert ledger.status_code == 409
     assert b"No partial history has been shown or exported." in ledger.content

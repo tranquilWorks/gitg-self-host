@@ -162,3 +162,5 @@ LOGGING = {
         "level": os.getenv("APP_LOG_LEVEL", "INFO"),
     },
 }
+
+CSRF_FAILURE_VIEW = "growth.views_errors.csrf_failure"

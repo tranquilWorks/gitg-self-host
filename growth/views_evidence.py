@@ -5,6 +5,7 @@ from django.http import Http404, HttpResponse
 from django.shortcuts import render
 from django.views.decorators.cache import never_cache
 
+from growth.presentation import recovery
 from growth.services.evidence import (
     EVIDENCE_DIRECTION_LABELS,
     EvidenceWorkflowError,
@@ -48,10 +49,10 @@ def evidence_export(request):
     try:
         payload = build_privacy_safe_evidence_export(request.user)
     except EvidenceWorkflowError:
-        return HttpResponse(
+        return recovery(
+            request,
             "Evidence export stopped because replay verification failed.",
             status=409,
-            content_type="text/plain; charset=utf-8",
         )
 
     response = HttpResponse(

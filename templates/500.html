@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block title %}Temporarily unavailable · Grounded Growth{% endblock %}
+{% block content %}
+<section class="narrow-page"><h1>Temporarily unavailable.</h1><p>The application could not complete this request. Return home and check the current record before submitting again. If the problem continues, contact the instance owner.</p><a class="button" href="{% url 'growth:home' %}">Return home</a></section>
+{% endblock %}

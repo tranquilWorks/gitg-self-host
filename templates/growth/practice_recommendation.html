@@ -6,7 +6,7 @@
   <p class="back-link"><a href="{% url 'growth:practice-list' %}">← Practice recommendations</a></p>
   <section class="page-heading">
     <div>
-      <p class="eyebrow">{% if is_recommended %}Recommended next{% else %}Practice protocol{% endif %}</p>
+      <p class="eyebrow">{% if is_recommended %}Recommended next{% else %}Practice{% endif %}</p>
       <h1>{{ protocol.name }}</h1>
       {% include "growth/partials/instructional_link.html" %}
       {% if protocol.duration_days %}
@@ -31,7 +31,7 @@
           <h2>Establish a profile first</h2>
           <p>
             Complete or import the assessment before Grounded Growth treats
-            this protocol as a personal recommendation.
+            this practice as a personal recommendation.
           </p>
         {% endif %}
         <p class="fine-print">
@@ -57,8 +57,8 @@
               Not applicable to me — show an alternative
             </button>
             <p class="fine-print">
-              This records an immutable current-assessment context revision. It awards no
-              completion credit, changes no canonical score, and can be revised later.
+              This saves your choice for the current assessment period. It awards no
+              completion credit or score update. You can reconsider it later.
             </p>
           </form>
         {% endif %}

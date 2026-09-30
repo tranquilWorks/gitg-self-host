@@ -102,7 +102,7 @@
       </div>
     </details>
 
-    <details class="stage-panel">
+    <details class="stage-panel"{% if personal_form.errors %} open{% endif %}>
       <summary>
         <span class="eyebrow">Truth / Autopilot Audit</span>
         <strong>Four descriptive reflection prompts</strong>

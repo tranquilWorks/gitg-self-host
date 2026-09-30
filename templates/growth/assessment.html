@@ -17,6 +17,7 @@
     <span class="status-pill">About 11–15 minutes</span>
   </section>
 
+  <noscript><p class="status-note">The assessment runs on this device and needs JavaScript. Enable JavaScript for this instance to take or import an assessment. You can still use your saved profile, practices and account pages.</p></noscript>
   {% if previous_assessment %}
     <aside class="status-note" aria-labelledby="retake-heading">
       <h2 id="retake-heading">What changes when you reassess</h2>
@@ -47,7 +48,7 @@
       <div class="assessment-facts" aria-label="Assessment details">
         <span>50 required questions</span>
         <span>Autosaves on this device</span>
-        <span>1–5, N, Enter, and ← shortcuts</span>
+        <span>Keyboard controls and optional answer shortcuts</span>
         <span id="assessment-load-status">Loading local assessment engine…</span>
       </div>
       <div class="button-row">
@@ -58,16 +59,17 @@
       </div>
     </section>
 
-    <section id="assessment-quiz" class="panel assessment-stage hidden" aria-live="polite">
+    <section id="assessment-quiz" class="panel assessment-stage hidden" aria-labelledby="assessment-prompt">
       <div class="assessment-progress-meta">
-        <strong id="assessment-count"></strong>
+        <strong id="assessment-count" role="status" aria-live="polite"></strong>
         <span id="assessment-autosave" class="muted">Saved locally</span>
       </div>
       <div class="assessment-progress" aria-hidden="true">
         <div id="assessment-progress-fill"></div>
       </div>
-      <p id="assessment-prompt" class="assessment-question"></p>
-      <div id="assessment-scale" class="assessment-scale"></div>
+      <h2 id="assessment-prompt" class="assessment-question" tabindex="-1"></h2>
+      <div id="assessment-scale" class="assessment-scale" role="group" aria-labelledby="assessment-prompt"></div>
+      <div class="assessment-shortcuts"><label><input id="assessment-shortcuts" type="checkbox"> Enable answer shortcuts</label><p class="fine-print">When focus is in this question, use 1–5 to choose an answer, N for not applicable, or ← to go back. Tab and Enter work without shortcuts.</p></div>
       <div class="button-row">
         <button id="assessment-back" class="button button-quiet" type="button">Back</button>
         <button id="assessment-next" class="button" type="button" disabled>Next</button>
@@ -104,7 +106,7 @@
           <p class="eyebrow">Provisional result</p>
           <h2>Your working profile</h2>
         </div>
-        <span id="assessment-save-status" class="status-pill">Saving…</span>
+        <span id="assessment-save-status" class="status-pill" role="status">Saving…</span>
       </div>
 
       <div id="assessment-quality" class="panel compact-panel"></div>
@@ -126,8 +128,8 @@
         <p class="eyebrow">Balancing work</p>
         <h2>Highest provisional developmental needs</h2>
         <p class="panel-intro">
-          The complete 37-lever result is stored without turning this page into
-          a database report.
+          Start with these three areas. Your saved profile keeps the full result
+          available for review.
         </p>
         <div id="assessment-needs" class="result-card-list"></div>
       </section>
@@ -161,7 +163,7 @@
       <h2>Import a share code</h2>
       <p>
         Import a GGA11 code or a supported legacy GGA1 code. It will be decoded
-        and scored locally with the same v1.1 reference engine before saving.
+        and checked on this device before saving to your account.
       </p>
       <label for="assessment-import-code">Share code</label>
       <textarea id="assessment-import-code" placeholder="GGA11.…"></textarea>

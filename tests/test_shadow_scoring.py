@@ -360,8 +360,8 @@ def test_profile_shadow_projection_is_read_only_and_excludes_drafts(client, user
     assert shadow.uses_reconstructed_baseline is True
     assert response.status_code == 200
     assert "What completed practices have changed" in content
-    assert "Closeout contract · versioned" in content
-    assert "Check-ins remain immutable proof but do not change this state" in content
+    assert "Final-review credit" in content
+    assert "Check-ins preserve what happened" in content
     assert "Completion remains separate from mastery" in content
     assert "0.6500" not in content
     assert "1.500000" not in content

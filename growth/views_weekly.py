@@ -3,7 +3,6 @@ from __future__ import annotations
 from django.contrib import messages
 from django.core.exceptions import ValidationError
 from django.db import IntegrityError, OperationalError
-from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.utils import timezone
 from django.views.decorators.http import require_http_methods
@@ -11,6 +10,7 @@ from django.views.decorators.http import require_http_methods
 from growth.forms import WeeklyExecutionReviewForm
 from growth.forms_weekly_followup import RecurringWeeklyPlanForm
 from growth.models import PersonalOSRevision, PracticeCheckIn
+from growth.presentation import recovery
 from growth.services.personal_os_browser import build_browser_priority_presentation
 from growth.services.practice import current_sprint_for
 from growth.services.practice_direction import connection_presentation
@@ -161,7 +161,8 @@ def weekly_execution(request):
         if current_plan is not None and current_plan.user_id != request.user.pk:
             raise ValidationError("Weekly plan ownership failed.")
     except (ValidationError, ValueError, TypeError, WeeklyExecutionServiceError):
-        return HttpResponse(
+        return recovery(
+            request,
             "Saved weekly or Personal OS state could not be verified. "
             "No private value is displayed.",
             status=409,
@@ -213,12 +214,13 @@ def weekly_execution(request):
     )
 
     if request.method == "POST" and form_type not in {"weekly_plan", "weekly_review"}:
-        return HttpResponse("Unsupported weekly action. Nothing was saved.", status=400)
+        return recovery(request, "Unsupported weekly action. Nothing was saved.", status=400)
 
     if form_type == "weekly_plan" and plan_form is not None and plan_form.is_valid():
         if plan_form.cleaned_data["assessment_epoch"] != run.pk:
-            return HttpResponse(
-                "The assessment epoch changed. Reload before saving the weekly plan.",
+            return recovery(
+                request,
+                "The assessment period changed. Reload before saving the weekly plan.",
                 status=409,
             )
         try:
@@ -232,8 +234,8 @@ def weekly_execution(request):
                 expected_revision=plan_form.cleaned_data["expected_revision"],
             )
         except (WeeklyExecutionWriteConflictError, OperationalError, IntegrityError):
-            return HttpResponse(
-                "The weekly plan changed while saving. Reload and retry.", status=409
+            return recovery(
+                request, "The weekly plan changed while saving. Reload and retry.", status=409
             )
         except (WeeklyExecutionServiceError, ValidationError, ValueError, TypeError):
             plan_form.add_error(None, "The weekly plan could not be validated.")
@@ -248,8 +250,8 @@ def weekly_execution(request):
 
     if form_type == "weekly_review" and review_form is not None and review_form.is_valid():
         if review_form.cleaned_data["plan_id"] != review_target.pk:
-            return HttpResponse(
-                "The weekly review target changed. Reload before submitting.", status=409
+            return recovery(
+                request, "The weekly review target changed. Reload before submitting.", status=409
             )
         try:
             result = save_plan_review(
@@ -259,7 +261,8 @@ def weekly_execution(request):
                 adjustment=review_form.cleaned_data["adjustment"],
             )
         except (WeeklyExecutionWriteConflictError, OperationalError, IntegrityError):
-            return HttpResponse(
+            return recovery(
+                request,
                 "The weekly review changed while saving. Reload the completed review.",
                 status=409,
             )
@@ -290,7 +293,8 @@ def weekly_execution(request):
             status=400 if request.method == "POST" else 200,
         )
     except (ValidationError, ValueError, TypeError, WeeklyExecutionServiceError):
-        return HttpResponse(
+        return recovery(
+            request,
             "Saved weekly proof could not be verified. No private value is displayed.",
             status=409,
         )

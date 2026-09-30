@@ -183,12 +183,15 @@ def test_feedback_questions_are_scoped_to_the_selected_journey_stage(client, use
     response = client.post(reverse("growth:pilot-feedback"), invalid)
 
     assert response.status_code == 200
-    assert (
-        response.content.decode().count(
-            "This question does not apply to the selected part of the experience."
-        )
-        == 4
+    message = (
+        "This question does not apply to the selected part of the experience. "
+        "Choose a practice-related part or leave it unanswered."
     )
+    fields = ("protocol", "applicability", "time_to_start", "time_to_check_in")
+    assert response.context["form"].errors == {field: [message] for field in fields}
+    for field in fields:
+        assert f'href="#id_{field}"' in response.content.decode()
+        assert f'id="id_{field}_error"' in response.content.decode()
     assert not PilotFeedback.objects.exists()
 
     with pytest.raises(PilotFeedbackError, match="does not apply"):
@@ -418,9 +421,14 @@ def test_pilot_export_fails_closed_without_partial_data(client, user, seeded):
     response = client.get(reverse("growth:pilot-feedback-export"))
 
     assert response.status_code == 409
-    assert response.content == (
+    assert (
         b"Pilot feedback export stopped because stored feedback failed validation."
+        in response.content
     )
+    assert response["Content-Type"].startswith("text/html")
+    assert b'href="/account/data/"' in response.content
+    assert "no-store" in response["Cache-Control"]
+    assert "Content-Disposition" not in response
     assert str(record.pk).encode() not in response.content
 
 

@@ -105,7 +105,7 @@ def test_personal_os_page_has_exact_prompts_privacy_notice_and_no_context_defaul
         "urgent-support monitoring",
     ):
         assert text in body
-    assert '<option value="" selected>Choose a state</option>' in body
+    assert '<option value="" selected>Choose a response</option>' in body
     assert '<option value="" selected>Choose 0 to 4</option>' in body
     assert "completion percentage" not in body.lower()
 

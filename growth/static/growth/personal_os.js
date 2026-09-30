@@ -40,6 +40,4 @@
     updateMode();
   }
 
-  const firstInvalid = document.querySelector('[aria-invalid="true"]');
-  firstInvalid?.focus();
 })();

@@ -92,6 +92,8 @@ def wait_for_assessment_save(page):
 
 
 def open_assessment(live_server, page):
+    if not page.get_by_role("link", name="Assessment", exact=True).is_visible():
+        page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Assessment", exact=True).click()
     page.wait_for_url(f"{live_server.url}/assessment/")
     page.wait_for_load_state("load")
@@ -219,7 +221,8 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     page.get_by_text("included in normal database backups").wait_for()
     assert_no_horizontal_overflow(page)
     page.get_by_label(
-        "Response state for: What purpose or contribution do you choose to orient toward for now?"
+        "How would you like to answer: "
+        "What purpose or contribution do you choose to orient toward for now?"
     ).select_option("provided")
     page.get_by_label(
         "What purpose or contribution do you choose to orient toward for now?",
@@ -229,9 +232,9 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     page.get_by_text("Personal OS revision saved.").wait_for()
     assert PersonalOSRevision.objects.count() == 1
 
-    page.get_by_label("Current season response state").select_option("provided")
+    page.get_by_label("How would you like to describe this season?").select_option("provided")
     page.get_by_label("Current season:", exact=True).select_option("transition")
-    page.get_by_label("Capacity response state").select_option("provided")
+    page.get_by_label("How would you like to describe your capacity?").select_option("provided")
     page.get_by_label("Room for one additional bounded practice").select_option("4")
     page.get_by_role("button", name="Save season and capacity").click()
     page.get_by_text("Season and capacity revision saved.").wait_for()
@@ -246,7 +249,7 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     page.goto(f"{live_server.url}/profile/")
     page.get_by_text("Personal-applicable coverage view").wait_for()
     page.get_by_text("382", exact=True).wait_for()
-    page.get_by_text("canonical all-competency coverage, unchanged").wait_for()
+    page.get_by_text("all-competency coverage, unchanged").wait_for()
     assert_no_horizontal_overflow(page)
     page.goto(f"{live_server.url}/personal-os/practices/{first}/context/")
     page.get_by_role("button", name="Request alternative").click()
@@ -284,6 +287,8 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     ):
         page.get_by_label(label).select_option("")
     page.get_by_role("button", name="Save practice context").click()
+    expect(page.locator("#form-errors")).to_be_focused()
+    page.locator('#form-errors a[href="#id_applicability"]').click()
     expect(page.get_by_label("Fit with your present role and situation")).to_be_focused()
 
     page.goto(f"{live_server.url}/")
@@ -362,6 +367,8 @@ def test_owner_data_management_is_private_accessible_and_requires_exact_confirma
     seed_browser_data()
     log_in(live_server, page)
 
+    if not page.get_by_role("link", name="Account", exact=True).is_visible():
+        page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Account", exact=True).click()
     page.get_by_role("heading", name="Keep control of your private record.").wait_for()
     page.get_by_role("heading", name="Optional assessment calibration contribution").wait_for()
@@ -384,10 +391,13 @@ def test_owner_data_management_is_private_accessible_and_requires_exact_confirma
     page.get_by_label("Current password").fill("Browser-Test-Password-2047!")
     page.get_by_label(re.compile(r'Type "DELETE MY ACCOUNT"')).fill("DO NOT DELETE")
     page.get_by_role("button", name="Permanently delete account").click()
-    page.get_by_text("The account-deletion confirmation text does not match.").wait_for()
+    page.get_by_text(
+        "The account-deletion confirmation text does not match.", exact=True
+    ).wait_for()
+    expect(page.locator("#form-errors")).to_be_focused()
     assert get_user_model().objects.filter(pk=user.pk).exists()
 
-    page.keyboard.press("Control+Home")
+    page.goto(f"{live_server.url}/account/data/")
     page.keyboard.press("Tab")
     expect(page.get_by_role("link", name="Skip to main content")).to_be_focused()
     page.keyboard.press("Enter")
@@ -414,9 +424,11 @@ def test_optional_pilot_feedback_is_local_minimized_and_score_separate(
     seed_browser_data()
     log_in(live_server, page)
 
+    if not page.get_by_role("link", name="Account", exact=True).is_visible():
+        page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Account", exact=True).click()
     page.get_by_role("link", name="Open feedback form").click()
-    page.get_by_role("heading", name="Tell the pilot what got in the way.").wait_for()
+    page.get_by_role("heading", name="Tell us what got in the way.").wait_for()
     page.get_by_text("This is usability feedback, not developmental evidence.").wait_for()
     page.get_by_text("No automatic timing or remote telemetry").wait_for()
     assert_no_horizontal_overflow(page)
@@ -497,7 +509,9 @@ def test_play_protocol_setup_is_specific_and_score_active(live_server, page: Pag
     assert page.get_by_label("Expected reciprocity").count() == 0
     page.set_viewport_size({"width": 390, "height": 844})
     page.get_by_role("button", name="Submit check-in").click()
-    page.get_by_text("Submit evidence only after a real attempt.").wait_for()
+    expect(page.locator("#id_action_attempted_error")).to_contain_text(
+        "Submit evidence only after a real attempt."
+    )
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "mobile-action-specific-check-in")
 
@@ -802,7 +816,7 @@ def test_complete_assessment_and_save_canonical_outputs(live_server, page: Page)
     open_assessment(live_server, page)
     page.get_by_role("button", name="Begin assessment").click()
     for index in range(50):
-        expect(page.locator("#assessment-count")).to_have_text(f"{index + 1} of 50")
+        expect(page.locator("#assessment-count")).to_have_text(f"Question {index + 1} of 50")
         answer = ("1" if index % 2 == 0 else "5") if index < 12 else "4"
         page.get_by_role("button", name=re.compile(rf"^{answer} —")).click()
         page.get_by_role(
@@ -834,6 +848,8 @@ def test_complete_assessment_and_save_canonical_outputs(live_server, page: Page)
         baseline_alpha__isnull=True,
     ).exists()
 
+    if not page.get_by_role("link", name="Account", exact=True).is_visible():
+        page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Account", exact=True).click()
     page.get_by_role("heading", name="Optional assessment calibration contribution").wait_for()
     page.get_by_label(re.compile(r"I understand the calibration contribution")).check()
@@ -948,13 +964,15 @@ def test_guided_practice_draft_pause_and_completion_flow(live_server, page: Page
     page.get_by_text("This observation is proof, not a global score update.").wait_for()
     page.get_by_text("Technical audit details").click()
     page.get_by_text("GG-EVIDENCE-1.0").wait_for()
+    if not page.get_by_role("link", name="Evidence", exact=True).is_visible():
+        page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Evidence", exact=True).click()
     page.wait_for_url(f"{live_server.url}/evidence/")
     page.get_by_role("heading", name="What your check-ins recorded.").wait_for()
     page.get_by_text("Structured observations, with private context removed").wait_for()
     page.get_by_role("listitem").get_by_text("Supported expected pattern", exact=True).wait_for()
     with page.expect_download() as download_info:
-        page.get_by_role("link", name="Download privacy-safe JSON").click()
+        page.get_by_role("link", name="Download minimized evidence JSON").click()
     exported = json.loads(Path(download_info.value.path()).read_text())
     assert exported["event_count"] == 1
     assert exported["profile_scores_modified"] is False
@@ -963,9 +981,9 @@ def test_guided_practice_draft_pause_and_completion_flow(live_server, page: Page
     page.get_by_role("heading", name="Listen to what matters now").wait_for()
     page.get_by_role("link", name="Profile", exact=True).click()
     page.get_by_role("heading", name="What completed practices have changed").wait_for()
-    page.get_by_text("Closeout contract · versioned").wait_for()
+    page.get_by_text("Final-review credit").wait_for()
     page.get_by_text(
-        re.compile(r"Check-ins remain immutable proof but do not change this state"),
+        re.compile(r"Check-ins preserve what happened"),
     ).wait_for()
     page.go_back()
     page.get_by_role("heading", name="Listen to what matters now").wait_for()

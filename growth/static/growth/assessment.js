@@ -96,11 +96,15 @@
     autosave.textContent = "Saved locally";
   }
 
-  function show(stageName) {
+  function show(stageName, moveFocus = true) {
     Object.entries(stages).forEach(([name, element]) => {
       element.classList.toggle("hidden", name !== stageName);
     });
     importPanel.classList.toggle("hidden", stageName !== "intro");
+    if (moveFocus && stageName !== "quiz") {
+      const heading = stages[stageName].querySelector("h2");
+      if (heading) { heading.tabIndex = -1; heading.focus(); }
+    }
   }
 
   function responseScale(item) {
@@ -113,7 +117,9 @@
     state.responses[itemId] = value;
     saveLocal();
     scale.querySelectorAll(".assessment-answer").forEach((button) => {
-      button.classList.toggle("selected", button.dataset.value === String(value));
+      const selected = button.dataset.value === String(value);
+      button.classList.toggle("selected", selected);
+      button.setAttribute("aria-pressed", String(selected));
     });
     nextButton.disabled = false;
   }
@@ -124,6 +130,7 @@
     button.className = "assessment-answer";
     if (state.responses[item.id] === value) button.classList.add("selected");
     button.dataset.value = String(value);
+    button.setAttribute("aria-pressed", String(state.responses[item.id] === value));
 
     const strong = document.createElement("strong");
     strong.textContent = value === "NA" ? "N/A" : String(value);
@@ -140,9 +147,10 @@
       return;
     }
 
-    count.textContent = `${state.index + 1} of ${order.length}`;
+    count.textContent = `Question ${state.index + 1} of ${order.length}`;
     progressFill.style.width = `${(100 * (state.index + 1)) / order.length}%`;
     prompt.textContent = item.prompt;
+    prompt.focus();
     scale.replaceChildren();
     const labels = responseScale(item);
     for (let value = 1; value <= 5; value += 1) {
@@ -453,7 +461,10 @@
   });
 
   document.addEventListener("keydown", (event) => {
-    if (stages.quiz.classList.contains("hidden")) return;
+    if (stages.quiz.classList.contains("hidden") || !byId("assessment-shortcuts").checked) return;
+    if (!stages.quiz.contains(document.activeElement)) return;
+    if (event.altKey || event.ctrlKey || event.metaKey || event.isComposing) return;
+    if (event.target.closest("input, textarea, select, [contenteditable='true']")) return;
     const itemId = order[state.index];
     const item = itemMap[itemId];
     if (["1", "2", "3", "4", "5"].includes(event.key)) {
@@ -464,9 +475,6 @@
       item.allow_not_applicable
     ) {
       selectAnswer(itemId, "NA");
-      event.preventDefault();
-    } else if (event.key === "Enter" && !nextButton.disabled) {
-      nextButton.click();
       event.preventDefault();
     } else if (event.key === "ArrowLeft" && !backButton.disabled) {
       backButton.click();
@@ -493,5 +501,5 @@
   resetButton.disabled = false;
   importButton.disabled = false;
   byId("assessment-load-status").textContent = "Scored locally on this device";
-  show("intro");
+  show("intro", false);
 })();

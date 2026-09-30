@@ -3,7 +3,6 @@ from __future__ import annotations
 from django.contrib import messages
 from django.core.exceptions import ValidationError
 from django.db import IntegrityError, OperationalError
-from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.views.decorators.http import require_http_methods
 
@@ -15,6 +14,7 @@ from growth.domain.personal_os import (
 )
 from growth.forms import AssessmentPriorityContextForm, PersonalOSForm
 from growth.models import AssessmentContext, PersonalOSRevision
+from growth.presentation import recovery
 from growth.services.context import ContextServiceError, record_context_bundle
 from growth.services.personal_os import (
     PersonalOSServiceError,
@@ -85,7 +85,8 @@ def personal_os(request):
         if [record.revision for record in context_rows] != list(range(1, len(context_rows) + 1)):
             raise ValidationError("Assessment context revision sequence is invalid.")
     except (ValidationError, ValueError, TypeError):
-        return HttpResponse(
+        return recovery(
+            request,
             "Saved Personal OS or context state could not be verified. No value is displayed.",
             status=409,
         )
@@ -102,14 +103,15 @@ def personal_os(request):
     )
 
     if request.method == "POST" and form_type not in {"personal_os", "assessment_context"}:
-        return HttpResponse(
-            "Unsupported Personal OS action. No value was saved or displayed.", status=400
+        return recovery(
+            request, "Unsupported Personal OS action. No value was saved or displayed.", status=400
         )
 
     if form_type == "personal_os" and personal_form.is_valid():
         if personal_form.cleaned_data["assessment_epoch"] != run.pk:
-            return HttpResponse(
-                "The assessment epoch changed. Reload before saving; no value is displayed.",
+            return recovery(
+                request,
+                "The assessment period changed. Reload before saving; no value is displayed.",
                 status=409,
             )
         try:
@@ -120,8 +122,9 @@ def personal_os(request):
                 audit_responses=personal_form.contract_values(AUDIT_PROMPT_IDS),
             )
         except (PersonalOSWriteConflictError, OperationalError, IntegrityError):
-            return HttpResponse(
-                "The local store changed while saving. Reload and retry; no value is displayed.",
+            return recovery(
+                request,
+                "The saved record changed while saving. Reload and retry; no value is displayed.",
                 status=409,
             )
         except (PersonalOSServiceError, ValidationError, ValueError, TypeError):
@@ -143,8 +146,9 @@ def personal_os(request):
 
     if form_type == "assessment_context" and context_form.is_valid():
         if context_form.cleaned_data["assessment_epoch"] != run.pk:
-            return HttpResponse(
-                "The assessment epoch changed. Reload before saving; no value is displayed.",
+            return recovery(
+                request,
+                "The assessment period changed. Reload before saving; no value is displayed.",
                 status=409,
             )
         try:
@@ -154,8 +158,9 @@ def personal_os(request):
                 assessment_factors=context_form.contract_factors(),
             )
         except (OperationalError, IntegrityError):
-            return HttpResponse(
-                "The local store is busy. Reload and retry; no value is displayed.",
+            return recovery(
+                request,
+                "The application is busy. Reload and retry; no value is displayed.",
                 status=409,
             )
         except (ContextServiceError, ValidationError, ValueError, TypeError):

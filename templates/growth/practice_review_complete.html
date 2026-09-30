@@ -20,13 +20,13 @@
     <strong>Completing this practice does not establish mastery.</strong>
     {% if credit_event %}
       <p>
-        Human closeout recorded {{ credit_event.completion_credit|percentage }}
+        Your final review recorded {{ credit_event.completion_credit|percentage }}
         completion credit for this bounded competency practice. It did not alter
         the assessment baseline, personality orientations, archetypes, identity,
         worth, or any claim of mastery.
       </p>
     {% else %}
-      <p>This historical review retains its original scoring contract.</p>
+      <p>This earlier review keeps its original scoring rules.</p>
     {% endif %}
   </div>
 
@@ -48,7 +48,7 @@
         <div><dt>Actions completed</dt><dd>{{ review.actions_completed }} of {{ sprint.protocol.actions.count }}</dd></div>
         <div>
           <dt>Completion credit</dt>
-          <dd>{% if credit_event %}{{ credit_event.completion_credit|percentage }}{% else %}Historical contract{% endif %}</dd>
+          <dd>{% if credit_event %}{{ credit_event.completion_credit|percentage }}{% else %}Earlier scoring rules{% endif %}</dd>
         </div>
       </dl>
     </section>

@@ -4,13 +4,13 @@ from django.core import signing
 from django.core.exceptions import ValidationError
 from django.core.paginator import Paginator
 from django.db import IntegrityError, OperationalError
-from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views.decorators.cache import never_cache
 from django.views.decorators.http import require_GET, require_http_methods
 
 from growth.forms_history import ConfirmReuseForm, ReuseIntentionsForm
 from growth.models import AssessmentRun, PracticeSprint, WeeklyExecutionPlan
+from growth.presentation import recovery
 from growth.services.history import (
     REUSE_MAX_AGE,
     REUSE_SALT,
@@ -34,8 +34,9 @@ ERRORS = (
 )
 
 
-def _conflict():
-    return HttpResponse(
+def _conflict(request):
+    return recovery(
+        request,
         "This history or confirmation changed or could not be verified. "
         "Return to History and preview again. No private value is displayed.",
         status=409,
@@ -66,7 +67,7 @@ def history_period(request, run_id):
     try:
         intentions = period_intentions(request.user, run)
     except ERRORS:
-        return _conflict()
+        return _conflict(request)
     practices = (
         PracticeSprint.objects.filter(user=request.user, assessment_run=run)
         .select_related("protocol")
@@ -82,7 +83,7 @@ def history_period(request, run_id):
         for plan in plan_page:
             historical_plan(request.user, plan)
     except ERRORS:
-        return _conflict()
+        return _conflict(request)
     return render(
         request,
         "growth/history_period.html",
@@ -111,7 +112,7 @@ def history_plan(request, plan_id):
     try:
         context = historical_plan(request.user, plan)
     except ERRORS:
-        return _conflict()
+        return _conflict(request)
     return render(request, "growth/history_plan.html", context)
 
 
@@ -130,7 +131,7 @@ def history_reuse(request, run_id=None):
     if request.method == "POST" and request.POST.get("intent") == "confirm":
         confirmation = ConfirmReuseForm(request.POST)
         if not confirmation.is_valid():
-            return _conflict()
+            return _conflict(request)
         try:
             # The source in the signed preview must also match this owner-scoped URL.
             payload = signing.loads(
@@ -139,10 +140,10 @@ def history_reuse(request, run_id=None):
                 max_age=REUSE_MAX_AGE,
             )
             if payload["source"] != source.pk:
-                return _conflict()
+                return _conflict(request)
             confirm_reuse(request.user, confirmation.cleaned_data["token"])
         except ERRORS:
-            return _conflict()
+            return _conflict(request)
         messages.success(
             request,
             "Selected intentions saved for your current assessment period. "
@@ -152,18 +153,18 @@ def history_reuse(request, run_id=None):
     try:
         state = reuse_state(request.user, source)
     except ERRORS:
-        return _conflict()
+        return _conflict(request)
     form = ReuseIntentionsForm(
         request.POST if request.method == "POST" else None, options=state["options"]
     )
     if request.method == "POST":
         if request.POST.get("intent") != "preview":
-            return _conflict()
+            return _conflict(request)
         if form.is_valid():
             try:
                 state, token = preview_reuse(request.user, source, form.cleaned_data["selected"])
             except ERRORS:
-                return _conflict()
+                return _conflict(request)
             return render(
                 request,
                 "growth/history_reuse.html",

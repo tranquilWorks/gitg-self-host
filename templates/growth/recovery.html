@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Unable to continue · Grounded Growth{% endblock %}
+{% block content %}
+<section class="narrow-page">
+  <p class="eyebrow">Request {{ recovery_status }}</p>
+  <h1>{% if recovery_status == 404 %}This page is unavailable.{% else %}Let's get you back on track.{% endif %}</h1>
+  <p class="lede">{{ recovery_message }}</p>
+  <p>Open a fresh page and review the current record before trying again. If this keeps happening, ask the instance owner to check the saved data. Private values are not shown here.</p>
+  <div class="button-row"><a class="button" href="{{ recovery_url }}">{{ recovery_label }}</a>{% if recovery_url != '/' %}<a class="button button-secondary" href="{% url 'growth:home' %}">Return home</a>{% endif %}</div>
+</section>
+{% endblock %}

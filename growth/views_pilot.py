@@ -6,6 +6,7 @@ from django.shortcuts import redirect, render
 from django.views.decorators.cache import never_cache
 
 from growth.forms import PilotFeedbackForm
+from growth.presentation import recovery
 from growth.services.pilot_feedback import (
     PilotFeedbackError,
     build_pilot_feedback_summary,
@@ -44,10 +45,10 @@ def pilot_feedback_export(request):
     try:
         payload = build_privacy_safe_pilot_export(request.user)
     except PilotFeedbackError:
-        return HttpResponse(
+        return recovery(
+            request,
             "Pilot feedback export stopped because stored feedback failed validation.",
             status=409,
-            content_type="text/plain; charset=utf-8",
         )
 
     response = HttpResponse(
