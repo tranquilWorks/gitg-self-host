@@ -2,24 +2,30 @@
 
 ## M6L guided product follow-up — 29 September 2026
 
-The owner requested every non-competency design gap be captured as actionable
-batches and the first begun. [M6L program](plans/m6l/README.md) and its
-[31-action register](plans/m6l/actions.yaml) cover eight batches: guided entry,
-context/alternatives, direction-to-practice links, recurring weekly execution,
-history/reassessment, consistency/accessibility, operator convenience and
-empirical validation. M6L-01 is implemented with final verification in progress; later batches remain planned.
+The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
+cover eight non-competency batches. The owner requested the next after Batch 1;
+M6L-02 is implemented and locally verified on `codex/m6l-02-context-alternatives`, stacked
+on `1274ff1`. Batches 03–08 remain planned.
 
-Branch `codex/m6l-01-guided-entry` starts from published merge `c0208be`.
-It provides action-led Home/demo guidance and concise suggestions with explicit
-searchable/paginated browsing, plus immediate product-copy repairs. It preserves
-canonical competencies, scoring, ranking, existing data and private text
-boundaries. See [verification checkpoint](evidence/M6L-01-GUIDED-ENTRY-20260929.md).
+M6L-01 is locally and CI verified: 1,918 nonbrowser tests, all local readiness,
+full hosted browser and Compose, aggregate Pilot readiness gate passed in
+[run 36515667838](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36515667838).
+[Draft PR #105](https://github.com/tranquilWorks/gitg-self-host/pull/105) remains
+unmerged. See [Batch 1 evidence](evidence/M6L-01-GUIDED-ENTRY-20260929.md).
 
-Draft [PR #105](https://github.com/tranquilWorks/gitg-self-host/pull/105) contains
-the program and first batch. Focused tests and the isolated recovery drill pass;
-the detached full local gate and hosted checks remain pending. Do not mark the
-batch verified or merged from the focused results alone. Next: finish those
-checks and record their result; M6L-02 is the next planned implementation.
+M6L-02 respects N/A/defer in fallback suggestions, supports progressive partial
+fit review, offers deliberate exploration when reviewed alternatives are absent,
+and provides an owner-only saved/deferred review page. Its [selection policy](context-discovery-policy.md)
+is separately versioned; scoring/context mathematics, canonical content and
+immutable history remain unchanged. See [Batch 2 evidence](evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md)
+for verification status. [Draft PR #106](https://github.com/tranquilWorks/gitg-self-host/pull/106)
+is stacked on #105. All 1,926 nonbrowser cases have passing coverage across the
+initial run and repaired continuation; all 17 readiness commands pass. The
+catalog-fingerprint routing issue was repaired by restoring `growth/urls.py`
+and registering the new route in the application URL configuration. Final
+route/browser and Home error-state checks pass. Hosted checks on the final
+commit remain pending; neither draft is merged or published. Next: inspect the
+latest PR #106 gate and artifacts; M6L-03 is the next planned implementation.
 
 ## Owner-accepted catalog publication — 28 September 2026
 

@@ -1,0 +1,92 @@
+schema_version: 1
+batch:
+  id: M6L-01-GUIDED-ENTRY
+  title: Guide entry and discovery without changing the development model
+  goal: Deliver a concise home-to-practice journey with explicit demo labeling, searchable exploration
+    and accurate product copy.
+sources:
+  product: gitg-self-host
+  requirements:
+  - docs/PRODUCT_DECISIONS.md#decision-046
+  - docs/plans/m6l/README.md
+  - docs/plans/m6l/actions.yaml
+  milestone: M6 Phase F / M6L-01
+  baseline_commit: c0208be6c031b37c75657f8190e50305a691c463
+dependencies: []
+scope:
+  allowed_paths:
+  - contracts/active-batch.yaml
+  - docs/plans/m6l/**
+  - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+  - docs/PROJECT_HANDOFF.md
+  - growth/views.py
+  - growth/views_practice.py
+  - growth/services/practice_discovery.py
+  - growth/services/personal_os_browser.py
+  - templates/growth/home.html
+  - templates/growth/practice_list.html
+  - templates/growth/practice_card.html
+  - templates/growth/personal_os.html
+  - templates/growth/weekly_execution.html
+  - templates/growth/practice_review_complete.html
+  - tests/**
+  - MANIFEST.tsv
+  - scripts/verify_http_login.py
+  - growth/static/growth/guided_entry.css
+  - templates/base.html
+  forbidden_paths:
+  - data/**
+  - reports/**
+  - docs/authoring/**
+  - growth/models.py
+  - growth/migrations/**
+  - growth/domain/**
+  - growth/services/canonical_import.py
+  - growth/services/profile.py
+  - growth/services/context_priority.py
+  - .github/**
+  - Dockerfile
+  - docker-compose.yml
+  - growth/static/growth/app.css
+acceptance:
+- Home leads with direction, this week and a concrete next action; no archetype headline; no-assessment
+  path reaches the existing assessment.
+- Seeded users see an unambiguous demonstration notice and their own assessment CTA; real-assessment
+  users do not; existing seed data is preserved.
+- Default shows at most three existing recommendations; explicit browsing/search/domain filters yield
+  deterministic twelve-item pages, accessible links and a useful empty state without ranking changes.
+- Personal OS accurately links account archive/deletion; generic practice completion never claims
+  a substantive interaction unconditionally; visible context messages use ordinary language.
+- Fresh/demo/real-user, filtered/paginated, keyboard/mobile and no-state-mutation coverage passes;
+  review screenshots and record exact verification.
+- Canonical content, ranking mathematics, scoring, private text isolation and persisted user history
+  remain unchanged.
+validation:
+  local:
+  - Focused Django and browser journeys
+  - scripts/agent-verify.sh full
+  - MANIFEST and scope checks
+  - Desktop/mobile screenshot inspection
+  focused_tests_to_add:
+  - Demo versus actual/no assessment entry
+  - Search/domain/pagination completeness and safe query rendering
+  - Bounded recommendations without score/context mutation
+  - Mobile and keyboard discovery journey
+  required_ci:
+  - Pilot readiness gate
+risk:
+  class: moderate
+  hazards:
+  - Presentation could imply demo data is personal or browsing is a personalized rank.
+  - Filtering could hide results or leak private query/context text.
+  stop_conditions:
+  - Protected source or historical data drift
+  - Private authored text exposed outside existing surfaces
+  - Changed ranking or scoring semantics
+rollback:
+  strategy: Revert presentation/service/test changes; no migration or database restore required.
+evidence:
+  output:
+  - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+  claim_boundary: Software and synthetic browser validation only; no new participant or specialist
+    evidence, merge, release or live data operation.

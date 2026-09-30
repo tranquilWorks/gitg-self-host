@@ -139,10 +139,10 @@
     </div>
   {% endif %}
 
-  {% if priority.reviewed_count %}
+  {% if priority.reviewed_count or priority.status == "unavailable" %}
     <div class="context-summary" role="note">
       <div>
-        <strong>{% if priority.context_aware %}Suggestions reflect the fit you reviewed.{% else %}Check what fits your life now.{% endif %}</strong>
+        <strong>{% if priority.status == "unavailable" %}Suggestions are paused.{% elif priority.context_aware %}Suggestions reflect the fit you reviewed.{% else %}Check what fits your life now.{% endif %}</strong>
         <p>{{ priority.message }}</p>
         {% if priority.reviewed_count %}
           <small>You have reviewed the fit of {{ priority.reviewed_count }} practices since your latest assessment.</small>
@@ -191,7 +191,13 @@
       {% empty %}
         <article class="empty-state">
           <h3>No recommendations yet</h3>
-          <p>Take or import an assessment to establish a provisional starting point.</p>
+          {% if summary.assessment_run %}
+            <p>Your current choices have no available suggestion. Explore another practice or explicitly revise saved context.</p>
+            <a href="{% url 'growth:practice-list' %}?browse=1#explore-heading">Explore practices</a>
+            <a href="{% url 'context-review' %}">Review saved choices</a>
+          {% else %}
+            <p>Take or import an assessment to establish a provisional starting point.</p>
+          {% endif %}
         </article>
       {% endfor %}
     </div>

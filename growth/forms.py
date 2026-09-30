@@ -326,6 +326,7 @@ class PracticePriorityContextForm(forms.Form):
         label="How do you want to review this practice?",
         choices=(
             ("", "Choose one"),
+            ("partial", "Review a little at a time"),
             ("provide", "Provide all six context factors"),
             ("not_applicable", "Mark this practice not applicable"),
             ("defer", "Defer this practice for now"),
@@ -374,16 +375,17 @@ class PracticePriorityContextForm(forms.Form):
         supplied = [
             factor_id for factor_id in PRACTICE_FACTOR_IDS if cleaned.get(factor_id) is not None
         ]
-        if mode == "provide":
-            for factor_id in PRACTICE_FACTOR_IDS:
-                if cleaned.get(factor_id) is None:
-                    self.add_error(factor_id, "Choose a value from 0 to 4.")
+        if mode in {"provide", "partial"}:
+            if mode == "provide":
+                for factor_id in PRACTICE_FACTOR_IDS:
+                    if cleaned.get(factor_id) is None:
+                        self.add_error(factor_id, "Choose a value from 0 to 4.")
             if (
                 cleaned.get("deferred_factor")
                 or cleaned.get("defer_reason")
                 or cleaned.get("review_horizon_days") is not None
             ):
-                self.add_error("mode", "Clear defer details when providing all six factors.")
+                self.add_error("mode", "Clear defer details when reviewing fit.")
         elif mode == "not_applicable":
             if supplied:
                 self.add_error("mode", "Clear numeric factors when marking this not applicable.")
@@ -404,9 +406,12 @@ class PracticePriorityContextForm(forms.Form):
 
     def context_input(self, protocol):
         mode = self.cleaned_data["mode"]
-        if mode == "provide":
+        if mode in {"provide", "partial"}:
             factors = {
-                factor_id: {"state": "provided", "value": self.cleaned_data[factor_id]}
+                factor_id: {
+                    "state": "provided" if self.cleaned_data[factor_id] is not None else "unknown",
+                    "value": self.cleaned_data[factor_id],
+                }
                 for factor_id in PRACTICE_FACTOR_IDS
             }
             return factors, "considering", None, None

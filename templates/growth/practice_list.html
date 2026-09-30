@@ -26,6 +26,7 @@
 
   <section class="section-block" aria-labelledby="suggestions-heading">
     <h2 id="suggestions-heading">Suggested for you</h2>
+    <p><a href="{% url 'context-review' %}">Review a small shortlist or revisit deferred choices</a></p>
     <div class="context-summary" role="note">
       <div>
         <strong>{% if priority.context_aware %}Based on the practices you reviewed{% else %}Based on assessment and completed practices{% endif %}</strong>
@@ -41,8 +42,12 @@
       </div>
     {% else %}
       <div class="empty-state compact">
-        <p>No suggestions are available yet. An assessment gives you a starting point; you can also explore the available practices.</p>
-        <a class="text-link" href="{% url 'growth:assessment' %}">Take or import an assessment</a>
+        {% if priority.status == "no_assessment" %}
+          <p>No suggestions are available yet. An assessment gives you a starting point; you can also explore the available practices.</p>
+          <a class="text-link" href="{% url 'growth:assessment' %}">Take or import an assessment</a>
+        {% else %}
+          <p>No suggestions are available from these choices. Your saved exclusions remain in place. Explore another practice below or revisit your saved context.</p>
+        {% endif %}
       </div>
     {% endif %}
   </section>

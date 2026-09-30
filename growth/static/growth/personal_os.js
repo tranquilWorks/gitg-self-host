@@ -27,7 +27,13 @@
     const updateMode = () => {
       const selected = modeControls.find((control) => control.checked)?.value || "";
       practiceForm.querySelectorAll("[data-context-mode]").forEach((section) => {
-        section.hidden = section.dataset.contextMode !== selected;
+        section.hidden = !section.dataset.contextMode.split(" ").includes(selected);
+        section.querySelectorAll("input, select, textarea").forEach((control) => {
+          control.disabled = section.hidden;
+        });
+        if (selected === "provide" && !section.hidden) {
+          section.querySelectorAll("details").forEach((group) => { group.open = true; });
+        }
       });
     };
     modeControls.forEach((control) => control.addEventListener("change", updateMode));

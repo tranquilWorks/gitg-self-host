@@ -1,39 +1,40 @@
 schema_version: 1
 batch:
-  id: M6L-01-GUIDED-ENTRY
-  title: Guide entry and discovery without changing the development model
-  goal: Deliver a concise home-to-practice journey with explicit demo labeling, searchable exploration
-    and accurate product copy.
+  id: M6L-02-CONTEXT-ALTERNATIVES
+  title: Respect explicit context and make alternatives reviewable
+  goal: Exclude N/A/deferred choices from fallback, save partial explicit fit, and offer deliberate
+    exploration and review of deferred choices.
 sources:
   product: gitg-self-host
   requirements:
   - docs/PRODUCT_DECISIONS.md#decision-046
   - docs/plans/m6l/README.md
   - docs/plans/m6l/actions.yaml
-  milestone: M6 Phase F / M6L-01
-  baseline_commit: c0208be6c031b37c75657f8190e50305a691c463
-dependencies: []
+  - docs/context-discovery-policy.md
+  milestone: M6 Phase F / M6L-02
+  baseline_commit: 1274ff1969178bd863c5ab1e2d21c436a9ea2ef5
+dependencies:
+- M6L-01
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
   - docs/plans/m6l/**
-  - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+  - docs/evidence/M6L-0*-*.md
   - docs/PROJECT_HANDOFF.md
-  - growth/views.py
-  - growth/views_practice.py
-  - growth/services/practice_discovery.py
+  - docs/context-discovery-policy.md
   - growth/services/personal_os_browser.py
-  - templates/growth/home.html
+  - growth/services/context_review.py
+  - growth/views_practice.py
+  - growth/forms.py
+  - growth/static/growth/personal_os.js
+  - templates/growth/practice_context.html
+  - templates/growth/context_review.html
   - templates/growth/practice_list.html
-  - templates/growth/practice_card.html
+  - templates/growth/home.html
   - templates/growth/personal_os.html
-  - templates/growth/weekly_execution.html
-  - templates/growth/practice_review_complete.html
   - tests/**
   - MANIFEST.tsv
-  - scripts/verify_http_login.py
-  - growth/static/growth/guided_entry.css
-  - templates/base.html
+  - grounded_growth/urls.py
   forbidden_paths:
   - data/**
   - reports/**
@@ -48,19 +49,20 @@ scope:
   - Dockerfile
   - docker-compose.yml
   - growth/static/growth/app.css
+  - growth/urls.py
 acceptance:
-- Home leads with direction, this week and a concrete next action; no archetype headline; no-assessment
-  path reaches the existing assessment.
-- Seeded users see an unambiguous demonstration notice and their own assessment CTA; real-assessment
-  users do not; existing seed data is preserved.
-- Default shows at most three existing recommendations; explicit browsing/search/domain filters yield
-  deterministic twelve-item pages, accessible links and a useful empty state without ranking changes.
-- Personal OS accurately links account archive/deletion; generic practice completion never claims
-  a substantive interaction unconditionally; visible context messages use ordinary language.
-- Fresh/demo/real-user, filtered/paginated, keyboard/mobile and no-state-mutation coverage passes;
-  review screenshots and record exact verification.
-- Canonical content, ranking mathematics, scoring, private text isolation and persisted user history
-  remain unchanged.
+- Document and test no-context, partial-context, all-deferred and all-N/A flows; explicitly excluded
+  choices are not presented as personalized recommendations.
+- Guide a small shortlist through explicit factors progressively; unknown remains unknown; avoid
+  a six-factor-times-383 worksheet.
+- If no reviewed alternative exists, offer deliberate exploration and context review of another candidate
+  without silently imputing context or expanding the ranked cohort.
+- Show a private list of deferred choices and review horizons; reconsidering requires an explicit
+  revision and produces no penalty.
+- Record accepted behavior and preserve scoring, prior context snapshots and deterministic replay;
+  add edge-case and browser coverage.
+- Corrupt context suppresses suggestions; prior records, scoring, ranking math, and canonical content
+  are unchanged.
 validation:
   local:
   - Focused Django and browser journeys
@@ -68,25 +70,27 @@ validation:
   - MANIFEST and scope checks
   - Desktop/mobile screenshot inspection
   focused_tests_to_add:
-  - Demo versus actual/no assessment entry
-  - Search/domain/pagination completeness and safe query rendering
-  - Bounded recommendations without score/context mutation
-  - Mobile and keyboard discovery journey
+  - Exclusion across fallback, context, no-capacity, all-excluded and corrupt-context cases
+  - Partial saves retain unknown and explicit zero across revisions; no score/evidence mutation
+  - Owner/assessment isolation, deferred review horizon and explicit reconsideration
+  - Desktop/mobile partial-save, exclude, explore, reconsider journey
   required_ci:
   - Pilot readiness gate
 risk:
   class: moderate
   hazards:
-  - Presentation could imply demo data is personal or browsing is a personalized rank.
-  - Filtering could hide results or leak private query/context text.
+  - Fallback can reintroduce an excluded candidate.
+  - Partial input can silently become a numeric default or rewrite saved context.
+  - Review horizons can be mistaken for automatic expiry.
   stop_conditions:
   - Protected source or historical data drift
   - Private authored text exposed outside existing surfaces
-  - Changed ranking or scoring semantics
+  - Changed assessment, context-priority or scoring mathematics
 rollback:
-  strategy: Revert presentation/service/test changes; no migration or database restore required.
+  strategy: Revert browser selection/form/template code; no migration. Existing partial and excluded
+    snapshots remain valid and immutable under the unchanged context contract.
 evidence:
   output:
-  - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+  - docs/evidence/M6L-02-CONTEXT-ALTERNATIVES-20260929.md
   claim_boundary: Software and synthetic browser validation only; no new participant or specialist
     evidence, merge, release or live data operation.
