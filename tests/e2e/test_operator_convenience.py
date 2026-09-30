@@ -32,6 +32,7 @@ def test_personal_start_installation_help(live_server, page, settings, tmp_path,
     ).to_be_visible()
     expect(page.locator('.site-nav [aria-current="page"]')).to_have_text("Account")
     expect(page.locator(".nav-more > summary")).to_have_text("More · Account")
+    page.evaluate("window.scrollTo(0, 0)")
     save_walkthrough_screenshot(page, f"operator-installation-{width}")
     page.add_style_tag(content="html { font-size: 200%; }")
     audit_page(page)

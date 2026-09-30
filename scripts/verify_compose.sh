@@ -58,7 +58,8 @@ write_env "$changed_env" "$changed_env_password"
 active_env="$initial_env"
 
 compose() {
-    APP_ENV_FILE="$active_env" APP_PORT="$app_port" APP_BUILD_REVISION="$(git rev-parse HEAD)" \
+    APP_ENV_FILE="$active_env" APP_PORT="$app_port" APP_IMAGE="$project_name:verification" \
+        APP_BUILD_REVISION="$(git rev-parse HEAD)" \
         docker compose --project-name "$project_name" "$@"
 }
 
@@ -72,12 +73,15 @@ cleanup() {
     fi
     if [[ "$project_name" == ggsmoke* ]]; then
         compose down --volumes --remove-orphans >/dev/null 2>&1 || true
+        docker image rm "$project_name:verification" >/dev/null 2>&1 || true
     fi
     rm -f -- "$initial_env" "$changed_env"
     rmdir "$probe_dir" 2>/dev/null || true
     exit "$status"
 }
 trap cleanup EXIT
+trap 'exit 143' TERM
+trap 'exit 130' INT
 
 http_probe() {
     local password="$1"

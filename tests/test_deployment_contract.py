@@ -92,6 +92,9 @@ def test_repeatable_compose_acceptance_is_wired_into_make_and_ci():
     assert "compose-smoke:" in makefile
     assert "./scripts/verify_compose.sh" in makefile
     assert "docker compose --project-name" in smoke_script
+    assert 'APP_IMAGE="$project_name:verification"' in smoke_script
+    assert 'docker image rm "$project_name:verification"' in smoke_script
+    assert "trap 'exit 143' TERM" in smoke_script
     assert "up -d --build --wait" in smoke_script
     assert "seed_canonical" in smoke_script
     assert "migrate --check" in smoke_script
