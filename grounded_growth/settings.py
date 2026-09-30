@@ -164,3 +164,9 @@ LOGGING = {
 }
 
 CSRF_FAILURE_VIEW = "growth.views_errors.csrf_failure"
+
+# A typo must not silently select a different installation mode.
+_seed_demo = os.getenv("APP_SEED_DEMO", "false").strip().lower()
+if _seed_demo not in {"true", "false"}:
+    raise ImproperlyConfigured("APP_SEED_DEMO must be true or false.")
+SEED_DEMO = _seed_demo == "true"

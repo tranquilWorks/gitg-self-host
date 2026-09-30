@@ -88,6 +88,9 @@ No fingerprints or required gates are weakened.
 Browser semantics, layout and keyboard checks do not establish actual
 assistive-technology usability, universal accessibility or WCAG certification.
 No participant evidence, specialist acceptance or empirical axis is closed.
-Hosted CI is pending; PR #110 remains draft, stacked on #109, unmerged/unpublished.
+Final head `7078f9723d500d3f18eac78fcfc9df5163a21180` passed hosted quality,
+browser, Compose and aggregate Pilot readiness in
+[run 36646170643](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36646170643).
+Publication was skipped; PR #110 remains draft, stacked on #109, unmerged/unpublished.
 After Batch 6, **two batches / seven actions** remain: 07 operator convenience
 (three actions), and 08 empirical product validation (four actions).

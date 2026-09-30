@@ -36,6 +36,7 @@ readonly base_url="http://127.0.0.1:$app_port"
 write_env() {
     local path="$1"
     local password="$2"
+    local seed_demo="${3:-false}"
     {
         printf 'APP_PORT=%s\n' "$app_port"
         printf 'DJANGO_SECRET_KEY=compose-smoke-only-secret-key-with-sufficient-length-47\n'
@@ -44,6 +45,7 @@ write_env() {
         printf 'APP_BOOTSTRAP_PASSWORD=%s\n' "$password"
         printf 'APP_TIME_ZONE=UTC\n'
         printf 'APP_DEBUG=false\n'
+        printf 'APP_SEED_DEMO=%s\n' "$seed_demo"
         printf 'APP_SECURE_COOKIES=false\n'
         printf 'APP_OWNER_RETENTION_ENABLED=false\n'
         printf 'APP_OWNER_RETENTION_DAYS=365\n'
@@ -56,7 +58,8 @@ write_env "$changed_env" "$changed_env_password"
 active_env="$initial_env"
 
 compose() {
-    APP_ENV_FILE="$active_env" APP_PORT="$app_port" \
+    APP_ENV_FILE="$active_env" APP_PORT="$app_port" APP_IMAGE="$project_name:verification" \
+        APP_BUILD_REVISION="$(git rev-parse HEAD)" \
         docker compose --project-name "$project_name" "$@"
 }
 
@@ -70,12 +73,15 @@ cleanup() {
     fi
     if [[ "$project_name" == ggsmoke* ]]; then
         compose down --volumes --remove-orphans >/dev/null 2>&1 || true
+        docker image rm "$project_name:verification" >/dev/null 2>&1 || true
     fi
     rm -f -- "$initial_env" "$changed_env"
     rmdir "$probe_dir" 2>/dev/null || true
     exit "$status"
 }
 trap cleanup EXIT
+trap 'exit 143' TERM
+trap 'exit 130' INT
 
 http_probe() {
     local password="$1"
@@ -89,7 +95,7 @@ http_probe() {
         --username "$username" \
         --password "$password" \
         --expect "$expectation" \
-        --authenticated-path "/personal-os/" \
+        --authenticated-path "${3:-/personal-os/}" \
         "${boundary_option[@]}"
 }
 
@@ -111,6 +117,20 @@ container_id="$(compose ps -q app)"
 test -n "$container_id"
 test "$(docker inspect --format '{{.State.Health.Status}}' "$container_id")" = "healthy"
 test "$(compose exec -T app id -u | tr -d '\r')" = "10001"
+http_probe "$original_password" success "/account/installation/"
+
+printf '\n==> Verify personal startup, local diagnostics and embedded revision\n'
+test "$(canonical_counts)" = "37,383,1403,383,383,383,0"
+compose exec -T app python manage.py seed_canonical --without-demo
+test "$(canonical_counts)" = "37,383,1403,383,383,383,0"
+compose exec -T app python manage.py shell -c \
+    'from growth.models import AssessmentRun; assert not AssessmentRun.objects.exists()'
+compose exec -T app python manage.py installation_status --check
+test "$(compose exec -T app cat /app/BUILD_REVISION | tr -d '\r')" = "$(git rev-parse HEAD)"
+
+printf '\n==> Explicitly opt in to the demonstration on the same persisted account\n'
+write_env "$initial_env" "$original_password" true
+compose up -d --force-recreate --wait --wait-timeout 180
 http_probe "$original_password" success
 
 printf '\n==> Verify migrations, canonical seed idempotency, and score-state replay\n'
@@ -187,8 +207,11 @@ test "$(browser_slice_state)" = "$expected_browser_slice_state"
 
 printf '\n==> Restore the verified backup inside the isolated volume\n'
 compose down
+compose run --rm --no-deps --entrypoint python app manage.py verify_database_backup "$backup_path"
 compose run --rm --no-deps --entrypoint python app -c \
     'from pathlib import Path; import shutil; source = Path("/data/backups/compose-smoke.sqlite3"); target = Path("/data/grounded_growth.sqlite3"); shutil.copy2(source, target); target.with_name(target.name + "-wal").unlink(missing_ok=True); target.with_name(target.name + "-shm").unlink(missing_ok=True)'
+compose run --rm --no-deps --entrypoint python app manage.py verify_database_backup \
+    "$backup_path" --compare-live
 compose up -d --wait --wait-timeout 180
 compose exec -T app python manage.py migrate --check
 compose exec -T app python manage.py verify_database_backup "$backup_path" --compare-live

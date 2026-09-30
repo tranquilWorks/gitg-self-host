@@ -23,6 +23,9 @@ def test_container_runs_nonroot_gunicorn_and_safe_startup_sequence():
     entrypoint = (ROOT / "docker-entrypoint.sh").read_text()
     assert dockerfile.startswith("FROM python:3.13-slim")
     assert "USER grounded" in dockerfile
+    assert "ARG APP_BUILD_REVISION=unknown" in dockerfile
+    assert 'Path("BUILD_REVISION").write_text' in dockerfile
+    assert "manage.py seed_canonical --startup" in entrypoint
     assert "EXPOSE 8000" in dockerfile
     assert "node" not in dockerfile.lower()
 
@@ -62,6 +65,7 @@ def test_environment_example_covers_deployment_and_cookie_contract():
         "APP_BOOTSTRAP_USERNAME",
         "APP_BOOTSTRAP_PASSWORD",
         "APP_TIME_ZONE",
+        "APP_SEED_DEMO",
         "APP_DEBUG",
         "APP_SECURE_COOKIES",
         "APP_OWNER_RETENTION_ENABLED",
@@ -88,6 +92,9 @@ def test_repeatable_compose_acceptance_is_wired_into_make_and_ci():
     assert "compose-smoke:" in makefile
     assert "./scripts/verify_compose.sh" in makefile
     assert "docker compose --project-name" in smoke_script
+    assert 'APP_IMAGE="$project_name:verification"' in smoke_script
+    assert 'docker image rm "$project_name:verification"' in smoke_script
+    assert "trap 'exit 143' TERM" in smoke_script
     assert "up -d --build --wait" in smoke_script
     assert "seed_canonical" in smoke_script
     assert "migrate --check" in smoke_script
@@ -99,6 +106,8 @@ def test_repeatable_compose_acceptance_is_wired_into_make_and_ci():
     assert "verify_database_backup" in smoke_script
     assert "--compare-live" in smoke_script
     restore_steps = smoke_script.split("==> Restore the verified backup", 1)[1]
+    assert restore_steps.index("verify_database_backup") < restore_steps.index("shutil.copy2")
+    assert restore_steps.index("--compare-live") < restore_steps.index("compose up")
     assert restore_steps.index("verify_database_backup") < restore_steps.index(
         'http_probe "$original_password" success'
     )
@@ -163,6 +172,7 @@ def test_registry_publication_requires_verified_main_and_validates_published_dig
     build = next(step for step in publish["steps"] if step.get("id") == "image")
     assert build["with"]["push"] is True
     assert "sha-${{ github.sha }}" in build["with"]["tags"]
+    assert "APP_BUILD_REVISION=${{ github.sha }}" in build["with"]["build-args"]
     probe = publish["steps"][-1]
     assert "@${{ steps.image.outputs.digest }}" in probe["env"]["IMAGE"]
     assert 'docker pull "$IMAGE"' in probe["run"]

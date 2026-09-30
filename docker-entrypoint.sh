@@ -4,7 +4,7 @@ set -eu
 python manage.py validate_canonical_content
 python manage.py migrate --noinput
 python manage.py bootstrap_user
-python manage.py seed_canonical
+python manage.py seed_canonical --startup
 python manage.py backfill_evidence_events
 python manage.py rebuild_score_state
 python manage.py rebuild_composite_score_state

@@ -12,6 +12,7 @@ record the project’s history.
 cp .env.example .env
 # Edit .env: set DJANGO_SECRET_KEY, DJANGO_ALLOWED_HOSTS,
 # APP_BOOTSTRAP_USERNAME, and APP_BOOTSTRAP_PASSWORD.
+# Keep APP_SEED_DEMO=false for your own assessment; true opts into the example.
 docker compose pull
 docker compose up -d --no-build
 ```
@@ -20,6 +21,12 @@ Images are published as `ghcr.io/tranquilworks/gitg-self-host:latest` after main
 passes verification. Set `APP_IMAGE` to a `sha-<full-commit>` tag or digest to pin
 a version. For a source build, use `docker compose up -d --build` instead.
 See the deployment guide if registry authentication is required.
+
+New installations start without a demonstration assessment unless
+`APP_SEED_DEMO=true`. Existing histories are preserved. **Account → Installation
+version and recovery help** shows the embedded revision and local recovery steps.
+See the [operator guide](docs/operator-convenience.md) for diagnostics, password
+recovery, reproducible source builds and pinned updates.
 
 Open `http://<server-local-ip>:<APP_PORT>`; the default port is
 `3000`. Sign in with the bootstrap credentials from `.env`.
