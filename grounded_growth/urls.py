@@ -3,6 +3,7 @@ from django.urls import include, path
 
 from growth.views import health
 from growth.views_direction import direction_review, practice_direction
+from growth.views_history import history, history_period, history_plan, history_reuse
 from growth.views_practice import context_review
 from growth.views_weekly_followup import (
     weekly_calendar,
@@ -12,6 +13,11 @@ from growth.views_weekly_followup import (
 )
 
 urlpatterns = [
+    path("history/", history, name="history"),
+    path("history/reuse/", history_reuse, name="history-reuse-latest"),
+    path("history/periods/<str:run_id>/", history_period, name="history-period"),
+    path("history/periods/<str:run_id>/reuse/", history_reuse, name="history-reuse"),
+    path("history/plans/<uuid:plan_id>/", history_plan, name="history-plan"),
     path("weekly/plans/<uuid:plan_id>/", weekly_plan_detail, name="weekly-plan-detail"),
     path("weekly/plans/<uuid:plan_id>/replan/", weekly_replan, name="weekly-replan"),
     path(

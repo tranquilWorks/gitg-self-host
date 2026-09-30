@@ -12,8 +12,8 @@ excluded. The executable action register is [actions.yaml](actions.yaml).
 | M6L-01 | Guided entry, explicit demonstration labeling, concise recommendations and searchable exploration, immediate copy repairs | Published catalog | CI verified; draft PR #105 |
 | M6L-02 | Easier explicit context collection and dependable N/A/defer/alternative journeys | 01 | CI verified; draft PR #106 |
 | M6L-03 | User-chosen links between direction, priority and practice | 01 | CI verified; draft PR #107 |
-| M6L-04 | Review-to-next-week handoff, recovery after missed plans, upcoming-action support | 02, 03 | Locally verified; draft PR #108 |
-| M6L-05 | Readable history and deliberate continuity across reassessment | 03, 04 | Planned |
+| M6L-04 | Review-to-next-week handoff, recovery after missed plans, upcoming-action support | 02, 03 | CI verified; draft PR #108 |
+| M6L-05 | Readable history and deliberate continuity across reassessment | 03, 04 | Locally verified; draft PR #109, final CI pending |
 | M6L-06 | Whole-application language, navigation and accessibility consistency | 02–05 | Planned |
 | M6L-07 | Installation, version visibility and operator recovery convenience | 01 | Planned |
 | M6L-08 | Real-user multi-cycle evaluation and assessment calibration evidence | 02–06; operator readiness for pilot | Planned; empirical evidence remains open |
@@ -58,9 +58,9 @@ consented observations, qualified analysis and review. Existing tests and the
 owner's product acceptance cannot close empirical axes. Record unsuccessful
 and inconclusive observations as well as successful ones.
 
-Current authorization covers planning the entire program and implementing 01–04.
-The owner requested the next batch after M6L-03, authorizing Batch 4.
-Batches 05–08 remain planned. Publication of the catalog
+Current authorization covers planning the entire program and implementing 01–05.
+The owner explicitly requested Batch 5 after M6L-04.
+Batches 06–08 remain planned. Publication of the catalog
 was completed under the previous authorization; this new batch's merge and
 publication are separate from implementation.
 

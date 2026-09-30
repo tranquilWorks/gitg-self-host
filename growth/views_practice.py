@@ -481,6 +481,7 @@ def practice_sprint(request, sprint_id):
         "growth/practice_sprint.html",
         {
             "sprint": sprint,
+            "current_assessment": AssessmentRun.objects.filter(user=request.user).first(),
             "submitted_check_ins": submitted,
             "draft_check_ins": drafts,
             "evidence": evidence,

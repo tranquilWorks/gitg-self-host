@@ -4,6 +4,7 @@
 {% block title %}Personal OS · Grounded Growth{% endblock %}
 
 {% block content %}
+  {% if request.user.assessment_runs.count > 1 %}<p><a href="{% url 'history-reuse-latest' %}">Review and reuse selected earlier intentions</a></p>{% endif %}
   <section class="page-heading">
     <div>
       <p class="eyebrow">Personal OS</p>

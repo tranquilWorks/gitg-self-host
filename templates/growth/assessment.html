@@ -17,6 +17,16 @@
     <span class="status-pill">About 11–15 minutes</span>
   </section>
 
+  {% if previous_assessment %}
+    <aside class="status-note" aria-labelledby="retake-heading">
+      <h2 id="retake-heading">What changes when you reassess</h2>
+      {% if previous_assessment.source == "pilot_seed" %}<p>Your current starting profile is demonstration data, not a completed personal assessment.</p>{% endif %}
+      <p>Saving a new assessment starts a new period with its own baseline and completion coverage. Earlier practices, evidence, reviews and credit remain attached to their original period; they do not carry into the new one.</p>
+      <p>Review season, capacity and practice fit again. You can preview and confirm selected earlier Personal OS intentions and season/capacity after saving. Audit observations, practice-fit decisions, direction connections and weekly plans are not copied automatically. Saving the same assessment again may return its existing period.</p>
+      {% if current_practice %}<p><strong>{{ current_practice.protocol.name }}</strong> is {{ current_practice.get_status_display|lower }} and will stay attached to its original assessment. You can continue and close it there, or stop it before starting a new practice. Resume a paused practice to add evidence; if its requirements are already met, you can review and close it while paused.</p><p><a href="{% url 'growth:practice-sprint' current_practice.pk %}">Review current practice before reassessing</a></p>{% endif %}
+      <a href="{% url 'history' %}">Review assessment history</a>
+    </aside>
+  {% endif %}
   <div
     id="assessment-app"
     data-storage-key="{{ assessment_storage_key }}"

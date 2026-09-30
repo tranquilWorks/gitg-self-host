@@ -3,23 +3,29 @@
 ## M6L guided product follow-up — 29 September 2026
 
 The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
-cover eight non-competency batches. The owner requested the next batch after
-M6L-03, authorizing M6L-04 and a remaining-batch update. M6L-04 is implemented on
-`codex/m6l-04-recurring-weekly`, based on Batch 3 final head `10b040f`.
-[Draft PR #108](https://github.com/tranquilWorks/gitg-self-host/pull/108) is stacked
-on #107. All 1,954 nonbrowser tests, 17 readiness commands and the isolated Docker
-Compose recreation/backup/restore drill pass. Three local browser journeys passed
-and passed again after route/button polish; desktop/mobile screenshots were
-inspected. Final contract, schema, scope and manifest checks pass. The final PR
-head still needs its own hosted aggregate gate before merge. See
-[Batch 4 evidence](evidence/M6L-04-RECURRING-WEEKLY-20260929.md) and
-[weekly follow-up behavior](weekly-followup.md). It adds actionable review
-choices, explicit replanning, previous planned-week context and an optional
-private-minimized calendar download. No migration or contract changes. Batches
-05–08 remain planned: history/reassessment (next), whole-application consistency,
-operator convenience and empirical product validation. Four batches / 14 actions
-remain; the empirical batch needs real participant evidence. No merge/publication
-is authorized for this batch.
+cover eight non-competency batches. The owner requested “go for 5”. M6L-05 is
+implemented on `codex/m6l-05-history-continuity`, based on final M6L-04 head
+`3cfa88d`; all 1,968 nonbrowser tests, 17 readiness commands, six distinct browser
+journeys, final polish rechecks and isolated Docker recreation/backup/restore pass.
+[Draft PR #109](https://github.com/tranquilWorks/gitg-self-host/pull/109) is stacked
+on #108. Final-head CI is pending; implementation `23be1a5` has green hosted
+browser and Docker checks. See
+[Batch 5 evidence](evidence/M6L-05-HISTORY-CONTINUITY-20260929.md) and
+[history and reuse behavior](history-continuity.md). It adds owner-only period,
+practice and weekly-review history, reassessment consequences, selected intention
+preview/confirmation and clear older-practice continuation. No migration or
+historical contract changes. Batches 06–08 remain planned: consistency, operator
+convenience and empirical validation (three batches / ten actions). No merge or
+publication is authorized for this batch.
+
+M6L-04 final head `3cfa88dc9a8dbcbc25ba6ad59f171bd4f5cd285e` passed all hosted
+quality, browser, Docker Compose and aggregate Pilot readiness gates in
+[run 36600807747](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36600807747).
+[Draft PR #108](https://github.com/tranquilWorks/gitg-self-host/pull/108) remains
+unmerged, stacked on #107; publish was skipped. Local verification passed all
+1,954 nonbrowser tests, 17 readiness commands, three browser journeys and the
+isolated Docker recreation/backup/restore drill. See
+[Batch 4 evidence](evidence/M6L-04-RECURRING-WEEKLY-20260929.md).
 
 M6L-03 is locally and CI verified. [Draft PR #107](https://github.com/tranquilWorks/gitg-self-host/pull/107)
 is stacked on #106 and remains unmerged. Its final head `10b040f` passed all

@@ -79,3 +79,11 @@ After this batch, M6L-05 history/reassessment, M6L-06 whole-application consiste
 M6L-07 operator convenience and M6L-08 empirical product validation remain planned.
 Batch 08 requires actual consented participant evidence; software tests cannot
 close those axes. M6L-01–03 remain separate, CI-verified draft PRs, unmerged.
+
+## Successor verification update
+
+Final head `3cfa88dc9a8dbcbc25ba6ad59f171bd4f5cd285e` passed all hosted quality,
+browser, Compose and aggregate Pilot readiness gates in
+[run 36600807747](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36600807747).
+PR #108 remains draft and unmerged; publish was skipped. The owner subsequently
+authorized Batch 5. Batches 06–08 remain planned; consult the action register.

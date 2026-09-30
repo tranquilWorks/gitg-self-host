@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Your history · Grounded Growth{% endblock %}
+{% block content %}
+<section class="page-heading"><div><p class="eyebrow">Your history</p><h1>See each period in its own context.</h1><p class="lede">Practices, weekly proof and reviews retain their original assessment period. Completion is not mastery; older credit does not become credit in a new period.</p></div></section>
+{% if active_sprint %}<section class="panel"><h2>Your {{ active_sprint.get_status_display|lower }} practice</h2><p>{{ active_sprint.protocol.name }} · started {{ active_sprint.start_date|date:"M j, Y" }}.</p>{% if active_sprint.assessment_run_id != current.pk %}<p>This practice is attached to an earlier assessment. Continue and close it there, or stop it before starting a practice for this period. Resume a paused practice to add evidence, or close it if its existing requirements are already met.</p>{% endif %}<a href="{% url 'growth:practice-sprint' active_sprint.pk %}">Open practice and controls</a></section>{% endif %}
+<section class="section-block"><h2>Assessment periods</h2>
+{% for period in periods %}<article class="panel"><h3><a href="{% url 'history-period' period.pk %}">{{ period.created_at|date:"M j, Y · H:i" }}</a>{% if period.pk == current.pk %} · Current{% endif %}</h3><p>{% if period.source == "pilot_seed" %}Demonstration seed{% else %}{{ period.get_source_display }}{% endif %} · assessment {{ period.assessment_version }}.</p></article>{% empty %}<div class="empty-state"><p>No assessment periods yet.</p><a href="{% url 'growth:assessment' %}">Begin an assessment</a></div>{% endfor %}
+{% if periods.has_previous %}<a href="?page={{ periods.previous_page_number }}">Newer periods</a>{% endif %} <span>Page {{ periods.number }} of {{ periods.paginator.num_pages }}</span> {% if periods.has_next %}<a href="?page={{ periods.next_page_number }}">Older periods</a>{% endif %}
+</section>
+{% endblock %}

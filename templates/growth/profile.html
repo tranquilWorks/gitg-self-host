@@ -32,6 +32,7 @@
   </section>
 
   {% if summary.assessment_run %}
+    <p><a href="{% url 'history' %}">Review assessment periods and practice history</a>{% if request.user.assessment_runs.count > 1 %} · <a href="{% url 'history-reuse-latest' %}">Review earlier intentions for this period</a>{% endif %}</p>
     <section class="definition-grid" aria-label="How to read this profile">
       <article>
         <h2>Starting estimate</h2>

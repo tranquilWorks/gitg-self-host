@@ -5,7 +5,7 @@
 {% block content %}
   <section class="page-heading">
     <div>
-      <p class="eyebrow">Active practice</p>
+      <p class="eyebrow">Practice · {{ sprint.get_status_display }}</p>
       <h1>{{ sprint.protocol.name }}</h1>
       {% include "growth/partials/instructional_link.html" with protocol=sprint.protocol %}
       <p class="lede">
@@ -18,7 +18,10 @@
     </span>
   </section>
 
-  {% if sprint.status == "active" %}
+  {% if current_assessment.pk != sprint.assessment_run_id %}
+    <aside class="status-note"><strong>This practice belongs to an earlier assessment period.</strong><p>Its check-ins, review and any completion credit stay with that period.</p>{% if sprint.status == "active" or sprint.status == "paused" %}<p>You can continue it and close it using its existing requirements, or stop it using Practice controls. If paused, resume it to add evidence, or close it if its requirements are already met. Finish or stop it before starting a practice for your current period; new weekly plans cannot use this older practice.</p>{% else %}<p>This attempt is {{ sprint.get_status_display|lower }}. Its records remain in this period; starting another practice uses your current assessment.</p>{% endif %}<a href="{% url 'history-period' sprint.assessment_run_id %}">Open its original assessment period</a></aside>
+  {% else %}<p><a href="{% url 'history-period' sprint.assessment_run_id %}">Open this practice's assessment period</a></p>{% endif %}
+  {% if sprint.status == "active" and current_assessment.pk == sprint.assessment_run_id %}
     <div class="context-summary" role="note">
       <div>
         <strong>Make one action concrete for this week.</strong>
@@ -48,6 +51,7 @@
       {% if sprint.status == "paused" %}
         <h2>Resume when the practice fits again.</h2>
         <p>No check-in is required while this practice is paused.</p>
+        {% if evidence.ready_for_review %}<p>Your existing evidence meets the closeout requirements.</p><a class="button button-secondary" href="{% url 'growth:practice-review' sprint.pk %}">Review and close paused practice</a>{% endif %}
       {% elif sprint.status == "stopped" %}
         <h2>This practice was stopped.</h2>
         <p>Submitted evidence remains in your history; drafts remain excluded.</p>
