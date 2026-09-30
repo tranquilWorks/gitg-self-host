@@ -18,6 +18,9 @@ RUN python -m pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+ARG APP_BUILD_REVISION=unknown
+RUN python -c 'import os,re,pathlib; value=os.environ["APP_BUILD_REVISION"]; assert value == "unknown" or re.fullmatch("[0-9a-f]{40}", value), "APP_BUILD_REVISION must be a full commit or unknown"; pathlib.Path("BUILD_REVISION").write_text(value + "\n")'
+
 RUN mkdir -p /data/uploads /data/backups /app/staticfiles \
     && chown -R grounded:grounded /data /app
 

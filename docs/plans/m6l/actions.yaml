@@ -184,7 +184,7 @@ batches:
     - docs/evidence/M6L-05-HISTORY-CONTINUITY-20260929.md
 - id: M6L-06
   title: Whole-application consistency
-  status: locally_verified
+  status: ci_verified
   depends_on:
   - M6L-02
   - M6L-03
@@ -193,46 +193,46 @@ batches:
   actions:
   - id: M6L-06-01
     title: Audit all user-facing copy
-    status: locally_verified
+    status: ci_verified
     acceptance: Remove milestone/slice/backend jargon and misleading old claims across forms, completion,
       empty/error states and help; retain accurate privacy boundaries.
     evidence:
     - docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md
   - id: M6L-06-02
     title: Simplify navigation and recovery
-    status: locally_verified
+    status: ci_verified
     acceptance: Each screen has a clear purpose and next action; errors provide safe recovery; secondary
       diagnostics remain available without dominating.
     evidence:
     - docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md
   - id: M6L-06-03
     title: Accessibility and layout review
-    status: locally_verified
+    status: ci_verified
     acceptance: Verify keyboard, focus, labels, screen-reader-oriented structure, mobile, zoom and reduced-motion
       paths; retain screenshots and document limits.
     evidence:
     - docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md
 - id: M6L-07
   title: Operator convenience
-  status: planned
+  status: in_progress
   depends_on:
   - M6L-01
   actions:
   - id: M6L-07-01
     title: Installation and demo choice
-    status: planned
+    status: in_progress
     acceptance: Provide explicit demo versus personal-start guidance and a safe opt-in demo configuration;
       preserve existing users and historical demonstration data.
     evidence: []
   - id: M6L-07-02
     title: Version and update visibility
-    status: planned
+    status: in_progress
     acceptance: Show installed revision and reproducible update/pin instructions; no silent updates or
       unsolicited remote telemetry.
     evidence: []
   - id: M6L-07-03
     title: Guided operational recovery
-    status: planned
+    status: in_progress
     acceptance: Document authentication, configuration checks, backup verification, active-practice upgrade
       constraints and restore/rollback with tested failure cases.
     evidence: []

@@ -23,6 +23,9 @@ def test_container_runs_nonroot_gunicorn_and_safe_startup_sequence():
     entrypoint = (ROOT / "docker-entrypoint.sh").read_text()
     assert dockerfile.startswith("FROM python:3.13-slim")
     assert "USER grounded" in dockerfile
+    assert "ARG APP_BUILD_REVISION=unknown" in dockerfile
+    assert 'Path("BUILD_REVISION").write_text' in dockerfile
+    assert "manage.py seed_canonical --startup" in entrypoint
     assert "EXPOSE 8000" in dockerfile
     assert "node" not in dockerfile.lower()
 
@@ -62,6 +65,7 @@ def test_environment_example_covers_deployment_and_cookie_contract():
         "APP_BOOTSTRAP_USERNAME",
         "APP_BOOTSTRAP_PASSWORD",
         "APP_TIME_ZONE",
+        "APP_SEED_DEMO",
         "APP_DEBUG",
         "APP_SECURE_COOKIES",
         "APP_OWNER_RETENTION_ENABLED",
@@ -163,6 +167,7 @@ def test_registry_publication_requires_verified_main_and_validates_published_dig
     build = next(step for step in publish["steps"] if step.get("id") == "image")
     assert build["with"]["push"] is True
     assert "sha-${{ github.sha }}" in build["with"]["tags"]
+    assert "APP_BUILD_REVISION=${{ github.sha }}" in build["with"]["build-args"]
     probe = publish["steps"][-1]
     assert "@${{ steps.image.outputs.digest }}" in probe["env"]["IMAGE"]
     assert 'docker pull "$IMAGE"' in probe["run"]

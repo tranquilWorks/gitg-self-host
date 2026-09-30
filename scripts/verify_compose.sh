@@ -36,6 +36,7 @@ readonly base_url="http://127.0.0.1:$app_port"
 write_env() {
     local path="$1"
     local password="$2"
+    local seed_demo="${3:-false}"
     {
         printf 'APP_PORT=%s\n' "$app_port"
         printf 'DJANGO_SECRET_KEY=compose-smoke-only-secret-key-with-sufficient-length-47\n'
@@ -44,6 +45,7 @@ write_env() {
         printf 'APP_BOOTSTRAP_PASSWORD=%s\n' "$password"
         printf 'APP_TIME_ZONE=UTC\n'
         printf 'APP_DEBUG=false\n'
+        printf 'APP_SEED_DEMO=%s\n' "$seed_demo"
         printf 'APP_SECURE_COOKIES=false\n'
         printf 'APP_OWNER_RETENTION_ENABLED=false\n'
         printf 'APP_OWNER_RETENTION_DAYS=365\n'
@@ -56,7 +58,7 @@ write_env "$changed_env" "$changed_env_password"
 active_env="$initial_env"
 
 compose() {
-    APP_ENV_FILE="$active_env" APP_PORT="$app_port" \
+    APP_ENV_FILE="$active_env" APP_PORT="$app_port" APP_BUILD_REVISION="$(git rev-parse HEAD)" \
         docker compose --project-name "$project_name" "$@"
 }
 
@@ -111,6 +113,20 @@ container_id="$(compose ps -q app)"
 test -n "$container_id"
 test "$(docker inspect --format '{{.State.Health.Status}}' "$container_id")" = "healthy"
 test "$(compose exec -T app id -u | tr -d '\r')" = "10001"
+http_probe "$original_password" success
+
+printf '\n==> Verify personal startup, local diagnostics and embedded revision\n'
+test "$(canonical_counts)" = "37,383,1403,383,383,383,0"
+compose exec -T app python manage.py seed_canonical --without-demo
+test "$(canonical_counts)" = "37,383,1403,383,383,383,0"
+compose exec -T app python manage.py shell -c \
+    'from growth.models import AssessmentRun; assert not AssessmentRun.objects.exists()'
+compose exec -T app python manage.py installation_status --check
+test "$(compose exec -T app cat /app/BUILD_REVISION | tr -d '\r')" = "$(git rev-parse HEAD)"
+
+printf '\n==> Explicitly opt in to the demonstration on the same persisted account\n'
+write_env "$initial_env" "$original_password" true
+compose up -d --force-recreate --wait --wait-timeout 180
 http_probe "$original_password" success
 
 printf '\n==> Verify migrations, canonical seed idempotency, and score-state replay\n'

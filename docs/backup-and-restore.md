@@ -17,7 +17,9 @@ sensitive even without account identity.
 
 ## Create and verify a pre-upgrade backup
 
-Choose a stable path so the restore command cannot select the wrong file:
+Pause application writes while creating and comparing a pre-upgrade snapshot.
+Choose a new explicit filename for each snapshot so restore cannot select the
+wrong pair. Never overwrite an existing backup:
 
 ```bash
 docker compose exec app python manage.py backup_database \
@@ -48,52 +50,73 @@ independent encrypted copy outside the Docker host. Future files under
 
 ## Upgrade and verify
 
-Do not continue if backup verification fails.
+Do not continue if backup verification fails. Record the running image ID and
+repository digest using the [operator guide](operator-convenience.md). A Git
+checkout revision does not identify an already running published image. Keep
+the previous image available and select the desired pinned `APP_IMAGE` in `.env`.
+Finish or explicitly stop affected active/paused practices on the old version
+before installing changed instructions. Never bypass the importer guard.
+
+For a published image:
 
 ```bash
-git rev-parse HEAD
-docker compose exec app python manage.py verify_m6h_operations_readiness
-docker compose exec app python manage.py verify_assessment_calibration_collection
-git pull --ff-only
-docker compose up -d --build --wait
+docker compose pull
+docker compose up -d --no-build --wait --wait-timeout 180
+docker compose exec app python manage.py installation_status --check
 docker compose exec app python manage.py migrate --check
 docker compose exec app python manage.py verify_evidence_events
 docker compose exec app python manage.py rebuild_score_state --verify-only
+docker compose exec app python manage.py rebuild_composite_score_state --verify-only
 docker compose exec app python manage.py verify_weekly_execution_readiness
 docker compose exec app python manage.py verify_m6h_operations_readiness
 docker compose exec app python manage.py verify_assessment_calibration_collection
 curl --fail http://127.0.0.1:${APP_PORT:-3000}/health/
 ```
 
-Also sign in and verify the profile, a current practice, evidence history,
-Personal OS, weekly execution, and **Account** data management.
+For a source build, use the exact clean source revision and the build command in
+the operator guide before `up --no-build`. Keep the source checkout and operational
+instructions matched to the image. Sign in and verify the profile, current
+practice, evidence/history, Personal OS, weekly execution and Account pages before
+resuming writes.
 
 ## Roll back a failed upgrade
 
-Use the exact pre-upgrade source revision printed before the upgrade. Stop all
-containers before replacing SQLite, and never copy over a running WAL database.
+Choose the exact pre-upgrade image and verified snapshot together. Restoring a
+snapshot discards later writes, so preserve the failed state separately if needed
+before replacing it. Stop the app before replacing SQLite; never copy over a
+running WAL database. Do not delete the named volume.
 
-```bash
-docker compose down
-git switch --detach <pre-upgrade-commit>
-docker compose build app
-docker compose run --rm --no-deps --entrypoint python app -c \
-  'from pathlib import Path; import shutil; source=Path("/data/backups/pre-upgrade.sqlite3"); target=Path("/data/grounded_growth.sqlite3"); shutil.copy2(source, target); target.chmod(0o600); target.with_name(target.name + "-wal").unlink(missing_ok=True); target.with_name(target.name + "-shm").unlink(missing_ok=True)'
-docker compose up -d --wait
-docker compose exec app python manage.py verify_database_backup \
-  /data/backups/pre-upgrade.sqlite3 --compare-live
-docker compose exec app python manage.py migrate --check
-docker compose exec app python manage.py verify_evidence_events
-docker compose exec app python manage.py rebuild_score_state --verify-only
-docker compose exec app python manage.py verify_weekly_execution_readiness
-docker compose exec app python manage.py verify_m6h_operations_readiness
-docker compose exec app python manage.py verify_assessment_calibration_collection
-curl --fail http://127.0.0.1:${APP_PORT:-3000}/health/
-```
+1. Run `docker compose down` and set `APP_IMAGE` back to the recorded pre-upgrade
+   digest (or preserved local image). For a source build, restore the matching
+   clean checkout and build that revision first.
+2. Verify the backup with the selected image before copying. Stop on any error:
 
-If `--compare-live` fails after restoration, keep the application stopped and
-do not waive the mismatch. Preserve both files and investigate which source,
-volume, or backup path was selected.
+   ```bash
+   docker compose run --rm --no-deps --entrypoint python app manage.py verify_database_backup /data/backups/pre-upgrade.sqlite3
+   ```
+
+3. Only after successful verification, restore while stopped:
+
+   ```bash
+   docker compose run --rm --no-deps --entrypoint python app -c 'from pathlib import Path; import shutil; source=Path("/data/backups/pre-upgrade.sqlite3"); target=Path("/data/grounded_growth.sqlite3"); shutil.copy2(source, target); target.chmod(0o600); target.with_name(target.name + "-wal").unlink(missing_ok=True); target.with_name(target.name + "-shm").unlink(missing_ok=True)'
+   docker compose run --rm --no-deps --entrypoint python app manage.py verify_database_backup /data/backups/pre-upgrade.sqlite3 --compare-live
+   ```
+
+4. Start only after the restored state matches:
+
+   ```bash
+   docker compose up -d --no-build --wait --wait-timeout 180
+   ```
+
+5. Repeat the migration, evidence, both score, weekly and operations checks above,
+   and sign in to inspect the restored records. Older images predating
+   `installation_status` can be identified through Docker; use their documented
+   checks instead of assuming this new command exists.
+
+If verification fails, keep the application stopped and preserve both files.
+Investigate the selected image, volume, backup and sidecar; do not waive a mismatch.
+The backup manifest detects corruption and inconsistency; it is not an external
+signature or proof against a person who can replace both files.
 
 ## Isolated restore drill
 

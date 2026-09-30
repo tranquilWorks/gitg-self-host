@@ -1,0 +1,120 @@
+schema_version: 1
+batch:
+  id: M6L-06-APPLICATION-CONSISTENCY
+  title: Consistent language, navigation, recovery and accessible interactions
+  goal: Make ordinary application journeys understandable and recoverable, with keyboard, form-error and
+    reflow support across shared presentation.
+sources:
+  product: gitg-self-host
+  requirements:
+  - docs/PRODUCT_DECISIONS.md#decision-046
+  - docs/plans/m6l/README.md
+  - docs/plans/m6l/actions.yaml
+  milestone: M6 Phase F / M6L-06
+  baseline_commit: a51b1214f91e5dc4756aebc1e57aca99e48503b4
+dependencies:
+- M6L-02
+- M6L-03
+- M6L-04
+- M6L-05
+scope:
+  allowed_paths:
+  - contracts/active-batch.yaml
+  - docs/plans/m6l/**
+  - docs/evidence/M6L-0*-*.md
+  - docs/PROJECT_HANDOFF.md
+  - docs/application-consistency.md
+  - MANIFEST.tsv
+  - templates/**
+  - growth/forms.py
+  - growth/presentation.py
+  - growth/templatetags/presentation.py
+  - growth/views_errors.py
+  - growth/views_personal_os.py
+  - growth/views_weekly.py
+  - growth/views_weekly_followup.py
+  - growth/views_history.py
+  - growth/views_direction.py
+  - growth/views_practice.py
+  - growth/views_data.py
+  - growth/views_evidence.py
+  - growth/views_pilot.py
+  - growth/static/growth/application.css
+  - growth/static/growth/application.js
+  - growth/static/growth/assessment.js
+  - growth/static/growth/personal_os.js
+  - growth/static/growth/contextual_forms.js
+  - grounded_growth/urls.py
+  - grounded_growth/settings.py
+  - tests/**
+  forbidden_paths:
+  - data/**
+  - reports/**
+  - docs/authoring/**
+  - growth/services/canonical_import.py
+  - growth/services/profile.py
+  - growth/services/context_priority.py
+  - .github/**
+  - Dockerfile
+  - docker-compose.yml
+  - growth/static/growth/app.css
+  - growth/urls.py
+  - growth/models.py
+  - growth/migrations/**
+  - growth/domain/**
+  - growth/services/weekly_execution.py
+  - growth/services/practice.py
+  - growth/services/**
+  - growth/views_instructional.py
+  - growth/templatetags/instructional.py
+  - templates/growth/practice_guide.html
+  - templates/growth/partials/instructional_link.html
+  - growth/static/assessment/**
+acceptance:
+- Audit all application screens and shared form surfaces; replace misleading or implementation-heavy ordinary
+  copy while retaining accurate completion, scoring and privacy boundaries.
+- Primary navigation stays concise; all secondary destinations remain keyboard accessible, with one correct
+  current-section indicator and no JavaScript dependency.
+- HTML error responses retain their status and owner protections, suppress private values and offer safe
+  GET recovery links; JSON and successful downloads retain their contracts.
+- Shared form error summaries identify fields, open collapsed invalid sections and move focus predictably;
+  assessment selection state and stage focus are accessible, and character shortcuts are scoped to focused
+  controls.
+- Verify keyboard, accessible names and descriptions, narrow reflow, increased text size, reduced motion,
+  recovery states and representative full journeys; document actual assistive-technology and participant
+  limits.
+- Preserve frozen renderer inputs, canonical data, models, all historical services, assessment mathematics
+  and stored state. No migration.
+validation:
+  local:
+  - Focused Django and browser journeys
+  - scripts/agent-verify.sh full
+  - MANIFEST and scope checks
+  - Desktop/mobile screenshot inspection
+  focused_tests_to_add:
+  - HTML errors/status/privacy/GET recovery and unchanged JSON/download contracts
+  - Form error summary and current-navigation ownership, including nested practice-context routes
+  - Keyboard assessment selection/focus and shortcut isolation; progressive navigation and form recovery
+    without JavaScript
+  - Representative application route audit at desktop/mobile/320px, increased text size and reduced motion;
+    retained screenshots
+  required_ci:
+  - Pilot readiness gate
+risk:
+  class: moderate
+  hazards:
+  - Navigation can hide a required destination or mark multiple sections current.
+  - Error rendering can expose private values or turn a safe reload into a repeated mutation.
+  - Presentation changes can alter assessment answers, focus behavior or protected renderer fingerprints.
+  stop_conditions:
+  - Protected source or historical contract drift
+  - Changed scoring, assessment or lifecycle semantics
+  - Unverified accessibility or participant claims
+rollback:
+  strategy: Revert additive presentation assets, helpers, templates and error handlers. No migration or
+    data restore; all stored records and original service contracts remain unchanged.
+evidence:
+  output:
+  - docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md
+  claim_boundary: Software and synthetic browser validation only; no new participant or specialist evidence,
+    merge, release or live data operation.

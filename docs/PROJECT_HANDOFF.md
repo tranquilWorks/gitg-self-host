@@ -1,12 +1,28 @@
 # Grounded Growth — Project Handoff
 
+## M6L-07 operator convenience — 30 September 2026
+
+The owner explicitly requested Batch 07. Work is on
+`codex/m6l-07-operator-convenience`, based on Batch 06 final head `7078f97`.
+The bounded contract covers personal/demo startup choice, embedded revision,
+authenticated installation help, read-only local diagnostics and ordered recovery
+guidance. No content, scoring or migration change. Implementation and focused
+verification are in progress; this is a stacked draft-PR batch, with no merge or
+publication. After 07, only Batch 08 / four empirical-validation actions remain.
+See [operator guide](operator-convenience.md) and
+[Batch 07 evidence](evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md).
+
+Batch 06 final CI passed every quality, browser, Compose and aggregate gate in
+[run 36646170643](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36646170643);
+publication was skipped and draft PR #110 remains unmerged.
+
 ## M6L guided product follow-up — 29 September 2026
 
 The [M6L program](plans/m6l/README.md) and [31-action register](plans/m6l/actions.yaml)
 cover eight non-competency batches. The owner requested the next batch after 05.
 M6L-06 is locally verified on `codex/m6l-06-application-consistency`, based on
 final M6L-05 head `a51b121`. [Draft PR #110](https://github.com/tranquilWorks/gitg-self-host/pull/110)
-is stacked on #109; final hosted CI is pending. It adds shared navigation, safe
+is stacked on #109; final hosted CI passed as recorded above. It adds shared navigation, safe
 HTML recovery, linked form-error summaries, assessment keyboard/focus support,
 copy cleanup and additive reflow/focus styles. All 1,986 nonbrowser cases and 52
 browser cases have passing coverage across complete runs and exact-case assertion

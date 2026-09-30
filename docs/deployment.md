@@ -8,6 +8,9 @@ uploaded application data live under `/data` in a named volume.
 
 There is no reverse proxy, database service, cache, queue, or Node.js runtime.
 
+See the [operator guide](operator-convenience.md) for startup choices, installed
+revision, configuration diagnosis and authentication recovery.
+
 ## First installation
 
 ```bash
@@ -24,6 +27,7 @@ Edit `.env` before starting:
 | `APP_BOOTSTRAP_USERNAME` | First username, used only if no user exists. |
 | `APP_BOOTSTRAP_PASSWORD` | First password, used only if no user exists. |
 | `APP_TIME_ZONE` | IANA zone such as `America/Los_Angeles`; defaults to `UTC`. |
+| `APP_SEED_DEMO` | `false` by default: personal start; explicitly set `true` to seed Pilot 002 into the earliest-created account. Never removes existing history. |
 | `APP_DEBUG` | Keep `false` in deployment. |
 | `APP_SECURE_COOKIES` | Keep `false` for direct HTTP; set `true` behind HTTPS. |
 | `APP_OWNER_RETENTION_ENABLED` | Keep `false` unless the owner deliberately enables previewable draft/feedback retention. |
@@ -62,7 +66,10 @@ publication also has `sha-<full-commit>` and digest references. `APP_IMAGE` in
 The publishing job runs only after the main revision passes the aggregate
 **Pilot readiness gate**; it pulls the resulting digest and validates its catalog.
 
-For a source build, run `docker compose up -d --build`. For a published image,
+For a clean source build, run
+`APP_BUILD_REVISION="$(git rev-parse HEAD)" docker compose build app`, then
+`docker compose up -d --no-build`. Omit the revision for an uncommitted tree;
+its metadata is then honestly `unknown`. For a published image,
 use `docker compose pull` followed by `docker compose up -d --no-build` so a
 local build does not replace the pulled image.
 
@@ -80,7 +87,7 @@ The non-root container user runs these steps on every start:
 1. `manage.py validate_canonical_content`
 2. `manage.py migrate --noinput`
 3. `manage.py bootstrap_user`
-4. `manage.py seed_canonical`
+4. `manage.py seed_canonical --startup`
 5. `manage.py backfill_evidence_events`
 6. `manage.py rebuild_score_state`
 7. `manage.py rebuild_composite_score_state`
@@ -189,9 +196,12 @@ instructions or evidence rules. It never silently converts an existing attempt.
 If an upgrade stops at this guard, restart the previous pinned image and finish
 or stop the practice there; keep its data volume and backup.
 
-Record the current image digest before upgrading (`docker inspect` on the running
-container shows its image ID). Keep that image locally or pin its published digest
-for rollback. Use the verified pre-upgrade workflow:
+Record the running image ID and its repository digest using the
+[operator guide](operator-convenience.md#identify-the-installation-before-updating);
+they are different identifiers. Keep the prior image locally and select an exact
+`APP_IMAGE` digest or revision tag in `.env` for the intended upgrade. Follow the
+[backup and restore sequence](backup-and-restore.md), pausing writes during backup
+comparison. Use the verified pre-upgrade workflow:
 
 ```bash
 docker compose exec app python manage.py backup_database \
@@ -202,6 +212,7 @@ git pull --ff-only
 docker compose pull
 docker compose up -d --no-build
 docker compose ps
+docker compose exec app python manage.py installation_status --check
 docker compose exec app python manage.py migrate --check
 docker compose exec app python manage.py verify_m6h_operations_readiness
 docker compose exec app python manage.py verify_assessment_calibration_collection

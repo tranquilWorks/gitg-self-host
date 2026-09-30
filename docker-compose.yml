@@ -3,6 +3,8 @@ services:
     image: "${APP_IMAGE:-ghcr.io/tranquilworks/gitg-self-host:latest}"
     build:
       context: .
+      args:
+        APP_BUILD_REVISION: "${APP_BUILD_REVISION:-unknown}"
     env_file:
       - "${APP_ENV_FILE:-.env}"
     environment:
