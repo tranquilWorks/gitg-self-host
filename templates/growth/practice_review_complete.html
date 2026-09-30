@@ -46,7 +46,6 @@
       <dl class="metric-list">
         <div><dt>Actions attempted</dt><dd>{{ review.actions_attempted }} of {{ sprint.protocol.actions.count }}</dd></div>
         <div><dt>Actions completed</dt><dd>{{ review.actions_completed }} of {{ sprint.protocol.actions.count }}</dd></div>
-        <div><dt>Substantive interaction</dt><dd>Recorded</dd></div>
         <div>
           <dt>Completion credit</dt>
           <dd>{% if credit_event %}{{ credit_event.completion_credit|percentage }}{% else %}Historical contract{% endif %}</dd>

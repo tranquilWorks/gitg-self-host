@@ -1,17 +1,18 @@
 {% extends "base.html" %}
+{% load static %}
 
-{% block title %}Practice recommendations · Grounded Growth{% endblock %}
+{% block title %}Choose a practice · Grounded Growth{% endblock %}
+
+{% block extra_styles %}
+  <link rel="stylesheet" href="{% static 'growth/guided_entry.css' %}">
+{% endblock %}
 
 {% block content %}
   <section class="page-heading">
     <div>
-      <p class="eyebrow">Practice recommendations</p>
-      <h1>Specific experiments, held lightly.</h1>
-      <p class="lede">
-        Recommendations connect your provisional profile to a bounded protocol.
-        They are invitations to gather experience—not judgments, prescriptions,
-        or evidence of human value.
-      </p>
+      <p class="eyebrow">Practices</p>
+      <h1>Choose one useful next step.</h1>
+      <p class="lede">Start with a suggestion, check that it fits your life, and make room for one bounded practice.</p>
     </div>
   </section>
 
@@ -23,71 +24,69 @@
     </section>
   {% endif %}
 
-  <section class="context-summary" role="note">
-    <div>
-      <strong>{% if priority.context_aware %}Context-aware ordering within your reviewed cohort{% else %}Provisional need order{% endif %}</strong>
-      <p>{{ priority.message }}</p>
-      <small>{{ priority.reviewed_count }} of {{ priority.active_count }} active canonical practices explicitly reviewed for this assessment epoch.</small>
+  <section class="section-block" aria-labelledby="suggestions-heading">
+    <h2 id="suggestions-heading">Suggested for you</h2>
+    <div class="context-summary" role="note">
+      <div>
+        <strong>{% if priority.context_aware %}Based on the practices you reviewed{% else %}Based on assessment and completed practices{% endif %}</strong>
+        <p>{{ priority.message }}</p>
+        {% if priority.reviewed_count %}<small>You have reviewed the fit of {{ priority.reviewed_count }} practices since your latest assessment.</small>{% endif %}
+      </div>
+      <a class="text-link" href="{% url 'growth:personal-os' %}">Review your direction and capacity <span aria-hidden="true">→</span></a>
     </div>
-    <a class="text-link" href="{% url 'growth:personal-os' %}">Review Personal OS and context <span aria-hidden="true">→</span></a>
+    {% if priority.context_aware %}<p>Other practices are not ranked by current context. That does not make them unfavorable; you can explore them below.</p>{% endif %}
+    {% if ranked_protocols %}
+      <div class="card-grid" id="practice-suggestions">
+        {% for protocol in ranked_protocols %}{% include "growth/practice_card.html" with recommended=True %}{% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state compact">
+        <p>No suggestions are available yet. An assessment gives you a starting point; you can also explore the available practices.</p>
+        <a class="text-link" href="{% url 'growth:assessment' %}">Take or import an assessment</a>
+      </div>
+    {% endif %}
   </section>
 
-  <div class="card-grid">
-    {% for protocol in ranked_protocols %}
-      <article class="practice-card" data-availability="{{ protocol.availability }}">
-        <div class="card-meta">
-          {% if protocol.duration_days %}
-            <span>{{ protocol.duration_days }} days</span>
-          {% else %}
-            <span>Duration pending</span>
-          {% endif %}
-          {% if protocol.pk in recommended_ids %}
-            <span class="status-pill status-pill-ready">{% if priority.context_aware %}Context fit{% else %}Recommended{% endif %}</span>
-          {% elif protocol.availability == "active" %}
-            <span class="status-pill">Available</span>
-          {% else %}
-            <span class="status-pill status-pill-muted">Inactive</span>
-          {% endif %}
-        </div>
-        <h2>{{ protocol.name }}</h2>
-        {% if protocol.recommendation_reason %}
-          <p>{{ protocol.recommendation_reason }}</p>
-        {% else %}
-          <p>This structured placeholder is intentionally inactive until its protocol is reviewed.</p>
-        {% endif %}
-        <a class="text-link" href="{% url 'growth:practice-recommendation' protocol.slug %}">
-          Review protocol <span aria-hidden="true">→</span>
-        </a>
-        {% if protocol.availability == "active" %}
-          <p><a class="text-link" href="{% url 'growth:practice-context' protocol.slug %}">Review current context</a></p>
-        {% endif %}
-      </article>
-    {% endfor %}
-  </div>
-
-  {% if priority.context_aware and not_context_ranked %}
-    <section class="section-block" aria-labelledby="not-context-ranked-heading">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Outside the current context ranking</p>
-          <h2 id="not-context-ranked-heading">Not ranked by current context</h2>
-        </div>
-        <p class="section-note">These include unreviewed or withheld practices. That does not make them unfavorable.</p>
+  <section class="section-block" aria-labelledby="explore-heading">
+    <h2 id="explore-heading">Explore practices</h2>
+    <p>Search by topic, practice name or competency number. Browsing does not change your recommendations or record a choice.</p>
+    <form method="get" class="panel discovery-form" role="search">
+      <input type="hidden" name="browse" value="1">
+      <div class="form-field">
+        <label for="practice-query">Search practices</label>
+        <input id="practice-query" type="search" name="q" maxlength="120" value="{{ explorer.query }}">
       </div>
-      <div class="card-grid">
-        {% for protocol in not_context_ranked %}
-          <article class="practice-card" data-availability="{{ protocol.availability }}">
-            <div class="card-meta">
-              {% if protocol.duration_days %}<span>{{ protocol.duration_days }} days</span>{% else %}<span>Duration pending</span>{% endif %}
-              {% if protocol.availability == "active" %}<span class="status-pill">Available</span>{% else %}<span class="status-pill status-pill-muted">Inactive</span>{% endif %}
-            </div>
-            <h2>{{ protocol.name }}</h2>
-            {% if protocol.recommendation_reason %}<p>{{ protocol.recommendation_reason }}</p>{% else %}<p>This structured placeholder is intentionally inactive until its protocol is reviewed.</p>{% endif %}
-            <a class="text-link" href="{% url 'growth:practice-recommendation' protocol.slug %}">Review protocol <span aria-hidden="true">→</span></a>
-            {% if protocol.availability == "active" %}<p><a class="text-link" href="{% url 'growth:practice-context' protocol.slug %}">Review current context</a></p>{% endif %}
-          </article>
-        {% endfor %}
+      <div class="form-field">
+        <label for="practice-domain">Area of life</label>
+        <select id="practice-domain" name="domain">
+          <option value="">All areas</option>
+          {% if not explorer.valid_domain %}<option value="{{ explorer.domain }}" selected>Unavailable area</option>{% endif %}
+          {% for value, label in explorer.domains %}<option value="{{ value }}"{% if explorer.domain == value %} selected{% endif %}>{{ label }}</option>{% endfor %}
+        </select>
       </div>
-    </section>
-  {% endif %}
+      <div class="button-row">
+        <button type="submit" class="button">Find practices</button>
+        <a class="text-link" href="?browse=1#explore-heading">Browse all practices</a>
+      </div>
+    </form>
+    {% if explorer.page is not None %}
+      {% if explorer.page.paginator.count %}
+        <p role="status">Showing {{ explorer.page.start_index }}–{{ explorer.page.end_index }} of {{ explorer.page.paginator.count }} practices. These are browsing results, not a personalized ranking.</p>
+        <div class="card-grid" id="practice-results">
+          {% for protocol in explorer.page %}{% include "growth/practice_card.html" with recommended=False %}{% endfor %}
+        </div>
+        <nav class="button-row discovery-pagination" aria-label="Practice results pages">
+          {% if explorer.previous_query %}<a class="button button-secondary" href="?{{ explorer.previous_query }}#explore-heading">Previous page</a>{% endif %}
+          <span>Page {{ explorer.page.number }} of {{ explorer.page.paginator.num_pages }}</span>
+          {% if explorer.next_query %}<a class="button button-secondary" href="?{{ explorer.next_query }}#explore-heading">Next page</a>{% endif %}
+        </nav>
+      {% else %}
+        <div class="empty-state compact" role="status">
+          <h3>No matching practices</h3>
+          <p>Try a shorter search or choose another area. Your suggestions above are unchanged.</p>
+          <a class="text-link" href="?browse=1#explore-heading">Clear filters and browse all practices</a>
+        </div>
+      {% endif %}
+    {% endif %}
+  </section>
 {% endblock %}

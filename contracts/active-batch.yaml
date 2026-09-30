@@ -1,94 +1,92 @@
 schema_version: 1
 batch:
-  id: M6K-CATALOG-OWNER-RELEASE-20260928
-  title: Audit, polish and publish the owner-accepted competency product
-  goal: Verify final learner quality and startup performance, merge all catalog work, and publish a pullable
-    versioned container for owner inspection.
+  id: M6L-01-GUIDED-ENTRY
+  title: Guide entry and discovery without changing the development model
+  goal: Deliver a concise home-to-practice journey with explicit demo labeling, searchable exploration
+    and accurate product copy.
 sources:
-  baseline_commit: bdc092b
-  owner_instruction: Assume owner quality acceptance; perform final audit/polish, merge everything and
-    publish a Docker container for owner inspection.
+  product: gitg-self-host
   requirements:
-  - docs/plans/m6k/program.json
-  - docs/plans/m6k/REVIEW_RECORD.md
-  - docs/authoring/catalog-quality-audit-20260927/README.md
+  - docs/PRODUCT_DECISIONS.md#decision-046
+  - docs/plans/m6l/README.md
+  - docs/plans/m6l/actions.yaml
+  milestone: M6 Phase F / M6L-01
+  baseline_commit: c0208be6c031b37c75657f8190e50305a691c463
+dependencies: []
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
-  - contracts/tailored-practice-authoring.yaml
-  - contracts/catalog-guide-sources.yaml
-  - scripts/**
-  - growth/services/practice_content_reports.py
-  - growth/domain/instructional_content.py
-  - growth/views_instructional.py
-  - growth/templatetags/instructional.py
-  - templates/growth/practice_guide.html
-  - growth/static/growth/app.css
-  - data/practices/protocols/**
-  - data/practices/registries/guides/**
-  - data/practices/schema/instructional_content_v1.schema.json
-  - data/practices/release_manifest.yaml
-  - data/practices/registries/source_registry.yaml
-  - reports/**
-  - tests/**
-  - requirements.txt
-  - docker-compose.yml
-  - docs/authoring/catalog-product-integration-20260928/**
-  - docs/plans/m6k/runtime-projections.json
-  - docs/plans/m6k/reviews.py
+  - docs/plans/m6l/**
+  - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
   - docs/PROJECT_HANDOFF.md
-  - docs/evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md
+  - growth/views.py
+  - growth/views_practice.py
+  - growth/services/practice_discovery.py
+  - growth/services/personal_os_browser.py
+  - templates/growth/home.html
+  - templates/growth/practice_list.html
+  - templates/growth/practice_card.html
+  - templates/growth/personal_os.html
+  - templates/growth/weekly_execution.html
+  - templates/growth/practice_review_complete.html
+  - tests/**
   - MANIFEST.tsv
-  - growth/domain/practice_content.py
-  - .github/workflows/verification.yml
-  - Dockerfile
-  - .env.example
-  - README.md
-  - docs/deployment.md
-  - docs/evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md
+  - scripts/verify_http_login.py
+  - growth/static/growth/guided_entry.css
+  - templates/base.html
   forbidden_paths:
-  - docs/authoring/catalog-quality-audit-20260927/**
-  - docs/authoring/catalog-remediation-20260927/**
-  - docs/authoring/quality/**
-  - docs/plans/m6k/recovery/**
-  - data/curriculum/**
-  - data/assessment/**
-  - data/model/**
-  - data/practices/registries/activation_ledger.yaml
+  - data/**
+  - reports/**
+  - docs/authoring/**
+  - growth/models.py
+  - growth/migrations/**
+  - growth/domain/**
+  - growth/services/canonical_import.py
+  - growth/services/profile.py
+  - growth/services/context_priority.py
+  - .github/**
+  - Dockerfile
+  - docker-compose.yml
+  - growth/static/growth/app.css
 acceptance:
-- All 383 competencies have a manifest-bound learner guide; individually authored actions replace remaining
-  270 generic typed practices.
-- Five frozen legacy projections remain byte-identical; four retained typed rules remain exact. Stable
-  IDs, action counts, completion rules, mappings, activation and scoring mathematics are unchanged.
-- Prospective primary observation criteria use the existing pure authoring compiler and immutable event
-  snapshots. No historical data write or in-flight practice replacement.
-- Preserve repaired source documents and historical reports. Explicit later packets, materials and answers
-  reach authenticated learners with safe formatting and no unrevealed key body.
-- Per-competency parity and app/browser tests distinguish software evidence from independent authorship,
-  specialist acceptance and actual learner results.
-- Owner authorizes merge and image publication after final checks. Owner product acceptance is recorded;
-  specialist, learner and formal per-competency reviews are not fabricated. No live instance is upgraded.
+- Home leads with direction, this week and a concrete next action; no archetype headline; no-assessment
+  path reaches the existing assessment.
+- Seeded users see an unambiguous demonstration notice and their own assessment CTA; real-assessment
+  users do not; existing seed data is preserved.
+- Default shows at most three existing recommendations; explicit browsing/search/domain filters yield
+  deterministic twelve-item pages, accessible links and a useful empty state without ranking changes.
+- Personal OS accurately links account archive/deletion; generic practice completion never claims
+  a substantive interaction unconditionally; visible context messages use ordinary language.
+- Fresh/demo/real-user, filtered/paginated, keyboard/mobile and no-state-mutation coverage passes;
+  review screenshots and record exact verification.
+- Canonical content, ranking mathematics, scoring, private text isolation and persisted user history
+  remain unchanged.
 validation:
   local:
-  - Ruff and Django checks
-  - pytest and source checks
-  - Playwright guide journeys
-  - pilot-check
-  - curriculum-check
-  - competency-evidence-check
-  - compose-smoke if available
-  - deterministic compiler and governance reports
-  - recovery invariants
-  - manifest verification
-  - git diff --check
+  - Focused Django and browser journeys
+  - scripts/agent-verify.sh full
+  - MANIFEST and scope checks
+  - Desktop/mobile screenshot inspection
+  focused_tests_to_add:
+  - Demo versus actual/no assessment entry
+  - Search/domain/pagination completeness and safe query rendering
+  - Bounded recommendations without score/context mutation
+  - Mobile and keyboard discovery journey
   required_ci:
   - Pilot readiness gate
 risk:
   class: moderate
+  hazards:
+  - Presentation could imply demo data is personal or browsing is a personalized rank.
+  - Filtering could hide results or leak private query/context text.
   stop_conditions:
-  - Unexplained protected source drift
-  - Historical event or active/paused practice mutation
-  - Fabricated human acceptance
+  - Protected source or historical data drift
+  - Private authored text exposed outside existing surfaces
+  - Changed ranking or scoring semantics
+rollback:
+  strategy: Revert presentation/service/test changes; no migration or database restore required.
 evidence:
   output:
-  - docs/evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md
+  - docs/evidence/M6L-01-GUIDED-ENTRY-20260929.md
+  claim_boundary: Software and synthetic browser validation only; no new participant or specialist
+    evidence, merge, release or live data operation.

@@ -101,7 +101,7 @@ def test_personal_os_page_has_exact_prompts_privacy_notice_and_no_context_defaul
         "Where, if anywhere, do your actions or commitments feel out of step or fragmented?",
         "What one deliberate next step, if any, would make direction clearer?",
         "included in normal database backups",
-        "no dedicated Personal OS or context export",
+        "download your private archive",
         "urgent-support monitoring",
     ):
         assert text in body
@@ -260,7 +260,7 @@ def test_partial_context_cohort_orders_only_verified_eligible_practices(client, 
     assert {item.stable_id for item in priority.recommendations} == {
         item.stable_id for item in protocols[:2]
     }
-    assert b"only among the explicitly reviewed practices" in home.content
+    assert b"only the practices whose fit you have reviewed" in home.content
 
 
 @pytest.mark.django_db
@@ -350,7 +350,7 @@ def test_missing_capacity_and_no_eligible_are_not_zero_or_context_aware(client, 
     unavailable = client.get(reverse("growth:home")).context["priority"]
     assert unavailable.status == "no_eligible"
     assert unavailable.context_aware is False
-    assert "not context-aware" in unavailable.message
+    assert "does not yet reflect current fit" in unavailable.message
 
 
 @pytest.mark.django_db
@@ -390,14 +390,12 @@ def test_browser_order_matches_direct_frozen_result_and_context_retry_is_idempot
     assert [item.stable_id for item in library.context["ranked_protocols"]] == list(
         direct.ranked_candidate_ids[:3]
     )
-    expected_rest = [
-        item.stable_id
-        for item in PracticeProtocol.objects.order_by("display_order")
-        if item.stable_id not in direct.ranked_candidate_ids[:3]
-    ]
-    assert [item.stable_id for item in library.context["not_context_ranked"]] == expected_rest
-    assert b"Not ranked by current context" in library.content
+    assert library.context["explorer"]["page"] is None
+    assert b"not ranked by current context" in library.content
     assert b"does not make them unfavorable" in library.content
+    explored = client.get(reverse("growth:practice-list"), {"browse": "1"})
+    assert explored.context["explorer"]["page"].paginator.count == 383
+    assert len(explored.context["explorer"]["page"]) == 12
 
 
 @pytest.mark.django_db

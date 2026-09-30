@@ -1,79 +1,46 @@
 {% extends "base.html" %}
-{% load growth_extras %}
+{% load growth_extras static %}
 
 {% block title %}Home · Grounded Growth{% endblock %}
+
+{% block extra_styles %}
+  <link rel="stylesheet" href="{% static 'growth/guided_entry.css' %}">
+{% endblock %}
 
 {% block content %}
   <section class="page-heading">
     <div>
-      <p class="eyebrow">Working profile</p>
-      <h1>Welcome back.</h1>
+      <p class="eyebrow">Your next step</p>
+      <h1 id="home-heading">{% if summary.assessment_run %}Make room for what matters.{% else %}Start with where you are.{% endif %}</h1>
       {% if summary.assessment_run %}
-        {% with lead=summary.assessment_run.archetype_results.all.0 strength=summary.strongest_capacities.0 need=summary.highest_needs.0 %}
-          <p class="lede">
-            Your latest provisional map is led by
-            {% if lead %}{{ lead.name }}{% else %}a mixed orientation profile{% endif %},
-            with a strong current signal in
-            {% if strength %}{{ strength.lever.name }}{% else %}several capacities{% endif %}.
-            The first balancing focus is
-            {% if need %}{{ need.lever.name }}{% else %}still being established{% endif %}.
-          </p>
-        {% endwith %}
+        <p class="lede">Choose a direction for this season, make one practice concrete, and review what happened.</p>
       {% else %}
-        <p class="lede">Your profile will appear after an assessment is available.</p>
+        <p class="lede">A short assessment gives you a starting point. Then choose what matters this season and one practical step that fits your life.</p>
       {% endif %}
     </div>
     <a class="text-link" href="{% url 'growth:profile' %}">View developmental profile <span aria-hidden="true">→</span></a>
   </section>
 
-  {% if summary.assessment_run %}
-    <div class="status-note" role="note">
-      {% if summary.state_verification_error %}
-        <strong>Current evidence updates are paused.</strong>
-        {{ summary.state_verification_error }} The assessment baseline is shown
-        until the instance owner repairs the audit state.
-      {% else %}
-        <strong>Your assessment baseline remains fixed.</strong>
-        Check-ins preserve evidence but do not change completion credit. An
-        explicit final practice closeout updates coverage and recommendation
-        order. Orientations and archetypes do not change.
-      {% endif %}
-    </div>
+  {% if summary.assessment_run.source == "pilot_seed" %}
+    <section class="status-note" aria-labelledby="demo-heading">
+      <strong id="demo-heading">You are exploring a demonstration profile.</strong>
+      <p>The example assessment and its suggestions are not a personal assessment of you. Take or import your own assessment when you are ready.</p>
+      <a class="button button-secondary" href="{% url 'growth:assessment' %}">Start my own assessment</a>
+    </section>
   {% endif %}
 
-  {% if summary.assessment_run %}
-    <div class="context-summary" role="note">
-      <div>
-        <strong>{% if priority.context_aware %}Current context fit is available.{% else %}Context-aware ordering is not active.{% endif %}</strong>
-        <p>{{ priority.message }}</p>
-        {% if priority.reviewed_count %}
-          <small>{{ priority.reviewed_count }} of {{ priority.active_count }} active canonical practices explicitly reviewed for this assessment epoch.</small>
-        {% endif %}
-      </div>
-      <a class="text-link" href="{% url 'growth:personal-os' %}">Review Personal OS and context <span aria-hidden="true">→</span></a>
-    </div>
+  {% if not active_sprint %}
+    <section class="panel journey-start" aria-labelledby="start-heading">
+      <h2 id="start-heading">Find your starting point</h2>
+      <ol class="journey-steps">
+        <li><strong>Understand your starting point.</strong> Take or import the assessment; the result is a provisional guide.<br><a href="{% url 'growth:assessment' %}">Open assessment</a></li>
+        <li><strong>Choose what matters now.</strong> Reflect on direction and the time and capacity available to you.<br><a href="{% url 'growth:personal-os' %}">Choose your direction</a></li>
+        <li><strong>Try one bounded practice.</strong> Review its fit, set it up, then plan one action for the week.<br><a href="{% url 'growth:practice-list' %}">Choose a practice</a></li>
+      </ol>
+    </section>
   {% endif %}
 
-  {% if summary.assessment_run %}
-    <div class="context-summary" role="note">
-      <div>
-        <strong>
-          {% if weekly_review_pending %}A weekly proof review is ready.
-          {% elif weekly_plan %}This week has one concrete action.
-          {% else %}This week is not planned yet.{% endif %}
-        </strong>
-        {% if weekly_review_pending %}
-          <p>Review only the submitted evidence attached to {{ weekly_review_pending.action.title }}.</p>
-        {% elif weekly_plan %}
-          <p>{{ weekly_plan.action.title }} is planned for {{ weekly_plan.intended_on|date:"l, M j" }}.</p>
-        {% else %}
-          <p>Connect the current Personal OS direction to one action from the active practice.</p>
-        {% endif %}
-      </div>
-      <a class="text-link" href="{% url 'growth:weekly-execution' %}">Open weekly execution <span aria-hidden="true">→</span></a>
-    </div>
-  {% endif %}
-
+  {% if active_sprint %}
   <div class="dashboard-grid">
     <section class="panel panel-prominent">
       <div class="panel-heading">
@@ -89,7 +56,7 @@
       </div>
       {% if active_sprint %}
         {% if active_sprint.status == "paused" %}
-          <p>This practice is paused. Resume it when the relationship and timing fit.</p>
+          <p>This practice is paused. Resume it when your situation and timing fit.</p>
         {% elif practice_evidence.ready_for_review %}
           <p>
             {% if practice_evidence.actions_completed == practice_evidence.total_actions %}
@@ -124,7 +91,7 @@
     </section>
 
     <section class="panel next-action">
-      <p class="eyebrow">Next required action</p>
+      <p class="eyebrow">Next action</p>
       {% if active_sprint %}
         {% if active_sprint.status == "paused" %}
           <h2>Decide whether to resume.</h2>
@@ -150,17 +117,52 @@
     </section>
   </div>
 
+  {% endif %}
+
+  {% if active_sprint or weekly_review_pending or weekly_plan %}
+    <div class="context-summary" role="note">
+      <div>
+        <strong>
+          {% if weekly_review_pending %}A weekly proof review is ready.
+          {% elif weekly_plan %}This week has one concrete action.
+          {% else %}This week is not planned yet.{% endif %}
+        </strong>
+        {% if weekly_review_pending %}
+          <p>Review only the submitted evidence attached to {{ weekly_review_pending.action.title }}.</p>
+        {% elif weekly_plan %}
+          <p>{{ weekly_plan.action.title }} is planned for {{ weekly_plan.intended_on|date:"l, M j" }}.</p>
+        {% else %}
+          <p>Connect the current Personal OS direction to one action from the active practice.</p>
+        {% endif %}
+      </div>
+      <a class="text-link" href="{% url 'growth:weekly-execution' %}">Open weekly execution <span aria-hidden="true">→</span></a>
+    </div>
+  {% endif %}
+
+  {% if priority.reviewed_count %}
+    <div class="context-summary" role="note">
+      <div>
+        <strong>{% if priority.context_aware %}Suggestions reflect the fit you reviewed.{% else %}Check what fits your life now.{% endif %}</strong>
+        <p>{{ priority.message }}</p>
+        {% if priority.reviewed_count %}
+          <small>You have reviewed the fit of {{ priority.reviewed_count }} practices since your latest assessment.</small>
+        {% endif %}
+      </div>
+      <a class="text-link" href="{% url 'growth:personal-os' %}">Review your direction and capacity <span aria-hidden="true">→</span></a>
+    </div>
+  {% endif %}
+
   <section class="section-block" aria-labelledby="recommendations-heading">
     <div class="section-heading">
       <div>
         <p class="eyebrow">Recommended next</p>
-        <h2 id="recommendations-heading">Bounded practices, not open-ended homework</h2>
+        <h2 id="recommendations-heading">A few places to begin</h2>
       </div>
       <p class="section-note">
         {% if priority.context_aware %}
-          Ordered only among explicitly reviewed practices by provisional need and current context fit.
+          Suggestions use the current fit you explicitly reviewed.
         {% else %}
-          Recommendation order combines assessment need with human-closeout completion coverage; completion never implies mastery.
+          Suggestions combine your assessment with completed practices. Check their fit before starting.
         {% endif %}
       </p>
     </div>
@@ -189,12 +191,31 @@
       {% empty %}
         <article class="empty-state">
           <h3>No recommendations yet</h3>
-          <p>Seed or import a profile to establish a provisional starting point.</p>
+          <p>Take or import an assessment to establish a provisional starting point.</p>
         </article>
       {% endfor %}
     </div>
   </section>
 
+  {% if summary.assessment_run %}
+    <details class="stage-panel"{% if summary.state_verification_error %} open{% endif %}>
+      <summary>How assessment, evidence and completion relate</summary>
+      <div class="stage-panel-body">
+      {% if summary.state_verification_error %}
+        <strong>Current evidence updates are paused.</strong>
+        {{ summary.state_verification_error }} The assessment baseline is shown
+        until the instance owner repairs the audit state.
+      {% else %}
+        <strong>Your assessment baseline remains fixed.</strong>
+        Check-ins preserve evidence but do not change completion credit. An
+        explicit final practice closeout updates coverage and recommendation
+        order. Orientations and archetypes do not change.
+      {% endif %}
+      </div>
+    </details>
+  {% endif %}
+
+  {% if active_sprint or recent_check_ins %}
   <section class="section-block" aria-labelledby="history-heading">
     <div class="section-heading">
       <div>
@@ -229,4 +250,5 @@
       </div>
     {% endif %}
   </section>
+  {% endif %}
 {% endblock %}

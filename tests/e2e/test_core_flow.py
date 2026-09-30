@@ -139,7 +139,7 @@ def test_login_home_and_profile_core_flow(live_server, page: Page):
 
     log_in(live_server, page)
     assert page.url == f"{live_server.url}/"
-    page.get_by_role("heading", name="No practice in progress").wait_for()
+    page.get_by_role("heading", name="Find your starting point").wait_for()
     page.get_by_text("Deepen One Existing Friendship", exact=True).wait_for()
     page.get_by_role("link", name="View developmental profile").click()
 
@@ -168,8 +168,11 @@ def test_mobile_keyboard_walkthrough_covers_all_active_protocols(live_server, pa
     save_walkthrough_screenshot(page, "mobile-home")
 
     page.get_by_role("link", name="Practices", exact=True).click()
-    expect(page.locator(".practice-card")).to_have_count(383)
-    expect(page.locator('.practice-card[data-availability="active"]')).to_have_count(383)
+    expect(page.locator("#practice-suggestions .practice-card")).to_have_count(3)
+    expect(page.locator("#practice-results")).to_have_count(0)
+    page.get_by_role("link", name="Browse all practices", exact=True).click()
+    expect(page.locator("#practice-results .practice-card")).to_have_count(12)
+    expect(page.get_by_text("Page 1 of 32", exact=True)).to_be_visible()
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "mobile-practice-library", full_page=False)
 
@@ -285,7 +288,7 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
 
     page.goto(f"{live_server.url}/")
     assert sentinel not in page.locator("body").inner_text()
-    page.get_by_text("Current context fit is available.").wait_for()
+    page.get_by_text("Suggestions reflect the fit you reviewed.").wait_for()
     assert_no_horizontal_overflow(page)
     page.evaluate("document.body.style.zoom = '200%'")
     assert_no_horizontal_overflow(page)
@@ -294,7 +297,7 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
 
     page.set_viewport_size({"width": 1440, "height": 1000})
     page.goto(f"{live_server.url}/practices/")
-    page.get_by_role("heading", name="Not ranked by current context").wait_for()
+    page.get_by_text("Other practices are not ranked by current context.", exact=False).wait_for()
     assert sentinel not in page.locator("body").inner_text()
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "desktop-context-ranking-synthetic")
@@ -897,7 +900,10 @@ def test_guided_practice_draft_pause_and_completion_flow(live_server, page: Page
     log_in(live_server, page)
 
     page.get_by_role("link", name="Practices", exact=True).click()
-    page.get_by_role("link", name="Review protocol").first.click()
+    friendship_card = page.locator(".practice-card").filter(
+        has=page.get_by_role("heading", name="Deepen One Existing Friendship", exact=True)
+    )
+    friendship_card.get_by_role("link", name="Review practice", exact=True).click()
     page.get_by_role("heading", name="Deepen One Existing Friendship").wait_for()
     page.get_by_text("You will not need to invent the practice.").wait_for()
     page.get_by_role("link", name="Start guided setup").click()

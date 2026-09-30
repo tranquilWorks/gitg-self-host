@@ -1,0 +1,94 @@
+schema_version: 1
+batch:
+  id: M6K-CATALOG-OWNER-RELEASE-20260928
+  title: Audit, polish and publish the owner-accepted competency product
+  goal: Verify final learner quality and startup performance, merge all catalog work, and publish a pullable
+    versioned container for owner inspection.
+sources:
+  baseline_commit: bdc092b
+  owner_instruction: Assume owner quality acceptance; perform final audit/polish, merge everything and
+    publish a Docker container for owner inspection.
+  requirements:
+  - docs/plans/m6k/program.json
+  - docs/plans/m6k/REVIEW_RECORD.md
+  - docs/authoring/catalog-quality-audit-20260927/README.md
+scope:
+  allowed_paths:
+  - contracts/active-batch.yaml
+  - contracts/tailored-practice-authoring.yaml
+  - contracts/catalog-guide-sources.yaml
+  - scripts/**
+  - growth/services/practice_content_reports.py
+  - growth/domain/instructional_content.py
+  - growth/views_instructional.py
+  - growth/templatetags/instructional.py
+  - templates/growth/practice_guide.html
+  - growth/static/growth/app.css
+  - data/practices/protocols/**
+  - data/practices/registries/guides/**
+  - data/practices/schema/instructional_content_v1.schema.json
+  - data/practices/release_manifest.yaml
+  - data/practices/registries/source_registry.yaml
+  - reports/**
+  - tests/**
+  - requirements.txt
+  - docker-compose.yml
+  - docs/authoring/catalog-product-integration-20260928/**
+  - docs/plans/m6k/runtime-projections.json
+  - docs/plans/m6k/reviews.py
+  - docs/PROJECT_HANDOFF.md
+  - docs/evidence/M6K-CATALOG-PRODUCT-INTEGRATION-20260928.md
+  - MANIFEST.tsv
+  - growth/domain/practice_content.py
+  - .github/workflows/verification.yml
+  - Dockerfile
+  - .env.example
+  - README.md
+  - docs/deployment.md
+  - docs/evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md
+  forbidden_paths:
+  - docs/authoring/catalog-quality-audit-20260927/**
+  - docs/authoring/catalog-remediation-20260927/**
+  - docs/authoring/quality/**
+  - docs/plans/m6k/recovery/**
+  - data/curriculum/**
+  - data/assessment/**
+  - data/model/**
+  - data/practices/registries/activation_ledger.yaml
+acceptance:
+- All 383 competencies have a manifest-bound learner guide; individually authored actions replace remaining
+  270 generic typed practices.
+- Five frozen legacy projections remain byte-identical; four retained typed rules remain exact. Stable
+  IDs, action counts, completion rules, mappings, activation and scoring mathematics are unchanged.
+- Prospective primary observation criteria use the existing pure authoring compiler and immutable event
+  snapshots. No historical data write or in-flight practice replacement.
+- Preserve repaired source documents and historical reports. Explicit later packets, materials and answers
+  reach authenticated learners with safe formatting and no unrevealed key body.
+- Per-competency parity and app/browser tests distinguish software evidence from independent authorship,
+  specialist acceptance and actual learner results.
+- Owner authorizes merge and image publication after final checks. Owner product acceptance is recorded;
+  specialist, learner and formal per-competency reviews are not fabricated. No live instance is upgraded.
+validation:
+  local:
+  - Ruff and Django checks
+  - pytest and source checks
+  - Playwright guide journeys
+  - pilot-check
+  - curriculum-check
+  - competency-evidence-check
+  - compose-smoke if available
+  - deterministic compiler and governance reports
+  - recovery invariants
+  - manifest verification
+  - git diff --check
+  required_ci:
+  - Pilot readiness gate
+risk:
+  class: moderate
+  stop_conditions:
+  - Unexplained protected source drift
+  - Historical event or active/paused practice mutation
+  - Fabricated human acceptance
+evidence:
+  output:
+  - docs/evidence/M6K-CATALOG-OWNER-RELEASE-20260928.md
