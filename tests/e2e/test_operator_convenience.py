@@ -10,10 +10,10 @@ pytestmark = [pytest.mark.e2e, pytest.mark.django_db(transaction=True)]
 @pytest.mark.parametrize("width", [320, 1280])
 def test_personal_start_installation_help(live_server, page, settings, tmp_path, width):
     from growth.models import AssessmentRun
-    from growth.services.canonical_import import seed_canonical_data
+    from growth.services.library_import import seed_library_data
 
     create_browser_user()
-    seed_canonical_data(include_demo=False)
+    seed_library_data()
     # Only the revision reader uses BASE_DIR during this page's rendering.
     (tmp_path / "BUILD_REVISION").write_text("a" * 40)
     settings.BASE_DIR = tmp_path

@@ -34,6 +34,9 @@ The existing explicit `manage.py seed_canonical` command still includes Pilot 00
 for compatibility with established development/readiness workflows. Operators who
 want library-only reconciliation should use `seed_canonical --without-demo`.
 Container startup uses `seed_canonical --startup` to respect the configured choice.
+The historical importer remains byte-identical. The separate library-only importer
+reuses its validation and in-progress practice guards; shared-record parity and
+transaction rollback are tested.
 Do not run the legacy command expecting a personal-only start.
 
 ## Identify the installation before updating

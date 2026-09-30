@@ -33,7 +33,7 @@ Dockerfile	1024
 HANDOFF_PROMPT.md	10887
 Makefile	5864
 README.md	41769
-contracts/active-batch.yaml	4382
+contracts/active-batch.yaml	4420
 contracts/assessment-calibration-analysis.schema.json	8367
 contracts/assessment-calibration-analysis.yaml	2771
 contracts/assessment-calibration-consent.yaml	1882
@@ -2894,7 +2894,7 @@ docs/evidence/M6L-03-DIRECTION-CONNECTION-20260929.md	6564
 docs/evidence/M6L-04-RECURRING-WEEKLY-20260929.md	5543
 docs/evidence/M6L-05-HISTORY-CONTINUITY-20260929.md	8036
 docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md	6869
-docs/evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md	3303
+docs/evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md	4630
 docs/evidence/local/.gitignore	14
 docs/evidence/m6k-2026-09-08/browser-collection.txt	251
 docs/evidence/m6k-2026-09-08/contract.txt	1055
@@ -2951,7 +2951,7 @@ docs/evidence/m6k-review-2026-09-08/review-final-49.txt	100
 docs/history-continuity.md	4568
 docs/ideal_person_curriculum_scope_audit.md	4060
 docs/ideal_person_curriculum_v2_revision_report.md	5987
-docs/operator-convenience.md	8480
+docs/operator-convenience.md	8676
 docs/pilot-feedback.md	5807
 docs/pilot/PILOT_002_FINDINGS.md	1944
 docs/pilot/PILOT_READINESS_CLOSEOUT.md	8696
@@ -3083,7 +3083,7 @@ growth/management/commands/installation_status.py	693
 growth/management/commands/purge_pilot_feedback.py	1801
 growth/management/commands/rebuild_composite_score_state.py	3177
 growth/management/commands/rebuild_score_state.py	2959
-growth/management/commands/seed_canonical.py	1416
+growth/management/commands/seed_canonical.py	1493
 growth/management/commands/validate_canonical_content.py	1606
 growth/management/commands/verify_applicability_coverage.py	1166
 growth/management/commands/verify_assessment_calibration_analysis.py	1243
@@ -3124,7 +3124,7 @@ growth/services/applicability_coverage.py	10526
 growth/services/assessment.py	22640
 growth/services/assessment_calibration.py	18473
 growth/services/assessment_calibration_analysis.py	34174
-growth/services/canonical_import.py	27908
+growth/services/canonical_import.py	27690
 growth/services/competency_evidence_readiness.py	8303
 growth/services/competency_evidence_reports.py	66071
 growth/services/composite_score_state.py	32688
@@ -3137,6 +3137,7 @@ growth/services/database_backup.py	7242
 growth/services/evidence.py	19222
 growth/services/expansion_readiness.py	6970
 growth/services/history.py	6025
+growth/services/library_import.py	4222
 growth/services/m6c_pilot_readiness.py	8235
 growth/services/m6d_authoring_readiness.py	18705
 growth/services/operations_readiness.py	4695
@@ -3317,7 +3318,7 @@ templates/growth/history_period.html	3304
 templates/growth/history_plan.html	1687
 templates/growth/history_reuse.html	2886
 templates/growth/home.html	12134
-templates/growth/installation.html	3321
+templates/growth/installation.html	3381
 templates/growth/partials/form_errors.html	485
 templates/growth/partials/instructional_link.html	248
 templates/growth/partials/navigation.html	645
@@ -3358,7 +3359,7 @@ tests/e2e/test_core_flow.py	47997
 tests/e2e/test_guided_entry.py	3266
 tests/e2e/test_history_continuity.py	3931
 tests/e2e/test_instructional_content.py	5332
-tests/e2e/test_operator_convenience.py	1793
+tests/e2e/test_operator_convenience.py	1769
 tests/e2e/test_practice_direction.py	4744
 tests/e2e/test_weekly_followup.py	3309
 tests/fixtures/assessment/README.md	878
@@ -3455,7 +3456,7 @@ tests/test_m6k_stewardship_enterprise_sources.py	24574
 tests/test_m6k_systems_causes_tradeoffs_sources.py	18315
 tests/test_m6k_work_delivery_voice_sources.py	25284
 tests/test_models.py	2870
-tests/test_operator_convenience.py	6584
+tests/test_operator_convenience.py	9300
 tests/test_personal_os_browser.py	26813
 tests/test_personal_os_models.py	5683
 tests/test_personal_os_readiness.py	10096

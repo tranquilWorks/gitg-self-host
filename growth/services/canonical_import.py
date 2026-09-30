@@ -585,7 +585,7 @@ def _seed_pilot(version: CurriculumVersion, model: dict) -> tuple[int, int]:
 
 
 @transaction.atomic
-def seed_canonical_data(*, include_demo: bool = True) -> ImportSummary:
+def seed_canonical_data() -> ImportSummary:
     bundle = load_and_validate_bundle()
     try:
         practice_bundle = load_practice_content_bundle(settings.BASE_DIR)
@@ -651,9 +651,7 @@ def seed_canonical_data(*, include_demo: bool = True) -> ImportSummary:
     CompetencyLeverLink.objects.filter(pk__in=stale_link_ids).delete()
 
     _seed_protocols(practice_bundle.runtime_protocols)
-    # Personal startup imports shared curriculum without adding or rewriting any
-    # demonstration history. Explicit legacy callers retain their original seed.
-    pilot_runs, pilot_baselines = _seed_pilot(version, model) if include_demo else (0, 0)
+    pilot_runs, pilot_baselines = _seed_pilot(version, model)
     from growth.services.composite_score_state import (
         synchronize_all_composite_score_states,
     )

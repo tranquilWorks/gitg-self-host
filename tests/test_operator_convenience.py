@@ -1,3 +1,4 @@
+import copy
 import json
 import os
 import sqlite3
@@ -12,6 +13,82 @@ from django.db.migrations.loader import MigrationLoader
 
 from growth.installation import installation_diagnostics, installation_information
 from growth.models import AssessmentRun, LeverBaseline, PracticeProtocol
+
+
+@pytest.mark.django_db
+@pytest.mark.parametrize("status", ["active", "paused"])
+def test_library_import_preserves_ongoing_practice_guard_and_rolls_back(
+    user, seeded, monkeypatch, status
+):
+    from datetime import date
+
+    from growth.models import CurriculumVersion, PracticeSprint
+    from growth.services import canonical_import, library_import
+
+    protocol = PracticeProtocol.objects.get(parent_competency_id="01.04")
+    PracticeSprint.objects.create(
+        user=user,
+        protocol=protocol,
+        assessment_run=user.assessment_runs.get(),
+        start_date=date(2026, 9, 30),
+        person_or_context="Synthetic guard probe",
+        status=status,
+    )
+    original = list(protocol.actions.order_by("pk").values())
+    imported_at = CurriculumVersion.objects.get().imported_at
+
+    def changed_instructions(protocols):
+        rows = copy.deepcopy(protocols)
+        chosen = next(row for row in rows if row["stable_id"] == protocol.pk)
+        chosen["actions"][0]["instructions"] = "A changed task that must be rejected."
+        canonical_import._seed_protocols(rows)
+
+    monkeypatch.setattr(library_import, "_seed_protocols", changed_instructions)
+    with pytest.raises(canonical_import.CanonicalDataError, match="active or paused practice"):
+        library_import.seed_library_data()
+    assert list(protocol.actions.order_by("pk").values()) == original
+    assert CurriculumVersion.objects.get().imported_at == imported_at
+
+
+@pytest.mark.django_db
+def test_library_only_import_matches_every_shared_record_of_the_frozen_importer(user):
+    from growth.models import (
+        Competency,
+        CompetencyLeverLink,
+        CurriculumVersion,
+        Lever,
+        PracticeAction,
+    )
+    from growth.services.canonical_import import seed_canonical_data
+    from growth.services.library_import import seed_library_data
+
+    models = (
+        CurriculumVersion,
+        Lever,
+        Competency,
+        CompetencyLeverLink,
+        PracticeProtocol,
+        PracticeAction,
+    )
+    seed_library_data()
+
+    def shared_rows():
+        # Both legitimate imports refresh the ingestion timestamp. Every other
+        # stored field, including IDs, weights and instructions, must match.
+        return [
+            list(
+                model.objects.order_by("pk").values(
+                    *[field.attname for field in model._meta.fields if field.name != "imported_at"]
+                )
+            )
+            for model in models
+        ]
+
+    before = shared_rows()
+    assert not AssessmentRun.objects.exists()
+    seed_canonical_data()
+    assert shared_rows() == before
+    assert AssessmentRun.objects.get().source == AssessmentRun.Source.PILOT_SEED
 
 
 def test_invalid_startup_choice_fails_before_database_creation(tmp_path):

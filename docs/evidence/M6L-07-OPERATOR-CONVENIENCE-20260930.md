@@ -40,7 +40,26 @@ The first Compose attempt correctly reached a personal account with no assessmen
 Its existing Personal OS HTTP probe expected no redirect, so the personal-mode
 probe now uses the authenticated installation page. After explicit demo opt-in,
 all original Personal OS/replay/recovery probes remain. Failure receipt:
-`/tmp/m6l07-compose-initial.log`. No application behavior was weakened.
+`/tmp/m6l07-compose-initial.log`. No application behavior was weakened. A subsequent drill was intentionally
+stopped to add verification immediately before copying the backup and again
+before restarting the restored application; five deployment-contract checks pass.
+Interrupted drill receipts remain `...compose-pre-offline-check.log`.
+
+The complete nonbrowser run then passed 2,000 cases and failed the historical
+importer fingerprint (`/tmp/m6l07-full.xml`, 784.85 seconds). This was a real
+protected-file violation. The historical importer was restored byte-for-byte;
+personal startup now uses an additive library-only orchestrator that reuses its
+validators, projections and in-progress-practice guard. No fingerprint or gate
+was changed. New tests compare every shared field except the expected ingestion
+timestamp and verify rollback for both active and paused practices. Broad
+regression is repeated for this implementation; all 17 exact full-profile
+readiness commands run separately in contract order.
+
+The complete browser suite passed 54 cases (`/tmp/m6l07-all-browser.xml`,
+825.54 seconds). The two personal-start journeys are repeated for the new import
+entry point. A first parity assertion included the automatically refreshed
+`imported_at` timestamp; it was narrowed only by excluding that metadata field.
+All canonical IDs, fields, weights, instructions and rules remain compared.
 
 [Draft PR #111](https://github.com/tranquilWorks/gitg-self-host/pull/111) is stacked
 on #110. Hosted CI is pending; no merge or publication.

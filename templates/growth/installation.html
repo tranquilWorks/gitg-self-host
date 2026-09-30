@@ -5,13 +5,13 @@
   <p class="eyebrow">Installation</p>
   <h1>Know what is running.</h1>
   <p class="lede">Local version information and recovery guidance for the person who operates this instance.</p>
-  <section class="panel" aria-labelledby="revision-heading">
+  <section class="panel account-pilot-panel" aria-labelledby="revision-heading">
     <h2 id="revision-heading">Installed revision</h2>
     <p class="preserve-lines"><code>{{ revision }}</code></p>
     {% if revision == "unknown" %}<p>This build has no valid revision metadata. The operator can identify its image with Docker before updating.</p>{% else %}<p>This revision was embedded when the image was built. It does not identify uncommitted source edits or the image digest.</p>{% endif %}
     <p>No update check is sent to a remote service. Updates are performed explicitly by the operator.</p>
   </section>
-  <section class="panel" aria-labelledby="mode-heading">
+  <section class="panel account-pilot-panel" aria-labelledby="mode-heading">
     <h2 id="mode-heading">Startup choice</h2>
     {% if demo_seed_enabled %}
       <p>Demonstration seeding is enabled. Startup may add the Pilot 002 example to the earliest-created account.</p>
@@ -21,7 +21,7 @@
     <p>This setting does not describe your current assessment. Changing it never removes existing assessments, practices or history. Demonstration results are examples, not a personal assessment.</p>
     <a href="{% url 'growth:assessment' %}">Take or import your own assessment</a>
   </section>
-  <section class="panel" aria-labelledby="recovery-heading">
+  <section class="panel account-pilot-panel" aria-labelledby="recovery-heading">
     <h2 id="recovery-heading">If you need help</h2>
     <p>For a forgotten password, ask the instance operator to reset it with the local password command. Changing the bootstrap password does not reset an existing account.</p>
     <p>Before an update, the operator should record the running image, create and verify a database backup, and review any active or paused practices. Changed practice instructions can require finishing or explicitly stopping the existing attempt first.</p>

@@ -34,7 +34,6 @@ scope:
   - scripts/verify_compose.sh
   - grounded_growth/settings.py
   - grounded_growth/urls.py
-  - growth/services/canonical_import.py
   - growth/installation.py
   - growth/views_installation.py
   - growth/management/commands/installation_status.py
@@ -42,6 +41,7 @@ scope:
   - templates/growth/installation.html
   - templates/growth/data_management.html
   - tests/**
+  - growth/services/library_import.py
   forbidden_paths:
   - data/**
   - reports/**
@@ -60,6 +60,7 @@ scope:
   - growth/services/database_backup.py
   - growth/services/score_state.py
   - growth/services/composite_score_state.py
+  - growth/services/canonical_import.py
 acceptance:
 - Container startup defaults to a personal start; explicit demo opt-in seeds idempotently, while existing
   users, assessments, passwords and active practices remain intact. Legacy explicit seed command and service
