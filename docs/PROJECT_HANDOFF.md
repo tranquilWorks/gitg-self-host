@@ -1,5 +1,20 @@
 # Grounded Growth — Project Handoff
 
+## M6L-08 empirical validation preparation — 30 September 2026
+
+The owner requested Batch 08. Branch `codex/m6l-08-empirical-validation`
+is based on Batch 07 final head `941fb78`. The source-only study kit defines
+entry plus three weekly cycles, separate consent and retention, structured
+private observations, all eight assessment evidence plans and qualified-review
+records. A new local CLI creates empty private files and deterministic suppressed
+summaries without database/network access. It never closes evidence axes.
+Focused CLI verification passed 25 tests; full required verification is running.
+No new consented participant dataset or named reviewer receipts were supplied.
+Actual observations, assessment evidence and qualified analysis remain open.
+No runtime, content, scoring, migration, participant contact or live-data change.
+See [study kit](pilot/m6l08/README.md) and
+[Batch 08 evidence](evidence/M6L-08-EMPIRICAL-VALIDATION-20260930.md).
+
 ## M6L-07 operator convenience — 30 September 2026
 
 The owner explicitly requested Batch 07. Work is on
@@ -12,7 +27,7 @@ two final installation-page reruns, and the complete isolated Docker recovery
 drill passed. The historical importer is restored byte-for-byte; a separate
 library-only orchestrator preserves its validation and active/paused guard.
 [Draft PR #111](https://github.com/tranquilWorks/gitg-self-host/pull/111) is stacked
-on #110. Final-head hosted CI remains pending; no merge or publication.
+on #110. Final-head hosted CI passed in [run 36666899420](https://github.com/tranquilWorks/gitg-self-host/actions/runs/36666899420); no merge or publication.
 After 07, only Batch 08 / four empirical-validation actions remain.
 See [operator guide](operator-convenience.md) and
 [Batch 07 evidence](evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md).

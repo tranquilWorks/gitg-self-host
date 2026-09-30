@@ -214,35 +214,35 @@ batches:
     - docs/evidence/M6L-06-APPLICATION-CONSISTENCY-20260929.md
 - id: M6L-07
   title: Operator convenience
-  status: locally_verified
+  status: ci_verified
   depends_on:
   - M6L-01
   - M6L-06
   actions:
   - id: M6L-07-01
     title: Installation and demo choice
-    status: locally_verified
+    status: ci_verified
     acceptance: Provide explicit demo versus personal-start guidance and a safe opt-in demo configuration;
       preserve existing users and historical demonstration data.
     evidence:
     - docs/evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md
   - id: M6L-07-02
     title: Version and update visibility
-    status: locally_verified
+    status: ci_verified
     acceptance: Show installed revision and reproducible update/pin instructions; no silent updates or
       unsolicited remote telemetry.
     evidence:
     - docs/evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md
   - id: M6L-07-03
     title: Guided operational recovery
-    status: locally_verified
+    status: ci_verified
     acceptance: Document authentication, configuration checks, backup verification, active-practice upgrade
       constraints and restore/rollback with tested failure cases.
     evidence:
     - docs/evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md
 - id: M6L-08
   title: Empirical product validation
-  status: planned
+  status: in_progress
   depends_on:
   - M6L-02
   - M6L-03

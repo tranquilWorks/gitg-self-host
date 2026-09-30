@@ -1,0 +1,108 @@
+schema_version: 1
+batch:
+  id: M6L-07-OPERATOR-CONVENIENCE
+  title: Explicit installation choice, version visibility and operational recovery
+  goal: Support a personal start or explicit demonstration, identify the installed revision, and guide
+    verified recovery without changing existing histories.
+sources:
+  product: gitg-self-host
+  requirements:
+  - docs/PRODUCT_DECISIONS.md#decision-046
+  - docs/plans/m6l/README.md
+  - docs/plans/m6l/actions.yaml
+  milestone: M6 Phase F / M6L-07
+  baseline_commit: 7078f9723d500d3f18eac78fcfc9df5163a21180
+dependencies:
+- M6L-01
+- M6L-06
+scope:
+  allowed_paths:
+  - contracts/active-batch.yaml
+  - docs/plans/m6l/**
+  - docs/evidence/M6L-0*-*.md
+  - docs/PROJECT_HANDOFF.md
+  - docs/operator-convenience.md
+  - docs/deployment.md
+  - docs/backup-and-restore.md
+  - README.md
+  - MANIFEST.tsv
+  - .env.example
+  - Dockerfile
+  - docker-compose.yml
+  - docker-entrypoint.sh
+  - .github/workflows/verification.yml
+  - scripts/verify_compose.sh
+  - grounded_growth/settings.py
+  - grounded_growth/urls.py
+  - growth/installation.py
+  - growth/views_installation.py
+  - growth/management/commands/installation_status.py
+  - growth/management/commands/seed_canonical.py
+  - templates/growth/installation.html
+  - templates/growth/data_management.html
+  - tests/**
+  - growth/services/library_import.py
+  forbidden_paths:
+  - data/**
+  - reports/**
+  - docs/authoring/**
+  - growth/models.py
+  - growth/migrations/**
+  - growth/domain/**
+  - growth/static/**
+  - growth/urls.py
+  - growth/views_instructional.py
+  - growth/templatetags/instructional.py
+  - templates/growth/practice_guide.html
+  - templates/growth/partials/instructional_link.html
+  - growth/services/profile.py
+  - growth/services/practice.py
+  - growth/services/database_backup.py
+  - growth/services/score_state.py
+  - growth/services/composite_score_state.py
+  - growth/services/canonical_import.py
+acceptance:
+- Container startup defaults to a personal start; explicit demo opt-in seeds idempotently, while existing
+  users, assessments, passwords and active practices remain intact. Legacy explicit seed command and service
+  calls retain compatibility.
+- Published images embed the full revision at build time; authenticated installation page and local CLI
+  show it truthfully, including unknown metadata. No network version check or automatic update.
+- Read-only installation diagnostics report configuration/database/migration readiness without private
+  values; document login recovery, config checks, pinned update, backup verification, active-practice
+  guard and offline restore/rollback.
+- Exercise personal and demo startup, restarts, installed revision, authentication, narrow layouts, diagnostics
+  failure cases and existing backup/recovery gates.
+- No migration, scoring or content change; preserve all protected renderer inputs and historical replay.
+validation:
+  local:
+  - Focused Django and browser journeys
+  - scripts/agent-verify.sh full
+  - MANIFEST and scope checks
+  - Desktop/mobile screenshot inspection
+  focused_tests_to_add:
+  - Personal-start and demo seed idempotency, existing history/password preservation
+  - Build revision propagation, malformed/missing metadata, authenticated read-only installation UI/CLI
+    and diagnostic failures
+  - Fresh personal container, demo container and full existing recreation/backup/restore drill
+  - Mobile/keyboard installation page and existing relevant journeys
+  required_ci:
+  - Pilot readiness gate
+risk:
+  class: moderate
+  hazards:
+  - A startup choice could silently create or replace personal history.
+  - Runtime metadata could report an incorrect revision or expose private configuration.
+  - Recovery guidance could restore the wrong database or bypass an in-progress practice guard.
+  stop_conditions:
+  - Protected content or scoring drift
+  - Destructive live-data operation
+  - Unverified version or recovery claims
+rollback:
+  strategy: Revert startup choice and additive diagnostics/UI/build metadata. No migration. Preserve all
+    existing assessments and backups; use a verified pre-upgrade database with its matching pinned image
+    if an unrelated schema upgrade requires rollback.
+evidence:
+  output:
+  - docs/evidence/M6L-07-OPERATOR-CONVENIENCE-20260930.md
+  claim_boundary: Software and synthetic browser validation only; no new participant or specialist evidence,
+    merge, release or live data operation.

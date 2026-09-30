@@ -877,6 +877,7 @@ Migrations and canonical seeding run safely on startup.
 - [Post-M4 pilot-readiness closeout](docs/pilot/PILOT_READINESS_CLOSEOUT.md)
 - [Private-pilot feedback contract](docs/pilot-feedback.md)
 - [Private pilot operations](docs/pilot/PRIVATE_PILOT_OPERATIONS.md)
+- [Multi-cycle study kit and eight-axis evidence plan](docs/pilot/m6l08/README.md)
 - [Private Pilot 001 findings](docs/pilot/PRIVATE_PILOT_001_FINDINGS.md)
 - [Backup and restore](docs/backup-and-restore.md)
 - [Testing](docs/testing.md)
