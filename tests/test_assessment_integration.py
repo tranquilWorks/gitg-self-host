@@ -87,11 +87,15 @@ def test_golden_assessment_persists_complete_immutable_outputs(user, seeded):
 
 
 @pytest.mark.django_db
-def test_assessment_page_uses_canonical_wording_and_exact_scorer(client, user, seeded):
+def test_assessment_page_preserves_canonical_spec_with_separate_display_copy(client, user, seeded):
     client.force_login(user)
     page = client.get(reverse("growth:assessment"))
     assert page.status_code == 200
-    assert b"Fifty required questions" in page.content
+    assert b"50 general questions" in page.content
+    assert (
+        page.context["assessment_display"]["prompts"]["Q01"]
+        != page.context["assessment_spec"]["assessment"]["core_items"][0]["prompt"]
+    )
     first_prompt = load_assessment_assets().spec["assessment"]["core_items"][0]["prompt"]
     assert first_prompt.encode() in page.content
 

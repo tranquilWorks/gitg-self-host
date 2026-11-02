@@ -46,3 +46,13 @@ input:not([type="checkbox"]):not([type="radio"]), select, textarea { border-colo
 .panel h2 { font-size: 1.35rem; line-height: 1.3; }
 .inline-help summary { cursor: pointer; min-height: 44px; padding: 10px 0; color: var(--accent-dark); font-weight: 650; }
 summary:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+
+/* Entry progress and native assessment disclosures. */
+.onboarding-progress { margin-block: 20px; }
+.onboarding-progress summary, .assessment-import > summary { cursor: pointer; min-height: 44px; padding-block: 10px; font-weight: 650; }
+.onboarding-progress s { color: var(--muted); }
+.disclosure-body { padding-block: 12px; }
+.assessment-import { margin-top: 24px; }
+#assessment-retake-dialog { color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 28px; width: min(620px, calc(100% - 32px)); max-height: calc(100dvh - 32px); overflow: auto; }
+#assessment-retake-dialog::backdrop { background: rgb(0 0 0 / 45%); }
+.definition-grid h3 { font-size: 1.05rem; }

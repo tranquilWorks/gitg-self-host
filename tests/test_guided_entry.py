@@ -20,7 +20,9 @@ def test_new_user_has_a_real_starting_path(client, user):
     response = client.get(reverse("growth:home"))
     assert response.status_code == 200
     assert b"Start with where you are." in response.content
-    assert b"Find your starting point" in response.content
+    assert b"Take your first step" in response.content
+    assert b"Recommended next" not in response.content
+    assert b'href="/weekly/"' not in response.content
     assert b"demonstration profile" not in response.content
     assert b"Your latest provisional map is led by" not in response.content
     assert reverse("growth:assessment").encode() in response.content
@@ -30,7 +32,7 @@ def test_new_user_has_a_real_starting_path(client, user):
 def test_demo_is_labeled_and_real_assessment_does_not_show_demo_notice(client, user, seeded):
     client.force_login(user)
     response = client.get(reverse("growth:home"))
-    assert b"You are exploring a demonstration profile." in response.content
+    assert b"These are example results, not answers you have given." in response.content
     assert b"Start my own assessment" in response.content
     assert b"The Seeker" not in response.content
     persist_assessment_run(user, golden_payload())
@@ -119,5 +121,5 @@ def test_verification_problem_is_visible_without_opening_details(client, user, s
     monkeypatch.setattr("growth.views.build_profile_summary", lambda _user: summary)
     client.force_login(user)
     response = client.get(reverse("growth:home"))
-    assert b'<details class="stage-panel" open>' in response.content
+    assert b"Suggestions are paused." in response.content
     assert b"Synthetic audit error." in response.content

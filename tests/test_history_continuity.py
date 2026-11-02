@@ -221,7 +221,9 @@ def test_old_practice_has_clear_navigation_and_current_week_refuses_mixing(clien
         transition_sprint(sprint, "paused")
     client.force_login(user)
     assessment = client.get(reverse("growth:assessment"))
-    assert b"What changes when you reassess" in assessment.content
+    assert b"Take the assessment again?" in assessment.content
+    assert b'<dialog id="assessment-retake-dialog"' in assessment.content
+    assert b"stays linked to its original assessment" in assessment.content
     assert sprint.protocol.name.encode() in assessment.content
     page = client.get(reverse("growth:practice-sprint", args=[sprint.pk]))
     assert page.status_code == 200

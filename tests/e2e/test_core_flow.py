@@ -141,9 +141,9 @@ def test_login_home_and_profile_core_flow(live_server, page: Page):
 
     log_in(live_server, page)
     assert page.url == f"{live_server.url}/"
-    page.get_by_role("heading", name="Find your starting point").wait_for()
+    page.get_by_role("heading", name="Choose your next practice").wait_for()
     page.get_by_text("Deepen One Existing Friendship", exact=True).wait_for()
-    page.get_by_role("link", name="View developmental profile").click()
+    page.get_by_role("link", name="See my results").click()
 
     page.wait_for_url(f"{live_server.url}/profile/")
     page.get_by_role("heading", name="A provisional map, not an identity.").wait_for()
@@ -835,7 +835,6 @@ def test_complete_assessment_and_save_canonical_outputs(live_server, page: Page)
             name="Finish" if index == 49 else "Next",
             exact=True,
         ).click()
-    page.get_by_role("button", name="Answer targeted clarifiers").click()
     clarifier_count = int(page.locator("#assessment-count").inner_text().split()[-1])
     assert 1 <= clarifier_count <= 10
     for index in range(clarifier_count):
@@ -845,7 +844,7 @@ def test_complete_assessment_and_save_canonical_outputs(live_server, page: Page)
             name="Finish" if index == clarifier_count - 1 else "Next",
             exact=True,
         ).click()
-    page.get_by_role("heading", name="Your working profile").wait_for()
+    page.get_by_role("heading", name="Assessment complete", exact=True).wait_for()
     wait_for_assessment_save(page)
     assert page.locator("#assessment-share-code").input_value().startswith("GGA11.")
 
@@ -901,11 +900,14 @@ def test_import_gga11_and_supported_gga1(live_server, page: Page):
     log_in(live_server, page)
 
     open_assessment(live_server, page)
+    page.locator(".assessment-import > summary").click()
     page.get_by_label("Share code", exact=True).fill(current_code)
     page.get_by_role("button", name="Import profile").click()
     wait_for_assessment_save(page)
     page.get_by_role("button", name="Retake").click()
+    page.get_by_role("button", name="Start a new assessment", exact=True).click()
 
+    page.locator(".assessment-import > summary").click()
     page.get_by_label("Share code", exact=True).fill(LEGACY_GGA1_CODE)
     page.get_by_role("button", name="Import profile").click()
     wait_for_assessment_save(page)

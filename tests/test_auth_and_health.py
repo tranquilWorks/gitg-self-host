@@ -36,7 +36,7 @@ def test_authenticated_home_and_profile_render_pilot_seed(client, user, seeded):
 
     home = client.get(reverse("growth:home"))
     assert home.status_code == 200
-    assert b"assessment baseline remains fixed" in home.content
+    assert b"These suggestions start with your assessment and completed work" in home.content
     assert b"Deepen One Existing Friendship" in home.content
     assert b"Review and set up" in home.content
     assert b'href="#main-content"' in home.content
@@ -46,9 +46,9 @@ def test_authenticated_home_and_profile_render_pilot_seed(client, user, seeded):
     profile = client.get(reverse("growth:profile"))
     assert profile.status_code == 200
     assert b"Starting estimate" in profile.content
-    assert b"Completion credit" in profile.content
-    assert b"Coverage" in profile.content
-    assert b"Remaining priority" in profile.content
+    quick_start = client.get(reverse("quick-start"))
+    for moved_label in (b"Completion credit", b"Coverage", b"Remaining priority"):
+        assert moved_label in quick_start.content
     assert b"The Seeker" in profile.content
     assert b"Friendship, Belonging, and Hospitality" in profile.content
     assert b'href="/data-policy/"' in profile.content

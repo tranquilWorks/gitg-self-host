@@ -119,19 +119,14 @@ def test_keyboard_assessment_and_error_recovery(live_server, page):
     page.get_by_label("Enable answer shortcuts").check()
     prompt.focus()
     page.keyboard.press("4")
-    expect(page.locator('.assessment-answer[data-value="4"]')).to_have_attribute(
-        "aria-pressed", "true"
-    )
+    expect(page.locator("#assessment-count")).to_have_text("Question 2 of 50")
+    expect(prompt).to_be_focused()
     more.focus()
     page.keyboard.press("2")
-    expect(page.locator('.assessment-answer[data-value="4"]')).to_have_attribute(
-        "aria-pressed", "true"
-    )
-    page.get_by_role("button", name="Next", exact=True).focus()
-    page.keyboard.press("Enter")
-    expect(prompt).to_be_focused()
     expect(page.locator("#assessment-count")).to_have_text("Question 2 of 50")
+    expect(page.locator('.assessment-answer[aria-pressed="true"]')).to_have_count(0)
     page.get_by_role("button", name="Back", exact=True).click()
+    expect(page.locator("#assessment-count")).to_have_text("Question 1 of 50")
     expect(page.locator('.assessment-answer[data-value="4"]')).to_have_attribute(
         "aria-pressed", "true"
     )

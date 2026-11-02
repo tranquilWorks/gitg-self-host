@@ -19,7 +19,9 @@ def test_guided_entry_search_and_keyboard_pagination(live_server, page, width):
     page.get_by_label("Password").fill("Explorer-Test-2047!")
     page.get_by_role("button", name="Sign in").click()
     expect(page.get_by_role("heading", name="Make room for what matters.")).to_be_visible()
-    expect(page.get_by_text("You are exploring a demonstration profile.")).to_be_visible()
+    expect(
+        page.get_by_text("These are example results, not answers you have given.", exact=False)
+    ).to_be_visible()
     expect(page.get_by_role("link", name="Start my own assessment")).to_be_visible()
     artifacts = Path(__file__).resolve().parents[2] / "test-results/pilot-walkthrough"
     artifacts.mkdir(parents=True, exist_ok=True)

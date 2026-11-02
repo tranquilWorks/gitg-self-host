@@ -1,17 +1,35 @@
 # Grounded Growth — Project Handoff
 
+## UXA-02 + UXA-03 — 2 November 2026
+
+The owner requested two UXA issues per PR to reduce expensive CI iterations.
+The current batch implements #116 and #117 together, based on merged main
+`bc55fe6ef9a8f4b94b26052096a9e320b0791e0c`, on branch
+`codex/uxa-02-03-entry-assessment`. It covers state-aware entry/navigation/Home,
+explicit suggestion deferral and display-only assessment wording/flow. Frozen
+assessment IDs, scales' numeric mappings, scorer, canonical data, evidence,
+completion-credit and ranking mathematics remain unchanged. No later UXA issue,
+merge or deployment is authorized by this implementation request. See
+[scope and behavior](uxa-entry-assessment.md) and
+[actual verification checkpoint](evidence/UXA-02-03.md). Focused suites passed
+(25 history/entry/client/golden and 36 overlapping regression cases). Local full
+verification is running; hosted/browser/Compose remain pending. Do not call this
+stage accepted or deployed.
+
 ## UXA-01 — 2 November 2026
 
 The owner authorized PR #113 prework and one bounded PR implementing #115.
-PR #113's missing feedback-document manifest entry was repaired on c85b97e;
-fresh CI and merge remain required. The new UXA-01 batch defines a public
+PR #113's missing feedback-document manifest entry was repaired on c85b97e.
+Both PRs are now merged after successful exact-head quality/browser/Compose/
+aggregate gates: #113 as `99538e7` and UXA-01 #125 as `bc55fe6`. The batch defines a public
 Disclaimer / Data Policy, functional ordinary-account registration with an
 operator disable switch, shared footer/copy/focus/help improvements and targeted
 tests. See [scope and operator notes](uxa-shell.md) and
-[verification checkpoint](evidence/UXA-01.md). No later UXA batch is started.
-Issues #116–124 remain open. No scoring/content/migration or live-data change.
-Local full verification and exact-head hosted/browser/Compose verification
-remain pending; do not describe this checkpoint as done or deployed.
+[verification checkpoint](evidence/UXA-01.md); final actual receipts and artifact
+inspection are recorded in PR #125. Hosted results: 2,036 pytest cases and 56
+browser cases passed; Compose backup/restore and aggregate readiness succeeded.
+Main tree matched the reviewed tree. No deployment or owner retest is claimed.
+The next owner-authorized combined batch is recorded above.
 
 ## M6L-08 empirical validation preparation — 30 September 2026
 

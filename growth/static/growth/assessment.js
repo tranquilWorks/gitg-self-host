@@ -6,6 +6,7 @@
 
   const spec = JSON.parse(document.getElementById("assessment-spec").textContent);
   const model = JSON.parse(document.getElementById("assessment-model").textContent);
+  const display = JSON.parse(document.getElementById("assessment-display").textContent);
   const assessment = spec.assessment;
   const engine = window.GroundedGrowthAssessment;
   const storageKey = app.dataset.storageKey;
@@ -18,15 +19,11 @@
     ...assessment.adaptive_orientation_clarifiers,
   ];
   const itemMap = Object.fromEntries(allItems.map((item) => [item.id, item]));
-  const orientationNames = Object.fromEntries(
-    model.orientation_modes.map((item) => [item.slug, item.name]),
-  );
 
   const byId = (id) => document.getElementById(id);
   const stages = {
     intro: byId("assessment-intro"),
     quiz: byId("assessment-quiz"),
-    clarify: byId("assessment-clarify"),
     results: byId("assessment-results"),
   };
   const importPanel = app.querySelector(".assessment-import");
@@ -93,14 +90,15 @@
 
   function saveLocal() {
     localStorage.setItem(storageKey, JSON.stringify(state));
-    autosave.textContent = "Saved locally";
+    autosave.textContent = "Saved on this device";
   }
 
   function show(stageName, moveFocus = true) {
     Object.entries(stages).forEach(([name, element]) => {
       element.classList.toggle("hidden", name !== stageName);
     });
-    importPanel.classList.toggle("hidden", stageName !== "intro");
+    importPanel.classList.toggle("hidden", stageName === "quiz");
+    importPanel.open = false;
     if (moveFocus && stageName !== "quiz") {
       const heading = stages[stageName].querySelector("h2");
       if (heading) { heading.tabIndex = -1; heading.focus(); }
@@ -108,9 +106,9 @@
   }
 
   function responseScale(item) {
-    if (item.type.startsWith("orientation")) return assessment.response_scales.orientation;
-    if (item.type === "response_quality") return assessment.response_scales.response_quality;
-    return assessment.response_scales.capability;
+    if (item.type.startsWith("orientation")) return display.scales.orientation;
+    if (item.type === "response_quality") return display.scales.response_quality;
+    return display.scales.capability;
   }
 
   function selectAnswer(itemId, value) {
@@ -147,9 +145,9 @@
       return;
     }
 
-    count.textContent = `Question ${state.index + 1} of ${order.length}`;
+    count.textContent = `${state.phase === "clarifier" ? "Follow-up" : "Question"} ${state.index + 1} of ${order.length}`;
     progressFill.style.width = `${(100 * (state.index + 1)) / order.length}%`;
-    prompt.textContent = item.prompt;
+    prompt.textContent = display.prompts[itemId] || item.prompt;
     prompt.focus();
     scale.replaceChildren();
     const labels = responseScale(item);
@@ -158,11 +156,11 @@
     }
     if (item.allow_not_applicable) {
       scale.append(
-        answerButton(item, "NA", "Not applicable or insufficient experience"),
+        answerButton(item, "NA", "Not applicable; I do not have enough experience to answer"),
       );
     }
 
-    backButton.disabled = state.index === 0;
+    backButton.disabled = state.index === 0 && state.phase !== "clarifier";
     nextButton.disabled = state.responses[itemId] == null;
     nextButton.textContent = state.index === order.length - 1 ? "Finish" : "Next";
     if (resetClock || currentTimedItem !== itemId) {
@@ -188,7 +186,7 @@
       return;
     }
     if (state.phase === "core_complete") {
-      show("clarify");
+      startClarifiers();
       return;
     }
     order =
@@ -209,13 +207,20 @@
     }
     localStorage.removeItem(storageKey);
     state = freshState();
+    state.retake_started = app.dataset.completed === "true";
     order = assessment.display_order;
     startButton.textContent = "Begin assessment";
     show("intro");
   }
 
   function startClarifiers() {
-    const preliminary = engine.scoreAssessment(spec, model, state);
+    // Re-select from the frozen core answers, never from stale follow-ups left
+    // by a backwards edit. IDs, selection limits and scorer are unchanged.
+    const coreResponses = Object.fromEntries(coreIds.map((id) => [id, state.responses[id]]));
+    const coreTimings = Object.fromEntries(Object.entries(state.timings_seconds || {}).filter(([id]) => coreIds.includes(id)));
+    const preliminary = engine.scoreAssessment(spec, model, {
+      ...state, responses: coreResponses, timings_seconds: coreTimings, total_seconds: undefined,
+    });
     const selected = [
       ...preliminary.suggested_capability_clarifiers.map(
         (item) => item.clarifier_id,
@@ -224,6 +229,9 @@
         (item) => item.clarifier_id,
       ),
     ];
+    const included = new Set([...coreIds, ...selected]);
+    state.responses = Object.fromEntries(Object.entries(state.responses).filter(([id]) => included.has(id)));
+    state.timings_seconds = Object.fromEntries(Object.entries(state.timings_seconds || {}).filter(([id]) => included.has(id)));
     if (selected.length === 0) {
       showResults();
       return;
@@ -237,93 +245,9 @@
     renderQuestion(true);
   }
 
-  function element(tagName, className, text) {
-    const node = document.createElement(tagName);
-    if (className) node.className = className;
-    if (text != null) node.textContent = text;
-    return node;
-  }
-
-  function metricRow(title, primary, secondary) {
-    const row = element("div", "result-card");
-    const content = element("div", "");
-    content.append(element("strong", "", title), element("span", "", secondary));
-    row.append(content, element("b", "", primary));
-    return row;
-  }
-
   function renderResults(result, shareCode) {
-    const quality = result.response_quality;
-    const duration = Math.round(quality.total_timed_seconds || 0);
-    const median =
-      quality.median_seconds_per_item == null
-        ? "Not available"
-        : `${quality.median_seconds_per_item.toFixed(1)} seconds per item`;
-    const qualityPanel = byId("assessment-quality");
-    qualityPanel.replaceChildren(
-      element(
-        "strong",
-        "",
-        `Response-quality modifier: ${Math.round(quality.modifier * 100)}%`,
-      ),
-      element("p", "muted", `${duration} timed seconds · Median ${median}`),
-    );
-    if (quality.flags && quality.flags.length) {
-      qualityPanel.append(
-        element(
-          "p",
-          "fine-print",
-          `Quality note: ${quality.flags.join(" ")}`,
-        ),
-      );
-    }
-
-    const orientations = byId("assessment-orientations");
-    orientations.replaceChildren();
-    Object.entries(result.orientations.scores)
-      .sort((left, right) => (right[1].score || 0) - (left[1].score || 0))
-      .forEach(([slug, output]) => {
-        orientations.append(
-          metricRow(
-            orientationNames[slug] || slug,
-            `${Math.round((output.score || 0) * 100)}%`,
-            `${Math.round((output.confidence || 0) * 100)}% evidence confidence`,
-          ),
-        );
-      });
-
-    const archetypes = byId("assessment-archetypes");
-    archetypes.replaceChildren();
-    result.archetypes.slice(0, 3).forEach((output) => {
-      archetypes.append(
-        metricRow(
-          output.name,
-          `${Math.round((output.raw_fit || 0) * 100)}%`,
-          output.orientations.join(" + "),
-        ),
-      );
-    });
-
-    const needs = byId("assessment-needs");
-    needs.replaceChildren();
-    result.lever_need_ranking.slice(0, 3).forEach((ranked) => {
-      const output = result.levers[ranked.lever_id];
-      const estimate =
-        output.estimate == null
-          ? "Estimate unavailable"
-          : `${Math.round(output.estimate * 100)}% calibrated estimate`;
-      needs.append(
-        metricRow(
-          output.name,
-          ranked.score == null
-            ? "Need unavailable"
-            : `${Math.round(ranked.score * 100)}% need`,
-          `${estimate} · ${Math.round((output.confidence || 0) * 100)}% confidence`,
-        ),
-      );
-    });
-
     byId("assessment-share-code").value = shareCode;
+    byId("assessment-share").classList.remove("hidden");
   }
 
   function payloadShareCode() {
@@ -361,13 +285,18 @@
       if (!response.ok) throw new Error(data.error || "The assessment could not be saved.");
       state.saved_run_id = data.run_id;
       state.saved_profile_url = data.profile_url;
+      state.retake_started = false;
+      app.dataset.completed = "true";
+      app.dataset.runId = data.run_id;
       saveLocal();
       saveStatus.textContent = data.created ? "Saved" : "Already saved";
       saveStatus.classList.add("status-pill-ready");
+      byId("assessment-complete-message").textContent = "Your answers are saved. See your results and choose a practice when you are ready.";
       profileLink.href = data.profile_url;
       profileLink.classList.remove("hidden");
     } catch (error) {
       saveStatus.textContent = "Save failed";
+      byId("assessment-complete-message").textContent = "Your answers are still on this device. Retry saving before leaving.";
       saveError.textContent = error.message;
       saveError.classList.remove("hidden");
       retrySaveButton.classList.remove("hidden");
@@ -388,6 +317,8 @@
     state.display_share_code = displayShareCode;
     saveLocal();
     renderResults(result, displayShareCode);
+    byId("assessment-complete-message").textContent = "Saving your answers…";
+    profileLink.classList.add("hidden");
     show("results");
     persistResult();
   }
@@ -420,6 +351,11 @@
   backButton.addEventListener("click", () => {
     captureTiming();
     if (state.index > 0) state.index -= 1;
+    else if (state.phase === "clarifier") {
+      state.phase = "core";
+      order = assessment.display_order;
+      state.index = order.length - 1;
+    }
     saveLocal();
     renderQuestion(true);
   });
@@ -435,13 +371,11 @@
       state.phase = "core_complete";
       state.index = 0;
       saveLocal();
-      show("clarify");
+      startClarifiers();
       return;
     }
     showResults();
   });
-  byId("assessment-clarify-start").addEventListener("click", startClarifiers);
-  byId("assessment-clarify-skip").addEventListener("click", showResults);
   importButton.addEventListener("click", importShareCode);
   retrySaveButton.addEventListener("click", persistResult);
   byId("assessment-copy").addEventListener("click", async () => {
@@ -455,26 +389,39 @@
     }
     byId("assessment-copy").textContent = "Copied";
   });
-  byId("assessment-retake").addEventListener("click", () => {
+  const retakeDialog = byId("assessment-retake-dialog");
+  byId("assessment-retake").addEventListener("click", () => retakeDialog.showModal());
+  byId("assessment-retake-cancel").addEventListener("click", () => retakeDialog.close());
+  retakeDialog.addEventListener("close", () => byId("assessment-retake").focus());
+  byId("assessment-retake-confirm").addEventListener("click", () => {
+    retakeDialog.close();
     localStorage.removeItem(storageKey);
-    window.location.reload();
+    state = freshState();
+    state.retake_started = true;
+    order = assessment.display_order;
+    startButton.textContent = "Begin assessment";
+    byId("assessment-share").classList.add("hidden");
+    saveLocal();
+    show("intro");
   });
 
   document.addEventListener("keydown", (event) => {
     if (stages.quiz.classList.contains("hidden") || !byId("assessment-shortcuts").checked) return;
     if (!stages.quiz.contains(document.activeElement)) return;
-    if (event.altKey || event.ctrlKey || event.metaKey || event.isComposing) return;
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.isComposing || event.repeat) return;
     if (event.target.closest("input, textarea, select, [contenteditable='true']")) return;
     const itemId = order[state.index];
     const item = itemMap[itemId];
     if (["1", "2", "3", "4", "5"].includes(event.key)) {
       selectAnswer(itemId, Number(event.key));
+      nextButton.click();
       event.preventDefault();
     } else if (
       (event.key === "n" || event.key === "N") &&
       item.allow_not_applicable
     ) {
       selectAnswer(itemId, "NA");
+      nextButton.click();
       event.preventDefault();
     } else if (event.key === "ArrowLeft" && !backButton.disabled) {
       backButton.click();
@@ -496,10 +443,24 @@
     },
   };
 
+  if (state.phase === "complete" && state.saved_run_id && app.dataset.runId &&
+      state.saved_run_id !== app.dataset.runId) {
+    state = freshState();
+    order = assessment.display_order;
+  }
   if (Object.keys(state.responses || {}).length) startButton.textContent = "Resume assessment";
   startButton.disabled = false;
   resetButton.disabled = false;
   importButton.disabled = false;
-  byId("assessment-load-status").textContent = "Scored locally on this device";
-  show("intro", false);
+  byId("assessment-load-status").textContent = "Your progress saves on this device so you can return later.";
+  if (state.phase === "complete" && state.last_result &&
+      (!state.saved_run_id || state.saved_run_id === app.dataset.runId)) {
+    renderResults(state.last_result, state.display_share_code);
+    show("results", false);
+    if (!state.saved_run_id) persistResult();
+  } else if (app.dataset.completed === "true" && !state.retake_started) {
+    show("results", false);
+  } else {
+    show("intro", false);
+  }
 })();

@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Quick start · Grounded Growth{% endblock %}
+{% block content %}
+  <section class="page-heading"><div><p class="eyebrow">Quick start</p><h1>One practical step at a time.</h1><p class="lede">Grounded Growth helps turn what matters to you into something you can try and review.</p></div></section>
+  {% include "growth/partials/starting_guide.html" %}
+  <a class="button" href="{% url 'growth:home' %}">Back to my next step</a>
+{% endblock %}

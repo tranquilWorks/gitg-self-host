@@ -1,185 +1,56 @@
 {% extends "base.html" %}
 {% load static %}
-
 {% block title %}Assessment · Grounded Growth{% endblock %}
-
 {% block content %}
   <section class="page-heading assessment-heading">
-    <div>
-      <p class="eyebrow">Assessment v1.1</p>
-      <h1>A provisional starting point.</h1>
-      <p class="lede">
-        Fifty required questions establish a self-report baseline. Optional
-        clarifiers can improve uncertain estimates. This is not a diagnosis and
-        does not establish mastery.
-      </p>
-    </div>
-    <span class="status-pill">About 11–15 minutes</span>
+    <div><p class="eyebrow">Your starting point</p><h1>What is life like for you now?</h1><p class="lede">Answer about the past six months. Your answers help suggest a practical place to begin.</p></div>
   </section>
-
   <noscript><p class="status-note">The assessment runs on this device and needs JavaScript. Enable JavaScript for this instance to take or import an assessment. You can still use your saved profile, practices and account pages.</p></noscript>
-  {% if previous_assessment %}
-    <aside class="status-note" aria-labelledby="retake-heading">
-      <h2 id="retake-heading">What changes when you reassess</h2>
-      {% if previous_assessment.source == "pilot_seed" %}<p>Your current starting profile is demonstration data, not a completed personal assessment.</p>{% endif %}
-      <p>Saving a new assessment starts a new period with its own baseline and completion coverage. Earlier practices, evidence, reviews and credit remain attached to their original period; they do not carry into the new one.</p>
-      <p>Review season, capacity and practice fit again. You can preview and confirm selected earlier Personal OS intentions and season/capacity after saving. Audit observations, practice-fit decisions, direction connections and weekly plans are not copied automatically. Saving the same assessment again may return its existing period.</p>
-      {% if current_practice %}<p><strong>{{ current_practice.protocol.name }}</strong> is {{ current_practice.get_status_display|lower }} and will stay attached to its original assessment. You can continue and close it there, or stop it before starting a new practice. Resume a paused practice to add evidence; if its requirements are already met, you can review and close it while paused.</p><p><a href="{% url 'growth:practice-sprint' current_practice.pk %}">Review current practice before reassessing</a></p>{% endif %}
-      <a href="{% url 'history' %}">Review assessment history</a>
-    </aside>
-  {% endif %}
-  <div
-    id="assessment-app"
-    data-storage-key="{{ assessment_storage_key }}"
-    data-save-url="{% url 'growth:assessment-save' %}"
-  >
-    <section id="assessment-intro" class="panel assessment-stage">
-      <div class="panel-heading">
-        <div>
-          <p class="eyebrow">Before you begin</p>
-          <h2>Answer from the past six months.</h2>
-        </div>
-      </div>
-      <p>
-        Use ordinary behavior across contexts—not your ideal self or a single
-        best or worst moment. Choose <strong>Not applicable</strong> when you
-        genuinely lack enough experience.
-      </p>
-      <div class="assessment-facts" aria-label="Assessment details">
-        <span>50 required questions</span>
-        <span>Autosaves on this device</span>
-        <span>Keyboard controls and optional answer shortcuts</span>
-        <span id="assessment-load-status">Loading local assessment engine…</span>
-      </div>
-      <div class="button-row">
-        <button id="assessment-start" class="button" type="button" disabled>Begin assessment</button>
-        <button id="assessment-reset" class="button button-quiet" type="button" disabled>
-          Clear saved answers
-        </button>
-      </div>
+  <div id="assessment-app" data-storage-key="{{ assessment_storage_key }}" data-save-url="{% url 'growth:assessment-save' %}" data-completed="{{ has_completed_assessment|yesno:'true,false' }}" data-run-id="{{ previous_assessment.pk|default:'' }}">
+    <section id="assessment-intro" class="panel assessment-stage{% if has_completed_assessment %} hidden{% endif %}">
+      <p class="eyebrow">Before you begin</p><h2>Think about your everyday life.</h2>
+      <p>Use what you have actually done over the past six months, not just your best or worst day or who you hope to be. Choose “Not applicable” when you do not have enough experience to answer.</p>
+      <p>There are 50 general questions, followed by a few questions selected from your answers. Allow about 11–15 minutes.</p>
+      <p id="assessment-load-status" class="fine-print">Loading assessment…</p>
+      <div class="button-row"><button id="assessment-start" class="button" type="button" disabled>Begin assessment</button><button id="assessment-reset" class="button button-quiet" type="button" disabled>Clear saved answers</button></div>
     </section>
 
     <section id="assessment-quiz" class="panel assessment-stage hidden" aria-labelledby="assessment-prompt">
-      <div class="assessment-progress-meta">
-        <strong id="assessment-count" role="status" aria-live="polite"></strong>
-        <span id="assessment-autosave" class="muted">Saved locally</span>
-      </div>
-      <div class="assessment-progress" aria-hidden="true">
-        <div id="assessment-progress-fill"></div>
-      </div>
+      <div class="assessment-progress-meta"><strong id="assessment-count" role="status" aria-live="polite"></strong><span id="assessment-autosave" class="muted">Saved on this device</span></div>
+      <div class="assessment-progress" aria-hidden="true"><div id="assessment-progress-fill"></div></div>
       <h2 id="assessment-prompt" class="assessment-question" tabindex="-1"></h2>
       <div id="assessment-scale" class="assessment-scale" role="group" aria-labelledby="assessment-prompt"></div>
-      <div class="assessment-shortcuts"><label><input id="assessment-shortcuts" type="checkbox"> Enable answer shortcuts</label><p class="fine-print">When focus is in this question, use 1–5 to choose an answer, N for not applicable, or ← to go back. Tab and Enter work without shortcuts.</p></div>
-      <div class="button-row">
-        <button id="assessment-back" class="button button-quiet" type="button">Back</button>
-        <button id="assessment-next" class="button" type="button" disabled>Next</button>
-      </div>
+      <div class="assessment-shortcuts"><label><input id="assessment-shortcuts" type="checkbox"> Enable answer shortcuts</label><p class="fine-print">With focus in the question, press 1–5 to answer and move on, N for not applicable, or ← to go back. Without shortcuts, choose an answer then use Next.</p></div>
+      <div class="button-row"><button id="assessment-back" class="button button-quiet" type="button">Back</button><button id="assessment-next" class="button" type="button" disabled>Next</button></div>
     </section>
 
-    <section id="assessment-clarify" class="panel assessment-stage hidden">
-      <p class="eyebrow">Optional accuracy pass</p>
-      <h2>Your core assessment is complete.</h2>
-      <p>
-        You can answer up to eight capability clarifiers and two orientation
-        clarifiers selected from your least-certain estimates, or continue now.
-      </p>
-      <div class="button-row">
-        <button id="assessment-clarify-start" class="button" type="button">
-          Answer targeted clarifiers
-        </button>
-        <button id="assessment-clarify-skip" class="button button-quiet" type="button">
-          Continue without clarifiers
-        </button>
-      </div>
+    <section id="assessment-results" class="panel assessment-stage{% if not has_completed_assessment %} hidden{% endif %}">
+      <h2 tabindex="-1">Assessment complete</h2><p id="assessment-complete-message">Your answers are saved. See your results and choose a practice when you are ready.</p>
+      <span id="assessment-save-status" class="status-pill" role="status">Saved</span>
+      <div class="button-row"><a id="assessment-profile-link" class="button" href="{% url 'growth:profile' %}">See results</a><button id="assessment-retake" class="button button-secondary" type="button">Retake</button><button id="assessment-retry-save" class="button button-quiet hidden" type="button">Retry save</button></div>
+      <p id="assessment-save-error" class="form-error hidden" role="alert"></p>
+      <details id="assessment-share" class="inline-help hidden"><summary>Share code</summary><p>This code contains your answers. Only share it when you intend to share that information.</p><textarea id="assessment-share-code" readonly aria-label="GGA11 share code"></textarea><button id="assessment-copy" class="button button-secondary" type="button">Copy share code</button></details>
     </section>
 
-    <section id="assessment-results" class="assessment-stage hidden">
-      <div class="status-note" role="note">
-        <strong>How to read this result.</strong>
-        Raw self-report reflects your answers. The calibrated estimate remains
-        conservative under uncertainty. Confidence describes evidence strength,
-        not ability or worth.
-      </div>
+    <details class="panel assessment-import"><summary>Import an assessment</summary><div class="disclosure-body">
+      <p>If you already have a GGA11 or supported GGA1 share code, paste it here to save those answers to your account.</p>
+      {% if has_completed_assessment %}<p>Importing another result starts a new set of results. Earlier results and their practices stay in your history.</p>{% endif %}
+      <label for="assessment-import-code">Share code</label><textarea id="assessment-import-code" placeholder="GGA11.…"></textarea>
+      <button id="assessment-import-submit" class="button button-secondary" type="button" disabled>Import profile</button><p id="assessment-import-error" class="form-error hidden" role="alert"></p>
+    </div></details>
 
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Provisional result</p>
-          <h2>Your working profile</h2>
-        </div>
-        <span id="assessment-save-status" class="status-pill" role="status">Saving…</span>
-      </div>
-
-      <div id="assessment-quality" class="panel compact-panel"></div>
-
-      <div class="profile-grid">
-        <section class="panel">
-          <p class="eyebrow">Engagement style</p>
-          <h2>Orientations</h2>
-          <div id="assessment-orientations" class="result-card-list"></div>
-        </section>
-        <section class="panel">
-          <p class="eyebrow">Narrative mixture</p>
-          <h2>Leading archetypes</h2>
-          <div id="assessment-archetypes" class="result-card-list"></div>
-        </section>
-      </div>
-
-      <section class="panel">
-        <p class="eyebrow">Balancing work</p>
-        <h2>Highest provisional developmental needs</h2>
-        <p class="panel-intro">
-          Start with these three areas. Your saved profile keeps the full result
-          available for review.
-        </p>
-        <div id="assessment-needs" class="result-card-list"></div>
-      </section>
-
-      <section class="panel share-code-panel">
-        <p class="eyebrow">Portable result</p>
-        <h2>GGA11 share code</h2>
-        <p>
-          This code contains your assessment answers. Treat it as private account
-          data and share it only when you intend to.
-        </p>
-        <textarea id="assessment-share-code" readonly aria-label="GGA11 share code"></textarea>
-        <div class="button-row">
-          <button id="assessment-copy" class="button button-secondary" type="button">
-            Copy share code
-          </button>
-          <a id="assessment-profile-link" class="button hidden" href="{% url 'growth:profile' %}">
-            View saved profile
-          </a>
-          <button id="assessment-retry-save" class="button button-quiet hidden" type="button">
-            Retry save
-          </button>
-          <button id="assessment-retake" class="button button-quiet" type="button">Retake</button>
-        </div>
-        <p id="assessment-save-error" class="form-error hidden" role="alert"></p>
-      </section>
-    </section>
-
-    <section class="panel assessment-import">
-      <p class="eyebrow">Already have a result?</p>
-      <h2>Import a share code</h2>
-      <p>
-        Import a GGA11 code or a supported legacy GGA1 code. It will be decoded
-        and checked on this device before saving to your account.
-      </p>
-      <label for="assessment-import-code">Share code</label>
-      <textarea id="assessment-import-code" placeholder="GGA11.…"></textarea>
-      <div class="button-row">
-        <button id="assessment-import-submit" class="button button-secondary" type="button" disabled>
-          Import profile
-        </button>
-      </div>
-      <p id="assessment-import-error" class="form-error hidden" role="alert"></p>
-    </section>
-
+    <dialog id="assessment-retake-dialog" aria-labelledby="retake-heading">
+      <h2 id="retake-heading">Take the assessment again?</h2>
+      <p>Your earlier results, practices, check-ins and reviews stay in your history. A new assessment starts a new set of results; earlier practice credit does not carry over.</p>
+      <p>Review your direction, available time and practice choices again afterward. Earlier intentions can be reused only when you choose and confirm them.</p>
+      {% if current_practice %}<p><strong>{{ current_practice.protocol.name }}</strong> stays linked to its original assessment. You can continue and finish it there, or stop it before starting a different practice. A paused practice can be reviewed if its requirements are met; otherwise resume it to add check-ins.</p><a href="{% url 'growth:practice-sprint' current_practice.pk %}">Review current practice</a>{% endif %}
+      <p>This clears any assessment answers saved on this device so you can start again. It does not delete saved results.</p>
+      <div class="button-row"><button id="assessment-retake-cancel" class="button button-secondary" type="button" autofocus>Keep current results</button><button id="assessment-retake-confirm" class="button" type="button">Start a new assessment</button></div>
+    </dialog>
     <form class="hidden" aria-hidden="true">{% csrf_token %}</form>
   </div>
-
   {{ assessment_spec|json_script:"assessment-spec" }}
   {{ assessment_model|json_script:"assessment-model" }}
-  <script src="{% url 'growth:assessment-scorer' %}"></script>
-  <script src="{% static 'growth/assessment.js' %}"></script>
+  {{ assessment_display|json_script:"assessment-display" }}
+  <script src="{% url 'growth:assessment-scorer' %}"></script><script src="{% static 'growth/assessment.js' %}"></script>
 {% endblock %}
