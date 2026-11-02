@@ -20,7 +20,7 @@
     });
     summary.focus();
   }
-  document.querySelectorAll(".nav-more").forEach((menu) => {
+  document.querySelectorAll(".nav-more, .inline-help").forEach((menu) => {
     menu.addEventListener("focusout", (event) => {
       if (event.relatedTarget && !menu.contains(event.relatedTarget)) menu.open = false;
     });

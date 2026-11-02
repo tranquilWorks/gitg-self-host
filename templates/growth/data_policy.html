@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Disclaimer / Data Policy · Grounded Growth{% endblock %}
+{% block content %}
+<section class="page-heading"><div>
+  <h1>Disclaimer / Data Policy</h1>
+  <p class="lede">Who runs this installation, what it stores, and what the results mean.</p>
+</div></section>
+<section class="panel" aria-labelledby="operator-heading">
+  <h2 id="operator-heading">1. The installation owner handles your data</h2>
+  <p>Grounded Growth is open-source, self-hosted software. The person or organization running this installation is responsible for its access, security, backups, retention and any sharing. Ask them who has access and how to contact them before entering sensitive information. Self-hosting does not make information anonymous or inaccessible to administrators.</p>
+</section>
+<section class="panel" aria-labelledby="records-heading">
+  <h2 id="records-heading">2. Your account keeps your work</h2>
+  <p>This installation stores your account, assessment answers and timing, results, chosen direction, practice plans, notes, check-ins, reviews and optional feedback. Ordinary use adds no remote analytics, session recording or automatic upload.</p>
+  <p>Feedback stays with this installation; it is not automatically sent to the project's maintainers.</p>
+</section>
+<section class="panel" aria-labelledby="choices-heading">
+  <h2 id="choices-heading">3. Downloads, deletion and optional research</h2>
+  <p>Account lets you download your records or preview and confirm account deletion. Downloads can contain private notes. Deleting an account does not erase separate backup copies; their owner must handle those separately. Cleanup is disabled by default and never runs on a timer.</p>
+  <p>Reuse of an assessment for research requires a separate choice for each completed assessment. You may inspect the contribution and withdraw it from future exports. Exports remain sensitive even without a name; withdrawal cannot recall copies already downloaded.</p>
+  {% if request.user.is_authenticated %}<a href="{% url 'growth:data-management' %}">Manage my account and data</a>{% endif %}
+</section>
+<section class="panel" aria-labelledby="limits-heading">
+  <h2 id="limits-heading">4. Results guide practice; they do not certify ability</h2>
+  <p>Assessment results are starting estimates based on your answers. Orientations and archetypes are ways to reflect, not fixed identities. Recommendations are suggestions you can decline. Completion is not mastery, and no result measures human worth.</p>
+  <p>The assessment and practices have not completed independent measurement, safety, accessibility or effectiveness validation. This is not medical, psychological, legal or financial advice, diagnosis, treatment, or a professional qualification. Stop any practice that feels unsafe and seek appropriately qualified help when needed.</p>
+  <details class="inline-help"><summary>What does completion tell me?</summary><p>It records the work you chose to close after the practice's requirements were met. It does not establish that you can perform in every situation or that the practice caused improvement.</p></details>
+</section>
+{% if not request.user.is_authenticated %}<p><a href="{% url 'login' %}">Back to sign in</a></p>{% endif %}
+{% endblock %}

@@ -51,7 +51,8 @@ def test_authenticated_home_and_profile_render_pilot_seed(client, user, seeded):
     assert b"Remaining priority" in profile.content
     assert b"The Seeker" in profile.content
     assert b"Friendship, Belonging, and Hospitality" in profile.content
-    assert b"human worth" in profile.content
+    assert b'href="/data-policy/"' in profile.content
+    assert b"human worth" in client.get("/data-policy/").content
 
 
 @pytest.mark.django_db
