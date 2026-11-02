@@ -33,24 +33,6 @@
 
   {% if summary.assessment_run %}
     <p><a href="{% url 'history' %}">Review assessment periods and practice history</a>{% if request.user.assessment_runs.count > 1 %} · <a href="{% url 'history-reuse-latest' %}">Review earlier intentions for this period</a>{% endif %}</p>
-    <section class="definition-grid" aria-label="How to read this profile">
-      <article>
-        <h2>Starting estimate</h2>
-        <p>Your original assessment estimate, used to suggest areas for practice.</p>
-      </article>
-      <article>
-        <h2>Completion credit</h2>
-        <p>Credit recorded only when you explicitly close a whole practice.</p>
-      </article>
-      <article>
-        <h2>Coverage</h2>
-        <p>How completed competencies propagate through their mapped levers, families, and domains.</p>
-      </article>
-      <article>
-        <h2>Remaining priority</h2>
-        <p>Starting need reduced by earned coverage, then combined with explicit current context.</p>
-      </article>
-    </section>
 
     <div class="profile-grid">
       <section class="panel" aria-labelledby="orientations-heading">

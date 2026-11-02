@@ -378,10 +378,15 @@ def test_weekly_browser_loop_is_authenticated_private_and_no_proof_is_explicit(
     assert direction.encode() in page.content
     assert priority.encode() in page.content
     assert action.title.encode() in page.content
-    for private_free_url in (reverse("growth:home"), reverse("growth:profile")):
-        body = client.get(private_free_url).content
-        assert direction.encode() not in body
-        assert priority.encode() not in body
+    # UXA-02 deliberately adds the owner's current direction to Home, not the
+    # private priority stack or any free-text input to recommendation scoring.
+    home = client.get(reverse("growth:home"))
+    assert direction.encode() in home.content
+    assert priority.encode() not in home.content
+    assert "no-store" in home["Cache-Control"]
+    profile = client.get(reverse("growth:profile"))
+    assert direction.encode() not in profile.content
+    assert priority.encode() not in profile.content
 
     week_start, _ = current_window()
     saved = client.post(

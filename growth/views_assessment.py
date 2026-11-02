@@ -6,6 +6,7 @@ from django.urls import reverse
 from django.views.decorators.cache import never_cache
 from django.views.decorators.http import require_GET, require_POST
 
+from growth.assessment_copy import assessment_display_copy
 from growth.models import AssessmentRun
 from growth.services.assessment import (
     AssessmentPayloadError,
@@ -20,14 +21,17 @@ from growth.services.practice import current_sprint_for
 @require_GET
 def assessment(request):
     assets = load_assessment_assets()
+    previous = AssessmentRun.objects.filter(user=request.user).first()
     return render(
         request,
         "growth/assessment.html",
         {
-            "previous_assessment": AssessmentRun.objects.filter(user=request.user).first(),
+            "previous_assessment": previous,
+            "has_completed_assessment": previous is not None and previous.source != "pilot_seed",
             "current_practice": current_sprint_for(request.user),
             "assessment_spec": assets.spec,
             "assessment_model": assets.model,
+            "assessment_display": assessment_display_copy(),
             "assessment_storage_key": f"gga_v1_1_state_user_{request.user.pk}",
         },
     )

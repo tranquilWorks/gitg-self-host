@@ -28,15 +28,22 @@ def application_navigation(context):
             and not path.startswith("/account/pilot-feedback/"),
         ),
         ("Feedback", "growth:pilot-feedback", path.startswith("/account/pilot-feedback/")),
+        ("Quick start", "quick-start", path == "/quick-start/"),
     )
+    user = getattr(request, "user", None)
+    if user is not None and user.is_authenticated and not user.assessment_runs.exists():
+        entries = tuple(
+            item for item in entries if item[0] in {"Home", "Assessment", "Account", "Quick start"}
+        )
     links = [
         {"label": label, "url": reverse(name), "current": current}
         for label, name, current in entries
     ]
+    split = 2 if len(links) == 4 else 6
     return {
-        "primary": links[:6],
-        "secondary": links[6:],
-        "more_current": next((link["label"] for link in links[6:] if link["current"]), ""),
+        "primary": links[:split],
+        "secondary": links[split:],
+        "more_current": next((link["label"] for link in links[split:] if link["current"]), ""),
         "csrf_token": context.get("csrf_token"),
     }
 

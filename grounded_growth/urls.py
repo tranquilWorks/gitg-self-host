@@ -4,6 +4,7 @@ from django.urls import include, path
 from growth.views import health
 from growth.views_accounts import create_account, data_policy
 from growth.views_direction import direction_review, practice_direction
+from growth.views_entry import quick_start, skip_home_suggestion
 from growth.views_history import history, history_period, history_plan, history_reuse
 from growth.views_installation import installation
 from growth.views_practice import context_review
@@ -15,6 +16,8 @@ from growth.views_weekly_followup import (
 )
 
 urlpatterns = [
+    path("quick-start/", quick_start, name="quick-start"),
+    path("home/skip/", skip_home_suggestion, name="home-skip"),
     path("accounts/create/", create_account, name="create-account"),
     path("data-policy/", data_policy, name="data-policy"),
     path("account/installation/", installation, name="installation"),

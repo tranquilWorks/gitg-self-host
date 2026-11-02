@@ -170,7 +170,9 @@ def test_draft_remains_outside_evidence_and_submission_appears_in_history(client
 
     home = client.get(reverse("growth:home"))
     assert actions[1].title.encode() in home.content
-    assert b"Recent submitted check-ins" in home.content
+    assert b"Recent check-ins" in home.content
+    assert [item.pk for item in home.context["recent_check_ins"]] == [submitted.pk]
+    assert b"private draft" not in home.content
 
     submitted.note = "cannot edit"
     with pytest.raises(ValidationError, match="immutable"):
