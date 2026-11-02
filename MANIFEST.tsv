@@ -33,7 +33,7 @@ Dockerfile	1024
 HANDOFF_PROMPT.md	10887
 Makefile	5864
 README.md	41852
-contracts/active-batch.yaml	2460
+contracts/active-batch.yaml	2646
 contracts/assessment-calibration-analysis.schema.json	8367
 contracts/assessment-calibration-analysis.yaml	2771
 contracts/assessment-calibration-consent.yaml	1882
@@ -3049,7 +3049,7 @@ docs/runbooks/agentic-development.md	1586
 docs/scoring-shadow.md	8361
 docs/scoring-state.md	10614
 docs/testing.md	18786
-docs/uxa-shell.md	1759
+docs/uxa-shell.md	1994
 docs/weekly-followup.md	4025
 examples/top_25_task_preview_pilot002.csv	25336
 grounded_growth/__init__.py	1
@@ -3324,7 +3324,7 @@ templates/base.html	1553
 templates/growth/assessment.html	9119
 templates/growth/context_review.html	3986
 templates/growth/data_management.html	7709
-templates/growth/data_policy.html	3286
+templates/growth/data_policy.html	3444
 templates/growth/direction_review.html	2972
 templates/growth/evidence_audit_error.html	900
 templates/growth/evidence_ledger.html	5421
@@ -3341,7 +3341,7 @@ templates/growth/partials/practice_direction.html	1422
 templates/growth/partials/setup_form.html	829
 templates/growth/partials/weekly_next_step.html	1670
 templates/growth/partials/weekly_proof.html	654
-templates/growth/personal_os.html	6981
+templates/growth/personal_os.html	6365
 templates/growth/pilot_feedback.html	3937
 templates/growth/practice_card.html	855
 templates/growth/practice_check_in.html	3681
@@ -3355,9 +3355,9 @@ templates/growth/practice_review.html	3913
 templates/growth/practice_review_complete.html	2464
 templates/growth/practice_setup.html	4896
 templates/growth/practice_sprint.html	9828
-templates/growth/profile.html	13021
+templates/growth/profile.html	12180
 templates/growth/recovery.html	795
-templates/growth/weekly_execution.html	10703
+templates/growth/weekly_execution.html	10412
 templates/growth/weekly_plan_detail.html	2053
 templates/growth/weekly_replan.html	1975
 templates/growth/weekly_transition.html	1121
@@ -3474,7 +3474,7 @@ tests/test_m6k_systems_causes_tradeoffs_sources.py	18315
 tests/test_m6k_work_delivery_voice_sources.py	25284
 tests/test_models.py	2870
 tests/test_operator_convenience.py	9300
-tests/test_personal_os_browser.py	26813
+tests/test_personal_os_browser.py	26906
 tests/test_personal_os_models.py	5683
 tests/test_personal_os_readiness.py	10096
 tests/test_personal_os_services.py	18098
@@ -3487,7 +3487,7 @@ tests/test_practice_direction.py	10596
 tests/test_practice_workflow.py	13906
 tests/test_protocol_library.py	19382
 tests/test_score_state.py	24448
-tests/test_shadow_scoring.py	17070
+tests/test_shadow_scoring.py	17137
 tests/test_similarity_audit_bound.py	1538
 tests/test_tailored_practice_authoring.py	10662
 tests/test_typed_evidence.py	14362

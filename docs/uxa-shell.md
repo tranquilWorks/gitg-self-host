@@ -4,6 +4,9 @@ Issue #115 is the only implementation scope in this batch. PR #113 preserves
 the October 7 feedback; issues #116–124 remain separate and open.
 
 The shared footer links to `/data-policy/` instead of repeating scoring caveats.
+Repeated Profile mastery/model footnotes, Weekly mastery notice and Personal OS
+privacy reassurance are removed; their boundaries live on that policy surface.
+Practice-specific credit consequences and actionable safety notices remain.
 The policy covers installation-owner responsibility, stored records, exports,
 backups, deletion, research consent and product limitations. It is available
 before sign-in; Account links to it explicitly. No record is exported by this page.

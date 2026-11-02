@@ -26,8 +26,13 @@ scope:
   - templates/registration/create_account.html
   - templates/growth/data_policy.html
   - templates/growth/data_management.html
+  - templates/growth/profile.html
+  - templates/growth/weekly_execution.html
+  - templates/growth/personal_os.html
   - tests/test_uxa_shell.py
   - tests/test_auth_and_health.py
+  - tests/test_shadow_scoring.py
+  - tests/test_personal_os_browser.py
   - tests/e2e/test_uxa_shell.py
   - docs/PROJECT_HANDOFF.md
   - docs/evidence/UXA-01.md

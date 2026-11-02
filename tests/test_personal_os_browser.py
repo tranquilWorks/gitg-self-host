@@ -100,11 +100,12 @@ def test_personal_os_page_has_exact_prompts_privacy_notice_and_no_context_defaul
         "Where, if anywhere, have habit, momentum, or outside expectations been choosing for you?",
         "Where, if anywhere, do your actions or commitments feel out of step or fragmented?",
         "What one deliberate next step, if any, would make direction clearer?",
-        "included in normal database backups",
-        "download your private archive",
-        "urgent-support monitoring",
     ):
         assert text in body
+    assert 'href="/data-policy/"' in body
+    policy = client.get("/data-policy/").content.decode()
+    assert "backups" in policy and "download your records" in policy
+    assert "urgent-support monitoring" in policy
     assert '<option value="" selected>Choose a response</option>' in body
     assert '<option value="" selected>Choose 0 to 4</option>' in body
     assert "completion percentage" not in body.lower()
