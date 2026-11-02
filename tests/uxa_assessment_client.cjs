@@ -122,4 +122,20 @@ assert.equal(state().phase, "complete", "cancel leaves completed answers intact"
 get("assessment-retake").click(); get("assessment-retake-confirm").click();
 assert.equal(state().phase, "core"); assert.equal(Object.keys(state().responses).length, 0);
 assert.equal(state().retake_started, true);
-console.log(JSON.stringify({ simulation: "passed", core_answers: 50, followups: order.length, direct_key_progression: true, scorer_parity: true }));
+// Exercise the actual shared shell too: hidden/empty error placeholders must
+// not open collapsed import controls, while real validation still opens help.
+const error = (text, hidden = false) => {
+  const parent = { open: false, parentElement: null, matches: (selector) => selector === "details" };
+  return { textContent: text, parentElement: parent,
+    matches: (selector) => selector === ".form-error" || (selector === ".hidden, [hidden]" && hidden) };
+};
+const placeholders = [error(""), error("Old hidden error", true)];
+const actualError = error("Please enter an answer.");
+const shellDocument = {
+  querySelectorAll: (selector) => selector.includes("aria-invalid") ? [...placeholders, actualError] : [],
+  getElementById: () => null,
+};
+vm.runInNewContext(fs.readFileSync(path.join(root, "growth/static/growth/application.js"), "utf8"), { document: shellDocument });
+assert.ok(placeholders.every((item) => !item.parentElement.open));
+assert.equal(actualError.parentElement.open, true, "real validation errors must still be revealed");
+console.log(JSON.stringify({ simulation: "passed", core_answers: 50, followups: order.length, direct_key_progression: true, scorer_parity: true, error_disclosure: true }));

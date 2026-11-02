@@ -304,7 +304,9 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
 
     page.goto(f"{live_server.url}/")
     assert sentinel not in page.locator("body").inner_text()
-    page.get_by_text("Suggestions reflect the fit you reviewed.").wait_for()
+    page.get_by_text(
+        "They compare only the practices whose fit you have reviewed", exact=False
+    ).wait_for()
     assert_no_horizontal_overflow(page)
     page.evaluate("document.body.style.zoom = '200%'")
     assert_no_horizontal_overflow(page)

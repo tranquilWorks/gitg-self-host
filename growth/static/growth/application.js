@@ -5,7 +5,13 @@
       if (parent.matches("details")) parent.open = true;
     }
   };
-  document.querySelectorAll('[aria-invalid="true"], .errorlist, .form-error').forEach(reveal);
+  document.querySelectorAll('[aria-invalid="true"], .errorlist, .form-error').forEach((element) => {
+    // Client-side error placeholders are not errors until populated and shown.
+    // Opening their disclosures at startup defeats intentional collapsed controls.
+    if (element.matches(".form-error") &&
+        (!element.textContent.trim() || element.matches(".hidden, [hidden]"))) return;
+    reveal(element);
+  });
   const summary = document.getElementById("form-errors");
   if (summary) {
     summary.querySelectorAll('a[href^="#"]').forEach((link) => {
