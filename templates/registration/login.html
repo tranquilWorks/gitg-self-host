@@ -9,9 +9,9 @@
       <span class="brand-mark" aria-hidden="true">G</span>
       <span>Grounded Growth</span>
     </div>
-    <p class="eyebrow">Private local instance</p>
+    <p class="eyebrow">Welcome back</p>
     <h1>Sign in</h1>
-    <p class="auth-intro">Continue to your working profile and guided practices.</p>
+    <p class="auth-intro">Continue your next practice.</p>
 
     {% if form.errors %}
       <p class="form-error" role="alert">That username and password did not match.</p>
@@ -26,6 +26,6 @@
       {{ form.password }}
       <button class="button" type="submit">Sign in</button>
     </form>
-    <p class="fine-print">Credentials stay on this self-hosted instance.</p>
+    <p>New here? <a href="{% url 'create-account' %}">Create account</a></p>
   </section>
 {% endblock %}

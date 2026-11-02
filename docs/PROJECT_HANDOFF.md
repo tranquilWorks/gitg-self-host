@@ -1,5 +1,18 @@
 # Grounded Growth — Project Handoff
 
+## UXA-01 — 2 November 2026
+
+The owner authorized PR #113 prework and one bounded PR implementing #115.
+PR #113's missing feedback-document manifest entry was repaired on c85b97e;
+fresh CI and merge remain required. The new UXA-01 batch defines a public
+Disclaimer / Data Policy, functional ordinary-account registration with an
+operator disable switch, shared footer/copy/focus/help improvements and targeted
+tests. See [scope and operator notes](uxa-shell.md) and
+[verification checkpoint](evidence/UXA-01.md). No later UXA batch is started.
+Issues #116–124 remain open. No scoring/content/migration or live-data change.
+Local full verification and exact-head hosted/browser/Compose verification
+remain pending; do not describe this checkpoint as done or deployed.
+
 ## M6L-08 empirical validation preparation — 30 September 2026
 
 The owner requested Batch 08. Branch `codex/m6l-08-empirical-validation`

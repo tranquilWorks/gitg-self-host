@@ -1,87 +1,76 @@
 schema_version: 1
 batch:
-  id: M6L-08-EMPIRICAL-VALIDATION
-  title: Multi-cycle pilot preparation and bounded evidence workflow
-  goal: Prepare an executable consented multi-cycle evaluation, private observation summary and qualified
-    review handoff without inventing participant evidence.
+  id: UXA-01
+  title: Global plain-language accessibility disclaimer and login shell
+  goal: Implement issue 115 only; preserve all later UXA work as open.
 sources:
   product: gitg-self-host
   requirements:
-  - docs/PRODUCT_DECISIONS.md#decision-046
-  - docs/plans/m6l/README.md
-  - docs/plans/m6l/actions.yaml
-  milestone: M6 Phase F / M6L-08
-  baseline_commit: 941fb78d6bca780920a805a03cff9dad690a8dfd
+  - docs/plans/OWNER_UX_TEST_FEEDBACK_2026-10-07.md
+  milestone: UXA-01 / issue 115
+  baseline_commit: c85b97edce9882bffc99192e8345689f5661dbe4
 dependencies:
-- M6L-02
-- M6L-03
-- M6L-04
-- M6L-05
-- M6L-06
-- M6L-07
+- PR-113
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
-  - docs/plans/m6l/**
-  - docs/pilot/m6l08/**
-  - docs/pilot/PRIVATE_PILOT_OPERATIONS.md
+  - .env.example
+  - grounded_growth/urls.py
+  - grounded_growth/settings.py
+  - grounded_growth/middleware.py
+  - growth/views_accounts.py
+  - growth/static/growth/application.css
+  - growth/static/growth/application.js
+  - templates/base.html
+  - templates/registration/login.html
+  - templates/registration/create_account.html
+  - templates/growth/data_policy.html
+  - templates/growth/data_management.html
+  - templates/growth/profile.html
+  - templates/growth/weekly_execution.html
+  - templates/growth/personal_os.html
+  - tests/test_uxa_shell.py
+  - tests/test_auth_and_health.py
+  - tests/test_shadow_scoring.py
+  - tests/test_personal_os_browser.py
+  - tests/e2e/test_uxa_shell.py
+  - tests/e2e/test_core_flow.py
   - docs/PROJECT_HANDOFF.md
-  - docs/evidence/M6L-0*-*.md
-  - scripts/pilot_study.py
-  - tests/test_pilot_study.py
-  - README.md
+  - docs/evidence/UXA-01.md
+  - docs/uxa-shell.md
   - MANIFEST.tsv
   forbidden_paths:
   - data/**
   - reports/**
   - docs/authoring/**
-  - growth/**
-  - grounded_growth/**
-  - templates/**
-  - Dockerfile
-  - docker-compose.yml
-  - docker-entrypoint.sh
+  - growth/models.py
+  - growth/migrations/**
+  - growth/services/**
   - .github/**
   - contracts/verification.commands
 acceptance:
-- Provide a three-cycle protocol, neutral task prompts, separate observation/calibration consent, recruitment/access
-  plan, retention/withdrawal workflow and explicit launch requirements.
-- Provide a private local observation workspace and deterministic aggregate with strict field validation,
-  withdrawn-record exclusion, small-cell suppression, no raw participant output, no automatic upload and
-  zero completed assessment axes.
-- Map all eight evidence axes to available inputs, missing collection, prespecified methods, qualified
-  roles and decision records; preserve failed, inconclusive and missing observations.
-- Record actual evidence separately from preparation. Do not mark real-use, assessment collection or qualified
-  review complete without supplied consented records and reviewer receipts.
-- Preserve every runtime/content/scoring/replay contract; no participant recruitment, live data operations,
-  merge or release in this implementation.
+- Deliver functional ordinary account creation with CSRF/password validation and operator disable switch.
+- Consolidate shared footer limitations and hosting/data responsibilities in one public policy page.
+- Add keyboard-operable dismissible help and visible focus; preserve real error and safety content.
+- Preserve scoring evidence canonical content historical instructions and all later UXA scopes.
 validation:
   local:
-  - Focused source-only CLI tests
   - scripts/agent-verify.sh full
-  - Relevant existing pilot/weekly browser journeys and compose-smoke
-  - MANIFEST, schema and scope checks
+  - Relevant browser journeys and compose-smoke where available
   focused_tests_to_add:
-  - Exercise real CLI initialization and analysis, exclusive private output, input/format/consent rejection,
-    duplicate and impossible observation rejection, withdrawal, suppression and empty/synthetic claim
-    boundaries.
+  - Registration permission CSRF duplicate disabled and password paths; policy and keyboard help.
   required_ci:
   - Pilot readiness gate
 risk:
   class: moderate
   hazards:
-  - Software preparation could be mistaken for actual empirical evidence.
-  - Structured observations or small cells could expose private participant information.
-  - Missing sessions could be mislabeled as abandonment or mastery.
+  - Public registration must never grant administration privileges.
+  - Policy must not imply self-hosting is anonymous or erase separate backups.
   stop_conditions:
-  - Unconsented participant data or unapproved new measurement collection
-  - Any protected runtime or canonical change
-  - Missing evidence for an empirical claim
+  - Protected content scoring or participant data change
 rollback:
-  strategy: Revert additive study tools and documents. No migration or runtime change. Private study files
-    remain operator-controlled and require the agreed lifecycle; do not delete them implicitly.
+  strategy: Revert presentation and additive routes together; created accounts remain ordinary user data.
 evidence:
   output:
-  - docs/evidence/M6L-08-EMPIRICAL-VALIDATION-20260930.md
-  claim_boundary: Protocol and synthetic software verification only until actual consented records and
-    qualified reviewer receipts are supplied; zero empirical axes closed by automation.
+  - docs/evidence/UXA-01.md
+  claim_boundary: Software verification only; no participant or specialist validation or deployment.

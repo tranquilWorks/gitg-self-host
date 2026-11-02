@@ -362,7 +362,8 @@ def test_profile_shadow_projection_is_read_only_and_excludes_drafts(client, user
     assert "What completed practices have changed" in content
     assert "Final-review credit" in content
     assert "Check-ins preserve what happened" in content
-    assert "Completion remains separate from mastery" in content
+    assert 'href="/data-policy/"' in content
+    assert "Completion is not mastery" in client.get("/data-policy/").content.decode()
     assert "0.6500" not in content
     assert "1.500000" not in content
     assert SCORING_ALGORITHM_VERSION not in content

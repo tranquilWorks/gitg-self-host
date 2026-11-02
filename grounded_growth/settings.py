@@ -24,6 +24,7 @@ def env_int(name: str, default: int) -> int:
 
 
 DEBUG = env_bool("APP_DEBUG")
+ALLOW_REGISTRATION = env_bool("APP_ALLOW_REGISTRATION", default=True)
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "")
 if not SECRET_KEY:
     if DEBUG:

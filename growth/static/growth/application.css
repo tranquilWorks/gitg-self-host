@@ -39,3 +39,10 @@ input, select, textarea { max-width: 100%; }
 input:not([type="checkbox"]):not([type="radio"]), select, textarea { border-color: #788780; }
 .errorlist { color: #8d2e23; }
 [aria-invalid="true"] { border-color: #8d2e23 !important; }
+
+/* Shared UXA shell: quiet explanatory notes; errors retain their warning treatment. */
+.mastery-notice:not([role="alert"]), .privacy-notice { background: var(--surface-muted); border-color: var(--line); color: var(--ink); }
+.page-heading h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.15; }
+.panel h2 { font-size: 1.35rem; line-height: 1.3; }
+.inline-help summary { cursor: pointer; min-height: 44px; padding: 10px 0; color: var(--accent-dark); font-weight: 650; }
+summary:focus-visible, a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }

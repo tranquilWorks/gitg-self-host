@@ -3,13 +3,13 @@ from django.contrib.auth.views import redirect_to_login
 
 
 class RequireApplicationLoginMiddleware:
-    """Require authentication everywhere except login, health, and static assets."""
+    """Keep records private; allow login, registration, policy, health and assets."""
 
     def __init__(self, get_response):
         self.get_response = get_response
 
     def __call__(self, request):
-        public_paths = {settings.LOGIN_URL, "/health/"}
+        public_paths = {settings.LOGIN_URL, "/health/", "/accounts/create/", "/data-policy/"}
         is_static = request.path_info.startswith(settings.STATIC_URL)
         if (
             not request.user.is_authenticated
