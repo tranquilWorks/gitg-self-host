@@ -148,9 +148,12 @@ def test_login_home_and_profile_core_flow(live_server, page: Page):
     page.wait_for_url(f"{live_server.url}/profile/")
     page.get_by_role("heading", name="A provisional map, not an identity.").wait_for()
     page.get_by_text("The Seeker", exact=True).wait_for()
-    page.get_by_text(
-        re.compile(r"completion remains separate from mastery", re.IGNORECASE),
-    ).wait_for()
+    page.get_by_role("link", name="Disclaimer / Data Policy", exact=True).click()
+    page.wait_for_url(f"{live_server.url}/data-policy/")
+    expect(page.locator("#limits-heading + p")).to_contain_text("Completion is not mastery")
+    expect(page.locator("#limits-heading + p")).to_contain_text("no result measures human worth")
+    page.go_back()
+    page.wait_for_url(f"{live_server.url}/profile/")
 
 
 @pytest.mark.e2e
@@ -218,7 +221,15 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
 
     page.get_by_role("link", name="Personal OS", exact=True).click()
     page.get_by_role("heading", name="Choose what guides this season.").wait_for()
-    page.get_by_text("included in normal database backups").wait_for()
+    page.get_by_role("link", name="Disclaimer / Data Policy", exact=True).click()
+    page.wait_for_url(f"{live_server.url}/data-policy/")
+    expect(page.locator("#choices-heading + p")).to_contain_text("backup copies")
+    expect(page.locator("#choices-heading + p")).to_contain_text("download your records")
+    page.get_by_text(
+        "This application does not provide urgent-support monitoring.", exact=False
+    ).wait_for()
+    page.go_back()
+    page.wait_for_url(f"{live_server.url}/personal-os/")
     assert_no_horizontal_overflow(page)
     page.get_by_label(
         "How would you like to answer: "

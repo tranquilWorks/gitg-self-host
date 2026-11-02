@@ -23,6 +23,18 @@ def test_public_policy_and_account_entry(client):
 
 
 @pytest.mark.django_db
+def test_registration_labels_match_the_browser_entry_points(client):
+    response = client.get("/accounts/create/")
+    assert response.status_code == 200
+    for field_id, label in (
+        ("id_username", "Username:"),
+        ("id_password1", "Password:"),
+        ("id_password2", "Password confirmation:"),
+    ):
+        assert f'<label for="{field_id}">{label}</label>' in response.content.decode()
+
+
+@pytest.mark.django_db
 def test_registration_creates_only_an_ordinary_account(client):
     response = client.post(
         "/accounts/create/",
