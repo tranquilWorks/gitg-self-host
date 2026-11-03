@@ -5,8 +5,10 @@
 Owner explicitly requested completion and conditional merge of #118/#119 in one
 PR, then #120/#121 separately. Baseline main is merged #126 `98b8bc6`.
 Use `codex/uxa-04-05-profile-personal-os` and the active batch contract.
-See [current receipt](evidence/UXA-04-05.md). No UXA-04/05 PR, complete hosted
-verification or merge is claimed at this checkpoint. Do not deploy or bypass
+See [current receipt](evidence/UXA-04-05.md). Draft PR #127's first run failed
+quality (one stale feedback assertion) and browser (focus defect plus eight
+presentation/role expectations); a consolidated repair is recorded there.
+No complete hosted verification or merge is claimed. Do not deploy or bypass
 any failing gate. The older UXA-02/03 pending text below is historical; #126
 passed its final-head gates and artifact review before its recorded merge.
 

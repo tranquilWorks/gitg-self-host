@@ -37,7 +37,12 @@
       const link = event.target.closest("a[href^='#']");
       const target = link && document.getElementById(link.hash.slice(1));
       const index = steps.findIndex((step) => target && step.contains(target));
-      if (index >= 0) { current = index; show(true); }
+      if (index >= 0) {
+        current = index;
+        show(false);
+        // Keep the exact error-summary destination, not the step's first select.
+        target.focus();
+      }
     });
   }
 

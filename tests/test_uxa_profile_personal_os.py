@@ -4,6 +4,19 @@ from django.test import RequestFactory
 from django.urls import reverse
 
 
+def test_actual_progressive_script_error_focus_and_draft_preservation():
+    import subprocess
+    from pathlib import Path
+
+    result = subprocess.run(
+        ["node", str(Path(__file__).with_name("uxa_personal_os_client.cjs"))],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    assert "simulation only" in result.stdout
+
+
 @pytest.mark.django_db
 def test_installation_separates_ordinary_and_operator_information(client, user):
     client.force_login(user)

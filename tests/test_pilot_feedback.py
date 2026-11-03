@@ -125,7 +125,9 @@ def test_feedback_page_explains_optional_isolated_local_collection(client, user,
     normalized = " ".join(content.split())
 
     assert response.status_code == 200
-    assert "This is usability feedback, not developmental evidence." in content
+    assert "This form saves feedback on this instance only" in normalized
+    assert "it does not send it to the project maintainers" in normalized
+    assert "Feedback does not change your assessment or practice results" in normalized
     assert "No automatic timing or remote telemetry" in content
     assert "does not time, record, or send your activity anywhere" in normalized
     assert "This form is not monitored for urgent support." in content
