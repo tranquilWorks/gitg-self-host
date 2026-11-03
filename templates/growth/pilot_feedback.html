@@ -7,11 +7,10 @@
   <section class="page-heading feedback-heading">
     <div>
       <p class="eyebrow">Optional product feedback</p>
-      <h1>Tell us what got in the way.</h1>
+      <h1>Record what got in the way.</h1>
       <p class="lede">
-        This is usability feedback, not developmental evidence. Nothing here
-        changes your assessment, working profile, recommendation order,
-        practice status, completion, orientations, or archetypes.
+        This form saves feedback on this instance only; it does not send it to the project
+        maintainers. Feedback does not change your assessment or practice results.
       </p>
     </div>
     {% if summary.total %}
@@ -19,6 +18,14 @@
         Download minimized JSON
       </a>
     {% endif %}
+  </section>
+
+  <section class="panel" aria-labelledby="feedback-handoff-heading">
+    <h2 id="feedback-handoff-heading">Share a problem with the project</h2>
+    <p>Describe the page, what you tried, what you expected and what happened instead.
+      Remove private notes, names, assessment answers and screenshots containing personal data.</p>
+    <a class="button button-secondary" href="https://github.com/tranquilWorks/gitg-self-host/issues/new">Open a GitHub issue</a>
+    <p>GitHub is a separate service. Review what you share before submitting; nothing from this account is attached automatically.</p>
   </section>
 
   <section class="panel feedback-boundary" aria-labelledby="feedback-boundary-heading">

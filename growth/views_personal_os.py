@@ -13,9 +13,11 @@ from growth.domain.personal_os import (
     IDENTITY_SECTION_IDS,
 )
 from growth.forms import AssessmentPriorityContextForm, PersonalOSForm
-from growth.models import AssessmentContext, PersonalOSRevision
+from growth.models import AssessmentContext, AssessmentRun, PersonalOSRevision
+from growth.personal_os_copy import PROMPTS
 from growth.presentation import recovery
 from growth.services.context import ContextServiceError, record_context_bundle
+from growth.services.history import reuse_state
 from growth.services.personal_os import (
     PersonalOSServiceError,
     PersonalOSWriteConflictError,
@@ -32,8 +34,8 @@ def _sections(form, definitions, section_ids):
     return tuple(
         {
             "stable_id": section_id,
-            "prompt": definitions[section_id].prompt,
-            "help_text": definitions[section_id].help_text,
+            "prompt": PROMPTS[section_id][0],
+            "help_text": PROMPTS[section_id][1],
             "state": form[f"{section_id}_state"],
             "value": form[f"{section_id}_value"],
         }
@@ -42,11 +44,37 @@ def _sections(form, definitions, section_ids):
 
 
 def _render(request, *, run, personal_form, context_form, status=200):
+    reusable = []
+    try:
+        reusable = [
+            source
+            for source in AssessmentRun.objects.filter(user=request.user).exclude(pk=run.pk)
+            if reuse_state(request.user, source)["options"]
+        ]
+    except (ValidationError, ValueError, TypeError):
+        return recovery(
+            request, "Earlier choices could not be verified. No value is displayed.", status=409
+        )
+    saved = bool(personal_form.initial.get("mission_state"))
+    summary = []
+    for key, label in (("season", "Current season"), ("capacity", "Room for practice")):
+        if context_form.initial.get(f"{key}_state") == "provided":
+            value = context_form.initial.get(f"{key}_value")
+            choices = dict(context_form.fields[f"{key}_value"].choices)
+            summary.append(
+                {"label": label, "value": choices.get(str(value), choices.get(value, value))}
+            )
+    for key, (label, _) in PROMPTS.items():
+        if personal_form.initial.get(f"{key}_state") == "provided":
+            summary.append({"label": label, "value": personal_form.initial.get(f"{key}_value", "")})
     return render(
         request,
         "growth/personal_os.html",
         {
             "assessment_run": run,
+            "show_summary": saved and request.method == "GET" and request.GET.get("edit") != "1",
+            "saved_sections": summary,
+            "reusable_sources": reusable,
             "personal_form": personal_form,
             "context_form": context_form,
             "identity_sections": _sections(
@@ -101,6 +129,21 @@ def personal_os(request):
         request.POST if form_type == "assessment_context" else None,
         initial=assessment_context_initial(latest_context, assessment_epoch=run.pk),
     )
+    for key, (prompt, help_text) in PROMPTS.items():
+        personal_form.fields[f"{key}_state"].label = "Your choice"
+        personal_form.fields[f"{key}_value"].label = prompt
+        personal_form.fields[f"{key}_value"].help_text = help_text
+    context_form.fields["capacity_value"].choices = (
+        ("", "Choose the room you have"),
+        ("0", "No room for another practice"),
+        ("1", "Very little room"),
+        ("2", "Some room"),
+        ("3", "Comfortable room"),
+        ("4", "Plenty of room"),
+    )
+    context_form.fields[
+        "capacity_value"
+    ].help_text = "The room you report can help narrow practices to fit your current life."
 
     if request.method == "POST" and form_type not in {"personal_os", "assessment_context"}:
         return recovery(

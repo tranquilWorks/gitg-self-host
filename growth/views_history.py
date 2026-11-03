@@ -45,15 +45,25 @@ def _conflict(request):
 
 @login_required
 @never_cache
-@require_GET
+@require_http_methods(["GET", "POST"])
 def history(request):
+    if request.GET.get("reuse"):
+        return history_reuse(request, run_id=request.GET["reuse"])
+    if request.method == "POST":
+        return _conflict(request)
     runs = AssessmentRun.objects.filter(user=request.user).order_by("-created_at", "-pk")
+    reusable = []
+    try:
+        reusable = [source for source in runs[1:] if reuse_state(request.user, source)["options"]]
+    except ERRORS:
+        return _conflict(request)
     return render(
         request,
         "growth/history.html",
         {
             "periods": Paginator(runs, 10).get_page(request.GET.get("page")),
             "current": runs.first(),
+            "reusable_sources": reusable,
             "active_sprint": current_sprint_for(request.user),
         },
     )

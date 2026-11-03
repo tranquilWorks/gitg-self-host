@@ -359,9 +359,10 @@ def test_profile_shadow_projection_is_read_only_and_excludes_drafts(client, user
     assert len(shadow.rows) == 4
     assert shadow.uses_reconstructed_baseline is True
     assert response.status_code == 200
-    assert "What completed practices have changed" in content
-    assert "Final-review credit" in content
-    assert "Check-ins preserve what happened" in content
+    # Submitted events alone must not expose a completed-practice record.
+    assert "current-state-heading" not in content
+    assert "Final-review credit" not in content
+    assert not response.context["summary"].evidence_updated_capacities
     assert 'href="/data-policy/"' in content
     assert "Completion is not mastery" in client.get("/data-policy/").content.decode()
     assert "0.6500" not in content
@@ -396,7 +397,8 @@ def test_incomplete_pre_closeout_evidence_does_not_change_composite_profile(clie
     content = response.content.decode()
 
     assert response.status_code == 200
-    assert "No practice closeout has changed coverage yet" in content
+    assert "current-state-heading" not in content
+    assert not response.context["summary"].evidence_updated_capacities
     assert "Completion-credit verification is required" not in content
     assert str(missing.pk) not in content
     assert _baseline_snapshot(user) == before

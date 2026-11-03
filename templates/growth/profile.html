@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load growth_extras %}
+{% load presentation %}
 
 {% block title %}Developmental profile · Grounded Growth{% endblock %}
 
@@ -7,11 +8,10 @@
   <section class="page-heading profile-heading">
     <div>
       <p class="eyebrow">Developmental profile</p>
-      <h1>A provisional map, not an identity.</h1>
+      <h1>Your starting point and progress</h1>
       <p class="lede">
-        A concise assessment initializes family, lever, domain, and competency
-        priorities. Explicit practice closeouts add bounded completion credit.
-        Neither is a claim of mastery or a measure of worth.
+        See what your answers suggest, then use your completed practices to review
+        where you have put those ideas into action.
       </p>
     </div>
     {% if summary.assessment_run %}
@@ -32,7 +32,17 @@
   </section>
 
   {% if summary.assessment_run %}
-    <p><a href="{% url 'history' %}">Review assessment periods and practice history</a>{% if request.user.assessment_runs.count > 1 %} · <a href="{% url 'history-reuse-latest' %}">Review earlier intentions for this period</a>{% endif %}</p>
+    <p><a href="{% url 'history' %}">See your assessment and practice history</a></p>
+    {% if summary.assessment_run.original_share_code %}
+      <button type="button" class="button button-secondary" data-open-dialog="profile-share">Share</button>
+      <dialog id="profile-share" aria-labelledby="profile-share-heading">
+        <h2 id="profile-share-heading">Share assessment results</h2>
+        <p>This code contains assessment information. Only share it with someone you trust.</p>
+        <label for="profile-share-code">Assessment share code</label>
+        <textarea id="profile-share-code" readonly>{{ summary.assessment_run.original_share_code }}</textarea>
+        <form method="dialog"><button class="button">Close</button></form>
+      </dialog>
+    {% endif %}
 
     <div class="profile-grid">
       <section class="panel" aria-labelledby="orientations-heading">
@@ -48,6 +58,7 @@
             <li>
               <div class="score-label">
                 <strong>{{ orientation.name }}</strong>
+                <details class="inline-help"><summary>About {{ orientation.name }}</summary><p>{{ orientation.slug|orientation_help }}</p></details>
                 <span>{{ orientation.score|percentage }} expression</span>
               </div>
               <meter min="0" max="1" value="{{ orientation.score }}">{{ orientation.score|percentage }}</meter>
@@ -71,7 +82,7 @@
               <span class="rank">{{ archetype.rank|stringformat:"02d" }}</span>
               <div>
                 <strong>{{ archetype.name }}</strong>
-                <span>{{ archetype.orientation_slugs|join:" + " }}</span>
+                <details class="inline-help"><summary>About {{ archetype.name }}</summary><p>{{ archetype.orientation_slugs|archetype_help }}</p></details>
               </div>
               <b>{{ archetype.fit_index|percentage }}</b>
             </li>
@@ -84,18 +95,18 @@
       <section class="panel" aria-labelledby="strengths-heading">
         <div class="panel-heading">
           <div>
-            <p class="eyebrow">Current signal</p>
+          <p class="eyebrow">Possible strengths</p>
             <h2 id="strengths-heading">Strongest provisional capacities</h2>
           </div>
         </div>
+        <details class="inline-help"><summary>What do these strengths mean?</summary><p>These are areas your assessment answers suggest may come more readily to you. They are starting estimates, not observations of everything you can do. Use them to decide what to try, not as a fixed label.</p></details>
         <ol class="capacity-list">
           {% for capacity in summary.strongest_capacities %}
             <li>
               <div>
                 <strong>{{ capacity.lever.name }}</strong>
                 <span>
-                  Raw {{ capacity.raw_self_report|percentage }} ·
-                  confidence {{ capacity.confidence|percentage }}
+                  Starting estimate from your assessment
                 </span>
               </div>
               <b>{{ capacity.starting_estimate|percentage }}</b>
@@ -107,10 +118,11 @@
       <section class="panel" aria-labelledby="needs-heading">
         <div class="panel-heading">
           <div>
-            <p class="eyebrow">Balancing work</p>
+            <p class="eyebrow">Areas to practise</p>
             <h2 id="needs-heading">Highest provisional developmental needs</h2>
           </div>
         </div>
+        <details class="inline-help"><summary>Why practise these areas?</summary><p>Your assessment suggests these areas may benefit from attention. They help choose a starting practice, not rank your worth or prove a weakness. Your current circumstances and the work you complete can change what is useful next.</p></details>
         <ol class="capacity-list">
           {% for capacity in summary.highest_needs %}
             <li>
@@ -118,8 +130,7 @@
               <div>
                 <strong>{{ capacity.lever.name }}</strong>
                 <span>
-                  Starting estimate {{ capacity.starting_estimate|percentage }} ·
-                  confidence {{ capacity.starting_confidence|percentage }}
+                  Starting estimate {{ capacity.starting_estimate|percentage }}
                 </span>
               </div>
             </li>
@@ -128,6 +139,10 @@
       </section>
     </div>
 
+    {% if summary.personal_coverage_error and not summary.evidence_updated_capacities %}
+      <section class="panel" role="status"><h2>Personal-applicable coverage is unavailable</h2><p>{{ summary.personal_coverage_error }}</p></section>
+    {% endif %}
+    {% if summary.evidence_updated_capacities or summary.state_verification_error %}
     <section class="panel shadow-projection" aria-labelledby="current-state-heading">
       <div class="panel-heading">
         <div>
@@ -191,12 +206,11 @@
               <div>
                 <strong>{{ capacity.lever.name }}</strong>
                 <span>
-                  {{ capacity.completion_coverage|percentage }} mapped completion coverage
+                  {{ capacity.completion_coverage|percentage }} of related practice work completed
                 </span>
               </div>
               <div class="projection-confidence">
-                <span>Remaining priority</span>
-                <strong>{{ capacity.need_score|percentage }}</strong>
+                <span>Progress from completed practices</span>
               </div>
             </article>
           {% endfor %}
@@ -243,25 +257,8 @@
         </div>
       {% endif %}
     </section>
+    {% endif %}
 
-    <section class="panel" aria-labelledby="weekly-profile-heading">
-      <div class="panel-heading">
-        <div>
-          <p class="eyebrow">Your week</p>
-          <h2 id="weekly-profile-heading">Weekly execution and proof review</h2>
-        </div>
-      </div>
-      <div class="shadow-summary">
-        <div><strong>{{ weekly_plan_count }}</strong><span>saved plan revision{{ weekly_plan_count|pluralize }}</span></div>
-        <div><strong>{{ weekly_review_count }}</strong><span>proof review{{ weekly_review_count|pluralize }}</span></div>
-        <div><strong>0</strong><span>scores created by planning or review</span></div>
-      </div>
-      <p class="fine-print">
-        Weekly records organize existing practices and evidence. They do not create a competency
-        score, rewrite Personal OS text, or convert completion into mastery.
-      </p>
-      <a class="button button-secondary" href="{% url 'growth:weekly-execution' %}">Open weekly execution</a>
-    </section>
   {% else %}
     <div class="empty-state">
       <h2>No assessment profile is available</h2>

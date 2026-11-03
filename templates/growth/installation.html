@@ -4,7 +4,8 @@
 <section class="narrow-page">
   <p class="eyebrow">Installation</p>
   <h1>Know what is running.</h1>
-  <p class="lede">Local version information and recovery guidance for the person who operates this instance.</p>
+  <p class="lede">Grounded Growth is run by the person or organization hosting this instance.</p>
+  {% if request.user.is_staff or request.user.is_superuser %}
   <section class="panel account-pilot-panel" aria-labelledby="revision-heading">
     <h2 id="revision-heading">Installed revision</h2>
     <p class="preserve-lines"><code>{{ revision }}</code></p>
@@ -33,6 +34,10 @@
       <p>Use the <a href="https://github.com/tranquilWorks/gitg-self-host/blob/{% if revision == 'unknown' %}main{% else %}{{ revision }}{% endif %}/docs/operator-convenience.md">operator guide</a> for password recovery, pinned updates and verified offline restoration. {% if revision == "unknown" %}Without revision metadata, this link opens the latest published guide; check it against your installed source.{% else %}This link uses the embedded source revision. For a local commit that has not been pushed, read the guide in that checkout.{% endif %}</p>
     </details>
   </section>
+  {% else %}
+  <p>For sign-in problems or questions about updates and backups, contact your instance operator.</p>
+  <p><a href="{% url 'data-policy' %}">Read the Disclaimer / Data Policy</a></p>
+  {% endif %}
   <p><a href="{% url 'growth:data-management' %}">Back to account</a></p>
 </section>
 {% endblock %}

@@ -3,6 +3,29 @@ from django.urls import reverse
 
 register = template.Library()
 
+ORIENTATION_HELP = {
+    "discernment": "You tend to look for reasons and check what is true before deciding.",
+    "transcendence": "You tend to connect everyday choices with a larger sense of meaning.",
+    "stewardship": "You tend to care for what others depend on and protect it over time.",
+    "exploration": "You tend to learn by trying possibilities and meeting unfamiliar situations.",
+    "agency": "You tend to set a direction and take initiative to move things forward.",
+    "connection": ("You tend to begin with relationships and how people are affected."),
+}
+
+
+@register.filter
+def orientation_help(slug):
+    return ORIENTATION_HELP.get(slug, "This describes one way you approach choices.") + (
+        " It describes a preference, not ability or an instruction for how you must act."
+    )
+
+
+@register.filter
+def archetype_help(slugs):
+    return " ".join(ORIENTATION_HELP.get(slug, "") for slug in slugs) + (
+        " This name combines those two preferences as a reflection aid, not a fixed identity."
+    )
+
 
 @register.inclusion_tag("growth/partials/navigation.html", takes_context=True)
 def application_navigation(context):

@@ -146,7 +146,7 @@ def test_login_home_and_profile_core_flow(live_server, page: Page):
     page.get_by_role("link", name="See my results").click()
 
     page.wait_for_url(f"{live_server.url}/profile/")
-    page.get_by_role("heading", name="A provisional map, not an identity.").wait_for()
+    page.get_by_role("heading", name="Your starting point and progress").wait_for()
     page.get_by_text("The Seeker", exact=True).wait_for()
     page.get_by_role("link", name="Disclaimer / Data Policy", exact=True).click()
     page.wait_for_url(f"{live_server.url}/data-policy/")
@@ -195,7 +195,7 @@ def test_mobile_keyboard_walkthrough_covers_all_active_protocols(live_server, pa
 
     page.set_viewport_size({"width": 1440, "height": 1000})
     page.goto(f"{live_server.url}/profile/")
-    page.get_by_role("heading", name="A provisional map, not an identity.").wait_for()
+    page.get_by_role("heading", name="Your starting point and progress").wait_for()
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "desktop-profile")
 
@@ -220,7 +220,7 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     sentinel = "SYNTHETIC-PRIVATE-M6C04-BROWSER"
 
     page.get_by_role("link", name="Personal OS", exact=True).click()
-    page.get_by_role("heading", name="Choose what guides this season.").wait_for()
+    page.get_by_role("heading", name="Make room for what matters to you.").wait_for()
     page.get_by_role("link", name="Disclaimer / Data Policy", exact=True).click()
     page.wait_for_url(f"{live_server.url}/data-policy/")
     expect(page.locator("#choices-heading + p")).to_contain_text("backup copies")
@@ -231,18 +231,13 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     page.go_back()
     page.wait_for_url(f"{live_server.url}/personal-os/")
     assert_no_horizontal_overflow(page)
-    page.get_by_label(
-        "How would you like to answer: "
-        "What purpose or contribution do you choose to orient toward for now?"
-    ).select_option("provided")
-    page.get_by_label(
-        "What purpose or contribution do you choose to orient toward for now?",
-        exact=True,
-    ).fill(sentinel)
+    page.locator("#id_mission_state").select_option("provided")
+    page.get_by_label("What would you like to contribute?", exact=True).fill(sentinel)
     page.get_by_role("button", name="Save Personal OS revision").click()
     page.get_by_text("Personal OS revision saved.").wait_for()
     assert PersonalOSRevision.objects.count() == 1
 
+    page.get_by_role("link", name="Review or change your answers").click()
     page.get_by_label("How would you like to describe this season?").select_option("provided")
     page.get_by_label("Current season:", exact=True).select_option("transition")
     page.get_by_label("How would you like to describe your capacity?").select_option("provided")

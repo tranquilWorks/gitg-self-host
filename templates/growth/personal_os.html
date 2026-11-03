@@ -4,20 +4,25 @@
 {% block title %}Personal OS · Grounded Growth{% endblock %}
 
 {% block content %}
-  {% if request.user.assessment_runs.count > 1 %}<p><a href="{% url 'history-reuse-latest' %}">Review and reuse selected earlier intentions</a></p>{% endif %}
+  {% for source in reusable_sources %}<p><a href="{% url 'history' %}?reuse={{ source.pk|urlencode }}">Review earlier choices from {{ source.created_at|date:"M j, Y" }}</a></p>{% endfor %}
   <section class="page-heading">
     <div>
       <p class="eyebrow">Personal OS</p>
-      <h1>Choose what guides this season.</h1>
+      <h1>Make room for what matters to you.</h1>
       <p class="lede">
-        These are provisional, user-authored reflections—not a diagnosis, identity score,
-        promise, or measure of worth. Every response may remain unknown, not applicable,
-        or deferred.
+        Choose a direction and the time you have for it. You can leave any question
+        unanswered, skip it for now, or change your answers later.
       </p>
     </div>
   </section>
 
-  <p><a class="text-link" href="{% url 'direction-review' %}">Review direction and earlier revisions</a> — a shorter review of mission, anti-goals, priorities and twelve-month direction.</p>
+  {% if show_summary %}
+    <section class="panel"><h2>Your current direction</h2>
+      {% for section in saved_sections %}<h3>{{ section.label }}</h3><p class="preserve-lines">{{ section.value }}</p>{% empty %}<p>No written direction yet.</p>{% endfor %}
+      <a class="button" href="?edit=1">Review or change your answers</a>
+      <p><a href="{% url 'direction-review' %}">See earlier direction revisions</a></p>
+    </section>
+  {% else %}
 
   <section class="section-block" aria-labelledby="season-heading">
     <div class="section-heading">
@@ -66,7 +71,7 @@
     <details class="stage-panel" open>
       <summary>
         <span class="eyebrow">Identity directions</span>
-        <strong>Mission, principles, anti-goals, direction, and priorities</strong>
+        <strong>What matters and where you want to go</strong>
       </summary>
       <div class="stage-panel-body">
         {% for section in identity_sections %}
@@ -91,14 +96,10 @@
 
     <details class="stage-panel"{% if personal_form.errors %} open{% endif %}>
       <summary>
-        <span class="eyebrow">Truth / Autopilot Audit</span>
-        <strong>Four descriptive reflection prompts</strong>
+        <span class="eyebrow">Daily life</span>
+        <strong>Notice what helps and what gets in the way</strong>
       </summary>
       <div class="stage-panel-body">
-        <p class="status-note">
-          A mismatch is information for reflection—not evidence of failure, deficient
-          character, or diminished worth.
-        </p>
         {% for section in audit_sections %}
           <fieldset class="reflection-fieldset">
             <legend>{{ section.prompt }}</legend>
@@ -122,13 +123,14 @@
       <button class="button" type="submit">Save Personal OS revision</button>
     </div>
   </form>
+  {% endif %}
 
   <section class="section-block" aria-labelledby="practice-context-heading">
     <div class="section-heading">
       <div>
         <p class="eyebrow">Practice context</p>
         <h2 id="practice-context-heading">Review one active practice at a time</h2>
-        <p><a href="{% url 'context-review' %}">Review a small shortlist or revisit deferred choices</a></p>
+        <p><a href="{% url 'context-review' %}">Review practice choices</a></p>
       </div>
     </div>
     <p>

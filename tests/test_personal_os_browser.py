@@ -91,15 +91,15 @@ def test_personal_os_page_has_exact_prompts_privacy_notice_and_no_context_defaul
     body = response.content.decode()
     assert response.status_code == 200
     for text in (
-        "What purpose or contribution do you choose to orient toward for now?",
-        "Which one to five principles do you choose to guide decisions for now?",
-        "Which one to five outcomes or patterns do you deliberately not want to optimize for?",
-        "What direction would you choose to make more real over the next twelve months?",
-        "Which one to five priorities deserve attention first in your present season?",
-        "What feels most true about your current direction and situation?",
-        "Where, if anywhere, have habit, momentum, or outside expectations been choosing for you?",
-        "Where, if anywhere, do your actions or commitments feel out of step or fragmented?",
-        "What one deliberate next step, if any, would make direction clearer?",
+        "What would you like to contribute?",
+        "What rules of thumb do you want to live by?",
+        "What do you want to avoid building your life around?",
+        "What would you like to change over the next year?",
+        "What deserves your attention first?",
+        "What is your situation right now?",
+        "What are you doing mainly out of habit or pressure?",
+        "Where is your time going somewhere you do not want?",
+        "What small step would help you decide what comes next?",
     ):
         assert text in body
     assert 'href="/data-policy/"' in body
@@ -107,7 +107,9 @@ def test_personal_os_page_has_exact_prompts_privacy_notice_and_no_context_defaul
     assert "backups" in policy and "download your records" in policy
     assert "urgent-support monitoring" in policy
     assert '<option value="" selected>Choose a response</option>' in body
-    assert '<option value="" selected>Choose 0 to 4</option>' in body
+    assert '<option value="" selected>Choose the room you have</option>' in body
+    assert '<option value="0">No room for another practice</option>' in body
+    assert '<option value="4">Plenty of room</option>' in body
     assert "completion percentage" not in body.lower()
 
 

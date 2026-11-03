@@ -1,5 +1,11 @@
 (() => {
   "use strict";
+  document.querySelectorAll("[data-open-dialog]").forEach((button) => {
+    const dialog = document.getElementById(button.dataset.openDialog);
+    if (!dialog) return;
+    button.addEventListener("click", () => dialog.showModal());
+    dialog.addEventListener("close", () => button.focus());
+  });
   const reveal = (element) => {
     for (let parent = element?.parentElement; parent; parent = parent.parentElement) {
       if (parent.matches("details")) parent.open = true;

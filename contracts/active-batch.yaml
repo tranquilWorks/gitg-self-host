@@ -1,53 +1,52 @@
 schema_version: 1
 batch:
-  id: UXA-02-03
-  title: Stage-aware entry Home and plain-language assessment
-  goal: Implement issues 116 and 117 together in one PR; no later UXA scope.
+  id: UXA-04-05
+  title: Product-facing Profile History Account and guided Personal OS
+  goal: Implement issues 118 and 119 together; verify and merge before starting the separately authorized 120 and 121 pair.
 sources:
   product: gitg-self-host
   requirements:
   - docs/plans/OWNER_UX_TEST_FEEDBACK_2026-10-07.md
-  milestone: UXA-02 and UXA-03 / issues 116 and 117
-  baseline_commit: bc55fe6ef9a8f4b94b26052096a9e320b0791e0c
+  milestone: UXA-04 and UXA-05 / issues 118 and 119
+  baseline_commit: 98b8bc6e74e37c0472ff37b8f1dcb3baa89c0a3b
 dependencies:
 - PR-113-merged
 - PR-125-merged
+- PR-126-merged
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
+  - growth/personal_os_copy.py
+  - growth/views_practice.py
+  - templates/growth/practice_list.html
+  - growth/views_personal_os.py
+  - growth/views_history.py
+  - growth/static/growth/personal_os.js
+  - templates/growth/personal_os.html
+  - templates/growth/history.html
+  - tests/test_personal_os_browser.py
+  - templates/growth/data_management.html
+  - templates/growth/installation.html
+  - templates/growth/pilot_feedback.html
+  - tests/test_uxa_profile_personal_os.py
+  - tests/e2e/test_uxa_profile_personal_os.py
+  - tests/test_operator_convenience.py
+  - tests/test_shadow_scoring.py
+  - tests/test_assessment_calibration_consent.py
+  - tests/test_applicability_coverage.py
+  - docs/evidence/UXA-04-05.md
   - grounded_growth/urls.py
-  - grounded_growth/middleware.py
   - growth/views.py
-  - growth/views_entry.py
-  - growth/views_assessment.py
   - growth/templatetags/presentation.py
-  - growth/services/entry.py
-  - growth/assessment_copy.py
   - growth/static/growth/application.css
   - growth/static/growth/application.js
-  - growth/static/growth/assessment.js
-  - templates/growth/home.html
-  - templates/growth/quick_start.html
-  - templates/growth/partials/starting_guide.html
-  - templates/growth/assessment.html
   - templates/growth/profile.html
-  - tests/test_uxa_entry_assessment.py
-  - tests/uxa_assessment_client.cjs
-  - tests/test_guided_entry.py
   - tests/test_application_consistency.py
-  - tests/test_assessment_integration.py
-  - tests/test_auth_and_health.py
-  - tests/test_weekly_execution.py
   - tests/test_history_continuity.py
-  - tests/test_practice_workflow.py
-  - tests/e2e/test_uxa_entry_assessment.py
-  - tests/e2e/test_guided_entry.py
   - tests/e2e/test_application_consistency.py
   - tests/e2e/test_core_flow.py
   - tests/e2e/test_history_continuity.py
   - docs/PROJECT_HANDOFF.md
-  - docs/evidence/UXA-02-03.md
-  - docs/uxa-entry-assessment.md
   - MANIFEST.tsv
   forbidden_paths:
   - data/**
@@ -64,34 +63,31 @@ scope:
   - .github/**
   - contracts/verification.commands
 acceptance:
-- Gate entry and navigation by actual assessment state; show real onboarding progress.
-- Make Home a stage-aware command center with explicit skip and truthful input explanations.
-- Move the four profile explanation blocks and how-it-works copy to quick start.
-- Rewrite all assessment prompts and answer labels in a separate display-only map.
-- Automatically present canonical follow-ups and support single-key answer progression.
-- Collapse import and share; confirm retake accessibly; keep completed assessment concise.
-- Preserve canonical IDs values scorer selection rules golden fixtures history and later UXA scopes.
+- Complete issue 118 Profile History Account presentation and accessible help/share controls.
+- Complete issue 119 guided Personal OS fillout summary reuse and compatible route consolidation.
+- Preserve authentication ownership CSRF explicit consent signed reuse and immutable versioning.
+- Preserve canonical assessment evidence scoring ranking and all later UXA scopes.
 validation:
   local:
   - scripts/agent-verify.sh full
   - Relevant browser journeys and compose-smoke where available
   focused_tests_to_add:
-  - Fresh assessed active and completed-loop Home; owner scope and stale skip rejection.
-  - Complete display-map inventory and canonical assessment golden parity.
-  - Keyboard progression automatic follow-ups retake import resume save and completed states.
+  - Profile real-closeout gating and accessible explanations and share.
+  - Ordinary versus operator account views and explicit research consent.
+  - Personal OS initial fillout summary revision reuse redirects and stale epoch rejection.
   required_ci:
   - Pilot readiness gate
 risk:
   class: moderate
   hazards:
-  - Plain language must preserve item meaning numeric mappings and golden scores.
-  - Skip is explicit user-choice deferral not evidence or an inferred N/A response.
+  - Presentation must not change consent reuse ownership or immutable record semantics.
+  - Hidden progressive sections must retain values and expose validation errors accessibly.
   - Direction text is displayed for planning but never analyzed or fed to ranking.
   stop_conditions:
   - Protected content scoring or participant data change
 rollback:
-  strategy: Revert presentation and additive entry routes together; preserve assessment and context history.
+  strategy: Revert this presentation batch together; preserve all saved records and original routes.
 evidence:
   output:
-  - docs/evidence/UXA-02-03.md
+  - docs/evidence/UXA-04-05.md
   claim_boundary: Software verification only; no participant or specialist validation or deployment.

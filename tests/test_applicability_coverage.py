@@ -104,9 +104,11 @@ def test_direct_not_applicable_action_is_immediate_revisable_and_score_neutral(
 
     profile = client.get(reverse("growth:profile"))
     body = profile.content.decode()
-    assert "Personal-applicable coverage view" in body
-    assert "382" in body
-    assert "all-competency coverage, unchanged" in body
+    assert "current-state-heading" not in body
+    assert "Personal-applicable coverage view" not in body
+    assert profile.context["summary"].personal_applicable_competency_count == 382
+    assert profile.context["summary"].canonical_completion_coverage == 0
+    assert not profile.context["summary"].evidence_updated_capacities
 
     assert (
         client.post(
