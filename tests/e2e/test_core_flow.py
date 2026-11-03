@@ -445,7 +445,11 @@ def test_optional_pilot_feedback_is_local_minimized_and_score_separate(
     page.get_by_role("link", name="Account", exact=True).click()
     page.get_by_role("link", name="Open feedback form").click()
     page.get_by_role("heading", name="Record what got in the way.").wait_for()
-    page.get_by_text("This is usability feedback, not developmental evidence.").wait_for()
+    page.get_by_text("This form saves feedback on this instance only", exact=False).wait_for()
+    page.get_by_text("it does not send it to the project maintainers", exact=False).wait_for()
+    page.get_by_text(
+        "Feedback does not change your assessment or practice results", exact=False
+    ).wait_for()
     page.get_by_text("No automatic timing or remote telemetry").wait_for()
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "mobile-pilot-feedback")
