@@ -6,17 +6,22 @@
   <section class="page-heading">
     <div>
       <p class="eyebrow">Account and data</p>
-      <h1>Keep control of your private record.</h1>
+      <h1>Your account and saved data</h1>
       <p class="lede">
-        Download the complete owner-private archive, review the explicit retention
-        policy, or permanently delete this account. Existing backup files are
-        separate private artifacts and are never silently rewritten by these actions.
+        Download your records, manage optional research participation, or delete your account.
+        Backups held by the person running this instance are managed separately.
       </p>
     </div>
   </section>
 
   <p><a href="{% url 'installation' %}">Installation version and recovery help</a></p>
   <p><a href="{% url 'data-policy' %}">Disclaimer / Data Policy: hosting, records, choices and limitations</a></p>
+  <ol aria-label="Your data choices">
+    <li>Your saved answers, notes and practice history belong to this account.</li>
+    <li>You can download your records or preview account deletion below.</li>
+    <li>Research participation is optional. Nothing is sent automatically.</li>
+    <li>Deleting this account does not erase separately stored backups.</li>
+  </ol>
 
   <section class="panel" aria-labelledby="archive-heading">
     <p class="eyebrow">Owner-private export</p>
@@ -31,9 +36,10 @@
     <a class="button" href="{% url 'growth:owner-archive' %}">Download owner-private archive</a>
   </section>
 
-  <section class="panel data-management-panel" aria-labelledby="calibration-heading">
+  <details class="panel data-management-panel"{% if calibration_summary.assessment_run_count or calibration_error or calibration_consent_form.errors or calibration_withdrawal_form.errors %} open{% endif %}>
+    <summary id="calibration-heading">Optional assessment research</summary>
     <p class="eyebrow">Optional assessment research</p>
-    <h2 id="calibration-heading">Optional assessment calibration contribution</h2>
+    <h2>Choose whether your answers may be used for research</h2>
     <p>
       Normal assessment storage is private account data. This separate opt-in controls whether
       one completed assessment may also enter a manual, local calibration export. Nothing is
@@ -52,8 +58,6 @@
     {% else %}
       <dl class="data-counts">
         <div><dt>Included completed assessments</dt><dd>{{ calibration_summary.assessment_run_count }}</dd></div>
-        <div><dt>Participant evidence axes completed</dt><dd>0 of 8</dd></div>
-        <div><dt>Remote telemetry</dt><dd>Off</dd></div>
       </dl>
       {% if calibration_summary.assessment_run_count %}
         <a class="button button-secondary" href="{% url 'growth:assessment-calibration-preview' %}">
@@ -85,11 +89,11 @@
         that an operator already downloaded.
       </p>
     {% endif %}
-  </section>
+  </details>
 
   <section class="panel data-management-panel" aria-labelledby="retention-heading">
     <p class="eyebrow">Optional cleanup</p>
-    <h2 id="retention-heading">Explicit retention</h2>
+    <h2 id="retention-heading">Clean up old drafts and feedback</h2>
     {% if retention_preview.enabled %}
       <p>
         The configured window is {{ retention_preview.retention_days }} days.

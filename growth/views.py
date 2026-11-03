@@ -84,6 +84,7 @@ def home(request):
     )
 
 
+@never_cache
 def profile(request):
     summary = build_profile_summary(request.user)
     return render(

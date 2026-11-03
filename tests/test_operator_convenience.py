@@ -233,6 +233,15 @@ def test_installation_page_requires_authentication_is_read_only_and_private(clie
     response = client.get(url)
     assert response.status_code == 200
     assert b"Know what is running." in response.content
+    assert b"contact your instance operator" in response.content
+    assert b"Startup choice" not in response.content
+    assert "no-store" in response["Cache-Control"]
+    assert client.post(url).status_code == 405
+    assert connection.introspection.table_names() == before
+    assert not AssessmentRun.objects.exists()
+    user.is_staff = True
+    user.save(update_fields=["is_staff"])
+    response = client.get(url)
     assert b"Personal start is selected." in response.content
     assert "no-store" in response["Cache-Control"]
     assert client.post(url).status_code == 405

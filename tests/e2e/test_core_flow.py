@@ -146,7 +146,7 @@ def test_login_home_and_profile_core_flow(live_server, page: Page):
     page.get_by_role("link", name="See my results").click()
 
     page.wait_for_url(f"{live_server.url}/profile/")
-    page.get_by_role("heading", name="A provisional map, not an identity.").wait_for()
+    page.get_by_role("heading", name="Your starting point and progress").wait_for()
     page.get_by_text("The Seeker", exact=True).wait_for()
     page.get_by_role("link", name="Disclaimer / Data Policy", exact=True).click()
     page.wait_for_url(f"{live_server.url}/data-policy/")
@@ -195,7 +195,7 @@ def test_mobile_keyboard_walkthrough_covers_all_active_protocols(live_server, pa
 
     page.set_viewport_size({"width": 1440, "height": 1000})
     page.goto(f"{live_server.url}/profile/")
-    page.get_by_role("heading", name="A provisional map, not an identity.").wait_for()
+    page.get_by_role("heading", name="Your starting point and progress").wait_for()
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "desktop-profile")
 
@@ -220,7 +220,7 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     sentinel = "SYNTHETIC-PRIVATE-M6C04-BROWSER"
 
     page.get_by_role("link", name="Personal OS", exact=True).click()
-    page.get_by_role("heading", name="Choose what guides this season.").wait_for()
+    page.get_by_role("heading", name="Make room for what matters to you.").wait_for()
     page.get_by_role("link", name="Disclaimer / Data Policy", exact=True).click()
     page.wait_for_url(f"{live_server.url}/data-policy/")
     expect(page.locator("#choices-heading + p")).to_contain_text("backup copies")
@@ -231,18 +231,13 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     page.go_back()
     page.wait_for_url(f"{live_server.url}/personal-os/")
     assert_no_horizontal_overflow(page)
-    page.get_by_label(
-        "How would you like to answer: "
-        "What purpose or contribution do you choose to orient toward for now?"
-    ).select_option("provided")
-    page.get_by_label(
-        "What purpose or contribution do you choose to orient toward for now?",
-        exact=True,
-    ).fill(sentinel)
+    page.locator("#id_mission_state").select_option("provided")
+    page.get_by_label("What would you like to contribute?", exact=True).fill(sentinel)
     page.get_by_role("button", name="Save Personal OS revision").click()
     page.get_by_text("Personal OS revision saved.").wait_for()
     assert PersonalOSRevision.objects.count() == 1
 
+    page.get_by_role("link", name="Review or change your answers").click()
     page.get_by_label("How would you like to describe this season?").select_option("provided")
     page.get_by_label("Current season:", exact=True).select_option("transition")
     page.get_by_label("How would you like to describe your capacity?").select_option("provided")
@@ -258,9 +253,12 @@ def test_personal_os_context_priority_alternative_private_accessible_journey(
     page.get_by_text("Practice context revision saved.").wait_for()
     page.get_by_role("heading", name="Ask for a distinct reviewed alternative").wait_for()
     page.goto(f"{live_server.url}/profile/")
-    page.get_by_text("Personal-applicable coverage view").wait_for()
-    page.get_by_text("382", exact=True).wait_for()
-    page.get_by_text("all-competency coverage, unchanged").wait_for()
+    expect(page.locator("#current-state-heading")).to_have_count(0)
+    from growth.services.profile import build_profile_summary
+
+    summary = build_profile_summary(get_user_model().objects.get(username="grounded"))
+    assert summary.personal_applicable_competency_count == 382
+    assert summary.canonical_completion_coverage == 0
     assert_no_horizontal_overflow(page)
     page.goto(f"{live_server.url}/personal-os/practices/{first}/context/")
     page.get_by_role("button", name="Request alternative").click()
@@ -383,8 +381,13 @@ def test_owner_data_management_is_private_accessible_and_requires_exact_confirma
     if not page.get_by_role("link", name="Account", exact=True).is_visible():
         page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Account", exact=True).click()
-    page.get_by_role("heading", name="Keep control of your private record.").wait_for()
-    page.get_by_role("heading", name="Optional assessment calibration contribution").wait_for()
+    page.get_by_role("heading", name="Your account and saved data").wait_for()
+    research = page.locator("details").filter(has=page.locator("#calibration-heading"))
+    expect(research).not_to_have_attribute("open", "")
+    page.locator("#calibration-heading").click()
+    page.get_by_role(
+        "heading", name="Choose whether your answers may be used for research"
+    ).wait_for()
     page.get_by_text("The demonstration seed is never eligible.").wait_for()
     page.get_by_text("Retention is disabled by default.").wait_for()
     page.get_by_text("Existing backups may still contain prior copies").wait_for()
@@ -421,7 +424,7 @@ def test_owner_data_management_is_private_accessible_and_requires_exact_confirma
 
     page.set_viewport_size({"width": 1440, "height": 1000})
     page.goto(f"{live_server.url}/account/data/")
-    page.get_by_role("heading", name="Keep control of your private record.").wait_for()
+    page.get_by_role("heading", name="Your account and saved data").wait_for()
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "desktop-owner-data-management")
 
@@ -441,8 +444,12 @@ def test_optional_pilot_feedback_is_local_minimized_and_score_separate(
         page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Account", exact=True).click()
     page.get_by_role("link", name="Open feedback form").click()
-    page.get_by_role("heading", name="Tell us what got in the way.").wait_for()
-    page.get_by_text("This is usability feedback, not developmental evidence.").wait_for()
+    page.get_by_role("heading", name="Record what got in the way.").wait_for()
+    page.get_by_text("This form saves feedback on this instance only", exact=False).wait_for()
+    page.get_by_text("it does not send it to the project maintainers", exact=False).wait_for()
+    page.get_by_text(
+        "Feedback does not change your assessment or practice results", exact=False
+    ).wait_for()
     page.get_by_text("No automatic timing or remote telemetry").wait_for()
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "mobile-pilot-feedback")
@@ -863,7 +870,12 @@ def test_complete_assessment_and_save_canonical_outputs(live_server, page: Page)
     if not page.get_by_role("link", name="Account", exact=True).is_visible():
         page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Account", exact=True).click()
-    page.get_by_role("heading", name="Optional assessment calibration contribution").wait_for()
+    research = page.locator("details").filter(has=page.locator("#calibration-heading"))
+    expect(research).not_to_have_attribute("open", "")
+    page.locator("#calibration-heading").click()
+    page.get_by_role(
+        "heading", name="Choose whether your answers may be used for research"
+    ).wait_for()
     page.get_by_label(re.compile(r"I understand the calibration contribution")).check()
     page.get_by_label(re.compile(r"I consent to this completed assessment")).check()
     page.get_by_role("button", name="Include this assessment").click()
@@ -995,11 +1007,8 @@ def test_guided_practice_draft_pause_and_completion_flow(live_server, page: Page
     page.get_by_role("link", name="Read evidence explanation").click()
     page.get_by_role("heading", name="Listen to what matters now").wait_for()
     page.get_by_role("link", name="Profile", exact=True).click()
-    page.get_by_role("heading", name="What completed practices have changed").wait_for()
-    page.get_by_text("Final-review credit").wait_for()
-    page.get_by_text(
-        re.compile(r"Check-ins preserve what happened"),
-    ).wait_for()
+    expect(page.locator("#current-state-heading")).to_have_count(0)
+    expect(page.get_by_text("Final-review credit", exact=True)).to_have_count(0)
     page.go_back()
     page.get_by_role("heading", name="Listen to what matters now").wait_for()
     page.get_by_role("link", name=re.compile(r"Deepen One Existing Friendship")).click()

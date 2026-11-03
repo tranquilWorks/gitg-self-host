@@ -151,9 +151,7 @@ def test_navigation_and_form_recovery_without_javascript(live_server, browser):
         log_in(live_server, page)
         page.locator(".nav-more > summary").click()
         page.get_by_role("link", name="Account", exact=True).click()
-        expect(
-            page.get_by_role("heading", name="Keep control of your private record.")
-        ).to_be_visible()
+        expect(page.get_by_role("heading", name="Your account and saved data")).to_be_visible()
         page.goto(live_server.url + "/accounts/password-change/")
         page.get_by_label("Old password").fill("incorrect-password")
         page.get_by_label("New password:", exact=True).fill("Browser-Replacement-Password-2047!")

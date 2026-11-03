@@ -12,7 +12,7 @@ def test_personal_start_installation_help(live_server, page, settings, tmp_path,
     from growth.models import AssessmentRun
     from growth.services.library_import import seed_library_data
 
-    create_browser_user()
+    user = create_browser_user()
     seed_library_data()
     # Only the revision reader uses BASE_DIR during this page's rendering.
     (tmp_path / "BUILD_REVISION").write_text("a" * 40)
@@ -22,6 +22,14 @@ def test_personal_start_installation_help(live_server, page, settings, tmp_path,
     log_in(live_server, page)
     page.goto(live_server.url + "/account/data/")
     page.get_by_role("link", name="Installation version and recovery help").click()
+    audit_page(page)
+    expect(page.get_by_text("contact your instance operator", exact=False)).to_be_visible()
+    expect(page.get_by_text("a" * 40, exact=True)).to_have_count(0)
+    expect(page.get_by_text("Operator commands and recovery guide", exact=True)).to_have_count(0)
+    save_walkthrough_screenshot(page, f"ordinary-installation-{width}")
+    user.is_staff = True
+    user.save(update_fields=["is_staff"])
+    page.reload()
     audit_page(page)
     expect(page.get_by_text("a" * 40, exact=True)).to_be_visible()
     expect(page.get_by_text("Personal start is selected.", exact=False)).to_be_visible()

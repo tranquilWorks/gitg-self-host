@@ -1,4 +1,7 @@
 /* Shared application presentation; historical lesson renderer inputs stay intact. */
+dialog { color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 24px; width: min(620px, calc(100% - 32px)); max-height: calc(100dvh - 32px); overflow: auto; }
+dialog::backdrop { background: rgb(0 0 0 / 45%); }
+.profile-grid .panel-heading { border-bottom: 2px solid var(--line); padding-bottom: 12px; }
 .site-header { flex-wrap: wrap; gap: 12px; position: static; }
 .site-nav { flex-wrap: wrap; }
 .nav-more { position: relative; }

@@ -71,6 +71,8 @@ def _sprint(user, sprint_id) -> PracticeSprint:
 
 
 def practice_list(request):
+    if request.GET.get("review") == "1":
+        return _context_review_page(request)
     summary = build_profile_summary(request.user)
     priority = build_browser_priority_presentation(user=request.user, summary=summary)
     recommended_ids = {protocol.pk for protocol in priority.recommendations}
@@ -114,6 +116,13 @@ def practice_recommendation(request, slug):
 
 @require_http_methods(["GET"])
 def context_review(request):
+    params = request.GET.copy()
+    params["review"] = "1"
+    return redirect(f"/practices/?{params.urlencode()}")
+
+
+@require_http_methods(["GET"])
+def _context_review_page(request):
     summary = build_profile_summary(request.user)
     if summary.assessment_run is None:
         return redirect("growth:assessment")

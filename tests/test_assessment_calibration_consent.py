@@ -322,7 +322,7 @@ def test_data_management_requires_both_consent_acknowledgements(client, user, se
 
     page = client.get(url)
     assert b"Included completed assessments</dt><dd>1" in page.content
-    assert b"Participant evidence axes completed</dt><dd>0 of 8" in page.content
+    assert b"Participant evidence axes completed" not in page.content
     assert b"uploaded automatically" in page.content
 
 

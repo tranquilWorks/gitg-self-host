@@ -7,7 +7,7 @@ from growth.views_direction import direction_review, practice_direction
 from growth.views_entry import quick_start, skip_home_suggestion
 from growth.views_history import history, history_period, history_plan, history_reuse
 from growth.views_installation import installation
-from growth.views_practice import context_review
+from growth.views_practice import _context_review_page, context_review
 from growth.views_weekly_followup import (
     weekly_calendar,
     weekly_plan_detail,
@@ -58,7 +58,8 @@ urlpatterns = [
     ),
     path("personal-os/direction/", direction_review, name="direction-review"),
     path("practices/<slug:slug>/direction/", practice_direction, name="practice-direction"),
-    path("personal-os/practices/", context_review, name="context-review"),
+    path("personal-os/practices/", context_review),
+    path("practices/review/", _context_review_page, name="context-review"),
     path("", include("growth.urls")),
 ]
 
