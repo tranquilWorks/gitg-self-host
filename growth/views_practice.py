@@ -30,9 +30,11 @@ from growth.models import (
     PracticeReview,
     PracticeSprint,
 )
+from growth.practice_presentation import CHOICE_COPY, check_in_observations, present_check_in_form
 from growth.presentation import recovery
 from growth.services.context import ContextServiceError, PracticeContextInput, record_context_bundle
 from growth.services.context_review import build_context_review
+from growth.services.entry import build_entry_presentation
 from growth.services.personal_os_browser import (
     active_projected_protocol_ids,
     assessment_factors_from_record,
@@ -76,6 +78,10 @@ def practice_list(request):
     summary = build_profile_summary(request.user)
     priority = build_browser_priority_presentation(user=request.user, summary=summary)
     recommended_ids = {protocol.pk for protocol in priority.recommendations}
+    current = current_sprint_for(request.user)
+    entry = build_entry_presentation(
+        user=request.user, summary=summary, priority=priority, active_sprint=current
+    )
     return render(
         request,
         "growth/practice_list.html",
@@ -83,7 +89,10 @@ def practice_list(request):
             "ranked_protocols": priority.recommendations,
             "explorer": build_practice_explorer(request.GET),
             "recommended_ids": recommended_ids,
-            "current_sprint": current_sprint_for(request.user),
+            "current_sprint": current,
+            "suggestions": entry["suggestions"],
+            "assessment_run": summary.assessment_run,
+            "last_completed": entry["completed"],
             "priority": priority,
         },
     )
@@ -92,6 +101,8 @@ def practice_list(request):
 def practice_recommendation(request, slug):
     protocol = _protocol(slug)
     current = current_sprint_for(request.user)
+    if current and current.protocol_id == protocol.pk:
+        return redirect("growth:practice-sprint", sprint_id=current.pk)
     summary = build_profile_summary(request.user)
     priority = build_browser_priority_presentation(user=request.user, summary=summary)
     is_recommended = protocol.pk in {item.pk for item in priority.recommendations}
@@ -391,6 +402,10 @@ def practice_setup(request, slug, step):
             return redirect("growth:practice-setup", slug=slug, step=2)
     elif step == 2:
         form = PracticeApplicabilityForm(request.POST or None, protocol=protocol)
+        form.fields["applicable"].choices = [
+            (value, "Choose a different practice" if value == "no" else label)
+            for value, label in form.fields["applicable"].choices
+        ]
         if request.method == "POST" and form.is_valid():
             if form.cleaned_data["applicable"] == "no":
                 request.session.pop(_setup_session_key(request, protocol), None)
@@ -398,7 +413,7 @@ def practice_setup(request, slug, step):
                     request,
                     "That is useful information. This practice can wait until it fits.",
                 )
-                return redirect("growth:practice-recommendation", slug=slug)
+                return redirect("growth:practice-list")
             setup["applicable"] = True
             _save_setup_data(request, protocol, setup)
             return redirect("growth:practice-setup", slug=slug, step=3)
@@ -444,7 +459,7 @@ def practice_setup(request, slug, step):
             messages.error(request, str(exc))
             return redirect("growth:practice-recommendation", slug=slug)
         request.session.pop(_setup_session_key(request, protocol), None)
-        messages.success(request, "Practice started. The intervention is ready when you are.")
+        messages.success(request, "Practice started. Your first action is ready.")
         return redirect("growth:practice-sprint", sprint_id=sprint.pk)
 
     return render(
@@ -502,7 +517,7 @@ def practice_sprint(request, sprint_id):
             "evidence": evidence,
             "action_rows": action_rows,
             "next_action": next_action,
-            "end_date": sprint.start_date + timedelta(days=sprint.protocol.duration_days - 1),
+            "end_date": sprint.start_date + timedelta(days=6),
         },
     )
 
@@ -552,6 +567,7 @@ def practice_check_in(request, sprint_id, check_in_id=None):
         require_evidence_metadata=submit,
         initial=initial,
     )
+    present_check_in_form(form)
     if request.method == "POST" and form.is_valid():
         try:
             saved = save_check_in(
@@ -595,6 +611,10 @@ def practice_check_in_detail(request, sprint_id, check_in_id):
             "sprint": sprint,
             "check_in": check_in,
             "event": event,
+            "observations": check_in_observations(check_in, event),
+            "direction_label": CHOICE_COPY["evidence_direction"].get(
+                check_in.evidence_direction, "Not recorded"
+            ),
         },
     )
 

@@ -1,5 +1,15 @@
 # Grounded Growth — Project Handoff
 
+## UXA-06 + UXA-07 — 3 November 2026, implementation in progress
+
+PR #127 (UXA-04/05) is verified merged as `2f5f9f9` after final run41677458336:
+2,052 pytest, 63 browser, all readiness/Compose/aggregate success and 24 inspected
+captures including Share. Main tree matched the exact reviewed candidate.
+Owner retest is separate; nothing deployed. The old pending notes below are
+historical. Only #120/#121 are now authorized, in a separate implementation PR
+from that merged main. See [behavior](uxa-practice-work-loop.md) and
+[current receipts](evidence/UXA-06-07.md). Do not start #122–124.
+
 ## UXA-04 + UXA-05 — 3 November 2026, implementation in progress
 
 Owner explicitly requested completion and conditional merge of #118/#119 in one

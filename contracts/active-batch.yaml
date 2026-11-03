@@ -1,54 +1,50 @@
 schema_version: 1
 batch:
-  id: UXA-04-05
-  title: Product-facing Profile History Account and guided Personal OS
-  goal: Implement issues 118 and 119 together; verify and merge before starting the separately authorized 120 and 121 pair.
+  id: UXA-06-07
+  title: Practice selection and readable work and evidence loop
+  goal: Implement issues 120 and 121 together after verified PR 127 merge; no later UXA batch.
 sources:
   product: gitg-self-host
   requirements:
   - docs/plans/OWNER_UX_TEST_FEEDBACK_2026-10-07.md
-  milestone: UXA-04 and UXA-05 / issues 118 and 119
-  baseline_commit: 98b8bc6e74e37c0472ff37b8f1dcb3baa89c0a3b
+  milestone: UXA-06 and UXA-07 / issues 120 and 121
+  baseline_commit: 2f5f9f9ac98f6bd3eb4a255ec497fa00ff1f7cf0
 dependencies:
 - PR-113-merged
 - PR-125-merged
 - PR-126-merged
+- PR-127-merged
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
-  - growth/personal_os_copy.py
+  - growth/practice_presentation.py
+  - growth/templatetags/work_loop.py
   - growth/views_practice.py
+  - growth/views_instructional.py
+  - growth/views_evidence.py
   - templates/growth/practice_list.html
-  - growth/views_personal_os.py
-  - growth/views_history.py
-  - growth/static/growth/personal_os.js
-  - templates/growth/personal_os.html
-  - templates/growth/history.html
-  - tests/test_personal_os_browser.py
+  - templates/growth/practice_card.html
+  - templates/growth/practice_recommendation.html
+  - templates/growth/practice_setup.html
+  - templates/growth/practice_sprint.html
+  - templates/growth/practice_check_in.html
+  - templates/growth/practice_check_in_detail.html
+  - templates/growth/practice_guide.html
+  - templates/growth/partials/instructional_link.html
+  - templates/growth/partials/practice_actions.html
+  - templates/growth/evidence_ledger.html
   - templates/growth/data_management.html
-  - templates/growth/installation.html
-  - templates/growth/pilot_feedback.html
-  - tests/test_uxa_profile_personal_os.py
-  - tests/e2e/test_uxa_profile_personal_os.py
-  - tests/test_operator_convenience.py
-  - tests/test_pilot_feedback.py
-  - tests/uxa_personal_os_client.cjs
-  - tests/e2e/test_operator_convenience.py
-  - tests/test_shadow_scoring.py
-  - tests/test_assessment_calibration_consent.py
-  - tests/test_applicability_coverage.py
-  - docs/evidence/UXA-04-05.md
-  - grounded_growth/urls.py
-  - growth/views.py
-  - growth/templatetags/presentation.py
+  - templates/growth/home.html
+  - tests/test_uxa_practice_work_loop.py
+  - tests/e2e/test_uxa_practice_work_loop.py
+  - tests/test_practice_workflow.py
+  - tests/test_evidence_audit.py
+  - tests/test_instructional_content.py
+  - tests/e2e/test_context_discovery.py
   - growth/static/growth/application.css
-  - growth/static/growth/application.js
-  - templates/growth/profile.html
-  - tests/test_application_consistency.py
-  - tests/test_history_continuity.py
-  - tests/e2e/test_application_consistency.py
   - tests/e2e/test_core_flow.py
-  - tests/e2e/test_history_continuity.py
+  - docs/evidence/UXA-06-07.md
+  - docs/uxa-practice-work-loop.md
   - docs/PROJECT_HANDOFF.md
   - MANIFEST.tsv
   forbidden_paths:
@@ -66,8 +62,8 @@ scope:
   - .github/**
   - contracts/verification.commands
 acceptance:
-- Complete issue 118 Profile History Account presentation and accessible help/share controls.
-- Complete issue 119 guided Personal OS fillout summary reuse and compatible route consolidation.
+- Complete issue 120 bounded discovery rationale and consistent owner-scoped active-attempt links.
+- Complete issue 121 readable guide setup check-ins and evidence without changing captured records.
 - Preserve authentication ownership CSRF explicit consent signed reuse and immutable versioning.
 - Preserve canonical assessment evidence scoring ranking and all later UXA scopes.
 validation:
@@ -75,22 +71,22 @@ validation:
   - scripts/agent-verify.sh full
   - Relevant browser journeys and compose-smoke where available
   focused_tests_to_add:
-  - Profile real-closeout gating and accessible explanations and share.
-  - Ordinary versus operator account views and explicit research consent.
-  - Personal OS initial fillout summary revision reuse redirects and stale epoch rejection.
+  - Browser work guide weekly and Home refer to the same active attempt; completion updates display.
+  - Exact check-in values evidence replay and canonical instructions remain unchanged.
+  - Relevant observation fields and recovery remain usable with and without JavaScript.
   required_ci:
   - Pilot readiness gate
 risk:
   class: moderate
   hazards:
-  - Presentation must not change consent reuse ownership or immutable record semantics.
-  - Hidden progressive sections must retain values and expose validation errors accessibly.
-  - Direction text is displayed for planning but never analyzed or fed to ranking.
+  - Timing presentation must not alter canonical action intervals or completion gates.
+  - Human-readable summaries must not hide contrary evidence or imply scoring or mastery.
+  - Selection presentation must not change ranking or infer missing context.
   stop_conditions:
   - Protected content scoring or participant data change
 rollback:
   strategy: Revert this presentation batch together; preserve all saved records and original routes.
 evidence:
   output:
-  - docs/evidence/UXA-04-05.md
+  - docs/evidence/UXA-06-07.md
   claim_boundary: Software verification only; no participant or specialist validation or deployment.

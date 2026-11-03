@@ -1,11 +1,12 @@
-<article class="practice-card" data-availability="{{ protocol.availability }}">
+<article class="practice-card" data-availability="{{ protocol.availability }}" data-protocol="{{ protocol.pk }}">
   <div class="card-meta">
-    <span>{{ protocol.duration_days }} days</span>
+    <span>{% if current_sprint.protocol_id == protocol.pk %}Current · {{ current_sprint.get_status_display }}{% else %}One practice at a time{% endif %}</span>
     {% if recommended %}<span class="status-pill status-pill-ready">{% if priority.context_aware %}Context fit{% else %}Suggested{% endif %}</span>{% endif %}
   </div>
   <h3>{{ protocol.name }}</h3>
   {% if protocol.parent_competency %}<p class="fine-print">{{ protocol.parent_competency.domain_name }}</p>{% endif %}
-  {% if recommended and protocol.recommendation_reason %}<p>{{ protocol.recommendation_reason }}</p>{% endif %}
-  <a class="text-link" href="{% url 'growth:practice-recommendation' protocol.slug %}">Review practice <span aria-hidden="true">→</span></a>
+  {% if recommended %}<p>{% if priority.context_aware %}Matches the fit and capacity you reported.{% else %}A starting point from your assessment and completed work.{% endif %} {% if protocol.parent_competency %}Work on {{ protocol.parent_competency.name }}.{% endif %}</p>{% endif %}
+  {% if current_sprint.protocol_id == protocol.pk %}<a class="button" href="{% url 'growth:practice-sprint' current_sprint.pk %}">Open current practice</a>{% else %}<a class="text-link" href="{% url 'growth:practice-recommendation' protocol.slug %}">Review practice <span aria-hidden="true">→</span></a>{% endif %}
   <p><a class="text-link" href="{% url 'growth:practice-context' protocol.slug %}">Review current context</a></p>
+  {% if recommended %}<details class="inline-help"><summary>Choose another suggestion</summary><p>This saves a skip choice, not completion or a not-applicable answer. Change it later under Review practice choices.</p><form method="post" action="{% url 'home-skip' %}">{% csrf_token %}<input type="hidden" name="assessment_epoch" value="{{ assessment_run.pk }}"><input type="hidden" name="protocol_id" value="{{ protocol.pk }}"><input type="hidden" name="expected_revision" value="{{ suggestion.revision }}"><button class="button button-quiet" type="submit">Skip for now</button></form></details>{% endif %}
 </article>

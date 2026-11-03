@@ -7,6 +7,7 @@ from django.views.decorators.http import require_GET
 from growth.domain.instructional_content import learner_projection, render_text
 from growth.domain.practice_content import FROZEN_LEGACY_PROTOCOL_IDS, load_practice_content_bundle
 from growth.models import PracticeProtocol
+from growth.services.practice import current_sprint_for
 
 
 def guide_for_protocol(protocol):
@@ -54,6 +55,7 @@ def practice_guide(request, slug):
                 "protocol": protocol,
                 "guide": projection,
                 "selection_query": selection.urlencode(),
+                "current_sprint": current_sprint_for(request.user),
             },
         )
     response["Cache-Control"] = "private, no-store"

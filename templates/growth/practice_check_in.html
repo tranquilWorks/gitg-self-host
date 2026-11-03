@@ -9,7 +9,7 @@
   </p>
   <section class="page-heading">
     <div>
-      <p class="eyebrow">Compact check-in</p>
+      <p class="eyebrow">Practice check-in</p>
       <h1>{% if check_in %}Continue your draft.{% else %}Record only what matters.{% endif %}</h1>
       <p class="lede">
         This should normally take under two minutes. Keep another person's
@@ -25,10 +25,7 @@
     </div>
   {% endif %}
 
-  <div class="status-note" role="note">
-    <strong>Evidence reading, not a mastery judgment.</strong>
-    The support, context, and direction choices make this observation
-    explainable.
+  <p>
     {% if sprint.scoring_contract_version == "GG-COMPOSITE-CLOSEOUT-SCORING-1.0" %}
       Submitting this check-in does not change global scores. Marking an action
       complete is recorded here; completion credit is calculated only if you later
@@ -38,7 +35,7 @@
     {% else %}
       This practice does not update scores.
     {% endif %}
-  </div>
+  </p>
 
   <form class="workflow-form check-in-form" method="post">
     {% csrf_token %}

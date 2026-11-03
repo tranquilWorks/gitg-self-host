@@ -59,3 +59,8 @@ summary:focus-visible, a:focus-visible, button:focus-visible { outline: 3px soli
 #assessment-retake-dialog { color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 28px; width: min(620px, calc(100% - 32px)); max-height: calc(100dvh - 32px); overflow: auto; }
 #assessment-retake-dialog::backdrop { background: rgb(0 0 0 / 45%); }
 .definition-grid h3 { font-size: 1.05rem; }
+.action-instruction-section { max-width: 72ch; margin-block: 16px; }
+.action-instruction-section h4 { margin-bottom: 8px; font-size: 1rem; }
+.observation-checks { border-inline-start: 3px solid var(--accent); padding-inline-start: 16px; }
+.protocol-actions h3 { margin: 0 0 12px; font-size: 1.1rem; }
+#evidence-download { scroll-margin-top: 20px; }

@@ -1,144 +1,16 @@
 {% extends "base.html" %}
-
-{% block title %}Evidence reading · {{ check_in.action.title }}{% endblock %}
-
+{% load work_loop %}
+{% block title %}Your check-in · {{ check_in.action|action_title }}{% endblock %}
 {% block content %}
-  <p class="back-link">
-    <a href="{% url 'growth:practice-sprint' sprint.pk %}">← {{ sprint.protocol.name }}</a>
-  </p>
-
-  <section class="page-heading">
-    <div>
-      <p class="eyebrow">Submitted evidence</p>
-      <h1>{{ check_in.action.title }}</h1>
-      <p class="lede">
-        Recorded {{ check_in.submitted_at|date:"M j, Y, g:i a" }}. This reading
-        describes one observation; it does not establish mastery.
-      </p>
-    </div>
-    <span class="status-pill">Submitted · cannot be edited</span>
-  </section>
-
-  <div class="mastery-notice" role="note">
-    {% if sprint.scoring_contract_version == "GG-COMPOSITE-CLOSEOUT-SCORING-1.0" %}
-      <strong>This observation is proof, not a global score update.</strong>
-      <p>
-        It stays in your permanent record and can support action completion. Only
-        an explicit final closeout updates bounded completion credit, coverage,
-        and recommendation priority.
-      </p>
-    {% elif sprint.protocol.score_active %}
-      <strong>This observation follows the earlier scoring rules.</strong>
-      <p>
-        This earlier practice keeps the scoring rules used when it began. One observation remains provisional and does not establish mastery.
-      </p>
-    {% else %}
-      <strong>This practice does not update scores.</strong>
-      <p>
-        The observation remains available in your evidence ledger, but it
-        created no score update and did not change your current profile,
-        confidence, need, or recommendation order.
-      </p>
-    {% endif %}
-  </div>
-
-  <section class="definition-grid evidence-reading-grid">
-    <article>
-      <p class="eyebrow">Evidence reading</p>
-      <h2>{{ event.explanation.base_evidence.label }}</h2>
-      <p>{{ event.explanation.base_evidence.reason }}</p>
-    </article>
-    <article>
-      <p class="eyebrow">Direction</p>
-      <h2>{{ event.explanation.direction.label }}</h2>
-      <p>{{ event.explanation.direction.reason }}</p>
-    </article>
-    <article>
-      <p class="eyebrow">Structured detail</p>
-      <h2>{{ event.explanation.quality.label }}</h2>
-      <p>{{ event.explanation.quality.reason }}</p>
-    </article>
-  </section>
-
-  <section class="panel">
-    <p class="eyebrow">Why it was read this way</p>
-    <dl class="metric-list">
-      <div>
-        <dt>Support used</dt>
-        <dd>{{ event.explanation.independence.label }}</dd>
-      </div>
-      <div>
-        <dt>Context breadth</dt>
-        <dd>{{ event.explanation.context_breadth.label }}</dd>
-      </div>
-      <div>
-        <dt>Repetition</dt>
-        <dd>{{ event.explanation.repetition.label }}</dd>
-      </div>
-      <div>
-        <dt>Action observation</dt>
-        <dd>
-          {% if check_in.action_completed %}
-            Completed
-          {% elif check_in.action_attempted %}
-            Attempted
-          {% else %}
-            Not attempted
-          {% endif %}
-        </dd>
-      </div>
-    </dl>
-  </section>
-
-  {% if check_in.contradictory_evidence or check_in.note %}
-    <section class="section-block">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Your record</p>
-          <h2>Minimal private notes</h2>
-        </div>
-      </div>
-      <div class="dashboard-grid">
-        {% if check_in.contradictory_evidence %}
-          <article class="panel">
-            <h3>Contradictory or mixed evidence</h3>
-            <p>{{ check_in.contradictory_evidence }}</p>
-          </article>
-        {% endif %}
-        {% if check_in.note %}
-          <article class="panel">
-            <h3>Optional note</h3>
-            <p>{{ check_in.note }}</p>
-          </article>
-        {% endif %}
-      </div>
-    </section>
-  {% endif %}
-
-  <details class="panel audit-details">
-    <summary>Technical audit details</summary>
-    <p class="fine-print">
-      These event-level values support exact replay, score-state rebuilding,
-      and review. They are not a measure of identity or worth.
-    </p>
-    <dl class="metric-list">
-      <div><dt>Algorithm</dt><dd>{{ event.algorithm_version }}</dd></div>
-      <div><dt>Performance observation</dt><dd>{{ event.performance }}</dd></div>
-      <div><dt>Evidence quality</dt><dd>{{ event.quality }}</dd></div>
-      <div><dt>Independence</dt><dd>{{ event.independence }}</dd></div>
-      <div><dt>Context breadth</dt><dd>{{ event.context_breadth }}</dd></div>
-      <div><dt>Repeat multiplier</dt><dd>{{ event.repetition_multiplier }}</dd></div>
-      <div><dt>Base evidence mass</dt><dd>{{ event.base_evidence_mass }}</dd></div>
-      <div>
-        <dt>Contradiction level</dt>
-        <dd>
-          {% if event.contradiction_level is None %}
-            Unknown
-          {% else %}
-            {{ event.contradiction_level }}
-          {% endif %}
-        </dd>
-      </div>
-    </dl>
-  </details>
+<p class="back-link"><a href="{% url 'growth:practice-sprint' sprint.pk %}">← {{ sprint.protocol.name }}</a></p>
+<section class="page-heading"><div><p class="eyebrow">Submitted check-in</p><h1>{{ check_in.action|action_title }}</h1><p class="lede">{{ sprint.protocol.name }} · {{ check_in.submitted_at|date:"M j, Y, g:i a" }}.</p></div><span class="status-pill">Submitted · cannot be edited</span></section>
+<section class="panel"><h2>What happened</h2><p>{% if check_in.action_completed %}You completed this action.{% elif check_in.action_attempted %}You tried this action.{% else %}This earlier record contains no attempted action.{% endif %}</p>
+{% if check_in.evidence_direction %}<p>{{ direction_label }}.</p>{% endif %}
+{% if observations %}<dl class="metric-list">{% for row in observations %}<div><dt>{{ row.label }}</dt><dd>{{ row.value }}{% if row.result != None %} · {{ row.result }}{% endif %}</dd></div>{% endfor %}</dl>{% endif %}
+{% if check_in.support_level %}<p>{{ check_in.get_support_level_display }}.</p>{% endif %}
+{% if check_in.context_comparison %}<p>{{ check_in.get_context_comparison_display }}.</p>{% endif %}
+</section>
+{% if check_in.contradictory_evidence %}<section class="panel"><h2>What did not go as expected</h2>{{ check_in.contradictory_evidence|linebreaks }}</section>{% endif %}
+{% if check_in.note %}<section class="panel"><h2>Your note</h2>{{ check_in.note|linebreaks }}</section>{% endif %}
+<p>Check-ins record what happened. Completion is a separate final review, not a claim of mastery. <a href="{% url 'growth:data-management' %}#evidence-download">Download your structured records</a>.</p>
 {% endblock %}

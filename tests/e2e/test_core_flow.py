@@ -522,7 +522,7 @@ def test_play_protocol_setup_is_specific_and_score_active(live_server, page: Pag
     page.get_by_role("button", name="Continue").click()
     page.get_by_role("button", name="I have reviewed the defined actions").click()
     page.get_by_role("button", name="Begin practice").click()
-    page.get_by_role("link", name="Add compact check-in").click()
+    page.get_by_role("link", name="Add check-in").click()
     page.get_by_label("A specific play window was reserved").wait_for()
     expect(page.get_by_label("I engaged in the activity")).to_be_hidden()
     expect(page.get_by_label("I returned to play within seven days")).to_be_hidden()
@@ -691,7 +691,7 @@ def test_tailored_practices_show_readable_scope_examples_and_observation_checks(
         start_date=date.today(),
     )
     page.goto(f"{live_server.url}/practice-sprints/{sprint.pk}/")
-    page.get_by_role("link", name="Add compact check-in").click()
+    page.get_by_role("link", name="Add check-in").click()
     checks = page.get_by_role(
         "group",
         name=f"Observed checks: {protocol.actions.get(sequence=1).title.lower()}",
@@ -734,7 +734,7 @@ def test_emotional_cue_setup_and_check_in_are_bounded(live_server, page: Page):
     page.get_by_role("button", name="Continue").click()
     page.get_by_role("button", name="I have reviewed the defined actions").click()
     page.get_by_role("button", name="Begin practice").click()
-    page.get_by_role("link", name="Add compact check-in").click()
+    page.get_by_role("link", name="Add check-in").click()
     page.get_by_label("I deliberately paused to observe before interpreting").wait_for()
     page.get_by_label("I noticed an observable change without assigning a motive").wait_for()
     expect(page.get_by_label("I asked a neutral question to check my impression")).to_be_hidden()
@@ -770,7 +770,7 @@ def test_boundary_setup_and_check_in_are_safe_and_specific(live_server, page: Pa
     page.get_by_role("button", name="Continue").click()
     page.get_by_role("button", name="I have reviewed the defined actions").click()
     page.get_by_role("button", name="Begin practice").click()
-    page.get_by_role("link", name="Add compact check-in").click()
+    page.get_by_role("link", name="Add check-in").click()
     page.get_by_label("I chose a specific limit and a response that I control").wait_for()
     page.get_by_label("I stated the boundary directly in specific words").wait_for()
     expect(
@@ -815,7 +815,7 @@ def test_presence_setup_and_check_in_are_accessible_and_specific(live_server, pa
     page.get_by_role("button", name="Continue").click()
     page.get_by_role("button", name="I have reviewed the defined actions").click()
     page.get_by_role("button", name="Begin practice").click()
-    page.get_by_role("link", name="Add compact check-in").click()
+    page.get_by_role("link", name="Add check-in").click()
     page.get_by_label("I noticed attention drift and deliberately returned").wait_for()
     expect(page.get_by_label("I compared the usual and changed condition")).to_be_hidden()
     expect(
@@ -969,12 +969,12 @@ def test_guided_practice_draft_pause_and_completion_flow(live_server, page: Page
 
     page.get_by_role("button", name="Pause practice").click()
     page.get_by_role("button", name="Resume practice").click()
-    page.get_by_role("link", name="Add compact check-in").click()
+    page.get_by_role("link", name="Add check-in").click()
     page.get_by_label("Which action is this about?").select_option(
         label="Action 1: Listen to what matters now"
     )
-    page.get_by_label("Action attempted").check()
-    page.get_by_label("Action completed").check()
+    page.get_by_label("I tried this action").check()
+    page.get_by_label("I completed this action").check()
     page.get_by_label("The interaction moved beyond logistics or small talk").check()
     page.get_by_label("Meaningful information was freely shared").check()
     page.get_by_role("button", name="Save draft").click()
@@ -983,28 +983,33 @@ def test_guided_practice_draft_pause_and_completion_flow(live_server, page: Page
 
     page.locator(".draft-list a").click()
     page.get_by_label("How much support did you use?").select_option("independent")
-    page.get_by_label("What direction did the observation point?").select_option("supports")
+    page.get_by_label("Did this go as you expected?").select_option("supports")
     page.get_by_role("button", name="Submit check-in").click()
     page.get_by_text("Check-in submitted and added to evidence history.").wait_for()
     page.get_by_role("link", name="Listen to what matters now").click()
     page.get_by_role("heading", name="Listen to what matters now").wait_for()
-    page.get_by_text("This observation is proof, not a global score update.").wait_for()
-    page.get_by_text("Technical audit details").click()
-    page.get_by_text("GG-EVIDENCE-1.0").wait_for()
+    page.get_by_role("heading", name="What happened", exact=True).wait_for()
+    expect(page.get_by_text("Technical audit details")).to_have_count(0)
+    assert EvidenceEvent.objects.get().algorithm_version == "GG-EVIDENCE-1.0"
     if not page.get_by_role("link", name="Evidence", exact=True).is_visible():
         page.locator(".nav-more > summary").click()
     page.get_by_role("link", name="Evidence", exact=True).click()
     page.wait_for_url(f"{live_server.url}/evidence/")
     page.get_by_role("heading", name="What your check-ins recorded.").wait_for()
-    page.get_by_text("Structured observations, with private context removed").wait_for()
-    page.get_by_role("listitem").get_by_text("Supported expected pattern", exact=True).wait_for()
+    page.get_by_role("link", name="Download options", exact=True).wait_for()
+    page.get_by_role("listitem").get_by_text(
+        "Action completed. It went as expected.", exact=False
+    ).wait_for()
+    page.get_by_role("link", name="Download options", exact=True).click()
+    page.locator("#evidence-download > summary").click()
     with page.expect_download() as download_info:
         page.get_by_role("link", name="Download minimized evidence JSON").click()
     exported = json.loads(Path(download_info.value.path()).read_text())
     assert exported["event_count"] == 1
     assert exported["profile_scores_modified"] is False
     assert exported["profile_scores_modified_by_export"] is False
-    page.get_by_role("link", name="Read evidence explanation").click()
+    page.goto(f"{live_server.url}/evidence/")
+    page.get_by_role("link", name="Read check-in", exact=True).click()
     page.get_by_role("heading", name="Listen to what matters now").wait_for()
     page.get_by_role("link", name="Profile", exact=True).click()
     expect(page.locator("#current-state-heading")).to_have_count(0)
@@ -1019,14 +1024,14 @@ def test_guided_practice_draft_pause_and_completion_flow(live_server, page: Page
     ):
         page.get_by_role("link", name="New check-in").click()
         page.get_by_label("Which action is this about?").select_option(label=label)
-        page.get_by_label("Action attempted").check()
+        page.get_by_label("I tried this action").check()
         if completed:
-            page.get_by_label("Action completed").check()
+            page.get_by_label("I completed this action").check()
         page.get_by_label("How much support did you use?").select_option("independent")
         page.get_by_label("How does this setting compare with earlier check-ins?").select_option(
             "same_context"
         )
-        page.get_by_label("What direction did the observation point?").select_option("supports")
+        page.get_by_label("Did this go as you expected?").select_option("supports")
         page.get_by_role("button", name="Submit check-in").click()
 
     page.get_by_role("link", name="Review and close").click()

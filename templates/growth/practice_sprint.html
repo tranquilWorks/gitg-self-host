@@ -1,22 +1,23 @@
 {% extends "base.html" %}
+{% load work_loop %}
 
 {% block title %}{{ sprint.protocol.name }} · Grounded Growth{% endblock %}
 
 {% block content %}
-  <section class="page-heading">
+  <section class="page-heading" data-protocol="{{ sprint.protocol_id }}" data-attempt="{{ sprint.pk }}">
     <div>
       <p class="eyebrow">Practice · {{ sprint.get_status_display }}</p>
       <h1>{{ sprint.protocol.name }}</h1>
       {% include "growth/partials/instructional_link.html" with protocol=sprint.protocol %}
       <p class="lede">
-        {{ sprint.start_date|date:"M j" }}–{{ end_date|date:"M j, Y" }} ·
-        private context: {{ sprint.person_or_context }}
+        {{ sprint.person_or_context }} · started {{ sprint.start_date|date:"M j, Y" }}
       </p>
     </div>
     <span class="status-pill{% if sprint.status == 'stopped' %} status-pill-muted{% endif %}">
       {{ sprint.get_status_display }}
     </span>
   </section>
+  {% if sprint.status == "active" or sprint.status == "paused" %}<p>First-week planning checkpoint: {{ end_date|date:"M j, Y" }}. Keep the intervals specified in each action; this is not an automatic deadline or completion.</p>{% endif %}
 
   {% if current_assessment.pk != sprint.assessment_run_id %}
     <aside class="status-note"><strong>This practice belongs to an earlier assessment period.</strong><p>Its check-ins, review and any completion credit stay with that period.</p>{% if sprint.status == "active" or sprint.status == "paused" %}<p>You can continue it and close it using its existing requirements, or stop it using Practice controls. If paused, resume it to add evidence, or close it if its requirements are already met. Finish or stop it before starting a practice for your current period; new weekly plans cannot use this older practice.</p>{% else %}<p>This attempt is {{ sprint.get_status_display|lower }}. Its records remain in this period; starting another practice uses your current assessment.</p>{% endif %}<a href="{% url 'history-period' sprint.assessment_run_id %}">Open its original assessment period</a></aside>
@@ -74,10 +75,10 @@
           </a>
         </div>
       {% elif next_action %}
-        <h2>{{ next_action.title }}</h2>
-        {{ next_action.instructions|linebreaks }}
+        <h2>{{ next_action|action_title }}</h2>
+        {% action_instructions next_action %}
         <a class="button" href="{% url 'growth:practice-check-in-new' sprint.pk %}?action={{ next_action.pk }}">
-          Add compact check-in
+          Add check-in
         </a>
       {% elif evidence.ready_for_review %}
         <h2>Submit the final review.</h2>
@@ -93,7 +94,7 @@
           {{ sprint.protocol.setup_copy.completion_signal_label|default:"one meaningful attempt" }}.
         </p>
         <a class="button" href="{% url 'growth:practice-check-in-new' sprint.pk %}">
-          Add compact check-in
+          Add check-in
         </a>
       {% endif %}
     </section>
@@ -133,8 +134,8 @@
             {% if row.completed %}Completed{% elif row.attempted %}Attempted{% else %}Not attempted{% endif %}
           </span>
           <div>
-            <strong>{{ row.action.title }}</strong>
-            {{ row.action.instructions|linebreaks }}
+            <h3>{{ row.action|action_title }}</h3>
+            {% action_instructions row.action %}
           </div>
         </li>
       {% endfor %}
@@ -153,7 +154,7 @@
       <div class="draft-list">
         {% for check_in in draft_check_ins %}
           <a href="{% url 'growth:practice-check-in-edit' sprint.pk check_in.pk %}">
-            <strong>{{ check_in.action.title }}</strong>
+            <strong>{{ check_in.action|action_title }}</strong>
             <span>Last saved {{ check_in.updated_at|date:"M j, g:i a" }} · edit draft</span>
           </a>
         {% endfor %}
@@ -180,10 +181,10 @@
             <div>
               {% if check_in.evidence_event %}
                 <a href="{% url 'growth:practice-check-in-detail' sprint.pk check_in.pk %}">
-                  <strong>{{ check_in.action.title }}</strong>
+                  <strong>{{ check_in.action|action_title }}</strong>
                 </a>
               {% else %}
-                <strong>{{ check_in.action.title }}</strong>
+                <strong>{{ check_in.action|action_title }}</strong>
               {% endif %}
               <span>
                 {% if check_in.action_completed %}Completed{% elif check_in.action_attempted %}Attempted{% else %}Observed{% endif %}
@@ -191,7 +192,7 @@
                   · {{ sprint.protocol.setup_copy.history_marker_label|default:"substantive interaction" }}
                 {% endif %}
                 {% if check_in.evidence_event %}
-                  · {{ check_in.evidence_event.explanation.base_evidence.label|lower }}
+                  · <a href="{% url 'growth:practice-check-in-detail' sprint.pk check_in.pk %}">Read what happened</a>
                 {% endif %}
               </span>
             </div>

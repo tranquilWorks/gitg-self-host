@@ -338,7 +338,8 @@ def test_ledger_is_authenticated_filtered_user_scoped_and_score_static(client, u
     assert response.context["ledger"].summary.supports == 1
     assert response.context["ledger"].summary.contradicts == 1
     assert len(response.context["page"].object_list) == 2
-    assert "Check-ins are evidence; closeout credit is separate." in content
+    assert "Look back at the actions you tried" in content
+    assert "Technical audit details" not in content
     assert "PRIVATE-CONTEXT-TOKEN" not in content
     assert "PRIVATE-NOTE-TOKEN" not in content
     assert "PRIVATE-CONTRADICTION-TOKEN" not in content
