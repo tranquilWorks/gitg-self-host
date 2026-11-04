@@ -39,6 +39,7 @@ scope:
   - tests/e2e/test_uxa_practice_work_loop.py
   - tests/test_practice_workflow.py
   - tests/test_evidence_audit.py
+  - tests/test_evidence_engine.py
   - tests/test_instructional_content.py
   - tests/e2e/test_context_discovery.py
   - growth/static/growth/application.css
@@ -47,6 +48,11 @@ scope:
   - docs/uxa-practice-work-loop.md
   - docs/PROJECT_HANDOFF.md
   - MANIFEST.tsv
+  - docs/authoring/catalog-product-integration-20260928/quality-status.json
+  # Owner's 2026-11-04 request to finish and merge authorizes only this
+  # generated renderer-hash refresh, not other authoring or human review edits.
+  forbidden_path_exceptions:
+  - docs/authoring/catalog-product-integration-20260928/quality-status.json
   forbidden_paths:
   - data/**
   - reports/**

@@ -405,9 +405,16 @@ def test_evidence_detail_is_authenticated_private_and_plain_language(client, use
     assert anonymous.status_code == 302
 
     client.force_login(user)
+    event = EvidenceEvent.objects.get(check_in=check_in)
+    before = EvidenceEvent.objects.values().get(pk=event.pk)
     page = client.get(url)
     assert page.status_code == 200
-    assert "This observation is proof, not a global score update." in page.content.decode()
-    assert "does not establish mastery" in page.content.decode()
-    assert "GG-EVIDENCE-1.0" in page.content.decode()
-    assert "explicit final closeout" in page.content.decode()
+    content = page.content.decode()
+    assert "What happened" in content
+    assert "You completed this action." in content
+    assert "Completion is a separate final review, not a claim of mastery." in content
+    assert "Technical audit details" not in content
+    assert "GG-EVIDENCE-1.0" not in content
+    assert event.algorithm_version == EVIDENCE_ALGORITHM_VERSION
+    verify_evidence_event(event)
+    assert EvidenceEvent.objects.values().get(pk=event.pk) == before
