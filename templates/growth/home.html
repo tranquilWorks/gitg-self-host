@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load work_loop %}
 {% block title %}Home · Grounded Growth{% endblock %}
 {% block extra_styles %}<link rel="stylesheet" href="{% static 'growth/guided_entry.css' %}">{% endblock %}
 {% block content %}
@@ -47,7 +48,7 @@
           <a class="button" href="{% url 'growth:practice-review' active_sprint.pk %}">Open final review</a>
           <a class="text-link" href="{% url 'growth:practice-sprint' active_sprint.pk %}">Open current practice</a>
         {% else %}
-          {% if next_action %}<h3>{{ next_action.title }}</h3><p>{{ next_action.instructions }}</p>{% else %}<p>Record what happened in your next check-in.</p>{% endif %}
+          {% if next_action %}<h3>{{ next_action|action_title }}</h3><p>Open your practice for the instructions and observation checks.</p>{% else %}<p>Record what happened in your next check-in.</p>{% endif %}
           <div class="button-row"><a class="button" href="{% url 'growth:practice-sprint' active_sprint.pk %}">Open current practice</a><a class="button button-secondary" href="{% url 'growth:practice-check-in-new' active_sprint.pk %}">Add check-in</a></div>
         {% endif %}
       </section>

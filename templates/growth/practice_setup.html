@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load work_loop %}
 
 {% block title %}Set up {{ protocol.name }} · Grounded Growth{% endblock %}
 
@@ -16,15 +17,10 @@
     <section class="panel setup-card">
       {% if step == 1 %}
         <p class="eyebrow">Why this practice</p>
-        <h1>A focused response to a provisional need.</h1>
+        <h1>Choose one thing to work on.</h1>
         <p class="lede">{{ protocol.recommendation_reason }}</p>
-        <div class="status-note" role="note">
-          <strong>Assessment priority, then human closeout.</strong>
-          This recommendation does not diagnose you. Check-ins preserve evidence
-          but do not update completion credit. If you explicitly close the whole
-          practice, its bounded credit updates coverage and recommendation order.
-          Completion does not establish mastery or change orientations.
-        </div>
+        <p>Try the defined actions, record what happened, then choose whether to finish in a final review. Completing a practice does not establish mastery.</p>
+        <p>Check-ins preserve evidence but do not update completion credit.</p>
         <form method="post">
           {% csrf_token %}
           <button class="button" type="submit">Continue</button>
@@ -54,12 +50,13 @@
         <p class="eyebrow">Timing</p>
         <h1>Choose a start date.</h1>
         <p class="lede">
-          The practice runs for {{ protocol.duration_days }} days.
-          {{ protocol.setup_copy.timing_hint|default:"Choose a date when the practice is realistic." }}
+          Plan the first 7 days, then review your progress. This is a planning checkpoint,
+          not a deadline. Keep any specific intervals in the action instructions;
+          the practice does not finish automatically when the week ends.
         </p>
         {% include "growth/partials/setup_form.html" with submit_label="Continue" %}
       {% elif step == 6 %}
-        <p class="eyebrow">Review the intervention</p>
+        <p class="eyebrow">Review the actions</p>
         <h1>{{ protocol.actions.count }} actions, already defined.</h1>
         <p class="lede">
           The actions are specific on purpose. Adapt timing to consent and
@@ -70,8 +67,8 @@
             <li>
               <span class="rank">{{ action.sequence|stringformat:"02d" }}</span>
               <div>
-                <strong>{{ action.title }}</strong>
-                {{ action.instructions|linebreaks }}
+                <h3>{{ action|action_title }}</h3>
+                {% action_instructions action %}
               </div>
             </li>
           {% endfor %}
@@ -82,7 +79,7 @@
         </form>
       {% else %}
         <p class="eyebrow">Ready to begin</p>
-        <h1>Your {{ protocol.duration_days }}-day practice is prepared.</h1>
+        <h1>Your first week is prepared.</h1>
         <dl class="setup-summary">
           <div>
             <dt>Private context label</dt>
@@ -94,11 +91,11 @@
           </div>
           <div>
             <dt>Practice</dt>
-            <dd>{{ protocol.name }} · {{ protocol.duration_days }} days</dd>
+            <dd>{{ protocol.name }} · first check of progress after 7 days</dd>
           </div>
         </dl>
         <p>
-          Check-ins are compact and may be saved as drafts. Drafts do not count
+          Check-ins may be saved as drafts. Drafts do not count
           as submitted evidence.
         </p>
         <form method="post">

@@ -36,6 +36,12 @@
     <a class="button" href="{% url 'growth:owner-archive' %}">Download owner-private archive</a>
   </section>
 
+  <details class="panel" id="evidence-download">
+    <summary>Download structured check-in records</summary>
+    <p>This minimized JSON excludes identity, exact dates, notes, assessment answers and private context. It includes practice/action identifiers and structured observations for replay. It is separate from optional assessment research.</p>
+    <a class="button button-secondary" href="{% url 'growth:evidence-export' %}">Download minimized evidence JSON</a>
+  </details>
+
   <details class="panel data-management-panel"{% if calibration_summary.assessment_run_count or calibration_error or calibration_consent_form.errors or calibration_withdrawal_form.errors %} open{% endif %}>
     <summary id="calibration-heading">Optional assessment research</summary>
     <p class="eyebrow">Optional assessment research</p>

@@ -90,7 +90,7 @@ def test_seven_step_setup_starts_practice_without_inventing_intervention(client,
     first = client.get(setup_url(1))
     assert first.status_code == 200
     assert b"Why this practice" in first.content
-    assert b"Assessment priority, then human closeout" in first.content
+    assert b"Try the defined actions, record what happened" in first.content
     assert client.post(setup_url(1)).status_code == 302
 
     applicable = client.get(setup_url(2))
@@ -112,7 +112,7 @@ def test_seven_step_setup_starts_practice_without_inventing_intervention(client,
     assert client.post(setup_url(6)).status_code == 302
 
     ready = client.get(setup_url(7))
-    assert b"Your 14-day practice is prepared" in ready.content
+    assert b"Your first week is prepared" in ready.content
     started = client.post(setup_url(7))
     sprint = PracticeSprint.objects.get(user=user)
     assert started.status_code == 302

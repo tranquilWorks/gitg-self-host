@@ -2,16 +2,16 @@
 {% load instructional %}
 {% block title %}{{ guide.title }} · Grounded Growth{% endblock %}
 {% block content %}
-  <p class="back-link"><a href="{% url 'growth:practice-recommendation' protocol.slug %}">← {{ protocol.name }}</a></p>
+  <p class="back-link">{% if current_sprint.protocol_id == protocol.pk %}<a href="{% url 'growth:practice-sprint' current_sprint.pk %}" data-attempt="{{ current_sprint.pk }}">← Back to your current practice</a>{% else %}<a href="{% url 'growth:practice-recommendation' protocol.slug %}">← {{ protocol.name }}</a>{% endif %}</p>
   <section class="page-heading">
     <div>
       <p class="eyebrow">Learning guide · unscored</p>
       <h1>{{ guide.title }}</h1>
-      <p>Use the teaching and materials to prepare. Opening this guide or a check does not complete a practice action.</p>
+      <p>Prepare for {{ protocol.name }}. Reading or checking your understanding does not complete a practice action.</p>
     </div>
   </section>
   <nav aria-label="Guide navigation">
-    <p><a href="{% url 'growth:practice-guide' protocol.slug %}">Teaching and materials</a> ·
+    <p>{% if guide.attempt_id or guide.resource_id or guide.check %}<a href="{% url 'growth:practice-guide' protocol.slug %}">Back to guide overview</a> ·{% endif %}
       <a href="?{% if selection_query %}{{ selection_query }}&amp;{% endif %}format=txt">Download this view as text</a> ·
       <a href="?{% if selection_query %}{{ selection_query }}&amp;{% endif %}format=md">Download this view as Markdown</a></p>
   </nav>
@@ -44,7 +44,7 @@
   {% endif %}
   {% if guide.resources %}
     <section class="panel">
-      <h2>Materials and follow-up</h2>
+      <h2>Resources and materials</h2>
       <p>Open later information after saving the initial attempt described in the guide.</p>
       <ul>{% for resource in guide.resources %}<li><a href="?resource={{ resource.id }}">{{ resource.title }}</a></li>{% endfor %}</ul>
     </section>

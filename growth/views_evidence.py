@@ -5,6 +5,7 @@ from django.http import Http404, HttpResponse
 from django.shortcuts import render
 from django.views.decorators.cache import never_cache
 
+from growth.practice_presentation import CHOICE_COPY
 from growth.presentation import recovery
 from growth.services.evidence import (
     EVIDENCE_DIRECTION_LABELS,
@@ -37,8 +38,11 @@ def evidence_ledger(request):
             "ledger": ledger,
             "page": page,
             "direction_options": (
-                ("all", "All directions"),
-                *EVIDENCE_DIRECTION_LABELS.items(),
+                ("all", "All results"),
+                *(
+                    (key, CHOICE_COPY["evidence_direction"].get(key, label))
+                    for key, label in EVIDENCE_DIRECTION_LABELS.items()
+                ),
             ),
         },
     )
