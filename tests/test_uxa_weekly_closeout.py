@@ -62,6 +62,10 @@ def test_unready_gate_is_disabled_and_direct_post_still_rejected(client, user, s
         {"reflection": "Cannot replace missing activity.", "contradictory_evidence": ""},
     )
     assert response.status_code == 200
+    assert (
+        b"Completing this practice does not establish mastery."
+        in response.content.split(b"<main", 1)[1].split(b"<details", 1)[0]
+    )
     sprint.refresh_from_db()
     assert sprint.status != "completed"
     assert not hasattr(sprint, "review")

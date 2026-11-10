@@ -60,9 +60,16 @@ def test_weekly_through_real_closeout_and_next_practice(live_server, page, width
             page.get_by_label("Meaningful information was freely shared").check()
         else:
             page.get_by_label("A specific future interaction was mutually scheduled").check()
+            page.get_by_label(
+                "How does this setting compare with earlier check-ins?"
+            ).select_option("same_context")
         page.get_by_label("How much support did you use?").select_option("independent")
         page.get_by_label("Did this go as you expected?").select_option("supports")
         page.get_by_role("button", name="Submit check-in", exact=True).click()
+        expect(
+            page.get_by_text("Check-in submitted and added to evidence history.")
+        ).to_be_visible()
+    assert sprint.check_ins.filter(status="submitted", action_completed=True).count() == 2
     page.goto(live_server.url + "/weekly/")
     expect(page.get_by_text("It went as expected", exact=True)).to_be_visible()
     capture("proof")
