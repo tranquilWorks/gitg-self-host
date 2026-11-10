@@ -1,43 +1,25 @@
 schema_version: 1
 batch:
-  id: UXA-08-09
-  title: Coherent weekly planning and practice closeout
-  goal: Complete issues 122 and 123 in one PR; do not start issue 124.
+  id: UXA-10
+  title: Integrated fresh-account through completed-practice acceptance
+  goal: Complete issue 124, the final UXA issue, in its own PR after PR 129 merges.
 sources:
   product: gitg-self-host
   requirements:
   - docs/plans/OWNER_UX_TEST_FEEDBACK_2026-10-07.md
-  milestone: UXA-08 and UXA-09 / issues 122 and 123
-  baseline_commit: d68708e3fa759a91b95363de975342165c612671
+  milestone: UXA-10 / issue 124
+  baseline_commit: 23395d40e224d3883ea86a4196651c13c49ee8e5
 dependencies:
-- PR-128-merged
+- PR-129-merged-and-main-tree-verified
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
-  - growth/weekly_presentation.py
-  - growth/views_weekly.py
-  - growth/views_weekly_followup.py
-  - growth/views_practice.py
   - templates/growth/weekly_execution.html
-  - templates/growth/weekly_plan_detail.html
-  - templates/growth/weekly_replan.html
-  - templates/growth/partials/weekly_proof.html
-  - templates/growth/partials/weekly_next_step.html
-  - templates/growth/partials/closeout_gate.html
-  - templates/growth/practice_sprint.html
-  - templates/growth/practice_review.html
-  - templates/growth/practice_review_complete.html
-  - templates/growth/profile.html
-  - tests/test_uxa_weekly_closeout.py
-  - tests/e2e/test_uxa_weekly_closeout.py
-  - tests/test_weekly_followup.py
-  - tests/test_weekly_execution.py
-  - tests/test_practice_workflow.py
-  - tests/e2e/test_core_flow.py
-  - tests/e2e/test_uxa_entry_assessment.py
-  - tests/e2e/test_application_consistency.py
+  - tests/test_uxa_integrated.py
+  - tests/e2e/test_uxa_integrated.py
   - docs/PROJECT_HANDOFF.md
-  - docs/evidence/UXA-08-09.md
+  - docs/uxa-integrated-acceptance.md
+  - docs/evidence/UXA-10.md
   - MANIFEST.tsv
   forbidden_paths:
   - data/**
@@ -50,34 +32,32 @@ scope:
   - .github/**
   - contracts/verification.commands
 acceptance:
-- Weekly no-direction no-plan planned proof reviewed and completed states are usable.
-- Closeout readiness uses the existing service gate with keyboard-readable requirements.
-- Home Weekly Profile browser and completed review agree on completed state.
-- Preserve exact frozen proof ownership epoch scoring replay and completion semantics.
+- Actual fresh account, assessment, same-attempt practice, and explicit closeout browser journey at mobile and desktop widths.
+- No partial capability before assessment and no empty weekly review before a practice.
+- Native keyboard help, collapsed optional controls, labelled error recovery, responsive headings.
+- Preserve assessment meaning, exact proof, immutable replay, owner and epoch boundaries, and explicit completion credit.
 validation:
   local:
   - scripts/agent-verify.sh full
-  - Complete Playwright suite with retained desktop and mobile review
-  - Compose backup restore drill where Docker is available
+  - Complete Playwright suite with retained desktop and mobile visual review
+  - Compose backup and restore in an allowed Docker runner
   focused_tests_to_add:
-  - Weekly window is Monday to Sunday independent of practice start.
-  - Saved reviews retain exact proof and have actionable completed-practice handoff.
-  - Ineligible closeout is disabled in presentation and rejected by backend.
+  - Four application stages with unchanged read-only state and owner boundaries.
+  - One continuous actual browser account-to-closeout journey without service shortcuts.
   required_ci: []
   owner_authorized_local_verification:
     date: '2026-11-10'
-    reason: Owner reports exhausted hosted Actions quota and explicitly requests local tests then merge.
-    boundary: No CI configuration permissions or status changes; never bypass an enforced merge rule or approval.
+    boundary: Local verification permitted; no enforced merge rule or approval bypass.
 risk:
   class: moderate
   hazards:
-  - Display gating must not alter substantive criteria or credit.
-  - Review routing must not hide or rewrite historical proof.
+  - Integrated tests must not fabricate earlier stages or infer missing evidence.
+  - Presentation gating must not hide genuine safety information or rewrite history.
   stop_conditions:
-  - Protected semantics participant data or enforced approval change required
+  - Protected semantics, participant data, or enforced approval change required
 rollback:
-  strategy: Revert this presentation pair together without rewriting saved records.
+  strategy: Revert this acceptance layer without rewriting saved records.
 evidence:
   output:
-  - docs/evidence/UXA-08-09.md
-  claim_boundary: Local software receipts only; no hosted pass human acceptance or deployment claimed.
+  - docs/evidence/UXA-10.md
+  claim_boundary: Software evidence only, not human acceptance or deployment.

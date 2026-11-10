@@ -1,5 +1,19 @@
 # Grounded Growth — Project Handoff
 
+## UXA-10 final integration — 10 November 2026
+
+Owner authorizes all remaining UXA. #129 (08/09) is normally merged as
+23395d40e224d3883ea86a4196651c13c49ee8e5 after run42850562829 passed
+2,066 pytest/six warnings,67 browser, all readiness/Compose/aggregate and30PNG
+review; main's exact reviewed tree and expected parents were verified.
+Separate #124 branch is rebased onto this verified merged main and adds a real
+fresh-account-to-closeout desktop/mobile journey, hiding empty Weekly review
+before practice. It requires its own fresh final-head gates/artifact review;
+dependency passes do not qualify this slice. Older pending notes are historical.
+Read docs/uxa-integrated-acceptance.md and docs/evidence/UXA-10.md for exact
+boundaries, actual receipts and image list. No protected semantic changes,
+CI/permission changes, invented human acceptance or deployment authorized.
+
 ## Remaining UXA authorization — 10 November 2026
 
 The owner now requested completion and conditional merge of the remaining UXA.

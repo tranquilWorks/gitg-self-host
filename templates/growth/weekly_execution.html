@@ -33,6 +33,7 @@
 {% elif active_sprint %}<div class="panel"><h3>Review your current practice</h3><p>{% if active_sprint.assessment_run_id != summary.assessment_run.pk %}This practice belongs to an earlier assessment period. New weekly plans cannot mix these periods. Finish or stop it before making a new weekly plan.{% else %}This practice is paused. Resume it when ready to plan another action.{% endif %}</p><a href="{% url 'growth:practice-sprint' active_sprint.pk %}">Open current practice</a></div>
 {% else %}<div class="panel"><h3>Choose your next practice</h3><p>Start one practice before planning its next action.</p><a class="button" href="{% url 'growth:practice-list' %}">Choose a practice</a></div>{% endif %}
 </section>
+{% if plan_form or review_target or current_review %}
 <section class="section-block"><p class="eyebrow">Weekly review</p><h2>Look back at your action</h2>
 {% if review_target %}<div class="panel"><h3>{{ review_target.sprint.protocol.name }}</h3><h4>{{ review_target.action|action_title }}</h4><p>Planned for {{ review_target.intended_on|date:"M j, Y" }}. This review includes check-ins submitted after this plan was saved and within its week.</p>
 {% include "growth/partials/weekly_proof.html" with plan=review_target %}
@@ -44,5 +45,6 @@
 {% elif current_review %}<div class="panel"><span class="status-pill">Reviewed</span><h3>{{ current_plan.sprint.protocol.name }}</h3><h4>{{ current_plan.action|action_title }}</h4><p>{{ current_review.get_outcome_display }}.</p><h4>Your choice</h4><p>{{ current_review.get_next_step_display }}.</p><a class="button" href="{% url 'weekly-plan-detail' current_plan.pk %}">Act on your review</a></div>
 {% else %}<div class="panel">{% if plan_form %}<p>Choose an action and a day before reviewing your week.</p><a href="#weekly-plan">Create a weekly plan</a>{% else %}<p>A weekly review starts with a plan for an active practice.</p><a href="{% url 'growth:practice-list' %}">Choose a practice</a>{% endif %}</div>{% endif %}
 </section>
+{% endif %}
 {% if previous %}<section class="section-block"><div class="panel"><p class="eyebrow">Previous planned week · {{ previous.weeks_ago }} week{{ previous.weeks_ago|pluralize }} ago</p><h2>Carry forward what you learned</h2><p>{{ previous.plan.action|action_title }} · {{ previous.plan.intended_on|date:"M j, Y" }}.</p>{% if previous.review %}<p>{{ previous.review.get_next_step_display }}.</p>{% endif %}<a href="{% url 'weekly-plan-detail' previous.plan.pk %}">Open previous plan and next step</a></div></section>{% endif %}
 {% endblock %}
