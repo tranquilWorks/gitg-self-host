@@ -362,7 +362,7 @@ def test_weekly_browser_loop_is_authenticated_private_and_no_proof_is_explicit(
     run = AssessmentRun.objects.get(user=user)
     no_sprint = client.get(url)
     assert no_sprint.status_code == 200
-    assert b"No active practice" in no_sprint.content
+    assert b"Choose your next practice" in no_sprint.content
 
     direction = "PRIVATE-WEEKLY-DIRECTION-SENTINEL"
     priority = "PRIVATE-WEEKLY-PRIORITY-SENTINEL"
@@ -404,7 +404,7 @@ def test_weekly_browser_loop_is_authenticated_private_and_no_proof_is_explicit(
     assert saved.status_code == 302
     assert saved.url == url
     review_page = client.get(url)
-    assert b"No submitted proof for this plan" in review_page.content
+    assert b"After you try the action, add a check-in" in review_page.content
     reviewed = client.post(
         url,
         {
@@ -417,7 +417,7 @@ def test_weekly_browser_loop_is_authenticated_private_and_no_proof_is_explicit(
     assert reviewed.status_code == 302
     completed = client.get(url)
     assert b"No submitted evidence" in completed.content
-    assert b"The review created no new evidence or score contribution" in completed.content
+    assert b"Act on your review" in completed.content
 
     stale = client.post(
         url,

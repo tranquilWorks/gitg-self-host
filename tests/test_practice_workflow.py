@@ -301,7 +301,7 @@ def test_completion_and_review_do_not_mutate_static_scores(client, user, seeded)
     review_page = client.get(review_url)
     assert review_page.status_code == 200
     assert b"Completing this practice does not establish mastery." in review_page.content
-    assert b"Actions attempted" in review_page.content
+    assert b"You tried" in review_page.content
     assert b"75% completion credit" in review_page.content
 
     completed = client.post(
@@ -313,7 +313,7 @@ def test_completion_and_review_do_not_mutate_static_scores(client, user, seeded)
         follow=True,
     )
     assert completed.status_code == 200
-    assert b"The experiment is closed" in completed.content
+    assert b"Your practice is complete" in completed.content
     assert b"Completing this practice does not establish mastery." in completed.content
     assert b"Completion credit" in completed.content
     assert b"75%" in completed.content

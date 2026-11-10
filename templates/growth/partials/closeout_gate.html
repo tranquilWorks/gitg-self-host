@@ -1,0 +1,12 @@
+<section class="panel" aria-labelledby="closeout-heading">
+<h2 id="closeout-heading">Finish this practice</h2>
+{% if evidence.ready_for_review %}
+<p>Your submitted check-ins meet the requirements. Review what happened before finishing.</p>
+<a class="button" href="{% url 'growth:practice-review' sprint.pk %}">{% if sprint.status == "paused" %}Review and close paused practice{% else %}Open final review{% endif %}</a>
+{% else %}
+<div tabindex="0" aria-describedby="closeout-requirements" title="{{ closeout_remaining|join:' ' }}">
+<button class="button" disabled type="button" aria-describedby="closeout-requirements">Open final review</button>
+</div>
+<div id="closeout-requirements"><p>Before you can finish:</p><ul>{% for reason in closeout_remaining %}<li>{{ reason }}</li>{% endfor %}</ul></div>
+{% endif %}
+</section>

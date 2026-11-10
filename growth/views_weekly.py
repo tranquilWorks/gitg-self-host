@@ -29,6 +29,7 @@ from growth.services.weekly_followup import (
     save_plan_review,
     verified_plan,
 )
+from growth.weekly_presentation import present_plan_form, present_proof, present_review_form
 
 
 def _next_action(sprint):
@@ -124,7 +125,7 @@ def _render(
             "personal_os": personal_os,
             "plan_form": plan_form,
             "review_form": review_form,
-            "proof_rows": proof_rows,
+            "proof_rows": present_proof(proof_rows),
             "connection": (
                 connection_presentation(
                     request.user, summary.assessment_run, active_sprint.protocol
@@ -153,6 +154,10 @@ def weekly_execution(request):
         week_start=week_start,
     )
     review_target = latest_unreviewed_plan(user=request.user, assessment_run=run)
+    # Show this week's saved review first. Older unreviewed plans remain
+    # accessible in Previous planned week rather than displacing that review.
+    if current_plan is not None and hasattr(current_plan, "review"):
+        review_target = None
     try:
         personal_os = _latest_personal_os(run)
         for row in (current_plan, review_target):
@@ -212,6 +217,10 @@ def weekly_execution(request):
         if review_target is not None
         else None
     )
+
+    present_plan_form(plan_form)
+    if review_form is not None:
+        present_review_form(review_form)
 
     if request.method == "POST" and form_type not in {"weekly_plan", "weekly_review"}:
         return recovery(request, "Unsupported weekly action. Nothing was saved.", status=400)

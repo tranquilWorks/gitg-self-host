@@ -184,15 +184,15 @@
         <div class="shadow-summary" aria-label="Completion credit summary">
           <div>
             <strong>{{ summary.canonical_completion_coverage|percentage }}</strong>
-            <span>all-competency coverage</span>
+            <span>of practice work completed across all 383 competencies</span>
           </div>
           <div>
             <strong>{{ summary.full_credit_competencies }}</strong>
-            <span>full-credit competenc{{ summary.full_credit_competencies|pluralize:"y,ies" }}</span>
+            <span>competenc{{ summary.full_credit_competencies|pluralize:"y,ies" }} with every action completed</span>
           </div>
           <div>
             <strong>{{ summary.partial_credit_competencies }}</strong>
-            <span>partial-credit competenc{{ summary.partial_credit_competencies|pluralize:"y,ies" }}</span>
+            <span>competenc{{ summary.partial_credit_competencies|pluralize:"y,ies" }} completed at the minimum or above</span>
           </div>
           <div>
             <strong>{{ summary.composite_snapshot_count }}</strong>
@@ -230,11 +230,11 @@
         </div>
       {% elif summary.personal_applicability_active and summary.personally_not_applicable_competencies %}
         <div class="inline-note" aria-labelledby="personal-coverage-heading">
-          <strong id="personal-coverage-heading">Personal-applicable coverage view</strong>
+          <strong id="personal-coverage-heading">Progress for practices that apply to you</strong>
           <div class="shadow-summary" aria-label="Personal applicability coverage summary">
             <div>
               <strong>{{ summary.personal_applicable_completion_coverage|percentage }}</strong>
-              <span>coverage among currently applicable competencies</span>
+              <span>of practice work completed among currently applicable competencies</span>
             </div>
             <div>
               <strong>{{ summary.personal_applicable_competency_count }}</strong>
@@ -246,7 +246,7 @@
             </div>
             <div>
               <strong>{{ summary.canonical_completion_coverage|percentage }}</strong>
-              <span>all-competency coverage, unchanged</span>
+              <span>of practice work completed across all 383 competencies, unchanged</span>
             </div>
           </div>
           <p class="fine-print">

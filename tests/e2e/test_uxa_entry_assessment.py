@@ -86,7 +86,7 @@ def test_all_four_home_stages_and_explicit_skip(live_server, page, width):
     expect(page.locator(".onboarding-progress")).to_have_count(0)
     page.get_by_role("link", name="Read the review", exact=True).click()
     expect(
-        page.get_by_role("heading", name="The experiment is closed.", exact=True)
+        page.get_by_role("heading", name="Your practice is complete.", exact=True)
     ).to_be_visible()
     page.goto(live_server.url + "/")
     capture(page, f"home-completed-{width}")

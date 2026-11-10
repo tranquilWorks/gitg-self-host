@@ -1,12 +1,12 @@
 {% extends "base.html" %}
+{% load work_loop %}
 {% block title %}Weekly plan and review · Grounded Growth{% endblock %}
 {% block content %}
 <section class="page-heading"><div><p class="eyebrow">Week of {{ plan.week_start|date:"M j, Y" }} · revision {{ plan.revision }}</p><h1>Your plan and proof</h1><p class="lede">{{ plan.sprint.protocol.name }}</p></div><a href="{% url 'growth:weekly-execution' %}">Back to Weekly</a></section>
-<section class="panel"><h2>{{ plan.action.title }}</h2><p>Planned for {{ plan.intended_on|date:"l, M j, Y" }}.</p><p>Only submitted evidence after this revision was created and within its planned week appears here. A saved review keeps its original proof cutoff.</p>
+<section class="panel"><h2>{{ plan.action|action_title }}</h2><p>Planned for {{ plan.intended_on|date:"l, M j, Y" }}.</p><p>Check-ins here were submitted after this plan was saved and within its week. A saved review keeps the records available at that time.</p>
 {% include "growth/partials/weekly_proof.html" %}
 {% if review %}
-  <p>Outcome: {{ review.get_outcome_display }}. Adjustment: {{ review.get_adjustment_display }}.</p>
-  <p class="fine-print">The review created no new evidence or score contribution.</p>
+  <h3>What happened</h3><p>{{ review.get_outcome_display }}.</p>
   {% include "growth/partials/weekly_next_step.html" %}
 {% elif is_latest %}
   <form method="post" novalidate>{% csrf_token %}{{ form.plan_id }}{{ form.plan_id.errors }}{{ form.non_field_errors }}

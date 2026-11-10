@@ -338,23 +338,21 @@ def test_weekly_execution_plans_one_action_and_reviews_only_existing_proof(
     log_in(live_server, page)
 
     page.get_by_role("link", name="Weekly", exact=True).click()
-    page.get_by_role("heading", name="Turn one direction into one concrete action.").wait_for()
-    page.get_by_text("One operating loop, no hidden analysis.").wait_for()
-    page.get_by_label("One action to make concrete this week").select_option(action.pk)
+    page.get_by_role("heading", name="Make time for one useful action.").wait_for()
+    page.get_by_role("heading", name="No direction yet").wait_for()
+    page.get_by_label("Which action will you work on?").select_option(action.pk)
     page.get_by_role("button", name="Save weekly plan").click()
     page.get_by_text("Weekly plan revision saved.").wait_for()
-    page.get_by_text("No submitted proof for this plan").wait_for()
+    page.get_by_text("After you try the action, add a check-in.", exact=False).wait_for()
     assert WeeklyExecutionPlan.objects.count() == 1
     assert_no_horizontal_overflow(page)
     save_walkthrough_screenshot(page, "mobile-weekly-plan")
 
     page.get_by_label("Continue the current action").check()
-    page.get_by_label(
-        "What adjustment, if any, would make the next attempt more workable?"
-    ).select_option("none")
+    page.get_by_label("What would help next time?").select_option("none")
     page.get_by_role("button", name="Save proof-based weekly review").click()
     page.get_by_text("Weekly proof review saved.").wait_for()
-    page.get_by_text("The review created no new evidence or score contribution.").wait_for()
+    page.get_by_role("heading", name="What happened", exact=True).wait_for()
     assert WeeklyExecutionReview.objects.get().outcome == "no_submitted_evidence"
     assert EvidenceEvent.objects.count() == 0
 
@@ -1034,7 +1032,7 @@ def test_guided_practice_draft_pause_and_completion_flow(live_server, page: Page
         page.get_by_label("Did this go as you expected?").select_option("supports")
         page.get_by_role("button", name="Submit check-in").click()
 
-    page.get_by_role("link", name="Review and close").click()
+    page.get_by_role("link", name="Open final review").click()
     page.get_by_text("Completing this practice does not establish mastery.").wait_for()
     page.get_by_label("What did this practice show you?").fill(
         "Specific invitations made the next step clearer."
@@ -1043,7 +1041,7 @@ def test_guided_practice_draft_pause_and_completion_flow(live_server, page: Page
         "button",
         name="Submit final review and record 75% credit",
     ).click()
-    page.get_by_role("heading", name="The experiment is closed.").wait_for()
+    page.get_by_role("heading", name="Your practice is complete.").wait_for()
     page.get_by_text("Completing this practice does not establish mastery.").wait_for()
     assert PracticeSprint.objects.get().status == PracticeSprint.Status.COMPLETED
     assert CompletionCreditEvent.objects.get().completion_credit == Decimal("0.7500")

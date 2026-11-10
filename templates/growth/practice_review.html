@@ -8,15 +8,15 @@
   <section class="page-heading">
     <div>
       <p class="eyebrow">Final review</p>
-      <h1>Close the experiment carefully.</h1>
+      <h1>Look back, then finish.</h1>
       <p class="lede">
-        Review what happened without converting practice completion into a claim
-        about identity, worth, or mastery.
+        {{ sprint.protocol.name }}. What happened, and what will you take forward?
       </p>
     </div>
   </section>
 
-  <div class="mastery-notice" role="note">
+  <details class="panel">
+    <summary>What completing a practice means</summary>
     <strong>Completing this practice does not establish mastery.</strong>
     {% if evidence.uses_composite_closeout %}
       <p>
@@ -31,26 +31,25 @@
         The final review adds no new observation.
       </p>
     {% endif %}
-  </div>
+  </details>
 
   <section class="panel completion-criteria">
-    <p class="eyebrow">Completion evidence</p>
-    <h2>Submitted check-ins only</h2>
+    <p class="eyebrow">Your activity</p>
+    <h2>What you recorded</h2>
     <ul>
       <li>
-        Actions attempted — {{ evidence.actions_attempted }} of {{ evidence.total_actions }}
+        You tried {{ evidence.actions_attempted }} of {{ evidence.total_actions }} actions.
       </li>
       <li class="{% if evidence.enough_actions_completed %}met{% endif %}">
-        At least {{ evidence.minimum_completed }} actions completed —
-        {{ evidence.actions_completed }} of {{ evidence.total_actions }}
+        You completed {{ evidence.actions_completed }} of {{ evidence.total_actions }} actions; at least {{ evidence.minimum_completed }} are required.
       </li>
       <li class="{% if evidence.substantive_interaction_occurred %}met{% endif %}">
-        {{ sprint.protocol.setup_copy.completion_signal_label|default:"At least one meaningful attempt" }}
+        {% if evidence.substantive_interaction_occurred %}The required observation is recorded.{% else %}Still needed: {{ sprint.protocol.setup_copy.completion_signal_label|default:"the required observation" }}.{% endif %}
       </li>
-      <li>Final review submitted — this step</li>
+      <li>Your final review is the last step.</li>
     </ul>
     {% if evidence.uses_composite_closeout and evidence.ready_for_review %}
-      <div class="inline-note">
+      <details><summary>Completion credit for this review</summary>
         <strong>Closeout credit: {{ evidence.projected_closeout_credit|percentage }}</strong>
         <p>
           {% if evidence.actions_completed == evidence.total_actions %}
@@ -61,7 +60,7 @@
             improve the competency; repeated partial attempts do not add together.
           {% endif %}
         </p>
-      </div>
+      </details>
     {% endif %}
   </section>
 

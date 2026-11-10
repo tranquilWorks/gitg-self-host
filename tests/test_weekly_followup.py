@@ -56,7 +56,7 @@ def test_previous_week_and_explicit_replan_preserve_original(client, user, seede
     client.force_login(user)
     weekly = client.get(reverse("growth:weekly-execution"))
     assert b"2 weeks ago" in weekly.content
-    assert b"no-evidence state" in weekly.content
+    assert b"Open previous plan and next step" in weekly.content
     assert b"Continue the current action" in weekly.content
     url = reverse("weekly-replan", args=[plan.pk])
     assert client.get(url).status_code == 200

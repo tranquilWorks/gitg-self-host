@@ -1,7 +1,7 @@
 {% if proof_rows %}
   <ul class="history-list">
-    {% for proof in proof_rows %}<li><div><strong>{{ proof.direction_label }}</strong><p>{% if proof.action_completed %}Action completed{% elif proof.action_attempted %}Action attempted{% else %}No attempt recorded{% endif %}{% if proof.adverse %} · adverse outcome flagged{% endif %}</p>{% if proof.withholding_labels %}<small>Withheld: {{ proof.withholding_labels|join:", " }}</small>{% endif %}</div></li>{% endfor %}
+    {% for proof in proof_rows %}<li><div><strong>{{ proof.direction_label }}</strong><p>{% if proof.action_completed %}Action completed{% elif proof.action_attempted %}Action tried{% else %}No attempt recorded{% endif %}{% if proof.adverse %} · a harmful or unwanted result was recorded{% endif %}</p>{% if proof.withholding_labels %}<details><summary>Why this record does not contribute</summary><p>{{ proof.withholding_labels|join:", " }}</p></details>{% endif %}</div></li>{% endfor %}
   </ul>
 {% else %}
-  <div class="inline-note"><strong>No submitted proof for this plan</strong><p>This is a no-evidence state, not a penalty or inferred failure.</p></div>
+  {% if review %}<p>No check-ins were submitted for this plan before this review was saved.</p>{% else %}<p>After you try the action, add a check-in. You can also review the plan without one.</p>{% if active_sprint and active_sprint.pk == plan.sprint_id and active_sprint.status == "active" %}<a href="{% url 'growth:practice-check-in-new' plan.sprint_id %}?action={{ plan.action_id }}">Add check-in for this action</a>{% endif %}{% endif %}
 {% endif %}
