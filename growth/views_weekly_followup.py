@@ -23,6 +23,7 @@ from growth.services.weekly_followup import (
     transition_available,
     verified_plan,
 )
+from growth.weekly_presentation import present_plan_form, present_proof, present_review_form
 
 ERRORS = (ValidationError, ValueError, TypeError, OperationalError, IntegrityError)
 
@@ -59,6 +60,8 @@ def weekly_plan_detail(request, plan_id):
         request.POST if request.method == "POST" else None,
         initial={"plan_id": plan.pk, "next_step": "continue_current", "adjustment": "none"},
     )
+    present_review_form(form)
+    context["proof_rows"] = present_proof(context["proof_rows"])
     if request.method == "POST" and form.is_valid():
         if form.cleaned_data["plan_id"] != plan.pk:
             return _conflict(request)
@@ -152,6 +155,8 @@ def weekly_replan(request, plan_id):
             request, "This week's plan is saved. The original plan and proof are preserved."
         )
         return redirect("growth:weekly-execution")
+    present_plan_form(form)
+    context["proof_rows"] = present_proof(context["proof_rows"])
     context.update({"form": form, "week_start": start, "week_end": end, "target": target})
     return render(
         request,

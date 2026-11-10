@@ -214,6 +214,4 @@ def test_conditional_forms_and_conflict_recovery(live_server, page):
     audit_page(page)
     save_walkthrough_screenshot(page, "consistency-conflict-recovery")
     page.get_by_role("link", name="Open this week", exact=True).click()
-    expect(
-        page.get_by_role("heading", name="Turn one direction into one concrete action.")
-    ).to_be_visible()
+    expect(page.get_by_role("heading", name="Make time for one useful action.")).to_be_visible()

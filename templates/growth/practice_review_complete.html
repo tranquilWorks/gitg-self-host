@@ -7,7 +7,7 @@
   <section class="page-heading">
     <div>
       <p class="eyebrow">Practice complete</p>
-      <h1>The experiment is closed.</h1>
+      <h1>Your practice is complete.</h1>
       <p class="lede">
         {{ sprint.protocol.name }} was completed with a final review on
         {{ review.submitted_at|date:"F j, Y" }}.
@@ -16,19 +16,19 @@
     <span class="status-pill status-pill-ready">Completed</span>
   </section>
 
-  <div class="mastery-notice" role="note">
+  <p>
     <strong>Completing this practice does not establish mastery.</strong>
     {% if credit_event %}
-      <p>
+      <span>
         Your final review recorded {{ credit_event.completion_credit|percentage }}
         completion credit for this bounded competency practice. It did not alter
         the assessment baseline, personality orientations, archetypes, identity,
         worth, or any claim of mastery.
-      </p>
+      </span>
     {% else %}
-      <p>This earlier review keeps its original scoring rules.</p>
+      <span>This earlier review keeps its original scoring rules.</span>
     {% endif %}
-  </div>
+  </p>
 
   <div class="profile-grid">
     <section class="panel">
@@ -36,13 +36,13 @@
       <h2>What the practice showed</h2>
       <p class="preserve-lines">{{ review.reflection }}</p>
       {% if review.contradictory_evidence %}
-        <h3>Contradictory evidence</h3>
+        <h3>What did not go as expected</h3>
         <p class="preserve-lines">{{ review.contradictory_evidence }}</p>
       {% endif %}
     </section>
     <section class="panel">
       <p class="eyebrow">Completion record</p>
-      <h2>Bounded evidence</h2>
+      <h2>What you completed</h2>
       <dl class="metric-list">
         <div><dt>Actions attempted</dt><dd>{{ review.actions_attempted }} of {{ sprint.protocol.actions.count }}</dd></div>
         <div><dt>Actions completed</dt><dd>{{ review.actions_completed }} of {{ sprint.protocol.actions.count }}</dd></div>
@@ -59,6 +59,7 @@
     <a class="button button-secondary" href="{% url 'growth:practice-sprint' sprint.pk %}">
       View practice record
     </a>
-    <a class="button" href="{% url 'growth:practice-list' %}">Return to recommendations</a>
+    <a class="button" href="{% url 'growth:practice-list' %}">Choose your next practice</a>
+    <a href="{% url 'direction-review' %}">Review your direction</a>
   </div>
 {% endblock %}

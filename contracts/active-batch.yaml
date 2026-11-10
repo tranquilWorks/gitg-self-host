@@ -1,98 +1,83 @@
 schema_version: 1
 batch:
-  id: UXA-06-07
-  title: Practice selection and readable work and evidence loop
-  goal: Implement issues 120 and 121 together after verified PR 127 merge; no later UXA batch.
+  id: UXA-08-09
+  title: Coherent weekly planning and practice closeout
+  goal: Complete issues 122 and 123 in one PR; do not start issue 124.
 sources:
   product: gitg-self-host
   requirements:
   - docs/plans/OWNER_UX_TEST_FEEDBACK_2026-10-07.md
-  milestone: UXA-06 and UXA-07 / issues 120 and 121
-  baseline_commit: 2f5f9f9ac98f6bd3eb4a255ec497fa00ff1f7cf0
+  milestone: UXA-08 and UXA-09 / issues 122 and 123
+  baseline_commit: d68708e3fa759a91b95363de975342165c612671
 dependencies:
-- PR-113-merged
-- PR-125-merged
-- PR-126-merged
-- PR-127-merged
+- PR-128-merged
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
-  - growth/practice_presentation.py
-  - growth/templatetags/work_loop.py
+  - growth/weekly_presentation.py
+  - growth/views_weekly.py
+  - growth/views_weekly_followup.py
   - growth/views_practice.py
-  - growth/views_instructional.py
-  - growth/views_evidence.py
-  - templates/growth/practice_list.html
-  - templates/growth/practice_card.html
-  - templates/growth/practice_recommendation.html
-  - templates/growth/practice_setup.html
+  - templates/growth/weekly_execution.html
+  - templates/growth/weekly_plan_detail.html
+  - templates/growth/weekly_replan.html
+  - templates/growth/partials/weekly_proof.html
+  - templates/growth/partials/weekly_next_step.html
+  - templates/growth/partials/closeout_gate.html
   - templates/growth/practice_sprint.html
-  - templates/growth/practice_check_in.html
-  - templates/growth/practice_check_in_detail.html
-  - templates/growth/practice_guide.html
-  - templates/growth/partials/instructional_link.html
-  - templates/growth/partials/practice_actions.html
-  - templates/growth/evidence_ledger.html
-  - templates/growth/data_management.html
-  - templates/growth/home.html
-  - tests/test_uxa_practice_work_loop.py
-  - tests/e2e/test_uxa_practice_work_loop.py
+  - templates/growth/practice_review.html
+  - templates/growth/practice_review_complete.html
+  - templates/growth/profile.html
+  - tests/test_uxa_weekly_closeout.py
+  - tests/e2e/test_uxa_weekly_closeout.py
+  - tests/test_weekly_followup.py
+  - tests/test_weekly_execution.py
   - tests/test_practice_workflow.py
-  - tests/test_evidence_audit.py
-  - tests/test_evidence_engine.py
-  - tests/test_instructional_content.py
-  - tests/e2e/test_context_discovery.py
-  - growth/static/growth/application.css
   - tests/e2e/test_core_flow.py
-  - docs/evidence/UXA-06-07.md
-  - docs/uxa-practice-work-loop.md
+  - tests/e2e/test_uxa_entry_assessment.py
+  - tests/e2e/test_application_consistency.py
   - docs/PROJECT_HANDOFF.md
+  - docs/evidence/UXA-08-09.md
   - MANIFEST.tsv
-  - docs/authoring/catalog-product-integration-20260928/quality-status.json
-  # Owner's 2026-11-04 request to finish and merge authorizes only this
-  # generated renderer-hash refresh, not other authoring or human review edits.
-  forbidden_path_exceptions:
-  - docs/authoring/catalog-product-integration-20260928/quality-status.json
   forbidden_paths:
   - data/**
   - reports/**
   - docs/authoring/**
+  - growth/services/**
+  - growth/domain/**
   - growth/models.py
   - growth/migrations/**
-  - growth/services/assessment.py
-  - growth/services/profile.py
-  - growth/services/context_priority.py
-  - growth/services/personal_os_browser.py
-  - growth/services/scoring*.py
-  - growth/domain/**
   - .github/**
   - contracts/verification.commands
 acceptance:
-- Complete issue 120 bounded discovery rationale and consistent owner-scoped active-attempt links.
-- Complete issue 121 readable guide setup check-ins and evidence without changing captured records.
-- Preserve authentication ownership CSRF explicit consent signed reuse and immutable versioning.
-- Preserve canonical assessment evidence scoring ranking and all later UXA scopes.
+- Weekly no-direction no-plan planned proof reviewed and completed states are usable.
+- Closeout readiness uses the existing service gate with keyboard-readable requirements.
+- Home Weekly Profile browser and completed review agree on completed state.
+- Preserve exact frozen proof ownership epoch scoring replay and completion semantics.
 validation:
   local:
   - scripts/agent-verify.sh full
-  - Relevant browser journeys and compose-smoke where available
+  - Complete Playwright suite with retained desktop and mobile review
+  - Compose backup restore drill where Docker is available
   focused_tests_to_add:
-  - Browser work guide weekly and Home refer to the same active attempt; completion updates display.
-  - Exact check-in values evidence replay and canonical instructions remain unchanged.
-  - Relevant observation fields and recovery remain usable with and without JavaScript.
-  required_ci:
-  - Pilot readiness gate
+  - Weekly window is Monday to Sunday independent of practice start.
+  - Saved reviews retain exact proof and have actionable completed-practice handoff.
+  - Ineligible closeout is disabled in presentation and rejected by backend.
+  required_ci: []
+  owner_authorized_local_verification:
+    date: '2026-11-10'
+    reason: Owner reports exhausted hosted Actions quota and explicitly requests local tests then merge.
+    boundary: No CI configuration permissions or status changes; never bypass an enforced merge rule or approval.
 risk:
   class: moderate
   hazards:
-  - Timing presentation must not alter canonical action intervals or completion gates.
-  - Human-readable summaries must not hide contrary evidence or imply scoring or mastery.
-  - Selection presentation must not change ranking or infer missing context.
+  - Display gating must not alter substantive criteria or credit.
+  - Review routing must not hide or rewrite historical proof.
   stop_conditions:
-  - Protected content scoring or participant data change
+  - Protected semantics participant data or enforced approval change required
 rollback:
-  strategy: Revert this presentation batch together; preserve all saved records and original routes.
+  strategy: Revert this presentation pair together without rewriting saved records.
 evidence:
   output:
-  - docs/evidence/UXA-06-07.md
-  claim_boundary: Software verification only; no participant or specialist validation or deployment.
+  - docs/evidence/UXA-08-09.md
+  claim_boundary: Local software receipts only; no hosted pass human acceptance or deployment claimed.

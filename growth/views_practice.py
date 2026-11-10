@@ -53,6 +53,7 @@ from growth.services.practice import (
 from growth.services.practice_direction import connection_presentation
 from growth.services.practice_discovery import build_practice_explorer
 from growth.services.profile import build_profile_summary
+from growth.weekly_presentation import closeout_remaining
 
 
 def _protocol(slug: str) -> PracticeProtocol:
@@ -515,6 +516,7 @@ def practice_sprint(request, sprint_id):
             "submitted_check_ins": submitted,
             "draft_check_ins": drafts,
             "evidence": evidence,
+            "closeout_remaining": closeout_remaining(evidence),
             "action_rows": action_rows,
             "next_action": next_action,
             "end_date": sprint.start_date + timedelta(days=6),

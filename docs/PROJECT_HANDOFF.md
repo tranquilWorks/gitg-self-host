@@ -1,5 +1,32 @@
 # Grounded Growth — Project Handoff
 
+## Remaining UXA authorization — 10 November 2026
+
+The owner now requested completion and conditional merge of the remaining UXA.
+Finish and verify #129 (#122/#123) first, including the consolidated browser
+repair recorded in its evidence. Only then implement #124, the final integrated
+Pass 0–3 acceptance layer, in a separate bounded PR from verified merged main.
+Keep source/model/scoring/replay/security contracts and actual approval gates.
+No deployment or invented owner/participant/specialist validation is authorized.
+Hosted CI is executing; local browser/Docker limitations do not block use of
+that allowed runner. Earlier pending/quota notes below are historical checkpoints.
+
+## UXA-08 + UXA-09 — 10 November 2026
+
+Owner authorized the next combined #122/#123 batch and merge with local
+verification because hosted Actions quota is exhausted. Main is verified PR
+#128 merge d68708e3fa759a91b95363de975342165c612671. The prior UXA-06/07 pending
+notes below are historical: it passed all required gates and 28-PNG artifact
+review before normal merge. Its monitoring is disabled.
+
+Current branch codex/uxa-08-09-weekly-closeout implements Weekly/readable proof
+and conditional closeout/handoff; see [actual evidence](evidence/UXA-08-09.md).
+No canonical/scoring/service/model/migration/CI changes or #124 work.
+Local browser launch is permission-blocked (Chromium socket Operation not
+permitted); Docker is absent. No browser/Compose/visual/merge pass claimed.
+Preserve these blockers; do not circumvent them or infer completion from unit
+tests. Local-only verification authorization does not waive enforced approvals.
+
 ## UXA-06 + UXA-07 — 3 November 2026, implementation in progress
 
 PR #127 (UXA-04/05) is verified merged as `2f5f9f9` after final run41677458336:

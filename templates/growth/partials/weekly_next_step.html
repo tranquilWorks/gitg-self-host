@@ -1,4 +1,9 @@
 <h2>Your next step</h2>
+{% if plan.sprint.status == "completed" %}
+<p>This practice is complete. Your saved plan and review stay available.</p><a class="button" href="{% url 'growth:practice-list' %}">Choose your next practice</a><p><a href="{% url 'growth:practice-review-complete' plan.sprint_id %}">Read the completed practice review</a></p>
+{% elif plan.sprint.status == "stopped" %}
+<p>This practice was stopped.</p><a class="button" href="{% url 'growth:practice-list' %}">Choose a practice</a>
+{% else %}
 <p>{{ review.get_next_step_display }}. {{ adjustment_help }}</p>
 {% if review.adjustment == "context" %}<p><a href="{% url 'growth:practice-context' plan.sprint.protocol.slug %}">Review practice fit</a></p>{% elif review.adjustment == "recovery" %}<p><a href="{% url 'growth:personal-os' %}">Review season and capacity</a></p>{% endif %}
 {% if review.next_step == "continue_current" %}
@@ -12,3 +17,4 @@
   {% if can_stop %}<a class="button button-secondary" href="{% url 'weekly-transition' plan.pk 'stop' %}">Review stopping and choosing another practice</a>{% else %}<a href="{% url 'context-review' %}">Explore practice choices</a>{% endif %}
 {% endif %}
 <p class="fine-print">Saving a review does not pause, stop, or start a practice. Follow-up actions are your choice.</p>
+{% endif %}
