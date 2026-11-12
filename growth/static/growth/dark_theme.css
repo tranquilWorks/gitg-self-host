@@ -1,0 +1,93 @@
+/* TranquilWorks dark palette, read from tranquilworks.dev on 2026-11-12.
+   Final shared layer; historical lesson renderer inputs remain intact.
+   Existing --ink/--paper names mean foreground/background in this app. */
+:root {
+  color-scheme: dark;
+  --ink: #edf3ef;
+  --ink-soft: #a8b5b0;
+  --muted: var(--ink-soft);
+  --paper: #081114;
+  --surface: #0d181c;
+  --surface-muted: #142328;
+  --surface-deep: #050b0e;
+  --line: #3e5357;
+  --line-strong: #708885;
+  --border: var(--line-strong);
+  --accent: #e6ad4b;
+  --accent-dark: #79bea9;
+  --accent-pale: #172d2b;
+  --on-accent: #081114;
+  --accent-hover: #ffd486;
+  --warning: #ffd486;
+  --warning-bg: #302718;
+  --danger: #e17555;
+  --danger-hover: #f39c80;
+  --danger-bg: #321e1b;
+  --shadow: 0 14px 38px rgb(0 0 0 / 22%);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.site-header { background: var(--surface-deep); }
+.brand-mark, .skip-link { background: var(--accent); color: var(--on-accent); }
+.button { color: var(--on-accent); }
+.button:hover { background: var(--accent-hover); }
+.button-secondary, .button-quiet { background: transparent; color: var(--accent-dark); }
+.button-secondary { border-color: var(--accent-dark); }
+.button-secondary:hover { background: var(--accent-pale); }
+.button-quiet { border-color: var(--line-strong); color: var(--ink-soft); }
+.button-quiet:hover { background: var(--surface-muted); color: var(--ink); }
+.button:disabled { opacity: 0.65; }
+.danger-panel { border-color: var(--danger); }
+.button-danger { background: var(--danger); border-color: var(--danger); color: var(--on-accent); }
+.button-danger:hover, .button-danger:focus-visible { background: var(--danger-hover); border-color: var(--danger-hover); }
+
+/* Override legacy white field fills, not layout or native control behavior.
+   :is specificity covers the existing per-form select/textarea rules. */
+html :is(input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="submit"]):not([type="button"]), select, textarea) {
+  background: var(--surface-muted);
+  border-color: var(--line-strong);
+  color: var(--ink);
+  caret-color: var(--accent);
+}
+
+html input:is([type="checkbox"], [type="radio"]) {
+  accent-color: var(--accent);
+  background: var(--surface-muted);
+}
+input::placeholder, textarea::placeholder { color: var(--ink-soft); opacity: 1; }
+
+/* Do not let the old form-specific outline:0 hide keyboard focus. */
+html :is(input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="submit"]):not([type="button"]), select, textarea):focus-visible,
+html input:is([type="checkbox"], [type="radio"]):focus-visible {
+  border-color: var(--accent);
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+  box-shadow: none;
+}
+
+.status-note, .context-summary { border-color: var(--line-strong); }
+.mastery-notice[role="alert"] { border-color: var(--warning); }
+.form-error, .direction-contradicts { background: var(--danger-bg); color: var(--danger); }
+.errorlist { color: var(--danger); }
+[aria-invalid="true"] { border-color: var(--danger) !important; }
+.completion-criteria li::before { border-color: var(--line-strong); }
+.assessment-answer { border-color: var(--line-strong); }
+
+/* Native dark widgets and autofill must not introduce light islands. */
+option, optgroup { background: var(--surface-muted); color: var(--ink); }
+input:autofill {
+  box-shadow: 0 0 0 100px var(--surface-muted) inset;
+  -webkit-text-fill-color: var(--ink);
+  caret-color: var(--accent);
+}
+dialog::backdrop { background: rgb(0 0 0 / 72%); }
+
+/* Let system high-contrast colors replace the brand palette. */
+@media (forced-colors: active) {
+  .button, .brand-mark, .skip-link { forced-color-adjust: auto; }
+  input:autofill { box-shadow: none; -webkit-text-fill-color: CanvasText; }
+}
