@@ -1,63 +1,55 @@
 schema_version: 1
 batch:
-  id: UXA-10
-  title: Integrated fresh-account through completed-practice acceptance
-  goal: Complete issue 124, the final UXA issue, in its own PR after PR 129 merges.
+  id: UXA-SOFTWARE-CLOSEOUT
+  title: Reconcile merged UXA evidence and hand off human retest
+  goal: Documentation and issue reconciliation only; leave human acceptance explicitly open in issue 131.
 sources:
   product: gitg-self-host
   requirements:
   - docs/plans/OWNER_UX_TEST_FEEDBACK_2026-10-07.md
-  milestone: UXA-10 / issue 124
-  baseline_commit: 23395d40e224d3883ea86a4196651c13c49ee8e5
+  milestone: Owner-authorized UXA software closeout, 12 November 2026
+  baseline_commit: b36adaddb46222f27d43cc505d774f610915b199
 dependencies:
-- PR-129-merged-and-main-tree-verified
+- UXA-01-through-10-merged
 scope:
   allowed_paths:
   - contracts/active-batch.yaml
-  - templates/growth/weekly_execution.html
-  - tests/test_uxa_integrated.py
-  - tests/e2e/test_uxa_integrated.py
   - docs/PROJECT_HANDOFF.md
-  - docs/uxa-integrated-acceptance.md
   - docs/evidence/UXA-10.md
+  - docs/evidence/UXA-SOFTWARE-CLOSEOUT.md
   - MANIFEST.tsv
   forbidden_paths:
+  - growth/**
+  - grounded_growth/**
+  - templates/**
+  - tests/**
   - data/**
   - reports/**
   - docs/authoring/**
-  - growth/services/**
-  - growth/domain/**
-  - growth/models.py
-  - growth/migrations/**
   - .github/**
   - contracts/verification.commands
 acceptance:
-- Actual fresh account, assessment, same-attempt practice, and explicit closeout browser journey at mobile and desktop widths.
-- No partial capability before assessment and no empty weekly review before a practice.
-- Native keyboard help, collapsed optional controls, labelled error recovery, responsive headings.
-- Preserve assessment meaning, exact proof, immutable replay, owner and epoch boundaries, and explicit completion credit.
+- Verified issue-to-merged-PR mapping and final integrated receipts are recorded.
+- Historical pending checkpoints cannot be mistaken for the current implementation state.
+- Human testing issue 131 remains open and unaccepted; empirical axes and specialist gaps unchanged.
+- No application, tests, scoring, storage, permissions, CI or deployment changes.
 validation:
   local:
-  - scripts/agent-verify.sh full
-  - Complete Playwright suite with retained desktop and mobile visual review
-  - Compose backup and restore in an allowed Docker runner
-  focused_tests_to_add:
-  - Four application stages with unchanged read-only state and owner boundaries.
-  - One continuous actual browser account-to-closeout journey without service shortcuts.
-  required_ci: []
-  owner_authorized_local_verification:
-    date: '2026-11-10'
-    boundary: Local verification permitted; no enforced merge rule or approval bypass.
+  - scripts/agent-verify.sh contract
+  - Exact allowlist and protected-code diff audit
+  hosted:
+  - Full quality, pytest and all readiness checks
+  - All browser journeys and retained artifact review
+  - Compose backup restore and aggregate Pilot readiness
 risk:
-  class: moderate
+  class: low
   hazards:
-  - Integrated tests must not fabricate earlier stages or infer missing evidence.
-  - Presentation gating must not hide genuine safety information or rewrite history.
+  - Administrative closure must not imply human acceptance or validation.
   stop_conditions:
-  - Protected semantics, participant data, or enforced approval change required
+  - Unexpected main or PR head drift, missing approval, or need for runtime or semantic change
 rollback:
-  strategy: Revert this acceptance layer without rewriting saved records.
+  strategy: Revert documentation only; never rewrite saved records.
 evidence:
   output:
-  - docs/evidence/UXA-10.md
-  claim_boundary: Software evidence only, not human acceptance or deployment.
+  - docs/evidence/UXA-SOFTWARE-CLOSEOUT.md
+  claim_boundary: UXA software implemented and merged; owner and specialist verification remain separate.

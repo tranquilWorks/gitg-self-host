@@ -1,5 +1,23 @@
 # Grounded Growth — Project Handoff
 
+## Current UXA state — software complete; human retest pending (12 November 2026)
+
+All UXA-01–10 implementation is merged through PR #130, normal merge
+`b36adaddb46222f27d43cc505d774f610915b199`, verified application tree
+`0b041a5dddbe3d7ae591b96b7bb28ff98c5fb85b`. Final integrated evidence:
+2,070 pytest/six warnings,69 browser, all readiness/Compose/aggregate success;
+38 actual screenshot reviews. See [closeout ledger and exact receipts](evidence/UXA-SOFTWARE-CLOSEOUT.md).
+
+The owner requested administrative reconciliation of implementation issues
+#114–124 and durable final receipts. Human verification and the next owner test
+wave remain **open and unaccepted in issue #131**. Do not restart a finished UXA
+slice from the historical pending text below. Do not treat software issue closure
+as owner/specialist/participant/assistive-technology/psychometric acceptance.
+No empirical axis is closed, no deployment occurred, no later batch authorized.
+
+The following dated UXA sections are historical implementation checkpoints,
+superseded by this current state and the closeout ledger above.
+
 ## UXA-10 final integration — 10 November 2026
 
 Owner authorizes all remaining UXA. #129 (08/09) is normally merged as
