@@ -1,55 +1,56 @@
 schema_version: 1
 batch:
-  id: UXA-SOFTWARE-CLOSEOUT
-  title: Reconcile merged UXA evidence and hand off human retest
-  goal: Documentation and issue reconciliation only; leave human acceptance explicitly open in issue 131.
+  id: TRANQUILWORKS-DARK-THEME
+  title: Apply the TranquilWorks dark palette throughout the application
+  goal: Default dark presentation with consistent native fields, controls, dialogs, states and keyboard focus.
 sources:
   product: gitg-self-host
   requirements:
-  - docs/plans/OWNER_UX_TEST_FEEDBACK_2026-10-07.md
-  milestone: Owner-authorized UXA software closeout, 12 November 2026
-  baseline_commit: b36adaddb46222f27d43cc505d774f610915b199
-dependencies:
-- UXA-01-through-10-merged
+  - Owner request of 12 November 2026; use tranquilworks.dev swatches
+  baseline_commit: cc3b56a9c4662737022540c2970032c1dad8d63f
 scope:
   allowed_paths:
+  - growth/static/growth/dark_theme.css
+  - templates/base.html
+  - tests/test_dark_theme.py
+  - tests/e2e/test_dark_theme.py
   - contracts/active-batch.yaml
   - docs/PROJECT_HANDOFF.md
-  - docs/evidence/UXA-10.md
-  - docs/evidence/UXA-SOFTWARE-CLOSEOUT.md
+  - docs/evidence/DARK-THEME.md
   - MANIFEST.tsv
   forbidden_paths:
-  - growth/**
-  - grounded_growth/**
-  - templates/**
-  - tests/**
   - data/**
   - reports/**
   - docs/authoring/**
+  - growth/domain/**
+  - growth/services/**
+  - growth/models.py
+  - growth/migrations/**
+  - growth/static/growth/app.css
   - .github/**
   - contracts/verification.commands
 acceptance:
-- Verified issue-to-merged-PR mapping and final integrated receipts are recorded.
-- Historical pending checkpoints cannot be mistaken for the current implementation state.
-- Human testing issue 131 remains open and unaccepted; empirical axes and specialist gaps unchanged.
-- No application, tests, scoring, storage, permissions, CI or deployment changes.
+- Default dark shell uses exact TranquilWorks surface, foreground, amber and moss swatches.
+- Native fields, errors, warnings, destructive actions, selected answers and dialogs remain readable.
+- Keyboard focus, hidden state, forced colors, reduced motion and mobile reflow are preserved.
+- No behavioral, assessment, canonical, evidence, scoring, storage, permission, CI or deployment change.
 validation:
   local:
   - scripts/agent-verify.sh contract
-  - Exact allowlist and protected-code diff audit
+  - Focused presentation and existing shell regressions
+  - Palette contrast and stylesheet ordering tests
+  - Browser contrast, keyboard, dialog and responsive screenshot coverage
   hosted:
-  - Full quality, pytest and all readiness checks
-  - All browser journeys and retained artifact review
-  - Compose backup restore and aggregate Pilot readiness
+  - Existing repository quality, readiness, browser and Compose gates
 risk:
   class: low
   hazards:
-  - Administrative closure must not imply human acceptance or validation.
+  - Dark mode can hide field errors, selected state or keyboard focus if only background colors change.
   stop_conditions:
-  - Unexpected main or PR head drift, missing approval, or need for runtime or semantic change
+  - Unexpected main drift, new runtime behavior or semantic changes, approval or access required
 rollback:
-  strategy: Revert documentation only; never rewrite saved records.
+  strategy: Revert the shared theme layer and base metadata; no saved data changes.
 evidence:
   output:
-  - docs/evidence/UXA-SOFTWARE-CLOSEOUT.md
-  claim_boundary: UXA software implemented and merged; owner and specialist verification remain separate.
+  - docs/evidence/DARK-THEME.md
+  claim_boundary: Software styling checks are not human accessibility or participant validation.

@@ -1,5 +1,20 @@
 # Grounded Growth — Project Handoff
 
+## TranquilWorks dark theme — 12 November 2026
+
+Owner requests default dark mode matching tranquilworks.dev. Separate bounded
+presentation batch from verified main `cc3b56a9c4662737022540c2970032c1dad8d63f`
+(merged UXA software closeout #132). A final shared CSS layer supplies the live
+site's blue-black surfaces, off-white text, amber primary actions and moss links;
+native fields, errors, destructive actions, focus and modal backdrops are included.
+The existing lesson renderer source/fingerprints, canonical content, assessment,
+scoring, evidence, storage and application behavior are untouched.
+
+See [dark-theme evidence and remaining verification](evidence/DARK-THEME.md).
+Local browser launch is permission-blocked; no browser/screenshot pass is claimed.
+Human owner/copy/device/accessibility verification remains open in #131. This is
+not a deployment and does not reopen or replace the completed UXA software slices.
+
 ## Current UXA state — software complete; human retest pending (12 November 2026)
 
 All UXA-01–10 implementation is merged through PR #130, normal merge
