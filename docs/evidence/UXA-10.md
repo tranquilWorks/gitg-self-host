@@ -1,5 +1,20 @@
 # UXA-10 implementation / verification receipt
 
+## Final state — merged and main verified, 10 November 2026
+
+PR #130 normally merged as `b36adaddb46222f27d43cc505d774f610915b199`.
+Main matched reviewed tree `0b041a5dddbe3d7ae591b96b7bb28ff98c5fb85b` and
+the expected baseline/head parents. Run42862784325 attempt1 on head81803f3
+passed2,070pytest/six warnings1082.98s,69browser773.02s, all17readiness,
+Compose and aggregate. Artifact13785778551 downloaded ZIP SHA256
+`4d5bfdb866e3c401b93fbf1bc9837aeba329303328866c259f7685e454f19f3d`
+matched metadata/upload log;32new+6regression PNGs actually reviewed.
+Full final receipts/limits are in PR #130 and
+[the software closeout ledger](UXA-SOFTWARE-CLOSEOUT.md).
+Human/owner verification stays open in #131; nothing deployed or empirically
+validated. The publication-time pending/local-limit notes below are historical,
+not current blockers and never evidence of a clean local full-suite pass.
+
 ## Authorization and source boundary
 
 Owner requested all remaining UXA work on 10 November 2026. #124 is last,
